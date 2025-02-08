@@ -19,8 +19,8 @@ nl:
   copy: Kopiëren
   copied_to_clipboard: Gekopieerd!
   copy_to_clipboard: Kopiëren naar klembord
-  created: Created # example: "Created 5 mins ago"
-  create_an_account: Een account maken # login form cta
+  created: Aangemaakt # example: "Created 5 mins ago"
+  create_an_account: Maak een account # login form cta
   current_device: Huidig apparaat
   days: dagen
   delete: Verwijder
@@ -46,10 +46,10 @@ nl:
   my_playlist: Mijn afspeellijst
   new_password: Nieuw wachtwoord
   password: Wachtwoord
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Even geduld... # similar to "Fetching", but shown after a long process button click vs on page-load
   plugin_not_found: Plugin niet gevonden
   refresh_rates_hint: Leer __hier__ hoe verversingssnelheden werken
-  reset_password: Reset mijn wachtwoord
+  reset_password: Vraag nieuw wachtwoord op
   save: Opslaan
   section: Sectie
   sign_in: Inloggen # login form cta
@@ -67,20 +67,20 @@ nl:
       tagline: Accountinstellingen beheren
       email_address: Emailadres
       refer_and_earn: Verwijs en verdien
-      refer_and_earn_hint: Geeft het cadeau van TRMNL met een gepersonaliseerde coupon. Verdien per gebruik, maandelijks uitbetaald.
-      refer_and_earn_redemptions: Inwisselingen # how many times this coupon has been used
+      refer_and_earn_hint: Deel TRMNL via een gepersonaliseerde coupon. Verdien per gebruik, maandelijks uitbetaald.
+      refer_and_earn_redemptions: Aantal keer gebruikt # how many times this coupon has been used
       refer_and_earn_request_code: Vraag een code aan
       device_invoice: Apparaatfactuur
-      device_invoice_label: Download commerciële documenten voor je accountant of (vreemde) PDF-verzameling.
-      device_invoice_hint: Vind dit op je pakketvolgpagina of in de verzendbevestiging per e-mail.
+      device_invoice_label: Download commerciële documenten voor je accountant of jouw PDF-verzameling.
+      device_invoice_hint: Vind dit op je track & trace pagina of als bijlage bij de verzendbevestiging per e-mail.
       email_address_hint: Gebruikt om in te loggen bij TRMNL en systeemberichten te ontvangen.
-      first_name_hint: We gebruiken jouw naam om de TRMNL interface meer comfortabel te maken.
-      last_name_hint: We gebruiken jouw naam om de TRMNL interface meer comfortabel te maken.
+      first_name_hint: We gebruiken jouw naam om de TRMNL interface persoonlijker te maken.
+      last_name_hint: We gebruiken jouw naam om de TRMNL interface persoonlijker te maken.
       password_hint: Wordt gebruikt om jouw TRMNL account te beveiligen.
       enable_2fa: 2FA inschakelen?
       enable_2fa_hint: __Klik hier__ om OTP in te schakelen.
       disable_2fa: 2FA uitschakelen
-      disable_2fa_hint: Geef een geldige OTP en het huidige wachtwoord hierboven op om deze functie in te schakelen.
+      disable_2fa_hint: Geef een geldig OTP en het huidige wachtwoord hierboven op om deze functie in te schakelen.
       session: Sessie
       session_hint: Je bent ingelogd als %{user}
       time_zone: Tijdzone
@@ -103,8 +103,8 @@ nl:
       today: Vandaag
       yesterday: Gisteren
     health: # partial (widget)
-      bad: Plugins ondervinden problemen
-      good: Plugins zijn gezond
+      bad: Plugins hebben wat problemen
+      good: Plugins zien er goed uit
       next_steps: We informeren je als er iets verandert
     news: # partial (widget)
       title: Nieuws
@@ -125,8 +125,8 @@ nl:
       cta: Lees meer
   devices:
     edit:
-      accepts_beta_firmware: Vroege firmware-release # true/false toggle to receive new device updates before regular users
-      accepts_beta_firmware_hint: Schakel in om de nieuwste firmwareverbeteringen voor je apparaat te ontvangen voordat andere gebruikers dat doen.
+      accepts_beta_firmware: Beta firmware-release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Schakel in om de nieuwste beta firmwareverbeteringen voor je apparaat te ontvangen.
       back_to_devices: Terug naar apparaten
       battery_consumption: Batterijgebruik
       battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren.
@@ -135,27 +135,27 @@ nl:
       device_credentials: Apparaatgegevens
       device_credentials_hint: Beijk __hier__ wat je met deze gegevens kunt doen.
       device_name: Apparaatnaam
-      device_name_hint: We gebruiken dit om de TRMNL interface meer comfortabel te maken
+      device_name_hint: We gebruiken dit om de TRMNL interface persoonlijker te maken
       edit_device: Apparaat bewerken
       identify: Identificeren
       identify_device: Identificeer apparaat
       identify_device_hint: Klik op onderstaande knop om een scherm op dit apparaat te tonen om het makkelijk te identificeren.
       logs: Logboeken
-      logs_hint: Debug je apparaat en plugins met een live-feed van ruwe foutlogboeken.
+      logs_hint: Debug je apparaat en plugins met een live-feed van de foutlogboeken.
       mirror: Spiegelen
       mirror_device: Spiegel een ander apparaat
       mirror_device_hint: Geef een (deelbaar) apparaat ID op om zijn afspeellijst te spiegelen. Jouw afspeellijst wordt nog steeds getoond.
       ota_enabled: OTA-updates ingeschakeld
-      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
+      ota_enabled_hint: Installeer automatisch nieuwe firmware. Deactiveer als je je je eigen firmware wil gebruiken.
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
-      sleep_screen: Sleep Screen
+      sleep_screen: Slaapscherm
       special_function: Speciale functie
       special_function_hint: Stel een dubbelklikfunctie in voor de knop aan de achterkant van je apparaat.
       special_function_learn_more: Lees __hier__ meer over speciale functies.
       unlink: Ontkoppelen
       unlink_device: Apparaat ontkoppelen
-      unlink_device_hint: Door een TRMNL apparaat te ontkoppelen kun je het veilig verkopen of aan iemand anders geven.
+      unlink_device_hint: Door een TRMNL apparaat te ontkoppelen kun je hem veilig verkopen of aan iemand anders geven.
       visibility: Vindbaarheid
       visibility_hint: Maak jouw TRMNL apparaat spiegelbaar door onderstaande instelling aan te passen.
       your_device: Jouw TRMNL
@@ -192,14 +192,14 @@ nl:
       error: Fout bij updaten apparaat
       success: "%{device} apparaatinstellingen succesvol bijgewerkt"
   invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
+    rate_limit: Te vaak geprobeerd. Wacht even en probeer het laten nog eens
+    invoice_not_found: Factuur niet gevonden
   logs:
     index:
       title: Logboeken
       all: Alles
       device: Apparaat
-      dump: Dumpen # content
+      dump: Verwijderen # content
       id: ID
       private_plugins: Privé-plugins
       source: Bron
@@ -208,13 +208,13 @@ nl:
     form:
       back_to_plugin_settings: Terug naar plugin-installingen
       design_system: Maak gebruik van ons native ontwerp-systeem
-      design_system_docs: Documentatie van eht ontwerp-systeem
+      design_system_docs: Documentatie van het ontwerp-systeem
       dirty_confirm: Je hebt niet-opgeslagen wijzigingen. Weet je zeker dat je deze pagina wilt verlaten?
       edit_markup: Markup bewerken
       edit_markup_for_plugin: Markup voor %{plugin_setting_name} bewerken
-      edit_markup_please_save_first: Sla op voordat je de Markup bewerkt
+      edit_markup_please_save_first: Sla op voordat je de markup bewerkt
       edit_markup_without_preview: Markup bewerken (zonder voorbeeldweergave)
-      error_rendering_markup: Fout bij het weergeven van de Markup
+      error_rendering_markup: Fout bij het weergeven van de markup
       fix_indentation: Inspringing corrigeren
       live_preview: Live voorbeeld
       no_changes_to_save: Geen wijzigingen om op te slaan
@@ -231,34 +231,34 @@ nl:
       no_variables_detected: Geen variabelen gedetecteerd.
   mfa:
     disable_otp:
-      success: 2FA Disabled
-      invalid_otp: Invalid OTP
-      invalid_password: Invalid Password
-      invalid_otp_and_password: Invalid OTP and Password
+      success: 2FA uitschaekeld
+      invalid_otp: Ongeldig OTP
+      invalid_password: Ongeldig wachtwoord
+      invalid_otp_and_password: Ongeldig OTP en wachtwoord
     enable_otp:
-      input_otp: Enter OTP
-      submit: Verify and Enable
-      already_enabled: 2FA is already enabled
+      input_otp: Voer OTP in
+      submit: Verifieer en activeer
+      already_enabled: 2FA is al geactiveerd
     enable_otp_verify:
-      success: 2FA Enabled
-      error: Invalid OTP code
+      success: 2FA geactieerd
+      error: Ongeldige OTP code
     verify_otp:
-      verify: Verify
-      success: 2FA successful
-      error: Invalid OTP code
+      verify: Verifieer
+      success: 2FA succesvol
+      error: Ongeldige OTP code
   playlists:
     index:
       title: Afspeellijst
       tagline: Kies wat wordt getoond op
       add_a_group: Een groep toevoegen
       add_a_plugin: Een plugin toevoegen
-      add_first_device_cta: Begin door jouw eerste TRMNL apparaat  __toe te voegen__!
+      add_first_device_cta: Begin door jouw eerste TRMNL apparaat __toe te voegen__!
       add_to_playlist: Toevoegen aan afspeellijst
       create_first_playlist_cta: Maak jouw afspeellijst nadat je jouw eerst plugin __verbindt__!
       display_period_from: Weergeven van
       display_period_to: tot
     playlist: # partial (single item)
-      delete: Weet je zeker dat je dit item wilt verwijderen? De plugin blijft verbonden en wordt enkel niet getoond op jouw apparaat.
+      delete: Weet je zeker dat je dit item wilt verwijderen? De plugin blijft verbonden en wordt niet getoond op jouw apparaat.
       displayed_now: Nu getoond
       not_displayed_yet: Nog niet getoond
       remove_from_playlist: Verwijderen van afspeellijst
@@ -288,17 +288,17 @@ nl:
       connections: verbindingen
       edit: Bewerken
       install: Installeren
-      review_are_you_sure: Weet je het zeker? Het TRMNL-team zal het testen en eventuele vragen per e-mail sturen.
+      review_are_you_sure: Weet je het zeker? Het TRMNL-team gaat je plugin testen en kan eventueel vragen per e-mail sturen.
       submit_for_review: Indienen ter beoordeling
     new:
       title: Nieuwe plugin maken
-      tagline: Sta andere gebruikers to je plugin te installeren.
+      tagline: Sta andere gebruikers toe je plugin te installeren.
       name: Naam
       category: Categorie
       description: Beschrijving
       description_hint: Maximaal 50 tekens
       icon: Pictogram
-      icon_hint: 40px*40px aanbevolen
+      icon_hint: 40x40 px aanbevolen
       installation_url: Installatie-URL
       installation_url_hint: Lees __hier__ meer over het beheerprocess.
       installation_success_webhook_url: Webhook-URL voor succesvolle installatie
@@ -323,8 +323,8 @@ nl:
     delete: Hiermee verwijder je de instellingen van de plugin volledig. Om deze plugin simpelweg te verbergen verwijder je deze uit jouw afspeellijst.
     inactive: Inactief
     no_plugin_settings_found: Geen plugininstellingen gevonden. # empty state - should not appear
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
-    reset_credentials: "%{plugin_name} account reset successfully"
+    refreshing_now_please_wait: Plugin wordt verversd, herlaad de pagina over een paar seconden.
+    reset_credentials: "%{plugin_name} account succesvol hersteld"
     form:
       active_hint: Toon of verberg deze plugin op je apparaat
       back_to_plugin: Terug naar %{plugin}
@@ -334,7 +334,7 @@ nl:
       manage_plugin: Configureer %{plugin}
       force_refresh: Forceer verversen
       force_refresh_hint: Deze functie is alleen ontworpen voor testdoeleinden - maak er geen misbruik van.
-      force_refresh_click_here: Hier klikken
+      force_refresh_click_here: Klik hier
       force_refresh_click_here_hint: om direct een nieuw scherm te genereren
       learn_more: Kom meer te weten over deze plugin in onze kennisbank
       linked_account: Gekoppeld account
@@ -343,7 +343,7 @@ nl:
       link_oauth_hint: Voordat je verder gaat, volg het veilige authenticatieproces van %{plugin}
       multiple_instances_hint: Deze plugin ondersteunt meerdere instanties.
       name: Naam
-      name_hint: Geef het een naam om het makkelijk te herkennen in de toekomst
+      name_hint: Voer een naam in om het makkelijk te herkennen in de toekomst
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Gebruik deze om Webhook API requests te maken.
       preview: Voorbeeld - jouw apparaat zal echte data tonen
@@ -353,7 +353,7 @@ nl:
       remove_plugin: Plugin verwijderen
       remove_plugin_hint: Het verwijderen van een plugin zal deze ook uit je afspeellijst verwijderen
       synced: Gesynchroniseerd
-      visit_docs: Bekijk Docs
+      visit_docs: Bekijk docs
 
     # toast messages
     create:
@@ -361,7 +361,7 @@ nl:
       playlist: afspeellijst
     destroy:
       success: Plugin verwijderd
-    handle_canceled_consent: Consent afgewezen, probeer het nogmaals
+    handle_canceled_consent: Toestemming afgewezen, probeer het nogmaals
     update:
       success: Plugin configuratie is succesvol bijgewerkt
     add_to_playlist:
@@ -369,7 +369,7 @@ nl:
 
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: Request ontvangen, check je inbox
   upgrade:
     index:
       title: "Apparaat upgraden:"
