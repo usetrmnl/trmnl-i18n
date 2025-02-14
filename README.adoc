@@ -1,0 +1,81 @@
+:toc: macro
+:toclevels: 5
+:figure-caption!:
+
+= Trmnl I18n
+
+toc::[]
+
+== Features
+
+== Requirements
+
+. link:https://www.ruby-lang.org[Ruby].
+
+== Setup
+
+To install _with_ security, run:
+
+[source,bash]
+----
+# 💡 Skip this line if you already have the public certificate installed.
+gem cert --add <(curl --compressed --location https://alchemists.io/gems.pem)
+gem install trmnl-i18n --trust-policy HighSecurity
+----
+
+To install _without_ security, run:
+
+[source,bash]
+----
+gem install trmnl-i18n
+----
+
+You can also add the gem directly to your project:
+
+[source,bash]
+----
+bundle add trmnl-i18n
+----
+
+Once the gem is installed, you only need to require it:
+
+[source,ruby]
+----
+require "trmnl/i18n"
+----
+
+== Usage
+
+== Development
+
+To contribute, run:
+
+[source,bash]
+----
+git clone https://github.com/bkuhlmann/trmnl-i18n
+cd trmnl-i18n
+bin/setup
+----
+
+You can also use the IRB console for direct access to all objects:
+
+[source,bash]
+----
+bin/console
+----
+
+== Tests
+
+To test, run:
+
+[source,bash]
+----
+bin/rake
+----
+
+== link:https://alchemists.io/policies/security[Security]
+
+== Credits
+
+* Built with link:https://alchemists.io/projects/gemsmith[Gemsmith].
+* Engineered by link:https://alchemists.io/team/brooke_kuhlmann[Brooke Kuhlmann].
