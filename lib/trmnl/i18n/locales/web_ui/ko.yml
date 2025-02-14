@@ -28,12 +28,15 @@ ko:
   device_id: 기기 ID
   edit: 수정
   email_address: 이메일 주소
+  export: Export
   fetching: Fetching
   first_name: 이름
   forgot_password: 비밀번호를 잊어버렸어요 # login form link
   forgot_password_title: 자, 다시 갑시다 # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: 시작할께요!
   identify: 확인하기
+  import: Import
+  import_new: Import new
   integrations: Integrations
   keep_me_signed_in: 로그인 상태 유지하기
   knowledge_base: 설명서
@@ -354,6 +357,11 @@ ko:
       remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synced
       visit_docs: 문서열기
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

@@ -27,6 +27,7 @@ ja:
   developer_edition_required: この機能を有効にするには、開発者エディションが必要です。
   device_id: デバイスID
   edit: 編集
+  export: Export
   email_address: メールアドレス
   fetching: 取得中
   first_name: 名前
@@ -34,6 +35,8 @@ ja:
   forgot_password_title: さあ、再スタートです # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: 始めましょう！
   identify: 確認する
+  import: Import
+  import_new: Import new
   integrations: 連携
   keep_me_signed_in: サインイン状態を維持する
   knowledge_base: ナレッジベース
@@ -354,6 +357,11 @@ ja:
       remove_plugin_hint: プラグインを削除すると、プレイリストからも削除されます
       synced: 同期済み
       visit_docs: ドキュメントを開く
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

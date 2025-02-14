@@ -28,12 +28,15 @@ uk:
   device_id: ID пристрою
   edit: Редагувати
   email_address: Адреса електронної пошти
+  export: Export
   fetching: Fetching
   first_name: Ім'я
   forgot_password: Я забув мій пароль # login form link
   forgot_password_title: Отакої…Гайда знову # heading on /password/new
   get_started: Почнемо!
   identify: Ідентифікувати
+  import: Import
+  import_new: Import new
   integrations: Integrations
   keep_me_signed_in: Залишатись у системі
   knowledge_base: База знань
@@ -354,6 +357,11 @@ uk:
       remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synced
       visit_docs: Переглянути Документацію
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

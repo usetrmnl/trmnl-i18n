@@ -28,12 +28,15 @@ es-ES:
   device_id: Identificador de dispositivo
   edit: Opciones
   email_address: Correo electrónico
+  export: Export
   fetching: Fetching
   first_name: Nombre
   forgot_password: Olvidé mi contraseña # login form link
   forgot_password_title: Otra vez # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: ¡Empecemos!
   identify: Identificar
+  import: Import
+  import_new: Import new
   integrations: Integrations
   keep_me_signed_in: Mantenerme conectado
   knowledge_base: Base de Conocimiento
@@ -354,6 +357,11 @@ es-ES:
       remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synced
       visit_docs: Visitar Documentación
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

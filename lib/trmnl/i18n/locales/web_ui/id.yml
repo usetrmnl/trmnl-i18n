@@ -28,12 +28,15 @@ id:
   device_id: ID Perangkat
   edit: Pengaturan
   email_address: Alamat Email
+  export: Export
   fetching: Fetching
   first_name: Nama Depan
   forgot_password: Lupa kata sandi # login form link
   forgot_password_title: Atur ulang kata sandi # heading on /password/new
   get_started: Mari kita mulai!
   identify: Identifikasi
+  import: Import
+  import_new: Import new
   integrations: Integrations
   keep_me_signed_in: Biarkan saya tetap masuk
   knowledge_base: Basis pengetahuan
@@ -354,6 +357,11 @@ id:
       remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synced
       visit_docs: Kunjungi Dokumentasi
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

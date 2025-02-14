@@ -28,12 +28,15 @@ de-AT:
   device_id: Gerätekennung
   edit: Ändern
   email_address: E-Mail Adresse
+  export: Export
   fetching: Fetching
   first_name: Vorname
   forgot_password: Passwort vergessen # login form link
   forgot_password_title: Neues Passwort vergeben # heading on /password/new
   get_started: Lass uns loslegen!
   identify: Identifizieren
+  import: Import
+  import_new: Import new
   integrations: Integrations
   keep_me_signed_in: Angemeldet bleiben
   knowledge_base: Fragen und Antworten
@@ -59,6 +62,7 @@ de-AT:
   update: Aktualisieren
   view: Ansicht
   welcome: Willkommen # login form heading
+
 
   # views by resource (device, plugins, playlists, account, etc)
   account:
@@ -354,6 +358,11 @@ de-AT:
       remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synchronisiert
       visit_docs: Dokumentation anzeigen
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:
