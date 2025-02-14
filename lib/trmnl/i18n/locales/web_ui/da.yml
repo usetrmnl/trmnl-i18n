@@ -28,12 +28,15 @@ da:
   device_id: Enheds-ID
   edit: Indstillinger
   email_address: Mailadresse
+  export: Export
   fetching: Henter
   first_name: Fornavn
   forgot_password: Jeg har glemt min adgangskode
   forgot_password_title: Her går vi igen
   get_started: Lad os få dig i gang!
   identify: Identificer
+  import: Import
+  import_new: Import new
   integrations: Integrationer
   keep_me_signed_in: Hold mig logget ind
   knowledge_base: Vidensbase
@@ -354,6 +357,11 @@ da:
       remove_plugin_hint: Fjernelse af et plugin vil også fjerne det fra din playliste
       synced: Synkroniseret
       visit_docs: Besøg Docs
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast beskeder
     create:

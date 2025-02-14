@@ -28,12 +28,15 @@ nl:
   device_id: Apparaat ID
   edit: Bewerken
   email_address: Emailadres
+  export: Export
   fetching: Ophalen
   first_name: Voornaam
   forgot_password: Wachtwoord vergeten # login form link
   forgot_password_title: Hier gaan we weer # heading on /password/new
   get_started: Laten we beginnen!
   identify: Identificeren
+  import: Import
+  import_new: Import new
   integrations: Integraties
   keep_me_signed_in: Blijf ingelogd
   knowledge_base: Kennisbank
@@ -354,6 +357,11 @@ nl:
       remove_plugin_hint: Het verwijderen van een plugin zal deze ook uit je afspeellijst verwijderen
       synced: Gesynchroniseerd
       visit_docs: Bekijk docs
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

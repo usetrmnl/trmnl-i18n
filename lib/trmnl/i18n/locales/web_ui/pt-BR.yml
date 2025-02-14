@@ -28,12 +28,15 @@ pt-BR:
   device_id: ID do Dispositivo
   edit: Configurações
   email_address: E-mail
+  export: Export
   fetching: Obtendo # for asynchronous content requests; this message may appear as a placeholder text for 0-2 seconds
   first_name: Nome
   forgot_password: Esqueci minha senha # login form link
   forgot_password_title: Lá vamos nós de novo # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: Vamos começar!
   identify: Identificar
+  import: Import
+  import_new: Import new
   integrations: Integrações
   keep_me_signed_in: Manter conectado
   knowledge_base: Base de conhecimento
@@ -354,6 +357,11 @@ pt-BR:
       remove_plugin_hint: Remover um plugin também irá removê-lo de sua playlist
       synced: Sincronizado
       visit_docs: Visitar Documentação
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

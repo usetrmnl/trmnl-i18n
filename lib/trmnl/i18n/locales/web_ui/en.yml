@@ -28,12 +28,15 @@ en:
   device_id: Device ID
   edit: Settings
   email_address: Email address
+  export: Export
   fetching: Fetching # for asynchronous content requests; this message may appear as a placeholder text for 0-2 seconds
   first_name: First Name
   forgot_password: I forgot my password # login form link
   forgot_password_title: Here we go again # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: Let's get you started!
   identify: Identify
+  import: Import
+  import_new: Import new
   integrations: Integrations
   keep_me_signed_in: Keep me signed in
   knowledge_base: Knowledge base
@@ -354,6 +357,11 @@ en:
       remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synced
       visit_docs: Visit Docs
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

@@ -28,12 +28,15 @@ zh-CN:
   device_id: 设备ID
   edit: 设置
   email_address: Email
+  export: Export
   fetching: 正在获取
   first_name: 名
   forgot_password: 忘记密码 # login form link
   forgot_password_title: 重新设置密码 # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: 开始使用
   identify: 识别
+  import: Import
+  import_new: Import new
   integrations: 整合
   keep_me_signed_in: 保持登录
   knowledge_base: 说明书
@@ -354,6 +357,11 @@ zh-CN:
       remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: 已同步
       visit_docs: 查看文档
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

@@ -28,12 +28,15 @@ zh-HK:
   device_id: 裝置ID
   edit: 設定
   email_address: 電郵地址
+  export: Export
   fetching: 載入中 # for asynchronous content requests; this message may appear as a placeholder text for 0-2 seconds
   first_name: 名字
   forgot_password: 忘記密碼 # login form link
   forgot_password_title: 再次輸入 # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: 讓我們開始吧！
   identify: 識別
+  import: Import
+  import_new: Import new
   integrations: 整合
   keep_me_signed_in: 保持登入狀態
   knowledge_base: 知識庫
@@ -354,6 +357,11 @@ zh-HK:
       remove_plugin_hint: 移除外掛後，亦會從你的播放清單中移除
       synced: 已同步
       visit_docs: 前往文件
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:

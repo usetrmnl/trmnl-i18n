@@ -28,12 +28,15 @@ fr:
   device_id: ID de l'appareil
   edit: Éditer
   email_address: Adresse email
+  export: Export
   fetching: Chargement en cours
   first_name: Prénom
   forgot_password: J'ai oublié mon mot de passe # login form link
   forgot_password_title: Rebelote # heading on /password/new
   get_started: Commençons !
   identify: S'identifier
+  import: Import
+  import_new: Import new
   integrations: Intégrations
   keep_me_signed_in: Rester connecté
   knowledge_base: Base de connaissances
@@ -354,6 +357,11 @@ fr:
       remove_plugin_hint: Retirer une extension la retirera aussi de votre playlist
       synced: Synchronisé
       visit_docs: Visiter la documentation
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
 
     # toast messages
     create:
