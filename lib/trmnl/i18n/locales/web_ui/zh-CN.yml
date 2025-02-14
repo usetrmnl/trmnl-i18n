@@ -3,11 +3,11 @@ zh-CN:
   # global, logged out, and auth-related
   add: 添加
   add_new: 添加新设备
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: 登陆 # signup form cta
+  ago: 之前 # example: "Created 5 mins ago"
+  already_have_account: 登录 # signup form cta
   back: 后退
-  back_to_all_blog_posts: Back to all posts
-  blog: Blog
+  back_to_all_blog_posts: 返回首页
+  blog: 博客
   buy_now: 立即购买
   cancel: 取消
   change_password: 修改密码
@@ -16,25 +16,25 @@ zh-CN:
   close: 取消
   confirm_change_password: 确认修改密码
   confirm_password: 确认密码
-  copy: Copy
-  copied_to_clipboard: Copied!
-  copy_to_clipboard: Copy to clipboard
-  created: Created # example: "Created 5 mins ago"
+  copy: 复制
+  copied_to_clipboard: 已复制
+  copy_to_clipboard: 复制到剪贴板
+  created: 新建于 # example: "Created 5 mins ago"
   create_an_account: 创建账号 # login form cta
-  current_device: Current device
+  current_device: 当前设备
   days: 天
   delete: 删除
-  developer_edition_required: Developer edition is required to enable this feature.
+  developer_edition_required: 此功能需要升级至开发者版。
   device_id: 设备ID
   edit: 设置
   email_address: Email
-  fetching: Fetching
+  fetching: 正在获取
   first_name: 名
   forgot_password: 忘记密码 # login form link
   forgot_password_title: 重新设置密码 # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: 开始使用
   identify: 识别
-  integrations: Integrations
+  integrations: 整合
   keep_me_signed_in: 保持登录
   knowledge_base: 说明书
   last_name: 姓
@@ -43,19 +43,19 @@ zh-CN:
   log_out: 登出
   minimum_characters: 最少字符 # ex: 8 characters minimum
   mins: 分 # 'minutes' abbreviation
-  my_playlist: My Playlist
+  my_playlist: 我的播放列表
   new_password: 新密码
   password: 密码
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
-  plugin_not_found: Plugin not found
-  refresh_rates_hint: Learn how refresh rates work __here__.
+  please_wait: 请等待…… # similar to "Fetching", but shown after a long process button click vs on page-load
+  plugin_not_found: 未发现插件
+  refresh_rates_hint: 点击 __此处__ 了解刷新频次。
   reset_password: 重置密码
   save: 保存
-  section: Section
-  sign_in: 登陆 # login form cta
-  sign_up: 登出 # logged out navigation
-  something_went_wrong: Something went wrong
-  support: Support # bottom navigation tab, links to help center
+  section: 分区
+  sign_in: 登录 # login form cta
+  sign_up: 退出 # logged out navigation
+  something_went_wrong: 未知错误
+  support: 技术支持 # bottom navigation tab, links to help center
   update: 更新
   view: 查看
   welcome: 欢迎 # login form heading
@@ -66,27 +66,27 @@ zh-CN:
       title: 账号
       tagline: 修改账号设置
       email_address: Email
-      refer_and_earn: Refer and Earn
-      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
-      refer_and_earn_request_code: Request a Code
-      device_invoice: Device Invoice
-      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
-      device_invoice_hint: Find this on your package tracking page or shipment notification email.
+      refer_and_earn: 返利
+      refer_and_earn_hint: 通过个性化的优惠券赠送 TRMNL 设备。按使用次数付费，按月支付。
+      refer_and_earn_redemptions: 兑换次数 # how many times this coupon has been used
+      refer_and_earn_request_code: 生成兑换码
+      device_invoice: 设备发票
+      device_invoice_label: 下载您的商业发票或者 PDF 汇款证明。
+      device_invoice_hint: 您可以在包裹追踪页面或发货提醒的电子邮件中找到。
       email_address_hint: 用于登陆TRMNL和接收系统通知
       first_name_hint: 用于TRMNL界面
       last_name_hint: 用于TRMNL界面
       password_hint: 用于TRMNL账号登录
-      enable_2fa: Enable 2FA?
-      enable_2fa_hint: __Click here__ to enable OTP.
-      disable_2fa: Disable 2FA
-      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
+      enable_2fa: 启用双重因子认证（2FA）吗？
+      enable_2fa_hint: __点击此处__ 启用一次性口令（OTP）.
+      disable_2fa: 禁用双重因子认证（2FA）
+      disable_2fa_hint: 若需禁用此功能，请在上方提供有效的一次性口令（OTP）及当前密码。
       session: 用户
       session_hint: 当前登陆用户名：%{user}
       time_zone: 时区
       time_zone_hint: 用于自动调整刷新率与设备休眠
-      locale: Locale
-      locale_hint: What language and localization do you prefer? __Go here__.
+      locale: 本地化
+      locale_hint: 您首选的语言和本地化是？__可在此设置__。
 
     # toast messages
     update:
@@ -94,9 +94,9 @@ zh-CN:
   dashboard:
     index:
       title: 仪表盘
-      morning_salutation: Good morning
-      afternoon_salutation: Good afternoon
-      evening_salutation: Good evening
+      morning_salutation: 早上好
+      afternoon_salutation: 下午好
+      evening_salutation: 晚上好
       last_7_days: 过去7日
       last_30_days: 过去30日
       last_90_days: 过去90日
@@ -108,7 +108,7 @@ zh-CN:
       next_steps: 若有进一步变化，将通知您
     news: # partial (widget)
       title: 通知
-      cta: View All
+      cta: 全部显示
     playlists: # partial (widget)
       title: 播放列表
       cta: 修改播放列表
@@ -132,7 +132,7 @@ zh-CN:
       battery_consumption_hint: 在晚上10点到早上8点之间启用睡眠模式，节省电量并延长电池寿命。
       developer_perks: 开发者选项 # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: 下列选项需要__开发者选项__
-      device_credentials: Device Credentials
+      device_credentials: 设备密码
       device_credentials_hint: See what you can do with these credentials __here__
       device_name: 设备名称
       device_name_hint: 用于TRMNL界面
@@ -140,7 +140,7 @@ zh-CN:
       identify: 识别
       identify_device: 识别设备
       identify_device_hint: 点击以在此设备上显示识别信息
-      logs: Logs
+      logs: 日志
       logs_hint: Debug your device and plugins with a live feed of raw error logs.
       mirror: 镜像
       mirror_device: 镜像其他设备
@@ -149,7 +149,7 @@ zh-CN:
       ota_enabled_hint: 自动安装新固件。禁用以手动更新。
       sleep_mode: 睡眠模式
       sleep_mode_hint: 降低刷新率以优化焦点和电池寿命
-      sleep_screen: Sleep Screen
+      sleep_screen: 休眠屏幕
       special_function: 双击背部按键
       special_function_hint: 设置设备背部按键的双击功能
       special_function_learn_more: 点击__此处__以了解更多
@@ -192,18 +192,18 @@ zh-CN:
       error: 设备更新错误
       success: “%{device} 更新成功”
   invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
+    rate_limit: 尝试次数过多，请耐心等待之后再次尝试
+    invoice_not_found: 未找到发票
   logs:
     index:
-      title: Logs
-      all: All
-      device: Device
+      title: 日志
+      all: 全部
+      device: 设备
       dump: Dump # content
       id: ID
-      private_plugins: Private Plugins
-      source: Source
-      time: Time
+      private_plugins: 私有插件
+      source: 来源
+      time: 时间
   markups:
     form:
       back_to_plugin_settings: Back to plugin settings
