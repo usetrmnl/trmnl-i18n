@@ -1,0 +1,10 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+Bundler.require :tools
+
+require "irb"
+require "trmnl/i18n"
+
+IRB.start __FILE__

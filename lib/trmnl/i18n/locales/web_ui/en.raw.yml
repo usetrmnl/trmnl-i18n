@@ -1,0 +1,397 @@
+raw:
+
+  # global, logged out, and auth-related
+  add: add
+  add_new: add_new
+  already_have_account: already_have_account
+  ago: ago
+  back: back
+  back_to_all_blog_posts: back_to_all_blog_posts
+  blog: blog
+  buy_now: buy_now
+  cancel: cancel
+  change_password: change_password
+  charge_level: charge_level
+  charged: charged
+  close: close
+  confirm_change_password: confirm_change_password
+  confirm_password: confirm_password
+  copy: copy
+  copied_to_clipboard: copied_to_clipboard
+  copy_to_clipboard: copy_to_clipboard
+  created: created
+  create_an_account: create_an_account
+  current_device: current_device
+  days: days
+  delete: delete
+  developer_edition_required: developer_edition_required
+  device_id: device_id
+  edit: edit
+  email_address: email_address
+  export: export
+  fetching: fetching
+  first_name: first_name
+  forgot_password: forgot_password
+  forgot_password_title: forgot_password_title
+  get_started: get_started
+  identify: identify
+  import: import
+  import_new: import_new
+  integrations: integrations
+  keep_me_signed_in: keep_me_signed_in
+  knowledge_base: knowledge_base
+  last_name: last_name
+  loading: loading
+  login: login
+  log_out: log_out
+  minimum_characters: minimum_characters
+  mins: mins
+  my_playlist: my_playlist
+  new_password: new_password
+  password: password
+  please_wait: please_wait
+  plugin_not_found: plugin_not_found
+  refresh_rates_hint: refresh_rates_hint __here__.
+  reset_password: reset_password
+  save: save
+  section: section
+  sign_in: sign_in
+  sign_up: sign_up
+  something_went_wrong: something_went_wrong
+  support: support
+  update: update
+  view: view
+  welcome: welcome
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: account.index.title
+      tagline: account.index.tagline
+      email_address: account.index.email_address
+      refer_and_earn: account.index.refer_and_earn
+      refer_and_earn_hint: account.index.refer_and_earn_hint
+      refer_and_earn_redemptions: account.index.refer_and_earn_redemptions
+      refer_and_earn_request_code: account.index.refer_and_earn_request_code
+      device_invoice: account.index.device_invoice
+      device_invoice_label: account.index.device_invoice_label
+      device_invoice_hint: account.index.device_invoice_hint
+      email_address_hint: account.index.email_address_hint
+      first_name_hint: account.index.first_name_hint
+      last_name_hint: account.index.last_name_hint
+      password_hint: account.index.password_hint
+      enable_2fa: account.index.enable_2fa
+      enable_2fa_hint: account.index.enable_2fa_hint __Click here__.
+      disable_2fa: account.index.disable_2fa
+      disable_2fa_hint: account.index.disable_2fa_hint
+      session: account.index.session
+      session_hint: account.index.session_hint
+      time_zone: account.index.time_zone
+      time_zone_hint: account.index.time_zone_hint
+      locale: account.index.locale
+      locale_hint: account.index.locale_hint __Go here__.
+
+    # toast messages
+    update:
+      success: account.update.success
+  dashboard:
+    index:
+      title: dashboard.index.title
+      morning_salutation: dashboard.index.morning
+      afternoon_salutation: dashboard.index.afternoon
+      evening_salutation: dashboard.index.evening
+      last_7_days: dashboard.index.last_7_days
+      last_30_days: dashboard.index.last_30_days
+      last_90_days: dashboard.index.last_90_days
+      today: dashboard.index.today
+      yesterday: dashboard.index.yesterday
+    health: # partial (widget)
+      bad: dashboard.health.bad
+      good: dashboard.health.good
+      next_steps: dashboard.health.next_steps
+    news: # partial (widget)
+      title: dashboard.news.title
+      cta: dashboard.news.cta
+    playlists: # partial (widget)
+      title: dashboard.playlists.title
+      cta: dashboard.playlists.cta
+      pieces_of_content_displayed: dashboard.playlists.pieces_of_content_displayed
+    plugins: # partial (widget)
+      title: dashboard.plugins.title
+      cta: dashboard.plugins.cta
+      connected: dashboard.plugins.connected
+      new_and_popular: dashboard.plugins.new_and_popular
+    shop:
+      title: dashboard.shop.title
+    time_saved: # partial (widget)
+      title: dashboard.time_saved.title
+      cta: dashboard.time_saved.cta
+  devices:
+    edit:
+      accepts_beta_firmware: devices.edit.accepts_beta_firmware
+      accepts_beta_firmware_hint: devices.edit.accepts_beta_firmware_hint
+      back_to_devices: devices.edit.back_to_devices
+      battery_consumption: devices.edit.battery_consumption
+      battery_consumption_hint: devices.edit.battery_consumption_hint
+      developer_perks: devices.edit.developer_perks
+      developer_perks_hint: devices.edit.developer_perks_hint
+      device_credentials: devices.edit.device_credentials
+      device_credentials_hint: device_credentials_hint __here__
+      device_name: devices.edit.device_name
+      device_name_hint: devices.edit.device_name_hint
+      edit_device: devices.edit.edit_device
+      identify: devices.edit.identify
+      identify_device: devices.edit.identify_device
+      identify_device_hint: devices.edit.identify_device_hint
+      logs: devices.edit.logs
+      logs_hint: devices.edit.logs_hint
+      mirror: devices.edit.mirror
+      mirror_device: devices.edit.mirror_device
+      mirror_device_hint: devices.edit.mirror_device_hint
+      ota_enabled: devices.edit.ota_enabled
+      ota_enabled_hint: devices.edit.ota_enabled_hint
+      sleep_mode: devices.edit.sleep_mode
+      sleep_mode_hint: devices.edit.sleep_mode_hint
+      sleep_screen: devices.edit.sleep_screen
+      special_function: devices.edit.special_function
+      special_function_hint: devices.edit.special_function_hint
+      special_function_learn_more: devices.edit.special_function_learn_more
+      unlink: devices.edit.unlink
+      unlink_device: devices.edit.unlink_device
+      unlink_device_hint: devices.edit.unlink_device_hint
+      visibility: devices.edit.visibility
+      visibility_hint: devices.edit.visibility_hint
+      your_device: devices.edit.your_device
+    index:
+      title: devices.index.title
+      tagline: devices.index.tagline
+      add_device_modal_title: devices.index.add_device_modal_title
+      add_first_device: devices.index.add_first_device
+    new:
+      title: devices.new.title
+      description: devices.new.description
+      add_device: devices.new.add_device
+
+    # toast messages
+    associate:
+      error: devices.associate.error
+      success: devices.associate.success
+    dissociate:
+      error: devices.dissociate.error
+      success: devices.dissociate.success
+    identify:
+      error: devices.identify.error
+      success: devices.identify.success
+    mirror:
+      error: devices.mirror.error
+      error_not_shared: devices.mirror.error_not_shared
+      error_oneself: devices.mirror.error_oneself
+      success: devices.mirror.success
+      success_removed: devices.mirror.success_removed
+    switch:
+      error: devices.switch.error
+      success: devices.switch.success
+    update:
+      error: devices.update.error
+      success: devices.update.success
+  invoices:
+    rate_limit: invoices.rate_limit
+    invoice_not_found: invoices.invoice_not_found
+  logs:
+    index:
+      title: logs.index.title
+      all: logs.index.all
+      device: logs.index.device
+      dump: logs.index.dump
+      id: logs.index.id
+      private_plugins: logs.index.private_plugins
+      source: logs.index.source
+      time: logs.index.time
+  markups:
+    form:
+      back_to_plugin_settings: markups.form.back_to_plugin_settings
+      design_system: markups.form.design_system
+      design_system_docs: markups.form.design_system_docs
+      dirty_confirm: markups.form.dirty_confirm
+      edit_markup: markups.form.edit_markup
+      edit_markup_for_plugin: markups.form.edit_markup_for_plugin
+      edit_markup_please_save_first: markups.form.edit_markup_please_save_first
+      edit_markup_without_preview: markups.form.edit_markup_without_preview
+      error_rendering_markup: markups.form.error_rendering_markup
+      fix_indentation: markups.form.fix_indentation
+      live_preview: markups.form.live_preview
+      no_changes_to_save: markups.form.no_changes_to_save
+      quickstart_examples: markups.form.quickstart_examples
+      quickstart_example_applied: markups.form.quickstart_example_applied
+      quickstart_use_this_example: markups.form.quickstart_use_this_example
+      revert: markups.form.revert
+      revert_confirm: markups.form.revert_confirm
+      save_changes: markups.form.save_changes
+    merge_variables:
+      your_variables: markups.merge_variables.your_variables
+    no_merge_variables:
+      force_refresh: markups.no_merge_variables.force_refresh
+      no_variables_detected: markups.no_merge_variables.no_variables_detected __force refresh__.
+  mfa:
+    disable_otp:
+      success: mfa.disable_otp.success
+      invalid_otp: mfa.disable_otp.invalid_otp
+      invalid_password: mfa.disable_otp.invalid_password
+      invalid_otp_and_password: mfa.disable_otp.invalid_otp_and_password
+    enable_otp:
+      input_otp: mfa.enable_otp.input_otp
+      submit: mfa.enable_otp.submit
+      already_enabled: mfa.enable_otp.already_enabled
+    enable_otp_verify:
+      success: mfa.enable_otp_verify.success
+      error: mfa.enable_otp_verify.error
+    verify_otp:
+      verify: mfa.verify_otp.verify
+      success: mfa.verify_otp.success
+      error: mfa.verify_otp.error
+  playlists:
+    index:
+      title: playlists.index.title
+      tagline: playlists.index.tagline
+      add_a_group: add_a_group
+      add_a_plugin: add_a_plugin
+      add_first_device_cta: playlists.index.add_first_device_cta
+      add_to_playlist: playlists.index.add_to_playlist
+      create_first_playlist_cta: playlists.index.create_first_playlist_cta
+      display_period_from: display_period_from
+      display_period_to: display_period_to
+    playlist: # partial (single item)
+      delete: playlists.playlist.delete
+      displayed_now: playlists.playlist.displayed_now
+      not_displayed_yet: playlists.playlist.not_displayed_yet
+      remove_from_playlist: playlists.playlist.remove_from_playlist
+
+    # toast messages
+    create:
+      error: playlists.create.error
+      success: playlists.create.success
+    destroy:
+      error: playlists.destroy.error
+      success: playlists.destroy.success
+    update:
+      success: playlists.update.success
+  plugins:
+    index:
+      title: plugins.index.title
+      tagline: plugins.index.tagline
+      available: plugins.index.available
+      connected: plugins.index.connected
+      recipes: recipes
+      recipes_hint: recipes_hint. __Learn more__.
+    search: # partial (search box)
+      placeholder: plugins.search.placeholder
+    my:
+      title: plugins.my.title
+      tagline: plugins.my.tagline
+      connections: plugins.my.connections
+      edit: plugins.my.edit
+      install: plugins.my.install
+      review_are_you_sure: plugins.my.review_are_you_sure
+      submit_for_review: plugins.my.submit_for_review
+    new:
+      title: plugins.new.title
+      tagline: plugins.new.tagline
+      name: plugins.new.name
+      category: plugins.new.category
+      description: plugins.new.description
+      description_hint: plugins.new.description_hint
+      icon: plugins.new.icon
+      icon_hint: plugins.new.icon_hint
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: This setting allows you to remove the outermost padding and use fullscreen mode.
+      installation_url: plugins.new.installation_url
+      installation_url_hint: plugins.new.installation_url_hint __here__.
+      installation_success_webhook_url: plugins.new.installation_success_webhook_url
+      knowledge_base_url: plugins.new.knowledge_base_url
+      management_url:  plugins.new.management_url
+      management_url_hint:  plugins.new.management_url_hint __here__.
+      markup_url: plugins.new.markup_url
+      markup_url_hint:  plugins.new.markup_url_hint __here__.
+      uninstallation_webhook_url: plugins.new.uninstallation_webhook_url
+    edit:
+      title: plugins.edit.title
+      tagline: plugins.edit.tagline
+      name: plugins.edit.name
+      description: plugins.edit.description
+  plugin_recipes:
+    index:
+      title: Community Recipe
+      tagline: Installable Recipe Shared by Community
+    connected: plugin_recipes.connected
+    new:
+      error: plugin_recipes.new.error
+  plugin_settings:
+    active: plugin_settings.active
+    copy_are_you_sure: plugin_settings.copy_are_you_sure
+    delete_are_you_sure: plugin_settings.delete_are_you_sure
+    delete: plugin_settings.delete
+    inactive: plugin_settings.inactive
+    no_plugin_settings_found: plugin_settings.no_plugin_settings_found
+    refreshing_now_please_wait: plugin_settings.refreshing_now_please_wait
+    reset_credentials: "%{plugin_name} account reset successfully"
+    form:
+      active_hint: plugin_settings.form.active_hint
+      back_to_plugin: plugin_settings.form.back_to_plugin
+      back_to_plugins: plugin_settings.form.back_to_plugins
+      connect_with: plugin_settings.form.connect_with
+      disconnect_account: plugin_settings.form.disconnect_account
+      manage_plugin: plugin_settings.form.manage_plugin
+      force_refresh: plugin_settings.form.force_refresh
+      force_refresh_hint: plugin_settings.form.force_refresh_hint
+      force_refresh_click_here: plugin_settings.form.force_refresh_click_here
+      force_refresh_click_here_hint: plugin_settings.form.force_refresh_click_here_hint
+      learn_more: plugin_settings.form.learn_more
+      linked_account: linked_account
+      linked_account_success: plugin_settings.form.linked_account_success
+      link_oauth: plugin_settings.form.link_oauth
+      link_oauth_hint: plugin_settings.form.link_oauth_hint
+      multiple_instances_hint: plugin_settings.form.multiple_instances_hint
+      name: plugin_settings.form.name
+      name_hint: plugin_settings.form.name_hint
+      plugin_uuid: plugin_settings.form.plugin_uuid
+      plugin_uuid_hint: plugin_settings.form.plugin_uuid_hint
+      preview: plugin_settings.form.preview
+      refresh_rate: plugin_settings.form.refresh_rate
+      refresh_rate_hint: plugin_settings.form.refresh_rate_hint
+      refreshed: plugin_settings.form.refreshed
+      remove_plugin: plugin_settings.form.remove_plugin
+      remove_plugin_hint: remove_plugin_hint
+      synced: plugin_settings.form.synced
+      visit_docs: plugin_settings.form.visit_docs
+    import:
+      archive_too_large: plugin_settings.import.archive_too_large
+      missing_entry: plugin_settings.import.missing_entry
+      entry_too_large: plugin_settings.import.entry_too_large
+      malformed: plugin_settings.import.malformed
+
+    # toast messages
+    create:
+      success: plugin_settings.create.success
+      playlist: plugin_settings.create.playlist
+    destroy:
+      success: plugin_settings.destroy.success
+    handle_canceled_consent: plugin_settings.handle_canceled_consent
+    update:
+      success: plugin_settings.update.success
+    add_to_playlist:
+      success: plugin_settings.add_to_playlist.success
+
+  referral_code:
+    create:
+      request_received: referral_code.create.request_received
+  upgrade:
+    index:
+      title: upgrade.index.title
+      tagline: upgrade.index.tagline
+      pay: upgrade.index.pay
+      error: upgrade.index.error
+
+    # toast messages
+    confirm:
+      success: upgrade.confirm.success
+

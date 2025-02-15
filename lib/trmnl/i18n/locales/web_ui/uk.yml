@@ -1,0 +1,390 @@
+uk:
+
+  # global, logged out, and auth-related
+  add: Додати
+  add_new: Додати новий
+  ago: ago # example: "Created 5 mins ago"
+  already_have_account: У мене вже є акаунт # signup form cta
+  back: Назад
+  back_to_all_blog_posts: Back to all posts
+  blog: Blog
+  buy_now: Придбати зараз
+  cancel: Скасувати
+  change_password: Змінити пароль
+  charge_level: Рівень заряду
+  charged: заряджено
+  close: Закрити
+  confirm_change_password: Змінити мій пароль
+  confirm_password: Новий пароль (повторно)
+  copy: Copy
+  copied_to_clipboard: Copied!
+  copy_to_clipboard: Copy to clipboard
+  created: Created # example: "Created 5 mins ago"
+  create_an_account: Створити акаунт # login form cta
+  current_device: Current device
+  days: днів # TODO: Check if the declension is correct
+  delete: Видалити
+  developer_edition_required: Developer edition is required to enable this feature.
+  device_id: ID пристрою
+  edit: Редагувати
+  email_address: Адреса електронної пошти
+  export: Export
+  fetching: Fetching
+  first_name: Ім'я
+  forgot_password: Я забув мій пароль # login form link
+  forgot_password_title: Отакої…Гайда знову # heading on /password/new
+  get_started: Почнемо!
+  identify: Ідентифікувати
+  import: Import
+  import_new: Import new
+  integrations: Integrations
+  keep_me_signed_in: Залишатись у системі
+  knowledge_base: База знань
+  last_name: Прізвище
+  loading: Loading
+  login: Вхід # TODO: Check context, maybe be "Увійти" або "Логін"?
+  log_out: Вийти
+  minimum_characters: мінімум символів # ex: 8 characters minimum
+  mins: хв # 'minutes' abbreviation
+  my_playlist: My Playlist
+  new_password: Новий пароль
+  password: Пароль
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  plugin_not_found: Plugin not found
+  refresh_rates_hint: Learn how refresh rates work __here__.
+  reset_password: Скинути мій пароль
+  save: Зберегти
+  section: Section
+  sign_in: Увійти # login form cta # TODO: Check the context
+  sign_up: Реєстрація # logged out navigation
+  something_went_wrong: Something went wrong
+  support: Support # bottom navigation tab, links to help center
+  update: Оновити
+  view: Переглянути
+  welcome: Ласкаво просимо # login form heading
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: Акаунт
+      tagline: Налаштування аккаунту
+      email_address: Єлектронна пошта
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
+      email_address_hint: Використовується для входу в TRMNL та для отримання системних повідомлень.
+      first_name_hint: Ми використовуємо ваше ім'я, щоб зробити інтерфейс TRMNL більш зручним.
+      last_name_hint: Ми використовуємо ваше прізвище, щоб зробити інтерфейс TRMNL більш зручним.
+      password_hint: Використовується для захисту вашого акаунту TRMNL.
+      enable_2fa: Enable 2FA?
+      enable_2fa_hint: __Click here__ to enable OTP.
+      disable_2fa: Disable 2FA
+      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
+      session: Сесія
+      session_hint: Ви увійшли як %{user}
+      time_zone: Часовий пояс
+      time_zone_hint: Визначає частоту оновлення та розклад сну пристрою.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
+
+    # toast messages
+    update:
+      success: Профіль успішно оновлено
+  dashboard:
+    index:
+      title: Панель управління
+      morning_salutation: Good morning
+      afternoon_salutation: Good afternoon
+      evening_salutation: Good evening
+      last_7_days: Останні 7 днів
+      last_30_days: Останні 30 днів
+      last_90_days: Останні 90 днів
+      today: Сьогодні
+      yesterday: Вчора
+    health: # partial (widget)
+      bad: У роботі плагінів виникли неполадки
+      good: Плагіни в нормі
+      next_steps: Ми повідомимо вас, якщо щось зміниться
+    news: # partial (widget)
+      title: Новини
+      cta: View All
+    playlists: # partial (widget)
+      title: Плейлисти
+      cta: Перейти до плейлистів
+      pieces_of_content_displayed: Кількість відображуваних елементів
+    plugins: # partial (widget)
+      title: Плагіни
+      cta: Перейти до плагінів
+      connected: Підключено
+      new_and_popular: Нові та популярні
+    shop:
+      title: Shop
+    time_saved: # partial (widget)
+      title: Зекономлений час
+      cta: Читати далі
+  devices:
+    edit:
+      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
+      back_to_devices: Назад до пристроїв
+      battery_consumption: Споживання батареї
+      battery_consumption_hint: Заощаджуйте енергію та насолоджуйтесь тривалим часом роботи батареї, увімкнувши Режим сну.
+      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Options below require the __Developer add-on__.
+      device_credentials: Device Credentials
+      device_credentials_hint: See what you can do with these credentials __here__
+      device_name: Назва пристрою
+      device_name_hint: Ми використовуємо імʼя пристрою, щоб зробити інтерфейс TRMNL більш зручним
+      edit_device: Змінити налаштування пристрою
+      identify: Ідентифікувати
+      identify_device: Ідентифікувати пристрій
+      identify_device_hint: Натисніть кнопку нижче, щоб показати екран на цьому пристрої, який допоможе його ідентифікувати.
+      logs: Logs
+      logs_hint: Debug your device and plugins with a live feed of raw error logs.
+      mirror: Відзеркалити
+      mirror_device: Відзеркалити інший пристрій
+      mirror_device_hint: Надайте ID пристрою з увімкненим спільним доступом, щоб дзеркалити його плейлист. Ваш плейлист також буде відображатися.
+      ota_enabled: OTA Updates Enabled
+      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
+      sleep_mode: Режим сну
+      sleep_mode_hint: Налаштуйте частоту оновлення, щоб покращити концентрацію та час роботи батареї.
+      sleep_screen: Sleep Screen
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
+      unlink: Відв'язати
+      unlink_device: Відв'язати пристрій
+      unlink_device_hint: Відв'язування пристрою TRMNL робить його безпечним для перепродажу або передачі іншій особі.
+      visibility: Спільний доступ
+      visibility_hint: Зробіть ваш пристрій TRMNL доступним для віддзеркалення, змінивши налаштування нижче.
+      your_device: Ваш TRMNL
+    index:
+      title: Пристрої
+      tagline: Ваші пристрої TRMNL
+      add_device_modal_title: Додати новий пристрій
+      add_first_device: Почніть, додавши свій перший пристрій!
+    new:
+      title: Додати новий пристрій
+      description: Введіть ваш Дружній ID, щоб додати новий пристрій TRMNL до вашого акаунту.
+      add_device: Додати новий пристрій
+
+    # toast messages
+    associate:
+      error: Помилка підключення пристрою
+      success: Пристрій успішно підключено
+    dissociate:
+      error: Помилка видалення пристрою
+      success: Пристрій успішно видалено
+    identify:
+      error: Помилка оновлення пристрою
+      success: Запит на ідентифікацію пристрою надіслано
+    mirror:
+      error: Помилка дзеркалення пристрою
+      error_not_shared: Вказаний ідентифікатор пристрою не доступний для спільного доступу
+      error_oneself: Неможливо віддзеркалити власний пристрій
+      success: Пристрій %{friendly_id} успішно віддзеркалено
+      success_removed: Mirroring Removed
+    switch:
+      error: Помилка перемикання пристрою # TODO: Check the context
+      success: Пристрій успішно перемкнено
+    update:
+      error: Помилка оновлення пристрою
+      success: "Налаштування пристрою %{device} успішно оновлено"
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
+  logs:
+    index:
+      title: Logs
+      all: All
+      device: Device
+      dump: Dump # content
+      id: ID
+      private_plugins: Private Plugins
+      source: Source
+      time: Time
+  markups:
+    form:
+      back_to_plugin_settings: Back to plugin settings
+      design_system: Leverage our native design system
+      design_system_docs: Design System Docs
+      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
+      edit_markup: Edit Markup
+      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
+      edit_markup_please_save_first: Please save before editing markup
+      edit_markup_without_preview: Edit Markup (without preview)
+      error_rendering_markup: Error rendering that markup
+      fix_indentation: Fix indentation
+      live_preview: Live Preview
+      no_changes_to_save: No changes to save
+      quickstart_examples: Quick-start Examples
+      quickstart_example_applied: Applied!
+      quickstart_use_this_example: Use this example
+      revert: Revert
+      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
+      save_changes: Save Changes (⌘﹢S)
+    merge_variables:
+      your_variables: Your variables
+    no_merge_variables:
+      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
+      no_variables_detected: No variables detected.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
+  playlists:
+    index:
+      title: Плейлист
+      tagline: Виберіть, що відображається на
+      add_a_group: Add a Group
+      add_a_plugin: Add a Plugin
+      add_first_device_cta: Почніть з __додавання__ вашого першого пристрою TRMNL!
+      add_to_playlist: Додати до плейлиста
+      create_first_playlist_cta: Створіть свій плейлист після __підключення__ вашого першого плагіна!
+      display_period_from: Display from
+      display_period_to: to
+    playlist: # partial (single item)
+      delete: Ви впевнені, що хочете видалити цей елемент? Плагін залишиться підключеним, але не відображатиметься на вашому пристрої.
+      displayed_now: Відображається зараз
+      not_displayed_yet: Ще не відображається
+      remove_from_playlist: Видалити з плейлиста
+
+    # toast messages
+    create:
+      error: Не вдалося оновити плейлист
+      success: Плейлист оновлено
+    destroy:
+      error: Помилка видалення елементу з плейлиста
+      success: Плагін видалено з плейлиста
+    update:
+      success: Порядок елементів оновлено
+  plugins:
+    index:
+      title: Плагіни
+      tagline: Що ви бажаєте додати на свій TRMNL?
+      available: Доступні
+      connected: Підключені
+      recipes: Recipes
+      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+    search: # partial (search box)
+      placeholder: Знайти плагіни
+    my:
+      title: My Plugins
+      tagline: Develop Plugins for the public marketplace
+      connections: connections
+      edit: Edit
+      install: Install
+      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+      submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Enable other user to install your plugin.
+      name: Name
+      category: Category
+      description: Description
+      description_hint: Maximum 50 characters
+      icon: Icon
+      icon_hint: 40px*40px recommended
+      installation_url: Installation URL
+      installation_url_hint: Learn more about the installation flow __here__.
+      installation_success_webhook_url: Installation Success Webhook URL
+      knowledge_base_url: Knowledge Base URL
+      management_url: Plugin Management URL
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url: Plugin Markup URL
+      markup_url_hint: Learn more about screen generation __here__.
+      uninstallation_webhook_url: Uninstallation Webhook URL
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
+  plugin_recipes:
+    new:
+      error: Recipe not found
+  plugin_settings:
+    active: Активний
+    copy_are_you_sure: Are you sure you want to copy this setting?
+    delete_are_you_sure: Are you sure you want to delete this setting?
+    delete: Це повністю видалить налаштування плагіна. Щоб просто приховати цей плагін з вашого пристрою, видаліть його з плейлиста.
+    inactive: Неактивний
+    no_plugin_settings_found: Налаштування плагінів не знайдено. # empty state - should not appear
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
+    form:
+      active_hint: Показати чи приховати цей екземпляр плагіна на вашому пристрої
+      back_to_plugin: Назад до %{plugin}
+      back_to_plugins: Назад до Плагінів
+      connect_with: Підключитися до %{plugin}
+      disconnect_account: Disconnect Account
+      manage_plugin: Configure %{plugin}
+      force_refresh: Примусове Оновлення
+      force_refresh_hint: Ця функція призначена лише для тестування - будь ласка, не зловживайте нею.
+      force_refresh_click_here: Натисніть тут
+      force_refresh_click_here_hint: щоб негайно створити новий екран # TODO: Check the context
+      learn_more: Дізнайтеся більше про цей плагін у нашій базі знань
+      linked_account: Linked Account
+      linked_account_success: Successfully linked with %{plugin_name}
+      link_oauth: Підключити обліковий запис
+      link_oauth_hint: Перед продовженням виконайте безпечний процес авторизації, наданий %{plugin}
+      multiple_instances_hint: Цей плагін підтримує кілька екземплярів.
+      name: Ім'я
+      name_hint: Дайте йому назву для зручності
+      plugin_uuid: UUID плагіна
+      plugin_uuid_hint: Використовуйте це для здійснення запитів Webhook API.
+      preview: Попередній перегляд - ваш пристрій буде показувати актуальні дані
+      refresh_rate: Частота оновлення
+      refresh_rate_hint: Оберіть, як часто цей екземпляр плагіна отримує свіжі дані
+      refreshed: Оновлено
+      remove_plugin: Remove plugin
+      remove_plugin_hint: Removing a plugin will also remove it from your playlist
+      synced: Synced
+      visit_docs: Переглянути Документацію
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
+
+    # toast messages
+    create:
+      success: Плагін створено та додано до вашого
+      playlist: плейлисту
+    destroy:
+      success: Плагін видалено
+    handle_canceled_consent: Згоду скасовано, будь ласка, спробуйте ще раз # TODO: Check the context
+    update:
+      success: Конфігурацію плагіна успішно оновлено
+    add_to_playlist:
+      success: Plugin added to Playlist
+
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and __more__.
+      pay: Pay # button text; ex "Pay $20"
+      error: Device %{device_name} is already upgraded, switch to another device
+
+    # toast messages
+    confirm:
+      success: Developer edition add-on is now enabled
