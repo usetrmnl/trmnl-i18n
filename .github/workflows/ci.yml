@@ -16,6 +16,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Git Default Branch
+        run: git config --global init.defaultBranch master
+
       - name: Ruby Setup
         uses: ruby/setup-ruby@v1
         with:
