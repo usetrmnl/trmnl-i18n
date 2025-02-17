@@ -1,0 +1,386 @@
+no:
+  # global, logged out, and auth-related
+  add: Legg til
+  add_new: Legg til ny
+  ago: siden # example: "Created 5 mins ago"
+  already_have_account: Jeg har allerede en konto
+  back: Tilbake
+  back_to_all_blog_posts: Tilbake til alle innlegg
+  blog: Blogg
+  buy_now: Kjøp nå
+  cancel: Avbryt
+  change_password: Endre passord
+  charge_level: Ladestatus
+  charged: ladet
+  close: Lukk
+  confirm_change_password: Endre mitt passord
+  confirm_password: Bekreft nytt passord
+  copy: Kopier
+  copied_to_clipboard: Kopiert!
+  copy_to_clipboard: Kopier til utklippstavle
+  created: Opprettet
+  create_an_account: Lag en konto
+  current_device: Nåværende enhet
+  days: dager
+  delete: Slett
+  developer_edition_required: Utviklerutgaven kreves for å aktivere denne funksjonen.
+  device_id: Enhets-ID
+  edit: Innstillinger
+  email_address: E-postadresse
+  export: Eksporter
+  fetching: Henter
+  first_name: Fornavn
+  forgot_password: Jeg glemte passordet mitt
+  forgot_password_title: Her går vi igjen
+  get_started: La oss komme i gang!
+  identify: Identifiser
+  import: Importer
+  import_new: Importer ny
+  integrations: Integrasjoner
+  keep_me_signed_in: Hold meg pålogget
+  knowledge_base: Kunnskapsbase
+  last_name: Etternavn
+  loading: Laster
+  login: Logg inn
+  log_out: Logg ut
+  minimum_characters: minimum antall tegn
+  mins: min
+  my_playlist: Min spilleliste
+  new_password: Nytt passord
+  password: Passord
+  please_wait: Vennligst vent...
+  plugin_not_found: Plugin ikke funnet
+  refresh_rates_hint: Lær hvordan oppdateringsfrekvenser fungerer __her__.
+  reset_password: Tilbakestill passordet mitt
+  save: Lagre
+  section: Seksjon
+  sign_in: Logg inn
+  sign_up: Registrer deg
+  something_went_wrong: Noe gikk galt
+  support: Support
+  update: Oppdater
+  view: Vis
+  welcome: Velkommen
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: Konto
+      tagline: Administrer kontoinnstillingene dine
+      email_address: E-postadresse
+      refer_and_earn: Henvis og tjen
+      refer_and_earn_hint: Gi gaven av TRMNL med en personlig kupong. Tjen per bruk, betalt månedlig.
+      refer_and_earn_redemptions: Innbyttinger
+      refer_and_earn_request_code: Be om en kode
+      device_invoice: Enhetsfaktura
+      device_invoice_label: Last ned kommersielle dokumenter for regnskapsføreren din eller til PDF-samlingen (merkelig).
+      device_invoice_hint: Finnes på sporingssiden for pakken din eller i e-posten for forsendelsesvarsel.
+      email_address_hint: Brukes for å logge inn på TRMNL og motta systemmeldinger.
+      first_name_hint: Vi bruker navnet ditt for å gjøre TRMNL-grensesnittet mer personlig.
+      last_name_hint: Vi bruker navnet ditt for å gjøre TRMNL-grensesnittet mer personlig.
+      password_hint: Brukes for å beskytte TRMNL-kontoen din.
+      enable_2fa: Aktiver 2FA?
+      enable_2fa_hint: __Klikk her__ for å aktivere OTP.
+      disable_2fa: Deaktiver 2FA
+      disable_2fa_hint: Oppgi gyldig OTP og nåværende passord ovenfor for å deaktivere denne funksjonen.
+      session: Økt
+      session_hint: Du er logget inn som %{user}
+      time_zone: Tidssone
+      time_zone_hint: Bestemmer oppdateringsfrekvenser og enhetens hviletid.
+      locale: Språk
+      locale_hint: Hvilket språk og lokalitet foretrekker du? __Gå hit__.
+
+    # toast messages
+    update:
+      success: Profil oppdatert
+
+  dashboard:
+    index:
+      title: Oversikt
+      morning_salutation: God morgen
+      afternoon_salutation: God ettermiddag
+      evening_salutation: God kveld
+      last_7_days: Siste 7 dager
+      last_30_days: Siste 30 dager
+      last_90_days: Siste 90 dager
+      today: I dag
+      yesterday: I går
+    health: # partial (widget)
+      bad: Plugins har problemer
+      good: Plugins fungerer bra
+      next_steps: Vi informerer deg hvis noe endres
+    news: # partial (widget)
+      title: Nyheter
+      cta: Vis alle
+    playlists: # partial (widget)
+      title: Spilleliste
+      cta: Rediger spilleliste
+      pieces_of_content_displayed: Antall viste innholdselementer
+    plugins: # partial (widget)
+      title: Plugins
+      cta: Gå til Plugins
+      connected: Tilkoblet
+      new_and_popular: Nye og populære
+    shop:
+      title: Butikk
+    time_saved: # partial (widget)
+      title: Tid spart
+      cta: Les om
+
+  devices:
+    edit:
+      accepts_beta_firmware: Tidlig utgivelse av fastvare
+      accepts_beta_firmware_hint: Slå på for å få de nyeste fastvareoppdateringene før andre brukere.
+      back_to_devices: Tilbake til enheter
+      battery_consumption: Batteriforbruk
+      battery_consumption_hint: Spar strøm og få lengre batterilevetid ved å aktivere dvalemodus.
+      developer_perks: Utviklerfordeler
+      developer_perks_hint: Valgene nedenfor krever __Utviklertillegget__.
+      device_credentials: Enhetslegitimasjon
+      device_credentials_hint: Se hva du kan gjøre med denne legitimasjonen __her__
+      device_name: Enhetsnavn
+      device_name_hint: Vi bruker dette for å gjøre TRMNL-grensesnittet mer brukervennlig
+      edit_device: Rediger enhet
+      identify: Identifiser
+      identify_device: Identifiser enhet
+      identify_device_hint: Klikk på knappen nedenfor for å generere en skjerm på denne enheten som hjelper med å identifisere den.
+      logs: Logger
+      logs_hint: Feilsøk enheten og plugins med en live feed av rå feillogger.
+      mirror: Speil
+      mirror_device: Speil en annen enhet
+      mirror_device_hint: Oppgi en (delbar) enhets-ID for å speile dens spilleliste. Din spilleliste vil fortsatt vises.
+      ota_enabled: OTA-oppdateringer aktivert
+      ota_enabled_hint: Installerer automatisk ny fastvare. Deaktiver for å bruke din egen fastvare.
+      sleep_mode: Dvalemodus
+      sleep_mode_hint: Juster oppdateringsfrekvensen for å optimalisere fokus og batterilevetid.
+      sleep_screen: Dvaleskjerm
+      special_function: Spesiell funksjon
+      special_function_hint: Angi en dobbeltklikk-funksjon for knappen på baksiden av enheten.
+      special_function_learn_more: Les mer om spesialfunksjoner __her__.
+      unlink: Koble fra
+      unlink_device: Koble fra enhet
+      unlink_device_hint: Å koble fra en TRMNL-enhet gjør den trygg å selge videre eller gi bort.
+      visibility: Synlighet
+      visibility_hint: Gjør TRMNL-enheten din speilbar ved å endre innstillingene nedenfor.
+      your_device: Din TRMNL
+    index:
+      title: Enheter
+      tagline: Dine TRMNL-enheter
+      add_device_modal_title: Legg til en ny enhet
+      add_first_device: Start med å legge til din første enhet!
+    new:
+      title: Legg til en ny enhet
+      description: Skriv inn din enhets-ID for å legge til en ny TRMNL-enhet til kontoen din.
+      add_device: Legg til ny enhet
+
+    # toast messages
+    associate:
+      error: Feil ved tilkobling av enhet
+      success: Enheten ble tilkoblet
+    dissociate:
+      error: Feil ved frakobling av enhet
+      success: Enheten ble frakoblet
+    identify:
+      error: Feil ved oppdatering av enhet
+      success: Forespørsel om enhetsidentifikasjon sendt
+    mirror:
+      error: Feil ved speiling av enhet
+      error_not_shared: Oppgitt enhets-ID kan ikke deles
+      error_oneself: Kan ikke speile seg selv
+      success: Enhet %{friendly_id} ble speilet
+      success_removed: Speiling fjernet
+    switch:
+      error: Feil ved bytting av enhet
+      success: Enheten ble byttet
+    update:
+      error: Feil ved oppdatering av enhet
+      success: "%{device} enhetsinnstillingene ble oppdatert"
+
+  invoices:
+    rate_limit: For mange forsøk, vennligst vent og prøv igjen
+    invoice_not_found: Faktura ikke funnet
+  logs:
+    index:
+      title: Logger
+      all: Alle
+      device: Enhet
+      dump: Dump
+      id: ID
+      private_plugins: Private plugins
+      source: Kilde
+      time: Tid
+  markups:
+    form:
+      back_to_plugin_settings: Tilbake til plugin-innstillinger
+      design_system: Dra nytte av vårt innebygde designsystem
+      design_system_docs: Dokumentasjon for designsystem
+      dirty_confirm: Du har uspurte endringer. Er du sikker på at du vil forlate denne siden?
+      edit_markup: Rediger markup
+      edit_markup_for_plugin: Rediger markup for %{plugin_setting_name}
+      edit_markup_please_save_first: Vennligst lagre før du redigerer markup
+      edit_markup_without_preview: Rediger markup (uten forhåndsvisning)
+      error_rendering_markup: Feil ved gjengivelse av markup
+      fix_indentation: Fiks innrykk
+      live_preview: Direkte forhåndsvisning
+      no_changes_to_save: Ingen endringer å lagre
+      quickstart_examples: Raskstartseksempler
+      quickstart_example_applied: Anvendt!
+      quickstart_use_this_example: Bruk dette eksempelet
+      revert: Angre
+      revert_confirm: Er du sikker på at du vil angre? Alle uspurte endringer vil gå tapt.
+      save_changes: Lagre endringer (⌘﹢S)
+    merge_variables:
+      your_variables: Dine variabler
+    no_merge_variables:
+      force_refresh: Hvis du har oppgitt variabler, men de ikke blir oppdaget, prøv en __tvinget oppdatering__.
+      no_variables_detected: Ingen variabler oppdaget.
+  mfa:
+    disable_otp:
+      success: 2FA deaktivert
+      invalid_otp: Ugyldig OTP
+      invalid_password: Ugyldig passord
+      invalid_otp_and_password: Ugyldig OTP og passord
+    enable_otp:
+      input_otp: Skriv inn OTP
+      submit: Verifiser og aktiver
+      already_enabled: 2FA er allerede aktivert
+    enable_otp_verify:
+      success: 2FA aktivert
+      error: Ugyldig OTP-kode
+    verify_otp:
+      verify: Verifiser
+      success: 2FA vellykket
+      error: Ugyldig OTP-kode
+  playlists:
+    index:
+      title: Spilleliste
+      tagline: Velg hva som vises på
+      add_a_group: Legg til en gruppe
+      add_a_plugin: Legg til en plugin
+      add_first_device_cta: Start med å __legge til__ din første TRMNL-enhet!
+      add_to_playlist: Legg til i spilleliste
+      create_first_playlist_cta: Lag spillelisten din etter å ha __koblet til__ din første plugin!
+      display_period_from: Vis fra
+      display_period_to: til
+    playlist:
+      delete: Er du sikker på at du vil fjerne dette elementet? Pluginen vil fortsatt være tilkoblet, men ikke vist på enheten din.
+      displayed_now: Vises nå
+      not_displayed_yet: Venter
+      remove_from_playlist: Fjern fra spilleliste
+
+    # toast messages
+    create:
+      error: Kunne ikke oppdatere spillelisten
+      success: Spilleliste oppdatert
+    destroy:
+      error: Feil ved fjerning av element fra spilleliste
+      success: Plugin fjernet fra spilleliste
+    update:
+      success: Rekkefølgen i spillelisten er oppdatert
+  plugins:
+    index:
+      title: Plugins
+      tagline: Hva vil du vise på din TRMNL?
+      available: Tilgjengelig
+      connected: Tilkoblet
+      recipes: Oppskrifter
+      recipes_hint: Private plugins fra fellesskapet som kan installeres med ett klikk. __Les mer__.
+    search:
+      placeholder: Søk etter plugins
+    my:
+      title: Mine plugins
+      tagline: Utvikle plugins for det offentlige markedet
+      connections: tilkoblinger
+      edit: Rediger
+      install: Installer
+      review_are_you_sure: Er du sikker? TRMNL-teamet vil teste den og sende deg e-post med spørsmål.
+      submit_for_review: Send inn for vurdering
+    new:
+      title: Lag ny plugin
+      tagline: Andre brukere vil kunne installere din plugin.
+      name: Navn
+      category: Kategori
+      description: Beskrivelse
+      description_hint: Maksimum 50 tegn
+      icon: Ikon
+      icon_hint: 40px*40px anbefalt
+      installation_url: Installasjons-URL
+      installation_url_hint: Les mer om installasjonsflyten __her__.
+      installation_success_webhook_url: Webhook-URL for installasjonssuksess
+      knowledge_base_url: Kunnskapsbase-URL
+      management_url: Plugin-administrasjons-URL
+      management_url_hint: Les mer om administrasjonsflyten __her__.
+      markup_url: Plugin Markup-URL
+      markup_url_hint: Les mer om skjermgenerering __her__.
+      uninstallation_webhook_url: Webhook-URL for avinstallasjon
+    edit:
+      title: Rediger plugin
+      tagline: Oppdater detaljene for din plugin.
+      name: Navn
+      description: Beskrivelse
+  plugin_recipes:
+    new:
+      error: Oppskrift ikke funnet
+  plugin_settings:
+    active: Aktiv
+    copy_are_you_sure: Er du sikker på at du vil kopiere denne innstillingen?
+    delete_are_you_sure: Er du sikker på at du vil slette denne innstillingen?
+    delete: Dette vil fullstendig fjerne plugin-innstillingene. For kun å skjule pluginen fra enheten din, fjern den fra spillelisten i stedet.
+    inactive: Inaktiv
+    no_plugin_settings_found: Ingen plugin-innstillinger funnet.
+    refreshing_now_please_wait: Oppdaterer nå, last siden på nytt om noen sekunder.
+    reset_credentials: "%{plugin_name} konto ble tilbakestilt"
+    form:
+      active_hint: Vis eller skjul denne plugin-instansen på enheten din
+      back_to_plugin: Tilbake til %{plugin}
+      back_to_plugins: Tilbake til plugins
+      connect_with: Koble til %{plugin}
+      disconnect_account: Koble fra konto
+      manage_plugin: Konfigurer %{plugin}
+      force_refresh: Tving oppdatering
+      force_refresh_hint: Denne funksjonen er kun designet for testing - vennligst ikke misbruk den.
+      force_refresh_click_here: Klikk her
+      force_refresh_click_here_hint: for å generere en ny skjerm umiddelbart
+      learn_more: Les om denne pluginen i vår kunnskapsbase
+      linked_account: Koblet konto
+      linked_account_success: Koblet til %{plugin_name} med hell
+      link_oauth: Koble konto
+      link_oauth_hint: Før du fortsetter, følg den sikre autorisasjonsprosessen gitt av %{plugin}
+      multiple_instances_hint: Denne pluginen støtter flere instanser.
+      name: Navn
+      name_hint: Gi den et navn for enkel referanse
+      plugin_uuid: Plugin UUID
+      plugin_uuid_hint: Bruk dette for å gjøre Webhook API-forespørsler.
+      preview: Forhåndsvisning - enheten din vil vise faktiske data
+      refresh_rate: Oppdateringsfrekvens
+      refresh_rate_hint: Definer hvor ofte denne plugin-instansen henter nye data
+      refreshed: Oppdatert
+      remove_plugin: Fjern plugin
+      remove_plugin_hint: Fjerning av en plugin vil også fjerne den fra spillelisten din
+      synced: Synkronisert
+      visit_docs: Besøk dokumentasjonen
+    # toast messages
+    create:
+      success: Plugin opprettet og lagt til din
+      playlist: spilleliste
+    destroy:
+      success: Plugin slettet
+    handle_canceled_consent: Samtykke avbrutt, vennligst prøv igjen
+    update:
+      success: Plugin-konfigurasjonen ble oppdatert
+    add_to_playlist:
+      success: Plugin lagt til i spilleliste
+
+  referral_code:
+    create:
+      request_received: Forespørsel mottatt, sjekk innboksen din
+  upgrade:
+    index:
+      title: "Oppgraderer enhet:"
+      tagline: Lås opp egendefinerte plugins og __mer__.
+      pay: Betal
+      error: Enheten %{device_name} er allerede oppgradert, bytt til en annen enhet
+
+    # toast messages
+    confirm:
+      success: Utviklerutgave-tillegget er nå aktivert
