@@ -1,4 +1,5 @@
 no:
+
   # global, logged out, and auth-related
   add: Legg til
   add_new: Legg til ny
@@ -359,6 +360,12 @@ no:
       remove_plugin_hint: Fjerning av en plugin vil også fjerne den fra spillelisten din
       synced: Synkronisert
       visit_docs: Besøk dokumentasjonen
+    import:
+      archive_too_large: "ZIP-filen er for stor (maksimum %{max_mb} MB)"
+      missing_entry: "ZIP-filen inneholder ikke %{filename}"
+      entry_too_large: "%{filename} er for stor"
+      malformed: "%{filename} er feilformatert"
+
     # toast messages
     create:
       success: Plugin opprettet og lagt til din
