@@ -1,0 +1,390 @@
+da:
+
+  # global, logged out, and auth-related
+  add: Tilføj
+  add_new: Tilføj ny
+  ago: siden
+  already_have_account: Jeg har allerede en konto
+  back: Tilbage
+  back_to_all_blog_posts: Tilbage til alle indlæg
+  blog: Blog
+  buy_now: Køb nu
+  cancel: Annuller
+  change_password: Skift adgangskode
+  charge_level: Opladningsniveau
+  charged: opladet
+  close: Luk
+  confirm_change_password: Bekræft ændring af adgangskode
+  confirm_password: Bekræft ny adgangskode
+  copy: Kopier
+  copied_to_clipboard: Kopieret!
+  copy_to_clipboard: Kopier til udklipsholder
+  created: Oprettet
+  create_an_account: Opret en konto
+  current_device: Nuværende enhed
+  days: dage
+  delete: Slet
+  developer_edition_required: Udviklerudgave kræves for at aktivere denne funktion.
+  device_id: Enheds-ID
+  edit: Indstillinger
+  email_address: Mailadresse
+  export: Export
+  fetching: Henter
+  first_name: Fornavn
+  forgot_password: Jeg har glemt min adgangskode
+  forgot_password_title: Her går vi igen
+  get_started: Lad os få dig i gang!
+  identify: Identificer
+  import: Import
+  import_new: Import new
+  integrations: Integrationer
+  keep_me_signed_in: Hold mig logget ind
+  knowledge_base: Vidensbase
+  last_name: Efternavn
+  loading: Indlæser
+  login: Log ind
+  log_out: Log ud
+  minimum_characters: minimum tegn
+  mins: min
+  my_playlist: Min playliste
+  new_password: Ny adgangskode
+  password: Adgangskode
+  please_wait: Vent venligst...
+  plugin_not_found: Plugin ikke fundet
+  refresh_rates_hint: Lær hvordan opdateringshastigheder fungerer __her__.
+  reset_password: Nulstil min adgangskode
+  save: Gem
+  section: Sektion
+  sign_in: Log ind
+  sign_up: Tilmeld
+  something_went_wrong: Noget gik galt
+  support: Support
+  update: Opdater
+  view: Vis
+  welcome: Velkommen
+
+
+  account:
+    index:
+      title: Konto
+      tagline: Administrer dine kontoindstillinger
+      email_address: Mailadresse
+      refer_and_earn: Henvis og tjen
+      refer_and_earn_hint: Giv gaven af TRMNL med en personlig kupon. Tjen pr. brug, betalt månedligt.
+      refer_and_earn_redemptions: Indløsninger
+      refer_and_earn_request_code: Anmod om en kode
+      device_invoice: Enhedsfaktura
+      device_invoice_label: Download kommercielle dokumenter til din revisor eller (mærkelige) PDF-samling.
+      device_invoice_hint: Find dette på din pakkesporingsside eller forsendelsesmeddelelses-e-mail.
+      email_address_hint: Used to sign into TRMNL and receive system messages.
+      first_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere behagelig.
+      last_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere behagelig.
+      password_hint: Bruges til at beskytte din TRMNL-konto.
+      enable_2fa: Aktivér 2FA?
+      enable_2fa_hint: __Klik her__ for at aktivere OTP.
+      disable_2fa: Deaktiver 2FA
+      disable_2fa_hint: Angiv gyldig OTP og nuværende adgangskode ovenfor for at deaktivere denne funktion.
+      session: Session
+      session_hint: Du er logget ind som % {user}
+      time_zone: Tidszone
+      time_zone_hint: Bestemmer opdateringshastigheder og enhedens sovetid.
+      locale: Lokalitet
+      locale_hint: Hvilket sprog og lokalisering foretrækker du? __Klik her__.
+
+    # toast messages
+    update:
+      success: Profil opdateret med succes
+  dashboard:
+    index:
+      title: Dashboard
+      morning_salutation: Godm orgen
+      afternoon_salutation: God eftermiddag
+      evening_salutation: God aften
+      last_7_days: Sidste 7 dage
+      last_30_days: Sidste 30 dage
+      last_90_days: Sidste 90 dage
+      today: I dag
+      yesterday: I går
+    health: # partial (widget)
+      bad: Plugins oplever problemer
+      good: Plugins er sunde
+      next_steps: Vi vil informere dig, hvis noget ændrer sig
+    news: # del (widget)
+      title: Nyheder
+      cta: Se alle
+    playlists: # del (widget)
+      title: Playliste
+      cta: Rediger playliste
+      pieces_of_content_displayed: Dele af indhold vist
+    plugins: # del (widget)
+      title: Plugins
+      cta: Gå til Plugins
+      connected: Forbundet
+      new_and_popular: Nye og populære
+    shop:
+      title: Butik
+    time_saved: # del (widget)
+      title: Tid sparet
+      cta: Læs om
+  devices:
+    edit:
+      accepts_beta_firmware: Firmware Tidlig Udgivelse # true/false toggle for at modtage nye enhedsopdateringer før almindelige brugere
+      accepts_beta_firmware_hint: Slå til for at få de nyeste firmwareforbedringer før andre brugere.
+      back_to_devices: Tilbage til enheder
+      battery_consumption: Batteriforbrug
+      battery_consumption_hint: Spar strøm og nyd længere batterilevetid ved at aktivere dvaletilstand.
+      developer_perks: Udviklerfordele # overskrift; nedenfor er en liste over muligheder for enheder med (betalt) udviklerudgave-tilføjelse
+      developer_perks_hint: Mulighederne nedenfor kræver __Udvikler-tilføjelse__.
+      device_credentials: Enhedsoplysninger
+      device_credentials_hint: Se hvad du kan gøre med disse oplysninger __her__
+      device_name: Enhedsnavn
+      device_name_hint: Vi bruger dette til at gøre TRMNL-grænsefladen mere behagelig
+      edit_device: Rediger enhed
+      identify: Identificer
+      identify_device: Identificer enhed
+      identify_device_hint: Klik på knappen nedenfor for at generere en skærm på denne enhed, der hjælper med at identificere den.
+      logs: Logfiler
+      logs_hint: Fejlfinding af din enhed og plugins med en live feed af rå fejl logfiler.
+      mirror: Spejl
+      mirror_device: Spejl en anden enhed
+      mirror_device_hint: Angiv et (delbart) enheds-ID for at spejle dens playliste. Din playliste vil stadig blive vist.
+      ota_enabled: OTA-opdateringer aktiveret
+      ota_enabled_hint: Installer automatisk ny firmware. Deaktiver for at bruge din egen firmware.
+      sleep_mode: Dvaletilstand
+      sleep_mode_hint: Juster din opdateringshastighed for at optimere fokus og batterilevetid.
+      sleep_screen: Sleep Screen
+      special_function: Specialfunktion
+      special_function_hint: Indstil en dobbeltklik-funktion for knappen på bagsiden af din enhed.
+      special_function_learn_more: Læs mere om specialfunktioner __her__.
+      unlink: Fjern link
+      unlink_device: Fjern link til enhed
+      unlink_device_hint: Fjern link til en TRMNL-enhed gør det sikkert at sælge eller give til en anden.
+      visibility: Synlighed
+      visibility_hint: Gør din TRMNL-enhed spejlbar ved at ændre indstillingerne nedenfor.
+      your_device: Din TRMNL
+    index:
+      title: Enheder
+      tagline: Dine TRMNL-enheder
+      add_device_modal_title: Tilføj en ny enhed
+      add_first_device: Start med at tilføje din første enhed!
+    new:
+      title: Tilføj en ny enhed
+      description: Indtast dit enheds-ID for at tilføje en ny TRMNL-enhed til din konto.
+      add_device: Tilføj ny enhed
+
+    # toast messages
+    associate:
+      error: Fejl ved tilknytning af enhed
+      success: Enhed tilknyttet med succes
+    dissociate:
+      error: Fejl ved frakobling af enhed
+      success: Enhed frakoblet med succes
+    identify:
+      error: Fejl ved opdatering af enhed
+      success: Enhedsidentifikation anmodet
+    mirror:
+      error: Fejl ved spejling af enhed
+      error_not_shared: Angivet enheds-ID er ikke delbart
+      error_oneself: Kan ikke spejle sig selv
+      success: Enhed %{friendly_id} spejlet med succes
+      success_removed: Spejling fjernet
+    switch:
+      error: Fejl ved skift af enhed
+      success: Enhed skiftet med succes
+    update:
+      error: Fejl ved opdatering af enhed
+      success: "%{device} enhedsindstillinger opdateret med succes"
+  invoices:
+    rate_limit: For mange forsøg, vent venligst og prøv igen
+    invoice_not_found: Faktura ikke fundet
+  logs:
+    index:
+      title: Logfiler
+      all: Alle
+      device: Enhed
+      dump: Dump # indhold
+      id: ID
+      private_plugins: Private Plugins
+      source: Kilde
+      time: Tid
+  markups:
+    form:
+      back_to_plugin_settings: Tilbage til plugin-indstillinger
+      design_system: Udnyt vores lokale design system
+      design_system_docs: Design System Docs
+      dirty_confirm: Du har ikke-gemte ændringer. Er du sikker på, at du vil forlade denne side?
+      edit_markup: Rediger markup
+      edit_markup_for_plugin: Rediger markup for %{plugin_setting_name}
+      edit_markup_please_save_first: Gem venligst før redigering af markup
+      edit_markup_without_preview: Rediger markup (uden forhåndsvisning)
+      error_rendering_markup: Fejl ved rendering af den markup
+      fix_indentation: Ret indrykning
+      live_preview: Live forhåndsvisning
+      no_changes_to_save: Ingen ændringer at gemme
+      quickstart_examples: Hurtigstart eksempler
+      quickstart_example_applied: Anvendt!
+      quickstart_use_this_example: Brug dette eksempel
+      revert: Gendan
+      revert_confirm: Er du sikker på, at du vil gendanne? Alle ikke-gemte ændringer vil gå tabt.
+      save_changes: Gem ændringer (⌘﹢S)
+    merge_variables:
+      your_variables: Dine variabler
+    no_merge_variables:
+      force_refresh: Hvis du har angivet variabler, men de ikke bliver registreret, prøv en __tvunget opdatering__.
+      no_variables_detected: Ingen variabler registreret.
+  mfa:
+    disable_otp:
+      success: 2FA deaktiveret
+      invalid_otp: Ugyldig OTP
+      invalid_password: Ugyldigt kodeord
+      invalid_otp_and_password: Ugyldig OTP og kodeord
+    enable_otp:
+      input_otp: Indtast OTP
+      submit: Bekræft og aktiver
+      already_enabled: 2FA er allerede aktiveret
+    enable_otp_verify:
+      success: 2FA aktiveret
+      error: Ugyldig OTP-kode
+    verify_otp:
+      verify: Bekræft
+      success: 2FA vellykket
+      error: Ugyldig OTP-kode
+  playlists:
+    index:
+      title: Playliste
+      tagline: Vælg hvad der vises på
+      add_a_group: Tilføj en gruppe
+      add_a_plugin: Tilføj et plugin
+      add_first_device_cta: Start med at __tilføje__ din første TRMNL-enhed!
+      add_to_playlist: Tilføj til playliste
+      create_first_playlist_cta: Opret din playliste efter __tilslutning__ af dit første plugin!
+      display_period_from: Vis fra
+      display_period_to: til
+    playlist: # del (enkelt element)
+      delete: Er du sikker på, at du vil fjerne dette element? Pluginet vil forblive tilsluttet, men ikke vist på din enhed.
+      displayed_now: Vist nu
+      not_displayed_yet: Afventer
+      remove_from_playlist: Fjern fra playliste
+
+    # toast messages
+    create:
+      error: Fejl ved opdatering af playliste
+      success: Playliste opdateret
+    destroy:
+      error: Fejl ved fjernelse af element fra playliste
+      success: Plugin fjernet fra playliste
+    update:
+      success: Playlistens rækkefølge opdateret
+  plugins:
+    index:
+      title: Plugins
+      tagline: Hvad vil du sætte på din TRMNL?
+      available: Tilgængelig
+      connected: Forbundet
+      recipes: Opskrifter
+      recipes_hint: Private plugins af fællesskabsmedlemmer, der kan installeres med 1 klik. __Lær mere__.
+    search: # del (søgefelt)
+      placeholder: Søg Plugins
+    my:
+      title: Mine Plugins
+      tagline: Udvikl plugins til det offentlige marked
+      connections: forbindelser
+      edit: Rediger
+      install: Installer
+      review_are_you_sure: Er du sikker? TRMNL-teamet vil teste det og sende dig eventuelle spørgsmål via e-mail.
+      submit_for_review: Indsend til gennemgang
+    new:
+      title: Opret nyt plugin
+      tagline: Andre brugere vil kunne installere dit plugin.
+      name: Navn
+      category: Kategori
+      description: Beskrivelse
+      description_hint: Maksimum 50 tegn
+      icon: Ikon
+      icon_hint: 40px*40px anbefalet
+      installation_url: Installations-URL
+      installation_url_hint: Lær mere om installationsflowet __her__.
+      installation_success_webhook_url: Installation Success Webhook URL
+      knowledge_base_url: Vidensbase-URL
+      management_url: Plugin Management URL
+      management_url_hint: Lær mere om administrationsflowet __her__.
+      markup_url: Plugin Markup URL
+      markup_url_hint: Lær mere om skærmgenerering __her__.
+      uninstallation_webhook_url: Afinstallations Webhook URL
+    edit:
+      title: Rediger plugin
+      tagline: Opdater dine plugin-detaljer.
+      name: Navn
+      description: Beskrivelse
+  plugin_recipes:
+    new:
+      error: Opskrift ikke fundet
+  plugin_settings:
+    active: Aktiv
+    copy_are_you_sure: Er du sikker på, at du vil kopiere denne indstilling?
+    delete_are_you_sure: Er du sikker på, at du vil slette denne indstilling?
+    delete: Dette vil fuldstændigt fjerne pluginets indstillinger. For blot at skjule dette plugin fra din enhed, skal du slette det fra din playliste i stedet.
+    inactive: Inaktiv
+    no_plugin_settings_found: Ingen plugin-indstillinger fundet. # tom tilstand - bør ikke vises
+    refreshing_now_please_wait: Opdaterer nu, genindlæs denne side om et par sekunder.
+    reset_credentials: "%{plugin_name} konto nulstillet med succes"
+    form:
+      active_hint: Vis eller skjul denne plugin-instans på din enhed
+      back_to_plugin: Tilbage til %{plugin}
+      back_to_plugins: Tilbage til Plugins
+      connect_with: Forbind med %{plugin}
+      disconnect_account: Afbryd konto
+      manage_plugin: Konfigurer %{plugin}
+      force_refresh: Tving opdatering
+      force_refresh_hint: Denne funktion er designet til testning kun - misbrug den venligst ikke.
+      force_refresh_click_here: Klik her
+      force_refresh_click_here_hint: for at generere en ny skærm med det samme
+      learn_more: Lær om dette plugin i vores vidensbase
+      linked_account: Tilknyttet konto
+      linked_account_success: Succesfuldt tilknyttet med %{plugin_name}
+      link_oauth: Link konto
+      link_oauth_hint: Før du fortsætter, følg den sikre autorisationsproces leveret af %{plugin}
+      multiple_instances_hint: Dette plugin understøtter flere instanser.
+      name: Navn
+      name_hint: Giv det et navn for nem reference
+      plugin_uuid: Plugin UUID
+      plugin_uuid_hint: Brug dette til at lave Webhook API-anmodninger.
+      preview: Forhåndsvisning - din enhed vil vise faktiske data
+      refresh_rate: Opdateringshastighed
+      refresh_rate_hint: Definer hvor ofte denne plugin-instans henter friske data
+      refreshed: Opdateret
+      remove_plugin: Fjern plugin
+      remove_plugin_hint: Fjernelse af et plugin vil også fjerne det fra din playliste
+      synced: Synkroniseret
+      visit_docs: Besøg Docs
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
+
+    # toast beskeder
+    create:
+      success: Plugin oprettet og tilføjet til din
+      playlist: playliste
+    destroy:
+      success: Plugin slettet
+    handle_canceled_consent: Samtykke annulleret, prøv venligst igen
+    update:
+      success: Plugin-konfiguration opdateret med succes
+    add_to_playlist:
+      success: Plugin tilføjet til playliste
+
+  referral_code:
+    create:
+      request_received: Anmodning modtaget, tjek din indbakke
+  upgrade:
+    index:
+      title: "Opgradering af enhed:"
+      tagline: Lås op for tilpassede plugins og __mere__.
+      pay: Betal # knaptekst; fx "Betal $20"
+      error: Enhed %{device_name} er allerede opgraderet, skift til en anden enhed
+
+    # toast beskeder
+    confirm:
+      success: Udviklerudgave-tilføjelse er nu aktiveret

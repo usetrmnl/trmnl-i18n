@@ -1,0 +1,390 @@
+nl:
+
+  # global, logged out, and auth-related
+  add: Toevoegen
+  add_new: Nieuwe toevoegen
+  ago: ago # example: "Created 5 mins ago"
+  already_have_account: Ik heb al een account # signup form cta
+  back: Terug
+  back_to_all_blog_posts: Terug naar alle berichten
+  blog: Blog
+  buy_now: Nu kopen
+  cancel: Annuleren
+  change_password: Wachtwoord wijzigen
+  charge_level: Laadniveau
+  charged: opgeladen
+  close: Sluiten
+  confirm_change_password: Mijn wachtwoord wijzigen
+  confirm_password: Bevestig nieuwe wachtwoord
+  copy: Kopiëren
+  copied_to_clipboard: Gekopieerd!
+  copy_to_clipboard: Kopiëren naar klembord
+  created: Aangemaakt # example: "Created 5 mins ago"
+  create_an_account: Maak een account # login form cta
+  current_device: Huidig apparaat
+  days: dagen
+  delete: Verwijder
+  developer_edition_required: Developer-editie is vereist om deze functie in the schakelen.
+  device_id: Apparaat ID
+  edit: Bewerken
+  email_address: Emailadres
+  export: Export
+  fetching: Ophalen
+  first_name: Voornaam
+  forgot_password: Wachtwoord vergeten # login form link
+  forgot_password_title: Hier gaan we weer # heading on /password/new
+  get_started: Laten we beginnen!
+  identify: Identificeren
+  import: Import
+  import_new: Import new
+  integrations: Integraties
+  keep_me_signed_in: Blijf ingelogd
+  knowledge_base: Kennisbank
+  last_name: Achternaam
+  loading: Laden
+  login: Inloggen
+  log_out: Uitloggen
+  minimum_characters: karakters minimaal # ex: 8 characters minimum
+  mins: min. # 'minutes' abbreviation
+  my_playlist: Mijn afspeellijst
+  new_password: Nieuw wachtwoord
+  password: Wachtwoord
+  please_wait: Even geduld... # similar to "Fetching", but shown after a long process button click vs on page-load
+  plugin_not_found: Plugin niet gevonden
+  refresh_rates_hint: Leer __hier__ hoe verversingssnelheden werken
+  reset_password: Vraag nieuw wachtwoord op
+  save: Opslaan
+  section: Sectie
+  sign_in: Inloggen # login form cta
+  sign_up: Registreren # logged out navigation
+  something_went_wrong: Er is iets misgegaan
+  support: Support # bottom navigation tab, links to help center
+  update: Bijwerken
+  view: Bekijk
+  welcome: Welkom # login form heading
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: Account
+      tagline: Accountinstellingen beheren
+      email_address: Emailadres
+      refer_and_earn: Verwijs en verdien
+      refer_and_earn_hint: Deel TRMNL via een gepersonaliseerde coupon. Verdien per gebruik, maandelijks uitbetaald.
+      refer_and_earn_redemptions: Aantal keer gebruikt # how many times this coupon has been used
+      refer_and_earn_request_code: Vraag een code aan
+      device_invoice: Apparaatfactuur
+      device_invoice_label: Download commerciële documenten voor je accountant of jouw PDF-verzameling.
+      device_invoice_hint: Vind dit op je track & trace pagina of als bijlage bij de verzendbevestiging per e-mail.
+      email_address_hint: Gebruikt om in te loggen bij TRMNL en systeemberichten te ontvangen.
+      first_name_hint: We gebruiken jouw naam om de TRMNL interface persoonlijker te maken.
+      last_name_hint: We gebruiken jouw naam om de TRMNL interface persoonlijker te maken.
+      password_hint: Wordt gebruikt om jouw TRMNL account te beveiligen.
+      enable_2fa: 2FA inschakelen?
+      enable_2fa_hint: __Klik hier__ om OTP in te schakelen.
+      disable_2fa: 2FA uitschakelen
+      disable_2fa_hint: Geef een geldig OTP en het huidige wachtwoord hierboven op om deze functie in te schakelen.
+      session: Sessie
+      session_hint: Je bent ingelogd als %{user}
+      time_zone: Tijdzone
+      time_zone_hint: Bepaalt de refresh rates en apparaat slaapmodus.
+      locale: Landinstelling
+      locale_hint: Welke taal en lokalisatie heeft je voorkeur? __Ga hiernaartoe__.
+
+    # toast messages
+    update:
+      success: Profiel succesvol bijgewerkt
+  dashboard:
+    index:
+      title: Dashboard
+      morning_salutation: Goedemorgen
+      afternoon_salutation: Goedemiddag
+      evening_salutation: Goedenavond
+      last_7_days: Laatste 7 dagen
+      last_30_days: Laatste 30 dagen
+      last_90_days: Laatste 90 dagen
+      today: Vandaag
+      yesterday: Gisteren
+    health: # partial (widget)
+      bad: Plugins hebben wat problemen
+      good: Plugins zien er goed uit
+      next_steps: We informeren je als er iets verandert
+    news: # partial (widget)
+      title: Nieuws
+      cta: Alles bekijken
+    playlists: # partial (widget)
+      title: Afspeellijsten
+      cta: Ga naar afspeellijsten
+      pieces_of_content_displayed: Aantal content elementen die getoond worden
+    plugins: # partial (widget)
+      title: Plugins
+      cta: Ga naar plugins
+      connected: Verbonden
+      new_and_popular: Nieuw en populair
+    shop:
+      title: Winkel
+    time_saved: # partial (widget)
+      title: Tijd bespaard
+      cta: Lees meer
+  devices:
+    edit:
+      accepts_beta_firmware: Beta firmware-release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Schakel in om de nieuwste beta firmwareverbeteringen voor je apparaat te ontvangen.
+      back_to_devices: Terug naar apparaten
+      battery_consumption: Batterijgebruik
+      battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren.
+      developer_perks: Ontwikkelaarsvoordelen # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: De onderstaande opties vereisen de __ontwikkelaars-add-on__.
+      device_credentials: Apparaatgegevens
+      device_credentials_hint: Beijk __hier__ wat je met deze gegevens kunt doen.
+      device_name: Apparaatnaam
+      device_name_hint: We gebruiken dit om de TRMNL interface persoonlijker te maken
+      edit_device: Apparaat bewerken
+      identify: Identificeren
+      identify_device: Identificeer apparaat
+      identify_device_hint: Klik op onderstaande knop om een scherm op dit apparaat te tonen om het makkelijk te identificeren.
+      logs: Logboeken
+      logs_hint: Debug je apparaat en plugins met een live-feed van de foutlogboeken.
+      mirror: Spiegelen
+      mirror_device: Spiegel een ander apparaat
+      mirror_device_hint: Geef een (deelbaar) apparaat ID op om zijn afspeellijst te spiegelen. Jouw afspeellijst wordt nog steeds getoond.
+      ota_enabled: OTA-updates ingeschakeld
+      ota_enabled_hint: Installeer automatisch nieuwe firmware. Deactiveer als je je je eigen firmware wil gebruiken.
+      sleep_mode: Slaapmodus
+      sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
+      sleep_screen: Slaapscherm
+      special_function: Speciale functie
+      special_function_hint: Stel een dubbelklikfunctie in voor de knop aan de achterkant van je apparaat.
+      special_function_learn_more: Lees __hier__ meer over speciale functies.
+      unlink: Ontkoppelen
+      unlink_device: Apparaat ontkoppelen
+      unlink_device_hint: Door een TRMNL apparaat te ontkoppelen kun je hem veilig verkopen of aan iemand anders geven.
+      visibility: Vindbaarheid
+      visibility_hint: Maak jouw TRMNL apparaat spiegelbaar door onderstaande instelling aan te passen.
+      your_device: Jouw TRMNL
+    index:
+      title: Apparaten
+      tagline: Jouw TRMNL apparaten
+      add_device_modal_title: Nieuw apparaat toevoegen
+      add_first_device: Begin door jouw eerste apparaat toe te voegen!
+    new:
+      title: Nieuw apparaat toevoegen
+      description: Voer je Apparaat ID in om een nieuw TRMNL apparaat aan je account toe te voegen.
+      add_device: Nieuw apparaat toevoegen
+
+    # toast messages
+    associate:
+      error: Fout bij koppelen apparaat
+      success: Apparaat succesvol gekoppeld
+    dissociate:
+      error: Fout bij ontkoppelen apparaat
+      success: Apparaat succesvol ontkoppeld
+    identify:
+      error: Fout bij updaten apparaat
+      success: Apparaatidentificatie aangevraagd
+    mirror:
+      error: Fout bij spiegelen apparaat
+      error_not_shared: Opgegeven aparaat ID is niet deelbaar
+      error_oneself: Kan zichzelf niet spiegelen
+      success: Apparaat %{friendly_id} succesvol gespiegeld
+      success_removed: Spiegeling verwijderd
+    switch:
+      error: Fout bij wisselen apparaat
+      success: Apparaat succesvol gewisseld
+    update:
+      error: Fout bij updaten apparaat
+      success: "%{device} apparaatinstellingen succesvol bijgewerkt"
+  invoices:
+    rate_limit: Te vaak geprobeerd. Wacht even en probeer het laten nog eens
+    invoice_not_found: Factuur niet gevonden
+  logs:
+    index:
+      title: Logboeken
+      all: Alles
+      device: Apparaat
+      dump: Verwijderen # content
+      id: ID
+      private_plugins: Privé-plugins
+      source: Bron
+      time: Tijd
+  markups:
+    form:
+      back_to_plugin_settings: Terug naar plugin-installingen
+      design_system: Maak gebruik van ons native ontwerp-systeem
+      design_system_docs: Documentatie van het ontwerp-systeem
+      dirty_confirm: Je hebt niet-opgeslagen wijzigingen. Weet je zeker dat je deze pagina wilt verlaten?
+      edit_markup: Markup bewerken
+      edit_markup_for_plugin: Markup voor %{plugin_setting_name} bewerken
+      edit_markup_please_save_first: Sla op voordat je de markup bewerkt
+      edit_markup_without_preview: Markup bewerken (zonder voorbeeldweergave)
+      error_rendering_markup: Fout bij het weergeven van de markup
+      fix_indentation: Inspringing corrigeren
+      live_preview: Live voorbeeld
+      no_changes_to_save: Geen wijzigingen om op te slaan
+      quickstart_examples: Snelstartvoorbeelden
+      quickstart_example_applied: Toegepast!
+      quickstart_use_this_example: Gebruik dit voorbeeld
+      revert: Terugzetten
+      revert_confirm: Weet je zeker dat je wilt terugzetten? All niet-opgeslagen wijzigingen gaan verloren.
+      save_changes: Wijzigingen opslaan (⌘﹢S)
+    merge_variables:
+      your_variables: Jouw variabelen
+    no_merge_variables:
+      force_refresh: Als je variabelen hebt opgegeven maar deze niet worden gedetecteerd, probeer dan een __geforceerde verversing__.
+      no_variables_detected: Geen variabelen gedetecteerd.
+  mfa:
+    disable_otp:
+      success: 2FA uitschaekeld
+      invalid_otp: Ongeldig OTP
+      invalid_password: Ongeldig wachtwoord
+      invalid_otp_and_password: Ongeldig OTP en wachtwoord
+    enable_otp:
+      input_otp: Voer OTP in
+      submit: Verifieer en activeer
+      already_enabled: 2FA is al geactiveerd
+    enable_otp_verify:
+      success: 2FA geactieerd
+      error: Ongeldige OTP code
+    verify_otp:
+      verify: Verifieer
+      success: 2FA succesvol
+      error: Ongeldige OTP code
+  playlists:
+    index:
+      title: Afspeellijst
+      tagline: Kies wat wordt getoond op
+      add_a_group: Een groep toevoegen
+      add_a_plugin: Een plugin toevoegen
+      add_first_device_cta: Begin door jouw eerste TRMNL apparaat __toe te voegen__!
+      add_to_playlist: Toevoegen aan afspeellijst
+      create_first_playlist_cta: Maak jouw afspeellijst nadat je jouw eerst plugin __verbindt__!
+      display_period_from: Weergeven van
+      display_period_to: tot
+    playlist: # partial (single item)
+      delete: Weet je zeker dat je dit item wilt verwijderen? De plugin blijft verbonden en wordt niet getoond op jouw apparaat.
+      displayed_now: Nu getoond
+      not_displayed_yet: Nog niet getoond
+      remove_from_playlist: Verwijderen van afspeellijst
+
+    # toast messages
+    create:
+      error: Bijwerken van afspeellijst is mislukt
+      success: Afspeellijst is bijgewerkt
+    destroy:
+      error: Fout bij het verwijderen van afspeellijst
+      success: Plugin verwijderd van afspeellijst
+    update:
+      success: Volgorde afspeellijst bijgewerkt
+  plugins:
+    index:
+      title: Plugins
+      tagline: Wat ga jij op jouw TRMNL zetten?
+      available: Beschikbaar
+      connected: Verbonden
+      recipes: Recepten
+      recipes_hint: Privé-plugins van communityleden die met één klik kunnen worden geïnstalleerd. __Lees meer__.
+    search: # partial (search box)
+      placeholder: Zoeken binnen plugins
+    my:
+      title: Mijn plugins
+      tagline: Ontwikkel plugins voor de openbare marktplaats
+      connections: verbindingen
+      edit: Bewerken
+      install: Installeren
+      review_are_you_sure: Weet je het zeker? Het TRMNL-team gaat je plugin testen en kan eventueel vragen per e-mail sturen.
+      submit_for_review: Indienen ter beoordeling
+    new:
+      title: Nieuwe plugin maken
+      tagline: Sta andere gebruikers toe je plugin te installeren.
+      name: Naam
+      category: Categorie
+      description: Beschrijving
+      description_hint: Maximaal 50 tekens
+      icon: Pictogram
+      icon_hint: 40x40 px aanbevolen
+      installation_url: Installatie-URL
+      installation_url_hint: Lees __hier__ meer over het beheerprocess.
+      installation_success_webhook_url: Webhook-URL voor succesvolle installatie
+      knowledge_base_url: Kennisbank-URL
+      management_url: Plugin-beheer-URL
+      management_url_hint: Lees __hier__ meer over het beheerprocess.
+      markup_url: Plugin-markup-URL
+      markup_url_hint: Lees __hier__ meer over schermgeneratie.
+      uninstallation_webhook_url: Webhook-URL voor deïnstallatie
+    edit:
+      title: Plugin bewerken
+      tagline: Werk de details van je plugin bij.
+      name: Naam
+      description: Beschrijving
+  plugin_recipes:
+    new:
+      error: Recept niet gevonden
+  plugin_settings:
+    active: Actief
+    copy_are_you_sure: Weet je zeker dat je deze instelling wilt kopiëren?
+    delete_are_you_sure: Weet je zeker dat je deze instelling wilt verwijderen?
+    delete: Hiermee verwijder je de instellingen van de plugin volledig. Om deze plugin simpelweg te verbergen verwijder je deze uit jouw afspeellijst.
+    inactive: Inactief
+    no_plugin_settings_found: Geen plugininstellingen gevonden. # empty state - should not appear
+    refreshing_now_please_wait: Plugin wordt verversd, herlaad de pagina over een paar seconden.
+    reset_credentials: "%{plugin_name} account succesvol hersteld"
+    form:
+      active_hint: Toon of verberg deze plugin op je apparaat
+      back_to_plugin: Terug naar %{plugin}
+      back_to_plugins: Terug naar plugins
+      connect_with: Verbinden met %{plugin}
+      disconnect_account: Account loskoppelen
+      manage_plugin: Configureer %{plugin}
+      force_refresh: Forceer verversen
+      force_refresh_hint: Deze functie is alleen ontworpen voor testdoeleinden - maak er geen misbruik van.
+      force_refresh_click_here: Klik hier
+      force_refresh_click_here_hint: om direct een nieuw scherm te genereren
+      learn_more: Kom meer te weten over deze plugin in onze kennisbank
+      linked_account: Gekoppeld account
+      linked_account_success: Succesvol gekoppeld met %{plugin_name}
+      link_oauth: Account koppelen
+      link_oauth_hint: Voordat je verder gaat, volg het veilige authenticatieproces van %{plugin}
+      multiple_instances_hint: Deze plugin ondersteunt meerdere instanties.
+      name: Naam
+      name_hint: Voer een naam in om het makkelijk te herkennen in de toekomst
+      plugin_uuid: Plugin UUID
+      plugin_uuid_hint: Gebruik deze om Webhook API requests te maken.
+      preview: Voorbeeld - jouw apparaat zal echte data tonen
+      refresh_rate: Verversingssnelheid
+      refresh_rate_hint: Bepaal hoe vaak deze plugin instantie verse data ophaalt
+      refreshed: Ververst
+      remove_plugin: Plugin verwijderen
+      remove_plugin_hint: Het verwijderen van een plugin zal deze ook uit je afspeellijst verwijderen
+      synced: Gesynchroniseerd
+      visit_docs: Bekijk docs
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
+
+    # toast messages
+    create:
+      success: Plugin aangemaakt en toegevoegd aan jouw
+      playlist: afspeellijst
+    destroy:
+      success: Plugin verwijderd
+    handle_canceled_consent: Toestemming afgewezen, probeer het nogmaals
+    update:
+      success: Plugin configuratie is succesvol bijgewerkt
+    add_to_playlist:
+      success: Plugin toegevoegd aan afspeellijst
+
+  referral_code:
+    create:
+      request_received: Request ontvangen, check je inbox
+  upgrade:
+    index:
+      title: "Apparaat upgraden:"
+      tagline: Ontgrendel aangepaste plugins en __meer__.
+      pay: Betalen # button text; ex "Pay $20"
+      error: Apparaat %{device_name} is al geüpgraded, wissel naar een ander apparaat
+
+    # toast messages
+    confirm:
+      success: Developer-editie add-on is nu ingeschakeld

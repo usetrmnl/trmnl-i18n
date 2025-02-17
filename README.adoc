@@ -1,0 +1,109 @@
+:toc: macro
+:toclevels: 5
+:figure-caption!:
+
+:trmnl_link: link:https://usetrmnl.com[TRMNL]
+:ror_link: link:https://rubyonrails.org[Ruby on Rails]
+:i18n_link: link:https://guides.rubyonrails.org/i18n.html[I18n]
+
+= TRMNL I18n
+
+This is the complete collection locales for {trmnl_link} internationalization.
+
+toc::[]
+
+== Features
+
+* Enhances your application with TRMNL specific localizations.
+
+== Requirements
+
+. link:https://www.ruby-lang.org[Ruby].
+. {ror_link}.
+. {trmnl_link}.
+
+== Setup
+
+To install _with_ security, run:
+
+[source,bash]
+----
+# 💡 Skip this line if you already have the public certificate installed.
+gem cert --add <(curl --compressed --location https://usetrmnl.com/gems.pem)
+gem install trmnl-i18n --trust-policy HighSecurity
+----
+
+To install _without_ security, run:
+
+[source,bash]
+----
+gem install trmnl-i18n
+----
+
+You can also add the gem directly to your project:
+
+[source,bash]
+----
+bundle add trmnl-i18n
+----
+
+Once the gem is installed, you only need to require it:
+
+[source,ruby]
+----
+require "trmnl/i18n"
+----
+
+== Usage
+
+This gem is a {ror_link} Railtie that follows {i18n_link} conventions allowing you to customize country locales. You only need to include this gem, as documented in the xref:_setup[Setup] section, to automatically load and use these locales. That's it!
+
+== Development
+
+To contribute, run:
+
+[source,bash]
+----
+git clone https://github.com/usetrmnl/trmnl-i18n
+cd trmnl-i18n
+bin/setup
+----
+
+You can also use the IRB console for direct access to all objects:
+
+[source,bash]
+----
+bin/console
+----
+
+== Tests
+
+To test, run:
+
+[source,bash]
+----
+bin/rake
+----
+
+== Contributions
+
+1. Fork this repository.
+2. Follow the link:https://github.com/usetrmnl/localizations/blob/master/GUIDE.md[guide].
+
+== Credits
+
+* *German via @ramdacxp, @philippbosch, @yannicschuller, @MaxDev98, @IngmarStein
+* *Spanish (Spain) via @joesfer, @jeff-foster
+* *French via @theogiraudet, @MarvinNTA
+* *Indonesian via @Adekabang
+* *Italian via @danieleb-podero
+* *Japanese via Hiroyuki Miyoshi, @liahsheep
+* *Korean via @i-say-young
+* *Portuguese via @danielsitnik
+* *Dutch via @huge10, @SjanPjer, @gjdenhertog
+* *Ukrainian via @veikus, @yankobogdan
+* *Chinese (Simplified) via @MarkSong535
+* *Chinese (Hong Kong) via @liahsheep
+* *Hebrew via @itay99988
+* Built with link:https://alchemists.io/projects/gemsmith[Gemsmith].
+* Engineered by link:https://usetrmnl.com[TRMNL].

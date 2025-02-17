@@ -1,0 +1,390 @@
+id:
+
+  # global, logged out, and auth-related
+  add: Tambah
+  add_new: Tambah baru
+  ago: ago # example: "Created 5 mins ago"
+  already_have_account: Saya sudah punya akun # signup form cta
+  back: Kembali
+  back_to_all_blog_posts: Back to all posts
+  blog: Blog
+  buy_now: Beli Sekarang
+  cancel: Batal
+  change_password: Ubah Kata Sandi
+  charge_level: Tingkat Pengisian
+  charged: Terisi penuh
+  close: Tutup
+  confirm_change_password: Ubah kata sandi saya
+  confirm_password: Konfirmasi kata sandi baru
+  copy: Copy
+  copied_to_clipboard: Copied!
+  copy_to_clipboard: Copy to clipboard
+  created: Created # example: "Created 5 mins ago"
+  create_an_account: Buat akun baru # login form cta
+  current_device: Current device
+  days: hari
+  delete: Hapus
+  developer_edition_required: Developer edition is required to enable this feature.
+  device_id: ID Perangkat
+  edit: Pengaturan
+  email_address: Alamat Email
+  export: Export
+  fetching: Fetching
+  first_name: Nama Depan
+  forgot_password: Lupa kata sandi # login form link
+  forgot_password_title: Atur ulang kata sandi # heading on /password/new
+  get_started: Mari kita mulai!
+  identify: Identifikasi
+  import: Import
+  import_new: Import new
+  integrations: Integrations
+  keep_me_signed_in: Biarkan saya tetap masuk
+  knowledge_base: Basis pengetahuan
+  last_name: Nama Belakang
+  loading: Loading
+  login: Masuk
+  log_out: Keluar
+  minimum_characters: karakter minimal # ex: 8 characters minimum
+  mins: menit # 'minutes' abbreviation
+  my_playlist: My Playlist
+  new_password: Kata sandi baru
+  password: Kata Sandi
+  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  plugin_not_found: Plugin not found
+  refresh_rates_hint: Learn how refresh rates work __here__.
+  reset_password: Atur Ulang Kata Sandi
+  save: Simpan
+  section: Section
+  sign_in: Masuk # login form cta
+  sign_up: Daftar # logged out navigation
+  something_went_wrong: Something went wrong
+  support: Support # bottom navigation tab, links to help center
+  update: Perbarui
+  view: Lihat
+  welcome: Selamat datang # login form heading
+
+  # views by resource (device, plugins, playlists, account, etc)
+  account:
+    index:
+      title: Akun
+      tagline: Kelola pengaturan akun Anda
+      email_address: Alamat Email
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_request_code: Request a Code
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
+      email_address_hint: Digunakan untuk masuk ke TRMNL dan menerima pesan sistem.
+      first_name_hint: Kami menggunakan nama Anda untuk membuat antarmuka TRMNL lebih nyaman.
+      last_name_hint: Kami menggunakan nama Anda untuk membuat antarmuka TRMNL lebih nyaman.
+      password_hint: Digunakan untuk melindungi akun TRMNL Anda.
+      enable_2fa: Enable 2FA?
+      enable_2fa_hint: __Click here__ to enable OTP.
+      disable_2fa: Disable 2FA
+      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
+      session: Sesi
+      session_hint: Anda sedang masuk sebagai %{user}
+      time_zone: Zona Waktu
+      time_zone_hint: Menentukan penyegaran dan waktu tidur perangkat.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
+
+    # toast messages
+    update:
+      success: Profil Anda berhasil diperbarui!
+  dashboard:
+    index:
+      title: Dasbor
+      morning_salutation: Good morning
+      afternoon_salutation: Good afternoon
+      evening_salutation: Good evening
+      last_7_days: 7 hari terakhir
+      last_30_days: 30 hari terakhir
+      last_90_days: 90 hari terakhir
+      today: Hari ini
+      yesterday: Kemarin
+    health: # partial (widget)
+      bad: Plugin mengalami kendala
+      good: Plugin berfungsi dengan baik
+      next_steps: Kami akan memberi tahu Anda jika ada perubahan
+    news: # partial (widget)
+      title: Berita
+      cta: View All
+    playlists: # partial (widget)
+      title: Daftar Putar
+      cta: Ubah Daftar Putar
+      pieces_of_content_displayed: Potongan konten yang ditampilkan
+    plugins: # partial (widget)
+      title: Plugin
+      cta: Pergi ke Plugin
+      connected: Terhubung
+      new_and_popular: Baru dan Populer
+    shop:
+      title: Shop
+    time_saved: # partial (widget)
+      title: Waktu yang dihemat
+      cta: Pelajari lebih lanjut
+  devices:
+    edit:
+      accepts_beta_firmware: Firmware tahap Beta # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware_hint: Aktifkan untuk mendapatkan pembaruan firmware perangkat terbaru sebelum pengguna lain.
+      back_to_devices: Kembali ke Perangkat
+      battery_consumption: Penggunaan Baterai
+      battery_consumption_hint: Hemat daya dan nikmati masa pakai baterai yang lebih lama dengan mengaktifkan Mode Tidur.
+      developer_perks: Keuntungan Pengembang # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: Opsi di bawah ini membutuhkan __add-on Pengembang__.
+      device_credentials: Device Credentials
+      device_credentials_hint: See what you can do with these credentials __here__
+      device_name: Nama Perangkat
+      device_name_hint: Kami menggunakan ini untuk membuat antarmuka TRMNL lebih nyaman
+      edit_device: Ubah Perangkat
+      identify: Identifikasi
+      identify_device: Identifikasi Perangkat
+      identify_device_hint: Klik tombol di bawah ini untuk menampilkan layar pada perangkat ini yang membantu mengidentifikasinya.
+      logs: Logs
+      logs_hint: Debug your device and plugins with a live feed of raw error logs.
+      mirror: Mirroring
+      mirror_device: Mirror Perangkat Lain
+      mirror_device_hint: Masukkan ID Perangkat (yang dapat dibagikan) untuk mirror daftar putarnya. Daftar putar Anda tetap akan ditampilkan.
+      ota_enabled: Pembaruan OTA Diaktifkan
+      ota_enabled_hint: Firmware terbaru akan diinstal secara otomatis. Nonaktifkan jika menggunakan firmware Anda sendiri.
+      sleep_mode: Mode Tidur
+      sleep_mode_hint: Sesuaikan tingkat penyegaran untuk fokus dan hemat baterai.
+      sleep_screen: Sleep Screen
+      special_function: Fungsi Khusus
+      special_function_hint: Atur fitur klik ganda untuk tombol di belakang perangkat Anda.
+      special_function_learn_more: Pelajari lebih lanjut tentang fungsi khusus __di sini__.
+      unlink: Lepas Tautan
+      unlink_device: Lepaskan Tautan Perangkat
+      unlink_device_hint: Lepaskan tautan perangkat TRMNL agar aman untuk dijual kembali atau diberikan kepada orang lain.
+      visibility: Visibilitas
+      visibility_hint: Jadikan perangkat TRMNL Anda dapat di-mirroring dengan mengubah pengaturan di bawah ini.
+      your_device: TRMNL Anda
+    index:
+      title: Perangkat
+      tagline: Perangkat TRMNL Anda
+      add_device_modal_title: Tambah perangkat baru
+      add_first_device: Mulai dengan menambahkan perangkat pertama Anda!
+    new:
+      title: Tambah perangkat baru
+      description: Masukkan ID Perangkat Anda untuk menambahkan perangkat TRMNL baru ke akun Anda.
+      add_device: Tambahkan perangkat baru
+
+    # toast messages
+    associate:
+      error: Terjadi kesalahan saat menautkan perangkat
+      success: Perangkat berhasil ditautkan
+    dissociate:
+      error: Terjadi kesalahan saat melepaskan tautan perangkat
+      success: Perangkat berhasil dilepaskan tautannya
+    identify:
+      error: Terjadi kesalahan saat memperbarui perangkat
+      success: Permintaan identifikasi perangkat berhasil
+    mirror:
+      error: Terjadi kesalahan saat mirroring perangkat
+      error_not_shared: ID Perangkat yang dimasukan tidak dapat di-mirroring
+      error_oneself: Tidak bisa mirror perangkat milik sendiri
+      success: Perangkat %{friendly_id} berhasil di-mirroring
+      success_removed: Mirroring Removed
+    switch:
+      error: Terjadi kesalahan saat mengganti perangkat
+      success: Perangkat berhasil diganti
+    update:
+      error: Terjadi kesalahan saat memperbarui perangkat
+      success: Pengaturan perangkat %{device} berhasil diperbarui
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
+  logs:
+    index:
+      title: Logs
+      all: All
+      device: Device
+      dump: Dump # content
+      id: ID
+      private_plugins: Private Plugins
+      source: Source
+      time: Time
+  markups:
+    form:
+      back_to_plugin_settings: Back to plugin settings
+      design_system: Leverage our native design system
+      design_system_docs: Design System Docs
+      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
+      edit_markup: Edit Markup
+      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
+      edit_markup_please_save_first: Please save before editing markup
+      edit_markup_without_preview: Edit Markup (without preview)
+      error_rendering_markup: Error rendering that markup
+      fix_indentation: Fix indentation
+      live_preview: Live Preview
+      no_changes_to_save: No changes to save
+      quickstart_examples: Quick-start Examples
+      quickstart_example_applied: Applied!
+      quickstart_use_this_example: Use this example
+      revert: Revert
+      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
+      save_changes: Save Changes (⌘﹢S)
+    merge_variables:
+      your_variables: Your variables
+    no_merge_variables:
+      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
+      no_variables_detected: No variables detected.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      success: 2FA successful
+      error: Invalid OTP code
+  playlists:
+    index:
+      title: Daftar Putar
+      tagline: Pilih apa yang ingin Anda tampilkan di
+      add_a_group: Add a Group
+      add_a_plugin: Add a Plugin
+      add_first_device_cta: Mulai dengan __menambahkan__ perangkat TRMNL pertama Anda!
+      add_to_playlist: Tambahkan ke Daftar Putar
+      create_first_playlist_cta: Buat daftar putar setelah __menghubungkan__ plugin pertama Anda!
+      display_period_from: Display from
+      display_period_to: to
+    playlist: # partial (single item)
+      delete: Apakah Anda yakin ingin menghapus item ini? Plugin akan tetap terhubung, hanya tidak ditampilkan di perangkat Anda.
+      displayed_now: Ditampilkan sekarang
+      not_displayed_yet: Tertunda
+      remove_from_playlist: Hapus dari daftar putar
+
+    # toast messages
+    create:
+      error: Gagal memperbarui daftar putar
+      success: Daftar putar berhasil diperbarui
+    destroy:
+      error: Terjadi kesalahan saat menghapus item dari daftar putar
+      success: Plugin berhasil dihapus dari Daftar Putar
+    update:
+      success: Urutan daftar putar berhasil diperbarui
+  plugins:
+    index:
+      title: Plugin
+      tagline: Apa yang ingin Anda tampilkan di TRMNL Anda?
+      available: Tersedia
+      connected: Terhubung
+      recipes: Recipes
+      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+    search: # partial (search box)
+      placeholder: Cari Plugin
+    my:
+      title: Plugin Saya
+      tagline: Kembangkan Plugin Anda untuk lokapasar plugin
+      connections: connections
+      edit: Edit
+      install: Install
+      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+      submit_for_review: Ajukan untuk ditinjau
+    new:
+      title: Buat Plugin Baru
+      tagline: Permudah pengguna lain memasang plugin buatan Anda!
+      name: Nama
+      category: Category
+      description: Deskripsi
+      description_hint: Maximum 50 characters
+      icon: Ikon
+      icon_hint: Disarankan ukuran 40px*40px
+      installation_url: Installation URL
+      installation_url_hint: Learn more about the installation flow __here__.
+      installation_success_webhook_url: Installation Success Webhook URL
+      knowledge_base_url: Knowledge Base URL
+      management_url: Plugin Management URL
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url: Plugin Markup URL
+      markup_url_hint: Learn more about screen generation __here__.
+      uninstallation_webhook_url: Uninstallation Webhook URL
+    edit:
+      title: Ubah Plugin
+      tagline: Perbarui detail plugin Anda.
+      name: Nama
+      description: Deskripsi
+  plugin_recipes:
+    new:
+      error: Recipe not found
+  plugin_settings:
+    active: Aktif
+    copy_are_you_sure: Are you sure you want to copy this setting?
+    delete_are_you_sure: Are you sure you want to delete this setting?
+    delete: Ini akan sepenuhnya menghapus pengaturan plugin. Untuk hanya menyembunyikan plugin ini dari perangkat Anda, hapus dari Daftar Putar Anda.
+    inactive: Tidak Aktif
+    no_plugin_settings_found: Tidak ditemukan pengaturan plugin. # empty state - should not appear
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
+    form:
+      active_hint: Tampilkan atau sembunyikan plugin ini di perangkat Anda
+      back_to_plugin: Kembali ke %{plugin}
+      back_to_plugins: Kembali ke Plugin
+      connect_with: Hubungkan dengan %{plugin}
+      disconnect_account: Disconnect Account
+      manage_plugin: Konfigurasi %{plugin}
+      force_refresh: Penyegaran Paksa
+      force_refresh_hint: Fitur ini dirancang untuk pengujian saja - mohon jangan disalahgunakan.
+      force_refresh_click_here: Klik di sini
+      force_refresh_click_here_hint: untuk menghasilkan layar baru segera
+      learn_more: Pelajari tentang plugin ini di basis pengetahuan kami
+      linked_account: Linked Account
+      linked_account_success: Successfully linked with %{plugin_name}
+      link_oauth: Tautkan Akun
+      link_oauth_hint: Sebelum Anda melanjutkan, ikuti proses otorisasi aman yang disediakan oleh %{plugin}
+      multiple_instances_hint: Plugin ini mendukung beberapa instance.
+      name: Nama
+      name_hint: Beri nama untuk referensi yang lebih mudah
+      plugin_uuid: Plugin UUID
+      plugin_uuid_hint: Gunakan ini untuk membuat permintaan API Webhook.
+      preview: Pratinjau - perangkat Anda akan menampilkan data nyata
+      refresh_rate: Tingkat Penyegaran
+      refresh_rate_hint: Tentukan seberapa sering plugin ini mengambil data baru
+      refreshed: Diperbarui
+      remove_plugin: Remove plugin
+      remove_plugin_hint: Removing a plugin will also remove it from your playlist
+      synced: Synced
+      visit_docs: Kunjungi Dokumentasi
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: '%{filename} is too large'
+      malformed: '%{filename} is malformed'
+
+    # toast messages
+    create:
+      success: Plugin berhasil dibuat dan ditambahkan ke
+      playlist: daftar putar
+    destroy:
+      success: Plugin berhasil dihapus
+    handle_canceled_consent: Persetujuan dibatalkan, silakan coba lagi
+    update:
+      success: Konfigurasi plugin berhasil diperbarui
+    add_to_playlist:
+      success: Plugin added to Playlist
+
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
+  upgrade:
+    index:
+      title: "Upgrading device:"
+      tagline: Unlock custom plugins and __more__.
+      pay: Pay # button text; ex "Pay $20"
+      error: Device %{device_name} is already upgraded, switch to another device
+
+    # toast messages
+    confirm:
+      success: Developer edition add-on is now enabled

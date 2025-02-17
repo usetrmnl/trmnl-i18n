@@ -1,0 +1,216 @@
+zh-HK:
+  # namespace to not interfere with other localizations
+  custom_plugins:
+
+    # generic words and phrases to make custom plugins more accessible
+    today: 今日
+    tomorrow: 明日
+
+    # plugin-specific localizations; alphabetize by plugin's keyname
+    simple_calendar:
+      title: 日曆
+      ym_format: "%Y年%-m月"
+      chinese_korean:
+        leap_format: 閏%{month_label}
+        leap_format_short: 閏%{month_label}
+        ym_format: ", %{heavenly_stem}%{earthly_branch}%{zodiac_animal}年%{leap_month_label}"
+        month_labels:
+        -
+        - 正月
+        - 二月
+        - 三月
+        - 四月
+        - 五月
+        - 六月
+        - 七月
+        - 八月
+        - 九月
+        - 十月
+        - 十一月
+        - 十二月
+        date_labels:
+        -
+        - 初一
+        - 初二
+        - 初三
+        - 初四
+        - 初五
+        - 初六
+        - 初七
+        - 初八
+        - 初九
+        - 初十
+        - 十一
+        - 十二
+        - 十三
+        - 十四
+        - 十五
+        - 十六
+        - 十七
+        - 十八
+        - 十九
+        - 二十
+        - 廿一
+        - 廿二
+        - 廿三
+        - 廿四
+        - 廿五
+        - 廿六
+        - 廿七
+        - 廿八
+        - 廿九
+        - 三十
+        heavenly_stems:
+        - 甲
+        - 乙
+        - 丙
+        - 丁
+        - 戊
+        - 己
+        - 庚
+        - 辛
+        - 壬
+        - 癸
+        earthly_branches:
+        - 子
+        - 丑
+        - 寅
+        - 卯
+        - 辰
+        - 巳
+        - 午
+        - 未
+        - 申
+        - 酉
+        - 戌
+        - 亥
+        zodiac_animals:
+        - 鼠
+        - 牛
+        - 虎
+        - 兔
+        - 龍
+        - 蛇
+        - 馬
+        - 羊
+        - 猴
+        - 雞
+        - 狗
+        - 豬
+        solar_terms:
+        - 小寒
+        - 大寒
+        - 立春
+        - 雨水
+        - 驚蟄
+        - 春分
+        - 清明
+        - 穀雨
+        - 立夏
+        - 小滿
+        - 芒種
+        - 夏至
+        - 小暑
+        - 大暑
+        - 立秋
+        - 處暑
+        - 白露
+        - 秋分
+        - 寒露
+        - 霜降
+        - 立冬
+        - 小雪
+        - 大雪
+        - 冬至
+      japanese:
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 佛滅
+        - 大安
+        - 赤口
+        nengo:
+          reiwa: 令和
+        ym_format: "%Y年 (%{nengo}%{alt_year}年) %-m月"
+        year_1: 元
+      hebrew:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        - Nisan
+        - Iyar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tishri
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
+        month_labels_abbr:
+        - Nis
+        - Iya
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tis
+        - Hes
+        - Kis
+        - Tev
+        - Shv
+        - Ada
+        - Ad1
+        - Ad2
+      hijri:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Muharram
+        - Safar
+        - Rabiʻ I
+        - Rabiʻ II
+        - Jumada I
+        - Jumada II
+        - Rajab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
+        - Dhuʻl-Qiʻdah
+        - Dhuʻl-Hijjah
+      bengali:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
+      indian:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
+        - Asadha
+        - Sravana
+        - Bhadra
+        - Asvina
+        - Kartika
+        - Agrahayana
+        - Pausa
+        - Magha
+        - Phalguna

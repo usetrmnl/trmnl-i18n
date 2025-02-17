@@ -1,0 +1,178 @@
+ko:
+  # namespace to not interfere with other localizations
+  custom_plugins:
+
+    # generic words and phrases to make custom plugins more accessible
+    today: 오늘
+    tomorrow: 내일
+
+    # plugin-specific localizations; alphabetize by plugin's keyname
+    simple_calendar:
+      title: 캘린더
+      ym_format: "%Y년 %-m월"
+      chinese_korean:
+        leap_format: 윤%{month_label}
+        leap_format_short: LM%{alt_month}
+        ym_format: ", %{heavenly_stem}%{earthly_branch}년 %{leap_month_label}"
+        month_labels:
+        -
+        - 1월
+        - 2월
+        - 3월
+        - 4월
+        - 5월
+        - 6월
+        - 7월
+        - 8월
+        - 9월
+        - 10월
+        - 11월
+        - 12월
+        date_labels:
+        -
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+        - "6"
+        - "7"
+        - "8"
+        - "9"
+        - "10"
+        - "11"
+        - "12"
+        - "13"
+        - "14"
+        - "15"
+        - "16"
+        - "17"
+        - "18"
+        - "19"
+        - "20"
+        - "21"
+        - "22"
+        - "23"
+        - "24"
+        - "25"
+        - "26"
+        - "27"
+        - "28"
+        - "29"
+        - "30"
+        heavenly_stems:
+        - 갑
+        - 을
+        - 병
+        - 정
+        - 무
+        - 기
+        - 경
+        - 신
+        - 임
+        - 계
+        earthly_branches:
+        - 자
+        - 축
+        - 인
+        - 묘
+        - 진
+        - 사
+        - 오
+        - 미
+        - 신
+        - 유
+        - 술
+        - 해
+      japanese:
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 仏滅
+        - 大安
+        - 赤口
+        nengo:
+          reiwa: 레이와
+        ym_format: "%Y년 (%{nengo}% {alt_year}년) %-m월"
+        year_1: 원
+      hebrew:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        - Nisan
+        - Iyar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tishri
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
+        month_labels_abbr:
+        - Nis
+        - Iya
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tis
+        - Hes
+        - Kis
+        - Tev
+        - Shv
+        - Ada
+        - Ad1
+        - Ad2
+      hijri:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Muharram
+        - Safar
+        - Rabiʻ I
+        - Rabiʻ II
+        - Jumada I
+        - Jumada II
+        - Rajab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
+        - Dhuʻl-Qiʻdah
+        - Dhuʻl-Hijjah
+      bengali:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
+      indian:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
+        - Asadha
+        - Sravana
+        - Bhadra
+        - Asvina
+        - Kartika
+        - Agrahayana
+        - Pausa
+        - Magha
+        - Phalguna
