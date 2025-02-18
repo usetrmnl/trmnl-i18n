@@ -13,6 +13,7 @@ end
 
 Bundler.require :tools
 
+require "refinements"
 require "trmnl/i18n"
 
 SPEC_ROOT = Pathname(__dir__).realpath.freeze
