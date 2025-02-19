@@ -11,9 +11,7 @@ RSpec.describe "Custom Plugins", type: :feature do
 
   Bundler.root.join("lib/trmnl/i18n/locales/custom_plugins").files("*.yml").each do |path|
     it "verifies #{path.name} has key parity with default locale" do
-      locale = path.name.to_s.then { |key| key == "en.raw" ? "raw" : key }
-      current = YAML.safe_load(path.read).fetch(locale).flatten_keys.keys
-
+      current = YAML.safe_load(path.read).fetch(path.name.to_s).flatten_keys.keys
       expect((default - current)).to eq([])
     end
   end
