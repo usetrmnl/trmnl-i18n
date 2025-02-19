@@ -16,10 +16,10 @@ it:
   close: Chiudi
   confirm_change_password: Cambia la password
   confirm_password: Conferma la nuova password
-  copy: Copy
-  copied_to_clipboard: Copied!
-  copy_to_clipboard: Copy to clipboard
-  created: Created # example: "Created 5 mins ago"
+  copy: Copia
+  copied_to_clipboard: Copiato!
+  copy_to_clipboard: Copia negli appunti
+  created: Creato # example: "Created 5 mins ago"
   create_an_account: Crea un profilo # login form cta
   current_device: Current device
   days: giorni
@@ -35,30 +35,30 @@ it:
   forgot_password_title: Ci risiamo # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
   get_started: Iniziamo!
   identify: Identifica
-  import: Import
-  import_new: Import new
-  integrations: Integrations
+  import: Importa
+  import_new: Importa nuovo
+  integrations: Integrazioni
   keep_me_signed_in: Ricordami
   knowledge_base: Knowledge base
   last_name: Cognome
-  loading: Loading
+  loading: Caricamento
   login: Accedi
   log_out: Esci
-  minimum_characters: caratteri minimo # ex: 8 characters minimum
+  minimum_characters: caratteri minimi # ex: 8 characters minimum
   mins: min # 'minutes' abbreviation
   my_playlist: My Playlist
   new_password: Nuova password
   password: Password
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
-  plugin_not_found: Plugin not found
-  refresh_rates_hint: Learn how refresh rates work __here__.
+  please_wait: Attendi... # similar to "Fetching", but shown after a long process button click vs on page-load
+  plugin_not_found: Plugin non trovato
+  refresh_rates_hint: Learn how refresh rates work __qui__.
   reset_password: Reimposta password
   save: Salva
-  section: Section
+  section: Sezione
   sign_in: Accedi # login form cta
   sign_up: Registrati # logged out navigation
-  something_went_wrong: Something went wrong
-  support: Support # bottom navigation tab, links to help center
+  something_went_wrong: Qualcosa è andato storto
+  support: Supporto # bottom navigation tab, links to help center
   update: Aggiorna
   view: View # TODO ambiguous, where is it used?
   welcome: Benvenuto/a # login form heading
@@ -71,25 +71,25 @@ it:
       email_address: Indirizzo Email
       refer_and_earn: Refer and Earn
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
-      refer_and_earn_request_code: Request a Code
+      refer_and_earn_redemptions: Utilizzi # how many times this coupon has been used
+      refer_and_earn_request_code: Richiedi un codice
       device_invoice: Device Invoice
       device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
       device_invoice_hint: Find this on your package tracking page or shipment notification email.
       email_address_hint: Usato per accedere a TRMNL e ricevere messaggi di sistema.
       first_name_hint: Usiamo il tuo nome per migliorare l'interfaccia TRMNL.
-      last_name_hint: Usiamo il tuo nome per migliorare l'interfaccia TRMNL.
+      last_name_hint: Usiamo il tuo cognome per migliorare l'interfaccia TRMNL.
       password_hint: Usata per proteggere il tuo profilo TRMNL.
-      enable_2fa: Enable 2FA?
-      enable_2fa_hint: __Click here__ to enable OTP.
-      disable_2fa: Disable 2FA
-      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
+      enable_2fa: Abilitare 2FA?
+      enable_2fa_hint: __Clicca qui__ per abilitare l'OTP.
+      disable_2fa: Disabilitare 2FA
+      disable_2fa_hint: Fornisci un OTP valido e la password per disabilitare questa opzione.
       session: Sessione
       session_hint: Sei connesso/a come %{user}
       time_zone: Time Zone
       time_zone_hint: Determina la frequenza di aggiornamento e il periodo di riposo del dispositivo.
       locale: Locale
-      locale_hint: What language and localization do you prefer? __Go here__.
+      locale_hint: What language and localization do you prefer? __Vai qui__.
 
     # toast messages
     update:
@@ -97,9 +97,9 @@ it:
   dashboard:
     index:
       title: Dashboard
-      morning_salutation: Good morning
-      afternoon_salutation: Good afternoon
-      evening_salutation: Good evening
+      morning_salutation: Buongiorno
+      afternoon_salutation: Buon pomeriggio
+      evening_salutation: Buonasera
       last_7_days: Ultimi 7 giorni
       last_30_days: Ultimi 30 giorni
       last_90_days: Ultimi 90 giorni
@@ -111,7 +111,7 @@ it:
       next_steps: Ti faremo sapere se ci saranno cambiamenti
     news: # partial (widget)
       title: Novità
-      cta: View All
+      cta: Vedi tutti
     playlists: # partial (widget)
       title: Playlist
       cta: Vai alle Playlist
@@ -135,8 +135,8 @@ it:
       battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo.
       developer_perks: Modalità Sviluppatore # heading; below this is a list of options for devices with (paid) Developer edition add-on
       developer_perks_hint: Queste opzioni richiedono la __Modalità Sviluppatore__.
-      device_credentials: Device Credentials
-      device_credentials_hint: See what you can do with these credentials __here__
+      device_credentials: Credenziali Dispositivo
+      device_credentials_hint: Scopri cosa puoi fare con queste credenziali __qui__
       device_name: Nome Dispositivo
       device_name_hint: Lo usiamo per migliorare l'interfaccia TRMNL
       edit_device: Modifica Dispositivo
@@ -187,7 +187,7 @@ it:
       error_not_shared: ID dispositivo non condivisibile
       error_oneself: Impossibile replicare sé stesso
       success: Dispositivo %{friendly_id} replicato correttamente
-      success_removed: Mirroring Removed
+      success_removed: Duplicazione rimossa
     switch:
       error: Errore nel cambio dispositivo
       success: Dispositivo cambiato
@@ -195,71 +195,71 @@ it:
       error: Errore nell'aggiornamento del dispositivo
       success: "%{device} impostazioni dispositivo aggiornate con successo"
   invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
+    rate_limit: Troppi tentativi, riprova più tardi
+    invoice_not_found: Fattura non trovata
   logs:
     index:
       title: Logs
-      all: All
-      device: Device
+      all: Tutti
+      device: Dispositivi
       dump: Dump # content
       id: ID
       private_plugins: Private Plugins
-      source: Source
+      source: Sorgente
       time: Time
   markups:
     form:
-      back_to_plugin_settings: Back to plugin settings
+      back_to_plugin_settings: Torna alle impostazioni del plugin
       design_system: Leverage our native design system
       design_system_docs: Design System Docs
-      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
-      edit_markup: Edit Markup
-      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
-      edit_markup_please_save_first: Please save before editing markup
-      edit_markup_without_preview: Edit Markup (without preview)
-      error_rendering_markup: Error rendering that markup
-      fix_indentation: Fix indentation
+      dirty_confirm: Hai dei cambiamenti non salvati. Sei sicuro di voler lasciare questa pagina?
+      edit_markup: Modifica Markup
+      edit_markup_for_plugin: Modifica markup per %{plugin_setting_name}
+      edit_markup_please_save_first: Per favore salva prima di modificare il markup
+      edit_markup_without_preview: Modifica Markup (senza anteprima)
+      error_rendering_markup: Errore nel rendering del markup
+      fix_indentation: Correggi identazione
       live_preview: Live Preview
-      no_changes_to_save: No changes to save
+      no_changes_to_save: Nessuna modifica da salvare
       quickstart_examples: Quick-start Examples
-      quickstart_example_applied: Applied!
-      quickstart_use_this_example: Use this example
-      revert: Revert
-      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
-      save_changes: Save Changes (⌘﹢S)
+      quickstart_example_applied: Applicato!
+      quickstart_use_this_example: Usa questo esempio
+      revert: Annulla # Revert can be also "Ripristina" based on context
+      revert_confirm: Sei sicuro di voler annullare? Tutti i cambiamenti non salvati andranno persi.
+      save_changes: Salva cambiamenti (⌘﹢S)
     merge_variables:
-      your_variables: Your variables
+      your_variables: Le tue variabili
     no_merge_variables:
-      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
-      no_variables_detected: No variables detected.
+      force_refresh: Se hai fornito delle variabili ma non possono esssere trovate, prova con __Forza aggioramento__.
+      no_variables_detected: Nessuna variabile trovata.
   mfa:
     disable_otp:
-      success: 2FA Disabled
-      invalid_otp: Invalid OTP
-      invalid_password: Invalid Password
-      invalid_otp_and_password: Invalid OTP and Password
+      success: 2FA Disabilitato
+      invalid_otp: OTP non valido
+      invalid_password: Password non valida
+      invalid_otp_and_password: OTP e Password non validi
     enable_otp:
-      input_otp: Enter OTP
-      submit: Verify and Enable
-      already_enabled: 2FA is already enabled
+      input_otp: Inserisci OTP
+      submit: Verifica e Abilita
+      already_enabled: 2FA è già abilitato
     enable_otp_verify:
-      success: 2FA Enabled
-      error: Invalid OTP code
+      success: 2FA Abilitato
+      error: Codice OTP non valido
     verify_otp:
-      verify: Verify
+      verify: Verifica
       success: 2FA successful
-      error: Invalid OTP code
+      error: Codice OTP non valido
   playlists:
     index:
       title: Playlist
       tagline: Scegli cosa mostrare
-      add_a_group: Add a Group
-      add_a_plugin: Add a Plugin
+      add_a_group: Aggiungi un gruppo
+      add_a_plugin: Aggiungu un Plugin
       add_first_device_cta: Comincia __aggiungendo__ il tuo primo dispositivo TRMNL!
       add_to_playlist: Aggiungi a Playlist
       create_first_playlist_cta: Crea la tua playlist, ma prima __connetti__ il tuo primo plugin!
-      display_period_from: Display from
-      display_period_to: to
+      display_period_from: Mostra dalle
+      display_period_to: alle
     playlist: # partial (single item)
       delete: Vuoi davvero rimuovere questo elemento? Il plugin resterà connesso, ma non sarà visibile sul tuo dispositivo.
       displayed_now: Mostrato ora
@@ -280,35 +280,35 @@ it:
       title: Plugin
       tagline: Cosa metterai sul tuo TRMNL?
       available: Disponibile
-      connected: Connessp
-      recipes: Recipes
-      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+      connected: Connesso
+      recipes: Ricette
+      recipes_hint: Plugin privati dai membri della comunità possono essere installati in 1 click. __Scopri di più__.
     search: # partial (search box)
       placeholder: Cerca Plugin
     my:
       title: I Miei Plugin
       tagline: Crea Plugin per il marketplace
-      connections: connections
-      edit: Edit
-      install: Install
-      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+      connections: Collezioni
+      edit: Modifica
+      install: Installa
+      review_are_you_sure: Sei sicuro? Il team TRMNL proverà e ti manderà una mail con qualsiasi domanda.
       submit_for_review: Invia per revisione
     new:
       title: Crea Nuovo Plugin
       tagline: Gli altri utenti potranno installare il tuo plugin.
       name: Nome
-      category: Category
+      category: Categoria
       description: Descrizione
-      description_hint: Maximum 50 characters
+      description_hint: Massimo 50 Caratteri
       icon: Icona
       icon_hint: 40px*40px raccomandata
-      installation_url: Installation URL
+      installation_url: URL installazione
       installation_url_hint: Maggiori dettagli sulla procedura di installazione __qui__.
       installation_success_webhook_url: Installation Success Webhook URL
       knowledge_base_url: Knowledge Base URL
-      management_url: Plugin Management URL
+      management_url: URL gestione Plugin
       management_url_hint: Maggiori dettagli sulla procedura di gestione __qui__.
-      markup_url: Plugin Markup URL
+      markup_url: URL Markup Plugin
       markup_url_hint: Maggiori dettagli sulla generazione delle schermate __qui__.
       uninstallation_webhook_url: Uninstallation Webhook URL
     edit:
