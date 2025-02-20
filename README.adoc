@@ -76,6 +76,12 @@ You can also use the IRB console for direct access to all objects:
 bin/console
 ----
 
+To test within a Rails app for local development purposes, you can do the following:
+
+. Create a feature branch and add your new locales.
+. Push the feature branch up (no need to open a code review until you are ready).
+. Update your Rails application's `Gemfile` to point to your feature branch. Example: `gem "trmnl-i18n", github: "your_fork/trmnl-i18n", branch: "your_feature_branch"`.
+
 == Tests
 
 To test, run:
@@ -92,18 +98,18 @@ bin/rake
 
 == Credits
 
-* *German via @ramdacxp, @philippbosch, @yannicschuller, @MaxDev98, @IngmarStein
-* *Spanish (Spain) via @joesfer, @jeff-foster
-* *French via @theogiraudet, @MarvinNTA
-* *Indonesian via @Adekabang
-* *Italian via @danieleb-podero
-* *Japanese via Hiroyuki Miyoshi, @liahsheep
-* *Korean via @i-say-young
-* *Portuguese via @danielsitnik
-* *Dutch via @huge10, @SjanPjer, @gjdenhertog
-* *Ukrainian via @veikus, @yankobogdan
-* *Chinese (Simplified) via @MarkSong535
-* *Chinese (Hong Kong) via @liahsheep
-* *Hebrew via @itay99988
+* German via @ramdacxp, @philippbosch, @yannicschuller, @MaxDev98, @IngmarStein
+* Spanish (Spain) via @joesfer, @jeff-foster
+* French via @theogiraudet, @MarvinNTA
+* Indonesian via @Adekabang
+* Italian via @danieleb-podero
+* Japanese via Hiroyuki Miyoshi, @liahsheep
+* Korean via @i-say-young
+* Portuguese via @danielsitnik
+* Dutch via @huge10, @SjanPjer, @gjdenhertog
+* Ukrainian via @veikus, @yankobogdan
+* Chinese (Simplified) via @MarkSong535
+* Chinese (Hong Kong) via @liahsheep
+* Hebrew via @itay99988
 * Built with link:https://alchemists.io/projects/gemsmith[Gemsmith].
 * Engineered by link:https://usetrmnl.com[TRMNL].
