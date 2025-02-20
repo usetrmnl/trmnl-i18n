@@ -91,6 +91,25 @@ To test, run:
 bin/rake
 ----
 
+== Deployment
+
+To publish, first:
+
+. Install link:https://alchemists.io/projects/gemsmith[Gemsmith].
+. link:https://alchemists.io/projects/gemsmith#_configuration[Configure] your account.
+. Enable link:https://alchemists.io/projects/gemsmith#_security[security].
+
+Once the above is setup, now you can publish by doing the following:
+
+[source,bash]
+----
+git switch main
+git pull
+gemsmith --publish
+----
+
+That's it!
+
 == Contributions
 
 1. Fork this repository.
