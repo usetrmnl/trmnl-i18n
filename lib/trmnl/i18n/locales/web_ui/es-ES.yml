@@ -1,5 +1,4 @@
 es-ES:
-
   # global, logged out, and auth-related
   add: Crear
   add_new: Crear nuevo
@@ -275,7 +274,7 @@ es-ES:
       success: Lista de reproducción actualizada
     destroy:
       error: Error al eliminar el elemento de la lista de reproducción
-      success:  eliminado de la lista de reproducción
+      success: eliminado de la lista de reproducción
     update:
       success: Orden de la lista de reproducción actualizada
   plugins:
@@ -363,8 +362,8 @@ es-ES:
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: '%{filename} is too large'
-      malformed: '%{filename} is malformed'
+      entry_too_large: "%{filename} is too large"
+      malformed: "%{filename} is malformed"
 
     # toast messages
     create:
