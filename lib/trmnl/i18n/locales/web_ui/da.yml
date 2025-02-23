@@ -27,15 +27,15 @@ da:
   device_id: Enheds-ID
   edit: Indstillinger
   email_address: Mailadresse
-  export: Export
+  export: Eksporter
   fetching: Henter
   first_name: Fornavn
   forgot_password: Jeg har glemt min adgangskode
   forgot_password_title: Her går vi igen
   get_started: Lad os få dig i gang!
   identify: Identificer
-  import: Import
-  import_new: Import new
+  import: Importer
+  import_new: Importer ny
   integrations: Integrationer
   keep_me_signed_in: Hold mig logget ind
   knowledge_base: Vidensbase
@@ -74,7 +74,7 @@ da:
       device_invoice: Enhedsfaktura
       device_invoice_label: Download kommercielle dokumenter til din revisor eller (mærkelige) PDF-samling.
       device_invoice_hint: Find dette på din pakkesporingsside eller forsendelsesmeddelelses-e-mail.
-      email_address_hint: Used to sign into TRMNL and receive system messages.
+      email_address_hint: Bruges til at logge ind på TRMNL og til at modtage systembeskeder.
       first_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere behagelig.
       last_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere behagelig.
       password_hint: Bruges til at beskytte din TRMNL-konto.
@@ -83,7 +83,7 @@ da:
       disable_2fa: Deaktiver 2FA
       disable_2fa_hint: Angiv gyldig OTP og nuværende adgangskode ovenfor for at deaktivere denne funktion.
       session: Session
-      session_hint: Du er logget ind som % {user}
+      session_hint: Du er logget ind som %{user}
       time_zone: Tidszone
       time_zone_hint: Bestemmer opdateringshastigheder og enhedens sovetid.
       locale: Lokalitet
@@ -95,7 +95,7 @@ da:
   dashboard:
     index:
       title: Dashboard
-      morning_salutation: Godm orgen
+      morning_salutation: Godmorgen
       afternoon_salutation: God eftermiddag
       evening_salutation: God aften
       last_7_days: Sidste 7 dage
@@ -113,7 +113,7 @@ da:
     playlists: # del (widget)
       title: Playliste
       cta: Rediger playliste
-      pieces_of_content_displayed: Dele af indhold vist
+      pieces_of_content_displayed: Indholdselementer vist
     plugins: # del (widget)
       title: Plugins
       cta: Gå til Plugins
@@ -132,7 +132,7 @@ da:
       battery_consumption: Batteriforbrug
       battery_consumption_hint: Spar strøm og nyd længere batterilevetid ved at aktivere dvaletilstand.
       developer_perks: Udviklerfordele # overskrift; nedenfor er en liste over muligheder for enheder med (betalt) udviklerudgave-tilføjelse
-      developer_perks_hint: Mulighederne nedenfor kræver __Udvikler-tilføjelse__.
+      developer_perks_hint: Mulighederne nedenfor kræver __Udviklerudgave-tilføjelse__.
       device_credentials: Enhedsoplysninger
       device_credentials_hint: Se hvad du kan gøre med disse oplysninger __her__
       device_name: Enhedsnavn
@@ -142,7 +142,7 @@ da:
       identify_device: Identificer enhed
       identify_device_hint: Klik på knappen nedenfor for at generere en skærm på denne enhed, der hjælper med at identificere den.
       logs: Logfiler
-      logs_hint: Fejlfinding af din enhed og plugins med en live feed af rå fejl logfiler.
+      logs_hint: Fejlfinding af din enhed og plugins med en live feed af rå fejl-logfiler.
       mirror: Spejl
       mirror_device: Spejl en anden enhed
       mirror_device_hint: Angiv et (delbart) enheds-ID for at spejle dens playliste. Din playliste vil stadig blive vist.
@@ -150,13 +150,13 @@ da:
       ota_enabled_hint: Installer automatisk ny firmware. Deaktiver for at bruge din egen firmware.
       sleep_mode: Dvaletilstand
       sleep_mode_hint: Juster din opdateringshastighed for at optimere fokus og batterilevetid.
-      sleep_screen: Sleep Screen
+      sleep_screen: Dvaleskærmbillede
       special_function: Specialfunktion
       special_function_hint: Indstil en dobbeltklik-funktion for knappen på bagsiden af din enhed.
       special_function_learn_more: Læs mere om specialfunktioner __her__.
-      unlink: Fjern link
-      unlink_device: Fjern link til enhed
-      unlink_device_hint: Fjern link til en TRMNL-enhed gør det sikkert at sælge eller give til en anden.
+      unlink: Fjern tilknytning
+      unlink_device: Fjern tilknytning til enhed
+      unlink_device_hint: At fjerne tilknytningen til en TRMNL-enhed gør det sikkert at sælge eller give den til en anden.
       visibility: Synlighed
       visibility_hint: Gør din TRMNL-enhed spejlbar ved at ændre indstillingerne nedenfor.
       your_device: Din TRMNL
@@ -208,18 +208,18 @@ da:
   markups:
     form:
       back_to_plugin_settings: Tilbage til plugin-indstillinger
-      design_system: Udnyt vores lokale design system
-      design_system_docs: Design System Docs
+      design_system: Udnyt vores indbygget designsystem
+      design_system_docs: Designsystem dokumentation
       dirty_confirm: Du har ikke-gemte ændringer. Er du sikker på, at du vil forlade denne side?
       edit_markup: Rediger markup
       edit_markup_for_plugin: Rediger markup for %{plugin_setting_name}
       edit_markup_please_save_first: Gem venligst før redigering af markup
       edit_markup_without_preview: Rediger markup (uden forhåndsvisning)
-      error_rendering_markup: Fejl ved rendering af den markup
+      error_rendering_markup: Fejl ved rendering af markup
       fix_indentation: Ret indrykning
       live_preview: Live forhåndsvisning
       no_changes_to_save: Ingen ændringer at gemme
-      quickstart_examples: Hurtigstart eksempler
+      quickstart_examples: Eksempler til at komme hurtigt igang
       quickstart_example_applied: Anvendt!
       quickstart_use_this_example: Brug dette eksempel
       revert: Gendan
@@ -228,7 +228,7 @@ da:
     merge_variables:
       your_variables: Dine variabler
     no_merge_variables:
-      force_refresh: Hvis du har angivet variabler, men de ikke bliver registreret, prøv en __tvunget opdatering__.
+      force_refresh: Hvis du har angivet variabler, men de ikke bliver registreret, prøv en __tvungen opdatering__.
       no_variables_detected: Ingen variabler registreret.
   mfa:
     disable_otp:
@@ -256,14 +256,14 @@ da:
       add_first_device_cta: Start med at __tilføje__ din første TRMNL-enhed!
       add_to_playlist: Tilføj til playliste
       create_first_playlist_cta: Opret din playliste efter __tilslutning__ af dit første plugin!
-      custom: Custom
-      device_default: Device default
+      custom: Brugerdefineret
+      device_default: Enhedsstandard
       display_period_from: Vis fra
       display_period_to: til
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: every
+      display_period_validation: Starttidspunkt skal være før sluttidspunkt. Opret en ny gruppe for at dække over midnat.
+      every: hver
     playlist: # del (enkelt element)
-      delete: Er du sikker på, at du vil fjerne dette element? Pluginet vil forblive tilsluttet, men ikke vist på din enhed.
+      delete: Er du sikker på, at du vil fjerne dette element? Pluginet vil forblive tilsluttet, men ikke blive vist på din enhed.
       displayed_now: Vist nu
       not_displayed_yet: Afventer
       remove_from_playlist: Fjern fra playliste
@@ -338,7 +338,7 @@ da:
       disconnect_account: Afbryd konto
       manage_plugin: Konfigurer %{plugin}
       force_refresh: Tving opdatering
-      force_refresh_hint: Denne funktion er designet til testning kun - misbrug den venligst ikke.
+      force_refresh_hint: Denne funktion er tiltænkt testbrug - misbrug den venligst ikke.
       force_refresh_click_here: Klik her
       force_refresh_click_here_hint: for at generere en ny skærm med det samme
       learn_more: Lær om dette plugin i vores vidensbase
@@ -358,16 +358,16 @@ da:
       remove_plugin: Fjern plugin
       remove_plugin_hint: Fjernelse af et plugin vil også fjerne det fra din playliste
       synced: Synkroniseret
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      visit_docs: Besøg Docs
+      refresh_paused: Opdatering sat på pause
+      refresh_paused_hint: Auto-opdatering er sat på pause. Tilføj til en playliste for at starte igen.
+      refresh_paused_mashup: Opdaterer Mashups
+      refresh_paused_mashup_hint: Auto-opdatering af fuldskærmsvisning er på pause. Mashups opdaterer.
+      visit_docs: Besøg dokumentation
     import:
-      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
-      missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: "%{filename} is too large"
-      malformed: "%{filename} is malformed"
+      archive_too_large: ZIP-file er for stor (%{max_mb} MB maksimum)
+      missing_entry: ZIP-filen indeholder ikke %{filename}
+      entry_too_large: "%{filename} er for stor"
+      malformed: "%{filename} er fejlbehæftet"
 
     # toast beskeder
     create:
