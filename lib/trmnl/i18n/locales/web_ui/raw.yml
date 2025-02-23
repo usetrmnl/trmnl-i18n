@@ -252,16 +252,17 @@ raw:
     index:
       title: playlists.index.title
       tagline: playlists.index.tagline
-      add_a_group: add_a_group
-      add_a_plugin: add_a_plugin
+      add_a_group: playlists.index.add_a_group
+      add_a_plugin: playlists.index.add_a_plugin
       add_first_device_cta: playlists.index.add_first_device_cta
       add_to_playlist: playlists.index.add_to_playlist
       create_first_playlist_cta: playlists.index.create_first_playlist_cta
-      custom: Custom
-      device_default: Device default
-      display_period_from: display_period_from
-      display_period_to: display_period_to
-      every: every
+      custom: playlists.index.custom
+      device_default: playlists.index.device_default
+      display_period_from: playlists.index.display_period_from
+      display_period_to: playlists.index.display_period_to
+      display_period_validation: playlists.index.display_period_validation
+      every: playlists.index.every
     playlist: # partial (single item)
       delete: playlists.playlist.delete
       displayed_now: playlists.playlist.displayed_now
