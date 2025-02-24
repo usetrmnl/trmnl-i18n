@@ -336,7 +336,7 @@ raw:
     inactive: plugin_settings.inactive
     no_plugin_settings_found: plugin_settings.no_plugin_settings_found
     refreshing_now_please_wait: plugin_settings.refreshing_now_please_wait
-    reset_credentials: "%{plugin_name} account reset successfully"
+    reset_credentials: plugin_settings.reset_credentials
     form:
       active_hint: plugin_settings.form.active_hint
       back_to_plugin: plugin_settings.form.back_to_plugin
@@ -349,7 +349,7 @@ raw:
       force_refresh_click_here: plugin_settings.form.force_refresh_click_here
       force_refresh_click_here_hint: plugin_settings.form.force_refresh_click_here_hint
       learn_more: plugin_settings.form.learn_more
-      linked_account: linked_account
+      linked_account: plugin_settings.form.linked_account
       linked_account_success: plugin_settings.form.linked_account_success
       link_oauth: plugin_settings.form.link_oauth
       link_oauth_hint: plugin_settings.form.link_oauth_hint
@@ -363,12 +363,12 @@ raw:
       refresh_rate_hint: plugin_settings.form.refresh_rate_hint
       refreshed: plugin_settings.form.refreshed
       remove_plugin: plugin_settings.form.remove_plugin
-      remove_plugin_hint: remove_plugin_hint
+      remove_plugin_hint: plugin_settings.form.remove_plugin_hint
       synced: plugin_settings.form.synced
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_paused: plugin_settings.form.refresh_paused
+      refresh_paused_hint: plugin_settings.form.refresh_paused_hint
+      refresh_paused_mashup: plugin_settings.form.refresh_paused_mashup
+      refresh_paused_mashup_hint: plugin_settings.form.refresh_paused_mashup_hint
       visit_docs: plugin_settings.form.visit_docs
     import:
       archive_too_large: plugin_settings.import.archive_too_large
