@@ -289,13 +289,14 @@ ko:
     search: # partial (search box)
       placeholder: 플러그인 검색하기
     my:
-      title: My Plugins
-      tagline: Develop Plugins for the public marketplace
-      connections: connections
-      edit: Edit
-      install: Install
-      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-      submit_for_review: Submit for Review
+      index:
+        title: My Plugins
+        tagline: Develop Plugins for the public marketplace
+      card:
+        connections: connections
+        install: Install
+        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+        submit_for_review: Submit for Review
     new:
       title: Create New Plugin
       tagline: Enable other user to install your plugin.

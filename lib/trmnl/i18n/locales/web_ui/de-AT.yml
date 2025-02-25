@@ -289,13 +289,14 @@ de-AT:
     search: # partial (search box)
       placeholder: Erweiterungen suchen
     my:
-      title: Meine Erweiterungen
-      tagline: Entwickele Erweiterungen für den öffentlichen Marktplatz
-      connections: connections
-      edit: Bearbeiten
-      install: Installieren
-      review_are_you_sure: Sicher? Das TRMNL team wird die Erweiterung prüfen. Behalte dein Mail-Postfach im Blick.
-      submit_for_review: Zur Überprüfung einreichen
+      index:
+        title: Meine Erweiterungen
+        tagline: Entwickele Erweiterungen für den öffentlichen Marktplatz
+      card:
+        connections: connections
+        install: Installieren
+        review_are_you_sure: Sicher? Das TRMNL team wird die Erweiterung prüfen. Behalte dein Mail-Postfach im Blick.
+        submit_for_review: Zur Überprüfung einreichen
     new:
       title: Neues Plugin erstellen
       tagline: Ermögliche anderen Benutzern, dein Plugin zu installieren.

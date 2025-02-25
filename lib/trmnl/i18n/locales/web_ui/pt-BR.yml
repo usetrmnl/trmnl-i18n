@@ -289,13 +289,14 @@ pt-BR:
     search: # partial (search box)
       placeholder: Buscar Plugins
     my:
-      title: Meus Plugins
-      tagline: Desenvolva Plugins para o marketplace público
-      connections: conexões
-      edit: Editar
-      install: Instalar
-      review_are_you_sure: Tem certeza? A equipe do TRMNL irá testar e te enviar quaisquer perguntas por e-mail.
-      submit_for_review: Enviar para Avaliação
+      index:
+        title: Meus Plugins
+        tagline: Desenvolva Plugins para o marketplace público
+      card:
+        connections: conexões
+        install: Instalar
+        review_are_you_sure: Tem certeza? A equipe do TRMNL irá testar e te enviar quaisquer perguntas por e-mail.
+        submit_for_review: Enviar para Avaliação
     new:
       title: Criar Novo Plugin
       tagline: Outros usuários poderão instalar seu plugin.

@@ -288,13 +288,14 @@ da:
     search: # del (søgefelt)
       placeholder: Søg Plugins
     my:
-      title: Mine Plugins
-      tagline: Udvikl plugins til det offentlige marked
-      connections: forbindelser
-      edit: Rediger
-      install: Installer
-      review_are_you_sure: Er du sikker? TRMNL-teamet vil teste det og sende dig eventuelle spørgsmål via e-mail.
-      submit_for_review: Indsend til gennemgang
+      index:
+        title: Mine Plugins
+        tagline: Udvikl plugins til det offentlige marked
+      card:
+        connections: forbindelser
+        install: Installer
+        review_are_you_sure: Er du sikker? TRMNL-teamet vil teste det og sende dig eventuelle spørgsmål via e-mail.
+        submit_for_review: Indsend til gennemgang
     new:
       title: Opret nyt plugin
       tagline: Andre brugere vil kunne installere dit plugin.

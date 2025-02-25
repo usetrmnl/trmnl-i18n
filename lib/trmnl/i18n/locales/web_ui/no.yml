@@ -292,13 +292,14 @@
     search:
       placeholder: Søk etter plugins
     my:
-      title: Mine plugins
-      tagline: Utvikle plugins for det offentlige markedet
-      connections: tilkoblinger
-      edit: Rediger
-      install: Installer
-      review_are_you_sure: Er du sikker? TRMNL-teamet vil teste den og sende deg e-post med spørsmål.
-      submit_for_review: Send inn for vurdering
+      index:
+        title: Mine plugins
+        tagline: Utvikle plugins for det offentlige markedet
+      card:
+        connections: tilkoblinger
+        install: Installer
+        review_are_you_sure: Er du sikker? TRMNL-teamet vil teste den og sende deg e-post med spørsmål.
+        submit_for_review: Send inn for vurdering
     new:
       title: Lag ny plugin
       tagline: Andre brukere vil kunne installere din plugin.

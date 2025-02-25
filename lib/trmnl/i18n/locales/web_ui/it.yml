@@ -289,13 +289,14 @@ it:
     search: # partial (search box)
       placeholder: Cerca Plugin
     my:
-      title: I Miei Plugin
-      tagline: Crea Plugin per il marketplace
-      connections: Collezioni
-      edit: Modifica
-      install: Installa
-      review_are_you_sure: Sei sicuro? Il team TRMNL proverà e ti manderà una mail con qualsiasi domanda.
-      submit_for_review: Invia per revisione
+      index:
+        title: I Miei Plugin
+        tagline: Crea Plugin per il marketplace
+      card:
+        connections: Collezioni
+        install: Installa
+        review_are_you_sure: Sei sicuro? Il team TRMNL proverà e ti manderà una mail con qualsiasi domanda.
+        submit_for_review: Invia per revisione
     new:
       title: Crea Nuovo Plugin
       tagline: Gli altri utenti potranno installare il tuo plugin.

@@ -289,13 +289,14 @@ raw:
     search: # partial (search box)
       placeholder: plugins.search.placeholder
     my:
-      title: plugins.my.title
-      tagline: plugins.my.tagline
-      connections: plugins.my.connections
-      edit: plugins.my.edit
-      install: plugins.my.install
-      review_are_you_sure: plugins.my.review_are_you_sure
-      submit_for_review: plugins.my.submit_for_review
+      index:
+        title: plugins.my.title
+        tagline: plugins.my.tagline
+      card:
+        connections: plugins.my.connections
+        install: plugins.my.install
+        review_are_you_sure: plugins.my.review_are_you_sure
+        submit_for_review: plugins.my.submit_for_review
     new:
       title: plugins.new.title
       tagline: plugins.new.tagline

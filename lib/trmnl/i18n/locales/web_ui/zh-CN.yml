@@ -289,13 +289,14 @@ zh-CN:
     search: # partial (search box)
       placeholder: 搜索所有插件
     my:
-      title: 我的插件
-      tagline: 开发插件并与其他用户共享
-      connections: connections
-      edit: Edit
-      install: Install
-      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-      submit_for_review: 提交审核
+      index:
+        title: 我的插件
+        tagline: 开发插件并与其他用户共享
+      card:
+        connections: connections
+        install: Install
+        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+        submit_for_review: 提交审核
     new:
       title: 创建插件
       tagline: 开发您的第一个插件
