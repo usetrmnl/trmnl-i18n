@@ -289,13 +289,14 @@ fr:
     search: # partial (search box)
       placeholder: Rechercher des extensions
     my:
-      title: Mes extensions
-      tagline: Développez des plugins pour le marketplace
-      connections: connexions
-      edit: Modifier
-      install: Installer
-      review_are_you_sure: Êtes-vous sûr·e ? L'équipe TRMNL va le tester et vous contactera en cas de questions.
-      submit_for_review: Soumettre pour revue
+      index:
+        title: Mes extensions
+        tagline: Développez des plugins pour le marketplace
+      card:
+        connections: connexions
+        install: Installer
+        review_are_you_sure: Êtes-vous sûr·e ? L'équipe TRMNL va le tester et vous contactera en cas de questions.
+        submit_for_review: Soumettre pour revue
     new:
       title: Créer un nouveau plugin
       tagline: Permettre à d'autres d'installer votre plugin.
