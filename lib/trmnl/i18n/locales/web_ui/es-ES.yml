@@ -289,13 +289,14 @@ es-ES:
     search: # parcial (cuadro de búsqueda)
       placeholder: Buscar Plugins
     my:
-      title: Mis Plugins
-      tagline: Desarrolla para el mercado de Plugins
-      connections: connections
-      edit: Edit
-      install: Install
-      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-      submit_for_review: Mandar a revisión
+      index:
+        title: Mis Plugins
+        tagline: Desarrolla para el mercado de Plugins
+      card:
+        connections: connections
+        install: Install
+        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+        submit_for_review: Mandar a revisión
     new:
       title: Crear Plugin
       tagline: Permitir que otros usuarios instalen tu plugin

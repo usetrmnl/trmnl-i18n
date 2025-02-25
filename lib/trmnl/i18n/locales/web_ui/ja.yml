@@ -289,13 +289,14 @@ ja:
     search: # partial (search box)
       placeholder: プラグインを検索
     my:
-      title: マイプラグイン
-      tagline: 公開マーケットプレイス向けのプラグインを開発
-      connections: コネクション
-      edit: 編集
-      install: インストール
-      review_are_you_sure: よろしいですか？TRMNLチームがテストを行い、質問があればメールでご連絡します。
-      submit_for_review: レビューのために提出
+      index:
+        title: マイプラグイン
+        tagline: 公開マーケットプレイス向けのプラグインを開発
+      card:
+        connections: コネクション
+        install: インストール
+        review_are_you_sure: よろしいですか？TRMNLチームがテストを行い、質問があればメールでご連絡します。
+        submit_for_review: レビューのために提出
     new:
       title: 新しいプラグインを作成
       tagline: 他のユーザーがあなたのプラグインをインストールできるようにします。

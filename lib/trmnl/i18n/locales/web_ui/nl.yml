@@ -289,13 +289,14 @@ nl:
     search: # partial (search box)
       placeholder: Zoeken binnen plugins
     my:
-      title: Mijn plugins
-      tagline: Ontwikkel plugins voor de openbare marktplaats
-      connections: verbindingen
-      edit: Bewerken
-      install: Installeren
-      review_are_you_sure: Weet je het zeker? Het TRMNL-team gaat je plugin testen en kan eventueel vragen per e-mail sturen.
-      submit_for_review: Indienen ter beoordeling
+      index:
+        title: Mijn plugins
+        tagline: Ontwikkel plugins voor de openbare marktplaats
+      card:
+        connections: verbindingen
+        install: Installeren
+        review_are_you_sure: Weet je het zeker? Het TRMNL-team gaat je plugin testen en kan eventueel vragen per e-mail sturen.
+        submit_for_review: Indienen ter beoordeling
     new:
       title: Nieuwe plugin maken
       tagline: Sta andere gebruikers toe je plugin te installeren.

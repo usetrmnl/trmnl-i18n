@@ -289,13 +289,14 @@ id:
     search: # partial (search box)
       placeholder: Cari Plugin
     my:
-      title: Plugin Saya
-      tagline: Kembangkan Plugin Anda untuk lokapasar plugin
-      connections: connections
-      edit: Edit
-      install: Install
-      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-      submit_for_review: Ajukan untuk ditinjau
+      index:
+        title: Plugin Saya
+        tagline: Kembangkan Plugin Anda untuk lokapasar plugin
+      card:
+        connections: connections
+        install: Install
+        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+        submit_for_review: Ajukan untuk ditinjau
     new:
       title: Buat Plugin Baru
       tagline: Permudah pengguna lain memasang plugin buatan Anda!
