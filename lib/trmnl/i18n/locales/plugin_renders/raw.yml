@@ -8,6 +8,32 @@ raw:
       days_passed: days_left_year.title
       days_left: days_left_year.title
 
+    parcel:
+      delivery_by: parcel.delivery_by
+      empty: parcel.empty
+      errors:
+        api: parcel.errors.api
+        http: parcel.errors.http
+        internal: parcel.errors.internal
+      filter_modes:
+        active:
+          one: parcel.filter_modes.active.one
+          other: parcel.filter_modes.active.other
+        recent:
+          one: parcel.filter_modes.recent.one
+          other: parcel.filter_modes.recent.other
+      status:
+        delivered: parcel.status.delivered
+        delivery_exception: parcel.status.delivery_exception
+        expecting_pickup: parcel.status.expecting_pickup
+        failed_delivery_attempt: parcel.status.failed_delivery_attempt
+        frozen: parcel.status.frozen
+        in_transit: parcel.status.in_transit
+        information_received: parcel.status.information_received
+        not_found: parcel.status.not_found
+        out_for_delivery: parcel.status.out_for_delivery
+        unknown: parcel.status.unknown
+
     weather:
       title: weather.title
       temperature: weather.temperature

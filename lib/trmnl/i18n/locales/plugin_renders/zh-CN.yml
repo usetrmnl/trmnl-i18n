@@ -8,6 +8,32 @@ zh-CN:
       days_passed: Days Passed
       days_left: Days Left
 
+    parcel:
+      delivery_by: Delivery by
+      empty: There are no deliveries
+      errors:
+        api: Parcel API error
+        http: HTTP error %{code}
+        internal: Internal error
+      filter_modes:
+        active:
+          one: Active Delivery
+          other: Active Deliveries
+        recent:
+          one: Recent Delivery
+          other: Recent Deliveries
+      status:
+        delivered: Delivered
+        delivery_exception: Delivery Exception
+        expecting_pickup: Expecting Pickup
+        failed_delivery_attempt: Failed Delivery Attempt
+        frozen: Frozen
+        in_transit: In Transit
+        information_received: Information Received
+        not_found: Not Found
+        out_for_delivery: Out For Delivery
+        unknown: Unknown
+
     weather:
       title: Weather
       temperature: Temperature
