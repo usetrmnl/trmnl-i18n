@@ -257,12 +257,12 @@ zh-HK:
       add_first_device_cta: 請先__新增__TRMNL裝置！
       add_to_playlist: 加入至播放清單
       create_first_playlist_cta: 請先__連接__第一個外掛功能，方可新增播放清單！
-      custom: Custom
-      device_default: Device default
+      custom: 自訂
+      device_default: 裝置預設
       display_period_from: 顯示時間
       display_period_to: 至
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: every
+      display_period_validation: 開始時間必須早於結束時間。如要跨越午夜，請新增另一個群組。
+      every: 頻率
     playlist: # partial (single item)
       delete: 確定要移除此項目嗎？外掛會保持連接，只是不會在裝置上顯示。
       displayed_now: 正在顯示
@@ -321,7 +321,7 @@ zh-HK:
       name: 名稱
       description: 描述
   plugin_recipes:
-    connected: Recipe connected
+    connected: 已連接模板
     new:
       error: 找不到模板
   plugin_settings:
@@ -361,10 +361,10 @@ zh-HK:
       remove_plugin: 移除外掛
       remove_plugin_hint: 移除外掛後，亦會從你的播放清單中移除
       synced: 已同步
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_paused: 已暫停更新
+      refresh_paused_hint: 自動更新已暫停，請加入至播放清單以重新開始。
+      refresh_paused_mashup: 只更新混搭畫面
+      refresh_paused_mashup_hint: 已暫停全螢幕的自動更新，混搭畫面(Mashup)仍會更新。
       visit_docs: 前往文件
     import:
       archive_too_large: ZIP檔案太大（最多%{max_mb} MB）
