@@ -14,6 +14,7 @@ group :quality do
 end
 
 group :development do
+  gem "cogger", "~> 1.1"
   gem "rake", "~> 13.2"
 end
 
