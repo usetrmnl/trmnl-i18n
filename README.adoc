@@ -77,6 +77,8 @@ You can also use the IRB console for direct access to all objects:
 bin/console
 ----
 
+To add new locale  keys, first add them to the `en.yml` files in each folder. Then run `bin/sync` to update all other languages. The default source locale is always `en` but you can supply a specific locale if you like. For example, if wanting to use French as the default source locale, run: `bin/sync fr`.
+
 To test within a Rails app for local development purposes, you can do the following:
 
 . Create a feature branch and add your new locales.
