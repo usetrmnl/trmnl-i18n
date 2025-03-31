@@ -1,8 +1,8 @@
-"no":
-  # global, logged out, and auth-related
+---
+'no':
   add: Legg til
   add_new: Legg til ny
-  ago: siden # example: "Created 5 mins ago"
+  ago: siden
   already_have_account: Jeg har allerede en konto
   back: Tilbake
   back_to_all_blog_posts: Tilbake til alle innlegg
@@ -61,8 +61,6 @@
   update: Oppdater
   view: Vis
   welcome: Velkommen
-
-  # views by resource (device, plugins, playlists, account, etc)
   account:
     index:
       title: Konto
@@ -89,11 +87,8 @@
       time_zone_hint: Bestemmer oppdateringsfrekvenser og enhetens hviletid.
       locale: Språk
       locale_hint: Hvilket språk og lokalitet foretrekker du? __Gå hit__.
-
-    # toast messages
     update:
       success: Profil oppdatert
-
   dashboard:
     index:
       title: Oversikt
@@ -105,28 +100,27 @@
       last_90_days: Siste 90 dager
       today: I dag
       yesterday: I går
-    health: # partial (widget)
+    health:
       bad: Plugins har problemer
       good: Plugins fungerer bra
       next_steps: Vi informerer deg hvis noe endres
-    news: # partial (widget)
+    news:
       title: Nyheter
       cta: Vis alle
-    playlists: # partial (widget)
+    playlists:
       title: Spilleliste
       cta: Rediger spilleliste
       pieces_of_content_displayed: Antall viste innholdselementer
-    plugins: # partial (widget)
+    plugins:
       title: Plugins
       cta: Gå til Plugins
       connected: Tilkoblet
       new_and_popular: Nye og populære
     shop:
       title: Butikk
-    time_saved: # partial (widget)
+    time_saved:
       title: Tid spart
       cta: Les om
-
   devices:
     edit:
       accepts_beta_firmware: Tidlig utgivelse av fastvare
@@ -172,8 +166,6 @@
       title: Legg til en ny enhet
       description: Skriv inn din enhets-ID for å legge til en ny TRMNL-enhet til kontoen din.
       add_device: Legg til ny enhet
-
-    # toast messages
     associate:
       error: Feil ved tilkobling av enhet
       success: Enheten ble tilkoblet
@@ -195,7 +187,6 @@
     update:
       error: Feil ved oppdatering av enhet
       success: "%{device} enhetsinnstillingene ble oppdatert"
-
   invoices:
     rate_limit: For mange forsøk, vennligst vent og prøv igjen
     invoice_not_found: Faktura ikke funnet
@@ -274,8 +265,6 @@
       displayed_now: Vises nå
       not_displayed_yet: Venter
       remove_from_playlist: Fjern fra spilleliste
-
-    # toast messages
     create:
       error: Kunne ikke oppdatere spillelisten
       success: Spilleliste oppdatert
@@ -373,12 +362,10 @@
       refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
       visit_docs: Besøk dokumentasjonen
     import:
-      archive_too_large: "ZIP-filen er for stor (maksimum %{max_mb} MB)"
-      missing_entry: "ZIP-filen inneholder ikke %{filename}"
+      archive_too_large: ZIP-filen er for stor (maksimum %{max_mb} MB)
+      missing_entry: ZIP-filen inneholder ikke %{filename}
       entry_too_large: "%{filename} er for stor"
       malformed: "%{filename} er feilformatert"
-
-    # toast messages
     create:
       success: Plugin opprettet og lagt til din
       playlist: spilleliste
@@ -389,17 +376,14 @@
       success: Plugin-konfigurasjonen ble oppdatert
     add_to_playlist:
       success: Plugin lagt til i spilleliste
-
   referral_code:
     create:
       request_received: Forespørsel mottatt, sjekk innboksen din
   upgrade:
     index:
-      title: "Oppgraderer enhet:"
+      title: 'Oppgraderer enhet:'
       tagline: Lås opp egendefinerte plugins og __mer__.
       pay: Betal
       error: Enheten %{device_name} er allerede oppgradert, bytt til en annen enhet
-
-    # toast messages
     confirm:
       success: Utviklerutgave-tillegget er nå aktivert

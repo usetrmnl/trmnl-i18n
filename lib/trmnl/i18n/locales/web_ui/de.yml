@@ -1,9 +1,9 @@
+---
 de:
-  # global, logged out, and auth-related
   add: Hinzufügen
   add_new: Neu hinzufügen
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: Ich besitze bereits ein Konto # signup form cta
+  ago: ago
+  already_have_account: Ich besitze bereits ein Konto
   back: Zurück
   back_to_all_blog_posts: Zurück zu allen Posts
   blog: Blog
@@ -18,8 +18,8 @@ de:
   copy: Kopieren
   copied_to_clipboard: Kopiert!
   copy_to_clipboard: In Zwischenablage kopieren
-  created: Created # example: "Created 5 mins ago"
-  create_an_account: Konto erstellen # login form cta
+  created: Created
+  create_an_account: Konto erstellen
   current_device: Aktuelles Gerät
   days: Tage
   delete: Löschen
@@ -30,8 +30,8 @@ de:
   export: Export
   fetching: Fetching
   first_name: Vorname
-  forgot_password: Passwort vergessen # login form link
-  forgot_password_title: Neues Passwort vergeben # heading on /password/new
+  forgot_password: Passwort vergessen
+  forgot_password_title: Neues Passwort vergeben
   get_started: Lass uns loslegen!
   identify: Identifizieren
   import: Import
@@ -43,26 +43,24 @@ de:
   loading: Laden...
   login: Anmelden
   log_out: Abmelden
-  minimum_characters: Zeichen Minimum # ex: 8 characters minimum
-  mins: Minuten # 'minutes' abbreviation
+  minimum_characters: Zeichen Minimum
+  mins: Minuten
   my_playlist: Meine Wiedergabeliste
   new_password: Neues Passwort
   password: Passwort
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Please Wait...
   plugin_not_found: Plugin nicht gefunden
   refresh_rates_hint: Weitere Informationen zur Aktualisierungsrate __hier__.
   reset_password: Passwort zurücksetzen
   save: Speichern
   section: Section
-  sign_in: Anmelden # login form cta
-  sign_up: Registrieren # logged out navigation
+  sign_in: Anmelden
+  sign_up: Registrieren
   something_went_wrong: Etwas ist schiefgelaufen
-  support: Support # bottom navigation tab, links to help center
+  support: Support
   update: Aktualisieren
   view: Ansicht
-  welcome: Willkommen # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: Willkommen
   account:
     index:
       title: Konto
@@ -70,7 +68,7 @@ de:
       email_address: E-Mail Adresse
       refer_and_earn: Weiterempfehlen
       refer_and_earn_hint: Empfehle TRMNL mit einem personalisierten Code weiter. Verdiene pro Einlösung, monatlich ausgezahlt.
-      refer_and_earn_redemptions: Einlösungen # how many times this coupon has been used
+      refer_and_earn_redemptions: Einlösungen
       refer_and_earn_request_code: Empfehlungscode anfordern
       device_invoice: Rechnungsdownload
       device_invoice_label: Lade die Rechnung für den Kauf deines TRMNL als PDF herunter.
@@ -89,8 +87,6 @@ de:
       time_zone_hint: Legt Aktualisierungsraten und Ruhezeiten des Geräts fest.
       locale: Sprache
       locale_hint: Wähle die gewünschte Sprache und Lokalisierung aus. __Weitere Infos__.
-
-    # toast messages
     update:
       success: Konto erfolgreich aktualisiert
   dashboard:
@@ -104,35 +100,35 @@ de:
       last_90_days: Letzte 90 Tage
       today: Heute
       yesterday: Gestern
-    health: # partial (widget)
+    health:
       bad: Erweiterungen mit Einschränkungen
       good: Voll funktionsfähige Erweiterungen
       next_steps: Wir werden Sie über Änderungen informieren
-    news: # partial (widget)
+    news:
       title: Neuigkeiten
       cta: Alle anzeigen
-    playlists: # partial (widget)
+    playlists:
       title: Wiedergabelisten
       cta: Wiedergabelisten anzeigen
       pieces_of_content_displayed: Angezeigte Inhalte
-    plugins: # partial (widget)
+    plugins:
       title: Erweiterungen
       cta: Erweiterungen anzeigen
       connected: Verbunden
       new_and_popular: Neu und populär
     shop:
       title: Shop
-    time_saved: # partial (widget)
+    time_saved:
       title: Eingesparte Zeit
       cta: Mehr erfahren
   devices:
     edit:
-      accepts_beta_firmware: Beta Firmware # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: Beta Firmware
       accepts_beta_firmware_hint: Aktiviere diese Option, um vor anderen Benutzern die neuesten Firmware-Updates für das Gerät zu erhalten.
       back_to_devices: Zurück zur Geräteübersicht
       battery_consumption: Batterieverbrauch
       battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus.
-      developer_perks: Vorteile für Entwickler # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: Vorteile für Entwickler
       developer_perks_hint: Für die folgenden Optionen ist das __Entwickler-Add-on__ erforderlich.
       device_credentials: Geräteinformationen
       device_credentials_hint: Lerne mehr über die Verwendungsmöglichkeiten der Infos __hier__
@@ -170,8 +166,6 @@ de:
       title: Neues Gerät hinzufügen
       description: Gib deine Gerätekennung ein, um ein neues TRMNL zu deinem Konto hinzuzufügen.
       add_device: Neues Gerät hinzufügen
-
-    # toast messages
     associate:
       error: Fehler beim Verknüpfen des Gerätes
       success: Gerät erfolgreich verknüpft
@@ -192,7 +186,7 @@ de:
       success: Gerät erfolgreich gewechselt
     update:
       error: Fehler beim Aktualisieren des Gerätes
-      success: "Einstellungen von %{device} erfolgreich aktualisiert"
+      success: Einstellungen von %{device} erfolgreich aktualisiert
   invoices:
     rate_limit: Too many attempts, please wait and try again
     invoice_not_found: Invoice not found
@@ -201,7 +195,7 @@ de:
       title: Logs
       all: All
       device: Gerät
-      dump: Dump # content
+      dump: Dump
       id: ID
       private_plugins: Private Plugins
       source: Quelle
@@ -266,13 +260,11 @@ de:
       display_period_to: bis
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
       every: every
-    playlist: # partial (single item)
+    playlist:
       delete: Soll dieser Eintrag wirklich entfernt werden? Die Erweiterung bleibt weiterhin verbunden, wird lediglich nicht auf dem Gerät angezeigt.
       displayed_now: Wird angezeigt
       not_displayed_yet: Wird nicht angezeigt
       remove_from_playlist: Von Wiedergabeliste entfernen
-
-    # toast messages
     create:
       error: Fehler beim Aktualisieren der Wiedergabeliste
       success: Wiedergabeliste aktualisiert
@@ -287,9 +279,9 @@ de:
       tagline: Was soll auf dem TRMNL angezeigt werden?
       available: Verfügbar
       connected: Verbunden
-      recipes: Blaupausen # Thought that 'Rezepte' wouldnt fit here because anyone can edit the plugins content itself
+      recipes: Blaupausen
       recipes_hint: Private Erweiterungen aus der Community können mit einem Klick installiert werden. __Mehr erfahren__
-    search: # partial (search box)
+    search:
       placeholder: Erweiterungen suchen
     my:
       index:
@@ -333,7 +325,7 @@ de:
     delete_are_you_sure: Möchten Sie diese Einstellung wirklich löschen?
     delete: Hiermit werden alle Einstellungen der Erweiterung vollständig entfernt. Um die Erweiterung lediglich auszublenden, kann sie einfach von der Wiedergabeliste entfernt werden.
     inactive: Inaktiv
-    no_plugin_settings_found: Keine Einstellungen für diese Erweiterung gefunden. # empty state - should not appear
+    no_plugin_settings_found: Keine Einstellungen für diese Erweiterung gefunden.
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
@@ -374,8 +366,6 @@ de:
       missing_entry: The ZIP file does not contain %{filename}
       entry_too_large: "%{filename} is too large"
       malformed: "%{filename} is malformed"
-
-    # toast messages
     create:
       success: Erweiterung erstellt und hinzugefügt zur
       playlist: Wiedergabeliste
@@ -386,17 +376,14 @@ de:
       success: Einstellungen der Erweiterung wurden erfolgreich aktualisiert
     add_to_playlist:
       success: Plugin zur Playlist hinzugefügt
-
   referral_code:
     create:
       request_received: Request received, check your inbox
   upgrade:
     index:
-      title: "Gerät wird aktualisiert:"
+      title: 'Gerät wird aktualisiert:'
       tagline: Schalten Sie benutzerdefinierte Plugins und mehr frei
-      pay: Zahle # button text; ex "Pay $20"
+      pay: Zahle
       error: Device %{device_name} is already upgraded, switch to another device
-
-    # toast messages
     confirm:
       success: Developer edition add-on is nun aktiv
