@@ -52,5 +52,24 @@ RSpec.describe TRMNL::I18n::Synchronization::Repo do
       result = repo.load "fr"
       expect(result).to eq("fr" => {"hello" => "Bonjour", "world" => "Monde"})
     end
+
+    it "saves YAML content with desired formatting" do
+      repo.save "fr",
+                "fr" => {
+                  "lorem_ipsum" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " \
+                                   "Sed do eiusmod tempor incididunt ut labore et dolore magna " \
+                                   "aliqua."
+                }
+
+      result = File.read temp_dir.join("fr.yml")
+
+      expected = <<~YAML
+        ---
+        fr:
+          lorem_ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      YAML
+
+      expect(result).to eq(expected)
+    end
   end
 end

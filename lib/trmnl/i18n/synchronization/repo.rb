@@ -24,7 +24,11 @@ module TRMNL
 
         def load(locale) = YAML.load_file locale_path(locale)
 
-        def save(locale, data) = locale_path(locale).write data.to_yaml
+        def save locale, data
+          File.open locale_path(locale), "w" do |file|
+            Psych.dump data, file, indentation: 2, line_width: -1
+          end
+        end
 
         def locales = directory.files("*.yml").map { |path| path.name.to_s }
 
