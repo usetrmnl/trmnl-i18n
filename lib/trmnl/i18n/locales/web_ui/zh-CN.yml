@@ -65,6 +65,11 @@ zh-CN:
     index:
       title: 账号
       tagline: 修改账号设置
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: Email
       refer_and_earn: 返利
       refer_and_earn_hint: 通过个性化的优惠券赠送 TRMNL 设备。按使用次数付费，按月支付。
@@ -89,6 +94,8 @@ zh-CN:
       locale_hint: 您首选的语言和本地化是？__可在此设置__。
     update:
       success: 账户修改成功
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: 仪表盘

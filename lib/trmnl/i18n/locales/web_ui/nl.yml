@@ -65,6 +65,11 @@ nl:
     index:
       title: Account
       tagline: Accountinstellingen beheren
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: Emailadres
       refer_and_earn: Verwijs en verdien
       refer_and_earn_hint: Deel TRMNL via een gepersonaliseerde coupon. Verdien per gebruik, maandelijks uitbetaald.
@@ -89,6 +94,8 @@ nl:
       locale_hint: Welke taal en lokalisatie heeft je voorkeur? __Ga hiernaartoe__.
     update:
       success: Profiel succesvol bijgewerkt
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: Dashboard

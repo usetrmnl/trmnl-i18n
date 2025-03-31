@@ -65,6 +65,11 @@ de:
     index:
       title: Konto
       tagline: Verwalte deine Kontoeinstellungen
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: E-Mail Adresse
       refer_and_earn: Weiterempfehlen
       refer_and_earn_hint: Empfehle TRMNL mit einem personalisierten Code weiter. Verdiene pro Einlösung, monatlich ausgezahlt.
@@ -89,6 +94,8 @@ de:
       locale_hint: Wähle die gewünschte Sprache und Lokalisierung aus. __Weitere Infos__.
     update:
       success: Konto erfolgreich aktualisiert
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: Dashboard

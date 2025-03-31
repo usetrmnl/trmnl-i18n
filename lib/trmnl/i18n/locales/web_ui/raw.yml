@@ -65,6 +65,11 @@ raw:
     index:
       title: account.index.title
       tagline: account.index.tagline
+      api_key_confirm: account.index.api_key_confirm
+      api_key_hint: account.index.api_key_hint
+      api_key_label: account.index.api_key_label
+      api_key_reset: account.index.api_key_reset
+      api_key: account.index.api_key
       email_address: account.index.email_address
       refer_and_earn: account.index.refer_and_earn
       refer_and_earn_hint: account.index.refer_and_earn_hint
@@ -89,6 +94,8 @@ raw:
       locale_hint: account.index.locale_hint __Go here__.
     update:
       success: account.update.success
+    reset_api_key:
+      success: account.reset_api_key.success
   dashboard:
     index:
       title: dashboard.index.title

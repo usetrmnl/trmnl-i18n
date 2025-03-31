@@ -65,6 +65,11 @@ id:
     index:
       title: Akun
       tagline: Kelola pengaturan akun Anda
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: Alamat Email
       refer_and_earn: Refer and Earn
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
@@ -89,6 +94,8 @@ id:
       locale_hint: What language and localization do you prefer? __Go here__.
     update:
       success: Profil Anda berhasil diperbarui!
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: Dasbor
