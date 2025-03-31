@@ -1,5 +1,5 @@
+---
 da:
-  # global, logged out, and auth-related
   add: Tilføj
   add_new: Tilføj ny
   ago: siden
@@ -61,7 +61,6 @@ da:
   update: Opdater
   view: Vis
   welcome: Velkommen
-
   account:
     index:
       title: Konto
@@ -88,8 +87,6 @@ da:
       time_zone_hint: Bestemmer opdateringshastigheder og enhedens sovetid.
       locale: Lokalitet
       locale_hint: Hvilket sprog og lokalisering foretrækker du? __Klik her__.
-
-    # toast messages
     update:
       success: Profil opdateret med succes
   dashboard:
@@ -103,35 +100,35 @@ da:
       last_90_days: Sidste 90 dage
       today: I dag
       yesterday: I går
-    health: # partial (widget)
+    health:
       bad: Plugins oplever problemer
       good: Plugins er sunde
       next_steps: Vi vil informere dig, hvis noget ændrer sig
-    news: # del (widget)
+    news:
       title: Nyheder
       cta: Se alle
-    playlists: # del (widget)
+    playlists:
       title: Playliste
       cta: Rediger playliste
       pieces_of_content_displayed: Indholdselementer vist
-    plugins: # del (widget)
+    plugins:
       title: Plugins
       cta: Gå til Plugins
       connected: Forbundet
       new_and_popular: Nye og populære
     shop:
       title: Butik
-    time_saved: # del (widget)
+    time_saved:
       title: Tid sparet
       cta: Læs om
   devices:
     edit:
-      accepts_beta_firmware: Firmware Tidlig Udgivelse # true/false toggle for at modtage nye enhedsopdateringer før almindelige brugere
+      accepts_beta_firmware: Firmware Tidlig Udgivelse
       accepts_beta_firmware_hint: Slå til for at få de nyeste firmwareforbedringer før andre brugere.
       back_to_devices: Tilbage til enheder
       battery_consumption: Batteriforbrug
       battery_consumption_hint: Spar strøm og nyd længere batterilevetid ved at aktivere dvaletilstand.
-      developer_perks: Udviklerfordele # overskrift; nedenfor er en liste over muligheder for enheder med (betalt) udviklerudgave-tilføjelse
+      developer_perks: Udviklerfordele
       developer_perks_hint: Mulighederne nedenfor kræver __Udviklerudgave-tilføjelse__.
       device_credentials: Enhedsoplysninger
       device_credentials_hint: Se hvad du kan gøre med disse oplysninger __her__
@@ -169,8 +166,6 @@ da:
       title: Tilføj en ny enhed
       description: Indtast dit enheds-ID for at tilføje en ny TRMNL-enhed til din konto.
       add_device: Tilføj ny enhed
-
-    # toast messages
     associate:
       error: Fejl ved tilknytning af enhed
       success: Enhed tilknyttet med succes
@@ -200,7 +195,7 @@ da:
       title: Logfiler
       all: Alle
       device: Enhed
-      dump: Dump # indhold
+      dump: Dump
       id: ID
       private_plugins: Private Plugins
       source: Kilde
@@ -265,13 +260,11 @@ da:
       display_period_to: til
       display_period_validation: Starttidspunkt skal være før sluttidspunkt. Opret en ny gruppe for at dække over midnat.
       every: hver
-    playlist: # del (enkelt element)
+    playlist:
       delete: Er du sikker på, at du vil fjerne dette element? Pluginet vil forblive tilsluttet, men ikke blive vist på din enhed.
       displayed_now: Vist nu
       not_displayed_yet: Afventer
       remove_from_playlist: Fjern fra playliste
-
-    # toast messages
     create:
       error: Fejl ved opdatering af playliste
       success: Playliste opdateret
@@ -288,7 +281,7 @@ da:
       connected: Forbundet
       recipes: Opskrifter
       recipes_hint: Private plugins af fællesskabsmedlemmer, der kan installeres med 1 klik. __Lær mere__.
-    search: # del (søgefelt)
+    search:
       placeholder: Søg Plugins
     my:
       index:
@@ -332,7 +325,7 @@ da:
     delete_are_you_sure: Er du sikker på, at du vil slette denne indstilling?
     delete: Dette vil fuldstændigt fjerne pluginets indstillinger. For blot at skjule dette plugin fra din enhed, skal du slette det fra din playliste i stedet.
     inactive: Inaktiv
-    no_plugin_settings_found: Ingen plugin-indstillinger fundet. # tom tilstand - bør ikke vises
+    no_plugin_settings_found: Ingen plugin-indstillinger fundet.
     refreshing_now_please_wait: Opdaterer nu, genindlæs denne side om et par sekunder.
     reset_credentials: "%{plugin_name} konto nulstillet med succes"
     form:
@@ -373,8 +366,6 @@ da:
       missing_entry: ZIP-filen indeholder ikke %{filename}
       entry_too_large: "%{filename} er for stor"
       malformed: "%{filename} er fejlbehæftet"
-
-    # toast beskeder
     create:
       success: Plugin oprettet og tilføjet til din
       playlist: playliste
@@ -385,17 +376,14 @@ da:
       success: Plugin-konfiguration opdateret med succes
     add_to_playlist:
       success: Plugin tilføjet til playliste
-
   referral_code:
     create:
       request_received: Anmodning modtaget, tjek din indbakke
   upgrade:
     index:
-      title: "Opgradering af enhed:"
+      title: 'Opgradering af enhed:'
       tagline: Lås op for tilpassede plugins og __mere__.
-      pay: Betal # knaptekst; fx "Betal $20"
+      pay: Betal
       error: Enhed %{device_name} er allerede opgraderet, skift til en anden enhed
-
-    # toast beskeder
     confirm:
       success: Udviklerudgave-tilføjelse er nu aktiveret

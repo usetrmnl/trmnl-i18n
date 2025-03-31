@@ -1,9 +1,9 @@
+---
 ko:
-  # global, logged out, and auth-related
   add: 추가하기
   add_new: 새로 추가하기
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: 이미 계정이 있음 # signup form cta
+  ago: ago
+  already_have_account: 이미 계정이 있음
   back: 뒤로가기
   back_to_all_blog_posts: Back to all posts
   blog: Blog
@@ -18,8 +18,8 @@ ko:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
-  created: Created # example: "Created 5 mins ago"
-  create_an_account: 계정 만들기 # login form cta
+  created: Created
+  create_an_account: 계정 만들기
   current_device: 현재 기기
   days: 일
   delete: 삭제하기
@@ -30,8 +30,8 @@ ko:
   export: Export
   fetching: Fetching
   first_name: 이름
-  forgot_password: 비밀번호를 잊어버렸어요 # login form link
-  forgot_password_title: 자, 다시 갑시다 # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  forgot_password: 비밀번호를 잊어버렸어요
+  forgot_password_title: 자, 다시 갑시다
   get_started: 시작할께요!
   identify: 확인하기
   import: Import
@@ -43,26 +43,24 @@ ko:
   loading: 로딩중
   login: 로그인
   log_out: 로그아웃
-  minimum_characters: 최소 글자 수 # ex: 8 characters minimum
-  mins: mins # 'minutes' abbreviation
+  minimum_characters: 최소 글자 수
+  mins: mins
   my_playlist: My Playlist
   new_password: 새 비밀번호
   password: 비밀번호
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Please Wait...
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: 비밀번호 재설정
   save: 저장
   section: Section
-  sign_in: 로그인하기 # login form cta
-  sign_up: 가입하기 # logged out navigation
+  sign_in: 로그인하기
+  sign_up: 가입하기
   something_went_wrong: Something went wrong
-  support: Support # bottom navigation tab, links to help center
+  support: Support
   update: 새로 저장
   view: 보기
-  welcome: 환영합니다 # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: 환영합니다
   account:
     index:
       title: 내 계정
@@ -70,7 +68,7 @@ ko:
       email_address: 이메일 주소
       refer_and_earn: Refer and Earn
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_redemptions: Redemptions
       refer_and_earn_request_code: Request a Code
       device_invoice: Device Invoice
       device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
@@ -89,8 +87,6 @@ ko:
       time_zone_hint: 기기 새로 고침 비율과 절전 모드를 결정하는데 쓰입니다.
       locale: Locale
       locale_hint: What language and localization do you prefer? __Go here__.
-
-    # toast messages
     update:
       success: 프로필 정보가 업데이트 되었습니다.
   dashboard:
@@ -104,35 +100,35 @@ ko:
       last_90_days: 지난 90일
       today: 오늘
       yesterday: 어제
-    health: # partial (widget)
+    health:
       bad: 현재 플러그인들에 오류가 있습니다
       good: 플러그인 모두 정상
       next_steps: 어떤 변화가 있다면 알림 드리겠습니다
-    news: # partial (widget)
+    news:
       title: 뉴스
       cta: 모두 보기
-    playlists: # partial (widget)
+    playlists:
       title: 플레이리스트
       cta: 플레이리스트 더보기
       pieces_of_content_displayed: 개의 콘텐츠 화면에 보여짐
-    plugins: # partial (widget)
+    plugins:
       title: 플러그인
       cta: 플러그인 더보기
       connected: 연결
       new_and_popular: 인기 급상승 & 새 플러그인
     shop:
       title: 쇼핑
-    time_saved: # partial (widget)
+    time_saved:
       title: 절약한 시간
       cta: 더 알아보기
   devices:
     edit:
-      accepts_beta_firmware: 새로 출시된 펌웨어 # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: 새로 출시된 펌웨어
       accepts_beta_firmware_hint: 다른 사용자들보다 먼저 새로 나온 디바이스 펌웨어를 사용하려면 버튼을 눌러주세요.
       back_to_devices: 기기 관리 화면으로 돌아가기
       battery_consumption: 배터리 소모
       battery_consumption_hint: 기기 절전 모드 설정을 하시면 더 오랫동안 배터리 수명을 유지할 수 있습니다.
-      developer_perks: 개발자 버전 특혜 # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: 개발자 버전 특혜
       developer_perks_hint: 아래는 __개발자 옵션을 추가한 경우__ 사용 가능합니다.
       device_credentials: Device Credentials
       device_credentials_hint: See what you can do with these credentials __here__
@@ -170,8 +166,6 @@ ko:
       title: 새 기기 추가하기
       description: 새로운 TRMNL 기기를 계정에 추가하려면 기기 ID를 입력하세요.
       add_device: 새 기기 추가
-
-    # toast messages
     associate:
       error: 기기 연결 오류
       success: 기기가 성공적으로 연결되었습니다
@@ -201,7 +195,7 @@ ko:
       title: Logs
       all: All
       device: Device
-      dump: Dump # content
+      dump: Dump
       id: ID
       private_plugins: Private Plugins
       source: Source
@@ -266,13 +260,11 @@ ko:
       display_period_to: to
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
       every: every
-    playlist: # partial (single item)
+    playlist:
       delete: 해당 플러그인을 삭제하는 것이 맞습니까? 플러그인의 연결은 지속되지만 당신의 기기에 보여지지는 않을 것입니다.
       displayed_now: 지금 화면에 보여짐
       not_displayed_yet: 아직 화면에 보여지지 않음
       remove_from_playlist: 플레이리스트에서 삭제
-
-    # toast messages
     create:
       error: 플레이리스트 업데이트 실패
       success: 플레이리스트가 업데이트 되었습니다
@@ -289,7 +281,7 @@ ko:
       connected: 연결됨
       recipes: Recipes
       recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
-    search: # partial (search box)
+    search:
       placeholder: 플러그인 검색하기
     my:
       index:
@@ -333,7 +325,7 @@ ko:
     delete_are_you_sure: Are you sure you want to delete this setting?
     delete: 플러그인의 설정을 완전히 지웁니다. 단순히 디바이스에서 해당 플러그인을 숨기고 싶다면, 플레이리스트에서 삭제하세요.
     inactive: 활동정지
-    no_plugin_settings_found: 플러그인이 없습니다. # empty state - should not appear
+    no_plugin_settings_found: 플러그인이 없습니다.
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
@@ -374,10 +366,8 @@ ko:
       missing_entry: The ZIP file does not contain %{filename}
       entry_too_large: "%{filename} is too large"
       malformed: "%{filename} is malformed"
-
-    # toast messages
     create:
-      success: "플러그인이 생성되었습니다. 여기서 확인하세요:"
+      success: '플러그인이 생성되었습니다. 여기서 확인하세요:'
       playlist: 플레이리스트
     destroy:
       success: 플러그인 삭제됨
@@ -386,17 +376,14 @@ ko:
       success: 플러그인 구성이 성공적으로 업데이트 되었습니다.
     add_to_playlist:
       success: Plugin added to Playlist
-
   referral_code:
     create:
       request_received: Request received, check your inbox
   upgrade:
     index:
-      title: "기기 업그레이드:"
+      title: '기기 업그레이드:'
       tagline: Unlock custom plugins and __more__.
-      pay: Pay # button text; ex "Pay $20"
+      pay: Pay
       error: Device %{device_name} is already upgraded, switch to another device
-
-    # toast messages
     confirm:
       success: Developer edition add-on is now enabled

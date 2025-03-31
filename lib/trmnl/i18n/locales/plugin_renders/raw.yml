@@ -1,13 +1,10 @@
+---
 raw:
-  # namespace to not interfere with other localizations
   renders:
-
-    # plugin-specific localizations; alphabetize by plugin's keyname
     days_left_year:
       title: days_left_year.title
       days_passed: days_left_year.title
       days_left: days_left_year.title
-
     parcel:
       delivery_by: parcel.delivery_by
       empty: parcel.empty
@@ -35,7 +32,6 @@ raw:
         unknown: parcel.status.unknown
       today: parcel.today
       tomorrow: parcel.tomorrow
-
     weather:
       title: weather.title
       temperature: weather.temperature

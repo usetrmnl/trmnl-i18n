@@ -1,9 +1,9 @@
+---
 es-ES:
-  # global, logged out, and auth-related
   add: Crear
   add_new: Crear nuevo
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: Tengo una cuenta # signup form cta
+  ago: ago
+  already_have_account: Tengo una cuenta
   back: Atrás
   back_to_all_blog_posts: Back to all posts
   blog: Blog
@@ -18,8 +18,8 @@ es-ES:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
-  created: Created # example: "Created 5 mins ago"
-  create_an_account: Crear cuenta de usuario # login form cta
+  created: Created
+  create_an_account: Crear cuenta de usuario
   current_device: Current device
   days: días
   delete: Borrar
@@ -30,9 +30,9 @@ es-ES:
   export: Export
   fetching: Fetching
   first_name: Nombre
-  forgot_password: Olvidé mi contraseña # login form link
-  forgot_password_title: Otra vez # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
-  get_started: ¡Empecemos!
+  forgot_password: Olvidé mi contraseña
+  forgot_password_title: Otra vez
+  get_started: "¡Empecemos!"
   identify: Identificar
   import: Import
   import_new: Import new
@@ -43,26 +43,24 @@ es-ES:
   loading: Loading
   login: Iniciar sesión
   log_out: Cerrar sesión
-  minimum_characters: Caracteres como mínimo # ex: 8 characters minimum
-  mins: mins # 'minutes' abbreviation
+  minimum_characters: Caracteres como mínimo
+  mins: mins
   my_playlist: My Playlist
   new_password: Nueva contraseña
   password: Contraseña
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Please Wait...
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Restablecer mi contraseña
   save: Guardar
   section: Section
-  sign_in: Iniciar sesión # login form cta
-  sign_up: Registrarse # logged out navigation
+  sign_in: Iniciar sesión
+  sign_up: Registrarse
   something_went_wrong: Something went wrong
-  support: Support # bottom navigation tab, links to help center
+  support: Support
   update: Actualizar
   view: Ver
-  welcome: ¡Hola!
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: "¡Hola!"
   account:
     index:
       title: Cuenta
@@ -70,7 +68,7 @@ es-ES:
       email_address: Correo electrónico
       refer_and_earn: Refer and Earn
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_redemptions: Redemptions
       refer_and_earn_request_code: Request a Code
       device_invoice: Device Invoice
       device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
@@ -89,8 +87,6 @@ es-ES:
       time_zone_hint: Determina la tasa de refresco y tiempo de suspensión del dispositivo.
       locale: Locale
       locale_hint: What language and localization do you prefer? __Go here__.
-
-    # toast messages
     update:
       success: Perfil actualizado correctamente
   dashboard:
@@ -104,25 +100,25 @@ es-ES:
       last_90_days: Últimos 90 días
       today: Hoy
       yesterday: Ayer
-    health: # partial (widget)
+    health:
       bad: Algunos plugins tienen problemas
       good: Los plugins funcionan correctamente
       next_steps: Te informaremos si algo cambia
-    news: # partial (widget)
+    news:
       title: Noticias
       cta: View All
-    playlists: # partial (widget)
+    playlists:
       title: Lista de reproducción
       cta: Editar lista de reproducción
       pieces_of_content_displayed: Contenido mostrado
-    plugins: # partial (widget)
+    plugins:
       title: Plugins
       cta: Ir a Plugins
       connected: Conectado
       new_and_popular: Nuevo y Popular
     shop:
       title: Shop
-    time_saved: # partial (widget)
+    time_saved:
       title: Tiempo ahorrado
       cta: Leer más
   devices:
@@ -165,13 +161,11 @@ es-ES:
       title: Dispositivos
       tagline: Tus dispositivos TRMNL
       add_device_modal_title: Añadir un nuevo dispositivo
-      add_first_device: ¡Añade tu primer dispositivo!
+      add_first_device: "¡Añade tu primer dispositivo!"
     new:
       title: Añadir un nuevo dispositivo
       description: Introduce tu ID de Dispositivo para añadir un nuevo dispositivo TRMNL a tu cuenta.
       add_device: Añadir nuevo dispositivo
-
-    # toast messages
     associate:
       error: Error al vincular el dispositivo
       success: Dispositivo vinculado con éxito
@@ -192,7 +186,7 @@ es-ES:
       success: Dispositivo cambiado con éxito
     update:
       error: Error al actualizar el dispositivo
-      success: "Configuración del dispositivo %{device} actualizada con éxito"
+      success: Configuración del dispositivo %{device} actualizada con éxito
   invoices:
     rate_limit: Too many attempts, please wait and try again
     invoice_not_found: Invoice not found
@@ -201,7 +195,7 @@ es-ES:
       title: Logs
       all: All
       device: Device
-      dump: Dump # content
+      dump: Dump
       id: ID
       private_plugins: Private Plugins
       source: Source
@@ -257,9 +251,9 @@ es-ES:
       tagline: Elige lo que se muestra en
       add_a_group: Add a Group
       add_a_plugin: Add a Plugin
-      add_first_device_cta: ¡Empieza __añadiendo__ tu primer dispositivo TRMNL!
+      add_first_device_cta: "¡Empieza __añadiendo__ tu primer dispositivo TRMNL!"
       add_to_playlist: Añadir a la Lista de Reproducción
-      create_first_playlist_cta: ¡Crea tu lista de reproducción después de __conectar__ tu primer plugin!
+      create_first_playlist_cta: "¡Crea tu lista de reproducción después de __conectar__ tu primer plugin!"
       custom: Custom
       device_default: Device default
       display_period_from: Display from
@@ -267,12 +261,10 @@ es-ES:
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
       every: every
     playlist:
-      delete: ¿Seguro que quieres eliminar este elemento? El plugin permanecerá conectado, pero no se mostrará en tu dispositivo.
+      delete: "¿Seguro que quieres eliminar este elemento? El plugin permanecerá conectado, pero no se mostrará en tu dispositivo."
       displayed_now: Mostrado ahora
       not_displayed_yet: Pendiente
       remove_from_playlist: Eliminar de la lista de reproducción
-
-    # toast messages
     create:
       error: Falló la actualización de la lista de reproducción
       success: Lista de reproducción actualizada
@@ -284,12 +276,12 @@ es-ES:
   plugins:
     index:
       title: Complementos
-      tagline: ¿Qué pondrás en tu TRMNL?
+      tagline: "¿Qué pondrás en tu TRMNL?"
       available: Disponible
       connected: Conectado
       recipes: Recipes
       recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
-    search: # parcial (cuadro de búsqueda)
+    search:
       placeholder: Buscar Plugins
     my:
       index:
@@ -374,8 +366,6 @@ es-ES:
       missing_entry: The ZIP file does not contain %{filename}
       entry_too_large: "%{filename} is too large"
       malformed: "%{filename} is malformed"
-
-    # toast messages
     create:
       success: Plugin creado y añadido a tu
       playlist: lista de reproducción
@@ -386,17 +376,14 @@ es-ES:
       success: Configuración del plugin actualizada con éxito
     add_to_playlist:
       success: Plugin added to Playlist
-
   referral_code:
     create:
       request_received: Request received, check your inbox
   upgrade:
     index:
-      title: "Upgrading device:"
+      title: 'Upgrading device:'
       tagline: Unlock custom plugins and __more__.
-      pay: Pay # button text; ex "Pay $20"
+      pay: Pay
       error: Device %{device_name} is already upgraded, switch to another device
-
-    # toast messages
     confirm:
       success: Developer edition add-on is now enabled

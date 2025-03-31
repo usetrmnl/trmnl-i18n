@@ -1,9 +1,9 @@
+---
 raw:
-  # global, logged out, and auth-related
   add: add
   add_new: add_new
-  already_have_account: already_have_account
   ago: ago
+  already_have_account: already_have_account
   back: back
   back_to_all_blog_posts: back_to_all_blog_posts
   blog: blog
@@ -61,8 +61,6 @@ raw:
   update: update
   view: view
   welcome: welcome
-
-  # views by resource (device, plugins, playlists, account, etc)
   account:
     index:
       title: account.index.title
@@ -89,8 +87,6 @@ raw:
       time_zone_hint: account.index.time_zone_hint
       locale: account.index.locale
       locale_hint: account.index.locale_hint __Go here__.
-
-    # toast messages
     update:
       success: account.update.success
   dashboard:
@@ -104,25 +100,25 @@ raw:
       last_90_days: dashboard.index.last_90_days
       today: dashboard.index.today
       yesterday: dashboard.index.yesterday
-    health: # partial (widget)
+    health:
       bad: dashboard.health.bad
       good: dashboard.health.good
       next_steps: dashboard.health.next_steps
-    news: # partial (widget)
+    news:
       title: dashboard.news.title
       cta: dashboard.news.cta
-    playlists: # partial (widget)
+    playlists:
       title: dashboard.playlists.title
       cta: dashboard.playlists.cta
       pieces_of_content_displayed: dashboard.playlists.pieces_of_content_displayed
-    plugins: # partial (widget)
+    plugins:
       title: dashboard.plugins.title
       cta: dashboard.plugins.cta
       connected: dashboard.plugins.connected
       new_and_popular: dashboard.plugins.new_and_popular
     shop:
       title: dashboard.shop.title
-    time_saved: # partial (widget)
+    time_saved:
       title: dashboard.time_saved.title
       cta: dashboard.time_saved.cta
   devices:
@@ -170,8 +166,6 @@ raw:
       title: devices.new.title
       description: devices.new.description
       add_device: devices.new.add_device
-
-    # toast messages
     associate:
       error: devices.associate.error
       success: devices.associate.success
@@ -266,13 +260,11 @@ raw:
       display_period_to: playlists.index.display_period_to
       display_period_validation: playlists.index.display_period_validation
       every: playlists.index.every
-    playlist: # partial (single item)
+    playlist:
       delete: playlists.playlist.delete
       displayed_now: playlists.playlist.displayed_now
       not_displayed_yet: playlists.playlist.not_displayed_yet
       remove_from_playlist: playlists.playlist.remove_from_playlist
-
-    # toast messages
     create:
       error: playlists.create.error
       success: playlists.create.success
@@ -289,7 +281,7 @@ raw:
       connected: plugins.index.connected
       recipes: recipes
       recipes_hint: recipes_hint. __Learn more__.
-    search: # partial (search box)
+    search:
       placeholder: plugins.search.placeholder
     my:
       index:
@@ -309,8 +301,6 @@ raw:
       description_hint: plugins.new.description_hint
       icon: plugins.new.icon
       icon_hint: plugins.new.icon_hint
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: This setting allows you to remove the outermost padding and use fullscreen mode.
       installation_url: plugins.new.installation_url
       installation_url_hint: plugins.new.installation_url_hint __here__.
       installation_success_webhook_url: plugins.new.installation_success_webhook_url
@@ -320,6 +310,8 @@ raw:
       markup_url: plugins.new.markup_url
       markup_url_hint: plugins.new.markup_url_hint __here__.
       uninstallation_webhook_url: plugins.new.uninstallation_webhook_url
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: This setting allows you to remove the outermost padding and use fullscreen mode.
     edit:
       title: plugins.edit.title
       tagline: plugins.edit.tagline
@@ -376,8 +368,6 @@ raw:
       missing_entry: plugin_settings.import.missing_entry
       entry_too_large: plugin_settings.import.entry_too_large
       malformed: plugin_settings.import.malformed
-
-    # toast messages
     create:
       success: plugin_settings.create.success
       playlist: plugin_settings.create.playlist
@@ -388,7 +378,6 @@ raw:
       success: plugin_settings.update.success
     add_to_playlist:
       success: plugin_settings.add_to_playlist.success
-
   referral_code:
     create:
       request_received: referral_code.create.request_received
@@ -398,7 +387,5 @@ raw:
       tagline: upgrade.index.tagline
       pay: upgrade.index.pay
       error: upgrade.index.error
-
-    # toast messages
     confirm:
       success: upgrade.confirm.success

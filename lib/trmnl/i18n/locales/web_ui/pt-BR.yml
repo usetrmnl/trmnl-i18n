@@ -1,9 +1,9 @@
+---
 pt-BR:
-  # global, logged out, and auth-related
   add: Adicionar
   add_new: Adicionar novo
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: Já tenho uma conta # signup form cta
+  ago: ago
+  already_have_account: Já tenho uma conta
   back: Voltar
   back_to_all_blog_posts: Voltar
   blog: Blog
@@ -18,8 +18,8 @@ pt-BR:
   copy: Copiar
   copied_to_clipboard: Copiado!
   copy_to_clipboard: Copiar para área de transferência
-  created: Created # example: "Created 5 mins ago"
-  create_an_account: Criar uma conta # login form cta
+  created: Created
+  create_an_account: Criar uma conta
   current_device: Dispositivo atual
   days: dias
   delete: Deletar
@@ -28,10 +28,10 @@ pt-BR:
   edit: Configurações
   email_address: E-mail
   export: Export
-  fetching: Obtendo # for asynchronous content requests; this message may appear as a placeholder text for 0-2 seconds
+  fetching: Obtendo
   first_name: Nome
-  forgot_password: Esqueci minha senha # login form link
-  forgot_password_title: Lá vamos nós de novo # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  forgot_password: Esqueci minha senha
+  forgot_password_title: Lá vamos nós de novo
   get_started: Vamos começar!
   identify: Identificar
   import: Import
@@ -43,26 +43,24 @@ pt-BR:
   loading: Carregando
   login: Entrar
   log_out: Sair
-  minimum_characters: caracteres pelo menos # ex: 8 characters minimum
-  mins: mins # 'minutes' abbreviation
-  my_playlist: Minha Playlist # default name for a new playlist group
+  minimum_characters: caracteres pelo menos
+  mins: mins
+  my_playlist: Minha Playlist
   new_password: Nova senha
   password: Senha
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Please Wait...
   plugin_not_found: Plugin não encontrado
   refresh_rates_hint: Saiba mais sobre taxas de atualização __aqui__.
   reset_password: Redefinir minha senha
   save: Salvar
   section: Seção
-  sign_in: Entrar # login form cta
-  sign_up: Cadastrar # logged out navigation
+  sign_in: Entrar
+  sign_up: Cadastrar
   something_went_wrong: Algo deu errado
-  support: Support # bottom navigation tab, links to help center
+  support: Support
   update: Atualizar
   view: Visualizar
-  welcome: Bem-vindo # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: Bem-vindo
   account:
     index:
       title: Conta
@@ -70,7 +68,7 @@ pt-BR:
       email_address: E-mail
       refer_and_earn: Recomende e Ganhe
       refer_and_earn_hint: Presenteie um TRMNL com um cupom personalizado. Receba por uso, pago mensalmente.
-      refer_and_earn_redemptions: Resgates # how many times this coupon has been used
+      refer_and_earn_redemptions: Resgates
       refer_and_earn_request_code: Pedir um Código
       device_invoice: Fatura do Dispositivo
       device_invoice_label: Obtenha documentos comerciais para seu contador ou sua coleção de PDFs.
@@ -89,8 +87,6 @@ pt-BR:
       time_zone_hint: Determina as taxas de atualização e horários de descanso do dispositivo.
       locale: Idioma
       locale_hint: Qual idioma você prefere? __Veja mais__.
-
-    # toast messages
     update:
       success: Perfil atualizado com sucesso
   dashboard:
@@ -104,35 +100,35 @@ pt-BR:
       last_90_days: Últimos 90 dias
       today: Hoje
       yesterday: Ontem
-    health: # partial (widget)
+    health:
       bad: Plugins com problemas
       good: Plugins funcionando
       next_steps: Vamos lhe informar se algo mudar
-    news: # partial (widget)
+    news:
       title: Notícias
       cta: Ver Tudo
-    playlists: # partial (widget)
+    playlists:
       title: Playlist
       cta: Editar Playlist
       pieces_of_content_displayed: Telas exibidas
-    plugins: # partial (widget)
+    plugins:
       title: Plugins
       cta: Ir para Plugins
       connected: Conectados
       new_and_popular: Novos e Populares
     shop:
       title: Loja
-    time_saved: # partial (widget)
+    time_saved:
       title: Tempo economizado
       cta: Ler sobre
   devices:
     edit:
-      accepts_beta_firmware: Versões Antecipadas de Firmware # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: Versões Antecipadas de Firmware
       accepts_beta_firmware_hint: Ative para obter as últimas versões do firmware de dispositivo antes dos outros usuários.
       back_to_devices: Voltar para Dispositivos
       battery_consumption: Consumo da Bateria
       battery_consumption_hint: Economize energia desfrute de mais bateria ativando o Modo de Suspensão.
-      developer_perks: Vantagens de Desenvolvedor # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: Vantagens de Desenvolvedor
       developer_perks_hint: Opções abaixo requerem o __Add-on de Desenvolvedor__.
       device_credentials: Credenciais do Dispositivo
       device_credentials_hint: Veja o que você pode fazer com essas credenciais __aqui__
@@ -170,8 +166,6 @@ pt-BR:
       title: Adicionar novo dispositivo
       description: Coloque o ID do Dispositivo para adicionar um novo TRMNL à sua conta.
       add_device: Adicionar novo dispositivo
-
-    # toast messages
     associate:
       error: Erro ao associar dispositivo
       success: Dispositivo associado com sucesso
@@ -192,7 +186,7 @@ pt-BR:
       success: Dispositivo trocado com sucesso
     update:
       error: Erro ao atualizar dispositivo
-      success: "Configurações do dispositivo %{device} atualizadas com sucesso"
+      success: Configurações do dispositivo %{device} atualizadas com sucesso
   invoices:
     rate_limit: Too many attempts, please wait and try again
     invoice_not_found: Invoice not found
@@ -201,7 +195,7 @@ pt-BR:
       title: Logs
       all: Todos
       device: Dispositivo
-      dump: Conteúdo # content
+      dump: Conteúdo
       id: ID
       private_plugins: Plugins Privados
       source: Fonte
@@ -266,13 +260,11 @@ pt-BR:
       display_period_to: até
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
       every: every
-    playlist: # partial (single item)
+    playlist:
       delete: Tem certeza que deseja remover este item? O plugin continuará conectado, apenas não será exibido no seu dispositivo.
       displayed_now: Exibindo agora
       not_displayed_yet: Pendente
       remove_from_playlist: Remover da playlist
-
-    # toast messages
     create:
       error: Falha ao atualizar a playlist
       success: Playlist atualizada
@@ -289,7 +281,7 @@ pt-BR:
       connected: Conectados
       recipes: Receitas
       recipes_hint: Plugins privados criados por membros da comunidade que podem ser instalados com 1 clique. __Saiba mais__.
-    search: # partial (search box)
+    search:
       placeholder: Buscar Plugins
     my:
       index:
@@ -333,7 +325,7 @@ pt-BR:
     delete_are_you_sure: Tem certeza que deseja deletar essa configuração?
     delete: Isso irá remover completamente as condfigurações do plugin. Para esconder o plugin do dispositivo, simplesmente remova-o da Playlist.
     inactive: Inativo
-    no_plugin_settings_found: Nenhuma configuração encontrada. # empty state - should not appear
+    no_plugin_settings_found: Nenhuma configuração encontrada.
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
@@ -374,8 +366,6 @@ pt-BR:
       missing_entry: The ZIP file does not contain %{filename}
       entry_too_large: "%{filename} is too large"
       malformed: "%{filename} is malformed"
-
-    # toast messages
     create:
       success: Plugin criado e adicionado à sua
       playlist: playlist
@@ -386,17 +376,14 @@ pt-BR:
       success: Configuração do plugin atualizada com sucesso
     add_to_playlist:
       success: Plugin adicionado à Playlist
-
   referral_code:
     create:
       request_received: Request received, check your inbox
   upgrade:
     index:
-      title: "Fazendo upgrade do dispositivo:"
+      title: 'Fazendo upgrade do dispositivo:'
       tagline: Adquira plugins customizados e __mais__.
-      pay: Pagar # button text; ex "Pay $20"
+      pay: Pagar
       error: Dispositivo %{device_name} já possui upgrade, troque para outro dispositivo
-
-    # toast messages
     confirm:
       success: A Edição de Desenvolvedor está ativada agora

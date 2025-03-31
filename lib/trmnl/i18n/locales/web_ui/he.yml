@@ -1,9 +1,9 @@
+---
 he:
-  # global, logged out, and auth-related
   add: Add
   add_new: Add new
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: I already have an account # signup form cta
+  ago: ago
+  already_have_account: I already have an account
   back: Back
   back_to_all_blog_posts: Back to all posts
   blog: Blog
@@ -18,8 +18,8 @@ he:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
-  created: Created # example: "Created 5 mins ago"
-  create_an_account: Create an account # login form cta
+  created: Created
+  create_an_account: Create an account
   current_device: Current device
   days: days
   delete: Delete
@@ -28,10 +28,10 @@ he:
   edit: Settings
   email_address: Email address
   export: Export
-  fetching: Fetching # for asynchronous content requests; this message may appear as a placeholder text for 0-2 seconds
+  fetching: Fetching
   first_name: First Name
-  forgot_password: I forgot my password # login form link
-  forgot_password_title: Here we go again # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  forgot_password: I forgot my password
+  forgot_password_title: Here we go again
   get_started: Let's get you started!
   identify: Identify
   import: Import
@@ -43,26 +43,24 @@ he:
   loading: Loading
   login: Login
   log_out: Log out
-  minimum_characters: characters minimum # ex: 8 characters minimum
-  mins: mins # 'minutes' abbreviation
-  my_playlist: My Playlist # default name for a new playlist group
+  minimum_characters: characters minimum
+  mins: mins
+  my_playlist: My Playlist
   new_password: New password
   password: Password
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Please Wait...
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Reset my password
   save: Save
   section: Section
-  sign_in: Sign in # login form cta
-  sign_up: Sign up # logged out navigation
+  sign_in: Sign in
+  sign_up: Sign up
   something_went_wrong: Something went wrong
-  support: Support # bottom navigation tab, links to help center
+  support: Support
   update: Update
   view: View
-  welcome: Welcome # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: Welcome
   account:
     index:
       title: Account
@@ -70,7 +68,7 @@ he:
       email_address: Email Address
       refer_and_earn: Refer and Earn
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_redemptions: Redemptions
       refer_and_earn_request_code: Request a Code
       device_invoice: Device Invoice
       device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
@@ -89,8 +87,6 @@ he:
       time_zone_hint: Determines refresh rates and device sleep time.
       locale: Locale
       locale_hint: What language and localization do you prefer? __Go here__.
-
-    # toast messages
     update:
       success: Profile updated successfully
   dashboard:
@@ -104,35 +100,35 @@ he:
       last_90_days: Last 90 days
       today: Today
       yesterday: Yesterday
-    health: # partial (widget)
+    health:
       bad: Plugins are experiencing issues
       good: Plugins are healthy
       next_steps: We will inform you if anything changes
-    news: # partial (widget)
+    news:
       title: News
       cta: View All
-    playlists: # partial (widget)
+    playlists:
       title: Playlist
       cta: Edit Playlist
       pieces_of_content_displayed: Pieces of content displayed
-    plugins: # partial (widget)
+    plugins:
       title: Plugins
       cta: Go to Plugins
       connected: Connected
       new_and_popular: New and Popular
     shop:
       title: Shop
-    time_saved: # partial (widget)
+    time_saved:
       title: Time saved
       cta: Read about
   devices:
     edit:
-      accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: Firmware Early Release
       accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Back to Devices
       battery_consumption: Battery Consumption
       battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
-      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: Developer Perks
       developer_perks_hint: Options below require the __Developer add-on__.
       device_credentials: Device Credentials
       device_credentials_hint: See what you can do with these credentials __here__
@@ -170,8 +166,6 @@ he:
       title: Add a new device
       description: Enter your Device ID to add a new TRMNL device to your account.
       add_device: Add new device
-
-    # toast messages
     associate:
       error: Error linking device
       success: Device successfully linked
@@ -201,7 +195,7 @@ he:
       title: Logs
       all: All
       device: Device
-      dump: Dump # content
+      dump: Dump
       id: ID
       private_plugins: Private Plugins
       source: Source
@@ -266,13 +260,11 @@ he:
       display_period_to: to
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
       every: every
-    playlist: # partial (single item)
+    playlist:
       delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
       displayed_now: Displayed now
       not_displayed_yet: Pending
       remove_from_playlist: Remove from playlist
-
-    # toast messages
     create:
       error: Failed to update playlist
       success: Playlist updated
@@ -289,7 +281,7 @@ he:
       connected: Connected
       recipes: Recipes
       recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
-    search: # partial (search box)
+    search:
       placeholder: Search Plugins
     my:
       index:
@@ -333,7 +325,7 @@ he:
     delete_are_you_sure: Are you sure you want to delete this setting?
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
     inactive: Inactive
-    no_plugin_settings_found: No plugin settings found. # empty state - should not appear
+    no_plugin_settings_found: No plugin settings found.
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
@@ -374,8 +366,6 @@ he:
       missing_entry: The ZIP file does not contain %{filename}
       entry_too_large: "%{filename} is too large"
       malformed: "%{filename} is malformed"
-
-    # toast messages
     create:
       success: Plugin created and added to your
       playlist: playlist
@@ -386,17 +376,14 @@ he:
       success: Plugin configuration updated successfully
     add_to_playlist:
       success: Plugin added to Playlist
-
   referral_code:
     create:
       request_received: Request received, check your inbox
   upgrade:
     index:
-      title: "Upgrading device:"
+      title: 'Upgrading device:'
       tagline: Unlock custom plugins and __more__.
-      pay: Pay # button text; ex "Pay $20"
+      pay: Pay
       error: Device %{device_name} is already upgraded, switch to another device
-
-    # toast messages
     confirm:
       success: Developer edition add-on is now enabled
