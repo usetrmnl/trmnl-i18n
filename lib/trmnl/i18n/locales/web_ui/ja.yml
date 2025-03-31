@@ -65,6 +65,11 @@ ja:
     index:
       title: マイアカウント
       tagline: アカウント設定を管理する
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: メールアドレス
       refer_and_earn: お友達紹介プログラム
       refer_and_earn_hint: パーソナライズされたクーポンでTRMNLをプレゼントしましょう。利用ごとに報酬が発生し、毎月お支払いします。
@@ -89,6 +94,8 @@ ja:
       locale_hint: ご希望の言語とローカライズ設定は？ __こちら__ をご覧ください。
     update:
       success: プロフィール情報が更新されました。
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: ダッシュボード

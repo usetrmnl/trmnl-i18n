@@ -65,6 +65,11 @@ fr:
     index:
       title: Compte
       tagline: Gérez vos paramètres de compte
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: Adresse email
       refer_and_earn: Parrainez et gagnez
       refer_and_earn_hint: Offrez le cadeau TRMNL avec un coupon personnalisé. Gagnez par utilisation, payé mensuellement.
@@ -89,6 +94,8 @@ fr:
       locale_hint: Quel langage et localisation préférez-vous ? __Voir ici__.
     update:
       success: Profil mis à jour avec succès
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: Tableau de bord
