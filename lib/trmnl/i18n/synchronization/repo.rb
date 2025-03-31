@@ -25,7 +25,7 @@ module TRMNL
         def load(locale) = YAML.load_file locale_path(locale)
 
         def save locale, data
-          File.open locale_path(locale), "w" do |file|
+          locale_path(locale).open "w" do |file|
             Psych.dump data, file, indentation: 2, line_width: -1
           end
         end

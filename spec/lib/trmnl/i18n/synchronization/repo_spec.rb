@@ -61,7 +61,7 @@ RSpec.describe TRMNL::I18n::Synchronization::Repo do
                                    "aliqua."
                 }
 
-      result = File.read temp_dir.join("fr.yml")
+      result = temp_dir.join("fr.yml").read
 
       expected = <<~YAML
         ---
