@@ -280,6 +280,12 @@ raw:
     destroy:
       error: playlists.destroy.error
       success: playlists.destroy.success
+    toggle_visibility:
+      success: playlists.toggle_visibility.success
+    duplicate:
+      success: playlists.duplicate.success
+    sort:
+      success: playlists.sort.success
     update:
       success: playlists.update.success
   plugins:

@@ -280,7 +280,11 @@ en:
     destroy:
       error: Error removing item from playlist
       success: Plugin removed from Playlist
-    update:
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
       success: Playlist order updated
   plugins:
     index:

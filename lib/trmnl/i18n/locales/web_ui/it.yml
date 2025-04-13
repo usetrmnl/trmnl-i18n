@@ -280,6 +280,12 @@ it:
     destroy:
       error: Errore nella rimozione dell'elemento dalla Playlist
       success: Plugin rimosso dalla Playlist
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
+      success: Playlist order updated
     update:
       success: Ordinamento playlist aggiornato
   plugins:
