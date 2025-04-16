@@ -8,7 +8,6 @@ gemspec
 
 group :quality do
   gem "caliber", "~> 0.68"
-  gem "git-lint", "~> 9.0"
   gem "reek", "~> 6.4", require: false
   gem "simplecov", "~> 0.22", require: false
 end
