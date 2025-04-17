@@ -335,6 +335,12 @@ raw:
       description: plugins.edit.description
   plugin_recipes:
     connected: plugin_recipes.connected
+    connections:
+      one: plugin_recipes.connections.one
+      many: plugin_recipes.connections.many
+    forks:
+      one: plugin_recipes.forks.one
+      many: plugin_recipes.forks.many
     new:
       error: plugin_recipes.new.error
   plugin_settings:
