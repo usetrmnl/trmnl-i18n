@@ -65,7 +65,7 @@ es-ES:
     index:
       title: Cuenta
       tagline: Gestionar mi cuenta
-      api_key_confirm: ¿Estás seguro de que quieres volver a regenerar tu clave API? La antigua será invalidada.
+      api_key_confirm: "¿Estás seguro de que quieres volver a regenerar tu clave API? La antigua será invalidada."
       api_key_hint: Ver __la documentación__ para aprender a configurar tu entorno local.
       api_key_label: La credencial para autenticar las herramientas del entorno local
       api_key_reset: Regenerar
@@ -82,7 +82,7 @@ es-ES:
       first_name_hint: Usamos tu nombre para hacer que la interfaz de TRMNL sea más cómoda.
       last_name_hint: Usamos tu apellido para hacer que la interfaz de TRMNL sea más cómoda.
       password_hint: Para proteger tu cuenta de TRMNL.
-      enable_2fa: ¿Habilitar 2FA?
+      enable_2fa: "¿Habilitar 2FA?"
       enable_2fa_hint: __Haz click aquí__ para habilitar OTP.
       disable_2fa: Deshabilitar 2FA
       disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
@@ -91,7 +91,7 @@ es-ES:
       time_zone: Zona horaria
       time_zone_hint: Determina la tasa de refresco y tiempo de suspensión del dispositivo.
       locale: Idioma
-      locale_hint: ¿Qué idioma y localización prefieres? __Accede aquí__.
+      locale_hint: "¿Qué idioma y localización prefieres? __Accede aquí__."
     update:
       success: Perfil actualizado correctamente
     reset_api_key:
@@ -306,7 +306,7 @@ es-ES:
       card:
         connections: connections
         install: Install
-        review_are_you_sure: ¿Estás seguro? El equipo de TRMNL lo revisará y te enviará un email con cualquier duda.
+        review_are_you_sure: "¿Estás seguro? El equipo de TRMNL lo revisará y te enviará un email con cualquier duda."
         submit_for_review: Mandar a revisión
     new:
       title: Crear Plugin
@@ -333,12 +333,18 @@ es-ES:
       description: Descripción
   plugin_recipes:
     connected: Recipe connected
+    connections:
+      one: Connection
+      many: Connections
+    forks:
+      one: Fork
+      many: Forks
     new:
       error: Recipe not found
   plugin_settings:
     active: Activo
-    copy_are_you_sure: ¿Estás seguro de que quieres copiar este plugin?
-    delete_are_you_sure: ¿Estás seguro de que quieres eliminar este plugin?
+    copy_are_you_sure: "¿Estás seguro de que quieres copiar este plugin?"
+    delete_are_you_sure: "¿Estás seguro de que quieres eliminar este plugin?"
     delete: Esto borrará completamente la configuración del plugin. Para ocultar este plugin de tu dispositivo, elimínalo de tu Lista de Reproducción en su lugar.
     inactive: Inactivo
     no_plugin_settings_found: No se encontraron configuraciones del plugin.
