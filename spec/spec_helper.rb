@@ -18,7 +18,9 @@ require "trmnl/i18n"
 
 SPEC_ROOT = Pathname(__dir__).realpath.freeze
 
-Dir[File.join(SPEC_ROOT, "support", "shared_contexts", "**/*.rb")].each { |path| require path }
+using Refinements::Pathname
+
+Pathname.require_tree SPEC_ROOT.join("support/shared_contexts")
 
 RSpec.configure do |config|
   config.color = true

@@ -1,10 +1,9 @@
+---
 es-ES:
-
-  # global, logged out, and auth-related
   add: Crear
   add_new: Crear nuevo
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: Tengo una cuenta # signup form cta
+  ago: ago
+  already_have_account: Tengo una cuenta
   back: Atrás
   back_to_all_blog_posts: Back to all posts
   blog: Blog
@@ -19,8 +18,8 @@ es-ES:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
-  created: Created # example: "Created 5 mins ago"
-  create_an_account: Crear cuenta de usuario # login form cta
+  created: Created
+  create_an_account: Crear cuenta de usuario
   current_device: Current device
   days: días
   delete: Borrar
@@ -28,102 +27,105 @@ es-ES:
   device_id: Identificador de dispositivo
   edit: Opciones
   email_address: Correo electrónico
-  export: Export
+  export: Exportar
   fetching: Fetching
   first_name: Nombre
-  forgot_password: Olvidé mi contraseña # login form link
-  forgot_password_title: Otra vez # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
-  get_started: ¡Empecemos!
+  forgot_password: Olvidé mi contraseña
+  forgot_password_title: Otra vez
+  get_started: "¡Empecemos!"
   identify: Identificar
-  import: Import
+  import: Importar
   import_new: Import new
-  integrations: Integrations
+  integrations: Integraciones
   keep_me_signed_in: Mantenerme conectado
   knowledge_base: Base de Conocimiento
   last_name: Apellido
-  loading: Loading
+  loading: Cargando
   login: Iniciar sesión
   log_out: Cerrar sesión
-  minimum_characters: Caracteres como mínimo # ex: 8 characters minimum
-  mins: mins # 'minutes' abbreviation
+  minimum_characters: Caracteres como mínimo
+  mins: mins
   my_playlist: My Playlist
   new_password: Nueva contraseña
   password: Contraseña
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Por favor, espera...
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Restablecer mi contraseña
   save: Guardar
-  section: Section
-  sign_in: Iniciar sesión # login form cta
-  sign_up: Registrarse # logged out navigation
-  something_went_wrong: Something went wrong
-  support: Support # bottom navigation tab, links to help center
+  section: Sección
+  sign_in: Iniciar sesión
+  sign_up: Registrarse
+  something_went_wrong: Algo ha fallado
+  tech_support: Soporte
   update: Actualizar
   view: Ver
-  welcome: ¡Hola!
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: "¡Hola!"
   account:
     index:
       title: Cuenta
       tagline: Gestionar mi cuenta
+      api_key_confirm: "¿Estás seguro de que quieres volver a regenerar tu clave API? La antigua será invalidada."
+      api_key_hint: Ver __la documentación__ para aprender a configurar tu entorno local.
+      api_key_label: La credencial para autenticar las herramientas del entorno local
+      api_key_reset: Regenerar
+      api_key: Clave API
       email_address: Correo electrónico
-      refer_and_earn: Refer and Earn
-      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
-      refer_and_earn_request_code: Request a Code
-      device_invoice: Device Invoice
-      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
-      device_invoice_hint: Find this on your package tracking page or shipment notification email.
+      refer_and_earn: Invita y gana
+      refer_and_earn_hint: Envía el regalo de TRMNL con un cupón personalizado. Gana por uso, pagado mensualmente.
+      refer_and_earn_redemptions: Redemptions
+      refer_and_earn_request_code: Solicita un Código
+      device_invoice: Factura del dispositivo
+      device_invoice_label: Descarga documentos comerciales para tu gestor o tu (extraña) colección de PDFs.
+      device_invoice_hint: Encuentralo en tu página de seguimiento de envío o en el correo de notificación de envío.
       email_address_hint: Se usa para conectarse a TRMNL y recibir mensajes.
       first_name_hint: Usamos tu nombre para hacer que la interfaz de TRMNL sea más cómoda.
       last_name_hint: Usamos tu apellido para hacer que la interfaz de TRMNL sea más cómoda.
       password_hint: Para proteger tu cuenta de TRMNL.
-      enable_2fa: Enable 2FA?
-      enable_2fa_hint: __Click here__ to enable OTP.
-      disable_2fa: Disable 2FA
+      enable_2fa: "¿Habilitar 2FA?"
+      enable_2fa_hint: __Haz click aquí__ para habilitar OTP.
+      disable_2fa: Deshabilitar 2FA
       disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
       session: Sesión
       session_hint: Estás conectado como %{user}
       time_zone: Zona horaria
       time_zone_hint: Determina la tasa de refresco y tiempo de suspensión del dispositivo.
-      locale: Locale
-      locale_hint: What language and localization do you prefer? __Go here__.
-
-    # toast messages
+      locale: Idioma
+      locale_hint: "¿Qué idioma y localización prefieres? __Accede aquí__."
     update:
       success: Perfil actualizado correctamente
+    reset_api_key:
+      success: La clave API se ha regenerado correctamente
   dashboard:
     index:
       title: Panel de control
-      morning_salutation: Good morning
-      afternoon_salutation: Good afternoon
-      evening_salutation: Good evening
+      morning_salutation: Buenos días
+      afternoon_salutation: Buenas tardes
+      evening_salutation: Buenas noches
       last_7_days: Últimos 7 días
       last_30_days: Últimos 30 días
       last_90_days: Últimos 90 días
       today: Hoy
       yesterday: Ayer
-    health: # partial (widget)
+    health:
       bad: Algunos plugins tienen problemas
       good: Los plugins funcionan correctamente
       next_steps: Te informaremos si algo cambia
-    news: # partial (widget)
+    news:
       title: Noticias
-      cta: View All
-    playlists: # partial (widget)
+      cta: Ver TODAS
+    playlists:
       title: Lista de reproducción
       cta: Editar lista de reproducción
       pieces_of_content_displayed: Contenido mostrado
-    plugins: # partial (widget)
+    plugins:
       title: Plugins
       cta: Ir a Plugins
       connected: Conectado
       new_and_popular: Nuevo y Popular
     shop:
-      title: Shop
-    time_saved: # partial (widget)
+      title: Tienda
+    time_saved:
       title: Tiempo ahorrado
       cta: Leer más
   devices:
@@ -135,8 +137,8 @@ es-ES:
       battery_consumption_hint: Ahorra energía y mejora el uso de batería habilitando el Modo de Suspensión.
       developer_perks: Ventajas para Desarrolladores
       developer_perks_hint: Las opciones a continuación requieren el __plugin de Desarrollador__.
-      device_credentials: Device Credentials
-      device_credentials_hint: See what you can do with these credentials __here__
+      device_credentials: Credenciales del dispositivo
+      device_credentials_hint: Puedes ver qué puedes hacer con estas credenciales __aquí__
       device_name: Nombre del Dispositivo
       device_name_hint: Lo utilizamos para hacer la interfaz de TRMNL más cómoda
       edit_device: Editar Dispositivo
@@ -145,6 +147,7 @@ es-ES:
       identify_device_hint: Haz clic en el botón de abajo para crear una pantalla en este dispositivo que ayude a identificarlo.
       logs: Logs
       logs_hint: Debug your device and plugins with a live feed of raw error logs.
+      low_battery_email_notification: Low Battery Email Notification
       mirror: Copiar dispositivo
       mirror_device: Copiar otro Dispositivo
       mirror_device_hint: Proporciona un ID de dispositivo (compartible) para espejar su lista de reproducción. Tu lista de reproducción seguirá mostrándose.
@@ -166,13 +169,11 @@ es-ES:
       title: Dispositivos
       tagline: Tus dispositivos TRMNL
       add_device_modal_title: Añadir un nuevo dispositivo
-      add_first_device: ¡Añade tu primer dispositivo!
+      add_first_device: "¡Añade tu primer dispositivo!"
     new:
       title: Añadir un nuevo dispositivo
       description: Introduce tu ID de Dispositivo para añadir un nuevo dispositivo TRMNL a tu cuenta.
       add_device: Añadir nuevo dispositivo
-
-    # toast messages
     associate:
       error: Error al vincular el dispositivo
       success: Dispositivo vinculado con éxito
@@ -193,18 +194,18 @@ es-ES:
       success: Dispositivo cambiado con éxito
     update:
       error: Error al actualizar el dispositivo
-      success: "Configuración del dispositivo %{device} actualizada con éxito"
+      success: Configuración del dispositivo %{device} actualizada con éxito
   invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
+    rate_limit: Demasiados intentos, por favor, espera e intentalo de nuevo
+    invoice_not_found: Factura no encontrada
   logs:
     index:
       title: Logs
-      all: All
-      device: Device
-      dump: Dump # content
+      all: Todos
+      device: Dispositivos
+      dump: Dump
       id: ID
-      private_plugins: Private Plugins
+      private_plugins: Plugins Privados
       source: Source
       time: Time
   markups:
@@ -219,14 +220,17 @@ es-ES:
       edit_markup_without_preview: Edit Markup (without preview)
       error_rendering_markup: Error rendering that markup
       fix_indentation: Fix indentation
+      go_to_preview: Go To Preview
       live_preview: Live Preview
       no_changes_to_save: No changes to save
+      pop_out_preview: Pop Out Preview
       quickstart_examples: Quick-start Examples
       quickstart_example_applied: Applied!
       quickstart_use_this_example: Use this example
       revert: Revert
       revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
       save_changes: Save Changes (⌘﹢S)
+      separate_preview: Preview is open in a separate window
     merge_variables:
       your_variables: Your variables
     no_merge_variables:
@@ -234,76 +238,87 @@ es-ES:
       no_variables_detected: No variables detected.
   mfa:
     disable_otp:
-      success: 2FA Disabled
-      invalid_otp: Invalid OTP
-      invalid_password: Invalid Password
-      invalid_otp_and_password: Invalid OTP and Password
+      success: 2FA Deshabilitado
+      invalid_otp: OTP invalido
+      invalid_password: Contraseña incorrecta
+      invalid_otp_and_password: OTP y contraseña incorrectos
     enable_otp:
-      input_otp: Enter OTP
+      input_otp: Introduce el OTP
       submit: Verify and Enable
-      already_enabled: 2FA is already enabled
+      already_enabled: 2FA ya está habilitado
     enable_otp_verify:
-      success: 2FA Enabled
-      error: Invalid OTP code
+      success: 2FA Habilitado
+      error: Código OTP incorrecto
     verify_otp:
-      verify: Verify
+      verify: Verificar
       success: 2FA successful
       error: Invalid OTP code
   playlists:
     index:
       title: Lista de Reproducción
       tagline: Elige lo que se muestra en
-      add_a_group: Add a Group
-      add_a_plugin: Add a Plugin
-      add_first_device_cta: ¡Empieza __añadiendo__ tu primer dispositivo TRMNL!
+      add_a_group: Añadir a un Grupo
+      add_a_plugin: Añadir a un Plugin
+      add_first_device_cta: "¡Empieza __añadiendo__ tu primer dispositivo TRMNL!"
       add_to_playlist: Añadir a la Lista de Reproducción
-      create_first_playlist_cta: ¡Crea tu lista de reproducción después de __conectar__ tu primer plugin!
-      display_period_from: Display from
-      display_period_to: to
+      create_first_playlist_cta: "¡Crea tu lista de reproducción después de __conectar__ tu primer plugin!"
+      custom: Custom
+      device_default: Device default
+      display_period_from: Mostrar desde
+      display_period_to: hasta
+      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
+      every: cada
     playlist:
-      delete: ¿Seguro que quieres eliminar este elemento? El plugin permanecerá conectado, pero no se mostrará en tu dispositivo.
+      delete: "¿Seguro que quieres eliminar este elemento? El plugin permanecerá conectado, pero no se mostrará en tu dispositivo."
       displayed_now: Mostrado ahora
       not_displayed_yet: Pendiente
       remove_from_playlist: Eliminar de la lista de reproducción
-
-    # toast messages
+      hide_playlist: Ocultar este elemento
+      show_playlist: Mostrar este elemento
     create:
       error: Falló la actualización de la lista de reproducción
       success: Lista de reproducción actualizada
     destroy:
       error: Error al eliminar el elemento de la lista de reproducción
-      success:  eliminado de la lista de reproducción
+      success: eliminado de la lista de reproducción
+    toggle_visibility:
+      success: Elemento de la lista de reproducción %{change}
+    duplicate:
+      success: Lista de reproducción duplicada
+    sort:
+      success: Orden de la lista de reproducción actualizado
     update:
-      success: Orden de la lista de reproducción actualizada
+      success: Orden de la lista de reproducción actualizado
   plugins:
     index:
-      title: Complementos
-      tagline: ¿Qué pondrás en tu TRMNL?
+      title: Plugins
+      tagline: "¿Qué pondrás en tu TRMNL?"
       available: Disponible
       connected: Conectado
       recipes: Recipes
-      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
-    search: # parcial (cuadro de búsqueda)
+      recipes_hint: Plugins Privados creados por miembros de la comunidad que se pueden instalar en 1 click. __Aprende más__.
+    search:
       placeholder: Buscar Plugins
     my:
-      title: Mis Plugins
-      tagline: Desarrolla para el mercado de Plugins
-      connections: connections
-      edit: Edit
-      install: Install
-      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-      submit_for_review: Mandar a revisión
+      index:
+        title: Mis Plugins
+        tagline: Desarrolla para el mercado de Plugins
+      card:
+        connections: connections
+        install: Install
+        review_are_you_sure: "¿Estás seguro? El equipo de TRMNL lo revisará y te enviará un email con cualquier duda."
+        submit_for_review: Mandar a revisión
     new:
       title: Crear Plugin
       tagline: Permitir que otros usuarios instalen tu plugin
       name: Nombre
-      category: Category
+      category: Categoría
       description: Descripción
-      description_hint: Maximum 50 characters
+      description_hint: Máximo 50 caracteres
       icon: Icono
       icon_hint: 40px*40px recomendado
-      installation_url: Installation URL
-      installation_url_hint: Learn more about the installation flow __here__.
+      installation_url: URL de instalacion
+      installation_url_hint: Aprende más sobre el flujo de instalación __aquí__.
       installation_success_webhook_url: Installation Success Webhook URL
       knowledge_base_url: Knowledge Base URL
       management_url: Plugin Management URL
@@ -317,23 +332,31 @@ es-ES:
       name: Nombre
       description: Descripción
   plugin_recipes:
+    connected: Recipe connected
+    connections:
+      one: Connection
+      other: Connections
+    forks:
+      one: Fork
+      other: Forks
     new:
       error: Recipe not found
   plugin_settings:
     active: Activo
-    copy_are_you_sure: Are you sure you want to copy this setting?
-    delete_are_you_sure: Are you sure you want to delete this setting?
-    delete: Esto borrará completamente la configuración del plugin. Para esconder este plugin de tu dispositivo, elimínalo de tu Lista de Reproducción en su lugar.
+    copy_are_you_sure: "¿Estás seguro de que quieres copiar este plugin?"
+    delete_are_you_sure: "¿Estás seguro de que quieres eliminar este plugin?"
+    delete: Esto borrará completamente la configuración del plugin. Para ocultar este plugin de tu dispositivo, elimínalo de tu Lista de Reproducción en su lugar.
     inactive: Inactivo
     no_plugin_settings_found: No se encontraron configuraciones del plugin.
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    refreshing_now_please_wait: Actualizando, refresca la página en unos segundos.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Mostrar u ocultar este plugin en tu dispositivo
+      advanced_settings: Advanced Settings
       back_to_plugin: Volver a %{plugin}
       back_to_plugins: Volver a Plugins
       connect_with: Conectar con %{plugin}
-      disconnect_account: Disconnect Account
+      disconnect_account: Desconectar cuenta
       manage_plugin: Configurar %{plugin}
       force_refresh: Forzar Refresco
       force_refresh_hint: Esta función está diseñada solo para pruebas; por favor, no abuses de ella.
@@ -353,38 +376,38 @@ es-ES:
       refresh_rate: Tasa de refresco
       refresh_rate_hint: Define con qué frecuencia esta instancia de plugin obtiene nuevos datos
       refreshed: Refrescado
-      remove_plugin: Remove plugin
-      remove_plugin_hint: Removing a plugin will also remove it from your playlist
-      synced: Synced
+      remove_plugin: Eliminar plugin
+      remove_plugin_hint: Eliminar un plugin también lo eliminará de tu lista de reproducción
+      synced: Sincronizado
+      refresh_paused: Actualización en pausa
+      refresh_paused_hint: La actualización automática está en pausa. Añade a la lista de reproduccion para comenzar de nuevo.
+      refresh_paused_mashup: Refreshing Mashups
+      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_stopped: La actualización automática se ha detenido. Por favor, arregla el error del plugin para continuar.
       visit_docs: Visitar Documentación
     import:
-      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
-      missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: '%{filename} is too large'
-      malformed: '%{filename} is malformed'
-
-    # toast messages
+      archive_too_large: El archivo ZIP es demasiado grande (%{max_mb} MB máximo)
+      missing_entry: El archivo ZIP no contiene %{filename}
+      entry_too_large: "%{filename} es demasiado grande"
+      malformed: "%{filename} está mal formado"
     create:
       success: Plugin creado y añadido a tu
       playlist: lista de reproducción
     destroy:
       success: Plugin eliminado
-    handle_canceled_consent: Consentimiento cancelado, por favor intenta de nuevo
+    handle_canceled_consent: Consentimiento cancelado, por favor intentalo de nuevo
     update:
       success: Configuración del plugin actualizada con éxito
     add_to_playlist:
-      success: Plugin added to Playlist
-
+      success: Plugin añadido a la Lista de Reproducción
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: Solicitud recibida, comprueba tu bandeja de entrada
   upgrade:
     index:
-      title: "Upgrading device:"
-      tagline: Unlock custom plugins and __more__.
-      pay: Pay # button text; ex "Pay $20"
-      error: Device %{device_name} is already upgraded, switch to another device
-
-    # toast messages
+      title: 'Actualizando dispositivo:'
+      tagline: Desbloquea plugins personalizados y __más__.
+      pay: Pagar
+      error: El dispositivo %{device_name} ya se ha actualizado, cambia a otro dispositivo
     confirm:
-      success: Developer edition add-on is now enabled
+      success: Se ha habilitado el add-on de la edición de Desarrollador

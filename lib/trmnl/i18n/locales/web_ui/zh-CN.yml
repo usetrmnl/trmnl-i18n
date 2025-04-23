@@ -1,10 +1,9 @@
+---
 zh-CN:
-
-  # global, logged out, and auth-related
   add: 添加
   add_new: 添加新设备
-  ago: 之前 # example: "Created 5 mins ago"
-  already_have_account: 登录 # signup form cta
+  ago: 之前
+  already_have_account: 登录
   back: 后退
   back_to_all_blog_posts: 返回首页
   blog: 博客
@@ -19,8 +18,8 @@ zh-CN:
   copy: 复制
   copied_to_clipboard: 已复制
   copy_to_clipboard: 复制到剪贴板
-  created: 新建于 # example: "Created 5 mins ago"
-  create_an_account: 创建账号 # login form cta
+  created: 新建于
+  create_an_account: 创建账号
   current_device: 当前设备
   days: 天
   delete: 删除
@@ -31,8 +30,8 @@ zh-CN:
   export: Export
   fetching: 正在获取
   first_name: 名
-  forgot_password: 忘记密码 # login form link
-  forgot_password_title: 重新设置密码 # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  forgot_password: 忘记密码
+  forgot_password_title: 重新设置密码
   get_started: 开始使用
   identify: 识别
   import: Import
@@ -44,34 +43,37 @@ zh-CN:
   loading: 加载中
   login: 登陆
   log_out: 登出
-  minimum_characters: 最少字符 # ex: 8 characters minimum
-  mins: 分 # 'minutes' abbreviation
+  minimum_characters: 最少字符
+  mins: 分
   my_playlist: 我的播放列表
   new_password: 新密码
   password: 密码
-  please_wait: 请等待…… # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: 请等待……
   plugin_not_found: 未发现插件
   refresh_rates_hint: 点击 __此处__ 了解刷新频次。
   reset_password: 重置密码
   save: 保存
   section: 分区
-  sign_in: 登录 # login form cta
-  sign_up: 退出 # logged out navigation
+  sign_in: 登录
+  sign_up: 退出
   something_went_wrong: 未知错误
-  support: 技术支持 # bottom navigation tab, links to help center
+  tech_support: 技术支持
   update: 更新
   view: 查看
-  welcome: 欢迎 # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: 欢迎
   account:
     index:
       title: 账号
       tagline: 修改账号设置
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: Email
       refer_and_earn: 返利
       refer_and_earn_hint: 通过个性化的优惠券赠送 TRMNL 设备。按使用次数付费，按月支付。
-      refer_and_earn_redemptions: 兑换次数 # how many times this coupon has been used
+      refer_and_earn_redemptions: 兑换次数
       refer_and_earn_request_code: 生成兑换码
       device_invoice: 设备发票
       device_invoice_label: 下载您的商业发票或者 PDF 汇款证明。
@@ -90,10 +92,10 @@ zh-CN:
       time_zone_hint: 用于自动调整刷新率与设备休眠
       locale: 本地化
       locale_hint: 您首选的语言和本地化是？__可在此设置__。
-
-    # toast messages
     update:
       success: 账户修改成功
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: 仪表盘
@@ -105,35 +107,35 @@ zh-CN:
       last_90_days: 过去90日
       today: 今日
       yesterday: 昨日
-    health: # partial (widget)
+    health:
       bad: 插件出现错误
       good: 插件正常
       next_steps: 若有进一步变化，将通知您
-    news: # partial (widget)
+    news:
       title: 通知
       cta: 全部显示
-    playlists: # partial (widget)
+    playlists:
       title: 播放列表
       cta: 修改播放列表
       pieces_of_content_displayed: 显示信息数量
-    plugins: # partial (widget)
+    plugins:
       title: 插件
       cta: 前往插件
       connected: 已连接
       new_and_popular: 热门插件
     shop:
       title: 店铺
-    time_saved: # partial (widget)
+    time_saved:
       title: 节省时间
       cta: 详细信息
   devices:
     edit:
-      accepts_beta_firmware: beta测试固件 # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: beta测试固件
       accepts_beta_firmware_hint: 打开以提前使用最新固件
       back_to_devices: 返回设备列表
       battery_consumption: 电池消耗
       battery_consumption_hint: 在晚上10点到早上8点之间启用睡眠模式，节省电量并延长电池寿命。
-      developer_perks: 开发者选项 # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: 开发者选项
       developer_perks_hint: 下列选项需要__开发者选项__
       device_credentials: 设备密码
       device_credentials_hint: See what you can do with these credentials __here__
@@ -145,6 +147,7 @@ zh-CN:
       identify_device_hint: 点击以在此设备上显示识别信息
       logs: 日志
       logs_hint: Debug your device and plugins with a live feed of raw error logs.
+      low_battery_email_notification: Low Battery Email Notification
       mirror: 镜像
       mirror_device: 镜像其他设备
       mirror_device_hint: 生成一个设备ID，用于镜像播放列表
@@ -171,8 +174,6 @@ zh-CN:
       title: 添加新TRMNL设备
       description: 输入您的TRMNL设备ID以添加新TRMNL设备
       add_device: 添加新添加新TRMNL设备设备
-
-    # toast messages
     associate:
       error: 设备连接错误
       success: 设备连接成功
@@ -193,7 +194,7 @@ zh-CN:
       success: 设备切换成功
     update:
       error: 设备更新错误
-      success: “%{device} 更新成功”
+      success: "“%{device} 更新成功”"
   invoices:
     rate_limit: 尝试次数过多，请耐心等待之后再次尝试
     invoice_not_found: 未找到发票
@@ -202,7 +203,7 @@ zh-CN:
       title: 日志
       all: 全部
       device: 设备
-      dump: Dump # content
+      dump: Dump
       id: ID
       private_plugins: 私有插件
       source: 来源
@@ -219,14 +220,17 @@ zh-CN:
       edit_markup_without_preview: Edit Markup (without preview)
       error_rendering_markup: Error rendering that markup
       fix_indentation: Fix indentation
+      go_to_preview: Go To Preview
       live_preview: Live Preview
       no_changes_to_save: No changes to save
+      pop_out_preview: Pop Out Preview
       quickstart_examples: Quick-start Examples
       quickstart_example_applied: Applied!
       quickstart_use_this_example: Use this example
       revert: Revert
       revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
       save_changes: Save Changes (⌘﹢S)
+      separate_preview: Preview is open in a separate window
     merge_variables:
       your_variables: Your variables
     no_merge_variables:
@@ -258,21 +262,31 @@ zh-CN:
       add_first_device_cta: 添加您的第一个TRMNL设备！
       add_to_playlist: 添加到播放列表
       create_first_playlist_cta: 连接您的第一个插件以创建播放列表！
+      custom: Custom
+      device_default: Device default
       display_period_from: Display from
       display_period_to: to
-    playlist: # partial (single item)
+      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
+      every: every
+    playlist:
       delete: 确认删除设备？尽在设备上删除，不会影响插件连接。
       displayed_now: 正在显示
       not_displayed_yet: 尚未显示
       remove_from_playlist: 从播放列表中删除
-
-    # toast messages
+      hide_playlist: Hide this item
+      show_playlist: Show this item
     create:
       error: 创建播放列表错误
       success: 播放列表创建成功
     destroy:
       error: 删除播放列表错误
       success: 播放列表删除成功
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
+      success: Playlist order updated
     update:
       success: 播放列表更新成功
   plugins:
@@ -283,16 +297,17 @@ zh-CN:
       connected: 已连接
       recipes: Recipes
       recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
-    search: # partial (search box)
+    search:
       placeholder: 搜索所有插件
     my:
-      title: 我的插件
-      tagline: 开发插件并与其他用户共享
-      connections: connections
-      edit: Edit
-      install: Install
-      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-      submit_for_review: 提交审核
+      index:
+        title: 我的插件
+        tagline: 开发插件并与其他用户共享
+      card:
+        connections: connections
+        install: Install
+        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+        submit_for_review: 提交审核
     new:
       title: 创建插件
       tagline: 开发您的第一个插件
@@ -317,6 +332,13 @@ zh-CN:
       name: 名称
       description: 简介
   plugin_recipes:
+    connected: Recipe connected
+    connections:
+      one: Connection
+      other: Connections
+    forks:
+      one: Fork
+      other: Forks
     new:
       error: Recipe not found
   plugin_settings:
@@ -325,11 +347,12 @@ zh-CN:
     delete_are_you_sure: Are you sure you want to delete this setting?
     delete: 删除。这将完全删除插件的设置。要仅隐藏此插件，请从播放列表中删除。
     inactive: 停用
-    no_plugin_settings_found: 未找到插件信息 # empty state - should not appear
+    no_plugin_settings_found: 未找到插件信息
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: 显示/隐藏此插件
+      advanced_settings: Advanced Settings
       back_to_plugin: 返回 %{plugin}
       back_to_plugins: 返回插件
       connect_with: 已连接 %{plugin}
@@ -356,14 +379,17 @@ zh-CN:
       remove_plugin: Remove plugin
       remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: 已同步
+      refresh_paused: Refresh Paused
+      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
+      refresh_paused_mashup: Refreshing Mashups
+      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
       visit_docs: 查看文档
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: '%{filename} is too large'
-      malformed: '%{filename} is malformed'
-
-    # toast messages
+      entry_too_large: "%{filename} is too large"
+      malformed: "%{filename} is malformed"
     create:
       success: 插件设置创建并添加成功
       playlist: 播放列表
@@ -374,17 +400,14 @@ zh-CN:
       success: 插件成功更新设置
     add_to_playlist:
       success: 插件成功添加到播放列表
-
   referral_code:
     create:
       request_received: Request received, check your inbox
   upgrade:
     index:
-      title: "正在升级设备："
+      title: 正在升级设备：
       tagline: 选择您的升级计划
-      pay: 支付 # button text; ex "Pay $20"
+      pay: 支付
       error: Device %{device_name} is already upgraded, switch to another device
-
-    # toast messages
     confirm:
       success: Developer edition add-on is now enabled

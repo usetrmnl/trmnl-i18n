@@ -1,10 +1,9 @@
+---
 nl:
-
-  # global, logged out, and auth-related
   add: Toevoegen
   add_new: Nieuwe toevoegen
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: Ik heb al een account # signup form cta
+  ago: ago
+  already_have_account: Ik heb al een account
   back: Terug
   back_to_all_blog_posts: Terug naar alle berichten
   blog: Blog
@@ -19,8 +18,8 @@ nl:
   copy: Kopiëren
   copied_to_clipboard: Gekopieerd!
   copy_to_clipboard: Kopiëren naar klembord
-  created: Aangemaakt # example: "Created 5 mins ago"
-  create_an_account: Maak een account # login form cta
+  created: Aangemaakt
+  create_an_account: Maak een account
   current_device: Huidig apparaat
   days: dagen
   delete: Verwijder
@@ -31,8 +30,8 @@ nl:
   export: Export
   fetching: Ophalen
   first_name: Voornaam
-  forgot_password: Wachtwoord vergeten # login form link
-  forgot_password_title: Hier gaan we weer # heading on /password/new
+  forgot_password: Wachtwoord vergeten
+  forgot_password_title: Hier gaan we weer
   get_started: Laten we beginnen!
   identify: Identificeren
   import: Import
@@ -44,34 +43,37 @@ nl:
   loading: Laden
   login: Inloggen
   log_out: Uitloggen
-  minimum_characters: karakters minimaal # ex: 8 characters minimum
-  mins: min. # 'minutes' abbreviation
+  minimum_characters: karakters minimaal
+  mins: min.
   my_playlist: Mijn afspeellijst
   new_password: Nieuw wachtwoord
   password: Wachtwoord
-  please_wait: Even geduld... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Even geduld...
   plugin_not_found: Plugin niet gevonden
   refresh_rates_hint: Leer __hier__ hoe verversingssnelheden werken
   reset_password: Vraag nieuw wachtwoord op
   save: Opslaan
   section: Sectie
-  sign_in: Inloggen # login form cta
-  sign_up: Registreren # logged out navigation
+  sign_in: Inloggen
+  sign_up: Registreren
   something_went_wrong: Er is iets misgegaan
-  support: Support # bottom navigation tab, links to help center
+  tech_support: Support
   update: Bijwerken
   view: Bekijk
-  welcome: Welkom # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: Welkom
   account:
     index:
       title: Account
       tagline: Accountinstellingen beheren
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: Emailadres
       refer_and_earn: Verwijs en verdien
       refer_and_earn_hint: Deel TRMNL via een gepersonaliseerde coupon. Verdien per gebruik, maandelijks uitbetaald.
-      refer_and_earn_redemptions: Aantal keer gebruikt # how many times this coupon has been used
+      refer_and_earn_redemptions: Aantal keer gebruikt
       refer_and_earn_request_code: Vraag een code aan
       device_invoice: Apparaatfactuur
       device_invoice_label: Download commerciële documenten voor je accountant of jouw PDF-verzameling.
@@ -90,10 +92,10 @@ nl:
       time_zone_hint: Bepaalt de refresh rates en apparaat slaapmodus.
       locale: Landinstelling
       locale_hint: Welke taal en lokalisatie heeft je voorkeur? __Ga hiernaartoe__.
-
-    # toast messages
     update:
       success: Profiel succesvol bijgewerkt
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: Dashboard
@@ -105,35 +107,35 @@ nl:
       last_90_days: Laatste 90 dagen
       today: Vandaag
       yesterday: Gisteren
-    health: # partial (widget)
+    health:
       bad: Plugins hebben wat problemen
       good: Plugins zien er goed uit
       next_steps: We informeren je als er iets verandert
-    news: # partial (widget)
+    news:
       title: Nieuws
       cta: Alles bekijken
-    playlists: # partial (widget)
+    playlists:
       title: Afspeellijsten
       cta: Ga naar afspeellijsten
       pieces_of_content_displayed: Aantal content elementen die getoond worden
-    plugins: # partial (widget)
+    plugins:
       title: Plugins
       cta: Ga naar plugins
       connected: Verbonden
       new_and_popular: Nieuw en populair
     shop:
       title: Winkel
-    time_saved: # partial (widget)
+    time_saved:
       title: Tijd bespaard
       cta: Lees meer
   devices:
     edit:
-      accepts_beta_firmware: Beta firmware-release # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: Beta firmware-release
       accepts_beta_firmware_hint: Schakel in om de nieuwste beta firmwareverbeteringen voor je apparaat te ontvangen.
       back_to_devices: Terug naar apparaten
       battery_consumption: Batterijgebruik
       battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren.
-      developer_perks: Ontwikkelaarsvoordelen # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: Ontwikkelaarsvoordelen
       developer_perks_hint: De onderstaande opties vereisen de __ontwikkelaars-add-on__.
       device_credentials: Apparaatgegevens
       device_credentials_hint: Beijk __hier__ wat je met deze gegevens kunt doen.
@@ -145,6 +147,7 @@ nl:
       identify_device_hint: Klik op onderstaande knop om een scherm op dit apparaat te tonen om het makkelijk te identificeren.
       logs: Logboeken
       logs_hint: Debug je apparaat en plugins met een live-feed van de foutlogboeken.
+      low_battery_email_notification: Low Battery Email Notification
       mirror: Spiegelen
       mirror_device: Spiegel een ander apparaat
       mirror_device_hint: Geef een (deelbaar) apparaat ID op om zijn afspeellijst te spiegelen. Jouw afspeellijst wordt nog steeds getoond.
@@ -171,8 +174,6 @@ nl:
       title: Nieuw apparaat toevoegen
       description: Voer je Apparaat ID in om een nieuw TRMNL apparaat aan je account toe te voegen.
       add_device: Nieuw apparaat toevoegen
-
-    # toast messages
     associate:
       error: Fout bij koppelen apparaat
       success: Apparaat succesvol gekoppeld
@@ -202,7 +203,7 @@ nl:
       title: Logboeken
       all: Alles
       device: Apparaat
-      dump: Verwijderen # content
+      dump: Verwijderen
       id: ID
       private_plugins: Privé-plugins
       source: Bron
@@ -219,14 +220,17 @@ nl:
       edit_markup_without_preview: Markup bewerken (zonder voorbeeldweergave)
       error_rendering_markup: Fout bij het weergeven van de markup
       fix_indentation: Inspringing corrigeren
+      go_to_preview: Go To Preview
       live_preview: Live voorbeeld
       no_changes_to_save: Geen wijzigingen om op te slaan
+      pop_out_preview: Pop Out Preview
       quickstart_examples: Snelstartvoorbeelden
       quickstart_example_applied: Toegepast!
       quickstart_use_this_example: Gebruik dit voorbeeld
       revert: Terugzetten
       revert_confirm: Weet je zeker dat je wilt terugzetten? All niet-opgeslagen wijzigingen gaan verloren.
       save_changes: Wijzigingen opslaan (⌘﹢S)
+      separate_preview: Preview is open in a separate window
     merge_variables:
       your_variables: Jouw variabelen
     no_merge_variables:
@@ -258,21 +262,31 @@ nl:
       add_first_device_cta: Begin door jouw eerste TRMNL apparaat __toe te voegen__!
       add_to_playlist: Toevoegen aan afspeellijst
       create_first_playlist_cta: Maak jouw afspeellijst nadat je jouw eerst plugin __verbindt__!
+      custom: Custom
+      device_default: Device default
       display_period_from: Weergeven van
       display_period_to: tot
-    playlist: # partial (single item)
+      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
+      every: every
+    playlist:
       delete: Weet je zeker dat je dit item wilt verwijderen? De plugin blijft verbonden en wordt niet getoond op jouw apparaat.
       displayed_now: Nu getoond
       not_displayed_yet: Nog niet getoond
       remove_from_playlist: Verwijderen van afspeellijst
-
-    # toast messages
+      hide_playlist: Hide this item
+      show_playlist: Show this item
     create:
       error: Bijwerken van afspeellijst is mislukt
       success: Afspeellijst is bijgewerkt
     destroy:
       error: Fout bij het verwijderen van afspeellijst
       success: Plugin verwijderd van afspeellijst
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
+      success: Playlist order updated
     update:
       success: Volgorde afspeellijst bijgewerkt
   plugins:
@@ -283,16 +297,17 @@ nl:
       connected: Verbonden
       recipes: Recepten
       recipes_hint: Privé-plugins van communityleden die met één klik kunnen worden geïnstalleerd. __Lees meer__.
-    search: # partial (search box)
+    search:
       placeholder: Zoeken binnen plugins
     my:
-      title: Mijn plugins
-      tagline: Ontwikkel plugins voor de openbare marktplaats
-      connections: verbindingen
-      edit: Bewerken
-      install: Installeren
-      review_are_you_sure: Weet je het zeker? Het TRMNL-team gaat je plugin testen en kan eventueel vragen per e-mail sturen.
-      submit_for_review: Indienen ter beoordeling
+      index:
+        title: Mijn plugins
+        tagline: Ontwikkel plugins voor de openbare marktplaats
+      card:
+        connections: verbindingen
+        install: Installeren
+        review_are_you_sure: Weet je het zeker? Het TRMNL-team gaat je plugin testen en kan eventueel vragen per e-mail sturen.
+        submit_for_review: Indienen ter beoordeling
     new:
       title: Nieuwe plugin maken
       tagline: Sta andere gebruikers toe je plugin te installeren.
@@ -317,6 +332,13 @@ nl:
       name: Naam
       description: Beschrijving
   plugin_recipes:
+    connected: Recipe connected
+    connections:
+      one: Connection
+      other: Connections
+    forks:
+      one: Fork
+      other: Forks
     new:
       error: Recept niet gevonden
   plugin_settings:
@@ -325,11 +347,12 @@ nl:
     delete_are_you_sure: Weet je zeker dat je deze instelling wilt verwijderen?
     delete: Hiermee verwijder je de instellingen van de plugin volledig. Om deze plugin simpelweg te verbergen verwijder je deze uit jouw afspeellijst.
     inactive: Inactief
-    no_plugin_settings_found: Geen plugininstellingen gevonden. # empty state - should not appear
+    no_plugin_settings_found: Geen plugininstellingen gevonden.
     refreshing_now_please_wait: Plugin wordt verversd, herlaad de pagina over een paar seconden.
     reset_credentials: "%{plugin_name} account succesvol hersteld"
     form:
       active_hint: Toon of verberg deze plugin op je apparaat
+      advanced_settings: Advanced Settings
       back_to_plugin: Terug naar %{plugin}
       back_to_plugins: Terug naar plugins
       connect_with: Verbinden met %{plugin}
@@ -356,14 +379,17 @@ nl:
       remove_plugin: Plugin verwijderen
       remove_plugin_hint: Het verwijderen van een plugin zal deze ook uit je afspeellijst verwijderen
       synced: Gesynchroniseerd
+      refresh_paused: Refresh Paused
+      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
+      refresh_paused_mashup: Refreshing Mashups
+      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
       visit_docs: Bekijk docs
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: '%{filename} is too large'
-      malformed: '%{filename} is malformed'
-
-    # toast messages
+      entry_too_large: "%{filename} is too large"
+      malformed: "%{filename} is malformed"
     create:
       success: Plugin aangemaakt en toegevoegd aan jouw
       playlist: afspeellijst
@@ -374,17 +400,14 @@ nl:
       success: Plugin configuratie is succesvol bijgewerkt
     add_to_playlist:
       success: Plugin toegevoegd aan afspeellijst
-
   referral_code:
     create:
       request_received: Request ontvangen, check je inbox
   upgrade:
     index:
-      title: "Apparaat upgraden:"
+      title: 'Apparaat upgraden:'
       tagline: Ontgrendel aangepaste plugins en __meer__.
-      pay: Betalen # button text; ex "Pay $20"
+      pay: Betalen
       error: Apparaat %{device_name} is al geüpgraded, wissel naar een ander apparaat
-
-    # toast messages
     confirm:
       success: Developer-editie add-on is nu ingeschakeld

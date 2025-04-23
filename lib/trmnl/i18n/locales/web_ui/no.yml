@@ -1,9 +1,8 @@
-"no":
-
-  # global, logged out, and auth-related
+---
+'no':
   add: Legg til
   add_new: Legg til ny
-  ago: siden # example: "Created 5 mins ago"
+  ago: siden
   already_have_account: Jeg har allerede en konto
   back: Tilbake
   back_to_all_blog_posts: Tilbake til alle innlegg
@@ -58,16 +57,19 @@
   sign_in: Logg inn
   sign_up: Registrer deg
   something_went_wrong: Noe gikk galt
-  support: Support
+  tech_support: Support
   update: Oppdater
   view: Vis
   welcome: Velkommen
-
-  # views by resource (device, plugins, playlists, account, etc)
   account:
     index:
       title: Konto
       tagline: Administrer kontoinnstillingene dine
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: E-postadresse
       refer_and_earn: Henvis og tjen
       refer_and_earn_hint: Gi gaven av TRMNL med en personlig kupong. Tjen per bruk, betalt månedlig.
@@ -90,11 +92,10 @@
       time_zone_hint: Bestemmer oppdateringsfrekvenser og enhetens hviletid.
       locale: Språk
       locale_hint: Hvilket språk og lokalitet foretrekker du? __Gå hit__.
-
-    # toast messages
     update:
       success: Profil oppdatert
-
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: Oversikt
@@ -106,28 +107,27 @@
       last_90_days: Siste 90 dager
       today: I dag
       yesterday: I går
-    health: # partial (widget)
+    health:
       bad: Plugins har problemer
       good: Plugins fungerer bra
       next_steps: Vi informerer deg hvis noe endres
-    news: # partial (widget)
+    news:
       title: Nyheter
       cta: Vis alle
-    playlists: # partial (widget)
+    playlists:
       title: Spilleliste
       cta: Rediger spilleliste
       pieces_of_content_displayed: Antall viste innholdselementer
-    plugins: # partial (widget)
+    plugins:
       title: Plugins
       cta: Gå til Plugins
       connected: Tilkoblet
       new_and_popular: Nye og populære
     shop:
       title: Butikk
-    time_saved: # partial (widget)
+    time_saved:
       title: Tid spart
       cta: Les om
-
   devices:
     edit:
       accepts_beta_firmware: Tidlig utgivelse av fastvare
@@ -147,6 +147,7 @@
       identify_device_hint: Klikk på knappen nedenfor for å generere en skjerm på denne enheten som hjelper med å identifisere den.
       logs: Logger
       logs_hint: Feilsøk enheten og plugins med en live feed av rå feillogger.
+      low_battery_email_notification: Low Battery Email Notification
       mirror: Speil
       mirror_device: Speil en annen enhet
       mirror_device_hint: Oppgi en (delbar) enhets-ID for å speile dens spilleliste. Din spilleliste vil fortsatt vises.
@@ -173,8 +174,6 @@
       title: Legg til en ny enhet
       description: Skriv inn din enhets-ID for å legge til en ny TRMNL-enhet til kontoen din.
       add_device: Legg til ny enhet
-
-    # toast messages
     associate:
       error: Feil ved tilkobling av enhet
       success: Enheten ble tilkoblet
@@ -196,7 +195,6 @@
     update:
       error: Feil ved oppdatering av enhet
       success: "%{device} enhetsinnstillingene ble oppdatert"
-
   invoices:
     rate_limit: For mange forsøk, vennligst vent og prøv igjen
     invoice_not_found: Faktura ikke funnet
@@ -222,14 +220,17 @@
       edit_markup_without_preview: Rediger markup (uten forhåndsvisning)
       error_rendering_markup: Feil ved gjengivelse av markup
       fix_indentation: Fiks innrykk
+      go_to_preview: Go To Preview
       live_preview: Direkte forhåndsvisning
       no_changes_to_save: Ingen endringer å lagre
+      pop_out_preview: Pop Out Preview
       quickstart_examples: Raskstartseksempler
       quickstart_example_applied: Anvendt!
       quickstart_use_this_example: Bruk dette eksempelet
       revert: Angre
       revert_confirm: Er du sikker på at du vil angre? Alle uspurte endringer vil gå tapt.
       save_changes: Lagre endringer (⌘﹢S)
+      separate_preview: Preview is open in a separate window
     merge_variables:
       your_variables: Dine variabler
     no_merge_variables:
@@ -261,21 +262,31 @@
       add_first_device_cta: Start med å __legge til__ din første TRMNL-enhet!
       add_to_playlist: Legg til i spilleliste
       create_first_playlist_cta: Lag spillelisten din etter å ha __koblet til__ din første plugin!
+      custom: Custom
+      device_default: Device default
       display_period_from: Vis fra
       display_period_to: til
+      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
+      every: every
     playlist:
       delete: Er du sikker på at du vil fjerne dette elementet? Pluginen vil fortsatt være tilkoblet, men ikke vist på enheten din.
       displayed_now: Vises nå
       not_displayed_yet: Venter
       remove_from_playlist: Fjern fra spilleliste
-
-    # toast messages
+      hide_playlist: Hide this item
+      show_playlist: Show this item
     create:
       error: Kunne ikke oppdatere spillelisten
       success: Spilleliste oppdatert
     destroy:
       error: Feil ved fjerning av element fra spilleliste
       success: Plugin fjernet fra spilleliste
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
+      success: Playlist order updated
     update:
       success: Rekkefølgen i spillelisten er oppdatert
   plugins:
@@ -289,13 +300,14 @@
     search:
       placeholder: Søk etter plugins
     my:
-      title: Mine plugins
-      tagline: Utvikle plugins for det offentlige markedet
-      connections: tilkoblinger
-      edit: Rediger
-      install: Installer
-      review_are_you_sure: Er du sikker? TRMNL-teamet vil teste den og sende deg e-post med spørsmål.
-      submit_for_review: Send inn for vurdering
+      index:
+        title: Mine plugins
+        tagline: Utvikle plugins for det offentlige markedet
+      card:
+        connections: tilkoblinger
+        install: Installer
+        review_are_you_sure: Er du sikker? TRMNL-teamet vil teste den og sende deg e-post med spørsmål.
+        submit_for_review: Send inn for vurdering
     new:
       title: Lag ny plugin
       tagline: Andre brukere vil kunne installere din plugin.
@@ -320,6 +332,13 @@
       name: Navn
       description: Beskrivelse
   plugin_recipes:
+    connected: Recipe connected
+    connections:
+      one: Connection
+      other: Connections
+    forks:
+      one: Fork
+      other: Forks
     new:
       error: Oppskrift ikke funnet
   plugin_settings:
@@ -333,6 +352,7 @@
     reset_credentials: "%{plugin_name} konto ble tilbakestilt"
     form:
       active_hint: Vis eller skjul denne plugin-instansen på enheten din
+      advanced_settings: Advanced Settings
       back_to_plugin: Tilbake til %{plugin}
       back_to_plugins: Tilbake til plugins
       connect_with: Koble til %{plugin}
@@ -359,14 +379,17 @@
       remove_plugin: Fjern plugin
       remove_plugin_hint: Fjerning av en plugin vil også fjerne den fra spillelisten din
       synced: Synkronisert
+      refresh_paused: Refresh Paused
+      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
+      refresh_paused_mashup: Refreshing Mashups
+      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
       visit_docs: Besøk dokumentasjonen
     import:
-      archive_too_large: "ZIP-filen er for stor (maksimum %{max_mb} MB)"
-      missing_entry: "ZIP-filen inneholder ikke %{filename}"
+      archive_too_large: ZIP-filen er for stor (maksimum %{max_mb} MB)
+      missing_entry: ZIP-filen inneholder ikke %{filename}
       entry_too_large: "%{filename} er for stor"
       malformed: "%{filename} er feilformatert"
-
-    # toast messages
     create:
       success: Plugin opprettet og lagt til din
       playlist: spilleliste
@@ -377,17 +400,14 @@
       success: Plugin-konfigurasjonen ble oppdatert
     add_to_playlist:
       success: Plugin lagt til i spilleliste
-
   referral_code:
     create:
       request_received: Forespørsel mottatt, sjekk innboksen din
   upgrade:
     index:
-      title: "Oppgraderer enhet:"
+      title: 'Oppgraderer enhet:'
       tagline: Lås opp egendefinerte plugins og __mer__.
       pay: Betal
       error: Enheten %{device_name} er allerede oppgradert, bytt til en annen enhet
-
-    # toast messages
     confirm:
       success: Utviklerutgave-tillegget er nå aktivert

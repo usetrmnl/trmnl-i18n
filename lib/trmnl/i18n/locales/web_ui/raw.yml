@@ -1,10 +1,9 @@
+---
 raw:
-
-  # global, logged out, and auth-related
   add: add
   add_new: add_new
-  already_have_account: already_have_account
   ago: ago
+  already_have_account: already_have_account
   back: back
   back_to_all_blog_posts: back_to_all_blog_posts
   blog: blog
@@ -58,16 +57,19 @@ raw:
   sign_in: sign_in
   sign_up: sign_up
   something_went_wrong: something_went_wrong
-  support: support
+  tech_support: support
   update: update
   view: view
   welcome: welcome
-
-  # views by resource (device, plugins, playlists, account, etc)
   account:
     index:
       title: account.index.title
       tagline: account.index.tagline
+      api_key_confirm: account.index.api_key_confirm
+      api_key_hint: account.index.api_key_hint
+      api_key_label: account.index.api_key_label
+      api_key_reset: account.index.api_key_reset
+      api_key: account.index.api_key
       email_address: account.index.email_address
       refer_and_earn: account.index.refer_and_earn
       refer_and_earn_hint: account.index.refer_and_earn_hint
@@ -90,10 +92,10 @@ raw:
       time_zone_hint: account.index.time_zone_hint
       locale: account.index.locale
       locale_hint: account.index.locale_hint __Go here__.
-
-    # toast messages
     update:
       success: account.update.success
+    reset_api_key:
+      success: account.reset_api_key.success
   dashboard:
     index:
       title: dashboard.index.title
@@ -105,25 +107,25 @@ raw:
       last_90_days: dashboard.index.last_90_days
       today: dashboard.index.today
       yesterday: dashboard.index.yesterday
-    health: # partial (widget)
+    health:
       bad: dashboard.health.bad
       good: dashboard.health.good
       next_steps: dashboard.health.next_steps
-    news: # partial (widget)
+    news:
       title: dashboard.news.title
       cta: dashboard.news.cta
-    playlists: # partial (widget)
+    playlists:
       title: dashboard.playlists.title
       cta: dashboard.playlists.cta
       pieces_of_content_displayed: dashboard.playlists.pieces_of_content_displayed
-    plugins: # partial (widget)
+    plugins:
       title: dashboard.plugins.title
       cta: dashboard.plugins.cta
       connected: dashboard.plugins.connected
       new_and_popular: dashboard.plugins.new_and_popular
     shop:
       title: dashboard.shop.title
-    time_saved: # partial (widget)
+    time_saved:
       title: dashboard.time_saved.title
       cta: dashboard.time_saved.cta
   devices:
@@ -145,6 +147,7 @@ raw:
       identify_device_hint: devices.edit.identify_device_hint
       logs: devices.edit.logs
       logs_hint: devices.edit.logs_hint
+      low_battery_email_notification: devices.edit.low_battery_email_notification
       mirror: devices.edit.mirror
       mirror_device: devices.edit.mirror_device
       mirror_device_hint: devices.edit.mirror_device_hint
@@ -171,8 +174,6 @@ raw:
       title: devices.new.title
       description: devices.new.description
       add_device: devices.new.add_device
-
-    # toast messages
     associate:
       error: devices.associate.error
       success: devices.associate.success
@@ -219,14 +220,17 @@ raw:
       edit_markup_without_preview: markups.form.edit_markup_without_preview
       error_rendering_markup: markups.form.error_rendering_markup
       fix_indentation: markups.form.fix_indentation
+      go_to_preview: markups.form.go_to_preview
       live_preview: markups.form.live_preview
       no_changes_to_save: markups.form.no_changes_to_save
+      pop_out_preview: markups.form.pop_out_preview
       quickstart_examples: markups.form.quickstart_examples
       quickstart_example_applied: markups.form.quickstart_example_applied
       quickstart_use_this_example: markups.form.quickstart_use_this_example
       revert: markups.form.revert
       revert_confirm: markups.form.revert_confirm
       save_changes: markups.form.save_changes
+      separate_preview: markups.form.separate_preview
     merge_variables:
       your_variables: markups.merge_variables.your_variables
     no_merge_variables:
@@ -253,26 +257,36 @@ raw:
     index:
       title: playlists.index.title
       tagline: playlists.index.tagline
-      add_a_group: add_a_group
-      add_a_plugin: add_a_plugin
+      add_a_group: playlists.index.add_a_group
+      add_a_plugin: playlists.index.add_a_plugin
       add_first_device_cta: playlists.index.add_first_device_cta
       add_to_playlist: playlists.index.add_to_playlist
       create_first_playlist_cta: playlists.index.create_first_playlist_cta
-      display_period_from: display_period_from
-      display_period_to: display_period_to
-    playlist: # partial (single item)
+      custom: playlists.index.custom
+      device_default: playlists.index.device_default
+      display_period_from: playlists.index.display_period_from
+      display_period_to: playlists.index.display_period_to
+      display_period_validation: playlists.index.display_period_validation
+      every: playlists.index.every
+    playlist:
       delete: playlists.playlist.delete
       displayed_now: playlists.playlist.displayed_now
       not_displayed_yet: playlists.playlist.not_displayed_yet
       remove_from_playlist: playlists.playlist.remove_from_playlist
-
-    # toast messages
+      hide_playlist: playlists.playlist.hide_playlist
+      show_playlist: playlists.playlist.show_playlist
     create:
       error: playlists.create.error
       success: playlists.create.success
     destroy:
       error: playlists.destroy.error
       success: playlists.destroy.success
+    toggle_visibility:
+      success: playlists.toggle_visibility.success
+    duplicate:
+      success: playlists.duplicate.success
+    sort:
+      success: playlists.sort.success
     update:
       success: playlists.update.success
   plugins:
@@ -283,16 +297,17 @@ raw:
       connected: plugins.index.connected
       recipes: recipes
       recipes_hint: recipes_hint. __Learn more__.
-    search: # partial (search box)
+    search:
       placeholder: plugins.search.placeholder
     my:
-      title: plugins.my.title
-      tagline: plugins.my.tagline
-      connections: plugins.my.connections
-      edit: plugins.my.edit
-      install: plugins.my.install
-      review_are_you_sure: plugins.my.review_are_you_sure
-      submit_for_review: plugins.my.submit_for_review
+      index:
+        title: plugins.my.title
+        tagline: plugins.my.tagline
+      card:
+        connections: plugins.my.connections
+        install: plugins.my.install
+        review_are_you_sure: plugins.my.review_are_you_sure
+        submit_for_review: plugins.my.submit_for_review
     new:
       title: plugins.new.title
       tagline: plugins.new.tagline
@@ -302,27 +317,30 @@ raw:
       description_hint: plugins.new.description_hint
       icon: plugins.new.icon
       icon_hint: plugins.new.icon_hint
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: This setting allows you to remove the outermost padding and use fullscreen mode.
       installation_url: plugins.new.installation_url
       installation_url_hint: plugins.new.installation_url_hint __here__.
       installation_success_webhook_url: plugins.new.installation_success_webhook_url
       knowledge_base_url: plugins.new.knowledge_base_url
-      management_url:  plugins.new.management_url
-      management_url_hint:  plugins.new.management_url_hint __here__.
+      management_url: plugins.new.management_url
+      management_url_hint: plugins.new.management_url_hint __here__.
       markup_url: plugins.new.markup_url
-      markup_url_hint:  plugins.new.markup_url_hint __here__.
+      markup_url_hint: plugins.new.markup_url_hint __here__.
       uninstallation_webhook_url: plugins.new.uninstallation_webhook_url
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: This setting allows you to remove the outermost padding and use fullscreen mode.
     edit:
       title: plugins.edit.title
       tagline: plugins.edit.tagline
       name: plugins.edit.name
       description: plugins.edit.description
   plugin_recipes:
-    index:
-      title: Community Recipe
-      tagline: Installable Recipe Shared by Community
     connected: plugin_recipes.connected
+    connections:
+      one: plugin_recipes.connections.one
+      other: plugin_recipes.connections.many
+    forks:
+      one: plugin_recipes.forks.one
+      other: plugin_recipes.forks.many
     new:
       error: plugin_recipes.new.error
   plugin_settings:
@@ -333,9 +351,10 @@ raw:
     inactive: plugin_settings.inactive
     no_plugin_settings_found: plugin_settings.no_plugin_settings_found
     refreshing_now_please_wait: plugin_settings.refreshing_now_please_wait
-    reset_credentials: "%{plugin_name} account reset successfully"
+    reset_credentials: plugin_settings.reset_credentials
     form:
       active_hint: plugin_settings.form.active_hint
+      advanced_settings: plugin_settings.form.advanced_settings
       back_to_plugin: plugin_settings.form.back_to_plugin
       back_to_plugins: plugin_settings.form.back_to_plugins
       connect_with: plugin_settings.form.connect_with
@@ -346,7 +365,7 @@ raw:
       force_refresh_click_here: plugin_settings.form.force_refresh_click_here
       force_refresh_click_here_hint: plugin_settings.form.force_refresh_click_here_hint
       learn_more: plugin_settings.form.learn_more
-      linked_account: linked_account
+      linked_account: plugin_settings.form.linked_account
       linked_account_success: plugin_settings.form.linked_account_success
       link_oauth: plugin_settings.form.link_oauth
       link_oauth_hint: plugin_settings.form.link_oauth_hint
@@ -360,16 +379,19 @@ raw:
       refresh_rate_hint: plugin_settings.form.refresh_rate_hint
       refreshed: plugin_settings.form.refreshed
       remove_plugin: plugin_settings.form.remove_plugin
-      remove_plugin_hint: remove_plugin_hint
+      remove_plugin_hint: plugin_settings.form.remove_plugin_hint
       synced: plugin_settings.form.synced
+      refresh_paused: plugin_settings.form.refresh_paused
+      refresh_paused_hint: plugin_settings.form.refresh_paused_hint
+      refresh_paused_mashup: plugin_settings.form.refresh_paused_mashup
+      refresh_paused_mashup_hint: plugin_settings.form.refresh_paused_mashup_hint
+      refresh_stopped: plugin_settings.form.refresh_stopped
       visit_docs: plugin_settings.form.visit_docs
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
       entry_too_large: plugin_settings.import.entry_too_large
       malformed: plugin_settings.import.malformed
-
-    # toast messages
     create:
       success: plugin_settings.create.success
       playlist: plugin_settings.create.playlist
@@ -380,7 +402,6 @@ raw:
       success: plugin_settings.update.success
     add_to_playlist:
       success: plugin_settings.add_to_playlist.success
-
   referral_code:
     create:
       request_received: referral_code.create.request_received
@@ -390,8 +411,5 @@ raw:
       tagline: upgrade.index.tagline
       pay: upgrade.index.pay
       error: upgrade.index.error
-
-    # toast messages
     confirm:
       success: upgrade.confirm.success
-

@@ -1,13 +1,37 @@
+---
 da:
-  # namespace to not interfere with other localizations
   renders:
-
-    # plugin-specific localizations; alphabetize by plugin's keyname
     days_left_year:
       title: Dage tilbage i år
       days_passed: Dage gået
       days_left: Dage tilbage
-
+    parcel:
+      delivery_by: Delivery by
+      empty: There are no deliveries
+      errors:
+        api: Parcel API error
+        http: HTTP error %{code}
+        internal: Internal error
+      filter_modes:
+        active:
+          one: Active Delivery
+          other: Active Deliveries
+        recent:
+          one: Recent Delivery
+          other: Recent Deliveries
+      status:
+        delivered: Delivered
+        delivery_exception: Delivery Exception
+        expecting_pickup: Expecting Pickup
+        failed_delivery_attempt: Failed Delivery Attempt
+        frozen: Frozen
+        in_transit: In Transit
+        information_received: Information Received
+        not_found: Not Found
+        out_for_delivery: Out For Delivery
+        unknown: Unknown
+      today: Today
+      tomorrow: Tomorrow
     weather:
       title: Vejr
       temperature: Temperatur

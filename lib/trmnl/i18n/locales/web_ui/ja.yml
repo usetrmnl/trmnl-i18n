@@ -1,10 +1,9 @@
+---
 ja:
-
-  # global, logged out, and auth-related
   add: 追加
   add_new: 新規追加
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: すでにアカウントをお持ちです # signup form cta
+  ago: ago
+  already_have_account: すでにアカウントをお持ちです
   back: 戻る
   back_to_all_blog_posts: すべてのブログ記事へ戻る
   blog: ブログ
@@ -19,20 +18,20 @@ ja:
   copy: コピー
   copied_to_clipboard: コピーしました！
   copy_to_clipboard: クリップボードにコピー
-  created: 作成時刻 # example: "Created 5 mins ago"
-  create_an_account: アカウントを作成する # login form cta
+  created: 作成時刻
+  create_an_account: アカウントを作成する
   current_device: 現在のデバイス
   days: 日
   delete: 削除
   developer_edition_required: この機能を有効にするには、開発者エディションが必要です。
   device_id: デバイスID
   edit: 編集
-  export: Export
   email_address: メールアドレス
+  export: Export
   fetching: 取得中
   first_name: 名前
-  forgot_password: パスワードを忘れました # login form link
-  forgot_password_title: さあ、再スタートです # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  forgot_password: パスワードを忘れました
+  forgot_password_title: さあ、再スタートです
   get_started: 始めましょう！
   identify: 確認する
   import: Import
@@ -44,34 +43,37 @@ ja:
   loading: 読み込み中
   login: ログイン
   log_out: ログアウト
-  minimum_characters: 最小文字数 # ex: 8 characters minimum
-  mins: 分 # 'minutes' abbreviation
+  minimum_characters: 最小文字数
+  mins: 分
   my_playlist: マイプレイリスト
   new_password: 新しいパスワード
   password: パスワード
-  please_wait: しばらくお待ちください... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: しばらくお待ちください...
   plugin_not_found: プラグインが見つかりません
   refresh_rates_hint: リフレッシュレートの仕組みについては__こちら__をご覧ください。
   reset_password: パスワードをリセット
   save: 保存
   section: セクション
-  sign_in: サインインする # login form cta
-  sign_up: サインアップ # logged out navigation
+  sign_in: サインインする
+  sign_up: サインアップ
   something_went_wrong: 問題が発生しました
-  support: サポート # bottom navigation tab, links to help center
+  tech_support: サポート
   update: 更新
   view: 表示
-  welcome: ようこそ # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: ようこそ
   account:
     index:
       title: マイアカウント
       tagline: アカウント設定を管理する
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: メールアドレス
       refer_and_earn: お友達紹介プログラム
       refer_and_earn_hint: パーソナライズされたクーポンでTRMNLをプレゼントしましょう。利用ごとに報酬が発生し、毎月お支払いします。
-      refer_and_earn_redemptions: 利用回数 # how many times this coupon has been used
+      refer_and_earn_redemptions: 利用回数
       refer_and_earn_request_code: コードをリクエスト
       device_invoice: デバイスの請求書
       device_invoice_label: 会計士向けの商用ドキュメントをダウンロードしてください。
@@ -81,7 +83,7 @@ ja:
       last_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。
       password_hint: TRMNLアカウントを保護するために使用します。
       enable_2fa: 2段階認証を有効にする
-      enable_2fa_hint: "__こちらをクリック__してOTPを有効にします。"
+      enable_2fa_hint: __こちらをクリック__してOTPを有効にします。
       disable_2fa: 2段階認証を無効にする
       disable_2fa_hint: この機能を無効にするには、上記の有効なOTPと現在のパスワードを入力してください。
       session: セッション
@@ -90,10 +92,10 @@ ja:
       time_zone_hint: デバイスの更新頻度やスリープモードを決定するために使用します。
       locale: 言語設定
       locale_hint: ご希望の言語とローカライズ設定は？ __こちら__ をご覧ください。
-
-    # toast messages
     update:
       success: プロフィール情報が更新されました。
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: ダッシュボード
@@ -105,35 +107,35 @@ ja:
       last_90_days: 過去90日間
       today: 今日
       yesterday: 昨日
-    health: # partial (widget)
+    health:
       bad: 現在、プラグインにエラーがあります
       good: すべてのプラグインが正常です
       next_steps: 変化があれば通知します
-    news: # partial (widget)
+    news:
       title: ニュース
       cta: すべて表示
-    playlists: # partial (widget)
+    playlists:
       title: プレイリスト
       cta: プレイリストをもっと見る
       pieces_of_content_displayed: 件のコンテンツが表示されています
-    plugins: # partial (widget)
+    plugins:
       title: プラグイン
       cta: プラグインをもっと見る
       connected: 接続済み
       new_and_popular: 新着＆人気のプラグイン
     shop:
       title: ショップ
-    time_saved: # partial (widget)
+    time_saved:
       title: 節約した時間
       cta: 詳しく見る
   devices:
     edit:
-      accepts_beta_firmware: 新しいファームウェアを受け入れる # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: 新しいファームウェアを受け入れる
       accepts_beta_firmware_hint: 通常のユーザーよりも早く新しいデバイスファームウェアを使用するには、ボタンを押してください。
       back_to_devices: デバイス管理画面に戻る
       battery_consumption: バッテリー消費
       battery_consumption_hint: デバイスをスリープ モードにすると、バッテリー寿命を延ばすことができます
-      developer_perks: 開発者向け特典 # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: 開発者向け特典
       developer_perks_hint: 以下は、__開発者オプション__を追加した場合に利用可能です。
       device_credentials: デバイス認証情報
       device_credentials_hint: この認証情報でできることは__こちら__で確認できます
@@ -145,6 +147,7 @@ ja:
       identify_device_hint: どのデバイスかを簡単に識別するために、以下のボタンを押してどの画面が表示されているか確認してください。
       logs: ログ
       logs_hint: 生のエラーログのライブフィードでデバイスとプラグインをデバッグします。
+      low_battery_email_notification: Low Battery Email Notification
       mirror: ミラーモード
       mirror_device: 他のデバイスにミラーモードを適用する
       mirror_device_hint: 同じプレイリストを表示するには（共有可能）デバイスIDをお知らせください。あなたのプレイリストは変更なく表示されます。
@@ -171,8 +174,6 @@ ja:
       title: 新しいデバイスを追加
       description: デバイスIDを入力して、新しいTRMNLデバイスをアカウントに追加してください。
       add_device: 新しいデバイスを追加
-
-    # toast messages
     associate:
       error: デバイス接続エラー
       success: デバイスが正常に接続されました
@@ -202,7 +203,7 @@ ja:
       title: ログ
       all: すべて
       device: デバイス
-      dump: 内容 # content
+      dump: 内容
       id: ID
       private_plugins: プライベートプラグイン
       source: ソース
@@ -219,14 +220,17 @@ ja:
       edit_markup_without_preview: マークアップを編集（プレビューなし）
       error_rendering_markup: マークアップのレンダリングエラー
       fix_indentation: インデントを修正
+      go_to_preview: Go To Preview
       live_preview: ライブプレビュー
       no_changes_to_save: 保存する変更はありません
+      pop_out_preview: Pop Out Preview
       quickstart_examples: クイックスタート例
       quickstart_example_applied: 適用済み！
       quickstart_use_this_example: この例を使用
       revert: 元に戻す
       revert_confirm: 元に戻してもよろしいですか？保存されていない変更はすべて失われます。
       save_changes: 変更を保存 (⌘﹢S)
+      separate_preview: Preview is open in a separate window
     merge_variables:
       your_variables: 変数
     no_merge_variables:
@@ -258,21 +262,31 @@ ja:
       add_first_device_cta: 始めるには最初のTRMNLデバイスを__追加__してください！
       add_to_playlist: プレイリストに追加
       create_first_playlist_cta: プレイリストを作成するには最初のプラグインを__接続__してください！
+      custom: Custom
+      device_default: Device default
       display_period_from: 表示期間：
-      display_period_to: 〜
-    playlist: # partial (single item)
+      display_period_to: "〜"
+      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
+      every: every
+    playlist:
       delete: このプラグインを削除しますか？プラグインの接続は維持されますが、デバイスには表示されなくなります。
       displayed_now: 今表示中
       not_displayed_yet: まだ表示されていません
       remove_from_playlist: プレイリストから削除
-
-    # toast messages
+      hide_playlist: Hide this item
+      show_playlist: Show this item
     create:
       error: プレイリストの更新に失敗しました
       success: プレイリストが更新されました
     destroy:
       error: プレイリスト内のプラグイン削除エラー
       success: プラグインがプレイリストから削除されました。
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
+      success: Playlist order updated
     update:
       success: 新しいプレイリストの順序が更新されました
   plugins:
@@ -283,16 +297,17 @@ ja:
       connected: 接続済み
       recipes: レシピ
       recipes_hint: コミュニティメンバーによるプライベートプラグインで、ワンクリックでインストールできます。__詳細はこちら__。
-    search: # partial (search box)
+    search:
       placeholder: プラグインを検索
     my:
-      title: マイプラグイン
-      tagline: 公開マーケットプレイス向けのプラグインを開発
-      connections: コネクション
-      edit: 編集
-      install: インストール
-      review_are_you_sure: よろしいですか？TRMNLチームがテストを行い、質問があればメールでご連絡します。
-      submit_for_review: レビューのために提出
+      index:
+        title: マイプラグイン
+        tagline: 公開マーケットプレイス向けのプラグインを開発
+      card:
+        connections: コネクション
+        install: インストール
+        review_are_you_sure: よろしいですか？TRMNLチームがテストを行い、質問があればメールでご連絡します。
+        submit_for_review: レビューのために提出
     new:
       title: 新しいプラグインを作成
       tagline: 他のユーザーがあなたのプラグインをインストールできるようにします。
@@ -317,6 +332,13 @@ ja:
       name: 名前
       description: 説明
   plugin_recipes:
+    connected: Recipe connected
+    connections:
+      one: Connection
+      other: Connections
+    forks:
+      one: Fork
+      other: Forks
     new:
       error: レシピが見つかりません
   plugin_settings:
@@ -325,11 +347,12 @@ ja:
     delete_are_you_sure: この設定を削除してもよろしいですか？
     delete: プラグインの設定を完全に削除します。デバイスからプラグインを単に隠したいだけなら、プレイリストから削除してください。
     inactive: 非アクティブ
-    no_plugin_settings_found: プラグインが見つかりません。 # empty state - should not appear
+    no_plugin_settings_found: プラグインが見つかりません。
     refreshing_now_please_wait: 更新中です。数秒後にこのページを再読み込みしてください。
     reset_credentials: "%{plugin_name}アカウントが正常にリセットされました"
     form:
       active_hint: デバイスにこのプラグインインスタンスを表示または非表示にする
+      advanced_settings: Advanced Settings
       back_to_plugin: "%{plugin}に戻る"
       back_to_plugins: プラグイン管理に戻る
       connect_with: "%{plugin}を接続"
@@ -356,16 +379,19 @@ ja:
       remove_plugin: プラグインを削除
       remove_plugin_hint: プラグインを削除すると、プレイリストからも削除されます
       synced: 同期済み
+      refresh_paused: Refresh Paused
+      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
+      refresh_paused_mashup: Refreshing Mashups
+      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
       visit_docs: ドキュメントを開く
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: '%{filename} is too large'
-      malformed: '%{filename} is malformed'
-
-    # toast messages
+      entry_too_large: "%{filename} is too large"
+      malformed: "%{filename} is malformed"
     create:
-      success: "プラグインが作成されました。こちらで確認してください:"
+      success: 'プラグインが作成されました。こちらで確認してください:'
       playlist: プレイリスト
     destroy:
       success: プラグインが削除されました
@@ -374,17 +400,14 @@ ja:
       success: プラグイン構成が正常に更新されました。
     add_to_playlist:
       success: プレイリストにプラグインを追加しました
-
   referral_code:
     create:
       request_received: リクエストを受信しました。受信箱を確認してください
   upgrade:
     index:
-      title: "デバイスのアップグレード:"
+      title: 'デバイスのアップグレード:'
       tagline: カスタムプラグインや __その他__ をアンロック。
-      pay: 支払い # button text; ex "Pay $20"
+      pay: 支払い
       error: デバイス %{device_name} はすでにアップグレード済みです。別のデバイスに切り替えてください。
-
-    # toast messages
     confirm:
       success: デベロッパーエディションのアドオンが有効になりました

@@ -1,0 +1,36 @@
+version: 2.1
+jobs:
+  build:
+    working_directory: ~/project
+    docker:
+      - image: bkuhlmann/alpine-ruby:latest
+    steps:
+      - checkout
+
+      - restore_cache:
+          name: Gems Restore
+          keys:
+            - gem-cache-{{.Branch}}-{{checksum "Gemfile"}}-{{checksum "trmnl-i18n.gemspec"}}
+            - gem-cache-
+
+      - run:
+          name: Gems Install
+          command: |
+            gem update --system
+            bundle config set path "vendor/bundle"
+            bundle install
+
+      - save_cache:
+          name: Gems Store
+          key: gem-cache-{{.Branch}}-{{checksum "Gemfile"}}-{{checksum "trmnl-i18n.gemspec"}}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: Build
+          command: bin/rake
+
+      - store_artifacts:
+          name: SimpleCov Archive
+          path: ~/project/coverage
+          destination: coverage

@@ -1,12 +1,8 @@
+---
 ko:
-  # namespace to not interfere with other localizations
   custom_plugins:
-
-    # generic words and phrases to make custom plugins more accessible
     today: 오늘
     tomorrow: 내일
-
-    # plugin-specific localizations; alphabetize by plugin's keyname
     simple_calendar:
       title: 캘린더
       ym_format: "%Y년 %-m월"
@@ -30,36 +26,36 @@ ko:
         - 12월
         date_labels:
         -
-        - "1"
-        - "2"
-        - "3"
-        - "4"
-        - "5"
-        - "6"
-        - "7"
-        - "8"
-        - "9"
-        - "10"
-        - "11"
-        - "12"
-        - "13"
-        - "14"
-        - "15"
-        - "16"
-        - "17"
-        - "18"
-        - "19"
-        - "20"
-        - "21"
-        - "22"
-        - "23"
-        - "24"
-        - "25"
-        - "26"
-        - "27"
-        - "28"
-        - "29"
-        - "30"
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+        - '14'
+        - '15'
+        - '16'
+        - '17'
+        - '18'
+        - '19'
+        - '20'
+        - '21'
+        - '22'
+        - '23'
+        - '24'
+        - '25'
+        - '26'
+        - '27'
+        - '28'
+        - '29'
+        - '30'
         heavenly_stems:
         - 갑
         - 을
@@ -94,7 +90,7 @@ ko:
         - 赤口
         nengo:
           reiwa: 레이와
-        ym_format: "%Y년 (%{nengo}% {alt_year}년) %-m월"
+        ym_format: "%Y년 (%{nengo} %{alt_year}년) %-m월"
         year_1: 원
       hebrew:
         ym_format: ", %{month_label} %{alt_year}"

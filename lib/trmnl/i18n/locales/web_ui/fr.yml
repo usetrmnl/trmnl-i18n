@@ -1,10 +1,9 @@
+---
 fr:
-
-  # global, logged out, and auth-related
   add: Ajouter
   add_new: Ajouter nouveau
-  ago: plutôt # "Created 5 mins ago"
-  already_have_account: J'ai déjà un compte # signup form cta
+  ago: plutôt
+  already_have_account: J'ai déjà un compte
   back: Retour
   back_to_all_blog_posts: Retour à tous les articles
   blog: Blog
@@ -20,7 +19,7 @@ fr:
   copied_to_clipboard: Copié !
   copy_to_clipboard: Copier dans le presse-papiers
   created: Créé
-  create_an_account: Créer un compte # login form cta
+  create_an_account: Créer un compte
   current_device: Appareil actuel
   days: jours
   delete: Supprimer
@@ -31,8 +30,8 @@ fr:
   export: Export
   fetching: Chargement en cours
   first_name: Prénom
-  forgot_password: J'ai oublié mon mot de passe # login form link
-  forgot_password_title: Rebelote # heading on /password/new
+  forgot_password: J'ai oublié mon mot de passe
+  forgot_password_title: Rebelote
   get_started: Commençons !
   identify: S'identifier
   import: Import
@@ -44,8 +43,8 @@ fr:
   loading: Chargement
   login: Se connecter
   log_out: Se déconnecter
-  minimum_characters: caractères minimums # ex: 8 characters minimum
-  mins: mins # 'minutes' abbreviation
+  minimum_characters: caractères minimums
+  mins: mins
   my_playlist: Ma playlist
   new_password: Nouveau mot de passe
   password: Mot de passe
@@ -55,23 +54,26 @@ fr:
   reset_password: Réinitialiser mon mot de passe
   save: Sauvegarder
   section: Section
-  sign_in: S'identifier # login form cta
-  sign_up: S'inscrire # logged out navigation
+  sign_in: S'identifier
+  sign_up: S'inscrire
   something_went_wrong: Une erreur est survenue
-  support: Support # bottom navigation tab, links to help center
+  tech_support: Support
   update: Mise à jour
   view: Vue
-  welcome: Bienvenue # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: Bienvenue
   account:
     index:
       title: Compte
       tagline: Gérez vos paramètres de compte
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: Adresse email
       refer_and_earn: Parrainez et gagnez
       refer_and_earn_hint: Offrez le cadeau TRMNL avec un coupon personnalisé. Gagnez par utilisation, payé mensuellement.
-      refer_and_earn_redemptions: Remboursements # how many times this coupon has been used
+      refer_and_earn_redemptions: Remboursements
       refer_and_earn_request_code: Demander un code
       device_invoice: Facture de l'appareil
       device_invoice_label: Télécharger les documents commerciaux pour votre comptable ou votre (bizarre) collection de PDF.
@@ -81,7 +83,7 @@ fr:
       last_name_hint: Nous utilisons votre nom pour rendre l'interface de TRMNL plus agréable.
       password_hint: Utilisé pour protéger votre compte TRMNL.
       enable_2fa: Activer l'A2F ?
-      enable_2fa_hint: "__Cliquer ici__ pour activer l'OTP."
+      enable_2fa_hint: __Cliquer ici__ pour activer l'OTP.
       disable_2fa: Activer l'A2F ?
       disable_2fa_hint: Fournissez un OTP valide et votre mot de passe actuel pour désactiver l'A2F.
       session: Session
@@ -90,10 +92,10 @@ fr:
       time_zone_hint: Détermine les taux de rafraîchissement et le temps de veille de l'appareil.
       locale: Locale
       locale_hint: Quel langage et localisation préférez-vous ? __Voir ici__.
-
-    # toast messages
     update:
       success: Profil mis à jour avec succès
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: Tableau de bord
@@ -105,35 +107,35 @@ fr:
       last_90_days: 90 derniers jours
       today: Aujourd'hui
       yesterday: Hier
-    health: # partial (widget)
+    health:
       bad: Les extensions rencontrent des problèmes
       good: Les extensions fonctionnent correctement
       next_steps: Nous vous informerons si quelque chose change
-    news: # partial (widget)
+    news:
       title: Nouveautés
       cta: Voir tout
-    playlists: # partial (widget)
+    playlists:
       title: Playlists
       cta: Accéder aux playlists
       pieces_of_content_displayed: Éléments affichés
-    plugins: # partial (widget)
+    plugins:
       title: Extensions
       cta: Accéder aux extensions
       connected: Connectée
       new_and_popular: Nouveau et populaire
     shop:
       title: Boutique
-    time_saved: # partial (widget)
+    time_saved:
       title: Temps économisé
       cta: À propos
   devices:
     edit:
-      accepts_beta_firmware: Mise à jour en accès anticipé # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: Mise à jour en accès anticipé
       accepts_beta_firmware_hint: Activer pour obtenir les dernières améliorations du micrologiciel de l'appareil avant les autres utilisateurs.
       back_to_devices: Retour aux appareils
       battery_consumption: Consommation de la batterie
       battery_consumption_hint: Économisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant la mise.
-      developer_perks: Avantages pour les développeurs # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: Avantages pour les développeurs
       developer_perks_hint: Les options ci-dessous requièrent le __complément payant Developer__.
       device_credentials: Identifiants de l'appareil
       device_credentials_hint: Voyez ce que vous pouvez faire avec ces identifiants __ici__
@@ -145,6 +147,7 @@ fr:
       identify_device_hint: Cliquez sur le bouton ci-dessous pour afficher un écran sur cet appareil qui vous aidera à l'identifier.
       logs: Logs
       logs_hint: Déboguer votre appareil et extensions avec des logs d'erreurs en temps réel.
+      low_battery_email_notification: Low Battery Email Notification
       mirror: Miroir
       mirror_device: Mettre en miroir avec un autre appareil
       mirror_device_hint: Fournir un ID à l'appareil (partageable) pour mettre en miroir ses playlists. Vos playlists seront toujours affichées.
@@ -171,8 +174,6 @@ fr:
       title: Ajouter un nouvel appareil
       description: Entrez votre ID d'appareil pour ajouter un nouveau TRMNL à votre compte.
       add_device: Ajouter un nouvel appareil
-
-    # toast messages
     associate:
       error: Erreur lors de l'association de l'appareil
       success: Appareil associé avec succès
@@ -202,7 +203,7 @@ fr:
       title: Logs
       all: Tous
       device: Appareil
-      dump: Message # content
+      dump: Message
       id: ID
       private_plugins: Extensions Privées
       source: Source
@@ -219,14 +220,17 @@ fr:
       edit_markup_without_preview: Modifier le balisage (sans aperçu)
       error_rendering_markup: Erreur de rendu du balisage
       fix_indentation: Corriger l'indentation
+      go_to_preview: Go To Preview
       live_preview: Aperçu en direct
       no_changes_to_save: Pas de modifications à enregistrer
+      pop_out_preview: Pop Out Preview
       quickstart_examples: Exemples de démarrage rapide
       quickstart_example_applied: Appliqué !
       quickstart_use_this_example: Utiliser cet exemple
       revert: Annuler
       revert_confirm: Êtes-vous sûr·e de vouloir annuler ? Toutes modifications non enregistrées seront perdues.
       save_changes: Enregistrer les modifications (⌘﹢S)
+      separate_preview: Preview is open in a separate window
     merge_variables:
       your_variables: Vos variables
     no_merge_variables:
@@ -258,21 +262,31 @@ fr:
       add_first_device_cta: Commencez par __ajouter__ votre premier appareil TRMNL !
       add_to_playlist: Ajouter à la playlist
       create_first_playlist_cta: Créez votre playlist après avoir __connecté__ votre première extension !
+      custom: Custom
+      device_default: Device default
       display_period_from: Afficher entre
       display_period_to: et
-    playlist: # partial (single item)
+      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
+      every: every
+    playlist:
       delete: Êtes-vous sûr·e de vouloir supprimer cet élément ? L'extension restera connectée mais ne s'affichera plus sur votre appareil.
       displayed_now: Actuellement affiché
       not_displayed_yet: Pas encore affiché
       remove_from_playlist: Retirer de la playlist
-
-    # toast messages
+      hide_playlist: Hide this item
+      show_playlist: Show this item
     create:
       error: Échec de la mise à jour de la playlist
       success: Playlist mise à jour
     destroy:
       error: Erreur lors de la suppression de l'élément de la playlist
       success: Extension retirée de la playlist
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
+      success: Playlist order updated
     update:
       success: Ordre de la playlist mis à jour
   plugins:
@@ -283,16 +297,17 @@ fr:
       connected: Connectée
       recipes: Recettes
       recipes_hint: Extensions privées créées par des membres de la communauté pouvant être installées en 1 clic. __En apprendre plus__.
-    search: # partial (search box)
+    search:
       placeholder: Rechercher des extensions
     my:
-      title: Mes extensions
-      tagline: Développez des plugins pour le marketplace
-      connections: connexions
-      edit: Modifier
-      install: Installer
-      review_are_you_sure: Êtes-vous sûr·e ? L'équipe TRMNL va le tester et vous contactera en cas de questions.
-      submit_for_review: Soumettre pour revue
+      index:
+        title: Mes extensions
+        tagline: Développez des plugins pour le marketplace
+      card:
+        connections: connexions
+        install: Installer
+        review_are_you_sure: Êtes-vous sûr·e ? L'équipe TRMNL va le tester et vous contactera en cas de questions.
+        submit_for_review: Soumettre pour revue
     new:
       title: Créer un nouveau plugin
       tagline: Permettre à d'autres d'installer votre plugin.
@@ -317,6 +332,13 @@ fr:
       name: Nom
       description: Description
   plugin_recipes:
+    connected: Recipe connected
+    connections:
+      one: Connection
+      other: Connections
+    forks:
+      one: Fork
+      other: Forks
     new:
       error: Recette introuvable
   plugin_settings:
@@ -325,11 +347,12 @@ fr:
     delete_are_you_sure: Êtes-vous sûr·e de vouloir supprimer ce paramètre ?
     delete: Cela va entièrement supprimer les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist.
     inactive: Inactive
-    no_plugin_settings_found: Aucun paramètre pour l'extension trouvé. # empty state - should not appear
+    no_plugin_settings_found: Aucun paramètre pour l'extension trouvé.
     refreshing_now_please_wait: Actualisation en cours, veuillez recharger cette page dans quelques secondes.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Affiche ou masque cette instance du plugin de l'appareil
+      advanced_settings: Advanced Settings
       back_to_plugin: Retour à %{plugin}
       back_to_plugins: Retour aux extensions
       connect_with: Se connecter avec %{plugin}
@@ -356,14 +379,17 @@ fr:
       remove_plugin: Retirer l'extension
       remove_plugin_hint: Retirer une extension la retirera aussi de votre playlist
       synced: Synchronisé
+      refresh_paused: Refresh Paused
+      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
+      refresh_paused_mashup: Refreshing Mashups
+      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
       visit_docs: Visiter la documentation
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: '%{filename} is too large'
-      malformed: '%{filename} is malformed'
-
-    # toast messages
+      entry_too_large: "%{filename} is too large"
+      malformed: "%{filename} is malformed"
     create:
       success: Extension créée et ajoutée à votre
       playlist: playlist
@@ -374,17 +400,14 @@ fr:
       success: Configuration de l'extension mise à jour avec succès
     add_to_playlist:
       success: Extension ajoutée à la playlist
-
   referral_code:
     create:
       request_received: Demande reçue, vérifiez votre boîte de réception
   upgrade:
     index:
-      title: "Mettre à niveau l'appareil:"
+      title: 'Mettre à niveau l''appareil:'
       tagline: Débloquez des extensions personnalisées et __plus__.
-      pay: Payer # button text; ex "Pay $20"
+      pay: Payer
       error: L'appareil %{device_name} est déjà mis à niveau, changez d'appareil
-
-    # toast messages
     confirm:
       success: Le complément édition développeur est maintenant activé

@@ -1,10 +1,9 @@
+---
 zh-HK:
-
-  # global, logged out, and auth-related
   add: 加入
   add_new: 新增
-  ago: 前 # example: "Created 5 mins ago"
-  already_have_account: 我已經有帳戶 # signup form cta
+  ago: 前
+  already_have_account: 我已經有帳戶
   back: 返回
   back_to_all_blog_posts: 返回所有貼文
   blog: 網誌
@@ -12,15 +11,15 @@ zh-HK:
   cancel: 取消
   change_password: 更改密碼
   charge_level: 充電狀態
-  charged: 已充電
+  charged: 電量
   close: 關閉
   confirm_change_password: 更改密碼
   confirm_password: 確認新密碼
   copy: 複製
   copied_to_clipboard: 已複製！
   copy_to_clipboard: 複製至剪貼簿
-  created: 新增於 # example: "Created 5 mins ago"
-  create_an_account: 新增帳戶 # login form cta
+  created: 新增於
+  create_an_account: 新增帳戶
   current_device: 現時裝置
   days: 日
   delete: 刪除
@@ -29,10 +28,10 @@ zh-HK:
   edit: 設定
   email_address: 電郵地址
   export: 匯出
-  fetching: 載入中 # for asynchronous content requests; this message may appear as a placeholder text for 0-2 seconds
+  fetching: 載入中
   first_name: 名字
-  forgot_password: 忘記密碼 # login form link
-  forgot_password_title: 再次輸入 # heading on /password/new (hint: https://www.google.com/search?q=here+we+go+again+meme)
+  forgot_password: 忘記密碼
+  forgot_password_title: 再次輸入
   get_started: 讓我們開始吧！
   identify: 識別
   import: 匯入
@@ -44,34 +43,37 @@ zh-HK:
   loading: 載入中
   login: 登入
   log_out: 登出
-  minimum_characters: 字元（最少） # ex: 8 characters minimum
-  mins: 分鐘 # 'minutes' abbreviation
-  my_playlist: 我的播放清單 # default name for a new playlist group
+  minimum_characters: 字元（最少）
+  mins: 分鐘
+  my_playlist: 我的播放清單
   new_password: 新密碼
   password: 密碼
-  please_wait: 請稍候⋯ # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: 請稍候⋯
   plugin_not_found: 找不到外掛
-  refresh_rates_hint: "__按此__了解重新整理頻率如何運作。"
+  refresh_rates_hint: __按此__了解重新整理頻率如何運作。
   reset_password: 重設密碼
   save: 儲存
   section: 章節
-  sign_in: 登入 # login form cta
-  sign_up: 註冊 # logged out navigation
+  sign_in: 登入
+  sign_up: 註冊
   something_went_wrong: 發生錯誤
-  support: 支援 # bottom navigation tab, links to help center
+  tech_support: 支援
   update: 更新
   view: 查看
-  welcome: 歡迎 # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: 歡迎
   account:
     index:
       title: 帳戶
       tagline: 管理帳戶設定
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: 電郵地址
       refer_and_earn: 推薦回贈計劃
       refer_and_earn_hint: 使用專屬優惠券與分享TRMNL。每次使用都可賺取收入，按月支付。
-      refer_and_earn_redemptions: 兌換次數 # how many times this coupon has been used
+      refer_and_earn_redemptions: 兌換次數
       refer_and_earn_request_code: 索取推薦碼
       device_invoice: 裝置發票
       device_invoice_label: 下載商業文件以作會計用途。
@@ -81,7 +83,7 @@ zh-HK:
       last_name_hint: 可讓TRMNL介面更舒適。
       password_hint: 用於保護你的TRMNL帳戶。
       enable_2fa: 啟用雙重驗證(2FA)？
-      enable_2fa_hint: "__按此__啟用OTP。"
+      enable_2fa_hint: __按此__啟用OTP。
       disable_2fa: 停用雙重驗證(2FA)
       disable_2fa_hint: 如要停用，請提供有效的單次密碼(OTP)，並在上方輸入現時密碼。
       session: 登入狀態
@@ -90,10 +92,10 @@ zh-HK:
       time_zone_hint: 用於判斷重新整理頻率及裝置睡眠時間。
       locale: 地區設定
       locale_hint: 你希望使用哪一種語言？ __按此了解更多__。
-
-    # toast messages
     update:
       success: 成功更新個人資料
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: 儀表板
@@ -105,38 +107,38 @@ zh-HK:
       last_90_days: 過去90日
       today: 今日
       yesterday: 昨日
-    health: # partial (widget)
+    health:
       bad: 外掛出現問題
       good: 外掛運作正常
       next_steps: 當有變更時，我們會通知你
-    news: # partial (widget)
+    news:
       title: 新聞
       cta: 查看所有
-    playlists: # partial (widget)
+    playlists:
       title: 播放清單
       cta: 編輯播放清單
       pieces_of_content_displayed: 顯示畫面數量
-    plugins: # partial (widget)
+    plugins:
       title: 外掛功能
       cta: 前往外掛列表
       connected: 已連接外掛
       new_and_popular: 最新及熱門項目
     shop:
       title: 商店
-    time_saved: # partial (widget)
+    time_saved:
       title: 已節省時間
       cta: 詳情
   devices:
     edit:
-      accepts_beta_firmware: 韌體搶先發佈 # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: 韌體搶先發佈
       accepts_beta_firmware_hint: 啟用設定後，你會在其他用戶之前取得最新的硬件韌體改進。
       back_to_devices: 返回裝置
       battery_consumption: 電池消耗
       battery_consumption_hint: 啟用「睡眠模式」可節省電量，並延長電池續航時間。
-      developer_perks: 開發者福利 # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: 開發者福利
       developer_perks_hint: 以下選項需要購買「__開發者版本__」。.
       device_credentials: 裝置認證
-      device_credentials_hint: "__按此__了解如何使用裝置認證"
+      device_credentials_hint: __按此__了解如何使用裝置認證
       device_name: 裝置名稱
       device_name_hint: 此名稱可讓TRMNL介面更舒適
       edit_device: 編輯裝置
@@ -145,23 +147,24 @@ zh-HK:
       identify_device_hint: 按下按鈕後，裝置會顯示識別畫面。
       logs: 除錯記錄
       logs_hint: 提供即時串流的原始錯誤記錄，以偵錯你的裝置或外掛。
+      low_battery_email_notification: Low Battery Email Notification
       mirror: 鏡像共享
       mirror_device: 鏡像共享另一部裝置
       mirror_device_hint: 輸入可共享(shareable)裝置的ID，以鏡像共享其播放清單。你的播放清單仍然會顯示。
-      ota_enabled: 已啟用自動更新
+      ota_enabled: 啟用自動更新
       ota_enabled_hint: 自動安裝新的韌體。如要使用自訂韌體，請關閉此設定。
       sleep_mode: 睡眠模式
       sleep_mode_hint: 調整重新整理頻率，以提升專注度及電池續航時間。
       sleep_screen: 睡眠畫面
       special_function: 特別功能
       special_function_hint: 按兩下裝置背面的按鈕時，會執行特別功能。
-      special_function_learn_more: "__按此__了解特別功能。"
+      special_function_learn_more: __按此__了解特別功能。
       unlink: 取消連結
       unlink_device: 取消連結裝置
       unlink_device_hint: 如要安全地轉售或轉讓TRMNL裝置，請先取消連結。
       visibility: 共享狀態
       visibility_hint: 讓其他TRMNL裝置可鏡像共享此裝置的內容。
-      your_device: 你的TRMNL裝置
+      your_device: 你的TRMNL
     index:
       title: 裝置
       tagline: 你的TRMNL裝置
@@ -171,8 +174,6 @@ zh-HK:
       title: 新增裝置
       description: 輸入裝置ID以新增TRMNL裝置到你的帳戶。
       add_device: 新增裝置
-
-    # toast messages
     associate:
       error: 連結裝置時發生錯誤
       success: 成功連結裝置
@@ -202,7 +203,7 @@ zh-HK:
       title: 除錯記錄
       all: 所有
       device: 裝置
-      dump: 內容 # content
+      dump: 內容
       id: ID
       private_plugins: 客製外掛
       source: 來源
@@ -219,14 +220,17 @@ zh-HK:
       edit_markup_without_preview: 編輯標記碼（略過預覽）
       error_rendering_markup: 轉譯標記碼時發生錯誤
       fix_indentation: 修復縮排
+      go_to_preview: Go To Preview
       live_preview: 即時預覽
       no_changes_to_save: 沒有變更可儲存
+      pop_out_preview: Pop Out Preview
       quickstart_examples: 快速入門範例
       quickstart_example_applied: 已套用！
       quickstart_use_this_example: 套用此範例
       revert: 還原
       revert_confirm: 確定要還原嗎？所有未儲存的變更將會消失。
       save_changes: 儲存變更 (⌘﹢S)
+      separate_preview: Preview is open in a separate window
     merge_variables:
       your_variables: 變數
     no_merge_variables:
@@ -253,26 +257,36 @@ zh-HK:
     index:
       title: 播放清單
       tagline: 選擇此裝置上顯示的畫面
-      add_a_group: 加入群組
+      add_a_group: 新增群組
       add_a_plugin: 加入外掛
       add_first_device_cta: 請先__新增__TRMNL裝置！
       add_to_playlist: 加入至播放清單
       create_first_playlist_cta: 請先__連接__第一個外掛功能，方可新增播放清單！
+      custom: 自訂
+      device_default: 裝置預設
       display_period_from: 顯示時間
       display_period_to: 至
-    playlist: # partial (single item)
+      display_period_validation: 開始時間必須早於結束時間。如要跨越午夜，請新增另一個群組。
+      every: 頻率
+    playlist:
       delete: 確定要移除此項目嗎？外掛會保持連接，只是不會在裝置上顯示。
       displayed_now: 正在顯示
       not_displayed_yet: 待處理
       remove_from_playlist: 從播放清單中移除
-
-    # toast messages
+      hide_playlist: Hide this item
+      show_playlist: Show this item
     create:
       error: 更新播放清單時發生錯誤
       success: 已更新播放清單
     destroy:
       error: 移除外掛時發生錯誤
       success: 已從播放清單移除外掛
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
+      success: Playlist order updated
     update:
       success: 已更新播放清單順序
   plugins:
@@ -281,18 +295,19 @@ zh-HK:
       tagline: 你會在TRMNL上顯示什麼？
       available: 可使用
       connected: 已連接
-      recipes: 模板(Recipe) # recipe doesn't tranlate well in zh-HK, using 'template' instead
+      recipes: 模板(Recipe)
       recipes_hint: 社群用戶開發的客製外掛，一鍵即可安裝。 __了解更多__
-    search: # partial (search box)
+    search:
       placeholder: 搜尋外掛
     my:
-      title: 我的外掛
-      tagline: 為其他用戶開發外掛
-      connections: 連接數量
-      edit: 編輯
-      install: 安裝
-      review_are_you_sure: 確定提交？TRMNL團隊會進行測試。如有任何問題，我們會以電郵聯絡你。
-      submit_for_review: 提交審核
+      index:
+        title: 我的外掛
+        tagline: 為其他用戶開發外掛
+      card:
+        connections: 連接數量
+        install: 安裝
+        review_are_you_sure: 確定提交？TRMNL團隊會進行測試。如有任何問題，我們會以電郵聯絡你。
+        submit_for_review: 提交審核
     new:
       title: 新增外掛
       tagline: 其他用戶將可以安裝此外掛。
@@ -303,13 +318,13 @@ zh-HK:
       icon: 圖示
       icon_hint: 建議使用40×40像素
       installation_url: 安裝網址
-      installation_url_hint: "__按此__了解安裝流程。"
+      installation_url_hint: __按此__了解安裝流程。
       installation_success_webhook_url: 安裝成功Webhook網址
       knowledge_base_url: 知識庫網址
       management_url: 管理網址
-      management_url_hint: "__按此__了解管理流程。"
+      management_url_hint: __按此__了解管理流程。
       markup_url: 標記碼(Markup)網址
-      markup_url_hint: "__按此__了解畫面生成方式。"
+      markup_url_hint: __按此__了解畫面生成方式。
       uninstallation_webhook_url: 解除安裝Webhook網址
     edit:
       title: 編輯外掛
@@ -317,6 +332,13 @@ zh-HK:
       name: 名稱
       description: 描述
   plugin_recipes:
+    connected: 已連接模板
+    connections:
+      one: Connection
+      other: Connections
+    forks:
+      one: Fork
+      other: Forks
     new:
       error: 找不到模板
   plugin_settings:
@@ -325,11 +347,12 @@ zh-HK:
     delete_are_you_sure: 確定要刪除此設定嗎？
     delete: 這樣會完全移除此外掛的設定。如要只從你的裝置隱藏此外掛，請從播放清單將其移除。
     inactive: 停用
-    no_plugin_settings_found: 找不到外掛設定。 # empty state - should not appear
+    no_plugin_settings_found: 找不到外掛設定。
     refreshing_now_please_wait: 正在重新整理，請在幾秒鐘後重新載入此頁面。
     reset_credentials: 成功重設「%{plugin_name}」帳戶
     form:
       active_hint: 在你的裝置上顯示或隱藏此外掛
+      advanced_settings: Advanced Settings
       back_to_plugin: 返回%{plugin}
       back_to_plugins: 返回外掛列表
       connect_with: 連接%{plugin}
@@ -356,14 +379,17 @@ zh-HK:
       remove_plugin: 移除外掛
       remove_plugin_hint: 移除外掛後，亦會從你的播放清單中移除
       synced: 已同步
+      refresh_paused: 已暫停更新
+      refresh_paused_hint: 自動更新已暫停，請加入至播放清單以重新開始。
+      refresh_paused_mashup: 只更新混搭畫面
+      refresh_paused_mashup_hint: 已暫停全螢幕的自動更新，混搭畫面(Mashup)仍會更新。
+      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
       visit_docs: 前往文件
     import:
       archive_too_large: ZIP檔案太大（最多%{max_mb} MB）
       missing_entry: ZIP檔案未包含「%{filename}」
-      entry_too_large: 「%{filename}」太大
-      malformed: 「%{filename}」格式不符
-
-    # toast messages
+      entry_too_large: "「%{filename}」太大"
+      malformed: "「%{filename}」格式不符"
     create:
       success: 已新增外掛，並加入至你的
       playlist: 播放清單
@@ -374,7 +400,6 @@ zh-HK:
       success: 成功更新外掛設定
     add_to_playlist:
       success: 外掛已加入至播放清單
-
   referral_code:
     create:
       request_received: 已收到請求，請查看收件箱
@@ -382,9 +407,7 @@ zh-HK:
     index:
       title: 升級裝置：
       tagline: 解鎖自訂外掛及__更多__功能。
-      pay: 付款 # button text; ex "Pay $20"
+      pay: 付款
       error: 裝置「%{device_name}」已經升級，請切換至另一部裝置
-
-    # toast messages
     confirm:
       success: 已啟用開發者版本附加元件

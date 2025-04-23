@@ -1,10 +1,9 @@
+---
 id:
-
-  # global, logged out, and auth-related
   add: Tambah
   add_new: Tambah baru
-  ago: ago # example: "Created 5 mins ago"
-  already_have_account: Saya sudah punya akun # signup form cta
+  ago: ago
+  already_have_account: Saya sudah punya akun
   back: Kembali
   back_to_all_blog_posts: Back to all posts
   blog: Blog
@@ -19,8 +18,8 @@ id:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
-  created: Created # example: "Created 5 mins ago"
-  create_an_account: Buat akun baru # login form cta
+  created: Created
+  create_an_account: Buat akun baru
   current_device: Current device
   days: hari
   delete: Hapus
@@ -31,8 +30,8 @@ id:
   export: Export
   fetching: Fetching
   first_name: Nama Depan
-  forgot_password: Lupa kata sandi # login form link
-  forgot_password_title: Atur ulang kata sandi # heading on /password/new
+  forgot_password: Lupa kata sandi
+  forgot_password_title: Atur ulang kata sandi
   get_started: Mari kita mulai!
   identify: Identifikasi
   import: Import
@@ -44,34 +43,37 @@ id:
   loading: Loading
   login: Masuk
   log_out: Keluar
-  minimum_characters: karakter minimal # ex: 8 characters minimum
-  mins: menit # 'minutes' abbreviation
+  minimum_characters: karakter minimal
+  mins: menit
   my_playlist: My Playlist
   new_password: Kata sandi baru
   password: Kata Sandi
-  please_wait: Please Wait... # similar to "Fetching", but shown after a long process button click vs on page-load
+  please_wait: Please Wait...
   plugin_not_found: Plugin not found
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Atur Ulang Kata Sandi
   save: Simpan
   section: Section
-  sign_in: Masuk # login form cta
-  sign_up: Daftar # logged out navigation
+  sign_in: Masuk
+  sign_up: Daftar
   something_went_wrong: Something went wrong
-  support: Support # bottom navigation tab, links to help center
+  tech_support: Support
   update: Perbarui
   view: Lihat
-  welcome: Selamat datang # login form heading
-
-  # views by resource (device, plugins, playlists, account, etc)
+  welcome: Selamat datang
   account:
     index:
       title: Akun
       tagline: Kelola pengaturan akun Anda
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
       email_address: Alamat Email
       refer_and_earn: Refer and Earn
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
+      refer_and_earn_redemptions: Redemptions
       refer_and_earn_request_code: Request a Code
       device_invoice: Device Invoice
       device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
@@ -90,10 +92,10 @@ id:
       time_zone_hint: Menentukan penyegaran dan waktu tidur perangkat.
       locale: Locale
       locale_hint: What language and localization do you prefer? __Go here__.
-
-    # toast messages
     update:
       success: Profil Anda berhasil diperbarui!
+    reset_api_key:
+      success: API key was regenerated successfully
   dashboard:
     index:
       title: Dasbor
@@ -105,35 +107,35 @@ id:
       last_90_days: 90 hari terakhir
       today: Hari ini
       yesterday: Kemarin
-    health: # partial (widget)
+    health:
       bad: Plugin mengalami kendala
       good: Plugin berfungsi dengan baik
       next_steps: Kami akan memberi tahu Anda jika ada perubahan
-    news: # partial (widget)
+    news:
       title: Berita
       cta: View All
-    playlists: # partial (widget)
+    playlists:
       title: Daftar Putar
       cta: Ubah Daftar Putar
       pieces_of_content_displayed: Potongan konten yang ditampilkan
-    plugins: # partial (widget)
+    plugins:
       title: Plugin
       cta: Pergi ke Plugin
       connected: Terhubung
       new_and_popular: Baru dan Populer
     shop:
       title: Shop
-    time_saved: # partial (widget)
+    time_saved:
       title: Waktu yang dihemat
       cta: Pelajari lebih lanjut
   devices:
     edit:
-      accepts_beta_firmware: Firmware tahap Beta # true/false toggle to receive new device updates before regular users
+      accepts_beta_firmware: Firmware tahap Beta
       accepts_beta_firmware_hint: Aktifkan untuk mendapatkan pembaruan firmware perangkat terbaru sebelum pengguna lain.
       back_to_devices: Kembali ke Perangkat
       battery_consumption: Penggunaan Baterai
       battery_consumption_hint: Hemat daya dan nikmati masa pakai baterai yang lebih lama dengan mengaktifkan Mode Tidur.
-      developer_perks: Keuntungan Pengembang # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks: Keuntungan Pengembang
       developer_perks_hint: Opsi di bawah ini membutuhkan __add-on Pengembang__.
       device_credentials: Device Credentials
       device_credentials_hint: See what you can do with these credentials __here__
@@ -145,6 +147,7 @@ id:
       identify_device_hint: Klik tombol di bawah ini untuk menampilkan layar pada perangkat ini yang membantu mengidentifikasinya.
       logs: Logs
       logs_hint: Debug your device and plugins with a live feed of raw error logs.
+      low_battery_email_notification: Low Battery Email Notification
       mirror: Mirroring
       mirror_device: Mirror Perangkat Lain
       mirror_device_hint: Masukkan ID Perangkat (yang dapat dibagikan) untuk mirror daftar putarnya. Daftar putar Anda tetap akan ditampilkan.
@@ -171,8 +174,6 @@ id:
       title: Tambah perangkat baru
       description: Masukkan ID Perangkat Anda untuk menambahkan perangkat TRMNL baru ke akun Anda.
       add_device: Tambahkan perangkat baru
-
-    # toast messages
     associate:
       error: Terjadi kesalahan saat menautkan perangkat
       success: Perangkat berhasil ditautkan
@@ -202,7 +203,7 @@ id:
       title: Logs
       all: All
       device: Device
-      dump: Dump # content
+      dump: Dump
       id: ID
       private_plugins: Private Plugins
       source: Source
@@ -219,14 +220,17 @@ id:
       edit_markup_without_preview: Edit Markup (without preview)
       error_rendering_markup: Error rendering that markup
       fix_indentation: Fix indentation
+      go_to_preview: Go To Preview
       live_preview: Live Preview
       no_changes_to_save: No changes to save
+      pop_out_preview: Pop Out Preview
       quickstart_examples: Quick-start Examples
       quickstart_example_applied: Applied!
       quickstart_use_this_example: Use this example
       revert: Revert
       revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
       save_changes: Save Changes (⌘﹢S)
+      separate_preview: Preview is open in a separate window
     merge_variables:
       your_variables: Your variables
     no_merge_variables:
@@ -258,21 +262,31 @@ id:
       add_first_device_cta: Mulai dengan __menambahkan__ perangkat TRMNL pertama Anda!
       add_to_playlist: Tambahkan ke Daftar Putar
       create_first_playlist_cta: Buat daftar putar setelah __menghubungkan__ plugin pertama Anda!
+      custom: Custom
+      device_default: Device default
       display_period_from: Display from
       display_period_to: to
-    playlist: # partial (single item)
+      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
+      every: every
+    playlist:
       delete: Apakah Anda yakin ingin menghapus item ini? Plugin akan tetap terhubung, hanya tidak ditampilkan di perangkat Anda.
       displayed_now: Ditampilkan sekarang
       not_displayed_yet: Tertunda
       remove_from_playlist: Hapus dari daftar putar
-
-    # toast messages
+      hide_playlist: Hide this item
+      show_playlist: Show this item
     create:
       error: Gagal memperbarui daftar putar
       success: Daftar putar berhasil diperbarui
     destroy:
       error: Terjadi kesalahan saat menghapus item dari daftar putar
       success: Plugin berhasil dihapus dari Daftar Putar
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
+      success: Playlist order updated
     update:
       success: Urutan daftar putar berhasil diperbarui
   plugins:
@@ -283,16 +297,17 @@ id:
       connected: Terhubung
       recipes: Recipes
       recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
-    search: # partial (search box)
+    search:
       placeholder: Cari Plugin
     my:
-      title: Plugin Saya
-      tagline: Kembangkan Plugin Anda untuk lokapasar plugin
-      connections: connections
-      edit: Edit
-      install: Install
-      review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-      submit_for_review: Ajukan untuk ditinjau
+      index:
+        title: Plugin Saya
+        tagline: Kembangkan Plugin Anda untuk lokapasar plugin
+      card:
+        connections: connections
+        install: Install
+        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+        submit_for_review: Ajukan untuk ditinjau
     new:
       title: Buat Plugin Baru
       tagline: Permudah pengguna lain memasang plugin buatan Anda!
@@ -317,6 +332,13 @@ id:
       name: Nama
       description: Deskripsi
   plugin_recipes:
+    connected: Recipe connected
+    connections:
+      one: Connection
+      other: Connections
+    forks:
+      one: Fork
+      other: Forks
     new:
       error: Recipe not found
   plugin_settings:
@@ -325,11 +347,12 @@ id:
     delete_are_you_sure: Are you sure you want to delete this setting?
     delete: Ini akan sepenuhnya menghapus pengaturan plugin. Untuk hanya menyembunyikan plugin ini dari perangkat Anda, hapus dari Daftar Putar Anda.
     inactive: Tidak Aktif
-    no_plugin_settings_found: Tidak ditemukan pengaturan plugin. # empty state - should not appear
+    no_plugin_settings_found: Tidak ditemukan pengaturan plugin.
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Tampilkan atau sembunyikan plugin ini di perangkat Anda
+      advanced_settings: Advanced Settings
       back_to_plugin: Kembali ke %{plugin}
       back_to_plugins: Kembali ke Plugin
       connect_with: Hubungkan dengan %{plugin}
@@ -356,14 +379,17 @@ id:
       remove_plugin: Remove plugin
       remove_plugin_hint: Removing a plugin will also remove it from your playlist
       synced: Synced
+      refresh_paused: Refresh Paused
+      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
+      refresh_paused_mashup: Refreshing Mashups
+      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
       visit_docs: Kunjungi Dokumentasi
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: '%{filename} is too large'
-      malformed: '%{filename} is malformed'
-
-    # toast messages
+      entry_too_large: "%{filename} is too large"
+      malformed: "%{filename} is malformed"
     create:
       success: Plugin berhasil dibuat dan ditambahkan ke
       playlist: daftar putar
@@ -374,17 +400,14 @@ id:
       success: Konfigurasi plugin berhasil diperbarui
     add_to_playlist:
       success: Plugin added to Playlist
-
   referral_code:
     create:
       request_received: Request received, check your inbox
   upgrade:
     index:
-      title: "Upgrading device:"
+      title: 'Upgrading device:'
       tagline: Unlock custom plugins and __more__.
-      pay: Pay # button text; ex "Pay $20"
+      pay: Pay
       error: Device %{device_name} is already upgraded, switch to another device
-
-    # toast messages
     confirm:
       success: Developer edition add-on is now enabled
