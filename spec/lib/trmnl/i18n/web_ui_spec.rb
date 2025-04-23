@@ -12,7 +12,7 @@ RSpec.describe "Web UI", type: :feature do
   Bundler.root.join("lib/trmnl/i18n/locales/web_ui").files("*.yml").each do |path|
     it "verifies #{path.name} has key parity with default locale" do
       current = YAML.safe_load(path.read).fetch(path.name.to_s).flatten_keys.keys
-      expect((default - current)).to eq([])
+      expect(default - current).to eq([])
     end
   end
 end
