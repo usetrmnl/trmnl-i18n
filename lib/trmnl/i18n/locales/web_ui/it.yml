@@ -2,10 +2,10 @@
 it:
   add: Aggiungi
   add_new: Aggiungi nuovo
-  ago: ago
+  ago: fa
   already_have_account: Ho già un account
   back: Indietro
-  back_to_all_blog_posts: Back to all posts
+  back_to_all_blog_posts: Torna a tutti i post
   blog: Blog
   buy_now: Compra ora
   cancel: Annulla
@@ -23,12 +23,12 @@ it:
   current_device: Current device
   days: giorni
   delete: Cancella
-  developer_edition_required: Developer edition is required to enable this feature.
+  developer_edition_required:  Developer edition è richiesta per abilitare questa funzione.
   device_id: ID Dispositivo
   edit: Modifica
   email_address: Indirizzo email
-  export: Export
-  fetching: Fetching
+  export: Esporta
+  fetching: Recupero # can be also translated as Ottengo
   first_name: Nome
   forgot_password: Ho dimenticato la password
   forgot_password_title: Ci risiamo
@@ -50,7 +50,7 @@ it:
   password: Password
   please_wait: Attendi...
   plugin_not_found: Plugin non trovato
-  refresh_rates_hint: Learn how refresh rates work __qui__.
+  refresh_rates_hint: Scorpi come i refresh rates funzionano __qui__.
   reset_password: Reimposta password
   save: Salva
   section: Sezione
@@ -59,25 +59,25 @@ it:
   something_went_wrong: Qualcosa è andato storto
   tech_support: Supporto
   update: Aggiorna
-  view: View
+  view: Vista
   welcome: Benvenuto/a
   account:
     index:
       title: Profilo
       tagline: Gestisci le impostazioni del profilo
-      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
-      api_key_hint: See __the docs__ to learn how to configure your local environment.
-      api_key_label: The credential for authenticating local development tools
-      api_key_reset: Regenerate
-      api_key: API Key
+      api_key_confirm: Sei sicuro di volere rigenerare la tua chiave API? La vecchia chiave non funzionerà più.
+      api_key_hint: Vedi __la documentazione__ per imparare a configurare il tuo ambiente locale.
+      api_key_label: Le credenziali per autenticarsi nei tool di sviluppo locali
+      api_key_reset: Rigenera
+      api_key: Chiave API
       email_address: Indirizzo Email
       refer_and_earn: Refer and Earn
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
       refer_and_earn_redemptions: Utilizzi
       refer_and_earn_request_code: Richiedi un codice
-      device_invoice: Device Invoice
-      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
-      device_invoice_hint: Find this on your package tracking page or shipment notification email.
+      device_invoice: Fattura del dispositivo
+      device_invoice_label: Scarica il documento commerciale per tuo contabile o (sterana) collezione di PDF.
+      device_invoice_hint: Trovalo nel tuo traking del pacchetto oppure nella notifica di spedizione per email.
       email_address_hint: Usato per accedere a TRMNL e ricevere messaggi di sistema.
       first_name_hint: Usiamo il tuo nome per migliorare l'interfaccia TRMNL.
       last_name_hint: Usiamo il tuo cognome per migliorare l'interfaccia TRMNL.
@@ -91,11 +91,11 @@ it:
       time_zone: Time Zone
       time_zone_hint: Determina la frequenza di aggiornamento e il periodo di riposo del dispositivo.
       locale: Locale
-      locale_hint: What language and localization do you prefer? __Vai qui__.
+      locale_hint: Che lingua perferisci utilizzare? __Vai qui__.
     update:
       success: Profilo aggiornato con successo
     reset_api_key:
-      success: API key was regenerated successfully
+      success: Chiave API rigenerata con successo
   dashboard:
     index:
       title: Dashboard
@@ -124,7 +124,7 @@ it:
       connected: Connesso
       new_and_popular: Nuovi e Popolari
     shop:
-      title: Shop
+      title: Negozio
     time_saved:
       title: Tempo risparmiato
       cta: Maggiori informazioni
@@ -146,8 +146,8 @@ it:
       identify_device: Identifica Dispositivo
       identify_device_hint: Fai click sul bottone sottostante per mostrare una schermata di identificazione sul dispositivo.
       logs: Logs
-      logs_hint: Debug your device and plugins with a live feed of raw error logs.
-      low_battery_email_notification: Low Battery Email Notification
+      logs_hint: Effettua il debug del tuo dispositivo e plugin con una lista degli errori.
+      low_battery_email_notification: Notifica di batteria scarica per Email
       mirror: Duplica
       mirror_device: Duplica un altro Dispositivo
       mirror_device_hint: Indica un ID Dispositivo (condivisibile) per duplicare la sua playlist. La tua playlist rimarrà visibile.
@@ -258,7 +258,7 @@ it:
       title: Playlist
       tagline: Scegli cosa mostrare
       add_a_group: Aggiungi un gruppo
-      add_a_plugin: Aggiungu un Plugin
+      add_a_plugin: Aggiungi un Plugin
       add_first_device_cta: Comincia __aggiungendo__ il tuo primo dispositivo TRMNL!
       add_to_playlist: Aggiungi a Playlist
       create_first_playlist_cta: Crea la tua playlist, ma prima __connetti__ il tuo primo plugin!
@@ -266,15 +266,15 @@ it:
       device_default: Device default
       display_period_from: Mostra dalle
       display_period_to: alle
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: every
+      display_period_validation: L'ora di inizio deve essere prima dell'ora di fine. Crea un altro gruppo per coprire le ore notturne.
+      every: Ogni
     playlist:
       delete: Vuoi davvero rimuovere questo elemento? Il plugin resterà connesso, ma non sarà visibile sul tuo dispositivo.
       displayed_now: Mostrato ora
       not_displayed_yet: Non ancora mostrato
       remove_from_playlist: Rimuovi dalla playlist
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      hide_playlist: Nascondi questo oggetto
+      show_playlist: Mostra questo oggetto
     create:
       error: Aggiornamento Playlist fallito
       success: Playlist aggiornata
@@ -284,9 +284,9 @@ it:
     toggle_visibility:
       success: Playlist item %{change}
     duplicate:
-      success: Playlist duplicated
+      success: Playlist duplicata
     sort:
-      success: Playlist order updated
+      success: Ordine Playlist aggiornato
     update:
       success: Ordinamento playlist aggiornato
   plugins:
@@ -332,23 +332,23 @@ it:
       name: Nome
       description: Descrizione
   plugin_recipes:
-    connected: Recipe connected
+    connected: Recipe Connessa
     connections:
-      one: Connection
-      other: Connections
+      one: Connessione
+      other: Connessioni
     forks:
       one: Fork
       other: Forks
     new:
-      error: Recipe not found
+      error: Recipe non trovata
   plugin_settings:
     active: Attivo
-    copy_are_you_sure: Are you sure you want to copy this setting?
-    delete_are_you_sure: Are you sure you want to delete this setting?
+    copy_are_you_sure: Sei sicuro di voler copiare queste impostazioni?
+    delete_are_you_sure: Sei sicuro di voler eliminare queste impostazioni?
     delete: Questo cancellerà qualunque impostazione del plugin. Per nascondere questo plugin dal dispositivo, rimuoverlo invece dalla Playlist.
     inactive: Inattivo
     no_plugin_settings_found: Impostazioni per plugin non trovate.
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    refreshing_now_please_wait: Aggiornamento in corso, aggiorna questa pagina tra qualche secondo.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
       active_hint: Mostra o nascondi questo plugin sul tuo dispositivo
@@ -363,8 +363,8 @@ it:
       force_refresh_click_here: Clicca qui
       force_refresh_click_here_hint: per generare subito una nuova schermata
       learn_more: Maggiori informazioni su questo plugin sono nella nostra knowledge base
-      linked_account: Linked Account
-      linked_account_success: Successfully linked with %{plugin_name}
+      linked_account: Account Connesso
+      linked_account_success: Connesso correttamente con %{plugin_name}
       link_oauth: Collega Profilo
       link_oauth_hint: Prima di continuare, segui la procedura di autorizzazione sicura fornita da %{plugin}
       multiple_instances_hint: Questo plugin supporta istanze multiple.
@@ -376,14 +376,14 @@ it:
       refresh_rate: Frequenza di aggiornamento
       refresh_rate_hint: Definisce con quale frequenza questo plugin recupera dati aggiornati
       refreshed: Aggiornato
-      remove_plugin: Remove plugin
-      remove_plugin_hint: Removing a plugin will also remove it from your playlist
-      synced: Synced
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
+      remove_plugin: Rimuovi plugin
+      remove_plugin_hint: Rimuovendo il plugin verrà anche rimosso dalla tua playlist
+      synced: Sincronizzato
+      refresh_paused: Aggiornamento in pausa
+      refresh_paused_hint: Auto-Aggiornamento è in pausa. Aggiungi ad una playlist per avviare.
+      refresh_paused_mashup: Aggiornamento Mashups
+      refresh_paused_mashup_hint: Auto-Aggiornamento in pausa per schermo intero. Mashups si aggiornano.
+      refresh_stopped: Auto-Aggiornamento fermato. Correggi il problema con il plugin per continuare.
       visit_docs: Guarda la Documentazione
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
@@ -399,15 +399,15 @@ it:
     update:
       success: Configurazione del plugin aggiornata con successo
     add_to_playlist:
-      success: Plugin added to Playlist
+      success: Plugin aggiunto alla Playlist
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: Richiesta ricevuta, controlla la tua posta
   upgrade:
     index:
-      title: 'Upgrading device:'
-      tagline: Unlock custom plugins and __more__.
-      pay: Pay
-      error: Device %{device_name} is already upgraded, switch to another device
+      title: 'Aggiornamento dispositivo:'
+      tagline: Sblocca plugin custom e __altro__.
+      pay: Paga
+      error: Dispositivo %{device_name} già aggiornato, seleziona un altro dispositivo
     confirm:
-      success: Developer edition add-on is now enabled
+      success: Developer edition add-on e ora abilitato
