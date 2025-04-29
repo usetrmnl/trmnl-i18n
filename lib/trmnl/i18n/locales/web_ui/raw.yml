@@ -252,6 +252,8 @@ raw:
       error: mfa.enable_otp_verify.error
     verify_otp:
       verify: mfa.verify_otp.verify
+      reset: mfa.verify_otp.reset
+      reset_instructions: mfa.verify_otp.reset_instructions
       success: mfa.verify_otp.success
       error: mfa.verify_otp.error
   playlists:
