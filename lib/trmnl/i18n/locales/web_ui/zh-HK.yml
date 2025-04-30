@@ -40,6 +40,7 @@ zh-HK:
   keep_me_signed_in: 保持登入狀態
   knowledge_base: 知識庫
   last_name: 姓氏
+  learn_more: Learn more
   loading: 載入中
   login: 登入
   log_out: 登出
@@ -251,6 +252,8 @@ zh-HK:
       error: OTP錯誤
     verify_otp:
       verify: 驗證
+      reset: Reset MFA
+      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 雙重驗證成功
       error: OTP錯誤
   playlists:
@@ -313,6 +316,7 @@ zh-HK:
       tagline: 其他用戶將可以安裝此外掛。
       name: 名稱
       category: 類別
+      category_hint: Hold cmd or ctrl to choose up to 3
       description: 描述
       description_hint: 最多50個字元
       icon: 圖示
@@ -325,6 +329,8 @@ zh-HK:
       management_url_hint: __按此__了解管理流程。
       markup_url: 標記碼(Markup)網址
       markup_url_hint: __按此__了解畫面生成方式。
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
       uninstallation_webhook_url: 解除安裝Webhook網址
     edit:
       title: 編輯外掛
@@ -363,6 +369,11 @@ zh-HK:
       force_refresh_click_here: 按此
       force_refresh_click_here_hint: 立即生成新的畫面
       learn_more: 前往知識庫以了解此外掛
+      learn_more_fork: This plugin was forked from a Recipe.
+      learn_more_fork_original: See Original
+      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
+      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
+      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
       linked_account: 已連結帳戶
       linked_account_success: 成功連接%{plugin_name}
       link_oauth: 連接帳戶

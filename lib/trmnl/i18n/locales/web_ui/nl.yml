@@ -40,6 +40,7 @@ nl:
   keep_me_signed_in: Blijf ingelogd
   knowledge_base: Kennisbank
   last_name: Achternaam
+  learn_more: Learn more
   loading: Laden
   login: Inloggen
   log_out: Uitloggen
@@ -251,6 +252,8 @@ nl:
       error: Ongeldige OTP code
     verify_otp:
       verify: Verifieer
+      reset: Reset MFA
+      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 2FA succesvol
       error: Ongeldige OTP code
   playlists:
@@ -313,6 +316,7 @@ nl:
       tagline: Sta andere gebruikers toe je plugin te installeren.
       name: Naam
       category: Categorie
+      category_hint: Hold cmd or ctrl to choose up to 3
       description: Beschrijving
       description_hint: Maximaal 50 tekens
       icon: Pictogram
@@ -325,6 +329,8 @@ nl:
       management_url_hint: Lees __hier__ meer over het beheerprocess.
       markup_url: Plugin-markup-URL
       markup_url_hint: Lees __hier__ meer over schermgeneratie.
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
       uninstallation_webhook_url: Webhook-URL voor deïnstallatie
     edit:
       title: Plugin bewerken
@@ -363,6 +369,11 @@ nl:
       force_refresh_click_here: Klik hier
       force_refresh_click_here_hint: om direct een nieuw scherm te genereren
       learn_more: Kom meer te weten over deze plugin in onze kennisbank
+      learn_more_fork: This plugin was forked from a Recipe.
+      learn_more_fork_original: See Original
+      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
+      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
+      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
       linked_account: Gekoppeld account
       linked_account_success: Succesvol gekoppeld met %{plugin_name}
       link_oauth: Account koppelen

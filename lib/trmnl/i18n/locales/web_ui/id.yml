@@ -40,6 +40,7 @@ id:
   keep_me_signed_in: Biarkan saya tetap masuk
   knowledge_base: Basis pengetahuan
   last_name: Nama Belakang
+  learn_more: Learn more
   loading: Loading
   login: Masuk
   log_out: Keluar
@@ -251,6 +252,8 @@ id:
       error: Invalid OTP code
     verify_otp:
       verify: Verify
+      reset: Reset MFA
+      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 2FA successful
       error: Invalid OTP code
   playlists:
@@ -313,6 +316,7 @@ id:
       tagline: Permudah pengguna lain memasang plugin buatan Anda!
       name: Nama
       category: Category
+      category_hint: Hold cmd or ctrl to choose up to 3
       description: Deskripsi
       description_hint: Maximum 50 characters
       icon: Ikon
@@ -325,6 +329,8 @@ id:
       management_url_hint: Learn more about the management flow __here__.
       markup_url: Plugin Markup URL
       markup_url_hint: Learn more about screen generation __here__.
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
       uninstallation_webhook_url: Uninstallation Webhook URL
     edit:
       title: Ubah Plugin
@@ -363,6 +369,11 @@ id:
       force_refresh_click_here: Klik di sini
       force_refresh_click_here_hint: untuk menghasilkan layar baru segera
       learn_more: Pelajari tentang plugin ini di basis pengetahuan kami
+      learn_more_fork: This plugin was forked from a Recipe.
+      learn_more_fork_original: See Original
+      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
+      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
+      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
       linked_account: Linked Account
       linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: Tautkan Akun

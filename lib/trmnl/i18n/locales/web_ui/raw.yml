@@ -40,6 +40,7 @@ raw:
   keep_me_signed_in: keep_me_signed_in
   knowledge_base: knowledge_base
   last_name: last_name
+  learn_more: learn_more
   loading: loading
   login: login
   log_out: log_out
@@ -251,6 +252,8 @@ raw:
       error: mfa.enable_otp_verify.error
     verify_otp:
       verify: mfa.verify_otp.verify
+      reset: mfa.verify_otp.reset
+      reset_instructions: mfa.verify_otp.reset_instructions
       success: mfa.verify_otp.success
       error: mfa.verify_otp.error
   playlists:
@@ -313,6 +316,7 @@ raw:
       tagline: plugins.new.tagline
       name: plugins.new.name
       category: plugins.new.category
+      category_hint: plugins.new.category_hint
       description: plugins.new.description
       description_hint: plugins.new.description_hint
       icon: plugins.new.icon
@@ -325,9 +329,9 @@ raw:
       management_url_hint: plugins.new.management_url_hint __here__.
       markup_url: plugins.new.markup_url
       markup_url_hint: plugins.new.markup_url_hint __here__.
+      no_screen_padding: plugins.new.no_screen_padding
+      no_screen_padding_hint: plugins.new.no_screen_padding_hint
       uninstallation_webhook_url: plugins.new.uninstallation_webhook_url
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: This setting allows you to remove the outermost padding and use fullscreen mode.
     edit:
       title: plugins.edit.title
       tagline: plugins.edit.tagline
@@ -365,6 +369,11 @@ raw:
       force_refresh_click_here: plugin_settings.form.force_refresh_click_here
       force_refresh_click_here_hint: plugin_settings.form.force_refresh_click_here_hint
       learn_more: plugin_settings.form.learn_more
+      learn_more_fork: plugin_settings.form.learn_more_fork
+      learn_more_fork_original: plugin_settings.form.learn_more_fork_original
+      learn_more_recipe_author: plugin_settings.form.learn_more_recipe_author
+      learn_more_recipe_long: plugin_settings.form.learn_more_recipe_long
+      learn_more_recipe_short: plugin_settings.form.learn_more_recipe_short
       linked_account: plugin_settings.form.linked_account
       linked_account_success: plugin_settings.form.linked_account_success
       link_oauth: plugin_settings.form.link_oauth

@@ -40,6 +40,7 @@ zh-CN:
   keep_me_signed_in: 保持登录
   knowledge_base: 说明书
   last_name: 姓
+  learn_more: Learn more
   loading: 加载中
   login: 登陆
   log_out: 登出
@@ -251,6 +252,8 @@ zh-CN:
       error: Invalid OTP code
     verify_otp:
       verify: Verify
+      reset: Reset MFA
+      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 2FA successful
       error: Invalid OTP code
   playlists:
@@ -313,6 +316,7 @@ zh-CN:
       tagline: 开发您的第一个插件
       name: 名称
       category: Category
+      category_hint: Hold cmd or ctrl to choose up to 3
       description: 简介
       description_hint: 最多 50 字符
       icon: 图标
@@ -325,6 +329,8 @@ zh-CN:
       management_url_hint: __了解__更多关于插件管理
       markup_url: Plugin Markup URL
       markup_url_hint: __了解__更多关于插件标记
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
       uninstallation_webhook_url: Uninstallation Webhook URL
     edit:
       title: 编辑插件
@@ -363,6 +369,11 @@ zh-CN:
       force_refresh_click_here: 点击此处
       force_refresh_click_here_hint: 立即刷新插件
       learn_more: 了解更多
+      learn_more_fork: This plugin was forked from a Recipe.
+      learn_more_fork_original: See Original
+      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
+      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
+      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
       linked_account: Linked Account
       linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: 链接账户

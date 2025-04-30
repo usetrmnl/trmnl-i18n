@@ -40,6 +40,7 @@ ja:
   keep_me_signed_in: サインイン状態を維持する
   knowledge_base: ナレッジベース
   last_name: 姓
+  learn_more: Learn more
   loading: 読み込み中
   login: ログイン
   log_out: ログアウト
@@ -251,6 +252,8 @@ ja:
       error: 無効なOTPコード
     verify_otp:
       verify: 確認
+      reset: Reset MFA
+      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 2段階認証に成功しました
       error: 無効なOTPコード
   playlists:
@@ -313,6 +316,7 @@ ja:
       tagline: 他のユーザーがあなたのプラグインをインストールできるようにします。
       name: 名前
       category: カテゴリー
+      category_hint: Hold cmd or ctrl to choose up to 3
       description: 説明
       description_hint: 最大50文字
       icon: アイコン
@@ -325,6 +329,8 @@ ja:
       management_url_hint: 管理フローについては__こちら__をご覧ください。
       markup_url: プラグインマークアップURL
       markup_url_hint: 画面生成については__こちら__をご覧ください。
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
       uninstallation_webhook_url: アンインストールWebhook URL
     edit:
       title: プラグインの編集
@@ -363,6 +369,11 @@ ja:
       force_refresh_click_here: ここをクリック
       force_refresh_click_here_hint: 即座に新しい画面を再生します
       learn_more: このプラグインについてもっと知りたい場合は、ドキュメントをご参照ください
+      learn_more_fork: This plugin was forked from a Recipe.
+      learn_more_fork_original: See Original
+      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
+      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
+      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
       linked_account: 連携済みアカウント
       linked_account_success: 成功
       link_oauth: アカウント連携

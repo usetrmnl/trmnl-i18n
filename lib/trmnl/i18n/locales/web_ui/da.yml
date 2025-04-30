@@ -40,6 +40,7 @@ da:
   keep_me_signed_in: Hold mig logget ind
   knowledge_base: Vidensbase
   last_name: Efternavn
+  learn_more: Learn more
   loading: Indlæser
   login: Log ind
   log_out: Log ud
@@ -251,6 +252,8 @@ da:
       error: Ugyldig OTP-kode
     verify_otp:
       verify: Bekræft
+      reset: Reset MFA
+      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 2FA vellykket
       error: Ugyldig OTP-kode
   playlists:
@@ -313,6 +316,7 @@ da:
       tagline: Andre brugere vil kunne installere dit plugin.
       name: Navn
       category: Kategori
+      category_hint: Hold cmd or ctrl to choose up to 3
       description: Beskrivelse
       description_hint: Maksimum 50 tegn
       icon: Ikon
@@ -325,6 +329,8 @@ da:
       management_url_hint: Lær mere om administrationsflowet __her__.
       markup_url: Plugin Markup URL
       markup_url_hint: Lær mere om skærmgenerering __her__.
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
       uninstallation_webhook_url: Afinstallations Webhook URL
     edit:
       title: Rediger plugin
@@ -363,6 +369,11 @@ da:
       force_refresh_click_here: Klik her
       force_refresh_click_here_hint: for at generere en ny skærm med det samme
       learn_more: Lær om dette plugin i vores vidensbase
+      learn_more_fork: This plugin was forked from a Recipe.
+      learn_more_fork_original: See Original
+      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
+      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
+      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
       linked_account: Tilknyttet konto
       linked_account_success: Succesfuldt tilknyttet med %{plugin_name}
       link_oauth: Link konto

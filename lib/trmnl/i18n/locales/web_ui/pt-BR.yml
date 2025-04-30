@@ -40,6 +40,7 @@ pt-BR:
   keep_me_signed_in: Manter conectado
   knowledge_base: Base de conhecimento
   last_name: Sobrenome
+  learn_more: Learn more
   loading: Carregando
   login: Entrar
   log_out: Sair
@@ -251,6 +252,8 @@ pt-BR:
       error: Invalid OTP code
     verify_otp:
       verify: Verify
+      reset: Reset MFA
+      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 2FA successful
       error: Invalid OTP code
   playlists:
@@ -313,6 +316,7 @@ pt-BR:
       tagline: Outros usuários poderão instalar seu plugin.
       name: Nome
       category: Categoria
+      category_hint: Hold cmd or ctrl to choose up to 3
       description: Descrição
       description_hint: Máximo de 50 caracteres
       icon: Ícone
@@ -325,6 +329,8 @@ pt-BR:
       management_url_hint: Saiba mais sobre o fluxo de configuração __aqui__.
       markup_url: URL de Geração de Telas
       markup_url_hint: Saiba mais sobre a geração de telas __aqui__.
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
       uninstallation_webhook_url: URL do Webhook de Desinstalação
     edit:
       title: Alterar Plugin
@@ -363,6 +369,11 @@ pt-BR:
       force_refresh_click_here: Clique aqui
       force_refresh_click_here_hint: para gerar uma nova tela imediatamente
       learn_more: Saiba mais sobre esse plugin em nossa base de conhecimento
+      learn_more_fork: This plugin was forked from a Recipe.
+      learn_more_fork_original: See Original
+      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
+      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
+      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
       linked_account: Conta Vinculada
       linked_account_success: Conta vinculada com sucesso com %{plugin_name}
       link_oauth: Vincular Conta

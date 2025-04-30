@@ -40,6 +40,7 @@
   keep_me_signed_in: Hold meg pålogget
   knowledge_base: Kunnskapsbase
   last_name: Etternavn
+  learn_more: Learn more
   loading: Laster
   login: Logg inn
   log_out: Logg ut
@@ -251,6 +252,8 @@
       error: Ugyldig OTP-kode
     verify_otp:
       verify: Verifiser
+      reset: Reset MFA
+      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 2FA vellykket
       error: Ugyldig OTP-kode
   playlists:
@@ -313,6 +316,7 @@
       tagline: Andre brukere vil kunne installere din plugin.
       name: Navn
       category: Kategori
+      category_hint: Hold cmd or ctrl to choose up to 3
       description: Beskrivelse
       description_hint: Maksimum 50 tegn
       icon: Ikon
@@ -325,6 +329,8 @@
       management_url_hint: Les mer om administrasjonsflyten __her__.
       markup_url: Plugin Markup-URL
       markup_url_hint: Les mer om skjermgenerering __her__.
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
       uninstallation_webhook_url: Webhook-URL for avinstallasjon
     edit:
       title: Rediger plugin
@@ -363,6 +369,11 @@
       force_refresh_click_here: Klikk her
       force_refresh_click_here_hint: for å generere en ny skjerm umiddelbart
       learn_more: Les om denne pluginen i vår kunnskapsbase
+      learn_more_fork: This plugin was forked from a Recipe.
+      learn_more_fork_original: See Original
+      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
+      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
+      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
       linked_account: Koblet konto
       linked_account_success: Koblet til %{plugin_name} med hell
       link_oauth: Koble konto
