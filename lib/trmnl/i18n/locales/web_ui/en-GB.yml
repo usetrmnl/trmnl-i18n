@@ -1,0 +1,423 @@
+---
+en-GB:
+  locale_name: English (United Kingdom)
+  add: Add
+  add_new: Add new
+  ago: ago
+  already_have_account: I already have an account
+  back: Back
+  back_to_all_blog_posts: Back to all posts
+  blog: Blog
+  buy_now: Buy Now
+  cancel: Cancel
+  change_password: Change Password
+  charge_level: Charge Level
+  charged: charged
+  close: Close
+  confirm_change_password: Change my password
+  confirm_password: Confirm new password
+  copy: Copy
+  copied_to_clipboard: Copied!
+  copy_to_clipboard: Copy to clipboard
+  created: Created
+  create_an_account: Create an account
+  current_device: Current device
+  days: days
+  delete: Delete
+  developer_edition_required: Developer edition is required to enable this feature.
+  device_id: Device ID
+  edit: Edit
+  email_address: Email address
+  export: Export
+  fetching: Fetching
+  first_name: First Name
+  forgot_password: I forgot my password
+  forgot_password_title: Here we go again
+  get_started: Let's get you started!
+  identify: Identify
+  import: Import
+  import_new: Import new
+  integrations: Integrations
+  keep_me_signed_in: Keep me signed in
+  knowledge_base: Knowledge base
+  last_name: Last Name
+  learn_more: Learn more
+  loading: Loading
+  login: Login
+  log_out: Log out
+  minimum_characters: characters minimum
+  mins: mins
+  my_playlist: My Playlist
+  new_password: New password
+  password: Password
+  please_wait: Please Wait...
+  plugin_not_found: Plugin not found
+  refresh_rates_hint: Learn how refresh rates work __here__.
+  reset_password: Reset my password
+  save: Save
+  section: Section
+  sign_in: Sign in
+  sign_up: Sign up
+  something_went_wrong: Something went wrong
+  tech_support: Support
+  update: Update
+  view: View
+  welcome: Welcome
+  account:
+    index:
+      title: Account
+      tagline: Manage your account settings
+      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
+      api_key_hint: See __the docs__ to learn how to configure your local environment.
+      api_key_label: The credential for authenticating local development tools
+      api_key_reset: Regenerate
+      api_key: API Key
+      email_address: Email Address
+      refer_and_earn: Refer and Earn
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_redemptions: Redemptions
+      refer_and_earn_request_code: Request a Code
+      device_invoice: Device Invoice
+      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
+      device_invoice_hint: Find this on your package tracking page or shipment notification email.
+      email_address_hint: Used to sign into TRMNL and receive system messages.
+      first_name_hint: We use your name to make the TRMNL interface more comfortable.
+      last_name_hint: We use your name to make the TRMNL interface more comfortable.
+      password_hint: Used to protect your TRMNL account.
+      enable_2fa: Enable 2FA?
+      enable_2fa_hint: __Click here__ to enable OTP.
+      disable_2fa: Disable 2FA
+      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
+      session: Session
+      session_hint: You're logged in as %{user}
+      time_zone: Time Zone
+      time_zone_hint: Determines refresh rates and device sleep time.
+      locale: Locale
+      locale_hint: What language and localization do you prefer? __Go here__.
+    update:
+      success: Profile updated successfully
+    reset_api_key:
+      success: API key was regenerated successfully
+  dashboard:
+    index:
+      title: Dashboard
+      morning_salutation: Good morning
+      afternoon_salutation: Good afternoon
+      evening_salutation: Good evening
+      last_7_days: Last 7 days
+      last_30_days: Last 30 days
+      last_90_days: Last 90 days
+      today: Today
+      yesterday: Yesterday
+    health:
+      bad: Plugins are experiencing issues
+      good: Plugins are healthy
+      next_steps: We will inform you if anything changes
+    news:
+      title: News
+      cta: View All
+    playlists:
+      title: Playlist
+      cta: Edit Playlist
+      pieces_of_content_displayed: Pieces of content displayed
+    plugins:
+      title: Plugins
+      cta: Go to Plugins
+      connected: Connected
+      new_and_popular: New and Popular
+    shop:
+      title: Shop
+    time_saved:
+      title: Time saved
+      cta: Read about
+  devices:
+    edit:
+      accepts_beta_firmware: Firmware Early Release
+      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
+      back_to_devices: Back to Devices
+      battery_consumption: Battery Consumption
+      battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
+      developer_perks: Developer Perks
+      developer_perks_hint: Options below require the __Developer add-on__.
+      device_credentials: Device Credentials
+      device_credentials_hint: See what you can do with these credentials __here__
+      device_name: Device Name
+      device_name_hint: We use this to make the TRMNL interface more comfortable
+      edit_device: Edit Device
+      identify: Identify
+      identify_device: Identify Device
+      identify_device_hint: Click the button below to generate a screen on this device that helps identify it.
+      logs: Logs
+      logs_hint: Debug your device and plugins with a live feed of raw error logs.
+      low_battery_email_notification: Low Battery Email Notification
+      mirror: Mirror
+      mirror_device: Mirror another Device
+      mirror_device_hint: Provide a (shareable) Device ID to mirror its playlist. Your playlist will still be displayed.
+      ota_enabled: OTA Updates Enabled
+      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
+      sleep_mode: Sleep Mode
+      sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
+      sleep_screen: Sleep Screen
+      special_function: Special Function
+      special_function_hint: Set a double-click feature for the button on the back of your device.
+      special_function_learn_more: Learn more about special functions __here__.
+      unlink: Unlink
+      unlink_device: Unlink Device
+      unlink_device_hint: Unlinking a TRMNL device makes it safe to re-sell or give to someone else.
+      visibility: Visibility
+      visibility_hint: Make your TRMNL device mirrorable by changing the settings below.
+      your_device: Your TRMNL
+    index:
+      title: Devices
+      tagline: Your TRMNL devices
+      add_device_modal_title: Add a new device
+      add_first_device: Start by adding your first device!
+    new:
+      title: Add a new device
+      description: Enter your Device ID to add a new TRMNL device to your account.
+      add_device: Add new device
+    associate:
+      error: Error linking device
+      success: Device successfully linked
+    dissociate:
+      error: Error disconnecting device
+      success: Device successfully unlinked
+    identify:
+      error: Error updating device
+      success: Device identification requested
+    mirror:
+      error: Error mirroring device
+      error_not_shared: Provided Device ID is not shareable
+      error_oneself: Can't mirror oneself
+      success: Device %{friendly_id} successfully mirrored
+      success_removed: Mirroring Removed
+    switch:
+      error: Error switching device
+      success: Device switched successfully
+    update:
+      error: Error updating device
+      success: "%{device} device settings updated successfully"
+  invoices:
+    rate_limit: Too many attempts, please wait and try again
+    invoice_not_found: Invoice not found
+  logs:
+    index:
+      title: Logs
+      all: All
+      device: Device
+      dump: Dump
+      id: ID
+      private_plugins: Private Plugins
+      source: Source
+      time: Time
+  markups:
+    form:
+      back_to_plugin_settings: Back to plugin settings
+      design_system: Leverage our native design system
+      design_system_docs: Design System Docs
+      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
+      edit_markup: Edit Markup
+      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
+      edit_markup_please_save_first: Please save before editing markup
+      edit_markup_without_preview: Edit Markup (without preview)
+      error_rendering_markup: Error rendering that markup
+      fix_indentation: Fix indentation
+      go_to_preview: Go To Preview
+      live_preview: Live Preview
+      no_changes_to_save: No changes to save
+      pop_out_preview: Pop Out Preview
+      quickstart_examples: Quick-start Examples
+      quickstart_example_applied: Applied!
+      quickstart_use_this_example: Use this example
+      revert: Revert
+      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
+      save_changes: Save Changes (⌘﹢S)
+      separate_preview: Preview is open in a separate window
+    merge_variables:
+      your_variables: Your variables
+    no_merge_variables:
+      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
+      no_variables_detected: No variables detected.
+  mfa:
+    disable_otp:
+      success: 2FA Disabled
+      invalid_otp: Invalid OTP
+      invalid_password: Invalid Password
+      invalid_otp_and_password: Invalid OTP and Password
+    enable_otp:
+      input_otp: Enter OTP
+      submit: Verify and Enable
+      already_enabled: 2FA is already enabled
+    enable_otp_verify:
+      success: 2FA Enabled
+      error: Invalid OTP code
+    verify_otp:
+      verify: Verify
+      reset: Reset MFA
+      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
+      success: 2FA successful
+      error: Invalid OTP code
+  playlists:
+    index:
+      title: Playlist
+      tagline: Choose what's shown on
+      add_a_group: Add a Group
+      add_a_plugin: Add a Plugin
+      add_first_device_cta: Start by __adding__ your first TRMNL device!
+      add_to_playlist: Add to Playlist
+      create_first_playlist_cta: Create your playlist after __connecting__ your first plugin!
+      custom: Custom
+      device_default: Device default
+      display_period_from: Display from
+      display_period_to: to
+      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
+      every: every
+    playlist:
+      delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
+      displayed_now: Displayed now
+      not_displayed_yet: Pending
+      remove_from_playlist: Remove from playlist
+      hide_playlist: Hide this item
+      show_playlist: Show this item
+    create:
+      error: Failed to update playlist
+      success: Playlist updated
+    destroy:
+      error: Error removing item from playlist
+      success: Plugin removed from Playlist
+    toggle_visibility:
+      success: Playlist item %{change}
+    duplicate:
+      success: Playlist duplicated
+    sort:
+      success: Playlist order updated
+  plugins:
+    index:
+      title: Plugins
+      tagline: What will you put on your TRMNL?
+      available: Available
+      connected: Connected
+      recipes: Recipes
+      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+    search:
+      placeholder: Search Plugins
+    my:
+      index:
+        title: My Plugins
+        tagline: Develop Plugins for the public marketplace
+      card:
+        connections: connections
+        install: Install
+        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+        submit_for_review: Submit for Review
+    new:
+      title: Create New Plugin
+      tagline: Other users will be able to install your plugin.
+      name: Name
+      category: Category
+      category_hint: Hold cmd or ctrl to choose up to 3
+      description: Description
+      description_hint: Maximum 50 characters
+      icon: Icon
+      icon_hint: 40px*40px recommended
+      installation_url: Installation URL
+      installation_url_hint: Learn more about the installation flow __here__.
+      installation_success_webhook_url: Installation Success Webhook URL
+      knowledge_base_url: Knowledge Base URL
+      management_url: Plugin Management URL
+      management_url_hint: Learn more about the management flow __here__.
+      markup_url: Plugin Markup URL
+      markup_url_hint: Learn more about screen generation __here__.
+      no_screen_padding: No Screen Padding
+      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
+      uninstallation_webhook_url: Uninstallation Webhook URL
+    edit:
+      title: Edit Plugin
+      tagline: Update your plugin details.
+      name: Name
+      description: Description
+  plugin_recipes:
+    connected: Recipe connected
+    connections:
+      one: Connection
+      other: Connections
+    forks:
+      one: Fork
+      other: Forks
+    new:
+      error: Recipe not found
+  plugin_settings:
+    active: Active
+    copy_are_you_sure: Are you sure you want to copy this setting?
+    delete_are_you_sure: Are you sure you want to delete this setting?
+    delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
+    inactive: Inactive
+    no_plugin_settings_found: No plugin settings found.
+    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
+    reset_credentials: "%{plugin_name} account reset successfully"
+    form:
+      active_hint: Show or hide this plugin instance on your device
+      advanced_settings: Advanced Settings
+      back_to_plugin: Back to %{plugin}
+      back_to_plugins: Back to Plugins
+      connect_with: Connect with %{plugin}
+      disconnect_account: Disconnect Account
+      manage_plugin: Configure %{plugin}
+      force_refresh: Force Refresh
+      force_refresh_hint: This feature is designed for testing only - please do not abuse it.
+      force_refresh_click_here: Click here
+      force_refresh_click_here_hint: to generate a new screen immediately
+      learn_more: Learn about this plugin in our knowledge base
+      learn_more_fork: This plugin was forked from a Recipe.
+      learn_more_fork_original: See Original
+      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
+      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
+      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
+      linked_account: Linked Account
+      linked_account_success: Successfully linked with %{plugin_name}
+      link_oauth: Link Account
+      link_oauth_hint: Before you continue, follow the secure authorization process provided by %{plugin}
+      multiple_instances_hint: This plugin supports multiple instances.
+      name: Name
+      name_hint: Give it a name for easy reference
+      plugin_uuid: Plugin UUID
+      plugin_uuid_hint: Use this to make Webhook API requests.
+      preview: Preview - your device will show actual data
+      refresh_rate: Refresh rate
+      refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
+      refreshed: Refreshed
+      remove_plugin: Remove plugin
+      remove_plugin_hint: Removing a plugin will also remove it from your playlist
+      synced: Synced
+      refresh_paused: Refresh Paused
+      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
+      refresh_paused_mashup: Refreshing Mashups
+      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
+      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
+      visit_docs: Visit Docs
+    import:
+      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
+      missing_entry: The ZIP file does not contain %{filename}
+      entry_too_large: "%{filename} is too large"
+      malformed: "%{filename} is malformed"
+    create:
+      success: Plugin created and added to your
+      playlist: playlist
+    destroy:
+      success: Plugin deleted
+    handle_canceled_consent: Consent canceled, please try again
+    update:
+      success: Plugin configuration updated successfully
+    add_to_playlist:
+      success: Plugin added to Playlist
+  referral_code:
+    create:
+      request_received: Request received, check your inbox
+  upgrade:
+    index:
+      title: 'Upgrading device:'
+      tagline: Unlock custom plugins and __more__.
+      pay: Pay
+      error: Device %{device_name} is already upgraded, switch to another device
+    confirm:
+      success: Developer edition add-on is now enabled
