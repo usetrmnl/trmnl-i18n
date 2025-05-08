@@ -101,9 +101,6 @@ raw:
   dashboard:
     index:
       title: dashboard.index.title
-      morning_salutation: dashboard.index.morning
-      afternoon_salutation: dashboard.index.afternoon
-      evening_salutation: dashboard.index.evening
       last_7_days: dashboard.index.last_7_days
       last_30_days: dashboard.index.last_30_days
       last_90_days: dashboard.index.last_90_days
@@ -130,6 +127,10 @@ raw:
     time_saved:
       title: dashboard.time_saved.title
       cta: dashboard.time_saved.cta
+    welcome_message:
+      morning_salutation: dashboard.welcome_message.morning_salutation
+      afternoon_salutation: dashboard.welcome_message.afternoon_salutation
+      evening_salutation: dashboard.welcome_message.evening_salutation
   devices:
     edit:
       accepts_beta_firmware: devices.edit.accepts_beta_firmware
