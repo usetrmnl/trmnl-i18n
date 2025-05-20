@@ -274,6 +274,12 @@ pt-BR:
       display_period_to: até
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
       every: every
+      never_skip: Never skip screens
+      smart_playlist: Smart Playlist
+      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      skip_after:
+        one: Skip stale screens after 1 day
+        other: Skip stale screens after %{count} days
     playlist_item:
       delete: Tem certeza que deseja remover este item? O plugin continuará conectado, apenas não será exibido no seu dispositivo.
       displayed_now: Exibindo agora
@@ -293,6 +299,8 @@ pt-BR:
       success: Playlist duplicated
     sort:
       success: Playlist order updated
+    set_preferences:
+      success: Smart playlist preference updated
     update:
       success: Ordem da Playlist atualizada
   plugins:

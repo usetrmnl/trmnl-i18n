@@ -274,6 +274,12 @@ zh-CN:
       display_period_to: to
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
       every: every
+      never_skip: Never skip screens
+      smart_playlist: Smart Playlist
+      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      skip_after:
+        one: Skip stale screens after 1 day
+        other: Skip stale screens after %{count} days
     playlist_item:
       delete: 确认删除设备？尽在设备上删除，不会影响插件连接。
       displayed_now: 正在显示
@@ -293,6 +299,8 @@ zh-CN:
       success: Playlist duplicated
     sort:
       success: Playlist order updated
+    set_preferences:
+      success: Smart playlist preference updated
     update:
       success: 播放列表更新成功
   plugins:

@@ -274,6 +274,12 @@ zh-HK:
       display_period_to: 至
       display_period_validation: 開始時間必須早於結束時間。如要跨越午夜，請新增另一個群組。
       every: 頻率
+      never_skip: Never skip screens
+      smart_playlist: Smart Playlist
+      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      skip_after:
+        one: Skip stale screens after 1 day
+        other: Skip stale screens after %{count} days
     playlist_item:
       delete: 確定要移除此項目嗎？外掛會保持連接，只是不會在裝置上顯示。
       displayed_now: 正在顯示
@@ -293,6 +299,8 @@ zh-HK:
       success: Playlist duplicated
     sort:
       success: Playlist order updated
+    set_preferences:
+      success: Smart playlist preference updated
     update:
       success: 已更新播放清單順序
   plugins:

@@ -274,6 +274,12 @@ da:
       display_period_to: til
       display_period_validation: Starttidspunkt skal være før sluttidspunkt. Opret en ny gruppe for at dække over midnat.
       every: hver
+      never_skip: Never skip screens
+      smart_playlist: Smart Playlist
+      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      skip_after:
+        one: Skip stale screens after 1 day
+        other: Skip stale screens after %{count} days
     playlist_item:
       delete: Er du sikker på, at du vil fjerne dette element? Pluginet vil forblive tilsluttet, men ikke blive vist på din enhed.
       displayed_now: Vist nu
@@ -293,6 +299,8 @@ da:
       success: Playlist duplicated
     sort:
       success: Playlist order updated
+    set_preferences:
+      success: Smart playlist preference updated
     update:
       success: Playlistens rækkefølge opdateret
   plugins:

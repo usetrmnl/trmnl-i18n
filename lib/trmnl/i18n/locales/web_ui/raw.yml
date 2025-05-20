@@ -274,6 +274,12 @@ raw:
       display_period_to: playlists.index.display_period_to
       display_period_validation: playlists.index.display_period_validation
       every: playlists.index.every
+      never_skip: playlist_items.index.never_skip
+      smart_playlist: playlist_items.index.smart_playlist
+      smart_playlist_hint: playlist_items.index.smart_playlist_hint
+      skip_after:
+        one: playlist_items.index.skip_after.one
+        other: playlist_items.index.skip_after.other
     playlist_item:
       delete: playlists.playlist.delete
       displayed_now: playlists.playlist.displayed_now
@@ -293,6 +299,8 @@ raw:
       success: playlists.duplicate.success
     sort:
       success: playlists.sort.success
+    set_preferences:
+      success: playlist_items.set_preferences.success
     update:
       success: playlists.update.success
   plugins:

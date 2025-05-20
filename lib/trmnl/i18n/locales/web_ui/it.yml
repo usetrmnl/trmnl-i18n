@@ -274,6 +274,12 @@ it:
       display_period_to: alle
       display_period_validation: L'ora di inizio deve essere inferiore all'ora di fine. Crea un altro gruppo per le ore notturne.
       every: ogni
+      never_skip: Never skip screens
+      smart_playlist: Smart Playlist
+      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      skip_after:
+        one: Skip stale screens after 1 day
+        other: Skip stale screens after %{count} days
     playlist_item:
       delete: Vuoi davvero rimuovere questo elemento? Il plugin resterà connesso, ma non sarà visibile sul tuo dispositivo.
       displayed_now: Mostrato ora
@@ -293,6 +299,8 @@ it:
       success: Playlist duplicata
     sort:
       success: Ordine Playlist aggiornato
+    set_preferences:
+      success: Smart playlist preference updated
     update:
       success: Ordinamento Playlist aggiornato
   plugins:
