@@ -274,6 +274,12 @@ uk:
       display_period_to: to
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
       every: every
+      never_skip: Never skip screens
+      smart_playlist: Smart Playlist
+      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      skip_after:
+        one: Skip stale screens after 1 day
+        other: Skip stale screens after %{count} days
     playlist_item:
       delete: Ви впевнені, що хочете видалити цей елемент? Плагін залишиться підключеним, але не відображатиметься на вашому пристрої.
       displayed_now: Відображається зараз
@@ -293,6 +299,8 @@ uk:
       success: Playlist duplicated
     sort:
       success: Playlist order updated
+    set_preferences:
+      success: Smart playlist preference updated
     update:
       success: Порядок елементів оновлено
   plugins:
