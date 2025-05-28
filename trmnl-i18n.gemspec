@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name = "trmnl-i18n"
   spec.version = "0.2.0"
   spec.authors = ["TRMNL"]
-  spec.email = ["support@usetrmnl.com"]
+  spec.email = ["engineering@usetrmnl.com"]
   spec.homepage = "https://github.com/usetrmnl/trmnl-i18n"
   spec.summary = "A collection of TRMNL locales."
   spec.license = "MIT"
