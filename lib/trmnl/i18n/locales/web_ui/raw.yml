@@ -216,6 +216,8 @@ raw:
       source: logs.index.source
       time: logs.index.time
   markups:
+    console_logs:
+      js_logs: markups.console_logs.js_logs
     form:
       back_to_plugin_settings: markups.form.back_to_plugin_settings
       design_system: markups.form.design_system
