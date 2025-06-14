@@ -14,6 +14,15 @@ raw:
       next_new_moon: renders.lunar_calendar.next_new_moon
       next_phase: renders.lunar_calendar.next_phase
       next_phase_short: renders.lunar_calendar.next_phase_short
+      moon_phases:
+        new_moon: renders.lunar_calendar.moon_phases.new_moon
+        waxing_crescent: renders.lunar_calendar.moon_phases.waxing_crescent
+        first_quarter: renders.lunar_calendar.moon_phases.first_quarter
+        waxing_gibbous: renders.lunar_calendar.moon_phases.waxing_gibbous
+        full_moon: renders.lunar_calendar.moon_phases.full_moon
+        waning_gibbous: renders.lunar_calendar.moon_phases.waning_gibbous
+        last_quarter: renders.lunar_calendar.moon_phases.last_quarter
+        waning_crescent: renders.lunar_calendar.moon_phases.waning_crescent
     parcel:
       delivery_by: parcel.delivery_by
       empty: parcel.empty
