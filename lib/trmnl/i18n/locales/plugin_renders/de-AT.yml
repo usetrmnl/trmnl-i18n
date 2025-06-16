@@ -6,59 +6,59 @@ de-AT:
       days_passed: Vergangene Tage
       days_left: Verbleibende Tage
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: Mondkalender
+      age: Mondalter
+      current_phase: Aktuelle Phase
+      illumination: Mondbeleuchtung
+      next_full_moon: Nächster Vollmond
+      next_new_moon: Nächster Neumond
+      next_phase: Nächste Phase
+      next_phase_short: Nächste Phase
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        last_quarter: Last Quarter
-        waning_crescent: Waning Crescent
+        new_moon: Neumond
+        waxing_crescent: Zunehmende Sichel
+        first_quarter: Erstes Viertel
+        waxing_gibbous: Zunehmender Mond
+        full_moon: Vollmond
+        waning_gibbous: Abnehmender Mond
+        last_quarter: Letztes Viertel
+        waning_crescent: Abnehmende Sichel
     parcel:
       delivery_by: Lieferung bis
       empty: Es gibt keine Lieferungen
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Fehler in Parcel-API
+        http: HTTP-Fehler %{code}
+        internal: Interner Fehler
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Aktive Lieferung
+          other: Aktive Lieferungen
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Kürzliche Lieferung
+          other: Kürzliche Lieferungen
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
+        delivered: Zugestellt
+        delivery_exception: Ausnahme bei Lieferung
+        expecting_pickup: Abholung erwartet
+        failed_delivery_attempt: Zustellversuch erfolglos
+        frozen: Eingefroren
+        in_transit: Im Transport
+        information_received: Information erhalten
+        not_found: Nicht gefunden
+        out_for_delivery: In Zustellung
+        unknown: Unbekannt
       today: Heute
       tomorrow: Morgen
     weather:
       title: Wetter
       temperature: Temperatur
-      feels_like: Gefühlt
+      feels_like: gefühlt
       humidity: Feuchtigkeit
-      low: Tief
-      high: Hoch
+      low: min
+      high: max
       uv: UV
-      right_now: Jetzt
-      today: Heute
-      tomorrow: Morgen
-    and_more: And %{hidden_events_count} more
+      right_now: jetzt
+      today: heute
+      tomorrow: morgen
+    and_more: Und %{hidden_events_count} weitere
