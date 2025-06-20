@@ -144,9 +144,9 @@ it:
       device_credentials_hint: Scopri cosa puoi fare con queste credenziali __qui__
       device_name: Nome Dispositivo
       device_name_hint: Lo usiamo per migliorare l'interfaccia TRMNL
-      device_model: Device Model
-      device_model_hint: Your hardware Model
-      device_model_switch_warning: This is a dangerous operation, learn more __here__
+      device_model: Modello dispositivo
+      device_model_hint: Il tuo modello di Hardware
+      device_model_switch_warning: Questa è un operazione pericolosa, scopri di più __qui__
       edit_device: Modifica Dispositivo
       identify: Identifica
       identify_device: Identifica Dispositivo
@@ -168,10 +168,10 @@ it:
       special_function_hint: Imposta la funzione al doppio click del pulsante sul retro del dispositivo.
       special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.
       unlink: Scollega
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Sei sicuro? Verranno eliminate tutte le impostazioni dei plugin e gli oggetti nelle playlist per permettere di aggiungere questo dispositivi ad un altro account.
       unlink_device: Scollega Dispositivo
       unlink_device_hint: Scollegare un dispositivo TRMNL rende sicuro rivenderlo o darlo a qualcun altro.
-      unlink_device_learn_more: Follow the full guide __here__.
+      unlink_device_learn_more: Segui la guida completa __qui__.
       visibility: Visibilità
       visibility_hint: Permetti la duplicazione di questo dispositivo TRMNL modificando le impostazioni seguenti.
       your_device: Il tuo TRMNL
@@ -264,7 +264,7 @@ it:
     verify_otp:
       verify: Verifica
       reset: Reset MFA
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
+      reset_instructions: Clicca il pulsante sul retro del tuo TRMNL per generare un codice di reset
       success: 2FA successful
       error: Codice OTP non valido
   playlist_items:
@@ -282,12 +282,12 @@ it:
       display_period_to: alle
       display_period_validation: L'ora di inizio deve essere inferiore all'ora di fine. Crea un altro gruppo per le ore notturne.
       every: ogni
-      never_skip: Never skip screens
+      never_skip: Non saltare schermate.
       smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      smart_playlist_hint: Salta automaticamente le schermate nelle quali il contenuto non è campiato per un po' di tempo.
       skip_after:
-        one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        one: Salta schermate stagnanti dopo 1 giorno
+        other: Salta schermate stagnanti dopo %{count} giorni
     playlist_item:
       delete: Vuoi davvero rimuovere questo elemento? Il plugin resterà connesso, ma non sarà visibile sul tuo dispositivo.
       displayed_now: Mostrato ora
@@ -326,7 +326,7 @@ it:
         title: I Miei Plugin
         tagline: Crea Plugin per il marketplace
       card:
-        connections: Collezioni
+        connections: Connessioni
         install: Installa
         review_are_you_sure: Sei sicuro? Il team TRMNL proverà e ti manderà una mail con qualsiasi domanda.
         submit_for_review: Invia per revisione
@@ -335,9 +335,9 @@ it:
       tagline: Gli altri utenti potranno installare il tuo plugin.
       name: Nome
       category: Categoria
-      category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
+      category_hint: Mantieni cmd o ctrl per scegliere fino a 3
+      refresh_every: Intervalli di aggiornamento supportati
+      refresh_every_hint: L'intervallo più veloce che questo plugin può supportare.
       description: Descrizione
       description_hint: Massimo 50 Caratteri
       icon: Icona
@@ -351,8 +351,8 @@ it:
       markup_url: URL Markup Plugin
       markup_url_hint: Maggiori dettagli sulla generazione delle schermate __qui__.
       no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
-      uninstallation_webhook_url: Uninstallation Webhook URL
+      no_screen_padding_hint: Rmuove il padding esterno per la modalità fullscreen.
+      uninstallation_webhook_url: Webhook URL Disistallazione
     edit:
       title: Modifica Plugin
       tagline: Aggiorna i dettagli del tuo plugin.
@@ -383,11 +383,11 @@ it:
       back_to_plugin: Torna a %{plugin}
       back_to_plugins: Torna ai Plugin
       connect_with: Connetti con %{plugin}
-      debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
-      debug_logs_enabled_link: View logs
+      debug_logs: Log di Debug
+      debug_logs_click_here: Clicca qui
+      debug_logs_click_here_hint: per abilitare i log di debug per questa istanza di plugin.
+      debug_logs_enabled: Log di Debug ailitati per %{hours} ore.
+      debug_logs_enabled_link: Vedi log
       disconnect_account: Disconnetti Account
       manage_plugin: Configura %{plugin}
       force_refresh: Forza Aggiornamento
