@@ -3,6 +3,10 @@ it:
   custom_plugins:
     today: Oggi
     tomorrow: Domani
+    updated: Aggiornato
+    activity: Attività
+    done: Finito
+    due: Scadenza
     deutsche_bahn_departures:
       time: Time
       destination: Destination
@@ -21,7 +25,7 @@ it:
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
-        -
+        - 
         - M1
         - M2
         - M3
@@ -35,7 +39,7 @@ it:
         - M11
         - M12
         date_labels:
-        -
+        - 
         - '1'
         - '2'
         - '3'
@@ -137,7 +141,7 @@ it:
       hijri:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
-        -
+        - 
         - Muharram
         - Safar
         - Rabiʻ I
@@ -153,7 +157,7 @@ it:
       bengali:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
-        -
+        - 
         - Boishakh
         - Joishtho
         - Asharh
@@ -169,7 +173,7 @@ it:
       indian:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
-        -
+        - 
         - Chaitra
         - Vaisakha
         - Jyaishtha
