@@ -292,6 +292,7 @@ pl:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
     playlist_item:
+      adjust_schedule: Adjust schedule
       delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
       displayed_now: Displayed now
       not_displayed_yet: Not displayed yet
@@ -441,6 +442,14 @@ pl:
   referral_code:
     create:
       request_received: Request received, check your inbox
+  schedules:
+    form:
+      add: Add a custom schedule
+      append: And during…
+      no_schedule: This screen will be shown at all times.
+      some_schedule: Only show this screen during…
+      to: to
+      copy_prompt: Copy schedule from…
   upgrade:
     index:
       title: 'Upgrading device:'

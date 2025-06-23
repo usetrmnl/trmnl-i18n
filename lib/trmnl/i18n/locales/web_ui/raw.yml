@@ -292,6 +292,7 @@ raw:
         one: playlist_items.index.skip_after.one
         other: playlist_items.index.skip_after.other
     playlist_item:
+      adjust_schedule: playlist_items.playlist_item.adjust_schedule
       delete: playlists.playlist.delete
       displayed_now: playlists.playlist.displayed_now
       not_displayed_yet: playlists.playlist.not_displayed_yet
@@ -443,6 +444,14 @@ raw:
   referral_code:
     create:
       request_received: referral_code.create.request_received
+  schedules:
+    form:
+      add: schedules.form.add
+      append: schedules.form.append
+      no_schedule: schedules.form.no_schedule
+      some_schedule: schedules.form.some_schedule
+      to: schedules.form.to
+      copy_prompt: schedules.form.copy_prompt
   upgrade:
     index:
       title: upgrade.index.title

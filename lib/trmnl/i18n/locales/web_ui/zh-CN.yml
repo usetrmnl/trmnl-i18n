@@ -292,6 +292,7 @@ zh-CN:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
     playlist_item:
+      adjust_schedule: Adjust schedule
       delete: 确认删除设备？尽在设备上删除，不会影响插件连接。
       displayed_now: 正在显示
       not_displayed_yet: 尚未显示
@@ -443,6 +444,14 @@ zh-CN:
   referral_code:
     create:
       request_received: Request received, check your inbox
+  schedules:
+    form:
+      add: Add a custom schedule
+      append: And during…
+      no_schedule: This screen will be shown at all times.
+      some_schedule: Only show this screen during…
+      to: to
+      copy_prompt: Copy schedule from…
   upgrade:
     index:
       title: 正在升级设备：
