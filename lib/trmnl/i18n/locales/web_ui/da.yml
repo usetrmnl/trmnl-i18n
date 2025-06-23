@@ -292,6 +292,7 @@ da:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
     playlist_item:
+      adjust_schedule: Adjust schedule
       delete: Er du sikker på, at du vil fjerne dette element? Pluginet vil forblive tilsluttet, men ikke blive vist på din enhed.
       displayed_now: Vist nu
       not_displayed_yet: Afventer
@@ -443,6 +444,14 @@ da:
   referral_code:
     create:
       request_received: Anmodning modtaget, tjek din indbakke
+  schedules:
+    form:
+      add: Add a custom schedule
+      append: And during…
+      no_schedule: This screen will be shown at all times.
+      some_schedule: Only show this screen during…
+      to: to
+      copy_prompt: Copy schedule from…
   upgrade:
     index:
       title: 'Opgradering af enhed:'

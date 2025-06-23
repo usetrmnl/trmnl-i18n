@@ -292,6 +292,7 @@ nl:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
     playlist_item:
+      adjust_schedule: Adjust schedule
       delete: Weet je zeker dat je dit item wilt verwijderen? De plugin blijft verbonden en wordt niet getoond op jouw apparaat.
       displayed_now: Nu getoond
       not_displayed_yet: Nog niet getoond
@@ -443,6 +444,14 @@ nl:
   referral_code:
     create:
       request_received: Request ontvangen, check je inbox
+  schedules:
+    form:
+      add: Add a custom schedule
+      append: And during…
+      no_schedule: This screen will be shown at all times.
+      some_schedule: Only show this screen during…
+      to: to
+      copy_prompt: Copy schedule from…
   upgrade:
     index:
       title: 'Apparaat upgraden:'

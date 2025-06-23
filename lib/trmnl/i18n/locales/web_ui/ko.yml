@@ -292,6 +292,7 @@ ko:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
     playlist_item:
+      adjust_schedule: Adjust schedule
       delete: 해당 플러그인을 삭제하는 것이 맞습니까? 플러그인의 연결은 지속되지만 당신의 기기에 보여지지는 않을 것입니다.
       displayed_now: 지금 화면에 보여짐
       not_displayed_yet: 아직 화면에 보여지지 않음
@@ -443,6 +444,14 @@ ko:
   referral_code:
     create:
       request_received: Request received, check your inbox
+  schedules:
+    form:
+      add: Add a custom schedule
+      append: And during…
+      no_schedule: This screen will be shown at all times.
+      some_schedule: Only show this screen during…
+      to: to
+      copy_prompt: Copy schedule from…
   upgrade:
     index:
       title: '기기 업그레이드:'

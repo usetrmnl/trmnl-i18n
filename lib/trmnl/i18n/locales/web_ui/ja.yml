@@ -292,6 +292,7 @@ ja:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
     playlist_item:
+      adjust_schedule: Adjust schedule
       delete: このプラグインを削除しますか？プラグインの接続は維持されますが、デバイスには表示されなくなります。
       displayed_now: 今表示中
       not_displayed_yet: まだ表示されていません
@@ -443,6 +444,14 @@ ja:
   referral_code:
     create:
       request_received: リクエストを受信しました。受信箱を確認してください
+  schedules:
+    form:
+      add: Add a custom schedule
+      append: And during…
+      no_schedule: This screen will be shown at all times.
+      some_schedule: Only show this screen during…
+      to: to
+      copy_prompt: Copy schedule from…
   upgrade:
     index:
       title: 'デバイスのアップグレード:'
