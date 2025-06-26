@@ -152,6 +152,10 @@ pl:
       device_model_hint: Your hardware Model
       device_model_switch_warning: This is a dangerous operation, learn more __here__
       edit_device: Edit Device
+      guest_mode: Guest Mode
+      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
+      guest_mode_item_placeholder: Choose an item
+      guest_mode_duration_placeholder: Choose a duration
       identify: Identify
       identify_device: Identify Device
       identify_device_hint: Click the button below to generate a screen on this device that helps identify it.
@@ -480,7 +484,7 @@ pl:
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
-        - 
+        -
         - M1
         - M2
         - M3
@@ -494,7 +498,7 @@ pl:
         - M11
         - M12
         date_labels:
-        - 
+        -
         - '1'
         - '2'
         - '3'
@@ -596,7 +600,7 @@ pl:
       hijri:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
-        - 
+        -
         - Muharram
         - Safar
         - Rabiʻ I
@@ -612,7 +616,7 @@ pl:
       bengali:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
-        - 
+        -
         - Boishakh
         - Joishtho
         - Asharh
@@ -628,7 +632,7 @@ pl:
       indian:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
-        - 
+        -
         - Chaitra
         - Vaisakha
         - Jyaistha
