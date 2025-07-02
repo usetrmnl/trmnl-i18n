@@ -64,6 +64,12 @@ raw:
       today: weather.today
       tomorrow: weather.tomorrow
       weatherapi:
+        uv:
+          low: renders.weather.weatherapi.uv.low
+          moderate: renders.weather.weatherapi.uv.moderate
+          high: renders.weather.weatherapi.uv.high
+          very_high: renders.weather.weatherapi.uv.very_high
+          extreme: renders.weather.weatherapi.uv.extreme
         conditions:
         - code: renders.weather.weatherapi.conditions[0].code
           day: renders.weather.weatherapi.conditions[0].day
