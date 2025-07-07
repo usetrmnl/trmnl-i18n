@@ -42,7 +42,7 @@ de:
   knowledge_base: Fragen und Antworten
   last_name: Nachname
   learn_more: Mehr erfahren
-  loading: Laden...
+  loading: Laden …
   login: Anmelden
   log_out: Abmelden
   minimum_characters: Zeichen Minimum
@@ -50,7 +50,7 @@ de:
   my_playlist: Meine Wiedergabeliste
   new_password: Neues Passwort
   password: Passwort
-  please_wait: Bitte warten...
+  please_wait: Bitte warten …
   plugin_not_found: Erweiterung nicht gefunden
   refresh_rates_hint: Weitere Informationen zur Aktualisierungsrate __hier__.
   reset_password: Passwort zurücksetzen
@@ -152,10 +152,10 @@ de:
       device_model_hint: Dein Hardware-Modell
       device_model_switch_warning: Diese Aktion kann gefährlich sein, erfahre __hier__ mehr darüber
       edit_device: Gerät bearbeiten
-      guest_mode: Guest Mode
-      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
-      guest_mode_item_placeholder: Choose an item
-      guest_mode_duration_placeholder: Choose a duration
+      guest_mode: Gästemodus
+      guest_mode_hint: Was soll angezeigt werden (und wie lange), wenn der Gästemodus eingeschaltet wurde.
+      guest_mode_item_placeholder: Eintrag auswählen
+      guest_mode_duration_placeholder: Dauer auswählen
       identify: Identifizieren
       identify_device: Gerät identifizieren
       identify_device_hint: Durch Klick auf folgende Schaltfläche werden auf dem Gerät Informationen zur Identifikation angezeigt.
@@ -165,8 +165,8 @@ de:
       mirror: Spiegeln
       mirror_device: Gespiegeltes Gerät
       mirror_device_hint: Kennung des geteilten Gerätes, um dessen Wiedergabeliste zu teilen. Die eigene Wiedergabeliste wird weiterhin angezeigt.
-      mirror_stop: Disconnect Mirroring
-      mirror_sync: Sync Screens
+      mirror_stop: Spiegelung trennen
+      mirror_sync: Bildschirme synchronisieren
       ota_enabled: OTA-Updates aktiviert
       ota_enabled_hint: Neue Firmware automatisch installieren. Deaktiviere diese Option, um deine eigene Firmware zu verwenden.
       sleep_mode: Schlafmodus
@@ -297,7 +297,7 @@ de:
         one: Alte Inhalte nach 1 Tag überspringen
         other: Alte Inhalte nach %{count} Tagen überspringen
     playlist_item:
-      adjust_schedule: Adjust schedule
+      adjust_schedule: Zeitplan anpassen
       delete: Soll dieser Eintrag wirklich entfernt werden? Die Erweiterung bleibt weiterhin verbunden, wird lediglich nicht auf dem Gerät angezeigt.
       displayed_now: Wird angezeigt
       not_displayed_yet: Wird nicht angezeigt
@@ -419,13 +419,13 @@ de:
       plugin_uuid: UUID der Erweiterung
       plugin_uuid_hint: Verwende diese Kennung für Anfragen an die Webhook-API.
       preview: Vorschau – dein Gerät wird aktualisierte Daten anzeigen
-      recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
+      recipe_cta_heading_published: Diese Erweiterung ist eine Blaupause
+      recipe_cta_heading_in_review: Blaupause wird geprüft
+      recipe_cta_heading_not_published: Als Blaupause veröffentlichen?
+      recipe_cta_body_published: Änderungen werden sich auf aktuelle und zukünftige Installationen/Forks auswirken.
+      recipe_cta_body_in_review: Diese Erweiterung wurde an unser Team übermittelt. Danke für deine Geduld!
+      recipe_cta_body_not_published: Reiche diese Erweiterung ein, damit sie auch andere installieren können. __Mehr erfahren__.
+      recipe_cta_confirm: Bist du sicher? Unser Team wird sich in einigen Tagen nach erfolgter Prüfung zurückmelden. Du kannst weiterhin Änderungen vornehmen.
       refresh_rate: Aktualisierungsrate
       refresh_rate_hint: Definiere, wie oft die Erweiterung Daten aktualisiert
       refreshed: Aktualisiert
@@ -458,19 +458,19 @@ de:
       request_received: Anfrage erhalten, bitte Posteingang überprüfen
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
-      fork: Fork
+      newest_to_oldest: Neueste zuerste
+      oldest_to_newest: Älteste zuerst
+      most_popular: Am beliebtesten
+      install: Installieren
+      fork: Forken
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: Eigenen Zeitplan hinzufügen
+      append: und von …
+      no_schedule: Dieser Bildschirm wird immer angezeigt.
+      some_schedule: Zeige diesen Bildschirm nur von …
+      to: bis
+      copy_prompt: Zeitplan kopieren von …
   upgrade:
     index:
       title: 'Gerät wird aktualisiert:'
