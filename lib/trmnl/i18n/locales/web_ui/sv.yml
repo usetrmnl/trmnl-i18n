@@ -417,6 +417,13 @@ sv:
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Use this to make Webhook API requests.
       preview: Preview - your device will show actual data
+      recipe_cta_heading_published: This plugin is a Recipe
+      recipe_cta_heading_in_review: Recipe in review
+      recipe_cta_heading_not_published: Publish as a Recipe?
+      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
+      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
+      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
+      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
       refresh_rate: Refresh rate
       refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
       refreshed: Refreshed
@@ -447,6 +454,13 @@ sv:
   referral_code:
     create:
       request_received: Request received, check your inbox
+  recipes:
+    index:
+      newest_to_oldest: Newest to Oldest
+      oldest_to_newest: Oldest to Newest
+      most_popular: Most Popular
+      install: Install
+      fork: Fork
   schedules:
     form:
       add: Add a custom schedule
