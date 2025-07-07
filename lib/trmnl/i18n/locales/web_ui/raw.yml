@@ -419,6 +419,13 @@ raw:
       plugin_uuid: plugin_settings.form.plugin_uuid
       plugin_uuid_hint: plugin_settings.form.plugin_uuid_hint
       preview: plugin_settings.form.preview
+      recipe_cta_heading_published: plugin_settings.form.recipe_cta_heading_published
+      recipe_cta_heading_in_review: plugin_settings.form.recipe_cta_heading_in_review
+      recipe_cta_heading_not_published: plugin_settings.form.recipe_cta_heading_not_published
+      recipe_cta_body_published: plugin_settings.form.recipe_cta_body_published
+      recipe_cta_body_in_review: plugin_settings.form.recipe_cta_body_in_review
+      recipe_cta_body_not_published: plugin_settings.form.recipe_cta_body_not_published
+      recipe_cta_confirm: plugin_settings.form.recipe_cta_confirm
       refresh_rate: plugin_settings.form.refresh_rate
       refresh_rate_hint: plugin_settings.form.refresh_rate_hint
       refreshed: plugin_settings.form.refreshed
@@ -449,6 +456,13 @@ raw:
   referral_code:
     create:
       request_received: referral_code.create.request_received
+  recipes:
+    index:
+      newest_to_oldest: recipes.index.newest_to_oldest
+      oldest_to_newest: recipes.index.oldest_to_newest
+      most_popular: recipes.index.most_popular
+      install: recipes.index.install
+      fork: recipes.index.fork
   schedules:
     form:
       add: schedules.form.add

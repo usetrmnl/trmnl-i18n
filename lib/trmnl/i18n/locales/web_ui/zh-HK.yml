@@ -419,6 +419,13 @@ zh-HK:
       plugin_uuid: 外掛UUID
       plugin_uuid_hint: 用於發送Webhook API請求。
       preview: 預覽圖（裝置會顯示實際資料）
+      recipe_cta_heading_published: This plugin is a Recipe
+      recipe_cta_heading_in_review: Recipe in review
+      recipe_cta_heading_not_published: Publish as a Recipe?
+      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
+      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
+      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
+      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
       refresh_rate: 重新整理頻率
       refresh_rate_hint: 設定此外掛每隔多久後擷取新資料。
       refreshed: 已重新整理
@@ -449,6 +456,13 @@ zh-HK:
   referral_code:
     create:
       request_received: 已收到請求，請查看收件箱
+  recipes:
+    index:
+      newest_to_oldest: Newest to Oldest
+      oldest_to_newest: Oldest to Newest
+      most_popular: Most Popular
+      install: Install
+      fork: Fork
   schedules:
     form:
       add: Add a custom schedule
