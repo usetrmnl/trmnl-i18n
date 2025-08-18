@@ -13,6 +13,7 @@
   change_password: Endre passord
   charge_level: Ladestatus
   charged: ladet
+  charging: Charging
   close: Lukk
   confirm_change_password: Endre mitt passord
   confirm_password: Bekreft nytt passord
@@ -142,6 +143,7 @@
       back_to_devices: Tilbake til enheter
       battery_consumption: Batteriforbruk
       battery_consumption_hint: Spar strøm og få lengre batterilevetid ved å aktivere dvalemodus.
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: Utviklerfordeler
       developer_perks_hint: Valgene nedenfor krever __Utviklertillegget__.
       device_credentials: Enhetslegitimasjon
@@ -170,7 +172,7 @@
       ota_enabled: OTA-oppdateringer aktivert
       ota_enabled_hint: Installerer automatisk ny fastvare. Deaktiver for å bruke din egen fastvare.
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: Dvalemodus
       sleep_mode_hint: Juster oppdateringsfrekvensen for å optimalisere fokus og batterilevetid.
       sleep_screen: Dvaleskjerm
@@ -185,6 +187,12 @@
       visibility: Synlighet
       visibility_hint: Gjør TRMNL-enheten din speilbar ved å endre innstillingene nedenfor.
       your_device: Din TRMNL
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: Enheter
       tagline: Dine TRMNL-enheter
@@ -418,6 +426,9 @@
       multiple_instances_hint: Denne pluginen støtter flere instanser.
       name: Navn
       name_hint: Gi den et navn for enkel referanse
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Bruk dette for å gjøre Webhook API-forespørsler.
       preview: Forhåndsvisning - enheten din vil vise faktiske data

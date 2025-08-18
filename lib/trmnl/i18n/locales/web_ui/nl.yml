@@ -13,6 +13,7 @@ nl:
   change_password: Wachtwoord wijzigen
   charge_level: Laadniveau
   charged: opgeladen
+  charging: Charging
   close: Sluiten
   confirm_change_password: Mijn wachtwoord wijzigen
   confirm_password: Bevestig nieuwe wachtwoord
@@ -71,10 +72,10 @@ nl:
     index:
       title: Account
       tagline: Accountinstellingen beheren
-      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
-      api_key_hint: See __the docs__ to learn how to configure your local environment.
-      api_key_label: The credential for authenticating local development tools
-      api_key_reset: Regenerate
+      api_key_confirm: Weet je zeker dat je een nieuwe API key wil genereren? De oude is dan niet meer geldig.
+      api_key_hint: Bekijk __de documentatie__ om meer te weten te komen hoe je een lokale ontwikkelomgeving kan instellen.
+      api_key_label: Gegevens voor authenticatie van de lokale ontwikkelomgeving
+      api_key_reset: Hergenereer
       api_key: API Key
       email_address: Emailadres
       refer_and_earn: Verwijs en verdien
@@ -101,7 +102,7 @@ nl:
     update:
       success: Profiel succesvol bijgewerkt
     reset_api_key:
-      success: API key was regenerated successfully
+      success: API key is succesvol gegenereerd
   dashboard:
     index:
       title: Dashboard
@@ -142,6 +143,7 @@ nl:
       back_to_devices: Terug naar apparaten
       battery_consumption: Batterijgebruik
       battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren.
+      battery_learn_more: Meer over het opladen van je batterij lees je __hier__.
       developer_perks: Ontwikkelaarsvoordelen
       developer_perks_hint: De onderstaande opties vereisen de __ontwikkelaars-add-on__.
       device_credentials: Apparaatgegevens
@@ -149,19 +151,19 @@ nl:
       device_name: Apparaatnaam
       device_name_hint: We gebruiken dit om de TRMNL interface persoonlijker te maken
       device_model: Device Model
-      device_model_hint: Your hardware Model
-      device_model_switch_warning: This is a dangerous operation, learn more __here__
+      device_model_hint: Jouw hardware Model
+      device_model_switch_warning: Dit is een gevaarlijke actie, lees __hier__ meer
       edit_device: Apparaat bewerken
-      guest_mode: Guest Mode
-      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
-      guest_mode_item_placeholder: Choose an item
-      guest_mode_duration_placeholder: Choose a duration
+      guest_mode: Gast Modus
+      guest_mode_hint: Kies wat je wil tonen (en voor hoe lang) in gast modus.
+      guest_mode_item_placeholder: Kies een item
+      guest_mode_duration_placeholder: Kies een duur
       identify: Identificeren
       identify_device: Identificeer apparaat
       identify_device_hint: Klik op onderstaande knop om een scherm op dit apparaat te tonen om het makkelijk te identificeren.
       logs: Logboeken
       logs_hint: Debug je apparaat en plugins met een live-feed van de foutlogboeken.
-      low_battery_email_notification: Low Battery Email Notification
+      low_battery_email_notification: Lege Batterij Email Notificatie
       mirror: Spiegelen
       mirror_device: Spiegel een ander apparaat
       mirror_device_hint: Geef een (deelbaar) apparaat ID op om zijn afspeellijst te spiegelen. Jouw afspeellijst wordt nog steeds getoond.
@@ -169,8 +171,8 @@ nl:
       mirror_sync: Sync Screens
       ota_enabled: OTA-updates ingeschakeld
       ota_enabled_hint: Installeer automatisch nieuwe firmware. Deactiveer als je je je eigen firmware wil gebruiken.
-      maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility: Activeer Maximale Compatibiliteit
+      maximum_compatibility_hint: Los scherm issues op met bepaalde e-ink driver chips. Zet snelle verversing uit. Firmware 1.6.0+ benodigd.
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
       sleep_screen: Slaapscherm
@@ -178,13 +180,19 @@ nl:
       special_function_hint: Stel een dubbelklikfunctie in voor de knop aan de achterkant van je apparaat.
       special_function_learn_more: Lees __hier__ meer over speciale functies.
       unlink: Ontkoppelen
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Weet je het zeker? Dit zal alle plugin instellingen en afspeellijsten verwijderen, zodat je het device aan een nieuw account kan koppelen.
       unlink_device: Apparaat ontkoppelen
       unlink_device_hint: Door een TRMNL apparaat te ontkoppelen kun je hem veilig verkopen of aan iemand anders geven.
-      unlink_device_learn_more: Follow the full guide __here__.
+      unlink_device_learn_more: Volg __hier__ de volledige handleiding.
       visibility: Vindbaarheid
       visibility_hint: Maak jouw TRMNL apparaat spiegelbaar door onderstaande instelling aan te passen.
       your_device: Jouw TRMNL
+      upgrade_og:
+        title: Upgrade naar 2-bit scherm beschikbaar
+        sub_title: Jouw device kan geupgrade worden om uitgebreide grijswaarden te ondersteunen, met 4 kleurniveau's ipv 2.
+        warning_1: Ik snap dat deze upgrade <strong>onomkeerbaar</strong> is en niet ongedaan gemaakt kan worden.
+        warning_2: Ik snap dat dit een <strong>gevaarlijke</strong> actie is en dat ik mijn device onbruikmaar kan maken (bricken).
+        cta: Upgrade naar TRMNL OG (2-bit)
     index:
       title: Apparaten
       tagline: Jouw TRMNL apparaten
@@ -273,8 +281,8 @@ nl:
       error: Ongeldige OTP code
     verify_otp:
       verify: Verifieer
-      reset: Reset MFA
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
+      reset: Reset 2FA
+      reset_instructions: Klik op de knop achterop je TRMNL om een nieuwe code te genereren
       success: 2FA succesvol
       error: Ongeldige OTP code
   playlist_items:
@@ -287,25 +295,25 @@ nl:
       add_to_playlist: Toevoegen aan afspeellijst
       create_first_playlist_cta: Maak jouw afspeellijst nadat je jouw eerst plugin __verbindt__!
       custom: Custom
-      device_default: Device default
+      device_default: Device standaard
       display_period_from: Weergeven van
       display_period_to: tot
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
-      never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      display_period_validation: Begintijd moet voor de eindtijd zijn. Maak een nieuwe groep om nachtelijke uren in te stellen.
+      every: Elke
+      never_skip: Sla nooit scherm over
+      smart_playlist: Slimme Afspeellijst
+      smart_playlist_hint: Sla schermen automatisch over als de inhoud niet gewijzigd is.
       skip_after:
-        one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        one: Sla niet bijgewerkte schermen over na 1 dag
+        other: Sla niet bijgewerkte schermen over na %{count} dagen
     playlist_item:
-      adjust_schedule: Adjust schedule
+      adjust_schedule: Pas het schema aan
       delete: Weet je zeker dat je dit item wilt verwijderen? De plugin blijft verbonden en wordt niet getoond op jouw apparaat.
       displayed_now: Nu getoond
       not_displayed_yet: Nog niet getoond
       remove_from_playlist: Verwijderen van afspeellijst
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      hide_playlist: Vergerg dit item
+      show_playlist: Toon dit item
     create:
       error: Bijwerken van afspeellijst is mislukt
       success: Afspeellijst is bijgewerkt
@@ -346,9 +354,9 @@ nl:
       tagline: Sta andere gebruikers toe je plugin te installeren.
       name: Naam
       category: Categorie
-      category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
+      category_hint: Houdt cmd of ctrl ingedrukt op er max 3 te kiezen
+      refresh_every: Ondersteunde ververs intervallen
+      refresh_every_hint: Snelste verversings interval voor jouw plugin.
       description: Beschrijving
       description_hint: Maximaal 50 tekens
       icon: Pictogram
@@ -370,7 +378,7 @@ nl:
       name: Naam
       description: Beschrijving
   plugin_recipes:
-    connected: Recipe connected
+    connected: Recept verbonden
     connections:
       one: Connection
       other: Connections
@@ -390,14 +398,14 @@ nl:
     reset_credentials: "%{plugin_name} account succesvol hersteld"
     form:
       active_hint: Toon of verberg deze plugin op je apparaat
-      advanced_settings: Advanced Settings
+      advanced_settings: Geavanceerde Instellingen
       back_to_plugin: Terug naar %{plugin}
       back_to_plugins: Terug naar plugins
       connect_with: Verbinden met %{plugin}
       debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
+      debug_logs_click_here: Klik hier
+      debug_logs_click_here_hint: om debug logs in te zien voor deze plugin.
+      debug_logs_enabled: Debug logs actief voor %{hours} uur.
       debug_logs_enabled_link: View logs
       disconnect_account: Account loskoppelen
       manage_plugin: Configureer %{plugin}
@@ -406,11 +414,11 @@ nl:
       force_refresh_click_here: Klik hier
       force_refresh_click_here_hint: om direct een nieuw scherm te genereren
       learn_more: Kom meer te weten over deze plugin in onze kennisbank
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
+      learn_more_fork: Deze plugin is een fork van een recept.
+      learn_more_fork_original: Bekijk het origineel
+      learn_more_recipe_author: Hulp nodig? Neem contact op met %{recipe_author} via Discord.
+      learn_more_recipe_long: Deze plugin is een recept uit de community, en wordt niet onderhouden door TRMNL.
+      learn_more_recipe_short: 'Noot: deze plugin is een recept'
       linked_account: Gekoppeld account
       linked_account_success: Succesvol gekoppeld met %{plugin_name}
       link_oauth: Account koppelen
@@ -418,33 +426,36 @@ nl:
       multiple_instances_hint: Deze plugin ondersteunt meerdere instanties.
       name: Naam
       name_hint: Voer een naam in om het makkelijk te herkennen in de toekomst
+      parse: Analyseer
+      parse_save_first: Analyseer (Sla je plugin eerst op)
+      parsed: Geanalyseerd
       plugin_uuid: Plugin UUID
-      plugin_uuid_hint: Gebruik deze om Webhook API requests te maken.
+      plugin_uuid_hint: Gebruik dit om Webhook API requests te maken.
       preview: Voorbeeld - jouw apparaat zal echte data tonen
-      recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
+      recipe_cta_heading_published: Deze plugin is een recept
+      recipe_cta_heading_in_review: Recept onder beoordeling
+      recipe_cta_heading_not_published: Publiceer als recept?
+      recipe_cta_body_published: Veranderingen worden doorgevoerd bij bestaande installaties en toekomstige installaties en forks.
+      recipe_cta_body_in_review: De plugin is ingediend bij het team. Nog even geduld.
+      recipe_cta_body_not_published: Verstuur de plugin zodat anderen deze ook kunnen gebruiken. __Lees hier meer over__.
+      recipe_cta_confirm: Weet je het zeker? Ons team zal je plugin reviewen en bij je terugkomen met mogelijke vragen. Je kan ondertussen wijzigingen blijven doorvoeren.
       refresh_rate: Verversingssnelheid
       refresh_rate_hint: Bepaal hoe vaak deze plugin instantie verse data ophaalt
       refreshed: Ververst
       remove_plugin: Plugin verwijderen
       remove_plugin_hint: Het verwijderen van een plugin zal deze ook uit je afspeellijst verwijderen
       synced: Gesynchroniseerd
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
-      visit_docs: Bekijk docs
+      refresh_paused: Verversen gepauzeerd
+      refresh_paused_hint: Auto-verversen is paused. Add to playlist to start again.
+      refresh_paused_mashup: Mashups worden verversd
+      refresh_paused_mashup_hint: Auto-verversen gepauzeerd voor fullscreen. Mashups worden geupdate.
+      refresh_stopped: Auto-verversen gestopt. Los de plugin fouten op om door te gaan.
+      visit_docs: Bekijk documentatie
     import:
-      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
-      missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: "%{filename} is too large"
-      malformed: "%{filename} is malformed"
+      archive_too_large: ZIP bestand is te groot (%{max_mb} MB max)
+      missing_entry: Het ZIP bestand bevat %{filename} niet
+      entry_too_large: "%{filename} is te groot"
+      malformed: "%{filename} is misvormd"
     create:
       success: Plugin aangemaakt en toegevoegd aan jouw
       playlist: afspeellijst
@@ -460,19 +471,19 @@ nl:
       request_received: Request ontvangen, check je inbox
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
+      newest_to_oldest: Nieuw naar oud
+      oldest_to_newest: Oud naar nieuw
+      most_popular: Populairste
+      install: Installeer
       fork: Fork
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: Voeg een op-maat schema toe
+      append: Tijdens…
+      no_schedule: Dit scherm wordt altijd getoond
+      some_schedule: Toon enkel tijdens…
+      to: naar
+      copy_prompt: Kopieër schema van…
   upgrade:
     index:
       title: 'Apparaat upgraden:'

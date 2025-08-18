@@ -13,6 +13,7 @@ da:
   change_password: Skift adgangskode
   charge_level: Opladningsniveau
   charged: opladet
+  charging: Charging
   close: Luk
   confirm_change_password: Bekræft ændring af adgangskode
   confirm_password: Bekræft ny adgangskode
@@ -142,6 +143,7 @@ da:
       back_to_devices: Tilbage til enheder
       battery_consumption: Batteriforbrug
       battery_consumption_hint: Spar strøm og nyd længere batterilevetid ved at aktivere dvaletilstand.
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: Udviklerfordele
       developer_perks_hint: Mulighederne nedenfor kræver __Udviklerudgave-tilføjelse__.
       device_credentials: Enhedsoplysninger
@@ -170,7 +172,7 @@ da:
       ota_enabled: OTA-opdateringer aktiveret
       ota_enabled_hint: Installer automatisk ny firmware. Deaktiver for at bruge din egen firmware.
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: Dvaletilstand
       sleep_mode_hint: Juster din opdateringshastighed for at optimere fokus og batterilevetid.
       sleep_screen: Dvaleskærmbillede
@@ -185,6 +187,12 @@ da:
       visibility: Synlighed
       visibility_hint: Gør din TRMNL-enhed spejlbar ved at ændre indstillingerne nedenfor.
       your_device: Din TRMNL
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: Enheder
       tagline: Dine TRMNL-enheder
@@ -418,6 +426,9 @@ da:
       multiple_instances_hint: Dette plugin understøtter flere instanser.
       name: Navn
       name_hint: Giv det et navn for nem reference
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Brug dette til at lave Webhook API-anmodninger.
       preview: Forhåndsvisning - din enhed vil vise faktiske data

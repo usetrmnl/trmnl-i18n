@@ -13,6 +13,7 @@ zh-HK:
   change_password: 更改密碼
   charge_level: 充電狀態
   charged: 電量
+  charging: Charging
   close: 關閉
   confirm_change_password: 更改密碼
   confirm_password: 確認新密碼
@@ -142,6 +143,7 @@ zh-HK:
       back_to_devices: 返回裝置
       battery_consumption: 電池消耗
       battery_consumption_hint: 啟用「睡眠模式」可節省電量，並延長電池續航時間。
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: 開發者福利
       developer_perks_hint: 以下選項需要購買「__開發者版本__」。.
       device_credentials: 裝置認證
@@ -170,7 +172,7 @@ zh-HK:
       ota_enabled: 啟用自動更新
       ota_enabled_hint: 自動安裝新的韌體。如要使用自訂韌體，請關閉此設定。
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: 睡眠模式
       sleep_mode_hint: 調整重新整理頻率，以提升專注度及電池續航時間。
       sleep_screen: 睡眠畫面
@@ -185,6 +187,12 @@ zh-HK:
       visibility: 共享狀態
       visibility_hint: 讓其他TRMNL裝置可鏡像共享此裝置的內容。
       your_device: 你的TRMNL
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: 裝置
       tagline: 你的TRMNL裝置
@@ -418,6 +426,9 @@ zh-HK:
       multiple_instances_hint: 此外掛支援多個執行個體。
       name: 名稱
       name_hint: 為其命名以便於參考
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: 外掛UUID
       plugin_uuid_hint: 用於發送Webhook API請求。
       preview: 預覽圖（裝置會顯示實際資料）

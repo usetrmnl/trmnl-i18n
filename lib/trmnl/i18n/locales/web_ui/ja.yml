@@ -13,6 +13,7 @@ ja:
   change_password: パスワード変更
   charge_level: 充電状態
   charged: 充電完了
+  charging: Charging
   close: 閉じる
   confirm_change_password: パスワードを変更する
   confirm_password: 新しいパスワードを確認
@@ -142,6 +143,7 @@ ja:
       back_to_devices: デバイス管理画面に戻る
       battery_consumption: バッテリー消費
       battery_consumption_hint: デバイスをスリープ モードにすると、バッテリー寿命を延ばすことができます
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: 開発者向け特典
       developer_perks_hint: 以下は、__開発者オプション__を追加した場合に利用可能です。
       device_credentials: デバイス認証情報
@@ -170,7 +172,7 @@ ja:
       ota_enabled: OTAアップデート有効
       ota_enabled_hint: 新しいファームウェアを自動的にインストールします。独自のファームウェアを使用するには無効にしてください。
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: スリープモード
       sleep_mode_hint: 集中力とバッテリー寿命を最適化するために、更新頻度を調整します。
       sleep_screen: スリープ画面
@@ -185,6 +187,12 @@ ja:
       visibility: 共有設定
       visibility_hint: 以下の設定を使用して、TRMNLデバイスをミラーモードにすることができます。
       your_device: あなたのTRMNL
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: デバイス管理
       tagline: あなたのTRMNLデバイス
@@ -418,6 +426,9 @@ ja:
       multiple_instances_hint: このプラグインは複数のインスタンスをサポートしています。
       name: 名前
       name_hint: 覚えやすい名前を付けてください
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: プラグイン UUID
       plugin_uuid_hint: Webhook APIリクエストに使用します
       preview: プレビュー - 実際のデータをデバイスに表示します

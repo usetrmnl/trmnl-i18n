@@ -13,6 +13,7 @@ sv:
   change_password: Change Password
   charge_level: Charge Level
   charged: charged
+  charging: Charging
   close: Close
   confirm_change_password: Change my password
   confirm_password: Confirm new password
@@ -142,6 +143,7 @@ sv:
       back_to_devices: Back to Devices
       battery_consumption: Battery Consumption
       battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: Developer Perks
       developer_perks_hint: Options below require the __Developer add-on__.
       device_credentials: Device Credentials
@@ -170,7 +172,7 @@ sv:
       ota_enabled: OTA Updates Enabled
       ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: Sleep Mode
       sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
       sleep_screen: Sleep Screen
@@ -185,6 +187,12 @@ sv:
       visibility: Visibility
       visibility_hint: Make your TRMNL device mirrorable by changing the settings below.
       your_device: Your TRMNL
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: Devices
       tagline: Your TRMNL devices
@@ -416,6 +424,9 @@ sv:
       multiple_instances_hint: This plugin supports multiple instances.
       name: Name
       name_hint: Give it a name for easy reference
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Use this to make Webhook API requests.
       preview: Preview - your device will show actual data

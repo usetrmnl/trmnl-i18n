@@ -13,6 +13,7 @@ pt-BR:
   change_password: Mudar Senha
   charge_level: Nível de Carga
   charged: carregado
+  charging: Charging
   close: Fechar
   confirm_change_password: Mudar minha senha
   confirm_password: Confirmar nova senha
@@ -142,6 +143,7 @@ pt-BR:
       back_to_devices: Voltar para Dispositivos
       battery_consumption: Consumo da Bateria
       battery_consumption_hint: Economize energia desfrute de mais bateria ativando o Modo de Suspensão.
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: Vantagens de Desenvolvedor
       developer_perks_hint: Opções abaixo requerem o __Add-on de Desenvolvedor__.
       device_credentials: Credenciais do Dispositivo
@@ -170,7 +172,7 @@ pt-BR:
       ota_enabled: Ativar Atualizações OTA
       ota_enabled_hint: Instalar novos firmwares automaticamente. Desative para usar seu próprio firmware.
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: Modo de Suspensão
       sleep_mode_hint: Ajuste sua taxa de atualização para otimizar foco e duração da bateria.
       sleep_screen: Sleep Screen
@@ -185,6 +187,12 @@ pt-BR:
       visibility: Visibilidade
       visibility_hint: Torne seu TRMNL espelhável mudando a configuração abaixo.
       your_device: Seu TRMNL
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: Dispositivos
       tagline: Seus dispositivos TRMNL
@@ -418,6 +426,9 @@ pt-BR:
       multiple_instances_hint: Esse plugin suporta múltiplas instâncias.
       name: Nome
       name_hint: Dê um nome para se lembrar facilmente
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: UUID do Plugin
       plugin_uuid_hint: Use para enviar requisições para a API de Webhook.
       preview: Pré-visualização - seu dispositivo mostrará dados reais

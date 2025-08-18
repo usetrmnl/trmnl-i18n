@@ -13,6 +13,7 @@ ko:
   change_password: 비밀번호 변경
   charge_level: 충전 상태
   charged: 충전됨
+  charging: Charging
   close: 닫기
   confirm_change_password: 비밀번호 변경하기
   confirm_password: 새 비밀번호 확인
@@ -142,6 +143,7 @@ ko:
       back_to_devices: 기기 관리 화면으로 돌아가기
       battery_consumption: 배터리 소모
       battery_consumption_hint: 기기 절전 모드 설정을 하시면 더 오랫동안 배터리 수명을 유지할 수 있습니다.
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: 개발자 버전 특혜
       developer_perks_hint: 아래는 __개발자 옵션을 추가한 경우__ 사용 가능합니다.
       device_credentials: 기기 정보
@@ -170,7 +172,7 @@ ko:
       ota_enabled: OTA 업데이트 활성화됨
       ota_enabled_hint: 새로운 펌웨어를 자동으로 설치하기. 당신의 펌웨어 사용을 비활성화하기.
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: 절전 모드
       sleep_mode_hint: 당신의 집중력과 배터리 수명을 최적화하기 위해 새로 고침 비율을 조정합니다.
       sleep_screen: 절전 화면
@@ -185,6 +187,12 @@ ko:
       visibility: 공유 설정
       visibility_hint: 아래 설정을 통해 당신의 TRMNL 기기가 거울모드가 가능합니다.
       your_device: 당신의 TRMNL
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: 기기 관리
       tagline: 당신의 TRMNL 디바이스들
@@ -418,6 +426,9 @@ ko:
       multiple_instances_hint: 이 플러그인은 여러 개의 인스턴스를 지원합니다.
       name: 이름
       name_hint: 떠올리기 쉬운 이름을 지어주세요
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: 플러그인 UUID
       plugin_uuid_hint: Webhook API 요청을 위해 사용합니다
       preview: 미리보기 - 당신의 기기에서 실제 데이터를 보여줍니다

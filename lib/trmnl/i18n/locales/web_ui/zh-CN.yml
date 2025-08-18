@@ -13,6 +13,7 @@ zh-CN:
   change_password: 修改密码
   charge_level: 充电状态
   charged: 电量
+  charging: Charging
   close: 取消
   confirm_change_password: 确认修改密码
   confirm_password: 确认密码
@@ -142,6 +143,7 @@ zh-CN:
       back_to_devices: 返回设备列表
       battery_consumption: 电池消耗
       battery_consumption_hint: 在晚上10点到早上8点之间启用睡眠模式，节省电量并延长电池寿命。
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: 开发者选项
       developer_perks_hint: 下列选项需要__开发者选项__
       device_credentials: 设备密码
@@ -170,7 +172,7 @@ zh-CN:
       ota_enabled: 启用OTA更新
       ota_enabled_hint: 自动安装新固件。禁用以手动更新。
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: 睡眠模式
       sleep_mode_hint: 降低刷新率以优化焦点和电池寿命
       sleep_screen: 休眠屏幕
@@ -185,6 +187,12 @@ zh-CN:
       visibility: 隐藏
       visibility_hint: 让TRMNL设备显示镜像播放列表
       your_device: 您的TRMNL
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: 设备列表
       tagline: 您的的TRMNL设备
@@ -418,6 +426,9 @@ zh-CN:
       multiple_instances_hint: 此插件支持多实例
       name: 名称
       name_hint: 起一个好听的名字
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: 插件UUID
       plugin_uuid_hint: 用于发起 Webhook API 请求
       preview: 预览

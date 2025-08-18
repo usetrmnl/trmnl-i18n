@@ -13,6 +13,7 @@ raw:
   change_password: change_password
   charge_level: charge_level
   charged: charged
+  charging: charging
   close: close
   confirm_change_password: confirm_change_password
   confirm_password: confirm_password
@@ -142,6 +143,7 @@ raw:
       back_to_devices: devices.edit.back_to_devices
       battery_consumption: devices.edit.battery_consumption
       battery_consumption_hint: devices.edit.battery_consumption_hint
+      battery_learn_more: devices.edit.battery_learn_more
       developer_perks: devices.edit.developer_perks
       developer_perks_hint: devices.edit.developer_perks_hint
       device_credentials: devices.edit.device_credentials
@@ -185,6 +187,12 @@ raw:
       visibility: devices.edit.visibility
       visibility_hint: devices.edit.visibility_hint
       your_device: devices.edit.your_device
+      upgrade_og:
+        title: devices.edit.upgrade_og.title
+        sub_title: devices.edit.upgrade_og.sub_title
+        warning_1: devices.edit.upgrade_og.warning_1
+        warning_2: devices.edit.upgrade_og.warning_2
+        cta: devices.edit.upgrade_og.cta
     index:
       title: devices.index.title
       tagline: devices.index.tagline
@@ -418,6 +426,9 @@ raw:
       multiple_instances_hint: plugin_settings.form.multiple_instances_hint
       name: plugin_settings.form.name
       name_hint: plugin_settings.form.name_hint
+      parse: plugin_settings.form.parse
+      parse_save_first: plugin_settings.form.parse_save_first
+      parsed: plugin_settings.form.parsed
       plugin_uuid: plugin_settings.form.plugin_uuid
       plugin_uuid_hint: plugin_settings.form.plugin_uuid_hint
       preview: plugin_settings.form.preview

@@ -13,6 +13,7 @@ uk:
   change_password: Змінити пароль
   charge_level: Рівень заряду
   charged: заряджено
+  charging: Charging
   close: Закрити
   confirm_change_password: Змінити мій пароль
   confirm_password: Новий пароль (повторно)
@@ -142,6 +143,7 @@ uk:
       back_to_devices: Назад до пристроїв
       battery_consumption: Споживання батареї
       battery_consumption_hint: Заощаджуйте енергію та насолоджуйтесь тривалим часом роботи батареї, увімкнувши Режим сну.
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: Developer Perks
       developer_perks_hint: Options below require the __Developer add-on__.
       device_credentials: Device Credentials
@@ -170,7 +172,7 @@ uk:
       ota_enabled: OTA Updates Enabled
       ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: Режим сну
       sleep_mode_hint: Налаштуйте частоту оновлення, щоб покращити концентрацію та час роботи батареї.
       sleep_screen: Sleep Screen
@@ -185,6 +187,12 @@ uk:
       visibility: Спільний доступ
       visibility_hint: Зробіть ваш пристрій TRMNL доступним для віддзеркалення, змінивши налаштування нижче.
       your_device: Ваш TRMNL
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: Пристрої
       tagline: Ваші пристрої TRMNL
@@ -418,6 +426,9 @@ uk:
       multiple_instances_hint: Цей плагін підтримує кілька екземплярів.
       name: Ім'я
       name_hint: Дайте йому назву для зручності
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: UUID плагіна
       plugin_uuid_hint: Використовуйте це для здійснення запитів Webhook API.
       preview: Попередній перегляд - ваш пристрій буде показувати актуальні дані

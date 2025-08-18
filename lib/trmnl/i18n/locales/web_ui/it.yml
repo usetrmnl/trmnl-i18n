@@ -13,6 +13,7 @@ it:
   change_password: Cambia Password
   charge_level: Livello di Ricarica
   charged: ricaricato
+  charging: In carica
   close: Chiudi
   confirm_change_password: Cambia la password
   confirm_password: Conferma la nuova password
@@ -127,7 +128,7 @@ it:
       connected: Connesso
       new_and_popular: Nuovi e Popolari
     shop:
-      title: Shop
+      title: Negozio
     time_saved:
       title: Tempo risparmiato
       cta: Maggiori informazioni
@@ -142,6 +143,7 @@ it:
       back_to_devices: Torna a Dispositivi
       battery_consumption: Consumo Batteria
       battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo.
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: Modalità Sviluppatore
       developer_perks_hint: Queste opzioni richiedono la __Modalità Sviluppatore__.
       device_credentials: Credenziali Dispositivo
@@ -165,15 +167,15 @@ it:
       mirror: Duplica
       mirror_device: Duplica un altro Dispositivo
       mirror_device_hint: Indica un ID Dispositivo (condivisibile) per duplicare la sua playlist. La tua playlist rimarrà visibile.
-      mirror_stop: Disconnect Mirroring
-      mirror_sync: Sync Screens
+      mirror_stop: Disconnetti Mirroring
+      mirror_sync: Sinctronizza Schermi
       ota_enabled: Abilita aggiornamenti OTA
       ota_enabled_hint: Installa automaticamente i nuovi firmware. Disabilita per utilizzare il tuo firmware
-      maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility: Abilita compatibilità massima
+      maximum_compatibility_hint:  Risolve problemi dello schermo causati da alcuni chip driver per e-ink. Disattiva il fast refresh. Richiede Firmware 1.6.0 o successivo.
       sleep_mode: Modalità Riposo
       sleep_mode_hint: Regola la frequenza di aggiornamento per ottimizzare la concentrazione e la durata della batteria.
-      sleep_screen: Sleep Screen
+      sleep_screen: Schermata di riposo
       special_function: Funzione Speciale
       special_function_hint: Imposta la funzione al doppio click del pulsante sul retro del dispositivo.
       special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.
@@ -185,6 +187,12 @@ it:
       visibility: Visibilità
       visibility_hint: Permetti la duplicazione di questo dispositivo TRMNL modificando le impostazioni seguenti.
       your_device: Il tuo TRMNL
+      upgrade_og:
+        title: Aggiornamento per display a 2-bit disponibile
+        sub_title: Il tuo dispositivo può essere aggiornato per suportare una migliorata visualizzazione di grigi a quattro liveli al posto di 2.
+        warning_1: Sono consapevole che questo aggiornamento è <strong>irreversibile</strong> e non può esssere annullato.
+        warning_2: Sono consapevole che questa è un azione <strong>pericolosa</strong> e che può bloccare il mio dispositivo.
+        cta: Aggiorna al TRMNL OG (2-bit)
     index:
       title: Dispositivi
       tagline: I tuoi dispositivi TRMNL
@@ -246,7 +254,7 @@ it:
       live_preview: Anteprima in tempo reale
       no_changes_to_save: Nessuna modifica da salvare
       pop_out_preview: Anteprima pop out
-      quickstart_examples: Esempi Quick-start
+      quickstart_examples: Esempi Rapidi
       quickstart_example_applied: Applicato!
       quickstart_use_this_example: Usa questo esempio
       revert: Annulla
@@ -418,16 +426,19 @@ it:
       multiple_instances_hint: Questo plugin supporta istanze multiple.
       name: Nome
       name_hint: Dagli un nome per riconoscerlo facilmente
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Utilizzalo per richieste Webhook API.
       preview: Anteprima - il tuo dispositivo mostrerà dati reali
-      recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
+      recipe_cta_heading_published: Questo plugin è una Recipe
+      recipe_cta_heading_in_review: Recipe in revisione
+      recipe_cta_heading_not_published: Pubblica come Recipe?
+      recipe_cta_body_published: I cambiamenti verranno replicati su istallazioni/fork esistenti e future.
+      recipe_cta_body_in_review: Questo plugin è stato inviato al nostro team. Attendi.
+      recipe_cta_body_not_published: Invia questo plugin per essere installabile da altri. __Scopri di più__.
+      recipe_cta_confirm: Sei sicuro? Il nostro team verificherà e ti farà sapere in alcuni giorni. Potrai continuare a fare modifiche.
       refresh_rate: Frequenza di aggiornamento
       refresh_rate_hint: Definisce con quale frequenza questo plugin recupera dati aggiornati
       refreshed: Aggiornato
@@ -460,10 +471,10 @@ it:
       request_received: Richiesta ricevuta, controlla la tua posta
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
+      newest_to_oldest: Dal più recente
+      oldest_to_newest: Dal più vecchio
+      most_popular: Popolari
+      install: Installa
       fork: Fork
   schedules:
     form:

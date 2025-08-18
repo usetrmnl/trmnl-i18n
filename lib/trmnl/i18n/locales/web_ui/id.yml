@@ -13,6 +13,7 @@ id:
   change_password: Ubah Kata Sandi
   charge_level: Tingkat Pengisian
   charged: Terisi penuh
+  charging: Charging
   close: Tutup
   confirm_change_password: Ubah kata sandi saya
   confirm_password: Konfirmasi kata sandi baru
@@ -142,6 +143,7 @@ id:
       back_to_devices: Kembali ke Perangkat
       battery_consumption: Penggunaan Baterai
       battery_consumption_hint: Hemat daya dan nikmati masa pakai baterai yang lebih lama dengan mengaktifkan Mode Tidur.
+      battery_learn_more: Learn more about battery charging __here__.
       developer_perks: Keuntungan Pengembang
       developer_perks_hint: Opsi di bawah ini membutuhkan __add-on Pengembang__.
       device_credentials: Device Credentials
@@ -170,7 +172,7 @@ id:
       ota_enabled: Pembaruan OTA Diaktifkan
       ota_enabled_hint: Firmware terbaru akan diinstal secara otomatis. Nonaktifkan jika menggunakan firmware Anda sendiri.
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Enables optimal rendering quality. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       sleep_mode: Mode Tidur
       sleep_mode_hint: Sesuaikan tingkat penyegaran untuk fokus dan hemat baterai.
       sleep_screen: Sleep Screen
@@ -185,6 +187,12 @@ id:
       visibility: Visibilitas
       visibility_hint: Jadikan perangkat TRMNL Anda dapat di-mirroring dengan mengubah pengaturan di bawah ini.
       your_device: TRMNL Anda
+      upgrade_og:
+        title: Upgrade to 2-bit Display Available
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
+        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
+        cta: Upgrade to TRMNL OG (2-bit)
     index:
       title: Perangkat
       tagline: Perangkat TRMNL Anda
@@ -418,6 +426,9 @@ id:
       multiple_instances_hint: Plugin ini mendukung beberapa instance.
       name: Nama
       name_hint: Beri nama untuk referensi yang lebih mudah
+      parse: Parse
+      parse_save_first: Parse (Save plugin first)
+      parsed: Parsed
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Gunakan ini untuk membuat permintaan API Webhook.
       preview: Pratinjau - perangkat Anda akan menampilkan data nyata
