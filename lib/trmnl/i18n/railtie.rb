@@ -7,11 +7,7 @@ module TRMNL
     # The Rails hook.
     class Railtie < Rails::Railtie
       initializer "trmnl-localizations.i18n" do
-        Pathname(__dir__).join("locales")
-                         .glob("**/*")
-                         .select(&:file?)
-                         .map(&:to_s)
-                         .then { |paths| ::I18n.load_path.concat paths }
+        TRMNL::I18n.load_locales
       end
     end
   end

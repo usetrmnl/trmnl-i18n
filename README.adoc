@@ -55,6 +55,13 @@ Once the gem is installed, you only need to require it:
 require "trmnl/i18n"
 ----
 
+If you are using this gem in a non-Rails application, you will need to manually load the locales during the application's initialization.
+
+[source,ruby]
+----
+TRMNL::I18n.load_locales
+----
+
 == Usage
 
 This gem is a {ror_link} Railtie that follows {i18n_link} conventions allowing you to customize country locales. You only need to include this gem, as documented in the xref:_setup[Setup] section, to automatically load and use these locales. That's it!
