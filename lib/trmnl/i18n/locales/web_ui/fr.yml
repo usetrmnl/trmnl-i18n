@@ -1,9 +1,9 @@
 ---
 fr:
-  locale_name: Française
+  locale_name: Français
   add: Ajouter
-  add_new: Ajouter nouveau
-  ago: plutôt
+  add_new: Ajouter # Could be "Ajouter nouveau" / "Ajouter nouvelle" and might require masculine and feminine variants, I would need to see where this is in the UI. For now I'll just use "Ajouter" since it's simpler.
+  ago: plus tôt # Important Note: for time-related "ago" translations, I recommend using something like "%{time} ago" / "il y a %{time}" since lots of languages have the words before or after the actual time. If you don't want to do this, we can use plus tôt, but it's not the copy french users are used to.
   already_have_account: J'ai déjà un compte
   back: Retour
   back_to_all_blog_posts: Retour à tous les articles
@@ -13,12 +13,12 @@ fr:
   change_password: Changer le mot de passe
   charge_level: Niveau de charge
   charged: chargé
-  charging: Charging
+  charging: En cours de chargement # This could be just "Chargement" if you need it to be shorter
   close: Fermer
   confirm_change_password: Changer mon mot de passe
   confirm_password: Confirmer le nouveau mot de passe
   copy: Copier
-  copied_to_clipboard: Copié !
+  copied_to_clipboard: Copié !
   copy_to_clipboard: Copier dans le presse-papiers
   created: Créé
   create_an_account: Créer un compte
@@ -27,35 +27,35 @@ fr:
   delete: Supprimer
   developer_edition_required: Édition développeur nécessaire pour activer cette fonctionnalité.
   device_id: ID de l'appareil
-  edit: Éditer
+  edit: Modifier
   email_address: Adresse email
-  export: Export
+  export: Exporter
   fetching: Chargement en cours
   first_name: Prénom
   forgot_password: J'ai oublié mon mot de passe
-  forgot_password_title: Rebelote
-  get_started: Commençons !
+  forgot_password_title: Réinitialiser le mot de passe
+  get_started: Commençons !
   identify: S'identifier
-  import: Import
-  import_new: Import new
+  import: Importer
+  import_new: Importer # Could be "Importer nouveau" / "Importer nouvelle" and might require masculine and feminine variants, I would need to see where this is in the UI. For now I'll just use "Importer" since it's simpler.
   integrations: Intégrations
   keep_me_signed_in: Rester connecté
   knowledge_base: Base de connaissances
   last_name: Nom
-  learn_more: Learn more
+  learn_more: En savoir plus
   loading: Chargement
   login: Se connecter
   log_out: Se déconnecter
-  minimum_characters: caractères minimums
-  mins: mins
+  minimum_characters: caractères minimum
+  mins: min # no "s" in French
   my_playlist: Ma playlist
   new_password: Nouveau mot de passe
   password: Mot de passe
   please_wait: Veuillez patienter...
-  plugin_not_found: Extension introuvable
-  refresh_rates_hint: Apprendre comment les taux de rafraîchissement fonctionnent __ici__.
+  plugin_not_found: Plugin introuvable
+  refresh_rates_hint: Apprenez comment le taux de rafraîchissement fonctionne __ici__.
   reset_password: Réinitialiser mon mot de passe
-  save: Sauvegarder
+  save: Enregistrer
   section: Section
   sign_in: S'identifier
   sign_up: S'inscrire
@@ -72,37 +72,37 @@ fr:
     index:
       title: Compte
       tagline: Gérez vos paramètres de compte
-      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
-      api_key_hint: See __the docs__ to learn how to configure your local environment.
-      api_key_label: The credential for authenticating local development tools
-      api_key_reset: Regenerate
-      api_key: API Key
+      api_key_confirm: Êtes-vous sûr de vouloir regénérer votre clé API ? L'ancienne clé sera invalidée.
+      api_key_hint: Consultez __la documentation__ pour apprendre à configurer votre environnement local.
+      api_key_label: Les identifiants pour authentifier les outils de développement local
+      api_key_reset: Regénérer
+      api_key: Clé API
       email_address: Adresse email
       refer_and_earn: Parrainez et gagnez
       refer_and_earn_hint: Offrez le cadeau TRMNL avec un coupon personnalisé. Gagnez par utilisation, payé mensuellement.
-      refer_and_earn_redemptions: Remboursements
+      refer_and_earn_redemptions: Utilisations du code
       refer_and_earn_request_code: Demander un code
       device_invoice: Facture de l'appareil
-      device_invoice_label: Télécharger les documents commerciaux pour votre comptable ou votre (bizarre) collection de PDF.
+      device_invoice_label: Téléchargez les documents commerciaux pour votre comptable (ou pour votre collection de PDF, si vous en avez une 😉).
       device_invoice_hint: Retrouvez ce numéro sur la page de suivi de votre colis ou dans l'e-mail de notification de l'envoi.
-      email_address_hint: Utilisée pour s'identifier dans TRMNL et recevoir des messages du système.
+      email_address_hint: Utilisé pour s'identifier dans TRMNL et recevoir des messages du système.
       first_name_hint: Nous utilisons votre prénom pour rendre l'interface de TRMNL plus agréable.
       last_name_hint: Nous utilisons votre nom pour rendre l'interface de TRMNL plus agréable.
       password_hint: Utilisé pour protéger votre compte TRMNL.
-      enable_2fa: Activer l'A2F ?
-      enable_2fa_hint: __Cliquer ici__ pour activer l'OTP.
-      disable_2fa: Activer l'A2F ?
+      enable_2fa: Activer l'authentification à 2 facteurs (A2F) ?
+      enable_2fa_hint: __Cliquer ici__ pour activer le mot de passe à usage unique (OTP).
+      disable_2fa: Désactiver l'authentification à 2 facteurs (A2F)
       disable_2fa_hint: Fournissez un OTP valide et votre mot de passe actuel pour désactiver l'A2F.
       session: Session
-      session_hint: Vous êtes connecté·e en tant que %{user}
+      session_hint: Vous êtes connecté en tant que %{user}
       time_zone: Fuseau horaire
       time_zone_hint: Détermine les taux de rafraîchissement et le temps de veille de l'appareil.
       locale: Locale
-      locale_hint: Quel langage et localisation préférez-vous ? __Voir ici__.
+      locale_hint: Quel langage et localisation préférez-vous ? __Voir ici__.
     update:
       success: Profil mis à jour avec succès
     reset_api_key:
-      success: API key was regenerated successfully
+      success: Clé API regénérée avec succès
   dashboard:
     index:
       title: Tableau de bord
@@ -112,8 +112,8 @@ fr:
       today: Aujourd'hui
       yesterday: Hier
     health:
-      bad: Les extensions rencontrent des problèmes
-      good: Les extensions fonctionnent correctement
+      bad: Les plugins rencontrent des problèmes
+      good: Les plugins fonctionnent correctement
       next_steps: Nous vous informerons si quelque chose change
     news:
       title: Nouveautés
@@ -123,9 +123,9 @@ fr:
       cta: Accéder aux playlists
       pieces_of_content_displayed: Éléments affichés
     plugins:
-      title: Extensions
-      cta: Accéder aux extensions
-      connected: Connectée
+      title: Plugins
+      cta: Accéder aux plugins
+      connected: Connectés
       new_and_popular: Nouveau et populaire
     shop:
       title: Boutique
@@ -139,65 +139,65 @@ fr:
   devices:
     edit:
       accepts_beta_firmware: Mise à jour en accès anticipé
-      accepts_beta_firmware_hint: Activer pour obtenir les dernières améliorations du micrologiciel de l'appareil avant les autres utilisateurs.
+      accepts_beta_firmware_hint: Activer pour obtenir les dernières améliorations du firmware de l'appareil avant les autres utilisateurs.
       back_to_devices: Retour aux appareils
       battery_consumption: Consommation de la batterie
-      battery_consumption_hint: Économisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant la mise.
-      battery_learn_more: Learn more about battery charging __here__.
+      battery_consumption_hint: Économisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant le Mode Veille.
+      battery_learn_more: En savoir plus sur la charge de la batterie __ici__.
       developer_perks: Avantages pour les développeurs
       developer_perks_hint: Les options ci-dessous requièrent le __complément payant Developer__.
       device_credentials: Identifiants de l'appareil
-      device_credentials_hint: Voyez ce que vous pouvez faire avec ces identifiants __ici__
+      device_credentials_hint: Voir ce que vous pouvez faire avec ces identifiants __en cliquant ici__
       device_name: Nom de l'appareil
       device_name_hint: Nous utilisons cela pour rendre l'interface de TRMNL plus agréable
-      device_model: Device Model
-      device_model_hint: Your hardware Model
-      device_model_switch_warning: This is a dangerous operation, learn more __here__
-      edit_device: Éditer l'appareil
-      guest_mode: Guest Mode
-      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
-      guest_mode_item_placeholder: Choose an item
-      guest_mode_duration_placeholder: Choose a duration
+      device_model: Modèle d'appareil
+      device_model_hint: Le modèle de votre appareil
+      device_model_switch_warning: Cette opération est dangereuse, en savoir plus __ici__
+      edit_device: Modifier l'appareil
+      guest_mode: Mode invité
+      guest_mode_hint: Choisissez ce qui s'affiche (et pendant combien de temps) quand le mode invité est activé.
+      guest_mode_item_placeholder: Choisir un élément
+      guest_mode_duration_placeholder: Choisir une durée
       identify: Identifier
       identify_device: Identifier l'appareil
       identify_device_hint: Cliquez sur le bouton ci-dessous pour afficher un écran sur cet appareil qui vous aidera à l'identifier.
       logs: Logs
-      logs_hint: Déboguer votre appareil et extensions avec des logs d'erreurs en temps réel.
-      low_battery_email_notification: Low Battery Email Notification
-      mirror: Miroir
-      mirror_device: Mettre en miroir avec un autre appareil
-      mirror_device_hint: Fournir un ID à l'appareil (partageable) pour mettre en miroir ses playlists. Vos playlists seront toujours affichées.
-      mirror_stop: Disconnect Mirroring
-      mirror_sync: Sync Screens
-      ota_enabled: Mises à jour de l'OTA activées
-      ota_enabled_hint: Installer automatiquement le nouveau firmware. Désactivez si vous souhaitez utiliser votre propre firmware.
-      maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      sleep_mode: Mode veille
-      sleep_mode_hint: Ajuster le taux de rafraichissement pour se concentrer sur le contenu affiché et améliorer la durée de vie de la batterie.
+      logs_hint: Débugguez votre appareil et plugins avec des logs d'erreurs en temps réel.
+      low_battery_email_notification: Notification par e-mail de batterie faible
+      mirror: Synchroniser
+      mirror_device: Synchroniser avec un autre appareil
+      mirror_device_hint: Fournissez un identifiant (partageable) pour synchroniser vos playlists avec un autre appareil. Vos playlists resteront toujours visibles.
+      mirror_stop: Déconnecter la synchronisation
+      mirror_sync: Synchroniser les écrans
+      ota_enabled: Mises à jour OTA activées
+      ota_enabled_hint: Installe automatiquement le nouveau firmware. Désactivez cette option si vous souhaitez utiliser votre propre firmware.
+      maximum_compatibility: Activer la compatibilité maximale
+      maximum_compatibility_hint: Résout les problèmes d'affichage causés par certaines puces de pilote e-ink. Désactive le rafraîchissement rapide. Firmware 1.6.0+ requis.
+      sleep_mode: Mode Veille
+      sleep_mode_hint: Ajustez la fréquence de rafraîchissement pour réduire les distractions et augmenter l'autonomie de la batterie.
       sleep_screen: Écran de veille
-      special_function: Fonction spéciale
-      special_function_hint: Définissez une fonction de double-clic pour le bouton situé à l'arrière de votre appareil.
-      special_function_learn_more: En apprendre plus à propos des fonctions spéciales __ici__.
+      special_function: Action spéciale
+      special_function_hint: Définissez une action personnalisée pour le bouton situé à l'arrière de votre appareil.
+      special_function_learn_more: En savoir plus sur les actions spéciales __ici__.
       unlink: Dissocier
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Êtes-vous sûr ? Cela supprimera tous les paramètres de plugins et éléments de playlist sous-jacents, afin que l'appareil puisse être ajouté à un autre compte.
       unlink_device: Dissocier l'appareil
       unlink_device_hint: Dissocier un appareil TRMNL permet de le revendre ou de le donner en toute sécurité.
-      unlink_device_learn_more: Follow the full guide __here__.
+      unlink_device_learn_more: Suivez le guide complet __ici__.
       visibility: Visibilité
-      visibility_hint: Mettre son appareil TRMNL en miroir en changeant la configuration ci-dessous.
+      visibility_hint: Synchroniser votre appareil TRMNL en changeant la configuration ci-dessous.
       your_device: Votre TRMNL
       upgrade_og:
-        title: Upgrade to 2-bit Display Available
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
-        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
-        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
-        cta: Upgrade to TRMNL OG (2-bit)
+        title: Mise à niveau vers écran 2 bits disponible
+        sub_title: Votre appareil peut être mis à niveau pour prendre en charge un affichage en niveaux de gris amélioré avec 4 niveaux au lieu de 2.
+        warning_1: Je comprends que cette mise à niveau est <strong>irréversible</strong> et ne peut pas être annulée.
+        warning_2: Je comprends qu'il s'agit d'une opération <strong>risquée</strong> qui peut endommager mon appareil.
+        cta: Mettre à niveau vers TRMNL OG (2 bits)
     index:
       title: Appareils
       tagline: Vos appareils TRMNL
       add_device_modal_title: Ajouter un nouvel appareil
-      add_first_device: Commencez en ajoutant votre premier appareil !
+      add_first_device: Commencez en ajoutant votre premier appareil !
     new:
       title: Ajouter un nouvel appareil
       description: Entrez votre ID d'appareil pour ajouter un nouveau TRMNL à votre compte.
@@ -212,11 +212,11 @@ fr:
       error: Erreur lors de l'identification de l'appareil
       success: Appareil identifié avec succès
     mirror:
-      error: Erreur lors de la mise en miroir de l'appareil
+      error: Erreur lors de la synchronisation de l'appareil
       error_not_shared: L'appareil ciblé n'est pas visible
-      error_oneself: Ne peut pas se mettre en miroir avec lui-même
-      success: Appareil %{friendly_id} mis en miroir avec succès
-      success_removed: Mise en miroir supprimée
+      error_oneself: Ne peut pas se synchroniser avec lui-même
+      success: Appareil %{friendly_id} synchronisé avec succès
+      success_removed: Association supprimée
     switch:
       error: Erreur lors du changement d'appareil
       success: Appareil changé avec succès
@@ -233,34 +233,34 @@ fr:
       device: Appareil
       dump: Message
       id: ID
-      private_plugins: Extensions Privées
+      private_plugins: Plugins privés
       source: Source
       time: Heure
   markups:
     console_logs:
       js_logs: JS Logs
     form:
-      back_to_plugin_settings: Retour aux paramètres de l'extension
+      back_to_plugin_settings: Retour aux paramètres du plugin
       design_system: Utilisez notre système de design natif
       design_system_docs: Documentation système de design
-      dirty_confirm: Vous avez des modifications non enregistrées. Êtes-vous sûr·e de vouloir quitter cette page ?
+      dirty_confirm: Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir quitter cette page ?
       edit_markup: Modifier le balisage
       edit_markup_for_plugin: Modifier le balisage pour %{plugin_setting_name}
       edit_markup_please_save_first: Enregistrez avant de modifier le balisage
       edit_markup_without_preview: Modifier le balisage (sans aperçu)
       error_rendering_markup: Erreur de rendu du balisage
       fix_indentation: Corriger l'indentation
-      go_to_preview: Go To Preview
+      go_to_preview: Aller à l'aperçu
       live_preview: Aperçu en direct
       no_changes_to_save: Pas de modifications à enregistrer
-      pop_out_preview: Pop Out Preview
+      pop_out_preview: Aperçu détaché
       quickstart_examples: Exemples de démarrage rapide
-      quickstart_example_applied: Appliqué !
+      quickstart_example_applied: Appliqué !
       quickstart_use_this_example: Utiliser cet exemple
       revert: Annuler
-      revert_confirm: Êtes-vous sûr·e de vouloir annuler ? Toutes modifications non enregistrées seront perdues.
+      revert_confirm: Êtes-vous sûr de vouloir annuler ? Toutes modifications non enregistrées seront perdues.
       save_changes: Enregistrer les modifications (⌘﹢S)
-      separate_preview: Preview is open in a separate window
+      separate_preview: L'aperçu est ouvert dans une fenêtre séparée
     merge_variables:
       your_variables: Vos variables
     no_merge_variables:
@@ -281,8 +281,8 @@ fr:
       error: Code OTP invalide
     verify_otp:
       verify: Vérifier
-      reset: Reset MFA
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
+      reset: Réinitialiser l'A2F
+      reset_instructions: Cliquez sur le bouton à l'arrière de votre TRMNL pour générer un code de réinitialisation
       success: A2F validée avec succès
       error: Code OTP invalide
   playlist_items:
@@ -290,64 +290,64 @@ fr:
       title: Playlist
       tagline: Choisir ce qui est affiché
       add_a_group: Ajouter un groupe
-      add_a_plugin: Ajouter une extension
-      add_first_device_cta: Commencez par __ajouter__ votre premier appareil TRMNL !
+      add_a_plugin: Ajouter un plugin
+      add_first_device_cta: Commencez par __ajouter__ votre premier appareil TRMNL !
       add_to_playlist: Ajouter à la playlist
-      create_first_playlist_cta: Créez votre playlist après avoir __connecté__ votre première extension !
-      custom: Custom
-      device_default: Device default
+      create_first_playlist_cta: Créez votre playlist après avoir __connecté__ votre premier plugin !
+      custom: Personnalisé
+      device_default: Configuration par défaut # I would need to see where this is in the UI to be sure
       display_period_from: Afficher entre
       display_period_to: et
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
-      never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      display_period_validation: L'heure de début doit précéder l'heure de fin. Créez un autre groupe pour couvrir les heures de nuit.
+      every: Tous les
+      never_skip: Ne jamais ignorer les écrans
+      smart_playlist: Playlist intelligente
+      smart_playlist_hint: Ignore automatiquement les écrans dont le contenu n'a pas changé depuis un moment.
       skip_after:
-        one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        one: Ignorer les écrans inchangés après 1 jour
+        other: Ignorer les écrans inchangés après %{count} jours
     playlist_item:
-      adjust_schedule: Adjust schedule
-      delete: Êtes-vous sûr·e de vouloir supprimer cet élément ? L'extension restera connectée mais ne s'affichera plus sur votre appareil.
+      adjust_schedule: Ajuster les horaires
+      delete: Êtes-vous sûr de vouloir supprimer cet élément ? Le plugin restera connecté mais ne s'affichera plus sur votre appareil.
       displayed_now: Actuellement affiché
       not_displayed_yet: Pas encore affiché
       remove_from_playlist: Retirer de la playlist
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      hide_playlist: Masquer cet élément
+      show_playlist: Afficher cet élément
     create:
       error: Échec de la mise à jour de la playlist
       success: Playlist mise à jour
     destroy:
       error: Erreur lors de la suppression de l'élément de la playlist
-      success: Extension retirée de la playlist
+      success: Plugin retiré de la playlist
     toggle_visibility:
-      success: Playlist item %{change}
+      success: Élément de playlist %{change}
     duplicate:
-      success: Playlist duplicated
+      success: Playlist dupliquée
     sort:
-      success: Playlist order updated
+      success: Ordre de la playlist mis à jour
     set_preferences:
-      success: Smart playlist preference updated
+      success: Préférences de la playlist intelligente mises à jour
     update:
       success: Ordre de la playlist mis à jour
   plugins:
     index:
-      title: Extensions
-      tagline: Qu'allez-vous mettre sur votre TRMNL ?
+      title: Plugins
+      tagline: Qu'allez-vous afficher sur votre TRMNL ?
       available: Disponible
-      connected: Connectée
+      connected: Connecté
       recipes: Recettes
-      recipes_hint: Extensions privées créées par des membres de la communauté pouvant être installées en 1 clic. __En apprendre plus__.
+      recipes_hint: Plugins privés créés par des membres de la communauté pouvant être installés en 1 clic. __En apprendre plus__.
     search:
-      placeholder: Rechercher des extensions
+      placeholder: Rechercher des plugins
     my:
       index:
-        title: Mes extensions
-        tagline: Développez des plugins pour le marketplace
+        title: Mes plugins
+        tagline: Développer des plugins pour le marketplace
       card:
         connections: connexions
         install: Installer
-        review_are_you_sure: Êtes-vous sûr·e ? L'équipe TRMNL va le tester et vous contactera en cas de questions.
+        review_are_you_sure: Êtes-vous sûr ? L'équipe TRMNL va le tester et vous contactera en cas de questions.
         submit_for_review: Soumettre pour revue
     new:
       title: Créer un nouveau plugin
@@ -355,58 +355,58 @@ fr:
       name: Nom
       category: Catégorie
       category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
+      refresh_every: Intervalle de rafraîchissement pris en charge
+      refresh_every_hint: L'intervalle de rafraîchissement le plus rapide que votre plugin peut prendre en charge.
       description: Description
       description_hint: Maximum 50 caractères
       icon: Icône
       icon_hint: 512x512px recommandé
-      installation_url: Installation URL
+      installation_url: URL d'installation
       installation_url_hint: En apprendre plus sur le processus d'installation __ici__.
       installation_success_webhook_url: URL du webhook du succès de l'installation
       knowledge_base_url: URL de la base de connaissance
-      management_url: URL de gestion de l'extension
+      management_url: URL de gestion du plugin
       management_url_hint: En apprendre plus sur le processus de gestion __ici__.
-      markup_url: URL du balisage de l'extension
+      markup_url: URL du balisage du plugin
       markup_url_hint: En apprendre plus sur la génération d'écran __ici__.
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
+      no_screen_padding: Aucun espacement d'écran
+      no_screen_padding_hint: Supprime l'espacement extérieur en mode plein écran.
       uninstallation_webhook_url: URL du webhook de désinstallation
     edit:
-      title: Éditer l'extension
-      tagline: Mettre à jour les détails de votre extension.
+      title: Modifier le plugin
+      tagline: Mettre à jour les détails de votre plugin.
       name: Nom
       description: Description
   plugin_recipes:
-    connected: Recipe connected
+    connected: Recette connectée
     connections:
-      one: Connection
-      other: Connections
+      one: Connexion
+      other: Connexions
     forks:
-      one: Fork
-      other: Forks
+      one: Duplication
+      other: Duplications
     new:
       error: Recette introuvable
   plugin_settings:
-    active: Active
-    copy_are_you_sure: Êtes-vous sûr·e de vouloir copier ce paramètre ?
-    delete_are_you_sure: Êtes-vous sûr·e de vouloir supprimer ce paramètre ?
-    delete: Cela va entièrement supprimer les paramètres de l'extension. Pour simplement masquer l'extension de votre appareil, supprimez-la plutôt de la playlist.
-    inactive: Inactive
-    no_plugin_settings_found: Aucun paramètre pour l'extension trouvé.
+    active: Actif
+    copy_are_you_sure: Êtes-vous sûr de vouloir copier ce paramètre ?
+    delete_are_you_sure: Êtes-vous sûr de vouloir supprimer ce paramètre ?
+    delete: Cela va entièrement supprimer les paramètres du plugin. Pour simplement masquer le plugin de votre appareil, supprimez-le plutôt de la playlist.
+    inactive: Inactif
+    no_plugin_settings_found: Aucun paramètre pour le plugin trouvé.
     refreshing_now_please_wait: Actualisation en cours, veuillez recharger cette page dans quelques secondes.
-    reset_credentials: "%{plugin_name} account reset successfully"
+    reset_credentials: "Compte %{plugin_name} réinitialisé avec succès"
     form:
-      active_hint: Affiche ou masque cette instance du plugin de l'appareil
-      advanced_settings: Advanced Settings
+      active_hint: Afficher ou masquer cette instance de plugin sur votre appareil
+      advanced_settings: Paramètres avancés
       back_to_plugin: Retour à %{plugin}
-      back_to_plugins: Retour aux extensions
+      back_to_plugins: Retour aux plugins
       connect_with: Se connecter avec %{plugin}
-      debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
-      debug_logs_enabled_link: View logs
+      debug_logs: Logs de débogage
+      debug_logs_click_here: Cliquez ici
+      debug_logs_click_here_hint: pour activer les logs de débogage pour cette instance de plugin.
+      debug_logs_enabled: Logs de débogage activés pour %{hours} heures.
+      debug_logs_enabled_link: Voir les logs
       disconnect_account: Déconnecter le compte
       manage_plugin: Configurer %{plugin}
       force_refresh: Forcer le rafraîchissement
@@ -414,81 +414,81 @@ fr:
       force_refresh_click_here: Cliquez ici
       force_refresh_click_here_hint: pour générer un nouvel écran immédiatement
       learn_more: Plus d'informations sur ce plugin dans notre base de connaissances
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
+      learn_more_fork: Ce plugin a été dupliqué à partir d'une Recette.
+      learn_more_fork_original: Voir l'original
+      learn_more_recipe_author: Besoin d'aide ? Contactez %{recipe_author} sur Discord.
+      learn_more_recipe_long: Ce plugin est une Recette communautaire et n'est pas maintenu par TRMNL.
+      learn_more_recipe_short: "Note : ce plugin est une Recette."
       linked_account: Compte lié
       linked_account_success: Lié avec succès à %{plugin_name}
       link_oauth: Lier un compte
       link_oauth_hint: Avant de continuer, suivez la procédure d'autorisation sécurisée fournie par %{plugin}
-      multiple_instances_hint: Ce plugin supporte plusieurs instances.
+      multiple_instances_hint: Ce plugin prend en charge plusieurs instances.
       name: Nom
-      name_hint: Lui donner un nom pour l'identifier plus facilement
-      parse: Parse
-      parse_save_first: Parse (Save plugin first)
-      parsed: Parsed
-      plugin_uuid: UUID de l'extension
-      plugin_uuid_hint: Utilisez ceci pour faire des requêtes à l'API Webhook.
+      name_hint: Donnez-lui un nom pour l'identifier plus facilement
+      parse: Analyser
+      parse_save_first: Analyser (enregistrez d'abord le plugin)
+      parsed: Analysé
+      plugin_uuid: UUID du plugin
+      plugin_uuid_hint: Utilisez ceci pour effectuer des requêtes à l'API Webhook.
       preview: Prévisualisation - votre appareil affichera les données actuelles
-      recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
+      recipe_cta_heading_published: Ce plugin est une Recette
+      recipe_cta_heading_in_review: Recette en cours de validation
+      recipe_cta_heading_not_published: Publier comme Recette ?
+      recipe_cta_body_published: Les modifications seront appliquées aux installations existantes et futures (y compris les duplications).
+      recipe_cta_body_in_review: Ce plugin a été soumis à notre équipe. Merci de patienter.
+      recipe_cta_body_not_published: Soumettez ce plugin pour que d'autres puissent l'installer. __En savoir plus__.
+      recipe_cta_confirm: Êtes-vous sûr ? Notre équipe va l'examiner et vous recontacter dans quelques jours. Vous pouvez continuer à apporter des modifications.
       refresh_rate: Taux de rafraîchissement
-      refresh_rate_hint: Définit la fréquence à laquelle cette instance de l'extension récupérera les nouvelles données
+      refresh_rate_hint: Définit la fréquence à laquelle cette instance de plugin récupérera les nouvelles données
       refreshed: Rafraîchi
-      remove_plugin: Retirer l'extension
-      remove_plugin_hint: Retirer une extension la retirera aussi de votre playlist
+      remove_plugin: Retirer le plugin
+      remove_plugin_hint: Retirer un plugin le retirera aussi de votre playlist
       synced: Synchronisé
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
+      refresh_paused: Rafraîchissement en pause
+      refresh_paused_hint: Le rafraîchissement automatique est en pause. Ajoutez à la playlist pour recommencer.
+      refresh_paused_mashup: Rafraîchissement des combinaisons
+      refresh_paused_mashup_hint: Rafraîchissement automatique en pause pour le plein écran. Les combinaisons se mettent à jour.
+      refresh_stopped: Rafraîchissement automatique arrêté. Veuillez corriger l'erreur du plugin pour continuer.
       visit_docs: Visiter la documentation
     import:
-      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
-      missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: "%{filename} is too large"
-      malformed: "%{filename} is malformed"
+      archive_too_large: Le fichier ZIP est trop volumineux (%{max_mb} MB maximum)
+      missing_entry: Le fichier ZIP ne contient pas %{filename}
+      entry_too_large: "%{filename} est trop volumineux"
+      malformed: "%{filename} est corrompu"
     create:
-      success: Extension créée et ajoutée à votre
+      success: Plugin créé et ajouté à votre
       playlist: playlist
     destroy:
-      success: Extension supprimée
+      success: Plugin supprimé
     handle_canceled_consent: Consentement retiré, veuillez réessayer
     update:
-      success: Configuration de l'extension mise à jour avec succès
+      success: Configuration du plugin mise à jour avec succès
     add_to_playlist:
-      success: Extension ajoutée à la playlist
+      success: Plugin ajouté à la playlist
   referral_code:
     create:
       request_received: Demande reçue, vérifiez votre boîte de réception
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
-      fork: Fork
+      newest_to_oldest: Du plus récent au plus ancien
+      oldest_to_newest: Du plus ancien au plus récent
+      most_popular: Les plus populaires
+      install: Installer
+      fork: Dupliquer
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: Ajouter un horaire personnalisé
+      append: Et pendant…
+      no_schedule: Cet écran sera toujours affiché.
+      some_schedule: Afficher cet écran uniquement pendant…
+      to: à
+      copy_prompt: Copier l'horaire depuis…
   upgrade:
     index:
-      title: 'Mettre à niveau l''appareil:'
-      tagline: Débloquez des extensions personnalisées et __plus__.
+      title: "Mise à niveau de l'appareil :"
+      tagline: Débloquez des plugins personnalisés et __plus encore__.
       pay: Payer
-      error: L'appareil %{device_name} est déjà mis à niveau, changez d'appareil
+      error: L'appareil %{device_name} est déjà mis à niveau, veuillez en choisir un autre
     confirm:
-      success: Le complément édition développeur est maintenant activé
+      success: L'option Édition développeur est maintenant activée
