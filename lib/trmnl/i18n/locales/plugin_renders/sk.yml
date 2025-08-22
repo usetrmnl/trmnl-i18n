@@ -1,0 +1,217 @@
+---
+sk:
+  renders:
+    and_x_more_prefix: A
+    and_x_more_suffix: ďalšie
+    days_left_year:
+      title: Zostávajúce dni v roku
+      days_passed: Uplynuté dni
+      days_left: Zostáva dní
+    lunar_calendar:
+      title: Lunárny kalendár
+      age: Lunárny vek
+      current_phase: Aktuálna fáza
+      illumination: Osvetlenie Mesiaca
+      next_full_moon: Najbližší spln
+      next_new_moon: Najbližší nov
+      next_phase: Ďalšia fáza
+      next_phase_short: Ďalšia
+      moon_phases:
+        new_moon: Nov
+        waxing_crescent: Pribúdajúci polmesiac
+        first_quarter: Prvá štvrť
+        waxing_gibbous: Pribúdajúci mesiac
+        full_moon: Spln
+        waning_gibbous: Ubúdajúci mesiac
+        third_quarter: Posledná štvrť
+        waning_crescent: Ubúdajúci polmesiac
+    parcel:
+      delivery_by: Doručenie do
+      empty: Žiadne zásielky
+      errors:
+        api: Chyba systému zásielok
+        http: HTTP chyba %{code}
+        internal: Interná chyba
+      filter_modes:
+        active:
+          one: Aktívna zásielka
+          other: Aktívne zásielky
+        recent:
+          one: Nedávna zásielka
+          other: Nedávne zásielky
+      status:
+        delivered: Doručené
+        delivery_exception: Problém pri doručení
+        expecting_pickup: Čaká na vyzdvihnutie
+        failed_delivery_attempt: Neúspešný pokus o doručenie
+        frozen: Pozastavené
+        in_transit: Na ceste
+        information_received: Informácie prijaté
+        not_found: Nenájdené
+        out_for_delivery: Doručuje sa
+        unknown: Neznáme
+      today: Dnes
+      tomorrow: Zajtra
+    weather:
+      title: Počasie
+      temperature: Teplota
+      feels_like: Pocitová teplota
+      humidity: Vlhkosť
+      low: Minimum
+      high: Maximum
+      uv: UV index
+      right_now: Aktuálne
+      today: Dnes
+      tomorrow: Zajtra
+      weatherapi:
+        uv:
+          low: Nízky
+          moderate: Mierny
+          high: Vysoký
+          very_high: Veľmi vysoký
+          extreme: Extrémny
+        conditions:
+        - code: 1000
+          day: Jasno
+          night: Jasná obloha
+        - code: 1003
+          day: Polooblačno
+          night: Polooblačno
+        - code: 1006
+          day: Oblačno
+          night: Oblačno
+        - code: 1009
+          day: Zatiahnuté
+          night: Zatiahnuté
+        - code: 1030
+          day: Hmla
+          night: Hmla
+        - code: 1063
+          day: Slabý dážď
+          night: Slabý dážď
+        - code: 1066
+          day: Slabé sneženie
+          night: Slabé sneženie
+        - code: 1069
+          day: Dážď so snehom
+          night: Dážď so snehom
+        - code: 1072
+          day: Mrznúce mrholenie
+          night: Mrznúce mrholenie
+        - code: 1087
+          day: Búrka
+          night: Búrka
+        - code: 1114
+          day: Vietor so snehom
+          night: Vietor so snehom
+        - code: 1117
+          day: Snehová búrka
+          night: Snehová búrka
+        - code: 1135
+          day: Hmla
+          night: Hmla
+        - code: 1147
+          day: Mrznúca hmla
+          night: Mrznúca hmla
+        - code: 1150
+          day: Slabé mrholenie
+          night: Slabé mrholenie
+        - code: 1153
+          day: Mrholenie
+          night: Mrholenie
+        - code: 1168
+          day: Mrznúce mrholenie
+          night: Mrznúce mrholenie
+        - code: 1171
+          day: Silný mráz
+          night: Silný mráz
+        - code: 1180
+          day: Slabý dážď
+          night: Slabý dážď
+        - code: 1183
+          day: Slabý dážď
+          night: Slabý dážď
+        - code: 1186
+          day: Mierny dážď
+          night: Mierny dážď
+        - code: 1189
+          day: Mierny dážď
+          night: Mierny dážď
+        - code: 1192
+          day: Silný dážď
+          night: Silný dážď
+        - code: 1195
+          day: Silný dážď
+          night: Silný dážď
+        - code: 1198
+          day: Slabý mráz
+          night: Slabý mráz
+        - code: 1201
+          day: Silný mráz
+          night: Silný mráz
+        - code: 1204
+          day: Slabý dážď so snehom
+          night: Slabý dážď so snehom
+        - code: 1207
+          day: Silný dážď so snehom
+          night: Silný dážď so snehom
+        - code: 1210
+          day: Slabé sneženie
+          night: Slabé sneženie
+        - code: 1213
+          day: Slabé sneženie
+          night: Slabé sneženie
+        - code: 1216
+          day: Mierne sneženie
+          night: Mierne sneženie
+        - code: 1219
+          day: Mierne sneženie
+          night: Mierne sneženie
+        - code: 1222
+          day: Silné sneženie
+          night: Silné sneženie
+        - code: 1225
+          day: Silné sneženie
+          night: Silné sneženie
+        - code: 1237
+          day: Ľadové krúpy
+          night: Ľadové krúpy
+        - code: 1240
+          day: Slabý dážď
+          night: Slabý dážď
+        - code: 1243
+          day: Silný dážď
+          night: Silný dážď
+        - code: 1246
+          day: Prívalový dážď
+          night: Prívalový dážď
+        - code: 1249
+          day: Slabý dážď so snehom
+          night: Slabý dážď so snehom
+        - code: 1252
+          day: Silný dážď so snehom
+          night: Silný dážď so snehom
+        - code: 1255
+          day: Slabé sneženie
+          night: Slabé sneženie
+        - code: 1258
+          day: Silné sneženie
+          night: Silné sneženie
+        - code: 1261
+          day: Slabý ľad
+          night: Slabý ľad
+        - code: 1264
+          day: Silný ľad
+          night: Silný ľad
+        - code: 1273
+          day: Búrka s dažďom
+          night: Búrka s dažďom
+        - code: 1276
+          day: Búrka s dažďom
+          night: Búrka s dažďom
+        - code: 1279
+          day: Búrka so snehom
+          night: Búrka so snehom
+        - code: 1282
+          day: Búrka so snehom
+          night: Búrka so snehom
