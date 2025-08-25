@@ -46,6 +46,7 @@ raw:
   loading: loading
   login: login
   log_out: log_out
+  manage: manage
   minimum_characters: minimum_characters
   mins: mins
   my_playlist: my_playlist
@@ -57,9 +58,11 @@ raw:
   reset_password: reset_password
   save: save
   section: section
+  settings: settings
   sign_in: sign_in
   sign_up: sign_up
   something_went_wrong: something_went_wrong
+  subscribe: subscribe
   tech_support: support
   update: update
   view: view
@@ -75,8 +78,14 @@ raw:
       api_key_confirm: account.index.api_key_confirm
       api_key_hint: account.index.api_key_hint
       api_key_label: account.index.api_key_label
+      api_key_not_generated: account.index.api_key_not_generated
       api_key_reset: account.index.api_key_reset
       api_key: account.index.api_key
+      beta_features: account.index.beta_features
+      beta_features_hint: account.index.beta_features_hint
+      discord_community: account.index.discord_community
+      discord_username: account.index.discord_username
+      discord_username_hint: account.index.discord_username_hint
       email_address: account.index.email_address
       refer_and_earn: account.index.refer_and_earn
       refer_and_earn_hint: account.index.refer_and_earn_hint
@@ -93,8 +102,13 @@ raw:
       enable_2fa_hint: account.index.enable_2fa_hint __Click here__.
       disable_2fa: account.index.disable_2fa
       disable_2fa_hint: account.index.disable_2fa_hint
+      plus_subscription: account.index.plus_subscription
+      plus_subscription_hint: account.index.plus_subscription_hint
+      plus_subscription_modify: account.index.plus_subscription_modify
       session: account.index.session
       session_hint: account.index.session_hint
+      show_title_bar: account.index.show_title_bar
+      show_title_bar_hint: account.index.show_title_bar_hint
       time_zone: account.index.time_zone
       time_zone_hint: account.index.time_zone_hint
       locale: account.index.locale
@@ -129,6 +143,7 @@ raw:
       new_and_popular: dashboard.plugins.new_and_popular
     shop:
       title: dashboard.shop.title
+      need_another: dashboard.shop.need_another
     time_saved:
       title: dashboard.time_saved.title
       cta: dashboard.time_saved.cta
@@ -164,6 +179,7 @@ raw:
       logs: devices.edit.logs
       logs_hint: devices.edit.logs_hint
       low_battery_email_notification: devices.edit.low_battery_email_notification
+      low_battery_email_notification_hint: devices.edit.low_battery_email_notification_hint
       mirror: devices.edit.mirror
       mirror_device: devices.edit.mirror_device
       mirror_device_hint: devices.edit.mirror_device_hint
@@ -176,6 +192,8 @@ raw:
       sleep_mode: devices.edit.sleep_mode
       sleep_mode_hint: devices.edit.sleep_mode_hint
       sleep_screen: devices.edit.sleep_screen
+      sleep_screen_tooltip: devices.edit.sleep_screen_tooltip
+      sleep_screen_hint: devices.edit.sleep_screen_hint
       special_function: devices.edit.special_function
       special_function_hint: devices.edit.special_function_hint
       special_function_learn_more: devices.edit.special_function_learn_more

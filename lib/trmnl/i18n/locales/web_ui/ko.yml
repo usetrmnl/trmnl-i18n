@@ -46,6 +46,7 @@ ko:
   loading: 로딩중
   login: 로그인
   log_out: 로그아웃
+  manage: Manage
   minimum_characters: 최소 글자 수
   mins: mins
   my_playlist: 내 플레이리스트
@@ -57,9 +58,11 @@ ko:
   reset_password: 비밀번호 재설정
   save: 저장
   section: 섹션
+  settings: Settings
   sign_in: 로그인하기
   sign_up: 가입하기
   something_went_wrong: 바르게 작동되지 않음
+  subscribe: Subscribe
   tech_support: 도움
   update: 새로 저장
   view: 보기
@@ -75,8 +78,14 @@ ko:
       api_key_confirm: 당신의 API 키를 다시 생성하기를 원하는게 맞습니까? 이전에 사용하던 것은 사용 불가해집니다.
       api_key_hint: 당신의 로컬 환경에서 어떻게 설정할 수 있는지 이 __문서__를 통해 알아보세요.
       api_key_label: The credential for authenticating local development tools
+      api_key_not_generated: "(none yet)"
       api_key_reset: 다시 생성하기
       api_key: API Key
+      beta_features: Beta Features
+      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      discord_community: Discord Community
+      discord_username: What's your Discord username?
+      discord_username_hint: May be used for support, attribution on published Recipes, etc.
       email_address: 이메일 주소
       refer_and_earn: 추천하고 보상받기
       refer_and_earn_hint: 개인 맞춤형 쿠폰으로 TRMNL을 선물하세요. 사용 횟수 당 보상이 주어지고 월별 지급됩니다.
@@ -93,8 +102,13 @@ ko:
       enable_2fa_hint: OTP 사용을 하시려면 __여기를 누르세요__.
       disable_2fa: 2단계 보안인증 비활성화하기
       disable_2fa_hint: 이 기능을 비활성화하려면 유효한 OTP와 현재 비밀번호를 입력하세요.
+      plus_subscription: TRMNL+ Subscription
+      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
+      plus_subscription_modify: Want to update your payment method or cancel?
       session: 세션
       session_hint: 현재 %{user}로 로그인 되어있습니다.
+      show_title_bar: Show title bar
+      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
       time_zone: 시간대
       time_zone_hint: 기기 새로 고침 비율과 절전 모드를 결정하는데 쓰입니다.
       locale: 로컬라이징
@@ -129,6 +143,7 @@ ko:
       new_and_popular: 인기 급상승 & 새 플러그인
     shop:
       title: 쇼핑
+      need_another: Need another TRMNL?
     time_saved:
       title: 절약한 시간
       cta: 더 알아보기
@@ -164,6 +179,7 @@ ko:
       logs: 기록
       logs_hint: 에러 기록의 라이브 피드로 당신의 디바이스와 플러그인을 디버그 하세요.
       low_battery_email_notification: 낮은 베터리 이메일 알림
+      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
       mirror: 거울모드
       mirror_device: 다른 기기에 거울모드
       mirror_device_hint: 같은 플레이리스트를 띄우려면 (공유가능) 기기 ID를 알려주세요. 당신의 플레이리스트는 변함없이 보여질 것입니다.
@@ -176,6 +192,8 @@ ko:
       sleep_mode: 절전 모드
       sleep_mode_hint: 당신의 집중력과 배터리 수명을 최적화하기 위해 새로 고침 비율을 조정합니다.
       sleep_screen: 절전 화면
+      sleep_screen_tooltip: Enable Sleep Mode to use this feature
+      sleep_screen_hint: Display a sleep screen during sleep mode hours.
       special_function: 특별 기능
       special_function_hint: 당신 기기 뒷편의 버튼의 더블 클릭 기능을 셋팅하세요.
       special_function_learn_more: __여기__를 눌러 특별 기능에 대해 더 알아보세요.

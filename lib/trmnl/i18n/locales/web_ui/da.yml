@@ -46,6 +46,7 @@ da:
   loading: Indlæser
   login: Log ind
   log_out: Log ud
+  manage: Manage
   minimum_characters: minimum tegn
   mins: min
   my_playlist: Min playliste
@@ -57,9 +58,11 @@ da:
   reset_password: Nulstil min adgangskode
   save: Gem
   section: Sektion
+  settings: Settings
   sign_in: Log ind
   sign_up: Tilmeld
   something_went_wrong: Noget gik galt
+  subscribe: Subscribe
   tech_support: Support
   update: Opdater
   view: Vis
@@ -75,8 +78,14 @@ da:
       api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
       api_key_hint: See __the docs__ to learn how to configure your local environment.
       api_key_label: The credential for authenticating local development tools
+      api_key_not_generated: "(none yet)"
       api_key_reset: Regenerate
       api_key: API Key
+      beta_features: Beta Features
+      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      discord_community: Discord Community
+      discord_username: What's your Discord username?
+      discord_username_hint: May be used for support, attribution on published Recipes, etc.
       email_address: Mailadresse
       refer_and_earn: Henvis og tjen
       refer_and_earn_hint: Giv gaven af TRMNL med en personlig kupon. Tjen pr. brug, betalt månedligt.
@@ -93,8 +102,13 @@ da:
       enable_2fa_hint: __Klik her__ for at aktivere OTP.
       disable_2fa: Deaktiver 2FA
       disable_2fa_hint: Angiv gyldig OTP og nuværende adgangskode ovenfor for at deaktivere denne funktion.
+      plus_subscription: TRMNL+ Subscription
+      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
+      plus_subscription_modify: Want to update your payment method or cancel?
       session: Session
       session_hint: Du er logget ind som %{user}
+      show_title_bar: Show title bar
+      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
       time_zone: Tidszone
       time_zone_hint: Bestemmer opdateringshastigheder og enhedens sovetid.
       locale: Lokalitet
@@ -129,6 +143,7 @@ da:
       new_and_popular: Nye og populære
     shop:
       title: Butik
+      need_another: Need another TRMNL?
     time_saved:
       title: Tid sparet
       cta: Læs om
@@ -164,6 +179,7 @@ da:
       logs: Logfiler
       logs_hint: Fejlfinding af din enhed og plugins med en live feed af rå fejl-logfiler.
       low_battery_email_notification: Low Battery Email Notification
+      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
       mirror: Spejl
       mirror_device: Spejl en anden enhed
       mirror_device_hint: Angiv et (delbart) enheds-ID for at spejle dens playliste. Din playliste vil stadig blive vist.
@@ -176,6 +192,8 @@ da:
       sleep_mode: Dvaletilstand
       sleep_mode_hint: Juster din opdateringshastighed for at optimere fokus og batterilevetid.
       sleep_screen: Dvaleskærmbillede
+      sleep_screen_tooltip: Enable Sleep Mode to use this feature
+      sleep_screen_hint: Display a sleep screen during sleep mode hours.
       special_function: Specialfunktion
       special_function_hint: Indstil en dobbeltklik-funktion for knappen på bagsiden af din enhed.
       special_function_learn_more: Læs mere om specialfunktioner __her__.

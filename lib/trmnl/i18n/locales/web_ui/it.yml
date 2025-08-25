@@ -46,6 +46,7 @@ it:
   loading: Caricamento
   login: Accedi
   log_out: Esci
+  manage: Manage
   minimum_characters: caratteri minimi
   mins: min
   my_playlist: My Playlist
@@ -57,9 +58,11 @@ it:
   reset_password: Reimposta password
   save: Salva
   section: Sezione
+  settings: Settings
   sign_in: Accedi
   sign_up: Registrati
   something_went_wrong: Qualcosa è andato storto
+  subscribe: Subscribe
   tech_support: Supporto
   update: Aggiorna
   view: View
@@ -75,8 +78,14 @@ it:
       api_key_confirm: Sei sicuro di voler ricreare la tua API Key? La vecchia chiave verrà invalidata.
       api_key_hint: Vai __alla documentazione__ per imparare a configurare il tuo ambiente locale.
       api_key_label: Le credenziali per autenticarsi con i tool di sviluppo.
+      api_key_not_generated: "(none yet)"
       api_key_reset: Ricrea
       api_key: API Key
+      beta_features: Beta Features
+      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      discord_community: Discord Community
+      discord_username: What's your Discord username?
+      discord_username_hint: May be used for support, attribution on published Recipes, etc.
       email_address: Indirizzo Email
       refer_and_earn: Consiglia e Guadagna
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
@@ -93,8 +102,13 @@ it:
       enable_2fa_hint: __Clicca qui__ per abilitare l'OTP.
       disable_2fa: Disabilitare 2FA
       disable_2fa_hint: Fornisci un OTP valido e la password per disabilitare questa opzione.
+      plus_subscription: TRMNL+ Subscription
+      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
+      plus_subscription_modify: Want to update your payment method or cancel?
       session: Sessione
       session_hint: Sei connesso/a come %{user}
+      show_title_bar: Show title bar
+      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
       time_zone: Time Zone
       time_zone_hint: Determina la frequenza di aggiornamento e il periodo di riposo del dispositivo.
       locale: Lingua
@@ -129,6 +143,7 @@ it:
       new_and_popular: Nuovi e Popolari
     shop:
       title: Negozio
+      need_another: Need another TRMNL?
     time_saved:
       title: Tempo risparmiato
       cta: Maggiori informazioni
@@ -164,6 +179,7 @@ it:
       logs: Logs
       logs_hint: Effettua il debug del tuo dispositivo o plugin con un log degli errori in tempo reale.
       low_battery_email_notification: Notifica di batteria scarica per Email
+      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
       mirror: Duplica
       mirror_device: Duplica un altro Dispositivo
       mirror_device_hint: Indica un ID Dispositivo (condivisibile) per duplicare la sua playlist. La tua playlist rimarrà visibile.
@@ -172,10 +188,12 @@ it:
       ota_enabled: Abilita aggiornamenti OTA
       ota_enabled_hint: Installa automaticamente i nuovi firmware. Disabilita per utilizzare il tuo firmware
       maximum_compatibility: Abilita compatibilità massima
-      maximum_compatibility_hint:  Risolve problemi dello schermo causati da alcuni chip driver per e-ink. Disattiva il fast refresh. Richiede Firmware 1.6.0 o successivo.
+      maximum_compatibility_hint: Risolve problemi dello schermo causati da alcuni chip driver per e-ink. Disattiva il fast refresh. Richiede Firmware 1.6.0 o successivo.
       sleep_mode: Modalità Riposo
       sleep_mode_hint: Regola la frequenza di aggiornamento per ottimizzare la concentrazione e la durata della batteria.
       sleep_screen: Schermata di riposo
+      sleep_screen_tooltip: Enable Sleep Mode to use this feature
+      sleep_screen_hint: Display a sleep screen during sleep mode hours.
       special_function: Funzione Speciale
       special_function_hint: Imposta la funzione al doppio click del pulsante sul retro del dispositivo.
       special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.

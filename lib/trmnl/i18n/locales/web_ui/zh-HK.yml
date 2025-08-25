@@ -46,6 +46,7 @@ zh-HK:
   loading: 載入中
   login: 登入
   log_out: 登出
+  manage: Manage
   minimum_characters: 字元（最少）
   mins: 分鐘
   my_playlist: 我的播放清單
@@ -57,9 +58,11 @@ zh-HK:
   reset_password: 重設密碼
   save: 儲存
   section: 章節
+  settings: Settings
   sign_in: 登入
   sign_up: 註冊
   something_went_wrong: 發生錯誤
+  subscribe: Subscribe
   tech_support: 支援
   update: 更新
   view: 查看
@@ -75,8 +78,14 @@ zh-HK:
       api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
       api_key_hint: See __the docs__ to learn how to configure your local environment.
       api_key_label: The credential for authenticating local development tools
+      api_key_not_generated: "(none yet)"
       api_key_reset: Regenerate
       api_key: API Key
+      beta_features: Beta Features
+      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      discord_community: Discord Community
+      discord_username: What's your Discord username?
+      discord_username_hint: May be used for support, attribution on published Recipes, etc.
       email_address: 電郵地址
       refer_and_earn: 推薦回贈計劃
       refer_and_earn_hint: 使用專屬優惠券與分享TRMNL。每次使用都可賺取收入，按月支付。
@@ -93,8 +102,13 @@ zh-HK:
       enable_2fa_hint: __按此__啟用OTP。
       disable_2fa: 停用雙重驗證(2FA)
       disable_2fa_hint: 如要停用，請提供有效的單次密碼(OTP)，並在上方輸入現時密碼。
+      plus_subscription: TRMNL+ Subscription
+      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
+      plus_subscription_modify: Want to update your payment method or cancel?
       session: 登入狀態
       session_hint: 你已登入為：%{user}
+      show_title_bar: Show title bar
+      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
       time_zone: 時區
       time_zone_hint: 用於判斷重新整理頻率及裝置睡眠時間。
       locale: 地區設定
@@ -129,6 +143,7 @@ zh-HK:
       new_and_popular: 最新及熱門項目
     shop:
       title: 商店
+      need_another: Need another TRMNL?
     time_saved:
       title: 已節省時間
       cta: 詳情
@@ -164,6 +179,7 @@ zh-HK:
       logs: 除錯記錄
       logs_hint: 提供即時串流的原始錯誤記錄，以偵錯你的裝置或外掛。
       low_battery_email_notification: Low Battery Email Notification
+      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
       mirror: 鏡像共享
       mirror_device: 鏡像共享另一部裝置
       mirror_device_hint: 輸入可共享(shareable)裝置的ID，以鏡像共享其播放清單。你的播放清單仍然會顯示。
@@ -176,6 +192,8 @@ zh-HK:
       sleep_mode: 睡眠模式
       sleep_mode_hint: 調整重新整理頻率，以提升專注度及電池續航時間。
       sleep_screen: 睡眠畫面
+      sleep_screen_tooltip: Enable Sleep Mode to use this feature
+      sleep_screen_hint: Display a sleep screen during sleep mode hours.
       special_function: 特別功能
       special_function_hint: 按兩下裝置背面的按鈕時，會執行特別功能。
       special_function_learn_more: __按此__了解特別功能。

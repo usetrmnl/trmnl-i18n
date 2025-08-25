@@ -46,6 +46,7 @@ ja:
   loading: 読み込み中
   login: ログイン
   log_out: ログアウト
+  manage: Manage
   minimum_characters: 最小文字数
   mins: 分
   my_playlist: マイプレイリスト
@@ -57,9 +58,11 @@ ja:
   reset_password: パスワードをリセット
   save: 保存
   section: セクション
+  settings: Settings
   sign_in: サインインする
   sign_up: サインアップ
   something_went_wrong: 問題が発生しました
+  subscribe: Subscribe
   tech_support: サポート
   update: 更新
   view: 表示
@@ -75,8 +78,14 @@ ja:
       api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
       api_key_hint: See __the docs__ to learn how to configure your local environment.
       api_key_label: The credential for authenticating local development tools
+      api_key_not_generated: "(none yet)"
       api_key_reset: Regenerate
       api_key: API Key
+      beta_features: Beta Features
+      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      discord_community: Discord Community
+      discord_username: What's your Discord username?
+      discord_username_hint: May be used for support, attribution on published Recipes, etc.
       email_address: メールアドレス
       refer_and_earn: お友達紹介プログラム
       refer_and_earn_hint: パーソナライズされたクーポンでTRMNLをプレゼントしましょう。利用ごとに報酬が発生し、毎月お支払いします。
@@ -93,8 +102,13 @@ ja:
       enable_2fa_hint: __こちらをクリック__してOTPを有効にします。
       disable_2fa: 2段階認証を無効にする
       disable_2fa_hint: この機能を無効にするには、上記の有効なOTPと現在のパスワードを入力してください。
+      plus_subscription: TRMNL+ Subscription
+      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
+      plus_subscription_modify: Want to update your payment method or cancel?
       session: セッション
       session_hint: 現在、%{user}でログインしています。
+      show_title_bar: Show title bar
+      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
       time_zone: タイムゾーン（時間帯）
       time_zone_hint: デバイスの更新頻度やスリープモードを決定するために使用します。
       locale: 言語設定
@@ -129,6 +143,7 @@ ja:
       new_and_popular: 新着＆人気のプラグイン
     shop:
       title: ショップ
+      need_another: Need another TRMNL?
     time_saved:
       title: 節約した時間
       cta: 詳しく見る
@@ -164,6 +179,7 @@ ja:
       logs: ログ
       logs_hint: 生のエラーログのライブフィードでデバイスとプラグインをデバッグします。
       low_battery_email_notification: Low Battery Email Notification
+      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
       mirror: ミラーモード
       mirror_device: 他のデバイスにミラーモードを適用する
       mirror_device_hint: 同じプレイリストを表示するには（共有可能）デバイスIDをお知らせください。あなたのプレイリストは変更なく表示されます。
@@ -176,6 +192,8 @@ ja:
       sleep_mode: スリープモード
       sleep_mode_hint: 集中力とバッテリー寿命を最適化するために、更新頻度を調整します。
       sleep_screen: スリープ画面
+      sleep_screen_tooltip: Enable Sleep Mode to use this feature
+      sleep_screen_hint: Display a sleep screen during sleep mode hours.
       special_function: 特別機能
       special_function_hint: デバイスの背面にあるボタンのダブルクリック機能を設定してください。
       special_function_learn_more: 特別機能について詳しくは__こちら__をクリックしてください。

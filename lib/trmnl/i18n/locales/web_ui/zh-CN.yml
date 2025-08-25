@@ -46,6 +46,7 @@ zh-CN:
   loading: 加载中
   login: 登陆
   log_out: 登出
+  manage: Manage
   minimum_characters: 最少字符
   mins: 分
   my_playlist: 我的播放列表
@@ -57,9 +58,11 @@ zh-CN:
   reset_password: 重置密码
   save: 保存
   section: 分区
+  settings: Settings
   sign_in: 登录
   sign_up: 退出
   something_went_wrong: 未知错误
+  subscribe: Subscribe
   tech_support: 技术支持
   update: 更新
   view: 查看
@@ -75,8 +78,14 @@ zh-CN:
       api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
       api_key_hint: See __the docs__ to learn how to configure your local environment.
       api_key_label: The credential for authenticating local development tools
+      api_key_not_generated: "(none yet)"
       api_key_reset: Regenerate
       api_key: API Key
+      beta_features: Beta Features
+      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      discord_community: Discord Community
+      discord_username: What's your Discord username?
+      discord_username_hint: May be used for support, attribution on published Recipes, etc.
       email_address: Email
       refer_and_earn: 返利
       refer_and_earn_hint: 通过个性化的优惠券赠送 TRMNL 设备。按使用次数付费，按月支付。
@@ -93,8 +102,13 @@ zh-CN:
       enable_2fa_hint: __点击此处__ 启用一次性口令（OTP）.
       disable_2fa: 禁用双重因子认证（2FA）
       disable_2fa_hint: 若需禁用此功能，请在上方提供有效的一次性口令（OTP）及当前密码。
+      plus_subscription: TRMNL+ Subscription
+      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
+      plus_subscription_modify: Want to update your payment method or cancel?
       session: 用户
       session_hint: 当前登陆用户名：%{user}
+      show_title_bar: Show title bar
+      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
       time_zone: 时区
       time_zone_hint: 用于自动调整刷新率与设备休眠
       locale: 本地化
@@ -129,6 +143,7 @@ zh-CN:
       new_and_popular: 热门插件
     shop:
       title: 店铺
+      need_another: Need another TRMNL?
     time_saved:
       title: 节省时间
       cta: 详细信息
@@ -164,6 +179,7 @@ zh-CN:
       logs: 日志
       logs_hint: Debug your device and plugins with a live feed of raw error logs.
       low_battery_email_notification: Low Battery Email Notification
+      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
       mirror: 镜像
       mirror_device: 镜像其他设备
       mirror_device_hint: 生成一个设备ID，用于镜像播放列表
@@ -176,6 +192,8 @@ zh-CN:
       sleep_mode: 睡眠模式
       sleep_mode_hint: 降低刷新率以优化焦点和电池寿命
       sleep_screen: 休眠屏幕
+      sleep_screen_tooltip: Enable Sleep Mode to use this feature
+      sleep_screen_hint: Display a sleep screen during sleep mode hours.
       special_function: 双击背部按键
       special_function_hint: 设置设备背部按键的双击功能
       special_function_learn_more: 点击__此处__以了解更多

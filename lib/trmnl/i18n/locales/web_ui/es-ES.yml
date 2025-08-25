@@ -46,6 +46,7 @@ es-ES:
   loading: Cargando
   login: Iniciar sesión
   log_out: Cerrar sesión
+  manage: Manage
   minimum_characters: Caracteres como mínimo
   mins: mins
   my_playlist: My Playlist
@@ -57,9 +58,11 @@ es-ES:
   reset_password: Restablecer mi contraseña
   save: Guardar
   section: Sección
+  settings: Settings
   sign_in: Iniciar sesión
   sign_up: Registrarse
   something_went_wrong: Algo ha fallado
+  subscribe: Subscribe
   tech_support: Soporte
   update: Actualizar
   view: Ver
@@ -75,8 +78,14 @@ es-ES:
       api_key_confirm: "¿Estás seguro de que quieres volver a regenerar tu clave API? La antigua será invalidada."
       api_key_hint: Ver __la documentación__ para aprender a configurar tu entorno local.
       api_key_label: La credencial para autenticar las herramientas del entorno local
+      api_key_not_generated: "(none yet)"
       api_key_reset: Regenerar
       api_key: Clave API
+      beta_features: Beta Features
+      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      discord_community: Discord Community
+      discord_username: What's your Discord username?
+      discord_username_hint: May be used for support, attribution on published Recipes, etc.
       email_address: Correo electrónico
       refer_and_earn: Invita y gana
       refer_and_earn_hint: Envía el regalo de TRMNL con un cupón personalizado. Gana por uso, pagado mensualmente.
@@ -93,8 +102,13 @@ es-ES:
       enable_2fa_hint: __Haz click aquí__ para habilitar OTP.
       disable_2fa: Deshabilitar 2FA
       disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
+      plus_subscription: TRMNL+ Subscription
+      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
+      plus_subscription_modify: Want to update your payment method or cancel?
       session: Sesión
       session_hint: Estás conectado como %{user}
+      show_title_bar: Show title bar
+      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
       time_zone: Zona horaria
       time_zone_hint: Determina la tasa de refresco y tiempo de suspensión del dispositivo.
       locale: Idioma
@@ -129,6 +143,7 @@ es-ES:
       new_and_popular: Nuevo y Popular
     shop:
       title: Tienda
+      need_another: Need another TRMNL?
     time_saved:
       title: Tiempo ahorrado
       cta: Leer más
@@ -164,6 +179,7 @@ es-ES:
       logs: Logs
       logs_hint: Debug your device and plugins with a live feed of raw error logs.
       low_battery_email_notification: Low Battery Email Notification
+      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
       mirror: Copiar dispositivo
       mirror_device: Copiar otro Dispositivo
       mirror_device_hint: Proporciona un ID de dispositivo (compartible) para espejar su lista de reproducción. Tu lista de reproducción seguirá mostrándose.
@@ -176,6 +192,8 @@ es-ES:
       sleep_mode: Modo de Suspensión
       sleep_mode_hint: Ajusta tu tasa de refresco para optimizar el enfoque y la duración de la batería.
       sleep_screen: Sleep Screen
+      sleep_screen_tooltip: Enable Sleep Mode to use this feature
+      sleep_screen_hint: Display a sleep screen during sleep mode hours.
       special_function: Función Especial
       special_function_hint: Configura una función de doble clic para el botón en la parte posterior de tu dispositivo.
       special_function_learn_more: Aprende más sobre funciones especiales __aquí__.
