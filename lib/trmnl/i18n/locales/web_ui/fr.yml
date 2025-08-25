@@ -2,8 +2,8 @@
 fr:
   locale_name: Français
   add: Ajouter
-  add_new: Ajouter # Could be "Ajouter nouveau" / "Ajouter nouvelle" and might require masculine and feminine variants, I would need to see where this is in the UI. For now I'll just use "Ajouter" since it's simpler.
-  ago: plus tôt # Important Note: for time-related "ago" translations, I recommend using something like "%{time} ago" / "il y a %{time}" since lots of languages have the words before or after the actual time. If you don't want to do this, we can use plus tôt, but it's not the copy french users are used to.
+  add_new: Ajouter
+  ago: plus tôt
   already_have_account: J'ai déjà un compte
   back: Retour
   back_to_all_blog_posts: Retour à tous les articles
@@ -13,7 +13,7 @@ fr:
   change_password: Changer le mot de passe
   charge_level: Niveau de charge
   charged: chargé
-  charging: En cours de chargement # This could be just "Chargement" if you need it to be shorter
+  charging: En cours de chargement
   close: Fermer
   confirm_change_password: Changer mon mot de passe
   confirm_password: Confirmer le nouveau mot de passe
@@ -35,9 +35,9 @@ fr:
   forgot_password: J'ai oublié mon mot de passe
   forgot_password_title: Réinitialiser le mot de passe
   get_started: Commençons !
-  identify: S'identifier
+  identify: Identifier
   import: Importer
-  import_new: Importer # Could be "Importer nouveau" / "Importer nouvelle" and might require masculine and feminine variants, I would need to see where this is in the UI. For now I'll just use "Importer" since it's simpler.
+  import_new: Importer
   integrations: Intégrations
   keep_me_signed_in: Rester connecté
   knowledge_base: Base de connaissances
@@ -46,8 +46,9 @@ fr:
   loading: Chargement
   login: Se connecter
   log_out: Se déconnecter
+  manage: Manage
   minimum_characters: caractères minimum
-  mins: min # no "s" in French
+  mins: min
   my_playlist: Ma playlist
   new_password: Nouveau mot de passe
   password: Mot de passe
@@ -57,9 +58,11 @@ fr:
   reset_password: Réinitialiser mon mot de passe
   save: Enregistrer
   section: Section
+  settings: Paramètres
   sign_in: S'identifier
   sign_up: S'inscrire
   something_went_wrong: Une erreur est survenue
+  subscribe: S'abonner
   tech_support: Support
   update: Mise à jour
   view: Vue
@@ -75,15 +78,21 @@ fr:
       api_key_confirm: Êtes-vous sûr de vouloir regénérer votre clé API ? L'ancienne clé sera invalidée.
       api_key_hint: Consultez __la documentation__ pour apprendre à configurer votre environnement local.
       api_key_label: Les identifiants pour authentifier les outils de développement local
+      api_key_not_generated: "(aucune pour le moment)"
       api_key_reset: Regénérer
       api_key: Clé API
+      beta_features: Fonctionnalités bêta
+      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      discord_community: Communauté Discord
+      discord_username: Quel est votre pseudonyme Discord ?
+      discord_username_hint: Peut être utilisé pour le support, l'attribution sur les Recettes publiées, etc.
       email_address: Adresse email
       refer_and_earn: Parrainez et gagnez
       refer_and_earn_hint: Partagez votre coupon TRMNL personnalisé. Recevez une rémunération pour chaque utilisation, versée chaque mois."
       refer_and_earn_redemptions: Utilisations du code
       refer_and_earn_request_code: Demander un code
       device_invoice: Facture de l'appareil
-      device_invoice_label: Téléchargez les documents commerciaux pour votre comptable (ou pour votre collection de PDF, si vous en avez une 😉).
+      device_invoice_label: "Téléchargez les documents commerciaux pour votre comptable (ou pour votre collection de PDF, si vous en avez une \U0001F609)."
       device_invoice_hint: Retrouvez ce numéro sur la page de suivi de votre colis ou dans l'e-mail de notification de l'envoi.
       email_address_hint: Utilisé pour s'identifier dans TRMNL et recevoir des messages du système.
       first_name_hint: Nous utilisons votre prénom pour rendre l'interface de TRMNL plus agréable.
@@ -93,8 +102,13 @@ fr:
       enable_2fa_hint: __Cliquer ici__ pour activer le mot de passe à usage unique (OTP).
       disable_2fa: Désactiver l'authentification à 2 facteurs (A2F)
       disable_2fa_hint: Fournissez un OTP valide et votre mot de passe actuel pour désactiver l'A2F.
+      plus_subscription: Abonnement TRMNL+
+      plus_subscription_hint: Débloquez des taux de rafraîchissement plus rapides et des limites de débit plus élevées. __En savoir plus__.
+      plus_subscription_modify: Want to update your payment method or cancel?
       session: Session
       session_hint: Vous êtes connecté en tant que %{user}
+      show_title_bar: Afficher la barre de titre
+      show_title_bar_hint: Si cette option est désactivée, les plugins natifs (non globaux) et les plugins tiers seront minimisés.
       time_zone: Fuseau horaire
       time_zone_hint: Détermine les taux de rafraîchissement et le temps de veille de l'appareil.
       locale: Locale
@@ -129,6 +143,7 @@ fr:
       new_and_popular: Récents et populaires
     shop:
       title: Boutique
+      need_another: Besoin d'un autre TRMNL ?
     time_saved:
       title: Temps économisé
       cta: À propos
@@ -164,6 +179,7 @@ fr:
       logs: Logs
       logs_hint: Débugguez votre appareil et plugins avec des logs d'erreurs en temps réel.
       low_battery_email_notification: Notification par e-mail de batterie faible
+      low_battery_email_notification_hint: Recevez une notification par e-mail lorsque la batterie de votre appareil est faible.
       mirror: Synchroniser
       mirror_device: Synchroniser avec un autre appareil
       mirror_device_hint: Ajoutez un identifiant (partageable) pour synchroniser vos playlists avec un autre appareil. Vos playlists resteront toujours visibles.
@@ -176,6 +192,8 @@ fr:
       sleep_mode: Mode Veille
       sleep_mode_hint: Ajustez la fréquence de rafraîchissement pour réduire les distractions et augmenter l'autonomie de la batterie.
       sleep_screen: Écran de veille
+      sleep_screen_tooltip: Enable Sleep Mode to use this feature
+      sleep_screen_hint: Affiche un écran de veille pendant les périodes de veille.
       special_function: Action spéciale
       special_function_hint: Définissez une action personnalisée pour le bouton situé à l'arrière de votre appareil.
       special_function_learn_more: En savoir plus sur les actions spéciales __ici__.
@@ -295,7 +313,7 @@ fr:
       add_to_playlist: Ajouter à la playlist
       create_first_playlist_cta: Créez votre playlist après avoir __connecté__ votre premier plugin !
       custom: Personnalisé
-      device_default: Configuration par défaut # I would need to see where this is in the UI to be sure
+      device_default: Configuration par défaut
       display_period_from: Afficher entre
       display_period_to: et
       display_period_validation: L'heure de début doit précéder l'heure de fin. Créez un autre groupe pour couvrir les heures de nuit.
@@ -395,7 +413,7 @@ fr:
     inactive: Inactif
     no_plugin_settings_found: Aucun paramètre pour le plugin trouvé.
     refreshing_now_please_wait: Actualisation en cours, veuillez recharger cette page dans quelques secondes.
-    reset_credentials: "Compte %{plugin_name} réinitialisé avec succès"
+    reset_credentials: Compte %{plugin_name} réinitialisé avec succès
     form:
       active_hint: Afficher ou masquer cette instance de plugin sur votre appareil
       advanced_settings: Paramètres avancés
@@ -418,7 +436,7 @@ fr:
       learn_more_fork_original: Voir l'original
       learn_more_recipe_author: Besoin d'aide ? Contactez %{recipe_author} sur Discord.
       learn_more_recipe_long: Ce plugin est une Recette communautaire et n'est pas maintenu par TRMNL.
-      learn_more_recipe_short: "Note : ce plugin est une Recette."
+      learn_more_recipe_short: 'Note : ce plugin est une Recette.'
       linked_account: Compte lié
       linked_account_success: Lié avec succès à %{plugin_name}
       link_oauth: Lier un compte
@@ -486,7 +504,7 @@ fr:
       copy_prompt: Copier l'horaire depuis…
   upgrade:
     index:
-      title: "Mise à niveau de l'appareil :"
+      title: 'Mise à niveau de l''appareil :'
       tagline: Débloquez des plugins personnalisés et __plus encore__.
       pay: Payer
       error: L'appareil %{device_name} est déjà mis à niveau, veuillez en choisir un autre
