@@ -1,217 +1,216 @@
----
-en:
+is:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: Og
+    and_x_more_suffix: fleiri
     days_left_year:
-      title: Days Left This Year
-      days_passed: Days Passed
-      days_left: Days Left
+      title: Dagar eftir á þessu ári
+      days_passed: Dagar liðnir
+      days_left: Dagar eftir
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: Tungldagatal
+      age: Aldur tungls
+      current_phase: Núverandi fasi
+      illumination: Lýsing tungls
+      next_full_moon: Næsta fulla tungl
+      next_new_moon: Næsta nýja tungl
+      next_phase: Næsti fasi
+      next_phase_short: Næsti
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: Nýtt tungl
+        waxing_crescent: Vaxandi sigð
+        first_quarter: Fyrsta kvartil
+        waxing_gibbous: Gleiðmáni
+        full_moon: Fullt tungl
+        waning_gibbous: Minnkandi þríhyrningur
+        third_quarter: Þriðja kvartil
+        waning_crescent: Minnkandi sigð
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: Afhending fyrir
+      empty: Engar sendingar
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Villa í Parcel API
+        http: HTTP villa %{code}
+        internal: Innri villa
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Virk sending
+          other: Virkar sendingar
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Nýleg sending
+          other: Nýlegar sendingar
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: Afhent
+        delivery_exception: Frávik í afhendingu
+        expecting_pickup: Bíð eftir afhendingu
+        failed_delivery_attempt: Misheppnuð afhendingartilraun
+        frozen: Frosið
+        in_transit: Á leiðinni
+        information_received: Upplýsingar mótteknar
+        not_found: Fannst ekki
+        out_for_delivery: Í afhendingu
+        unknown: Óþekkt
+      today: Í dag
+      tomorrow: Á morgun
     weather:
-      title: Weather
-      temperature: Temperature
-      feels_like: Feels Like
-      humidity: Humidity
-      low: Low
-      high: High
-      uv: UV
-      right_now: Right Now
-      today: Today
-      tomorrow: Tomorrow
+      title: Veður
+      temperature: Hiti
+      feels_like: Er eins og
+      humidity: Rakastig
+      low: Lágmark
+      high: Hámark
+      uv: Útfjólublá geislun
+      right_now: Núna
+      today: Í dag
+      tomorrow: Á morgun
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: Lágt
+          moderate: Miðlungs
+          high: Hátt
+          very_high: Mjög hátt
+          extreme: Mjög sterkt
         conditions:
         - code: 1000
-          day: Sunny
-          night: Clear
+          day: Sólskin
+          night: Heiðskírt
         - code: 1003
-          day: Partly Cloudy
-          night: Partly Cloudy
+          day: Hálfskýjað
+          night: Hálfskýjað
         - code: 1006
-          day: Cloudy
-          night: Cloudy
+          day: Skýjað
+          night: Skýjað
         - code: 1009
-          day: Overcast
-          night: Overcast
+          day: Alskýjað
+          night: Alskýjað
         - code: 1030
-          day: Mist
-          night: Mist
+          day: Mistur
+          night: Mistur
         - code: 1063
-          day: Light Rain
-          night: Light Rain
+          day: Dálítil rigning
+          night: Dálítil rigning
         - code: 1066
-          day: Light Snow
-          night: Light Snow
+          day: Dálítil snjókoma
+          night: Dálítil snjókoma
         - code: 1069
-          day: Sleet
-          night: Sleet
+          day: Slydda
+          night: Slydda
         - code: 1072
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: Frostrigning
+          night: Frostrigning
         - code: 1087
-          day: Thunder
-          night: Thunder
+          day: Þrumur
+          night: Þrumur
         - code: 1114
-          day: Blowing Snow
-          night: Blowing Snow
+          day: Skafrenningur
+          night: Skafrenningur
         - code: 1117
-          day: Blizzard
-          night: Blizzard
+          day: Snjóbylur
+          night: Snjóbylur
         - code: 1135
-          day: Fog
-          night: Fog
+          day: Þoka
+          night: Þoka
         - code: 1147
-          day: Freezing Fog
-          night: Freezing Fog
+          day: Frostþoka
+          night: Frostþoka
         - code: 1150
-          day: Light Drizzle
-          night: Light Drizzle
+          day: Dálítil súld
+          night: Dálítil súld
         - code: 1153
-          day: Drizzle
-          night: Drizzle
+          day: Úði
+          night: Úði
         - code: 1168
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: Frosinn úði
+          night: Frosinn úði
         - code: 1171
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Mikið frost
+          night: Mikið frost
         - code: 1180
-          day: Light Rain
-          night: Light Rain
+          day: Dálítil rigning
+          night: Dálítil rigning
         - code: 1183
-          day: Light Rain
-          night: Light Rain
+          day: Dálítil rigning
+          night: Dálítil rigning
         - code: 1186
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Miðlungs rigning
+          night: Miðlungs rigning
         - code: 1189
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Miðlungs rigning
+          night: Miðlungs rigning
         - code: 1192
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Mikil rigning
+          night: Mikil rigning
         - code: 1195
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Mikil rigning
+          night: Mikil rigning
         - code: 1198
-          day: Light Freeze
-          night: Light Freeze
+          day: Dálítil ísing
+          night: Dálítil ísing
         - code: 1201
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Mikil ísing
+          night: Mikil ísing
         - code: 1204
-          day: Light Sleet
-          night: Light Sleet
+          day: Dálítil slydda
+          night: Dálítil slydda
         - code: 1207
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Mikil slydda
+          night: Mikil slydda
         - code: 1210
-          day: Light Snow
-          night: Light Snow
+          day: Dálítil snjókoma
+          night: Dálítil snjókoma
         - code: 1213
-          day: Light Snow
-          night: Light Snow
+          day: Dálítil snjókoma
+          night: Dálítil snjókoma
         - code: 1216
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Miðlungs snjókoma
+          night: Miðlungs snjókoma
         - code: 1219
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Miðlungs snjókoma
+          night: Miðlungs snjókoma
         - code: 1222
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Mikil snjókoma
+          night: Mikil snjókoma
         - code: 1225
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Mikil snjókoma
+          night: Mikil snjókoma
         - code: 1237
-          day: Ice Pellets
-          night: Ice Pellets
+          day: Haglél
+          night: Haglél
         - code: 1240
-          day: Light Rain
-          night: Light Rain
+          day: Dálítil rigning
+          night: Dálítil rigning
         - code: 1243
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Mikil rigning
+          night: Mikil rigning
         - code: 1246
-          day: Torrential Rain
-          night: Torrential Rain
+          day: Úrfelli
+          night: Úrfelli
         - code: 1249
-          day: Light Sleet
-          night: Light Sleet
+          day: Dálítil slydda
+          night: Dálítil slydda
         - code: 1252
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Mikil slydda
+          night: Mikil slydda
         - code: 1255
-          day: Light Snow
-          night: Light Snow
+          day: Dálítil snjókoma
+          night: Dálítil snjókoma
         - code: 1258
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Mikil snjókoma
+          night: Mikil snjókoma
         - code: 1261
-          day: Light Ice
-          night: Light Ice
+          day: Dálítil ísmyndun
+          night: Dálítil ísmyndun
         - code: 1264
-          day: Heavy Ice
-          night: Heavy Ice
+          day: Mikil ísmyndun
+          night: Mikil ísmyndun
         - code: 1273
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Þrumur & rigning
+          night: Þrumur & rigning
         - code: 1276
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Þrumur & rigning
+          night: Þrumur & rigning
         - code: 1279
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: Þrumur & snjókoma
+          night: Þrumur & snjókoma
         - code: 1282
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: Þrumur & snjókoma
+          night: Þrumur & snjókoma
