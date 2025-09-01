@@ -13,7 +13,7 @@ de:
   change_password: Passwort ändern
   charge_level: Ladezustand
   charged: geladen
-  charging: Charging
+  charging: wird geladen
   close: Schließen
   confirm_change_password: Passwort ändern
   confirm_password: Passwort wiederholen
@@ -58,12 +58,12 @@ de:
   reset_password: Passwort zurücksetzen
   save: Speichern
   section: Abschnitt
-  settings: Settings
+  settings: Einstellungen
   sign_in: Anmelden
   sign_up: Registrieren
   something_went_wrong: Etwas ist schiefgegangen
-  subscribe: Subscribe
-  tech_support: Support
+  subscribe: Abonnieren
+  tech_support: Hilfe
   update: Aktualisieren
   view: Ansicht
   welcome: Willkommen
@@ -78,14 +78,14 @@ de:
       api_key_confirm: Bist du sicher, dass du deinen API-Schlüssel neu generieren willst? Der alte Schlüssel ist danach ungültig.
       api_key_hint: Lies in der __Dokumentation__ nach, wie du deine eigene Entwicklungsumgebung aufsetzt.
       api_key_label: Anmeldedaten, um sich mit lokaler Entwicklungsumgebung anzumelden
-      api_key_not_generated: "(none yet)"
+      api_key_not_generated: "(bisher keiner)"
       api_key_reset: Neu generieren
       api_key: API-Schlüssel
-      beta_features: Beta Features
-      beta_features_hint: Try out new stuff here. Options may disappear at any time.
-      discord_community: Discord Community
-      discord_username: What's your Discord username?
-      discord_username_hint: May be used for support, attribution on published Recipes, etc.
+      beta_features: Beta-Funktionen
+      beta_features_hint: Teste neueste Funktionen. Die Optionen hier können jederzeit verschwinden.
+      discord_community: Discord-Gemeinschaft
+      discord_username: Wie ist dein Nutzername auf Discord?
+      discord_username_hint: Kann für technische Unterstützung, Blaupausen-Urheberschaft usw. genutzt werden.
       email_address: E-Mail-Adresse
       refer_and_earn: Weiterempfehlen
       refer_and_earn_hint: Empfehle TRMNL mit einem personalisierten Code weiter. Verdiene Geld mit jeder Einlösung, monatlich ausgezahlt.
@@ -102,13 +102,13 @@ de:
       enable_2fa_hint: __Hier klicken__, um OTP zu aktivieren.
       disable_2fa: Zwei-Faktor-Authentifizierung deaktivieren
       disable_2fa_hint: Gib einen gültigen OTP-Code und das aktuelle Passwort ein, um dieses Feature zu deaktivieren.
-      plus_subscription: TRMNL+ Subscription
-      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
-      plus_subscription_modify: Want to update your payment method or cancel?
+      plus_subscription: TRMNL+ Abo
+      plus_subscription_hint: Aktiviert schnellere Aktualisierungs- und erweiterte Datenraten. __Mehr erfahren__.
+      plus_subscription_modify: Möchtest du die Zahlungsmethode ändern oder abbrechen?
       session: Sitzung
       session_hint: Angemeldet als %{user}
-      show_title_bar: Show title bar
-      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      show_title_bar: Titelleiste anzeigen
+      show_title_bar_hint: Bei ausgeschalteter Option werden (nicht-globale) offizielle und Community-Erweiterungen minimalistischer aussehen.
       time_zone: Zeitzone
       time_zone_hint: Legt Aktualisierungsraten und Ruhezeiten des Geräts fest.
       locale: Sprache
@@ -143,7 +143,7 @@ de:
       new_and_popular: Neu und beliebt
     shop:
       title: Shop
-      need_another: Need another TRMNL?
+      need_another: Brauchst du noch einen TRMNL?
     time_saved:
       title: Eingesparte Zeit
       cta: Mehr erfahren
@@ -158,7 +158,7 @@ de:
       back_to_devices: Zurück zur Geräteübersicht
       battery_consumption: Batterieverbrauch
       battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus.
-      battery_learn_more: Learn more about battery charging __here__.
+      battery_learn_more: Erfahre __hier__ mehr über den Ladevorgang.
       developer_perks: Nur für Entwickler
       developer_perks_hint: Für die folgenden Optionen ist das __Entwickler-Add-on__ erforderlich.
       device_credentials: Geräteinformationen
@@ -179,7 +179,7 @@ de:
       logs: Protokolle (Logs)
       logs_hint: Analysiere das Gerät und dessen Erweiterungen mit einem Live-Feed von Error-Logs.
       low_battery_email_notification: Benachrichtigung bei niedrigem Akkustand
-      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
+      low_battery_email_notification_hint: Du erhältst eine E-Mail, wenn der Ladezustand deines Geräts niedrig ist.
       mirror: Spiegeln
       mirror_device: Gespiegeltes Gerät
       mirror_device_hint: Kennung des geteilten Gerätes, um dessen Wiedergabeliste zu teilen. Die eigene Wiedergabeliste wird weiterhin angezeigt.
@@ -187,14 +187,14 @@ de:
       mirror_sync: Bildschirme synchronisieren
       ota_enabled: OTA-Updates aktiviert
       ota_enabled_hint: Neue Firmware automatisch installieren. Deaktiviere diese Option, um deine eigene Firmware zu verwenden.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
+      ota_byod_not_supported: OTA wird für BYOD-Geräte nicht unterstützt. Überspiele eine kompatible Version direkt unter usetrmnl.com/flash.
       maximum_compatibility: Maximale Kompatibilität aktivieren
       maximum_compatibility_hint: Behebt Anzeigefehler aufgrund bestimmter E-Ink-Treiber-Chips. Schaltet optimale Renderqualität ein. Benötigt Firmware 1.6.0+.
       sleep_mode: Schlafmodus
       sleep_mode_hint: Aktualisierungsrate für bessere Konzentration und Batterielaufzeit anpassen.
       sleep_screen: Schlaf-Bildschirm
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
-      sleep_screen_hint: Display a sleep screen during sleep mode hours.
+      sleep_screen_tooltip: Aktiviere den Schlafmodus, um diese Funktion nutzen zu können
+      sleep_screen_hint: Zeigt während des Schlafmodus einen Schlaf-Bildschirm an.
       special_function: Sonderfunktion
       special_function_hint: Richte eine Doppelklickfunktion für die Taste auf der Rückseite deines Geräts ein.
       special_function_learn_more: Erfahre mehr zu den Sonderfunktionen __hier__.
@@ -445,9 +445,9 @@ de:
       multiple_instances_hint: Diese Erweiterung unterstützt mehrere Instanzen.
       name: Name
       name_hint: Vergib einen Namen für eine einfache Unterscheidung
-      parse: Parse
-      parse_save_first: Parse (Save plugin first)
-      parsed: Parsed
+      parse: Parsen
+      parse_save_first: Parsen (Erweiterung zuerst speichern)
+      parsed: Geparst
       plugin_uuid: UUID der Erweiterung
       plugin_uuid_hint: Verwende diese Kennung für Anfragen an die Webhook-API.
       preview: Vorschau – dein Gerät wird aktualisierte Daten anzeigen
