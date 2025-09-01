@@ -1,510 +1,509 @@
----
-en:
-  locale_name: English
-  add: Add
-  add_new: Add new
-  ago: ago
-  already_have_account: I already have an account
-  back: Back
-  back_to_all_blog_posts: Back to all posts
-  blog: Blog
-  buy_now: Buy Now
-  cancel: Cancel
-  change_password: Change Password
-  charge_level: Charge Level
-  charged: charged
-  charging: Charging
-  close: Close
-  confirm_change_password: Change my password
-  confirm_password: Confirm new password
-  copy: Copy
-  copied_to_clipboard: Copied!
-  copy_to_clipboard: Copy to clipboard
-  created: Created
-  create_an_account: Create an account
-  current_device: Current device
-  days: days
-  delete: Delete
-  developer_edition_required: Developer edition is required to enable this feature.
-  device_id: Device ID
-  edit: Edit
-  email_address: Email address
-  export: Export
-  fetching: Fetching
-  first_name: First Name
-  forgot_password: I forgot my password
-  forgot_password_title: Here we go again
-  get_started: Let's get you started!
-  identify: Identify
-  import: Import
-  import_new: Import new
-  integrations: Integrations
-  keep_me_signed_in: Keep me signed in
-  knowledge_base: Knowledge base
-  last_name: Last Name
-  learn_more: Learn more
-  loading: Loading
-  login: Login
-  log_out: Log out
-  manage: Manage
-  minimum_characters: characters minimum
-  mins: mins
-  my_playlist: My Playlist
-  new_password: New password
-  password: Password
-  please_wait: Please Wait...
-  plugin_not_found: Plugin not found
-  refresh_rates_hint: Learn how refresh rates work __here__.
-  reset_password: Reset my password
-  save: Save
-  section: Section
-  settings: Settings
-  sign_in: Sign in
-  sign_up: Sign up
-  something_went_wrong: Something went wrong
-  subscribe: Subscribe
-  tech_support: Support
-  update: Update
-  view: View
-  welcome: Welcome
+is:
+  locale_name: Íslenska
+  add: Bæta við
+  add_new: Bæta nýju við
+  ago: síðan
+  already_have_account: Ég á nú þegar aðgang
+  back: Til baka
+  back_to_all_blog_posts: Til baka í allar færslur
+  blog: Blogg
+  buy_now: Kaupa núna
+  cancel: Hætta við
+  change_password: Breyta lykilorði
+  charge_level: Hleðsla
+  charged: hlaðið
+  charging: Hleður
+  close: Loka
+  confirm_change_password: Breyta lykilorðinu mínu
+  confirm_password: Staðfesta nýtt lykilorð
+  copy: Afrita
+  copied_to_clipboard: Afritað!
+  copy_to_clipboard: Afrita í klemmuspjald
+  created: Búið til
+  create_an_account: Stofna aðgang
+  current_device: Núverandi tæki
+  days: dagar
+  delete: Eyða
+  developer_edition_required: Þróunarútgáfa er nauðsynleg til að virkja þennan eiginleika.
+  device_id: Kennimerki tækis
+  edit: Breyta
+  email_address: Netfang
+  export: Flytja út
+  fetching: Sæki
+  first_name: Fornafn
+  forgot_password: Ég gleymdi lykilorði mínu
+  forgot_password_title: Nú förum við aftur af stað
+  get_started: Byrjum!
+  identify: Auðkenna
+  import: Flytja inn
+  import_new: Flytja inn nýtt
+  integrations: Samþættingar
+  keep_me_signed_in: Halda mér innskráðum
+  knowledge_base: Hjálpargagnasafn
+  last_name: Eftirnafn
+  learn_more: Lesa meira
+  loading: Hleð
+  login: Innskráning
+  log_out: Útskrá
+  manage: Stjórna
+  minimum_characters: lágmarks stafir
+  mins: mín
+  my_playlist: Spilunarlistinn minn
+  new_password: Nýtt lykilorð
+  password: Lykilorð
+  please_wait: Vinsamlegast bíðið...
+  plugin_not_found: Viðbót fannst ekki
+  refresh_rates_hint: Lestu um uppfærslutíðni __hér__.
+  reset_password: Endurstilla lykilorð
+  save: Vista
+  section: Hluti
+  settings: Stillingar
+  sign_in: Skrá inn
+  sign_up: Skrá nýjan aðgang
+  something_went_wrong: Eitthvað fór úrskeiðis
+  subscribe: Gerast áskrifandi
+  tech_support: Aðstoð
+  update: Uppfæra
+  view: Skoða
+  welcome: Velkomin
   time:
     formats:
-      shorter: "%-I:%M %p"
+      shorter: "%-H:%M"
     start_of_week: 0
   account:
     index:
-      title: Account
-      tagline: Manage your account settings
-      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
-      api_key_hint: See __the docs__ to learn how to configure your local environment.
-      api_key_label: The credential for authenticating local development tools
-      api_key_not_generated: "(none yet)"
-      api_key_reset: Regenerate
-      api_key: API Key
-      beta_features: Beta Features
-      beta_features_hint: Try out new stuff here. Options may disappear at any time.
-      discord_community: Discord Community
-      discord_username: What's your Discord username?
-      discord_username_hint: May be used for support, attribution on published Recipes, etc.
-      email_address: Email Address
-      refer_and_earn: Refer and Earn
-      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions
-      refer_and_earn_request_code: Request a Code
-      device_invoice: Device Invoice
-      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
-      device_invoice_hint: Find this on your package tracking page or shipment notification email.
-      email_address_hint: Used to sign into TRMNL and receive system messages.
-      first_name_hint: We use your name to make the TRMNL interface more comfortable.
-      last_name_hint: We use your name to make the TRMNL interface more comfortable.
-      password_hint: Used to protect your TRMNL account.
-      enable_2fa: Enable 2FA?
-      enable_2fa_hint: __Click here__ to enable OTP.
-      disable_2fa: Disable 2FA
-      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
-      plus_subscription: TRMNL+ Subscription
-      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
-      plus_subscription_modify: Want to update your payment method or cancel?
-      session: Session
-      session_hint: You're logged in as %{user}
-      show_title_bar: Show title bar
-      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
-      time_zone: Time Zone
-      time_zone_hint: Determines refresh rates and device sleep time.
-      locale: Locale
-      locale_hint: What language and localization do you prefer? __Go here__.
+      title: Aðgangur
+      tagline: Stjórnaðu stillingum aðgangsins þíns
+      api_key_confirm: Ertu viss um að endurnýja API-lykillinn? Gamli lykillinn verður gerður ógildur.
+      api_key_hint: Sjá __skjölin__ til að stilla staðbundið umhverfi.
+      api_key_label: Auðkenni fyrir þróunarverkfæri
+      api_key_not_generated: "(ekki búið að búa til)"
+      api_key_reset: Endurnýja
+      api_key: API lykill
+      beta_features: Beta-eiginleikar
+      beta_features_hint: Prófaðu nýjungar hér. Þær geta horfið hvenær sem er.
+      discord_community: Discord samfélag
+      discord_username: Hvert er Discord notendanafnið þitt?
+      discord_username_hint: Getur verið notað fyrir stuðning eða merkingu á birtum uppskriftum.
+      email_address: Netfang
+      refer_and_earn: Mæla með og græða
+      refer_and_earn_hint: Deildu TRMNL afsláttarkóða og fáðu greitt mánaðarlega fyrir notkun.
+      refer_and_earn_redemptions: Innlausnir
+      refer_and_earn_request_code: Biðja um kóða
+      device_invoice: Reikningur fyrir tæki
+      device_invoice_label: Sækja skjöl fyrir bókara eða safnið þitt.
+      device_invoice_hint: Finndu þetta á rekjunarvef eða í sendingartilkynningu.
+      email_address_hint: Notað til að skrá þig inn  á TRMNL og fá kerfistilkynningar.
+      first_name_hint: Nafnið þitt birtist í TRMNL viðmótinu.
+      last_name_hint: Nafnið þitt birtist í TRMNL viðmótinu.
+      password_hint: Verndar TRMNL aðganginn þinn.
+      enable_2fa: Virkja 2FA?
+      enable_2fa_hint: __Smelltu hér__ til að virkja OTP.
+      disable_2fa: Slökkva á 2FA
+      disable_2fa_hint: Sláðu inn OTP og lykilorð til að slökkva.
+      plus_subscription: TRMNL+ áskrift
+      plus_subscription_hint: Opnar hraðari uppfærslur og fleiri beiðnir. __Lesa meira__.
+      plus_subscription_modify: Uppfæra greiðslumáta eða hætta við?
+      session: Seta
+      session_hint: Þú ert innskráður sem %{user}
+      show_title_bar: Sýna titilrönd
+      show_title_bar_hint: Ef slökkt, verða viðbætur einfaldari í útliti.
+      time_zone: Tímabelti
+      time_zone_hint: Stýrir uppfærslutíðni og svefntíma tækisins.
+      locale: Landsstaðall
+      locale_hint: Veldu tungumál og staðfærslu. __Smelltu hér__.
     update:
-      success: Profile updated successfully
+      success: Aðgangurinn var uppfærður
     reset_api_key:
-      success: API key was regenerated successfully
+      success: API lykillinn var endurnýjaður
   dashboard:
     index:
-      title: Dashboard
-      last_7_days: Last 7 days
-      last_30_days: Last 30 days
-      last_90_days: Last 90 days
-      today: Today
-      yesterday: Yesterday
+      title: Stjórnborð
+      last_7_days: Síðustu 7 dagar
+      last_30_days: Síðustu 30 dagar
+      last_90_days: Síðustu 90 dagar
+      today: Í dag
+      yesterday: Í gær
     health:
-      bad: Plugins are experiencing issues
-      good: Plugins are healthy
-      next_steps: We will inform you if anything changes
+      bad: Vandamál með viðbætur
+      good: Viðbætur eru í lagi
+      next_steps: Við látum þig vita ef eitthvað breytist
     news:
-      title: News
-      cta: View All
+      title: Fréttir
+      cta: Skoða allt
     playlist_items:
-      title: Playlist
-      cta: Edit Playlist
-      pieces_of_content_displayed: Pieces of content displayed
+      title: Spilunarlisti
+      cta: Breyta spilunarlista
+      pieces_of_content_displayed: Atriði á skjánum
     plugins:
-      title: Plugins
-      cta: Go to Plugins
-      connected: Connected
-      new_and_popular: New and Popular
+      title: Viðbætur
+      cta: Skoða viðbætur
+      connected: Tengdar
+      new_and_popular: Nýjar og vinsælar
     shop:
-      title: Shop
-      need_another: Need another TRMNL?
+      title: Verslun
+      need_another: Þarftu annað TRMNL?
     time_saved:
-      title: Time saved
-      cta: Read about
+      title: Sparaður tími
+      cta: Lesa meira
     welcome_message:
-      morning_salutation: Good morning
-      afternoon_salutation: Good afternoon
-      evening_salutation: Good evening
-  devices:
+      morning_salutation: Góðan dag
+      afternoon_salutation: Góðan dag
+      evening_salutation: Gott kvöld
+    devices:
     edit:
-      accepts_beta_firmware: Firmware Early Release
-      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
-      back_to_devices: Back to Devices
-      battery_consumption: Battery Consumption
-      battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
-      battery_learn_more: Learn more about battery charging __here__.
-      developer_perks: Developer Perks
-      developer_perks_hint: Options below require the __Developer add-on__.
-      device_credentials: Device Credentials
-      device_credentials_hint: See what you can do with these credentials __here__
-      device_name: Device Name
-      device_name_hint: We use this to make the TRMNL interface more comfortable
-      device_model: Device Model
-      device_model_hint: Your hardware Model
-      device_model_switch_warning: This is a dangerous operation, learn more __here__
-      edit_device: Edit Device
-      guest_mode: Guest Mode
-      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
-      guest_mode_item_placeholder: Choose an item
-      guest_mode_duration_placeholder: Choose a duration
-      identify: Identify
-      identify_device: Identify Device
-      identify_device_hint: Click the button below to generate a screen on this device that helps identify it.
-      logs: Logs
-      logs_hint: Debug your device and plugins with a live feed of raw error logs.
-      low_battery_email_notification: Low Battery Email Notification
-      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
-      mirror: Mirror
-      mirror_device: Mirror another Device
-      mirror_device_hint: Provide a (shareable) Device ID to mirror its playlist. Your playlist will still be displayed.
-      mirror_stop: Disconnect Mirroring
-      mirror_sync: Sync Screens
-      ota_enabled: OTA Updates Enabled
-      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
-      maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      sleep_mode: Sleep Mode
-      sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
-      sleep_screen: Sleep Screen
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
-      sleep_screen_hint: Display a sleep screen during sleep mode hours.
-      special_function: Special Function
-      special_function_hint: Set a custom feature for the button on the back of your device.
-      special_function_learn_more: Learn more about special functions __here__.
-      unlink: Unlink
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
-      unlink_device: Unlink Device
-      unlink_device_hint: Unlinking a TRMNL makes it safe to re-sell or give to someone else.
-      unlink_device_learn_more: Follow the full guide __here__.
-      visibility: Visibility
-      visibility_hint: Make your TRMNL device mirrorable by changing the settings below.
-      your_device: Your TRMNL
+      accepts_beta_firmware: Snemmútgáfa fastbúnaðar
+      accepts_beta_firmware_hint: Kveiktu á þessu til að fá nýjustu vélbúnaðaruppfærslur á undan öðrum.
+      back_to_devices: Til baka í tæki
+      battery_consumption: Rafhlöðunotkun
+      battery_consumption_hint: Sparaðu orku og lengdu rafhlöðuendingu með því að virkja svefnham.
+      battery_learn_more: Lestu meira um hleðslu rafhlöðu __hér__.
+      developer_perks: Forritaraeiginleikar
+      developer_perks_hint: Valkostir hér að neðan krefjast __forritaraviðbótar__.
+      device_credentials: Auðkenni tækis
+      device_credentials_hint: Sjáðu hvað þú getur gert með þessum auðkennum __hér__
+      device_name: Heiti tækis
+      device_name_hint: Við notum þetta til að gera TRMNL viðmótið þægilegra.
+      device_model: Gerð tækis
+      device_model_hint: Gerð vélbúnaðarins þíns
+      device_model_switch_warning: Þetta er hættuleg aðgerð, lestu meira __hér__
+      edit_device: Breyta tæki
+      guest_mode: Gestahamur
+      guest_mode_hint: Veldu hvað á að birta (og hversu lengi) þegar gestahamur er virkjaður.
+      guest_mode_item_placeholder: Veldu atriði
+      guest_mode_duration_placeholder: Veldu tímalengd
+      identify: Auðkenna
+      identify_device: Auðkenna tæki
+      identify_device_hint: Smelltu á hnappinn hér að neðan til að birta skjá sem auðkennir tækið.
+      logs: Atburðaskrár
+      logs_hint: Villuleitaðu tækið og viðbætur með lifandi atburðaskrá.
+      low_battery_email_notification: Lág rafhlaða - tilkynning með tölvupósti
+      low_battery_email_notification_hint: Fáðu tilkynningu með tölvupósti þegar rafhlaðan er að tæmast.
+      mirror: Spegla
+      mirror_device: Spegla annað tæki
+      mirror_device_hint: Sláðu inn deilanlegt tækis ID til að spegla spilunarlista þess. Þinn listi heldur áfram að birtast.
+      mirror_stop: Hætta að spegla
+      mirror_sync: Samstilla skjái
+      ota_enabled: OTA uppfærslur virkar
+      ota_enabled_hint: Setur sjálfkrafa inn nýjan vélbúnað. Slökktu til að nota þinn eigin.
+      maximum_compatibility: Hámarkssamhæfni
+      maximum_compatibility_hint: Leysir skjávandamál af völdum sumra e-ink flísaklippa. Slökkvir á hraðri uppfærslu. Krefst vélbúnaðar 1.6.0+.
+      sleep_mode: Svefnhamur
+      sleep_mode_hint: Stilltu uppfærslutíðni til að bæta fókus og lengja rafhlöðuendingu.
+      sleep_screen: Svefnskjár
+      sleep_screen_tooltip: Virkjaðu svefnham til að nota þennan eiginleika
+      sleep_screen_hint: Sýnir svefnskjá á meðan svefnhamur er virkur.
+      special_function: Sérstakt hnappahlutverk
+      special_function_hint: Stilltu sérhæft hlutverk fyrir hnappinn aftan á tækinu.
+      special_function_learn_more: Lestu meira um sérstök hlutverk __hér__.
+      unlink: Aftengja
+      unlink_confirm: Ertu viss? Þetta eyðir öllum viðbótarstillingum og spilunarlistum svo tækið geti verið tengt við annan aðgang.
+      unlink_device: Aftengja tæki
+      unlink_device_hint: Aftenging gerir tækið öruggt til endursölu eða afhendingar til annars.
+      unlink_device_learn_more: Fylgdu fullri leiðbeiningu __hér__.
+      visibility: Sýnileiki
+      visibility_hint: Gera TRMNL tækið þitt speglanlegt með því að breyta stillingunum hér að neðan.
+      your_device: Þitt TRMNL tæki
       upgrade_og:
-        title: Upgrade to 2-bit Display Available
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
-        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
-        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
-        cta: Upgrade to TRMNL OG (2-bit)
+        title: Uppfærsla í 2-bita skjá í boði
+        sub_title: Tækið þitt getur verið uppfært til að styðja betri grátóna með 4 litastigum í stað 2.
+        warning_1: Ég skil að þessi uppfærsla er <strong>óafturkræf</strong> og ekki hægt að afturkalla.
+        warning_2: Ég skil að þetta er <strong>hætta</strong> og getur skemmt tækið.
+        cta: Uppfæra í TRMNL OG (2-bita)
     index:
-      title: Devices
-      tagline: Your TRMNL devices
-      add_device_modal_title: Add a new device
-      add_first_device: Start by adding your first device!
+      title: Tæki
+      tagline: TRMNL tækin þín
+      add_device_modal_title: Bæta við nýju tæki
+      add_first_device: Byrjaðu á því að bæta við fyrsta tækinu þínu!
     new:
-      title: Add a new device
-      description: Enter your Device ID to add a new TRMNL device to your account.
-      add_device: Add new device
+      title: Bæta við nýju tæki
+      description: Sláðu inn kennimerki tækis til að bæta TRMNL tæki við aðganginn þinn.
+      add_device: Bæta við tæki
     associate:
-      error: Error linking device
-      success: Device successfully linked
+      error: Villa við að tengja tæki
+      success: Tæki tengt
     dissociate:
-      error: Error disconnecting device
-      success: Device successfully unlinked
+      error: Villa við að aftengja tæki
+      success: Tæki aftengt
     identify:
-      error: Error updating device
-      success: Device identification requested
+      error: Villa við að uppfæra tæki
+      success: Beiðni um auðkenningu send
     mirror:
-      error: Error mirroring device
-      error_not_shared: Provided Device ID is not shareable
-      error_oneself: Can't mirror oneself
-      success: Device %{friendly_id} successfully mirrored
-      success_removed: Mirroring Removed
+      error: Villa við speglun tækis
+      error_not_shared: Kennimerki tækis er ekki deilanlegt
+      error_oneself: Getur ekki speglað sjálfan sig
+      success: Tæki %{friendly_id} speglað
+      success_removed: Speglun fjarlægð
     switch:
-      error: Error switching device
-      success: Device switched successfully
+      error: Villa við skiptingu tækis
+      success: Tæki skipt
     update:
-      error: Error updating device
-      success: "%{device} device settings updated successfully"
+      error: Villa við að uppfæra tæki
+      success: "Stillingar tækis %{device} uppfærðar"
   invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
+    rate_limit: Of margar tilraunir, vinsamlegast bíðið og reynið aftur
+    invoice_not_found: Reikningur fannst ekki
   logs:
     index:
-      title: Logs
-      all: All
-      device: Device
-      dump: Dump
+      title: Atburðaskrár
+      all: Allt
+      device: Tæki
+      dump: Útskrift
       id: ID
-      private_plugins: Private Plugins
-      source: Source
-      time: Time
+      private_plugins: Einkaviðbætur
+      source: Uppruni
+      time: Tími
   markups:
     console_logs:
-      js_logs: JS Logs
+      js_logs: JS atburðaskrár
     form:
-      back_to_plugin_settings: Back to plugin settings
-      design_system: Leverage our native design system
-      design_system_docs: Design System Docs
-      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
-      edit_markup: Edit Markup
-      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
-      edit_markup_please_save_first: Please save before editing markup
-      edit_markup_without_preview: Edit Markup (without preview)
-      error_rendering_markup: Error rendering that markup
-      fix_indentation: Fix indentation
-      go_to_preview: Go To Preview
-      live_preview: Live Preview
-      no_changes_to_save: No changes to save
-      pop_out_preview: Pop Out Preview
-      quickstart_examples: Quick-start Examples
-      quickstart_example_applied: Applied!
-      quickstart_use_this_example: Use this example
-      revert: Revert
-      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
-      save_changes: Save Changes (⌘﹢S)
-      separate_preview: Preview is open in a separate window
+      back_to_plugin_settings: Til baka í stillingar viðbótar
+      design_system: Nýttu innbyggða hönnunarkerfið okkar
+      design_system_docs: Skjöl hönnunarkerfis
+      dirty_confirm: Þú er með óvistaðar breytingar. Ertu viss um að þú viljir yfirgefa síðuna?
+      edit_markup: Breyta ívafsmáli
+      edit_markup_for_plugin: Breyta ívafsmáli fyrir %{plugin_setting_name}
+      edit_markup_please_save_first: Vinsamlegast vistaðu áður en þú breytir ívafsmáli
+      edit_markup_without_preview: Breyta ívafsmáli (án forskoðunar)
+      error_rendering_markup: Villa við að birta ívafsmál
+      fix_indentation: Laga inndrátt
+      go_to_preview: Fara í forskoðun
+      live_preview: Lifandi forskoðun
+      no_changes_to_save: Engar breytingar til að vista
+      pop_out_preview: Forskoðun í nýjum glugga
+      quickstart_examples: Sýnidæmi
+      quickstart_example_applied: Virkjað!
+      quickstart_use_this_example: Nota þetta sýnidæmi
+      revert: Hætta við breytingar
+      revert_confirm: Ertu viss? Allar óvistaðar breytingar munu tapast.
+      save_changes: Vista breytingar (⌘﹢S)
+      separate_preview: Forskoðun er opin í sér glugga
     merge_variables:
-      your_variables: Your variables
+      your_variables: Þínar breytur
     no_merge_variables:
-      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
-      no_variables_detected: No variables detected.
+      force_refresh: Ef þú hefur gefið upp breytur en þær sjást ekki, prófaðu __þvingaða uppfærslu__.
+      no_variables_detected: Engar breytur fundust.
   mfa:
     disable_otp:
-      success: 2FA Disabled
-      invalid_otp: Invalid OTP
-      invalid_password: Invalid Password
-      invalid_otp_and_password: Invalid OTP and Password
+      success: 2FA óvirkt
+      invalid_otp: Ógilt OTP
+      invalid_password: Ógilt lykilorð
+      invalid_otp_and_password: Ógilt OTP og lykilorð
     enable_otp:
-      input_otp: Enter OTP
-      submit: Verify and Enable
-      already_enabled: 2FA is already enabled
+      input_otp: Sláðu inn OTP
+      submit: Staðfesta og virkja
+      already_enabled: 2FA er þegar virkt
     enable_otp_verify:
-      success: 2FA Enabled
-      error: Invalid OTP code
+      success: 2FA virkt
+      error: Ógildur OTP kóði
     verify_otp:
-      verify: Verify
-      reset: Reset MFA
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
-      success: 2FA successful
-      error: Invalid OTP code
+      verify: Staðfesta
+      reset: Endurstilla MFA
+      reset_instructions: Ýttu á hnappinn aftan á TRMNL til að fá endurstillingarkóða
+      success: 2FA tókst
+      error: Ógildur OTP kóði
   playlist_items:
     index:
-      title: Playlist
-      tagline: Choose what's shown on
-      add_a_group: Add a Group
-      add_a_plugin: Add a Plugin
-      add_first_device_cta: Start by __adding__ your first TRMNL device!
-      add_to_playlist: Add to Playlist
-      create_first_playlist_cta: Create your playlist after __connecting__ your first plugin!
-      custom: Custom
-      device_default: Device default
-      display_period_from: Display from
-      display_period_to: to
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
-      never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      title: Spilunarlisti
+      tagline: Veldu hvað birtist á
+      add_a_group: Bæta við hópi
+      add_a_plugin: Bæta við viðbót
+      add_first_device_cta: Byrjaðu á því að __bæta við__ fyrsta TRMNL tækinu þínu!
+      add_to_playlist: Bæta við spilunarlista
+      create_first_playlist_cta: Búðu til spilunarlistann þinn eftir að þú hefur __tengt__ fyrstu viðbótina!
+      custom: Sérsniðið
+      device_default: Sjálfgefið fyrir tæki
+      display_period_from: Sýna frá
+      display_period_to: til
+      display_period_validation: Byrjunartími verður að vera fyrir lokatíma. Bættu við hópi til að spanna nóttina.
+      every: Sérhver
+      never_skip: Aldrei sleppa skjám
+      smart_playlist: Snjall spilunarlisti
+      smart_playlist_hint: Sleppir sjálfkrafa skjámyndum sem hafa ekki breyst í einhvern tíma.
       skip_after:
-        one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        one: Sleppa skjámyndum eftir 1 dag
+        other: Sleppa skjámyndum eftir %{count} daga
     playlist_item:
-      adjust_schedule: Adjust schedule
-      delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
-      displayed_now: Displayed now
-      not_displayed_yet: Not displayed yet
-      remove_from_playlist: Remove from playlist
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      adjust_schedule: Stilltu tímasetningu
+      delete: Ertu viss um að fjarlægja þetta atriði? Viðbótin verður áfram tengd en ekki birt á tækinu þínu.
+      displayed_now: Birt núna
+      not_displayed_yet: Ekki birt enn
+      remove_from_playlist: Fjarlægja úr spilunarlista
+      hide_playlist: Fela þetta atriði
+      show_playlist: Sýna þetta atriði
     create:
-      error: Failed to update playlist
-      success: Playlist updated
+      error: Gat ekki uppfært spilunarlista
+      success: Spilunarlisti uppfærður
     destroy:
-      error: Error removing item from playlist
-      success: Plugin removed from Playlist
+      error: Villa við að fjarlægja atriði úr spilunarlista
+      success: Viðbót fjarlægð úr spilunarlista
     toggle_visibility:
-      success: Playlist item %{change}
+      success: Atriði spilunarlista %{change}
     duplicate:
-      success: Playlist duplicated
+      success: Spilunarlisti afritaður
     sort:
-      success: Playlist order updated
+      success: Röðun spilunarlista uppfærð
     set_preferences:
-      success: Smart playlist preference updated
+      success: Stillingar snjallspilunarlista uppfærðar
   plugins:
     index:
-      title: Plugins
-      tagline: What will you put on your TRMNL?
-      available: Available
-      connected: Connected
-      recipes: Recipes
-      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+      title: Viðbætur
+      tagline: Hvað viltu setja á TRMNL tækið þitt?
+      available: Tiltækar
+      connected: Tengdar
+      recipes: Uppskriftir
+      recipes_hint: Einkaviðbætur frá samfélaginu sem hægt er að setja upp með einum smelli. __Lesa meira__.
     search:
-      placeholder: Search Plugins
+      placeholder: Leita í viðbótum
     my:
       index:
-        title: My Plugins
-        tagline: Develop Plugins for the public marketplace
+        title: Viðbæturnar mínar
+        tagline: Þróaðu viðbætur fyrir markaðinn
       card:
-        connections: connections
-        install: Install
-        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-        submit_for_review: Submit for Review
+        connections: tengingar
+        install: Setja upp
+        review_are_you_sure: Ertu viss? TRMNL teymið mun prófa viðbótina og hafa samband ef spurningar vakna.
+        submit_for_review: Senda í skoðun
     new:
-      title: Create New Plugin
-      tagline: Other users will be able to install your plugin.
-      name: Name
-      category: Category
-      category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
-      description: Description
-      description_hint: Maximum 50 characters
-      icon: Icon
-      icon_hint: 512x512px recommended
-      installation_url: Installation URL
-      installation_url_hint: Learn more about the installation flow __here__.
-      installation_success_webhook_url: Installation Success Webhook URL
-      knowledge_base_url: Knowledge Base URL
-      management_url: Plugin Management URL
-      management_url_hint: Learn more about the management flow __here__.
-      markup_url: Plugin Markup URL
-      markup_url_hint: Learn more about screen generation __here__.
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
-      uninstallation_webhook_url: Uninstallation Webhook URL
+      title: Búa til nýja viðbót
+      tagline: Aðrir notendur geta sett viðbótina þína upp.
+      name: Heiti
+      category: Flokkur
+      category_hint: Haltu niðri cmd eða ctrl til að velja allt að 3 flokka
+      refresh_every: Studd upfærslutíðini
+      refresh_every_hint: Hraðasta uppfærslutíðni sem viðbótin styður.
+      description: Lýsing
+      description_hint: Hámark 50 stafir
+      icon: Tákn
+      icon_hint: Mælt með 512x512px
+      installation_url: Slóð fyrir uppsetningu
+      installation_url_hint: Lesa meira um uppsetningarferlið __hér__.
+      installation_success_webhook_url: Slóð fyrir staðfestingu á uppsetningu
+      knowledge_base_url: Slóð á hjálpargagnasafn
+      management_url: Stjórnslóð viðbótar
+      management_url_hint: Lesa meira um stjórnun __hér__.
+      markup_url: Slóð á ívafsmál
+      markup_url_hint: Lesa meira um skjámyndagerð __hér__.
+      no_screen_padding: Enginn jaðar
+      no_screen_padding_hint: Fjarlægir ysta jaðar í skjámyndum.
+      uninstallation_webhook_url: Slóð fyrir niðurtöku
     edit:
-      title: Edit Plugin
-      tagline: Update your plugin details.
-      name: Name
-      description: Description
+      title: Breyta viðbót
+      tagline: Uppfæra upplýsingar viðbótarinnar.
+      name: Heiti
+      description: Lýsing
   plugin_recipes:
-    connected: Recipe connected
+    connected: Uppskrift tengd
     connections:
-      one: Connection
-      other: Connections
+      one: Tenging
+      other: Tengingar
     forks:
-      one: Fork
-      other: Forks
+      one: Sjálfun
+      other: Sjálfanir
     new:
-      error: Recipe not found
+      error: Uppskrift fannst ekki
   plugin_settings:
-    active: Active
-    copy_are_you_sure: Are you sure you want to copy this setting?
-    delete_are_you_sure: Are you sure you want to delete this setting?
-    delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
-    inactive: Inactive
-    no_plugin_settings_found: No plugin settings found.
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
-    reset_credentials: "%{plugin_name} account reset successfully"
+    active: Virkt
+    copy_are_you_sure: Ertu viss um að þú viljir afrita þessa stillingu?
+    delete_are_you_sure: Ertu viss um að þú viljir eyða þessari stillingu?
+    delete: Þetta fjarlægir allar stillingar viðbótarinnar. Til að fela hana, fjarlægðu hana úr spilunarlistanum í staðinn.
+    inactive: Óvirkt
+    no_plugin_settings_found: Engar stillingar fundust.
+    refreshing_now_please_wait: Glæði, endurhlaðið síðuna eftir nokkrar sekúndur.
+    reset_credentials: "%{plugin_name} aðgangur endurstilltur"
     form:
-      active_hint: Show or hide this plugin instance on your device
-      advanced_settings: Advanced Settings
-      back_to_plugin: Back to %{plugin}
-      back_to_plugins: Back to Plugins
-      connect_with: Connect with %{plugin}
-      debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
-      debug_logs_enabled_link: View logs
-      disconnect_account: Disconnect Account
-      manage_plugin: Configure %{plugin}
-      force_refresh: Force Refresh
-      force_refresh_hint: This feature is designed for testing only - please do not abuse it.
-      force_refresh_click_here: Click here
-      force_refresh_click_here_hint: to generate a new screen immediately
-      learn_more: Learn about this plugin in our knowledge base
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
-      linked_account: Linked Account
-      linked_account_success: Successfully linked with %{plugin_name}
-      link_oauth: Link Account
-      link_oauth_hint: Before you continue, follow the secure authorization process provided by %{plugin}
-      multiple_instances_hint: This plugin supports multiple instances.
-      name: Name
-      name_hint: Give it a name for easy reference
-      parse: Parse
-      parse_save_first: Parse (Save plugin first)
-      parsed: Parsed
-      plugin_uuid: Plugin UUID
-      plugin_uuid_hint: Use this to make Webhook API requests.
-      preview: Preview - your device will show actual data
-      recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
-      refresh_rate: Refresh rate
-      refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
-      refreshed: Refreshed
-      remove_plugin: Remove plugin
-      remove_plugin_hint: Removing a plugin will also remove it from your playlist
-      synced: Synced
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
-      visit_docs: Visit Docs
+      active_hint: Sýna eða fela þessa viðbót á tækinu þínu
+      advanced_settings: Ítarlegar stillingar
+      back_to_plugin: Til baka í %{plugin}
+      back_to_plugins: Til baka í viðbætur
+      connect_with: Tengjast við %{plugin}
+      debug_logs: Villuskrár
+      debug_logs_click_here: Smelltu hér
+      debug_logs_click_here_hint: til að virkja villuskrár fyrir þessa viðbót.
+      debug_logs_enabled: Villuskrár virkar í %{hours} klst.
+      debug_logs_enabled_link: Skoða skrár
+      disconnect_account: Aftengja aðgang
+      manage_plugin: Stjórna %{plugin}
+      force_refresh: Þvinguð uppfærsla
+      force_refresh_hint: Aðeins fyrir prófanir – vinsamlegast varist misnotkun.
+      force_refresh_click_here: Smelltu hér
+      force_refresh_click_here_hint: til að uppfæra skjámynd strax
+      learn_more: Lesa meira um þessa viðbót í hjálpargagnasafni
+      learn_more_fork: Þessi viðbót er afrituð úr uppskrift.
+      learn_more_fork_original: Skoða upprunalega
+      learn_more_recipe_author: Þarftu hjálp? Hafðu samband við %{recipe_author} á Discord.
+      learn_more_recipe_long: Þessi viðbót er frá samfélaginu og er ekki viðhaldið af TRMNL.
+      learn_more_recipe_short: 'Athugið: þessi viðbót er uppskrift.'
+      linked_account: Tengt notandanafni
+      linked_account_success: Tókst að tengja við %{plugin_name}
+      link_oauth: Tengja aðgang
+      link_oauth_hint: Fylgdu öruggu auðkenningarferli frá %{plugin} áður en þú heldur áfram.
+      multiple_instances_hint: Þessi viðbót styður margar uppsetningar.
+      name: Heiti
+      name_hint: Gefðu því auðkennt heiti
+      parse: Lesa
+      parse_save_first: Lesa (vista viðbót fyrst)
+      parsed: Lesið
+      plugin_uuid: UUID viðbótar
+      plugin_uuid_hint: Notað til að senda (Webhook) API beiðnir.
+      preview: Forskoðun – tækið þitt mun sýna raunveruleg gögn
+      recipe_cta_heading_published: Þessi viðbót er uppskrift
+      recipe_cta_heading_in_review: Uppskrift í skoðun
+      recipe_cta_heading_not_published: Birta sem uppskrift?
+      recipe_cta_body_published: Breytingar verða sýnilegar á núverandi og komandi uppsetningum.
+      recipe_cta_body_in_review: Viðbótin hefur verið send inn til skoðunar. Hinkraðu.
+      recipe_cta_body_not_published: Senda viðbótina til annarra. __Lesa meira__.
+      recipe_cta_confirm: Ertu viss? Teymið okkar mun skoða þetta næstdu daga. Þú getur haldið áfram að breyta á meðan.
+      refresh_rate: Uppfærslutíðni
+      refresh_rate_hint: Stilltu hversu oft þessi viðbót sækir gögn
+      refreshed: Uppfært
+      remove_plugin: Fjarlægja viðbót
+      remove_plugin_hint: Að fjarlægja viðbót fjarlægir hana einnig úr spilunarlista
+      synced: Samstillt
+      refresh_paused: Uppfærsla í bið
+      refresh_paused_hint: Sjálfvirk uppfærsla stöðvuð. Bættu við spilunarlista til að hefja aftur.
+      refresh_paused_mashup: Uppfærsla á samsetningum
+      refresh_paused_mashup_hint: Sjálfvirk uppfærsla í bið fyrir heilskjá. Samsetningar eru að uppfærast.
+      refresh_stopped: Sjálfvirk uppfærsla stöðvuð. Lagfærðu villuna til að halda áfram.
+      visit_docs: Skoða skjöl
     import:
-      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
-      missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: "%{filename} is too large"
-      malformed: "%{filename} is malformed"
+      archive_too_large: ZIP skrá er of stór (%{max_mb} MB hámark)
+      missing_entry: ZIP skrá inniheldur ekki %{filename}
+      entry_too_large: "%{filename} er of stór"
+      malformed: "%{filename} er vansköpuð"
     create:
-      success: Plugin created and added to your
-      playlist: playlist
+      success: Viðbót búin til og bætt við
+      playlist: spilunarlista
     destroy:
-      success: Plugin deleted
-    handle_canceled_consent: Consent canceled, please try again
+      success: Viðbót fjarlægð
+    handle_canceled_consent: Samþykki afturkallað, vinsamlegast reyndu aftur
     update:
-      success: Plugin configuration updated successfully
+      success: Stillingar viðbótar uppfærðar
     add_to_playlist:
-      success: Plugin added to Playlist
+      success: Viðbót bætt við spilunarlista
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: Beiðni móttekin, skoðaðu pósthólfið þitt
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
-      fork: Fork
+      newest_to_oldest: Nýjast til elst
+      oldest_to_newest: Elst til nýjast
+      most_popular: Vinsælast
+      install: Setja upp
+      fork: Afrita
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: Bæta við sérsniðinni tímasetningu
+      append: Og á meðan…
+      no_schedule: Þessi skjár verður alltaf sýndur.
+      some_schedule: Sýna þennan skjá aðeins á…
+      to: til
+      copy_prompt: Afrita tímasetningu frá…
   upgrade:
     index:
-      title: 'Upgrading device:'
-      tagline: Unlock custom plugins and __more__.
-      pay: Pay
-      error: Device %{device_name} is already upgraded, switch to another device
+      title: 'Uppfæri tæki:'
+      tagline: Opnaðu fyrir sérsniðnar viðbætur og __meira__.
+      pay: Greiða
+      error: Tækið %{device_name} er þegar uppfært, skiptu í annað tæki
     confirm:
-      success: Developer edition add-on is now enabled
+      success: Þróunarviðbótin er nú virkjuð
