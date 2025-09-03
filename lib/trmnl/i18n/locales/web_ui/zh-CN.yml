@@ -4,7 +4,7 @@ zh-CN:
   add: 添加
   add_new: 添加新设备
   ago: 之前
-  already_have_account: 登录
+  already_have_account: 已经有账号？
   back: 后退
   back_to_all_blog_posts: 返回首页
   blog: 博客
@@ -13,7 +13,7 @@ zh-CN:
   change_password: 修改密码
   charge_level: 充电状态
   charged: 电量
-  charging: Charging
+  charging: 充电中
   close: 取消
   confirm_change_password: 确认修改密码
   confirm_password: 确认密码
@@ -27,26 +27,26 @@ zh-CN:
   delete: 删除
   developer_edition_required: 此功能需要升级至开发者版。
   device_id: 设备ID
-  edit: 设置
-  email_address: Email
-  export: Export
+  edit: 编辑
+  email_address: 邮件
+  export: 导出
   fetching: 正在获取
   first_name: 名
   forgot_password: 忘记密码
   forgot_password_title: 重新设置密码
   get_started: 开始使用
   identify: 识别
-  import: Import
-  import_new: Import new
+  import: 导入
+  import_new: 导入新设备
   integrations: 整合
   keep_me_signed_in: 保持登录
   knowledge_base: 说明书
   last_name: 姓
-  learn_more: Learn more
+  learn_more: 了解更多
   loading: 加载中
-  login: 登陆
+  login: 登录
   log_out: 登出
-  manage: Manage
+  manage: 管理
   minimum_characters: 最少字符
   mins: 分
   my_playlist: 我的播放列表
@@ -58,11 +58,11 @@ zh-CN:
   reset_password: 重置密码
   save: 保存
   section: 分区
-  settings: Settings
+  settings: 设置
   sign_in: 登录
-  sign_up: 退出
+  sign_up: 注册
   something_went_wrong: 未知错误
-  subscribe: Subscribe
+  subscribe: 订阅
   tech_support: 技术支持
   update: 更新
   view: 查看
@@ -75,18 +75,18 @@ zh-CN:
     index:
       title: 账号
       tagline: 修改账号设置
-      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
-      api_key_hint: See __the docs__ to learn how to configure your local environment.
-      api_key_label: The credential for authenticating local development tools
-      api_key_not_generated: "(none yet)"
-      api_key_reset: Regenerate
-      api_key: API Key
-      beta_features: Beta Features
-      beta_features_hint: Try out new stuff here. Options may disappear at any time.
-      discord_community: Discord Community
-      discord_username: What's your Discord username?
-      discord_username_hint: May be used for support, attribution on published Recipes, etc.
-      email_address: Email
+      api_key_confirm: 你确定要重新生成您的API密钥吗？ 旧的密钥会失效。
+      api_key_hint: 查看__文档__，了解如何配置您的本地环境。
+      api_key_label: 用于验证本地开发工具的凭据
+      api_key_not_generated: （无）
+      api_key_reset: 重新生成
+      api_key: API密钥
+      beta_features: 测试功能
+      beta_features_hint: 试用新功能。选型可能随时消失。
+      discord_community: Discord社区
+      discord_username: 你的Discord用户名是什么？
+      discord_username_hint: 可能会用于支持，在已发布的配方中署名等用途。
+      email_address: 邮件
       refer_and_earn: 返利
       refer_and_earn_hint: 通过个性化的优惠券赠送 TRMNL 设备。按使用次数付费，按月支付。
       refer_and_earn_redemptions: 兑换次数
@@ -102,21 +102,21 @@ zh-CN:
       enable_2fa_hint: __点击此处__ 启用一次性口令（OTP）.
       disable_2fa: 禁用双重因子认证（2FA）
       disable_2fa_hint: 若需禁用此功能，请在上方提供有效的一次性口令（OTP）及当前密码。
-      plus_subscription: TRMNL+ Subscription
-      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
-      plus_subscription_modify: Want to update your payment method or cancel?
-      session: 用户
-      session_hint: 当前登陆用户名：%{user}
-      show_title_bar: Show title bar
-      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      plus_subscription: TRMNL+ 订阅
+      plus_subscription_hint: 享用更快的刷新率和更高的速率限制。__了解更多__。
+      plus_subscription_modify: 需要更改支付方法或者取消订阅？
+      session: 登录会话
+      session_hint: 当前登录的用户名：%{user}
+      show_title_bar: 显示标题栏
+      show_title_bar_hint: 关闭的时候, 原声插件（非全局插件）和第三方插件将会更简约。
       time_zone: 时区
       time_zone_hint: 用于自动调整刷新率与设备休眠
-      locale: 本地化
-      locale_hint: 您首选的语言和本地化是？__可在此设置__。
+      locale: 语言
+      locale_hint: 您喜欢哪个语言和本地话设置？__前往此处__。
     update:
       success: 账户修改成功
     reset_api_key:
-      success: API key was regenerated successfully
+      success: API 密钥重新生成成功。
   dashboard:
     index:
       title: 仪表盘
@@ -143,7 +143,7 @@ zh-CN:
       new_and_popular: 热门插件
     shop:
       title: 店铺
-      need_another: Need another TRMNL?
+      need_another: 又需要一个TRMNL吗？
     time_saved:
       title: 节省时间
       cta: 详细信息
@@ -355,7 +355,7 @@ zh-CN:
       tagline: 让您的TRMNL更加强大
       available: 可用
       connected: 已连接
-      recipes: Recipes
+      recipes: 配方
       recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
     search:
       placeholder: 搜索所有插件
