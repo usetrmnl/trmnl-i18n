@@ -1,57 +1,57 @@
 ---
 nl:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: En nog
+    and_x_more_suffix: 
     days_left_year:
       title: Dagen over dit jaar
       days_passed: Verstreken dagen
       days_left: Resterende dagen
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: Maankalender
+      age: Maanleeftijd
+      current_phase: Huidige Fase
+      illumination: Maansverlichting
+      next_full_moon: Volgende Volle Maan
+      next_new_moon: Volgende Nieuwe Maan
+      next_phase: Volgende Fase
+      next_phase_short: Volgende
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: Nieuwe Maan
+        waxing_crescent: Jonge Maansikkel
+        first_quarter: Eerste Kwartier
+        waxing_gibbous: Wassende Maan
+        full_moon: Volle Maan
+        waning_gibbous: Afnemende Maan
+        third_quarter: Laatste Kwartier
+        waning_crescent: Asgrauwe Maan
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: Levering door
+      empty: Er zijn geen leveringen
       errors:
         api: Parcel API error
         http: HTTP error %{code}
         internal: Internal error
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Actieve Levering
+          other: Actieve Leveringen
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Recente Levering
+          other: Recente Leveringen
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: Afgeleverd
+        delivery_exception: Leveringsfout
+        expecting_pickup: Wacht Op Afhaling
+        failed_delivery_attempt: Mislukte Afleverpoging
+        frozen: Bevroren
+        in_transit: Onderweg
+        information_received: Informatie Ontvangen
+        not_found: Niet Gevonden
+        out_for_delivery: Onderweg Voor Levering
+        unknown: Onbekend
+      today: Vandaag
+      tomorrow: Morgen
     weather:
       title: Weer
       temperature: Temperatuur
@@ -65,153 +65,153 @@ nl:
       tomorrow: Morgen
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: Zwak
+          moderate: Matig
+          high: Sterk
+          very_high: Zeer Sterk
+          extreme: Extreem
         conditions:
         - code: 1000
-          day: Sunny
-          night: Clear
+          day: Zonnig
+          night: Helder
         - code: 1003
-          day: Partly Cloudy
-          night: Partly Cloudy
+          day: Deels Bewolkt
+          night: Deels Bewolkt
         - code: 1006
-          day: Cloudy
-          night: Cloudy
+          day: Bewolkt
+          night: Bewolkt
         - code: 1009
-          day: Overcast
-          night: Overcast
+          day: Zwaar Bewolkt
+          night: Zwaar Bewolkt
         - code: 1030
+          day: Nevel
+          night: Nevel
+        - code: 1063
+          day: Lichte Regen
+          night: Lichte Regen
+        - code: 1066
+          day: Lichte Sneeuw
+          night: Lichte Sneeuw
+        - code: 1069
+          day: Natte Sneeuw
+          night: Natte Sneeuw
+        - code: 1072
+          day: Ijzel
+          night: Ijzel
+        - code: 1087
+          day: Onweer
+          night: Onweer
+        - code: 1114
+          day: Stuifsneeuw
+          night: Stuifsneeuw
+        - code: 1117
+          day: Sneeuwstorm
+          night: Sneeuwstorm
+        - code: 1135
           day: Mist
           night: Mist
-        - code: 1063
-          day: Light Rain
-          night: Light Rain
-        - code: 1066
-          day: Light Snow
-          night: Light Snow
-        - code: 1069
-          day: Sleet
-          night: Sleet
-        - code: 1072
-          day: Freeze Drizzle
-          night: Freeze Drizzle
-        - code: 1087
-          day: Thunder
-          night: Thunder
-        - code: 1114
-          day: Blowing Snow
-          night: Blowing Snow
-        - code: 1117
-          day: Blizzard
-          night: Blizzard
-        - code: 1135
-          day: Fog
-          night: Fog
         - code: 1147
-          day: Freezing Fog
-          night: Freezing Fog
+          day: Ijzige mist
+          night: Ijzige mist
         - code: 1150
-          day: Light Drizzle
-          night: Light Drizzle
+          day: Lichte Motregen
+          night: Licht Motregen
         - code: 1153
-          day: Drizzle
-          night: Drizzle
+          day: Motregen
+          night: Motregen
         - code: 1168
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: Ijzel
+          night: Ijzel
         - code: 1171
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Zware Ijzel
+          night: Zware Ijzel
         - code: 1180
-          day: Light Rain
-          night: Light Rain
+          day: Lichte Regen
+          night: Lichte Regen
         - code: 1183
-          day: Light Rain
-          night: Light Rain
+          day: Lichte Regen
+          night: Lichte Regen
         - code: 1186
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Matige Regen
+          night: Matige Regen
         - code: 1189
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Matige Regen
+          night: Matige Regen
         - code: 1192
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Zware Regen
+          night: Zware Regen
         - code: 1195
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Zware Regen
+          night: Zware Regen
         - code: 1198
-          day: Light Freeze
-          night: Light Freeze
+          day: Lichte Ijzel
+          night: Lichte Ijzel
         - code: 1201
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Zware Ijzel
+          night: Zware Ijzel
         - code: 1204
-          day: Light Sleet
-          night: Light Sleet
+          day: Lichte Natte Sneeuw
+          night: Lichte Natte Sneeuw
         - code: 1207
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Zware Natte Sneeuw
+          night: Zware Natte Sneeuw
         - code: 1210
-          day: Light Snow
-          night: Light Snow
+          day: Lichte Sneeuw
+          night: Lichte Sneeuw
         - code: 1213
-          day: Light Snow
-          night: Light Snow
+          day: Lichte Sneeuw
+          night: Lichte Sneeuw
         - code: 1216
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Matige Sneeuw
+          night: Matige Sneeuw
         - code: 1219
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Matige Sneeuw
+          night: Matige Sneeuw
         - code: 1222
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Zware Sneeuw
+          night: Zware Sneeuw
         - code: 1225
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Zware Sneeuw
+          night: Zware Sneeuw
         - code: 1237
-          day: Ice Pellets
-          night: Ice Pellets
+          day: Ijsregen
+          night: Ijsregen
         - code: 1240
-          day: Light Rain
-          night: Light Rain
+          day: Lichte Regen
+          night: Lichte Regen
         - code: 1243
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Zware Regen
+          night: Zware Regen
         - code: 1246
-          day: Torrential Rain
-          night: Torrential Rain
+          day: Stortregen
+          night: Stortregen
         - code: 1249
-          day: Light Sleet
-          night: Light Sleet
+          day: Lichte Natte Sneeuw
+          night: Lichte Natte Sneeuw
         - code: 1252
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Zware Natte Sneeuw
+          night: Zware Natte Sneeuw
         - code: 1255
-          day: Light Snow
-          night: Light Snow
+          day: Lichte Sneeuw
+          night: Lichte Sneeuw
         - code: 1258
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Zware Sneeuw
+          night: Zware Sneeuw
         - code: 1261
-          day: Light Ice
-          night: Light Ice
+          day: Lichte Ijzel
+          night: Lichte Ijzel
         - code: 1264
-          day: Heavy Ice
-          night: Heavy Ice
+          day: Zware Ijzel
+          night: Zware Ijzel
         - code: 1273
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Onweer & Regen
+          night: Onweer & Regen
         - code: 1276
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Onweer & Regen
+          night: Onweer & Regen
         - code: 1279
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: Onweer & Sneeuw
+          night: Onweer & Sneeuw
         - code: 1282
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: Onweer & Sneeuw
+          night: Onweer & Sneeuw
