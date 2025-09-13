@@ -12,8 +12,8 @@ da:
   cancel: Annuller
   change_password: Skift adgangskode
   charge_level: Opladningsniveau
-  charged: opladet
-  charging: Charging
+  charged: Opladet
+  charging: Oplader
   close: Luk
   confirm_change_password: Bekræft ændring af adgangskode
   confirm_password: Bekræft ny adgangskode
@@ -27,7 +27,7 @@ da:
   delete: Slet
   developer_edition_required: Udviklerudgave kræves for at aktivere denne funktion.
   device_id: Enheds-ID
-  edit: Indstillinger
+  edit: Rediger
   email_address: Mailadresse
   export: Eksporter
   fetching: Henter
@@ -42,11 +42,11 @@ da:
   keep_me_signed_in: Hold mig logget ind
   knowledge_base: Vidensbase
   last_name: Efternavn
-  learn_more: Learn more
+  learn_more: Læs mere
   loading: Indlæser
   login: Log ind
   log_out: Log ud
-  manage: Manage
+  manage: Administrer
   minimum_characters: minimum tegn
   mins: min
   my_playlist: Min playliste
@@ -58,11 +58,11 @@ da:
   reset_password: Nulstil min adgangskode
   save: Gem
   section: Sektion
-  settings: Settings
+  settings: Indstillinger
   sign_in: Log ind
   sign_up: Tilmeld
   something_went_wrong: Noget gik galt
-  subscribe: Subscribe
+  subscribe: Abonner
   tech_support: Support
   update: Opdater
   view: Vis
@@ -75,40 +75,40 @@ da:
     index:
       title: Konto
       tagline: Administrer dine kontoindstillinger
-      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
-      api_key_hint: See __the docs__ to learn how to configure your local environment.
-      api_key_label: The credential for authenticating local development tools
-      api_key_not_generated: "(none yet)"
-      api_key_reset: Regenerate
-      api_key: API Key
-      beta_features: Beta Features
-      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      api_key_confirm: Er du sikker på, at du vil regenerere din API-nøgle? Den gamle nøgle vil blive ugyldig.
+      api_key_hint: Se __dokumentationen__ for at lære, hvordan du konfigurerer dit lokale miljø.
+      api_key_label: Legitimationsoplysninger til autentificering af lokale udviklingsværktøjer
+      api_key_not_generated: "(ingen endnu)"
+      api_key_reset: Regenerer
+      api_key: API-nøgle
+      beta_features: Beta-funktioner
+      beta_features_hint: Prøv nye funktioner her. Muligheder kan forsvinde når som helst.
       discord_community: Discord Community
-      discord_username: What's your Discord username?
-      discord_username_hint: May be used for support, attribution on published Recipes, etc.
+      discord_username: Hvad er dit Discord-brugernavn?
+      discord_username_hint: Kan bruges til support, attribution på publicerede opskrifter osv.
       email_address: Mailadresse
       refer_and_earn: Henvis og tjen
-      refer_and_earn_hint: Giv gaven af TRMNL med en personlig kupon. Tjen pr. brug, betalt månedligt.
+      refer_and_earn_hint: Giv TRMNL som gave med en personlig kupon. Tjen pr. brug, betalt månedligt.
       refer_and_earn_redemptions: Indløsninger
       refer_and_earn_request_code: Anmod om en kode
       device_invoice: Enhedsfaktura
-      device_invoice_label: Download kommercielle dokumenter til din revisor eller (mærkelige) PDF-samling.
-      device_invoice_hint: Find dette på din pakkesporingsside eller forsendelsesmeddelelses-e-mail.
-      email_address_hint: Bruges til at logge ind på TRMNL og til at modtage systembeskeder.
-      first_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere behagelig.
-      last_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere behagelig.
+      device_invoice_label: Download kommercielle dokumenter til din revisor eller PDF-samling.
+      device_invoice_hint: Find dette på din pakkesporingsside eller i forsendelses e-mail.
+      email_address_hint: Bruges til at logge ind på TRMNL og modtage systembeskeder.
+      first_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere personlig.
+      last_name_hint: Vi bruger dit navn til at gøre TRMNL-grænsefladen mere personlig.
       password_hint: Bruges til at beskytte din TRMNL-konto.
       enable_2fa: Aktivér 2FA?
       enable_2fa_hint: __Klik her__ for at aktivere OTP.
       disable_2fa: Deaktiver 2FA
-      disable_2fa_hint: Angiv gyldig OTP og nuværende adgangskode ovenfor for at deaktivere denne funktion.
-      plus_subscription: TRMNL+ Subscription
-      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
-      plus_subscription_modify: Want to update your payment method or cancel?
+      disable_2fa_hint: Indtast gyldig OTP og nuværende adgangskode ovenfor for at deaktivere denne funktion.
+      plus_subscription: TRMNL+ Abonnement
+      plus_subscription_hint: Lås op for hurtigere opdateringshastigheder og højere grænser. __Læs mere__.
+      plus_subscription_modify: Vil du opdatere betalingsmetoden eller annullere?
       session: Session
       session_hint: Du er logget ind som %{user}
-      show_title_bar: Show title bar
-      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      show_title_bar: Vis titelbjælke
+      show_title_bar_hint: Hvis deaktiveret, vil native (ikke globale) og tredjeparts-plugins være mere minimalistiske.
       time_zone: Tidszone
       time_zone_hint: Bestemmer opdateringshastigheder og enhedens sovetid.
       locale: Lokalitet
@@ -116,7 +116,7 @@ da:
     update:
       success: Profil opdateret med succes
     reset_api_key:
-      success: API key was regenerated successfully
+      success: API-nøgle blev regenereret med succes
   dashboard:
     index:
       title: Dashboard
@@ -127,7 +127,7 @@ da:
       yesterday: I går
     health:
       bad: Plugins oplever problemer
-      good: Plugins er sunde
+      good: Plugins fungerer korrekt
       next_steps: Vi vil informere dig, hvis noget ændrer sig
     news:
       title: Nyheder
@@ -143,7 +143,7 @@ da:
       new_and_popular: Nye og populære
     shop:
       title: Butik
-      need_another: Need another TRMNL?
+      need_another: Har du brug for en anden TRMNL?
     time_saved:
       title: Tid sparet
       cta: Læs om
@@ -157,63 +157,63 @@ da:
       accepts_beta_firmware_hint: Slå til for at få de nyeste firmwareforbedringer før andre brugere.
       back_to_devices: Tilbage til enheder
       battery_consumption: Batteriforbrug
-      battery_consumption_hint: Spar strøm og nyd længere batterilevetid ved at aktivere dvaletilstand.
-      battery_learn_more: Learn more about battery charging __here__.
+      battery_consumption_hint: Spar strøm og forlæng batterilevetiden ved at aktivere dvaletilstand.
+      battery_learn_more: Læs mere om opladning af batteri __her__.
       developer_perks: Udviklerfordele
-      developer_perks_hint: Mulighederne nedenfor kræver __Udviklerudgave-tilføjelse__.
+      developer_perks_hint: Nogle muligheder kræver __Udviklerudgave-tilføjelse__.
       device_credentials: Enhedsoplysninger
       device_credentials_hint: Se hvad du kan gøre med disse oplysninger __her__
       device_name: Enhedsnavn
-      device_name_hint: Vi bruger dette til at gøre TRMNL-grænsefladen mere behagelig
-      device_model: Device Model
-      device_model_hint: Your hardware Model
-      device_model_switch_warning: This is a dangerous operation, learn more __here__
+      device_name_hint: Bruges til at gøre TRMNL-grænsefladen mere personlig
+      device_model: Enhedsmodel
+      device_model_hint: Din hardwaremodel
+      device_model_switch_warning: Dette er en risikabel handling, læs mere __her__
       edit_device: Rediger enhed
-      guest_mode: Guest Mode
-      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
-      guest_mode_item_placeholder: Choose an item
-      guest_mode_duration_placeholder: Choose a duration
+      guest_mode: Gæstetilstand
+      guest_mode_hint: Vælg hvad der skal vises (og i hvor lang tid), når gæstetilstand er aktiveret.
+      guest_mode_item_placeholder: Vælg et element
+      guest_mode_duration_placeholder: Vælg varighed
       identify: Identificer
       identify_device: Identificer enhed
-      identify_device_hint: Klik på knappen nedenfor for at generere en skærm på denne enhed, der hjælper med at identificere den.
+      identify_device_hint: Klik på knappen nedenfor for at generere en skærm på denne enhed, der hjælper med identifikation.
       logs: Logfiler
-      logs_hint: Fejlfinding af din enhed og plugins med en live feed af rå fejl-logfiler.
-      low_battery_email_notification: Low Battery Email Notification
-      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
+      logs_hint: Fejlret din enhed og plugins med en live feed af rå logfiler.
+      low_battery_email_notification: Lavt batteri e-mail notifikation
+      low_battery_email_notification_hint: Få besked via e-mail, når din enheds batteri er lavt.
       mirror: Spejl
       mirror_device: Spejl en anden enhed
-      mirror_device_hint: Angiv et (delbart) enheds-ID for at spejle dens playliste. Din playliste vil stadig blive vist.
-      mirror_stop: Disconnect Mirroring
-      mirror_sync: Sync Screens
+      mirror_device_hint: Angiv et (delbart) enheds-ID for at spejle dens playliste. Din playliste vises stadig.
+      mirror_stop: Stop spejling
+      mirror_sync: Synkroniser skærme
       ota_enabled: OTA-opdateringer aktiveret
       ota_enabled_hint: Installer automatisk ny firmware. Deaktiver for at bruge din egen firmware.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
-      maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      ota_byod_not_supported: OTA understøttes ikke for BYOD-enheder. Flash en kompatibel version direkte fra usetrmnl.com/flash
+      maximum_compatibility: Aktivér maksimal kompatibilitet
+      maximum_compatibility_hint: Løser visningsproblemer forårsaget af visse e-ink driverchips. Deaktiverer hurtig opdatering. Firmware 1.6.0+ kræves.
       sleep_mode: Dvaletilstand
-      sleep_mode_hint: Juster din opdateringshastighed for at optimere fokus og batterilevetid.
-      sleep_screen: Dvaleskærmbillede
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
-      sleep_screen_hint: Display a sleep screen during sleep mode hours.
+      sleep_mode_hint: Juster opdateringshastigheden for at optimere fokus og batterilevetid.
+      sleep_screen: Dvaleskærm
+      sleep_screen_tooltip: Aktivér dvaletilstand for at bruge denne funktion
+      sleep_screen_hint: Vis en dvaleskærm under dvaletimer.
       special_function: Specialfunktion
-      special_function_hint: Indstil en dobbeltklik-funktion for knappen på bagsiden af din enhed.
+      special_function_hint: Indstil en dobbeltklik-funktion for knappen på bagsiden af enheden.
       special_function_learn_more: Læs mere om specialfunktioner __her__.
-      temperature_profile: Temperature Profile
-      temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      temperature_profile: Temperaturprofil
+      temperature_profile_hint: Ændr ikke medmindre instrueret. Til displays med udvaskede billeder.
       unlink: Fjern tilknytning
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Er du sikker? Dette sletter alle plugin-indstillinger og playliste-elementer, så enheden kan tilknyttes en anden konto.
       unlink_device: Fjern tilknytning til enhed
-      unlink_device_hint: At fjerne tilknytningen til en TRMNL-enhed gør det sikkert at sælge eller give den til en anden.
-      unlink_device_learn_more: Follow the full guide __here__.
+      unlink_device_hint: At fjerne tilknytning gør det sikkert at sælge eller give TRMNL-enheden til en anden.
+      unlink_device_learn_more: Følg den fulde guide __her__.
       visibility: Synlighed
       visibility_hint: Gør din TRMNL-enhed spejlbar ved at ændre indstillingerne nedenfor.
       your_device: Din TRMNL
       upgrade_og:
-        title: Upgrade to 2-bit Display Available
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
-        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
-        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
-        cta: Upgrade to TRMNL OG (2-bit)
+        title: Opgradering til 2-bit Display tilgængelig
+        sub_title: Din enhed kan opgraderes til forbedret gråtonedisplay med 4 farveniveauer i stedet for 2.
+        warning_1: Jeg forstår, at denne opgradering er <strong>irreversibel</strong> og kan ikke fortrydes.
+        warning_2: Jeg forstår, at dette er en <strong>farlig</strong> handling og kan beskadige min enhed.
+        cta: Opgrader til TRMNL OG (2-bit)
     index:
       title: Enheder
       tagline: Dine TRMNL-enheder
@@ -262,30 +262,30 @@ da:
       js_logs: JS Logs
     form:
       back_to_plugin_settings: Tilbage til plugin-indstillinger
-      design_system: Udnyt vores indbygget designsystem
+      design_system: Udnyt vores indbyggede designsystem
       design_system_docs: Designsystem dokumentation
-      dirty_confirm: Du har ikke-gemte ændringer. Er du sikker på, at du vil forlade denne side?
+      dirty_confirm: Du har ikke-gemte ændringer. Er du sikker på, at du vil forlade siden?
       edit_markup: Rediger markup
       edit_markup_for_plugin: Rediger markup for %{plugin_setting_name}
       edit_markup_please_save_first: Gem venligst før redigering af markup
       edit_markup_without_preview: Rediger markup (uden forhåndsvisning)
       error_rendering_markup: Fejl ved rendering af markup
       fix_indentation: Ret indrykning
-      go_to_preview: Go To Preview
+      go_to_preview: Gå til forhåndsvisning
       live_preview: Live forhåndsvisning
       no_changes_to_save: Ingen ændringer at gemme
-      pop_out_preview: Pop Out Preview
-      quickstart_examples: Eksempler til at komme hurtigt igang
+      pop_out_preview: Pop-out forhåndsvisning
+      quickstart_examples: Hurtigstart-eksempler
       quickstart_example_applied: Anvendt!
       quickstart_use_this_example: Brug dette eksempel
       revert: Gendan
       revert_confirm: Er du sikker på, at du vil gendanne? Alle ikke-gemte ændringer vil gå tabt.
       save_changes: Gem ændringer (⌘﹢S)
-      separate_preview: Preview is open in a separate window
+      separate_preview: Forhåndsvisning er åben i et separat vindue
     merge_variables:
       your_variables: Dine variabler
     no_merge_variables:
-      force_refresh: Hvis du har angivet variabler, men de ikke bliver registreret, prøv en __tvungen opdatering__.
+      force_refresh: Hvis du har angivet variabler, men de ikke registreres, prøv en __tvungen opdatering__.
       no_variables_detected: Ingen variabler registreret.
   mfa:
     disable_otp:
@@ -302,8 +302,8 @@ da:
       error: Ugyldig OTP-kode
     verify_otp:
       verify: Bekræft
-      reset: Reset MFA
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
+      reset: Nulstil MFA
+      reset_instructions: Klik på knappen på bagsiden af din TRMNL for at generere en nulstillingskode
       success: 2FA vellykket
       error: Ugyldig OTP-kode
   playlist_items:
@@ -321,20 +321,20 @@ da:
       display_period_to: til
       display_period_validation: Starttidspunkt skal være før sluttidspunkt. Opret en ny gruppe for at dække over midnat.
       every: Hver
-      never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      never_skip: Spring aldrig skærme over
+      smart_playlist: Smart playliste
+      smart_playlist_hint: Spring automatisk skærme over, hvis indholdet ikke har ændret sig i et stykke tid.
       skip_after:
-        one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        one: Spring forældede skærme over efter 1 dag
+        other: Spring forældede skærme over efter %{count} dage
     playlist_item:
-      adjust_schedule: Adjust schedule
-      delete: Er du sikker på, at du vil fjerne dette element? Pluginet vil forblive tilsluttet, men ikke blive vist på din enhed.
+      adjust_schedule: Juster tidsplan
+      delete: Er du sikker på, at du vil fjerne dette element? Pluginet forbliver tilsluttet, men vises ikke på din enhed.
       displayed_now: Vist nu
       not_displayed_yet: Afventer
       remove_from_playlist: Fjern fra playliste
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      hide_playlist: Skjul dette element
+      show_playlist: Vis dette element
     create:
       error: Fejl ved opdatering af playliste
       success: Playliste opdateret
@@ -342,13 +342,13 @@ da:
       error: Fejl ved fjernelse af element fra playliste
       success: Plugin fjernet fra playliste
     toggle_visibility:
-      success: Playlist item %{change}
+      success: Playlist element %{change}
     duplicate:
-      success: Playlist duplicated
+      success: Playlist duplikeret
     sort:
-      success: Playlist order updated
+      success: Playliste rækkefølge opdateret
     set_preferences:
-      success: Smart playlist preference updated
+      success: Smart playliste præference opdateret
     update:
       success: Playlistens rækkefølge opdateret
   plugins:
@@ -358,7 +358,7 @@ da:
       available: Tilgængelig
       connected: Forbundet
       recipes: Opskrifter
-      recipes_hint: Private plugins af fællesskabsmedlemmer, der kan installeres med 1 klik. __Lær mere__.
+      recipes_hint: Private plugins fra fællesskabsmedlemmer, som kan installeres med 1 klik. __Læs mere__.
     search:
       placeholder: Søg Plugins
     my:
@@ -366,32 +366,32 @@ da:
         title: Mine Plugins
         tagline: Udvikl plugins til det offentlige marked
       card:
-        connections: forbindelser
+        connections: Forbindelser
         install: Installer
-        review_are_you_sure: Er du sikker? TRMNL-teamet vil teste det og sende dig eventuelle spørgsmål via e-mail.
+        review_are_you_sure: Er du sikker? TRMNL-teamet vil teste det og kontakte dig via e-mail, hvis der er spørgsmål.
         submit_for_review: Indsend til gennemgang
     new:
       title: Opret nyt plugin
       tagline: Andre brugere vil kunne installere dit plugin.
       name: Navn
       category: Kategori
-      category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
+      category_hint: Hold cmd eller ctrl nede for at vælge op til 3
+      refresh_every: Understøttet opdateringsinterval
+      refresh_every_hint: Det hurtigste opdateringsinterval, dit plugin kan understøtte
       description: Beskrivelse
-      description_hint: Maksimum 50 tegn
+      description_hint: Maks. 50 tegn
       icon: Ikon
       icon_hint: 512x512px anbefalet
       installation_url: Installations-URL
-      installation_url_hint: Lær mere om installationsflowet __her__.
-      installation_success_webhook_url: Installation Success Webhook URL
+      installation_url_hint: Læs mere om installationsflowet __her__.
+      installation_success_webhook_url: Installations-success Webhook URL
       knowledge_base_url: Vidensbase-URL
-      management_url: Plugin Management URL
-      management_url_hint: Lær mere om administrationsflowet __her__.
+      management_url: Plugin-administrations-URL
+      management_url_hint: Læs mere om administrationsflowet __her__.
       markup_url: Plugin Markup URL
-      markup_url_hint: Lær mere om skærmgenerering __her__.
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
+      markup_url_hint: Læs mere om skærmgenerering __her__.
+      no_screen_padding: Ingen skærmpadding
+      no_screen_padding_hint: Fjerner yderste padding i fuldskærmsvisning.
       uninstallation_webhook_url: Afinstallations Webhook URL
     edit:
       title: Rediger plugin
@@ -399,10 +399,10 @@ da:
       name: Navn
       description: Beskrivelse
   plugin_recipes:
-    connected: Recipe connected
+    connected: Opskrift tilsluttet
     connections:
-      one: Connection
-      other: Connections
+      one: Forbindelse
+      other: Forbindelser
     forks:
       one: Fork
       other: Forks
@@ -412,54 +412,54 @@ da:
     active: Aktiv
     copy_are_you_sure: Er du sikker på, at du vil kopiere denne indstilling?
     delete_are_you_sure: Er du sikker på, at du vil slette denne indstilling?
-    delete: Dette vil fuldstændigt fjerne pluginets indstillinger. For blot at skjule dette plugin fra din enhed, skal du slette det fra din playliste i stedet.
+    delete: Dette vil fuldstændigt fjerne pluginets indstillinger. For blot at skjule pluginet fra din enhed, skal du slette det fra din playliste i stedet.
     inactive: Inaktiv
     no_plugin_settings_found: Ingen plugin-indstillinger fundet.
-    refreshing_now_please_wait: Opdaterer nu, genindlæs denne side om et par sekunder.
+    refreshing_now_please_wait: Opdaterer nu, genindlæs siden om et par sekunder.
     reset_credentials: "%{plugin_name} konto nulstillet med succes"
     form:
       active_hint: Vis eller skjul denne plugin-instans på din enhed
-      advanced_settings: Advanced Settings
+      advanced_settings: Avancerede indstillinger
       back_to_plugin: Tilbage til %{plugin}
       back_to_plugins: Tilbage til Plugins
       connect_with: Forbind med %{plugin}
-      debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
-      debug_logs_enabled_link: View logs
+      debug_logs: Debug-logs
+      debug_logs_click_here: Klik her
+      debug_logs_click_here_hint: for at aktivere debug-logs for denne plugin-instans.
+      debug_logs_enabled: Debug-logs aktiveret i %{hours} timer.
+      debug_logs_enabled_link: Se logs
       disconnect_account: Afbryd konto
       manage_plugin: Konfigurer %{plugin}
       force_refresh: Tving opdatering
       force_refresh_hint: Denne funktion er tiltænkt testbrug - misbrug den venligst ikke.
       force_refresh_click_here: Klik her
       force_refresh_click_here_hint: for at generere en ny skærm med det samme
-      learn_more: Lær om dette plugin i vores vidensbase
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
+      learn_more: Læs om dette plugin i vores vidensbase
+      learn_more_fork: Dette plugin blev forgrenet fra en opskrift.
+      learn_more_fork_original: Se original
+      learn_more_recipe_author: Brug for hjælp? Kontakt %{recipe_author} på Discord.
+      learn_more_recipe_long: Dette plugin er en community-opskrift og vedligeholdes ikke af TRMNL.
+      learn_more_recipe_short: "Bemærk: dette plugin er en opskrift."
       linked_account: Tilknyttet konto
       linked_account_success: Succesfuldt tilknyttet med %{plugin_name}
       link_oauth: Link konto
-      link_oauth_hint: Før du fortsætter, følg den sikre autorisationsproces leveret af %{plugin}
+      link_oauth_hint: Følg den sikre autorisationsproces leveret af %{plugin}
       multiple_instances_hint: Dette plugin understøtter flere instanser.
       name: Navn
-      name_hint: Giv det et navn for nem reference
+      name_hint: Giv det et navn til nem reference
       parse: Parse
-      parse_save_first: Parse (Save plugin first)
+      parse_save_first: Parse (gem plugin først)
       parsed: Parsed
       plugin_uuid: Plugin UUID
-      plugin_uuid_hint: Brug dette til at lave Webhook API-anmodninger.
-      preview: Forhåndsvisning - din enhed vil vise faktiske data
-      recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
+      plugin_uuid_hint: Bruges til Webhook API-anmodninger.
+      preview: Forhåndsvisning - din enhed vil viser faktiske data
+      recipe_cta_heading_published: Dette plugin er en opskrift
+      recipe_cta_heading_in_review: Opskrift under gennemgang
+      recipe_cta_heading_not_published: Udgiv som opskrift?
+      recipe_cta_body_published: Ændringer vil blive afspejlet på eksisterende og fremtidige installationer/forks.
+      recipe_cta_body_in_review: Dette plugin er sendt til vores team. Vent venligst.
+      recipe_cta_body_not_published: Indsend dette plugin, så andre kan installere det. __Læs mere__.
+      recipe_cta_confirm: Er du sikker? Vores team vil gennemgå det og vende tilbage inden for få dage. Du kan fortsætte med at foretage ændringer.
       refresh_rate: Opdateringshastighed
       refresh_rate_hint: Definer hvor ofte denne plugin-instans henter friske data
       refreshed: Opdateret
@@ -468,13 +468,13 @@ da:
       synced: Synkroniseret
       refresh_paused: Opdatering sat på pause
       refresh_paused_hint: Auto-opdatering er sat på pause. Tilføj til en playliste for at starte igen.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
+      refresh_paused_hidden_hint: Auto-opdatering er sat på pause, fordi pluginet er skjult i playlisten. Datasynkronisering er aktiv.
       refresh_paused_mashup: Opdaterer Mashups
       refresh_paused_mashup_hint: Auto-opdatering af fuldskærmsvisning er på pause. Mashups opdaterer.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
+      refresh_stopped: Auto-opdatering stoppet. Ret pluginfejl for at fortsætte.
       visit_docs: Besøg dokumentation
     import:
-      archive_too_large: ZIP-file er for stor (%{max_mb} MB maksimum)
+      archive_too_large: ZIP-fil er for stor (%{max_mb} MB maksimum)
       missing_entry: ZIP-filen indeholder ikke %{filename}
       entry_too_large: "%{filename} er for stor"
       malformed: "%{filename} er fejlbehæftet"
@@ -493,24 +493,24 @@ da:
       request_received: Anmodning modtaget, tjek din indbakke
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
-      fork: Fork
+      newest_to_oldest: Nyeste til ældste
+      oldest_to_newest: Ældste til nyeste
+      most_popular: Mest populære
+      install: Installer
+      fork: Forgren
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: Tilføj en brugerdefineret tidsplan
+      append: Og under…
+      no_schedule: Denne skærm vil altid blive vist.
+      some_schedule: Vis kun denne skærm under…
+      to: til
+      copy_prompt: Kopiér tidsplan fra…
   upgrade:
     index:
       title: 'Opgradering af enhed:'
       tagline: Lås op for tilpassede plugins og __mere__.
       pay: Betal
-      error: Enhed %{device_name} er allerede opgraderet, skift til en anden enhed
+      error: Enhed %{device_name} er allerede opgraderet, vælg en anden enhed
     confirm:
       success: Udviklerudgave-tilføjelse er nu aktiveret

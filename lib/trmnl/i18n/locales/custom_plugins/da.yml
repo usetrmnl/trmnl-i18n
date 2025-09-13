@@ -3,25 +3,25 @@ da:
   custom_plugins:
     today: i dag
     tomorrow: i morgen
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
+    updated: Opdateret
+    activity: Aktivitet
+    done: Udført
+    due: Forfald
     deutsche_bahn_departures:
-      time: Time
+      time: Tid
       destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
-      minutes: m
-      refreshed: Refreshed
+      platform: Spor
+      delay: Forsinkelse
+      train: Tog
+      on_time: Til tiden
+      cancelled: Aflyst
+      minutes: min
+      refreshed: Opdateret
     simple_calendar:
       title: Kalender
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Leap %{month_label}
+        leap_format: Spring %{month_label}
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
@@ -71,29 +71,29 @@ da:
         - '29'
         - '30'
         heavenly_stems:
-        - Wood
-        - Wood
-        - Fire
-        - Fire
-        - Earth
-        - Earth
+        - Træ
+        - Træ
+        - Ild
+        - Ild
+        - Jord
+        - Jord
         - Metal
         - Metal
-        - Water
-        - Water
+        - Vand
+        - Vand
         earthly_branches:
-        - Rat
-        - Ox
+        - Rotte
+        - Okse
         - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
+        - Kanin
+        - Drage
+        - Slange
+        - Hest
+        - Ged
+        - Abe
+        - Hane
+        - Hund
+        - Gris
       japanese:
         rokuyo_terms:
         - 先勝
@@ -105,7 +105,7 @@ da:
         nengo:
           reiwa: Reiwa
         ym_format: "%B %Y (%{nengo} %{alt_year})"
-        year_1: '1'
+        year_1: "1"
       hebrew:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:

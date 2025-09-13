@@ -1,57 +1,57 @@
 ---
 da:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: Og
+    and_x_more_suffix: mere
     days_left_year:
       title: Dage tilbage i år
       days_passed: Dage gået
       days_left: Dage tilbage
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: Månekalender
+      age: Månealder
+      current_phase: Nuværende fase
+      illumination: Månens belysning
+      next_full_moon: Næste fuldmåne
+      next_new_moon: Næste nymåne
+      next_phase: Næste fase
+      next_phase_short: Næste
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: Nymåne
+        waxing_crescent: Tiltagende månesegl
+        first_quarter: Første kvarter
+        waxing_gibbous: Tiltagende måne
+        full_moon: Fuldmåne
+        waning_gibbous: Aftagende måne
+        third_quarter: Sidste kvarter
+        waning_crescent: Aftagende månesegl
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: Leveres senest
+      empty: Der er ingen leveringer
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Pakkesporings API fejl
+        http: HTTP fejl %{code}
+        internal: Intern fejl
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Aktiv levering
+          other: Aktive leveringer
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Seneste levering
+          other: Seneste leveringer
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: Leveret
+        delivery_exception: Leveringsproblem
+        expecting_pickup: Forventer afhentning
+        failed_delivery_attempt: Mislykket leveringsforsøg
+        frozen: Frosset
+        in_transit: Undervejs
+        information_received: Oplysninger modtaget
+        not_found: Ikke fundet
+        out_for_delivery: På vej til levering
+        unknown: Ukendt
+      today: I dag
+      tomorrow: I morgen
     weather:
       title: Vejr
       temperature: Temperatur
@@ -65,153 +65,153 @@ da:
       tomorrow: I morgen
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: Lav
+          moderate: Moderat
+          high: Høj
+          very_high: Meget høj
+          extreme: Ekstrem
         conditions:
         - code: 1000
-          day: Sunny
-          night: Clear
+          day: Solrigt
+          night: Klart
         - code: 1003
-          day: Partly Cloudy
-          night: Partly Cloudy
+          day: Let skyet
+          night: Let skyet
         - code: 1006
-          day: Cloudy
-          night: Cloudy
+          day: Skyet
+          night: Skyet
         - code: 1009
-          day: Overcast
-          night: Overcast
+          day: Overskyet
+          night: Overskyet
         - code: 1030
-          day: Mist
-          night: Mist
+          day: Dis
+          night: Dis
         - code: 1063
-          day: Light Rain
-          night: Light Rain
+          day: Let regn
+          night: Let regn
         - code: 1066
-          day: Light Snow
-          night: Light Snow
+          day: Let sne
+          night: Let sne
         - code: 1069
-          day: Sleet
-          night: Sleet
+          day: Slud
+          night: Slud
         - code: 1072
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: Underafkølet finregn
+          night: Underafkølet finregn
         - code: 1087
-          day: Thunder
-          night: Thunder
+          day: Torden
+          night: Torden
         - code: 1114
-          day: Blowing Snow
-          night: Blowing Snow
+          day: Snedfygning
+          night: Snedfygning
         - code: 1117
-          day: Blizzard
-          night: Blizzard
+          day: Snestorm
+          night: Snestorm
         - code: 1135
-          day: Fog
-          night: Fog
+          day: Tåge
+          night: Tåge
         - code: 1147
-          day: Freezing Fog
-          night: Freezing Fog
+          day: Frosttåge
+          night: Frosttåge
         - code: 1150
-          day: Light Drizzle
-          night: Light Drizzle
+          day: Let støvregn
+          night: Let støvregn
         - code: 1153
-          day: Drizzle
-          night: Drizzle
+          day: Støvregn
+          night: Støvregn
         - code: 1168
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: Underafkølet finregn
+          night: Underafkølet finregn
         - code: 1171
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Kraftig frost
+          night: Kraftig frost
         - code: 1180
-          day: Light Rain
-          night: Light Rain
+          day: Let regn
+          night: Let regn
         - code: 1183
-          day: Light Rain
-          night: Light Rain
+          day: Let regn
+          night: Let regn
         - code: 1186
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Moderat regn
+          night: Moderat regn
         - code: 1189
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Moderat regn
+          night: Moderat regn
         - code: 1192
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Kraftig regn
+          night: Kraftig regn
         - code: 1195
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Kraftig regn
+          night: Kraftig regn
         - code: 1198
-          day: Light Freeze
-          night: Light Freeze
+          day: Let frost
+          night: Let frost
         - code: 1201
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Kraftig frost
+          night: Kraftig frost
         - code: 1204
-          day: Light Sleet
-          night: Light Sleet
+          day: Let slud
+          night: Let slud
         - code: 1207
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Kraftig slud
+          night: Kraftig slud
         - code: 1210
-          day: Light Snow
-          night: Light Snow
+          day: Let sne
+          night: Let sne
         - code: 1213
-          day: Light Snow
-          night: Light Snow
+          day: Let sne
+          night: Let sne
         - code: 1216
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Moderat sne
+          night: Moderat sne
         - code: 1219
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Moderat sne
+          night: Moderat sne
         - code: 1222
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Kraftig sne
+          night: Kraftig sne
         - code: 1225
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Kraftig sne
+          night: Kraftig sne
         - code: 1237
-          day: Ice Pellets
-          night: Ice Pellets
+          day: Hagl
+          night: Hagl
         - code: 1240
-          day: Light Rain
-          night: Light Rain
+          day: Let regn
+          night: Let regn
         - code: 1243
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Kraftig regn
+          night: Kraftig regn
         - code: 1246
-          day: Torrential Rain
-          night: Torrential Rain
+          day: Styrtregn
+          night: Styrtregn
         - code: 1249
-          day: Light Sleet
-          night: Light Sleet
+          day: Let slud
+          night: Let slud
         - code: 1252
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Kraftig slud
+          night: Kraftig slud
         - code: 1255
-          day: Light Snow
-          night: Light Snow
+          day: Let sne
+          night: Let sne
         - code: 1258
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Kraftig sne
+          night: Kraftig sne
         - code: 1261
-          day: Light Ice
-          night: Light Ice
+          day: Let isdannelse
+          night: Let isdannelse
         - code: 1264
-          day: Heavy Ice
-          night: Heavy Ice
+          day: Kraftig isdannelse
+          night: Kraftig isdannelse
         - code: 1273
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Torden og regn
+          night: Torden og regn
         - code: 1276
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Torden og regn
+          night: Torden og regn
         - code: 1279
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: Torden og sne
+          night: Torden og sne
         - code: 1282
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: Torden og sne
+          night: Torden og sne
