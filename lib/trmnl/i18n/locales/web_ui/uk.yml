@@ -155,6 +155,10 @@ uk:
     edit:
       accepts_beta_firmware: Firmware Early Release
       accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: Назад до пристроїв
       battery_consumption: Споживання батареї
       battery_consumption_hint: Заощаджуйте енергію та насолоджуйтесь тривалим часом роботи батареї, увімкнувши Режим сну.
@@ -163,6 +167,8 @@ uk:
       developer_perks_hint: Options below require the __Developer add-on__.
       device_credentials: Device Credentials
       device_credentials_hint: See what you can do with these credentials __here__
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: Назва пристрою
       device_name_hint: Ми використовуємо імʼя пристрою, щоб зробити інтерфейс TRMNL більш зручним
       device_model: Device Model
@@ -190,6 +196,7 @@ uk:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      refresh_rate: Refresh Rate
       sleep_mode: Режим сну
       sleep_mode_hint: Налаштуйте частоту оновлення, щоб покращити концентрацію та час роботи батареї.
       sleep_screen: Sleep Screen
@@ -207,6 +214,8 @@ uk:
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: Спільний доступ
       visibility_hint: Зробіть ваш пристрій TRMNL доступним для віддзеркалення, змінивши налаштування нижче.
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: Ваш TRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
@@ -244,6 +253,14 @@ uk:
     update:
       error: Помилка оновлення пристрою
       success: Налаштування пристрою %{device} успішно оновлено
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: Too many attempts, please wait and try again
     invoice_not_found: Invoice not found
@@ -333,6 +350,8 @@ uk:
       displayed_now: Відображається зараз
       not_displayed_yet: Ще не відображається
       remove_from_playlist: Видалити з плейлиста
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Hide this item
       show_playlist: Show this item
     create:

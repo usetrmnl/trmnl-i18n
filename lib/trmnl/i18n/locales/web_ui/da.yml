@@ -155,6 +155,10 @@ da:
     edit:
       accepts_beta_firmware: Firmware Tidlig Udgivelse
       accepts_beta_firmware_hint: Slå til for at få de nyeste firmwareforbedringer før andre brugere.
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: Tilbage til enheder
       battery_consumption: Batteriforbrug
       battery_consumption_hint: Spar strøm og forlæng batterilevetiden ved at aktivere dvaletilstand.
@@ -163,6 +167,8 @@ da:
       developer_perks_hint: Nogle muligheder kræver __Udviklerudgave-tilføjelse__.
       device_credentials: Enhedsoplysninger
       device_credentials_hint: Se hvad du kan gøre med disse oplysninger __her__
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: Enhedsnavn
       device_name_hint: Bruges til at gøre TRMNL-grænsefladen mere personlig
       device_model: Enhedsmodel
@@ -190,6 +196,7 @@ da:
       ota_byod_not_supported: OTA understøttes ikke for BYOD-enheder. Flash en kompatibel version direkte fra usetrmnl.com/flash
       maximum_compatibility: Aktivér maksimal kompatibilitet
       maximum_compatibility_hint: Løser visningsproblemer forårsaget af visse e-ink driverchips. Deaktiverer hurtig opdatering. Firmware 1.6.0+ kræves.
+      refresh_rate: Refresh Rate
       sleep_mode: Dvaletilstand
       sleep_mode_hint: Juster opdateringshastigheden for at optimere fokus og batterilevetid.
       sleep_screen: Dvaleskærm
@@ -207,6 +214,8 @@ da:
       unlink_device_learn_more: Følg den fulde guide __her__.
       visibility: Synlighed
       visibility_hint: Gør din TRMNL-enhed spejlbar ved at ændre indstillingerne nedenfor.
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: Din TRMNL
       upgrade_og:
         title: Opgradering til 2-bit Display tilgængelig
@@ -244,6 +253,14 @@ da:
     update:
       error: Fejl ved opdatering af enhed
       success: "%{device} enhedsindstillinger opdateret med succes"
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: For mange forsøg, vent venligst og prøv igen
     invoice_not_found: Faktura ikke fundet
@@ -333,6 +350,8 @@ da:
       displayed_now: Vist nu
       not_displayed_yet: Afventer
       remove_from_playlist: Fjern fra playliste
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Skjul dette element
       show_playlist: Vis dette element
     create:

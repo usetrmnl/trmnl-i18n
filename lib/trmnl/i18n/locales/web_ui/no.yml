@@ -155,6 +155,10 @@
     edit:
       accepts_beta_firmware: Tidlig utgivelse av fastvare
       accepts_beta_firmware_hint: Slå på for å få de nyeste fastvareoppdateringene før andre brukere.
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: Tilbake til enheter
       battery_consumption: Batteriforbruk
       battery_consumption_hint: Spar strøm og få lengre batterilevetid ved å aktivere dvalemodus.
@@ -163,6 +167,8 @@
       developer_perks_hint: Valgene nedenfor krever __Utviklertillegget__.
       device_credentials: Enhetslegitimasjon
       device_credentials_hint: Se hva du kan gjøre med denne legitimasjonen __her__
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: Enhetsnavn
       device_name_hint: Vi bruker dette for å gjøre TRMNL-grensesnittet mer brukervennlig
       device_model: Device Model
@@ -190,6 +196,7 @@
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      refresh_rate: Refresh Rate
       sleep_mode: Dvalemodus
       sleep_mode_hint: Juster oppdateringsfrekvensen for å optimalisere fokus og batterilevetid.
       sleep_screen: Dvaleskjerm
@@ -207,6 +214,8 @@
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: Synlighet
       visibility_hint: Gjør TRMNL-enheten din speilbar ved å endre innstillingene nedenfor.
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: Din TRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
@@ -244,6 +253,14 @@
     update:
       error: Feil ved oppdatering av enhet
       success: "%{device} enhetsinnstillingene ble oppdatert"
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: For mange forsøk, vennligst vent og prøv igjen
     invoice_not_found: Faktura ikke funnet
@@ -333,6 +350,8 @@
       displayed_now: Vises nå
       not_displayed_yet: Venter
       remove_from_playlist: Fjern fra spilleliste
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Hide this item
       show_playlist: Show this item
     create:

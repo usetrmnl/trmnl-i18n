@@ -155,6 +155,10 @@ ja:
     edit:
       accepts_beta_firmware: 新しいファームウェアを受け入れる
       accepts_beta_firmware_hint: 通常のユーザーよりも早く新しいデバイスファームウェアを使用するには、ボタンを押してください。
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: デバイス管理画面に戻る
       battery_consumption: バッテリー消費
       battery_consumption_hint: デバイスをスリープ モードにすると、バッテリー寿命を延ばすことができます
@@ -163,6 +167,8 @@ ja:
       developer_perks_hint: 以下は、__開発者オプション__を追加した場合に利用可能です。
       device_credentials: デバイス認証情報
       device_credentials_hint: この認証情報でできることは__こちら__で確認できます
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: デバイス名
       device_name_hint: TRMNLインターフェースをより快適に使用するためです。
       device_model: Device Model
@@ -190,6 +196,7 @@ ja:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      refresh_rate: Refresh Rate
       sleep_mode: スリープモード
       sleep_mode_hint: 集中力とバッテリー寿命を最適化するために、更新頻度を調整します。
       sleep_screen: スリープ画面
@@ -207,6 +214,8 @@ ja:
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: 共有設定
       visibility_hint: 以下の設定を使用して、TRMNLデバイスをミラーモードにすることができます。
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: あなたのTRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
@@ -244,6 +253,14 @@ ja:
     update:
       error: デバイス更新エラー
       success: "%{device}デバイスの設定が正常に更新されました"
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: 試行回数が多すぎます。しばらく待ってから再度お試しください。
     invoice_not_found: 請求書が見つかりませんでした。
@@ -333,6 +350,8 @@ ja:
       displayed_now: 今表示中
       not_displayed_yet: まだ表示されていません
       remove_from_playlist: プレイリストから削除
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Hide this item
       show_playlist: Show this item
     create:

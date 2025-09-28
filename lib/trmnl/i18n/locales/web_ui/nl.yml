@@ -155,6 +155,10 @@ nl:
     edit:
       accepts_beta_firmware: Beta firmware-release
       accepts_beta_firmware_hint: Schakel in om de nieuwste beta firmwareverbeteringen voor je apparaat te ontvangen.
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: Terug naar apparaten
       battery_consumption: Batterijgebruik
       battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren.
@@ -163,6 +167,8 @@ nl:
       developer_perks_hint: De onderstaande opties vereisen de __ontwikkelaars-add-on__.
       device_credentials: Apparaatgegevens
       device_credentials_hint: Beijk __hier__ wat je met deze gegevens kunt doen.
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: Apparaatnaam
       device_name_hint: We gebruiken dit om de TRMNL interface persoonlijker te maken
       device_model: Device Model
@@ -190,6 +196,7 @@ nl:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Activeer Maximale Compatibiliteit
       maximum_compatibility_hint: Los scherm issues op met bepaalde e-ink driver chips. Zet snelle verversing uit. Firmware 1.6.0+ benodigd.
+      refresh_rate: Refresh Rate
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
       sleep_screen: Slaapscherm
@@ -207,6 +214,8 @@ nl:
       unlink_device_learn_more: Volg __hier__ de volledige handleiding.
       visibility: Vindbaarheid
       visibility_hint: Maak jouw TRMNL apparaat spiegelbaar door onderstaande instelling aan te passen.
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: Jouw TRMNL
       upgrade_og:
         title: Upgrade naar 2-bit scherm beschikbaar
@@ -244,6 +253,14 @@ nl:
     update:
       error: Fout bij updaten apparaat
       success: "%{device} apparaatinstellingen succesvol bijgewerkt"
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: Te vaak geprobeerd. Wacht even en probeer het laten nog eens
     invoice_not_found: Factuur niet gevonden
@@ -333,6 +350,8 @@ nl:
       displayed_now: Nu getoond
       not_displayed_yet: Nog niet getoond
       remove_from_playlist: Verwijderen van afspeellijst
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Vergerg dit item
       show_playlist: Toon dit item
     create:

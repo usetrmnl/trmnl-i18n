@@ -155,6 +155,10 @@ raw:
     edit:
       accepts_beta_firmware: devices.edit.accepts_beta_firmware
       accepts_beta_firmware_hint: devices.edit.accepts_beta_firmware_hint
+      accepts_beta_firmware_current: devices.edit.accepts_beta_firmware_current
+      accepts_beta_firmware_stable: devices.edit.accepts_beta_firmware_stable
+      accepts_beta_firmware_staging: devices.edit.accepts_beta_firmware_staging
+      accepts_beta_firmware_github: devices.edit.accepts_beta_firmware_github
       back_to_devices: devices.edit.back_to_devices
       battery_consumption: devices.edit.battery_consumption
       battery_consumption_hint: devices.edit.battery_consumption_hint
@@ -163,6 +167,8 @@ raw:
       developer_perks_hint: devices.edit.developer_perks_hint
       device_credentials: devices.edit.device_credentials
       device_credentials_hint: device_credentials_hint __here__
+      device_credentials_mac: devices.edit.device_credentials_mac
+      device_credentials_api_key: devices.edit.device_credentials_api_key
       device_name: devices.edit.device_name
       device_name_hint: devices.edit.device_name_hint
       device_model: devices.edit.device_model
@@ -190,6 +196,7 @@ raw:
       ota_byod_not_supported: devices.edit.ota_byod_not_supported
       maximum_compatibility: devices.edit.maximum_compatibility
       maximum_compatibility_hint: devices.edit.maximum_compatibility_hint
+      refresh_rate: devices.edit.refresh_rate
       sleep_mode: devices.edit.sleep_mode
       sleep_mode_hint: devices.edit.sleep_mode_hint
       sleep_screen: devices.edit.sleep_screen
@@ -207,6 +214,8 @@ raw:
       unlink_device_learn_more: devices.edit.unlink_device_learn_more
       visibility: devices.edit.visibility
       visibility_hint: devices.edit.visibility_hint
+      visibility_standalone: devices.edit.visibility_standalone
+      visibility_shareable: devices.edit.visibility_shareable
       your_device: devices.edit.your_device
       upgrade_og:
         title: devices.edit.upgrade_og.title
@@ -244,6 +253,14 @@ raw:
     update:
       error: devices.update.error
       success: devices.update.success
+    special_functions:
+      identify: devices.special_functions.identify
+      sleep: devices.special_functions.sleep
+      add_wifi: devices.special_functions.add_wifi
+      restart_playlist: devices.special_functions.restart_playlist
+      rewind: devices.special_functions.rewind
+      send_to_me: devices.special_functions.send_to_me
+      guest_mode: devices.special_functions.guest_mode
   invoices:
     rate_limit: invoices.rate_limit
     invoice_not_found: invoices.invoice_not_found
@@ -333,6 +350,8 @@ raw:
       displayed_now: playlists.playlist.displayed_now
       not_displayed_yet: playlists.playlist.not_displayed_yet
       remove_from_playlist: playlists.playlist.remove_from_playlist
+      copy_plugin: playlist_items.playlist_item.copy_plugin
+      edit_plugin: playlist_items.playlist_item.edit_plugin
       hide_playlist: playlists.playlist.hide_playlist
       show_playlist: playlists.playlist.show_playlist
     create:

@@ -155,6 +155,10 @@ pt-BR:
     edit:
       accepts_beta_firmware: Versões Antecipadas de Firmware
       accepts_beta_firmware_hint: Ative para obter as últimas versões do firmware de dispositivo antes dos outros usuários.
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: Voltar para Dispositivos
       battery_consumption: Consumo da Bateria
       battery_consumption_hint: Economize energia desfrute de mais bateria ativando o Modo de Suspensão.
@@ -163,6 +167,8 @@ pt-BR:
       developer_perks_hint: Opções abaixo requerem o __Add-on de Desenvolvedor__.
       device_credentials: Credenciais do Dispositivo
       device_credentials_hint: Veja o que você pode fazer com essas credenciais __aqui__
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: Nome do Dispositivo
       device_name_hint: Usamos esse nome para tornar a interface do TRMNL mais confortável
       device_model: Device Model
@@ -190,6 +196,7 @@ pt-BR:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      refresh_rate: Refresh Rate
       sleep_mode: Modo de Suspensão
       sleep_mode_hint: Ajuste sua taxa de atualização para otimizar foco e duração da bateria.
       sleep_screen: Sleep Screen
@@ -207,6 +214,8 @@ pt-BR:
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: Visibilidade
       visibility_hint: Torne seu TRMNL espelhável mudando a configuração abaixo.
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: Seu TRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
@@ -244,6 +253,14 @@ pt-BR:
     update:
       error: Erro ao atualizar dispositivo
       success: Configurações do dispositivo %{device} atualizadas com sucesso
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: Too many attempts, please wait and try again
     invoice_not_found: Invoice not found
@@ -333,6 +350,8 @@ pt-BR:
       displayed_now: Exibindo agora
       not_displayed_yet: Pendente
       remove_from_playlist: Remover da playlist
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Hide this item
       show_playlist: Show this item
     create:

@@ -155,6 +155,10 @@ he:
     edit:
       accepts_beta_firmware: Firmware Early Release
       accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: Back to Devices
       battery_consumption: Battery Consumption
       battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
@@ -163,6 +167,8 @@ he:
       developer_perks_hint: Options below require the __Developer add-on__.
       device_credentials: Device Credentials
       device_credentials_hint: See what you can do with these credentials __here__
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: Device Name
       device_name_hint: We use this to make the TRMNL interface more comfortable
       device_model: Device Model
@@ -190,6 +196,7 @@ he:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      refresh_rate: Refresh Rate
       sleep_mode: Sleep Mode
       sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
       sleep_screen: Sleep Screen
@@ -207,6 +214,8 @@ he:
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: Visibility
       visibility_hint: Make your TRMNL device mirrorable by changing the settings below.
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: Your TRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
@@ -244,6 +253,14 @@ he:
     update:
       error: Error updating device
       success: "%{device} device settings updated successfully"
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: Too many attempts, please wait and try again
     invoice_not_found: Invoice not found
@@ -333,6 +350,8 @@ he:
       displayed_now: Displayed now
       not_displayed_yet: Not displayed yet
       remove_from_playlist: Remove from playlist
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Hide this item
       show_playlist: Show this item
     create:

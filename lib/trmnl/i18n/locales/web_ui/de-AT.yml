@@ -155,6 +155,10 @@ de-AT:
     edit:
       accepts_beta_firmware: Beta-Firmware
       accepts_beta_firmware_hint: Aktiviere diese Option, um vor anderen Benutzern die neuesten Firmware-Updates für das Gerät zu erhalten.
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: Zurück zur Geräteübersicht
       battery_consumption: Batterieverbrauch
       battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus.
@@ -163,6 +167,8 @@ de-AT:
       developer_perks_hint: Für die folgenden Optionen ist das __Entwickler-Add-on__ erforderlich.
       device_credentials: Geräteinformationen
       device_credentials_hint: Erfahre __hier__ mehr über die Verwendungsmöglichkeiten der Infos
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: Gerätename
       device_name_hint: Wir verwenden den Gerätenamen, um die TRMNL-Benutzeroberfläche zu personalisieren.
       device_model: Gerätemodell
@@ -190,6 +196,7 @@ de-AT:
       ota_byod_not_supported: OTA wird für BYOD-Geräte nicht unterstützt. Überspiele eine kompatible Version direkt unter usetrmnl.com/flash.
       maximum_compatibility: Maximale Kompatibilität aktivieren
       maximum_compatibility_hint: Behebt Anzeigefehler aufgrund bestimmter E-Ink-Treiber-Chips. Schaltet optimale Renderqualität ein. Benötigt Firmware 1.6.0+.
+      refresh_rate: Refresh Rate
       sleep_mode: Schlafmodus
       sleep_mode_hint: Aktualisierungsrate für bessere Konzentration und Batterielaufzeit anpassen.
       sleep_screen: Schlaf-Bildschirm
@@ -207,6 +214,8 @@ de-AT:
       unlink_device_learn_more: __Hier__ gibt es die vollständige Anleitung dazu.
       visibility: Sichtbarkeit
       visibility_hint: Macht das TRMNL öffentlich sichtbar.
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: Dein TRMNL
       upgrade_og:
         title: Upgrade auf 2-bit-Anzeige verfügbar
@@ -244,6 +253,14 @@ de-AT:
     update:
       error: Fehler beim Aktualisieren des Gerätes
       success: Einstellungen von %{device} erfolgreich aktualisiert
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: Zu viele Versuche, bitte warte kurz und versuche es noch einmal
     invoice_not_found: Rechnung nicht gefunden
@@ -333,6 +350,8 @@ de-AT:
       displayed_now: Wird angezeigt
       not_displayed_yet: Wird nicht angezeigt
       remove_from_playlist: Von Wiedergabeliste entfernen
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Eintrag verstecken
       show_playlist: Eintrag anzeigen
     create:

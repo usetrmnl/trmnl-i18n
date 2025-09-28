@@ -155,6 +155,10 @@ zh-HK:
     edit:
       accepts_beta_firmware: 韌體搶先發佈
       accepts_beta_firmware_hint: 啟用設定後，你會在其他用戶之前取得最新的硬件韌體改進。
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: 返回裝置
       battery_consumption: 電池消耗
       battery_consumption_hint: 啟用「睡眠模式」可節省電量，並延長電池續航時間。
@@ -163,6 +167,8 @@ zh-HK:
       developer_perks_hint: 以下選項需要購買「__開發者版本__」。.
       device_credentials: 裝置認證
       device_credentials_hint: __按此__了解如何使用裝置認證
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: 裝置名稱
       device_name_hint: 此名稱可讓TRMNL介面更舒適
       device_model: Device Model
@@ -190,6 +196,7 @@ zh-HK:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      refresh_rate: Refresh Rate
       sleep_mode: 睡眠模式
       sleep_mode_hint: 調整重新整理頻率，以提升專注度及電池續航時間。
       sleep_screen: 睡眠畫面
@@ -207,6 +214,8 @@ zh-HK:
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: 共享狀態
       visibility_hint: 讓其他TRMNL裝置可鏡像共享此裝置的內容。
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: 你的TRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
@@ -244,6 +253,14 @@ zh-HK:
     update:
       error: 更新裝置時發生錯誤
       success: 成功更新「%{device}」的裝置設定
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: 嘗試次數過多，請稍後再試
     invoice_not_found: 找不到發票
@@ -333,6 +350,8 @@ zh-HK:
       displayed_now: 正在顯示
       not_displayed_yet: 待處理
       remove_from_playlist: 從播放清單中移除
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Hide this item
       show_playlist: Show this item
     create:

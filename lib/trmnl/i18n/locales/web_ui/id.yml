@@ -155,6 +155,10 @@ id:
     edit:
       accepts_beta_firmware: Firmware tahap Beta
       accepts_beta_firmware_hint: Aktifkan untuk mendapatkan pembaruan firmware perangkat terbaru sebelum pengguna lain.
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: Kembali ke Perangkat
       battery_consumption: Penggunaan Baterai
       battery_consumption_hint: Hemat daya dan nikmati masa pakai baterai yang lebih lama dengan mengaktifkan Mode Tidur.
@@ -163,6 +167,8 @@ id:
       developer_perks_hint: Opsi di bawah ini membutuhkan __add-on Pengembang__.
       device_credentials: Device Credentials
       device_credentials_hint: See what you can do with these credentials __here__
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: Nama Perangkat
       device_name_hint: Kami menggunakan ini untuk membuat antarmuka TRMNL lebih nyaman
       device_model: Device Model
@@ -190,6 +196,7 @@ id:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      refresh_rate: Refresh Rate
       sleep_mode: Mode Tidur
       sleep_mode_hint: Sesuaikan tingkat penyegaran untuk fokus dan hemat baterai.
       sleep_screen: Sleep Screen
@@ -207,6 +214,8 @@ id:
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: Visibilitas
       visibility_hint: Jadikan perangkat TRMNL Anda dapat di-mirroring dengan mengubah pengaturan di bawah ini.
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: TRMNL Anda
       upgrade_og:
         title: Upgrade to 2-bit Display Available
@@ -244,6 +253,14 @@ id:
     update:
       error: Terjadi kesalahan saat memperbarui perangkat
       success: Pengaturan perangkat %{device} berhasil diperbarui
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: Too many attempts, please wait and try again
     invoice_not_found: Invoice not found
@@ -333,6 +350,8 @@ id:
       displayed_now: Ditampilkan sekarang
       not_displayed_yet: Tertunda
       remove_from_playlist: Hapus dari daftar putar
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Hide this item
       show_playlist: Show this item
     create:
