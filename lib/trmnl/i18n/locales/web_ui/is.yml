@@ -155,6 +155,10 @@ is:
     edit:
       accepts_beta_firmware: Snemmútgáfa fastbúnaðar
       accepts_beta_firmware_hint: Kveiktu á þessu til að fá nýjustu fastbúnaðaruppfærslur á undan öðrum.
+      accepts_beta_firmware_current: Current
+      accepts_beta_firmware_stable: Stable
+      accepts_beta_firmware_staging: Staging
+      accepts_beta_firmware_github: View on GitHub
       back_to_devices: Til baka í tæki
       battery_consumption: Rafhlöðunotkun
       battery_consumption_hint: Sparaðu orku og lengdu rafhlöðuendingu með því að virkja svefnham.
@@ -163,6 +167,8 @@ is:
       developer_perks_hint: Valkostir hér að neðan krefjast __forritaraviðbótar__.
       device_credentials: Auðkenni tækis
       device_credentials_hint: Sjáðu hvað þú getur gert með þessum auðkennum __hér__
+      device_credentials_mac: MAC Address
+      device_credentials_api_key: API Key
       device_name: Heiti tækis
       device_name_hint: Við notum þetta til að gera TRMNL viðmótið þægilegra.
       device_model: Gerð tækis
@@ -190,6 +196,7 @@ is:
       ota_byod_not_supported: OTA er ekki stutt fyrir BYOD-tæki. "Flassaðu" samhæfða útgáfu beint frá usetrmnl.com/flash
       maximum_compatibility: Hámarkssamhæfni
       maximum_compatibility_hint: Leysir skjávandamál af völdum sumra e-ink rekla. Slekkur á hraðri uppfærslu. Krefst fastbúnaðar 1.6.0+.
+      refresh_rate: Refresh Rate
       sleep_mode: Svefnhamur
       sleep_mode_hint: Stilltu uppfærslutíðni til að bæta einbeitingu og lengja rafhlöðuendingu.
       sleep_screen: Svefnskjár
@@ -207,6 +214,8 @@ is:
       unlink_device_learn_more: Fylgdu leiðbeiningum __hér__.
       visibility: Sýnileiki
       visibility_hint: Gera TRMNL tækið þitt speglanlegt með því að breyta stillingunum hér að neðan.
+      visibility_standalone: Standalone
+      visibility_shareable: Shareable
       your_device: Þitt TRMNL tæki
       upgrade_og:
         title: Uppfærsla í 2-bita skjá í boði
@@ -244,6 +253,14 @@ is:
     update:
       error: Villa við að uppfæra tæki
       success: Stillingar tækis %{device} uppfærðar
+    special_functions:
+      identify: Identify
+      sleep: Sleep
+      add_wifi: Add WiFi
+      restart_playlist: Restart Playlist
+      rewind: Rewind
+      send_to_me: Send to me
+      guest_mode: Guest Mode
   invoices:
     rate_limit: Of margar tilraunir, vinsamlegast bíðið og reynið aftur
     invoice_not_found: Reikningur fannst ekki
@@ -333,6 +350,8 @@ is:
       displayed_now: Birt núna
       not_displayed_yet: Ekki birt enn
       remove_from_playlist: Fjarlægja úr spilunarlista
+      copy_plugin: Copy
+      edit_plugin: Edit
       hide_playlist: Fela þetta atriði
       show_playlist: Sýna þetta atriði
     create:
