@@ -1,0 +1,217 @@
+---
+hu:
+  renders:
+    and_x_more_prefix: És
+    and_x_more_suffix: további
+    days_left_year:
+      title: Hátralévő napok az évben
+      days_passed: Eltelt napok
+      days_left: Hátralévő napok
+    lunar_calendar:
+      title: Holdnaptár
+      age: Holdkora
+      current_phase: Jelenlegi fázis
+      illumination: Holdfény
+      next_full_moon: Következő telihold
+      next_new_moon: Következő újhold
+      next_phase: Következő fázis
+      next_phase_short: Köv.
+      moon_phases:
+        new_moon: Újhold
+        waxing_crescent: Növő holdsarló
+        first_quarter: Első negyed
+        waxing_gibbous: Növő félhold
+        full_moon: Telihold
+        waning_gibbous: Fogyó félhold
+        third_quarter: Utolsó negyed
+        waning_crescent: Fogyó holdsarló
+    parcel:
+      delivery_by: Kézbesítés ekkorra
+      empty: Nincsenek kézbesítések
+      errors:
+        api: Csomag API hiba
+        http: HTTP hiba %{code}
+        internal: Belső hiba
+      filter_modes:
+        active:
+          one: Aktív kézbesítés
+          other: Aktív kézbesítések
+        recent:
+          one: Legutóbbi kézbesítés
+          other: Legutóbbi kézbesítések
+      status:
+        delivered: Kézbesítve
+        delivery_exception: Kézbesítési hiba
+        expecting_pickup: Átvételre vár
+        failed_delivery_attempt: Sikertelen kézbesítési kísérlet
+        frozen: Lefagyasztva
+        in_transit: Szállítás alatt
+        information_received: Információ megkapva
+        not_found: Nem található
+        out_for_delivery: Kézbesítés alatt
+        unknown: Ismeretlen
+      today: Ma
+      tomorrow: Holnap
+    weather:
+      title: Időjárás
+      temperature: Hőmérséklet
+      feels_like: Hőérzet
+      humidity: Páratartalom
+      low: Minimum
+      high: Maximum
+      uv: UV
+      right_now: Jelenleg
+      today: Ma
+      tomorrow: Holnap
+      weatherapi:
+        uv:
+          low: Alacsony
+          moderate: Mérsékelt
+          high: Magas
+          very_high: Nagyon magas
+          extreme: Extrém
+        conditions:
+        - code: 1000
+          day: Napos
+          night: Tiszta
+        - code: 1003
+          day: Részben felhős
+          night: Részben felhős
+        - code: 1006
+          day: Felhős
+          night: Felhős
+        - code: 1009
+          day: Borult
+          night: Borult
+        - code: 1030
+          day: Köd
+          night: Köd
+        - code: 1063
+          day: Enyhe eső
+          night: Enyhe eső
+        - code: 1066
+          day: Enyhe havazás
+          night: Enyhe havazás
+        - code: 1069
+          day: Havas eső
+          night: Havas eső
+        - code: 1072
+          day: Fagyos szitálás
+          night: Fagyos szitálás
+        - code: 1087
+          day: Mennydörgés
+          night: Mennydörgés
+        - code: 1114
+          day: Hófúvás
+          night: Hófúvás
+        - code: 1117
+          day: Hóvihar
+          night: Hóvihar
+        - code: 1135
+          day: Köd
+          night: Köd
+        - code: 1147
+          day: Zúzmarás köd
+          night: Zúzmarás köd
+        - code: 1150
+          day: Enyhe szitálás
+          night: Enyhe szitálás
+        - code: 1153
+          day: Szitálás
+          night: Szitálás
+        - code: 1168
+          day: Fagyos szitálás
+          night: Fagyos szitálás
+        - code: 1171
+          day: Erős fagy
+          night: Erős fagy
+        - code: 1180
+          day: Enyhe eső
+          night: Enyhe eső
+        - code: 1183
+          day: Enyhe eső
+          night: Enyhe eső
+        - code: 1186
+          day: Mérsékelt eső
+          night: Mérsékelt eső
+        - code: 1189
+          day: Mérsékelt eső
+          night: Mérsékelt eső
+        - code: 1192
+          day: Erős eső
+          night: Erős eső
+        - code: 1195
+          day: Erős eső
+          night: Erős eső
+        - code: 1198
+          day: Enyhe fagy
+          night: Enyhe fagy
+        - code: 1201
+          day: Erős fagy
+          night: Erős fagy
+        - code: 1204
+          day: Enyhe havas eső
+          night: Enyhe havas eső
+        - code: 1207
+          day: Erős havas eső
+          night: Erős havas eső
+        - code: 1210
+          day: Enyhe havazás
+          night: Enyhe havazás
+        - code: 1213
+          day: Enyhe havazás
+          night: Enyhe havazás
+        - code: 1216
+          day: Mérsékelt havazás
+          night: Mérsékelt havazás
+        - code: 1219
+          day: Mérsékelt havazás
+          night: Mérsékelt havazás
+        - code: 1222
+          day: Erős havazás
+          night: Erős havazás
+        - code: 1225
+          day: Erős havazás
+          night: Erős havazás
+        - code: 1237
+          day: Jégdarabok
+          night: Jégdarabok
+        - code: 1240
+          day: Enyhe eső
+          night: Enyhe eső
+        - code: 1243
+          day: Erős eső
+          night: Erős eső
+        - code: 1246
+          day: Felhőszakadás
+          night: Felhőszakadás
+        - code: 1249
+          day: Enyhe havas eső
+          night: Enyhe havas eső
+        - code: 1252
+          day: Erős havas eső
+          night: Erős havas eső
+        - code: 1255
+          day: Enyhe havazás
+          night: Enyhe havazás
+        - code: 1258
+          day: Erős havazás
+          night: Erős havazás
+        - code: 1261
+          day: Enyhe jég
+          night: Enyhe jég
+        - code: 1264
+          day: Erős jég
+          night: Erős jég
+        - code: 1273
+          day: Zivatar és eső
+          night: Zivatar és eső
+        - code: 1276
+          day: Zivatar és eső
+          night: Zivatar és eső
+        - code: 1279
+          day: Zivatar és hó
+          night: Zivatar és hó
+        - code: 1282
+          day: Zivatar és hó
+          night: Zivatar és hó
