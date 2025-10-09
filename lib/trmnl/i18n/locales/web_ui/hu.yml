@@ -266,7 +266,7 @@ hu:
       design_system_docs: Tervezési rendszer dokumentáció
       dirty_confirm: Vannak nem mentett módosításaid. Biztosan el szeretnéd hagyni az oldalt?
       edit_markup: Jelölés szerkesztése
-      edit_markup_for_plugin: "Jelölés szerkesztése ehhez a bővítményhez: %{plugin_setting_name}"
+      edit_markup_for_plugin: 'Jelölés szerkesztése ehhez a bővítményhez: %{plugin_setting_name}'
       edit_markup_please_save_first: Kérlek, mentsd el a módosításokat, mielőtt szerkesztenéd a jelölést
       edit_markup_without_preview: Jelölés szerkesztése (előnézet nélkül)
       error_rendering_markup: Hiba történt a jelölés megjelenítése közben
@@ -307,20 +307,6 @@ hu:
       success: Kétlépcsős azonosítás sikeres
       error: Érvénytelen egyszeri kód
   playlist_items:
-    create:
-      error: Hiba történt a lejátszási lista frissítésekor
-      success: Lejátszási lista frissítve
-    destroy:
-      error: Hiba történt az elem eltávolításakor a lejátszási listáról
-      success: A bővítmény eltávolítva a lejátszási listáról
-    toggle_visibility:
-      success: A lejátszási lista eleme %{change}
-    duplicate:
-      success: Lejátszási lista duplikálva
-    sort:
-      success: A lejátszási lista sorrendje frissítve
-    set_preferences:
-      success: Az intelligens lejátszási lista beállítása frissítve
     index:
       title: Lejátszási lista
       tagline: Válaszd ki, mi jelenjen meg a
@@ -332,7 +318,7 @@ hu:
       custom: Egyéni
       device_default: Eszköz alapértelmezés
       display_period_from: Megjelenítés ettől
-      display_period_to: -ig
+      display_period_to: "-ig"
       display_period_validation: A kezdési időpontnak a befejezés előtt kell lennie. Hozz létre egy másik csoportot az éjszakai órák lefedéséhez.
       every: Minden
       never_skip: Soha ne hagyja ki a képernyőket
@@ -349,6 +335,20 @@ hu:
       remove_from_playlist: Eltávolítás a lejátszási listáról
       hide_playlist: Elem elrejtése
       show_playlist: Elem megjelenítése
+    create:
+      error: Hiba történt a lejátszási lista frissítésekor
+      success: Lejátszási lista frissítve
+    destroy:
+      error: Hiba történt az elem eltávolításakor a lejátszási listáról
+      success: A bővítmény eltávolítva a lejátszási listáról
+    toggle_visibility:
+      success: A lejátszási lista eleme %{change}
+    duplicate:
+      success: Lejátszási lista duplikálva
+    sort:
+      success: A lejátszási lista sorrendje frissítve
+    set_preferences:
+      success: Az intelligens lejátszási lista beállítása frissítve
   plugins:
     index:
       title: Bővítmények
@@ -418,9 +418,9 @@ hu:
     form:
       active_hint: Megjeleníti vagy elrejti ezt a bővítmény példányt az eszközödön
       advanced_settings: Speciális beállítások
-      back_to_plugin: "Vissza ide: %{plugin}"
+      back_to_plugin: 'Vissza ide: %{plugin}'
       back_to_plugins: Vissza a bővítményekhez
-      connect_with: "Kapcsolódás a következőhöz: %{plugin}"
+      connect_with: 'Kapcsolódás a következőhöz: %{plugin}'
       debug_logs: Hibakeresési naplók
       debug_logs_click_here: Kattints ide
       debug_logs_click_here_hint: hogy engedélyezd a hibakeresési naplókat ehhez a bővítmény példányhoz.
@@ -439,7 +439,7 @@ hu:
       learn_more_recipe_long: Ez a bővítmény egy közösségi recept, amelyet nem a TRMNL tart karban.
       learn_more_recipe_short: 'Megjegyzés: ez a bővítmény egy recept.'
       linked_account: Összekapcsolt fiók
-      linked_account_success: "Sikeres összekapcsolás a következővel: %{plugin_name}"
+      linked_account_success: 'Sikeres összekapcsolás a következővel: %{plugin_name}'
       link_oauth: Fiók összekapcsolása
       link_oauth_hint: Mielőtt folytatod, kövesd a %{plugin} által biztosított biztonságos hitelesítési folyamatot.
       multiple_instances_hint: Ez a bővítmény több példányt is támogat.
@@ -511,7 +511,7 @@ hu:
       append: És ez idő alatt…
       no_schedule: Ez a képernyő mindig megjelenik.
       some_schedule: Csak ebben az időszakban jelenjen meg…
-      to: -ig
+      to: "-ig"
       copy_prompt: Ütemezés másolása innen…
   upgrade:
     index:
