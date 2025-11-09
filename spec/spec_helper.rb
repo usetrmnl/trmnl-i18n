@@ -13,6 +13,7 @@ end
 
 Bundler.require :tools
 
+require "active_support/core_ext/module/delegation"
 require "refinements"
 require "trmnl/i18n"
 
