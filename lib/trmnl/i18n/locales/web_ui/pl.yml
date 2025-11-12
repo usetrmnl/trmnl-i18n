@@ -5,6 +5,7 @@ pl:
   add_new: Dodaj nowy
   ago: temu
   already_have_account: Mam już konto
+  are_you_sure: Are you sure?
   back: Wstecz
   back_to_all_blog_posts: Powrót do wszystkich postów
   blog: Blog
@@ -245,7 +246,7 @@ pl:
       success: Pomyślnie przełączono urządzenie
     update:
       error: Błąd podczas aktualizacji urządzenia
-      success: "Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane"
+      success: Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane
   invoices:
     rate_limit: Zbyt wiele prób, odczekaj chwilę i spróbuj ponownie
     invoice_not_found: Nie odnaleziono faktury
@@ -268,7 +269,7 @@ pl:
       design_system_docs: Dokumentacja systemu projektowania
       dirty_confirm: Masz niezapisane zmiany. Czy na pewno chcesz opuścić tę stronę?
       edit_markup: Edytuj kod szablonu
-      edit_markup_for_plugin: "Edytuj kod szablonu: %{plugin_setting_name}"
+      edit_markup_for_plugin: 'Edytuj kod szablonu: %{plugin_setting_name}'
       edit_markup_please_save_first: Zapisz zmiany przed rozpoczęciem edycji kodu szablonu
       edit_markup_without_preview: Edytuj kod szablonu (bez podglądu)
       error_rendering_markup: Błąd podczas renderowania kodu szablonu
@@ -419,7 +420,7 @@ pl:
     no_plugin_settings_found: Nie znaleziono ustawień pluginu.
     not_supported: Niewspierany na tym urządzeniu
     refreshing_now_please_wait: Odświeżanie w toku, przeładuj tę stronę za kilka sekund.
-    reset_credentials: "Pomyślnie zresetowano konto %{plugin_name}"
+    reset_credentials: Pomyślnie zresetowano konto %{plugin_name}
     form:
       active_hint: Pokazuje lub ukrywa instancję tego pluginu na Twoim urządzeniu
       advanced_settings: Zaawansowane
@@ -437,6 +438,7 @@ pl:
       force_refresh_hint: Ta funkcjonalność jest przeznaczona na potrzeby testów. Prosimy, by jej nie nadużywać.
       force_refresh_click_here: Kliknij tutaj
       force_refresh_click_here_hint: aby natychmiast wygenerować nowy ekran
+      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
       learn_more: Dowiedz się więcej o tym pluginie z naszej bazy wiedzy
       learn_more_fork: Ten plugin jest forkiem Receptury.
       learn_more_fork_original: Zobacz oryginał
@@ -489,8 +491,8 @@ pl:
     import:
       archive_too_large: Archiwum ZIP jest zbyt duże (maksimum %{max_mb} MB)
       missing_entry: Archiwum ZIP nie zawiera %{filename}
-      entry_too_large: "Plik %{filename} jest zbyt duży"
-      malformed: "Plik %{filename} ma nieprawidłowy format"
+      entry_too_large: Plik %{filename} jest zbyt duży
+      malformed: Plik %{filename} ma nieprawidłowy format
     create:
       success: Plugin został stworzony i dodany do
       playlist: Twojej playlisty
@@ -527,4 +529,3 @@ pl:
       error: Urządzenie %{device_name} zostało już zaktualizowane, wybierz inne urządzenie
     confirm:
       success: Edycja deweloperska została włączona
-  
