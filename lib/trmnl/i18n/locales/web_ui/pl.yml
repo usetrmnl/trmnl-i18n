@@ -12,7 +12,7 @@ pl:
   cancel: Anuluj
   change_password: Zmień hasło
   charge_level: Poziom naładowania
-  charged: naładowany
+  charged: Naładowany
   charging: Ładowanie
   close: Zamknij
   confirm_change_password: Zmień hasło
@@ -55,7 +55,7 @@ pl:
   new_password: Nowe hasło
   password: Hasło
   please_wait: Proszę czekać...
-  plugin_not_found: Nie znaleziono Pluginu
+  plugin_not_found: Nie znaleziono pluginu
   refresh_rates_hint: __Tutaj__ dowiesz się więcej o częstotliwościach odświeżania.
   reset_password: Zresetuj hasło
   save: Zapisz
@@ -110,7 +110,7 @@ pl:
       session: Sesja
       session_hint: Zalogowano jako %{user}
       show_title_bar: Wyświetlaj pasek tytułowy
-      show_title_bar_hint: Gdy opcja jest wyłączona, Pluginy oficjalne (nie globalne) oraz stworzone przez społeczność będą miały bardziej minimalistyczną formę.
+      show_title_bar_hint: Gdy opcja jest wyłączona, pluginy oficjalne (nie globalne) oraz stworzone przez społeczność będą miały bardziej minimalistyczną formę.
       time_zone: Strefa czasowa
       time_zone_hint: Wpływa na czasy odświeżania oraz tryb uśpienia urządzenia.
       locale: Język
@@ -128,7 +128,7 @@ pl:
       today: Dziś
       yesterday: Wczoraj
     health:
-      bad: Występują problemy z Pluginami
+      bad: Występują problemy z pluginami
       good: Pluginy działają poprawnie
       next_steps: Poinformujemy Cię, jeśli cokolwiek się zmieni
     news:
@@ -140,7 +140,7 @@ pl:
       pieces_of_content_displayed: Wyświetlane treści
     plugins:
       title: Pluginy
-      cta: Przejdź do Pluginów
+      cta: Przejdź do pluginów
       connected: Połączono
       new_and_popular: Nowe i popularne
     shop:
@@ -158,11 +158,11 @@ pl:
       accepts_beta_firmware: Firmware - wczesny dostęp
       accepts_beta_firmware_hint: Włącz, aby uzyskać najnowsze oprogramowanie układowe przed innymi użytkownikami.
       back_to_devices: Wróć do przeglądu urządzeń
-      battery_consumption: Użycie baterii
+      battery_consumption: Zużycie baterii
       battery_consumption_hint: Oszczędzaj energię i ciesz się dłuższym działaniem dzięki Trybowi Uśpienia.
       battery_learn_more: Informacje o ładowaniu baterii znajdziesz __tutaj__.
       developer_perks: Opcje dla programistów
-      developer_perks_hint: Poniższe ustawienia wymagają __Wersji deweloperskiej__.
+      developer_perks_hint: Poniższe ustawienia wymagają __Edycji deweloperskiej__.
       device_credentials: Poświadczenia urządzenia
       device_credentials_hint: __Tutaj__ przeczytasz, do czego służą poświadczenia.
       device_name: Nazwa urządzenia
@@ -182,10 +182,10 @@ pl:
       logs_hint: Debuguj swoje urządzenie i pluginy za pomocą wyświetlanych w czasie rzeczywistym informacji z logów błędów.
       low_battery_email_notification: Powiadomienie e-mail o niskim stanie baterii
       low_battery_email_notification_hint: Otrzymaj powiadomienie, gdy w Twoim urządzeniu zacznie wyczerpywać się bateria.
-      mirror: Kopia lustrzana (mirror)
+      mirror: Kopia lustrzana
       mirror_device: Odzwierciedla zachowanie innego urządzenia
       mirror_device_hint: Podaj identyfikator (ID) innego urządzenia, aby wyświetlać tę samą playlistę. Twoja playlista nadal będzie wyświetlana.
-      mirror_stop: Wyłącz kopię lustrzaną (mirror)
+      mirror_stop: Wyłącz kopię lustrzaną
       mirror_sync: Synchronizuj wyświetlacze
       ota_enabled: Aktualizacje OTA włączone
       ota_enabled_hint: Automatycznie instaluj nowy firmware. Wyłącz, jeśli chcesz instalować własny firmware.
@@ -193,7 +193,7 @@ pl:
       maximum_compatibility: Włącz maksymalną kompatybilność
       maximum_compatibility_hint: Rozwiązuje problemy z wyświetlaniem na niektórych wyświetlaczach e-ink. Wyłącza szybkie odświeżanie. Wymaga oprogramowania 1.6.0 lub nowszego.
       sleep_mode: Tryb uśpienia
-      sleep_mode_hint: Dostosuj częstotliwość odświeżania aby zoptymalizować skupienie i wydłużyć czas pracy na baterii.
+      sleep_mode_hint: Dostosuj częstotliwość odświeżania, aby zoptymalizować skupienie i wydłużyć czas pracy na baterii.
       sleep_screen: Ekran uśpienia
       sleep_screen_tooltip: Włącz tryb uśpienia, aby używać tej opcji
       sleep_screen_hint: Wyświetlaj ekran uśpienia w zdefiniowanym czasie.
@@ -235,293 +235,296 @@ pl:
       error: Błąd podczas aktualizacji urządzenia
       success: Wysłano żądanie identyfikacji urządzenia
     mirror:
-      error: Error mirroring device
-      error_not_shared: Provided Device ID is not shareable
-      error_oneself: Can't mirror oneself
-      success: Device %{friendly_id} successfully mirrored
-      success_removed: Mirroring Removed
+      error: Błąd podczas tworzenia kopii lustrzanej
+      error_not_shared: Wprowadzone ID nie jest udostępnialne
+      error_oneself: Nie można wykonać kopii lustrzanej urządzenia na nim samym
+      success: Kopia lustrzana urządzenia %{friendly_id} wykonana pomyślnie
+      success_removed: Kopia lustrzana usunięta
     switch:
-      error: Error switching device
-      success: Device switched successfully
+      error: Błąd przy przełączaniu urządzenia
+      success: Pomyślnie przełączono urządzenie
     update:
-      error: Error updating device
-      success: "%{device} device settings updated successfully"
+      error: Błąd podczas aktualizacji urządzenia
+      success: "Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane"
   invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
+    rate_limit: Zbyt wiele prób, odczekaj chwilę i spróbuj ponownie
+    invoice_not_found: Nie odnaleziono faktury
   logs:
     index:
-      title: Logs
-      all: All
-      bulk_destroy: Bulk Destroy
-      dump: Dump
+      title: Logi
+      all: Wszystkie
+      bulk_destroy: Usuń wszystko
+      dump: Zrzut
       id: ID
-      private_plugins: Private Plugins
-      source: Source
-      time: Time
+      private_plugins: Prywatne pluginy
+      source: Źródło
+      time: Czas
   markups:
     console_logs:
-      js_logs: JS Logs
+      js_logs: Logi JS
     form:
-      back_to_plugin_settings: Back to plugin settings
-      design_system: Leverage our native design system
-      design_system_docs: Design System Docs
-      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
-      edit_markup: Edit Markup
-      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
-      edit_markup_please_save_first: Please save before editing markup
-      edit_markup_without_preview: Edit Markup (without preview)
-      error_rendering_markup: Error rendering that markup
-      fix_indentation: Fix indentation
-      go_to_preview: Go To Preview
-      live_preview: Live Preview
-      no_changes_to_save: No changes to save
-      pop_out_preview: Pop Out Preview
-      quickstart_examples: Quick-start Examples
-      quickstart_example_applied: Applied!
-      quickstart_use_this_example: Use this example
-      revert: Revert
-      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
-      save_changes: Save Changes (⌘﹢S)
-      separate_preview: Preview is open in a separate window
+      back_to_plugin_settings: Wróć do ustawień pluginów
+      design_system: Skorzystaj z naszego natywnego systemu projektowania
+      design_system_docs: Dokumentacja systemu projektowania
+      dirty_confirm: Masz niezapisane zmiany. Czy na pewno chcesz opuścić tę stronę?
+      edit_markup: Edytuj kod szablonu
+      edit_markup_for_plugin: Edytuj kod szablonu: %{plugin_setting_name}
+      edit_markup_please_save_first: Zapisz zmiany przed rozpoczęciem edycji kodu szablonu
+      edit_markup_without_preview: Edytuj kod szablonu (bez podglądu)
+      error_rendering_markup: Błąd podczas renderowania kodu szablonu
+      fix_indentation: Popraw wcięcia
+      go_to_preview: Idź do podglądu
+      live_preview: Podgląd na żywo
+      no_changes_to_save: Brak zmian do zapisania
+      pop_out_preview: Podgląd w nowym oknie
+      quickstart_examples: Gotowe przykłady na start
+      quickstart_example_applied: Zastosowano!
+      quickstart_use_this_example: Użyj tego przykładu
+      revert: Cofnij
+      revert_confirm: Na pewno chcesz cofnąć? Wszystkie niezapisane zmiany zostaną utracone.
+      save_changes: Zapisz zmiany (⌘﹢S / Ctrl + S)
+      separate_preview: Podgląd wyświetla się w osobnym oknie
     merge_variables:
-      your_variables: Your variables
+      your_variables: Twoje zmienne
     no_merge_variables:
-      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
-      no_variables_detected: No variables detected.
+      force_refresh: Jeśli zmienne nie są wykrywane po dodaniu, spróbuj użyć opcji __wymuś aktualizację__.
+      no_variables_detected: Nie wykryto żadnych zmiennych.
   mfa:
     disable_otp:
-      success: 2FA Disabled
-      invalid_otp: Invalid OTP
-      invalid_password: Invalid Password
-      invalid_otp_and_password: Invalid OTP and Password
+      success: Uwierzytelnianie dwuskładnikowe (2FA) wyłączone
+      invalid_otp: Nieprawidłowe hasło jednorazowe (OTP)
+      invalid_password: Nieprawidłowe hasło
+      invalid_otp_and_password: Oba hasła są błędne
     enable_otp:
-      input_otp: Enter OTP
-      submit: Verify and Enable
-      already_enabled: 2FA is already enabled
+      input_otp: Wprowadź hasło jednorazowe (OTP)
+      submit: Zweryfikuj i włącz
+      already_enabled: Uwierzytelnianie dwuskładnikowe jest już włączone
     enable_otp_verify:
-      success: 2FA Enabled
-      error: Invalid OTP code
+      success: Uwierzytelnianie dwuskładnikowe (2FA) włączone
+      error: Nieprawidłowe hasło jednorazowe (OTP)
     verify_otp:
-      verify: Verify
-      reset: Reset MFA
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
-      success: 2FA successful
-      error: Invalid OTP code
+      verify: Zweryfikuj
+      reset: Resetuj 2FA
+      reset_instructions: Naciśnij przycisk na pleckach Twojego TRMNL, aby wygenerować kod resetowania
+      success: Uwierzytelnianie powiodło się
+      error: Nieprawidłowe hasło jednorazowe (OTP)
   playlist_items:
     index:
-      title: Playlist
-      tagline: Choose what's shown on
-      add_a_group: Add a Group
-      add_a_plugin: Add a Plugin
-      add_first_device_cta: Start by __adding__ your first TRMNL device!
-      add_to_playlist: Add to Playlist
-      create_first_playlist_cta: Create your playlist after __connecting__ your first plugin!
-      custom: Custom
-      device_default: Device default
-      display_period_from: Display from
-      display_period_to: to
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
-      never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      title: Playlista
+      tagline: Wybierz, co jest pokazywane
+      add_a_group: Dodaj grupę
+      add_a_plugin: Dodaj plugin
+      add_first_device_cta: Zacznij od __dodania__ Twojego pierwszego TRMNL!
+      add_to_playlist: Dodaj do playlisty
+      create_first_playlist_cta: Stwórz playlistę po __dodaniu__ swojego pierwszego pluginu!
+      custom: Niestandardowe
+      device_default: Domyślne dla urządzenia
+      display_period_from: Wyświetlaj od
+      display_period_to: do
+      display_period_validation: Godzina startu nie może być późniejsza niż godzina zakończenia. Utwórz kolejną grupę, aby objąć godziny nocne.
+      every: Każdy
+      never_skip: Nigdy nie pomijaj żadnych ekranów
+      smart_playlist: Inteligentna playlista
+      smart_playlist_hint: Automatycznie pomiń ekrany, na których treści się nie zmieniły przez dłuższy czas.
       skip_after:
-        one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        one: Pomiń nieaktualne ekrany po 1 dniu
+        other: Pomiń nieaktualne ekrany po %{count} dniach
     playlist_item:
-      adjust_schedule: Adjust schedule
-      delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
-      displayed_now: Displayed now
-      not_displayed_yet: Not displayed yet
-      remove_from_playlist: Remove from playlist
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      adjust_schedule: Dostosuj harmonogram
+      delete: Czy na pewno chcesz usunąć ten element? Plugin pozostanie połączony, ale nie będzie wyświetlany na Twoim urządzeniu.
+      displayed_now: Wyświetlane w tej chwili
+      not_displayed_yet: Jeszcze niewyświetlone
+      remove_from_playlist: Usuń z playlisty
+      hide_playlist: Ukryj ten element
+      show_playlist: Pokaż ten element
     create:
-      error: Failed to update playlist
-      success: Playlist updated
+      error: Aktualizacja playlisty nie powiodła się
+      success: Playlista zaktualizowana
     destroy:
-      error: Error removing item from playlist
-      success: Plugin removed from Playlist
+      error: Usunięcie elementu z playlisty nie powiodło się
+      success: Plugin został usunięty z playlisty
     toggle_visibility:
-      success: Playlist item %{change}
+      success: Element playlisty %{change}
     duplicate:
-      success: Playlist duplicated
+      success: Playlista została zduplikowana
     sort:
-      success: Playlist order updated
+      success: Kolejność playlisty została zaktualizowana
     set_preferences:
-      success: Smart playlist preference updated
+      success: Ustawienia inteligentnej listy odtwarzania zaktualizowane
+    update:
+      success: Zaktualizowano kolejność odtwarzania
   plugins:
     index:
-      title: Plugins
-      tagline: What will you put on your TRMNL?
-      available: Available
-      connected: Connected
-      recipes: Recipes
-      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+      title: Pluginy
+      tagline: Co umieścisz na swoim TRMNL?
+      available: Dostępne
+      connected: Połączone
+      recipes: Receptury
+      recipes_hint: Prywatne pluginy stworzone przez społeczność, które mogą być zainstalowane jednym kliknięciem. __Więcej informacji__.
     search:
-      placeholder: Search Plugins
+      placeholder: Szukaj pluginów
     my:
       index:
-        title: My Plugins
-        tagline: Develop Plugins for the public marketplace
+        title: Moje pluginy
+        tagline: Twórz pluginy i udostępniaj je w publicznym katalogu
       card:
-        connections: connections
-        install: Install
-        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-        submit_for_review: Submit for Review
+        connections: połączenia
+        install: Instaluj
+        review_are_you_sure: Na pewno? Zespół TRMNL przetestuje plugin i w razie potrzeby skontaktuje się z Tobą przez e-mail.
+        submit_for_review: Prześlij do weryfikacji
     new:
-      title: Create New Plugin
-      tagline: Other users will be able to install your plugin.
-      name: Name
-      category: Category
-      category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
-      description: Description
-      description_hint: Maximum 50 characters
-      icon: Icon
-      icon_hint: 512x512px recommended
-      installation_url: Installation URL
-      installation_url_hint: Learn more about the installation flow __here__.
-      installation_success_webhook_url: Installation Success Webhook URL
-      knowledge_base_url: Knowledge Base URL
-      management_url: Plugin Management URL
-      management_url_hint: Learn more about the management flow __here__.
-      markup_url: Plugin Markup URL
-      markup_url_hint: Learn more about screen generation __here__.
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
-      uninstallation_webhook_url: Uninstallation Webhook URL
+      title: Stwórz nowy plugin
+      tagline: Inni użytkownicy będą w stanie korzystać z Twojego pluginu.
+      name: Nazwa
+      category: Kategoria
+      category_hint: Przytrzymaj cmd lub ctrl, aby wybrać maksymalnie 3
+      refresh_every: Obsługiwany interwał aktualizacji
+      refresh_every_hint: Najkrótszy interwał aktualizacji, jaki jest wspierany przez Twój plugin.
+      description: Opis
+      description_hint: Maksymalnie 50 znaków
+      icon: Ikona
+      icon_hint: Rekomendowane 512x512 pikseli
+      installation_url: Adres URL - instalacja
+      installation_url_hint: Informacje na temat procesu instalacji znajdziesz __tutaj__.
+      installation_success_webhook_url: Adres URL Webhooka po pomyślnej instalacji
+      knowledge_base_url: Adres URL - baza wiedzy
+      management_url: Adres URL - zarządzanie pluginem
+      management_url_hint: Informacje na temat sposobu zarządzania znajdziesz __tutaj__.
+      markup_url: Adres URL szablonu pluginu
+      markup_url_hint: Informacje na temat procesu generowania ekranów znajdziesz __tutaj__.
+      no_screen_padding: Bez paddingu ekranu
+      no_screen_padding_hint: Usuwa skrajny padding w trybie pełnoekranowym.
+      uninstallation_webhook_url: Adres URL Webhooka po pomyślnej dezinstalacji
     edit:
-      title: Edit Plugin
-      tagline: Update your plugin details.
-      name: Name
-      description: Description
+      title: Edytuj plugin
+      tagline: Zaktualizuj szczegóły swojego pluginu.
+      name: Nazwa
+      description: Opis
   plugin_recipes:
-    connected: Recipe connected
+    connected: Receptura połączona
     connections:
-      one: Connection
-      other: Connections
+      one: Połączenie
+      other: Połączenia
     forks:
       one: Fork
-      other: Forks
+      other: Forki
     new:
-      error: Recipe not found
+      error: Nie znaleziono receptury
   plugin_settings:
-    active: Active
-    copy_are_you_sure: Are you sure you want to copy this setting?
-    delete_are_you_sure: Are you sure you want to delete this setting?
-    delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
-    inactive: Inactive
-    no_plugin_settings_found: No plugin settings found.
-    not_supported: Not supported on current device
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
-    reset_credentials: "%{plugin_name} account reset successfully"
+    active: Aktywny
+    copy_are_you_sure: Czy na pewno chcesz skopiować to ustawienie?
+    delete_are_you_sure: Czy na pewno chcesz usunąć to ustawienie?
+    delete: To całkowicie usunie ustawienia pluginu. Jeśli nie chcesz, by plugin był wyświetlany na urządzeniu, po prostu usuń go z playlisty.
+    inactive: Nieaktywny
+    no_plugin_settings_found: Nie znaleziono ustawień pluginu.
+    not_supported: Niewspierany na tym urządzeniu
+    refreshing_now_please_wait: Odświeżanie w toku, przeładuj tę stronę za kilka sekund.
+    reset_credentials: "Pomyślnie zresetowano konto %{plugin_name}"
     form:
-      active_hint: Show or hide this plugin instance on your device
-      advanced_settings: Advanced Settings
-      back_to_plugin: Back to %{plugin}
-      back_to_plugins: Back to Plugins
-      connect_with: Connect with %{plugin}
-      debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
-      debug_logs_enabled_link: View logs
-      disconnect_account: Disconnect Account
-      manage_plugin: Configure %{plugin}
-      force_refresh: Force Refresh
-      force_refresh_hint: This feature is designed for testing only - please do not abuse it.
-      force_refresh_click_here: Click here
-      force_refresh_click_here_hint: to generate a new screen immediately
-      learn_more: Learn about this plugin in our knowledge base
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
-      linked_account: Linked Account
-      linked_account_success: Successfully linked with %{plugin_name}
-      link_oauth: Link Account
-      link_oauth_hint: Before you continue, follow the secure authorization process provided by %{plugin}
-      multiple_instances_hint: This plugin supports multiple instances.
-      name: Name
-      name_hint: Give it a name for easy reference
-      parse: Parse
-      parse_save_first: Parse (Save plugin first)
-      parsed: Parsed
-      plugin_uuid: Plugin UUID
-      plugin_uuid_hint: Use this to make Webhook API requests.
-      preview: Preview - your device will show actual data
-      recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_unlisted: This plugin is unlisted
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
-      recipe_visibility_title: How would you like to publish?
-      recipe_visibility_edit_title: Edit Submission
-      recipe_visibility_public: Public
-      recipe_visibility_public_hint: Anyone can find and install.
-      recipe_visibility_private: Private
-      recipe_visibility_private_hint: Breaks external installs.
-      recipe_visibility_unlisted: Unlisted
-      recipe_visibility_unlisted_hint: Anyone with the link can install.
-      refresh_rate: Refresh rate
-      refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
-      refreshed: Refreshed
-      remove_plugin: Remove plugin
-      remove_plugin_hint: Removing a plugin will also remove it from your playlist
-      synced: Synced
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
-      visit_docs: Visit Docs
+      active_hint: Pokazuje lub ukrywa instancję tego pluginu na Twoim urządzeniu
+      advanced_settings: Zaawansowane
+      back_to_plugin: Wróć do %{plugin}
+      back_to_plugins: Wróć do pluginów
+      connect_with: Połącz z %{plugin}
+      debug_logs: Logi debugowania
+      debug_logs_click_here: Kliknij tutaj
+      debug_logs_click_here_hint: aby włączyć logi debugowania dla tej instancji pluginu.
+      debug_logs_enabled: Logi debugowania włączone przez %{hours} godzin.
+      debug_logs_enabled_link: Przejrzyj logi
+      disconnect_account: Odłącz konto
+      manage_plugin: Konfiguruj %{plugin}
+      force_refresh: Wymuś odświeżenie
+      force_refresh_hint: Ta funkcjonalność jest przeznaczona na potrzeby testów. Prosimy, by jej nie nadużywać.
+      force_refresh_click_here: Kliknij tutaj
+      force_refresh_click_here_hint: aby natychmiast wygenerować nowy ekran
+      learn_more: Dowiedz się więcej o tym pluginie z naszej bazy wiedzy
+      learn_more_fork: Ten plugin jest forkiem Receptury.
+      learn_more_fork_original: Zobacz oryginał
+      learn_more_recipe_author: Potrzebujesz pomocy? Skontaktuj się z %{recipe_author} na Discordzie.
+      learn_more_recipe_long: Ten plugin jest Recepturą społecznościową i nie jest utrzymywany przez TRMNL.
+      learn_more_recipe_short: 'Uwaga: ten plugin jest Recepturą.'
+      linked_account: Konto połączone
+      linked_account_success: Pomyślnie połączono z %{plugin_name}
+      link_oauth: Połącz konto
+      link_oauth_hint: Przed przejściem dalej, należy skorzystać z bezpiecznej autoryzacji zapewnionej przez %{plugin}
+      multiple_instances_hint: Ten plugin obsługuje wieloinstancyjność.
+      name: Nazwa
+      name_hint: Nadaj nazwę dla łatwiejszej identyfikacji
+      parse: Analizuj
+      parse_save_first: Analizuj (Najpierw zapisz plugin)
+      parsed: Przeanalizowano
+      plugin_uuid: UUID pluginu
+      plugin_uuid_hint: Użyj tego identyfikatora do wysyłania zapytań do interfejsu API webhook.
+      preview: Podgląd - Twoje urządzenie będzie wyświetlało aktualne dane
+      recipe_cta_heading_published: Ten plugin jest Recepturą
+      recipe_cta_heading_unlisted: Ten plugin nie został opublikowany
+      recipe_cta_heading_in_review: Receptura w trakcie testów
+      recipe_cta_heading_not_published: Opublikować jako Recepturę?
+      recipe_cta_body_published: Zmiany będą miały wpływ na obecne i przyszłe instalacje/forki.
+      recipe_cta_body_in_review: Plugin został zgłoszony do przetestowania przez nasz zespół. Prosimy o cierpliwość.
+      recipe_cta_body_not_published: Opublikuj ten plugin, aby inni mogli go zainstalować. __Dowiedz się więcej__.
+      recipe_cta_confirm: Na pewno? Zespół TRMNL przetestuje plugin i odezwie się w ciągu kilku dni. Możesz nadal nanosić zmiany.
+      recipe_visibility_title: Wybierz sposób publikacji
+      recipe_visibility_edit_title: Edytuj zgłoszenie
+      recipe_visibility_public: Publiczny
+      recipe_visibility_public_hint: Każdy może znaleźć i zainstalować.
+      recipe_visibility_private: Prywatny
+      recipe_visibility_private_hint: Blokuje instalacje przez osoby trzecie.
+      recipe_visibility_unlisted: Ukryty
+      recipe_visibility_unlisted_hint: Tylko osoby posiadające link mogą zainstalować.
+      refresh_rate: Częstotliwość odświeżania
+      refresh_rate_hint: Określ, jak często ta instancja pluginu ma pobierać świeże dane.
+      refresh_rate_not_configurable: Odświeżanie %{refresh_rate} (niekonfigurowalne)
+      refreshed: Odświeżony
+      remove_plugin: Usuń plugin
+      remove_plugin_hint: Usunięcie pluginu usunie go również z Twojej playlisty
+      synced: Zsynchronizowany
+      refresh_paused: Odświeżanie wstrzymane
+      refresh_paused_hint: Automatyczne odświeżanie jest wstrzymane. Dodaj do playlisty, aby włączyć je z powrotem.
+      refresh_paused_hidden_hint: Automatyczne odświeżanie jest wstrzymane, bo plugin został ukryty na playliście. Synchronizacja danych jest aktywna.
+      refresh_paused_mashup: Odświeżanie szablonów
+      refresh_paused_mashup_hint: Automatyczne odświeżanie wstrzymane w trybie pełnoekranowym. Szablony się odświeżają.
+      refresh_stopped: Automatyczne odświeżanie wstrzymane. Należy naprawić błędy w pluginie, nim będzie można kontynuować.
+      visit_docs: Przejrzyj dokumentację
     import:
-      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
-      missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: "%{filename} is too large"
-      malformed: "%{filename} is malformed"
+      archive_too_large: Archiwum ZIP jest zbyt duże (maksimum %{max_mb} MB)
+      missing_entry: Archiwum ZIP nie zawiera %{filename}
+      entry_too_large: "Plik %{filename} jest zbyt duży"
+      malformed: "Plik %{filename} ma nieprawidłowy format"
     create:
-      success: Plugin created and added to your
-      playlist: playlist
+      success: Plugin został stworzony i dodany do
+      playlist: Twojej playlisty
     destroy:
-      success: Plugin deleted
-    handle_canceled_consent: Consent canceled, please try again
+      success: Usunięto plugin
+    handle_canceled_consent: Zgoda wycofana, spróbuj ponownie
     update:
-      success: Plugin configuration updated successfully
+      success: Konfiguracja pluginu została pomyślnie zaktualizowana
     add_to_playlist:
-      success: Plugin added to Playlist
+      success: Plugin został dodany do playlisty
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: Zgłoszenie przyjęte, sprawdź swoją skrzynkę odbiorczą
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
-      fork: Fork
+      newest_to_oldest: Od najnowszych do najstarszych
+      oldest_to_newest: Od najstarszych do najnowszych
+      most_popular: Najpopularniejsze
+      install: Instaluj
+      fork: Forkuj
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: Dodaj własny harmonogram
+      append: Oraz…
+      no_schedule: Ten ekran będzie wyświetlany przez cały czas.
+      some_schedule: Określ, kiedy ten ekran ma być wyświetlany
+      to: do
+      copy_prompt: Kopiuj harmonogram z…
   upgrade:
     index:
-      title: 'Upgrading device:'
-      tagline: Unlock custom plugins and __more__.
-      pay: Pay
-      error: Device %{device_name} is already upgraded, switch to another device
+      title: 'Aktualizowanie urządzenia:'
+      tagline: Odblokuj niestandardowe pluginy i __inne__.
+      pay: Zapłać
+      error: Urządzenie %{device_name} zostało już zaktualizowane, wybierz inne urządzenie
     confirm:
-      success: Developer edition add-on is now enabled
+      success: Edycja deweloperska została włączona
+  
