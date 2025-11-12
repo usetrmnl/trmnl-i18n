@@ -1,399 +1,218 @@
 ---
 pl:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: i
+    and_x_more_suffix: więcej
     days_left_year:
-      title: Days Left This Year
-      days_passed: Days Passed
-      days_left: Days Left
+      title: Dni do końca roku
+      days_passed: Minęło dni
+      days_left: Pozostało dni
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: Kalendarz księżycowy
+      age: Wiek księżyca
+      current_phase: Obecna faza
+      illumination: Oświetlenie księżyca
+      next_full_moon: Następna pełnia
+      next_new_moon: Następny nów
+      next_phase: Następna faza
+      next_phase_short: Następna faza
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: Nów
+        waxing_crescent: Sierp przybywający
+        first_quarter: Pierwsza kwadra
+        waxing_gibbous: Rosnący garb
+        full_moon: Pełnia
+        waning_gibbous: Znikający garb
+        third_quarter: Trzecia kwadra
+        waning_crescent: Znikający sierp
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: Dostawa do
+      empty: Brak dostaw
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Błąd w paczkowym API
+        http: Błąd HTTP %{code}
+        internal: Błąd wewnętrzny
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Aktywna dostawa
+          other: Aktywne dostawy
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Niedawna dostawa
+          other: Niedawne dostawy
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: Dostarczono
+        delivery_exception: Problem z dostawą
+        expecting_pickup: Oczekuje na odbiór
+        failed_delivery_attempt: Nieudana próba doręczenia
+        frozen: Wstrzymana
+        in_transit: W tranzycie
+        information_received: Otrzymano informacje
+        not_found: Nie znaleziono
+        out_for_delivery: Wydano do doręczenia
+        unknown: Nieznany
+      today: Dziś
+      tomorrow: Jutro
     weather:
-      title: Weather
-      temperature: Temperature
-      feels_like: Feels Like
-      humidity: Humidity
-      low: Low
-      high: High
+      title: Pogoda
+      temperature: Temperatura
+      feels_like: Odczuwalna
+      humidity: Wilgotność
+      low: Min.
+      high: Maks.
       uv: UV
-      right_now: Right Now
-      today: Today
-      tomorrow: Tomorrow
+      right_now: Obecnie
+      today: Dziś
+      tomorrow: Jutro
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: Niski
+          moderate: Umiarkowany
+          high: Wysoki
+          very_high: Bardzo wysoki
+          extreme: Ekstremalny
         conditions:
         - code: 1000
-          day: Sunny
-          night: Clear
+          day: Słonecznie
+          night: Bezchmurnie
         - code: 1003
-          day: Partly Cloudy
-          night: Partly Cloudy
+          day: Częściowe zachmurzenie
+          night: Częściowe zachmurzenie
         - code: 1006
-          day: Cloudy
-          night: Cloudy
+          day: Pochmurno
+          night: Pochmurno
         - code: 1009
-          day: Overcast
-          night: Overcast
+          day: Całkowite zachmurzenie
+          night: Całkowite zachmurzenie
         - code: 1030
-          day: Mist
-          night: Mist
+          day: Mgła
+          night: Mgła
         - code: 1063
-          day: Light Rain
-          night: Light Rain
+          day: Możliwe opady deszczu
+          night: Możliwe opady deszczu
         - code: 1066
-          day: Light Snow
-          night: Light Snow
+          day: Możliwe opady śniegu
+          night: Możliwe opady śniegu
         - code: 1069
-          day: Sleet
-          night: Sleet
+          day: Możliwe deszcze ze śniegiem
+          night: Możliwe deszcze ze śniegiem
         - code: 1072
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: Przelotna marznąca mżawka
+          night: Przelotna marznąca mżawka
         - code: 1087
-          day: Thunder
-          night: Thunder
+          day: Możliwe burze
+          night: Możliwe burze
         - code: 1114
-          day: Blowing Snow
-          night: Blowing Snow
+          day: Zamieć śnieżna
+          night: Zamieć śnieżna
         - code: 1117
-          day: Blizzard
-          night: Blizzard
+          day: Śnieżyca
+          night: Śnieżyca
         - code: 1135
-          day: Fog
-          night: Fog
+          day: Mgła
+          night: Mgła
         - code: 1147
-          day: Freezing Fog
-          night: Freezing Fog
+          day: Marznąca mgła
+          night: Marznąca mgła
         - code: 1150
-          day: Light Drizzle
-          night: Light Drizzle
+          day: Przelotna mżawka
+          night: Przelotna mżawka
         - code: 1153
-          day: Drizzle
-          night: Drizzle
+          day: Mżawka
+          night: Mżawka
         - code: 1168
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: Marznąca mżawka
+          night: Marznąca mżawka
         - code: 1171
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Intensywne opady marznącej mżawki
+          night: Intensywne opady marznącej mżawki
         - code: 1180
-          day: Light Rain
-          night: Light Rain
+          day: Przelotne słabe opady deszczu
+          night: Przelotne słabe opady deszczu
         - code: 1183
-          day: Light Rain
-          night: Light Rain
+          day: Słabe opady deszczu
+          night: Słabe opady deszczu
         - code: 1186
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Przelotne umiarkowane opady deszczu
+          night: Przelotne umiarkowane opady deszczu
         - code: 1189
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Umiarkowane opady deszczu
+          night: Umiarkowane opady deszczu
         - code: 1192
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Przelotne intensywne opady deszczu
+          night: Przelotne intensywne opady deszczu
         - code: 1195
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Intensywne opady deszczu
+          night: Intensywne opady deszczu
         - code: 1198
-          day: Light Freeze
-          night: Light Freeze
+          day: Słabe opady marznącego deszczu
+          night: Słabe opady marznącego deszczu
         - code: 1201
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Intensywne opady marznącego deszczu
+          night: Intensywne opady marznącego deszczu
         - code: 1204
-          day: Light Sleet
-          night: Light Sleet
+          day: Deszcz ze śniegiem
+          night: Deszcz ze śniegiem
         - code: 1207
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Silny deszcz ze śniegiem
+          night: Silny deszcz ze śniegiem
         - code: 1210
-          day: Light Snow
-          night: Light Snow
+          day: Przelotne słabe opady śniegu
+          night: Przelotne słabe opady śniegu
         - code: 1213
-          day: Light Snow
-          night: Light Snow
+          day: Słabe opady śniegu
+          night: Słabe opady śniegu
         - code: 1216
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Przelotne umiarkowane opady śniegu
+          night: Przelotne umiarkowane opady śniegu
         - code: 1219
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Umiarkowane opady śniegu
+          night: Umiarkowane opady śniegu
         - code: 1222
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Przelotne intensywne opady śniegu
+          night: Przelotne intensywne opady śniegu
         - code: 1225
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Intensywne opady śniegu
+          night: Intensywne opady śniegu
         - code: 1237
-          day: Ice Pellets
-          night: Ice Pellets
+          day: Deszcz lodowy
+          night: Deszcz lodowy
         - code: 1240
-          day: Light Rain
-          night: Light Rain
+          day: Przelotne słabe opady deszczu
+          night: Przelotne słabe opady deszczu
         - code: 1243
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Przelotne intensywne opady deszczu
+          night: Przelotne intensywne opady deszczu
         - code: 1246
-          day: Torrential Rain
-          night: Torrential Rain
+          day: Przelotne ulewne deszcze
+          night: Przelotne ulewne deszcze
         - code: 1249
-          day: Light Sleet
-          night: Light Sleet
+          day: Słabe opady deszczu ze śniegiem
+          night: Słabe opady deszczu ze śniegiem
         - code: 1252
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Silne opady deszczu ze śniegiem
+          night: Silne opady deszczu ze śniegiem
         - code: 1255
-          day: Light Snow
-          night: Light Snow
+          day: Przelotne słabe opady śniegu
+          night: Przelotne słabe opady śniegu
         - code: 1258
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Przelotne intensywne opady śniegu
+          night: Przelotne intensywne opady śniegu
         - code: 1261
-          day: Light Ice
-          night: Light Ice
+          day: Przelotny słaby deszcz lodowy
+          night: Przelotny słaby deszcz lodowy
         - code: 1264
-          day: Heavy Ice
-          night: Heavy Ice
+          day: Przelotny intensywny deszcz lodowy
+          night: Przelotny intensywny deszcz lodowy
         - code: 1273
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Burza z przelotnymi opadami deszczu
+          night: Burza z przelotnymi opadami deszczu
         - code: 1276
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Burza z intensywnymi opadami deszczu
+          night: Burza z intensywnymi opadami deszczu
         - code: 1279
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: Burza z przelotnymi opadami śniegu
+          night: Burza z przelotnymi opadami śniegu
         - code: 1282
-          day: Thunder & Snow
-          night: Thunder & Snow
-  custom_plugins:
-    today: today
-    tomorrow: tomorrow
-    deutsche_bahn_departures:
-      time: Time
-      destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
-      minutes: m
-      refreshed: Refreshed
-    simple_calendar:
-      title: Calendar
-      ym_format: "%B %Y"
-      chinese_korean:
-        leap_format: Leap %{month_label}
-        leap_format_short: LM%{alt_month}
-        ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
-        month_labels:
-        -
-        - M1
-        - M2
-        - M3
-        - M4
-        - M5
-        - M6
-        - M7
-        - M8
-        - M9
-        - M10
-        - M11
-        - M12
-        date_labels:
-        -
-        - '1'
-        - '2'
-        - '3'
-        - '4'
-        - '5'
-        - '6'
-        - '7'
-        - '8'
-        - '9'
-        - '10'
-        - '11'
-        - '12'
-        - '13'
-        - '14'
-        - '15'
-        - '16'
-        - '17'
-        - '18'
-        - '19'
-        - '20'
-        - '21'
-        - '22'
-        - '23'
-        - '24'
-        - '25'
-        - '26'
-        - '27'
-        - '28'
-        - '29'
-        - '30'
-        heavenly_stems:
-        - Wood
-        - Wood
-        - Fire
-        - Fire
-        - Earth
-        - Earth
-        - Metal
-        - Metal
-        - Water
-        - Water
-        earthly_branches:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
-      japanese:
-        rokuyo_terms:
-        - 先勝
-        - 友引
-        - 先負
-        - 仏滅
-        - 大安
-        - 赤口
-        nengo:
-          reiwa: Reiwa
-        ym_format: "%B %Y (%{nengo} %{alt_year})"
-        year_1: '1'
-      hebrew:
-        ym_format: ", %{month_label} %{alt_year}"
-        month_labels:
-        - Nisan
-        - Iyar
-        - Sivan
-        - Tamuz
-        - Av
-        - Elul
-        - Tishri
-        - Heshvan
-        - Kislev
-        - Tevet
-        - Shevat
-        - Adar
-        - Adar I
-        - Adar II
-        month_labels_abbr:
-        - Nis
-        - Iya
-        - Siv
-        - Tam
-        - Av
-        - Elu
-        - Tis
-        - Hes
-        - Kis
-        - Tev
-        - Shv
-        - Ada
-        - Ad1
-        - Ad2
-      hijri:
-        ym_format: ", %{month_label} %{alt_year}"
-        month_labels:
-        -
-        - Muharram
-        - Safar
-        - Rabiʻ I
-        - Rabiʻ II
-        - Jumada I
-        - Jumada II
-        - Rajab
-        - Shaʻban
-        - Ramadan
-        - Shawwal
-        - Dhuʻl-Qiʻdah
-        - Dhuʻl-Hijjah
-      bengali:
-        ym_format: ", %{month_label} %{alt_year}"
-        month_labels:
-        -
-        - Boishakh
-        - Joishtho
-        - Asharh
-        - Srabon
-        - Bhadro
-        - Ashwin
-        - Kartika
-        - Ogrohayon
-        - Poush
-        - Magh
-        - Falgun
-        - Choitro
-      indian:
-        ym_format: ", %{month_label} %{alt_year}"
-        month_labels:
-        -
-        - Chaitra
-        - Vaisakha
-        - Jyaistha
-        - Asadha
-        - Sravana
-        - Bhadra
-        - Asvina
-        - Kartika
-        - Agrahayana
-        - Pausa
-        - Magha
-        - Phalguna
+          day: Burza z intensywnymi opadami śniegu
+          night: Burza z intensywnymi opadami śniegu
+  
