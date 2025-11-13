@@ -1,7 +1,7 @@
 ---
 es-ES:
   renders:
-    and_x_more_prefix: "y"
+    and_x_more_prefix: y
     and_x_more_suffix: más
     days_left_year:
       title: Días Restantes En Este Año
@@ -13,7 +13,7 @@ es-ES:
       current_phase: Fase Actual
       illumination: Luminosidad Lunar
       next_full_moon: Próxima Luna Llena
-      next_new_moon: Próx. Luna Nueva
+      next_new_moon: Próxima Luna Nueva
       next_phase: Próxima Fase
       next_phase_short: Próx.
       moon_phases:
@@ -26,32 +26,32 @@ es-ES:
         third_quarter: Cuarto Menguante
         waning_crescent: Luna Menguante
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: Entrega de
+      empty: No hay entregas
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Error en la API de Parcel
+        http: Error HTTP %{code}
+        internal: Error interno
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Entrega Activa
+          other: Entregas Activas
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Entrega Reciente
+          other: Entregas Recientes
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: Entregado
+        delivery_exception: Excepción en la Entrega
+        expecting_pickup: En Espera de Recolección
+        failed_delivery_attempt: Intento de Entrega Fallido
+        frozen: Congelado
+        in_transit: En Tránsito
+        information_received: Información Recibida
+        not_found: No Encontrado
+        out_for_delivery: En Reparto
+        unknown: Desconocido
+      today: Hoy
+      tomorrow: Mañana
     weather:
       title: El Tiempo
       temperature: Temperatura
@@ -65,153 +65,153 @@ es-ES:
       tomorrow: Mañana
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: Bajo
+          moderate: Moderado
+          high: Alto
+          very_high: Muy Alto
+          extreme: Extremo
         conditions:
         - code: 1000
-          day: Sunny
-          night: Clear
+          day: Soleado
+          night: Despejado
         - code: 1003
-          day: Partly Cloudy
-          night: Partly Cloudy
+          day: Parcialmente Nublado
+          night: Parcialmente Nublado
         - code: 1006
-          day: Cloudy
-          night: Cloudy
+          day: Nublado
+          night: Nublado
         - code: 1009
-          day: Overcast
-          night: Overcast
+          day: Cubierto
+          night: Cubierto
         - code: 1030
-          day: Mist
-          night: Mist
+          day: Neblina
+          night: Neblina
         - code: 1063
-          day: Light Rain
-          night: Light Rain
+          day: Lluvia Ligera
+          night: Lluvia Ligera
         - code: 1066
-          day: Light Snow
-          night: Light Snow
+          day: Nieve Ligera
+          night: Nieve Ligera
         - code: 1069
-          day: Sleet
-          night: Sleet
+          day: Aguanieve
+          night: Aguanieve
         - code: 1072
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: Llovizna Helada
+          night: Llovizna Helada
         - code: 1087
-          day: Thunder
-          night: Thunder
+          day: Tormenta
+          night: Tormenta
         - code: 1114
-          day: Blowing Snow
-          night: Blowing Snow
+          day: Nieve con Viento
+          night: Nieve con Viento
         - code: 1117
-          day: Blizzard
-          night: Blizzard
+          day: Ventisca
+          night: Ventisca
         - code: 1135
-          day: Fog
-          night: Fog
+          day: Niebla
+          night: Niebla
         - code: 1147
-          day: Freezing Fog
-          night: Freezing Fog
+          day: Niebla Helada
+          night: Niebla Helada
         - code: 1150
-          day: Light Drizzle
-          night: Light Drizzle
+          day: Llovizna Ligera
+          night: Llovizna Ligera
         - code: 1153
-          day: Drizzle
-          night: Drizzle
+          day: Llovizna
+          night: Llovizna
         - code: 1168
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: Llovizna Helada
+          night: Llovizna Helada
         - code: 1171
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Congelación Intensa
+          night: Congelación Intensa
         - code: 1180
-          day: Light Rain
-          night: Light Rain
+          day: Lluvia Ligera
+          night: Lluvia Ligera
         - code: 1183
-          day: Light Rain
-          night: Light Rain
+          day: Lluvia Ligera
+          night: Lluvia Ligera
         - code: 1186
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Lluvia Moderada
+          night: Lluvia Moderada
         - code: 1189
-          day: Moderate Rain
-          night: Moderate Rain
+          day: Lluvia Moderada
+          night: Lluvia Moderada
         - code: 1192
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Lluvia Fuerte
+          night: Lluvia Fuerte
         - code: 1195
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Lluvia Fuerte
+          night: Lluvia Fuerte
         - code: 1198
-          day: Light Freeze
-          night: Light Freeze
+          day: Ligera Congelación
+          night: Ligera Congelación
         - code: 1201
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: Congelación Intensa
+          night: Congelación Intensa
         - code: 1204
-          day: Light Sleet
-          night: Light Sleet
+          day: Aguanieve Ligera
+          night: Aguanieve Ligera
         - code: 1207
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Aguanieve Intensa
+          night: Aguanieve Intensa
         - code: 1210
-          day: Light Snow
-          night: Light Snow
+          day: Nieve Ligera
+          night: Nieve Ligera
         - code: 1213
-          day: Light Snow
-          night: Light Snow
+          day: Nieve Ligera
+          night: Nieve Ligera
         - code: 1216
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Nieve Moderada
+          night: Nieve Moderada
         - code: 1219
-          day: Moderate Snow
-          night: Moderate Snow
+          day: Nieve Moderada
+          night: Nieve Moderada
         - code: 1222
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Nieve Intensa
+          night: Nieve Intensa
         - code: 1225
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Nieve Intensa
+          night: Nieve Intensa
         - code: 1237
-          day: Ice Pellets
-          night: Ice Pellets
+          day: Granizo
+          night: Granizo
         - code: 1240
-          day: Light Rain
-          night: Light Rain
+          day: Lluvia Ligera
+          night: Lluvia Ligera
         - code: 1243
-          day: Heavy Rain
-          night: Heavy Rain
+          day: Lluvia Fuerte
+          night: Lluvia Fuerte
         - code: 1246
-          day: Torrential Rain
-          night: Torrential Rain
+          day: Lluvia Torrencial
+          night: Lluvia Torrencial
         - code: 1249
-          day: Light Sleet
-          night: Light Sleet
+          day: Aguanieve Ligera
+          night: Aguanieve Ligera
         - code: 1252
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: Aguanieve Intensa
+          night: Aguanieve Intensa
         - code: 1255
-          day: Light Snow
-          night: Light Snow
+          day: Nieve Ligera
+          night: Nieve Ligera
         - code: 1258
-          day: Heavy Snow
-          night: Heavy Snow
+          day: Nieve Intensa
+          night: Nieve Intensa
         - code: 1261
-          day: Light Ice
-          night: Light Ice
+          day: Hielo Ligero
+          night: Hielo Ligero
         - code: 1264
-          day: Heavy Ice
-          night: Heavy Ice
+          day: Hielo Intenso
+          night: Hielo Intenso
         - code: 1273
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Tormenta con Lluvia
+          night: Tormenta con Lluvia
         - code: 1276
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: Tormenta con Lluvia
+          night: Tormenta con Lluvia
         - code: 1279
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: Tormenta con Nieve
+          night: Tormenta con Nieve
         - code: 1282
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: Tormenta con Nieve
+          night: Tormenta con Nieve
