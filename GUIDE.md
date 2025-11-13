@@ -1,6 +1,3 @@
-# TRMNL localizations guide
-overview of our web application, plugin renders, and custom plugin dictionary for higher context contributions.
-
 ## web application
 TRMNL leverages YAML formatted files with a resource-based hierarchy. content on the Account page (`/account`) is thus nested:
 
@@ -49,28 +46,35 @@ learn how users can leverage this dictionary here:
 https://help.usetrmnl.com/en/articles/10347358-custom-plugin-filters
 
 ## how to provide localizations
-in [a previous version](https://github.com/usetrmnl/localizations/blob/87c0ce5b4b71bff2f80346065aa50a5ce7a7e050/GUIDE.md) of this guide we provided annotated screenshots for each phrase.
+in [a previous guide](https://github.com/usetrmnl/localizations/blob/87c0ce5b4b71bff2f80346065aa50a5ce7a7e050/GUIDE.md) we provided annotated screenshots for each phrase, but this approach was cumbersome. whenever our interface changed, the guide become outdated.
 
-however this approach was cumbersome. if our interface changed or new phrases were added, the guide here was not always up-to-date.
+to ensure this library is in parity with our website, we now support a `raw` locale that can be enabled while creating localizations.
 
-to ensure this repository's YML files are in parity with our website, we now support a `raw` locale that can be enabled while creating localizations.
+<kbd>![trmnl-localizations-raw-locale-example](https://github.com/usetrmnl/localizations/blob/main/support/raw_locale_example.png)</kbd>
 
-<kbd>![trmnl-localizations-raw-locale-example](https://github.com/usetrmnl/localizations/blob/master/support/raw_locale_example.png)</kbd>
+**enable raw locales**
 
-1. visit any TRMNL web page, for example `https://usetrmnl.com/dashboard`
-2. add `?locale=raw` to the URL and refresh the page
+* Option A - while logged into TRMNL, navigate to your Account and set the Locale to "locale_name" in the dropdown
 
-this adds context for which localization phrases are used, and where. you may also visit your Account > Locale > set to "raw" and then click around the app.
+<kbd>![trmnl-locale-dropdown-picker](https://github.com/usetrmnl/localizations/blob/main/support/locale_dropdown_picker.png)</kbd>
 
-to localize plugin renders, first pick a plugin here (requires login):
+* Option B - visit any TRMNL web page, for example `/dashboard`, then add `?locale=raw` to the URL and reload the page.
+
+### plugin renders
+to localize plugins, pick a plugin here (requires login):
 https://usetrmnl.com/plugins/demo
 
-then add the same `?locale=raw` param to the URL and refresh to spot the available localization phrases.
+<kbd>![trmnl-localizations-raw-locale-plugin-example](https://github.com/usetrmnl/localizations/blob/main/support/raw_plugin_example.png)</kbd>
 
-<kbd>![trmnl-localizations-raw-locale-plugin-example](https://github.com/usetrmnl/localizations/blob/master/support/raw_plugin_example.png)</kbd>
+### submitting content
 
-when you're ready, make a copy of either `locales/web_ui/en.yml` or `locales/plugin_renders/en.yml` and create a new file in the same directory, `locales/your-lang-code.yml`. submit a pull request and ask questions if you need help.
+localization files live inside `lib/trmnl/i18n/locales`. from within that directory make a copy of `web_ui/en.yml`, `plugin_renders/en.yml`, or `custom_plugins/en.yml`, save a new version using your [ISO 639 language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes). submit this as a pull request and [ask questions](https://github.com/usetrmnl/trmnl-i18n/issues/new) if you need help.
 
 ## general tips
 
-we understand not all languages support casing. we also understand some languages (ex: Korean) support levels of formality. and finally there are languages with gendered nouns, from Spanish to German. in general we prefer a casual tone with simple vocabulary. this matches the spirit of our brand and makes TRMNL comfortable for people all around the world.
+we understand that...
+* not all languages support casing
+* some languages (ex: Korean) support levels of formality
+* some languages are genered
+
+so in general we prefer a casual tone with simple vocabulary. this matches the spirit of our brand and makes TRMNL comfortable for people all around the world.

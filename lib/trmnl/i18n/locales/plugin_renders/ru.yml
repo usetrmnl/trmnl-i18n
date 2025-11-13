@@ -1,0 +1,217 @@
+---
+ru:
+  renders:
+    and_x_more_prefix: И
+    and_x_more_suffix: ещё
+    days_left_year:
+      title: Осталось дней в этом году
+      days_passed: Прошло дней
+      days_left: Осталось дней
+    lunar_calendar:
+      title: Лунный календарь
+      age: Лунный возраст
+      current_phase: Текущая фаза
+      illumination: Освещённость Луны
+      next_full_moon: Следующее полнолуние
+      next_new_moon: Следующее новолуние
+      next_phase: Следующая фаза
+      next_phase_short: Далее
+      moon_phases:
+        new_moon: Новолуние
+        waxing_crescent: Растущий полумесяц
+        first_quarter: Первая четверть
+        waxing_gibbous: Растущая Луна
+        full_moon: Полнолуние
+        waning_gibbous: Убывающая Луна
+        third_quarter: Третья четверть
+        waning_crescent: Убывающий полумесяц
+    parcel:
+      delivery_by: Доставка до
+      empty: Нет доставок
+      errors:
+        api: Ошибка API посылок
+        http: HTTP-ошибка %{code}
+        internal: Внутренняя ошибка
+      filter_modes:
+        active:
+          one: Активная доставка
+          other: Активные доставки
+        recent:
+          one: Недавняя доставка
+          other: Недавние доставки
+      status:
+        delivered: Доставлено
+        delivery_exception: Исключение доставки
+        expecting_pickup: Ожидается получение
+        failed_delivery_attempt: Неудачная попытка доставки
+        frozen: Заморожено
+        in_transit: В пути
+        information_received: Информация получена
+        not_found: Не найдено
+        out_for_delivery: Передано для доставки
+        unknown: Неизвестно
+      today: Сегодня
+      tomorrow: Завтра
+    weather:
+      title: Погода
+      temperature: Температура
+      feels_like: Ощущается как
+      humidity: Влажность
+      low: Низкая
+      high: Высокая
+      uv: УФ
+      right_now: Прямо сейчас
+      today: Сегодня
+      tomorrow: Завтра
+      weatherapi:
+        uv:
+          low: Низкий
+          moderate: Умеренный
+          high: Высокий
+          very_high: Очень высокий
+          extreme: Экстремальный
+        conditions:
+        - code: 1000
+          day: Солнечно
+          night: Ясно
+        - code: 1003
+          day: Переменная облачность
+          night: Переменная облачность
+        - code: 1006
+          day: Облачно
+          night: Облачно
+        - code: 1009
+          day: Пасмурно
+          night: Пасмурно
+        - code: 1030
+          day: Дымка
+          night: Дымка
+        - code: 1063
+          day: Небольшой дождь
+          night: Небольшой дождь
+        - code: 1066
+          day: Небольшой снег
+          night: Небольшой снег
+        - code: 1069
+          day: Мокрый снег
+          night: Мокрый снег
+        - code: 1072
+          day: Ледяная морось
+          night: Ледяная морось
+        - code: 1087
+          day: Гроза
+          night: Гроза
+        - code: 1114
+          day: Метель
+          night: Метель
+        - code: 1117
+          day: Вьюга
+          night: Вьюга
+        - code: 1135
+          day: Туман
+          night: Туман
+        - code: 1147
+          day: Ледяной туман
+          night: Ледяной туман
+        - code: 1150
+          day: Небольшая морось
+          night: Небольшая морось
+        - code: 1153
+          day: Морось
+          night: Морось
+        - code: 1168
+          day: Ледяная морось
+          night: Ледяная морось
+        - code: 1171
+          day: Сильный ледяной дождь
+          night: Сильный ледяной дождь
+        - code: 1180
+          day: Небольшой дождь
+          night: Небольшой дождь
+        - code: 1183
+          day: Небольшой дождь
+          night: Небольшой дождь
+        - code: 1186
+          day: Умеренный дождь
+          night: Умеренный дождь
+        - code: 1189
+          day: Умеренный дождь
+          night: Умеренный дождь
+        - code: 1192
+          day: Сильный дождь
+          night: Сильный дождь
+        - code: 1195
+          day: Сильный дождь
+          night: Сильный дождь
+        - code: 1198
+          day: Лёгкий ледяной дождь
+          night: Лёгкий ледяной дождь
+        - code: 1201
+          day: Сильный ледяной дождь
+          night: Сильный ледяной дождь
+        - code: 1204
+          day: Небольшой мокрый снег
+          night: Небольшой мокрый снег
+        - code: 1207
+          day: Сильный мокрый снег
+          night: Сильный мокрый снег
+        - code: 1210
+          day: Небольшой снег
+          night: Небольшой снег
+        - code: 1213
+          day: Небольшой снег
+          night: Небольшой снег
+        - code: 1216
+          day: Умеренный снег
+          night: Умеренный снег
+        - code: 1219
+          day: Умеренный снег
+          night: Умеренный снег
+        - code: 1222
+          day: Сильный снег
+          night: Сильный снег
+        - code: 1225
+          day: Сильный снег
+          night: Сильный снег
+        - code: 1237
+          day: Ледяная крупа
+          night: Ледяная крупа
+        - code: 1240
+          day: Небольшой дождь
+          night: Небольшой дождь
+        - code: 1243
+          day: Сильный дождь
+          night: Сильный дождь
+        - code: 1246
+          day: Ливневый дождь
+          night: Ливневый дождь
+        - code: 1249
+          day: Небольшой мокрый снег
+          night: Небольшой мокрый снег
+        - code: 1252
+          day: Сильный мокрый снег
+          night: Сильный мокрый снег
+        - code: 1255
+          day: Небольшой снег
+          night: Небольшой снег
+        - code: 1258
+          day: Сильный снег
+          night: Сильный снег
+        - code: 1261
+          day: Лёгкий лёд
+          night: Лёгкий лёд
+        - code: 1264
+          day: Сильный лёд
+          night: Сильный лёд
+        - code: 1273
+          day: Гроза и дождь
+          night: Гроза и дождь
+        - code: 1276
+          day: Гроза и дождь
+          night: Гроза и дождь
+        - code: 1279
+          day: Гроза и снег
+          night: Гроза и снег
+        - code: 1282
+          day: Гроза и снег
+          night: Гроза и снег
