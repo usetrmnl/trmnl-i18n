@@ -1,57 +1,55 @@
 ---
 zh-CN:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: 及其他
+    and_x_more_suffix: 项
     days_left_year:
-      title: Days Left This Year
-      days_passed: Days Passed
-      days_left: Days Left
+      title: 今年还剩多少天
+      days_passed: 已过天数
+      days_left: 剩余天数
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: 月相历
+      age: 月龄
+      current_phase: 当前月相
+      illumination: 月相比例
+      next_full_moon: 下次满月
+      next_new_moon: 下次新月
+      next_phase: 下个月相
+      next_phase_short: 接下来
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: 新月
+        waxing_crescent: 娥眉月
+        first_quarter: 上弦月
+        waxing_gibbous: 盈凸月
+        full_moon: 满月
+        waning_gibbous: 亏凸月
+        third_quarter: 下弦月
+        waning_crescent: 残月
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: 送达日期
+      empty: 暂时没有快递
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Parcel API 错误
+        http: HTTP 错误 %{code}
+        internal: 内部错误
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          other: 运输中
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          other: 近期包裹
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: 已签收
+        delivery_exception: 派件异常
+        expecting_pickup: 等待去捡
+        failed_delivery_attempt: 派件失败
+        frozen: 冻结
+        in_transit: 运输中
+        information_received: 已登记
+        not_found: 未找到
+        out_for_delivery: 派件中
+        unknown: 位置
+      today: 今天
+      tomorrow: 明天
     weather:
       title: 天气
       temperature: 温度
