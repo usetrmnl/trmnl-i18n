@@ -1,57 +1,57 @@
 ---
 zh-HK:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: 還有
+    and_x_more_suffix: 個
     days_left_year:
       title: 今年剩餘日數
       days_passed: 經過日數
       days_left: 剩餘日數
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: 月亮日曆
+      age: 月齡
+      current_phase: 現時月相
+      illumination: 照亮度
+      next_full_moon: 下次滿月
+      next_new_moon: 下次新月
+      next_phase: 下個月相
+      next_phase_short: 下個
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: 新月
+        waxing_crescent: 娥眉月
+        first_quarter: 上弦月
+        waxing_gibbous: 盈凸月
+        full_moon: 滿月
+        waning_gibbous: 虧凸月
+        third_quarter: 下弦月
+        waning_crescent: 殘月
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: 預計送達時間
+      empty: 沒有任何包裹
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: 包裹API錯誤
+        http: HTTP錯誤 %{code}
+        internal: 內部錯誤
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: 運送中的包裹
+          other: 運送中的包裹
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: 最近的包裹
+          other: 最近的包裹
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: 順利送達
+        delivery_exception: 送貨異常
+        expecting_pickup: 等候取件
+        failed_delivery_attempt: 送貨失敗
+        frozen: 凍結
+        in_transit: 轉運中
+        information_received: 已收到資訊
+        not_found: 未找到
+        out_for_delivery: 正在派送中
+        unknown: 未知
+      today: 今日
+      tomorrow: 明日
     weather:
       title: 天氣
       temperature: 氣溫
@@ -65,153 +65,153 @@ zh-HK:
       tomorrow: 明日
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: 低
+          moderate: 中
+          high: 高
+          very_high: 甚高
+          extreme: 極高
         conditions:
         - code: 1000
-          day: Sunny
-          night: Clear
+          day: 天晴
+          night: 天色良好
         - code: 1003
-          day: Partly Cloudy
-          night: Partly Cloudy
+          day: 部分時間多雲
+          night: 部分時間多雲
         - code: 1006
-          day: Cloudy
-          night: Cloudy
+          day: 多雲
+          night: 多雲
         - code: 1009
-          day: Overcast
-          night: Overcast
+          day: 密雲
+          night: 密雲
         - code: 1030
-          day: Mist
-          night: Mist
+          day: 薄霧
+          night: 薄霧
         - code: 1063
-          day: Light Rain
-          night: Light Rain
+          day: 微雨
+          night: 微雨
         - code: 1066
-          day: Light Snow
-          night: Light Snow
+          day: 微雪
+          night: 微雪
         - code: 1069
-          day: Sleet
-          night: Sleet
+          day: 雨夾雪
+          night: 雨夾雪
         - code: 1072
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: 凍雨
+          night: 凍雨
         - code: 1087
-          day: Thunder
-          night: Thunder
+          day: 雷暴
+          night: 雷暴
         - code: 1114
-          day: Blowing Snow
-          night: Blowing Snow
+          day: 吹雪
+          night: 吹雪
         - code: 1117
-          day: Blizzard
-          night: Blizzard
+          day: 暴風雪
+          night: 暴風雪
         - code: 1135
-          day: Fog
-          night: Fog
+          day: 霧
+          night: 霧
         - code: 1147
-          day: Freezing Fog
-          night: Freezing Fog
+          day: 冰霧
+          night: 冰霧
         - code: 1150
-          day: Light Drizzle
-          night: Light Drizzle
+          day: 毛毛雨
+          night: 毛毛雨
         - code: 1153
-          day: Drizzle
-          night: Drizzle
+          day: 細雨
+          night: 細雨
         - code: 1168
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: 凍毛雨
+          night: 凍毛雨
         - code: 1171
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: 嚴重結冰
+          night: 嚴重結冰
         - code: 1180
-          day: Light Rain
-          night: Light Rain
+          day: 微雨
+          night: 微雨
         - code: 1183
-          day: Light Rain
-          night: Light Rain
+          day: 微雨
+          night: 微雨
         - code: 1186
-          day: Moderate Rain
-          night: Moderate Rain
+          day: 中雨
+          night: 中雨
         - code: 1189
-          day: Moderate Rain
-          night: Moderate Rain
+          day: 中雨
+          night: 中雨
         - code: 1192
-          day: Heavy Rain
-          night: Heavy Rain
+          day: 大雨
+          night: 大雨
         - code: 1195
-          day: Heavy Rain
-          night: Heavy Rain
+          day: 大雨
+          night: 大雨
         - code: 1198
-          day: Light Freeze
-          night: Light Freeze
+          day: 輕微結冰
+          night: 輕微結冰
         - code: 1201
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: 嚴重結冰
+          night: 嚴重結冰
         - code: 1204
-          day: Light Sleet
-          night: Light Sleet
+          day: 微雨夾雪
+          night: 微雨夾雪
         - code: 1207
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: 大雨夾雪
+          night: 大雨夾雪
         - code: 1210
-          day: Light Snow
-          night: Light Snow
+          day: 微雪
+          night: 微雪
         - code: 1213
-          day: Light Snow
-          night: Light Snow
+          day: 微雪
+          night: 微雪
         - code: 1216
-          day: Moderate Snow
-          night: Moderate Snow
+          day: 中雪
+          night: 中雪
         - code: 1219
-          day: Moderate Snow
-          night: Moderate Snow
+          day: 中雪
+          night: 中雪
         - code: 1222
-          day: Heavy Snow
-          night: Heavy Snow
+          day: 大雪
+          night: 大雪
         - code: 1225
-          day: Heavy Snow
-          night: Heavy Snow
+          day: 大雪
+          night: 大雪
         - code: 1237
-          day: Ice Pellets
-          night: Ice Pellets
+          day: 冰珠
+          night: 冰珠
         - code: 1240
-          day: Light Rain
-          night: Light Rain
+          day: 微雨
+          night: 微雨
         - code: 1243
-          day: Heavy Rain
-          night: Heavy Rain
+          day: 大雨
+          night: 大雨
         - code: 1246
-          day: Torrential Rain
-          night: Torrential Rain
+          day: 暴雨
+          night: 暴雨
         - code: 1249
-          day: Light Sleet
-          night: Light Sleet
+          day: 微雨夾雪
+          night: 微雨夾雪
         - code: 1252
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: 大雨夾雪
+          night: 大雨夾雪
         - code: 1255
-          day: Light Snow
-          night: Light Snow
+          day: 微雪
+          night: 微雪
         - code: 1258
-          day: Heavy Snow
-          night: Heavy Snow
+          day: 大雪
+          night: 大雪
         - code: 1261
-          day: Light Ice
-          night: Light Ice
+          day: 微冰
+          night: 微冰
         - code: 1264
-          day: Heavy Ice
-          night: Heavy Ice
+          day: 大冰
+          night: 大冰
         - code: 1273
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: 雷雨
+          night: 雷雨
         - code: 1276
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: 雷雨
+          night: 雷雨
         - code: 1279
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: 雷雪
+          night: 雷雪
         - code: 1282
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: 雷雪
+          night: 雷雪
