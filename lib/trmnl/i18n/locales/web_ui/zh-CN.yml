@@ -338,6 +338,7 @@ zh-CN:
       smart_playlist: 智能播放列表
       smart_playlist_hint: 自动跳过内容长时间未更新的画面。
       skip_after:
+        one: Skip stale screens after 1 day
         other: 跳过超过 %{count} 天未更新的画面
     playlist_item:
       adjust_schedule: 调整定时
@@ -354,7 +355,7 @@ zh-CN:
       error: 删除播放列表错误
       success: 播放列表删除成功
     toggle_visibility:
-      success: 成功%{change}此项  # %{change}: "shown" | "hidden", where is this string defined?
+      success: 成功%{change}此项
     duplicate:
       success: 复制成功
     sort:
@@ -413,8 +414,10 @@ zh-CN:
   plugin_recipes:
     connected: 已连接配方
     connections:
+      one: Connection
       other: 连接
     forks:
+      one: Fork
       other: 分支
     new:
       error: 未找到配方
@@ -487,7 +490,7 @@ zh-CN:
       recipe_visibility_unlisted_hint: 任何拥有链接的人都可以安装。
       refresh_rate: 刷新率
       refresh_rate_hint: 设置插件刷新频率
-      refresh_rate_not_configurable: "%{refresh_rate}同步（不可配置）"  # %{refresh_rate}: "{{ every }} %d {{ mins }}"
+      refresh_rate_not_configurable: "%{refresh_rate}同步（不可配置）"
       refreshed: 已刷新
       remove_plugin: 移除插件
       remove_plugin_hint: 移除插件的同时也会将其从播放列表中删除
