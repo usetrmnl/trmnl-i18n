@@ -65,6 +65,7 @@ raw:
   privacy: privacy
   refresh_rates_hint: refresh_rates_hint __here__.
   reset_password: reset_password
+  required: required
   save: save
   shown: shown
   section: section
@@ -171,9 +172,11 @@ raw:
       accepts_beta_firmware: devices.edit.accepts_beta_firmware
       accepts_beta_firmware_hint: devices.edit.accepts_beta_firmware_hint
       back_to_devices: devices.edit.back_to_devices
+      battery_and_sleep: devices.edit.battery_and_sleep
       battery_consumption: devices.edit.battery_consumption
       battery_consumption_hint: devices.edit.battery_consumption_hint
       battery_learn_more: devices.edit.battery_learn_more
+      battery_refresh: devices.edit.battery_refresh
       developer_perks: devices.edit.developer_perks
       developer_perks_hint: devices.edit.developer_perks_hint
       device_credentials: devices.edit.device_credentials
@@ -184,6 +187,9 @@ raw:
       device_model_hint: devices.edit.device_model_hint
       device_model_switch_warning: devices.edit.device_model_switch_warning
       edit_device: devices.edit.edit_device
+      firmware: devices.edit.firmware
+      firmware_updates_enabled: devices.edit.firmware_updates_enabled
+      firmware_updates_disabled: devices.edit.firmware_updates_disabled
       guest_mode: devices.edit.guest_mode
       guest_mode_hint: devices.edit.guest_mode_hint
       guest_mode_item_placeholder: devices.edit.guest_mode_item_placeholder
@@ -198,6 +204,8 @@ raw:
       mirror: devices.edit.mirror
       mirror_device: devices.edit.mirror_device
       mirror_device_hint: devices.edit.mirror_device_hint
+      mirror_disabled: devices.edit.mirror_disabled
+      mirror_enabled: devices.edit.mirror_enabled
       mirror_stop: devices.edit.mirror_stop
       mirror_sync: devices.edit.mirror_sync
       ota_enabled: devices.edit.ota_enabled
@@ -215,6 +223,11 @@ raw:
       special_function_learn_more: devices.edit.special_function_learn_more
       temperature_profile: devices.edit.temperature_profile
       temperature_profile_hint: devices.edit.temperature_profile_hint
+      tidbyt_credentials: devices.edit.tidbyt_credentials
+      tidbyt_credentials_hint: devices.edit.tidbyt_credentials_hint
+      tidbyt_credentials_invalid: devices.edit.tidbyt_credentials_invalid
+      tidbyt_device_id: devices.edit.tidbyt_device_id
+      tidbyt_device_api_key: devices.edit.tidbyt_device_api_key
       unlink: devices.edit.unlink
       unlink_confirm: devices.edit.unlink_confirm
       unlink_device: devices.edit.unlink_device
@@ -244,6 +257,9 @@ raw:
     dissociate:
       error: devices.dissociate.error
       success: devices.dissociate.success
+    external_credentials:
+      error: devices.external_credentials.error
+      success: devices.external_credentials.success
     identify:
       error: devices.identify.error
       success: devices.identify.success

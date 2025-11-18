@@ -65,6 +65,7 @@ is:
   privacy: Privacy
   refresh_rates_hint: Lestu um uppfærslutíðni __hér__.
   reset_password: Endurstilla lykilorð
+  required: Required
   save: Vista
   shown: shown
   section: Hluti
@@ -171,9 +172,11 @@ is:
       accepts_beta_firmware: Snemmútgáfa fastbúnaðar
       accepts_beta_firmware_hint: Kveiktu á þessu til að fá nýjustu fastbúnaðaruppfærslur á undan öðrum.
       back_to_devices: Til baka í tæki
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Rafhlöðunotkun
       battery_consumption_hint: Sparaðu orku og lengdu rafhlöðuendingu með því að virkja svefnham.
       battery_learn_more: Lestu meira um hleðslu rafhlöðu __hér__.
+      battery_refresh: Refresh
       developer_perks: Forritaraeiginleikar
       developer_perks_hint: Valkostir hér að neðan krefjast __forritaraviðbótar__.
       device_credentials: Auðkenni tækis
@@ -184,6 +187,9 @@ is:
       device_model_hint: Gerð vélbúnaðarins þíns
       device_model_switch_warning: Þetta er hættuleg aðgerð, lestu meira __hér__
       edit_device: Breyta tæki
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Gestahamur
       guest_mode_hint: Veldu hvað á að birta (og hversu lengi) þegar gestahamur er virkjaður.
       guest_mode_item_placeholder: Veldu atriði
@@ -198,6 +204,8 @@ is:
       mirror: Spegla
       mirror_device: Spegla annað tæki
       mirror_device_hint: Sláðu inn deilanlegt tækis ID til að spegla spilunarlista þess. Þinn listi birtist áfram.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Hætta að spegla
       mirror_sync: Samstilla skjái
       ota_enabled: OTA uppfærslur virkar
@@ -215,6 +223,11 @@ is:
       special_function_learn_more: Lestu meira um sérstök hlutverk __hér__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Aftengja
       unlink_confirm: Ertu viss? Þetta eyðir öllum viðbótarstillingum og spilunarlistum svo tækið geti verið tengt við annan aðgang.
       unlink_device: Aftengja tæki
@@ -244,6 +257,9 @@ is:
     dissociate:
       error: Villa við að aftengja tæki
       success: Tæki aftengt
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Villa við að uppfæra tæki
       success: Beiðni um auðkenningu send

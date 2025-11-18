@@ -65,6 +65,7 @@ zh-CN:
   privacy: Privacy
   refresh_rates_hint: 点击 __此处__ 了解刷新频次。
   reset_password: 重置密码
+  required: Required
   save: 保存
   shown: shown
   section: 分区
@@ -171,9 +172,11 @@ zh-CN:
       accepts_beta_firmware: beta测试固件
       accepts_beta_firmware_hint: 打开以提前使用最新固件
       back_to_devices: 返回设备列表
+      battery_and_sleep: Battery & Sleep
       battery_consumption: 电池消耗
       battery_consumption_hint: 在晚上10点到早上8点之间启用睡眠模式，节省电量并延长电池寿命。
       battery_learn_more: __点击此处__了解更多关于充电的信息。
+      battery_refresh: Refresh
       developer_perks: 开发者选项
       developer_perks_hint: 下列选项需要__开发者选项__
       device_credentials: 设备密码
@@ -184,6 +187,9 @@ zh-CN:
       device_model_hint: 您的设备型号
       device_model_switch_warning: 这是一个危险操作，__了解详情__。
       edit_device: 修改设备
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: 访客模式
       guest_mode_hint: 设置访客模式下显示的内容与时长。
       guest_mode_item_placeholder: 选择项目
@@ -198,6 +204,8 @@ zh-CN:
       mirror: 镜像
       mirror_device: 镜像其他设备
       mirror_device_hint: 生成一个设备ID，用于镜像播放列表
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: 取消镜像
       mirror_sync: 同步画面
       ota_enabled: 启用OTA更新
@@ -215,6 +223,11 @@ zh-CN:
       special_function_learn_more: 点击__此处__以了解更多
       temperature_profile: 温度曲线
       temperature_profile_hint: 除非另有指示，否则请勿更改。适用于显示画面褪色情况。
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: 解绑
       unlink_confirm: 您确定吗？此操作将删除所有基础插件设置和播放列表项目，以便该设备可添加至其他账户。
       unlink_device: 解绑设备
@@ -244,6 +257,9 @@ zh-CN:
     dissociate:
       error: 设备解绑错误
       success: 设备解绑成功
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: 设备识别请求错误
       success: 设备识别请求成功

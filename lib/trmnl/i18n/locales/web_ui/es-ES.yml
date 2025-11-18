@@ -65,6 +65,7 @@ es-ES:
   privacy: Privacy
   refresh_rates_hint: Aprende cómo funcionan las tasas de refresco __aquí__.
   reset_password: Restablecer mi contraseña
+  required: Required
   save: Guardar
   shown: shown
   section: Sección
@@ -171,9 +172,11 @@ es-ES:
       accepts_beta_firmware: Firmware de versión de pruebas
       accepts_beta_firmware_hint: Activa para obtener las últimas mejoras de firmware del dispositivo antes que otros usuarios.
       back_to_devices: Volver a Dispositivos
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Consumo de Batería
       battery_consumption_hint: Ahorra energía y mejora el uso de batería habilitando el Modo de Suspensión.
       battery_learn_more: Aprende más sobre la carga de la __aquí__.
+      battery_refresh: Refresh
       developer_perks: Ventajas para Desarrolladores
       developer_perks_hint: Las opciones a continuación requieren el __plugin de Desarrolladores__.
       device_credentials: Credenciales del dispositivo
@@ -184,6 +187,9 @@ es-ES:
       device_model_hint: Tu modelo de hardware
       device_model_switch_warning: Esta es una operación peligrosa, aprende más __aquí__
       edit_device: Editar Dispositivo
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Modo Invitado
       guest_mode_hint: Elige qué mostrar (y por cuánto tiempo) cuando el modo invitado esté activado.
       guest_mode_item_placeholder: Elige un elemento
@@ -198,6 +204,8 @@ es-ES:
       mirror: Modo espejo
       mirror_device: Espejar otro Dispositivo
       mirror_device_hint: Proporciona un ID de dispositivo (compartible) para espejar su lista de reproducción. Tu lista seguirá mostrándose.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Desconectar modo espejo
       mirror_sync: Sincronizar pantallas
       ota_enabled: Actualizaciones OTA Habilitadas
@@ -215,6 +223,11 @@ es-ES:
       special_function_learn_more: Aprende más sobre funciones especiales __aquí__.
       temperature_profile: Perfil de Temperatura
       temperature_profile_hint: No cambiar a menos que se indique. Para pantallas con imágenes descoloridas.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Desvincular
       unlink_confirm: "¿Estás seguro? Esto borrará todos las configuraciones de los plugins y los elementos de la lista de reproducción, para que el dispositivo pueda ser añadido a otra cuenta."
       unlink_device: Desvincular Dispositivo
@@ -244,6 +257,9 @@ es-ES:
     dissociate:
       error: Error al desconectar el dispositivo
       success: Dispositivo desvinculado correctamente
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Error al actualizar el dispositivo
       success: Identificación del dispositivo solicitada
