@@ -65,6 +65,7 @@ ko:
   privacy: Privacy
   refresh_rates_hint: 리프레시률이 어떻게 작용되는지 알아보려면 __여기__를 누르세요.
   reset_password: 비밀번호 재설정
+  required: Required
   save: 저장
   shown: shown
   section: 섹션
@@ -171,9 +172,11 @@ ko:
       accepts_beta_firmware: 새로 출시된 펌웨어
       accepts_beta_firmware_hint: 다른 사용자들보다 먼저 새로 나온 디바이스 펌웨어를 사용하려면 버튼을 눌러주세요.
       back_to_devices: 기기 관리 화면으로 돌아가기
+      battery_and_sleep: Battery & Sleep
       battery_consumption: 배터리 소모
       battery_consumption_hint: 기기 절전 모드 설정을 하시면 더 오랫동안 배터리 수명을 유지할 수 있습니다.
       battery_learn_more: Learn more about battery charging __here__.
+      battery_refresh: Refresh
       developer_perks: 개발자 버전 특혜
       developer_perks_hint: 아래는 __개발자 옵션을 추가한 경우__ 사용 가능합니다.
       device_credentials: 기기 정보
@@ -184,6 +187,9 @@ ko:
       device_model_hint: 당신의 하드웨어 디바이스 모델
       device_model_switch_warning: 이 작업은 위험합니다. 더 알아보려면 __여기__를 누르세요.
       edit_device: 기기 수정
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: 게스트 모드
       guest_mode_hint: 게스트 모드로 전환될 때 무엇을 화면에 띄우고 얼마나 오래 띄울지 고르세요.
       guest_mode_item_placeholder: 아이템을 고르세요
@@ -198,6 +204,8 @@ ko:
       mirror: 거울모드
       mirror_device: 다른 기기에 거울모드
       mirror_device_hint: 같은 플레이리스트를 띄우려면 (공유가능) 기기 ID를 알려주세요. 당신의 플레이리스트는 변함없이 보여질 것입니다.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: 미러링 연결 끊기
       mirror_sync: 스크린 싱크하기
       ota_enabled: OTA 업데이트 활성화됨
@@ -215,6 +223,11 @@ ko:
       special_function_learn_more: __여기__를 눌러 특별 기능에 대해 더 알아보세요.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: 연결 해지
       unlink_confirm: 확실하신가요? 디바이스가 새로운 계정에 추가될 수 있도록 모든 플러그인 세팅과 플레이리스트 아이템이 삭제될 것 입니다.
       unlink_device: 기기 연결 해지하기
@@ -244,6 +257,9 @@ ko:
     dissociate:
       error: 기기 연결 해지 오류
       success: 기기가 성공적으로 연결 해지되었습니다
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: 기기 업데이트 오류
       success: 기기 확인이 요청되었습니다

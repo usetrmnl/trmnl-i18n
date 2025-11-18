@@ -65,6 +65,7 @@ zh-HK:
   privacy: 私隱
   refresh_rates_hint: __按此__了解重新整理頻率如何運作。
   reset_password: 重設密碼
+  required: Required
   save: 儲存
   shown: 顯示
   section: 章節
@@ -171,9 +172,11 @@ zh-HK:
       accepts_beta_firmware: 韌體搶先發佈
       accepts_beta_firmware_hint: 啟用設定後，你會在其他用戶之前取得最新的硬件韌體改進。
       back_to_devices: 返回裝置
+      battery_and_sleep: Battery & Sleep
       battery_consumption: 電池消耗
       battery_consumption_hint: 啟用「睡眠模式」可節省電量，並延長電池續航時間。
       battery_learn_more: __按此__了解更多關於電池充電的資訊。
+      battery_refresh: Refresh
       developer_perks: 開發者福利
       developer_perks_hint: 以下選項需要購買「__開發者版本__」。
       device_credentials: 裝置認證
@@ -184,6 +187,9 @@ zh-HK:
       device_model_hint: 你的硬件型號
       device_model_switch_warning: 這是危險的操作，__按此__了解更多
       edit_device: 編輯裝置
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: 訪客模式
       guest_mode_hint: 選擇訪客模式啟用時顯示的畫面（以及顯示多久）。
       guest_mode_item_placeholder: 選擇項目
@@ -198,6 +204,8 @@ zh-HK:
       mirror: 鏡像共享
       mirror_device: 鏡像共享另一部裝置
       mirror_device_hint: 輸入可共享(shareable)裝置的ID，以鏡像共享其播放清單。你的播放清單仍然會顯示。
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: 停用鏡像共享
       mirror_sync: 同步畫面
       ota_enabled: 啟用自動更新
@@ -215,6 +223,11 @@ zh-HK:
       special_function_learn_more: __按此__了解特別功能。
       temperature_profile: 色溫設定檔
       temperature_profile_hint: 除非獲得指示，否則請勿更改。適用於影像顯示褪色的螢幕。
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: 取消連結
       unlink_confirm: 確定要取消連結嗎？這會刪除所有相關的外掛設定及播放清單項目，並允許將裝置新增至另一個帳戶。
       unlink_device: 取消連結裝置
@@ -244,6 +257,9 @@ zh-HK:
     dissociate:
       error: 中斷連接裝置時發生錯誤
       success: 成功中斷連接裝置
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: 更新裝置時發生錯誤
       success: 已發出裝置識別訊息

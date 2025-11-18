@@ -65,6 +65,7 @@ ru:
   privacy: Privacy
   refresh_rates_hint: Узнайте, как работает частота обновления __здесь__.
   reset_password: Сбросить мой пароль
+  required: Required
   save: Сохранить
   shown: shown
   section: Раздел
@@ -171,9 +172,11 @@ ru:
       accepts_beta_firmware: Ранний доступ к прошивке
       accepts_beta_firmware_hint: Включите, чтобы получать последние улучшения прошивки устройства раньше других пользователей.
       back_to_devices: Назад к устройствам
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Потребление батареи
       battery_consumption_hint: Сэкономьте энергию и продлите время работы батареи, включив спящий режим.
       battery_learn_more: Узнайте больше о зарядке батареи __здесь__.
+      battery_refresh: Refresh
       developer_perks: Преимущества для разработчиков
       developer_perks_hint: Для следующих опций требуется __дополнение для разработчиков__.
       device_credentials: Учётные данные устройства
@@ -184,6 +187,9 @@ ru:
       device_model_hint: Ваша аппаратная модель
       device_model_switch_warning: Это опасная операция, узнайте больше __здесь__
       edit_device: Редактировать устройство
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Гостевой режим
       guest_mode_hint: Выберите, что отображать (и на какой срок) при включении гостевого режима.
       guest_mode_item_placeholder: Выберите элемент
@@ -198,6 +204,8 @@ ru:
       mirror: Зеркалирование
       mirror_device: Зеркалировать другое устройство
       mirror_device_hint: Укажите (общий) идентификатор устройства для зеркалирования его плейлиста. Ваш плейлист по-прежнему будет отображаться.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Отключить зеркалирование
       mirror_sync: Синхронизировать экраны
       ota_enabled: Обновления OTA включены
@@ -215,6 +223,11 @@ ru:
       special_function_learn_more: Узнайте больше о специальных функциях __здесь__.
       temperature_profile: Температурный профиль
       temperature_profile_hint: Не изменяйте, если не указано иное. Для дисплеев с выцветшими изображениями.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Отвязать
       unlink_confirm: Вы уверены? Это приведет к удалению всех основных настроек плагинов и элементов плейлиста, чтобы устройство можно было добавить в другую учётную запись.
       unlink_device: Отвязать устройство
@@ -244,6 +257,9 @@ ru:
     dissociate:
       error: Ошибка отключения устройства
       success: Устройство успешно отвязано
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Ошибка обновления устройства
       success: Запрошена идентификация устройства

@@ -65,6 +65,7 @@ ja:
   privacy: Privacy
   refresh_rates_hint: リフレッシュレートの仕組みについては__こちら__をご覧ください。
   reset_password: パスワードをリセット
+  required: Required
   save: 保存
   shown: shown
   section: セクション
@@ -171,9 +172,11 @@ ja:
       accepts_beta_firmware: 新しいファームウェアを受け入れる
       accepts_beta_firmware_hint: 通常のユーザーよりも早く新しいデバイスファームウェアを使用するには、ボタンを押してください。
       back_to_devices: デバイス管理画面に戻る
+      battery_and_sleep: Battery & Sleep
       battery_consumption: バッテリー消費
       battery_consumption_hint: デバイスをスリープ モードにすると、バッテリー寿命を延ばすことができます
       battery_learn_more: Learn more about battery charging __here__.
+      battery_refresh: Refresh
       developer_perks: 開発者向け特典
       developer_perks_hint: 以下は、__開発者オプション__を追加した場合に利用可能です。
       device_credentials: デバイス認証情報
@@ -184,6 +187,9 @@ ja:
       device_model_hint: Your hardware Model
       device_model_switch_warning: This is a dangerous operation, learn more __here__
       edit_device: デバイスを編集
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -198,6 +204,8 @@ ja:
       mirror: ミラーモード
       mirror_device: 他のデバイスにミラーモードを適用する
       mirror_device_hint: 同じプレイリストを表示するには（共有可能）デバイスIDをお知らせください。あなたのプレイリストは変更なく表示されます。
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Disconnect Mirroring
       mirror_sync: Sync Screens
       ota_enabled: OTAアップデート有効
@@ -215,6 +223,11 @@ ja:
       special_function_learn_more: 特別機能について詳しくは__こちら__をクリックしてください。
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: 接続解除
       unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
       unlink_device: デバイス接続を解除する
@@ -244,6 +257,9 @@ ja:
     dissociate:
       error: デバイス接続解除エラー
       success: デバイスの接続が正常に解除されました
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: デバイス更新エラー
       success: デバイスの確認が要求されました
