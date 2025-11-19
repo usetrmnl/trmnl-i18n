@@ -41,6 +41,7 @@ hu:
   forgot_password_title: Semmi gond, megoldjuk!
   friendly_id: Friendly ID
   get_started: Kezdjük el!
+  hidden: hidden
   identify: Azonosítás
   import: Importálás
   import_new: Új importálása
@@ -60,10 +61,13 @@ hu:
   password: Jelszó
   please_wait: Kérlek, várj...
   plugin_not_found: A bővítmény nem található
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: Itt megtudhatod, hogyan működnek a frissítési gyakoriságok __itt__.
   reset_password: Jelszó visszaállítása
+  required: Required
   save: Mentés
+  shown: shown
   section: Szakasz
   settings: Beállítások
   sign_in: Bejelentkezés
@@ -168,9 +172,11 @@ hu:
       accepts_beta_firmware: Korai firmware kiadás
       accepts_beta_firmware_hint: Kapcsold be, hogy a legújabb firmware-fejlesztéseket a többiek előtt megkapd.
       back_to_devices: Vissza az eszközökhöz
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Akkumulátorhasználat
       battery_consumption_hint: Spórolj energiát és élvezd a hosszabb üzemidőt az alvó mód bekapcsolásával.
       battery_learn_more: Tudj meg többet az akkumulátortöltésről __itt__.
+      battery_refresh: Refresh
       developer_perks: Fejlesztői extrák
       developer_perks_hint: Az alábbi opciók használatához a __Fejlesztői bővítmény__ szükséges.
       device_credentials: Eszköz hitelesítő adatok
@@ -181,6 +187,9 @@ hu:
       device_model_hint: A hardvered típusa
       device_model_switch_warning: Ez veszélyes művelet, tudj meg róla többet __itt__.
       edit_device: Eszköz szerkesztése
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Vendég mód
       guest_mode_hint: Válaszd ki, mit (és mennyi ideig) jelenítsen meg az eszköz, amikor a vendég mód be van kapcsolva.
       guest_mode_item_placeholder: Válassz egy elemet
@@ -195,6 +204,8 @@ hu:
       mirror: Tükrözés
       mirror_device: Másik eszköz tükrözése
       mirror_device_hint: Adj meg egy megosztható eszközazonosítót, hogy tükrözd annak lejátszási listáját. A saját listád továbbra is megjelenik.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Tükrözés leállítása
       mirror_sync: Képernyők szinkronizálása
       ota_enabled: OTA frissítések engedélyezve
@@ -212,6 +223,11 @@ hu:
       special_function_learn_more: Tudj meg többet a különleges funkciókról __itt__.
       temperature_profile: Hőmérsékleti profil
       temperature_profile_hint: Ne módosítsd, hacsak nem utasítottak rá. Kifehéredett kijelzők esetén hasznos.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Leválasztás
       unlink_confirm: Biztos vagy benne? Ez törli az összes kapcsolódó bővítménybeállítást és lejátszási listát, hogy az eszközt másik fiókhoz lehessen adni.
       unlink_device: Eszköz leválasztása
@@ -241,6 +257,9 @@ hu:
     dissociate:
       error: Hiba az eszköz leválasztása közben
       success: Az eszköz sikeresen leválasztva
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Hiba az eszköz frissítésekor
       success: Eszközazonosítási kérés elküldve
@@ -449,9 +468,13 @@ hu:
       learn_more: Tudj meg többet erről a bővítményről a tudásbázisunkban
       learn_more_fork: Ez a bővítmény egy receptből lett létrehozva.
       learn_more_fork_original: Eredeti megtekintése
+      learn_more_native_long: This plugin is native and maintained by TRMNL.
+      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Segítségre van szükséged? Lépj kapcsolatba %{recipe_author}-ral Discordon.
       learn_more_recipe_long: Ez a bővítmény egy közösségi recept, amelyet nem a TRMNL tart karban.
       learn_more_recipe_short: 'Megjegyzés: ez a bővítmény egy recept.'
+      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Összekapcsolt fiók
       linked_account_success: 'Sikeres összekapcsolás a következővel: %{plugin_name}'
       link_oauth: Fiók összekapcsolása

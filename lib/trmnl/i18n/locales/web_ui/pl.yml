@@ -41,6 +41,7 @@ pl:
   forgot_password_title: Utwórz nowe hasło
   friendly_id: Przyjazne ID
   get_started: No to zaczynamy!
+  hidden: hidden
   identify: Identyfikuj
   import: Importuj
   import_new: Importuj nowe
@@ -60,10 +61,13 @@ pl:
   password: Hasło
   please_wait: Proszę czekać...
   plugin_not_found: Nie znaleziono pluginu
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: __Tutaj__ dowiesz się więcej o częstotliwościach odświeżania.
   reset_password: Zresetuj hasło
+  required: Required
   save: Zapisz
+  shown: shown
   section: Sekcja
   settings: Ustawienia
   sign_in: Zaloguj się
@@ -168,9 +172,11 @@ pl:
       accepts_beta_firmware: Firmware - wczesny dostęp
       accepts_beta_firmware_hint: Włącz, aby uzyskać najnowsze oprogramowanie układowe przed innymi użytkownikami.
       back_to_devices: Wróć do przeglądu urządzeń
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Zużycie baterii
       battery_consumption_hint: Oszczędzaj energię i ciesz się dłuższym działaniem dzięki Trybowi Uśpienia.
       battery_learn_more: Informacje o ładowaniu baterii znajdziesz __tutaj__.
+      battery_refresh: Refresh
       developer_perks: Opcje dla programistów
       developer_perks_hint: Poniższe ustawienia wymagają __Edycji deweloperskiej__.
       device_credentials: Poświadczenia urządzenia
@@ -181,6 +187,9 @@ pl:
       device_model_hint: Twoja wersja sprzętu
       device_model_switch_warning: Zmiana jest obarczona ryzykiem. Przeczytaj więcej __tutaj__
       edit_device: Edytuj urządzenie
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Tryb gościa
       guest_mode_hint: Wybierz co ma być wyświetlane (i przez jaki czas), kiedy tryb gościa jest włączony.
       guest_mode_item_placeholder: Wybierz element
@@ -195,6 +204,8 @@ pl:
       mirror: Kopia lustrzana
       mirror_device: Odzwierciedla zachowanie innego urządzenia
       mirror_device_hint: Podaj identyfikator (ID) innego urządzenia, aby wyświetlać tę samą playlistę. Twoja playlista nadal będzie wyświetlana.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Wyłącz kopię lustrzaną
       mirror_sync: Synchronizuj wyświetlacze
       ota_enabled: Aktualizacje OTA włączone
@@ -212,6 +223,11 @@ pl:
       special_function_learn_more: Szczegółowe informacje znajdziesz __tutaj__.
       temperature_profile: Profil temperaturowy
       temperature_profile_hint: Nie należy zmieniać we własnym zakresie. Przeznaczone dla ekranów wyświetlających wyblakłe obrazy.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Odłącz
       unlink_confirm: Czy na pewno chcesz to zrobić? To usunie wszystkie ustawienia pluginów i elementy playlist. Umożliwi to dołączenie urządzenia do innego konta.
       unlink_device: Odłącz urządzenie
@@ -241,6 +257,9 @@ pl:
     dissociate:
       error: Błąd przy odłączaniu urządzenia
       success: Pomyślnie odłączono urządzenie
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Błąd podczas aktualizacji urządzenia
       success: Wysłano żądanie identyfikacji urządzenia
@@ -451,9 +470,13 @@ pl:
       learn_more: Dowiedz się więcej o tym pluginie z naszej bazy wiedzy
       learn_more_fork: Ten plugin jest forkiem Receptury.
       learn_more_fork_original: Zobacz oryginał
+      learn_more_native_long: This plugin is native and maintained by TRMNL.
+      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Potrzebujesz pomocy? Skontaktuj się z %{recipe_author} na Discordzie.
       learn_more_recipe_long: Ten plugin jest Recepturą społecznościową i nie jest utrzymywany przez TRMNL.
       learn_more_recipe_short: 'Uwaga: ten plugin jest Recepturą.'
+      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Konto połączone
       linked_account_success: Pomyślnie połączono z %{plugin_name}
       link_oauth: Połącz konto

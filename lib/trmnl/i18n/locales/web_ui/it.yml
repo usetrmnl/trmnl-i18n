@@ -41,6 +41,7 @@ it:
   forgot_password_title: Ci risiamo
   friendly_id: Friendly ID
   get_started: Iniziamo!
+  hidden: hidden
   identify: Identifica
   import: Importa
   import_new: Importa nuovo
@@ -60,10 +61,13 @@ it:
   password: Password
   please_wait: Attendi...
   plugin_not_found: Plugin non trovato
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: Scopri come i gli aggiornamenti fuzionano __qui__.
   reset_password: Reimposta password
+  required: Required
   save: Salva
+  shown: shown
   section: Sezione
   settings: Settings
   sign_in: Accedi
@@ -168,9 +172,11 @@ it:
       accepts_beta_firmware: Firmware Accesso Anticipato
       accepts_beta_firmware_hint: Attiva per riceve gli aggiornamenti del firmware più recenti prima degli degli altri utenti.
       back_to_devices: Torna a Dispositivi
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Consumo Batteria
       battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo.
       battery_learn_more: Learn more about battery charging __here__.
+      battery_refresh: Refresh
       developer_perks: Modalità Sviluppatore
       developer_perks_hint: Queste opzioni richiedono la __Modalità Sviluppatore__.
       device_credentials: Credenziali Dispositivo
@@ -181,6 +187,9 @@ it:
       device_model_hint: Il tuo modello di Hardware
       device_model_switch_warning: Questa è un operazione pericolosa, scopri di più __qui__
       edit_device: Modifica Dispositivo
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -195,6 +204,8 @@ it:
       mirror: Duplica
       mirror_device: Duplica un altro Dispositivo
       mirror_device_hint: Indica un ID Dispositivo (condivisibile) per duplicare la sua playlist. La tua playlist rimarrà visibile.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Disconnetti Mirroring
       mirror_sync: Sinctronizza Schermi
       ota_enabled: Abilita aggiornamenti OTA
@@ -212,6 +223,11 @@ it:
       special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Scollega
       unlink_confirm: Sei sicuro? Verranno eliminate tutte le impostazioni dei plugin e gli oggetti nelle playlist per permettere di aggiungere questo dispositivi ad un altro account.
       unlink_device: Scollega Dispositivo
@@ -241,6 +257,9 @@ it:
     dissociate:
       error: Errore nella disconnessione del dispositivo
       success: Dispositivo scollegato con successo
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Errore nell'aggiornamento del dispositivo
       success: Richiesta identificazione del dispositivo
@@ -451,9 +470,13 @@ it:
       learn_more: Maggiori informazioni su questo plugin sono nella nostra knowledge base
       learn_more_fork: Questo plugin è un fork di una Recipe.
       learn_more_fork_original: Mostra Originale
+      learn_more_native_long: This plugin is native and maintained by TRMNL.
+      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Hai bisogno di aiuto? Contatta %{recipe_author} su Discord.
       learn_more_recipe_long: Questi plugin è una Recipe della comunità e non viene manutenuta da TRMNL.
       learn_more_recipe_short: 'Note: questo plugin è una Recipe'
+      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Account Connesso
       linked_account_success: Connesso correttamente con %{plugin_name}
       link_oauth: Collega Profilo

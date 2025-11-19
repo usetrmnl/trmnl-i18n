@@ -41,6 +41,7 @@ de-AT:
   forgot_password_title: Neues Passwort vergeben
   friendly_id: Friendly ID
   get_started: Lass uns loslegen!
+  hidden: hidden
   identify: Identifizieren
   import: Importieren
   import_new: Neu importieren
@@ -60,10 +61,13 @@ de-AT:
   password: Passwort
   please_wait: Bitte warten …
   plugin_not_found: Erweiterung nicht gefunden
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: Weitere Informationen zur Aktualisierungsrate __hier__.
   reset_password: Passwort zurücksetzen
+  required: Required
   save: Speichern
+  shown: shown
   section: Abschnitt
   settings: Einstellungen
   sign_in: Anmelden
@@ -168,9 +172,11 @@ de-AT:
       accepts_beta_firmware: Beta-Firmware
       accepts_beta_firmware_hint: Aktiviere diese Option, um vor anderen Benutzern die neuesten Firmware-Updates für das Gerät zu erhalten.
       back_to_devices: Zurück zur Geräteübersicht
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Batterieverbrauch
       battery_consumption_hint: Spare Strom und verlängere die Laufzeit durch Aktivierung des Schlafmodus.
       battery_learn_more: Erfahre __hier__ mehr über den Ladevorgang.
+      battery_refresh: Refresh
       developer_perks: Nur für Entwickler
       developer_perks_hint: Für die folgenden Optionen ist das __Entwickler-Add-on__ erforderlich.
       device_credentials: Geräteinformationen
@@ -181,6 +187,9 @@ de-AT:
       device_model_hint: Dein Hardware-Modell
       device_model_switch_warning: Diese Aktion kann gefährlich sein, erfahre __hier__ mehr darüber
       edit_device: Gerät bearbeiten
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Gästemodus
       guest_mode_hint: Was soll angezeigt werden (und wie lange), wenn der Gästemodus eingeschaltet wurde.
       guest_mode_item_placeholder: Eintrag auswählen
@@ -195,6 +204,8 @@ de-AT:
       mirror: Spiegeln
       mirror_device: Gespiegeltes Gerät
       mirror_device_hint: Kennung des geteilten Gerätes, um dessen Wiedergabeliste zu teilen. Die eigene Wiedergabeliste wird weiterhin angezeigt.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Spiegelung trennen
       mirror_sync: Bildschirme synchronisieren
       ota_enabled: OTA-Updates aktiviert
@@ -212,6 +223,11 @@ de-AT:
       special_function_learn_more: Erfahre mehr zu den Sonderfunktionen __hier__.
       temperature_profile: Temperaturprofil
       temperature_profile_hint: Nur ändern, wenn du dazu aufgefordert wirst. Für Displays mit zu blasser Darstellung.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Entkoppeln
       unlink_confirm: Bist du sicher? Hiermit werden alle Erweiterungseinstellungen und Einträge der Wiedergabeliste gelöscht, um das Gerät einem anderen Konto zuzuordnen.
       unlink_device: Gerät entkoppeln
@@ -241,6 +257,9 @@ de-AT:
     dissociate:
       error: Fehler beim Trennen des Gerätes
       success: Gerät erfolgreich getrennt
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Fehler beim Identifizieren des Gerätes
       success: Geräteidentifizierung angefordert
@@ -451,9 +470,13 @@ de-AT:
       learn_more: Mehr Informationen zur Erweiterung in unserer Wissensdatenbank
       learn_more_fork: Diese Erweiterung ist von einer Blaupause geforkt worden.
       learn_more_fork_original: Original aufrufen
+      learn_more_native_long: This plugin is native and maintained by TRMNL.
+      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Hilfe benötigt? Kontaktiere %{recipe_author} auf Discord.
       learn_more_recipe_long: Diese Erweiterung stammt von der Community und wird nicht von TRMNL gewartet.
       learn_more_recipe_short: 'Hinweis: Diese Erweiterung ist eine Blaupause.'
+      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Verbundener Account
       linked_account_success: Erfolgreich verbunden mit %{plugin_name}
       link_oauth: Konto verknüpfen

@@ -41,6 +41,7 @@ en-GB:
   forgot_password_title: Here we go again
   friendly_id: Friendly ID
   get_started: Let's get you started!
+  hidden: hidden
   identify: Identify
   import: Import
   import_new: Import new
@@ -60,10 +61,13 @@ en-GB:
   password: Password
   please_wait: Please Wait...
   plugin_not_found: Plugin not found
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Reset my password
+  required: Required
   save: Save
+  shown: shown
   section: Section
   settings: Settings
   sign_in: Sign in
@@ -168,9 +172,11 @@ en-GB:
       accepts_beta_firmware: Firmware Early Release
       accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Back to Devices
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Battery Consumption
       battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
       battery_learn_more: Learn more about battery charging __here__.
+      battery_refresh: Refresh
       developer_perks: Developer Perks
       developer_perks_hint: Options below require the __Developer add-on__.
       device_credentials: Device Credentials
@@ -181,6 +187,9 @@ en-GB:
       device_model_hint: Your hardware Model
       device_model_switch_warning: This is a dangerous operation, learn more __here__
       edit_device: Edit Device
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -195,6 +204,8 @@ en-GB:
       mirror: Mirror
       mirror_device: Mirror another Device
       mirror_device_hint: Provide a (shareable) Device ID to mirror its playlist. Your playlist will still be displayed.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Disconnect Mirroring
       mirror_sync: Sync Screens
       ota_enabled: OTA Updates Enabled
@@ -212,6 +223,11 @@ en-GB:
       special_function_learn_more: Learn more about special functions __here__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Unlink
       unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
       unlink_device: Unlink Device
@@ -241,6 +257,9 @@ en-GB:
     dissociate:
       error: Error disconnecting device
       success: Device successfully unlinked
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Error updating device
       success: Device identification requested
@@ -325,8 +344,8 @@ en-GB:
       add_a_group: Add a Group
       add_a_plugin: Add a Plugin
       add_first_device_cta: Start by __adding__ your first TRMNL device!
-      add_to_playlist: Add to Playlist
-      create_first_playlist_cta: Create your playlist after __connecting__ your first plugin!
+      add_to_playlist: Add to playlist
+      create_first_playlist_cta: Create your Playlist after __connecting__ your first plugin!
       custom: Custom
       device_default: Device default
       display_period_from: Display from
@@ -348,11 +367,11 @@ en-GB:
       hide_playlist: Hide this item
       show_playlist: Show this item
     create:
-      error: Failed to update playlist
+      error: Failed to update Playlist
       success: Playlist updated
     destroy:
       error: Error removing item from playlist
-      success: Plugin removed from Playlist
+      success: Plugin removed from playlist
     toggle_visibility:
       success: Playlist item %{change}
     duplicate:
@@ -360,7 +379,7 @@ en-GB:
     sort:
       success: Playlist order updated
     set_preferences:
-      success: Smart playlist preference updated
+      success: Smart Playlist preference updated
   plugins:
     index:
       title: Plugins
@@ -422,7 +441,7 @@ en-GB:
     active: Active
     copy_are_you_sure: Are you sure you want to copy this setting?
     delete_are_you_sure: Are you sure you want to delete this setting?
-    delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
+    delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your playlist instead.
     inactive: Inactive
     no_plugin_settings_found: No plugin settings found.
     not_supported: Not supported on current device
@@ -449,9 +468,13 @@ en-GB:
       learn_more: Learn about this plugin in our knowledge base
       learn_more_fork: This plugin was forked from a Recipe.
       learn_more_fork_original: See Original
+      learn_more_native_long: This plugin is native and maintained by TRMNL.
+      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
       learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
       learn_more_recipe_short: 'Note: this plugin is a Recipe.'
+      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Linked Account
       linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: Link Account
@@ -509,7 +532,7 @@ en-GB:
     update:
       success: Plugin configuration updated successfully
     add_to_playlist:
-      success: Plugin added to Playlist
+      success: Plugin added to playlist
   referral_code:
     create:
       request_received: Request received, check your inbox

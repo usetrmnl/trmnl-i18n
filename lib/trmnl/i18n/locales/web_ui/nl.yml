@@ -41,6 +41,7 @@ nl:
   forgot_password_title: Hier gaan we weer
   friendly_id: Friendly ID
   get_started: Laten we beginnen!
+  hidden: hidden
   identify: Identificeren
   import: Import
   import_new: Import new
@@ -60,10 +61,13 @@ nl:
   password: Wachtwoord
   please_wait: Even geduld...
   plugin_not_found: Plugin niet gevonden
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: Leer __hier__ hoe verversingssnelheden werken
   reset_password: Vraag nieuw wachtwoord op
+  required: Required
   save: Opslaan
+  shown: shown
   section: Sectie
   settings: Settings
   sign_in: Inloggen
@@ -168,9 +172,11 @@ nl:
       accepts_beta_firmware: Beta firmware-release
       accepts_beta_firmware_hint: Schakel in om de nieuwste beta firmwareverbeteringen voor je apparaat te ontvangen.
       back_to_devices: Terug naar apparaten
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Batterijgebruik
       battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren.
       battery_learn_more: Meer over het opladen van je batterij lees je __hier__.
+      battery_refresh: Refresh
       developer_perks: Ontwikkelaarsvoordelen
       developer_perks_hint: De onderstaande opties vereisen de __ontwikkelaars-add-on__.
       device_credentials: Apparaatgegevens
@@ -181,6 +187,9 @@ nl:
       device_model_hint: Jouw hardware Model
       device_model_switch_warning: Dit is een gevaarlijke actie, lees __hier__ meer
       edit_device: Apparaat bewerken
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Gast Modus
       guest_mode_hint: Kies wat je wil tonen (en voor hoe lang) in gast modus.
       guest_mode_item_placeholder: Kies een item
@@ -195,6 +204,8 @@ nl:
       mirror: Spiegelen
       mirror_device: Spiegel een ander apparaat
       mirror_device_hint: Geef een (deelbaar) apparaat ID op om zijn afspeellijst te spiegelen. Jouw afspeellijst wordt nog steeds getoond.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Disconnect Mirroring
       mirror_sync: Sync Screens
       ota_enabled: OTA-updates ingeschakeld
@@ -212,6 +223,11 @@ nl:
       special_function_learn_more: Lees __hier__ meer over speciale functies.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Ontkoppelen
       unlink_confirm: Weet je het zeker? Dit zal alle plugin instellingen en afspeellijsten verwijderen, zodat je het device aan een nieuw account kan koppelen.
       unlink_device: Apparaat ontkoppelen
@@ -241,6 +257,9 @@ nl:
     dissociate:
       error: Fout bij ontkoppelen apparaat
       success: Apparaat succesvol ontkoppeld
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Fout bij updaten apparaat
       success: Apparaatidentificatie aangevraagd
@@ -345,7 +364,7 @@ nl:
       displayed_now: Nu getoond
       not_displayed_yet: Nog niet getoond
       remove_from_playlist: Verwijderen van afspeellijst
-      hide_playlist: Vergerg dit item
+      hide_playlist: Verberg dit item
       show_playlist: Toon dit item
     create:
       error: Bijwerken van afspeellijst is mislukt
@@ -428,7 +447,7 @@ nl:
     inactive: Inactief
     no_plugin_settings_found: Geen plugininstellingen gevonden.
     not_supported: Not supported on current device
-    refreshing_now_please_wait: Plugin wordt verversd, herlaad de pagina over een paar seconden.
+    refreshing_now_please_wait: Plugin wordt ververst, herlaad de pagina over een paar seconden.
     reset_credentials: "%{plugin_name} account succesvol hersteld"
     form:
       active_hint: Toon of verberg deze plugin op je apparaat
@@ -451,9 +470,13 @@ nl:
       learn_more: Kom meer te weten over deze plugin in onze kennisbank
       learn_more_fork: Deze plugin is een fork van een recept.
       learn_more_fork_original: Bekijk het origineel
+      learn_more_native_long: This plugin is native and maintained by TRMNL.
+      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Hulp nodig? Neem contact op met %{recipe_author} via Discord.
       learn_more_recipe_long: Deze plugin is een recept uit de community, en wordt niet onderhouden door TRMNL.
       learn_more_recipe_short: 'Noot: deze plugin is een recept'
+      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Gekoppeld account
       linked_account_success: Succesvol gekoppeld met %{plugin_name}
       link_oauth: Account koppelen

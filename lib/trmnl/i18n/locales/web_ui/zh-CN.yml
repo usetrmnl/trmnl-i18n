@@ -1,16 +1,16 @@
 ---
 zh-CN:
   locale_name: Chinese (Simplified)
-  about: About
+  about: 关于
   add: 添加
   add_new: 添加新设备
   ago: 之前
   already_have_account: 已经有账号？
-  are_you_sure: Are you sure?
+  are_you_sure: 您确定吗？
   back: 后退
   back_to_all_blog_posts: 返回首页
   blog: 博客
-  brand: Brand
+  brand: 品牌
   buy_now: 立即购买
   cancel: 取消
   change_password: 修改密码
@@ -28,7 +28,7 @@ zh-CN:
   current_device: 当前设备
   days: 天
   delete: 删除
-  developers: Developers
+  developers: 开发者
   developer_edition_required: 此功能需要升级至开发者版。
   device_id: 设备ID
   device: 设备
@@ -39,8 +39,9 @@ zh-CN:
   first_name: 名
   forgot_password: 忘记密码
   forgot_password_title: 重新设置密码
-  friendly_id: Friendly ID
+  friendly_id: 友好 ID
   get_started: 开始使用
+  hidden: hidden
   identify: 识别
   import: 导入
   import_new: 导入新设备
@@ -60,10 +61,13 @@ zh-CN:
   password: 密码
   please_wait: 请等待……
   plugin_not_found: 未发现插件
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: 点击 __此处__ 了解刷新频次。
   reset_password: 重置密码
+  required: Required
   save: 保存
+  shown: shown
   section: 分区
   settings: 设置
   sign_in: 登录
@@ -75,9 +79,9 @@ zh-CN:
   terms: Terms
   update: 更新
   view: 查看
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: 想合作吗？
+  collaboration_request_hint: 合作伙伴、团体采购、特别项目，由您决定。
+  collaboration_request_cta: 联系我们聊聊
   welcome: 欢迎
   time:
     formats:
@@ -168,64 +172,76 @@ zh-CN:
       accepts_beta_firmware: beta测试固件
       accepts_beta_firmware_hint: 打开以提前使用最新固件
       back_to_devices: 返回设备列表
+      battery_and_sleep: Battery & Sleep
       battery_consumption: 电池消耗
       battery_consumption_hint: 在晚上10点到早上8点之间启用睡眠模式，节省电量并延长电池寿命。
-      battery_learn_more: Learn more about battery charging __here__.
+      battery_learn_more: __点击此处__了解更多关于充电的信息。
+      battery_refresh: Refresh
       developer_perks: 开发者选项
       developer_perks_hint: 下列选项需要__开发者选项__
       device_credentials: 设备密码
-      device_credentials_hint: See what you can do with these credentials __here__
+      device_credentials_hint: __点击此处__了解如果使用这些密码。
       device_name: 设备名称
       device_name_hint: 用于TRMNL界面
-      device_model: Device Model
-      device_model_hint: Your hardware Model
-      device_model_switch_warning: This is a dangerous operation, learn more __here__
+      device_model: 设备型号
+      device_model_hint: 您的设备型号
+      device_model_switch_warning: 这是一个危险操作，__了解详情__。
       edit_device: 修改设备
-      guest_mode: Guest Mode
-      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
-      guest_mode_item_placeholder: Choose an item
-      guest_mode_duration_placeholder: Choose a duration
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
+      guest_mode: 访客模式
+      guest_mode_hint: 设置访客模式下显示的内容与时长。
+      guest_mode_item_placeholder: 选择项目
+      guest_mode_duration_placeholder: 选择时长
       identify: 识别
       identify_device: 识别设备
       identify_device_hint: 点击以在此设备上显示识别信息
       logs: 日志
-      logs_hint: Debug your device and plugins with a live feed of raw error logs.
-      low_battery_email_notification: Low Battery Email Notification
-      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
+      logs_hint: 通过实时原始错误日志流对设备和插件进行故障排查。
+      low_battery_email_notification: 低电量邮件通知
+      low_battery_email_notification_hint: 在您的设备电量过低时获得邮件通知。
       mirror: 镜像
       mirror_device: 镜像其他设备
       mirror_device_hint: 生成一个设备ID，用于镜像播放列表
-      mirror_stop: Disconnect Mirroring
-      mirror_sync: Sync Screens
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
+      mirror_stop: 取消镜像
+      mirror_sync: 同步画面
       ota_enabled: 启用OTA更新
       ota_enabled_hint: 自动安装新固件。禁用以手动更新。
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
-      maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      ota_byod_not_supported: 自带设备（BYOD）不支持 OTA 固件更新。请直接从 usetrmnl.com/flash 刷入兼容版本。
+      maximum_compatibility: 启用最大兼容模式
+      maximum_compatibility_hint: 解决由某些电子墨水驱动芯片引发的显示问题。禁用快速刷新功能。需固件版本 1.6.0 及以上。
       sleep_mode: 睡眠模式
       sleep_mode_hint: 降低刷新率以优化焦点和电池寿命
-      sleep_screen: 休眠屏幕
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
-      sleep_screen_hint: Display a sleep screen during sleep mode hours.
+      sleep_screen: 休眠画面
+      sleep_screen_tooltip: 需开启睡眠模式以使用此功能
+      sleep_screen_hint: 在睡眠模式启用时显示休眠画面
       special_function: 双击背部按键
       special_function_hint: 设置设备背部按键的双击功能
       special_function_learn_more: 点击__此处__以了解更多
-      temperature_profile: Temperature Profile
-      temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      temperature_profile: 温度曲线
+      temperature_profile_hint: 除非另有指示，否则请勿更改。适用于显示画面褪色情况。
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: 解绑
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: 您确定吗？此操作将删除所有基础插件设置和播放列表项目，以便该设备可添加至其他账户。
       unlink_device: 解绑设备
-      unlink_device_hint: 解绑TRMN设备以转移用户
-      unlink_device_learn_more: Follow the full guide __here__.
+      unlink_device_hint: 解绑TRMNL设备以转移用户
+      unlink_device_learn_more: __点击此处__阅读完整说明。
       visibility: 隐藏
       visibility_hint: 让TRMNL设备显示镜像播放列表
       your_device: 您的TRMNL
       upgrade_og:
-        title: Upgrade to 2-bit Display Available
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
-        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
-        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
-        cta: Upgrade to TRMNL OG (2-bit)
+        title: 可升级至 2 位显示
+        sub_title: 您的设备可升级至增强型灰度显示，支持从 2 级色彩升级至 4 级。
+        warning_1: 我理解此升级操作<strong>不可逆转</strong>且无法撤销。
+        warning_2: 本人知悉此操作<strong>存在风险</strong>，可能导致设备变砖。
+        cta: 升级至 TRMNL OG（2 位）
     index:
       title: 设备列表
       tagline: 您的的TRMNL设备
@@ -241,6 +257,9 @@ zh-CN:
     dissociate:
       error: 设备解绑错误
       success: 设备解绑成功
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: 设备识别请求错误
       success: 设备识别请求成功
@@ -263,90 +282,90 @@ zh-CN:
     index:
       title: 日志
       all: 全部
-      bulk_destroy: Bulk Destroy
-      dump: Dump
+      bulk_destroy: 批量删除
+      dump: 导出
       id: ID
       private_plugins: 私有插件
       source: 来源
       time: 时间
   markups:
     console_logs:
-      js_logs: JS Logs
+      js_logs: JS 日志
     form:
-      back_to_plugin_settings: Back to plugin settings
-      design_system: Leverage our native design system
-      design_system_docs: Design System Docs
-      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
-      edit_markup: Edit Markup
-      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
-      edit_markup_please_save_first: Please save before editing markup
-      edit_markup_without_preview: Edit Markup (without preview)
-      error_rendering_markup: Error rendering that markup
-      fix_indentation: Fix indentation
-      go_to_preview: Go To Preview
-      live_preview: Live Preview
-      no_changes_to_save: No changes to save
-      pop_out_preview: Pop Out Preview
-      quickstart_examples: Quick-start Examples
-      quickstart_example_applied: Applied!
-      quickstart_use_this_example: Use this example
-      revert: Revert
-      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
-      save_changes: Save Changes (⌘﹢S)
-      separate_preview: Preview is open in a separate window
+      back_to_plugin_settings: 返回插件设置
+      design_system: 利用我们的原生设计系统
+      design_system_docs: 设计系统文档
+      dirty_confirm: 您有未保存的更改。确定要离开此页面吗？
+      edit_markup: 编辑标记
+      edit_markup_for_plugin: 为 %{plugin_setting_name} 编辑标记
+      edit_markup_please_save_first: 请先保存后再编辑标记
+      edit_markup_without_preview: 编辑标记（无预览）
+      error_rendering_markup: 渲染该标记时出错
+      fix_indentation: 修复缩进
+      go_to_preview: 前往预览
+      live_preview: 实时预览
+      no_changes_to_save: 没有可以保存的更改
+      pop_out_preview: 弹出预览窗口
+      quickstart_examples: 快速入门示例
+      quickstart_example_applied: 已应用！
+      quickstart_use_this_example: 使用此示例
+      revert: 还原
+      revert_confirm: 确定要还原吗？所有未保存的更改都将丢失。
+      save_changes: 保存更改（⌘﹢S）
+      separate_preview: 预览已在单独窗口中打开
     merge_variables:
-      your_variables: Your variables
+      your_variables: 您的变量
     no_merge_variables:
-      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
-      no_variables_detected: No variables detected.
+      force_refresh: 如果您已提供变量但未被检测到，请尝试进行__强制刷新__。
+      no_variables_detected: 未检测到变量。
   mfa:
     disable_otp:
-      success: 2FA Disabled
-      invalid_otp: Invalid OTP
-      invalid_password: Invalid Password
-      invalid_otp_and_password: Invalid OTP and Password
+      success: 已禁用双重认证
+      invalid_otp: 一次性验证码（OTP）无效
+      invalid_password: 密码无效
+      invalid_otp_and_password: 一次性验证码（OTP）和密码均无效
     enable_otp:
-      input_otp: Enter OTP
-      submit: Verify and Enable
-      already_enabled: 2FA is already enabled
+      input_otp: 输入一次性验证码（OTP）
+      submit: 验证并启用
+      already_enabled: 已启用双重认证
     enable_otp_verify:
-      success: 2FA Enabled
-      error: Invalid OTP code
+      success: 已启用双重认证
+      error: 一次性验证码（OTP）无效
     verify_otp:
-      verify: Verify
-      reset: Reset MFA
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
-      success: 2FA successful
-      error: Invalid OTP code
+      verify: 验证
+      reset: 重置双重认证
+      reset_instructions: 按下 TRMNL 背面的按钮生成重置码
+      success: 双重认证成功
+      error: 一次性验证码（OTP）无效
   playlist_items:
     index:
       title: 播放列表
       tagline: 选择您的播放列表
-      add_a_group: Add a Group
-      add_a_plugin: Add a Plugin
+      add_a_group: 添加分组
+      add_a_plugin: 添加插件
       add_first_device_cta: 添加您的第一个TRMNL设备！
       add_to_playlist: 添加到播放列表
       create_first_playlist_cta: 连接您的第一个插件以创建播放列表！
-      custom: Custom
-      device_default: Device default
-      display_period_from: Display from
-      display_period_to: to
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
-      never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      custom: 自定义
+      device_default: 系统默认
+      display_period_from: 开始时间
+      display_period_to: 结束时间
+      display_period_validation: 开始时间必须早于结束时间。请创建另一个组来覆盖跨夜时段。
+      every: 每
+      never_skip: 不跳过屏幕
+      smart_playlist: 智能播放列表
+      smart_playlist_hint: 自动跳过内容长时间未更新的画面。
       skip_after:
         one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        other: 跳过超过 %{count} 天未更新的画面
     playlist_item:
-      adjust_schedule: Adjust schedule
+      adjust_schedule: 调整定时
       delete: 确认删除设备？尽在设备上删除，不会影响插件连接。
       displayed_now: 正在显示
       not_displayed_yet: 尚未显示
       remove_from_playlist: 从播放列表中删除
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      hide_playlist: 隐藏此项
+      show_playlist: 显示此项
     create:
       error: 创建播放列表错误
       success: 播放列表创建成功
@@ -354,13 +373,13 @@ zh-CN:
       error: 删除播放列表错误
       success: 播放列表删除成功
     toggle_visibility:
-      success: Playlist item %{change}
+      success: 成功%{change}此项
     duplicate:
-      success: Playlist duplicated
+      success: 复制成功
     sort:
-      success: Playlist order updated
+      success: 更新顺序成功
     set_preferences:
-      success: Smart playlist preference updated
+      success: 智能播放列表设定更新成功
     update:
       success: 播放列表更新成功
   plugins:
@@ -370,7 +389,7 @@ zh-CN:
       available: 可用
       connected: 已连接
       recipes: 配方
-      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+      recipes_hint: 社区成员开发的私有插件，支持一键安装。__了解更多__。
     search:
       placeholder: 搜索所有插件
     my:
@@ -378,130 +397,134 @@ zh-CN:
         title: 我的插件
         tagline: 开发插件并与其他用户共享
       card:
-        connections: connections
-        install: Install
-        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
+        connections: 连接
+        install: 安装
+        review_are_you_sure: 您确定吗？TRMNL 团队将进行测试，如有任何疑问会通过邮件联系您。
         submit_for_review: 提交审核
     new:
       title: 创建插件
       tagline: 开发您的第一个插件
       name: 名称
-      category: Category
-      category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
+      category: 类别
+      category_hint: 按住 Command 或 Ctrl 以多选，最多选择 3 项。
+      refresh_every: 支持的刷新间隔
+      refresh_every_hint: 插件所能支持的最快刷新间隔。
       description: 简介
       description_hint: 最多 50 字符
       icon: 图标
-      icon_hint: 推荐大小512x512px
-      installation_url: Installation URL
+      icon_hint: 推荐大小 512 × 512 像素
+      installation_url: 安装 URL
       installation_url_hint: __了解__更多关于安装流程
-      installation_success_webhook_url: Installation Success Webhook URL
-      knowledge_base_url: Knowledge Base URL
-      management_url: Plugin Management URL
+      installation_success_webhook_url: 安装成功用 Webhook URL
+      knowledge_base_url: 知识库 URL
+      management_url: 插件管理 URL
       management_url_hint: __了解__更多关于插件管理
-      markup_url: Plugin Markup URL
+      markup_url: 插件标记 URL
       markup_url_hint: __了解__更多关于插件标记
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
-      uninstallation_webhook_url: Uninstallation Webhook URL
+      no_screen_padding: 无屏幕边距
+      no_screen_padding_hint: 在全屏模式下移除最外层的边距。
+      uninstallation_webhook_url: 卸载用 Webhook URL
     edit:
       title: 编辑插件
       tagline: 修改您的插件
       name: 名称
       description: 简介
   plugin_recipes:
-    connected: Recipe connected
+    connected: 已连接配方
     connections:
       one: Connection
-      other: Connections
+      other: 连接
     forks:
       one: Fork
-      other: Forks
+      other: 分支
     new:
-      error: Recipe not found
+      error: 未找到配方
   plugin_settings:
     active: 激活
-    copy_are_you_sure: Are you sure you want to copy this setting?
-    delete_are_you_sure: Are you sure you want to delete this setting?
+    copy_are_you_sure: 您确定要复制此设置吗？
+    delete_are_you_sure: 您确定要删除此设置吗？
     delete: 删除。这将完全删除插件的设置。要仅隐藏此插件，请从播放列表中删除。
     inactive: 停用
     no_plugin_settings_found: 未找到插件信息
-    not_supported: Not supported on current device
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
-    reset_credentials: "%{plugin_name} account reset successfully"
+    not_supported: 不支持当前设备
+    refreshing_now_please_wait: 正在刷新，请稍后重新加载此页面。
+    reset_credentials: "%{plugin_name} 账户重置成功"
     form:
       active_hint: 显示/隐藏此插件
-      advanced_settings: Advanced Settings
+      advanced_settings: 高级设置
       back_to_plugin: 返回 %{plugin}
       back_to_plugins: 返回插件
       connect_with: 已连接 %{plugin}
-      debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
-      debug_logs_enabled_link: View logs
-      disconnect_account: Disconnect Account
+      debug_logs: 调试日志
+      debug_logs_click_here: 点击此处
+      debug_logs_click_here_hint: 启用此插件实例的调试日志。
+      debug_logs_enabled: 调试日志已启用，持续时间为 %{hours} 小时。
+      debug_logs_enabled_link: 查看日志
+      disconnect_account: 断开账户连接
       manage_plugin: 设置 %{plugin}
       force_refresh: 强制刷新
       force_refresh_hint: 测试功能，请勿滥用
       force_refresh_click_here: 点击此处
       force_refresh_click_here_hint: 立即刷新插件
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      force_refresh_not_possible: 此插件无法强制刷新，因为 TRMNL 服务器不执行图像处理。__点击此处__了解如何测试您的实例。
       learn_more: 了解更多
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
-      linked_account: Linked Account
-      linked_account_success: Successfully linked with %{plugin_name}
+      learn_more_fork: 此插件从配方分支而来。
+      learn_more_fork_original: 查看原始版本
+      learn_more_native_long: 此插件为原生插件，由 TRMNL 维护。
+      learn_more_native_short: 此插件由 TRMNL 维护。
+      learn_more_recipe_author: 需要帮助？请在 Discord 上联系 %{recipe_author}。
+      learn_more_recipe_long: 此插件为社区配方，不由 TRMNL 维护。
+      learn_more_recipe_short: 注意：此插件为配方。
+      learn_more_third_party_long: 此插件由第三方提供，不由 TRMNL 维护。
+      learn_more_third_party_short: 注意：此插件由第三方提供。
+      linked_account: 关联账户
+      linked_account_success: 已成功关联 %{plugin_name}
       link_oauth: 链接账户
       link_oauth_hint: 在继续之前，请按照 %{plugin} 提供的授权流程操作
       multiple_instances_hint: 此插件支持多实例
       name: 名称
       name_hint: 起一个好听的名字
-      parse: Parse
-      parse_save_first: Parse (Save plugin first)
-      parsed: Parsed
+      parse: 解析
+      parse_save_first: 解析（请先保存插件）
+      parsed: 已解析
       plugin_uuid: 插件UUID
       plugin_uuid_hint: 用于发起 Webhook API 请求
       preview: 预览
-      recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_unlisted: This plugin is unlisted
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
-      recipe_visibility_title: How would you like to publish?
-      recipe_visibility_edit_title: Edit Submission
-      recipe_visibility_public: Public
-      recipe_visibility_public_hint: Anyone can find and install.
-      recipe_visibility_private: Private
-      recipe_visibility_private_hint: Breaks external installs.
-      recipe_visibility_unlisted: Unlisted
-      recipe_visibility_unlisted_hint: Anyone with the link can install.
+      recipe_cta_heading_published: 此插件为配方
+      recipe_cta_heading_unlisted: 此插件未公开
+      recipe_cta_heading_in_review: 配方审核中
+      recipe_cta_heading_not_published: 发布配方？
+      recipe_cta_body_published: 更改将反映到现有安装和未来的安装和分支上。
+      recipe_cta_body_in_review: 此插件已提交至我们的团队。请稍候。
+      recipe_cta_body_not_published: 发布此插件以供他人安装。__了解更多__。
+      recipe_cta_confirm: 您确定吗？我们的团队将进行审核，并在几天内与您联系。您可以继续进行更改。
+      recipe_visibility_title: 您希望如何发布？
+      recipe_visibility_edit_title: 编辑提交
+      recipe_visibility_public: 公开
+      recipe_visibility_public_hint: 任何人都可以检索并安装。
+      recipe_visibility_private: 私有
+      recipe_visibility_private_hint: 将中断他人的现有安装。
+      recipe_visibility_unlisted: 不公开
+      recipe_visibility_unlisted_hint: 任何拥有链接的人都可以安装。
       refresh_rate: 刷新率
       refresh_rate_hint: 设置插件刷新频率
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
+      refresh_rate_not_configurable: "%{refresh_rate}同步（不可配置）"
       refreshed: 已刷新
-      remove_plugin: Remove plugin
-      remove_plugin_hint: Removing a plugin will also remove it from your playlist
+      remove_plugin: 移除插件
+      remove_plugin_hint: 移除插件的同时也会将其从播放列表中删除
       synced: 已同步
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
+      refresh_paused: 刷新已暂停
+      refresh_paused_hint: 自动刷新已暂停。添加到播放列表以重新开始。
+      refresh_paused_hidden_hint: 由于插件在播放列表中已隐藏，自动刷新已暂停。数据同步仍处于活动状态。
+      refresh_paused_mashup: 正在刷新混搭
+      refresh_paused_mashup_hint: 全屏模式的自动刷新已暂停。混搭仍在更新。
+      refresh_stopped: 自动刷新已停止。请修复插件错误以继续。
       visit_docs: 查看文档
     import:
-      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
-      missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: "%{filename} is too large"
-      malformed: "%{filename} is malformed"
+      archive_too_large: ZIP 文件过大（最大 %{max_mb} MB）
+      missing_entry: ZIP 文件不包含 %{filename}
+      entry_too_large: "%{filename} 过大"
+      malformed: "%{filename} 格式错误"
     create:
       success: 插件设置创建并添加成功
       playlist: 播放列表
@@ -514,27 +537,27 @@ zh-CN:
       success: 插件成功添加到播放列表
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: 已收到请求，请查收邮箱
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
-      fork: Fork
+      newest_to_oldest: 从新到旧
+      oldest_to_newest: 从旧到新
+      most_popular: 最受欢迎
+      install: 安装数
+      fork: 分支数
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: 添加自定义时间表
+      append: 追加时段…
+      no_schedule: 此屏幕将始终显示。
+      some_schedule: 仅在以下时间显示此屏幕…
+      to: 到
+      copy_prompt: 复制现有时间表…
   upgrade:
     index:
       title: 正在升级设备：
       tagline: 选择您的升级计划
       pay: 支付
-      error: Device %{device_name} is already upgraded, switch to another device
+      error: 设备 %{device_name} 已升级，请切换至其他设备
     confirm:
-      success: Developer edition add-on is now enabled
+      success: 开发者版附加组件现已启用

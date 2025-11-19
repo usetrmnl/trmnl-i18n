@@ -41,6 +41,7 @@ fr:
   forgot_password_title: Réinitialiser le mot de passe
   friendly_id: Friendly ID
   get_started: Commençons !
+  hidden: hidden
   identify: Identifier
   import: Importer
   import_new: Importer
@@ -60,10 +61,13 @@ fr:
   password: Mot de passe
   please_wait: Veuillez patienter...
   plugin_not_found: Plugin introuvable
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: Apprenez comment le taux de rafraîchissement fonctionne __ici__.
   reset_password: Réinitialiser mon mot de passe
+  required: Required
   save: Enregistrer
+  shown: shown
   section: Section
   settings: Paramètres
   sign_in: S'identifier
@@ -168,9 +172,11 @@ fr:
       accepts_beta_firmware: Mise à jour en accès anticipé
       accepts_beta_firmware_hint: Activer pour obtenir les dernières améliorations du firmware de l'appareil avant les autres utilisateurs.
       back_to_devices: Retour aux appareils
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Consommation de la batterie
       battery_consumption_hint: Économisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant le Mode Veille.
       battery_learn_more: En savoir plus sur la charge de la batterie __ici__.
+      battery_refresh: Refresh
       developer_perks: Avantages pour les développeurs
       developer_perks_hint: Les options ci-dessous requièrent le __complément payant Developer__.
       device_credentials: Identifiants de l'appareil
@@ -181,6 +187,9 @@ fr:
       device_model_hint: Le modèle de votre appareil
       device_model_switch_warning: Cette opération est dangereuse, en savoir plus __ici__
       edit_device: Modifier l'appareil
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Mode invité
       guest_mode_hint: Choisissez ce qui s'affiche (et pendant combien de temps) quand le mode invité est activé.
       guest_mode_item_placeholder: Choisir un élément
@@ -195,6 +204,8 @@ fr:
       mirror: Synchroniser
       mirror_device: Synchroniser avec un autre appareil
       mirror_device_hint: Ajoutez un identifiant (partageable) pour synchroniser vos playlists avec un autre appareil. Vos playlists resteront toujours visibles.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Déconnecter la synchronisation
       mirror_sync: Synchroniser les écrans
       ota_enabled: Mises à jour OTA activées
@@ -212,6 +223,11 @@ fr:
       special_function_learn_more: En savoir plus sur les actions spéciales __ici__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Dissocier
       unlink_confirm: Êtes-vous sûr ? Cela supprimera tous les paramètres de plugins et éléments de playlist sous-jacents, afin que l'appareil puisse être ajouté à un autre compte.
       unlink_device: Dissocier l'appareil
@@ -241,6 +257,9 @@ fr:
     dissociate:
       error: Erreur lors de la dissociation de l'appareil
       success: Appareil dissocié avec succès
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Erreur lors de l'identification de l'appareil
       success: Appareil identifié avec succès
@@ -451,9 +470,13 @@ fr:
       learn_more: Plus d'informations sur ce plugin dans notre base de connaissances
       learn_more_fork: Ce plugin a été dupliqué à partir d'une Recette.
       learn_more_fork_original: Voir l'original
+      learn_more_native_long: This plugin is native and maintained by TRMNL.
+      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Besoin d'aide ? Contactez %{recipe_author} sur Discord.
       learn_more_recipe_long: Ce plugin est une Recette communautaire et n'est pas maintenu par TRMNL.
       learn_more_recipe_short: 'Note : ce plugin est une Recette.'
+      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Compte lié
       linked_account_success: Lié avec succès à %{plugin_name}
       link_oauth: Lier un compte

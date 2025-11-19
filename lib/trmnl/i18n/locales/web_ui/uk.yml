@@ -41,6 +41,7 @@ uk:
   forgot_password_title: Отакої…Гайда знову
   friendly_id: Friendly ID
   get_started: Почнемо!
+  hidden: hidden
   identify: Ідентифікувати
   import: Import
   import_new: Import new
@@ -60,10 +61,13 @@ uk:
   password: Пароль
   please_wait: Please Wait...
   plugin_not_found: Plugin not found
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Скинути мій пароль
+  required: Required
   save: Зберегти
+  shown: shown
   section: Section
   settings: Settings
   sign_in: Увійти
@@ -168,9 +172,11 @@ uk:
       accepts_beta_firmware: Firmware Early Release
       accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
       back_to_devices: Назад до пристроїв
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Споживання батареї
       battery_consumption_hint: Заощаджуйте енергію та насолоджуйтесь тривалим часом роботи батареї, увімкнувши Режим сну.
       battery_learn_more: Learn more about battery charging __here__.
+      battery_refresh: Refresh
       developer_perks: Developer Perks
       developer_perks_hint: Options below require the __Developer add-on__.
       device_credentials: Device Credentials
@@ -181,6 +187,9 @@ uk:
       device_model_hint: Your hardware Model
       device_model_switch_warning: This is a dangerous operation, learn more __here__
       edit_device: Змінити налаштування пристрою
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -195,6 +204,8 @@ uk:
       mirror: Відзеркалити
       mirror_device: Відзеркалити інший пристрій
       mirror_device_hint: Надайте ID пристрою з увімкненим спільним доступом, щоб дзеркалити його плейлист. Ваш плейлист також буде відображатися.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Disconnect Mirroring
       mirror_sync: Sync Screens
       ota_enabled: OTA Updates Enabled
@@ -212,6 +223,11 @@ uk:
       special_function_learn_more: Learn more about special functions __here__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Відв'язати
       unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
       unlink_device: Відв'язати пристрій
@@ -241,6 +257,9 @@ uk:
     dissociate:
       error: Помилка видалення пристрою
       success: Пристрій успішно видалено
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Помилка оновлення пристрою
       success: Запит на ідентифікацію пристрою надіслано
@@ -451,9 +470,13 @@ uk:
       learn_more: Дізнайтеся більше про цей плагін у нашій базі знань
       learn_more_fork: This plugin was forked from a Recipe.
       learn_more_fork_original: See Original
+      learn_more_native_long: This plugin is native and maintained by TRMNL.
+      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
       learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
       learn_more_recipe_short: 'Note: this plugin is a Recipe.'
+      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Linked Account
       linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: Підключити обліковий запис

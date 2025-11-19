@@ -41,6 +41,7 @@
   forgot_password_title: Her går vi igjen
   friendly_id: Friendly ID
   get_started: La oss komme i gang!
+  hidden: hidden
   identify: Identifiser
   import: Importer
   import_new: Importer ny
@@ -60,10 +61,13 @@
   password: Passord
   please_wait: Vennligst vent...
   plugin_not_found: Plugin ikke funnet
+  preview: Preview
   privacy: Privacy
   refresh_rates_hint: Lær hvordan oppdateringsfrekvenser fungerer __her__.
   reset_password: Tilbakestill passordet mitt
+  required: Required
   save: Lagre
+  shown: shown
   section: Seksjon
   settings: Settings
   sign_in: Logg inn
@@ -168,9 +172,11 @@
       accepts_beta_firmware: Tidlig utgivelse av fastvare
       accepts_beta_firmware_hint: Slå på for å få de nyeste fastvareoppdateringene før andre brukere.
       back_to_devices: Tilbake til enheter
+      battery_and_sleep: Battery & Sleep
       battery_consumption: Batteriforbruk
       battery_consumption_hint: Spar strøm og få lengre batterilevetid ved å aktivere dvalemodus.
       battery_learn_more: Learn more about battery charging __here__.
+      battery_refresh: Refresh
       developer_perks: Utviklerfordeler
       developer_perks_hint: Valgene nedenfor krever __Utviklertillegget__.
       device_credentials: Enhetslegitimasjon
@@ -181,6 +187,9 @@
       device_model_hint: Your hardware Model
       device_model_switch_warning: This is a dangerous operation, learn more __here__
       edit_device: Rediger enhet
+      firmware: Firmware
+      firmware_updates_enabled: Updates enabled
+      firmware_updates_disabled: Updates disabled
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -195,6 +204,8 @@
       mirror: Speil
       mirror_device: Speil en annen enhet
       mirror_device_hint: Oppgi en (delbar) enhets-ID for å speile dens spilleliste. Din spilleliste vil fortsatt vises.
+      mirror_disabled: Mirroring disabled
+      mirror_enabled: Mirroring
       mirror_stop: Disconnect Mirroring
       mirror_sync: Sync Screens
       ota_enabled: OTA-oppdateringer aktivert
@@ -212,6 +223,11 @@
       special_function_learn_more: Les mer om spesialfunksjoner __her__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      tidbyt_credentials: Tidbyt Credentials
+      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
+      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
+      tidbyt_device_id: Device ID
+      tidbyt_device_api_key: API Key
       unlink: Koble fra
       unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
       unlink_device: Koble fra enhet
@@ -241,6 +257,9 @@
     dissociate:
       error: Feil ved frakobling av enhet
       success: Enheten ble frakoblet
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
     identify:
       error: Feil ved oppdatering av enhet
       success: Forespørsel om enhetsidentifikasjon sendt
@@ -451,9 +470,13 @@
       learn_more: Les om denne pluginen i vår kunnskapsbase
       learn_more_fork: This plugin was forked from a Recipe.
       learn_more_fork_original: See Original
+      learn_more_native_long: This plugin is native and maintained by TRMNL.
+      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
       learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
       learn_more_recipe_short: 'Note: this plugin is a Recipe.'
+      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Koblet konto
       linked_account_success: Koblet til %{plugin_name} med hell
       link_oauth: Koble konto
