@@ -226,3 +226,22 @@ zh-CN:
         - Pausa
         - Magha
         - Phalguna
+    public_recipe_stats:
+      connections: "{$value} 个连接"
+      forks: "{$value} 个分支"
+      installs: "{$value} 个安装"
+      and_more: 及其他 {$value} 项
+      error_keyword_title: "「{$keyword}」未匹配到任何结果。"
+      error_keyword_subtitle: 请尝试搜索其他关键词。
+      error_new_title: 未找到新配方。
+      error_new_subtitle: 这种情况不应该发生。
+      error_self_title: 您尚未发布任何配方。
+      error_self_subtitle: 了解如何发布您的第一个配方：https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: '用户 #{$authorId} 尚未发布任何配方。'
+      error_author_id_subtitle: 未找到与此 ID 关联的配方。
+      error_recipe_ids_title: 未找到配方 ID。
+      error_recipe_ids_subtitle: 添加配方 ID 以开始。
+    horizontal_world_clock:
+      name: 世界时钟
+    language_learning_sentences:
+      from_to: "{$from :langName}到{$to :langNameList}"
