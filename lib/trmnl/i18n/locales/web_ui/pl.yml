@@ -17,6 +17,7 @@ pl:
   charge_level: Poziom naładowania
   charged: Naładowany
   charging: Ładowanie
+  claim_plus_trial: Claim 6 Months Free
   close: Zamknij
   confirm_change_password: Zmień hasło
   confirm_password: Potwierdź nowe hasło
@@ -119,6 +120,7 @@ pl:
       disable_2fa: Wyłącz uwierzytelnianie dwuskładnikowe (2FA)
       disable_2fa_hint: Podaj prawidłowe hasło jednorazowe (OTP) i obecne hasło, aby wyłączyć tę funkcję.
       plus_subscription: Subskrypcja TRMNL+
+      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
       plus_subscription_hint: Odblokuj wyższe częstotliwości odświeżania i inne funkcje. __Dowiedz się więcej__.
       plus_subscription_modify: Chcesz zaktualizować metodę płatności lub zrezygnować?
       session: Sesja
@@ -342,7 +344,7 @@ pl:
   playlist_items:
     index:
       title: Playlista
-      tagline: "Wybierz, co ma się wyświetlać na:"
+      tagline: 'Wybierz, co ma się wyświetlać na:'
       add_a_group: Dodaj grupę
       add_a_plugin: Dodaj plugin
       add_first_device_cta: Zacznij od __dodania__ Twojego pierwszego TRMNL!
