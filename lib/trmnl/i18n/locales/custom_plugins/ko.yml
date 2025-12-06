@@ -189,10 +189,10 @@ ko:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value} connection}} * {{{$value} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value} fork}} * {{{$value} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value} install}} * {{{$value} installs}}"
-      and_more: "{$value} 개 더"
+      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
+      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
+      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      and_more: "{$value :number} 개 더"
       error_keyword_title: "“{$keyword}” did not match any result."
       error_keyword_subtitle: Try searching for something else.
       error_new_title: No new recipe is found.

@@ -189,10 +189,10 @@ ru:
         - Магха
         - Пхальгуна
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value one {{{$value} подключение}} few {{{$value} подключения}} many {{{$value} подключений}} * {{{$value} подключения}}"
-      forks: ".input {$value :number} .match $value one {{{$value} форк}} few {{{$value} форка}} many {{{$value} форков}} * {{{$value} форки}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value} install}} * {{{$value} installs}}"
-      and_more: и {$value} ещё
+      connections: ".input {$value :number} .match $value one {{{$value :number} подключение}} few {{{$value :number} подключения}} many {{{$value :number} подключений}} * {{{$value :number} подключения}}"
+      forks: ".input {$value :number} .match $value one {{{$value :number} форк}} few {{{$value :number} форка}} many {{{$value :number} форков}} * {{{$value :number} форки}}"
+      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      and_more: и {$value :number} ещё
       error_keyword_title: "“{$keyword}” did not match any result."
       error_keyword_subtitle: Try searching for something else.
       error_new_title: No new recipe is found.

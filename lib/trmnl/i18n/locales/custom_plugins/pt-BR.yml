@@ -189,10 +189,10 @@ pt-BR:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value one {{{$value} conexão}} many {{{$value} conexões}} * {{{$value} conexões}}"
-      forks: ".input {$value :number} .match $value one {{{$value} derivação}} many {{{$value} derivações}} * {{{$value} derivações}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value} install}} * {{{$value} installs}}"
-      and_more: e {$value} mais
+      connections: ".input {$value :number} .match $value one {{{$value :number} conexão}} many {{{$value :number} conexões}} * {{{$value :number} conexões}}"
+      forks: ".input {$value :number} .match $value one {{{$value :number} derivação}} many {{{$value :number} derivações}} * {{{$value :number} derivações}}"
+      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      and_more: e {$value :number} mais
       error_keyword_title: "“{$keyword}” did not match any result."
       error_keyword_subtitle: Try searching for something else.
       error_new_title: No new recipe is found.

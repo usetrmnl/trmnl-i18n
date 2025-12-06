@@ -189,10 +189,10 @@ is:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value one {{{$value} tenging}} * {{{$value} tengingar}}"
-      forks: ".input {$value :number} .match $value one {{{$value} sjálfun}} * {{{$value} sjálfanir}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value} install}} * {{{$value} installs}}"
-      and_more: og {$value} fleiri
+      connections: ".input {$value :number} .match $value one {{{$value :number} tenging}} * {{{$value :number} tengingar}}"
+      forks: ".input {$value :number} .match $value one {{{$value :number} sjálfun}} * {{{$value :number} sjálfanir}}"
+      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      and_more: og {$value :number} fleiri
       error_keyword_title: "“{$keyword}” did not match any result."
       error_keyword_subtitle: Try searching for something else.
       error_new_title: No new recipe is found.

@@ -188,10 +188,10 @@ fr:
         - paush - magha
         - phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value one {{{$value} connexion}} many {{{$value} connexions}} * {{{$value} connexions}}"
-      forks: ".input {$value :number} .match $value one {{{$value} duplication}} many {{{$value} duplications}} * {{{$value} duplications}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value} install}} * {{{$value} installs}}"
-      and_more: et {$value} de plus
+      connections: ".input {$value :number} .match $value one {{{$value :number} connexion}} many {{{$value :number} connexions}} * {{{$value :number} connexions}}"
+      forks: ".input {$value :number} .match $value one {{{$value :number} duplication}} many {{{$value :number} duplications}} * {{{$value :number} duplications}}"
+      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      and_more: et {$value :number} de plus
       error_keyword_title: "“{$keyword}” did not match any result."
       error_keyword_subtitle: Try searching for something else.
       error_new_title: No new recipe is found.

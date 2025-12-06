@@ -227,10 +227,10 @@ zh-CN:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: "{$value} 个连接"
-      forks: "{$value} 个分支"
-      installs: "{$value} 个安装"
-      and_more: 及其他 {$value} 项
+      connections: "{$value :number} 个连接"
+      forks: "{$value :number} 个分支"
+      installs: "{$value :number} 个安装"
+      and_more: 及其他 {$value :number} 项
       error_keyword_title: "「{$keyword}」未匹配到任何结果。"
       error_keyword_subtitle: 请尝试搜索其他关键词。
       error_new_title: 未找到新配方。

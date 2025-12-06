@@ -227,10 +227,10 @@ zh-HK:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: "{$value} 個連接"
-      forks: "{$value} 個分叉"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value} install}} * {{{$value} installs}}"
-      and_more: 還有 {$value} 個
+      connections: "{$value :number} 個連接"
+      forks: "{$value :number} 個分叉"
+      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      and_more: 還有 {$value :number} 個
       error_keyword_title: "“{$keyword}” did not match any result."
       error_keyword_subtitle: Try searching for something else.
       error_new_title: No new recipe is found.
