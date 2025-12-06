@@ -17,6 +17,7 @@ en:
   charge_level: Charge Level
   charged: charged
   charging: Charging
+  claim_plus_trial: Claim 6 Months Free
   close: Close
   confirm_change_password: Change my password
   confirm_password: Confirm new password
@@ -96,7 +97,7 @@ en:
       api_key_label: The credential for authenticating local development tools
       api_key_not_generated: "(none yet)"
       api_key_reset: Regenerate
-      api_key: API Key
+      api_key: User API Key
       beta_features: Beta Features
       beta_features_hint: Try out new stuff here. Options may disappear at any time.
       discord_community: Discord Community
@@ -119,6 +120,7 @@ en:
       disable_2fa: Disable 2FA
       disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
       plus_subscription: TRMNL+ Subscription
+      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
       plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
       plus_subscription_modify: Want to update your payment method or cancel?
       session: Session
@@ -178,7 +180,7 @@ en:
       battery_learn_more: Learn more about battery charging __here__.
       battery_refresh: Refresh
       developer_perks: Developer Perks
-      developer_perks_hint: Options below require the __Developer add-on__.
+      developer_perks_hint: Custom plugin development, editable MAC address (BYOD-only), firmware early release, and API access
       device_credentials: Device Credentials
       device_credentials_hint: See what you can do with these credentials __here__
       device_name: Device Name
@@ -213,6 +215,8 @@ en:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      palette: Color Palette
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
       sleep_mode: Sleep Mode
       sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
       sleep_screen: Sleep Screen

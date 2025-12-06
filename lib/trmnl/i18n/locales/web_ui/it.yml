@@ -1,7 +1,7 @@
 ---
 it:
   locale_name: Italiano
-  about: About
+  about: Informazioni
   add: Aggiungi
   add_new: Aggiungi nuovo
   ago: fa
@@ -17,6 +17,7 @@ it:
   charge_level: Livello di Ricarica
   charged: ricaricato
   charging: In carica
+  claim_plus_trial: Claim 6 Months Free
   close: Chiudi
   confirm_change_password: Cambia la password
   confirm_password: Conferma la nuova password
@@ -25,10 +26,10 @@ it:
   copy_to_clipboard: Copia negli appunti
   created: Creato
   create_an_account: Crea un profilo
-  current_device: Current device
+  current_device: Dispositivo attuale
   days: giorni
   delete: Cancella
-  developers: Developers
+  developers: Sviluppatori
   developer_edition_required: Developer edition è richiesta per abilitare questa funzione
   device_id: ID Dispositivo
   device: Dispositivi
@@ -79,9 +80,9 @@ it:
   terms: Terms
   update: Aggiorna
   view: View
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: Vuoi Collaborare?
+  collaboration_request_hint: Collaborazioni, Vendite di gruppo, progetti speciali.
+  collaboration_request_cta: Parliamone
   welcome: Benvenuto/a
   time:
     formats:
@@ -94,17 +95,17 @@ it:
       api_key_confirm: Sei sicuro di voler ricreare la tua API Key? La vecchia chiave verrà invalidata.
       api_key_hint: Vai __alla documentazione__ per imparare a configurare il tuo ambiente locale.
       api_key_label: Le credenziali per autenticarsi con i tool di sviluppo.
-      api_key_not_generated: "(none yet)"
+      api_key_not_generated: "(Non ancora)"
       api_key_reset: Ricrea
       api_key: API Key
       beta_features: Beta Features
-      beta_features_hint: Try out new stuff here. Options may disappear at any time.
+      beta_features_hint: Prova le novità qui. Alcune opzioni potrebbero sparire nel tempo.
       discord_community: Discord Community
-      discord_username: What's your Discord username?
-      discord_username_hint: May be used for support, attribution on published Recipes, etc.
+      discord_username: Qual'è il tuo username Discord?
+      discord_username_hint: Potrebbe essere utilizzato per supporto, attribuzione su Recipe pubbliche, ecc.
       email_address: Indirizzo Email
       refer_and_earn: Consiglia e Guadagna
-      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
+      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Guadagna per l'uso, pagato mensilmente.
       refer_and_earn_redemptions: Utilizzi
       refer_and_earn_request_code: Richiedi un codice
       device_invoice: Fattura dispositivo
@@ -118,13 +119,14 @@ it:
       enable_2fa_hint: __Clicca qui__ per abilitare l'OTP.
       disable_2fa: Disabilitare 2FA
       disable_2fa_hint: Fornisci un OTP valido e la password per disabilitare questa opzione.
-      plus_subscription: TRMNL+ Subscription
-      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
-      plus_subscription_modify: Want to update your payment method or cancel?
+      plus_subscription: Abbonamento TRMNL+
+      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
+      plus_subscription_hint: Sblocca frequnze di aggiornamento più veloci e limiti più alti. __Scopri di più__.
+      plus_subscription_modify: Vuoi aggiornare il metodo di pagamento o annullare?
       session: Sessione
       session_hint: Sei connesso/a come %{user}
       show_title_bar: Show title bar
-      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      show_title_bar_hint: Se disabilitato, i plugin nativi (non globali) e di terze parti saranno più minimali.
       time_zone: Time Zone
       time_zone_hint: Determina la frequenza di aggiornamento e il periodo di riposo del dispositivo.
       locale: Lingua
@@ -159,7 +161,7 @@ it:
       new_and_popular: Nuovi e Popolari
     shop:
       title: Negozio
-      need_another: Need another TRMNL?
+      need_another: Vuoi un altro TRMNL?
     time_saved:
       title: Tempo risparmiato
       cta: Maggiori informazioni
@@ -188,12 +190,12 @@ it:
       device_model_switch_warning: Questa è un operazione pericolosa, scopri di più __qui__
       edit_device: Modifica Dispositivo
       firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
-      guest_mode: Guest Mode
-      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
-      guest_mode_item_placeholder: Choose an item
-      guest_mode_duration_placeholder: Choose a duration
+      firmware_updates_enabled: Aggiormamenti attivi
+      firmware_updates_disabled: Aggiornamenti disattivati
+      guest_mode: Modalità Ospite
+      guest_mode_hint: Scegli cosa mostrare (e per quanto tempo) quando la modalità ospite è attiva.
+      guest_mode_item_placeholder: Scegli un elemento
+      guest_mode_duration_placeholder: Scegli la durata
       identify: Identifica
       identify_device: Identifica Dispositivo
       identify_device_hint: Fai click sul bottone sottostante per mostrare una schermata di identificazione sul dispositivo.
@@ -213,21 +215,23 @@ it:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Abilita compatibilità massima
       maximum_compatibility_hint: Risolve problemi dello schermo causati da alcuni chip driver per e-ink. Disattiva il fast refresh. Richiede Firmware 1.6.0 o successivo.
+      palette: Color Palette
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
       sleep_mode: Modalità Riposo
       sleep_mode_hint: Regola la frequenza di aggiornamento per ottimizzare la concentrazione e la durata della batteria.
       sleep_screen: Schermata di riposo
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
-      sleep_screen_hint: Display a sleep screen during sleep mode hours.
+      sleep_screen_tooltip: Abilita la modalità riposo per usare questa funzione
+      sleep_screen_hint: Mostra una schermata di riposo durante le ore di riposo impostate.
       special_function: Funzione Speciale
       special_function_hint: Imposta la funzione al doppio click del pulsante sul retro del dispositivo.
       special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.
       temperature_profile: Temperature Profile
-      temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
+      temperature_profile_hint: Non cambiare se non specificato. Per schermi con immagini sbiadite.
+      tidbyt_credentials: Credenziali Tidbyt.
+      tidbyt_credentials_hint: Inserisci le tue credenziali API per il dispositivo Tidbyt dall'applicazione Tidbyt nelle impostazioni -> Sviluppo -> Ottieni chiave API.
+      tidbyt_credentials_invalid: Credenziali API Tidbyt API Invalide. Perfavore controlla e riprova.
+      tidbyt_device_id: ID Dispositivo
+      tidbyt_device_api_key: Chiave API
       unlink: Scollega
       unlink_confirm: Sei sicuro? Verranno eliminate tutte le impostazioni dei plugin e gli oggetti nelle playlist per permettere di aggiungere questo dispositivi ad un altro account.
       unlink_device: Scollega Dispositivo
@@ -258,8 +262,8 @@ it:
       error: Errore nella disconnessione del dispositivo
       success: Dispositivo scollegato con successo
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: Credenziali dispositivo invalide
+      success: Credenziali dispositivo aggiornate correttamente
     identify:
       error: Errore nell'aggiornamento del dispositivo
       success: Richiesta identificazione del dispositivo
@@ -466,7 +470,7 @@ it:
       force_refresh_hint: Questa funzionalità è pensata per scopi di collaudo - per favore, non abusarne.
       force_refresh_click_here: Clicca qui
       force_refresh_click_here_hint: per generare subito una nuova schermata
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      force_refresh_not_possible: Questo plugin non può essere aggiornato forzatamante perchè il server TRMNL non genera l'immagine. Scopri come provare la tua istanza __qui__.
       learn_more: Maggiori informazioni su questo plugin sono nella nostra knowledge base
       learn_more_fork: Questo plugin è un fork di una Recipe.
       learn_more_fork_original: Mostra Originale
@@ -475,8 +479,8 @@ it:
       learn_more_recipe_author: Hai bisogno di aiuto? Contatta %{recipe_author} su Discord.
       learn_more_recipe_long: Questi plugin è una Recipe della comunità e non viene manutenuta da TRMNL.
       learn_more_recipe_short: 'Note: questo plugin è una Recipe'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
+      learn_more_third_party_long: Questo pliugin è creato da terzi e non viene manutenuto da TRMNL.
+      learn_more_third_party_short: 'Note: Questo plugin è creato da terzi.'
       linked_account: Account Connesso
       linked_account_success: Connesso correttamente con %{plugin_name}
       link_oauth: Collega Profilo
@@ -485,7 +489,7 @@ it:
       name: Nome
       name_hint: Dagli un nome per riconoscerlo facilmente
       parse: Parse
-      parse_save_first: Parse (Save plugin first)
+      parse_save_first: Parse (Salva prima il plugin)
       parsed: Parsed
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Utilizzalo per richieste Webhook API.

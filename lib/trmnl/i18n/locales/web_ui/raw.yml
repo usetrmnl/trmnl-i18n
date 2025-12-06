@@ -17,6 +17,7 @@ raw:
   charge_level: charge_level
   charged: charged
   charging: charging
+  claim_plus_trial: claim_plus_trial
   close: close
   confirm_change_password: confirm_change_password
   confirm_password: confirm_password
@@ -119,6 +120,7 @@ raw:
       disable_2fa: account.index.disable_2fa
       disable_2fa_hint: account.index.disable_2fa_hint
       plus_subscription: account.index.plus_subscription
+      plus_subscription_trial_until: account.index.plus_subscription_trial_until
       plus_subscription_hint: account.index.plus_subscription_hint
       plus_subscription_modify: account.index.plus_subscription_modify
       session: account.index.session
@@ -213,6 +215,8 @@ raw:
       ota_byod_not_supported: devices.edit.ota_byod_not_supported
       maximum_compatibility: devices.edit.maximum_compatibility
       maximum_compatibility_hint: devices.edit.maximum_compatibility_hint
+      palette: devices.edit.palette
+      palette_hint: devices.edit.palette_hint
       sleep_mode: devices.edit.sleep_mode
       sleep_mode_hint: devices.edit.sleep_mode_hint
       sleep_screen: devices.edit.sleep_screen

@@ -1,22 +1,23 @@
 ---
 fr:
   locale_name: Français
-  about: About
+  about: À propos
   add: Ajouter
   add_new: Ajouter
   ago: plus tôt
   already_have_account: J'ai déjà un compte
-  are_you_sure: Are you sure?
+  are_you_sure: Êtes-vous sûr ?
   back: Retour
   back_to_all_blog_posts: Retour à tous les articles
   blog: Blog
-  brand: Brand
+  brand: Marque
   buy_now: Acheter maintenant
   cancel: Annuler
   change_password: Changer le mot de passe
   charge_level: Niveau de charge
   charged: chargé
   charging: En cours de chargement
+  claim_plus_trial: Claim 6 Months Free
   close: Fermer
   confirm_change_password: Changer mon mot de passe
   confirm_password: Confirmer le nouveau mot de passe
@@ -28,7 +29,7 @@ fr:
   current_device: Appareil actuel
   days: jours
   delete: Supprimer
-  developers: Developers
+  developers: Développeurs
   developer_edition_required: Édition développeur nécessaire pour activer cette fonctionnalité.
   device_id: ID de l'appareil
   device: Appareil
@@ -41,7 +42,7 @@ fr:
   forgot_password_title: Réinitialiser le mot de passe
   friendly_id: Friendly ID
   get_started: Commençons !
-  hidden: hidden
+  hidden: masqué
   identify: Identifier
   import: Importer
   import_new: Importer
@@ -53,7 +54,7 @@ fr:
   loading: Chargement
   login: Se connecter
   log_out: Se déconnecter
-  manage: Manage
+  manage: Gérer
   minimum_characters: caractères minimum
   mins: min
   my_playlist: Ma playlist
@@ -61,27 +62,27 @@ fr:
   password: Mot de passe
   please_wait: Veuillez patienter...
   plugin_not_found: Plugin introuvable
-  preview: Preview
-  privacy: Privacy
+  preview: Aperçu
+  privacy: Confidentialité
   refresh_rates_hint: Apprenez comment le taux de rafraîchissement fonctionne __ici__.
   reset_password: Réinitialiser mon mot de passe
-  required: Required
+  required: Requis
   save: Enregistrer
-  shown: shown
+  shown: affiché
   section: Section
   settings: Paramètres
   sign_in: S'identifier
   sign_up: S'inscrire
   something_went_wrong: Une erreur est survenue
-  status: Status
+  status: Statut
   subscribe: S'abonner
   support: Support
-  terms: Terms
+  terms: Conditions
   update: Mise à jour
   view: Vue
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: Envie de collaborer ?
+  collaboration_request_hint: Partenariats, ventes groupées, projets spéciaux, c'est vous qui décidez.
+  collaboration_request_cta: Discutons-en
   welcome: Bienvenue
   time:
     formats:
@@ -119,8 +120,9 @@ fr:
       disable_2fa: Désactiver l'authentification à 2 facteurs (A2F)
       disable_2fa_hint: Fournissez un OTP valide et votre mot de passe actuel pour désactiver l'A2F.
       plus_subscription: Abonnement TRMNL+
+      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
       plus_subscription_hint: Débloquez des taux de rafraîchissement plus rapides et des limites de débit plus élevées. __En savoir plus__.
-      plus_subscription_modify: Want to update your payment method or cancel?
+      plus_subscription_modify: Voulez-vous mettre à jour votre moyen de paiement ou annuler ?
       session: Session
       session_hint: Vous êtes connecté en tant que %{user}
       show_title_bar: Afficher la barre de titre
@@ -172,11 +174,11 @@ fr:
       accepts_beta_firmware: Mise à jour en accès anticipé
       accepts_beta_firmware_hint: Activer pour obtenir les dernières améliorations du firmware de l'appareil avant les autres utilisateurs.
       back_to_devices: Retour aux appareils
-      battery_and_sleep: Battery & Sleep
+      battery_and_sleep: Batterie et veille
       battery_consumption: Consommation de la batterie
       battery_consumption_hint: Économisez de l'énergie et appréciez une meilleure durée de vie de la batterie en activant le Mode Veille.
       battery_learn_more: En savoir plus sur la charge de la batterie __ici__.
-      battery_refresh: Refresh
+      battery_refresh: Rafraîchir
       developer_perks: Avantages pour les développeurs
       developer_perks_hint: Les options ci-dessous requièrent le __complément payant Developer__.
       device_credentials: Identifiants de l'appareil
@@ -188,8 +190,8 @@ fr:
       device_model_switch_warning: Cette opération est dangereuse, en savoir plus __ici__
       edit_device: Modifier l'appareil
       firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
+      firmware_updates_enabled: Mises à jour activées
+      firmware_updates_disabled: Mises à jour désactivées
       guest_mode: Mode invité
       guest_mode_hint: Choisissez ce qui s'affiche (et pendant combien de temps) quand le mode invité est activé.
       guest_mode_item_placeholder: Choisir un élément
@@ -204,30 +206,32 @@ fr:
       mirror: Synchroniser
       mirror_device: Synchroniser avec un autre appareil
       mirror_device_hint: Ajoutez un identifiant (partageable) pour synchroniser vos playlists avec un autre appareil. Vos playlists resteront toujours visibles.
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
+      mirror_disabled: Synchronisation désactivée
+      mirror_enabled: Synchronisation
       mirror_stop: Déconnecter la synchronisation
       mirror_sync: Synchroniser les écrans
       ota_enabled: Mises à jour OTA activées
       ota_enabled_hint: Installe automatiquement le nouveau firmware. Désactivez cette option si vous souhaitez utiliser votre propre firmware.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
+      ota_byod_not_supported: L'OTA n'est pas pris en charge pour les appareils BYOD. Flashez une version compatible directement depuis usetrmnl.com/flash
       maximum_compatibility: Activer la compatibilité maximale
       maximum_compatibility_hint: Résout les problèmes d'affichage causés par certaines puces de pilote e-ink. Désactive le rafraîchissement rapide. Firmware 1.6.0+ requis.
+      palette: Color Palette
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
       sleep_mode: Mode Veille
       sleep_mode_hint: Ajustez la fréquence de rafraîchissement pour réduire les distractions et augmenter l'autonomie de la batterie.
       sleep_screen: Écran de veille
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
+      sleep_screen_tooltip: Activez le mode veille pour utiliser cette fonctionnalité
       sleep_screen_hint: Affiche un écran de veille pendant les périodes de veille.
       special_function: Action spéciale
       special_function_hint: Définissez une action personnalisée pour le bouton situé à l'arrière de votre appareil.
       special_function_learn_more: En savoir plus sur les actions spéciales __ici__.
-      temperature_profile: Temperature Profile
-      temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
+      temperature_profile: Profil de température
+      temperature_profile_hint: Ne changez pas sauf instruction contraire. Pour les écrans aux images délavées.
+      tidbyt_credentials: Identifiants Tidbyt
+      tidbyt_credentials_hint: Entrez les identifiants API de votre appareil Tidbyt depuis l'app Tidbyt sous Paramètres → Développeur → Obtenir la clé API.
+      tidbyt_credentials_invalid: Les identifiants API Tidbyt sont invalides. Veuillez vérifier et réessayer.
+      tidbyt_device_id: ID de l'appareil
+      tidbyt_device_api_key: Clé API
       unlink: Dissocier
       unlink_confirm: Êtes-vous sûr ? Cela supprimera tous les paramètres de plugins et éléments de playlist sous-jacents, afin que l'appareil puisse être ajouté à un autre compte.
       unlink_device: Dissocier l'appareil
@@ -446,7 +450,7 @@ fr:
     delete: Cela va entièrement supprimer les paramètres du plugin. Pour simplement masquer le plugin de votre appareil, supprimez-le plutôt de la playlist.
     inactive: Inactif
     no_plugin_settings_found: Aucun paramètre pour le plugin trouvé.
-    not_supported: Not supported on current device
+    not_supported: Non pris en charge sur l'appareil actuel
     refreshing_now_please_wait: Actualisation en cours, veuillez recharger cette page dans quelques secondes.
     reset_credentials: Compte %{plugin_name} réinitialisé avec succès
     form:
@@ -466,17 +470,17 @@ fr:
       force_refresh_hint: Cette fonctionnalité est conçue pour du test seulement - prière de ne pas en abuser.
       force_refresh_click_here: Cliquez ici
       force_refresh_click_here_hint: pour générer un nouvel écran immédiatement
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      force_refresh_not_possible: Ce plugin ne peut pas être rafraîchi de force car le serveur TRMNL n'effectue pas le traitement d'image. Apprenez comment tester votre instance __ici__.
       learn_more: Plus d'informations sur ce plugin dans notre base de connaissances
       learn_more_fork: Ce plugin a été dupliqué à partir d'une Recette.
       learn_more_fork_original: Voir l'original
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
+      learn_more_native_long: Ce plugin est natif et maintenu par TRMNL.
+      learn_more_native_short: Ce plugin est maintenu par TRMNL.
       learn_more_recipe_author: Besoin d'aide ? Contactez %{recipe_author} sur Discord.
       learn_more_recipe_long: Ce plugin est une Recette communautaire et n'est pas maintenu par TRMNL.
       learn_more_recipe_short: 'Note : ce plugin est une Recette.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
+      learn_more_third_party_long: Ce plugin est tiers et n'est pas maintenu par TRMNL.
+      learn_more_third_party_short: 'Note : ce plugin est tiers.'
       linked_account: Compte lié
       linked_account_success: Lié avec succès à %{plugin_name}
       link_oauth: Lier un compte
@@ -491,31 +495,31 @@ fr:
       plugin_uuid_hint: Utilisez ceci pour effectuer des requêtes à l'API Webhook.
       preview: Prévisualisation - votre appareil affichera les données actuelles
       recipe_cta_heading_published: Ce plugin est une Recette
-      recipe_cta_heading_unlisted: This plugin is unlisted
+      recipe_cta_heading_unlisted: Ce plugin est non répertorié
       recipe_cta_heading_in_review: Recette en cours de validation
       recipe_cta_heading_not_published: Publier comme Recette ?
       recipe_cta_body_published: Les modifications seront appliquées aux installations existantes et futures (y compris les duplications).
       recipe_cta_body_in_review: Ce plugin a été soumis à notre équipe. Merci de patienter.
       recipe_cta_body_not_published: Soumettez ce plugin pour que d'autres puissent l'installer. __En savoir plus__.
       recipe_cta_confirm: Êtes-vous sûr ? Notre équipe va l'examiner et vous recontacter dans quelques jours. Vous pouvez continuer à apporter des modifications.
-      recipe_visibility_title: How would you like to publish?
-      recipe_visibility_edit_title: Edit Submission
+      recipe_visibility_title: Comment souhaitez-vous publier ?
+      recipe_visibility_edit_title: Modifier la soumission
       recipe_visibility_public: Public
-      recipe_visibility_public_hint: Anyone can find and install.
-      recipe_visibility_private: Private
-      recipe_visibility_private_hint: Breaks external installs.
-      recipe_visibility_unlisted: Unlisted
-      recipe_visibility_unlisted_hint: Anyone with the link can install.
+      recipe_visibility_public_hint: Tout le monde peut le trouver et l'installer.
+      recipe_visibility_private: Privé
+      recipe_visibility_private_hint: Interrompt les installations externes.
+      recipe_visibility_unlisted: Non répertorié
+      recipe_visibility_unlisted_hint: Toute personne disposant du lien peut l'installer.
       refresh_rate: Taux de rafraîchissement
       refresh_rate_hint: Définit la fréquence à laquelle cette instance de plugin récupérera les nouvelles données
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
+      refresh_rate_not_configurable: Synchronise %{refresh_rate} (non configurable)
       refreshed: Rafraîchi
       remove_plugin: Retirer le plugin
       remove_plugin_hint: Retirer un plugin le retirera aussi de votre playlist
       synced: Synchronisé
       refresh_paused: Rafraîchissement en pause
       refresh_paused_hint: Le rafraîchissement automatique est en pause. Ajoutez à la playlist pour recommencer.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
+      refresh_paused_hidden_hint: Le rafraîchissement auto est en pause car le plugin est masqué dans la playlist. La sync des données est active.
       refresh_paused_mashup: Rafraîchissement des combinaisons
       refresh_paused_mashup_hint: Rafraîchissement automatique en pause pour le plein écran. Les combinaisons se mettent à jour.
       refresh_stopped: Rafraîchissement automatique arrêté. Veuillez corriger l'erreur du plugin pour continuer.

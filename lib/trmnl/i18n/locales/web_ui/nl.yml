@@ -17,6 +17,7 @@ nl:
   charge_level: Laadniveau
   charged: opgeladen
   charging: Charging
+  claim_plus_trial: Claim 6 Months Free
   close: Sluiten
   confirm_change_password: Mijn wachtwoord wijzigen
   confirm_password: Bevestig nieuwe wachtwoord
@@ -119,6 +120,7 @@ nl:
       disable_2fa: 2FA uitschakelen
       disable_2fa_hint: Geef een geldig OTP en het huidige wachtwoord hierboven op om deze functie in te schakelen.
       plus_subscription: TRMNL+ Subscription
+      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
       plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
       plus_subscription_modify: Want to update your payment method or cancel?
       session: Sessie
@@ -213,6 +215,8 @@ nl:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Activeer Maximale Compatibiliteit
       maximum_compatibility_hint: Los scherm issues op met bepaalde e-ink driver chips. Zet snelle verversing uit. Firmware 1.6.0+ benodigd.
+      palette: Color Palette
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
       sleep_screen: Slaapscherm
@@ -364,7 +368,7 @@ nl:
       displayed_now: Nu getoond
       not_displayed_yet: Nog niet getoond
       remove_from_playlist: Verwijderen van afspeellijst
-      hide_playlist: Vergerg dit item
+      hide_playlist: Verberg dit item
       show_playlist: Toon dit item
     create:
       error: Bijwerken van afspeellijst is mislukt

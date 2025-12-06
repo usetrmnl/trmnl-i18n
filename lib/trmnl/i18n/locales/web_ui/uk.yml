@@ -17,6 +17,7 @@ uk:
   charge_level: Рівень заряду
   charged: заряджено
   charging: Charging
+  claim_plus_trial: Claim 6 Months Free
   close: Закрити
   confirm_change_password: Змінити мій пароль
   confirm_password: Новий пароль (повторно)
@@ -119,6 +120,7 @@ uk:
       disable_2fa: Disable 2FA
       disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
       plus_subscription: TRMNL+ Subscription
+      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
       plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
       plus_subscription_modify: Want to update your payment method or cancel?
       session: Сесія
@@ -213,6 +215,8 @@ uk:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      palette: Color Palette
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
       sleep_mode: Режим сну
       sleep_mode_hint: Налаштуйте частоту оновлення, щоб покращити концентрацію та час роботи батареї.
       sleep_screen: Sleep Screen
