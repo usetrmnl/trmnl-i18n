@@ -66,6 +66,7 @@ ko:
   privacy: Privacy
   refresh_rates_hint: 리프레시률이 어떻게 작용되는지 알아보려면 __여기__를 누르세요.
   reset_password: 비밀번호 재설정
+  reset_to_defaults: Reset to defaults
   required: Required
   save: 저장
   shown: shown
@@ -188,6 +189,12 @@ ko:
       device_model: 디바이스 모델
       device_model_hint: 당신의 하드웨어 디바이스 모델
       device_model_switch_warning: 이 작업은 위험합니다. 더 알아보려면 __여기__를 누르세요.
+      display_calibration: Display Calibration
+      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
+      display_calibration_pixel_ratio: Pixel Ratio
+      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default: %{default}'
+      display_calibration_ui_scale: UI Scale
+      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default: %{default}'
       edit_device: 기기 수정
       firmware: Firmware
       firmware_updates_enabled: Updates enabled

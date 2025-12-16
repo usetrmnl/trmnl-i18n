@@ -66,6 +66,7 @@ en:
   privacy: Privacy
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Reset my password
+  reset_to_defaults: Reset to defaults
   required: Required
   save: Save
   shown: shown
@@ -188,6 +189,12 @@ en:
       device_model: Device Model
       device_model_hint: Your hardware Model
       device_model_switch_warning: This is a dangerous operation, learn more __here__
+      display_calibration: Display Calibration
+      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
+      display_calibration_pixel_ratio: Pixel Ratio
+      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default: %{default}'
+      display_calibration_ui_scale: UI Scale
+      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default: %{default}'
       edit_device: Edit Device
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
