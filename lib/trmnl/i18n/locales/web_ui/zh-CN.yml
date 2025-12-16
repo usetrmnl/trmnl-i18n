@@ -66,6 +66,7 @@ zh-CN:
   privacy: 隐私
   refresh_rates_hint: 点击 __此处__ 了解刷新频次。
   reset_password: 重置密码
+  reset_to_defaults: Reset to defaults
   required: 必填
   save: 保存
   shown: 显示
@@ -188,6 +189,12 @@ zh-CN:
       device_model: 设备型号
       device_model_hint: 您的设备型号
       device_model_switch_warning: 这是一个危险操作，__了解详情__。
+      display_calibration: Display Calibration
+      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
+      display_calibration_pixel_ratio: Pixel Ratio
+      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default: %{default}'
+      display_calibration_ui_scale: UI Scale
+      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default: %{default}'
       edit_device: 修改设备
       firmware: 固件
       firmware_updates_enabled: 更新已启用
