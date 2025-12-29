@@ -25,6 +25,50 @@ raw:
         waning_gibbous: renders.lunar_calendar.moon_phases.waning_gibbous
         third_quarter: renders.lunar_calendar.moon_phases.third_quarter
         waning_crescent: renders.lunar_calendar.moon_phases.waning_crescent
+    netatmo_weather_station:
+      title: renders.netatmo_weather_station.title
+      title_short: renders.netatmo_weather_station.title_short
+      indoor_temp: renders.netatmo_weather_station.indoor_temp
+      indoor_temp_short: renders.netatmo_weather_station.indoor_temp_short
+      indoor_humidity: renders.netatmo_weather_station.indoor_humidity
+      indoor_humidity_short: renders.netatmo_weather_station.indoor_humidity_short
+      outdoor_humidity: renders.netatmo_weather_station.outdoor_humidity
+      outdoor_humidity_short: renders.netatmo_weather_station.outdoor_humidity_short
+      co2: renders.netatmo_weather_station.co2
+      co2_ppm: renders.netatmo_weather_station.co2_ppm
+      pressure: renders.netatmo_weather_station.pressure
+      noise: renders.netatmo_weather_station.noise
+      feels_like: renders.netatmo_weather_station.feels_like
+      feels: renders.netatmo_weather_station.feels
+      rain: renders.netatmo_weather_station.rain
+      wind: renders.netatmo_weather_station.wind
+      gust: renders.netatmo_weather_station.gust
+      default_station_name: renders.netatmo_weather_station.default_station_name
+      default_outdoor_module: renders.netatmo_weather_station.default_outdoor_module
+      default_indoor_module: renders.netatmo_weather_station.default_indoor_module
+      trends_title: renders.netatmo_weather_station.trends_title
+      trends_title_short: renders.netatmo_weather_station.trends_title_short
+      temperature_trends: renders.netatmo_weather_station.temperature_trends
+      temperature_trends_short: renders.netatmo_weather_station.temperature_trends_short
+      outdoor_now: renders.netatmo_weather_station.outdoor_now
+      indoor_now: renders.netatmo_weather_station.indoor_now
+      now: renders.netatmo_weather_station.now
+      low_high_24h: renders.netatmo_weather_station.low_high_24h
+      average_24h: renders.netatmo_weather_station.average_24h
+      outdoor: renders.netatmo_weather_station.outdoor
+      indoor: renders.netatmo_weather_station.indoor
+      rain_gauge_not_connected: renders.netatmo_weather_station.rain_gauge_not_connected
+      wind_gauge_not_connected: renders.netatmo_weather_station.wind_gauge_not_connected
+      no_rain_gauge: renders.netatmo_weather_station.no_rain_gauge
+      no_wind_gauge: renders.netatmo_weather_station.no_wind_gauge
+      add_module_hint: renders.netatmo_weather_station.add_module_hint
+      range_24h: renders.netatmo_weather_station.range_24h
+      errors:
+        missing_access_token: renders.netatmo_weather_station.errors.missing_access_token
+        no_station_selected: renders.netatmo_weather_station.errors.no_station_selected
+        connection_failed: renders.netatmo_weather_station.errors.connection_failed
+        data_retrieval_failed: renders.netatmo_weather_station.errors.data_retrieval_failed
+        session_expired: renders.netatmo_weather_station.errors.session_expired
     parcel:
       delivery_by: parcel.delivery_by
       empty: parcel.empty
