@@ -26,49 +26,49 @@ de-AT:
         third_quarter: letztes Viertel
         waning_crescent: abn. Sichel
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo-Wetter
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Innen-Temp.
+      indoor_temp_short: Innen
+      indoor_humidity: Innen-Feuchtigkeit
+      indoor_humidity_short: Innen-Feucht.
+      outdoor_humidity: Außen-Feuchtigkeit
+      outdoor_humidity_short: Außen-Feucht.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      feels_like: Feels Like
-      feels: Feels
-      rain: Rain
+      pressure: Druck
+      noise: Geräuschpegel
+      feels_like: Gefühlt
+      feels: Gefühlt
+      rain: Regen
       wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      gust: Böen
+      default_station_name: Netatmo-Station
+      default_outdoor_module: Außen-Temp.
+      default_indoor_module: Innen
+      trends_title: '%{metric} Verlauf'
+      trends_title_short: Verlauf
+      temperature_trends: Temperaturverlauf
+      temperature_trends_short: Temp.verl.
+      outdoor_now: Außen jetzt
+      indoor_now: Innen jetzt
+      now: jetzt
+      low_high_24h: 24h min/max
+      average_24h: 24h-Durchschnitt
+      outdoor: Außen
+      indoor: Innen
+      rain_gauge_not_connected: Regenmesser nicht verbunden
+      wind_gauge_not_connected: Windmesser nicht verbunden
+      no_rain_gauge: Kein Regenmesser
+      no_wind_gauge: Kein Windmesser
+      add_module_hint: Füge das optionale %{module}-Modul hinzu, um diese Daten zu sehen
+      range_24h: 24h Spanne
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Zugriffstoken fehlt. Bitte verbinde dein Netatmo-Konto erneut.
+        no_station_selected: Keine Wetterstation ausgewählt. Bitte wähle eine Station in den Einstellungen.
+        connection_failed: Verbindung zur Netatmo-Station fehlgeschlagen. Bitte überprüfe deine Internetverbindung.
+        data_retrieval_failed: Wetterdaten konnten nicht abgerufen werden. Bitte später erneut versuchen.
+        session_expired: Sitzung abgelaufen. Bitte verbinde dein Netatmo-Konto erneut in den Einstellungen.
     parcel:
       delivery_by: Lieferung bis
       empty: Es gibt keine Lieferungen
@@ -114,148 +114,4 @@ de-AT:
           high: hoch
           very_high: sehr hoch
           extreme: extrem
-        conditions:
-        - code: 1000
-          day: sonnig
-          night: klar
-        - code: 1003
-          day: teilweise bewölkt
-          night: teilweise bewölkt
-        - code: 1006
-          day: bewölkt
-          night: bewölkt
-        - code: 1009
-          day: bedeckt
-          night: bedeckt
-        - code: 1030
-          day: Dunst
-          night: Dunst
-        - code: 1063
-          day: leichter Regen
-          night: leichter Regen
-        - code: 1066
-          day: leichter Schneefall
-          night: leichter Schneefall
-        - code: 1069
-          day: Nieselregen
-          night: Nieselregen
-        - code: 1072
-          day: Schneeregen
-          night: Schneeregen
-        - code: 1087
-          day: Gewitter
-          night: Gewitter
-        - code: 1114
-          day: Schneeverwehungen
-          night: Schneeverwehungen
-        - code: 1117
-          day: Schneesturm
-          night: Schneesturm
-        - code: 1135
-          day: Nebel
-          night: Nebel
-        - code: 1147
-          day: gefrierender Nebel
-          night: gefrierender Nebel
-        - code: 1150
-          day: leichter Nieselregen
-          night: leichter Nieselregen
-        - code: 1153
-          day: Nieselregen
-          night: Nieselregen
-        - code: 1168
-          day: gefrierender Nieselregen
-          night: gefrierender Nieselregen
-        - code: 1171
-          day: starker Gefrierregen
-          night: starker Gefrierregen
-        - code: 1180
-          day: leichter Regen
-          night: leichter Regen
-        - code: 1183
-          day: leichter Regen
-          night: leichter Regen
-        - code: 1186
-          day: mäßiger Regen
-          night: mäßiger Regen
-        - code: 1189
-          day: mäßiger Regen
-          night: mäßiger Regen
-        - code: 1192
-          day: starker Regen
-          night: starker Regen
-        - code: 1195
-          day: starker Regen
-          night: starker Regen
-        - code: 1198
-          day: leichter Gefrierregen
-          night: leichter Gefrierregen
-        - code: 1201
-          day: starker Gefrierregen
-          night: starker Gefrierregen
-        - code: 1204
-          day: leichter Schneeregen
-          night: leichter Schneeregen
-        - code: 1207
-          day: starker Schneeregen
-          night: starker Schneeregen
-        - code: 1210
-          day: leichter Schneefall
-          night: leichter Schneefall
-        - code: 1213
-          day: leichter Schneefall
-          night: leichter Schneefall
-        - code: 1216
-          day: mäßiger Schneefall
-          night: mäßiger Schneefall
-        - code: 1219
-          day: mäßiger Schneefall
-          night: mäßiger Schneefall
-        - code: 1222
-          day: starker Schneefall
-          night: starker Schneefall
-        - code: 1225
-          day: starker Schneefall
-          night: starker Schneefall
-        - code: 1237
-          day: Eiskörner
-          night: Eiskörner
-        - code: 1240
-          day: leichter Regen
-          night: leichter Regen
-        - code: 1243
-          day: starker Regen
-          night: starker Regen
-        - code: 1246
-          day: Wolkenbruch
-          night: Wolkenbruch
-        - code: 1249
-          day: leichter Schneeregen
-          night: leichter Schneeregen
-        - code: 1252
-          day: starker Schneeregen
-          night: starker Schneeregen
-        - code: 1255
-          day: leichter Schneefall
-          night: leichter Schneefall
-        - code: 1258
-          day: starker Schneefall
-          night: starker Schneefall
-        - code: 1261
-          day: leichter Eisregen
-          night: leichter Eisregen
-        - code: 1264
-          day: starker Eisregen
-          night: starker Eisregen
-        - code: 1273
-          day: Gewitter mit Regen
-          night: Gewitter mit Regen
-        - code: 1276
-          day: Gewitter mit Regen
-          night: Gewitter mit Regen
-        - code: 1279
-          day: Gewitter mit Schnee
-          night: Gewitter mit Schnee
-        - code: 1282
-          day: Gewitter mit Schnee
-          night: Gewitter mit Schnee
+        conditions: '[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]'
