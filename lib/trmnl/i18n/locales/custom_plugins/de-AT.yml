@@ -20,35 +20,174 @@ de-AT:
       minutes: Min.
       refreshed: aktualisiert
     simple_calendar:
-      title: Kalender
-      ym_format: '%B %Y'
+      title: Calendar
+      ym_format: "%B %Y"
       chinese_korean:
         leap_format: Schaltmonat %{month_label}
         leap_format_short: LM%{alt_month}
         ym_format: ', %{leap_month_label} %{heavenly_stem} %{earthly_branch}'
-        month_labels: ',M1,M2,M3,M4,M5,M6,M7,M8,M9,M10,M11,M12'
-        date_labels: ',1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30'
-        heavenly_stems: Holz,Holz,Feuer,Feuer,Erde,Erde,Metall,Metall,Wasser,Wasser
-        earthly_branches: Ratte,Ochse,Tiger,Hase,Drache,Schlange,Pferd,Ziege,Affe,Hahn,Hund,Schwein
+        month_labels:
+        -
+        - M1
+        - M2
+        - M3
+        - M4
+        - M5
+        - M6
+        - M7
+        - M8
+        - M9
+        - M10
+        - M11
+        - M12
+        date_labels:
+        -
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+        - '14'
+        - '15'
+        - '16'
+        - '17'
+        - '18'
+        - '19'
+        - '20'
+        - '21'
+        - '22'
+        - '23'
+        - '24'
+        - '25'
+        - '26'
+        - '27'
+        - '28'
+        - '29'
+        - '30'
+        heavenly_stems:
+        - Holz
+        - Holz
+        - Feuer
+        - Feuer
+        - Erde
+        - Erde
+        - Metall
+        - Metall
+        - Wasser
+        - Wasser
+        earthly_branches:
+        - Ratte
+        - Ochse
+        - Tiger
+        - Hase
+        - Drache
+        - Schlange
+        - Pferd
+        - Ziege
+        - Affe
+        - Hahn
+        - Huhn
+        - Schwein
       japanese:
-        rokuyo_terms: 先勝,友引,先負,仏滅,大安,赤口
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 仏滅
+        - 大安
+        - 赤口
         nengo:
           reiwa: Reiwa
-        ym_format: '%B %Y (%{nengo} %{alt_year})'
+        ym_format: "%B %Y (%{nengo} %{alt_year})"
         year_1: '1'
       hebrew:
-        ym_format: ', %{month_label} %{alt_year}'
-        month_labels: Nisan,Ijjar,Siwan,Tammus,Aw,Elul,Tischri,Cheschwan,Kislew,Tevet,Schevat,Adar,Adar I,Adar II
-        month_labels_abbr: Nis,Ija,Siw,Tam,Av,Elu,Tis,Che,Kis,Tev,Schv,Ada,Ad1,Ad2
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        - Nisan
+        - Iyar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tishri
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
+        month_labels_abbr:
+        - Nis
+        - Iya
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tis
+        - Hes
+        - Kis
+        - Tev
+        - Shv
+        - Ada
+        - Ad1
+        - Ad2
       hijri:
-        ym_format: ', %{month_label} %{alt_year}'
-        month_labels: ',Muharram,Safar,Rabiʻ I,Rabiʻ II,Dschumada I,Dschumada II,Radschab,Shaʻban,Ramadan,Shawwal,Dhu l-qaʻda,Dhu l-Hiddscha'
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Muharram
+        - Safar
+        - Rabiʻ I
+        - Rabiʻ II
+        - Jumada I
+        - Jumada II
+        - Rajab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
+        - Dhuʻl-Qiʻdah
+        - Dhuʻl-Hijjah
       bengali:
-        ym_format: ', %{month_label} %{alt_year}'
-        month_labels: ',Boishakh,Joishtho,Asharh,Srabon,Bhadro,Ashwin,Kartika,Ogrohayon,Poush,Magh,Falgun,Choitro'
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
       indian:
-        ym_format: ', %{month_label} %{alt_year}'
-        month_labels: ',Chaitra,Vaisakha,Jyaishtha,Ashadha,Sravana,Bhadrapada,Ashvina,Kartika,Margasirsha,Pausha,Magha,Phalguna'
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
+        - Asadha
+        - Sravana
+        - Bhadra
+        - Asvina
+        - Kartika
+        - Agrahayana
+        - Pausa
+        - Magha
+        - Phalguna
     public_recipe_stats:
       connections: .input {$value :number} .match $value one {{{$value :number} Verbindung}} * {{{$value :number} Verbindungen}}
       forks: .input {$value :number} .match $value one {{{$value :number} fork}} * {{{$value :number} forks}}
