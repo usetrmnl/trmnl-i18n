@@ -64,6 +64,7 @@ da:
   plugin_not_found: Plugin ikke fundet
   preview: Preview
   privacy: Privacy
+  refresh_rate: Refresh rate
   refresh_rates_hint: Lær hvordan opdateringshastigheder fungerer __her__.
   reset_password: Nulstil min adgangskode
   reset_to_defaults: Reset to defaults
@@ -377,6 +378,12 @@ da:
       remove_from_playlist: Fjern fra playliste
       hide_playlist: Skjul dette element
       show_playlist: Vis dette element
+      refresh_rate_disabled:
+        default: This plugin's refresh rate cannot be configured.
+        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
+        global: This plugin gets refreshed platform-wide on a fixed schedule.
+        mashup: The mashup will refresh as often as its fastest plugin.
+        readonly: This plugin has a fixed refresh rate that cannot be configured.
     create:
       error: Fejl ved opdatering af playliste
       success: Playliste opdateret
