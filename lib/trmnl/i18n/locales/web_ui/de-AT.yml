@@ -64,6 +64,7 @@ de-AT:
   plugin_not_found: Erweiterung nicht gefunden
   preview: Vorschau
   privacy: Datenschutz
+  refresh_rate: Refresh rate
   refresh_rates_hint: Weitere Informationen zur Aktualisierungsrate __hier__.
   reset_password: Passwort zurücksetzen
   reset_to_defaults: Auf Standard zurücksetzen
@@ -87,7 +88,7 @@ de-AT:
   welcome: Willkommen
   time:
     formats:
-      shorter: '%-H:%M'
+      shorter: "%-H:%M"
     start_of_week: '1'
   account:
     index:
@@ -96,7 +97,7 @@ de-AT:
       api_key_confirm: Bist du sicher, dass du deinen API-Schlüssel neu generieren willst? Der alte Schlüssel ist danach ungültig.
       api_key_hint: Lies in der __Dokumentation__ nach, wie du deine eigene Entwicklungsumgebung aufsetzt.
       api_key_label: Anmeldedaten, um sich mit lokaler Entwicklungsumgebung anzumelden
-      api_key_not_generated: (bisher keiner)
+      api_key_not_generated: "(bisher keiner)"
       api_key_reset: Neu generieren
       api_key: API-Schlüssel
       beta_features: Beta-Funktionen
@@ -377,6 +378,12 @@ de-AT:
       remove_from_playlist: Von Wiedergabeliste entfernen
       hide_playlist: Eintrag verstecken
       show_playlist: Eintrag anzeigen
+      refresh_rate_disabled:
+        default: This plugin's refresh rate cannot be configured.
+        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
+        global: This plugin gets refreshed platform-wide on a fixed schedule.
+        mashup: The mashup will refresh as often as its fastest plugin.
+        readonly: This plugin has a fixed refresh rate that cannot be configured.
     create:
       error: Fehler beim Aktualisieren der Wiedergabeliste
       success: Wiedergabeliste aktualisiert
@@ -468,15 +475,15 @@ de-AT:
       connect_with: Verbinden mit %{plugin}
       debug_logs: Debug-Protokolle
       debug_logs_click_here: Hier klicken
-      debug_logs_click_here_hint: ', um Debugging-Logdateien für diese Erweiterungs-Instanz anzuschalten.'
+      debug_logs_click_here_hint: ", um Debugging-Logdateien für diese Erweiterungs-Instanz anzuschalten."
       debug_logs_enabled: Debugging-Logdateien wurden für %{hours} Stunden angeschaltet.
       debug_logs_enabled_link: Logs anschauen
       disconnect_account: Account trennen
-      manage_plugin: '%{plugin} konfigurieren'
+      manage_plugin: "%{plugin} konfigurieren"
       force_refresh: Aktualisierung erzwingen
       force_refresh_hint: Diese Funktion dient lediglich zu Testzwecken. Bitte umsichtig verwenden!
       force_refresh_click_here: Hier klicken
-      force_refresh_click_here_hint: ', um die Anzeige sofort zu aktualisieren.'
+      force_refresh_click_here_hint: ", um die Anzeige sofort zu aktualisieren."
       force_refresh_not_possible: Die Anzeige kann nicht aktualisiert werden, weil der TRMNL-Server keine Bildverarbeitung durchführt. Erfahre __hier__, wie du deine Instanz testen kannst.
       learn_more: Mehr Informationen zur Erweiterung in unserer Wissensdatenbank
       learn_more_fork: Diese Erweiterung ist von einer Blaupause geforkt worden.
@@ -534,8 +541,8 @@ de-AT:
     import:
       archive_too_large: ZIP-Datei ist zu groß (maximal %{max_mb} MB)
       missing_entry: Die ZIP-Datei enthält nicht %{filename}
-      entry_too_large: '%{filename} ist zu groß'
-      malformed: '%{filename} ist fehlerhaft'
+      entry_too_large: "%{filename} ist zu groß"
+      malformed: "%{filename} ist fehlerhaft"
     create:
       success: Erweiterung erstellt und hinzugefügt zur
       playlist: Wiedergabeliste

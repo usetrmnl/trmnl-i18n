@@ -64,6 +64,7 @@ ko:
   plugin_not_found: 플러그인을 찾을 수 없음
   preview: Preview
   privacy: Privacy
+  refresh_rate: Refresh rate
   refresh_rates_hint: 리프레시률이 어떻게 작용되는지 알아보려면 __여기__를 누르세요.
   reset_password: 비밀번호 재설정
   reset_to_defaults: Reset to defaults
@@ -377,6 +378,12 @@ ko:
       remove_from_playlist: 플레이리스트에서 삭제
       hide_playlist: Hide this item
       show_playlist: Show this item
+      refresh_rate_disabled:
+        default: This plugin's refresh rate cannot be configured.
+        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
+        global: This plugin gets refreshed platform-wide on a fixed schedule.
+        mashup: The mashup will refresh as often as its fastest plugin.
+        readonly: This plugin has a fixed refresh rate that cannot be configured.
     create:
       error: 플레이리스트 업데이트 실패
       success: 플레이리스트가 업데이트 되었습니다

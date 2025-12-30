@@ -64,6 +64,7 @@ zh-HK:
   plugin_not_found: 找不到外掛
   preview: 預覽
   privacy: 私隱
+  refresh_rate: Refresh rate
   refresh_rates_hint: __按此__了解重新整理頻率如何運作。
   reset_password: 重設密碼
   reset_to_defaults: Reset to defaults
@@ -377,6 +378,12 @@ zh-HK:
       remove_from_playlist: 從播放清單中移除
       hide_playlist: 隱藏此項目
       show_playlist: 顯示此項目
+      refresh_rate_disabled:
+        default: This plugin's refresh rate cannot be configured.
+        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
+        global: This plugin gets refreshed platform-wide on a fixed schedule.
+        mashup: The mashup will refresh as often as its fastest plugin.
+        readonly: This plugin has a fixed refresh rate that cannot be configured.
     create:
       error: 更新播放清單時發生錯誤
       success: 已更新播放清單
