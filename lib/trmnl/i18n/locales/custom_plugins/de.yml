@@ -23,7 +23,7 @@ de:
       title: Kalender
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Leap %{month_label}
+        leap_format: Schaltmonat %{month_label}
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
@@ -73,29 +73,29 @@ de:
         - '29'
         - '30'
         heavenly_stems:
-        - Wood
-        - Wood
-        - Fire
-        - Fire
-        - Earth
-        - Earth
-        - Metal
-        - Metal
-        - Water
-        - Water
+        - Holz
+        - Holz
+        - Feuer
+        - Feuer
+        - Erde
+        - Erde
+        - Metall
+        - Metall
+        - Wasser
+        - Wasser
         earthly_branches:
-        - Rat
-        - Ox
+        - Ratte
+        - Ochse
         - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
+        - Hase
+        - Drache
+        - Schlange
+        - Pferd
+        - Ziege
+        - Affe
+        - Hahn
+        - Huhn
+        - Schwein
       japanese:
         rokuyo_terms:
         - 先勝
@@ -193,17 +193,17 @@ de:
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} * {{{$value :number} forks}}"
       installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
       and_more: und {$value :number} weitere
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: Kein Ergebnis für “{$keyword}”.
+      error_keyword_subtitle: Versuche es mit einem anderen Suchbegriff.
+      error_new_title: Keine neue Blaupause gefunden.
+      error_new_subtitle: Das sollte nicht passieren.
+      error_self_title: Du hast noch keine Blaupause veröffentlicht.
+      error_self_subtitle: 'Erfahre, wie du deine erste Erweiterung veröffentlichen kannst: https://help.usetrmnl.com/en/articles/9510536-private-plugins'
+      error_author_id_title: 'Der Benutzer #{$authorId} hat keine Blaupause veröffentlicht.'
+      error_author_id_subtitle: Keine Blaupause mit dieser ID gefunden.
+      error_recipe_ids_title: Keine Blaupausen-ID gefunden.
+      error_recipe_ids_subtitle: Füge eine Blaupausen-ID hinzu, um loszulegen.
     horizontal_world_clock:
-      name: World clock
+      name: Weltzeituhr
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} bis {$to :langNameList}"

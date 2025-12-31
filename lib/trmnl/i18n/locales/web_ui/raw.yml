@@ -64,6 +64,7 @@ raw:
   plugin_not_found: plugin_not_found
   preview: preview
   privacy: privacy
+  refresh_rate: refresh_rate
   refresh_rates_hint: refresh_rates_hint __here__.
   reset_password: reset_password
   reset_to_defaults: reset_to_defaults
@@ -377,6 +378,12 @@ raw:
       remove_from_playlist: playlists.playlist.remove_from_playlist
       hide_playlist: playlists.playlist.hide_playlist
       show_playlist: playlists.playlist.show_playlist
+      refresh_rate_disabled:
+        default: playlist_items.playlist_item.refresh_rate_disabled.default
+        external: playlist_items.playlist_item.refresh_rate_disabled.external
+        global: playlist_items.playlist_item.refresh_rate_disabled.global
+        mashup: playlist_items.playlist_item.refresh_rate_disabled.mashup
+        readonly: playlist_items.playlist_item.refresh_rate_disabled.readonly
     create:
       error: playlists.create.error
       success: playlists.create.success

@@ -64,6 +64,7 @@ zh-CN:
   plugin_not_found: 未发现插件
   preview: 预览
   privacy: 隐私
+  refresh_rate: Refresh rate
   refresh_rates_hint: 点击 __此处__ 了解刷新频次。
   reset_password: 重置密码
   reset_to_defaults: Reset to defaults
@@ -377,6 +378,12 @@ zh-CN:
       remove_from_playlist: 从播放列表中删除
       hide_playlist: 隐藏此项
       show_playlist: 显示此项
+      refresh_rate_disabled:
+        default: This plugin's refresh rate cannot be configured.
+        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
+        global: This plugin gets refreshed platform-wide on a fixed schedule.
+        mashup: The mashup will refresh as often as its fastest plugin.
+        readonly: This plugin has a fixed refresh rate that cannot be configured.
     create:
       error: 创建播放列表错误
       success: 播放列表创建成功

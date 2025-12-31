@@ -25,6 +25,50 @@ de-AT:
         waning_gibbous: abnehmend
         third_quarter: letztes Viertel
         waning_crescent: abn. Sichel
+    netatmo_weather_station:
+      title: Netatmo-Wetter
+      title_short: Netatmo
+      indoor_temp: Innen-Temp.
+      indoor_temp_short: Innen
+      indoor_humidity: Innen-Feuchtigkeit
+      indoor_humidity_short: Innen-Feucht.
+      outdoor_humidity: Außen-Feuchtigkeit
+      outdoor_humidity_short: Außen-Feucht.
+      co2: CO₂
+      co2_ppm: CO₂ ppm
+      pressure: Druck
+      noise: Geräuschpegel
+      feels_like: Gefühlt
+      feels: Gefühlt
+      rain: Regen
+      wind: Wind
+      gust: Böen
+      default_station_name: Netatmo-Station
+      default_outdoor_module: Außen-Temp.
+      default_indoor_module: Innen
+      trends_title: "%{metric} Verlauf"
+      trends_title_short: Verlauf
+      temperature_trends: Temperaturverlauf
+      temperature_trends_short: Temp.verl.
+      outdoor_now: Außen jetzt
+      indoor_now: Innen jetzt
+      now: jetzt
+      low_high_24h: 24h min/max
+      average_24h: 24h-Durchschnitt
+      outdoor: Außen
+      indoor: Innen
+      rain_gauge_not_connected: Regenmesser nicht verbunden
+      wind_gauge_not_connected: Windmesser nicht verbunden
+      no_rain_gauge: Kein Regenmesser
+      no_wind_gauge: Kein Windmesser
+      add_module_hint: Füge das optionale %{module}-Modul hinzu, um diese Daten zu sehen
+      range_24h: 24h Spanne
+      errors:
+        missing_access_token: Zugriffstoken fehlt. Bitte verbinde dein Netatmo-Konto erneut.
+        no_station_selected: Keine Wetterstation ausgewählt. Bitte wähle eine Station in den Einstellungen.
+        connection_failed: Verbindung zur Netatmo-Station fehlgeschlagen. Bitte überprüfe deine Internetverbindung.
+        data_retrieval_failed: Wetterdaten konnten nicht abgerufen werden. Bitte später erneut versuchen.
+        session_expired: Sitzung abgelaufen. Bitte verbinde dein Netatmo-Konto erneut in den Einstellungen.
     parcel:
       delivery_by: Lieferung bis
       empty: Es gibt keine Lieferungen

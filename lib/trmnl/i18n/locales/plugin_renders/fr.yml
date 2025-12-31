@@ -25,6 +25,50 @@ fr:
         waning_gibbous: Lune gibbeuse décroissante
         third_quarter: Dernier quartier
         waning_crescent: Dernier croissant
+    netatmo_weather_station:
+      title: Station météo Netatmo
+      title_short: Netatmo
+      indoor_temp: Température intérieure
+      indoor_temp_short: Temp. intér.
+      indoor_humidity: Humidité intérieure
+      indoor_humidity_short: Hum. intér.
+      outdoor_humidity: Humidité extérieure
+      outdoor_humidity_short: Hum. extér.
+      co2: CO₂
+      co2_ppm: CO₂ ppm
+      pressure: Pression
+      noise: Bruit
+      feels_like: Ressenti
+      feels: Ressenti
+      rain: Pluie
+      wind: Vent
+      gust: Rafales
+      default_station_name: Station Netatmo
+      default_outdoor_module: Extérieur
+      default_indoor_module: Intérieur
+      trends_title: Tendances – %{metric}
+      trends_title_short: Tendances
+      temperature_trends: Tendances de température
+      temperature_trends_short: Tend. temp.
+      outdoor_now: Extérieur – maintenant
+      indoor_now: Intérieur – maintenant
+      now: Maintenant
+      low_high_24h: Min / Max sur 24h
+      average_24h: Moyenne sur 24h
+      outdoor: Extérieur
+      indoor: Intérieur
+      rain_gauge_not_connected: Pluviomètre non connecté
+      wind_gauge_not_connected: Anémomètre non connecté
+      no_rain_gauge: Aucun pluviomètre
+      no_wind_gauge: Aucun anémomètre
+      add_module_hint: Ajoutez le module optionnel %{module} pour afficher ces données
+      range_24h: Plage sur 24h
+      errors:
+        missing_access_token: Jeton d'accès manquant. Veuillez reconnecter votre compte Netatmo.
+        no_station_selected: Aucune station météo sélectionnée. Veuillez en choisir une dans les paramètres.
+        connection_failed: Impossible de se connecter à la station Netatmo. Vérifiez votre connexion Internet.
+        data_retrieval_failed: Impossible de récupérer les données météo. Veuillez réessayer plus tard.
+        session_expired: Session expirée. Veuillez reconnecter votre compte Netatmo dans les paramètres.
     parcel:
       delivery_by: Livraison par
       empty: Aucune livraison

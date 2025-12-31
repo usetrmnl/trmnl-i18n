@@ -64,6 +64,7 @@ ja:
   plugin_not_found: プラグインが見つかりません
   preview: Preview
   privacy: Privacy
+  refresh_rate: Refresh rate
   refresh_rates_hint: リフレッシュレートの仕組みについては__こちら__をご覧ください。
   reset_password: パスワードをリセット
   reset_to_defaults: Reset to defaults
@@ -377,6 +378,12 @@ ja:
       remove_from_playlist: プレイリストから削除
       hide_playlist: Hide this item
       show_playlist: Show this item
+      refresh_rate_disabled:
+        default: This plugin's refresh rate cannot be configured.
+        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
+        global: This plugin gets refreshed platform-wide on a fixed schedule.
+        mashup: The mashup will refresh as often as its fastest plugin.
+        readonly: This plugin has a fixed refresh rate that cannot be configured.
     create:
       error: プレイリストの更新に失敗しました
       success: プレイリストが更新されました
