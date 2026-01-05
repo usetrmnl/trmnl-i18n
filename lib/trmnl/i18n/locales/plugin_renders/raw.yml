@@ -107,6 +107,25 @@ raw:
       right_now: weather.right_now
       today: weather.today
       tomorrow: weather.tomorrow
+      low_high_short: weather.low_high_short
+      uv_short: weather.uv_short
+      max: weather.max
+      tempest:
+        conditions:
+          clear: renders.weather.tempest.conditions.clear
+          cloudy: renders.weather.tempest.conditions.cloudy
+          foggy: renders.weather.tempest.conditions.foggy
+          partly_cloudy: renders.weather.tempest.conditions.partly_cloudy
+          rain_likely: renders.weather.tempest.conditions.rain_likely
+          rain_possible: renders.weather.tempest.conditions.rain_possible
+          snow: renders.weather.tempest.conditions.snow
+          snow_possible: renders.weather.tempest.conditions.snow_possible
+          thunderstorms_likely: renders.weather.tempest.conditions.thunderstorms_likely
+          thunderstorms_possible: renders.weather.tempest.conditions.thunderstorms_possible
+          very_light_rain: renders.weather.tempest.conditions.very_light_rain
+          windy: renders.weather.tempest.conditions.windy
+          wintry_mix_likely: renders.weather.tempest.conditions.wintry_mix_likely
+          wintry_mix_possible: renders.weather.tempest.conditions.wintry_mix_possible
       weatherapi:
         uv:
           low: renders.weather.weatherapi.uv.low
