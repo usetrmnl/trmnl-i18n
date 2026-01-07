@@ -7,6 +7,9 @@ raw:
     activity: custom_plugins.activity
     done: custom_plugins.done
     due: custom_plugins.due
+    month_progress:
+      passed_days: "custom_plugins.month_progress.passed_days"
+      remaining_days: "custom_plugins.month_progress.remaining_days"
     deutsche_bahn_departures:
       departures: Departures
       time: Time
