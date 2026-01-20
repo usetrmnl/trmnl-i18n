@@ -191,19 +191,19 @@ pl:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} połączenie}} few {{{$value :number} połączenia}} many {{{$value :number} połączeń}} * {{{$value :number} połączenia}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} few {{{$value :number} forki}} many {{{$value :number} forków}} * {{{$value :number} forki}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Brak instalacji}} one {{{$value :number} instalacja}} * {{{$value :number} instalacji}}"
       and_more: i {$value :number} więcej
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: "nie znaleziono wyrażen pasujących do “{$keyword}”"
+      error_keyword_subtitle: Spróbuj wyszukać coś innego.
+      error_new_title: Nie znaleziono nowej receptury.
+      error_new_subtitle: To się nie powinno zdarzyć.
+      error_self_title: Żadna receptura nie została opublikowana.
+      error_self_subtitle: "Sprawdź, jak możesz opublikować pierwszą recepturę tutaj: https://help.usetrmnl.com/en/articles/9510536-private-plugins "
+      error_author_id_title: 'Użytkownik #{$authorId} nie opublikował żadnej receptury.'
+      error_author_id_subtitle: Nie znaleziono żadnej receptury powiązanej z tym ID.
+      error_recipe_ids_title: Nie znaleziono receptury o takim ID.
+      error_recipe_ids_subtitle: Dodaj ID receptury, aby zacząć.
     horizontal_world_clock:
-      name: World clock
+      name: Zegar światowy
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} -> {$to :langNameList}"

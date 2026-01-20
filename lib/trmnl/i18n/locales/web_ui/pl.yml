@@ -67,7 +67,7 @@ pl:
   refresh_rate: Refresh rate
   refresh_rates_hint: __Tutaj__ dowiesz się więcej o częstotliwościach odświeżania.
   reset_password: Zresetuj hasło
-  reset_to_defaults: Reset to defaults
+  reset_to_defaults: Przywróć ustawienia fabryczne
   required: Wymagany
   save: Zapisz
   shown: wyświetlany
@@ -190,17 +190,17 @@ pl:
       device_model: Model urządzenia
       device_model_hint: Twoja wersja sprzętu
       device_model_switch_warning: Zmiana jest obarczona ryzykiem. Przeczytaj więcej __tutaj__
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
+      device_info: Informacje o urządzeniu
+      current_firmware: Obecny firmware
+      last_ping: Ostatni ping
+      unknown: Nieznane
+      never: Nigdy
+      display_calibration: Kalibracja wyświetlacza
+      display_calibration_hint: Dostosuj renderowanie na swoim wyświetlaczu. Zostaw puste, aby użyć wartości domyślnych.
+      display_calibration_pixel_ratio: Proporcja pikseli
+      display_calibration_pixel_ratio_hint: 'Wartość przybliżenia (0.5–3.0). Domyślne:'
       display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      display_calibration_ui_scale_hint: 'Rozmiar tekstu i elementów (0.5–2.0). Domyślne:'
       edit_device: Edytuj urządzenie
       firmware: Firmware
       firmware_updates_enabled: Aktualizacje włączone
@@ -384,11 +384,11 @@ pl:
       hide_playlist: Ukryj ten element
       show_playlist: Pokaż ten element
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: Częstotliwość odświeżania tego pluginu nie może być skonfigurowana.
+        external: Ten plugin pobiera dane na bieżąco, więc częstotliwość odświeżania nie ma tu zastosowania.
+        global: Ten plugin jest odświeżany w ramach całej platformy w z góry ustalonym harmonogramie.
+        mashup: Mashup będzie odświeżany tak często, jak najczęściej odświeżany plugin.
+        readonly: Ten plugin ma stałą częstotliwość odświeżania i nie może być ona zmieniona.
     create:
       error: Aktualizacja playlisty nie powiodła się
       success: Playlista zaktualizowana
