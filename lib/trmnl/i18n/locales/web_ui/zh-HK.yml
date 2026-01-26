@@ -17,7 +17,7 @@ zh-HK:
   charge_level: 充電狀態
   charged: 電量
   charging: 正在充電
-  claim_plus_trial: Claim 6 Months Free
+  claim_plus_trial: 領取6個月免費試用
   close: 關閉
   confirm_change_password: 更改密碼
   confirm_password: 確認新密碼
@@ -33,10 +33,10 @@ zh-HK:
   developer_edition_required: 需要開發者版本才能啟用此功能。
   device_id: 裝置ID
   device: 裝置
-  edit: 設定
+  edit: 編輯
   email_address: 電郵地址
   export: 匯出
-  fetching: 載入中
+  fetching: 擷取中
   first_name: 名字
   forgot_password: 忘記密碼
   forgot_password_title: 再次輸入
@@ -45,7 +45,7 @@ zh-HK:
   hidden: 隱藏
   identify: 識別
   import: 匯入
-  import_new: 匯入並新增
+  import_new: 匯入新項目
   integrations: 整合
   keep_me_signed_in: 保持登入狀態
   knowledge_base: 知識庫
@@ -55,7 +55,7 @@ zh-HK:
   login: 登入
   log_out: 登出
   manage: 管理
-  minimum_characters: 字元（最少）
+  minimum_characters: 個字元（最少）
   mins: 分鐘
   my_playlist: 我的播放清單
   new_password: 新密碼
@@ -64,14 +64,14 @@ zh-HK:
   plugin_not_found: 找不到外掛
   preview: 預覽
   privacy: 私隱
-  refresh_rate: Refresh rate
+  refresh_rate: 重新整理頻率
   refresh_rates_hint: __按此__了解重新整理頻率如何運作。
   reset_password: 重設密碼
-  reset_to_defaults: Reset to defaults
-  required: Required
+  reset_to_defaults: 重設為預設值
+  required: 必填
   save: 儲存
   shown: 顯示
-  section: 章節
+  section: 區塊
   settings: 設定
   sign_in: 登入
   sign_up: 註冊
@@ -83,7 +83,7 @@ zh-HK:
   update: 更新
   view: 查看
   collaboration_request: 想合作嗎？
-  collaboration_request_hint: 合作夥伴關係、團體銷售、特別項目，由你話事。
+  collaboration_request_hint: 合作伙伴、團體銷售、特別項目，由你話事。
   collaboration_request_cta: 立即聯絡
   welcome: 歡迎
   time:
@@ -94,12 +94,12 @@ zh-HK:
     index:
       title: 帳戶
       tagline: 管理帳戶設定
-      api_key_confirm: 確定要重設API金鑰嗎？舊金鑰將會失效。
-      api_key_hint: 查看__文件__以了解如何設定本機環境。
-      api_key_label: 供本地開發工具認證的憑證
-      api_key_not_generated: "（未生成）"
+      api_key_confirm: 確定要重新生成API金鑰嗎？舊金鑰將會失效。
+      api_key_hint: 查看__文件__以了解如何設定本地環境。
+      api_key_label: 用於驗證本地開發工具的憑證
+      api_key_not_generated: （尚未生成）
       api_key_reset: 重新生成
-      api_key: API金鑰
+      api_key: 用戶API金鑰
       beta_features: Beta功能
       beta_features_hint: 在此試用新功能。選項可能會隨時移除。
       discord_community: Discord社群
@@ -107,36 +107,36 @@ zh-HK:
       discord_username_hint: 可能會用於技術支援、已發佈模板的署名等。
       email_address: 電郵地址
       refer_and_earn: 推薦回贈計劃
-      refer_and_earn_hint: 使用專屬優惠券與分享TRMNL。每次使用都可賺取收入，按月支付。
+      refer_and_earn_hint: 分享TRMNL專屬優惠券。每次使用均可賺取獎金，按月支付。
       refer_and_earn_redemptions: 兌換次數
       refer_and_earn_request_code: 索取推薦碼
       device_invoice: 裝置發票
       device_invoice_label: 下載商業文件以作會計用途。
-      device_invoice_hint: 此代碼記載於包裹追蹤頁或發貨通知郵件中。
+      device_invoice_hint: 可在包裹追蹤頁面或發貨通知電郵中找到此代碼。
       email_address_hint: 用於登入TRMNL及接收系統訊息。
-      first_name_hint: 可讓TRMNL介面更舒適。
-      last_name_hint: 可讓TRMNL介面更舒適。
+      first_name_hint: 我們使用你的名字讓TRMNL介面更具親切感。
+      last_name_hint: 我們使用你的名字讓TRMNL介面更具親切感。
       password_hint: 用於保護你的TRMNL帳戶。
       enable_2fa: 啟用雙重驗證(2FA)？
       enable_2fa_hint: __按此__啟用OTP。
       disable_2fa: 停用雙重驗證(2FA)
       disable_2fa_hint: 如要停用，請提供有效的單次密碼(OTP)，並在上方輸入現時密碼。
       plus_subscription: TRMNL+ 訂閱
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
+      plus_subscription_trial_until: 正在免費試用，%{plus_trial_end_at}到期。
       plus_subscription_hint: 解鎖更快的重新整理頻率及更高的用量上限。__了解更多__。
-      plus_subscription_modify: 想更新你的付款方式或取消訂閱？
+      plus_subscription_modify: 想更新付款方式或取消訂閱？
       session: 登入狀態
       session_hint: 你已登入為：%{user}
       show_title_bar: 顯示標題列
-      show_title_bar_hint: 如停用此功能，原生（非全域）及第三方外掛功能將會更加簡約。
+      show_title_bar_hint: 如停用此功能，原生（非全域）及第三方外掛功能會顯得更簡約。
       time_zone: 時區
-      time_zone_hint: 用於判斷重新整理頻率及裝置睡眠時間。
-      locale: 地區設定
-      locale_hint: 你希望使用哪一種語言？ __按此了解更多__。
+      time_zone_hint: 決定重新整理頻率及裝置睡眠時間。
+      locale: 地區語言
+      locale_hint: 你偏好哪種語言及地區設定？ __按此了解更多__。
     update:
       success: 成功更新個人資料
     reset_api_key:
-      success: 成功重設API金鑰
+      success: 成功重新生成API金鑰
   dashboard:
     index:
       title: 儀表板
@@ -148,14 +148,14 @@ zh-HK:
     health:
       bad: 外掛出現問題
       good: 外掛運作正常
-      next_steps: 當有變更時，我們會通知你
+      next_steps: 如有任何變更，我們會通知你
     news:
-      title: 新聞
+      title: 最新消息
       cta: 查看所有
     playlist_items:
       title: 播放清單
       cta: 編輯播放清單
-      pieces_of_content_displayed: 顯示畫面數量
+      pieces_of_content_displayed: 顯示內容數量
     plugins:
       title: 外掛功能
       cta: 前往外掛列表
@@ -163,95 +163,95 @@ zh-HK:
       new_and_popular: 最新及熱門項目
     shop:
       title: 商店
-      need_another: 想要多一部TRMNL？
+      need_another: 需要另一部TRMNL？
     time_saved:
       title: 已節省時間
-      cta: 詳情
+      cta: 閱讀詳情
     welcome_message:
       morning_salutation: 早晨
       afternoon_salutation: 午安
       evening_salutation: 晚安
   devices:
     edit:
-      accepts_beta_firmware: 韌體搶先發佈
-      accepts_beta_firmware_hint: 啟用設定後，你會在其他用戶之前取得最新的硬件韌體改進。
+      accepts_beta_firmware: 韌體搶先體驗
+      accepts_beta_firmware_hint: 啟用設定後，你會在其他用戶之前取得最新的韌體改進。
       back_to_devices: 返回裝置
-      battery_and_sleep: Battery & Sleep
+      battery_and_sleep: 電池與睡眠
       battery_consumption: 電池消耗
       battery_consumption_hint: 啟用「睡眠模式」可節省電量，並延長電池續航時間。
       battery_learn_more: __按此__了解更多關於電池充電的資訊。
-      battery_refresh: Refresh
+      battery_refresh: 重新整理
       developer_perks: 開發者福利
-      developer_perks_hint: 以下選項需要購買「__開發者版本__」。
-      device_credentials: 裝置認證
-      device_credentials_hint: __按此__了解如何使用裝置認證
+      developer_perks_hint: 開發自訂外掛、可編輯MAC地址（只限BYOD）、韌體搶先體驗及API訪問。
+      device_credentials: 裝置憑證
+      device_credentials_hint: __按此__了解如何使用這些憑證。
       device_name: 裝置名稱
-      device_name_hint: 此名稱可讓TRMNL介面更舒適
+      device_name_hint: 我們使用此名稱讓TRMNL介面更具親切感。
       device_model: 裝置型號
       device_model_hint: 你的硬件型號
-      device_model_switch_warning: 這是危險的操作，__按此__了解更多
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_model_switch_warning: 這是危險操作，請__按此__了解更多。
+      device_info: 裝置資訊
+      current_firmware: 現時韌體版本
+      last_ping: 最後連線時間
+      unknown: 未知
+      never: 從未
+      display_calibration: 螢幕校準
+      display_calibration_hint: 為你的螢幕微調顯示設定，留空則使用型號預設值。
+      display_calibration_pixel_ratio: 像素比例
+      display_calibration_pixel_ratio_hint: 影像縮放等級 (0.5–3.0)。預設值：
+      display_calibration_ui_scale: UI縮放
+      display_calibration_ui_scale_hint: 文字及元素大小 (0.5–2.0)。預設值：
       edit_device: 編輯裝置
-      firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
+      firmware: 韌體
+      firmware_updates_enabled: 已啟用更新
+      firmware_updates_disabled: 已停用更新
       guest_mode: 訪客模式
-      guest_mode_hint: 選擇訪客模式啟用時顯示的畫面（以及顯示多久）。
+      guest_mode_hint: 選擇啟用訪客模式時顯示的內容（以及顯示多久）。
       guest_mode_item_placeholder: 選擇項目
       guest_mode_duration_placeholder: 選擇顯示時間
       identify: 識別
       identify_device: 識別裝置
-      identify_device_hint: 按下按鈕後，裝置會顯示識別畫面。
-      logs: 除錯記錄
-      logs_hint: 提供即時串流的原始錯誤記錄，以偵錯你的裝置或外掛。
+      identify_device_hint: 按下按鈕以在裝置上生成一個幫助識別它的畫面。
+      logs: 記錄檔
+      logs_hint: 即時串流原始錯誤記錄，以偵錯你的裝置及外掛。
       low_battery_email_notification: 低電量電郵通知
-      low_battery_email_notification_hint: 當你的裝置電量不足時，透過電郵接收通知。
+      low_battery_email_notification_hint: 當裝置電量不足時，透過電郵接收通知。
       mirror: 鏡像共享
       mirror_device: 鏡像共享另一部裝置
-      mirror_device_hint: 輸入可共享(shareable)裝置的ID，以鏡像共享其播放清單。你的播放清單仍然會顯示。
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
+      mirror_device_hint: 輸入可共享(shareable)裝置的ID，以鏡像共享其播放清單。你的播放清單仍會顯示。
+      mirror_disabled: 鏡像共享已停用
+      mirror_enabled: 正在鏡像共享
       mirror_stop: 停用鏡像共享
       mirror_sync: 同步畫面
       ota_enabled: 啟用自動更新
       ota_enabled_hint: 自動安裝新的韌體。如要使用自訂韌體，請停用此設定。
       ota_byod_not_supported: 自攜裝置 (BYOD) 不支援自動更新。請直接從 usetrmnl.com/flash 下載並刷寫兼容版本。
       maximum_compatibility: 啟用最大兼容性
-      maximum_compatibility_hint: 解決由某些電子墨水驅動晶片引起的顯示問題。停用快速重新整理。需要韌體版本1.6.0或以上。
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      maximum_compatibility_hint: 解決由某些電子墨水驅動晶片引起的顯示問題。會停用快速重新整理。需要韌體版本1.6.0或以上。
+      palette: 色彩模式
+      palette_hint: 選擇此裝置生成畫面時使用的色彩模式。色彩層次越多視覺效果越佳，但層次越少則電子墨水螢幕的繪製速度越快。個別播放清單項目可以覆寫此設定。
       sleep_mode: 睡眠模式
       sleep_mode_hint: 調整重新整理頻率，以提升專注度及電池續航時間。
       sleep_screen: 睡眠畫面
       sleep_screen_tooltip: 啟用睡眠模式以使用此功能
       sleep_screen_hint: 在睡眠模式時段期間顯示睡眠畫面。
       special_function: 特別功能
-      special_function_hint: 按兩下裝置背面的按鈕時，會執行特別功能。
-      special_function_learn_more: __按此__了解特別功能。
+      special_function_hint: 為裝置背面的按鈕設定自訂功能。
+      special_function_learn_more: __按此__了解更多特別功能。
       temperature_profile: 色溫設定檔
       temperature_profile_hint: 除非獲得指示，否則請勿更改。適用於影像顯示褪色的螢幕。
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
+      tidbyt_credentials: Tidbyt憑證
+      tidbyt_credentials_hint: 在Tidbyt應用程式前往「Settings → Developer → Get API Key」尋找你的Tidbyt裝置API憑證。
+      tidbyt_credentials_invalid: Tidbyt API憑證無效。請檢查並重試。
+      tidbyt_device_id: 裝置ID
+      tidbyt_device_api_key: API金鑰
       unlink: 取消連結
-      unlink_confirm: 確定要取消連結嗎？這會刪除所有相關的外掛設定及播放清單項目，並允許將裝置新增至另一個帳戶。
+      unlink_confirm: 確定嗎？這將刪除所有相關的外掛設定及播放清單項目，以便裝置加入另一個帳戶。
       unlink_device: 取消連結裝置
-      unlink_device_hint: 如要安全地轉售或轉讓TRMNL裝置，請先取消連結。
-      unlink_device_learn_more: __按此__了解完整指南。
+      unlink_device_hint: 取消連結TRMNL後，可安全地轉售或贈送他人。
+      unlink_device_learn_more: __按此__查看完整指南。
       visibility: 共享狀態
-      visibility_hint: 讓其他TRMNL裝置可鏡像共享此裝置的內容。
+      visibility_hint: 調整下方設定使你的TRMNL裝置可被鏡像共享。
       your_device: 你的TRMNL
       upgrade_og:
         title: 可升級至 2-bit 顯示
@@ -263,10 +263,10 @@ zh-HK:
       title: 裝置
       tagline: 你的TRMNL裝置
       add_device_modal_title: 新增裝置
-      add_first_device: 請先新增TRMNL裝置！
+      add_first_device: 請先新增你的第一部裝置！
     new:
       title: 新增裝置
-      description: 輸入Friendly ID以新增TRMNL裝置到你的帳戶。
+      description: 輸入Friendly ID以新增裝置到你的帳戶。
       add_device: 新增裝置
     associate:
       error: 連結裝置時發生錯誤
@@ -275,11 +275,11 @@ zh-HK:
       error: 中斷連接裝置時發生錯誤
       success: 成功中斷連接裝置
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: 裝置憑證無效
+      success: 成功更新裝置憑證
     identify:
       error: 更新裝置時發生錯誤
-      success: 已發出裝置識別訊息
+      success: 已請求裝置識別
     mirror:
       error: 鏡像共享裝置時發生錯誤
       error_not_shared: 此裝置ID未設定為可共享(shareable)
@@ -297,17 +297,17 @@ zh-HK:
     invoice_not_found: 找不到發票
   logs:
     index:
-      title: 除錯記錄
+      title: 記錄檔
       all: 所有
       bulk_destroy: 批量銷毀
-      dump: 內容
+      dump: 傾印
       id: ID
       private_plugins: 客製外掛
       source: 來源
       time: 時間
   markups:
     console_logs:
-      js_logs: JS除錯記錄
+      js_logs: JS記錄檔
     form:
       back_to_plugin_settings: 返回外掛設定
       design_system: 活用我們的原生設計系統
@@ -321,15 +321,15 @@ zh-HK:
       fix_indentation: 修復縮排
       go_to_preview: 前往預覽
       live_preview: 即時預覽
-      no_changes_to_save: 沒有變更可儲存
-      pop_out_preview: 彈出式預覽
+      no_changes_to_save: 沒有可儲存的變更
+      pop_out_preview: 彈出預覽視窗
       quickstart_examples: 快速入門範例
       quickstart_example_applied: 已套用！
       quickstart_use_this_example: 套用此範例
       revert: 還原
-      revert_confirm: 確定要還原嗎？所有未儲存的變更將會消失。
+      revert_confirm: 確定要還原嗎？所有未儲存的變更將會遺失。
       save_changes: 儲存變更 (⌘﹢S)
-      separate_preview: 預覽已在新視窗開啟
+      separate_preview: 預覽已在獨立視窗開啟
     merge_variables:
       your_variables: 變數
     no_merge_variables:
@@ -337,32 +337,32 @@ zh-HK:
       no_variables_detected: 未偵測到變數。
   mfa:
     disable_otp:
-      success: 成功停用雙重驗證
-      invalid_otp: OTP錯誤
+      success: 已停用雙重驗證
+      invalid_otp: OTP無效
       invalid_password: 密碼錯誤
-      invalid_otp_and_password: OTP及密碼錯誤
+      invalid_otp_and_password: OTP及密碼均錯誤
     enable_otp:
       input_otp: 輸入單次密碼(OTP)
       submit: 驗證並啟用
       already_enabled: 雙重驗證已啟用
     enable_otp_verify:
-      success: 成功啟用雙重驗證
-      error: OTP錯誤
+      success: 已啟用雙重驗證
+      error: OTP代碼無效
     verify_otp:
       verify: 驗證
       reset: 重設雙重驗證
       reset_instructions: 按下TRMNL背面的按鈕以生成重設碼
       success: 雙重驗證成功
-      error: OTP錯誤
+      error: OTP代碼無效
   playlist_items:
     index:
       title: 播放清單
-      tagline: 選擇此裝置上顯示的畫面
+      tagline: 選擇在裝置上顯示的內容
       add_a_group: 新增群組
       add_a_plugin: 加入外掛
-      add_first_device_cta: 請先__新增__TRMNL裝置！
+      add_first_device_cta: 請先__新增__你的第一部TRMNL裝置！
       add_to_playlist: 加入至播放清單
-      create_first_playlist_cta: 請先__連接__第一個外掛功能，方可新增播放清單！
+      create_first_playlist_cta: 在__連接__第一個外掛後，即可建立播放清單！
       custom: 自訂
       device_default: 裝置預設
       display_period_from: 顯示時間
@@ -371,7 +371,7 @@ zh-HK:
       every: 頻率
       never_skip: 永不跳過畫面
       smart_playlist: 智能播放清單
-      smart_playlist_hint: 自動跳過內容未變更的畫面。
+      smart_playlist_hint: 自動跳過內容長段時間未變更的畫面。
       skip_after:
         one: 1日未更新後跳過畫面
         other: "%{count}日未更新後跳過畫面"
@@ -379,21 +379,21 @@ zh-HK:
       adjust_schedule: 調整時間表
       delete: 確定要移除此項目嗎？外掛會保持連接，只是不會在裝置上顯示。
       displayed_now: 正在顯示
-      not_displayed_yet: 待處理
+      not_displayed_yet: 尚未顯示
       remove_from_playlist: 從播放清單中移除
       hide_playlist: 隱藏此項目
       show_playlist: 顯示此項目
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: 無法設定此外掛的重新整理頻率。
+        external: 此外掛即時擷取數據，因此重新整理頻率設定不適用。
+        global: 此外掛按固定時間表在全平台進行重新整理。
+        mashup: 混搭外掛的重新整理頻率將與其最快的一個外掛同步。
+        readonly: 此外掛具有固定的重新整理頻率，無法設定。
     create:
       error: 更新播放清單時發生錯誤
       success: 已更新播放清單
     destroy:
-      error: 移除外掛時發生錯誤
+      error: 從播放清單移除項目時發生錯誤
       success: 已從播放清單移除外掛
     toggle_visibility:
       success: 播放清單項目已%{change}
@@ -410,7 +410,7 @@ zh-HK:
       available: 可使用
       connected: 已連接
       recipes: 模板(Recipe)
-      recipes_hint: 社群用戶開發的客製外掛，一鍵即可安裝。 __了解更多__
+      recipes_hint: 社群成員開發的客製外掛，一鍵即可安裝。 __了解更多__
     search:
       placeholder: 搜尋外掛
     my:
@@ -424,7 +424,7 @@ zh-HK:
         submit_for_review: 提交審核
     new:
       title: 新增外掛
-      tagline: 其他用戶將可以安裝此外掛。
+      tagline: 其他用戶將能夠安裝此外掛。
       name: 名稱
       category: 類別
       category_hint: 按住Cmd或Ctrl鍵以選擇最多3個類別
@@ -442,12 +442,12 @@ zh-HK:
       management_url_hint: __按此__了解管理流程。
       markup_url: 標記碼(Markup)網址
       markup_url_hint: __按此__了解畫面生成方式。
-      no_screen_padding: 無螢幕邊界
-      no_screen_padding_hint: 移除全螢幕模式的外部邊界。
+      no_screen_padding: 無螢幕邊距
+      no_screen_padding_hint: 移除全螢幕模式下的最外層邊距。
       uninstallation_webhook_url: 解除安裝Webhook網址
     edit:
       title: 編輯外掛
-      tagline: 更新你的外掛。
+      tagline: 更新你的外掛詳情。
       name: 名稱
       description: 描述
   plugin_recipes:
@@ -464,14 +464,14 @@ zh-HK:
     active: 啟用
     copy_are_you_sure: 確定要複製此設定嗎？
     delete_are_you_sure: 確定要刪除此設定嗎？
-    delete: 這樣會完全移除此外掛的設定。如要只從你的裝置隱藏此外掛，請從播放清單將其移除。
+    delete: 這將完全移除此外掛的設定。如只想在裝置上隱藏，請從播放清單中刪除。
     inactive: 停用
     no_plugin_settings_found: 找不到外掛設定。
     not_supported: 此裝置不支援
     refreshing_now_please_wait: 正在重新整理，請在幾秒鐘後重新載入此頁面。
     reset_credentials: 成功重設「%{plugin_name}」帳戶
     form:
-      active_hint: 在你的裝置上顯示或隱藏此外掛
+      active_hint: 在裝置上顯示或隱藏此外掛實例
       advanced_settings: 進階設定
       back_to_plugin: 返回%{plugin}
       back_to_plugins: 返回外掛列表
@@ -480,41 +480,41 @@ zh-HK:
       debug_logs_click_here: 按此
       debug_logs_click_here_hint: 為此外掛實例啟用除錯記錄。
       debug_logs_enabled: 已啟用除錯記錄%{hours}小時。
-      debug_logs_enabled_link: 查看除錯記錄
+      debug_logs_enabled_link: 查看記錄檔
       disconnect_account: 中斷連接帳戶
       manage_plugin: 設定%{plugin}
       force_refresh: 強制重新整理
       force_refresh_hint: 此功能只供測試使用，請勿濫用。
       force_refresh_click_here: 按此
       force_refresh_click_here_hint: 立即生成新的畫面
-      force_refresh_not_possible: 無法強制重新整理此外掛，因為TRMNL伺服器並未執行影像處理。__按此__了解如何測試你的外掛。
+      force_refresh_not_possible: 無法強制重新整理此外掛，因為TRMNL伺服器不執行影像處理。__按此__了解如何測試你的外掛。
       learn_more: 前往知識庫以了解此外掛
-      learn_more_fork: 此外掛是從模板分叉而來。
-      learn_more_fork_original: 查看原始模板
+      learn_more_fork: 此外掛是從模板分叉(fork)而來。
+      learn_more_fork_original: 查看原始版本
       learn_more_native_long: 此外掛為原生，並由TRMNL維護。
       learn_more_native_short: 此外掛由TRMNL維護。
       learn_more_recipe_author: 需要協助？請在Discord上聯絡%{recipe_author}。
-      learn_more_recipe_long: 此外掛是社群用戶開發的模板，並非由TRMNL維護。
+      learn_more_recipe_long: 此外掛為社群用戶開發的模板，並非由TRMNL維護。
       learn_more_recipe_short: 注意：此外掛是模板。
       learn_more_third_party_long: 此外掛由第三方開發，並非由TRMNL維護。
       learn_more_third_party_short: 注意：此外掛由第三方開發。
       linked_account: 已連結帳戶
-      linked_account_success: 成功連接%{plugin_name}
-      link_oauth: 連接帳戶
+      linked_account_success: 成功連結%{plugin_name}
+      link_oauth: 連結帳戶
       link_oauth_hint: 如要繼續，請先按照「%{plugin}」提供的安全授權流程進行
       multiple_instances_hint: 此外掛支援多個執行個體。
       name: 名稱
-      name_hint: 為其命名以便於參考
+      name_hint: 為其命名以便參考
       parse: 解析
       parse_save_first: 解析（請先儲存外掛）
       parsed: 已解析
       plugin_uuid: 外掛UUID
       plugin_uuid_hint: 用於發送Webhook API請求。
       preview: 預覽圖（裝置會顯示實際資料）
-      recipe_cta_heading_published: 此外掛是模板
-      recipe_cta_heading_unlisted: 此外掛是不公開
-      recipe_cta_heading_in_review: 此外掛已提交審核
-      recipe_cta_heading_not_published: 要發佈模板嗎？
+      recipe_cta_heading_published: 此外掛已公開
+      recipe_cta_heading_unlisted: 此外掛不公開
+      recipe_cta_heading_in_review: 外掛審核中
+      recipe_cta_heading_not_published: 要發佈外掛嗎？
       recipe_cta_body_published: 變更將反映在現有安裝及未來安裝/分叉的外掛上。
       recipe_cta_body_in_review: 此外掛已提交給我們的團隊審核。請稍候。
       recipe_cta_body_not_published: 提交此外掛以供其他人安裝。__了解更多__。
@@ -536,21 +536,21 @@ zh-HK:
       synced: 已同步
       refresh_paused: 已暫停更新
       refresh_paused_hint: 自動更新已暫停，請加入至播放清單以重新開始。
-      refresh_paused_hidden_hint: 自動更新已暫停，因為此外掛在播放清單中隱藏。數據同步仍會繼續。
+      refresh_paused_hidden_hint: 自動更新已暫停，因為此外掛在播放清單中被隱藏。數據同步仍會繼續。
       refresh_paused_mashup: 只更新混搭畫面
       refresh_paused_mashup_hint: 已暫停全螢幕的自動更新，混搭畫面(Mashup)仍會更新。
-      refresh_stopped: 自動更新已停止。請修正錯誤以恢復。
-      visit_docs: 前往文件
+      refresh_stopped: 自動更新已停止。請修正外掛錯誤以繼續。
+      visit_docs: 查看文件
     import:
-      archive_too_large: ZIP檔案太大（最多%{max_mb} MB）
+      archive_too_large: ZIP檔案太大（最大%{max_mb} MB）
       missing_entry: ZIP檔案未包含「%{filename}」
-      entry_too_large: "「%{filename}」太大"
-      malformed: "「%{filename}」格式不符"
+      entry_too_large: 「%{filename}」檔案太大
+      malformed: 「%{filename}」格式錯誤
     create:
       success: 已新增外掛，並加入至你的
       playlist: 播放清單
     destroy:
-      success: 已刪除
+      success: 已刪除外掛
     handle_canceled_consent: 已取消授權，請重試
     update:
       success: 成功更新外掛設定
@@ -561,24 +561,24 @@ zh-HK:
       request_received: 已收到請求，請查看收件箱
   recipes:
     index:
-      newest_to_oldest: 從最新到最舊
-      oldest_to_newest: 從最舊到最新
+      newest_to_oldest: 從新到舊
+      oldest_to_newest: 從舊到新
       most_popular: 最受歡迎
       install: 安裝
       fork: 分叉
   schedules:
     form:
       add: 加入自訂時間表
-      append: 以及
-      no_schedule: 此畫面會在所有時間顯示。
-      some_schedule: 顯示此畫面的時間：
+      append: 以及⋯
+      no_schedule: 此畫面將一直顯示。
+      some_schedule: 只於此期間顯示畫面⋯
       to: 至
       copy_prompt: 複製時間表⋯
   upgrade:
     index:
-      title: 升級裝置：
+      title: 正在升級裝置：
       tagline: 解鎖自訂外掛及__更多__功能。
       pay: 付款
       error: 裝置「%{device_name}」已經升級，請切換至另一部裝置
     confirm:
-      success: 已啟用開發者版本附加元件
+      success: 開發者版本附加組件現已啟用
