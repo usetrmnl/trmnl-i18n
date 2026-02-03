@@ -13,18 +13,18 @@ group :quality do
 end
 
 group :development do
-  gem "cogger", "~> 1.1"
+  gem "cogger", "~> 2.0"
   gem "rake", "~> 13.2"
 end
 
 group :test do
-  gem "refinements", "~> 13.1"
+  gem "refinements", "~> 14.0"
   gem "rspec", "~> 3.13"
 end
 
 group :tools do
   gem "amazing_print", "~> 2.0"
   gem "debug", "~> 1.10"
-  gem "irb-kit", "~> 1.1"
+  gem "irb-kit", "~> 2.0"
   gem "repl_type_completor", "~> 0.1"
 end
