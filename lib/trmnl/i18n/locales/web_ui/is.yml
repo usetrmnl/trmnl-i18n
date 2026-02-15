@@ -403,6 +403,8 @@ is:
       success: Röðun spilunarlista uppfærð
     set_preferences:
       success: Stillingar snjallspilunarlista uppfærðar
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: Viðbætur
@@ -473,6 +475,7 @@ is:
     form:
       active_hint: Sýna eða fela þessa viðbót á tækinu þínu
       advanced_settings: Ítarlegar stillingar
+      back_to_playlist: Back to Playlist
       back_to_plugin: Til baka í %{plugin}
       back_to_plugins: Til baka í viðbætur
       connect_with: Tengjast við %{plugin}
@@ -502,6 +505,7 @@ is:
       linked_account_success: Tókst að tengja við %{plugin_name}
       link_oauth: Tengja aðgang
       link_oauth_hint: Fylgdu öruggu auðkenningarferli frá %{plugin} áður en þú heldur áfram.
+      mirrored: Mirrored
       multiple_instances_hint: Þessi viðbót styður margar uppsetningar.
       name: Heiti
       name_hint: Gefðu því auðkennt heiti
@@ -519,6 +523,7 @@ is:
       recipe_cta_body_in_review: Viðbótin hefur verið send inn til skoðunar. Hinkraðu.
       recipe_cta_body_not_published: Senda viðbótina til annarra. __Lesa meira__.
       recipe_cta_confirm: Ertu viss? Teymið okkar mun skoða þetta næstdu daga. Þú getur haldið áfram að breyta á meðan.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
       recipe_visibility_public: Public
@@ -540,6 +545,7 @@ is:
       refresh_paused_mashup: Uppfærsla á samsetningum
       refresh_paused_mashup_hint: Sjálfvirk uppfærsla í bið fyrir heilskjá. Samsetningar eru að uppfærast.
       refresh_stopped: Sjálfvirk uppfærsla stöðvuð. Lagfærðu villuna til að halda áfram.
+      view_recipe: View Recipe
       visit_docs: Skoða skjöl
     import:
       archive_too_large: ZIP skrá er of stór (%{max_mb} MB hámark)

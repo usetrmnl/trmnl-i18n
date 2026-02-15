@@ -403,6 +403,8 @@ zh-HK:
       success: 已更新播放清單順序
     set_preferences:
       success: 已更新智能播放清單偏好設定
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: 外掛功能
@@ -473,6 +475,7 @@ zh-HK:
     form:
       active_hint: 在裝置上顯示或隱藏此外掛實例
       advanced_settings: 進階設定
+      back_to_playlist: Back to Playlist
       back_to_plugin: 返回%{plugin}
       back_to_plugins: 返回外掛列表
       connect_with: 連接%{plugin}
@@ -502,6 +505,7 @@ zh-HK:
       linked_account_success: 成功連結%{plugin_name}
       link_oauth: 連結帳戶
       link_oauth_hint: 如要繼續，請先按照「%{plugin}」提供的安全授權流程進行
+      mirrored: Mirrored
       multiple_instances_hint: 此外掛支援多個執行個體。
       name: 名稱
       name_hint: 為其命名以便參考
@@ -519,6 +523,7 @@ zh-HK:
       recipe_cta_body_in_review: 此外掛已提交給我們的團隊審核。請稍候。
       recipe_cta_body_not_published: 提交此外掛以供其他人安裝。__了解更多__。
       recipe_cta_confirm: 確定嗎？我們的團隊將進行審核，並在數日內回覆你。你可以繼續進行變更。
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: 你想如何發佈？
       recipe_visibility_edit_title: 編輯提交內容
       recipe_visibility_public: 公開
@@ -540,6 +545,7 @@ zh-HK:
       refresh_paused_mashup: 只更新混搭畫面
       refresh_paused_mashup_hint: 已暫停全螢幕的自動更新，混搭畫面(Mashup)仍會更新。
       refresh_stopped: 自動更新已停止。請修正外掛錯誤以繼續。
+      view_recipe: View Recipe
       visit_docs: 查看文件
     import:
       archive_too_large: ZIP檔案太大（最大%{max_mb} MB）
