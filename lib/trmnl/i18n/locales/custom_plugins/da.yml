@@ -8,10 +8,10 @@ da:
     done: Udført
     due: Forfald
     deutsche_bahn_departures:
-      departures: Departures
+      departures: Afgange
       time: Tid
-      line: Line
-      destination: Destination
+      line: Linje
+      destination: Rejsemål
       platform: Spor
       delay: Forsinkelse
       train: Tog
@@ -191,19 +191,19 @@ da:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} forbindelse}} * {{{$value :number} forbindelser}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Ingen installation}} one {{{$value :number} installation}} * {{{$value :number} installationer}}"
       and_more: og {$value :number} mere
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: '"{$keyword}" matchede ikke noget resultat.'
+      error_keyword_subtitle: Prøv at søge efter noget andet.
+      error_new_title: Der er ikke fundet nogen nye opskrifter.
+      error_new_subtitle: Dette bør ikke ske.
+      error_self_title: Du har ikke offentliggjort nogen opskrift.
+      error_self_subtitle: Lær, hvordan du udgiver din første bog på https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Bruger #{$authorId} har ikke offentliggjort nogen opskrifter.'
+      error_author_id_subtitle: Der findes ingen opskrift tilknyttet dette ID.
+      error_recipe_ids_title: Der blev ikke fundet nogen opskrift-ID.
+      error_recipe_ids_subtitle: Tilføj et opskrift-ID for at komme i gang.
     horizontal_world_clock:
-      name: World clock
+      name: Verdensur
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} til {$to :langNameList}"

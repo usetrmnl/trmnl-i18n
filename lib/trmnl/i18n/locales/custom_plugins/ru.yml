@@ -191,19 +191,19 @@ ru:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} подключение}} few {{{$value :number} подключения}} many {{{$value :number} подключений}} * {{{$value :number} подключения}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} форк}} few {{{$value :number} форка}} many {{{$value :number} форков}} * {{{$value :number} форки}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Не надо устанавливать}} one {{Установи {$value :number}}} * {{{$value :number} установок}}"
       and_more: и {$value :number} ещё
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: "«{$keyword}» не нашел ничего."
+      error_keyword_subtitle: Попробуй поискать что-нибудь другое.
+      error_new_title: Новых рецептов не найдено.
+      error_new_subtitle: Этого не должно было случиться.
+      error_self_title: Ты не выложил ни одного рецепта.
+      error_self_subtitle: Узнай, как выпустить свой первый блог на сайте https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Пользователь #{$authorId} не опубликовал ни одного рецепта.'
+      error_author_id_subtitle: Не нашел рецепт, связанный с этим ID.
+      error_recipe_ids_title: Не нашел нужный рецепт.
+      error_recipe_ids_subtitle: Добавь ID рецепта, чтобы начать.
     horizontal_world_clock:
-      name: World clock
+      name: Мировые часы
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: Из {$from :langName} в {$to :langNameList}

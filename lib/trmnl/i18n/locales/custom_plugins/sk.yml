@@ -1,30 +1,30 @@
 ---
 sk:
   custom_plugins:
-    today: today
-    tomorrow: tomorrow
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
+    today: dnes
+    tomorrow: zajtra
+    updated: Aktualizované
+    activity: Aktivita
+    done: Hotovo
+    due: Splatné
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
+      departures: Odchody
+      time: Čas
+      line: Linka
+      destination: Cieľová destinácia
+      platform: Platforma
+      delay: Oneskorenie
+      train: Vlak
+      on_time: Načas
+      cancelled: Zrušené
       minutes: m
-      refreshed: Refreshed
+      refreshed: Obnovené
     simple_calendar:
-      title: Calendar
+      title: Kalendár
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Leap %{month_label}
-        leap_format_short: LM%{alt_month}
+        leap_format: Skok %{month_label}
+        leap_format_short: LM%{alt_mesiac}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
         -
@@ -189,21 +189,21 @@ sk:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      connections: ".input {$value :number} .match $value zero {{Žiadne pripojenie}} one {{{$value :number} pripojenie}} * {{{$value :number} pripojení}}"
+      forks: ".input {$value :number} .match $value zero {{Bez vidličky}} one {{{$value :number} vidlička}} * {{{$value :number} vidličky}}"
+      installs: ".input {$value :number} .match $value zero {{Bez inštalácie}} one {{{$value :number} inštalácia}} * {{{$value :number} inštalácií}}"
       and_more: a {$value :number} ďalšie
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: "„{$keyword}“ nezodpovedá žiadnemu výsledku."
+      error_keyword_subtitle: Skúste vyhľadať niečo iné.
+      error_new_title: Nebol nájdený žiadny nový recept.
+      error_new_subtitle: To by sa nemalo stať.
+      error_self_title: Nezverejnili ste žiadny recept.
+      error_self_subtitle: Naučte sa, ako publikovať svoj prvý článok na stránke https://help.usetrmnl.com/en/articles/9510536-private-plugins.
+      error_author_id_title: 'Používateľ #{$authorId} nezverejnil žiadny recept.'
+      error_author_id_subtitle: K tomuto ID sa nenašiel žiadny recept.
+      error_recipe_ids_title: Nenašlo sa žiadne ID receptu.
+      error_recipe_ids_subtitle: Na začatie pridajte ID receptu.
     horizontal_world_clock:
-      name: World clock
+      name: Svetové hodiny
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: Z {$from :langName} do {$to :langNameList}

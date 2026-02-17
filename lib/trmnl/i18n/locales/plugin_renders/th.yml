@@ -1,0 +1,280 @@
+---
+th:
+  renders:
+    and_x_more_prefix: และ
+    and_x_more_suffix: มากขึ้น
+    days_left_year:
+      title: วันเหลือในปีนี้
+      days_passed: วันที่ผ่านไป
+      days_left: จำนวนวันที่เหลือ
+    lunar_calendar:
+      title: ปฏิทินจันทรคติ
+      age: อายุตามจันทรคติ
+      current_phase: ระยะปัจจุบัน
+      illumination: แสงจันทร์
+      next_full_moon: พระจันทร์เต็มดวงครั้งต่อไป
+      next_new_moon: พระจันทร์ใหม่ครั้งต่อไป
+      next_phase: ระยะต่อไป
+      next_phase_short: ถัดไป
+      moon_phases:
+        new_moon: พระจันทร์ใหม่
+        waxing_crescent: พระจันทร์เสี้ยว
+        first_quarter: ไตรมาสแรก
+        waxing_gibbous: พระจันทร์เสี้ยวข้างขึ้น
+        full_moon: พระจันทร์เต็มดวง
+        waning_gibbous: เสี้ยวข้างแรม
+        third_quarter: ไตรมาสที่สาม
+        waning_crescent: พระจันทร์เสี้ยวขาลง
+    netatmo_weather_station:
+      title: เน็ตตาโม่ เวเธอร์
+      title_short: เน็ตตาโม่
+      indoor_temp: อุณหภูมิภายในอาคาร
+      indoor_temp_short: ในอาคาร
+      indoor_humidity: ความชื้นภายในอาคาร
+      indoor_humidity_short: ความชื้นภายในอาคาร
+      outdoor_humidity: ความชื้นภายนอก
+      outdoor_humidity_short: ออกไป. อืม.
+      co2: คาร์บอนไดออกไซด์
+      co2_ppm: CO₂ ppm
+      pressure: ความกดดัน
+      noise: เสียงรบกวน
+      min_max: ต่ำสุด/สูงสุด
+      feels: รู้สึก
+      rain: ฝน
+      wind: ลม
+      gust: ลมกระโชก
+      default_station_name: สถานีเน็ตแทม
+      default_outdoor_module: อุณหภูมิภายนอก
+      default_indoor_module: ในอาคาร
+      trends_title: "%{metric} แนวโน้ม"
+      trends_title_short: แนวโน้ม
+      temperature_trends: แนวโน้มอุณหภูมิ
+      temperature_trends_short: แนวโน้มของอุณหภูมิ
+      outdoor_now: เอาท์ดอร์ นาว
+      indoor_now: ในร่ม ขณะนี้
+      now: ตอนนี้
+      low_high_24h: 24 ชั่วโมง ต่ำสุด / สูงสุด
+      average_24h: ค่าเฉลี่ย 24 ชั่วโมง
+      outdoor: กลางแจ้ง
+      indoor: ในอาคาร
+      rain_gauge_not_connected: เครื่องวัดปริมาณน้ำฝนไม่เชื่อมต่อ
+      wind_gauge_not_connected: เครื่องวัดลมไม่เชื่อมต่อ
+      no_rain_gauge: ไม่มีเครื่องวัดปริมาณน้ำฝน
+      no_wind_gauge: ไม่มีเครื่องวัดความเร็วลม
+      add_module_hint: เพิ่มโมดูล %{module} (ไม่บังคับ) เพื่อดูข้อมูลนี้
+      range_24h: 24 ชั่วโมง
+      errors:
+        missing_access_token: ไม่พบโทเค็นการเข้าถึง กรุณาเชื่อมต่อบัญชี Netatmo ของคุณอีกครั้ง
+        no_station_selected: ไม่พบสถานีอากาศ กรุณาเลือกสถานีในตั้งค่า
+        connection_failed: ไม่สามารถเชื่อมต่อกับสถานี Netatmo ได้ กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ
+        data_retrieval_failed: ไม่สามารถดึงข้อมูลสภาพอากาศได้ กรุณาลองใหม่อีกครั้ง
+        session_expired: เซสชันหมดอายุ กรุณาเชื่อมต่อบัญชี Netatmo ของคุณใหม่ในการตั้งค่า
+    parcel:
+      delivery_by: การจัดส่งโดย
+      empty: ไม่มีการจัดส่ง
+      errors:
+        api: ข้อผิดพลาดของ API สำหรับพัสดุ
+        http: HTTP error %{code}
+        internal: ข้อผิดพลาดภายใน
+      filter_modes:
+        active:
+          one: การส่งมอบเชิงรุก
+          other: การจัดส่งที่กำลังดำเนินการ
+        recent:
+          one: การจัดส่งล่าสุด
+          other: การจัดส่งล่าสุด
+      status:
+        delivered: ส่งมอบแล้ว
+        delivery_exception: ข้อยกเว้นการจัดส่ง
+        expecting_pickup: รอรับของ
+        failed_delivery_attempt: ความพยายามในการจัดส่งล้มเหลว
+        frozen: แช่แข็ง
+        in_transit: ระหว่างการเดินทาง
+        information_received: ข้อมูลที่ได้รับ
+        not_found: ไม่พบ
+        out_for_delivery: ออกไปส่งของ
+        unknown: ไม่ทราบ
+      today: วันนี้
+      tomorrow: พรุ่งนี้
+    weather:
+      title: สภาพอากาศ
+      temperature: อุณหภูมิ
+      feels_like: รู้สึกเหมือน
+      humidity: ความชื้น
+      low: ต่ำ
+      high: สูง
+      uv: ยูวี
+      right_now: ตอนนี้
+      today: วันนี้
+      tomorrow: พรุ่งนี้
+      low_high_short: L/H
+      uv_short: ยูวี
+      max: แม็กซ์
+      tempest:
+        conditions:
+          clear: ชัดเจน
+          cloudy: มีเมฆมาก
+          foggy: หมอกลงจัด
+          partly_cloudy: มีเมฆบางส่วน
+          rain_likely: มีโอกาสฝนตก
+          rain_possible: อาจมีฝน
+          snow: หิมะ
+          snow_possible: อาจมีหิมะตก
+          thunderstorms_likely: มีโอกาสเกิดพายุฝนฟ้าคะนอง
+          thunderstorms_possible: อาจเกิดพายุฝนฟ้าคะนอง
+          very_light_rain: ฝนตกปรอยๆ
+          windy: ลมแรง
+          wintry_mix_likely: มีแนวโน้มว่าจะมีฝนผสมหิมะ
+          wintry_mix_possible: อาจมีฝนผสมหิมะ
+      weatherapi:
+        uv:
+          low: ต่ำ
+          moderate: ปานกลาง
+          high: สูง
+          very_high: สูงมาก
+          extreme: สุดขั้ว
+        conditions:
+        - code: 1000
+          day: Sunny
+          night: Clear
+        - code: 1003
+          day: Partly Cloudy
+          night: Partly Cloudy
+        - code: 1006
+          day: Cloudy
+          night: Cloudy
+        - code: 1009
+          day: Overcast
+          night: Overcast
+        - code: 1030
+          day: Mist
+          night: Mist
+        - code: 1063
+          day: Light Rain
+          night: Light Rain
+        - code: 1066
+          day: Light Snow
+          night: Light Snow
+        - code: 1069
+          day: Sleet
+          night: Sleet
+        - code: 1072
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1087
+          day: Thunder
+          night: Thunder
+        - code: 1114
+          day: Blowing Snow
+          night: Blowing Snow
+        - code: 1117
+          day: Blizzard
+          night: Blizzard
+        - code: 1135
+          day: Fog
+          night: Fog
+        - code: 1147
+          day: Freezing Fog
+          night: Freezing Fog
+        - code: 1150
+          day: Light Drizzle
+          night: Light Drizzle
+        - code: 1153
+          day: Drizzle
+          night: Drizzle
+        - code: 1168
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1171
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1180
+          day: Light Rain
+          night: Light Rain
+        - code: 1183
+          day: Light Rain
+          night: Light Rain
+        - code: 1186
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1189
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1192
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1195
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1198
+          day: Light Freeze
+          night: Light Freeze
+        - code: 1201
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1204
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1207
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1210
+          day: Light Snow
+          night: Light Snow
+        - code: 1213
+          day: Light Snow
+          night: Light Snow
+        - code: 1216
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1219
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1222
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1225
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1237
+          day: Ice Pellets
+          night: Ice Pellets
+        - code: 1240
+          day: Light Rain
+          night: Light Rain
+        - code: 1243
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1246
+          day: Torrential Rain
+          night: Torrential Rain
+        - code: 1249
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1252
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1255
+          day: Light Snow
+          night: Light Snow
+        - code: 1258
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1261
+          day: Light Ice
+          night: Light Ice
+        - code: 1264
+          day: Heavy Ice
+          night: Heavy Ice
+        - code: 1273
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1276
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1279
+          day: Thunder & Snow
+          night: Thunder & Snow
+        - code: 1282
+          day: Thunder & Snow
+          night: Thunder & Snow

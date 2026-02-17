@@ -1,23 +1,23 @@
 ---
 'no':
   locale_name: Norwegian
-  about: About
+  about: Om
   add: Legg til
   add_new: Legg til ny
   ago: siden
   already_have_account: Jeg har allerede en konto
-  are_you_sure: Are you sure?
+  are_you_sure: Er du sikker?
   back: Tilbake
   back_to_all_blog_posts: Tilbake til alle innlegg
   blog: Blogg
-  brand: Brand
+  brand: Merke
   buy_now: Kjøp nå
   cancel: Avbryt
   change_password: Endre passord
   charge_level: Ladestatus
   charged: ladet
-  charging: Charging
-  claim_plus_trial: Claim 6 Months Free
+  charging: Lading
+  claim_plus_trial: Krev 6 måneder gratis
   close: Lukk
   confirm_change_password: Endre mitt passord
   confirm_password: Bekreft nytt passord
@@ -29,7 +29,7 @@
   current_device: Nåværende enhet
   days: dager
   delete: Slett
-  developers: Developers
+  developers: Utviklere
   developer_edition_required: Utviklerutgaven kreves for å aktivere denne funksjonen.
   device_id: Enhets-ID
   device: Enhet
@@ -40,9 +40,9 @@
   first_name: Fornavn
   forgot_password: Jeg glemte passordet mitt
   forgot_password_title: Her går vi igjen
-  friendly_id: Friendly ID
+  friendly_id: Vennlig ID
   get_started: La oss komme i gang!
-  hidden: hidden
+  hidden: skjult
   identify: Identifiser
   import: Importer
   import_new: Importer ny
@@ -50,11 +50,11 @@
   keep_me_signed_in: Hold meg pålogget
   knowledge_base: Kunnskapsbase
   last_name: Etternavn
-  learn_more: Learn more
+  learn_more: Lær mer
   loading: Laster
   login: Logg inn
   log_out: Logg ut
-  manage: Manage
+  manage: Administrer
   minimum_characters: minimum antall tegn
   mins: min
   my_playlist: Min spilleliste
@@ -62,29 +62,29 @@
   password: Passord
   please_wait: Vennligst vent...
   plugin_not_found: Plugin ikke funnet
-  preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
+  preview: Forhåndsvisning
+  privacy: Personvern
+  refresh_rate: Oppdateringsfrekvens
   refresh_rates_hint: Lær hvordan oppdateringsfrekvenser fungerer __her__.
   reset_password: Tilbakestill passordet mitt
-  reset_to_defaults: Reset to defaults
-  required: Required
+  reset_to_defaults: Tilbakestill til standardinnstillinger
+  required: Påkrevd
   save: Lagre
-  shown: shown
+  shown: vist
   section: Seksjon
-  settings: Settings
+  settings: Innstillinger
   sign_in: Logg inn
   sign_up: Registrer deg
   something_went_wrong: Noe gikk galt
   status: Status
-  subscribe: Subscribe
-  help_center: Support
-  terms: Terms
+  subscribe: Abonner
+  help_center: Støtte
+  terms: Vilkår
   update: Oppdater
   view: Vis
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: Vil du samarbeide?
+  collaboration_request_hint: Partnerskap, gruppesalg, spesialprosjekter, det er opp til deg.
+  collaboration_request_cta: La oss snakke sammen
   welcome: Velkommen
   time:
     formats:
@@ -94,17 +94,17 @@
     index:
       title: Konto
       tagline: Administrer kontoinnstillingene dine
-      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
-      api_key_hint: See __the docs__ to learn how to configure your local environment.
-      api_key_label: The credential for authenticating local development tools
-      api_key_not_generated: "(none yet)"
-      api_key_reset: Regenerate
+      api_key_confirm: Er du sikker på at du vil regenerere API-nøkkelen din? Den gamle nøkkelen vil bli ugyldig.
+      api_key_hint: Se __dokumentasjonen__ for å lære hvordan du konfigurerer ditt lokale miljø.
+      api_key_label: Legitimasjonen for å autentisere lokale utviklingsverktøy
+      api_key_not_generated: "(ingen ennå)"
+      api_key_reset: Regenerere
       api_key: API Key
-      beta_features: Beta Features
-      beta_features_hint: Try out new stuff here. Options may disappear at any time.
-      discord_community: Discord Community
-      discord_username: What's your Discord username?
-      discord_username_hint: May be used for support, attribution on published Recipes, etc.
+      beta_features: Betafunksjoner
+      beta_features_hint: Prøv ut nye ting her. Alternativene kan forsvinne når som helst.
+      discord_community: Discord-fellesskap
+      discord_username: Hva er ditt Discord-brukernavn?
+      discord_username_hint: Kan brukes til støtte, kreditering på publiserte oppskrifter osv.
       email_address: E-postadresse
       refer_and_earn: Henvis og tjen
       refer_and_earn_hint: Gi gaven av TRMNL med en personlig kupong. Tjen per bruk, betalt månedlig.
@@ -121,22 +121,25 @@
       enable_2fa_hint: __Klikk her__ for å aktivere OTP.
       disable_2fa: Deaktiver 2FA
       disable_2fa_hint: Oppgi gyldig OTP og nåværende passord ovenfor for å deaktivere denne funksjonen.
-      plus_subscription: TRMNL+ Subscription
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
-      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
-      plus_subscription_modify: Want to update your payment method or cancel?
+      plus_subscription: TRMNL+ Abonnement
+      plus_subscription_trial_until: Du har en gratis prøveperiode frem til %{plus_trial_end_at}.
+      plus_subscription_hint: Få tilgang til raskere oppdateringsfrekvenser og høyere hastighetsgrenser. __Les mer__.
+      plus_subscription_modify: Vil du oppdatere betalingsmåten din eller kansellere?
       session: Økt
       session_hint: Du er logget inn som %{user}
-      show_title_bar: Show title bar
-      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      show_title_bar: Vis tittellinje
+      show_title_bar_hint: Hvis de er deaktivert, vil native (ikke-globale) og tredjeparts plugins være mer minimale.
       time_zone: Tidssone
       time_zone_hint: Bestemmer oppdateringsfrekvenser og enhetens hviletid.
       locale: Språk
       locale_hint: Hvilket språk og lokalitet foretrekker du? __Gå hit__.
+      theme: Utseende
+      theme_hint: Velg hvordan TRMNL skal se ut for deg. Velg et tema eller synkroniser med systeminnstillingene dine.
     update:
       success: Profil oppdatert
     reset_api_key:
-      success: API key was regenerated successfully
+      success: API-nøkkelen ble regenerert uten problemer
+    success: Suksess
   dashboard:
     index:
       title: Oversikt
@@ -163,7 +166,7 @@
       new_and_popular: Nye og populære
     shop:
       title: Butikk
-      need_another: Need another TRMNL?
+      need_another: Trenger du en ny TRMNL?
     time_saved:
       title: Tid spart
       cta: Les om
@@ -176,89 +179,90 @@
       accepts_beta_firmware: Tidlig utgivelse av fastvare
       accepts_beta_firmware_hint: Slå på for å få de nyeste fastvareoppdateringene før andre brukere.
       back_to_devices: Tilbake til enheter
-      battery_and_sleep: Battery & Sleep
+      battery_and_sleep: Batteri og hvilemodus
       battery_consumption: Batteriforbruk
       battery_consumption_hint: Spar strøm og få lengre batterilevetid ved å aktivere dvalemodus.
-      battery_learn_more: Learn more about battery charging __here__.
-      battery_refresh: Refresh
+      battery_learn_more: Lær mer om batterilading __her__.
+      battery_refresh: Oppdater
       developer_perks: Utviklerfordeler
       developer_perks_hint: Valgene nedenfor krever __Utviklertillegget__.
       device_credentials: Enhetslegitimasjon
       device_credentials_hint: Se hva du kan gjøre med denne legitimasjonen __her__
       device_name: Enhetsnavn
       device_name_hint: Vi bruker dette for å gjøre TRMNL-grensesnittet mer brukervennlig
-      device_model: Device Model
-      device_model_hint: Your hardware Model
-      device_model_switch_warning: This is a dangerous operation, learn more __here__
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_model: Enhetsmodell
+      device_model_hint: Din maskinvaremodell
+      device_model_switch_warning: Dette er en farlig operasjon, les mer __her__
+      device_info: Enhetsinformasjon
+      current_firmware: Gjeldende fastvare
+      last_ping: Siste ping
+      unknown: Ukjent
+      never: Aldri
+      display_calibration: Skjermkalibrering
+      display_calibration_hint: Finjuster gjengivelsen for skjermen din. La feltet være tomt for å bruke standardinnstillingene for modellen.
+      display_calibration_pixel_ratio: Pikselforhold
+      display_calibration_pixel_ratio_hint: 'Bildes zoomnivå (0,5–3,0). Standard:'
+      display_calibration_ui_scale: UI-skala
+      display_calibration_ui_scale_hint: 'Tekst- og elementstørrelser (0,5–2,0). Standard:'
       edit_device: Rediger enhet
-      firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
-      guest_mode: Guest Mode
-      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
-      guest_mode_item_placeholder: Choose an item
-      guest_mode_duration_placeholder: Choose a duration
+      firmware: Fastvare
+      firmware_updates_enabled: Oppdateringer aktivert
+      firmware_updates_disabled: Oppdateringer deaktivert
+      guest_mode: Gjestemodus
+      guest_mode_hint: Velg hva som skal vises (og hvor lenge) når gjestemodus er aktivert.
+      guest_mode_item_placeholder: Velg en vare
+      guest_mode_duration_placeholder: Velg varighet
       identify: Identifiser
       identify_device: Identifiser enhet
       identify_device_hint: Klikk på knappen nedenfor for å generere en skjerm på denne enheten som hjelper med å identifisere den.
       logs: Logger
       logs_hint: Feilsøk enheten og plugins med en live feed av rå feillogger.
-      low_battery_email_notification: Low Battery Email Notification
-      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
+      low_battery_email_notification: E-postvarsel om lavt batterinivå
+      low_battery_email_notification_hint: Få varsel via e-post når batteriet på enheten din er lavt.
       mirror: Speil
       mirror_device: Speil en annen enhet
       mirror_device_hint: Oppgi en (delbar) enhets-ID for å speile dens spilleliste. Din spilleliste vil fortsatt vises.
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
-      mirror_stop: Disconnect Mirroring
-      mirror_sync: Sync Screens
+      mirror_disabled: Speiling deaktivert
+      mirror_enabled: Speiling
+      mirror_stop: Koble fra speiling
+      mirror_sync: Synkroniser skjermer
       ota_enabled: OTA-oppdateringer aktivert
       ota_enabled_hint: Installerer automatisk ny fastvare. Deaktiver for å bruke din egen fastvare.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
-      maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      ota_byod_not_supported: OTA støttes ikke for BYOD-enheter. Flash en kompatibel versjon direkte fra usetrmnl.com/flash
+      maximum_compatibility: Aktiver maksimal kompatibilitet
+      maximum_compatibility_hint: Løser skjermproblemer forårsaket av visse e-ink-driverbrikker. Deaktiverer rask oppdatering. Firmware 1.6.0+ kreves.
+      palette: Fargepalett
+      palette_hint: Velg fargesettet som skal brukes når du genererer skjermbilder for denne enheten. En større palett ser penere ut, men en mindre palett tegnes raskere på e-ink. Enkelte elementer i spillelisten kan overstyre denne innstillingen.
       sleep_mode: Dvalemodus
       sleep_mode_hint: Juster oppdateringsfrekvensen for å optimalisere fokus og batterilevetid.
       sleep_screen: Dvaleskjerm
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
-      sleep_screen_hint: Display a sleep screen during sleep mode hours.
+      sleep_screen_tooltip: Aktiver hvilemodus for å bruke denne funksjonen
+      sleep_screen_hint: Vis en hvilemodusskjerm i hvilemodus.
       special_function: Spesiell funksjon
       special_function_hint: Angi en dobbeltklikk-funksjon for knappen på baksiden av enheten.
       special_function_learn_more: Les mer om spesialfunksjoner __her__.
-      temperature_profile: Temperature Profile
-      temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
+      temperature_profile: Temperaturprofil
+      temperature_profile_hint: Ikke endre med mindre du blir bedt om det. For skjermer med utvaskede bilder.
+      tidbyt_credentials: Tidbyt-legitimasjon
+      tidbyt_credentials_hint: Skriv inn API-påloggingsinformasjonen for Tidbyt-enheten din fra Tidbyt-appen under Innstillinger → Utvikler → Hent API-nøkkel.
+      tidbyt_credentials_invalid: Tidbyt API-påloggingsinformasjonen er ugyldig. Kontroller igjen og prøv på nytt.
+      tidbyt_device_id: Enhets-ID
+      tidbyt_device_api_key: API-nøkkel
       unlink: Koble fra
       unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
       unlink_device: Koble fra enhet
       unlink_device_hint: Å koble fra en TRMNL-enhet gjør den trygg å selge videre eller gi bort.
-      unlink_device_learn_more: Follow the full guide __here__.
+      unlink_device_learn_more: Følg den fullstendige veiledningen __her__.
       visibility: Synlighet
       visibility_hint: Gjør TRMNL-enheten din speilbar ved å endre innstillingene nedenfor.
       your_device: Din TRMNL
       upgrade_og:
-        title: Upgrade to 2-bit Display Available
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
-        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
-        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
-        cta: Upgrade to TRMNL OG (2-bit)
+        title: Oppgradering til 2-bits skjerm tilgjengelig
+        sub_title: Enheten din kan oppgraderes til å støtte forbedret gråtonevisning med 4 fargenivåer i stedet for 2.
+        warning_1: Jeg forstår at denne oppgraderingen er <strong>irreversibel</strong> og ikke kan angres.
+        warning_2: Jeg forstår at dette er en <strong>farlig</strong> handling og kan ødelegge enheten min.
+        cta: Oppgrader til TRMNL OG (2-bit)
+      tidbyt_api_key: Tidbyt API-nøkkel
     index:
       title: Enheter
       tagline: Dine TRMNL-enheter
@@ -275,8 +279,8 @@
       error: Feil ved frakobling av enhet
       success: Enheten ble frakoblet
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: Ugyldige enhetsopplysninger
+      success: Enhetslegitimasjonen er oppdatert
     identify:
       error: Feil ved oppdatering av enhet
       success: Forespørsel om enhetsidentifikasjon sendt
@@ -292,6 +296,11 @@
     update:
       error: Feil ved oppdatering av enhet
       success: "%{device} enhetsinnstillingene ble oppdatert"
+    error: Feil
+    error_not_shared: Feil ikke delt
+    error_oneself: Feil seg selv
+    success: Suksess
+    success_removed: Suksess fjernet
   invoices:
     rate_limit: For mange forsøk, vennligst vent og prøv igjen
     invoice_not_found: Faktura ikke funnet
@@ -299,7 +308,7 @@
     index:
       title: Logger
       all: Alle
-      bulk_destroy: Bulk Destroy
+      bulk_destroy: Masseødeleggelse
       dump: Dump
       id: ID
       private_plugins: Private plugins
@@ -307,7 +316,7 @@
       time: Tid
   markups:
     console_logs:
-      js_logs: JS Logs
+      js_logs: JS-logger
     form:
       back_to_plugin_settings: Tilbake til plugin-innstillinger
       design_system: Dra nytte av vårt innebygde designsystem
@@ -319,17 +328,18 @@
       edit_markup_without_preview: Rediger markup (uten forhåndsvisning)
       error_rendering_markup: Feil ved gjengivelse av markup
       fix_indentation: Fiks innrykk
-      go_to_preview: Go To Preview
+      go_to_preview: Gå til forhåndsvisning
       live_preview: Direkte forhåndsvisning
       no_changes_to_save: Ingen endringer å lagre
-      pop_out_preview: Pop Out Preview
+      pop_out_preview: Pop-up-forhåndsvisning
       quickstart_examples: Raskstartseksempler
       quickstart_example_applied: Anvendt!
       quickstart_use_this_example: Bruk dette eksempelet
       revert: Angre
       revert_confirm: Er du sikker på at du vil angre? Alle uspurte endringer vil gå tapt.
       save_changes: Lagre endringer (⌘﹢S)
-      separate_preview: Preview is open in a separate window
+      separate_preview: Forhåndsvisning åpnes i et eget vindu
+      edit_composition: Rediger sammensetning
     merge_variables:
       your_variables: Dine variabler
     no_merge_variables:
@@ -350,10 +360,12 @@
       error: Ugyldig OTP-kode
     verify_otp:
       verify: Verifiser
-      reset: Reset MFA
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
+      reset: Tilbakestill MFA
+      reset_instructions: Klikk på knappen på baksiden av TRMNL for å generere en tilbakestillingskode.
       success: 2FA vellykket
       error: Ugyldig OTP-kode
+    enable_otp_path:
+      already_enabled: Allerede aktivert
   playlist_items:
     index:
       title: Spilleliste
@@ -363,32 +375,32 @@
       add_first_device_cta: Start med å __legge til__ din første TRMNL-enhet!
       add_to_playlist: Legg til i spilleliste
       create_first_playlist_cta: Lag spillelisten din etter å ha __koblet til__ din første plugin!
-      custom: Custom
-      device_default: Device default
+      custom: Tilpasset
+      device_default: Enhetens standardinnstilling
       display_period_from: Vis fra
       display_period_to: til
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
-      never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      display_period_validation: Starttidspunktet må være før sluttidspunktet. Opprett en ny gruppe som strekker seg over natten.
+      every: Hver
+      never_skip: Hopp aldri over skjermbilder
+      smart_playlist: Smart spilleliste
+      smart_playlist_hint: Hopp automatisk over skjermbilder hvis innhold ikke har endret seg på en stund.
       skip_after:
-        one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        one: Hopp over gamle skjermbilder etter 1 dag
+        other: Hopp over gamle skjermbilder etter %{count} dager
     playlist_item:
-      adjust_schedule: Adjust schedule
+      adjust_schedule: Juster tidsplan
       delete: Er du sikker på at du vil fjerne dette elementet? Pluginen vil fortsatt være tilkoblet, men ikke vist på enheten din.
       displayed_now: Vises nå
       not_displayed_yet: Venter
       remove_from_playlist: Fjern fra spilleliste
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      hide_playlist: Skjul dette elementet
+      show_playlist: Vis denne varen
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: Oppdateringsfrekvensen til dette pluginet kan ikke konfigureres.
+        external: Dette pluginet henter data på farten, så innstillinger for oppdateringsfrekvens gjelder ikke.
+        global: Dette pluginet oppdateres på hele plattformen etter en fast tidsplan.
+        mashup: Mashupen oppdateres like ofte som den raskeste plugin-modulen.
+        readonly: Dette pluginet har en fast oppdateringsfrekvens som ikke kan konfigureres.
     create:
       error: Kunne ikke oppdatere spillelisten
       success: Spilleliste oppdatert
@@ -396,15 +408,20 @@
       error: Feil ved fjerning av element fra spilleliste
       success: Plugin fjernet fra spilleliste
     toggle_visibility:
-      success: Playlist item %{change}
+      success: Spillelisteelement %{endring}
     duplicate:
-      success: Playlist duplicated
+      success: Spilleliste duplisert
     sort:
-      success: Playlist order updated
+      success: Spilleliste rekkefølge oppdatert
     set_preferences:
       success: Smart playlist preference updated
     update:
       success: Rekkefølgen i spillelisten er oppdatert
+    error: Feil
+    playlist:
+      displayed_now: Vises nå
+      not_displayed_yet: Ikke vist ennå
+    success: Suksess
   plugins:
     index:
       title: Plugins
@@ -413,6 +430,7 @@
       connected: Tilkoblet
       recipes: Oppskrifter
       recipes_hint: Private plugins fra fellesskapet som kan installeres med ett klikk. __Les mer__.
+      supported_by_this_device: Støttes av denne enheten
     search:
       placeholder: Søk etter plugins
     my:
@@ -429,9 +447,9 @@
       tagline: Andre brukere vil kunne installere din plugin.
       name: Navn
       category: Kategori
-      category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
+      category_hint: Hold nede cmd eller ctrl for å velge opptil 3
+      refresh_every: Støttet oppdateringsintervall
+      refresh_every_hint: Det raskeste oppdateringsintervallet pluginen din kan støtte.
       description: Beskrivelse
       description_hint: Maksimum 50 tegn
       icon: Ikon
@@ -444,22 +462,28 @@
       management_url_hint: Les mer om administrasjonsflyten __her__.
       markup_url: Plugin Markup-URL
       markup_url_hint: Les mer om skjermgenerering __her__.
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
+      no_screen_padding: Ingen skjermpolstring
+      no_screen_padding_hint: Fjerner den ytterste utfyllingen i fullskjermmodus.
       uninstallation_webhook_url: Webhook-URL for avinstallasjon
     edit:
       title: Rediger plugin
       tagline: Oppdater detaljene for din plugin.
       name: Navn
       description: Beskrivelse
+    mondrian:
+      common:
+        view: Vis
+    recipes:
+      recipe_lander:
+        preview: Forhåndsvisning
   plugin_recipes:
-    connected: Recipe connected
+    connected: Oppskrift knyttet til
     connections:
-      one: Connection
-      other: Connections
+      one: Tilkobling
+      other: Tilkoblinger
     forks:
-      one: Fork
-      other: Forks
+      one: Gaffel
+      other: Gaffler
     new:
       error: Oppskrift ikke funnet
   plugin_settings:
@@ -469,83 +493,83 @@
     delete: Dette vil fullstendig fjerne plugin-innstillingene. For kun å skjule pluginen fra enheten din, fjern den fra spillelisten i stedet.
     inactive: Inaktiv
     no_plugin_settings_found: Ingen plugin-innstillinger funnet.
-    not_supported: Not supported on current device
+    not_supported: Ikke støttet på gjeldende enhet
     refreshing_now_please_wait: Oppdaterer nå, last siden på nytt om noen sekunder.
     reset_credentials: "%{plugin_name} konto ble tilbakestilt"
     form:
       active_hint: Vis eller skjul denne plugin-instansen på enheten din
-      advanced_settings: Advanced Settings
-      back_to_playlist: Back to Playlist
+      advanced_settings: Avanserte innstillinger
+      back_to_playlist: Tilbake til spillelisten
       back_to_plugin: Tilbake til %{plugin}
       back_to_plugins: Tilbake til plugins
       connect_with: Koble til %{plugin}
-      debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
-      debug_logs_enabled_link: View logs
+      debug_logs: Feilsøkingslogger
+      debug_logs_click_here: Klikk her
+      debug_logs_click_here_hint: for å aktivere feilsøkingslogger for denne plugin-instansen.
+      debug_logs_enabled: Feilsøkingslogger aktivert i %{hours} timer.
+      debug_logs_enabled_link: Vis logger
       disconnect_account: Koble fra konto
       manage_plugin: Konfigurer %{plugin}
       force_refresh: Tving oppdatering
       force_refresh_hint: Denne funksjonen er kun designet for testing - vennligst ikke misbruk den.
       force_refresh_click_here: Klikk her
       force_refresh_click_here_hint: for å generere en ny skjerm umiddelbart
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      force_refresh_not_possible: Dette pluginet kan ikke tvangsoppdateres fordi TRMNL-serveren ikke utfører bildebehandling. Lær hvordan du tester din instans __her__.
       learn_more: Les om denne pluginen i vår kunnskapsbase
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
-      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
+      learn_more_fork: Dette pluginet ble forked fra en oppskrift.
+      learn_more_fork_original: Se original
+      learn_more_native_long: Dette pluginet er utviklet og vedlikeholdt av TRMNL.
+      learn_more_native_short: Dette pluginet vedlikeholdes av TRMNL.
+      learn_more_recipe_author: Trenger du hjelp? Kontakt %{recipe_author} på Discord.
+      learn_more_recipe_long: Dette pluginet er et fellesskapsoppskrift og vedlikeholdes ikke av TRMNL.
+      learn_more_recipe_short: 'Merk: dette pluginet er en oppskrift.'
+      learn_more_third_party_long: Dette pluginet er utviklet av en tredjepart og vedlikeholdes ikke av TRMNL.
+      learn_more_third_party_short: 'Merk: dette pluginet er utviklet av en tredjepart.'
       linked_account: Koblet konto
       linked_account_success: Koblet til %{plugin_name} med hell
       link_oauth: Koble konto
       link_oauth_hint: Før du fortsetter, følg den sikre autorisasjonsprosessen gitt av %{plugin}
-      mirrored: Mirrored
+      mirrored: Speilet
       multiple_instances_hint: Denne pluginen støtter flere instanser.
       name: Navn
       name_hint: Gi den et navn for enkel referanse
       parse: Parse
-      parse_save_first: Parse (Save plugin first)
-      parsed: Parsed
-      plugin_uuid: Plugin UUID
+      parse_save_first: Parse (Lagre plugin først)
+      parsed: Parset
+      plugin_uuid: Plugin-UUID
       plugin_uuid_hint: Bruk dette for å gjøre Webhook API-forespørsler.
       preview: Forhåndsvisning - enheten din vil vise faktiske data
       recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_unlisted: This plugin is unlisted
+      recipe_cta_heading_unlisted: Dette pluginet er ikke oppført
       recipe_cta_heading_in_review: Recipe in review
       recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
-      recipe_mirrored: This screen is mirrored from the recipe.
-      recipe_visibility_title: How would you like to publish?
-      recipe_visibility_edit_title: Edit Submission
-      recipe_visibility_public: Public
-      recipe_visibility_public_hint: Anyone can find and install.
-      recipe_visibility_private: Private
-      recipe_visibility_private_hint: Breaks external installs.
-      recipe_visibility_unlisted: Unlisted
-      recipe_visibility_unlisted_hint: Anyone with the link can install.
+      recipe_cta_body_published: Endringene vil gjenspeiles i eksisterende installasjoner og fremtidige installasjoner/forks.
+      recipe_cta_body_in_review: Dette pluginet er sendt til teamet vårt. Vent litt.
+      recipe_cta_body_not_published: Send inn dette pluginet slik at andre kan installere det. __Lær mer__.
+      recipe_cta_confirm: Er du sikker? Vårt team vil gjennomgå det og komme tilbake til deg innen et par dager. Du kan fortsette å gjøre endringer.
+      recipe_mirrored: Denne skjermen er speilet fra oppskriften.
+      recipe_visibility_title: Hvordan ønsker du å publisere?
+      recipe_visibility_edit_title: Rediger innsending
+      recipe_visibility_public: Offentlig
+      recipe_visibility_public_hint: Alle kan finne og installere.
+      recipe_visibility_private: Privat
+      recipe_visibility_private_hint: Bryter eksterne installasjoner.
+      recipe_visibility_unlisted: Ikke børsnotert
+      recipe_visibility_unlisted_hint: Alle som har lenken kan installere.
       refresh_rate: Oppdateringsfrekvens
       refresh_rate_hint: Definer hvor ofte denne plugin-instansen henter nye data
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
+      refresh_rate_not_configurable: Synkroniserer %{refresh_rate} (kan ikke konfigureres)
       refreshed: Oppdatert
       remove_plugin: Fjern plugin
       remove_plugin_hint: Fjerning av en plugin vil også fjerne den fra spillelisten din
       synced: Synkronisert
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
-      view_recipe: View Recipe
+      refresh_paused: Oppdater pauset
+      refresh_paused_hint: Automatisk oppdatering er satt på pause. Legg til i spillelisten for å starte igjen.
+      refresh_paused_hidden_hint: Automatisk oppdatering er satt på pause fordi plugin-modulen er skjult i spillelisten. Datasynkronisering er aktiv.
+      refresh_paused_mashup: Forfriskende mashups
+      refresh_paused_mashup_hint: Automatisk oppdatering pauset for fullskjerm. Mashups oppdateres.
+      refresh_stopped: Automatisk oppdatering stoppet. Løs plugin-feilen for å fortsette.
+      view_recipe: Se oppskrift
       visit_docs: Besøk dokumentasjonen
     import:
       archive_too_large: ZIP-filen er for stor (maksimum %{max_mb} MB)
@@ -562,24 +586,34 @@
       success: Plugin-konfigurasjonen ble oppdatert
     add_to_playlist:
       success: Plugin lagt til i spilleliste
+    back_button:
+      back_to_plugin: Tilbake til plugin
+      back_to_plugins: Tilbake til plugins
+    index:
+      no_plugin_settings_found: Ingen plugin-innstillinger funnet
+    playlist: Spilleliste
+    success: Suksess
   referral_code:
     create:
       request_received: Forespørsel mottatt, sjekk innboksen din
+    request_received: Forespørsel mottatt
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
-      fork: Fork
+      newest_to_oldest: Nyeste til eldste
+      oldest_to_newest: Eldste til nyeste
+      most_popular: Mest populære
+      install: Installer
+      fork: Gaffel
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: Legg til en tilpasset tidsplan
+      append: Og under...
+      no_schedule: Denne skjermen vil vises hele tiden.
+      some_schedule: Vis bare denne skjermen under…
+      to: til
+      copy_prompt: Kopier tidsplan fra…
+      cancel: Avbryt
+      save: Lagre
   upgrade:
     index:
       title: 'Oppgraderer enhet:'
@@ -588,3 +622,68 @@
       error: Enheten %{device_name} er allerede oppgradert, bytt til en annen enhet
     confirm:
       success: Utviklerutgave-tillegget er nå aktivert
+  action: Handling
+  actions: Handlinger
+  active_admin:
+    blank_slate:
+      content: Innhold
+      link: Link
+    comments:
+      add: Legg til
+      author_missing: Forfatter mangler
+      delete: Slett
+      delete_confirmation: Slett bekreftelse
+      no_comments_yet: Ingen kommentarer ennå
+    devise: Utarbeide
+    logout: Logg ut
+    pagination:
+      empty: Tom
+      next: Neste
+      previous: Forrige
+    powered_by: Drevet av
+  date:
+    abbr_day_names: Forkortelser for dagene i måneden
+    day_names: Dagenavn
+  default: Standard
+  default_webhook_rate_limit: Standard webhook-hastighetsbegrensning
+  developer_edition_addon_amount: Tilleggsbeløp for utviklerutgave
+  duration: Varighet
+  errors:
+    messages:
+      not_saved: Ikke lagret
+  fetch: Hent
+  framework:
+    responsive_test:
+      example-size-btn: Eksempel-størrelse-btn
+      test-config-btn: Test-konfigurasjon-knapp
+  id: Id
+  ignore_log_messages: Ignorer loggmeldinger
+  ignore_logs: Ignorer logger
+  maintenance_mode: Vedlikeholdsmodus
+  mashup_id: Mashup-ID
+  mashups:
+    mashup:
+      add_to_playlist: Legg til spilleliste
+  month: Måned
+  name: Navn
+  order_number: Ordrenummer
+  plus_webhook_rate_limit: Pluss webhook-hastighetsbegrensning
+  primary: Primær
+  public: Offentlig
+  query: Spørsmål
+  rolling_month: Rullende måned
+  rolling_week: Rullende uke
+  schedule: Tidsplan
+  shop_promotion: Butikkampanje
+  site_banner: Nettstedbanner
+  site_banner_link: Bannerlenke til nettstedet
+  sleep_mode_enabled: Sovemodus aktivert
+  title: Tittel
+  today_only: Bare i dag
+  value: Verdi
+  views:
+    pagination:
+      truncate: Avkort
+  visible: Synlig
+  week: Uke
+  work_week: Arbeidsuke

@@ -9,7 +9,7 @@ it:
     due: Scadenza
     deutsche_bahn_departures:
       departures: Partenze
-      time: Time
+      time: Tempo
       line: Linea
       destination: Destinazione
       platform: Piattaforma
@@ -23,7 +23,7 @@ it:
       title: Calendario
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Leap %{month_label}
+        leap_format: Salto %{month_label}
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
@@ -191,19 +191,19 @@ it:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} connessione}} many {{{$value :number} connessioni}} * {{{$value :number} connessioni}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} many {{{$value :number} forks}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Nessuna installazione}} one {{{$value :number} installazioni}} * {{{$value :number} installazioni}}"
       and_more: e {$value :number} più
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: '"{$keyword}" non ha trovato nessun risultato.'
+      error_keyword_subtitle: Prova a cercare qualcos'altro.
+      error_new_title: Non ci sono nuove ricette.
+      error_new_subtitle: Questo non dovrebbe succedere.
+      error_self_title: Non hai messo nessuna ricetta.
+      error_self_subtitle: Scopri come pubblicare il tuo primo articolo su https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'L''utente #{$authorId} non ha pubblicato nessuna ricetta.'
+      error_author_id_subtitle: Non c'è nessuna ricetta associata a questo ID.
+      error_recipe_ids_title: Non c'è nessun ID ricetta.
+      error_recipe_ids_subtitle: Aggiungi un ID ricetta per iniziare.
     horizontal_world_clock:
-      name: World clock
+      name: Orologio mondiale
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: Da {$from :langName} a {$to :langNameList}

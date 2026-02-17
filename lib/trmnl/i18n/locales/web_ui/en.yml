@@ -133,10 +133,13 @@ en:
       time_zone_hint: Determines refresh rates and device sleep time.
       locale: Locale
       locale_hint: What language and localization do you prefer? __Go here__.
+      theme: Appearance
+      theme_hint: Choose how TRMNL looks to you. Select a theme or sync with your system setting.
     update:
       success: Profile updated successfully
     reset_api_key:
       success: API key was regenerated successfully
+    success: Success
   dashboard:
     index:
       title: Dashboard
@@ -259,6 +262,7 @@ en:
         warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
         warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
         cta: Upgrade to TRMNL OG (2-bit)
+      tidbyt_api_key: Tidbyt api key
     index:
       title: Devices
       tagline: Your TRMNL devices
@@ -292,6 +296,11 @@ en:
     update:
       error: Error updating device
       success: "%{device} device settings updated successfully"
+    error: Error
+    error_not_shared: Error not shared
+    error_oneself: Error oneself
+    success: Success
+    success_removed: Success removed
   invoices:
     rate_limit: Too many attempts, please wait and try again
     invoice_not_found: Invoice not found
@@ -330,6 +339,7 @@ en:
       revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
       save_changes: Save Changes (⌘﹢S)
       separate_preview: Preview is open in a separate window
+      edit_composition: Edit composition
     merge_variables:
       your_variables: Your variables
     no_merge_variables:
@@ -354,6 +364,8 @@ en:
       reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 2FA successful
       error: Invalid OTP code
+    enable_otp_path:
+      already_enabled: Already enabled
   playlist_items:
     index:
       title: Playlist
@@ -405,6 +417,11 @@ en:
       success: Smart Playlist preference updated
     update:
       success: Playlist order updated
+    error: Error
+    playlist:
+      displayed_now: Displayed now
+      not_displayed_yet: Not displayed yet
+    success: Success
   plugins:
     index:
       title: Plugins
@@ -413,6 +430,7 @@ en:
       connected: Connected
       recipes: Recipes
       recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+      supported_by_this_device: Supported by this device
     search:
       placeholder: Search Plugins
     my:
@@ -452,6 +470,12 @@ en:
       tagline: Update your plugin details.
       name: Name
       description: Description
+    mondrian:
+      common:
+        view: View
+    recipes:
+      recipe_lander:
+        preview: Preview
   plugin_recipes:
     connected: Recipe connected
     connections:
@@ -562,9 +586,17 @@ en:
       success: Plugin configuration updated successfully
     add_to_playlist:
       success: Plugin added to playlist
+    back_button:
+      back_to_plugin: Back to plugin
+      back_to_plugins: Back to plugins
+    index:
+      no_plugin_settings_found: No plugin settings found
+    playlist: Playlist
+    success: Success
   referral_code:
     create:
       request_received: Request received, check your inbox
+    request_received: Request received
   recipes:
     index:
       newest_to_oldest: Newest to Oldest
@@ -580,6 +612,8 @@ en:
       some_schedule: Only show this screen during…
       to: to
       copy_prompt: Copy schedule from…
+      cancel: Cancel
+      save: Save
   upgrade:
     index:
       title: 'Upgrading device:'
@@ -588,3 +622,68 @@ en:
       error: Device %{device_name} is already upgraded, switch to another device
     confirm:
       success: Developer edition add-on is now enabled
+  action: Action
+  actions: Actions
+  active_admin:
+    blank_slate:
+      content: Content
+      link: Link
+    comments:
+      add: Add
+      author_missing: Author missing
+      delete: Delete
+      delete_confirmation: Delete confirmation
+      no_comments_yet: No comments yet
+    devise: Devise
+    logout: Logout
+    pagination:
+      empty: Empty
+      next: Next
+      previous: Previous
+    powered_by: Powered by
+  date:
+    abbr_day_names: Abbr day names
+    day_names: Day names
+  default: Default
+  default_webhook_rate_limit: Default webhook rate limit
+  developer_edition_addon_amount: Developer edition addon amount
+  duration: Duration
+  errors:
+    messages:
+      not_saved: Not saved
+  fetch: Fetch
+  framework:
+    responsive_test:
+      example-size-btn: Example-size-btn
+      test-config-btn: Test-config-btn
+  id: Id
+  ignore_log_messages: Ignore log messages
+  ignore_logs: Ignore logs
+  maintenance_mode: Maintenance mode
+  mashup_id: Mashup id
+  mashups:
+    mashup:
+      add_to_playlist: Add to playlist
+  month: Month
+  name: Name
+  order_number: Order number
+  plus_webhook_rate_limit: Plus webhook rate limit
+  primary: Primary
+  public: Public
+  query: Query
+  rolling_month: Rolling month
+  rolling_week: Rolling week
+  schedule: Schedule
+  shop_promotion: Shop promotion
+  site_banner: Site banner
+  site_banner_link: Site banner link
+  sleep_mode_enabled: Sleep mode enabled
+  title: Title
+  today_only: Today only
+  value: Value
+  views:
+    pagination:
+      truncate: Truncate
+  visible: Visible
+  week: Week
+  work_week: Work week

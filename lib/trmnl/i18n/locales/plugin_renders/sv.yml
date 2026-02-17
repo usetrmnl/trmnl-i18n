@@ -1,138 +1,138 @@
 ---
 sv:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: Och
+    and_x_more_suffix: mer
     days_left_year:
-      title: Days Left This Year
-      days_passed: Days Passed
-      days_left: Days Left
+      title: Återstående dagar i år
+      days_passed: Dagar som gått
+      days_left: Återstående dagar
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: Månkalender
+      age: Månålder
+      current_phase: Nuvarande fas
+      illumination: Månbelysning
+      next_full_moon: Nästa fullmåne
+      next_new_moon: Nästa nymåne
+      next_phase: Nästa fas
+      next_phase_short: Nästa
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: Nymåne
+        waxing_crescent: Vaxande halvmåne
+        first_quarter: Första kvartalet
+        waxing_gibbous: Vaxande gibbous
+        full_moon: Fullmåne
+        waning_gibbous: Avtagande gibbous
+        third_quarter: Tredje kvartalet
+        waning_crescent: Avtagande halvmåne
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo Väder
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Inomhustemperatur
+      indoor_temp_short: Inomhus
+      indoor_humidity: Luftfuktighet inomhus
+      indoor_humidity_short: Inomhusfuktighet.
+      outdoor_humidity: Utomhusfuktighet
+      outdoor_humidity_short: Ut. Hum.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
+      pressure: Tryck
+      noise: Buller
       min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
+      feels: Känns
+      rain: Regn
+      wind: Vind
       gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      default_station_name: Netatmo-station
+      default_outdoor_module: Utomhustemperatur
+      default_indoor_module: Inomhus
+      trends_title: "%{metric} Trender"
+      trends_title_short: Trender
+      temperature_trends: Temperaturtrender
+      temperature_trends_short: Temp-trender
+      outdoor_now: Utomhus nu
+      indoor_now: Inomhus nu
+      now: Nu
+      low_high_24h: 24 timmars lägsta/högsta
+      average_24h: 24-timmarsgenomsnitt
+      outdoor: Utomhus
+      indoor: Inomhus
+      rain_gauge_not_connected: Regnmätare inte ansluten
+      wind_gauge_not_connected: Vindmätare inte ansluten
+      no_rain_gauge: Ingen regnmätare
+      no_wind_gauge: Ingen vindmätare
+      add_module_hint: Lägg till den valfria modulen %{module} för att se dessa data.
+      range_24h: 24 timmars räckvidd
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Åtkomsttoken saknas. Anslut ditt Netatmo-konto igen.
+        no_station_selected: Ingen väderstation har valts. Välj en station i inställningarna.
+        connection_failed: Det går inte att ansluta till Netatmo-stationen. Kontrollera din internetanslutning.
+        data_retrieval_failed: Det går inte att hämta väderdata. Försök igen senare.
+        session_expired: Sessionen har gått ut. Anslut ditt Netatmo-konto igen i inställningarna.
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: Leverans av
+      empty: Det finns inga leveranser
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Fel i paket-API
+        http: HTTP-fel %{kod}
+        internal: Internt fel
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Aktiv leverans
+          other: Aktiva leveranser
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Senaste leverans
+          other: Senaste leveranser
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: Levererat
+        delivery_exception: Leveransundantag
+        expecting_pickup: Förväntar sig upphämtning
+        failed_delivery_attempt: Misslyckat leveransförsök
+        frozen: Fryst
+        in_transit: Under transport
+        information_received: Mottagen information
+        not_found: Hittades inte
+        out_for_delivery: Ute för leverans
+        unknown: Okänd
+      today: Idag
+      tomorrow: I morgon
     weather:
-      title: Weather
-      temperature: Temperature
-      feels_like: Feels Like
-      humidity: Humidity
-      low: Low
-      high: High
+      title: Väder
+      temperature: Temperatur
+      feels_like: Känns som
+      humidity: Luftfuktighet
+      low: Låg
+      high: Hög
       uv: UV
-      right_now: Right Now
-      today: Today
-      tomorrow: Tomorrow
+      right_now: Just nu
+      today: Idag
+      tomorrow: I morgon
       low_high_short: L/H
       uv_short: UV
       max: Max
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Tydligt
+          cloudy: Molnigt
+          foggy: Dimma
+          partly_cloudy: Delvis molnigt
+          rain_likely: Regn troligt
+          rain_possible: Regn möjligt
+          snow: Snö
+          snow_possible: Snö möjligt
+          thunderstorms_likely: Åskväder troligt
+          thunderstorms_possible: Åskväder möjligt
+          very_light_rain: Mycket lätt regn
+          windy: Blåsigt
+          wintry_mix_likely: Vinterväder troligt
+          wintry_mix_possible: Vinterväder möjligt
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: Låg
+          moderate: Måttlig
+          high: Hög
+          very_high: Mycket hög
+          extreme: Extrem
         conditions:
         - code: 1000
           day: Sunny

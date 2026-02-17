@@ -11,7 +11,7 @@ fr:
       departures: Départs
       time: Heure
       line: Ligne
-      destination: Destination
+      destination: Où tu veux aller
       platform: Quai
       delay: Retard
       train: Train
@@ -190,19 +190,19 @@ fr:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} connexion}} many {{{$value :number} connexions}} * {{{$value :number} connexions}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} duplication}} many {{{$value :number} duplications}} * {{{$value :number} duplications}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Pas besoin d'installer}} one {{{$value :number} installations}} * {{{$value :number} installations}}"
       and_more: et {$value :number} de plus
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: "« {$keyword} » n'a donné aucun résultat."
+      error_keyword_subtitle: Essaie de chercher autre chose.
+      error_new_title: Aucune nouvelle recette trouvée.
+      error_new_subtitle: Ça ne devrait pas arriver.
+      error_self_title: T'as pas mis en ligne de recette.
+      error_self_subtitle: Découvre comment publier ton premier article sur https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'L''utilisateur #{$authorId} n''a publié aucune recette.'
+      error_author_id_subtitle: Aucune recette n'est trouvée avec ce numéro.
+      error_recipe_ids_title: Aucun identifiant de recette trouvé.
+      error_recipe_ids_subtitle: Ajoute un identifiant de recette pour commencer.
     horizontal_world_clock:
-      name: World clock
+      name: Horloge mondiale
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: De {$from :langName} à {$to :langNameList}

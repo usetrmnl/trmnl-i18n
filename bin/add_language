@@ -1,0 +1,103 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+# Adds a new language to the TRMNL i18n system.
+# Creates locale files in all categories, syncs English keys, then auto-translates with DeepL.
+#
+# Usage:
+#   bin/add_language pt-PT              # add Portuguese (Portugal)
+#   bin/add_language pt-PT --no-translate  # add without auto-translating
+#
+# Requires: DEEPL_AUTH_KEY environment variable (unless --no-translate)
+
+require "yaml"
+require "pathname"
+require "fileutils"
+require "optparse"
+
+LOCALES_ROOT = Pathname(__dir__).join("../lib/trmnl/i18n/locales").expand_path
+CATEGORIES = %w[web_ui plugin_renders custom_plugins].freeze
+BIN_DIR = Pathname(__dir__).expand_path
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: bin/add_language <locale_code> [options]"
+  opts.on("--no-translate", "Skip DeepL translation after creating files") { options[:no_translate] = true }
+end.parse!
+
+locale_code = ARGV.first
+
+unless locale_code
+  warn "ERROR: locale code is required."
+  warn "Usage: bin/add_language <locale_code>"
+  warn ""
+  warn "Examples:"
+  warn "  bin/add_language pt-PT    # Portuguese (Portugal)"
+  warn "  bin/add_language th       # Thai"
+  warn "  bin/add_language ar       # Arabic"
+  exit 1
+end
+
+# Check if locale already exists
+existing = CATEGORIES.select { |cat| LOCALES_ROOT.join(cat, "#{locale_code}.yml").exist? }
+if existing.any?
+  warn "WARNING: #{locale_code} already exists in: #{existing.join(", ")}"
+  warn "Use bin/translate #{locale_code} to fill gaps instead."
+  exit 1
+end
+
+puts "Adding new language: #{locale_code}"
+puts "=" * 50
+
+# Step 1: Create locale files with English content as starting point
+CATEGORIES.each do |category|
+  category_dir = LOCALES_ROOT.join(category)
+  english_file = category_dir.join("en.yml")
+  next unless english_file.exist?
+
+  english_data = YAML.load_file(english_file)
+  locale_data = { locale_code => english_data["en"] }
+
+  # Add locale_name key for web_ui (human-readable name)
+  if category == "web_ui" && locale_data[locale_code]
+    locale_data[locale_code]["locale_name"] = locale_code.upcase
+  end
+
+  output_file = category_dir.join("#{locale_code}.yml")
+  output_file.open("w") do |file|
+    Psych.dump(locale_data, file, indentation: 2, line_width: -1)
+  end
+
+  puts "  Created #{output_file.relative_path_from(LOCALES_ROOT)}"
+end
+
+# Step 2: Create raw locale entry too (if bin/sync exists)
+sync_script = BIN_DIR.join("sync")
+if sync_script.exist?
+  puts "\nRunning bin/sync to generate raw locale mappings..."
+  system("ruby", sync_script.to_s)
+end
+
+# Step 3: Auto-translate with DeepL (unless --no-translate)
+if options[:no_translate]
+  puts "\nSkipping translation (--no-translate). Files contain English fallback values."
+  puts "Run `bin/translate #{locale_code}` when ready to translate."
+else
+  translate_script = BIN_DIR.join("translate")
+  unless translate_script.exist?
+    warn "\nWARNING: bin/translate not found. Skipping auto-translation."
+    warn "Run `bin/translate #{locale_code}` manually."
+    exit 0
+  end
+
+  puts "\nAuto-translating #{locale_code} with DeepL..."
+  system("ruby", translate_script.to_s, locale_code)
+end
+
+puts "\n#{"=" * 50}"
+puts "Language #{locale_code} added successfully!"
+puts ""
+puts "Next steps:"
+puts "  1. Update locale_name in web_ui/#{locale_code}.yml to the native language name"
+puts "  2. Review auto-translations for accuracy"
+puts "  3. Add '#{locale_code}' to available_locales in core app's config/application.rb"

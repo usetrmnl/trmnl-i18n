@@ -1,0 +1,209 @@
+---
+cs:
+  custom_plugins:
+    today: dnes
+    tomorrow: zítra
+    updated: Aktualizováno
+    activity: Aktivita
+    done: Hotovo
+    due: Splatné
+    deutsche_bahn_departures:
+      departures: Odjezdy
+      time: Čas
+      line: Řádek
+      destination: Cíl
+      platform: Platforma
+      delay: Zpoždění
+      train: Vlak
+      on_time: Včas
+      cancelled: Zrušeno
+      minutes: m
+      refreshed: Obnoveno
+    simple_calendar:
+      title: Kalendář
+      ym_format: "%B %Y"
+      chinese_korean:
+        leap_format: Skok %{month_label}
+        leap_format_short: LM%{alt_month}
+        ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
+        month_labels:
+        -
+        - M1
+        - M2
+        - M3
+        - M4
+        - M5
+        - M6
+        - M7
+        - M8
+        - M9
+        - M10
+        - M11
+        - M12
+        date_labels:
+        -
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+        - '14'
+        - '15'
+        - '16'
+        - '17'
+        - '18'
+        - '19'
+        - '20'
+        - '21'
+        - '22'
+        - '23'
+        - '24'
+        - '25'
+        - '26'
+        - '27'
+        - '28'
+        - '29'
+        - '30'
+        heavenly_stems:
+        - Wood
+        - Wood
+        - Fire
+        - Fire
+        - Earth
+        - Earth
+        - Metal
+        - Metal
+        - Water
+        - Water
+        earthly_branches:
+        - Rat
+        - Ox
+        - Tiger
+        - Rabbit
+        - Dragon
+        - Snake
+        - Horse
+        - Goat
+        - Monkey
+        - Rooster
+        - Dog
+        - Pig
+      japanese:
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 仏滅
+        - 大安
+        - 赤口
+        nengo:
+          reiwa: Reiwa
+        ym_format: "%B %Y (%{nengo} %{alt_year})"
+        year_1: '1'
+      hebrew:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        - Nisan
+        - Iyar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tishri
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
+        month_labels_abbr:
+        - Nis
+        - Iya
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tis
+        - Hes
+        - Kis
+        - Tev
+        - Shv
+        - Ada
+        - Ad1
+        - Ad2
+      hijri:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Muharram
+        - Safar
+        - Rabiʻ I
+        - Rabiʻ II
+        - Jumada I
+        - Jumada II
+        - Rajab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
+        - Dhuʻl-Qiʻdah
+        - Dhuʻl-Hijjah
+      bengali:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
+      indian:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
+        - Asadha
+        - Sravana
+        - Bhadra
+        - Asvina
+        - Kartika
+        - Agrahayana
+        - Pausa
+        - Magha
+        - Phalguna
+    public_recipe_stats:
+      connections: ".input {$value :number} .match $value zero {{Žádné připojení}} one {{{$value :number} připojení}} * {{{$value :number} připojení}}"
+      forks: ".input {$value :number} .match $value zero {{Bez vidličky}} one {{{$value :number} vidlička}} * {{{$value :number} vidličky}}"
+      installs: ".input {$value :number} .match $value zero {{Bez instalace}} one {{{$value :number} instalace}} * {{{$value :number} instalací}}"
+      and_more: a {$value :number} více
+      error_keyword_title: "„{$keyword}“ neodpovídá žádnému výsledku."
+      error_keyword_subtitle: Zkuste hledat něco jiného.
+      error_new_title: Nebyly nalezeny žádné nové recepty.
+      error_new_subtitle: To by se nemělo stávat.
+      error_self_title: Nezveřejnili jste žádný recept.
+      error_self_subtitle: Naučte se, jak publikovat svůj první příspěvek na https://help.usetrmnl.com/en/articles/9510536-private-plugins.
+      error_author_id_title: 'Uživatel #{$authorId} nezveřejnil žádný recept.'
+      error_author_id_subtitle: K tomuto ID nebyl nalezen žádný recept.
+      error_recipe_ids_title: Nebylo nalezeno žádné ID receptu.
+      error_recipe_ids_subtitle: Přidejte ID receptu a můžete začít.
+    horizontal_world_clock:
+      name: Světové hodiny
+    language_learning_sentences:
+      from_to: Z {$from :langName} do {$to :langNameList}

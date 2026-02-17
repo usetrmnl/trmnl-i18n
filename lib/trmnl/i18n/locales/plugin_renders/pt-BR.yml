@@ -26,49 +26,49 @@ pt-BR:
         third_quarter: Quarto Minguante
         waning_crescent: Lua Minguante
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo Clima
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Temperatura interna.
+      indoor_temp_short: Interior
+      indoor_humidity: Umidade interna
+      indoor_humidity_short: Humidade interior.
+      outdoor_humidity: Umidade externa
+      outdoor_humidity_short: Fora. Hum.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
+      pressure: Pressão
+      noise: Ruído
+      min_max: Mín./Máx.
+      feels: Sente
+      rain: Chuva
+      wind: Vento
       gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      default_station_name: Estação Netatmo
+      default_outdoor_module: Temperatura externa.
+      default_indoor_module: Interior
+      trends_title: Tendências %{metric}
+      trends_title_short: Tendências
+      temperature_trends: Tendências de temperatura
+      temperature_trends_short: Tendências temporárias
+      outdoor_now: Agora ao ar livre
+      indoor_now: Agora dentro de casa
+      now: Agora
+      low_high_24h: 24h Baixa / Alta
+      average_24h: Média de 24 horas
+      outdoor: Ao ar livre
+      indoor: Interior
+      rain_gauge_not_connected: Pluviómetro não conectado
+      wind_gauge_not_connected: Anemômetro não conectado
+      no_rain_gauge: Sem pluviômetro
+      no_wind_gauge: Sem anemômetro
+      add_module_hint: Adicione o módulo opcional %{module} para ver esses dados.
+      range_24h: 24 horas de autonomia
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Falta o token de acesso. Por favor, reconecte sua conta Netatmo.
+        no_station_selected: Nenhuma estação meteorológica selecionada. Por favor, escolha uma estação nas configurações.
+        connection_failed: Não deu pra conectar com a estação Netatmo. Dá uma olhada na sua conexão com a internet.
+        data_retrieval_failed: Não deu pra pegar os dados meteorológicos. Tenta de novo mais tarde, por favor.
+        session_expired: Sessão expirada. Por favor, reconecte sua conta Netatmo nas configurações.
     parcel:
       delivery_by: Entregue por
       empty: Não há entregas
@@ -109,23 +109,23 @@ pt-BR:
       tomorrow: Amanhã
       low_high_short: L/H
       uv_short: UV
-      max: Max
+      max: Máximo
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Limpar
+          cloudy: Nublado
+          foggy: Nebuloso
+          partly_cloudy: Parcialmente nublado
+          rain_likely: Probabilidade de chuva
+          rain_possible: Possibilidade de chuva
+          snow: Neve
+          snow_possible: Possibilidade de neve
+          thunderstorms_likely: Probabilidade de tempestades
+          thunderstorms_possible: Possibilidade de trovoadas
+          very_light_rain: Chuva muito fraca
+          windy: Ventoso
+          wintry_mix_likely: Possibilidade de mistura de neve e chuva
+          wintry_mix_possible: Possibilidade de mistura de neve e chuva
       weatherapi:
         uv:
           low: Baixo

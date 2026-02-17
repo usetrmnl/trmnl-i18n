@@ -64,7 +64,7 @@ pl:
   plugin_not_found: Nie znaleziono pluginu
   preview: Podgląd
   privacy: Prywatność
-  refresh_rate: Refresh rate
+  refresh_rate: Częstotliwość odświeżania
   refresh_rates_hint: __Tutaj__ dowiesz się więcej o częstotliwościach odświeżania.
   reset_password: Zresetuj hasło
   reset_to_defaults: Przywróć ustawienia fabryczne
@@ -133,10 +133,13 @@ pl:
       time_zone_hint: Wpływa na czasy odświeżania oraz tryb uśpienia urządzenia.
       locale: Język
       locale_hint: Jaki język preferujesz? __Więcej informacji__.
+      theme: Wygląd
+      theme_hint: Wybierz wygląd TRMNL. Wybierz motyw lub zsynchronizuj z ustawieniami systemu.
     update:
       success: Pomyślnie zaktualizowano profil
     reset_api_key:
       success: Regeneracja klucza API powiodła się
+    success: Sukces
   dashboard:
     index:
       title: Pulpit
@@ -199,10 +202,10 @@ pl:
       display_calibration_hint: Dostosuj renderowanie na swoim wyświetlaczu. Zostaw puste, aby użyć wartości domyślnych.
       display_calibration_pixel_ratio: Proporcja pikseli
       display_calibration_pixel_ratio_hint: 'Wartość przybliżenia (0.5–3.0). Domyślne:'
-      display_calibration_ui_scale: UI Scale
+      display_calibration_ui_scale: Skala interfejsu użytkownika
       display_calibration_ui_scale_hint: 'Rozmiar tekstu i elementów (0.5–2.0). Domyślne:'
       edit_device: Edytuj urządzenie
-      firmware: Firmware
+      firmware: Oprogramowanie układowe
       firmware_updates_enabled: Aktualizacje włączone
       firmware_updates_disabled: Aktualizacje wyłączone
       guest_mode: Tryb gościa
@@ -259,6 +262,7 @@ pl:
         warning_1: Rozumiem, że ta aktualizacja jest  <strong>nieodwracalna</strong> i nie da się jej w żaden sposób cofnąć.
         warning_2: Rozumiem, że ten proces jest <strong>niebezpieczny</strong> i może on uszkodzić moje urządzenie.
         cta: Aktualizuj do TRMNL OG (2-bit)
+      tidbyt_api_key: Klucz API Tidbyt
     index:
       title: Urządzenia
       tagline: Twoje urządzenia TRMNL
@@ -292,6 +296,11 @@ pl:
     update:
       error: Błąd podczas aktualizacji urządzenia
       success: Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane
+    error: Błąd
+    error_not_shared: Błąd nie został udostępniony
+    error_oneself: Błądzić samemu
+    success: Sukces
+    success_removed: Sukces usunięty
   invoices:
     rate_limit: Zbyt wiele prób, odczekaj chwilę i spróbuj ponownie
     invoice_not_found: Nie odnaleziono faktury
@@ -330,6 +339,7 @@ pl:
       revert_confirm: Na pewno chcesz cofnąć? Wszystkie niezapisane zmiany zostaną utracone.
       save_changes: Zapisz zmiany (⌘﹢S / Ctrl + S)
       separate_preview: Podgląd wyświetla się w osobnym oknie
+      edit_composition: Edytuj kompozycję
     merge_variables:
       your_variables: Twoje zmienne
     no_merge_variables:
@@ -354,6 +364,8 @@ pl:
       reset_instructions: Naciśnij przycisk na pleckach Twojego TRMNL, aby wygenerować kod resetowania
       success: Uwierzytelnianie powiodło się
       error: Nieprawidłowe hasło jednorazowe (OTP)
+    enable_otp_path:
+      already_enabled: Już włączone
   playlist_items:
     index:
       title: Playlista
@@ -405,6 +417,11 @@ pl:
       success: Ustawienia inteligentnej listy odtwarzania zaktualizowane
     update:
       success: Zaktualizowano kolejność odtwarzania
+    error: Błąd
+    playlist:
+      displayed_now: Wyświetlane teraz
+      not_displayed_yet: Jeszcze nie wyświetlono
+    success: Sukces
   plugins:
     index:
       title: Pluginy
@@ -413,6 +430,7 @@ pl:
       connected: Połączone
       recipes: Receptury
       recipes_hint: Prywatne pluginy stworzone przez społeczność, które mogą być zainstalowane jednym kliknięciem. __Więcej informacji__.
+      supported_by_this_device: Obsługiwane przez to urządzenie
     search:
       placeholder: Szukaj pluginów
     my:
@@ -452,13 +470,19 @@ pl:
       tagline: Zaktualizuj szczegóły swojego pluginu.
       name: Nazwa
       description: Opis
+    mondrian:
+      common:
+        view: Widok
+    recipes:
+      recipe_lander:
+        preview: Podgląd
   plugin_recipes:
     connected: Receptura połączona
     connections:
       one: Połączenie
       other: Połączenia
     forks:
-      one: Fork
+      one: Widelec
       other: Forki
     new:
       error: Nie znaleziono receptury
@@ -475,7 +499,7 @@ pl:
     form:
       active_hint: Pokazuje lub ukrywa instancję tego pluginu na Twoim urządzeniu
       advanced_settings: Zaawansowane
-      back_to_playlist: Back to Playlist
+      back_to_playlist: Powrót do listy odtwarzania
       back_to_plugin: Wróć do %{plugin}
       back_to_plugins: Wróć do pluginów
       connect_with: Połącz z %{plugin}
@@ -505,7 +529,7 @@ pl:
       linked_account_success: Pomyślnie połączono z %{plugin_name}
       link_oauth: Połącz konto
       link_oauth_hint: Przed przejściem dalej, należy skorzystać z bezpiecznej autoryzacji zapewnionej przez %{plugin}
-      mirrored: Mirrored
+      mirrored: Odbite
       multiple_instances_hint: Ten plugin obsługuje wieloinstancyjność.
       name: Nazwa
       name_hint: Nadaj nazwę dla łatwiejszej identyfikacji
@@ -523,7 +547,7 @@ pl:
       recipe_cta_body_in_review: Plugin został zgłoszony do przetestowania przez nasz zespół. Prosimy o cierpliwość.
       recipe_cta_body_not_published: Opublikuj ten plugin, aby inni mogli go zainstalować. __Dowiedz się więcej__.
       recipe_cta_confirm: Na pewno? Zespół TRMNL przetestuje plugin i odezwie się w ciągu kilku dni. Możesz nadal nanosić zmiany.
-      recipe_mirrored: This screen is mirrored from the recipe.
+      recipe_mirrored: Ten ekran jest kopią ekranu z przepisem.
       recipe_visibility_title: Wybierz sposób publikacji
       recipe_visibility_edit_title: Edytuj zgłoszenie
       recipe_visibility_public: Publiczny
@@ -545,7 +569,7 @@ pl:
       refresh_paused_mashup: Odświeżanie szablonów
       refresh_paused_mashup_hint: Automatyczne odświeżanie wstrzymane w trybie pełnoekranowym. Szablony się odświeżają.
       refresh_stopped: Automatyczne odświeżanie wstrzymane. Należy naprawić błędy w pluginie, nim będzie można kontynuować.
-      view_recipe: View Recipe
+      view_recipe: Zobacz przepis
       visit_docs: Przejrzyj dokumentację
     import:
       archive_too_large: Archiwum ZIP jest zbyt duże (maksimum %{max_mb} MB)
@@ -562,9 +586,17 @@ pl:
       success: Konfiguracja pluginu została pomyślnie zaktualizowana
     add_to_playlist:
       success: Plugin został dodany do playlisty
+    back_button:
+      back_to_plugin: Powrót do wtyczki
+      back_to_plugins: Powrót do wtyczek
+    index:
+      no_plugin_settings_found: Nie znaleziono ustawień wtyczki
+    playlist: Lista odtwarzania
+    success: Sukces
   referral_code:
     create:
       request_received: Zgłoszenie przyjęte, sprawdź swoją skrzynkę odbiorczą
+    request_received: Otrzymano zapytanie
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -580,6 +612,8 @@ pl:
       some_schedule: Określ, kiedy ten ekran ma być wyświetlany
       to: do
       copy_prompt: Kopiuj harmonogram z…
+      cancel: Anuluj
+      save: Zapisz
   upgrade:
     index:
       title: 'Aktualizowanie urządzenia:'
@@ -588,3 +622,68 @@ pl:
       error: Urządzenie %{device_name} zostało już zaktualizowane, wybierz inne urządzenie
     confirm:
       success: Edycja deweloperska została włączona
+  action: Działanie
+  actions: Działania
+  active_admin:
+    blank_slate:
+      content: Treść
+      link: Link
+    comments:
+      add: Dodaj
+      author_missing: Brak autora
+      delete: Usuń
+      delete_confirmation: Potwierdzenie usunięcia
+      no_comments_yet: Brak komentarzy
+    devise: Wymyśl
+    logout: Wyloguj
+    pagination:
+      empty: Pusty
+      next: Dalej
+      previous: Poprzedni
+    powered_by: Obsługiwane przez
+  date:
+    abbr_day_names: Skrócone nazwy dni tygodnia
+    day_names: Nazwy dni
+  default: Domyślnie
+  default_webhook_rate_limit: Domyślny limit częstotliwości webhooków
+  developer_edition_addon_amount: Kwota dodatku dla wersji deweloperskiej
+  duration: Czas trwania
+  errors:
+    messages:
+      not_saved: Nie zapisano
+  fetch: Pobierz
+  framework:
+    responsive_test:
+      example-size-btn: Przykładowy rozmiar przycisku
+      test-config-btn: Przycisk konfiguracji testowej
+  id: Id
+  ignore_log_messages: Ignoruj komunikaty dziennika
+  ignore_logs: Ignoruj logi
+  maintenance_mode: Tryb konserwacji
+  mashup_id: Identyfikator mashupu
+  mashups:
+    mashup:
+      add_to_playlist: Dodaj do listy odtwarzania
+  month: Miesiąc
+  name: Imię
+  order_number: Numer zamówienia
+  plus_webhook_rate_limit: Limit częstotliwości wywołań webhooków Plus
+  primary: Podstawowa
+  public: Publiczne
+  query: Zapytanie
+  rolling_month: Miesiąc bieżący
+  rolling_week: Tydzień kroczący
+  schedule: Harmonogram
+  shop_promotion: Promocja sklepu
+  site_banner: Baner strony
+  site_banner_link: Link do banera strony
+  sleep_mode_enabled: Tryb uśpienia włączony
+  title: Tytuł
+  today_only: Tylko dzisiaj
+  value: Wartość
+  views:
+    pagination:
+      truncate: Skrócić
+  visible: Widoczny
+  week: Tydzień
+  work_week: Tydzień pracy

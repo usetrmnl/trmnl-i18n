@@ -26,49 +26,49 @@ ru:
         third_quarter: Третья четверть
         waning_crescent: Убывающий полумесяц
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo Погода
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Температура в помещении.
+      indoor_temp_short: В помещении
+      indoor_humidity: Влажность в помещении
+      indoor_humidity_short: Внутренний Hum.
+      outdoor_humidity: Влажность на улице
+      outdoor_humidity_short: Выход. Хм.
       co2: CO₂
-      co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      co2_ppm: CO₂ в ppm
+      pressure: Давление
+      noise: Шум
+      min_max: Минимальное/максимальное
+      feels: Чувства
+      rain: Дождь
+      wind: Ветер
+      gust: Порыв ветра
+      default_station_name: Станция Netatmo
+      default_outdoor_module: Температура на улице.
+      default_indoor_module: В помещении
+      trends_title: Тенденции %{metric}
+      trends_title_short: Тенденции
+      temperature_trends: Тенденции температуры
+      temperature_trends_short: Тенденции температуры
+      outdoor_now: На природе сейчас
+      indoor_now: Сейчас в помещении
+      now: Сейчас
+      low_high_24h: 24 часа Минимальная / Максимальная
+      average_24h: Среднее за 24 часа
+      outdoor: На открытом воздухе
+      indoor: В помещении
+      rain_gauge_not_connected: Дождемер не подключен
+      wind_gauge_not_connected: Анемометр не подключен
+      no_rain_gauge: Нет дождемера
+      no_wind_gauge: Нет ветромера
+      add_module_hint: Добавь дополнительный модуль %{module}, чтобы увидеть эти данные
+      range_24h: 24-часовой диапазон
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Не хватает токена доступа. Попробуй снова подключиться к своей учетной записи Netatmo.
+        no_station_selected: Не выбрана метеостанция. Выбери станцию в настройках.
+        connection_failed: Не получается подключиться к станции Netatmo. Проверь, как у тебя с интернетом.
+        data_retrieval_failed: Не получилось достать данные о погоде. Попробуй позже.
+        session_expired: Сессия закончилась. Попробуй снова подключиться к своей учетной записи Netatmo в настройках.
     parcel:
       delivery_by: Доставка до
       empty: Нет доставок
@@ -107,25 +107,25 @@ ru:
       right_now: Прямо сейчас
       today: Сегодня
       tomorrow: Завтра
-      low_high_short: L/H
-      uv_short: UV
-      max: Max
+      low_high_short: Л/П
+      uv_short: УФ
+      max: Макс
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Ясно
+          cloudy: Облачно
+          foggy: Туманный
+          partly_cloudy: Частично облачно
+          rain_likely: Дождь вероятен
+          rain_possible: Возможен дождь
+          snow: Снег
+          snow_possible: Возможен снег
+          thunderstorms_likely: Вероятны грозы
+          thunderstorms_possible: Возможны грозы
+          very_light_rain: Очень слабый дождь
+          windy: Ветрено
+          wintry_mix_likely: Вероятно, будет снежно-дождливая погода
+          wintry_mix_possible: Возможен снег с дождем
       weatherapi:
         uv:
           low: Низкий

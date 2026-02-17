@@ -40,7 +40,7 @@ de-AT:
   first_name: Vorname
   forgot_password: Passwort vergessen
   forgot_password_title: Neues Passwort vergeben
-  friendly_id: Friendly ID
+  friendly_id: Freundliche ID
   get_started: Lass uns loslegen!
   hidden: versteckt
   identify: Identifizieren
@@ -64,7 +64,7 @@ de-AT:
   plugin_not_found: Erweiterung nicht gefunden
   preview: Vorschau
   privacy: Datenschutz
-  refresh_rate: Refresh rate
+  refresh_rate: Bildwiederholfrequenz
   refresh_rates_hint: Weitere Informationen zur Aktualisierungsrate __hier__.
   reset_password: Passwort zurücksetzen
   reset_to_defaults: Auf Standard zurücksetzen
@@ -133,10 +133,13 @@ de-AT:
       time_zone_hint: Legt Aktualisierungsraten und Ruhezeiten des Geräts fest.
       locale: Sprache
       locale_hint: Wähle die gewünschte Sprache und Lokalisierung aus. __Weitere Infos__.
+      theme: Aussehen
+      theme_hint: Entscheide selbst, wie TRMNL bei dir aussieht. Wähle ein Design aus oder synchronisiere es mit deinen Systemeinstellungen.
     update:
       success: Konto erfolgreich aktualisiert
     reset_api_key:
       success: API-Schlüssel wurde erfolgreich neu generiert
+    success: Erfolg
   dashboard:
     index:
       title: Übersicht
@@ -162,7 +165,7 @@ de-AT:
       connected: Verbunden
       new_and_popular: Neu und beliebt
     shop:
-      title: Shop
+      title: Laden
       need_another: Brauchst du noch einen TRMNL?
     time_saved:
       title: Eingesparte Zeit
@@ -190,11 +193,11 @@ de-AT:
       device_model: Gerätemodell
       device_model_hint: Dein Hardware-Modell
       device_model_switch_warning: Diese Aktion kann gefährlich sein, erfahre __hier__ mehr darüber
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
+      device_info: Geräteinfo
+      current_firmware: Aktuelle Firmware
+      last_ping: Letzter Ping
+      unknown: Unbekannt
+      never: Niemals
       display_calibration: Bildschirmkalibrierung
       display_calibration_hint: Rendering deines Displays anpassen. Feld leer lassen, um die Standardwerte zu verwenden.
       display_calibration_pixel_ratio: Pixelverhältnis
@@ -259,6 +262,7 @@ de-AT:
         warning_1: Mir ist bewusst, dass dieses Upgrade <strong>nicht rückgängig gemacht werden kann</strong>.
         warning_2: Mir ist bewusst, dass dies ein <strong>gefährlicher</strong> Vorgang ist, der mein Gerät dauerhaft beschädigen kann.
         cta: Auf TRMNL OG (2-bit) upgraden
+      tidbyt_api_key: Tidbyt-API-Schlüssel
     index:
       title: Geräte
       tagline: Deine TRMNL-Geräte
@@ -292,6 +296,11 @@ de-AT:
     update:
       error: Fehler beim Aktualisieren des Gerätes
       success: Einstellungen von %{device} erfolgreich aktualisiert
+    error: Fehler
+    error_not_shared: Fehler nicht geteilt
+    error_oneself: Sich selbst täuschen
+    success: Erfolg
+    success_removed: Erfolg entfernt
   invoices:
     rate_limit: Zu viele Versuche, bitte warte kurz und versuche es noch einmal
     invoice_not_found: Rechnung nicht gefunden
@@ -330,6 +339,7 @@ de-AT:
       revert_confirm: Wirklich rückgängig machen? Alle nicht gespeicherten Änderungen gehen verloren.
       save_changes: Speichern (⌘﹢S)
       separate_preview: Vorschau wird in separatem Fenster angezeigt
+      edit_composition: Komposition bearbeiten
     merge_variables:
       your_variables: Variablen
     no_merge_variables:
@@ -354,6 +364,8 @@ de-AT:
       reset_instructions: Klicke auf den Knopf auf der Rückseite deines TRMNL, um den Code zurückzusetzen
       success: 2FA erfolgreich
       error: OTP-Code fehlerhaft
+    enable_otp_path:
+      already_enabled: Schon aktiviert
   playlist_items:
     index:
       title: Wiedergabeliste
@@ -384,11 +396,11 @@ de-AT:
       hide_playlist: Eintrag verstecken
       show_playlist: Eintrag anzeigen
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: Die Aktualisierungsrate dieses Plugins kann nicht eingestellt werden.
+        external: Dieses Plugin holt sich die Daten direkt, also sind die Einstellungen für die Aktualisierungsrate nicht relevant.
+        global: Dieses Plugin wird regelmäßig auf der ganzen Plattform aktualisiert.
+        mashup: Das Mashup wird so oft aktualisiert wie das schnellste Plugin.
+        readonly: Dieses Plugin hat eine feste Aktualisierungsrate, die man nicht einstellen kann.
     create:
       error: Fehler beim Aktualisieren der Wiedergabeliste
       success: Wiedergabeliste aktualisiert
@@ -405,6 +417,11 @@ de-AT:
       success: Einstellung zur intelligenten Wiedergabeliste aktualisiert
     update:
       success: Wiedergabereihenfolge aktualisiert
+    error: Fehler
+    playlist:
+      displayed_now: Jetzt angezeigt
+      not_displayed_yet: Noch nicht angezeigt
+    success: Erfolg
   plugins:
     index:
       title: Erweiterungen
@@ -413,6 +430,7 @@ de-AT:
       connected: Verbunden
       recipes: Blaupausen
       recipes_hint: Private Erweiterungen aus der Community können mit einem Klick installiert werden. __Mehr erfahren__
+      supported_by_this_device: Unterstützt von diesem Gerät
     search:
       placeholder: Erweiterungen suchen
     my:
@@ -452,14 +470,20 @@ de-AT:
       tagline: Aktualisiere Details deiner Erweiterung.
       name: Name
       description: Beschreibung
+    mondrian:
+      common:
+        view: Ansicht
+    recipes:
+      recipe_lander:
+        preview: Vorschau
   plugin_recipes:
     connected: Blaupause verbunden
     connections:
       one: Verbindung
       other: Verbindungen
     forks:
-      one: Fork
-      other: Forks
+      one: Gabel
+      other: Gabeln
     new:
       error: Blaupause nicht gefunden
   plugin_settings:
@@ -562,9 +586,17 @@ de-AT:
       success: Einstellungen der Erweiterung wurden erfolgreich aktualisiert
     add_to_playlist:
       success: Erweiterung zur Wiedergabeliste hinzugefügt
+    back_button:
+      back_to_plugin: Zurück zum Plugin
+      back_to_plugins: Zurück zu den Plugins
+    index:
+      no_plugin_settings_found: Keine Plugin-Einstellungen gefunden
+    playlist: Playlist
+    success: Erfolg
   referral_code:
     create:
       request_received: Anfrage erhalten, bitte Posteingang überprüfen
+    request_received: Anfrage eingegangen
   recipes:
     index:
       newest_to_oldest: Neueste zuerst
@@ -580,6 +612,8 @@ de-AT:
       some_schedule: Zeige diesen Bildschirm nur von …
       to: bis
       copy_prompt: Zeitplan kopieren von …
+      cancel: Abbrechen
+      save: Speichern
   upgrade:
     index:
       title: 'Gerät wird aktualisiert:'
@@ -588,3 +622,68 @@ de-AT:
       error: Gerät %{device_name} wurde bereits geupgradet, wechsle auf ein anderes Gerät
     confirm:
       success: Addon für Entwickler-Edition ist nun aktiv
+  action: Aktion
+  actions: Aktionen
+  active_admin:
+    blank_slate:
+      content: Inhalt
+      link: Link
+    comments:
+      add: Hinzufügen
+      author_missing: Autor fehlt
+      delete: Löschen
+      delete_confirmation: Löschbestätigung
+      no_comments_yet: Noch keine Kommentare
+    devise: Entwerfen
+    logout: Abmelden
+    pagination:
+      empty: Leer
+      next: Weiter
+      previous: Vorherige
+    powered_by: Unterstützt von
+  date:
+    abbr_day_names: Abkürzungen für Wochentage
+    day_names: Tagesnamen
+  default: Standard
+  default_webhook_rate_limit: Standardmäßige Webhook-Ratenbegrenzung
+  developer_edition_addon_amount: Betrag für das Add-on der Entwickleredition
+  duration: Dauer
+  errors:
+    messages:
+      not_saved: Nicht gespeichert
+  fetch: Hol
+  framework:
+    responsive_test:
+      example-size-btn: Beispiel-Größe-btn
+      test-config-btn: Test-Konfigurations-Schaltfläche
+  id: Id
+  ignore_log_messages: Log-Meldungen ignorieren
+  ignore_logs: Protokolle ignorieren
+  maintenance_mode: Wartungsmodus
+  mashup_id: Mashup-ID
+  mashups:
+    mashup:
+      add_to_playlist: Zur Playlist hinzufügen
+  month: Monat
+  name: Name
+  order_number: Bestellnummer
+  plus_webhook_rate_limit: Plus Webhook-Ratenbegrenzung
+  primary: Primär
+  public: Öffentlich
+  query: Abfrage
+  rolling_month: Laufender Monat
+  rolling_week: Laufende Woche
+  schedule: Zeitplan
+  shop_promotion: Ladenwerbung
+  site_banner: Website-Banner
+  site_banner_link: Link zum Banner der Website
+  sleep_mode_enabled: Schlafmodus aktiviert
+  title: Titel
+  today_only: Nur heute
+  value: Wert
+  views:
+    pagination:
+      truncate: Abkürzen
+  visible: Sichtbar
+  week: Woche
+  work_week: Arbeitswoche

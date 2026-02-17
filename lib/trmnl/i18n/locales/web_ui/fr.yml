@@ -17,7 +17,7 @@ fr:
   charge_level: Niveau de charge
   charged: chargé
   charging: En cours de chargement
-  claim_plus_trial: Claim 6 Months Free
+  claim_plus_trial: Profitez de 6 mois gratuits
   close: Fermer
   confirm_change_password: Changer mon mot de passe
   confirm_password: Confirmer le nouveau mot de passe
@@ -40,7 +40,7 @@ fr:
   first_name: Prénom
   forgot_password: J'ai oublié mon mot de passe
   forgot_password_title: Réinitialiser le mot de passe
-  friendly_id: Friendly ID
+  friendly_id: Identifiant amical
   get_started: Commençons !
   hidden: masqué
   identify: Identifier
@@ -64,10 +64,10 @@ fr:
   plugin_not_found: Plugin introuvable
   preview: Aperçu
   privacy: Confidentialité
-  refresh_rate: Refresh rate
+  refresh_rate: Fréquence de rafraîchissement
   refresh_rates_hint: Apprenez comment le taux de rafraîchissement fonctionne __ici__.
   reset_password: Réinitialiser mon mot de passe
-  reset_to_defaults: Reset to defaults
+  reset_to_defaults: Remettre les paramètres par défaut
   required: Requis
   save: Enregistrer
   shown: affiché
@@ -78,7 +78,7 @@ fr:
   something_went_wrong: Une erreur est survenue
   status: Statut
   subscribe: S'abonner
-  help_center: Support
+  help_center: Assistance
   terms: Conditions
   update: Mise à jour
   view: Vue
@@ -122,7 +122,7 @@ fr:
       disable_2fa: Désactiver l'authentification à 2 facteurs (A2F)
       disable_2fa_hint: Fournissez un OTP valide et votre mot de passe actuel pour désactiver l'A2F.
       plus_subscription: Abonnement TRMNL+
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
+      plus_subscription_trial_until: T'es en période d'essai gratuit jusqu'au %{plus_trial_end_at}.
       plus_subscription_hint: Débloquez des taux de rafraîchissement plus rapides et des limites de débit plus élevées. __En savoir plus__.
       plus_subscription_modify: Voulez-vous mettre à jour votre moyen de paiement ou annuler ?
       session: Session
@@ -131,12 +131,15 @@ fr:
       show_title_bar_hint: Si cette option est désactivée, les plugins natifs (non globaux) et les plugins tiers seront minimisés.
       time_zone: Fuseau horaire
       time_zone_hint: Détermine les taux de rafraîchissement et le temps de veille de l'appareil.
-      locale: Locale
+      locale: Paramètres régionaux
       locale_hint: Quel langage et localisation préférez-vous ? __Voir ici__.
+      theme: Apparence
+      theme_hint: Choisis comment tu veux voir TRMNL. Choisis un thème ou synchronise-le avec les paramètres de ton système.
     update:
       success: Profil mis à jour avec succès
     reset_api_key:
       success: Clé API regénérée avec succès
+    success: Succès
   dashboard:
     index:
       title: Tableau de bord
@@ -190,19 +193,19 @@ fr:
       device_model: Modèle d'appareil
       device_model_hint: Le modèle de votre appareil
       device_model_switch_warning: Cette opération est dangereuse, en savoir plus __ici__
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_info: Infos sur l'appareil
+      current_firmware: Micrologiciel actuel
+      last_ping: Dernier ping
+      unknown: Inconnu
+      never: Jamais
+      display_calibration: Calibrage de l'écran
+      display_calibration_hint: Ajuste le rendu pour ton écran. Laisse vide pour utiliser les paramètres par défaut du modèle.
+      display_calibration_pixel_ratio: Rapport de pixels
+      display_calibration_pixel_ratio_hint: 'Niveau de zoom de l''image (0,5–3,0). Par défaut :'
+      display_calibration_ui_scale: Échelle de l'interface utilisateur
+      display_calibration_ui_scale_hint: 'Taille du texte et des éléments (0,5–2,0). Par défaut :'
       edit_device: Modifier l'appareil
-      firmware: Firmware
+      firmware: Micrologiciel
       firmware_updates_enabled: Mises à jour activées
       firmware_updates_disabled: Mises à jour désactivées
       guest_mode: Mode invité
@@ -212,7 +215,7 @@ fr:
       identify: Identifier
       identify_device: Identifier l'appareil
       identify_device_hint: Cliquez sur le bouton ci-dessous pour afficher un écran sur cet appareil qui vous aidera à l'identifier.
-      logs: Logs
+      logs: Bûches
       logs_hint: Débugguez votre appareil et plugins avec des logs d'erreurs en temps réel.
       low_battery_email_notification: Notification par e-mail de batterie faible
       low_battery_email_notification_hint: Recevez une notification par e-mail lorsque la batterie de votre appareil est faible.
@@ -228,8 +231,8 @@ fr:
       ota_byod_not_supported: L'OTA n'est pas pris en charge pour les appareils BYOD. Flashez une version compatible directement depuis usetrmnl.com/flash
       maximum_compatibility: Activer la compatibilité maximale
       maximum_compatibility_hint: Résout les problèmes d'affichage causés par certaines puces de pilote e-ink. Désactive le rafraîchissement rapide. Firmware 1.6.0+ requis.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette: Palette de couleurs
+      palette_hint: Choisis la palette de couleurs à utiliser pour générer les écrans de cet appareil. Une palette plus grande est plus jolie, mais une palette plus petite s'affiche plus vite sur l'encre électronique. Les éléments individuels de la liste de lecture peuvent remplacer ce paramètre.
       sleep_mode: Mode Veille
       sleep_mode_hint: Ajustez la fréquence de rafraîchissement pour réduire les distractions et augmenter l'autonomie de la batterie.
       sleep_screen: Écran de veille
@@ -259,6 +262,7 @@ fr:
         warning_1: Je comprends que cette mise à niveau est <strong>irréversible</strong> et ne peut pas être annulée.
         warning_2: Je comprends qu'il s'agit d'une opération <strong>risquée</strong> qui peut endommager mon appareil.
         cta: Mettre à niveau vers TRMNL OG (2 bits)
+      tidbyt_api_key: Clé API Tidbyt
     index:
       title: Appareils
       tagline: Vos appareils TRMNL
@@ -275,8 +279,8 @@ fr:
       error: Erreur lors de la dissociation de l'appareil
       success: Appareil dissocié avec succès
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: Identifiants de l'appareil pas valides
+      success: Les infos d'identification de l'appareil ont été mises à jour sans problème.
     identify:
       error: Erreur lors de l'identification de l'appareil
       success: Appareil identifié avec succès
@@ -292,14 +296,19 @@ fr:
     update:
       error: Erreur lors de la mise à jour de l'appareil
       success: "%{device} mis à jour avec succès"
+    error: Erreur
+    error_not_shared: Erreur non partagée
+    error_oneself: Se tromper soi-même
+    success: Succès
+    success_removed: Succès supprimé
   invoices:
     rate_limit: Trop de tentatives, veuillez patienter et réessayer
     invoice_not_found: Facture introuvable
   logs:
     index:
-      title: Logs
+      title: Bûches
       all: Tous
-      bulk_destroy: Bulk Destroy
+      bulk_destroy: Destruction en masse
       dump: Message
       id: ID
       private_plugins: Plugins privés
@@ -330,6 +339,7 @@ fr:
       revert_confirm: Êtes-vous sûr de vouloir annuler ? Toutes modifications non enregistrées seront perdues.
       save_changes: Enregistrer les modifications (⌘﹢S)
       separate_preview: L'aperçu est ouvert dans une fenêtre séparée
+      edit_composition: Modifier la composition
     merge_variables:
       your_variables: Vos variables
     no_merge_variables:
@@ -354,9 +364,11 @@ fr:
       reset_instructions: Cliquez sur le bouton à l'arrière de votre TRMNL pour générer un code de réinitialisation
       success: A2F validée avec succès
       error: Code OTP invalide
+    enable_otp_path:
+      already_enabled: Déjà activé
   playlist_items:
     index:
-      title: Playlist
+      title: Liste de lecture
       tagline: Choisir ce qui est affiché
       add_a_group: Ajouter un groupe
       add_a_plugin: Ajouter un plugin
@@ -384,11 +396,11 @@ fr:
       hide_playlist: Masquer cet élément
       show_playlist: Afficher cet élément
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: La fréquence de rafraîchissement de ce plugin ne peut pas être configurée.
+        external: Ce plugin récupère les données en direct, donc les paramètres de fréquence de rafraîchissement ne s'appliquent pas.
+        global: Ce plugin est mis à jour sur toute la plateforme à intervalles réguliers.
+        mashup: Le mashup se rafraîchira aussi souvent que son plugin le plus rapide.
+        readonly: Ce plugin a un taux de rafraîchissement fixe qui ne peut pas être modifié.
     create:
       error: Échec de la mise à jour de la playlist
       success: Playlist mise à jour
@@ -405,6 +417,11 @@ fr:
       success: Préférences de la playlist intelligente mises à jour
     update:
       success: Ordre de la playlist mis à jour
+    error: Erreur
+    playlist:
+      displayed_now: Affiché maintenant
+      not_displayed_yet: Pas encore affiché
+    success: Succès
   plugins:
     index:
       title: Plugins
@@ -413,6 +430,7 @@ fr:
       connected: Connecté
       recipes: Recettes
       recipes_hint: Plugins privés créés par des membres de la communauté pouvant être installés en 1 clic. __En apprendre plus__.
+      supported_by_this_device: Compatible avec cet appareil
     search:
       placeholder: Rechercher des plugins
     my:
@@ -429,7 +447,7 @@ fr:
       tagline: Permettre à d'autres d'installer votre plugin.
       name: Nom
       category: Catégorie
-      category_hint: Hold cmd or ctrl to choose up to 3
+      category_hint: Appuie sur cmd ou ctrl pour choisir jusqu'à 3
       refresh_every: Intervalle de rafraîchissement pris en charge
       refresh_every_hint: L'intervalle de rafraîchissement le plus rapide que votre plugin peut prendre en charge.
       description: Description
@@ -452,6 +470,12 @@ fr:
       tagline: Mettre à jour les détails de votre plugin.
       name: Nom
       description: Description
+    mondrian:
+      common:
+        view: Voir
+    recipes:
+      recipe_lander:
+        preview: Aperçu
   plugin_recipes:
     connected: Recette connectée
     connections:
@@ -475,7 +499,7 @@ fr:
     form:
       active_hint: Afficher ou masquer cette instance de plugin sur votre appareil
       advanced_settings: Paramètres avancés
-      back_to_playlist: Back to Playlist
+      back_to_playlist: Retour à la liste de lecture
       back_to_plugin: Retour à %{plugin}
       back_to_plugins: Retour aux plugins
       connect_with: Se connecter avec %{plugin}
@@ -505,7 +529,7 @@ fr:
       linked_account_success: Lié avec succès à %{plugin_name}
       link_oauth: Lier un compte
       link_oauth_hint: Avant de continuer, suivez la procédure d'autorisation sécurisée fournie par %{plugin}
-      mirrored: Mirrored
+      mirrored: Miroir
       multiple_instances_hint: Ce plugin prend en charge plusieurs instances.
       name: Nom
       name_hint: Donnez-lui un nom pour l'identifier plus facilement
@@ -523,7 +547,7 @@ fr:
       recipe_cta_body_in_review: Ce plugin a été soumis à notre équipe. Merci de patienter.
       recipe_cta_body_not_published: Soumettez ce plugin pour que d'autres puissent l'installer. __En savoir plus__.
       recipe_cta_confirm: Êtes-vous sûr ? Notre équipe va l'examiner et vous recontacter dans quelques jours. Vous pouvez continuer à apporter des modifications.
-      recipe_mirrored: This screen is mirrored from the recipe.
+      recipe_mirrored: Cet écran est copié depuis la recette.
       recipe_visibility_title: Comment souhaitez-vous publier ?
       recipe_visibility_edit_title: Modifier la soumission
       recipe_visibility_public: Public
@@ -545,7 +569,7 @@ fr:
       refresh_paused_mashup: Rafraîchissement des combinaisons
       refresh_paused_mashup_hint: Rafraîchissement automatique en pause pour le plein écran. Les combinaisons se mettent à jour.
       refresh_stopped: Rafraîchissement automatique arrêté. Veuillez corriger l'erreur du plugin pour continuer.
-      view_recipe: View Recipe
+      view_recipe: Voir la recette
       visit_docs: Visiter la documentation
     import:
       archive_too_large: Le fichier ZIP est trop volumineux (%{max_mb} MB maximum)
@@ -562,9 +586,17 @@ fr:
       success: Configuration du plugin mise à jour avec succès
     add_to_playlist:
       success: Plugin ajouté à la playlist
+    back_button:
+      back_to_plugin: Retour au plugin
+      back_to_plugins: Retour aux plugins
+    index:
+      no_plugin_settings_found: Aucun paramètre de plugin trouvé
+    playlist: Liste de lecture
+    success: Succès
   referral_code:
     create:
       request_received: Demande reçue, vérifiez votre boîte de réception
+    request_received: Demande reçue
   recipes:
     index:
       newest_to_oldest: Du plus récent au plus ancien
@@ -580,6 +612,8 @@ fr:
       some_schedule: Afficher cet écran uniquement pendant…
       to: à
       copy_prompt: Copier l'horaire depuis…
+      cancel: Annuler
+      save: Enregistrer
   upgrade:
     index:
       title: 'Mise à niveau de l''appareil :'
@@ -588,3 +622,68 @@ fr:
       error: L'appareil %{device_name} est déjà mis à niveau, veuillez en choisir un autre
     confirm:
       success: L'option Édition développeur est maintenant activée
+  action: Action
+  actions: Actions
+  active_admin:
+    blank_slate:
+      content: Contenu
+      link: Lien
+    comments:
+      add: Ajouter
+      author_missing: Auteur manquant
+      delete: Supprimer
+      delete_confirmation: Confirmation de suppression
+      no_comments_yet: Pas encore de commentaires
+    devise: Concevoir
+    logout: Déconnexion
+    pagination:
+      empty: Vide
+      next: Suivant
+      previous: Précédent
+    powered_by: Propulsé par
+  date:
+    abbr_day_names: Noms des jours en abrégé
+    day_names: Noms des jours
+  default: Par défaut
+  default_webhook_rate_limit: Limite de débit par défaut des webhooks
+  developer_edition_addon_amount: Montant de l'add-on pour la version développeur
+  duration: Durée
+  errors:
+    messages:
+      not_saved: Pas sauvegardé
+  fetch: Aller chercher
+  framework:
+    responsive_test:
+      example-size-btn: Exemple-taille-bouton
+      test-config-btn: Bouton de configuration du test
+  id: Id
+  ignore_log_messages: Ignorer les messages du journal
+  ignore_logs: Ignorer les journaux
+  maintenance_mode: Mode maintenance
+  mashup_id: Identifiant du mashup
+  mashups:
+    mashup:
+      add_to_playlist: Ajouter à la playlist
+  month: Mois
+  name: Nom
+  order_number: Numéro de commande
+  plus_webhook_rate_limit: Plus limite de fréquence des webhooks
+  primary: Primaire
+  public: Public
+  query: Requête
+  rolling_month: Mois glissant
+  rolling_week: Semaine glissante
+  schedule: Calendrier
+  shop_promotion: Promotion en magasin
+  site_banner: Bannière du site
+  site_banner_link: Lien vers la bannière du site
+  sleep_mode_enabled: Mode veille activé
+  title: Titre
+  today_only: Juste aujourd'hui
+  value: Valeur
+  views:
+    pagination:
+      truncate: Tronquer
+  visible: Visible
+  week: Semaine
+  work_week: Semaine de boulot

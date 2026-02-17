@@ -191,19 +191,19 @@ es-ES:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} conexión}} many {{{$value :number} conexiones}} * {{{$value :number} conexiones}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} many {{{$value :number} forks}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Sin instalación}} one {{{$value :number} instalar}} * {{{$value :number} instalaciones}}"
       and_more: y {$value :number} más
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: "«{$keyword}» no ha dado ningún resultado."
+      error_keyword_subtitle: Intenta buscar otra cosa.
+      error_new_title: No se ha encontrado ninguna receta nueva.
+      error_new_subtitle: Esto no debería suceder.
+      error_self_title: No has publicado ninguna receta.
+      error_self_subtitle: Aprende a publicar tu primer artículo en https://help.usetrmnl.com/en/articles/9510536-private-plugins.
+      error_author_id_title: 'El usuario #{$authorId} no ha publicado ninguna receta.'
+      error_author_id_subtitle: No se ha encontrado ninguna receta asociada a este ID.
+      error_recipe_ids_title: No se ha encontrado ninguna receta con ese ID.
+      error_recipe_ids_subtitle: Añade un ID de receta para empezar.
     horizontal_world_clock:
-      name: World clock
+      name: Reloj mundial
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: De {$from :langName} a {$to :langNameList}

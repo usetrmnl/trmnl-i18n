@@ -1,23 +1,23 @@
 ---
 is:
   locale_name: Íslenska
-  about: About
+  about: Um
   add: Bæta við
   add_new: Bæta nýju við
   ago: síðan
   already_have_account: Ég á nú þegar aðgang
-  are_you_sure: Are you sure?
+  are_you_sure: Ertu viss?
   back: Til baka
   back_to_all_blog_posts: Til baka í allar færslur
   blog: Blogg
-  brand: Brand
+  brand: Vörumerki
   buy_now: Kaupa núna
   cancel: Hætta við
   change_password: Breyta lykilorði
   charge_level: Hleðsla
   charged: hlaðið
   charging: Hleður
-  claim_plus_trial: Claim 6 Months Free
+  claim_plus_trial: Krefstu 6 mánaða ókeypis
   close: Loka
   confirm_change_password: Breyta lykilorðinu mínu
   confirm_password: Staðfesta nýtt lykilorð
@@ -29,7 +29,7 @@ is:
   current_device: Núverandi tæki
   days: dagar
   delete: Eyða
-  developers: Developers
+  developers: Forritarar
   developer_edition_required: Þróunarútgáfa er nauðsynleg til að virkja þennan eiginleika.
   device_id: Kennimerki tækis
   device: Tæki
@@ -40,9 +40,9 @@ is:
   first_name: Fornafn
   forgot_password: Ég gleymdi lykilorði mínu
   forgot_password_title: Nú förum við aftur af stað
-  friendly_id: Friendly ID
+  friendly_id: Vinaleg auðkenning
   get_started: Byrjum!
-  hidden: hidden
+  hidden: falið
   identify: Auðkenna
   import: Flytja inn
   import_new: Flytja inn nýtt
@@ -62,29 +62,29 @@ is:
   password: Lykilorð
   please_wait: Vinsamlegast bíðið...
   plugin_not_found: Viðbót fannst ekki
-  preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
+  preview: Forskoðun
+  privacy: Persónuvernd
+  refresh_rate: Endurnýjunarhraði
   refresh_rates_hint: Lestu um uppfærslutíðni __hér__.
   reset_password: Endurstilla lykilorð
-  reset_to_defaults: Reset to defaults
-  required: Required
+  reset_to_defaults: Endurstilla í sjálfgefin gildi
+  required: Krafist
   save: Vista
-  shown: shown
+  shown: sýnt
   section: Hluti
   settings: Stillingar
   sign_in: Skrá inn
   sign_up: Skrá nýjan aðgang
   something_went_wrong: Eitthvað fór úrskeiðis
-  status: Status
+  status: Staða
   subscribe: Gerast áskrifandi
   help_center: Aðstoð
-  terms: Terms
+  terms: Skilmálar
   update: Uppfæra
   view: Skoða
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: Viltu vinna saman?
+  collaboration_request_hint: Samstarf, hópsala, sérverkefni, þú ræður.
+  collaboration_request_cta: Tölum
   welcome: Velkomin
   time:
     formats:
@@ -122,7 +122,7 @@ is:
       disable_2fa: Slökkva á 2FA
       disable_2fa_hint: Sláðu inn OTP og lykilorð til að slökkva.
       plus_subscription: TRMNL+ áskrift
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
+      plus_subscription_trial_until: Þú ert í ókeypis prufuáskrift til %{plus_trial_end_at}.
       plus_subscription_hint: Opnar hraðari uppfærslur og fleiri beiðnir. __Lesa meira__.
       plus_subscription_modify: Uppfæra greiðslumáta eða hætta við?
       session: Seta
@@ -133,10 +133,13 @@ is:
       time_zone_hint: Stýrir uppfærslutíðni og svefntíma tækisins.
       locale: Landsstaðall
       locale_hint: Veldu tungumál og staðfærslu. __Smelltu hér__.
+      theme: Útlit
+      theme_hint: Veldu hvernig TRMNL lítur út fyrir þig. Veldu þema eða samstilltu við kerfisstillingar þínar.
     update:
       success: Aðgangurinn var uppfærður
     reset_api_key:
       success: API lykillinn var endurnýjaður
+    success: Árangur
   dashboard:
     index:
       title: Stjórnborð
@@ -176,11 +179,11 @@ is:
       accepts_beta_firmware: Snemmútgáfa fastbúnaðar
       accepts_beta_firmware_hint: Kveiktu á þessu til að fá nýjustu fastbúnaðaruppfærslur á undan öðrum.
       back_to_devices: Til baka í tæki
-      battery_and_sleep: Battery & Sleep
+      battery_and_sleep: Rafhlaða og svefn
       battery_consumption: Rafhlöðunotkun
       battery_consumption_hint: Sparaðu orku og lengdu rafhlöðuendingu með því að virkja svefnham.
       battery_learn_more: Lestu meira um hleðslu rafhlöðu __hér__.
-      battery_refresh: Refresh
+      battery_refresh: Endurnýja
       developer_perks: Forritaraeiginleikar
       developer_perks_hint: Valkostir hér að neðan krefjast __forritaraviðbótar__.
       device_credentials: Auðkenni tækis
@@ -190,21 +193,21 @@ is:
       device_model: Gerð tækis
       device_model_hint: Gerð vélbúnaðarins þíns
       device_model_switch_warning: Þetta er hættuleg aðgerð, lestu meira __hér__
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_info: Upplýsingar um tækið
+      current_firmware: Núverandi fastbúnaður
+      last_ping: Síðasta pöng
+      unknown: Óþekkt
+      never: Aldrei
+      display_calibration: Sýningarstilling
+      display_calibration_hint: Fínstilla birtingu fyrir skjáinn þinn. Láttu það tómt til að nota sjálfgefnar stillingar módelsins.
+      display_calibration_pixel_ratio: Pixlahlutfall
+      display_calibration_pixel_ratio_hint: 'Stækkunarstig myndar (0,5–3,0). Sjálfgefið:'
+      display_calibration_ui_scale: Notendaviðmótsstuðull
+      display_calibration_ui_scale_hint: 'Stærðir texta og þátta (0,5–2,0). Sjálfgefið:'
       edit_device: Breyta tæki
-      firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
+      firmware: Fastbúnaður
+      firmware_updates_enabled: Uppfærslur virkjaðar
+      firmware_updates_disabled: Uppfærslur óvirkjaðar
       guest_mode: Gestahamur
       guest_mode_hint: Veldu hvað á að birta (og hversu lengi) þegar gestahamur er virkjaður.
       guest_mode_item_placeholder: Veldu atriði
@@ -219,8 +222,8 @@ is:
       mirror: Spegla
       mirror_device: Spegla annað tæki
       mirror_device_hint: Sláðu inn deilanlegt tækis ID til að spegla spilunarlista þess. Þinn listi birtist áfram.
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
+      mirror_disabled: Speglun óvirkjuð
+      mirror_enabled: Speglun
       mirror_stop: Hætta að spegla
       mirror_sync: Samstilla skjái
       ota_enabled: OTA uppfærslur virkar
@@ -228,8 +231,8 @@ is:
       ota_byod_not_supported: OTA er ekki stutt fyrir BYOD-tæki. "Flassaðu" samhæfða útgáfu beint frá usetrmnl.com/flash
       maximum_compatibility: Hámarkssamhæfni
       maximum_compatibility_hint: Leysir skjávandamál af völdum sumra e-ink rekla. Slekkur á hraðri uppfærslu. Krefst fastbúnaðar 1.6.0+.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette: Litapalleta
+      palette_hint: Veldu litasett sem á að nota við gerð skjáa fyrir þetta tæki. Stærra litapallettan lítur fallegra út, en minni litapallettan dregur hraðar á e-ink. Einstök atriði á spilunarlista geta ógilt þessa stillingu.
       sleep_mode: Svefnhamur
       sleep_mode_hint: Stilltu uppfærslutíðni til að bæta einbeitingu og lengja rafhlöðuendingu.
       sleep_screen: Svefnskjár
@@ -238,13 +241,13 @@ is:
       special_function: Sérstakt hnappahlutverk
       special_function_hint: Stilltu sérhæft hlutverk fyrir hnappinn aftan á tækinu.
       special_function_learn_more: Lestu meira um sérstök hlutverk __hér__.
-      temperature_profile: Temperature Profile
-      temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
+      temperature_profile: Hitastigsferill
+      temperature_profile_hint: Ekki breyta nema sérstaklega sé kveðið á um það. Fyrir skjái með fölnum myndum.
+      tidbyt_credentials: Tidbyt vottanir
+      tidbyt_credentials_hint: Sláðu inn API-auðkenni tækisins þíns í Tidbyt-forritinu undir Stillingar → Þróunaraðili → Fá API-lykil.
+      tidbyt_credentials_invalid: Tidbyt API-auðkenni eru ógild. Vinsamlegast athugaðu aftur og reyndu aftur.
+      tidbyt_device_id: Tækjaauðkenni
+      tidbyt_device_api_key: API-lykill
       unlink: Aftengja
       unlink_confirm: Ertu viss? Þetta eyðir öllum viðbótarstillingum og spilunarlistum svo tækið geti verið tengt við annan aðgang.
       unlink_device: Aftengja tæki
@@ -259,6 +262,7 @@ is:
         warning_1: Ég skil að þessi uppfærsla er <strong>óafturkræf</strong> og ekki hægt að afturkalla.
         warning_2: Ég skil að þetta er <strong>hætta</strong> og getur skemmt tækið.
         cta: Uppfæra í TRMNL OG (2-bita)
+      tidbyt_api_key: Tidbyt api lykill
     index:
       title: Tæki
       tagline: TRMNL tækin þín
@@ -275,8 +279,8 @@ is:
       error: Villa við að aftengja tæki
       success: Tæki aftengt
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: Ógild tækjaauðkenni
+      success: Auðkenni tækisins uppfært með góðum árangri
     identify:
       error: Villa við að uppfæra tæki
       success: Beiðni um auðkenningu send
@@ -292,6 +296,11 @@ is:
     update:
       error: Villa við að uppfæra tæki
       success: Stillingar tækis %{device} uppfærðar
+    error: Villa
+    error_not_shared: Villa ekki deilt
+    error_oneself: Villa sjálfan sig
+    success: Árangur
+    success_removed: Árangur fjarlægður
   invoices:
     rate_limit: Of margar tilraunir, vinsamlegast bíðið og reynið aftur
     invoice_not_found: Reikningur fannst ekki
@@ -299,9 +308,9 @@ is:
     index:
       title: Atburðaskrár
       all: Allt
-      bulk_destroy: Bulk Destroy
+      bulk_destroy: Eyða í stórum stíl
       dump: Útskrift
-      id: ID
+      id: Auðkenni
       private_plugins: Einkaviðbætur
       source: Uppruni
       time: Tími
@@ -330,6 +339,7 @@ is:
       revert_confirm: Ertu viss? Allar óvistaðar breytingar munu tapast.
       save_changes: Vista breytingar (⌘﹢S)
       separate_preview: Forskoðun er opin í sér glugga
+      edit_composition: Breyta samsetningu
     merge_variables:
       your_variables: Þínar breytur
     no_merge_variables:
@@ -354,6 +364,8 @@ is:
       reset_instructions: Ýttu á hnappinn aftan á TRMNL til að fá endurstillingarkóða
       success: 2FA tókst
       error: Ógildur OTP kóði
+    enable_otp_path:
+      already_enabled: Virkjað
   playlist_items:
     index:
       title: Spilunarlisti
@@ -384,11 +396,11 @@ is:
       hide_playlist: Fela þetta atriði
       show_playlist: Sýna þetta atriði
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: Endurnýjunartíðni þessa viðbótar er ekki hægt að stilla.
+        external: Þessi viðbót sækir gögn á flugi, svo stillingar um endurnýjunartíðni eiga ekki við.
+        global: Þessi viðbót er endurnýjuð á öllum vettvangi samkvæmt föstu áætlun.
+        mashup: Mashupið mun endurnýjast jafnoft og hraðasti viðbót þess.
+        readonly: Þessi viðbót hefur fasta endurnýjunartíðni sem ekki er hægt að stilla.
     create:
       error: Gat ekki uppfært spilunarlista
       success: Spilunarlisti uppfærður
@@ -404,7 +416,12 @@ is:
     set_preferences:
       success: Stillingar snjallspilunarlista uppfærðar
     update:
-      success: Playlist order updated
+      success: Röð spilunarlistans uppfærð
+    error: Villa
+    playlist:
+      displayed_now: Sýnt núna
+      not_displayed_yet: Ekki sýnt ennþá
+    success: Árangur
   plugins:
     index:
       title: Viðbætur
@@ -413,6 +430,7 @@ is:
       connected: Tengdar
       recipes: Uppskriftir
       recipes_hint: Einkaviðbætur frá samfélaginu sem hægt er að setja upp með einum smelli. __Lesa meira__.
+      supported_by_this_device: Stutt af þessu tæki
     search:
       placeholder: Leita í viðbótum
     my:
@@ -452,6 +470,12 @@ is:
       tagline: Uppfæra upplýsingar viðbótarinnar.
       name: Heiti
       description: Lýsing
+    mondrian:
+      common:
+        view: Skoða
+    recipes:
+      recipe_lander:
+        preview: Forskoðun
   plugin_recipes:
     connected: Uppskrift tengd
     connections:
@@ -469,13 +493,13 @@ is:
     delete: Þetta fjarlægir allar stillingar viðbótarinnar. Til að fela hana, fjarlægðu hana úr spilunarlistanum í staðinn.
     inactive: Óvirkt
     no_plugin_settings_found: Engar stillingar fundust.
-    not_supported: Not supported on current device
+    not_supported: Stutt er ekki við á núverandi tæki.
     refreshing_now_please_wait: Glæði, endurhlaðið síðuna eftir nokkrar sekúndur.
     reset_credentials: "%{plugin_name} aðgangur endurstilltur"
     form:
       active_hint: Sýna eða fela þessa viðbót á tækinu þínu
       advanced_settings: Ítarlegar stillingar
-      back_to_playlist: Back to Playlist
+      back_to_playlist: Aftur á spilunarlista
       back_to_plugin: Til baka í %{plugin}
       back_to_plugins: Til baka í viðbætur
       connect_with: Tengjast við %{plugin}
@@ -490,22 +514,22 @@ is:
       force_refresh_hint: Aðeins fyrir prófanir – vinsamlegast varist misnotkun.
       force_refresh_click_here: Smelltu hér
       force_refresh_click_here_hint: til að uppfæra skjámynd strax
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      force_refresh_not_possible: Ekki er hægt að þvinga þessa viðbót til að endurnýja vegna þess að TRMNL-þjónninn framkvæmir ekki myndvinnslu. Lærðu hvernig á að prófa eintak þitt hér.
       learn_more: Lesa meira um þessa viðbót í hjálpargagnasafni
       learn_more_fork: Þessi viðbót er afrituð úr uppskrift.
       learn_more_fork_original: Skoða upprunalega
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
+      learn_more_native_long: Þessi viðbót er innfædd og viðhaldið af TRMNL.
+      learn_more_native_short: Þetta viðbót er viðhaldið af TRMNL.
       learn_more_recipe_author: Þarftu hjálp? Hafðu samband við %{recipe_author} á Discord.
       learn_more_recipe_long: Þessi viðbót er frá samfélaginu og er ekki viðhaldið af TRMNL.
       learn_more_recipe_short: 'Athugið: þessi viðbót er uppskrift.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
+      learn_more_third_party_long: Þessi viðbót er frá þriðja aðila og er ekki viðhaldið af TRMNL.
+      learn_more_third_party_short: 'Athugið: þetta viðbót er frá þriðja aðila.'
       linked_account: Tengt notandanafni
       linked_account_success: Tókst að tengja við %{plugin_name}
       link_oauth: Tengja aðgang
       link_oauth_hint: Fylgdu öruggu auðkenningarferli frá %{plugin} áður en þú heldur áfram.
-      mirrored: Mirrored
+      mirrored: Speglaður
       multiple_instances_hint: Þessi viðbót styður margar uppsetningar.
       name: Heiti
       name_hint: Gefðu því auðkennt heiti
@@ -516,25 +540,25 @@ is:
       plugin_uuid_hint: Notað til að senda (Webhook) API beiðnir.
       preview: Forskoðun – tækið þitt mun sýna raunveruleg gögn
       recipe_cta_heading_published: Þessi viðbót er uppskrift
-      recipe_cta_heading_unlisted: This plugin is unlisted
+      recipe_cta_heading_unlisted: Þessi viðbót er ekki skráð.
       recipe_cta_heading_in_review: Uppskrift í skoðun
       recipe_cta_heading_not_published: Birta sem uppskrift?
       recipe_cta_body_published: Breytingar verða sýnilegar á núverandi og komandi uppsetningum.
       recipe_cta_body_in_review: Viðbótin hefur verið send inn til skoðunar. Hinkraðu.
       recipe_cta_body_not_published: Senda viðbótina til annarra. __Lesa meira__.
       recipe_cta_confirm: Ertu viss? Teymið okkar mun skoða þetta næstdu daga. Þú getur haldið áfram að breyta á meðan.
-      recipe_mirrored: This screen is mirrored from the recipe.
-      recipe_visibility_title: How would you like to publish?
-      recipe_visibility_edit_title: Edit Submission
-      recipe_visibility_public: Public
-      recipe_visibility_public_hint: Anyone can find and install.
-      recipe_visibility_private: Private
-      recipe_visibility_private_hint: Breaks external installs.
-      recipe_visibility_unlisted: Unlisted
-      recipe_visibility_unlisted_hint: Anyone with the link can install.
+      recipe_mirrored: Þessi skjár er speglaður úr uppskriftinni.
+      recipe_visibility_title: Hvernig viltu birta?
+      recipe_visibility_edit_title: Breyta innsendingu
+      recipe_visibility_public: Opinber
+      recipe_visibility_public_hint: Allir geta fundið og sett upp.
+      recipe_visibility_private: Einkunn
+      recipe_visibility_private_hint: Brotar utanhúss uppsetningar.
+      recipe_visibility_unlisted: Óskráð
+      recipe_visibility_unlisted_hint: Allir sem hafa hlekkinn geta sett það upp.
       refresh_rate: Uppfærslutíðni
       refresh_rate_hint: Stilltu hversu oft þessi viðbót sækir gögn
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
+      refresh_rate_not_configurable: Samsýnir %{refresh_rate} (ekki hægt að stilla)
       refreshed: Uppfært
       remove_plugin: Fjarlægja viðbót
       remove_plugin_hint: Að fjarlægja viðbót fjarlægir hana einnig úr spilunarlista
@@ -545,7 +569,7 @@ is:
       refresh_paused_mashup: Uppfærsla á samsetningum
       refresh_paused_mashup_hint: Sjálfvirk uppfærsla í bið fyrir heilskjá. Samsetningar eru að uppfærast.
       refresh_stopped: Sjálfvirk uppfærsla stöðvuð. Lagfærðu villuna til að halda áfram.
-      view_recipe: View Recipe
+      view_recipe: Sjá uppskrift
       visit_docs: Skoða skjöl
     import:
       archive_too_large: ZIP skrá er of stór (%{max_mb} MB hámark)
@@ -562,9 +586,17 @@ is:
       success: Stillingar viðbótar uppfærðar
     add_to_playlist:
       success: Viðbót bætt við spilunarlista
+    back_button:
+      back_to_plugin: Aftur í viðbótina
+      back_to_plugins: Aftur í viðbætur
+    index:
+      no_plugin_settings_found: Engar stillingar fyrir viðbót fundust
+    playlist: Spilunarlisti
+    success: Árangur
   referral_code:
     create:
       request_received: Beiðni móttekin, skoðaðu pósthólfið þitt
+    request_received: Beiðni móttekin
   recipes:
     index:
       newest_to_oldest: Nýjast til elst
@@ -580,6 +612,8 @@ is:
       some_schedule: Sýna þennan skjá aðeins á…
       to: til
       copy_prompt: Afrita tímasetningu frá…
+      cancel: Hætta við
+      save: Vista
   upgrade:
     index:
       title: 'Uppfæri tæki:'
@@ -588,3 +622,68 @@ is:
       error: Tækið %{device_name} er þegar uppfært, skiptu í annað tæki
     confirm:
       success: Þróunarviðbótin er nú virkjuð
+  action: Aðgerð
+  actions: Aðgerðir
+  active_admin:
+    blank_slate:
+      content: Innihald
+      link: Tengill
+    comments:
+      add: Bæta við
+      author_missing: Höfundur vantar
+      delete: Eyða
+      delete_confirmation: Eyða staðfestingu
+      no_comments_yet: Engar athugasemdir enn
+    devise: Orðasamband
+    logout: Útskrá
+    pagination:
+      empty: Tómt
+      next: Næst
+      previous: Fyrri
+    powered_by: Knúið af
+  date:
+    abbr_day_names: Stytting á dagsnöfnum
+    day_names: Daganafnorð
+  default: Skilgreint sem sjálfgefið
+  default_webhook_rate_limit: Sjálfgefinn takmörkun á hraða vefkrókaviðburða
+  developer_edition_addon_amount: Fjárhæð viðbótar fyrir þróunaraðilaútgáfu
+  duration: Lengd
+  errors:
+    messages:
+      not_saved: Ekki vistað
+  fetch: Sækja
+  framework:
+    responsive_test:
+      example-size-btn: Dæmi um stærðarhnapp
+      test-config-btn: Próf-stillingar-hnappur
+  id: Ég
+  ignore_log_messages: Íhugaðu dagbókarfærslur
+  ignore_logs: Íhuga ekki skráningarnar
+  maintenance_mode: Viðhaldsstilling
+  mashup_id: Mashup-auðkenni
+  mashups:
+    mashup:
+      add_to_playlist: Bæta við spilunarlista
+  month: Mánuður
+  name: Nafn
+  order_number: Pöntunarnúmer
+  plus_webhook_rate_limit: Auk þess er takmörkun á fjölda webhook-kalla.
+  primary: Aðal
+  public: Opinber
+  query: Fyrirspurn
+  rolling_month: Rennandi mánuður
+  rolling_week: Hreyfanleg vika
+  schedule: Áætlun
+  shop_promotion: Verslunar kynning
+  site_banner: Vefsvæðisborði
+  site_banner_link: Vefslóðaborða tengill
+  sleep_mode_enabled: Svefnhamur virkjaður
+  title: Titill
+  today_only: Aðeins í dag
+  value: Gildi
+  views:
+    pagination:
+      truncate: Styttu
+  visible: Sýnilegt
+  week: Vika
+  work_week: Vinnuvika

@@ -3,22 +3,22 @@ ja:
   custom_plugins:
     today: 今日
     tomorrow: 明日
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
+    updated: 更新された
+    activity: 活動
+    done: 終わった
+    due: 期限
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
+      departures: 出発
+      time: 時間
+      line: ライン
+      destination: 目的地
+      platform: プラットフォーム
+      delay: 遅延
+      train: 列車
+      on_time: 時間通りだ
+      cancelled: キャンセルされた
       minutes: m
-      refreshed: Refreshed
+      refreshed: リフレッシュされた
     simple_calendar:
       title: カレンダー
       ym_format: "%Y年%-m月"
@@ -109,7 +109,7 @@ ja:
         ym_format: "%Y年 (%{nengo}%{alt_year}年) %-m月"
         year_1: 元
       hebrew:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: "%{month_label} %{alt_year}"
         month_labels:
         - Nisan
         - Iyar
@@ -141,7 +141,7 @@ ja:
         - Ad1
         - Ad2
       hijri:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: "%{month_label} %{alt_year}"
         month_labels:
         -
         - Muharram
@@ -157,7 +157,7 @@ ja:
         - Dhuʻl-Qiʻdah
         - Dhuʻl-Hijjah
       bengali:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: "%{month_label} %{alt_year}"
         month_labels:
         -
         - Boishakh
@@ -173,7 +173,7 @@ ja:
         - Falgun
         - Choitro
       indian:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: "%{month_label} %{alt_year}"
         month_labels:
         -
         - Chaitra
@@ -189,21 +189,21 @@ ja:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
-      and_more: and {$value :number} more
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      connections: ".input {$value :number} .match $value zero {{接続されていない}} one {{{$value :number} 接続}} * {{{$value :number} 接続}}"
+      forks: ".input {$value :number} .match $value zero {{フォークはない}} one {{{$value :number} フォーク}} * {{{$value :number} 本のフォーク}}"
+      installs: ".input {$value :number} .match $value zero {{インストール不要}} one {{{$value :number}回のインストール}} * {{{$value :number}回のインストール}}"
+      and_more: そして {$value :number} 個以上
+      error_keyword_title: "「{$keyword}」に一致する結果は見つかりませんでした。"
+      error_keyword_subtitle: 別のものを検索してみろ。
+      error_new_title: 新しいレシピは見つかりませんでした。
+      error_new_subtitle: こんなことあってはならない。
+      error_self_title: お前はレシピを一つも公開していない。
+      error_self_subtitle: 最初の出版方法を学ぶには、https://help.usetrmnl.com/en/articles/9510536-private-plugins を参照せよ。
+      error_author_id_title: 'ユーザー #{$authorId} はレシピを公開していない。'
+      error_author_id_subtitle: このIDに関連付けられたレシピは見つかりませんでした。
+      error_recipe_ids_title: レシピIDが見つからない。
+      error_recipe_ids_subtitle: レシピIDを追加して始めよう。
     horizontal_world_clock:
-      name: World clock
+      name: 世界時計
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} から {$to :langNameList} へ"

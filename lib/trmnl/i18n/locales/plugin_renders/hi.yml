@@ -1,0 +1,280 @@
+---
+hi:
+  renders:
+    and_x_more_prefix: और
+    and_x_more_suffix: और
+    days_left_year:
+      title: इस साल बचे दिन
+      days_passed: बीते दिन
+      days_left: बाकी दिन
+    lunar_calendar:
+      title: चंद्र कैलेंडर
+      age: चंद्र आयु
+      current_phase: वर्तमान चरण
+      illumination: चंद्र प्रकाश
+      next_full_moon: अगला पूर्णिमा
+      next_new_moon: अगला अमावस्या
+      next_phase: अगला चरण
+      next_phase_short: अगला
+      moon_phases:
+        new_moon: अमावस्या
+        waxing_crescent: बढ़ता हुआ हफ्ता
+        first_quarter: पहली तिमाही
+        waxing_gibbous: अर्धचंद्र वृद्धि
+        full_moon: पूर्णिमा
+        waning_gibbous: क्षीण उदयी अर्धचंद्र
+        third_quarter: तीसरी तिमाही
+        waning_crescent: क्षीण हस्तामलक
+    netatmo_weather_station:
+      title: नेटैटमो मौसम
+      title_short: नेटैटमो
+      indoor_temp: अंदर का तापमान
+      indoor_temp_short: अंदर का
+      indoor_humidity: आंतरिक आर्द्रता
+      indoor_humidity_short: इनडोर ह्यूम।
+      outdoor_humidity: बाहरी नमी
+      outdoor_humidity_short: आउट हम
+      co2: कार्बन डाइऑक्साइड
+      co2_ppm: सीओ₂ पीपीएम
+      pressure: दबाव
+      noise: शोर
+      min_max: न्यूनतम/अधिकतम
+      feels: महसूस होता है
+      rain: बारिश
+      wind: हवा
+      gust: तेज़ हवा का झोंका
+      default_station_name: नेटैटमो स्टेशन
+      default_outdoor_module: बाहरी तापमान
+      default_indoor_module: अंदर का
+      trends_title: "%{metric} रुझान"
+      trends_title_short: रुझान
+      temperature_trends: तापमान के रुझान
+      temperature_trends_short: तापमान के रुझान
+      outdoor_now: अब बाहरी
+      indoor_now: अब अंदर
+      now: अब
+      low_high_24h: 24 घंटे का न्यूनतम / अधिकतम
+      average_24h: 24 घंटे का औसत
+      outdoor: बाहरी
+      indoor: अंदर का
+      rain_gauge_not_connected: वर्षामापी जुड़ा नहीं है
+      wind_gauge_not_connected: पवन मापक जुड़ा नहीं है
+      no_rain_gauge: कोई वर्षामापी नहीं
+      no_wind_gauge: कोई वायुमापी नहीं
+      add_module_hint: यह डेटा देखने के लिए वैकल्पिक %{module} मॉड्यूल जोड़ें।
+      range_24h: 24 घंटे की सीमा
+      errors:
+        missing_access_token: एक्सेस टोकन अनुपस्थित है। कृपया अपना Netatmo खाता फिर से कनेक्ट करें।
+        no_station_selected: कोई मौसम स्टेशन चयनित नहीं है। कृपया सेटिंग्स में एक स्टेशन चुनें।
+        connection_failed: Netatmo स्टेशन से कनेक्ट नहीं हो पा रहा है। कृपया अपना इंटरनेट कनेक्शन जांचें।
+        data_retrieval_failed: मौसम डेटा प्राप्त नहीं हो सका। कृपया बाद में फिर से प्रयास करें।
+        session_expired: सत्र समाप्त हो गया है। कृपया सेटिंग्स में अपना Netatmo खाता फिर से कनेक्ट करें।
+    parcel:
+      delivery_by: द्वारा डिलीवरी
+      empty: कोई डिलीवरी नहीं हैं
+      errors:
+        api: पार्सल एपीआई त्रुटि
+        http: HTTP त्रुटि %{code}
+        internal: आंतरिक त्रुटि
+      filter_modes:
+        active:
+          one: सक्रिय वितरण
+          other: सक्रिय डिलीवरी
+        recent:
+          one: हाल की डिलीवरी
+          other: हाल की डिलीवरी
+      status:
+        delivered: पहुँचा दिया गया
+        delivery_exception: वितरण अपवाद
+        expecting_pickup: पिकअप की उम्मीद
+        failed_delivery_attempt: वितरण का असफल प्रयास
+        frozen: जमा हुआ
+        in_transit: परिवहन में
+        information_received: प्राप्त जानकारी
+        not_found: पता नहीं मिला
+        out_for_delivery: डिलीवरी के लिए बाहर
+        unknown: अज्ञात
+      today: आज
+      tomorrow: कल
+    weather:
+      title: मौसम
+      temperature: तापमान
+      feels_like: ऐसा लगता है
+      humidity: आर्द्रता
+      low: कम
+      high: उच्च
+      uv: यूवी
+      right_now: अभी
+      today: आज
+      tomorrow: कल
+      low_high_short: बायाँ/बाएँ
+      uv_short: यूवी
+      max: अधिकतम
+      tempest:
+        conditions:
+          clear: स्पष्ट
+          cloudy: बादल छाए हुए
+          foggy: धुंधला
+          partly_cloudy: आंशिक रूप से बादल छाए
+          rain_likely: बारिश की संभावना
+          rain_possible: बारिश संभव
+          snow: बर्फ
+          snow_possible: बर्फ़बारी संभव
+          thunderstorms_likely: गरज-चमक के साथ आंधी की संभावना
+          thunderstorms_possible: गरज-चमक के साथ तूफ़ान संभव
+          very_light_rain: बहुत हल्की बारिश
+          windy: हवादार
+          wintry_mix_likely: बर्फीला मिश्रण संभव
+          wintry_mix_possible: हिमपात की संभावना
+      weatherapi:
+        uv:
+          low: कम
+          moderate: मध्यम
+          high: उच्च
+          very_high: बहुत अधिक
+          extreme: अत्यधिक
+        conditions:
+        - code: 1000
+          day: Sunny
+          night: Clear
+        - code: 1003
+          day: Partly Cloudy
+          night: Partly Cloudy
+        - code: 1006
+          day: Cloudy
+          night: Cloudy
+        - code: 1009
+          day: Overcast
+          night: Overcast
+        - code: 1030
+          day: Mist
+          night: Mist
+        - code: 1063
+          day: Light Rain
+          night: Light Rain
+        - code: 1066
+          day: Light Snow
+          night: Light Snow
+        - code: 1069
+          day: Sleet
+          night: Sleet
+        - code: 1072
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1087
+          day: Thunder
+          night: Thunder
+        - code: 1114
+          day: Blowing Snow
+          night: Blowing Snow
+        - code: 1117
+          day: Blizzard
+          night: Blizzard
+        - code: 1135
+          day: Fog
+          night: Fog
+        - code: 1147
+          day: Freezing Fog
+          night: Freezing Fog
+        - code: 1150
+          day: Light Drizzle
+          night: Light Drizzle
+        - code: 1153
+          day: Drizzle
+          night: Drizzle
+        - code: 1168
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1171
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1180
+          day: Light Rain
+          night: Light Rain
+        - code: 1183
+          day: Light Rain
+          night: Light Rain
+        - code: 1186
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1189
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1192
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1195
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1198
+          day: Light Freeze
+          night: Light Freeze
+        - code: 1201
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1204
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1207
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1210
+          day: Light Snow
+          night: Light Snow
+        - code: 1213
+          day: Light Snow
+          night: Light Snow
+        - code: 1216
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1219
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1222
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1225
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1237
+          day: Ice Pellets
+          night: Ice Pellets
+        - code: 1240
+          day: Light Rain
+          night: Light Rain
+        - code: 1243
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1246
+          day: Torrential Rain
+          night: Torrential Rain
+        - code: 1249
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1252
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1255
+          day: Light Snow
+          night: Light Snow
+        - code: 1258
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1261
+          day: Light Ice
+          night: Light Ice
+        - code: 1264
+          day: Heavy Ice
+          night: Heavy Ice
+        - code: 1273
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1276
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1279
+          day: Thunder & Snow
+          night: Thunder & Snow
+        - code: 1282
+          day: Thunder & Snow
+          night: Thunder & Snow

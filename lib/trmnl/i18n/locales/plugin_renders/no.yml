@@ -1,101 +1,101 @@
 ---
 'no':
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: Og
+    and_x_more_suffix: mer
     days_left_year:
       title: Dager igjen i år
       days_passed: Dager som har gått
       days_left: Gjenstående dager
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: Månekalender
+      age: Månens alder
+      current_phase: Nåværende fase
+      illumination: Månebelysning
+      next_full_moon: Neste fullmåne
+      next_new_moon: Neste nymåne
+      next_phase: Neste fase
+      next_phase_short: Neste
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: Nymåne
+        waxing_crescent: Voksende halvmåne
+        first_quarter: Første kvartal
+        waxing_gibbous: Voksende måne
+        full_moon: Fullmåne
+        waning_gibbous: Avtagende gibbous
+        third_quarter: Tredje kvartal
+        waning_crescent: Avtagende halvmåne
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo Vær
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Innetemperatur
+      indoor_temp_short: Innendørs
+      indoor_humidity: Innendørs fuktighet
+      indoor_humidity_short: Innendørs Hum.
+      outdoor_humidity: Utefuktighet
+      outdoor_humidity_short: Ut. Hum.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
+      pressure: Trykk
+      noise: Støy
+      min_max: Min/Maks
+      feels: Føles
+      rain: Regn
+      wind: Vind
       gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      default_station_name: Netatmo-stasjon
+      default_outdoor_module: Utetemperatur
+      default_indoor_module: Innendørs
+      trends_title: "%{metric} Trender"
+      trends_title_short: Trender
+      temperature_trends: Temperaturtrender
+      temperature_trends_short: Temperaturtrender
+      outdoor_now: Utendørs nå
+      indoor_now: Innendørs nå
+      now: Nå
+      low_high_24h: 24 timer Lav / Høy
+      average_24h: 24-timers gjennomsnitt
+      outdoor: Utendørs
+      indoor: Innendørs
+      rain_gauge_not_connected: Regnmåler ikke tilkoblet
+      wind_gauge_not_connected: Vindmåler ikke tilkoblet
+      no_rain_gauge: Ingen regnmåler
+      no_wind_gauge: Ingen vindmåler
+      add_module_hint: Legg til den valgfrie modulen %{module} for å se disse dataene.
+      range_24h: 24-timers rekkevidde
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Manglende tilgangstoken. Koble Netatmo-kontoen din til på nytt.
+        no_station_selected: Ingen værstasjon valgt. Velg en stasjon i innstillingene.
+        connection_failed: Kan ikke koble til Netatmo-stasjonen. Kontroller internettforbindelsen din.
+        data_retrieval_failed: Kan ikke hente inn værdata. Prøv igjen senere.
+        session_expired: Økten har utløpt. Koble Netatmo-kontoen din til på nytt i innstillingene.
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: Levering innen
+      empty: Det er ingen leveranser
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Feil i pakke-API
+        http: HTTP-feil %{kode}
+        internal: Intern feil
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Aktiv levering
+          other: Aktive leveranser
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Nylig levering
+          other: Nylige leveranser
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: Levert
+        delivery_exception: Unntak fra levering
+        expecting_pickup: Venter på henting
+        failed_delivery_attempt: Mislykket leveringsforsøk
+        frozen: Frossen
+        in_transit: Under transport
+        information_received: Mottatt informasjon
+        not_found: Ikke funnet
+        out_for_delivery: Ute for levering
+        unknown: Ukjent
+      today: I dag
+      tomorrow: I morgen
     weather:
       title: Vær
       temperature: Temperatur
@@ -109,30 +109,30 @@
       tomorrow: I morgen
       low_high_short: L/H
       uv_short: UV
-      max: Max
+      max: Maks
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Tydelig
+          cloudy: Skyet
+          foggy: Tåkete
+          partly_cloudy: Delvis skyet
+          rain_likely: Regn sannsynlig
+          rain_possible: Regn mulig
+          snow: Snø
+          snow_possible: Snø mulig
+          thunderstorms_likely: Tordenvær sannsynlig
+          thunderstorms_possible: Tordenvær mulig
+          very_light_rain: Svært lett regn
+          windy: Vindfull
+          wintry_mix_likely: Vinterlig vær sannsynlig
+          wintry_mix_possible: Mulighet for vintervær
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: Lav
+          moderate: Moderat
+          high: Høy
+          very_high: Svært høy
+          extreme: Ekstrem
         conditions:
         - code: 1000
           day: Sunny

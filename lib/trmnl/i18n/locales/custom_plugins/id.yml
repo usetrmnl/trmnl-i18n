@@ -1,31 +1,31 @@
 ---
 id:
   custom_plugins:
-    today: today
-    tomorrow: tomorrow
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
+    today: hari ini
+    tomorrow: besok
+    updated: Diperbarui
+    activity: Kegiatan
+    done: Selesai
+    due: Karena
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
+      departures: Keberangkatan
+      time: Waktu
+      line: Garis
+      destination: Tujuan
       platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
+      delay: Penundaan
+      train: Kereta api
+      on_time: Tepat waktu
+      cancelled: Dibatalkan
       minutes: m
-      refreshed: Refreshed
+      refreshed: Diperbarui
     simple_calendar:
       title: Kalender
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Leap %{month_label}
-        leap_format_short: LM%{alt_month}
-        ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
+        leap_format: Lonjakan %{label_bulan}
+        leap_format_short: LM%{bulan alternatif}
+        ym_format: ", %{bulan_kabisat_label} %{batang_langit} %{cabang_bumi}"
         month_labels:
         -
         - M1
@@ -109,7 +109,7 @@ id:
         ym_format: "%B %Y (%{nengo} %{alt_year})"
         year_1: '1'
       hebrew:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{bulan_label} %{tahun_alternatif}"
         month_labels:
         - Nisan
         - Iyar
@@ -141,7 +141,7 @@ id:
         - Ad1
         - Ad2
       hijri:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{bulan_label} %{tahun_alternatif}"
         month_labels:
         -
         - Muharam
@@ -157,7 +157,7 @@ id:
         - Zulkaidah
         - Zulhijah
       bengali:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{bulan_label} %{tahun_alternatif}"
         month_labels:
         -
         - Boishakh
@@ -173,7 +173,7 @@ id:
         - Falgun
         - Choitro
       indian:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{bulan_label} %{tahun_alternatif}"
         month_labels:
         -
         - Chaitra
@@ -189,21 +189,21 @@ id:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
-      and_more: and {$value :number} more
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      connections: ".input {$value :number} .match $value zero {{Tidak ada koneksi}} one {{{$value :number} koneksi}} * {{{$value :number} koneksi}}"
+      forks: ".input {$value :number} .match $value zero {{Tidak ada garpu}} one {{{$value :number} garpu}} * {{{$value :number} garpu}}"
+      installs: ".input {$value :number} .match $value zero {{Tidak perlu instalasi}} one {{{$value :number} instalasi}} * {{{$value :number} instalasi}}"
+      and_more: dan {$value :number} lagi
+      error_keyword_title: "“{$keyword}” tidak ditemukan hasil yang sesuai."
+      error_keyword_subtitle: Coba cari hal lain.
+      error_new_title: Tidak ditemukan resep baru.
+      error_new_subtitle: Hal ini seharusnya tidak terjadi.
+      error_self_title: Anda belum mempublikasikan resep apa pun.
+      error_self_subtitle: Pelajari cara mempublikasikan yang pertama di https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Pengguna #{$authorId} belum mempublikasikan resep apa pun.'
+      error_author_id_subtitle: Tidak ditemukan resep yang terkait dengan ID ini.
+      error_recipe_ids_title: Tidak ditemukan ID resep.
+      error_recipe_ids_subtitle: Tambahkan ID resep untuk memulai.
     horizontal_world_clock:
-      name: World clock
+      name: Jam dunia
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: Dari {$from :langName} ke {$to :langNameList}

@@ -3,22 +3,22 @@ ko:
   custom_plugins:
     today: 오늘
     tomorrow: 내일
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
+    updated: 업데이트됨
+    activity: 활동
+    done: 완료
+    due: 기한
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
+      departures: 출발
+      time: 시간
+      line: 라인
+      destination: 목적지
+      platform: 플랫폼
+      delay: 지연
+      train: 기차
+      on_time: 정시에
+      cancelled: 취소됨
       minutes: m
-      refreshed: Refreshed
+      refreshed: 새롭게
     simple_calendar:
       title: 캘린더
       ym_format: "%Y년 %-m월"
@@ -109,7 +109,7 @@ ko:
         ym_format: "%Y년 (%{nengo} %{alt_year}년) %-m월"
         year_1: 원
       hebrew:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{월_라벨} %{연도_대체값}"
         month_labels:
         - Nisan
         - Iyar
@@ -141,7 +141,7 @@ ko:
         - Ad1
         - Ad2
       hijri:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{월_라벨} %{연도_대체값}"
         month_labels:
         -
         - Muharram
@@ -157,7 +157,7 @@ ko:
         - Dhuʻl-Qiʻdah
         - Dhuʻl-Hijjah
       bengali:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{월_라벨} %{연도_대체값}"
         month_labels:
         -
         - Boishakh
@@ -173,7 +173,7 @@ ko:
         - Falgun
         - Choitro
       indian:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{월_라벨} %{연도_대체값}"
         month_labels:
         -
         - Chaitra
@@ -189,21 +189,21 @@ ko:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      connections: ".input {$value :number} .match $value zero {{연결되지 않음}} one {{{$value :number} 연결}} * {{{$value :number} 연결}}"
+      forks: ".input {$value :number} .match $value zero {{포크 없음}} one {{{$value :number} 포크}} * {{{$value :number} 포크}}"
+      installs: ".input {$value :number} .match $value zero {{설치 필요 없음}} one {{{$value :number} 설치}} * {{{$value :number} 설치}}"
       and_more: "{$value :number} 개 더"
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: "“{$keyword}”에 해당하는 결과가 없습니다."
+      error_keyword_subtitle: 다른 것을 검색해 보세요.
+      error_new_title: 새로운 레시피가 발견되지 않았습니다.
+      error_new_subtitle: 이런 일이 있어서는 안 됩니다.
+      error_self_title: 레시피를 게시하지 않았습니다.
+      error_self_subtitle: '첫 번째 게시물을 게시하는 방법을 알아보세요: https://help.usetrmnl.com/en/articles/9510536-private-plugins'
+      error_author_id_title: '사용자 #{$authorId}은/는 어떤 레시피도 게시하지 않았습니다.'
+      error_author_id_subtitle: 이 ID와 연관된 레시피가 없습니다.
+      error_recipe_ids_title: 레시피 ID를 찾을 수 없습니다.
+      error_recipe_ids_subtitle: 시작하려면 레시피 ID를 추가하세요.
     horizontal_world_clock:
-      name: World clock
+      name: 세계 시계
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName}에서 {$to :langNameList}로"

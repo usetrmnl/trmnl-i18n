@@ -1,29 +1,29 @@
 ---
 hu:
   custom_plugins:
-    today: today
-    tomorrow: tomorrow
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
+    today: ma
+    tomorrow: holnap
+    updated: Frissítve
+    activity: Tevékenység
+    done: Kész
+    due: Esedékes
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
+      departures: Indulások
+      time: Idő
+      line: Vonal
+      destination: Úti cél
       platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
+      delay: Késés
+      train: Vonat
+      on_time: Időben
+      cancelled: Törölve
       minutes: m
-      refreshed: Refreshed
+      refreshed: Frissítve
     simple_calendar:
-      title: Calendar
+      title: Naptár
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Leap %{month_label}
+        leap_format: Ugrás %{month_label}
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
@@ -191,19 +191,19 @@ hu:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} kapcsolat}} * {{{$value :number} kapcsolatok}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Nincs telepítés}} one {{{$value :szám} telepítés}} * {{{$value :number} telepítés}}"
       and_more: és {$value :number} további
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: A „{$keyword}” nem talált találatot.
+      error_keyword_subtitle: Próbáljon meg valami mást keresni.
+      error_new_title: Nincs új recept.
+      error_new_subtitle: Ez nem történhet meg.
+      error_self_title: Nem tett közzé receptet.
+      error_self_subtitle: 'Az első kiadványának megjelentetéséről itt olvashat: https://help.usetrmnl.com/en/articles/9510536-private-plugins'
+      error_author_id_title: 'A #{$authorId} felhasználó nem tett közzé receptet.'
+      error_author_id_subtitle: Ehhez az azonosítóhoz nem található recept.
+      error_recipe_ids_title: Nincs receptazonosító.
+      error_recipe_ids_subtitle: Adjon hozzá egy receptazonosítót, hogy elindulhasson.
     horizontal_world_clock:
-      name: World clock
+      name: Világóra
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} -tól {$to :langNameList} -ig"

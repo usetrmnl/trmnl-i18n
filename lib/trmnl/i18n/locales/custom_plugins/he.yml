@@ -3,27 +3,27 @@ he:
   custom_plugins:
     today: היום
     tomorrow: מחר
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
+    updated: עודכן
+    activity: פעילות
+    done: בוצע
+    due: תאריך יעד
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
+      departures: יציאות
+      time: זמן
+      line: קו
+      destination: יעד
+      platform: פלטפורמה
+      delay: עיכוב
+      train: רכבת
+      on_time: בזמן
+      cancelled: בוטל
       minutes: m
-      refreshed: Refreshed
+      refreshed: רענן
     simple_calendar:
       title: לוח שנה
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Leap %{month_label}
+        leap_format: קפיצה %{month_label}
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
@@ -105,7 +105,7 @@ he:
         - 大安
         - 赤口
         nengo:
-          reiwa: Reiwa
+          reiwa: ריוואה
         ym_format: "%B %Y (%{nengo} %{alt_year})"
         year_1: '1'
       hebrew:
@@ -189,21 +189,21 @@ he:
         - מאגהה
         - פאלגונה
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
-      and_more: and {$value :number} more
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      connections: ".input {$value :number} .match $value zero {{אין חיבור}} one {{{$value :number} חיבור}} * {{{$value :number} חיבורים}}"
+      forks: ".input {$value :number} .match $value zero {{ללא מזלג}} one {{{$value :number} מזלג}} * {{{$value :number} מזלגות}}"
+      installs: ".input {$value :number} .match $value zero {{ללא התקנה}} one {{{$value :number} התקנה}} * {{{$value :number} התקנות}}"
+      and_more: ועוד {$value :number}
+      error_keyword_title: '"{$keyword}" לא נמצא בתוצאות החיפוש.'
+      error_keyword_subtitle: נסה לחפש משהו אחר.
+      error_new_title: לא נמצא מתכון חדש.
+      error_new_subtitle: זה לא אמור לקרות.
+      error_self_title: לא פרסמת אף מתכון.
+      error_self_subtitle: למד כיצד לפרסם את הראשון שלך ב-https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'המשתמש #{$authorId} לא פרסם אף מתכון.'
+      error_author_id_subtitle: לא נמצא מתכון הקשור למזהה זה.
+      error_recipe_ids_title: לא נמצא מזהה מתכון.
+      error_recipe_ids_subtitle: הוסף מזהה מתכון כדי להתחיל.
     horizontal_world_clock:
-      name: World clock
+      name: שעון עולמי
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} ל- {$to :langNameList}"

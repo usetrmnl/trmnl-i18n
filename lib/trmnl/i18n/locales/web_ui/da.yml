@@ -1,23 +1,23 @@
 ---
 da:
   locale_name: Dansk
-  about: About
+  about: Om
   add: Tilføj
   add_new: Tilføj ny
   ago: siden
   already_have_account: Jeg har allerede en konto
-  are_you_sure: Are you sure?
+  are_you_sure: Er du sikker?
   back: Tilbage
   back_to_all_blog_posts: Tilbage til alle indlæg
   blog: Blog
-  brand: Brand
+  brand: Mærke
   buy_now: Køb nu
   cancel: Annuller
   change_password: Skift adgangskode
   charge_level: Opladningsniveau
   charged: Opladet
   charging: Oplader
-  claim_plus_trial: Claim 6 Months Free
+  claim_plus_trial: Krav om 6 måneders gratis
   close: Luk
   confirm_change_password: Bekræft ændring af adgangskode
   confirm_password: Bekræft ny adgangskode
@@ -29,7 +29,7 @@ da:
   current_device: Nuværende enhed
   days: dage
   delete: Slet
-  developers: Developers
+  developers: Udviklere
   developer_edition_required: Udviklerudgave kræves for at aktivere denne funktion.
   device_id: Enheds-ID
   device: Enhed
@@ -40,9 +40,9 @@ da:
   first_name: Fornavn
   forgot_password: Jeg har glemt min adgangskode
   forgot_password_title: Her går vi igen
-  friendly_id: Friendly ID
+  friendly_id: Venlig ID
   get_started: Lad os få dig i gang!
-  hidden: hidden
+  hidden: skjult
   identify: Identificer
   import: Importer
   import_new: Importer ny
@@ -62,15 +62,15 @@ da:
   password: Adgangskode
   please_wait: Vent venligst...
   plugin_not_found: Plugin ikke fundet
-  preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
+  preview: Forhåndsvisning
+  privacy: Privatliv
+  refresh_rate: Opdateringshastighed
   refresh_rates_hint: Lær hvordan opdateringshastigheder fungerer __her__.
   reset_password: Nulstil min adgangskode
-  reset_to_defaults: Reset to defaults
-  required: Required
+  reset_to_defaults: Nulstil til standardindstillinger
+  required: Påkrævet
   save: Gem
-  shown: shown
+  shown: vist
   section: Sektion
   settings: Indstillinger
   sign_in: Log ind
@@ -79,12 +79,12 @@ da:
   status: Status
   subscribe: Abonner
   help_center: Support
-  terms: Terms
+  terms: Vilkår
   update: Opdater
   view: Vis
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: Vil du samarbejde?
+  collaboration_request_hint: Partnerskaber, gruppesalg, særlige projekter, det er op til dig.
+  collaboration_request_cta: Lad os tale sammen
   welcome: Velkommen
   time:
     formats:
@@ -102,7 +102,7 @@ da:
       api_key: API-nøgle
       beta_features: Beta-funktioner
       beta_features_hint: Prøv nye funktioner her. Muligheder kan forsvinde når som helst.
-      discord_community: Discord Community
+      discord_community: Discord-fællesskab
       discord_username: Hvad er dit Discord-brugernavn?
       discord_username_hint: Kan bruges til support, attribution på publicerede opskrifter osv.
       email_address: Mailadresse
@@ -122,7 +122,7 @@ da:
       disable_2fa: Deaktiver 2FA
       disable_2fa_hint: Indtast gyldig OTP og nuværende adgangskode ovenfor for at deaktivere denne funktion.
       plus_subscription: TRMNL+ Abonnement
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
+      plus_subscription_trial_until: Du har en gratis prøveperiode indtil %{plus_trial_end_at}.
       plus_subscription_hint: Lås op for hurtigere opdateringshastigheder og højere grænser. __Læs mere__.
       plus_subscription_modify: Vil du opdatere betalingsmetoden eller annullere?
       session: Session
@@ -133,10 +133,13 @@ da:
       time_zone_hint: Bestemmer opdateringshastigheder og enhedens sovetid.
       locale: Lokalitet
       locale_hint: Hvilket sprog og lokalisering foretrækker du? __Klik her__.
+      theme: Udseende
+      theme_hint: Vælg, hvordan TRMNL skal se ud for dig. Vælg et tema, eller synkroniser med din systemindstilling.
     update:
       success: Profil opdateret med succes
     reset_api_key:
       success: API-nøgle blev regenereret med succes
+    success: Succes
   dashboard:
     index:
       title: Dashboard
@@ -176,11 +179,11 @@ da:
       accepts_beta_firmware: Firmware Tidlig Udgivelse
       accepts_beta_firmware_hint: Slå til for at få de nyeste firmwareforbedringer før andre brugere.
       back_to_devices: Tilbage til enheder
-      battery_and_sleep: Battery & Sleep
+      battery_and_sleep: Batteri og dvaletilstand
       battery_consumption: Batteriforbrug
       battery_consumption_hint: Spar strøm og forlæng batterilevetiden ved at aktivere dvaletilstand.
       battery_learn_more: Læs mere om opladning af batteri __her__.
-      battery_refresh: Refresh
+      battery_refresh: Opdater
       developer_perks: Udviklerfordele
       developer_perks_hint: Nogle muligheder kræver __Udviklerudgave-tilføjelse__.
       device_credentials: Enhedsoplysninger
@@ -190,21 +193,21 @@ da:
       device_model: Enhedsmodel
       device_model_hint: Din hardwaremodel
       device_model_switch_warning: Dette er en risikabel handling, læs mere __her__
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_info: Enhedsoplysninger
+      current_firmware: Aktuel firmware
+      last_ping: Sidste ping
+      unknown: Ukendt
+      never: Aldrig
+      display_calibration: Skærmkalibrering
+      display_calibration_hint: Finjuster gengivelsen til din skærm. Lad feltet være tomt for at bruge standardindstillingerne for modellen.
+      display_calibration_pixel_ratio: Pixelforhold
+      display_calibration_pixel_ratio_hint: 'Billedzoomniveau (0,5–3,0). Standard:'
+      display_calibration_ui_scale: UI-skala
+      display_calibration_ui_scale_hint: 'Tekst- og elementstørrelser (0,5–2,0). Standard:'
       edit_device: Rediger enhed
       firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
+      firmware_updates_enabled: Opdateringer aktiveret
+      firmware_updates_disabled: Opdateringer deaktiveret
       guest_mode: Gæstetilstand
       guest_mode_hint: Vælg hvad der skal vises (og i hvor lang tid), når gæstetilstand er aktiveret.
       guest_mode_item_placeholder: Vælg et element
@@ -219,8 +222,8 @@ da:
       mirror: Spejl
       mirror_device: Spejl en anden enhed
       mirror_device_hint: Angiv et (delbart) enheds-ID for at spejle dens playliste. Din playliste vises stadig.
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
+      mirror_disabled: Spejling deaktiveret
+      mirror_enabled: Spejling
       mirror_stop: Stop spejling
       mirror_sync: Synkroniser skærme
       ota_enabled: OTA-opdateringer aktiveret
@@ -228,8 +231,8 @@ da:
       ota_byod_not_supported: OTA understøttes ikke for BYOD-enheder. Flash en kompatibel version direkte fra usetrmnl.com/flash
       maximum_compatibility: Aktivér maksimal kompatibilitet
       maximum_compatibility_hint: Løser visningsproblemer forårsaget af visse e-ink driverchips. Deaktiverer hurtig opdatering. Firmware 1.6.0+ kræves.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette: Farvepalet
+      palette_hint: Vælg det sæt farver, der skal bruges, når der genereres skærmbilleder til denne enhed. En større palet ser pænere ud, men en mindre palet tegnes hurtigere på e-ink. Individuelle afspilningslisteelementer kan tilsidesætte denne indstilling.
       sleep_mode: Dvaletilstand
       sleep_mode_hint: Juster opdateringshastigheden for at optimere fokus og batterilevetid.
       sleep_screen: Dvaleskærm
@@ -240,11 +243,11 @@ da:
       special_function_learn_more: Læs mere om specialfunktioner __her__.
       temperature_profile: Temperaturprofil
       temperature_profile_hint: Ændr ikke medmindre instrueret. Til displays med udvaskede billeder.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
+      tidbyt_credentials: Tidbyt-legitimationsoplysninger
+      tidbyt_credentials_hint: Indtast API-legitimationsoplysningerne for din Tidbyt-enhed fra Tidbyt-appen under Indstillinger → Udvikler → Hent API-nøgle.
+      tidbyt_credentials_invalid: Tidbyt API-legitimationsoplysningerne er ugyldige. Kontroller dem igen og prøv igen.
+      tidbyt_device_id: Enheds-ID
+      tidbyt_device_api_key: API-nøgle
       unlink: Fjern tilknytning
       unlink_confirm: Er du sikker? Dette sletter alle plugin-indstillinger og playliste-elementer, så enheden kan tilknyttes en anden konto.
       unlink_device: Fjern tilknytning til enhed
@@ -259,6 +262,7 @@ da:
         warning_1: Jeg forstår, at denne opgradering er <strong>irreversibel</strong> og kan ikke fortrydes.
         warning_2: Jeg forstår, at dette er en <strong>farlig</strong> handling og kan beskadige min enhed.
         cta: Opgrader til TRMNL OG (2-bit)
+      tidbyt_api_key: Tidbyt API-nøgle
     index:
       title: Enheder
       tagline: Dine TRMNL-enheder
@@ -275,8 +279,8 @@ da:
       error: Fejl ved frakobling af enhed
       success: Enhed frakoblet med succes
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: Ugyldige enhedsoplysninger
+      success: Enhedens legitimationsoplysninger er opdateret
     identify:
       error: Fejl ved opdatering af enhed
       success: Enhedsidentifikation anmodet
@@ -292,6 +296,11 @@ da:
     update:
       error: Fejl ved opdatering af enhed
       success: "%{device} enhedsindstillinger opdateret med succes"
+    error: Fejl
+    error_not_shared: Fejl ikke delt
+    error_oneself: Fejl selv
+    success: Succes
+    success_removed: Succes fjernet
   invoices:
     rate_limit: For mange forsøg, vent venligst og prøv igen
     invoice_not_found: Faktura ikke fundet
@@ -299,15 +308,15 @@ da:
     index:
       title: Logfiler
       all: Alle
-      bulk_destroy: Bulk Destroy
+      bulk_destroy: Masseødelæggelse
       dump: Dump
       id: ID
-      private_plugins: Private Plugins
+      private_plugins: Private plugins
       source: Kilde
       time: Tid
   markups:
     console_logs:
-      js_logs: JS Logs
+      js_logs: JS-logfiler
     form:
       back_to_plugin_settings: Tilbage til plugin-indstillinger
       design_system: Udnyt vores indbyggede designsystem
@@ -330,6 +339,7 @@ da:
       revert_confirm: Er du sikker på, at du vil gendanne? Alle ikke-gemte ændringer vil gå tabt.
       save_changes: Gem ændringer (⌘﹢S)
       separate_preview: Forhåndsvisning er åben i et separat vindue
+      edit_composition: Rediger sammensætning
     merge_variables:
       your_variables: Dine variabler
     no_merge_variables:
@@ -354,6 +364,8 @@ da:
       reset_instructions: Klik på knappen på bagsiden af din TRMNL for at generere en nulstillingskode
       success: 2FA vellykket
       error: Ugyldig OTP-kode
+    enable_otp_path:
+      already_enabled: Allerede aktiveret
   playlist_items:
     index:
       title: Playliste
@@ -384,11 +396,11 @@ da:
       hide_playlist: Skjul dette element
       show_playlist: Vis dette element
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: Dette plugins opdateringshastighed kan ikke konfigureres.
+        external: Dette plugin henter data på farten, så indstillinger for opdateringshastighed gælder ikke.
+        global: Dette plugin opdateres på hele platformen efter en fast tidsplan.
+        mashup: Mashup'en opdateres så ofte som det hurtigste plugin.
+        readonly: Dette plugin har en fast opdateringshastighed, der ikke kan konfigureres.
     create:
       error: Fejl ved opdatering af playliste
       success: Playliste opdateret
@@ -405,6 +417,11 @@ da:
       success: Smart playliste præference opdateret
     update:
       success: Playlistens rækkefølge opdateret
+    error: Fejl
+    playlist:
+      displayed_now: Vises nu
+      not_displayed_yet: Vises endnu ikke
+    success: Succes
   plugins:
     index:
       title: Plugins
@@ -413,6 +430,7 @@ da:
       connected: Forbundet
       recipes: Opskrifter
       recipes_hint: Private plugins fra fællesskabsmedlemmer, som kan installeres med 1 klik. __Læs mere__.
+      supported_by_this_device: Understøttet af denne enhed
     search:
       placeholder: Søg Plugins
     my:
@@ -442,7 +460,7 @@ da:
       knowledge_base_url: Vidensbase-URL
       management_url: Plugin-administrations-URL
       management_url_hint: Læs mere om administrationsflowet __her__.
-      markup_url: Plugin Markup URL
+      markup_url: Plugin-markerings-URL
       markup_url_hint: Læs mere om skærmgenerering __her__.
       no_screen_padding: Ingen skærmpadding
       no_screen_padding_hint: Fjerner yderste padding i fuldskærmsvisning.
@@ -452,14 +470,20 @@ da:
       tagline: Opdater dine plugin-detaljer.
       name: Navn
       description: Beskrivelse
+    mondrian:
+      common:
+        view: Vis
+    recipes:
+      recipe_lander:
+        preview: Forhåndsvisning
   plugin_recipes:
     connected: Opskrift tilsluttet
     connections:
       one: Forbindelse
       other: Forbindelser
     forks:
-      one: Fork
-      other: Forks
+      one: Gaffel
+      other: Gafler
     new:
       error: Opskrift ikke fundet
   plugin_settings:
@@ -469,13 +493,13 @@ da:
     delete: Dette vil fuldstændigt fjerne pluginets indstillinger. For blot at skjule pluginet fra din enhed, skal du slette det fra din playliste i stedet.
     inactive: Inaktiv
     no_plugin_settings_found: Ingen plugin-indstillinger fundet.
-    not_supported: Not supported on current device
+    not_supported: Understøttes ikke på den aktuelle enhed
     refreshing_now_please_wait: Opdaterer nu, genindlæs siden om et par sekunder.
     reset_credentials: "%{plugin_name} konto nulstillet med succes"
     form:
       active_hint: Vis eller skjul denne plugin-instans på din enhed
       advanced_settings: Avancerede indstillinger
-      back_to_playlist: Back to Playlist
+      back_to_playlist: Tilbage til afspilningsliste
       back_to_plugin: Tilbage til %{plugin}
       back_to_plugins: Tilbage til Plugins
       connect_with: Forbind med %{plugin}
@@ -490,51 +514,51 @@ da:
       force_refresh_hint: Denne funktion er tiltænkt testbrug - misbrug den venligst ikke.
       force_refresh_click_here: Klik her
       force_refresh_click_here_hint: for at generere en ny skærm med det samme
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      force_refresh_not_possible: Dette plugin kan ikke opdateres med tvang, da TRMNL-serveren ikke udfører billedbehandling. Lær, hvordan du tester din instans __her__.
       learn_more: Læs om dette plugin i vores vidensbase
       learn_more_fork: Dette plugin blev forgrenet fra en opskrift.
       learn_more_fork_original: Se original
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
+      learn_more_native_long: Dette plugin er udviklet og vedligeholdes af TRMNL.
+      learn_more_native_short: Dette plugin vedligeholdes af TRMNL.
       learn_more_recipe_author: Brug for hjælp? Kontakt %{recipe_author} på Discord.
       learn_more_recipe_long: Dette plugin er en community-opskrift og vedligeholdes ikke af TRMNL.
       learn_more_recipe_short: 'Bemærk: dette plugin er en opskrift.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
+      learn_more_third_party_long: Dette plugin er udviklet af en tredjepart og vedligeholdes ikke af TRMNL.
+      learn_more_third_party_short: 'Bemærk: dette plugin er udviklet af en tredjepart.'
       linked_account: Tilknyttet konto
       linked_account_success: Succesfuldt tilknyttet med %{plugin_name}
       link_oauth: Link konto
       link_oauth_hint: Følg den sikre autorisationsproces leveret af %{plugin}
-      mirrored: Mirrored
+      mirrored: Spejlet
       multiple_instances_hint: Dette plugin understøtter flere instanser.
       name: Navn
       name_hint: Giv det et navn til nem reference
       parse: Parse
       parse_save_first: Parse (gem plugin først)
-      parsed: Parsed
+      parsed: Analyseret
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Bruges til Webhook API-anmodninger.
       preview: Forhåndsvisning - din enhed vil viser faktiske data
       recipe_cta_heading_published: Dette plugin er en opskrift
-      recipe_cta_heading_unlisted: This plugin is unlisted
+      recipe_cta_heading_unlisted: Dette plugin er ikke opført
       recipe_cta_heading_in_review: Opskrift under gennemgang
       recipe_cta_heading_not_published: Udgiv som opskrift?
       recipe_cta_body_published: Ændringer vil blive afspejlet på eksisterende og fremtidige installationer/forks.
       recipe_cta_body_in_review: Dette plugin er sendt til vores team. Vent venligst.
       recipe_cta_body_not_published: Indsend dette plugin, så andre kan installere det. __Læs mere__.
       recipe_cta_confirm: Er du sikker? Vores team vil gennemgå det og vende tilbage inden for få dage. Du kan fortsætte med at foretage ændringer.
-      recipe_mirrored: This screen is mirrored from the recipe.
-      recipe_visibility_title: How would you like to publish?
-      recipe_visibility_edit_title: Edit Submission
-      recipe_visibility_public: Public
-      recipe_visibility_public_hint: Anyone can find and install.
-      recipe_visibility_private: Private
-      recipe_visibility_private_hint: Breaks external installs.
-      recipe_visibility_unlisted: Unlisted
-      recipe_visibility_unlisted_hint: Anyone with the link can install.
+      recipe_mirrored: Denne skærm er spejlet fra opskriften.
+      recipe_visibility_title: Hvordan vil du gerne udgive?
+      recipe_visibility_edit_title: Rediger indsendelse
+      recipe_visibility_public: Offentlig
+      recipe_visibility_public_hint: Alle kan finde og installere.
+      recipe_visibility_private: Privat
+      recipe_visibility_private_hint: Afbryder eksterne installationer.
+      recipe_visibility_unlisted: Ikke børsnoteret
+      recipe_visibility_unlisted_hint: Alle med linket kan installere det.
       refresh_rate: Opdateringshastighed
       refresh_rate_hint: Definer hvor ofte denne plugin-instans henter friske data
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
+      refresh_rate_not_configurable: Synkroniserer %{refresh_rate} (kan ikke konfigureres)
       refreshed: Opdateret
       remove_plugin: Fjern plugin
       remove_plugin_hint: Fjernelse af et plugin vil også fjerne det fra din playliste
@@ -545,7 +569,7 @@ da:
       refresh_paused_mashup: Opdaterer Mashups
       refresh_paused_mashup_hint: Auto-opdatering af fuldskærmsvisning er på pause. Mashups opdaterer.
       refresh_stopped: Auto-opdatering stoppet. Ret pluginfejl for at fortsætte.
-      view_recipe: View Recipe
+      view_recipe: Se opskrift
       visit_docs: Besøg dokumentation
     import:
       archive_too_large: ZIP-fil er for stor (%{max_mb} MB maksimum)
@@ -562,9 +586,17 @@ da:
       success: Plugin-konfiguration opdateret med succes
     add_to_playlist:
       success: Plugin tilføjet til playliste
+    back_button:
+      back_to_plugin: Tilbage til plugin
+      back_to_plugins: Tilbage til plugins
+    index:
+      no_plugin_settings_found: Ingen plugin-indstillinger fundet
+    playlist: Afspilningsliste
+    success: Succes
   referral_code:
     create:
       request_received: Anmodning modtaget, tjek din indbakke
+    request_received: Anmodning modtaget
   recipes:
     index:
       newest_to_oldest: Nyeste til ældste
@@ -580,6 +612,8 @@ da:
       some_schedule: Vis kun denne skærm under…
       to: til
       copy_prompt: Kopiér tidsplan fra…
+      cancel: Annuller
+      save: Gem
   upgrade:
     index:
       title: 'Opgradering af enhed:'
@@ -588,3 +622,68 @@ da:
       error: Enhed %{device_name} er allerede opgraderet, vælg en anden enhed
     confirm:
       success: Udviklerudgave-tilføjelse er nu aktiveret
+  action: Handling
+  actions: Handlinger
+  active_admin:
+    blank_slate:
+      content: Indhold
+      link: Link
+    comments:
+      add: Tilføj
+      author_missing: Forfatter mangler
+      delete: Slet
+      delete_confirmation: Slet bekræftelse
+      no_comments_yet: Ingen kommentarer endnu
+    devise: Udarbejde
+    logout: Log ud
+    pagination:
+      empty: Tom
+      next: Næste
+      previous: Forrige
+    powered_by: Drevet af
+  date:
+    abbr_day_names: Forkortelser for ugedage
+    day_names: Dagnavne
+  default: Standard
+  default_webhook_rate_limit: Standardgrænse for webhook-hastighed
+  developer_edition_addon_amount: Udviklerudgave-tilføjelsesbeløb
+  duration: Varighed
+  errors:
+    messages:
+      not_saved: Ikke gemt
+  fetch: Hent
+  framework:
+    responsive_test:
+      example-size-btn: Eksempel-størrelse-btn
+      test-config-btn: Test-konfigurationsknap
+  id: Id
+  ignore_log_messages: Ignorer logmeddelelser
+  ignore_logs: Ignorer logfiler
+  maintenance_mode: Vedligeholdelsestilstand
+  mashup_id: Mashup-id
+  mashups:
+    mashup:
+      add_to_playlist: Føj til afspilningsliste
+  month: Måned
+  name: Navn
+  order_number: Ordrenummer
+  plus_webhook_rate_limit: Plus webhook-hastighedsbegrænsning
+  primary: Primær
+  public: Offentlig
+  query: Forespørgsel
+  rolling_month: Rullende måned
+  rolling_week: Rullende uge
+  schedule: Tidsplan
+  shop_promotion: Butiksreklame
+  site_banner: Webstedsbanner
+  site_banner_link: Link til banner på webstedet
+  sleep_mode_enabled: Sleep-tilstand aktiveret
+  title: Titel
+  today_only: Kun i dag
+  value: Værdi
+  views:
+    pagination:
+      truncate: Afkort
+  visible: Synlig
+  week: Uge
+  work_week: Arbejdsuge

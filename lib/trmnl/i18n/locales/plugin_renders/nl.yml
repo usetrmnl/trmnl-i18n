@@ -2,7 +2,7 @@
 nl:
   renders:
     and_x_more_prefix: En nog
-    and_x_more_suffix:
+    and_x_more_suffix: meer
     days_left_year:
       title: Dagen over dit jaar
       days_passed: Verstreken dagen
@@ -26,56 +26,56 @@ nl:
         third_quarter: Laatste Kwartier
         waning_crescent: Asgrauwe Maan
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo Weer
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Binnentemperatuur.
+      indoor_temp_short: Binnen
+      indoor_humidity: Binnenluchtvochtigheid
+      indoor_humidity_short: Binnenvochtigheid.
+      outdoor_humidity: Buitenluchtvochtigheid
+      outdoor_humidity_short: Einde. Hm.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
+      pressure: Druk
+      noise: Lawaai
       min_max: Min/Max
-      feels: Feels
-      rain: Rain
+      feels: Voelt
+      rain: Regen
       wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
+      gust: Windvlaag
+      default_station_name: Netatmo-station
+      default_outdoor_module: Buitentemperatuur.
+      default_indoor_module: Binnen
       trends_title: "%{metric} Trends"
       trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      temperature_trends: Temperatuurtrends
+      temperature_trends_short: Tijdelijke trends
+      outdoor_now: Nu buiten
+      indoor_now: Binnen nu
+      now: Nu
+      low_high_24h: 24 uur laag / hoog
+      average_24h: 24-uursgemiddelde
+      outdoor: Buiten
+      indoor: Binnen
+      rain_gauge_not_connected: Regenmeter niet aangesloten
+      wind_gauge_not_connected: Windmeter niet aangesloten
+      no_rain_gauge: Geen regenmeter
+      no_wind_gauge: Geen windmeter
+      add_module_hint: Voeg de optionele %{module} module toe om deze info te zien.
+      range_24h: 24 uur bereik
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Je hebt geen toegangstoken. Probeer je Netatmo-account opnieuw te verbinden.
+        no_station_selected: Er is geen weerstation geselecteerd. Kies een station in de instellingen.
+        connection_failed: Kan geen verbinding maken met het Netatmo-station. Check even je internetverbinding.
+        data_retrieval_failed: Kan de weergegevens niet vinden. Probeer het later nog eens.
+        session_expired: Je sessie is verlopen. Maak je Netatmo-account opnieuw aan in de instellingen.
     parcel:
       delivery_by: Levering door
       empty: Er zijn geen leveringen
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Pakket-API-fout
+        http: HTTP-fout %{code}
+        internal: Interne fout
       filter_modes:
         active:
           one: Actieve Levering
@@ -112,20 +112,20 @@ nl:
       max: Max
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Duidelijk
+          cloudy: Bewolkt
+          foggy: Mistig
+          partly_cloudy: Gedeeltelijk bewolkt
+          rain_likely: Regen waarschijnlijk
+          rain_possible: Regen mogelijk
+          snow: Sneeuw
+          snow_possible: Sneeuw mogelijk
+          thunderstorms_likely: Onweer waarschijnlijk
+          thunderstorms_possible: Onweersbuien mogelijk
+          very_light_rain: Heel lichte regen
+          windy: Winderig
+          wintry_mix_likely: Winterse mix waarschijnlijk
+          wintry_mix_possible: Winterse mix mogelijk
       weatherapi:
         uv:
           low: Zwak

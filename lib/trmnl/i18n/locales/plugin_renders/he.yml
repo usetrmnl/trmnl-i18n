@@ -1,101 +1,101 @@
 ---
 he:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: ו
+    and_x_more_suffix: עוד
     days_left_year:
       title: ימים שנותרו עד לסוף השנה
       days_passed: ימים שחלפו
       days_left: ימים שנותרו
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: לוח שנה ירחי
+      age: גיל הירח
+      current_phase: השלב הנוכחי
+      illumination: תאורת ירח
+      next_full_moon: הירח המלא הבא
+      next_new_moon: הירח החדש הבא
+      next_phase: השלב הבא
+      next_phase_short: הבא
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: ירח חדש
+        waxing_crescent: ירח הולך וגדל
+        first_quarter: רבעון ראשון
+        waxing_gibbous: ירח מלא
+        full_moon: ירח מלא
+        waning_gibbous: ירח מתמעט
+        third_quarter: רבעון שלישי
+        waning_crescent: סהר הולך וקטן
     netatmo_weather_station:
-      title: Netatmo Weather
-      title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      title: מזג האוויר של Netatmo
+      title_short: נטאטמו
+      indoor_temp: טמפרטורה פנימית.
+      indoor_temp_short: בתוך הבית
+      indoor_humidity: לחות בתוך הבית
+      indoor_humidity_short: זמזום פנימי.
+      outdoor_humidity: לחות בחוץ
+      outdoor_humidity_short: החוצה. הממ.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
+      pressure: לחץ
+      noise: רעש
+      min_max: מינימום/מקסימום
+      feels: מרגיש
+      rain: גשם
+      wind: רוח
+      gust: גוסט
+      default_station_name: תחנת Netatmo
+      default_outdoor_module: טמפרטורה חיצונית.
+      default_indoor_module: בתוך הבית
+      trends_title: "%{metric} מגמות"
+      trends_title_short: מגמות
+      temperature_trends: מגמות טמפרטורה
+      temperature_trends_short: מגמות זמניות
       outdoor_now: Outdoor Now
       indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      now: עכשיו
+      low_high_24h: 24 שעות נמוך/גבוה
+      average_24h: ממוצע 24 שעות
+      outdoor: בחוץ
+      indoor: בתוך הבית
+      rain_gauge_not_connected: מד גשם לא מחובר
+      wind_gauge_not_connected: מד רוח לא מחובר
+      no_rain_gauge: אין מד גשם
+      no_wind_gauge: אין מד רוח
+      add_module_hint: הוסף את המודול האופציונלי %{module} כדי לראות נתונים אלה.
+      range_24h: טווח 24 שעות
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: אסימון גישה חסר. אנא התחבר מחדש לחשבון Netatmo שלך.
+        no_station_selected: לא נבחרה תחנת מזג אוויר. אנא בחר תחנה בהגדרות.
+        connection_failed: לא ניתן להתחבר לתחנת Netatmo. אנא בדוק את חיבור האינטרנט שלך.
+        data_retrieval_failed: לא ניתן לאחזר את נתוני מזג האוויר. אנא נסה שוב מאוחר יותר.
+        session_expired: הפעלה פקעה. אנא התחבר מחדש לחשבון Netatmo שלך בהגדרות.
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: משלוח על ידי
+      empty: אין משלוחים
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: שגיאה ב-API של חבילות
+        http: שגיאת HTTP %{code}
+        internal: שגיאה פנימית
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: משלוח פעיל
+          other: משלוחים פעילים
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: משלוחים אחרונים
+          other: משלוחים אחרונים
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: נמסר
+        delivery_exception: חריגה במשלוח
+        expecting_pickup: מצפה לאיסוף
+        failed_delivery_attempt: ניסיון משלוח כושל
+        frozen: קפוא
+        in_transit: במעבר
+        information_received: מידע שהתקבל
+        not_found: לא נמצא
+        out_for_delivery: מוצא למשלוח
+        unknown: לא ידוע
+      today: היום
+      tomorrow: מחר
     weather:
       title: מזג אויר
       temperature: טמפרטורה
@@ -109,30 +109,30 @@ he:
       tomorrow: מחר
       low_high_short: L/H
       uv_short: UV
-      max: Max
+      max: מקסימום
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: ברור
+          cloudy: מעונן
+          foggy: ערפילי
+          partly_cloudy: מעונן חלקית
+          rain_likely: גשם צפוי
+          rain_possible: גשם אפשרי
+          snow: שלג
+          snow_possible: שלג אפשרי
+          thunderstorms_likely: סופות רעמים צפויות
+          thunderstorms_possible: סופות רעמים אפשריות
+          very_light_rain: גשם קל מאוד
+          windy: רוחני
+          wintry_mix_likely: צפוי שילוב של גשם ושלג
+          wintry_mix_possible: אפשרות לגשם מעורב בשלג
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: נמוך
+          moderate: מתון
+          high: גבוה
+          very_high: גבוה מאוד
+          extreme: קיצוני
         conditions:
         - code: 1000
           day: Sunny

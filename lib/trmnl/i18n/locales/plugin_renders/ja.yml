@@ -1,101 +1,101 @@
 ---
 ja:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: そして
+    and_x_more_suffix: もっと
     days_left_year:
       title: 今年の残り日数
       days_passed: 経過日数
       days_left: 残り日数
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: 旧暦
+      age: 月齢時代
+      current_phase: 現在の段階
+      illumination: 月の光
+      next_full_moon: 次の満月
+      next_new_moon: 次の新月
+      next_phase: 次の段階
+      next_phase_short: 次
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: 新月
+        waxing_crescent: 上弦の月
+        first_quarter: 第1四半期
+        waxing_gibbous: 上弦の月
+        full_moon: 満月
+        waning_gibbous: 欠けゆく満月
+        third_quarter: 第3四半期
+        waning_crescent: 欠けゆく三日月
     netatmo_weather_station:
-      title: Netatmo Weather
-      title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
-      co2: CO₂
-      co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      title: ネタトモ・ウェザー
+      title_short: ネタトモ
+      indoor_temp: 室内温度
+      indoor_temp_short: 屋内
+      indoor_humidity: 室内湿度
+      indoor_humidity_short: 室内湿度
+      outdoor_humidity: 屋外の湿度
+      outdoor_humidity_short: 出て行け。ふん。
+      co2: 二酸化炭素
+      co2_ppm: 二酸化炭素（CO₂）のppm値
+      pressure: 圧力
+      noise: 騒音
+      min_max: 最小値／最大値
+      feels: 感じ
+      rain: 雨
+      wind: 風
+      gust: 突風
+      default_station_name: ネタトモステーション
+      default_outdoor_module: 外気温
+      default_indoor_module: 屋内
+      trends_title: "%{metric} の推移"
+      trends_title_short: トレンド
+      temperature_trends: 気温の推移
+      temperature_trends_short: 気温の推移
+      outdoor_now: アウトドア・ナウ
+      indoor_now: 屋内だ
+      now: 今
+      low_high_24h: 24時間最低/最高
+      average_24h: 24時間平均
+      outdoor: アウトドア
+      indoor: 屋内
+      rain_gauge_not_connected: 雨量計が接続されていない
+      wind_gauge_not_connected: 風速計が接続されていない
+      no_rain_gauge: 雨量計がない
+      no_wind_gauge: 風速計がない
+      add_module_hint: このデータを見るには、オプションの %{module} モジュールを追加する。
+      range_24h: 24時間範囲
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: アクセス トークンが不足している。Netatmo アカウントを再接続せよ。
+        no_station_selected: 気象観測所が選択されていない。設定で観測所を選んでくれ。
+        connection_failed: Netatmoステーションに接続できない。インターネット接続を確認してほしい。
+        data_retrieval_failed: 天気データを取得できなかった。後で再度試してほしい。
+        session_expired: セッションが切れた。設定でNetatmoアカウントを再接続せよ。
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: 配達
+      empty: 配達はない。
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: 小包APIエラー
+        http: HTTPエラー %{code}
+        internal: 内部エラー
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: アクティブデリバリー
+          other: アクティブな配達
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: 最近の配達
+          other: 最近の配達
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: 配達された
+        delivery_exception: 配送例外
+        expecting_pickup: 迎えを待っている
+        failed_delivery_attempt: 配達失敗
+        frozen: 凍った
+        in_transit: 移動中だ
+        information_received: 情報を受領した
+        not_found: 見つかりません
+        out_for_delivery: 配達中だ
+        unknown: 不明
+      today: 今日
+      tomorrow: 明日
     weather:
       title: 天気
       temperature: 温度
@@ -107,32 +107,32 @@ ja:
       right_now: 現在
       today: 今日
       tomorrow: 明日
-      low_high_short: L/H
-      uv_short: UV
-      max: Max
+      low_high_short: 左/右
+      uv_short: 紫外線
+      max: マックス
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: クリア
+          cloudy: 曇っている
+          foggy: 霧がかかっている
+          partly_cloudy: 曇り時々晴れ
+          rain_likely: 雨が降りそうだ
+          rain_possible: 雨が降る可能性がある
+          snow: 雪
+          snow_possible: 雪の可能性あり
+          thunderstorms_likely: 雷雨の可能性がある
+          thunderstorms_possible: 雷雨の可能性がある
+          very_light_rain: ごく弱い雨
+          windy: 風が強い
+          wintry_mix_likely: 冬の混合降水が予想される
+          wintry_mix_possible: 冬の混合降水の可能性がある
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: 低い
+          moderate: 中程度
+          high: 高い
+          very_high: 非常に高い
+          extreme: 極限
         conditions:
         - code: 1000
           day: Sunny

@@ -1,0 +1,280 @@
+---
+vi:
+  renders:
+    and_x_more_prefix: Và
+    and_x_more_suffix: nhiều hơn
+    days_left_year:
+      title: Số ngày còn lại trong năm nay
+      days_passed: Số ngày đã trôi qua
+      days_left: Số ngày còn lại
+    lunar_calendar:
+      title: Lịch âm
+      age: Thời đại Mặt trăng
+      current_phase: Giai đoạn hiện tại
+      illumination: Ánh trăng
+      next_full_moon: Trăng tròn tiếp theo
+      next_new_moon: Trăng mới tiếp theo
+      next_phase: Giai đoạn tiếp theo
+      next_phase_short: Tiếp theo
+      moon_phases:
+        new_moon: Trăng non
+        waxing_crescent: Mặt trăng lưỡi liềm
+        first_quarter: Quý đầu tiên
+        waxing_gibbous: Mặt trăng lưỡi liềm tăng dần
+        full_moon: Trăng tròn
+        waning_gibbous: Trăng khuyết
+        third_quarter: Quý ba
+        waning_crescent: Mặt trăng khuyết giảm dần
+    netatmo_weather_station:
+      title: Thời tiết Netatmo
+      title_short: Netatmo
+      indoor_temp: Nhiệt độ trong nhà.
+      indoor_temp_short: Trong nhà
+      indoor_humidity: Độ ẩm trong nhà
+      indoor_humidity_short: Độ ẩm trong nhà.
+      outdoor_humidity: Độ ẩm ngoài trời
+      outdoor_humidity_short: Ra ngoài. Ừm.
+      co2: CO₂
+      co2_ppm: CO₂ (phần triệu)
+      pressure: Áp lực
+      noise: Tiếng ồn
+      min_max: Giá trị tối thiểu/tối đa
+      feels: Cảm giác
+      rain: Mưa
+      wind: Gió
+      gust: Gust
+      default_station_name: Trạm Netatmo
+      default_outdoor_module: Nhiệt độ ngoài trời.
+      default_indoor_module: Trong nhà
+      trends_title: "%{metric} Xu hướng"
+      trends_title_short: Xu hướng
+      temperature_trends: Xu hướng nhiệt độ
+      temperature_trends_short: Xu hướng nhiệt độ
+      outdoor_now: Ngoài trời ngay bây giờ
+      indoor_now: Trong nhà ngay bây giờ
+      now: Bây giờ
+      low_high_24h: 24h Thấp / Cao
+      average_24h: Trung bình 24 giờ
+      outdoor: Ngoài trời
+      indoor: Trong nhà
+      rain_gauge_not_connected: Cảm biến đo mưa không được kết nối
+      wind_gauge_not_connected: Cảm biến gió không được kết nối
+      no_rain_gauge: Không có thiết bị đo mưa
+      no_wind_gauge: Không có thiết bị đo gió
+      add_module_hint: Thêm mô-đun tùy chọn %{module} để xem dữ liệu này.
+      range_24h: Phạm vi 24 giờ
+      errors:
+        missing_access_token: Thiếu token truy cập. Vui lòng kết nối lại tài khoản Netatmo của bạn.
+        no_station_selected: Không có trạm thời tiết nào được chọn. Vui lòng chọn trạm trong phần cài đặt.
+        connection_failed: Không thể kết nối với trạm Netatmo. Vui lòng kiểm tra kết nối internet của bạn.
+        data_retrieval_failed: Không thể lấy dữ liệu thời tiết. Vui lòng thử lại sau.
+        session_expired: Phiên làm việc đã hết hạn. Vui lòng kết nối lại tài khoản Netatmo của bạn trong phần cài đặt.
+    parcel:
+      delivery_by: Giao hàng bằng
+      empty: Không có đơn hàng nào được giao.
+      errors:
+        api: Lỗi API gói hàng
+        http: Lỗi HTTP %{code}
+        internal: Lỗi nội bộ
+      filter_modes:
+        active:
+          one: Giao hàng nhanh
+          other: Giao hàng đang hoạt động
+        recent:
+          one: Giao hàng gần đây
+          other: Các đơn hàng gần đây
+      status:
+        delivered: Đã giao
+        delivery_exception: Trường hợp ngoại lệ trong giao hàng
+        expecting_pickup: Đang chờ nhận hàng
+        failed_delivery_attempt: Thất bại trong lần giao hàng
+        frozen: Đóng băng
+        in_transit: Trong quá trình vận chuyển
+        information_received: Thông tin đã nhận
+        not_found: Không tìm thấy
+        out_for_delivery: Đang giao hàng
+        unknown: Không rõ
+      today: Hôm nay
+      tomorrow: Ngày mai
+    weather:
+      title: Thời tiết
+      temperature: Nhiệt độ
+      feels_like: Cảm giác như
+      humidity: Độ ẩm
+      low: Thấp
+      high: Cao
+      uv: Tia cực tím
+      right_now: Ngay bây giờ
+      today: Hôm nay
+      tomorrow: Ngày mai
+      low_high_short: L/H
+      uv_short: Tia cực tím
+      max: Max
+      tempest:
+        conditions:
+          clear: Rõ ràng
+          cloudy: Mây mù
+          foggy: Sương mù
+          partly_cloudy: Trời có mây một phần
+          rain_likely: Có khả năng mưa
+          rain_possible: Có thể có mưa
+          snow: Tuyết
+          snow_possible: Có thể có tuyết
+          thunderstorms_likely: Có khả năng xảy ra giông bão.
+          thunderstorms_possible: Có khả năng xảy ra giông bão.
+          very_light_rain: Mưa rất nhẹ
+          windy: Gió mạnh
+          wintry_mix_likely: Hỗn hợp thời tiết mùa đông có khả năng xảy ra
+          wintry_mix_possible: Có khả năng xảy ra mưa tuyết
+      weatherapi:
+        uv:
+          low: Thấp
+          moderate: Trung bình
+          high: Cao
+          very_high: Rất cao
+          extreme: Cực đoan
+        conditions:
+        - code: 1000
+          day: Sunny
+          night: Clear
+        - code: 1003
+          day: Partly Cloudy
+          night: Partly Cloudy
+        - code: 1006
+          day: Cloudy
+          night: Cloudy
+        - code: 1009
+          day: Overcast
+          night: Overcast
+        - code: 1030
+          day: Mist
+          night: Mist
+        - code: 1063
+          day: Light Rain
+          night: Light Rain
+        - code: 1066
+          day: Light Snow
+          night: Light Snow
+        - code: 1069
+          day: Sleet
+          night: Sleet
+        - code: 1072
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1087
+          day: Thunder
+          night: Thunder
+        - code: 1114
+          day: Blowing Snow
+          night: Blowing Snow
+        - code: 1117
+          day: Blizzard
+          night: Blizzard
+        - code: 1135
+          day: Fog
+          night: Fog
+        - code: 1147
+          day: Freezing Fog
+          night: Freezing Fog
+        - code: 1150
+          day: Light Drizzle
+          night: Light Drizzle
+        - code: 1153
+          day: Drizzle
+          night: Drizzle
+        - code: 1168
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1171
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1180
+          day: Light Rain
+          night: Light Rain
+        - code: 1183
+          day: Light Rain
+          night: Light Rain
+        - code: 1186
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1189
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1192
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1195
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1198
+          day: Light Freeze
+          night: Light Freeze
+        - code: 1201
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1204
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1207
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1210
+          day: Light Snow
+          night: Light Snow
+        - code: 1213
+          day: Light Snow
+          night: Light Snow
+        - code: 1216
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1219
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1222
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1225
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1237
+          day: Ice Pellets
+          night: Ice Pellets
+        - code: 1240
+          day: Light Rain
+          night: Light Rain
+        - code: 1243
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1246
+          day: Torrential Rain
+          night: Torrential Rain
+        - code: 1249
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1252
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1255
+          day: Light Snow
+          night: Light Snow
+        - code: 1258
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1261
+          day: Light Ice
+          night: Light Ice
+        - code: 1264
+          day: Heavy Ice
+          night: Heavy Ice
+        - code: 1273
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1276
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1279
+          day: Thunder & Snow
+          night: Thunder & Snow
+        - code: 1282
+          day: Thunder & Snow
+          night: Thunder & Snow

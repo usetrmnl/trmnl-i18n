@@ -189,21 +189,21 @@ nl:
         - Maagha
         - Phaalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      connections: ".input {$value :number} .match $value zero {{Geen verbinding}} one {{{$value :number} verbinding}} * {{{$value :number} verbindingen}}"
+      forks: ".input {$value :number} .match $value zero {{Geen vork}} one {{{$value :number} vork}} * {{{$value :number} vorken}}"
+      installs: ".input {$value :number} .match $value zero {{Geen installatie}} one {{{$value :number} installeren}} * {{{$value :number} installaties}}"
       and_more: en nog {$value :number}
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: Er zijn geen resultaten gevonden voor "{$keyword}".
+      error_keyword_subtitle: Probeer eens iets anders te zoeken.
+      error_new_title: Er is geen nieuw recept gevonden.
+      error_new_subtitle: Dit zou niet moeten gebeuren.
+      error_self_title: Je hebt geen recept geplaatst.
+      error_self_subtitle: Kijk op https://help.usetrmnl.com/en/articles/9510536-private-plugins hoe je je eerste boek kunt uitgeven.
+      error_author_id_title: 'Gebruiker #{$authorId} heeft nog geen recept gedeeld.'
+      error_author_id_subtitle: Er is geen recept gevonden dat bij dit ID hoort.
+      error_recipe_ids_title: Er is geen recept-ID gevonden.
+      error_recipe_ids_subtitle: Voeg een recept-ID toe om te beginnen.
     horizontal_world_clock:
-      name: World clock
+      name: Wereldklok
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: Van {$from :langName} naar {$to :langNameList}

@@ -1,29 +1,29 @@
 ---
 uk:
   custom_plugins:
-    today: today
-    tomorrow: tomorrow
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
+    today: сьогодні
+    tomorrow: завтра
+    updated: Оновлено
+    activity: Активність
+    done: Готово
+    due: До
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
-      minutes: m
-      refreshed: Refreshed
+      departures: Відправлення
+      time: Час
+      line: Лінія
+      destination: Пункт призначення
+      platform: Платформа
+      delay: Затримка
+      train: Поїзд
+      on_time: Вчасно
+      cancelled: Скасовано
+      minutes: м
+      refreshed: Оновлено
     simple_calendar:
       title: Календар
       ym_format: "%b %Y р."
       chinese_korean:
-        leap_format: Leap %{month_label}
+        leap_format: Стрибок %{month_label}
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
@@ -189,21 +189,21 @@ uk:
         - магха
         - фальгуна
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
-      and_more: and {$value :number} more
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      connections: ".input {$value :number} .match $value zero {{Відсутність з'єднання}} one {{{$value :number} з'єднання}} * {{{$value :number} з'єднань}}"
+      forks: ".input {$value :number} .match $value zero {{Без вилки}} one {{{$value :number} вилка}} * {{{$value :number} вилки}}"
+      installs: ".input {$value :number} .match $value zero {{Без установки}} one {{{$value :number} встановити}} * {{{$value :number} встановлень}}"
+      and_more: та {$value :number} більше
+      error_keyword_title: "«{$keyword}» не відповідає жодним результатам."
+      error_keyword_subtitle: Спробуйте пошукати щось інше.
+      error_new_title: Нових рецептів не знайдено.
+      error_new_subtitle: Це не повинно траплятися.
+      error_self_title: Ви не опублікували жодного рецепта.
+      error_self_subtitle: Дізнайтеся, як опублікувати свою першу статтю, на сайті https://help.usetrmnl.com/en/articles/9510536-private-plugins.
+      error_author_id_title: 'Користувач #{$authorId} не опублікував жодного рецепта.'
+      error_author_id_subtitle: Не знайдено рецептів, пов'язаних з цим ідентифікатором.
+      error_recipe_ids_title: Не знайдено ідентифікатора рецепта.
+      error_recipe_ids_subtitle: Додайте ідентифікатор рецепта, щоб розпочати.
     horizontal_world_clock:
-      name: World clock
+      name: Світовий годинник
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} до {$to :langNameList}"

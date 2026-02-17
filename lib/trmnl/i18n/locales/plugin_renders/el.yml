@@ -1,0 +1,280 @@
+---
+el:
+  renders:
+    and_x_more_prefix: Και
+    and_x_more_suffix: περισσότερα
+    days_left_year:
+      title: Υπόλοιπες ημέρες του έτους
+      days_passed: Πέρασαν οι μέρες
+      days_left: Υπόλοιπες ημέρες
+    lunar_calendar:
+      title: Σεληνιακό ημερολόγιο
+      age: Σεληνιακή εποχή
+      current_phase: Τρέχουσα φάση
+      illumination: Φωτισμός φεγγαριού
+      next_full_moon: Επόμενη Πανσέληνος
+      next_new_moon: Επόμενη Νέα Σελήνη
+      next_phase: Επόμενη φάση
+      next_phase_short: Επόμενο
+      moon_phases:
+        new_moon: Νέα Σελήνη
+        waxing_crescent: Αυξανόμενο φεγγάρι
+        first_quarter: Πρώτο τρίμηνο
+        waxing_gibbous: Φεγγάρι σε φάση αυξανόμενου φεγγαριού
+        full_moon: Πανσέληνος
+        waning_gibbous: Φθίνουσα πανσέληνος
+        third_quarter: Τρίτο τρίμηνο
+        waning_crescent: Φθίνουσα ημισέληνος
+    netatmo_weather_station:
+      title: Netatmo Καιρός
+      title_short: Netatmo
+      indoor_temp: Εσωτερική θερμοκρασία.
+      indoor_temp_short: Εσωτερικός χώρος
+      indoor_humidity: Εσωτερική υγρασία
+      indoor_humidity_short: Εσωτερική υγρασία.
+      outdoor_humidity: Υγρασία εξωτερικού χώρου
+      outdoor_humidity_short: Έξω. Χμ.
+      co2: CO₂
+      co2_ppm: CO₂ ppm
+      pressure: Πίεση
+      noise: Θόρυβος
+      min_max: Ελάχιστο/Μέγιστο
+      feels: Αίσθημα
+      rain: Βροχή
+      wind: Άνεμος
+      gust: Gust
+      default_station_name: Σταθμός Netatmo
+      default_outdoor_module: Εξωτερική θερμοκρασία.
+      default_indoor_module: Εσωτερικός χώρος
+      trends_title: "%{μετρική} Τάσεις"
+      trends_title_short: Τάσεις
+      temperature_trends: Τάσεις θερμοκρασίας
+      temperature_trends_short: Τάσεις θερμοκρασίας
+      outdoor_now: Υπαίθρια τώρα
+      indoor_now: Εσωτερικός χώρος τώρα
+      now: Τώρα
+      low_high_24h: 24ωρη χαμηλή / υψηλή
+      average_24h: 24ωρος μέσος όρος
+      outdoor: Υπαίθριος
+      indoor: Εσωτερικός χώρος
+      rain_gauge_not_connected: Ο βροχόμετρο δεν είναι συνδεδεμένος
+      wind_gauge_not_connected: Ο ανεμόμετρος δεν είναι συνδεδεμένος
+      no_rain_gauge: Χωρίς βροχόμετρο
+      no_wind_gauge: Χωρίς ανεμόμετρο
+      add_module_hint: Προσθέστε το προαιρετικό module %{module} για να δείτε αυτά τα δεδομένα.
+      range_24h: Εύρος 24 ωρών
+      errors:
+        missing_access_token: Λείπει το διακριτικό πρόσβασης. Συνδέστε ξανά τον λογαριασμό σας Netatmo.
+        no_station_selected: Δεν έχει επιλεγεί μετεωρολογικός σταθμός. Επιλέξτε έναν σταθμό στις ρυθμίσεις.
+        connection_failed: Δεν είναι δυνατή η σύνδεση με τον σταθμό Netatmo. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο.
+        data_retrieval_failed: Δεν είναι δυνατή η ανάκτηση των δεδομένων καιρού. Παρακαλώ δοκιμάστε ξανά αργότερα.
+        session_expired: Η συνεδρία έληξε. Συνδέστε ξανά τον λογαριασμό σας Netatmo στις ρυθμίσεις.
+    parcel:
+      delivery_by: Παράδοση από
+      empty: Δεν υπάρχουν παραδόσεις
+      errors:
+        api: Σφάλμα API δέματος
+        http: Σφάλμα HTTP %{code}
+        internal: Εσωτερικό σφάλμα
+      filter_modes:
+        active:
+          one: Ενεργή παράδοση
+          other: Ενεργές παραδόσεις
+        recent:
+          one: Πρόσφατες παραδόσεις
+          other: Πρόσφατες παραδόσεις
+      status:
+        delivered: Παραδόθηκε
+        delivery_exception: Εξαίρεση παράδοσης
+        expecting_pickup: Αναμονή παραλαβής
+        failed_delivery_attempt: Αποτυχημένη προσπάθεια παράδοσης
+        frozen: Παγωμένο
+        in_transit: Σε μεταφορά
+        information_received: Ληφθείσες πληροφορίες
+        not_found: Δεν βρέθηκε
+        out_for_delivery: Έξω για παράδοση
+        unknown: Άγνωστος
+      today: Σήμερα
+      tomorrow: Αύριο
+    weather:
+      title: Καιρός
+      temperature: Θερμοκρασία
+      feels_like: Αισθάνεται σαν
+      humidity: Υγρασία
+      low: Χαμηλή
+      high: Υψηλή
+      uv: UV
+      right_now: Αυτή τη στιγμή
+      today: Σήμερα
+      tomorrow: Αύριο
+      low_high_short: L/H
+      uv_short: UV
+      max: Μαξ
+      tempest:
+        conditions:
+          clear: Καθαρό
+          cloudy: Συννεφιασμένο
+          foggy: Ομιχλώδης
+          partly_cloudy: Μερικώς νεφελώδης
+          rain_likely: Πιθανότητα βροχής
+          rain_possible: Πιθανότητα βροχής
+          snow: Χιόνι
+          snow_possible: Πιθανότητα χιονιού
+          thunderstorms_likely: Πιθανές καταιγίδες
+          thunderstorms_possible: Πιθανότητα καταιγίδων
+          very_light_rain: Πολύ ελαφριά βροχή
+          windy: Ανεμώδης
+          wintry_mix_likely: Πιθανή χειμερινή κακοκαιρία
+          wintry_mix_possible: Πιθανότητα χειμερινών καιρικών συνθηκών
+      weatherapi:
+        uv:
+          low: Χαμηλή
+          moderate: Μέτρια
+          high: Υψηλή
+          very_high: Πολύ υψηλή
+          extreme: Ακραίο
+        conditions:
+        - code: 1000
+          day: Sunny
+          night: Clear
+        - code: 1003
+          day: Partly Cloudy
+          night: Partly Cloudy
+        - code: 1006
+          day: Cloudy
+          night: Cloudy
+        - code: 1009
+          day: Overcast
+          night: Overcast
+        - code: 1030
+          day: Mist
+          night: Mist
+        - code: 1063
+          day: Light Rain
+          night: Light Rain
+        - code: 1066
+          day: Light Snow
+          night: Light Snow
+        - code: 1069
+          day: Sleet
+          night: Sleet
+        - code: 1072
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1087
+          day: Thunder
+          night: Thunder
+        - code: 1114
+          day: Blowing Snow
+          night: Blowing Snow
+        - code: 1117
+          day: Blizzard
+          night: Blizzard
+        - code: 1135
+          day: Fog
+          night: Fog
+        - code: 1147
+          day: Freezing Fog
+          night: Freezing Fog
+        - code: 1150
+          day: Light Drizzle
+          night: Light Drizzle
+        - code: 1153
+          day: Drizzle
+          night: Drizzle
+        - code: 1168
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1171
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1180
+          day: Light Rain
+          night: Light Rain
+        - code: 1183
+          day: Light Rain
+          night: Light Rain
+        - code: 1186
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1189
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1192
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1195
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1198
+          day: Light Freeze
+          night: Light Freeze
+        - code: 1201
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1204
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1207
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1210
+          day: Light Snow
+          night: Light Snow
+        - code: 1213
+          day: Light Snow
+          night: Light Snow
+        - code: 1216
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1219
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1222
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1225
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1237
+          day: Ice Pellets
+          night: Ice Pellets
+        - code: 1240
+          day: Light Rain
+          night: Light Rain
+        - code: 1243
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1246
+          day: Torrential Rain
+          night: Torrential Rain
+        - code: 1249
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1252
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1255
+          day: Light Snow
+          night: Light Snow
+        - code: 1258
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1261
+          day: Light Ice
+          night: Light Ice
+        - code: 1264
+          day: Heavy Ice
+          night: Heavy Ice
+        - code: 1273
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1276
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1279
+          day: Thunder & Snow
+          night: Thunder & Snow
+        - code: 1282
+          day: Thunder & Snow
+          night: Thunder & Snow

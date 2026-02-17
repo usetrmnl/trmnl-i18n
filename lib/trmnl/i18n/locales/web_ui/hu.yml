@@ -1,23 +1,23 @@
 ---
 hu:
   locale_name: Magyar
-  about: About
+  about: Rólunk
   add: Hozzáadás
   add_new: Új hozzáadása
   ago: ezelőtt
   already_have_account: Már van fiókom
-  are_you_sure: Are you sure?
+  are_you_sure: Biztos vagy benne?
   back: Vissza
   back_to_all_blog_posts: Vissza az összes bejegyzéshez
   blog: Blog
-  brand: Brand
+  brand: Márka
   buy_now: Megveszem
   cancel: Mégsem
   change_password: Jelszó módosítása
   charge_level: Töltöttségi szint
   charged: Feltöltve
   charging: Töltés alatt
-  claim_plus_trial: Claim 6 Months Free
+  claim_plus_trial: 6 hónap ingyenes igénybevétel
   close: Bezárás
   confirm_change_password: Jelszó megváltoztatása
   confirm_password: Új jelszó megerősítése
@@ -29,7 +29,7 @@ hu:
   current_device: Jelenlegi eszköz
   days: nap
   delete: Törlés
-  developers: Developers
+  developers: Fejlesztők
   developer_edition_required: A funkció használatához fejlesztői kiadás szükséges.
   device_id: Eszközazonosító
   device: Eszköz
@@ -40,9 +40,9 @@ hu:
   first_name: Keresztnév
   forgot_password: Elfelejtettem a jelszavam
   forgot_password_title: Semmi gond, megoldjuk!
-  friendly_id: Friendly ID
+  friendly_id: Barátságos azonosító
   get_started: Kezdjük el!
-  hidden: hidden
+  hidden: rejtett
   identify: Azonosítás
   import: Importálás
   import_new: Új importálása
@@ -62,29 +62,29 @@ hu:
   password: Jelszó
   please_wait: Kérlek, várj...
   plugin_not_found: A bővítmény nem található
-  preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
+  preview: Előnézet
+  privacy: Adatvédelem
+  refresh_rate: Frissítési gyakoriság
   refresh_rates_hint: Itt megtudhatod, hogyan működnek a frissítési gyakoriságok __itt__.
   reset_password: Jelszó visszaállítása
-  reset_to_defaults: Reset to defaults
-  required: Required
+  reset_to_defaults: Alapértelmezett értékek visszaállítása
+  required: Szükséges
   save: Mentés
-  shown: shown
+  shown: megmutatott
   section: Szakasz
   settings: Beállítások
   sign_in: Bejelentkezés
   sign_up: Regisztráció
   something_went_wrong: Valami hiba történt
-  status: Status
+  status: Állapot
   subscribe: Feliratkozás
   help_center: Technikai támogatás
-  terms: Terms
+  terms: Feltételek
   update: Frissítés
   view: Megtekintés
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: Szeretnél együttműködni?
+  collaboration_request_hint: Partnerségek, csoportos értékesítés, speciális projektek, Ön dönt.
+  collaboration_request_cta: Beszéljünk
   welcome: Üdvözlünk
   time:
     formats:
@@ -122,7 +122,7 @@ hu:
       disable_2fa: Kétlépcsős azonosítás kikapcsolása
       disable_2fa_hint: Add meg az érvényes OTP-t és a jelenlegi jelszavad a funkció letiltásához.
       plus_subscription: TRMNL+ előfizetés
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
+      plus_subscription_trial_until: Ingyenes próbaidőszakod %{plus_trial_end_at} -ig tart.
       plus_subscription_hint: Oldd fel a gyorsabb frissítési rátákat és a magasabb korlátokat. __Tudj meg többet__.
       plus_subscription_modify: Frissítenéd a fizetési módot vagy lemondanád?
       session: Munkamenet
@@ -133,10 +133,13 @@ hu:
       time_zone_hint: Meghatározza a frissítési rátákat és az eszköz alvási idejét.
       locale: Nyelv és lokalizáció
       locale_hint: Milyen nyelvet és formátumot részesítesz előnyben? __Kattints ide__.
+      theme: Megjelenés
+      theme_hint: Válassza ki, hogyan szeretné, hogy a TRMNL megjelenjen Önnek. Válasszon egy témát, vagy szinkronizálja a rendszer beállításaival.
     update:
       success: A profil sikeresen frissült
     reset_api_key:
       success: Az API-kulcs sikeresen újragenerálva
+    success: Siker
   dashboard:
     index:
       title: Irányítópult
@@ -176,11 +179,11 @@ hu:
       accepts_beta_firmware: Korai firmware kiadás
       accepts_beta_firmware_hint: Kapcsold be, hogy a legújabb firmware-fejlesztéseket a többiek előtt megkapd.
       back_to_devices: Vissza az eszközökhöz
-      battery_and_sleep: Battery & Sleep
+      battery_and_sleep: Akkumulátor és alvó üzemmód
       battery_consumption: Akkumulátorhasználat
       battery_consumption_hint: Spórolj energiát és élvezd a hosszabb üzemidőt az alvó mód bekapcsolásával.
       battery_learn_more: Tudj meg többet az akkumulátortöltésről __itt__.
-      battery_refresh: Refresh
+      battery_refresh: Frissítés
       developer_perks: Fejlesztői extrák
       developer_perks_hint: Az alábbi opciók használatához a __Fejlesztői bővítmény__ szükséges.
       device_credentials: Eszköz hitelesítő adatok
@@ -190,21 +193,21 @@ hu:
       device_model: Eszközmodell
       device_model_hint: A hardvered típusa
       device_model_switch_warning: Ez veszélyes művelet, tudj meg róla többet __itt__.
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_info: Eszközinformációk
+      current_firmware: Jelenlegi firmware
+      last_ping: Utolsó ping
+      unknown: Ismeretlen
+      never: Soha
+      display_calibration: Kijelző kalibrálás
+      display_calibration_hint: Finomítsa a megjelenítést a kijelzőjéhez. Hagyja üresen, ha a modell alapértelmezett beállításait szeretné használni.
+      display_calibration_pixel_ratio: Pixelarány
+      display_calibration_pixel_ratio_hint: 'Kép nagyítási szint (0,5–3,0). Alapértelmezett:'
+      display_calibration_ui_scale: UI skála
+      display_calibration_ui_scale_hint: 'Szöveg és elem méretek (0,5–2,0). Alapértelmezett:'
       edit_device: Eszköz szerkesztése
       firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
+      firmware_updates_enabled: Frissítések engedélyezve
+      firmware_updates_disabled: Frissítések letiltva
       guest_mode: Vendég mód
       guest_mode_hint: Válaszd ki, mit (és mennyi ideig) jelenítsen meg az eszköz, amikor a vendég mód be van kapcsolva.
       guest_mode_item_placeholder: Válassz egy elemet
@@ -219,8 +222,8 @@ hu:
       mirror: Tükrözés
       mirror_device: Másik eszköz tükrözése
       mirror_device_hint: Adj meg egy megosztható eszközazonosítót, hogy tükrözd annak lejátszási listáját. A saját listád továbbra is megjelenik.
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
+      mirror_disabled: Tükrözés letiltva
+      mirror_enabled: Tükrözés
       mirror_stop: Tükrözés leállítása
       mirror_sync: Képernyők szinkronizálása
       ota_enabled: OTA frissítések engedélyezve
@@ -228,8 +231,8 @@ hu:
       ota_byod_not_supported: Az OTA nem támogatott a saját eszközök (BYOD) esetén. Tölts le egy kompatibilis verziót közvetlenül a usetrmnl.com/flash oldalról.
       maximum_compatibility: Maximális kompatibilitás engedélyezése
       maximum_compatibility_hint: Kijavítja az egyes e-ink kijelzőchipek által okozott megjelenítési hibákat. Kikapcsolja a gyors frissítést. Firmware 1.6.0+ szükséges.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette: Színpaletta
+      palette_hint: Válassza ki a készülék képernyőinek generálásához használandó színkészletet. A nagyobb paletta szebbnek tűnik, de a kisebb paletta gyorsabban rajzolódik az e-ink képernyőn. Az egyes lejátszási lista elemek felülírhatják ezt a beállítást.
       sleep_mode: Alvó mód
       sleep_mode_hint: Állítsd be a frissítési rátát a fókusz és az akkumulátor-élettartam optimalizálásához.
       sleep_screen: Alvóképernyő
@@ -240,11 +243,11 @@ hu:
       special_function_learn_more: Tudj meg többet a különleges funkciókról __itt__.
       temperature_profile: Hőmérsékleti profil
       temperature_profile_hint: Ne módosítsd, hacsak nem utasítottak rá. Kifehéredett kijelzők esetén hasznos.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
+      tidbyt_credentials: Tidbyt hitelesítő adatok
+      tidbyt_credentials_hint: Írja be Tidbyt eszközének API hitelesítő adatait a Tidbyt alkalmazás Beállítások → Fejlesztő → API kulcs megszerzése menüpontjában.
+      tidbyt_credentials_invalid: A Tidbyt API hitelesítő adatok érvénytelenek. Kérjük, ellenőrizze újra, és próbálja meg újra.
+      tidbyt_device_id: Eszközazonosító
+      tidbyt_device_api_key: API kulcs
       unlink: Leválasztás
       unlink_confirm: Biztos vagy benne? Ez törli az összes kapcsolódó bővítménybeállítást és lejátszási listát, hogy az eszközt másik fiókhoz lehessen adni.
       unlink_device: Eszköz leválasztása
@@ -259,6 +262,7 @@ hu:
         warning_1: Megértem, hogy ez a frissítés <strong>visszavonhatatlan</strong> és nem vonható vissza.
         warning_2: Megértem, hogy ez egy <strong>veszélyes</strong> művelet, amely tönkreteheti az eszközt.
         cta: Frissítés TRMNL OG (2-bit) verzióra
+      tidbyt_api_key: Tidbyt API kulcs
     index:
       title: Eszközök
       tagline: A te TRMNL eszközeid
@@ -275,8 +279,8 @@ hu:
       error: Hiba az eszköz leválasztása közben
       success: Az eszköz sikeresen leválasztva
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: Érvénytelen eszköz hitelesítő adatok
+      success: Az eszköz hitelesítő adatai sikeresen frissültek
     identify:
       error: Hiba az eszköz frissítésekor
       success: Eszközazonosítási kérés elküldve
@@ -292,6 +296,11 @@ hu:
     update:
       error: Hiba az eszköz frissítésekor
       success: "%{device} eszközbeállításai sikeresen frissítve"
+    error: Hiba
+    error_not_shared: Hiba nem osztva
+    error_oneself: Hiba magunkban
+    success: Siker
+    success_removed: Siker eltávolítva
   invoices:
     rate_limit: Túl sok próbálkozás, kérlek várj, majd próbáld újra
     invoice_not_found: A számla nem található
@@ -299,7 +308,7 @@ hu:
     index:
       title: Naplók
       all: Összes
-      bulk_destroy: Bulk Destroy
+      bulk_destroy: Tömeges megsemmisítés
       dump: Adatkiíratás
       id: Azonosító
       private_plugins: Saját bővítmények
@@ -330,6 +339,7 @@ hu:
       revert_confirm: Biztosan vissza szeretnéd állítani? Minden nem mentett változtatás elvész.
       save_changes: Módosítások mentése (⌘﹢S)
       separate_preview: Az előnézet külön ablakban van megnyitva
+      edit_composition: Szerkesztés összetétel
     merge_variables:
       your_variables: Saját változóid
     no_merge_variables:
@@ -354,6 +364,8 @@ hu:
       reset_instructions: Nyomd meg a TRMNL hátulján lévő gombot a visszaállítási kód generálásához
       success: Kétlépcsős azonosítás sikeres
       error: Érvénytelen egyszeri kód
+    enable_otp_path:
+      already_enabled: Már engedélyezve
   playlist_items:
     index:
       title: Lejátszási lista
@@ -384,11 +396,11 @@ hu:
       hide_playlist: Elem elrejtése
       show_playlist: Elem megjelenítése
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: A plugin frissítési gyakorisága nem konfigurálható.
+        external: Ez a bővítmény az adatokat valós időben tölti be, ezért a frissítési gyakoriság beállításai nem érvényesek.
+        global: Ez a bővítmény rendszeres időközönként frissül a platform egészén.
+        mashup: A mashup a leggyorsabb pluginja gyakoriságával frissül.
+        readonly: Ez a bővítmény fix frissítési gyakorisággal rendelkezik, amely nem konfigurálható.
     create:
       error: Hiba történt a lejátszási lista frissítésekor
       success: Lejátszási lista frissítve
@@ -404,7 +416,12 @@ hu:
     set_preferences:
       success: Az intelligens lejátszási lista beállítása frissítve
     update:
-      success: Playlist order updated
+      success: A lejátszási lista sorrendje frissítve
+    error: Hiba
+    playlist:
+      displayed_now: Most megjelenítve
+      not_displayed_yet: Még nem jelenik meg
+    success: Siker
   plugins:
     index:
       title: Bővítmények
@@ -413,6 +430,7 @@ hu:
       connected: Csatlakoztatva
       recipes: Receptek
       recipes_hint: Közösségi tagok által készített privát bővítmények, amelyek egy kattintással telepíthetők. __Tudj meg többet__.
+      supported_by_this_device: Ezen eszköz által támogatott
     search:
       placeholder: Bővítmények keresése
     my:
@@ -452,14 +470,20 @@ hu:
       tagline: Frissítsd a bővítmény részleteit.
       name: Név
       description: Leírás
+    mondrian:
+      common:
+        view: Megtekintés
+    recipes:
+      recipe_lander:
+        preview: Előnézet
   plugin_recipes:
     connected: Recept csatlakoztatva
     connections:
       one: Kapcsolat
       other: Kapcsolatok
     forks:
-      one: Fork
-      other: Forks
+      one: Villás
+      other: Villák
     new:
       error: A recept nem található
   plugin_settings:
@@ -469,13 +493,13 @@ hu:
     delete: Ez teljesen eltávolítja a bővítmény beállításait. Ha csak elrejteni szeretnéd a bővítményt az eszközödről, töröld azt a lejátszási listádról.
     inactive: Inaktív
     no_plugin_settings_found: Nem találhatók bővítménybeállítások.
-    not_supported: Not supported on current device
+    not_supported: A jelenlegi eszközön nem támogatott
     refreshing_now_please_wait: Frissítés folyamatban, kérlek frissítsd az oldalt néhány másodperc múlva.
     reset_credentials: "%{plugin_name} fiók sikeresen visszaállítva"
     form:
       active_hint: Megjeleníti vagy elrejti ezt a bővítmény példányt az eszközödön
       advanced_settings: Speciális beállítások
-      back_to_playlist: Back to Playlist
+      back_to_playlist: Vissza a lejátszási listához
       back_to_plugin: 'Vissza ide: %{plugin}'
       back_to_plugins: Vissza a bővítményekhez
       connect_with: 'Kapcsolódás a következőhöz: %{plugin}'
@@ -490,22 +514,22 @@ hu:
       force_refresh_hint: Ez a funkció csak tesztelési célokra készült — kérlek, ne használd túl gyakran.
       force_refresh_click_here: Kattints ide
       force_refresh_click_here_hint: hogy azonnal új képernyőt generálj
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      force_refresh_not_possible: Ez a bővítmény nem frissíthető erőszakosan, mert a TRMNL szerver nem végez képfeldolgozást. Itt megtudhatja, hogyan tesztelheti az Ön példányát.
       learn_more: Tudj meg többet erről a bővítményről a tudásbázisunkban
       learn_more_fork: Ez a bővítmény egy receptből lett létrehozva.
       learn_more_fork_original: Eredeti megtekintése
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
+      learn_more_native_long: Ez a bővítmény natív és a TRMNL által karbantartott.
+      learn_more_native_short: Ezt a bővítményt a TRMNL tartja karban.
       learn_more_recipe_author: Segítségre van szükséged? Lépj kapcsolatba %{recipe_author}-ral Discordon.
       learn_more_recipe_long: Ez a bővítmény egy közösségi recept, amelyet nem a TRMNL tart karban.
       learn_more_recipe_short: 'Megjegyzés: ez a bővítmény egy recept.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
+      learn_more_third_party_long: Ez a bővítmény egy harmadik fél által készült, és nem a TRMNL tartja karban.
+      learn_more_third_party_short: 'Megjegyzés: ez a bővítmény egy harmadik féltől származik.'
       linked_account: Összekapcsolt fiók
       linked_account_success: 'Sikeres összekapcsolás a következővel: %{plugin_name}'
       link_oauth: Fiók összekapcsolása
       link_oauth_hint: Mielőtt folytatod, kövesd a %{plugin} által biztosított biztonságos hitelesítési folyamatot.
-      mirrored: Mirrored
+      mirrored: Tükrözött
       multiple_instances_hint: Ez a bővítmény több példányt is támogat.
       name: Név
       name_hint: Adj neki egy nevet a könnyebb azonosításhoz
@@ -523,7 +547,7 @@ hu:
       recipe_cta_body_in_review: Ez a bővítmény be lett nyújtva a csapatunkhoz. Kérlek, várj türelemmel.
       recipe_cta_body_not_published: Küldd be a bővítményt, hogy mások is telepíthessék. __Tudj meg többet__.
       recipe_cta_confirm: Biztos vagy benne? A csapatunk pár napon belül visszajelez. Közben folytathatod a módosításokat.
-      recipe_mirrored: This screen is mirrored from the recipe.
+      recipe_mirrored: Ez a képernyő a receptből tükröződik.
       recipe_visibility_title: Hogyan szeretnéd közzétenni?
       recipe_visibility_edit_title: Beküldés szerkesztése
       recipe_visibility_public: Nyilvános
@@ -534,7 +558,7 @@ hu:
       recipe_visibility_unlisted_hint: Bárki, aki ismeri a linket, telepítheti.
       refresh_rate: Frissítési gyakoriság
       refresh_rate_hint: Add meg, milyen gyakran frissítse ez a bővítmény az adatokat
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
+      refresh_rate_not_configurable: Szinkronizálás %{refresh_rate} (nem konfigurálható)
       refreshed: Frissítve
       remove_plugin: Bővítmény eltávolítása
       remove_plugin_hint: A bővítmény eltávolítása a lejátszási listáról is törli azt
@@ -545,7 +569,7 @@ hu:
       refresh_paused_mashup: Összevonások frissítése
       refresh_paused_mashup_hint: Az automatikus frissítés teljes képernyős módban szünetel. Az összevonások frissülnek.
       refresh_stopped: Az automatikus frissítés leállt. Kérlek, javítsd a bővítmény hibáját a folytatáshoz.
-      view_recipe: View Recipe
+      view_recipe: Recept megtekintése
       visit_docs: Dokumentáció megtekintése
     import:
       archive_too_large: A ZIP fájl túl nagy (%{max_mb} MB a maximális méret)
@@ -562,9 +586,17 @@ hu:
       success: A bővítmény konfigurációja sikeresen frissült
     add_to_playlist:
       success: Bővítmény hozzáadva a lejátszási listához
+    back_button:
+      back_to_plugin: Vissza a bővítményhez
+      back_to_plugins: Vissza a bővítményekhez
+    index:
+      no_plugin_settings_found: Nincs plugin beállítás található
+    playlist: Lejátszási lista
+    success: Siker
   referral_code:
     create:
       request_received: Kérés fogadva, ellenőrizd az e-mail fiókodat
+    request_received: Kérés fogadva
   recipes:
     index:
       newest_to_oldest: Legújabbtól a legrégebbiig
@@ -580,6 +612,8 @@ hu:
       some_schedule: Csak ebben az időszakban jelenjen meg…
       to: "-ig"
       copy_prompt: Ütemezés másolása innen…
+      cancel: Mégse
+      save: Mentés
   upgrade:
     index:
       title: 'Eszköz frissítése:'
@@ -588,3 +622,68 @@ hu:
       error: A(z) %{device_name} eszköz már frissítve van, válassz másikat
     confirm:
       success: A fejlesztői bővítmény mostantól engedélyezve van
+  action: Akció
+  actions: Műveletek
+  active_admin:
+    blank_slate:
+      content: Tartalom
+      link: Link
+    comments:
+      add: Hozzáadás
+      author_missing: Szerző hiányzik
+      delete: Törlés
+      delete_confirmation: Törlés megerősítése
+      no_comments_yet: Még nincs hozzászólás
+    devise: Kitalálni
+    logout: Kijelentkezés
+    pagination:
+      empty: Üres
+      next: Következő
+      previous: Előző
+    powered_by: Powered by
+  date:
+    abbr_day_names: Rövidített napnevek
+    day_names: Napok nevei
+  default: Alapértelmezett
+  default_webhook_rate_limit: Alapértelmezett webhook sebességkorlátozás
+  developer_edition_addon_amount: Fejlesztői kiadás kiegészítő összeg
+  duration: Időtartam
+  errors:
+    messages:
+      not_saved: Nem mentve
+  fetch: Fetch
+  framework:
+    responsive_test:
+      example-size-btn: Példa-méret-btn
+      test-config-btn: Teszt-konfiguráció-gomb
+  id: Id
+  ignore_log_messages: Naplóüzenetek figyelmen kívül hagyása
+  ignore_logs: Naplók figyelmen kívül hagyása
+  maintenance_mode: Karbantartási mód
+  mashup_id: Mashup azonosító
+  mashups:
+    mashup:
+      add_to_playlist: Hozzáadás a lejátszási listához
+  month: Hónap
+  name: Név
+  order_number: Rendelési szám
+  plus_webhook_rate_limit: Plus webhook sebességkorlátozás
+  primary: Elsődleges
+  public: Nyilvános
+  query: Kérdés
+  rolling_month: Gördülő hónap
+  rolling_week: Gördülő hét
+  schedule: Ütemezés
+  shop_promotion: Üzlet promóció
+  site_banner: Webhely szalagcím
+  site_banner_link: Webhely banner link
+  sleep_mode_enabled: Alvó mód engedélyezve
+  title: Cím
+  today_only: Csak ma
+  value: Érték
+  views:
+    pagination:
+      truncate: Csonkítás
+  visible: Látható
+  week: Hét
+  work_week: Munkaidő

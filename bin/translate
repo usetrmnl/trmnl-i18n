@@ -1,0 +1,464 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+# Auto-translates missing translations using DeepL API.
+#
+# Usage:
+#   bin/translate                      # translate all gaps for all locales
+#   bin/translate fr                   # translate gaps for French only
+#   bin/translate --dry-run            # show what would be translated without calling DeepL
+#   bin/translate --batch-size 25      # control batch size (default: 50)
+#   bin/translate --sync               # sync all locale structures to match English
+#   bin/translate --sync fr            # sync French only
+#   bin/translate --gaps               # report translation gaps (no API key needed)
+#   bin/translate --gaps --summary     # only show summary counts
+#   bin/translate --gaps --json        # output gaps as JSON
+#   bin/translate --gaps fr            # report gaps for French only
+#
+# Requires: DEEPL_AUTH_KEY environment variable (except --gaps mode)
+
+require "bundler/inline"
+
+gemfile(true, quiet: true) do
+  source "https://rubygems.org"
+  gem "deepl-rb", "~> 3.6", require: "deepl"
+end
+
+require "yaml"
+require "json"
+require "pathname"
+require "optparse"
+
+LOCALES_ROOT = Pathname(__dir__).join("../lib/trmnl/i18n/locales").expand_path
+CATEGORIES = %w[web_ui plugin_renders custom_plugins].freeze
+SKIP_LOCALES = %w[en raw].freeze
+
+# NOTE: DeepL uses different locale codes than Rails in some cases.
+RAILS_TO_DEEPL = {
+  "da"    => "DA",
+  "de"    => "DE",
+  "de-AT" => "DE",
+  "en-GB" => "EN-GB",
+  "es-ES" => "ES",
+  "fr"    => "FR",
+  "he"    => "HE",
+  "hu"    => "HU",
+  "id"    => "ID",
+  "is"    => "IS",
+  "it"    => "IT",
+  "ja"    => "JA",
+  "ko"    => "KO",
+  "nl"    => "NL",
+  "no"    => "NB",
+  "pl"    => "PL",
+  "pt-BR" => "PT-BR",
+  "ru"    => "RU",
+  "sk"    => "SK",
+  "sv"    => "SV",
+  "uk"    => "UK",
+  "zh-CN" => "ZH-HANS",
+  "zh-HK" => "ZH-HANT",
+  "ar"    => "AR",
+  "cs"    => "CS",
+  "el"    => "EL",
+  "fi"    => "FI",
+  "hi"    => "HI",
+  "pt-PT" => "PT-PT",
+  "ro"    => "RO",
+  "th"    => "TH",
+  "tr"    => "TR",
+  "vi"    => "VI"
+}.freeze
+
+options = { batch_size: 50 }
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: bin/translate [locale] [options]"
+  opts.on("--dry-run", "Show what would be translated without calling DeepL") { options[:dry_run] = true }
+  opts.on("--batch-size N", Integer, "Strings per DeepL API call (default: 50)") { |n| options[:batch_size] = n }
+  opts.on("--gaps", "Report translation gaps without translating") { options[:gaps] = true }
+  opts.on("--summary", "With --gaps: only show summary counts") { options[:summary] = true }
+  opts.on("--json", "With --gaps: output as JSON") { options[:json] = true }
+  opts.on("--sync", "Sync locale structures to match English (add new, remove stale, keep translations)") { options[:sync] = true }
+end.parse!
+
+target_locale = ARGV.first
+
+unless ENV["DEEPL_AUTH_KEY"] || options[:dry_run] || options[:gaps] || options[:sync]
+  warn "ERROR: DEEPL_AUTH_KEY environment variable is required."
+  warn "Set it with: export DEEPL_AUTH_KEY=your-key-here"
+  warn "Get a key at: https://www.deepl.com/pro-api"
+  exit 1
+end
+
+# Flattens a nested hash into dot-separated key => value pairs.
+def flatten_hash(hash, prefix = "")
+  hash.each_with_object({}) do |(key, value), result|
+    full_key = prefix.empty? ? key.to_s : "#{prefix}.#{key}"
+
+    case value
+    when Hash
+      result.merge!(flatten_hash(value, full_key))
+    else
+      result[full_key] = value
+    end
+  end
+end
+
+# Sets a value in a nested hash using a dot-separated key path.
+def set_nested_value(hash, key_path, value)
+  parts = key_path.split(".")
+  current = hash
+
+  parts[0..-2].each do |part|
+    current[part] ||= {}
+    current = current[part]
+  end
+
+  current[parts.last] = value
+end
+
+# Merges English keys into a locale hash.
+# - New English keys: added with English value (untranslated)
+# - Existing translations: preserved
+# - Extra locale keys: kept (not pruned)
+def sync_structure(english, locale)
+  locale = {} unless locale.is_a?(Hash)
+
+  english.each_with_object(locale.dup) do |(key, en_value), result|
+    locale_value = result[key]
+
+    result[key] = if en_value.is_a?(Hash)
+      sync_structure(en_value, locale_value)
+    else
+      locale_value || en_value
+    end
+  end
+end
+
+# XML-escapes text and wraps Rails %{var} and ICU {$var :type} tokens
+# in XML tags so DeepL's ignore_tags preserves them during translation.
+# Must escape &, <, > first since tag_handling: "xml" parses the entire input.
+def protect_tokens(text)
+  escaped = text.gsub("&", "&amp;").gsub("<", "&lt;").gsub(">", "&gt;")
+  escaped.gsub(/%\{[^}]+\}|\{\$[^}]+?\}/) { |match| "<x>#{match}</x>" }
+end
+
+# Strips XML wrappers added by protect_tokens, then reverses XML escaping.
+def restore_tokens(text)
+  result = text.gsub(/<x>(.*?)<\/x>/, '\1')
+  result.gsub("&amp;", "&").gsub("&lt;", "<").gsub("&gt;", ">")
+end
+
+# Translates an ICU MF2 string by extracting variant messages,
+# translating each fragment, and reconstructing the structure.
+# Example: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}}"
+def translate_mf2(text, deepl_target, dry_run: false)
+  match = text.match(/\A(\.input\s+\{[^}]+\}\s+\.match\s+\S+)\s+(.*)\z/)
+  return text unless match
+
+  preamble = match[1]
+  variants = match[2].scan(/(\S+)\s+\{\{(.*?)\}\}/)
+  return text if variants.empty?
+
+  messages = variants.map { |_, msg| msg }
+
+  if dry_run
+    translated = messages.map { |m| "[DRY-RUN] #{m}" }
+  else
+    translated = translate_batch(messages, deepl_target)
+  end
+
+  result = preamble
+  variants.each_with_index { |(key, _), i| result << " #{key} {{#{translated[i]}}}" }
+  result
+end
+
+# Finds gaps for a specific locale and category.
+def find_gaps(english_flat, locale_file, locale_code)
+  return {} unless File.exist?(locale_file)
+
+  locale_data = YAML.load_file(locale_file)
+  return {} unless locale_data&.dig(locale_code)
+
+  locale_flat = flatten_hash(locale_data[locale_code])
+
+  gaps = {}
+  english_flat.each do |key, en_value|
+    locale_value = locale_flat[key]
+    next unless en_value.is_a?(String)
+    # Skip strftime format strings (e.g., "%B %Y", "%-I:%M %p")
+    next if en_value.match?(/\A%-?[A-Z]/)
+
+    if locale_value.nil? || locale_value == en_value
+      gaps[key] = en_value
+    end
+  end
+
+  gaps
+end
+
+# DeepL only supports formality for these target languages.
+FORMALITY_SUPPORTED = %w[DE ES FR IT NL PL PT-BR PT-PT JA RU].freeze
+
+# Translates a batch of strings via DeepL.
+# Protects interpolation tokens (%{var}, {$var}) with XML tags
+# so DeepL translates surrounding text but leaves tokens intact.
+def translate_batch(texts, deepl_target)
+  return texts.map { |t| "[DRY-RUN] #{t}" } if deepl_target.nil?
+
+  protected_texts = texts.map { |t| protect_tokens(t) }
+
+  opts = { tag_handling: "xml", ignore_tags: "x", non_splitting_tags: "x" }
+  opts[:formality] = "less" if FORMALITY_SUPPORTED.include?(deepl_target)
+
+  results = DeepL.translate(protected_texts, "EN", deepl_target, opts)
+
+  # DeepL returns a single Text object for single input, array for multiple
+  results = [results] unless results.is_a?(Array)
+  results.map { |r| restore_tokens(r.text) }
+end
+
+# --- Sync mode: align locale structures with English ---
+
+if options[:sync]
+  puts "TRMNL i18n Structure Sync"
+  puts "=" * 60
+
+  CATEGORIES.each do |category|
+    category_dir = LOCALES_ROOT.join(category)
+    next unless category_dir.directory?
+
+    english_file = category_dir.join("en.yml")
+    next unless english_file.exist?
+
+    english_data = YAML.load_file(english_file)
+    english_content = english_data["en"]
+
+    locale_files = category_dir.glob("*.yml").reject { |f| SKIP_LOCALES.include?(f.basename(".yml").to_s) }
+
+    locale_files.each do |locale_file|
+      locale_code = locale_file.basename(".yml").to_s
+      next if target_locale && locale_code != target_locale
+
+      locale_data = YAML.load_file(locale_file)
+      locale_content = locale_data[locale_code] || {}
+
+      # Count before sync
+      old_flat = flatten_hash(locale_content)
+      en_flat = flatten_hash(english_content)
+
+      synced = sync_structure(english_content, locale_content)
+      new_flat = flatten_hash(synced)
+
+      added = (new_flat.keys - old_flat.keys).size
+      next if added.zero?
+
+      locale_file.open("w") do |file|
+        Psych.dump({ locale_code => synced }, file, indentation: 2, line_width: -1)
+      end
+
+      puts "  #{locale_code}/#{category}: +#{added} new keys added"
+    end
+  end
+
+  puts "\n#{"=" * 60}"
+  puts "Done! Locale files now match English structure."
+  puts "Run `bin/translate` to translate the new English fallback values."
+  exit 0
+end
+
+# --- Gap reporting mode ---
+
+if options[:gaps]
+  all_gaps = {}
+  total_keys = 0
+
+  CATEGORIES.each do |category|
+    category_dir = LOCALES_ROOT.join(category)
+    next unless category_dir.directory?
+
+    english_file = category_dir.join("en.yml")
+    next unless english_file.exist?
+
+    english_data = YAML.load_file(english_file)
+    english_flat = flatten_hash(english_data["en"])
+    total_keys += english_flat.count { |_, v| v.is_a?(String) }
+
+    locale_files = category_dir.glob("*.yml").reject { |f| SKIP_LOCALES.include?(f.basename(".yml").to_s) }
+
+    locale_files.each do |locale_file|
+      locale_code = locale_file.basename(".yml").to_s
+      next if target_locale && locale_code != target_locale
+
+      gaps = find_gaps(english_flat, locale_file.to_s, locale_code)
+      next if gaps.empty?
+
+      all_gaps[locale_code] ||= {}
+      all_gaps[locale_code][category] = gaps
+    end
+  end
+
+  if options[:json]
+    puts JSON.pretty_generate(all_gaps)
+    exit 0
+  end
+
+  if all_gaps.empty?
+    puts "No translation gaps found! All locales are fully translated."
+    exit 0
+  end
+
+  puts "TRMNL i18n Gap Report"
+  puts "=" * 60
+
+  all_gaps.sort_by { |locale, _| locale }.each do |locale, categories|
+    locale_total = categories.values.sum(&:size)
+    puts "\n#{locale} (#{locale_total} gaps)"
+    puts "-" * 40
+
+    categories.each do |category, gaps|
+      puts "  #{category}: #{gaps.size} untranslated keys"
+
+      unless options[:summary]
+        gaps.each do |key, en_value|
+          display = en_value.to_s.length > 50 ? "#{en_value.to_s[0..47]}..." : en_value
+          puts "    #{key}: #{display}"
+        end
+      end
+    end
+  end
+
+  total_gaps = all_gaps.values.flat_map(&:values).sum(&:size)
+  puts "\n#{"=" * 60}"
+  puts "Summary: #{total_gaps} gaps across #{all_gaps.size} locales"
+  puts "#{total_keys} translatable English keys across #{CATEGORIES.size} categories"
+
+  all_gaps.sort_by { |locale, _| locale }.each do |locale, categories|
+    locale_gaps = categories.values.sum(&:size)
+    completion = ((1 - locale_gaps.to_f / total_keys) * 100).round(1)
+    puts "  #{locale}: #{completion}% complete (#{locale_gaps} gaps)"
+  end
+
+  exit 0
+end
+
+# --- Main execution ---
+
+puts "TRMNL i18n Translator"
+puts "=" * 60
+
+unless options[:dry_run]
+  DeepL.configure do |config|
+    config.auth_key = ENV["DEEPL_AUTH_KEY"]
+  end
+
+  usage = DeepL.usage
+  puts "DeepL Usage: #{usage.character_count}/#{usage.character_limit} characters used"
+  puts ""
+end
+
+total_translated = 0
+total_skipped = 0
+
+CATEGORIES.each do |category|
+  category_dir = LOCALES_ROOT.join(category)
+  next unless category_dir.directory?
+
+  english_file = category_dir.join("en.yml")
+  next unless english_file.exist?
+
+  english_data = YAML.load_file(english_file)
+  english_flat = flatten_hash(english_data["en"])
+
+  locale_files = category_dir.glob("*.yml").reject { |f| SKIP_LOCALES.include?(f.basename(".yml").to_s) }
+
+  locale_files.each do |locale_file|
+    locale_code = locale_file.basename(".yml").to_s
+    next if target_locale && locale_code != target_locale
+
+    deepl_target = RAILS_TO_DEEPL[locale_code]
+    if deepl_target.nil?
+      puts "  SKIP #{locale_code}/#{category} (no DeepL mapping)"
+      total_skipped += 1
+      next
+    end
+
+    gaps = find_gaps(english_flat, locale_file.to_s, locale_code)
+    next if gaps.empty?
+
+    puts "Translating #{locale_code}/#{category} (#{gaps.size} keys)..."
+
+    # Load the full locale file for modification
+    locale_data = YAML.load_file(locale_file)
+
+    # Separate ICU MF2 strings (need fragment extraction) from regular strings
+    mf2_pattern = /\.(?:match|input)\s/
+    mf2_gaps = gaps.select { |_, v| v.match?(mf2_pattern) }
+    regular_gaps = gaps.reject { |_, v| v.match?(mf2_pattern) }
+
+    # Translate MF2 strings individually (fragment extraction)
+    mf2_gaps.each do |key, value|
+      translated = translate_mf2(value, deepl_target, dry_run: options[:dry_run])
+      if options[:dry_run]
+        puts "  [DRY-RUN MF2] #{key}: #{value}"
+      else
+        set_nested_value(locale_data[locale_code], key, translated)
+      end
+      total_translated += 1
+    end
+
+    # Batch translate regular strings
+    gap_keys = regular_gaps.keys
+    gap_values = regular_gaps.values
+
+    gap_values.each_slice(options[:batch_size]).with_index do |batch_values, batch_idx|
+      batch_keys = gap_keys[batch_idx * options[:batch_size], batch_values.size]
+
+      if options[:dry_run]
+        batch_values.each_with_index do |en_val, i|
+          puts "  [DRY-RUN] #{batch_keys[i]}: #{en_val}"
+        end
+        total_translated += batch_values.size
+        next
+      end
+
+      begin
+        translated = translate_batch(batch_values, deepl_target)
+
+        translated.each_with_index do |translated_text, i|
+          set_nested_value(locale_data[locale_code], batch_keys[i], translated_text)
+          total_translated += 1
+        end
+
+        puts "  Batch #{batch_idx + 1}: translated #{batch_values.size} strings"
+      rescue DeepL::Exceptions::QuotaExceeded
+        warn "\nERROR: DeepL character quota exceeded. Saving progress..."
+        break
+      rescue DeepL::Exceptions::LimitExceeded
+        warn "  Rate limited, waiting 5 seconds..."
+        sleep 5
+        retry
+      rescue DeepL::Exceptions::Error => e
+        warn "  DeepL error: #{e.message} — skipping batch"
+        total_skipped += batch_values.size
+      end
+    end
+
+    # Write updated locale file
+    unless options[:dry_run]
+      locale_file.open("w") do |file|
+        Psych.dump(locale_data, file, indentation: 2, line_width: -1)
+      end
+      puts "  Saved #{locale_file.basename}"
+    end
+  end
+end
+
+puts "\n#{"=" * 60}"
+puts "Done! Translated #{total_translated} strings, skipped #{total_skipped}"
+
+unless options[:dry_run]
+  usage = DeepL.usage
+  puts "DeepL Usage: #{usage.character_count}/#{usage.character_limit} characters used"
+end

@@ -1,23 +1,23 @@
 ---
 nl:
   locale_name: Dutch
-  about: About
+  about: Over
   add: Toevoegen
   add_new: Nieuwe toevoegen
-  ago: ago
+  ago: geleden
   already_have_account: Ik heb al een account
-  are_you_sure: Are you sure?
+  are_you_sure: Weet je het zeker?
   back: Terug
   back_to_all_blog_posts: Terug naar alle berichten
   blog: Blog
-  brand: Brand
+  brand: Merk
   buy_now: Nu kopen
   cancel: Annuleren
   change_password: Wachtwoord wijzigen
   charge_level: Laadniveau
   charged: opgeladen
-  charging: Charging
-  claim_plus_trial: Claim 6 Months Free
+  charging: Opladen
+  claim_plus_trial: Claim 6 maanden gratis
   close: Sluiten
   confirm_change_password: Mijn wachtwoord wijzigen
   confirm_password: Bevestig nieuwe wachtwoord
@@ -29,32 +29,32 @@ nl:
   current_device: Huidig apparaat
   days: dagen
   delete: Verwijder
-  developers: Developers
+  developers: Ontwikkelaars
   developer_edition_required: Developer-editie is vereist om deze functie in the schakelen.
   device_id: Apparaat ID
   device: Apparaat
   edit: Bewerken
   email_address: Emailadres
-  export: Export
+  export: Exporteren
   fetching: Ophalen
   first_name: Voornaam
   forgot_password: Wachtwoord vergeten
   forgot_password_title: Hier gaan we weer
-  friendly_id: Friendly ID
+  friendly_id: Vriendelijke ID
   get_started: Laten we beginnen!
-  hidden: hidden
+  hidden: verborgen
   identify: Identificeren
-  import: Import
-  import_new: Import new
+  import: Importeren
+  import_new: Nieuw importeren
   integrations: Integraties
   keep_me_signed_in: Blijf ingelogd
   knowledge_base: Kennisbank
   last_name: Achternaam
-  learn_more: Learn more
+  learn_more: Meer info
   loading: Laden
   login: Inloggen
   log_out: Uitloggen
-  manage: Manage
+  manage: Beheren
   minimum_characters: karakters minimaal
   mins: min.
   my_playlist: Mijn afspeellijst
@@ -62,29 +62,29 @@ nl:
   password: Wachtwoord
   please_wait: Even geduld...
   plugin_not_found: Plugin niet gevonden
-  preview: Preview
+  preview: Voorbeeld
   privacy: Privacy
-  refresh_rate: Refresh rate
+  refresh_rate: Vernieuwingsfrequentie
   refresh_rates_hint: Leer __hier__ hoe verversingssnelheden werken
   reset_password: Vraag nieuw wachtwoord op
-  reset_to_defaults: Reset to defaults
-  required: Required
+  reset_to_defaults: Terug naar standaard
+  required: Vereist
   save: Opslaan
-  shown: shown
+  shown: getoond
   section: Sectie
-  settings: Settings
+  settings: Instellingen
   sign_in: Inloggen
   sign_up: Registreren
   something_went_wrong: Er is iets misgegaan
   status: Status
-  subscribe: Subscribe
-  help_center: Support
-  terms: Terms
+  subscribe: Abonneren
+  help_center: Ondersteuning
+  terms: Voorwaarden
   update: Bijwerken
   view: Bekijk
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: Wil je samenwerken?
+  collaboration_request_hint: Partnerschappen, groepsverkopen, speciale projecten, jij beslist.
+  collaboration_request_cta: Laten we even kletsen
   welcome: Welkom
   time:
     formats:
@@ -97,14 +97,14 @@ nl:
       api_key_confirm: Weet je zeker dat je een nieuwe API key wil genereren? De oude is dan niet meer geldig.
       api_key_hint: Bekijk __de documentatie__ om meer te weten te komen hoe je een lokale ontwikkelomgeving kan instellen.
       api_key_label: Gegevens voor authenticatie van de lokale ontwikkelomgeving
-      api_key_not_generated: "(none yet)"
+      api_key_not_generated: "(nog geen)"
       api_key_reset: Hergenereer
       api_key: API Key
-      beta_features: Beta Features
-      beta_features_hint: Try out new stuff here. Options may disappear at any time.
-      discord_community: Discord Community
-      discord_username: What's your Discord username?
-      discord_username_hint: May be used for support, attribution on published Recipes, etc.
+      beta_features: Bètaversies
+      beta_features_hint: Probeer hier nieuwe dingen uit. Opties kunnen op elk moment verdwijnen.
+      discord_community: Discord-community
+      discord_username: Wat is je Discord-gebruikersnaam?
+      discord_username_hint: Kan worden gebruikt voor ondersteuning, bronvermelding bij gepubliceerde recepten, enz.
       email_address: Emailadres
       refer_and_earn: Verwijs en verdien
       refer_and_earn_hint: Deel TRMNL via een gepersonaliseerde coupon. Verdien per gebruik, maandelijks uitbetaald.
@@ -121,22 +121,25 @@ nl:
       enable_2fa_hint: __Klik hier__ om OTP in te schakelen.
       disable_2fa: 2FA uitschakelen
       disable_2fa_hint: Geef een geldig OTP en het huidige wachtwoord hierboven op om deze functie in te schakelen.
-      plus_subscription: TRMNL+ Subscription
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
-      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
-      plus_subscription_modify: Want to update your payment method or cancel?
+      plus_subscription: TRMNL+ Abonnement
+      plus_subscription_trial_until: Je hebt een gratis proefperiode tot %{plus_trial_end_at}.
+      plus_subscription_hint: Krijg snellere verversingssnelheden en hogere limieten. __Meer info__.
+      plus_subscription_modify: Wil je je betaalmethode aanpassen of annuleren?
       session: Sessie
       session_hint: Je bent ingelogd als %{user}
-      show_title_bar: Show title bar
-      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      show_title_bar: Toon titelbalk
+      show_title_bar_hint: Als je dit uitschakelt, worden native (niet-globale) en externe plug-ins meer beperkt.
       time_zone: Tijdzone
       time_zone_hint: Bepaalt de refresh rates en apparaat slaapmodus.
       locale: Landinstelling
       locale_hint: Welke taal en lokalisatie heeft je voorkeur? __Ga hiernaartoe__.
+      theme: Uiterlijk
+      theme_hint: Kies hoe TRMNL er voor jou uitziet. Kies een thema of synchroniseer met je systeeminstellingen.
     update:
       success: Profiel succesvol bijgewerkt
     reset_api_key:
       success: API key is succesvol gegenereerd
+    success: Succes
   dashboard:
     index:
       title: Dashboard
@@ -157,13 +160,13 @@ nl:
       cta: Ga naar afspeellijsten
       pieces_of_content_displayed: Aantal content elementen die getoond worden
     plugins:
-      title: Plugins
+      title: Plug-ins
       cta: Ga naar plugins
       connected: Verbonden
       new_and_popular: Nieuw en populair
     shop:
       title: Winkel
-      need_another: Need another TRMNL?
+      need_another: Heb je nog een TRMNL nodig?
     time_saved:
       title: Tijd bespaard
       cta: Lees meer
@@ -176,35 +179,35 @@ nl:
       accepts_beta_firmware: Beta firmware-release
       accepts_beta_firmware_hint: Schakel in om de nieuwste beta firmwareverbeteringen voor je apparaat te ontvangen.
       back_to_devices: Terug naar apparaten
-      battery_and_sleep: Battery & Sleep
+      battery_and_sleep: Batterij en slaapstand
       battery_consumption: Batterijgebruik
       battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren.
       battery_learn_more: Meer over het opladen van je batterij lees je __hier__.
-      battery_refresh: Refresh
+      battery_refresh: Vernieuwen
       developer_perks: Ontwikkelaarsvoordelen
       developer_perks_hint: De onderstaande opties vereisen de __ontwikkelaars-add-on__.
       device_credentials: Apparaatgegevens
       device_credentials_hint: Beijk __hier__ wat je met deze gegevens kunt doen.
       device_name: Apparaatnaam
       device_name_hint: We gebruiken dit om de TRMNL interface persoonlijker te maken
-      device_model: Device Model
+      device_model: Model van het apparaat
       device_model_hint: Jouw hardware Model
       device_model_switch_warning: Dit is een gevaarlijke actie, lees __hier__ meer
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_info: Apparaatinfo
+      current_firmware: Huidige firmware
+      last_ping: Laatste ping
+      unknown: Onbekend
+      never: Nooit
+      display_calibration: Kalibratie van het scherm
+      display_calibration_hint: Stel de weergave voor je scherm precies in. Laat het veld leeg om de standaardinstellingen van het model te gebruiken.
+      display_calibration_pixel_ratio: Pixelverhouding
+      display_calibration_pixel_ratio_hint: 'Zoomniveau van de afbeelding (0,5–3,0). Standaard:'
+      display_calibration_ui_scale: UI-schaal
+      display_calibration_ui_scale_hint: 'Tekst- en elementgroottes (0,5–2,0). Standaard:'
       edit_device: Apparaat bewerken
       firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
+      firmware_updates_enabled: Updates zijn ingeschakeld
+      firmware_updates_disabled: Updates uitgeschakeld
       guest_mode: Gast Modus
       guest_mode_hint: Kies wat je wil tonen (en voor hoe lang) in gast modus.
       guest_mode_item_placeholder: Kies een item
@@ -215,36 +218,36 @@ nl:
       logs: Logboeken
       logs_hint: Debug je apparaat en plugins met een live-feed van de foutlogboeken.
       low_battery_email_notification: Lege Batterij Email Notificatie
-      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
+      low_battery_email_notification_hint: Krijg een e-mail als de batterij van je toestel bijna leeg is.
       mirror: Spiegelen
       mirror_device: Spiegel een ander apparaat
       mirror_device_hint: Geef een (deelbaar) apparaat ID op om zijn afspeellijst te spiegelen. Jouw afspeellijst wordt nog steeds getoond.
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
-      mirror_stop: Disconnect Mirroring
-      mirror_sync: Sync Screens
+      mirror_disabled: Spiegelen uitgeschakeld
+      mirror_enabled: Spiegelen
+      mirror_stop: Koppeling verbreken
+      mirror_sync: Synchroniseer schermen
       ota_enabled: OTA-updates ingeschakeld
       ota_enabled_hint: Installeer automatisch nieuwe firmware. Deactiveer als je je je eigen firmware wil gebruiken.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
+      ota_byod_not_supported: OTA wordt niet ondersteund voor BYOD-apparaten. Flash een versie die werkt direct vanaf usetrmnl.com/flash.
       maximum_compatibility: Activeer Maximale Compatibiliteit
       maximum_compatibility_hint: Los scherm issues op met bepaalde e-ink driver chips. Zet snelle verversing uit. Firmware 1.6.0+ benodigd.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette: Kleurenpalet
+      palette_hint: Kies welke kleuren je wilt gebruiken als je schermen voor dit apparaat maakt. Een groter palet ziet er mooier uit, maar een kleiner palet wordt sneller getekend op e-ink. Je kunt deze instelling per afspeellijstitem aanpassen.
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
       sleep_screen: Slaapscherm
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
-      sleep_screen_hint: Display a sleep screen during sleep mode hours.
+      sleep_screen_tooltip: Zet de slaapstand aan om deze functie te gebruiken.
+      sleep_screen_hint: Laat een slaapscherm zien als het apparaat in de slaapstand staat.
       special_function: Speciale functie
       special_function_hint: Stel een dubbelklikfunctie in voor de knop aan de achterkant van je apparaat.
       special_function_learn_more: Lees __hier__ meer over speciale functies.
-      temperature_profile: Temperature Profile
-      temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
+      temperature_profile: Temperatuurprofiel
+      temperature_profile_hint: Verander niks tenzij je daar instructies voor krijgt. Voor beeldschermen met vage beelden.
+      tidbyt_credentials: Tidbyt-referenties
+      tidbyt_credentials_hint: Voer de API-gegevens van je Tidbyt-apparaat in vanuit de Tidbyt-app onder Instellingen → Ontwikkelaar → API-sleutel ophalen.
+      tidbyt_credentials_invalid: De inloggegevens voor de Tidbyt API kloppen niet. Check ze nog een keer en probeer het opnieuw.
+      tidbyt_device_id: Apparaat-ID
+      tidbyt_device_api_key: API-sleutel
       unlink: Ontkoppelen
       unlink_confirm: Weet je het zeker? Dit zal alle plugin instellingen en afspeellijsten verwijderen, zodat je het device aan een nieuw account kan koppelen.
       unlink_device: Apparaat ontkoppelen
@@ -259,6 +262,7 @@ nl:
         warning_1: Ik snap dat deze upgrade <strong>onomkeerbaar</strong> is en niet ongedaan gemaakt kan worden.
         warning_2: Ik snap dat dit een <strong>gevaarlijke</strong> actie is en dat ik mijn device onbruikmaar kan maken (bricken).
         cta: Upgrade naar TRMNL OG (2-bit)
+      tidbyt_api_key: Tidbyt api-sleutel
     index:
       title: Apparaten
       tagline: Jouw TRMNL apparaten
@@ -275,8 +279,8 @@ nl:
       error: Fout bij ontkoppelen apparaat
       success: Apparaat succesvol ontkoppeld
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: Ongeldige apparaatgegevens
+      success: Apparaatgegevens zijn goed bijgewerkt
     identify:
       error: Fout bij updaten apparaat
       success: Apparaatidentificatie aangevraagd
@@ -292,6 +296,11 @@ nl:
     update:
       error: Fout bij updaten apparaat
       success: "%{device} apparaatinstellingen succesvol bijgewerkt"
+    error: Fout
+    error_not_shared: Fout niet gedeeld
+    error_oneself: Fouten maken
+    success: Succes
+    success_removed: Succes verwijderd
   invoices:
     rate_limit: Te vaak geprobeerd. Wacht even en probeer het laten nog eens
     invoice_not_found: Factuur niet gevonden
@@ -299,7 +308,7 @@ nl:
     index:
       title: Logboeken
       all: Alles
-      bulk_destroy: Bulk Destroy
+      bulk_destroy: Bulk vernietigen
       dump: Verwijderen
       id: ID
       private_plugins: Privé-plugins
@@ -307,7 +316,7 @@ nl:
       time: Tijd
   markups:
     console_logs:
-      js_logs: JS Logs
+      js_logs: JS-logboeken
     form:
       back_to_plugin_settings: Terug naar plugin-instellingen
       design_system: Maak gebruik van ons native ontwerp-systeem
@@ -319,17 +328,18 @@ nl:
       edit_markup_without_preview: Markup bewerken (zonder voorbeeldweergave)
       error_rendering_markup: Fout bij het weergeven van de markup
       fix_indentation: Inspringing corrigeren
-      go_to_preview: Go To Preview
+      go_to_preview: Ga naar voorbeeld
       live_preview: Live voorbeeld
       no_changes_to_save: Geen wijzigingen om op te slaan
-      pop_out_preview: Pop Out Preview
+      pop_out_preview: Pop-outvoorbeeld
       quickstart_examples: Snelstartvoorbeelden
       quickstart_example_applied: Toegepast!
       quickstart_use_this_example: Gebruik dit voorbeeld
       revert: Terugzetten
       revert_confirm: Weet je zeker dat je wilt terugzetten? All niet-opgeslagen wijzigingen gaan verloren.
       save_changes: Wijzigingen opslaan (⌘﹢S)
-      separate_preview: Preview is open in a separate window
+      separate_preview: Voorbeeld wordt in een apart venster geopend
+      edit_composition: Bewerk compositie
     merge_variables:
       your_variables: Jouw variabelen
     no_merge_variables:
@@ -354,6 +364,8 @@ nl:
       reset_instructions: Klik op de knop achterop je TRMNL om een nieuwe code te genereren
       success: 2FA succesvol
       error: Ongeldige OTP code
+    enable_otp_path:
+      already_enabled: Al ingeschakeld
   playlist_items:
     index:
       title: Afspeellijst
@@ -363,7 +375,7 @@ nl:
       add_first_device_cta: Begin door jouw eerste TRMNL apparaat __toe te voegen__!
       add_to_playlist: Toevoegen aan afspeellijst
       create_first_playlist_cta: Maak jouw afspeellijst nadat je jouw eerst plugin __verbindt__!
-      custom: Custom
+      custom: Aangepast
       device_default: Device standaard
       display_period_from: Weergeven van
       display_period_to: tot
@@ -384,11 +396,11 @@ nl:
       hide_playlist: Verberg dit item
       show_playlist: Toon dit item
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: De verversingssnelheid van deze plug-in kan niet worden aangepast.
+        external: Deze plug-in haalt gegevens direct op, dus de instellingen voor de verversingssnelheid doen er niet toe.
+        global: Deze plug-in wordt op een vast tijdstip voor het hele platform vernieuwd.
+        mashup: De mashup wordt net zo vaak vernieuwd als de snelste plug-in.
+        readonly: Deze plug-in heeft een vaste verversingssnelheid die je niet kunt aanpassen.
     create:
       error: Bijwerken van afspeellijst is mislukt
       success: Afspeellijst is bijgewerkt
@@ -396,23 +408,29 @@ nl:
       error: Fout bij het verwijderen van afspeellijst
       success: Plugin verwijderd van afspeellijst
     toggle_visibility:
-      success: Playlist item %{change}
+      success: Afspeellijstitem %{change}
     duplicate:
-      success: Playlist duplicated
+      success: Afspeellijst is dubbel gemaakt
     sort:
-      success: Playlist order updated
+      success: De volgorde van de afspeellijst is bijgewerkt
     set_preferences:
       success: Smart playlist preference updated
     update:
       success: Volgorde afspeellijst bijgewerkt
+    error: Fout
+    playlist:
+      displayed_now: Nu weergegeven
+      not_displayed_yet: Nog niet weergegeven
+    success: Succes
   plugins:
     index:
-      title: Plugins
+      title: Plug-ins
       tagline: Wat ga jij op jouw TRMNL zetten?
       available: Beschikbaar
       connected: Verbonden
       recipes: Recepten
       recipes_hint: Privé-plugins van communityleden die met één klik kunnen worden geïnstalleerd. __Lees meer__.
+      supported_by_this_device: Wordt ondersteund door dit apparaat
     search:
       placeholder: Zoeken binnen plugins
     my:
@@ -444,22 +462,28 @@ nl:
       management_url_hint: Lees __hier__ meer over het beheerprocess.
       markup_url: Plugin-markup-URL
       markup_url_hint: Lees __hier__ meer over schermgeneratie.
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
+      no_screen_padding: Geen schermvulling
+      no_screen_padding_hint: Haal de buitenste opvulling weg in de modus Volledig scherm.
       uninstallation_webhook_url: Webhook-URL voor deïnstallatie
     edit:
       title: Plugin bewerken
       tagline: Werk de details van je plugin bij.
       name: Naam
       description: Beschrijving
+    mondrian:
+      common:
+        view: Bekijken
+    recipes:
+      recipe_lander:
+        preview: Voorbeeld
   plugin_recipes:
     connected: Recept verbonden
     connections:
-      one: Connection
-      other: Connections
+      one: Verbinding
+      other: Verbindingen
     forks:
-      one: Fork
-      other: Forks
+      one: Vork
+      other: Vorken
     new:
       error: Recept niet gevonden
   plugin_settings:
@@ -469,43 +493,43 @@ nl:
     delete: Hiermee verwijder je de instellingen van de plugin volledig. Om deze plugin simpelweg te verbergen verwijder je deze uit jouw afspeellijst.
     inactive: Inactief
     no_plugin_settings_found: Geen plugininstellingen gevonden.
-    not_supported: Not supported on current device
+    not_supported: Wordt niet ondersteund op je huidige apparaat
     refreshing_now_please_wait: Plugin wordt ververst, herlaad de pagina over een paar seconden.
     reset_credentials: "%{plugin_name} account succesvol hersteld"
     form:
       active_hint: Toon of verberg deze plugin op je apparaat
       advanced_settings: Geavanceerde Instellingen
-      back_to_playlist: Back to Playlist
+      back_to_playlist: Terug naar afspeellijst
       back_to_plugin: Terug naar %{plugin}
       back_to_plugins: Terug naar plugins
       connect_with: Verbinden met %{plugin}
-      debug_logs: Debug Logs
+      debug_logs: Foutopsporingslogboeken
       debug_logs_click_here: Klik hier
       debug_logs_click_here_hint: om debug logs in te zien voor deze plugin.
       debug_logs_enabled: Debug logs actief voor %{hours} uur.
-      debug_logs_enabled_link: View logs
+      debug_logs_enabled_link: Bekijk logboeken
       disconnect_account: Account loskoppelen
       manage_plugin: Configureer %{plugin}
       force_refresh: Forceer verversen
       force_refresh_hint: Deze functie is alleen ontworpen voor testdoeleinden - maak er geen misbruik van.
       force_refresh_click_here: Klik hier
       force_refresh_click_here_hint: om direct een nieuw scherm te genereren
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      force_refresh_not_possible: Deze plug-in kan niet geforceerd worden vernieuwd omdat de TRMNL-server geen beeldverwerking doet. Check hier hoe je je versie kunt testen.
       learn_more: Kom meer te weten over deze plugin in onze kennisbank
       learn_more_fork: Deze plugin is een fork van een recept.
       learn_more_fork_original: Bekijk het origineel
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
+      learn_more_native_long: Deze plug-in is van TRMNL en wordt door hen onderhouden.
+      learn_more_native_short: Deze plug-in wordt onderhouden door TRMNL.
       learn_more_recipe_author: Hulp nodig? Neem contact op met %{recipe_author} via Discord.
       learn_more_recipe_long: Deze plugin is een recept uit de community, en wordt niet onderhouden door TRMNL.
       learn_more_recipe_short: 'Noot: deze plugin is een recept'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
+      learn_more_third_party_long: Deze plug-in is van een andere partij en wordt niet bijgewerkt door TRMNL.
+      learn_more_third_party_short: 'Let op: deze plug-in is van een andere partij.'
       linked_account: Gekoppeld account
       linked_account_success: Succesvol gekoppeld met %{plugin_name}
       link_oauth: Account koppelen
       link_oauth_hint: Voordat je verder gaat, volg het veilige authenticatieproces van %{plugin}
-      mirrored: Mirrored
+      mirrored: Gespeeld
       multiple_instances_hint: Deze plugin ondersteunt meerdere instanties.
       name: Naam
       name_hint: Voer een naam in om het makkelijk te herkennen in de toekomst
@@ -516,36 +540,36 @@ nl:
       plugin_uuid_hint: Gebruik dit om Webhook API requests te maken.
       preview: Voorbeeld - jouw apparaat zal echte data tonen
       recipe_cta_heading_published: Deze plugin is een recept
-      recipe_cta_heading_unlisted: This plugin is unlisted
+      recipe_cta_heading_unlisted: Deze plug-in staat niet in de lijst.
       recipe_cta_heading_in_review: Recept onder beoordeling
       recipe_cta_heading_not_published: Publiceer als recept?
       recipe_cta_body_published: Veranderingen worden doorgevoerd bij bestaande installaties en toekomstige installaties en forks.
       recipe_cta_body_in_review: De plugin is ingediend bij het team. Nog even geduld.
       recipe_cta_body_not_published: Verstuur de plugin zodat anderen deze ook kunnen gebruiken. __Lees hier meer over__.
       recipe_cta_confirm: Weet je het zeker? Ons team zal je plugin reviewen en bij je terugkomen met mogelijke vragen. Je kan ondertussen wijzigingen blijven doorvoeren.
-      recipe_mirrored: This screen is mirrored from the recipe.
-      recipe_visibility_title: How would you like to publish?
-      recipe_visibility_edit_title: Edit Submission
-      recipe_visibility_public: Public
-      recipe_visibility_public_hint: Anyone can find and install.
-      recipe_visibility_private: Private
-      recipe_visibility_private_hint: Breaks external installs.
-      recipe_visibility_unlisted: Unlisted
-      recipe_visibility_unlisted_hint: Anyone with the link can install.
+      recipe_mirrored: Dit scherm is een kopie van het recept.
+      recipe_visibility_title: Hoe wil je publiceren?
+      recipe_visibility_edit_title: Bijdrage bewerken
+      recipe_visibility_public: Openbaar
+      recipe_visibility_public_hint: Iedereen kan het vinden en installeren.
+      recipe_visibility_private: Privé
+      recipe_visibility_private_hint: Breekt externe installaties.
+      recipe_visibility_unlisted: Niet genoteerd
+      recipe_visibility_unlisted_hint: Iedereen met de link kan het installeren.
       refresh_rate: Verversingssnelheid
       refresh_rate_hint: Bepaal hoe vaak deze plugin instantie verse data ophaalt
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
+      refresh_rate_not_configurable: Synchroniseert %{refresh_rate} (niet aan te passen)
       refreshed: Ververst
       remove_plugin: Plugin verwijderen
       remove_plugin_hint: Het verwijderen van een plugin zal deze ook uit je afspeellijst verwijderen
       synced: Gesynchroniseerd
       refresh_paused: Verversen gepauzeerd
       refresh_paused_hint: Auto-verversen is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
+      refresh_paused_hidden_hint: Automatisch vernieuwen is even uitgeschakeld omdat de plug-in verborgen is in de afspeellijst. Gegevenssynchronisatie werkt nog steeds.
       refresh_paused_mashup: Mashups worden ververst
       refresh_paused_mashup_hint: Auto-verversen gepauzeerd voor fullscreen. Mashups worden geupdate.
       refresh_stopped: Auto-verversen gestopt. Los de plugin fouten op om door te gaan.
-      view_recipe: View Recipe
+      view_recipe: Bekijk recept
       visit_docs: Bekijk documentatie
     import:
       archive_too_large: ZIP bestand is te groot (%{max_mb} MB max)
@@ -562,16 +586,24 @@ nl:
       success: Plugin configuratie is succesvol bijgewerkt
     add_to_playlist:
       success: Plugin toegevoegd aan afspeellijst
+    back_button:
+      back_to_plugin: Terug naar plug-in
+      back_to_plugins: Terug naar plug-ins
+    index:
+      no_plugin_settings_found: Geen instellingen voor plug-ins gevonden
+    playlist: Afspeellijst
+    success: Succes
   referral_code:
     create:
       request_received: Request ontvangen, check je inbox
+    request_received: Je verzoek is ontvangen.
   recipes:
     index:
       newest_to_oldest: Nieuw naar oud
       oldest_to_newest: Oud naar nieuw
       most_popular: Populairste
       install: Installeer
-      fork: Fork
+      fork: Vork
   schedules:
     form:
       add: Voeg een op-maat schema toe
@@ -580,6 +612,8 @@ nl:
       some_schedule: Toon enkel tijdens…
       to: naar
       copy_prompt: Kopieër schema van…
+      cancel: Annuleren
+      save: Opslaan
   upgrade:
     index:
       title: 'Apparaat upgraden:'
@@ -588,3 +622,68 @@ nl:
       error: Apparaat %{device_name} is al geüpgraded, wissel naar een ander apparaat
     confirm:
       success: Developer-editie add-on is nu ingeschakeld
+  action: Actie
+  actions: Acties
+  active_admin:
+    blank_slate:
+      content: Inhoud
+      link: Link
+    comments:
+      add: Toevoegen
+      author_missing: Auteur ontbreekt
+      delete: Verwijderen
+      delete_confirmation: Bevestiging verwijderen
+      no_comments_yet: Nog geen reacties
+    devise: Bedenken
+    logout: Uitloggen
+    pagination:
+      empty: Leeg
+      next: Volgende
+      previous: Vorige
+    powered_by: Aangedreven door
+  date:
+    abbr_day_names: Afkortingen van dagen
+    day_names: Dagnamen
+  default: Standaard
+  default_webhook_rate_limit: Standaard limiet voor webhooks
+  developer_edition_addon_amount: Hoeveelheid add-on voor ontwikkelaarseditie
+  duration: Duur
+  errors:
+    messages:
+      not_saved: Niet opgeslagen
+  fetch: Haal
+  framework:
+    responsive_test:
+      example-size-btn: Voorbeeld-grootte-knop
+      test-config-btn: Test-config-btn
+  id: Id
+  ignore_log_messages: Logberichten negeren
+  ignore_logs: Logbestanden negeren
+  maintenance_mode: Onderhoudsmodus
+  mashup_id: Mashup-id
+  mashups:
+    mashup:
+      add_to_playlist: Voeg toe aan afspeellijst
+  month: Maand
+  name: Naam
+  order_number: Bestelnummer
+  plus_webhook_rate_limit: Plus webhook-snelheidslimiet
+  primary: Primair
+  public: Openbaar
+  query: Vraag
+  rolling_month: Rolmaand
+  rolling_week: Rolweek
+  schedule: Schema
+  shop_promotion: Winkelpromotie
+  site_banner: Banner van de site
+  site_banner_link: Link naar banner op de site
+  sleep_mode_enabled: Slaapstand aan
+  title: Titel
+  today_only: Alleen vandaag
+  value: Waarde
+  views:
+    pagination:
+      truncate: Afkappen
+  visible: Zichtbaar
+  week: Week
+  work_week: Werkweek

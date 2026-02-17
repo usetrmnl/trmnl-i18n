@@ -1,0 +1,689 @@
+---
+fi:
+  locale_name: FI
+  about: Tietoja
+  add: Lisää
+  add_new: Lisää uusi
+  ago: sitten
+  already_have_account: Minulla on jo tili
+  are_you_sure: Oletko varma?
+  back: Takaisin
+  back_to_all_blog_posts: Takaisin kaikkiin viesteihin
+  blog: Blogi
+  brand: Tuotemerkki
+  buy_now: Osta nyt
+  cancel: Peruuta
+  change_password: Vaihda salasana
+  charge_level: Lataustaso
+  charged: syytetty
+  charging: Lataaminen
+  claim_plus_trial: Lunasta 6 kuukautta ilmaiseksi
+  close: Sulje
+  confirm_change_password: Vaihda salasanani
+  confirm_password: Vahvista uusi salasana
+  copy: Kopioi
+  copied_to_clipboard: Kopioitu!
+  copy_to_clipboard: Kopioi leikepöydälle
+  created: Luotu
+  create_an_account: Luo tili
+  current_device: Nykyinen laite
+  days: päivät
+  delete: Poista
+  developers: Kehittäjät
+  developer_edition_required: Tämän ominaisuuden käyttöönotto edellyttää kehittäjäversiota.
+  device_id: Laitteen tunnus
+  device: Laite
+  edit: Muokkaa
+  email_address: Sähköpostiosoite
+  export: Vienti
+  fetching: Hakeminen
+  first_name: Etunimi
+  forgot_password: Unohdin salasanani
+  forgot_password_title: Taas mennään
+  friendly_id: Ystävällinen tunnus
+  get_started: Aloitetaanpa!
+  hidden: piilotettu
+  identify: Tunnista
+  import: Tuonti
+  import_new: Tuo uusi
+  integrations: Integraatiot
+  keep_me_signed_in: Pidä minut kirjautuneena sisään
+  knowledge_base: Tietopankki
+  last_name: Sukunimi
+  learn_more: Lisätietoja
+  loading: Lataus
+  login: Kirjaudu sisään
+  log_out: Kirjaudu ulos
+  manage: Hallitse
+  minimum_characters: merkkien vähimmäismäärä
+  mins: minuuttia
+  my_playlist: Oma soittolistani
+  new_password: Uusi salasana
+  password: Salasana
+  please_wait: Odota...
+  plugin_not_found: Laajennusta ei löytynyt
+  preview: Esikatselu
+  privacy: Tietosuoja
+  refresh_rate: Päivittymistiheys
+  refresh_rates_hint: Lue lisää virkistystaajuuksien toiminnasta __täältä__.
+  reset_password: Palauta salasanani
+  reset_to_defaults: Palauta oletusasetukset
+  required: Vaaditaan
+  save: Tallenna
+  shown: näytetty
+  section: Jakso
+  settings: Asetukset
+  sign_in: Kirjaudu sisään
+  sign_up: Rekisteröidy
+  something_went_wrong: Jotain meni pieleen
+  status: Tila
+  subscribe: Tilaa
+  help_center: Tuki
+  terms: Ehdot
+  update: Päivitä
+  view: Näytä
+  collaboration_request: Haluatko tehdä yhteistyötä?
+  collaboration_request_hint: Kumppanuudet, ryhmämyynti, erikoishankkeet, sinun päätös.
+  collaboration_request_cta: Puhutaanpa
+  welcome: Tervetuloa
+  time:
+    formats:
+      shorter: "%-I:%M %p"
+    start_of_week: 0
+  account:
+    index:
+      title: Tili
+      tagline: Hallitse tilisi asetuksia
+      api_key_confirm: Haluatko varmasti luoda uuden API-avaimen? Vanha avain mitätöidään.
+      api_key_hint: Katso __ohjeet__, jos haluat tietää, miten voit määrittää paikallisen ympäristön.
+      api_key_label: Paikallisten kehitystyökalujen todentamiseen käytettävä tunnistetieto
+      api_key_not_generated: "(ei vielä)"
+      api_key_reset: Uudelleenkäynnistä
+      api_key: Käyttäjän API-avain
+      beta_features: Beeta-ominaisuudet
+      beta_features_hint: Kokeile uusia asioita täällä. Vaihtoehdot voivat kadota milloin tahansa.
+      discord_community: Discord-yhteisö
+      discord_username: Mikä on Discord-käyttäjätunnuksesi?
+      discord_username_hint: Voidaan käyttää tukena, lähteenä julkaistuissa resepteissä jne.
+      email_address: Sähköpostiosoite
+      refer_and_earn: Suosittele ja ansaitse
+      refer_and_earn_hint: Anna TRMNL-lahjakortti henkilökohtaisella kupongilla. Ansaitse jokaisesta käytöstä, maksetaan kuukausittain.
+      refer_and_earn_redemptions: Lunastukset
+      refer_and_earn_request_code: Pyydä koodi
+      device_invoice: Laitteen lasku
+      device_invoice_label: Lataa kaupalliset asiakirjat kirjanpitäjällesi tai (outo) PDF-kokoelmaasi.
+      device_invoice_hint: Löydät tämän paketin seurantasivulta tai lähetysilmoituksen sähköpostista.
+      email_address_hint: Käytetään kirjautumiseen TRMNL-palveluun ja järjestelmäviestien vastaanottamiseen.
+      first_name_hint: Käytämme nimeäsi TRMNL-käyttöliittymän käyttömukavuuden parantamiseksi.
+      last_name_hint: Käytämme nimeäsi TRMNL-käyttöliittymän käyttömukavuuden parantamiseksi.
+      password_hint: Käytetään TRMNL-tilisi suojaamiseen.
+      enable_2fa: Ota 2FA käyttöön?
+      enable_2fa_hint: __Klikkaa tästä__ ottaaksesi OTP:n käyttöön.
+      disable_2fa: Poista 2FA käytöstä
+      disable_2fa_hint: Anna voimassa oleva kertakäyttöinen salasana ja nykyinen salasana yllä, jotta tämä ominaisuus poistetaan käytöstä.
+      plus_subscription: TRMNL+ -tilaus
+      plus_subscription_trial_until: Olet ilmaisen kokeilujakson aikana %{plus_trial_end_at} asti.
+      plus_subscription_hint: Ota käyttöön nopeammat virkistystaajuudet ja korkeammat nopeusrajat. __Lisätietoja__.
+      plus_subscription_modify: Haluatko päivittää maksutapasi tai peruuttaa tilauksesi?
+      session: Istunto
+      session_hint: Olet kirjautunut sisään käyttäjänimellä %{user}
+      show_title_bar: Näytä otsikkopalkki
+      show_title_bar_hint: Jos tämä on pois käytöstä, natiivit (ei-globaalit) ja kolmannen osapuolen laajennukset ovat vähäisempiä.
+      time_zone: Aikavyöhyke
+      time_zone_hint: Määrittää virkistystaajuudet ja laitteen lepotilan keston.
+      locale: Paikallinen
+      locale_hint: Mitä kieltä ja lokalisointia haluat? __Siirry tänne__.
+      theme: Ulkonäkö
+      theme_hint: Valitse, miltä TRMNL näyttää sinulle. Valitse teema tai synkronoi järjestelmäasetuksesi kanssa.
+    update:
+      success: Profiili päivitetty onnistuneesti
+    reset_api_key:
+      success: API-avain luotiin uudelleen onnistuneesti
+    success: Menestys
+  dashboard:
+    index:
+      title: Kojelauta
+      last_7_days: Viimeiset 7 päivää
+      last_30_days: Viimeiset 30 päivää
+      last_90_days: Viimeiset 90 päivää
+      today: Tänään
+      yesterday: Eilen
+    health:
+      bad: Pluginit kohtaavat ongelmia
+      good: Pluginit ovat terveellisiä
+      next_steps: Ilmoitamme sinulle, jos jotain muuttuu.
+    news:
+      title: Uutiset
+      cta: Näytä kaikki
+    playlist_items:
+      title: Soittolista
+      cta: Muokkaa soittolistaa
+      pieces_of_content_displayed: Näytetyt sisällön osat
+    plugins:
+      title: Laajennukset
+      cta: Siirry Plugins-kohtaan
+      connected: Yhdistetty
+      new_and_popular: Uudet ja suosittuja
+    shop:
+      title: Kauppa
+      need_another: Tarvitsetko toisen TRMNL:n?
+    time_saved:
+      title: Säästetty aika
+      cta: Lue lisää
+    welcome_message:
+      morning_salutation: Huomenta
+      afternoon_salutation: Hyvää iltapäivää
+      evening_salutation: Hyvää iltaa
+  devices:
+    edit:
+      accepts_beta_firmware: Laiteohjelmiston varhainen julkaisu
+      accepts_beta_firmware_hint: Kytke tämä toiminto päälle, niin saat uusimmat laitteen laiteohjelmistoparannukset ennen muita käyttäjiä.
+      back_to_devices: Takaisin laitteisiin
+      battery_and_sleep: Akku ja lepotila
+      battery_consumption: Akun kulutus
+      battery_consumption_hint: Säästä virtaa ja nauti pidemmästä akun käyttöajasta ottamalla lepotila käyttöön.
+      battery_learn_more: Lisätietoja akun lataamisesta __täältä__.
+      battery_refresh: Päivitä
+      developer_perks: Kehittäjän edut
+      developer_perks_hint: Mukautettu laajennusten kehitys, muokattava MAC-osoite (vain BYOD), laiteohjelmiston varhainen julkaisu ja API-käyttöoikeus
+      device_credentials: Laitteen tunnistetiedot
+      device_credentials_hint: Katso, mitä voit tehdä näillä tunnuksilla __täällä__
+      device_name: Laitteen nimi
+      device_name_hint: Käytämme tätä TRMNL-käyttöliittymän käyttömukavuuden parantamiseksi.
+      device_model: Laitteen malli
+      device_model_hint: Laitteistosi malli
+      device_model_switch_warning: Tämä on vaarallinen toimenpide, lue lisää __täältä__
+      device_info: Laitetiedot
+      current_firmware: Nykyinen laiteohjelmisto
+      last_ping: Viimeinen ping
+      unknown: Tuntematon
+      never: Ei koskaan
+      display_calibration: Näytön kalibrointi
+      display_calibration_hint: Hienosäädä näytön renderointia. Jätä kenttä tyhjäksi, jos haluat käyttää mallin oletusasetuksia.
+      display_calibration_pixel_ratio: Pikselisuhde
+      display_calibration_pixel_ratio_hint: 'Kuvan zoomausaste (0,5–3,0). Oletus:'
+      display_calibration_ui_scale: UI-asteikko
+      display_calibration_ui_scale_hint: 'Tekstin ja elementtien koot (0,5–2,0). Oletus:'
+      edit_device: Muokkaa laitetta
+      firmware: Laiteohjelmisto
+      firmware_updates_enabled: Päivitykset käytössä
+      firmware_updates_disabled: Päivitykset pois käytöstä
+      guest_mode: Vierastila
+      guest_mode_hint: Valitse, mitä näytetään (ja kuinka kauan), kun vierastila on käytössä.
+      guest_mode_item_placeholder: Valitse tuote
+      guest_mode_duration_placeholder: Valitse kesto
+      identify: Tunnista
+      identify_device: Tunnista laite
+      identify_device_hint: Napsauta alla olevaa painiketta, jotta laitteeseen avautuu näyttö, jonka avulla laite voidaan tunnistaa.
+      logs: Lokit
+      logs_hint: Debugoi laitteesi ja laajennuksesi raakavirheiden lokien reaaliaikaisella syötteellä.
+      low_battery_email_notification: Alhaisen akun sähköpostimuistutus
+      low_battery_email_notification_hint: Saat sähköpostitse ilmoituksen, kun laitteen akku on vähissä.
+      mirror: Peili
+      mirror_device: Peilaa toinen laite
+      mirror_device_hint: Anna (jaettava) laitetunnus, jotta sen soittolista voidaan peilata. Soittolistasi näkyy edelleen.
+      mirror_disabled: Peilaus pois käytöstä
+      mirror_enabled: Peilaus
+      mirror_stop: Katkaise peilaus
+      mirror_sync: Synkronoi näytöt
+      ota_enabled: OTA-päivitykset käytössä
+      ota_enabled_hint: Asenna uusi laiteohjelmisto automaattisesti. Poista käytöstä, jos haluat käyttää omaa laiteohjelmistoa.
+      ota_byod_not_supported: OTA-tiedonsiirtoa ei tueta BYOD-laitteissa. Lataa yhteensopiva versio suoraan osoitteesta usetrmnl.com/flash.
+      maximum_compatibility: Ota käyttöön maksimaalinen yhteensopivuus
+      maximum_compatibility_hint: Ratkaisee tiettyjen e-ink-ohjainpiirien aiheuttamat näyttöongelmat. Poistaa nopean päivityksen käytöstä. Vaatii laiteohjelmiston version 1.6.0 tai uudemman.
+      palette: Väripaletti
+      palette_hint: Valitse väripaletti, jota käytetään tämän laitteen näyttöjen luomisessa. Suurempi paletti näyttää paremmalta, mutta pienempi paletti piirtää nopeammin e-ink-näytöllä. Yksittäiset soittolistan kohteet voivat ohittaa tämän asetuksen.
+      sleep_mode: Lepotila
+      sleep_mode_hint: Säädä virkistystaajuutta optimoidaksesi tarkennuksen ja akun keston.
+      sleep_screen: Nukkumissuoja
+      sleep_screen_tooltip: Ota lepotila käyttöön, jotta voit käyttää tätä ominaisuutta.
+      sleep_screen_hint: Näytä lepotilan aikana lepotilan näyttö.
+      special_function: Erityistoiminto
+      special_function_hint: Aseta mukautettu toiminto laitteen takana olevalle painikkeelle.
+      special_function_learn_more: Lisätietoja erikoisominaisuuksista __täältä__.
+      temperature_profile: Lämpötilaprofiili
+      temperature_profile_hint: Älä muuta, ellei niin ohjeisteta. Näytöille, joiden kuvat ovat haalistuneet.
+      tidbyt_credentials: Tidbytin tunnistetiedot
+      tidbyt_credentials_hint: Syötä Tidbyt-laitteen API-tunnistetiedot Tidbyt-sovelluksen Asetukset → Kehittäjä → Hanki API-avain -kohdasta.
+      tidbyt_credentials_invalid: Tidbyt API -tunnistetiedot eivät ole kelvollisia. Tarkista ne uudelleen ja yritä uudelleen.
+      tidbyt_device_id: Laitteen tunnus
+      tidbyt_device_api_key: API-avain
+      unlink: Poista linkki
+      unlink_confirm: Oletko varma? Jatka vain, jos annat tämän laitteen jollekin toiselle tai siirryt BYOS-tilaan. Pariliitoksen purkaminen poistaa kaikki laajennuksen asetukset ja soittolistan kohteet. Jos sinulla on ongelmia, ota yhteyttä tukeen osoitteessa help.trmnl.com.
+      unlink_device: Irrota laite
+      unlink_device_hint: TRMNL:n linkityksen poistaminen tekee sen turvalliseksi myydä tai antaa jollekin toiselle.
+      unlink_device_learn_more: Seuraa koko opasta __täältä__.
+      visibility: Näkyvyys
+      visibility_hint: Tee TRMNL-laitteestasi peilattava muuttamalla alla olevia asetuksia.
+      your_device: Sinun TRMNL
+      upgrade_og:
+        title: Päivitä 2-bittiseen näyttöön
+        sub_title: Laitteesi voidaan päivittää tukemaan parannettua harmaasävyistä näyttöä, jossa on 4 väritasoa 2 sijaan.
+        warning_1: Ymmärrän, että tämä päivitys on <strong>peruuttamaton</strong> eikä sitä voi kumota.
+        warning_2: Ymmärrän, että tämä on <strong>vaarallinen</strong> toimenpide, joka voi vahingoittaa laitettani.
+        cta: Päivitä TRMNL OG (2-bittinen)
+      tidbyt_api_key: Tidbyt-API-avain
+    index:
+      title: Laitteet
+      tagline: TRMNL-laitteesi
+      add_device_modal_title: Lisää uusi laite
+      add_first_device: Aloita lisäämällä ensimmäinen laitteesi!
+    new:
+      title: Lisää uusi laite
+      description: Syötä Friendly ID -tunnuksesi lisätäksesi uuden laitteen tiliisi.
+      add_device: Lisää uusi laite
+    associate:
+      error: Virhe laitteen liittämisessä
+      success: Laite on liitetty onnistuneesti
+    dissociate:
+      error: Virhe laitteen irrottamisessa
+      success: Laite on irrotettu onnistuneesti
+    external_credentials:
+      error: Laiteen tunnistetiedot eivät kelpaa
+      success: Laitteen tunnistetiedot päivitetty onnistuneesti
+    identify:
+      error: Virhe laitteen päivittämisessä
+      success: Laitteen tunnistustiedot pyydetty
+    mirror:
+      error: Virhepeilauslaite
+      error_not_shared: Laite-ID:tä ei voi jakaa
+      error_oneself: Ei voi peilata itseään
+      success: Laite %{friendly_id} peilattu onnistuneesti
+      success_removed: Peilaus poistettu
+    switch:
+      error: Virhe laitteen vaihtamisessa
+      success: Laite vaihdettu onnistuneesti
+    update:
+      error: Virhe laitteen päivittämisessä
+      success: "%{device} laitteen asetukset päivitetty onnistuneesti"
+    error: Virhe
+    error_not_shared: Virhettä ei jaettu
+    error_oneself: Virhe itse
+    success: Menestys
+    success_removed: Menestys poistettu
+  invoices:
+    rate_limit: Liian monta yritystä, odota ja yritä uudelleen
+    invoice_not_found: Laskua ei löytynyt
+  logs:
+    index:
+      title: Lokit
+      all: Kaikki
+      bulk_destroy: Massiivinen tuhoaminen
+      dump: Kaatopaikka
+      id: Tunnus
+      private_plugins: Yksityiset laajennukset
+      source: Lähde
+      time: Aika
+  markups:
+    console_logs:
+      js_logs: JS-lokit
+    form:
+      back_to_plugin_settings: Takaisin laajennuksen asetuksiin
+      design_system: Hyödynnä natiivi suunnittelujärjestelmäämme
+      design_system_docs: Suunnittelujärjestelmän dokumentit
+      dirty_confirm: Sinulla on tallentamattomia muutoksia. Haluatko varmasti poistua tältä sivulta?
+      edit_markup: Muokkaa merkintää
+      edit_markup_for_plugin: Muokkaa merkintää %{plugin_setting_name}
+      edit_markup_please_save_first: Tallenna ennen merkintöjen muokkaamista
+      edit_markup_without_preview: Muokkaa merkintöjä (ilman esikatselua)
+      error_rendering_markup: Virhe merkinnän renderoinnissa
+      fix_indentation: Korjaa sisennykset
+      go_to_preview: Siirry esikatseluun
+      live_preview: Live-esikatselu
+      no_changes_to_save: Ei muutoksia tallennettavaksi
+      pop_out_preview: Ponnahdusikkuna
+      quickstart_examples: Pika-aloitusesimerkit
+      quickstart_example_applied: Hakemus lähetetty!
+      quickstart_use_this_example: Käytä tätä esimerkkiä
+      revert: Palauta
+      revert_confirm: Haluatko varmasti palauttaa? Kaikki tallentamattomat muutokset menetetään.
+      save_changes: Tallenna muutokset (⌘﹢S)
+      separate_preview: Esikatselu avautuu erillisessä ikkunassa
+      edit_composition: Muokkaa koostumusta
+    merge_variables:
+      your_variables: Muuttujasi
+    no_merge_variables:
+      force_refresh: Jos olet antanut muuttujia, mutta niitä ei tunnisteta, kokeile __force refresh__ -komentoa.
+      no_variables_detected: Muuttujia ei havaittu.
+  mfa:
+    disable_otp:
+      success: 2FA pois käytöstä
+      invalid_otp: Virheellinen OTP
+      invalid_password: Virheellinen salasana
+      invalid_otp_and_password: Virheellinen kertakäyttöinen salasana ja salasana
+    enable_otp:
+      input_otp: Syötä OTP
+      submit: Vahvista ja ota käyttöön
+      already_enabled: 2FA on jo käytössä
+    enable_otp_verify:
+      success: 2FA käytössä
+      error: Virheellinen OTP-koodi
+    verify_otp:
+      verify: Vahvista
+      reset: Nollaa MFA
+      reset_instructions: Napsauta TRMNL-laitteen takana olevaa painiketta luodaksesi nollauskoodin.
+      success: 2FA onnistui
+      error: Virheellinen OTP-koodi
+    enable_otp_path:
+      already_enabled: Jo käytössä
+  playlist_items:
+    index:
+      title: Soittolista
+      tagline: Valitse näytettävä sisältö
+      add_a_group: Lisää ryhmä
+      add_a_plugin: Lisää laajennus
+      add_first_device_cta: Aloita lisäämällä ensimmäinen TRMNL-laitteesi!
+      add_to_playlist: Lisää soittolistaan
+      create_first_playlist_cta: Luo soittolistasi, kun olet liittänyt ensimmäisen laajennuksen!
+      custom: Mukautettu
+      device_default: Laitteen oletusasetukset
+      display_period_from: Näyttö alkaen
+      display_period_to: kohteeseen
+      display_period_validation: Aloitusajan on oltava ennen lopetusajan. Luo toinen ryhmä, joka kattaa yön tunnit.
+      every: Jokainen
+      never_skip: Älä koskaan ohita näyttöjä
+      smart_playlist: Älykäs soittolista
+      smart_playlist_hint: Ohita automaattisesti näytöt, joiden sisältö ei ole muuttunut pitkään aikaan.
+      skip_after:
+        one: Ohita vanhentuneet näytöt 1 päivän kuluttua
+        other: Ohita vanhentuneet näytöt %{count} päivän kuluttua
+    playlist_item:
+      adjust_schedule: Muokkaa aikataulua
+      delete: Haluatko varmasti poistaa tämän kohteen? Laajennus pysyy kytkettynä, mutta se ei näy laitteellasi.
+      displayed_now: Näytetään nyt
+      not_displayed_yet: Ei vielä näytetty
+      remove_from_playlist: Poista soittolistalta
+      hide_playlist: Piilota tämä kohde
+      show_playlist: Näytä tämä tuote
+      refresh_rate_disabled:
+        default: Tämän laajennuksen päivitysnopeutta ei voi määrittää.
+        external: Tämä laajennus hakee tiedot lennosta, joten virkistystaajuuden asetukset eivät päde.
+        global: Tämä laajennus päivitetään koko alustalla kiinteän aikataulun mukaisesti.
+        mashup: Mashup päivittyy yhtä usein kuin sen nopein laajennus.
+        readonly: Tällä laajennuksella on kiinteä päivitysnopeus, jota ei voi määrittää.
+    create:
+      error: Soittolistan päivitys epäonnistui
+      success: Soittolista päivitetty
+    destroy:
+      error: Virhe poistettaessa kohdetta soittolistalta
+      success: Plugin poistettu soittolistalta
+    toggle_visibility:
+      success: Soittolistan kohde %{change}
+    duplicate:
+      success: Soittolista on kopioitu
+    sort:
+      success: Soittolistan järjestys päivitetty
+    set_preferences:
+      success: Älykkään soittolistan asetukset päivitetty
+    update:
+      success: Soittolistan järjestys päivitetty
+    error: Virhe
+    playlist:
+      displayed_now: Näytetään nyt
+      not_displayed_yet: Ei vielä näytetty
+    success: Menestys
+  plugins:
+    index:
+      title: Laajennukset
+      tagline: Mitä laitat TRMNL:ään?
+      available: Saatavilla
+      connected: Yhdistetty
+      recipes: Reseptit
+      recipes_hint: Yhteisön jäsenten yksityiset laajennukset, jotka voidaan asentaa yhdellä napsautuksella. __Lisätietoja__.
+      supported_by_this_device: Tämän laitteen tukema
+    search:
+      placeholder: Hae lisäosia
+    my:
+      index:
+        title: Omat laajennukset
+        tagline: Kehitä laajennuksia julkiseen markkinapaikkaan
+      card:
+        connections: yhteydet
+        install: Asenna
+        review_are_you_sure: Oletko varma? TRMNL-tiimi testaa sen ja lähettää sinulle sähköpostitse mahdolliset kysymykset.
+        submit_for_review: Lähetä tarkastettavaksi
+    new:
+      title: Luo uusi laajennus
+      tagline: Muut käyttäjät voivat asentaa laajennuksesi.
+      name: Nimi
+      category: Luokka
+      category_hint: Pidä cmd- tai ctrl-näppäintä painettuna ja valitse enintään 3
+      refresh_every: Tuettu päivitysväli
+      refresh_every_hint: Pluginin tukema nopein päivitysväli.
+      description: Kuvaus
+      description_hint: Enintään 50 merkkiä
+      icon: Kuvake
+      icon_hint: Suositeltava koko 512x512 pikseliä
+      installation_url: Asennuksen URL-osoite
+      installation_url_hint: Lisätietoja asennuksen kulusta __täältä__.
+      installation_success_webhook_url: Asennuksen onnistuminen Webhook-URL
+      knowledge_base_url: Tietopankki URL
+      management_url: Plugin-hallinnan URL-osoite
+      management_url_hint: Lisätietoja hallintaprosessista __täältä__.
+      markup_url: Plugin-merkinnän URL-osoite
+      markup_url_hint: Lisätietoja näytön luomisesta __täältä__.
+      no_screen_padding: Ei näytön pehmustusta
+      no_screen_padding_hint: Poistaa ulomman täytteen koko näytön tilassa.
+      uninstallation_webhook_url: Poistamisen webhook-URL-osoite
+    edit:
+      title: Muokkaa laajennusta
+      tagline: Päivitä laajennuksen tiedot.
+      name: Nimi
+      description: Kuvaus
+    mondrian:
+      common:
+        view: Näytä
+    recipes:
+      recipe_lander:
+        preview: Esikatselu
+  plugin_recipes:
+    connected: Resepti liitetty
+    connections:
+      one: Yhteys
+      other: Yhteydet
+    forks:
+      one: Haarukka
+      other: Haarukat
+    new:
+      error: Reseptiä ei löytynyt
+  plugin_settings:
+    active: Aktiivinen
+    copy_are_you_sure: Haluatko varmasti kopioida tämän asetuksen?
+    delete_are_you_sure: Haluatko varmasti poistaa tämän asetuksen?
+    delete: Tämä poistaa plugin-asetukset kokonaan. Jos haluat vain piilottaa tämän plugin-ohjelman laitteeltasi, poista se sen sijaan soittolistastasi.
+    inactive: Ei aktiivinen
+    no_plugin_settings_found: Plugin-asetuksia ei löytynyt.
+    not_supported: Ei tuettu nykyisellä laitteella
+    refreshing_now_please_wait: Päivitetään nyt, lataa tämä sivu uudelleen muutaman sekunnin kuluttua.
+    reset_credentials: "%{plugin_name} -tilin palautus onnistui"
+    form:
+      active_hint: Näytä tai piilota tämä laajennus laitteellasi
+      advanced_settings: Lisäasetukset
+      back_to_playlist: Takaisin soittolistaan
+      back_to_plugin: Takaisin %{plugin}
+      back_to_plugins: Takaisin laajennuksiin
+      connect_with: Yhdistä %{plugin}
+      debug_logs: Virheenkorjauslokit
+      debug_logs_click_here: Klikkaa tästä
+      debug_logs_click_here_hint: ota käyttöön tämän laajennuksen vianmääritys-lokit.
+      debug_logs_enabled: Debug-lokit käytössä %{hours} tuntia.
+      debug_logs_enabled_link: Tarkastele lokitietoja
+      disconnect_account: Katkaise yhteys tiliin
+      manage_plugin: Määritä %{plugin}
+      force_refresh: Pakota päivitys
+      force_refresh_hint: Tämä ominaisuus on tarkoitettu vain testaukseen – älä käytä sitä väärin.
+      force_refresh_click_here: Klikkaa tästä
+      force_refresh_click_here_hint: luoda uusi näyttö välittömästi
+      force_refresh_not_possible: Tätä laajennusta ei voi päivittää pakotetusti, koska TRMNL-palvelin ei suorita kuvankäsittelyä. Opi testaamaan instanssisi __täältä__.
+      learn_more: Lue lisää tästä laajennuksesta tietokannastamme.
+      learn_more_fork: Tämä laajennus on haarautunut reseptistä.
+      learn_more_fork_original: Katso alkuperäinen
+      learn_more_native_long: Tämä laajennus on TRMNL:n kehittämä ja ylläpitämä.
+      learn_more_native_short: Tämän laajennuksen ylläpidosta vastaa TRMNL.
+      learn_more_recipe_author: Tarvitsetko apua? Ota yhteyttä %{recipe_author} Discordissa.
+      learn_more_recipe_long: Tämä laajennus on yhteisön resepti, jota TRMNL ei ylläpidä.
+      learn_more_recipe_short: 'Huomaa: tämä laajennus on resepti.'
+      learn_more_third_party_long: Tämä laajennus on kolmannen osapuolen tuottama, eikä TRMNL ylläpidä sitä.
+      learn_more_third_party_short: 'Huomaa: tämä laajennus on kolmannen osapuolen tuottama.'
+      linked_account: Yhdistetty tili
+      linked_account_success: Yhdistetty onnistuneesti %{plugin_name}
+      link_oauth: Linkitä tili
+      link_oauth_hint: Ennen kuin jatkat, noudata %{plugin} -laajennuksen tarjoamaa turvallista valtuutusprosessia.
+      mirrored: Peilattu
+      multiple_instances_hint: Tämä laajennus tukee useita instansseja.
+      name: Nimi
+      name_hint: Anna sille nimi, jotta se on helppo löytää.
+      parse: Jäsentää
+      parse_save_first: Jäsennä (tallenna ensin laajennus)
+      parsed: Jäsennelty
+      plugin_uuid: Plugin UUID
+      plugin_uuid_hint: Käytä tätä Webhook API -pyyntöjen tekemiseen.
+      preview: Esikatselu - laitteesi näyttää todelliset tiedot
+      recipe_cta_heading_published: Tämä laajennus on julkinen.
+      recipe_cta_heading_unlisted: Tämä laajennus ei ole listattu.
+      recipe_cta_heading_in_review: Plugin arvioitavana
+      recipe_cta_heading_not_published: Julkaise laajennus?
+      recipe_cta_body_published: Muutokset näkyvät nykyisissä asennuksissa ja tulevissa asennuksissa/haarukoissa.
+      recipe_cta_body_in_review: Tämä laajennus on lähetetty tiimillemme. Odota hetki.
+      recipe_cta_body_not_published: Lähetä tämä laajennus muiden asennettavaksi. __Lisätietoja__.
+      recipe_cta_confirm: Oletko varma? Tiimimme tarkistaa pyyntösi ja ottaa sinuun yhteyttä muutaman päivän kuluessa. Voit jatkaa muutosten tekemistä.
+      recipe_mirrored: Tämä näyttö on kopioitu reseptistä.
+      recipe_visibility_title: Miten haluaisit julkaista?
+      recipe_visibility_edit_title: Muokkaa lähetystä
+      recipe_visibility_public: Julkinen
+      recipe_visibility_public_hint: Kuka tahansa voi löytää ja asentaa.
+      recipe_visibility_private: Yksityinen
+      recipe_visibility_private_hint: Keskeyttää ulkoiset asennukset.
+      recipe_visibility_unlisted: Ei listattu
+      recipe_visibility_unlisted_hint: Kuka tahansa, jolla on linkki, voi asentaa sen.
+      refresh_rate: Päivittymistiheys
+      refresh_rate_hint: Määritä, kuinka usein tämä laajennus hakee uusia tietoja
+      refresh_rate_not_configurable: Synkronoi %{refresh_rate} (ei konfiguroitavissa)
+      refreshed: Päivitetty
+      remove_plugin: Poista laajennus
+      remove_plugin_hint: Pluginin poistaminen poistaa sen myös soittolistastasi.
+      synced: Synkronoitu
+      refresh_paused: Päivitä keskeytetty
+      refresh_paused_hint: Automaattinen päivitys on keskeytetty. Lisää soittolistaan aloittaaksesi uudelleen.
+      refresh_paused_hidden_hint: Automaattinen päivitys on keskeytetty, koska laajennus on piilotettu soittolistassa. Tietojen synkronointi on aktiivinen.
+      refresh_paused_mashup: Virkistävät mashupit
+      refresh_paused_mashup_hint: Automaattinen päivitys keskeytetty koko näytön tilassa. Mashupit päivittyvät.
+      refresh_stopped: Automaattinen päivitys on pysähtynyt. Korjaa laajennuksen virhe jatkaaksesi.
+      view_recipe: Katso resepti
+      visit_docs: Käy Docsissa
+    import:
+      archive_too_large: ZIP-tiedosto on liian suuri (%{max_mb} MB maksimikoko)
+      missing_entry: ZIP-tiedosto ei sisällä %{tiedostonimi}
+      entry_too_large: "%{tiedostonimi} on liian suuri"
+      malformed: "%{tiedostonimi} on virheellinen"
+    create:
+      success: Plugin luotu ja lisätty
+      playlist: soittolista
+    destroy:
+      success: Laajennus poistettu
+    handle_canceled_consent: Suostumus peruutettu, yritä uudelleen
+    update:
+      success: Pluginin asetukset päivitetty onnistuneesti
+    add_to_playlist:
+      success: Plugin lisätty soittolistaan
+    back_button:
+      back_to_plugin: Takaisin laajennukseen
+      back_to_plugins: Takaisin laajennuksiin
+    index:
+      no_plugin_settings_found: Plugin-asetuksia ei löytynyt
+    playlist: Soittolista
+    success: Menestys
+  referral_code:
+    create:
+      request_received: Pyyntö vastaanotettu, tarkista sähköpostisi
+    request_received: Pyyntö vastaanotettu
+  recipes:
+    index:
+      newest_to_oldest: Uusin vanhimpaan
+      oldest_to_newest: Vanhimmasta uusimpaan
+      most_popular: Suosituimmat
+      install: Asenna
+      fork: Haarukka
+  schedules:
+    form:
+      add: Lisää mukautettu aikataulu
+      append: Ja aikana…
+      no_schedule: Tämä näyttö on näkyvissä koko ajan.
+      some_schedule: Näytä tämä näyttö vain...
+      to: kohteeseen
+      copy_prompt: Kopioi aikataulu…
+      cancel: Peruuta
+      save: Tallenna
+  upgrade:
+    index:
+      title: 'Laitteen päivittäminen:'
+      tagline: Avaa mukautetut laajennukset ja __more__.
+      pay: Palkka
+      error: Laite %{device_name} on jo päivitetty, vaihda toiseen laitteeseen
+    confirm:
+      success: Kehittäjäversio-lisäosa on nyt käytössä
+  action: Toiminta
+  actions: Toimet
+  active_admin:
+    blank_slate:
+      content: Sisältö
+      link: Linkki
+    comments:
+      add: Lisää
+      author_missing: Kirjoittaja puuttuu
+      delete: Poista
+      delete_confirmation: Poista vahvistus
+      no_comments_yet: Ei vielä kommentteja
+    devise: Kehittää
+    logout: Kirjaudu ulos
+    pagination:
+      empty: Tyhjä
+      next: Seuraava
+      previous: Edellinen
+    powered_by: Powered by
+  date:
+    abbr_day_names: Lyhenteet päivän nimille
+    day_names: Päivän nimet
+  default: Oletus
+  default_webhook_rate_limit: Oletusarvoinen webhook-nopeusrajoitus
+  developer_edition_addon_amount: Kehittäjäversio lisäosan määrä
+  duration: Kesto
+  errors:
+    messages:
+      not_saved: Ei tallennettu
+  fetch: Hae
+  framework:
+    responsive_test:
+      example-size-btn: Esimerkki-koko-btn
+      test-config-btn: Testausasetukset-painike
+  id: Id
+  ignore_log_messages: Ohita lokiviestit
+  ignore_logs: Ohita lokit
+  maintenance_mode: Huolto-tila
+  mashup_id: Mashup-tunnus
+  mashups:
+    mashup:
+      add_to_playlist: Lisää soittolistaan
+  month: Kuukausi
+  name: Nimi
+  order_number: Tilausnumero
+  plus_webhook_rate_limit: Plus-webhook-nopeusrajoitus
+  primary: Ensisijainen
+  public: Julkinen
+  query: Kysely
+  rolling_month: Rullaava kuukausi
+  rolling_week: Viikko
+  schedule: Aikataulu
+  shop_promotion: Kaupan mainonta
+  site_banner: Sivuston banneri
+  site_banner_link: Sivuston bannerilinkki
+  sleep_mode_enabled: Lepotila käytössä
+  title: Otsikko
+  today_only: Vain tänään
+  value: Arvo
+  views:
+    pagination:
+      truncate: Katkaise
+  visible: Näkyvä
+  week: Viikko
+  work_week: Työviikko

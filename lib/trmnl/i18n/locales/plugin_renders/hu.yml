@@ -26,49 +26,49 @@ hu:
         third_quarter: Utolsó negyed
         waning_crescent: Fogyó holdsarló
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo Időjárás
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Beltéri hőmérséklet
+      indoor_temp_short: Beltéri
+      indoor_humidity: Beltéri páratartalom
+      indoor_humidity_short: Beltéri Hum.
+      outdoor_humidity: Külső páratartalom
+      outdoor_humidity_short: Kint. Hm.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
+      pressure: Nyomás
+      noise: Zaj
       min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
+      feels: Érzés
+      rain: Eső
+      wind: Szél
       gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      default_station_name: Netatmo állomás
+      default_outdoor_module: Külső hőmérséklet
+      default_indoor_module: Beltéri
+      trends_title: "%{metrikus} Trendek"
+      trends_title_short: Trendek
+      temperature_trends: Hőmérsékleti trendek
+      temperature_trends_short: Hőmérsékleti trendek
+      outdoor_now: Kültéri most
+      indoor_now: Beltéri most
+      now: Most
+      low_high_24h: 24 órás minimum/maximum
+      average_24h: 24 órás átlag
+      outdoor: Kültéri
+      indoor: Beltéri
+      rain_gauge_not_connected: Esőmérő nincs csatlakoztatva
+      wind_gauge_not_connected: Szélmérő nincs csatlakoztatva
+      no_rain_gauge: Nincs esőmérő
+      no_wind_gauge: Nincs szélmérő
+      add_module_hint: Adja hozzá az opcionális %{module} modult, hogy megtekintse ezeket az adatokat.
+      range_24h: 24 órás hatótávolság
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Hiányzó hozzáférési token. Kérjük, csatlakozzon újra Netatmo fiókjához.
+        no_station_selected: Nincs kiválasztott meteorológiai állomás. Kérjük, válasszon ki egy állomást a beállításokban.
+        connection_failed: Nem lehet csatlakozni a Netatmo állomáshoz. Kérjük, ellenőrizze az internetkapcsolatát.
+        data_retrieval_failed: Az időjárási adatok lekérése nem sikerült. Kérjük, próbálkozzon újra később.
+        session_expired: A munkamenet lejárt. Kérjük, csatlakozzon újra Netatmo-fiókjához a beállítások menüben.
     parcel:
       delivery_by: Kézbesítés ekkorra
       empty: Nincsenek kézbesítések
@@ -112,20 +112,20 @@ hu:
       max: Max
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Tiszta
+          cloudy: Felhős
+          foggy: Ködös
+          partly_cloudy: Részben felhős
+          rain_likely: Eső valószínű
+          rain_possible: Eső lehetséges
+          snow: Hó
+          snow_possible: Hó eshet
+          thunderstorms_likely: Zivatarok valószínűek
+          thunderstorms_possible: Zivatarok lehetségesek
+          very_light_rain: Nagyon enyhe eső
+          windy: Szeles
+          wintry_mix_likely: Téli keverék valószínű
+          wintry_mix_possible: Téli keverék lehetséges
       weatherapi:
         uv:
           low: Alacsony

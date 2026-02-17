@@ -1,0 +1,209 @@
+---
+el:
+  custom_plugins:
+    today: σήμερα
+    tomorrow: αύριο
+    updated: Ενημερώθηκε
+    activity: Δραστηριότητα
+    done: Έγινε
+    due: Λήξη
+    deutsche_bahn_departures:
+      departures: Αναχωρήσεις
+      time: Χρόνος
+      line: Γραμμή
+      destination: Προορισμός
+      platform: Πλατφόρμα
+      delay: Καθυστέρηση
+      train: Τρένο
+      on_time: Στην ώρα τους
+      cancelled: Ακυρώθηκε
+      minutes: μ
+      refreshed: Ανανεωμένο
+    simple_calendar:
+      title: Ημερολόγιο
+      ym_format: "%B %Y"
+      chinese_korean:
+        leap_format: Άλμα %{month_label}
+        leap_format_short: LM%{alt_month}
+        ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
+        month_labels:
+        -
+        - M1
+        - M2
+        - M3
+        - M4
+        - M5
+        - M6
+        - M7
+        - M8
+        - M9
+        - M10
+        - M11
+        - M12
+        date_labels:
+        -
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+        - '14'
+        - '15'
+        - '16'
+        - '17'
+        - '18'
+        - '19'
+        - '20'
+        - '21'
+        - '22'
+        - '23'
+        - '24'
+        - '25'
+        - '26'
+        - '27'
+        - '28'
+        - '29'
+        - '30'
+        heavenly_stems:
+        - Wood
+        - Wood
+        - Fire
+        - Fire
+        - Earth
+        - Earth
+        - Metal
+        - Metal
+        - Water
+        - Water
+        earthly_branches:
+        - Rat
+        - Ox
+        - Tiger
+        - Rabbit
+        - Dragon
+        - Snake
+        - Horse
+        - Goat
+        - Monkey
+        - Rooster
+        - Dog
+        - Pig
+      japanese:
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 仏滅
+        - 大安
+        - 赤口
+        nengo:
+          reiwa: Reiwa
+        ym_format: "%B %Y (%{nengo} %{alt_year})"
+        year_1: '1'
+      hebrew:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        - Nisan
+        - Iyar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tishri
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
+        month_labels_abbr:
+        - Nis
+        - Iya
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tis
+        - Hes
+        - Kis
+        - Tev
+        - Shv
+        - Ada
+        - Ad1
+        - Ad2
+      hijri:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Muharram
+        - Safar
+        - Rabiʻ I
+        - Rabiʻ II
+        - Jumada I
+        - Jumada II
+        - Rajab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
+        - Dhuʻl-Qiʻdah
+        - Dhuʻl-Hijjah
+      bengali:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
+      indian:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
+        - Asadha
+        - Sravana
+        - Bhadra
+        - Asvina
+        - Kartika
+        - Agrahayana
+        - Pausa
+        - Magha
+        - Phalguna
+    public_recipe_stats:
+      connections: ".input {$value :number} .match $value zero {{Καμία σύνδεση}} one {{{$value :number} σύνδεση}} * {{{$value :number} συνδέσεις}}"
+      forks: ".input {$value :number} .match $value zero {{Χωρίς πιρούνι}} one {{{$value :number} πιρούνι}} * {{{$value :number} πιρούνια}}"
+      installs: ".input {$value :number} .match $value zero {{Χωρίς εγκατάσταση}} one {{{$value :number} εγκατάσταση}} * {{{$value :number} εγκαταστάσεις}}"
+      and_more: και {$value :number} περισσότερα
+      error_keyword_title: Το «{$keyword}» δεν αντιστοιχεί σε κανένα αποτέλεσμα.
+      error_keyword_subtitle: Δοκιμάστε να αναζητήσετε κάτι άλλο.
+      error_new_title: Δεν βρέθηκε καμία νέα συνταγή.
+      error_new_subtitle: Αυτό δεν πρέπει να συμβεί.
+      error_self_title: Δεν δημοσιεύσατε καμία συνταγή.
+      error_self_subtitle: Μάθετε πώς να δημοσιεύσετε το πρώτο σας άρθρο στο https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Ο χρήστης #{$authorId} δεν δημοσίευσε καμία συνταγή.'
+      error_author_id_subtitle: Δεν βρέθηκε συνταγή που να σχετίζεται με αυτό το αναγνωριστικό.
+      error_recipe_ids_title: Δεν βρέθηκε κανένας κωδικός συνταγής.
+      error_recipe_ids_subtitle: Προσθέστε ένα αναγνωριστικό συνταγής για να ξεκινήσετε.
+    horizontal_world_clock:
+      name: Παγκόσμιο ρολόι
+    language_learning_sentences:
+      from_to: Από {$from :langName} σε {$to :langNameList}

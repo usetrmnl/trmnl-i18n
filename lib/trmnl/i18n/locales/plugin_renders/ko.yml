@@ -9,93 +9,93 @@ ko:
       days_left: 남은 날
     lunar_calendar:
       title: 음력
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
+      age: 달의 시대
+      current_phase: 현재 단계
+      illumination: 달빛
+      next_full_moon: 다음 보름달
+      next_new_moon: 다음 보름달
       next_phase: 다음 단계
       next_phase_short: 다음
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: 신월
+        waxing_crescent: 초승달
+        first_quarter: 1분기
+        waxing_gibbous: 보름달이 차오르는 달
+        full_moon: 보름달
+        waning_gibbous: 쇠퇴하는 보름달
+        third_quarter: 3분기
+        waning_crescent: 쇠퇴하는 초승달
     netatmo_weather_station:
-      title: Netatmo Weather
-      title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
-      co2: CO₂
-      co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      title: 네타트모 날씨
+      title_short: 네타트모
+      indoor_temp: 실내 온도
+      indoor_temp_short: 실내
+      indoor_humidity: 실내 습도
+      indoor_humidity_short: 실내 습도
+      outdoor_humidity: 실외 습도
+      outdoor_humidity_short: 나가. 흠.
+      co2: 이산화탄소
+      co2_ppm: 이산화탄소 ppm
+      pressure: 압력
+      noise: 소음
+      min_max: 최소/최대
+      feels: 느낌
+      rain: 비
+      wind: 바람
+      gust: 돌풍
+      default_station_name: 네타트모 스테이션
+      default_outdoor_module: 실외 온도
+      default_indoor_module: 실내
+      trends_title: "%{metric} 추세"
+      trends_title_short: 트렌드
+      temperature_trends: 온도 추이
+      temperature_trends_short: 온도 추세
+      outdoor_now: 아웃도어 나우
+      indoor_now: 실내 지금
+      now: 지금
+      low_high_24h: 24시간 최저 / 최고
+      average_24h: 24시간 평균
+      outdoor: 야외
+      indoor: 실내
+      rain_gauge_not_connected: 우량계가 연결되지 않았습니다
+      wind_gauge_not_connected: 풍속계가 연결되지 않았습니다
+      no_rain_gauge: 비 측정기 없음
+      no_wind_gauge: 풍속계 없음
+      add_module_hint: 이 데이터를 보려면 선택적 %{module} 모듈을 추가하십시오
+      range_24h: 24시간 범위
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: 액세스 토큰이 누락되었습니다. Netatmo 계정을 다시 연결해 주세요.
+        no_station_selected: 선택된 기상 관측소가 없습니다. 설정에서 관측소를 선택해 주세요.
+        connection_failed: Netatmo 스테이션에 연결할 수 없습니다. 인터넷 연결을 확인해 주세요.
+        data_retrieval_failed: 날씨 데이터를 가져올 수 없습니다. 나중에 다시 시도해 주세요.
+        session_expired: 세션이 만료되었습니다. 설정에서 Netatmo 계정을 다시 연결해 주세요.
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: 배송 방법
+      empty: 배송이 없습니다
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: 소포 API 오류
+        http: HTTP 오류 %{code}
+        internal: 내부 오류
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: 능동적 전달
+          other: 활성 배송
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: 최근 배송
+          other: 최근 배송 내역
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: 전달됨
+        delivery_exception: 배송 예외
+        expecting_pickup: 픽업 예정
+        failed_delivery_attempt: 배송 시도 실패
+        frozen: 겨울왕국
+        in_transit: 이동 중
+        information_received: 수신 정보
+        not_found: 찾을 수 없음
+        out_for_delivery: 배달 중
+        unknown: 알 수 없음
+      today: 오늘
+      tomorrow: 내일
     weather:
       title: 날씨
       temperature: 온도
@@ -107,32 +107,32 @@ ko:
       right_now: 지금
       today: 오늘
       tomorrow: 내일
-      low_high_short: L/H
+      low_high_short: 좌/우
       uv_short: UV
-      max: Max
+      max: 맥스
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: 맑음
+          cloudy: 흐림
+          foggy: 안개 낀
+          partly_cloudy: 부분적으로 흐림
+          rain_likely: 비가 올 가능성이 있습니다
+          rain_possible: 비가 올 수 있음
+          snow: 눈
+          snow_possible: 눈이 올 수 있음
+          thunderstorms_likely: 천둥번개를 동반한 소나기가 내릴 가능성이 있습니다.
+          thunderstorms_possible: 천둥번개를 동반한 소나기가 내릴 수 있습니다.
+          very_light_rain: 아주 가랑비
+          windy: 바람 부는
+          wintry_mix_likely: 눈과 비가 섞인 날씨 예상
+          wintry_mix_possible: 눈과 비가 섞인 날씨 가능성
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: 낮음
+          moderate: 중간
+          high: 높음
+          very_high: 매우 높음
+          extreme: 극한
         conditions:
         - code: 1000
           day: Sunny

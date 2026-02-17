@@ -147,7 +147,7 @@ zh-HK:
         ym_format: "%Y年 (%{nengo}%{alt_year}年) %-m月"
         year_1: 元
       hebrew:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{月份標籤} %{替代年份}"
         month_labels:
         - Nisan
         - Iyar
@@ -179,7 +179,7 @@ zh-HK:
         - Ad1
         - Ad2
       hijri:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{月份標籤} %{替代年份}"
         month_labels:
         -
         - Muharram
@@ -195,7 +195,7 @@ zh-HK:
         - Dhuʻl-Qiʻdah
         - Dhuʻl-Hijjah
       bengali:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{月份標籤} %{替代年份}"
         month_labels:
         -
         - Boishakh
@@ -211,7 +211,7 @@ zh-HK:
         - Falgun
         - Choitro
       indian:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format: ", %{月份標籤} %{替代年份}"
         month_labels:
         -
         - Chaitra
@@ -229,19 +229,19 @@ zh-HK:
     public_recipe_stats:
       connections: "{$value :number} 個連接"
       forks: "{$value :number} 個分叉"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{無需安裝}} one {{{$value :number} 次安裝}} * {{{$value :number} 次安裝}}"
       and_more: 還有 {$value :number} 個
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.usetrmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: "“{$關鍵字}”未找到任何結果。"
+      error_keyword_subtitle: 試著搜尋其他內容。
+      error_new_title: 未找到新食譜。
+      error_new_subtitle: 這種事不該發生。
+      error_self_title: 您尚未發佈任何食譜。
+      error_self_subtitle: 了解如何發佈您的第一篇作品：https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: '使用者 #{$authorId} 尚未發佈任何食譜。'
+      error_author_id_subtitle: 未找到與此識別碼相關的食譜。
+      error_recipe_ids_title: 未找到食譜編號。
+      error_recipe_ids_subtitle: 添加食譜ID以開始使用。
     horizontal_world_clock:
-      name: World clock
+      name: 世界時鐘
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: 從 {$from :langName} 到 {$to :langNameList}

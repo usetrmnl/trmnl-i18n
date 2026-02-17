@@ -1,23 +1,23 @@
 ---
 ru:
   locale_name: Русский
-  about: About
+  about: О нас
   add: Добавить
   add_new: Добавить новый
   ago: назад
   already_have_account: У меня уже есть учётная запись
-  are_you_sure: Are you sure?
+  are_you_sure: Ты уверен?
   back: Назад
   back_to_all_blog_posts: Назад ко всем записям в блоге
   blog: Блог
-  brand: Brand
+  brand: Бренд
   buy_now: Купить сейчас
   cancel: Отмена
   change_password: Изменить пароль
   charge_level: Уровень заряда
   charged: заряжено
   charging: Зарядка
-  claim_plus_trial: Claim 6 Months Free
+  claim_plus_trial: Получи 6 месяцев бесплатно
   close: Закрыть
   confirm_change_password: Изменить мой пароль
   confirm_password: Подтвердите новый пароль
@@ -29,7 +29,7 @@ ru:
   current_device: Текущее устройство
   days: дней
   delete: Удалить
-  developers: Developers
+  developers: Разработчики
   developer_edition_required: Для включения этой функции требуется версия для разработчиков.
   device_id: ID устройства
   device: Устройство
@@ -42,7 +42,7 @@ ru:
   forgot_password_title: И вот опять
   friendly_id: Дружелюбный ID
   get_started: Давайте начнём!
-  hidden: hidden
+  hidden: скрытый
   identify: Идентифицировать
   import: Импорт
   import_new: Импортировать новый
@@ -62,29 +62,29 @@ ru:
   password: Пароль
   please_wait: Пожалуйста, подождите…
   plugin_not_found: Плагин не найден
-  preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
+  preview: Предварительный просмотр
+  privacy: Конфиденциальность
+  refresh_rate: Частота обновления
   refresh_rates_hint: Узнайте, как работает частота обновления __здесь__.
   reset_password: Сбросить мой пароль
-  reset_to_defaults: Reset to defaults
-  required: Required
+  reset_to_defaults: Сбросить до настроек по умолчанию
+  required: Обязательно
   save: Сохранить
-  shown: shown
+  shown: показанный
   section: Раздел
   settings: Настройки
   sign_in: Войти
   sign_up: Зарегистрироваться
   something_went_wrong: Что-то пошло не так
-  status: Status
+  status: Статус
   subscribe: Подписаться
   help_center: Поддержка
-  terms: Terms
+  terms: Условия
   update: Обновить
   view: Просмотр
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: Хочешь поработать вместе?
+  collaboration_request_hint: Партнерства, групповые продажи, специальные проекты — решай сам.
+  collaboration_request_cta: Давай поболтаем
   welcome: Добро пожаловать
   time:
     formats:
@@ -122,7 +122,7 @@ ru:
       disable_2fa: Отключить 2FA
       disable_2fa_hint: Введите действительный OTP и текущий пароль выше, чтобы отключить эту функцию.
       plus_subscription: Подписка TRMNL+
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
+      plus_subscription_trial_until: У тебя бесплатная пробная версия до %{plus_trial_end_at}.
       plus_subscription_hint: Разблокируйте более высокую частоту обновления и ограничения. __Узнать больше__.
       plus_subscription_modify: Хотите обновить способ оплаты или отменить?
       session: Сессия
@@ -133,10 +133,13 @@ ru:
       time_zone_hint: Определяет частоту обновления и время сна устройства.
       locale: Язык
       locale_hint: Какой язык и локализацию вы предпочитаете? __Перейдите сюда__.
+      theme: Внешний вид
+      theme_hint: Выбери, как TRMNL будет выглядеть для тебя. Выбери тему или синхронизируй с настройками своей системы.
     update:
       success: Профиль успешно обновлён
     reset_api_key:
       success: API-ключ успешно перегенерирован
+    success: Успех
   dashboard:
     index:
       title: Панель управления
@@ -176,11 +179,11 @@ ru:
       accepts_beta_firmware: Ранний доступ к прошивке
       accepts_beta_firmware_hint: Включите, чтобы получать последние улучшения прошивки устройства раньше других пользователей.
       back_to_devices: Назад к устройствам
-      battery_and_sleep: Battery & Sleep
+      battery_and_sleep: Батарея и режим сна
       battery_consumption: Потребление батареи
       battery_consumption_hint: Сэкономьте энергию и продлите время работы батареи, включив спящий режим.
       battery_learn_more: Узнайте больше о зарядке батареи __здесь__.
-      battery_refresh: Refresh
+      battery_refresh: Обновить
       developer_perks: Преимущества для разработчиков
       developer_perks_hint: Для следующих опций требуется __дополнение для разработчиков__.
       device_credentials: Учётные данные устройства
@@ -190,21 +193,21 @@ ru:
       device_model: Модель устройства
       device_model_hint: Ваша аппаратная модель
       device_model_switch_warning: Это опасная операция, узнайте больше __здесь__
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_info: Информация об устройстве
+      current_firmware: Текущая прошивка
+      last_ping: Последний пинг
+      unknown: Неизвестно
+      never: Никогда
+      display_calibration: Настройка дисплея
+      display_calibration_hint: Настрой рендеринга для твоего дисплея. Оставь поле пустым, чтобы использовать настройки по умолчанию.
+      display_calibration_pixel_ratio: Соотношение пикселей
+      display_calibration_pixel_ratio_hint: 'Уровень увеличения изображения (0,5–3,0). По умолчанию:'
+      display_calibration_ui_scale: Масштаб пользовательского интерфейса
+      display_calibration_ui_scale_hint: 'Размеры текста и элементов (0,5–2,0). По умолчанию:'
       edit_device: Редактировать устройство
-      firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
+      firmware: Прошивка
+      firmware_updates_enabled: Обновления включены
+      firmware_updates_disabled: Обновления отключены
       guest_mode: Гостевой режим
       guest_mode_hint: Выберите, что отображать (и на какой срок) при включении гостевого режима.
       guest_mode_item_placeholder: Выберите элемент
@@ -219,8 +222,8 @@ ru:
       mirror: Зеркалирование
       mirror_device: Зеркалировать другое устройство
       mirror_device_hint: Укажите (общий) идентификатор устройства для зеркалирования его плейлиста. Ваш плейлист по-прежнему будет отображаться.
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
+      mirror_disabled: Зеркальное отображение отключено
+      mirror_enabled: Зеркальное отображение
       mirror_stop: Отключить зеркалирование
       mirror_sync: Синхронизировать экраны
       ota_enabled: Обновления OTA включены
@@ -228,8 +231,8 @@ ru:
       ota_byod_not_supported: OTA не поддерживается для устройств BYOD. Прошейте совместимую версию прямо с usetrmnl.com/flash
       maximum_compatibility: Включить максимальную совместимость
       maximum_compatibility_hint: Устраняет проблемы с отображением, вызванные некоторыми чипами драйверов e-ink. Отключает быстрое обновление. Требуется прошивка 1.6.0+.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette: Цветовая палитра
+      palette_hint: Выбери набор цветов, который будет использоваться при создании экранов для этого устройства. Большая палитра выглядит лучше, но меньшая палитра быстрее рисуется на экране e-ink. Отдельные элементы плейлиста могут переопределять этот параметр.
       sleep_mode: Спящий режим
       sleep_mode_hint: Настройте частоту обновления для оптимизации фокусировки и времени автономной работы.
       sleep_screen: Экран сна
@@ -240,11 +243,11 @@ ru:
       special_function_learn_more: Узнайте больше о специальных функциях __здесь__.
       temperature_profile: Температурный профиль
       temperature_profile_hint: Не изменяйте, если не указано иное. Для дисплеев с выцветшими изображениями.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
+      tidbyt_credentials: Учетные данные Tidbyt
+      tidbyt_credentials_hint: Введи данные для входа в API твоего устройства Tidbyt из приложения Tidbyt в разделе «Настройки» → «Разработчик» → «Получить ключ API».
+      tidbyt_credentials_invalid: Учетные данные Tidbyt API не подходят. Проверь их еще раз и попробуй снова.
+      tidbyt_device_id: Идентификатор устройства
+      tidbyt_device_api_key: Ключ API
       unlink: Отвязать
       unlink_confirm: Вы уверены? Это приведет к удалению всех основных настроек плагинов и элементов плейлиста, чтобы устройство можно было добавить в другую учётную запись.
       unlink_device: Отвязать устройство
@@ -259,6 +262,7 @@ ru:
         warning_1: Я понимаю, что это обновление <strong>необратимо</strong> и не может быть отменено.
         warning_2: Я понимаю, что это <strong>опасное</strong> действие и может привести к «окирпичиванию» моего устройства.
         cta: Обновить до TRMNL OG (2-бит)
+      tidbyt_api_key: Ключ API Tidbyt
     index:
       title: Устройства
       tagline: Ваши устройства TRMNL
@@ -275,8 +279,8 @@ ru:
       error: Ошибка отключения устройства
       success: Устройство успешно отвязано
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: Неправильные данные для входа на устройстве
+      success: Учетные данные устройства обновлены без проблем
     identify:
       error: Ошибка обновления устройства
       success: Запрошена идентификация устройства
@@ -292,6 +296,11 @@ ru:
     update:
       error: Ошибка обновления устройства
       success: Настройки устройства "%{device}" успешно обновлены
+    error: Ошибка
+    error_not_shared: Ошибка не разделена
+    error_oneself: Ошибаться
+    success: Успех
+    success_removed: Удаление успеха
   invoices:
     rate_limit: Слишком много попыток, подождите и попробуйте ещё раз
     invoice_not_found: Счёт-фактура не найдена
@@ -330,6 +339,7 @@ ru:
       revert_confirm: Вы уверены, что хотите отменить? Все несохраненные изменения будут потеряны.
       save_changes: Сохранить изменения (⌘﹢S)
       separate_preview: Предпросмотр открыт в отдельном окне
+      edit_composition: Редактировать состав
     merge_variables:
       your_variables: Ваши переменные
     no_merge_variables:
@@ -354,6 +364,8 @@ ru:
       reset_instructions: Нажмите кнопку на задней панели вашего TRMNL, чтобы сгенерировать код сброса
       success: 2FA успешно
       error: Неверный код OTP
+    enable_otp_path:
+      already_enabled: Уже включено
   playlist_items:
     index:
       title: Плейлист
@@ -384,11 +396,11 @@ ru:
       hide_playlist: Скрыть этот элемент
       show_playlist: Показать этот элемент
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: Частоту обновления этого плагина нельзя настроить.
+        external: Этот плагин получает данные на лету, поэтому настройки частоты обновления не работают.
+        global: Этот плагин обновляется по всей платформе по фиксированному расписанию.
+        mashup: Машап будет обновляться так же часто, как и самый быстрый плагин.
+        readonly: У этого плагина фиксированная частота обновления, которую нельзя настроить.
     create:
       error: Не удалось обновить плейлист
       success: Плейлист обновлен
@@ -404,7 +416,12 @@ ru:
     set_preferences:
       success: Настройки умного плейлиста обновлены
     update:
-      success: Playlist order updated
+      success: Порядок плейлиста обновлен
+    error: Ошибка
+    playlist:
+      displayed_now: Сейчас на экране
+      not_displayed_yet: Пока не отображается
+    success: Успех
   plugins:
     index:
       title: Плагины
@@ -413,6 +430,7 @@ ru:
       connected: Подключено
       recipes: Рецепты
       recipes_hint: Приватные плагины от участников сообщества, которые можно установить в 1 клик. __Узнать больше__.
+      supported_by_this_device: Поддерживается этим устройством
     search:
       placeholder: Поиск плагинов
     my:
@@ -452,6 +470,12 @@ ru:
       tagline: Обновите данные вашего плагина.
       name: Название
       description: Описание
+    mondrian:
+      common:
+        view: Посмотреть
+    recipes:
+      recipe_lander:
+        preview: Предварительный просмотр
   plugin_recipes:
     connected: Рецепт подключен
     connections:
@@ -475,7 +499,7 @@ ru:
     form:
       active_hint: Показать или скрыть этот экземпляр плагина на вашем устройстве
       advanced_settings: Расширенные настройки
-      back_to_playlist: Back to Playlist
+      back_to_playlist: Вернуться к плейлисту
       back_to_plugin: Назад к %{plugin}
       back_to_plugins: Назад к плагинам
       connect_with: Подключиться с помощью %{plugin}
@@ -490,22 +514,22 @@ ru:
       force_refresh_hint: Эта функция предназначена только для тестирования - пожалуйста, не злоупотребляйте ей.
       force_refresh_click_here: Нажмите здесь
       force_refresh_click_here_hint: чтобы немедленно сгенерировать новый экран
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      force_refresh_not_possible: Этот плагин нельзя принудительно обновить, потому что сервер TRMNL не обрабатывает изображения. Узнайте, как протестировать свой экземпляр, __здесь__.
       learn_more: Узнайте больше об этом плагине в нашей базе знаний
       learn_more_fork: Этот плагин был форкнут из рецепта.
       learn_more_fork_original: Посмотреть оригинал
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
+      learn_more_native_long: Этот плагин создан и поддерживается TRMNL.
+      learn_more_native_short: Этот плагин поддерживается TRMNL.
       learn_more_recipe_author: Нужна помощь? Свяжитесь с %{recipe_author} в Discord.
       learn_more_recipe_long: Этот плагин является рецептом сообщества и не поддерживается TRMNL.
       learn_more_recipe_short: 'Примечание: этот плагин является рецептом.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
+      learn_more_third_party_long: Этот плагин сделали другие ребята, и TRMNL за ним не следит.
+      learn_more_third_party_short: 'Внимание: этот плагин от другой компании.'
       linked_account: Связанная учётная запись
       linked_account_success: Успешно связано с %{plugin_name}
       link_oauth: Связать учётную запись
       link_oauth_hint: Прежде чем продолжить, следуйте безопасному процессу авторизации, предоставленному %{plugin}
-      mirrored: Mirrored
+      mirrored: Зеркальное
       multiple_instances_hint: Этот плагин поддерживает несколько экземпляров.
       name: Название
       name_hint: Дайте ему название для удобства
@@ -523,7 +547,7 @@ ru:
       recipe_cta_body_in_review: Этот плагин был отправлен нашей команде. Ожидайте.
       recipe_cta_body_not_published: Отправьте этот плагин, чтобы другие могли его установить. __Узнать больше__.
       recipe_cta_confirm: Вы уверены? Наша команда рассмотрит и свяжется с вами в течение нескольких дней. Вы можете продолжать вносить изменения.
-      recipe_mirrored: This screen is mirrored from the recipe.
+      recipe_mirrored: Этот экран скопирован из рецепта.
       recipe_visibility_title: Как бы вы хотели опубликовать?
       recipe_visibility_edit_title: Редактировать отправку
       recipe_visibility_public: Публичный
@@ -545,7 +569,7 @@ ru:
       refresh_paused_mashup: Обновление мэшапов
       refresh_paused_mashup_hint: Автоматическое обновление приостановлено для полноэкранного режима. Мэшапы обновляются.
       refresh_stopped: Автоматическое обновление остановлено. Исправьте ошибку плагина, чтобы продолжить.
-      view_recipe: View Recipe
+      view_recipe: Посмотреть рецепт
       visit_docs: Посетить документацию
     import:
       archive_too_large: ZIP-файл слишком большой (максимум %{max_mb} МБ)
@@ -562,9 +586,17 @@ ru:
       success: Конфигурация плагина успешно обновлена
     add_to_playlist:
       success: Плагин добавлен в плейлист
+    back_button:
+      back_to_plugin: Назад к плагину
+      back_to_plugins: Назад к плагинам
+    index:
+      no_plugin_settings_found: Не нашел настройки плагина
+    playlist: Плейлист
+    success: Успех
   referral_code:
     create:
       request_received: Запрос получен, проверьте свой почтовый ящик
+    request_received: Получил запрос
   recipes:
     index:
       newest_to_oldest: От новых к старым
@@ -580,6 +612,8 @@ ru:
       some_schedule: Показывать этот экран только в это время…
       to: по
       copy_prompt: Копировать расписание из…
+      cancel: Отменить
+      save: Сохранить
   upgrade:
     index:
       title: 'Обновление устройства:'
@@ -588,3 +622,68 @@ ru:
       error: Устройство %{device_name} уже обновлено, переключитесь на другое устройство
     confirm:
       success: Дополнение для разработчиков теперь включено
+  action: Действие
+  actions: Действия
+  active_admin:
+    blank_slate:
+      content: Содержание
+      link: Ссылка
+    comments:
+      add: Добавить
+      author_missing: Автор отсутствует
+      delete: Удалить
+      delete_confirmation: Подтверждение удаления
+      no_comments_yet: Пока нет комментариев
+    devise: Придумать
+    logout: Выйти из системы
+    pagination:
+      empty: Пустой
+      next: Далее
+      previous: Раньше
+    powered_by: На базе
+  date:
+    abbr_day_names: Сокращенные названия дней недели
+    day_names: Названия дней
+  default: По умолчанию
+  default_webhook_rate_limit: Ограничение по умолчанию на количество веб-хуков
+  developer_edition_addon_amount: Сумма дополнения для разработчиков
+  duration: Продолжительность
+  errors:
+    messages:
+      not_saved: Не сохранен
+  fetch: Загрузить
+  framework:
+    responsive_test:
+      example-size-btn: Пример-размер-btn
+      test-config-btn: Кнопка «Тест-конфигурация»
+  id: Идентификатор
+  ignore_log_messages: Просто не обращай внимания на сообщения в журнале
+  ignore_logs: Просто не обращай внимания на эти записи
+  maintenance_mode: Режим обслуживания
+  mashup_id: Идентификатор машапа
+  mashups:
+    mashup:
+      add_to_playlist: Добавить в плейлист
+  month: Месяц
+  name: Имя
+  order_number: Номер заказа
+  plus_webhook_rate_limit: Плюс ограничение скорости веб-хуков
+  primary: Основной
+  public: Общественный
+  query: Запрос
+  rolling_month: Последовательный месяц
+  rolling_week: Неделя
+  schedule: Расписание
+  shop_promotion: Продвижение магазина
+  site_banner: Баннер сайта
+  site_banner_link: Ссылка на баннер сайта
+  sleep_mode_enabled: Спящий режим включен
+  title: Название
+  today_only: Только сегодня
+  value: Ценность
+  views:
+    pagination:
+      truncate: Усечь
+  visible: Видимый
+  week: Неделя
+  work_week: Рабочая неделя

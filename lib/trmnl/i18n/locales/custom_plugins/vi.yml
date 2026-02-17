@@ -1,0 +1,209 @@
+---
+vi:
+  custom_plugins:
+    today: hôm nay
+    tomorrow: ngày mai
+    updated: Cập nhật
+    activity: Hoạt động
+    done: Hoàn thành
+    due: Do
+    deutsche_bahn_departures:
+      departures: Khởi hành
+      time: Thời gian
+      line: Dòng
+      destination: Điểm đến
+      platform: Nền tảng
+      delay: Trì hoãn
+      train: Tàu hỏa
+      on_time: Đúng giờ
+      cancelled: Đã hủy
+      minutes: m
+      refreshed: Được làm mới
+    simple_calendar:
+      title: Lịch
+      ym_format: "%B %Y"
+      chinese_korean:
+        leap_format: Nhảy %{tháng_label}
+        leap_format_short: LM%{tháng thay thế}
+        ym_format: ", %{tháng nhuận} %{can chi thiên) %{can chi địa)"
+        month_labels:
+        -
+        - M1
+        - M2
+        - M3
+        - M4
+        - M5
+        - M6
+        - M7
+        - M8
+        - M9
+        - M10
+        - M11
+        - M12
+        date_labels:
+        -
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+        - '14'
+        - '15'
+        - '16'
+        - '17'
+        - '18'
+        - '19'
+        - '20'
+        - '21'
+        - '22'
+        - '23'
+        - '24'
+        - '25'
+        - '26'
+        - '27'
+        - '28'
+        - '29'
+        - '30'
+        heavenly_stems:
+        - Wood
+        - Wood
+        - Fire
+        - Fire
+        - Earth
+        - Earth
+        - Metal
+        - Metal
+        - Water
+        - Water
+        earthly_branches:
+        - Rat
+        - Ox
+        - Tiger
+        - Rabbit
+        - Dragon
+        - Snake
+        - Horse
+        - Goat
+        - Monkey
+        - Rooster
+        - Dog
+        - Pig
+      japanese:
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 仏滅
+        - 大安
+        - 赤口
+        nengo:
+          reiwa: Reiwa
+        ym_format: "%B %Y (%{nengo} %{alt_year})"
+        year_1: '1'
+      hebrew:
+        ym_format: Tháng %{month_label} Năm %{alt_year}
+        month_labels:
+        - Nisan
+        - Iyar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tishri
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
+        month_labels_abbr:
+        - Nis
+        - Iya
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tis
+        - Hes
+        - Kis
+        - Tev
+        - Shv
+        - Ada
+        - Ad1
+        - Ad2
+      hijri:
+        ym_format: Tháng %{month_label} Năm %{alt_year}
+        month_labels:
+        -
+        - Muharram
+        - Safar
+        - Rabiʻ I
+        - Rabiʻ II
+        - Jumada I
+        - Jumada II
+        - Rajab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
+        - Dhuʻl-Qiʻdah
+        - Dhuʻl-Hijjah
+      bengali:
+        ym_format: Tháng %{month_label} Năm %{alt_year}
+        month_labels:
+        -
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
+      indian:
+        ym_format: Tháng %{month_label} Năm %{alt_year}
+        month_labels:
+        -
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
+        - Asadha
+        - Sravana
+        - Bhadra
+        - Asvina
+        - Kartika
+        - Agrahayana
+        - Pausa
+        - Magha
+        - Phalguna
+    public_recipe_stats:
+      connections: ".input {$value :number} .match $value zero {{Không có kết nối}} one {{{$value :number} kết nối}} * {{{$value :number} kết nối}}"
+      forks: ".input {$value :number} .match $value zero {{Không có nĩa}} one {{{$value :number} nhánh}} * {{{$value :number} nhánh}}"
+      installs: ".input {$value :number} .match $value zero {{Không cần cài đặt}} one {{{$value :number} cài đặt}} * {{{$value :number} lượt cài đặt}}"
+      and_more: và {$value :number} nữa
+      error_keyword_title: "“{$keyword}” không khớp với bất kỳ kết quả nào."
+      error_keyword_subtitle: Hãy thử tìm kiếm thứ khác.
+      error_new_title: Không tìm thấy công thức mới.
+      error_new_subtitle: Điều này không nên xảy ra.
+      error_self_title: Bạn chưa đăng bất kỳ công thức nấu ăn nào.
+      error_self_subtitle: Học cách đăng tải bài viết đầu tiên của bạn tại https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Người dùng #{$authorId} chưa đăng bất kỳ công thức nấu ăn nào.'
+      error_author_id_subtitle: Không tìm thấy công thức nào liên quan đến ID này.
+      error_recipe_ids_title: Không tìm thấy ID công thức.
+      error_recipe_ids_subtitle: Thêm ID công thức để bắt đầu.
+    horizontal_world_clock:
+      name: Đồng hồ thế giới
+    language_learning_sentences:
+      from_to: Từ {$from :langName} đến {$to :langNameList}

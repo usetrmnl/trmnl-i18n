@@ -191,7 +191,7 @@ de-AT:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} Verbindung}} * {{{$value :number} Verbindungen}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Keine Installation}} one {{{$value :number} installieren}} * {{{$value :number} Installationen}}"
       and_more: und {$value :number} weitere
       error_keyword_title: Kein Ergebnis für “{$keyword}”.
       error_keyword_subtitle: Versuche es mit einem anderen Suchbegriff.

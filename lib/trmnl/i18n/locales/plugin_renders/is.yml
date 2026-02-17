@@ -26,49 +26,49 @@ is:
         third_quarter: Þriðja kvartil
         waning_crescent: Minnkandi sigð
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo Veður
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
-      co2: CO₂
+      indoor_temp: Innanhúss hitastig
+      indoor_temp_short: Innandyra
+      indoor_humidity: Innanhússraki
+      indoor_humidity_short: Innanhúss raki.
+      outdoor_humidity: Úti raki
+      outdoor_humidity_short: Út. Hum.
+      co2: koltvíoxíð
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      pressure: Þrýstingur
+      noise: Hávaði
+      min_max: Lágmark/Hámark
+      feels: Finnst
+      rain: Rigning
+      wind: Vindur
+      gust: Guskur
+      default_station_name: Netatmo-stöðin
+      default_outdoor_module: Útihitastig
+      default_indoor_module: Innandyra
+      trends_title: "%{metric} þróanir"
+      trends_title_short: Þróanir
+      temperature_trends: Hitastigsþróun
+      temperature_trends_short: Hitastigsþróun
+      outdoor_now: Útivist núna
+      indoor_now: Innandyra núna
+      now: Núna
+      low_high_24h: 24 klst. lágmark / hámark
+      average_24h: 24 klukkustunda meðaltal
+      outdoor: Úti
+      indoor: Innandyra
+      rain_gauge_not_connected: Rignimælir ekki tengdur
+      wind_gauge_not_connected: Vindmælir ekki tengdur
+      no_rain_gauge: Enginn regnmælir
+      no_wind_gauge: Enginn vindmælir
+      add_module_hint: Bættu við valfrjálsa %{module} eininguna til að sjá þessi gögn.
+      range_24h: 24 klukkustunda drægni
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Aðgangstokani vantar. Vinsamlegast tengdu Netatmo-reikninginn þinn aftur.
+        no_station_selected: Engin veðurstöð valin. Vinsamlegast veldu stöð í stillingum.
+        connection_failed: Ekki hægt að tengjast Netatmo-stöðinni. Vinsamlegast athugaðu nettenginguna þína.
+        data_retrieval_failed: Ekki var hægt að sækja veðursgögn. Vinsamlegast reyndu aftur síðar.
+        session_expired: Tengingin rann út. Vinsamlegast tengdu Netatmo-reikninginn þinn aftur í stillingunum.
     parcel:
       delivery_by: Afhending fyrir
       empty: Engar sendingar
@@ -107,25 +107,25 @@ is:
       right_now: Núna
       today: Í dag
       tomorrow: Á morgun
-      low_high_short: L/H
-      uv_short: UV
-      max: Max
+      low_high_short: Vinstri/Hægri
+      uv_short: Útfjólublár
+      max: Hámark
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Skýr
+          cloudy: Skýjað
+          foggy: Þokukenndur
+          partly_cloudy: Hálfskýtt
+          rain_likely: Líklegt er að rigni
+          rain_possible: Mögulegur rigning
+          snow: Snjór
+          snow_possible: Mögulegur snjór
+          thunderstorms_likely: Líklegt er að þrumuveður verði.
+          thunderstorms_possible: Miðað er við að þrumuveður geti orðið.
+          very_light_rain: Mjög létt rigning
+          windy: Vindasamt
+          wintry_mix_likely: Snjoblinda líkleg
+          wintry_mix_possible: Mögulegur vetrarblönduð úrkoma
       weatherapi:
         uv:
           low: Lágt

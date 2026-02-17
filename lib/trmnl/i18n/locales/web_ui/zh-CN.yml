@@ -64,10 +64,10 @@ zh-CN:
   plugin_not_found: 未发现插件
   preview: 预览
   privacy: 隐私
-  refresh_rate: Refresh rate
+  refresh_rate: 刷新率
   refresh_rates_hint: 点击 __此处__ 了解刷新频次。
   reset_password: 重置密码
-  reset_to_defaults: Reset to defaults
+  reset_to_defaults: 恢复默认设置
   required: 必填
   save: 保存
   shown: 显示
@@ -133,10 +133,13 @@ zh-CN:
       time_zone_hint: 用于自动调整刷新率与设备休眠
       locale: 语言
       locale_hint: 您喜欢哪种语言和区域设置？__前往此处__。
+      theme: 外观
+      theme_hint: 自定义TRMNL的显示样式。选择主题或与系统设置同步。
     update:
       success: 账户修改成功
     reset_api_key:
       success: API 密钥重新生成成功。
+    success: 成功
   dashboard:
     index:
       title: 仪表盘
@@ -190,17 +193,17 @@ zh-CN:
       device_model: 设备型号
       device_model_hint: 您的设备型号
       device_model_switch_warning: 这是一个危险操作，__了解详情__。
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_info: 设备信息
+      current_firmware: 当前固件
+      last_ping: 最后一次ping
+      unknown: 未知
+      never: 永不
+      display_calibration: 显示器校准
+      display_calibration_hint: 为您的显示器精细调整渲染效果。留空则使用模型默认设置。
+      display_calibration_pixel_ratio: 像素比
+      display_calibration_pixel_ratio_hint: 图像缩放级别（0.5–3.0）。默认值：
+      display_calibration_ui_scale: UI 缩放
+      display_calibration_ui_scale_hint: 文本和元素尺寸（0.5–2.0）。默认值：
       edit_device: 修改设备
       firmware: 固件
       firmware_updates_enabled: 更新已启用
@@ -259,6 +262,7 @@ zh-CN:
         warning_1: 我理解此升级操作<strong>不可逆转</strong>且无法撤销。
         warning_2: 本人知悉此操作<strong>存在风险</strong>，可能导致设备变砖。
         cta: 升级至 TRMNL OG（2 位）
+      tidbyt_api_key: Tidbyt API密钥
     index:
       title: 设备列表
       tagline: 您的的TRMNL设备
@@ -292,6 +296,11 @@ zh-CN:
     update:
       error: 设备更新错误
       success: "“%{device} 更新成功”"
+    error: 错误
+    error_not_shared: 错误未共享
+    error_oneself: 自误
+    success: 成功
+    success_removed: 成功移除
   invoices:
     rate_limit: 尝试次数过多，请耐心等待之后再次尝试
     invoice_not_found: 未找到发票
@@ -330,6 +339,7 @@ zh-CN:
       revert_confirm: 确定要还原吗？所有未保存的更改都将丢失。
       save_changes: 保存更改（⌘﹢S）
       separate_preview: 预览已在单独窗口中打开
+      edit_composition: 编辑作品
     merge_variables:
       your_variables: 您的变量
     no_merge_variables:
@@ -354,6 +364,8 @@ zh-CN:
       reset_instructions: 按下 TRMNL 背面的按钮生成重置码
       success: 双重认证成功
       error: 一次性验证码（OTP）无效
+    enable_otp_path:
+      already_enabled: 已启用
   playlist_items:
     index:
       title: 播放列表
@@ -373,7 +385,7 @@ zh-CN:
       smart_playlist: 智能播放列表
       smart_playlist_hint: 自动跳过内容长时间未更新的画面。
       skip_after:
-        one: Skip stale screens after 1 day
+        one: 过期屏幕在1天后自动跳过
         other: 跳过超过 %{count} 天未更新的画面
     playlist_item:
       adjust_schedule: 调整定时
@@ -384,11 +396,11 @@ zh-CN:
       hide_playlist: 隐藏此项
       show_playlist: 显示此项
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: 此插件的刷新率无法配置。
+        external: 该插件实时获取数据，因此刷新率设置不适用。
+        global: 该插件将按固定时间表在整个平台范围内进行刷新。
+        mashup: 该混合应用将以其中最快插件的刷新频率进行更新。
+        readonly: 此插件具有固定的刷新率，无法进行配置。
     create:
       error: 创建播放列表错误
       success: 播放列表创建成功
@@ -405,6 +417,11 @@ zh-CN:
       success: 智能播放列表设定更新成功
     update:
       success: 播放列表更新成功
+    error: 错误
+    playlist:
+      displayed_now: 当前显示
+      not_displayed_yet: 尚未显示
+    success: 成功
   plugins:
     index:
       title: 插件
@@ -413,6 +430,7 @@ zh-CN:
       connected: 已连接
       recipes: 配方
       recipes_hint: 社区成员开发的私有插件，支持一键安装。__了解更多__。
+      supported_by_this_device: 由本设备提供支持
     search:
       placeholder: 搜索所有插件
     my:
@@ -452,13 +470,19 @@ zh-CN:
       tagline: 修改您的插件
       name: 名称
       description: 简介
+    mondrian:
+      common:
+        view: 查看
+    recipes:
+      recipe_lander:
+        preview: 预览
   plugin_recipes:
     connected: 已连接配方
     connections:
-      one: Connection
+      one: 连接
       other: 连接
     forks:
-      one: Fork
+      one: 分叉
       other: 分支
     new:
       error: 未找到配方
@@ -475,7 +499,7 @@ zh-CN:
     form:
       active_hint: 显示/隐藏此插件
       advanced_settings: 高级设置
-      back_to_playlist: Back to Playlist
+      back_to_playlist: 返回播放列表
       back_to_plugin: 返回 %{plugin}
       back_to_plugins: 返回插件
       connect_with: 已连接 %{plugin}
@@ -505,7 +529,7 @@ zh-CN:
       linked_account_success: 已成功关联 %{plugin_name}
       link_oauth: 链接账户
       link_oauth_hint: 在继续之前，请按照 %{plugin} 提供的授权流程操作
-      mirrored: Mirrored
+      mirrored: 镜像
       multiple_instances_hint: 此插件支持多实例
       name: 名称
       name_hint: 起一个好听的名字
@@ -523,7 +547,7 @@ zh-CN:
       recipe_cta_body_in_review: 此插件已提交至我们的团队。请稍候。
       recipe_cta_body_not_published: 发布此插件以供他人安装。__了解更多__。
       recipe_cta_confirm: 您确定吗？我们的团队将进行审核，并在几天内与您联系。您可以继续进行更改。
-      recipe_mirrored: This screen is mirrored from the recipe.
+      recipe_mirrored: 此屏幕内容源自食谱。
       recipe_visibility_title: 您希望如何发布？
       recipe_visibility_edit_title: 编辑提交
       recipe_visibility_public: 公开
@@ -545,7 +569,7 @@ zh-CN:
       refresh_paused_mashup: 正在刷新混搭
       refresh_paused_mashup_hint: 全屏模式的自动刷新已暂停。混搭仍在更新。
       refresh_stopped: 自动刷新已停止。请修复插件错误以继续。
-      view_recipe: View Recipe
+      view_recipe: 查看食谱
       visit_docs: 查看文档
     import:
       archive_too_large: ZIP 文件过大（最大 %{max_mb} MB）
@@ -562,9 +586,17 @@ zh-CN:
       success: 插件成功更新设置
     add_to_playlist:
       success: 插件成功添加到播放列表
+    back_button:
+      back_to_plugin: 返回插件
+      back_to_plugins: 返回插件
+    index:
+      no_plugin_settings_found: 未找到插件设置
+    playlist: 播放列表
+    success: 成功
   referral_code:
     create:
       request_received: 已收到请求，请查收邮箱
+    request_received: 请求已收到
   recipes:
     index:
       newest_to_oldest: 从新到旧
@@ -580,6 +612,8 @@ zh-CN:
       some_schedule: 仅在以下时间显示此屏幕…
       to: 到
       copy_prompt: 复制现有时间表…
+      cancel: 取消
+      save: 保存
   upgrade:
     index:
       title: 正在升级设备：
@@ -588,3 +622,68 @@ zh-CN:
       error: 设备 %{device_name} 已升级，请切换至其他设备
     confirm:
       success: 开发者版附加组件现已启用
+  action: 行动
+  actions: 行动
+  active_admin:
+    blank_slate:
+      content: 内容
+      link: 链接
+    comments:
+      add: 添加
+      author_missing: 作者缺失
+      delete: 删除
+      delete_confirmation: 删除确认
+      no_comments_yet: 暂无评论
+    devise: 设计
+    logout: 注销
+    pagination:
+      empty: 空
+      next: 接下来
+      previous: 先前
+    powered_by: 由...提供支持
+  date:
+    abbr_day_names: 缩写日名
+    day_names: 星期名称
+  default: 默认
+  default_webhook_rate_limit: 默认Webhook速率限制
+  developer_edition_addon_amount: 开发者版附加组件数量
+  duration: 持续时间
+  errors:
+    messages:
+      not_saved: 未保存
+  fetch: 获取
+  framework:
+    responsive_test:
+      example-size-btn: 示例大小按钮
+      test-config-btn: 测试配置按钮
+  id: Id
+  ignore_log_messages: 忽略日志消息
+  ignore_logs: 忽略日志
+  maintenance_mode: 维护模式
+  mashup_id: 混搭ID
+  mashups:
+    mashup:
+      add_to_playlist: 添加到播放列表
+  month: 月份
+  name: 名称
+  order_number: 订单号
+  plus_webhook_rate_limit: Plus webhook 速率限制
+  primary: 初级
+  public: 公共
+  query: 查询
+  rolling_month: 滚动月份
+  rolling_week: 滚动周
+  schedule: 日程安排
+  shop_promotion: 店铺促销
+  site_banner: 网站横幅
+  site_banner_link: 网站横幅链接
+  sleep_mode_enabled: 睡眠模式已启用
+  title: 标题
+  today_only: 仅限今日
+  value: 价值
+  views:
+    pagination:
+      truncate: 截断
+  visible: 可见的
+  week: 周
+  work_week: 工作周

@@ -1,590 +1,689 @@
 ---
 he:
   locale_name: Hebrew
-  about: About
-  add: Add
-  add_new: Add new
-  ago: ago
-  already_have_account: I already have an account
-  are_you_sure: Are you sure?
-  back: Back
-  back_to_all_blog_posts: Back to all posts
-  blog: Blog
-  brand: Brand
-  buy_now: Buy Now
-  cancel: Cancel
-  change_password: Change Password
-  charge_level: Charge Level
-  charged: charged
-  charging: Charging
-  claim_plus_trial: Claim 6 Months Free
-  close: Close
-  confirm_change_password: Change my password
-  confirm_password: Confirm new password
-  copy: Copy
-  copied_to_clipboard: Copied!
-  copy_to_clipboard: Copy to clipboard
-  created: Created
-  create_an_account: Create an account
-  current_device: Current device
-  days: days
-  delete: Delete
-  developers: Developers
-  developer_edition_required: Developer edition is required to enable this feature.
-  device_id: Device ID
-  device: Device
+  about: אודות
+  add: הוסף
+  add_new: הוסף חדש
+  ago: לפני
+  already_have_account: כבר יש לי חשבון
+  are_you_sure: אתה בטוח?
+  back: חזרה
+  back_to_all_blog_posts: חזרה לכל הפוסטים
+  blog: בלוג
+  brand: מותג
+  buy_now: קנה עכשיו
+  cancel: ביטול
+  change_password: שינוי סיסמה
+  charge_level: רמת טעינה
+  charged: מואשם
+  charging: טעינה
+  claim_plus_trial: תביעה 6 חודשים חינם
+  close: סגור
+  confirm_change_password: שנה את הסיסמה שלי
+  confirm_password: אשר סיסמה חדשה
+  copy: העתק
+  copied_to_clipboard: הועתק!
+  copy_to_clipboard: העתק ללוח
+  created: נוצר
+  create_an_account: צור חשבון
+  current_device: המכשיר הנוכחי
+  days: ימים
+  delete: מחק
+  developers: מפתחים
+  developer_edition_required: נדרשת מהדורת מפתחים כדי להפעיל תכונה זו.
+  device_id: מזהה מכשיר
+  device: מכשיר
   edit: Settings
-  email_address: Email address
-  export: Export
-  fetching: Fetching
-  first_name: First Name
-  forgot_password: I forgot my password
-  forgot_password_title: Here we go again
-  friendly_id: Friendly ID
-  get_started: Let's get you started!
-  hidden: hidden
-  identify: Identify
-  import: Import
-  import_new: Import new
-  integrations: Integrations
-  keep_me_signed_in: Keep me signed in
-  knowledge_base: Knowledge base
-  last_name: Last Name
-  learn_more: Learn more
-  loading: Loading
-  login: Login
-  log_out: Log out
-  manage: Manage
-  minimum_characters: characters minimum
-  mins: mins
-  my_playlist: My Playlist
-  new_password: New password
-  password: Password
-  please_wait: Please Wait...
-  plugin_not_found: Plugin not found
-  preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
-  refresh_rates_hint: Learn how refresh rates work __here__.
-  reset_password: Reset my password
-  reset_to_defaults: Reset to defaults
-  required: Required
-  save: Save
-  shown: shown
-  section: Section
-  settings: Settings
-  sign_in: Sign in
-  sign_up: Sign up
-  something_went_wrong: Something went wrong
-  status: Status
-  subscribe: Subscribe
-  help_center: Support
-  terms: Terms
-  update: Update
-  view: View
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
-  welcome: Welcome
+  email_address: כתובת דוא"ל
+  export: ייצוא
+  fetching: הבאה
+  first_name: שם פרטי
+  forgot_password: שכחתי את הסיסמה שלי
+  forgot_password_title: הנה אנחנו שוב
+  friendly_id: זיהוי ידידותי
+  get_started: בואו נתחיל!
+  hidden: נסתר
+  identify: זהה
+  import: ייבוא
+  import_new: ייבוא חדש
+  integrations: אינטגרציות
+  keep_me_signed_in: השאר אותי מחובר
+  knowledge_base: מאגר ידע
+  last_name: שם משפחה
+  learn_more: למידע נוסף
+  loading: טוען
+  login: התחבר
+  log_out: התנתק
+  manage: לנהל
+  minimum_characters: מינימום תווים
+  mins: דקות
+  my_playlist: הפלייליסט שלי
+  new_password: סיסמה חדשה
+  password: סיסמה
+  please_wait: אנא המתן...
+  plugin_not_found: התוסף לא נמצא
+  preview: תצוגה מקדימה
+  privacy: פרטיות
+  refresh_rate: קצב הרענון
+  refresh_rates_hint: למד כיצד פועלים קצבי הרענון __כאן__.
+  reset_password: אפס את הסיסמה שלי
+  reset_to_defaults: אפס להגדרות ברירת מחדל
+  required: נדרש
+  save: שמור
+  shown: מוצג
+  section: סעיף
+  settings: הגדרות
+  sign_in: התחבר
+  sign_up: הירשם
+  something_went_wrong: משהו השתבש
+  status: סטטוס
+  subscribe: הירשם
+  help_center: תמיכה
+  terms: תנאים
+  update: עדכון
+  view: הצג
+  collaboration_request: רוצה לשתף פעולה?
+  collaboration_request_hint: שותפויות, מכירות קבוצתיות, פרויקטים מיוחדים, ההחלטה בידיכם.
+  collaboration_request_cta: בוא נדבר
+  welcome: ברוכים הבאים
   time:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
   account:
     index:
-      title: Account
-      tagline: Manage your account settings
-      api_key_confirm: Are you sure you want to regenerate your API Key? The old key will be invalidated.
-      api_key_hint: See __the docs__ to learn how to configure your local environment.
-      api_key_label: The credential for authenticating local development tools
-      api_key_not_generated: "(none yet)"
-      api_key_reset: Regenerate
+      title: חשבון
+      tagline: נהל את הגדרות החשבון שלך
+      api_key_confirm: האם אתה בטוח שברצונך ליצור מחדש את מפתח ה-API שלך? המפתח הישן יבוטל.
+      api_key_hint: עיין ב__המסמכים__ כדי ללמוד כיצד להגדיר את הסביבה המקומית שלך.
+      api_key_label: האישור לאימות כלי פיתוח מקומיים
+      api_key_not_generated: "(עדיין אין)"
+      api_key_reset: התחדשות
       api_key: API Key
-      beta_features: Beta Features
-      beta_features_hint: Try out new stuff here. Options may disappear at any time.
-      discord_community: Discord Community
-      discord_username: What's your Discord username?
-      discord_username_hint: May be used for support, attribution on published Recipes, etc.
-      email_address: Email Address
-      refer_and_earn: Refer and Earn
-      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions
-      refer_and_earn_request_code: Request a Code
-      device_invoice: Device Invoice
-      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
-      device_invoice_hint: Find this on your package tracking page or shipment notification email.
-      email_address_hint: Used to sign into TRMNL and receive system messages.
-      first_name_hint: We use your name to make the TRMNL interface more comfortable.
-      last_name_hint: We use your name to make the TRMNL interface more comfortable.
-      password_hint: Used to protect your TRMNL account.
-      enable_2fa: Enable 2FA?
-      enable_2fa_hint: __Click here__ to enable OTP.
-      disable_2fa: Disable 2FA
-      disable_2fa_hint: Provide valid OTP and current password above to disable this feature.
-      plus_subscription: TRMNL+ Subscription
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
-      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
-      plus_subscription_modify: Want to update your payment method or cancel?
-      session: Session
-      session_hint: You're logged in as %{user}
-      show_title_bar: Show title bar
-      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
-      time_zone: Time Zone
-      time_zone_hint: Determines refresh rates and device sleep time.
-      locale: Locale
-      locale_hint: What language and localization do you prefer? __Go here__.
+      beta_features: תכונות בטא
+      beta_features_hint: נסה דברים חדשים כאן. האפשרויות עשויות להיעלם בכל רגע.
+      discord_community: קהילת Discord
+      discord_username: מהו שם המשתמש שלך ב-Discord?
+      discord_username_hint: ניתן להשתמש בו לתמיכה, לייחוס במתכונים שפורסמו וכו'.
+      email_address: כתובת דואר אלקטרוני
+      refer_and_earn: הפנה ורוויח
+      refer_and_earn_hint: תנו מתנה של TRMNL עם קופון מותאם אישית. הרוויחו בכל שימוש, בתשלום חודשי.
+      refer_and_earn_redemptions: פדיונות
+      refer_and_earn_request_code: בקש קוד
+      device_invoice: חשבונית מכשיר
+      device_invoice_label: הורד מסמכים מסחריים עבור רואה החשבון שלך או אוסף PDF (מוזר).
+      device_invoice_hint: תוכל למצוא את המידע הזה בדף מעקב החבילה או בהודעת הדוא"ל על המשלוח.
+      email_address_hint: משמש להתחברות ל-TRMNL ולקבלת הודעות מערכת.
+      first_name_hint: אנו משתמשים בשמך כדי להפוך את ממשק TRMNL לנוח יותר.
+      last_name_hint: אנו משתמשים בשמך כדי להפוך את ממשק TRMNL לנוח יותר.
+      password_hint: משמש להגנה על חשבון TRMNL שלך.
+      enable_2fa: להפעיל 2FA?
+      enable_2fa_hint: __לחץ כאן__ כדי להפעיל את OTP.
+      disable_2fa: השבת 2FA
+      disable_2fa_hint: הזן את ה-OTP התקף והסיסמה הנוכחית שלך למעלה כדי להשבית תכונה זו.
+      plus_subscription: מנוי TRMNL+
+      plus_subscription_trial_until: אתה נמצא בתקופת ניסיון חינם עד %{plus_trial_end_at}.
+      plus_subscription_hint: שחרר קצב רענון מהיר יותר ומגבלות קצב גבוהות יותר. __למידע נוסף__.
+      plus_subscription_modify: רוצה לעדכן את אמצעי התשלום שלך או לבטל?
+      session: הפעלה
+      session_hint: אתה מחובר כ- %{user}
+      show_title_bar: הצג שורת כותרת
+      show_title_bar_hint: אם תכונה זו מושבתת, תוספים מקוריים (לא גלובליים) ותוספים של צד שלישי יהיו מינימליים יותר.
+      time_zone: אזור זמן
+      time_zone_hint: קובע את קצב הרענון ואת זמן השינה של המכשיר.
+      locale: מיקום
+      locale_hint: איזו שפה ולוקליזציה אתה מעדיף? __עבור לכאן__.
+      theme: מראה
+      theme_hint: בחר את המראה של TRMNL. בחר ערכת נושא או סנכרן עם הגדרות המערכת שלך.
     update:
-      success: Profile updated successfully
+      success: הפרופיל עודכן בהצלחה
     reset_api_key:
-      success: API key was regenerated successfully
+      success: מפתח ה-API נוצר מחדש בהצלחה
+    success: הצלחה
   dashboard:
     index:
-      title: Dashboard
-      last_7_days: Last 7 days
-      last_30_days: Last 30 days
-      last_90_days: Last 90 days
-      today: Today
-      yesterday: Yesterday
+      title: לוח מחוונים
+      last_7_days: 7 הימים האחרונים
+      last_30_days: 30 הימים האחרונים
+      last_90_days: 90 הימים האחרונים
+      today: היום
+      yesterday: אתמול
     health:
-      bad: Plugins are experiencing issues
-      good: Plugins are healthy
-      next_steps: We will inform you if anything changes
+      bad: תוספים נתקלים בבעיות
+      good: תוספים הם דבר בריא
+      next_steps: אנו נודיע לך אם יחול שינוי כלשהו.
     news:
-      title: News
-      cta: View All
+      title: חדשות
+      cta: הצג הכל
     playlist_items:
-      title: Playlist
-      cta: Edit Playlist
-      pieces_of_content_displayed: Pieces of content displayed
+      title: פלייליסט
+      cta: ערוך רשימת השמעה
+      pieces_of_content_displayed: תוכן מוצג
     plugins:
-      title: Plugins
-      cta: Go to Plugins
-      connected: Connected
-      new_and_popular: New and Popular
+      title: תוספים
+      cta: עבור אל תוספים
+      connected: מחובר
+      new_and_popular: חדש ופופולרי
     shop:
-      title: Shop
-      need_another: Need another TRMNL?
+      title: חנות
+      need_another: צריך עוד TRMNL?
     time_saved:
-      title: Time saved
-      cta: Read about
+      title: חיסכון בזמן
+      cta: קרא על
     welcome_message:
-      morning_salutation: Good morning
-      afternoon_salutation: Good afternoon
-      evening_salutation: Good evening
+      morning_salutation: בוקר טוב
+      afternoon_salutation: אחר צהריים טובים
+      evening_salutation: ערב טוב
   devices:
     edit:
-      accepts_beta_firmware: Firmware Early Release
-      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
-      back_to_devices: Back to Devices
-      battery_and_sleep: Battery & Sleep
-      battery_consumption: Battery Consumption
-      battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
-      battery_learn_more: Learn more about battery charging __here__.
-      battery_refresh: Refresh
-      developer_perks: Developer Perks
+      accepts_beta_firmware: שחרור מוקדם של קושחה
+      accepts_beta_firmware_hint: הפעל כדי לקבל את השיפורים האחרונים בקושחת המכשיר לפני משתמשים אחרים.
+      back_to_devices: חזרה למכשירים
+      battery_and_sleep: סוללה ושינה
+      battery_consumption: צריכת סוללה
+      battery_consumption_hint: חסוך בחשמל וליהנות מחיי סוללה ארוכים יותר על ידי הפעלת מצב שינה.
+      battery_learn_more: למידע נוסף על טעינת סוללות __כאן__.
+      battery_refresh: רענן
+      developer_perks: הטבות למפתחים
       developer_perks_hint: Options below require the __Developer add-on__.
-      device_credentials: Device Credentials
-      device_credentials_hint: See what you can do with these credentials __here__
-      device_name: Device Name
-      device_name_hint: We use this to make the TRMNL interface more comfortable
-      device_model: Device Model
-      device_model_hint: Your hardware Model
-      device_model_switch_warning: This is a dangerous operation, learn more __here__
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
-      edit_device: Edit Device
-      firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
-      guest_mode: Guest Mode
-      guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
-      guest_mode_item_placeholder: Choose an item
-      guest_mode_duration_placeholder: Choose a duration
-      identify: Identify
-      identify_device: Identify Device
-      identify_device_hint: Click the button below to generate a screen on this device that helps identify it.
-      logs: Logs
-      logs_hint: Debug your device and plugins with a live feed of raw error logs.
-      low_battery_email_notification: Low Battery Email Notification
-      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
-      mirror: Mirror
-      mirror_device: Mirror another Device
-      mirror_device_hint: Provide a (shareable) Device ID to mirror its playlist. Your playlist will still be displayed.
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
-      mirror_stop: Disconnect Mirroring
-      mirror_sync: Sync Screens
-      ota_enabled: OTA Updates Enabled
-      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
-      maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
-      sleep_mode: Sleep Mode
-      sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
-      sleep_screen: Sleep Screen
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
-      sleep_screen_hint: Display a sleep screen during sleep mode hours.
-      special_function: Special Function
-      special_function_hint: Set a custom feature for the button on the back of your device.
-      special_function_learn_more: Learn more about special functions __here__.
-      temperature_profile: Temperature Profile
-      temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
-      unlink: Unlink
+      device_credentials: אישורי התקן
+      device_credentials_hint: ראה מה אתה יכול לעשות עם האישורים האלה __כאן__
+      device_name: שם המכשיר
+      device_name_hint: אנו משתמשים בזה כדי להפוך את ממשק TRMNL לנוח יותר
+      device_model: דגם המכשיר
+      device_model_hint: דגם החומרה שלך
+      device_model_switch_warning: זהו ניתוח מסוכן, קרא עוד כאן.
+      device_info: מידע על המכשיר
+      current_firmware: קושחה נוכחית
+      last_ping: הפינג האחרון
+      unknown: לא ידוע
+      never: לעולם
+      display_calibration: כיול תצוגה
+      display_calibration_hint: כוונון עדין של העיבוד עבור התצוגה שלך. השאר ריק כדי להשתמש בברירות המחדל של הדגם.
+      display_calibration_pixel_ratio: יחס פיקסלים
+      display_calibration_pixel_ratio_hint: 'רמת זום תמונה (0.5–3.0). ברירת מחדל:'
+      display_calibration_ui_scale: סולם ממשק המשתמש
+      display_calibration_ui_scale_hint: 'גודל הטקסט והאלמנטים (0.5–2.0). ברירת מחדל:'
+      edit_device: ערוך מכשיר
+      firmware: קושחה
+      firmware_updates_enabled: עדכונים מופעלים
+      firmware_updates_disabled: עדכונים מושבתים
+      guest_mode: מצב אורח
+      guest_mode_hint: בחר מה להציג (ולכמה זמן) בכל פעם שמצב האורח מופעל.
+      guest_mode_item_placeholder: בחר פריט
+      guest_mode_duration_placeholder: בחר משך זמן
+      identify: זהה
+      identify_device: זהה מכשיר
+      identify_device_hint: לחץ על הכפתור למטה כדי ליצור מסך במכשיר זה שיעזור לזהות אותו.
+      logs: יומני
+      logs_hint: בצעו ניפוי באגים במכשיר ובפלאגינים שלכם באמצעות הזנה חיה של יומני שגיאות גולמיים.
+      low_battery_email_notification: הודעת דוא"ל על סוללה חלשה
+      low_battery_email_notification_hint: קבל התראה בדוא"ל כאשר סוללת המכשיר שלך מתרוקנת.
+      mirror: מראה
+      mirror_device: שיקוף מכשיר אחר
+      mirror_device_hint: ספק מזהה מכשיר (שניתן לשתף) כדי לשקף את רשימת ההשמעה שלו. רשימת ההשמעה שלך תמשיך להופיע.
+      mirror_disabled: שיקוף מושבת
+      mirror_enabled: שיקוף
+      mirror_stop: ניתוק שיקוף
+      mirror_sync: מסכי סנכרון
+      ota_enabled: עדכוני OTA מופעלים
+      ota_enabled_hint: התקן קושחה חדשה באופן אוטומטי. השבת כדי להשתמש בקושחה משלך.
+      ota_byod_not_supported: OTA אינו נתמך במכשירים BYOD. בצע פלאש לגרסה תואמת ישירות מ-usetrmnl.com/flash
+      maximum_compatibility: אפשר תאימות מרבית
+      maximum_compatibility_hint: פותר בעיות תצוגה הנגרמות על ידי שבבי מנהל התקן e-ink מסוימים. מבטל את הרענון המהיר. נדרשת קושחה 1.6.0+.
+      palette: פלטת צבעים
+      palette_hint: בחר את סט הצבעים שישמש ליצירת מסכים עבור מכשיר זה. פלטת צבעים גדולה יותר נראית יפה יותר, אך פלטת צבעים קטנה יותר נטענת מהר יותר על גבי e-ink. פריטים בודדים ברשימת ההשמעה יכולים לעקוף הגדרה זו.
+      sleep_mode: מצב שינה
+      sleep_mode_hint: התאם את קצב הרענון כדי לייעל את המיקוד ואת אורך חיי הסוללה.
+      sleep_screen: מסך שינה
+      sleep_screen_tooltip: הפעל את מצב השינה כדי להשתמש בתכונה זו
+      sleep_screen_hint: הצגת מסך שינה בשעות מצב השינה.
+      special_function: פונקציה מיוחדת
+      special_function_hint: הגדר תכונה מותאמת אישית עבור הכפתור בגב המכשיר.
+      special_function_learn_more: למידע נוסף על פונקציות מיוחדות __כאן__.
+      temperature_profile: פרופיל טמפרטורה
+      temperature_profile_hint: אל תשנה אלא אם כן התבקשת לעשות זאת. עבור תצוגות עם תמונות דהויות.
+      tidbyt_credentials: אישורי Tidbyt
+      tidbyt_credentials_hint: הזן את פרטי הזדהות ה-API של מכשיר Tidbyt שלך מהאפליקציה Tidbyt תחת הגדרות → מפתח → קבל מפתח API.
+      tidbyt_credentials_invalid: אמצעי הזדהות ה-API של Tidbyt אינם חוקיים. אנא בדוק שוב ונסה שוב.
+      tidbyt_device_id: מזהה מכשיר
+      tidbyt_device_api_key: מפתח API
+      unlink: ביטול קישור
       unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
-      unlink_device: Unlink Device
+      unlink_device: ביטול קישור המכשיר
       unlink_device_hint: Unlinking a TRMNL device makes it safe to re-sell or give to someone else.
-      unlink_device_learn_more: Follow the full guide __here__.
-      visibility: Visibility
-      visibility_hint: Make your TRMNL device mirrorable by changing the settings below.
-      your_device: Your TRMNL
+      unlink_device_learn_more: עקבו אחר המדריך המלא __כאן__.
+      visibility: נראות
+      visibility_hint: הפוך את מכשיר ה-TRMNL שלך למתאים לשיקוף על ידי שינוי ההגדרות שלהלן.
+      your_device: ה-TRMNL שלך
       upgrade_og:
-        title: Upgrade to 2-bit Display Available
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
-        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
-        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
-        cta: Upgrade to TRMNL OG (2-bit)
+        title: שדרוג לתצוגה 2 סיביות זמין
+        sub_title: ניתן לשדרג את המכשיר שלך לתמיכה בתצוגת גווני אפור משופרת עם 4 רמות צבע במקום 2.
+        warning_1: אני מבין ששינוי זה הוא <strong>בלתי הפיך</strong> ולא ניתן לבטלו.
+        warning_2: אני מבין שזו פעולה <strong>מסוכנת</strong> שעלולה להשבית את המכשיר שלי.
+        cta: שדרוג ל-TRMNL OG (2 סיביות)
+      tidbyt_api_key: מפתח API של Tidbyt
     index:
-      title: Devices
-      tagline: Your TRMNL devices
-      add_device_modal_title: Add a new device
-      add_first_device: Start by adding your first device!
+      title: מכשירים
+      tagline: המכשירים שלך TRMNL
+      add_device_modal_title: הוסף מכשיר חדש
+      add_first_device: התחל בהוספת המכשיר הראשון שלך!
     new:
-      title: Add a new device
-      description: Enter your Friendly ID to add a new device to your account.
-      add_device: Add new device
+      title: הוסף מכשיר חדש
+      description: הזן את מזהה הידידותי שלך כדי להוסיף מכשיר חדש לחשבונך.
+      add_device: הוסף מכשיר חדש
     associate:
-      error: Error linking device
-      success: Device successfully linked
+      error: שגיאה בחיבור המכשיר
+      success: המכשיר חובר בהצלחה
     dissociate:
-      error: Error disconnecting device
-      success: Device successfully unlinked
+      error: שגיאה בניתוק המכשיר
+      success: המכשיר הוסר בהצלחה
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: אימות מכשיר לא חוקי
+      success: אמצעי הזדהות המכשיר עודכן בהצלחה
     identify:
-      error: Error updating device
-      success: Device identification requested
+      error: שגיאה בעת עדכון המכשיר
+      success: זיהוי מכשיר מבוקש
     mirror:
-      error: Error mirroring device
-      error_not_shared: Provided Device ID is not shareable
-      error_oneself: Can't mirror oneself
-      success: Device %{friendly_id} successfully mirrored
-      success_removed: Mirroring Removed
+      error: מכשיר שיקוף שגיאות
+      error_not_shared: בתנאי שמזהה המכשיר אינו ניתן לשיתוף
+      error_oneself: לא יכול לשקף את עצמו
+      success: המכשיר %{friendly_id} שוכפל בהצלחה
+      success_removed: השתקפות הוסרה
     switch:
-      error: Error switching device
-      success: Device switched successfully
+      error: שגיאה בהחלפת מכשיר
+      success: המכשיר הוחלף בהצלחה
     update:
-      error: Error updating device
-      success: "%{device} device settings updated successfully"
+      error: שגיאה בעת עדכון המכשיר
+      success: הגדרות המכשיר %{device} עודכנו בהצלחה
+    error: שגיאה
+    error_not_shared: שגיאה לא משותפת
+    error_oneself: לטעות בעצמך
+    success: הצלחה
+    success_removed: ההצלחה הוסרה
   invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
+    rate_limit: ניסיונות רבים מדי, אנא המתן ונסה שוב
+    invoice_not_found: החשבונית לא נמצאה
   logs:
     index:
-      title: Logs
-      all: All
-      bulk_destroy: Bulk Destroy
-      dump: Dump
-      id: ID
-      private_plugins: Private Plugins
-      source: Source
-      time: Time
+      title: יומני
+      all: כל
+      bulk_destroy: השמדה המונית
+      dump: זבל
+      id: תעודת זהות
+      private_plugins: תוספים פרטיים
+      source: מקור
+      time: זמן
   markups:
     console_logs:
-      js_logs: JS Logs
+      js_logs: יומני JS
     form:
-      back_to_plugin_settings: Back to plugin settings
-      design_system: Leverage our native design system
-      design_system_docs: Design System Docs
-      dirty_confirm: You have unsaved changes. Are you sure you want to leave this page?
-      edit_markup: Edit Markup
-      edit_markup_for_plugin: Edit markup for %{plugin_setting_name}
-      edit_markup_please_save_first: Please save before editing markup
-      edit_markup_without_preview: Edit Markup (without preview)
-      error_rendering_markup: Error rendering that markup
-      fix_indentation: Fix indentation
-      go_to_preview: Go To Preview
-      live_preview: Live Preview
-      no_changes_to_save: No changes to save
-      pop_out_preview: Pop Out Preview
-      quickstart_examples: Quick-start Examples
-      quickstart_example_applied: Applied!
-      quickstart_use_this_example: Use this example
-      revert: Revert
-      revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
-      save_changes: Save Changes (⌘﹢S)
-      separate_preview: Preview is open in a separate window
+      back_to_plugin_settings: חזרה להגדרות התוסף
+      design_system: נצל את מערכת העיצוב המקורית שלנו
+      design_system_docs: מסמכי מערכת העיצוב
+      dirty_confirm: יש לך שינויים שלא נשמרו. האם אתה בטוח שברצונך לעזוב את הדף הזה?
+      edit_markup: ערוך סימון
+      edit_markup_for_plugin: ערוך סימון עבור %{plugin_setting_name}
+      edit_markup_please_save_first: אנא שמור לפני עריכת הסימון
+      edit_markup_without_preview: ערוך סימון (ללא תצוגה מקדימה)
+      error_rendering_markup: שגיאה בעיבוד הסימון הזה
+      fix_indentation: תקן את הכניסה
+      go_to_preview: עבור לתצוגה מקדימה
+      live_preview: תצוגה מקדימה חיה
+      no_changes_to_save: אין שינויים לשמור
+      pop_out_preview: תצוגה מקדימה מוקפצת
+      quickstart_examples: דוגמאות להתחלה מהירה
+      quickstart_example_applied: הוגש!
+      quickstart_use_this_example: השתמש בדוגמה זו
+      revert: הפוך
+      revert_confirm: האם אתה בטוח שברצונך לבטל? כל השינויים שלא נשמרו יאבדו.
+      save_changes: שמור שינויים (⌘﹢S)
+      separate_preview: התצוגה המקדימה נפתחת בחלון נפרד
+      edit_composition: ערוך קומפוזיציה
     merge_variables:
-      your_variables: Your variables
+      your_variables: המשתנים שלך
     no_merge_variables:
-      force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
-      no_variables_detected: No variables detected.
+      force_refresh: אם סיפקת משתנים אך הם לא מזוהים, נסה לבצע רענון כפוי.
+      no_variables_detected: לא אותרו משתנים.
   mfa:
     disable_otp:
-      success: 2FA Disabled
-      invalid_otp: Invalid OTP
-      invalid_password: Invalid Password
-      invalid_otp_and_password: Invalid OTP and Password
+      success: 2FA מושבת
+      invalid_otp: OTP לא חוקי
+      invalid_password: סיסמה לא חוקית
+      invalid_otp_and_password: OTP וסיסמה לא חוקיים
     enable_otp:
-      input_otp: Enter OTP
-      submit: Verify and Enable
-      already_enabled: 2FA is already enabled
+      input_otp: הזן OTP
+      submit: אמת והפעל
+      already_enabled: 2FA כבר מופעל
     enable_otp_verify:
-      success: 2FA Enabled
-      error: Invalid OTP code
+      success: 2FA מופעל
+      error: קוד OTP לא חוקי
     verify_otp:
-      verify: Verify
-      reset: Reset MFA
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
-      success: 2FA successful
-      error: Invalid OTP code
+      verify: אמת
+      reset: אפס MFA
+      reset_instructions: לחץ על הכפתור בגב ה-TRMNL שלך כדי ליצור קוד איפוס.
+      success: 2FA הצליח
+      error: קוד OTP לא חוקי
+    enable_otp_path:
+      already_enabled: כבר מופעל
   playlist_items:
     index:
-      title: Playlist
-      tagline: Choose what's shown on
-      add_a_group: Add a Group
-      add_a_plugin: Add a Plugin
-      add_first_device_cta: Start by __adding__ your first TRMNL device!
+      title: פלייליסט
+      tagline: בחר מה להציג
+      add_a_group: הוסף קבוצה
+      add_a_plugin: הוסף תוסף
+      add_first_device_cta: התחל על ידי הוספת המכשיר TRMNL הראשון שלך!
       add_to_playlist: Add to Playlist
       create_first_playlist_cta: Create your playlist after __connecting__ your first plugin!
-      custom: Custom
-      device_default: Device default
-      display_period_from: Display from
-      display_period_to: to
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
-      never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      custom: מותאם אישית
+      device_default: ברירת מחדל של המכשיר
+      display_period_from: תצוגה מ
+      display_period_to: אל
+      display_period_validation: שעת ההתחלה חייבת להיות לפני שעת הסיום. צור קבוצה נוספת שתכסה את שעות הלילה.
+      every: כל
+      never_skip: לעולם אל תדלג על מסכים
+      smart_playlist: פלייליסט חכם
+      smart_playlist_hint: דלג אוטומטית על מסכים שתוכנם לא השתנה זמן מה.
       skip_after:
-        one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        one: דלג על מסכים ישנים לאחר יום אחד
+        other: דלג על מסכים ישנים לאחר %{count} ימים
     playlist_item:
-      adjust_schedule: Adjust schedule
-      delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
-      displayed_now: Displayed now
-      not_displayed_yet: Not displayed yet
-      remove_from_playlist: Remove from playlist
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      adjust_schedule: התאם לוח זמנים
+      delete: האם אתה בטוח שברצונך להסיר פריט זה? התוסף יישאר מחובר, אך לא יוצג במכשיר שלך.
+      displayed_now: מוצג כעת
+      not_displayed_yet: עדיין לא מוצג
+      remove_from_playlist: הסר מהפלייליסט
+      hide_playlist: הסתר פריט זה
+      show_playlist: הצג פריט זה
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: לא ניתן להגדיר את קצב הרענון של תוסף זה.
+        external: תוסף זה מביא נתונים בזמן אמת, ולכן הגדרות קצב הרענון אינן חלות עליו.
+        global: תוסף זה מתעדכן בכל הפלטפורמה על פי לוח זמנים קבוע.
+        mashup: המיקס יתרענן בתדירות של התוסף המהיר ביותר שלו.
+        readonly: לתוסף זה קצב רענון קבוע שלא ניתן להגדיר.
     create:
       error: Failed to update playlist
-      success: Playlist updated
+      success: רשימת השמעה עודכנה
     destroy:
-      error: Error removing item from playlist
+      error: שגיאה בהסרת פריט מרשימת ההשמעה
       success: Plugin removed from Playlist
     toggle_visibility:
-      success: Playlist item %{change}
+      success: פריט ברשימת ההשמעה %{change}
     duplicate:
-      success: Playlist duplicated
+      success: רשימת השמעה משוכפלת
     sort:
-      success: Playlist order updated
+      success: סדר הפלייליסט עודכן
     set_preferences:
       success: Smart playlist preference updated
     update:
-      success: Playlist order updated
+      success: סדר הפלייליסט עודכן
+    error: שגיאה
+    playlist:
+      displayed_now: מוצג כעת
+      not_displayed_yet: עדיין לא מוצג
+    success: הצלחה
   plugins:
     index:
-      title: Plugins
-      tagline: What will you put on your TRMNL?
-      available: Available
-      connected: Connected
-      recipes: Recipes
-      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+      title: תוספים
+      tagline: מה תשים ב-TRMNL שלך?
+      available: זמין
+      connected: מחובר
+      recipes: מתכונים
+      recipes_hint: תוספים פרטיים של חברי הקהילה שניתן להתקין בלחיצה אחת. __למידע נוסף__.
+      supported_by_this_device: נתמך על ידי מכשיר זה
     search:
-      placeholder: Search Plugins
+      placeholder: תוספים לחיפוש
     my:
       index:
-        title: My Plugins
-        tagline: Develop Plugins for the public marketplace
+        title: התוספים שלי
+        tagline: פיתוח תוספים לשוק הציבורי
       card:
-        connections: connections
-        install: Install
-        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-        submit_for_review: Submit for Review
+        connections: קשרים
+        install: התקן
+        review_are_you_sure: האם אתה בטוח? צוות TRMNL יבדוק זאת וישלח לך דוא"ל עם כל שאלה.
+        submit_for_review: הגש לבדיקה
     new:
-      title: Create New Plugin
-      tagline: Other users will be able to install your plugin.
-      name: Name
-      category: Category
-      category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
-      description: Description
-      description_hint: Maximum 50 characters
-      icon: Icon
-      icon_hint: 512x512px recommended
-      installation_url: Installation URL
-      installation_url_hint: Learn more about the installation flow __here__.
-      installation_success_webhook_url: Installation Success Webhook URL
-      knowledge_base_url: Knowledge Base URL
-      management_url: Plugin Management URL
-      management_url_hint: Learn more about the management flow __here__.
-      markup_url: Plugin Markup URL
-      markup_url_hint: Learn more about screen generation __here__.
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
-      uninstallation_webhook_url: Uninstallation Webhook URL
+      title: צור תוסף חדש
+      tagline: משתמשים אחרים יוכלו להתקין את התוסף שלך.
+      name: שם
+      category: קטגוריה
+      category_hint: החזק את מקש cmd או ctrl כדי לבחור עד 3
+      refresh_every: מרווח רענון נתמך
+      refresh_every_hint: מרווח הרענון המהיר ביותר שהתוסף שלך יכול לתמוך בו.
+      description: תיאור
+      description_hint: מקסימום 50 תווים
+      icon: סמל
+      icon_hint: מומלץ 512x512px
+      installation_url: כתובת URL להתקנה
+      installation_url_hint: למידע נוסף על תהליך ההתקנה, לחצו כאן.
+      installation_success_webhook_url: כתובת URL של Webhook להתקנה מוצלחת
+      knowledge_base_url: כתובת URL של מאגר הידע
+      management_url: כתובת URL לניהול תוספים
+      management_url_hint: למידע נוסף על תהליך הניהול __כאן__.
+      markup_url: כתובת URL של סימון תוסף
+      markup_url_hint: למידע נוסף על יצירת מסכים __כאן__.
+      no_screen_padding: ללא ריפוד מסך
+      no_screen_padding_hint: מסיר את הריפוד החיצוני ביותר במצב מסך מלא.
+      uninstallation_webhook_url: כתובת URL של Webhook להסרה
     edit:
-      title: Edit Plugin
-      tagline: Update your plugin details.
-      name: Name
-      description: Description
+      title: ערוך תוסף
+      tagline: עדכן את פרטי התוסף שלך.
+      name: שם
+      description: תיאור
+    mondrian:
+      common:
+        view: הצג
+    recipes:
+      recipe_lander:
+        preview: תצוגה מקדימה
   plugin_recipes:
-    connected: Recipe connected
+    connected: מתכון קשור
     connections:
-      one: Connection
-      other: Connections
+      one: חיבור
+      other: חיבורים
     forks:
-      one: Fork
-      other: Forks
+      one: מזלג
+      other: מזלגות
     new:
-      error: Recipe not found
+      error: המתכון לא נמצא
   plugin_settings:
-    active: Active
-    copy_are_you_sure: Are you sure you want to copy this setting?
-    delete_are_you_sure: Are you sure you want to delete this setting?
+    active: פעיל
+    copy_are_you_sure: האם אתה בטוח שברצונך להעתיק הגדרה זו?
+    delete_are_you_sure: האם אתה בטוח שברצונך למחוק הגדרה זו?
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
-    inactive: Inactive
-    no_plugin_settings_found: No plugin settings found.
-    not_supported: Not supported on current device
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
-    reset_credentials: "%{plugin_name} account reset successfully"
+    inactive: לא פעיל
+    no_plugin_settings_found: לא נמצאו הגדרות תוסף.
+    not_supported: לא נתמך במכשיר הנוכחי
+    refreshing_now_please_wait: מתרענן כעת, טען מחדש את הדף בעוד מספר שניות.
+    reset_credentials: חשבון %{plugin_name} אויפס בהצלחה
     form:
-      active_hint: Show or hide this plugin instance on your device
-      advanced_settings: Advanced Settings
-      back_to_playlist: Back to Playlist
-      back_to_plugin: Back to %{plugin}
-      back_to_plugins: Back to Plugins
-      connect_with: Connect with %{plugin}
-      debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
-      debug_logs_enabled_link: View logs
-      disconnect_account: Disconnect Account
-      manage_plugin: Configure %{plugin}
-      force_refresh: Force Refresh
-      force_refresh_hint: This feature is designed for testing only - please do not abuse it.
-      force_refresh_click_here: Click here
-      force_refresh_click_here_hint: to generate a new screen immediately
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
-      learn_more: Learn about this plugin in our knowledge base
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
-      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
-      linked_account: Linked Account
-      linked_account_success: Successfully linked with %{plugin_name}
-      link_oauth: Link Account
-      link_oauth_hint: Before you continue, follow the secure authorization process provided by %{plugin}
-      mirrored: Mirrored
-      multiple_instances_hint: This plugin supports multiple instances.
-      name: Name
-      name_hint: Give it a name for easy reference
-      parse: Parse
-      parse_save_first: Parse (Save plugin first)
-      parsed: Parsed
-      plugin_uuid: Plugin UUID
-      plugin_uuid_hint: Use this to make Webhook API requests.
-      preview: Preview - your device will show actual data
+      active_hint: הצג או הסתר את התוסף הזה במכשיר שלך
+      advanced_settings: הגדרות מתקדמות
+      back_to_playlist: חזרה לפלייליסט
+      back_to_plugin: חזרה ל-%{plugin}
+      back_to_plugins: חזרה לתוספים
+      connect_with: התחבר עם %{plugin}
+      debug_logs: יומני באגים
+      debug_logs_click_here: לחץ כאן
+      debug_logs_click_here_hint: כדי להפעיל יומני באגים עבור תוסף זה.
+      debug_logs_enabled: יומני באגים מופעלים למשך %{hours} שעות.
+      debug_logs_enabled_link: הצג יומנים
+      disconnect_account: ניתוק חשבון
+      manage_plugin: הגדר את %{plugin}
+      force_refresh: רענון בכוח
+      force_refresh_hint: תכונה זו מיועדת לבדיקה בלבד - אנא אל תנצלו אותה לרעה.
+      force_refresh_click_here: לחץ כאן
+      force_refresh_click_here_hint: ליצור מסך חדש באופן מיידי
+      force_refresh_not_possible: לא ניתן לבצע רענון כפוי של תוסף זה מכיוון ששרת TRMNL אינו מבצע עיבוד תמונות. למד כיצד לבדוק את המופע שלך __כאן__.
+      learn_more: למידע נוסף על תוסף זה, בקרו במאגר הידע שלנו.
+      learn_more_fork: תוסף זה נוצר על בסיס מתכון.
+      learn_more_fork_original: ראה מקור
+      learn_more_native_long: תוסף זה הוא תוסף מקורי ומתוחזק על ידי TRMNL.
+      learn_more_native_short: תוסף זה מתוחזק על ידי TRMNL.
+      learn_more_recipe_author: זקוק לעזרה? צור קשר עם %{recipe_author} ב-Discord.
+      learn_more_recipe_long: תוסף זה הוא מתכון קהילתי ואינו מתוחזק על ידי TRMNL.
+      learn_more_recipe_short: 'הערה: תוסף זה הוא מתכון.'
+      learn_more_third_party_long: תוסף זה הוא של צד שלישי ואינו מתוחזק על ידי TRMNL.
+      learn_more_third_party_short: 'הערה: תוסף זה הוא של צד שלישי.'
+      linked_account: חשבון מקושר
+      linked_account_success: הקישור ל-%{plugin_name} בוצע בהצלחה
+      link_oauth: קישור חשבון
+      link_oauth_hint: לפני שתמשיך, בצע את תהליך האישור המאובטח שמספק %{plugin}
+      mirrored: מראה
+      multiple_instances_hint: תוסף זה תומך במספר מופעים.
+      name: שם
+      name_hint: תן לו שם כדי שיהיה קל להתייחס אליו
+      parse: לנתח
+      parse_save_first: Parse (שמור תחילה את התוסף)
+      parsed: מפורק
+      plugin_uuid: UUID של תוסף
+      plugin_uuid_hint: השתמש בזה כדי לבצע בקשות Webhook API.
+      preview: תצוגה מקדימה - המכשיר שלך יציג נתונים אמיתיים
       recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_unlisted: This plugin is unlisted
+      recipe_cta_heading_unlisted: תוסף זה אינו רשום
       recipe_cta_heading_in_review: Recipe in review
       recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
-      recipe_mirrored: This screen is mirrored from the recipe.
-      recipe_visibility_title: How would you like to publish?
-      recipe_visibility_edit_title: Edit Submission
-      recipe_visibility_public: Public
-      recipe_visibility_public_hint: Anyone can find and install.
-      recipe_visibility_private: Private
-      recipe_visibility_private_hint: Breaks external installs.
-      recipe_visibility_unlisted: Unlisted
-      recipe_visibility_unlisted_hint: Anyone with the link can install.
-      refresh_rate: Refresh rate
-      refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
-      refreshed: Refreshed
-      remove_plugin: Remove plugin
-      remove_plugin_hint: Removing a plugin will also remove it from your playlist
-      synced: Synced
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
-      view_recipe: View Recipe
-      visit_docs: Visit Docs
+      recipe_cta_body_published: השינויים יבואו לידי ביטוי בהתקנות קיימות ובהתקנות/פיצולים עתידיים.
+      recipe_cta_body_in_review: תוסף זה הוגש לצוות שלנו. אנא המתן.
+      recipe_cta_body_not_published: שלח תוסף זה לאחרים להתקנה. __למידע נוסף__.
+      recipe_cta_confirm: האם אתה בטוח? הצוות שלנו יבדוק את הבקשה ויחזור אליך תוך מספר ימים. אתה יכול להמשיך לבצע שינויים.
+      recipe_mirrored: מסך זה משקף את המתכון.
+      recipe_visibility_title: איך היית רוצה לפרסם?
+      recipe_visibility_edit_title: ערוך הגשה
+      recipe_visibility_public: ציבורי
+      recipe_visibility_public_hint: כל אחד יכול למצוא ולהתקין.
+      recipe_visibility_private: פרטי
+      recipe_visibility_private_hint: מפסיק התקנות חיצוניות.
+      recipe_visibility_unlisted: לא רשום
+      recipe_visibility_unlisted_hint: כל מי שיש לו את הקישור יכול להתקין.
+      refresh_rate: קצב הרענון
+      refresh_rate_hint: הגדר את תדירות העדכון של נתונים חדשים על ידי תוסף זה
+      refresh_rate_not_configurable: מסנכרן %{refresh_rate} (לא ניתן להגדרה)
+      refreshed: רענן
+      remove_plugin: הסר תוסף
+      remove_plugin_hint: הסרת תוסף תסיר אותו גם מרשימת ההשמעה שלך.
+      synced: מסונכרן
+      refresh_paused: רענן השהיה
+      refresh_paused_hint: הרענון האוטומטי הושעה. הוסף לפלייליסט כדי להתחיל שוב.
+      refresh_paused_hidden_hint: הרענון האוטומטי הושעה מכיוון שהתוסף מוסתר ברשימת ההשמעה. סנכרון הנתונים פעיל.
+      refresh_paused_mashup: מערבבים מרעננים
+      refresh_paused_mashup_hint: הרענון האוטומטי הושעה עבור מסך מלא. המיש-אפים מתעדכנים.
+      refresh_stopped: הרענון האוטומטי הופסק. אנא תקן את שגיאת התוסף כדי להמשיך.
+      view_recipe: הצג מתכון
+      visit_docs: בקרו ב-Docs
     import:
-      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
-      missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: "%{filename} is too large"
-      malformed: "%{filename} is malformed"
+      archive_too_large: קובץ ZIP גדול מדי (מקסימום %{max_mb} MB)
+      missing_entry: קובץ ה-ZIP אינו מכיל %{filename}
+      entry_too_large: "%{filename} גדול מדי"
+      malformed: "%{filename} פגום"
     create:
-      success: Plugin created and added to your
-      playlist: playlist
+      success: התוסף נוצר והוסף ל
+      playlist: פלייליסט
     destroy:
-      success: Plugin deleted
-    handle_canceled_consent: Consent canceled, please try again
+      success: התוסף נמחק
+    handle_canceled_consent: ההסכמה בוטלה, אנא נסה שוב
     update:
-      success: Plugin configuration updated successfully
+      success: תצורת התוסף עודכנה בהצלחה
     add_to_playlist:
       success: Plugin added to Playlist
+    back_button:
+      back_to_plugin: חזרה לתוסף
+      back_to_plugins: חזרה לתוספים
+    index:
+      no_plugin_settings_found: לא נמצאו הגדרות תוסף
+    playlist: פלייליסט
+    success: הצלחה
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: הבקשה התקבלה, בדוק את תיבת הדואר הנכנס שלך
+    request_received: הבקשה התקבלה
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
-      fork: Fork
+      newest_to_oldest: מהחדש לישן
+      oldest_to_newest: מהישן לחדש
+      most_popular: הפופולריים ביותר
+      install: התקן
+      fork: מזלג
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: הוסף לוח זמנים מותאם אישית
+      append: ובמהלך...
+      no_schedule: מסך זה יוצג בכל עת.
+      some_schedule: הצג מסך זה רק במהלך...
+      to: אל
+      copy_prompt: העתק לוח זמנים מ...
+      cancel: ביטול
+      save: שמור
   upgrade:
     index:
-      title: 'Upgrading device:'
-      tagline: Unlock custom plugins and __more__.
-      pay: Pay
-      error: Device %{device_name} is already upgraded, switch to another device
+      title: 'שדרוג המכשיר:'
+      tagline: בטל את הנעילה של תוספים מותאמים אישית ו__more__.
+      pay: שלם
+      error: המכשיר %{device_name} כבר שודרג, עבר למכשיר אחר
     confirm:
-      success: Developer edition add-on is now enabled
+      success: התוסף למהדורת המפתחים מופעל כעת
+  action: פעולה
+  actions: פעולות
+  active_admin:
+    blank_slate:
+      content: תוכן
+      link: קישור
+    comments:
+      add: הוסף
+      author_missing: המחבר חסר
+      delete: מחק
+      delete_confirmation: אישור מחיקה
+      no_comments_yet: אין תגובות עדיין
+    devise: תכנן
+    logout: התנתק
+    pagination:
+      empty: ריק
+      next: הבא
+      previous: קודם
+    powered_by: מופעל על ידי
+  date:
+    abbr_day_names: שמות ימי השבוע
+    day_names: שמות הימים
+  default: ברירת מחדל
+  default_webhook_rate_limit: מגבלת קצב webhook ברירת מחדל
+  developer_edition_addon_amount: תוספת למפתחים
+  duration: משך
+  errors:
+    messages:
+      not_saved: לא נשמר
+  fetch: Fetch
+  framework:
+    responsive_test:
+      example-size-btn: דוגמה-גודל-btn
+      test-config-btn: כפתור-הגדרת-בדיקה
+  id: זהות
+  ignore_log_messages: התעלם מהודעות יומן
+  ignore_logs: התעלם מיומנים
+  maintenance_mode: מצב תחזוקה
+  mashup_id: מזהה מאש-אפ
+  mashups:
+    mashup:
+      add_to_playlist: הוסף לפלייליסט
+  month: חודש
+  name: שם
+  order_number: מספר הזמנה
+  plus_webhook_rate_limit: בנוסף למגבלת קצב webhook
+  primary: ראשוני
+  public: ציבורי
+  query: שאילתה
+  rolling_month: חודש מתגלגל
+  rolling_week: שבוע מתגלגל
+  schedule: לוח זמנים
+  shop_promotion: קידום חנות
+  site_banner: באנר אתר
+  site_banner_link: קישור לבאנר האתר
+  sleep_mode_enabled: מצב שינה מופעל
+  title: כותרת
+  today_only: היום בלבד
+  value: ערך
+  views:
+    pagination:
+      truncate: לקצר
+  visible: גלוי
+  week: שבוע
+  work_week: שבוע עבודה

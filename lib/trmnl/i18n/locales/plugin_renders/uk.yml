@@ -1,138 +1,138 @@
 ---
 uk:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: І
+    and_x_more_suffix: більше
     days_left_year:
-      title: Days Left This Year
-      days_passed: Days Passed
-      days_left: Days Left
+      title: Дні, що залишилися в цьому році
+      days_passed: Дні, що минули
+      days_left: Залишилося днів
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: Місячний календар
+      age: Місячний вік
+      current_phase: Поточна фаза
+      illumination: Освітлення Місяця
+      next_full_moon: Наступний повний місяць
+      next_new_moon: Наступний молодик
+      next_phase: Наступний етап
+      next_phase_short: Далі
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: Молодий місяць
+        waxing_crescent: Зростаючий півмісяць
+        first_quarter: Перший квартал
+        waxing_gibbous: Зростаючий Місяць
+        full_moon: Повний місяць
+        waning_gibbous: Спадаючий Місяць
+        third_quarter: Третій квартал
+        waning_crescent: Спадаючий півмісяць
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Погода Netatmo
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Температура в приміщенні.
+      indoor_temp_short: В приміщенні
+      indoor_humidity: Внутрішня вологість
+      indoor_humidity_short: Внутрішній Hum.
+      outdoor_humidity: Зовнішня вологість
+      outdoor_humidity_short: Вимкнути. Гм.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      pressure: Тиск
+      noise: Шум
+      min_max: Мін./Макс.
+      feels: Відчуття
+      rain: Дощ
+      wind: Вітер
+      gust: Порив
+      default_station_name: Станція Netatmo
+      default_outdoor_module: Зовнішня температура.
+      default_indoor_module: В приміщенні
+      trends_title: "%{metric} Тенденції"
+      trends_title_short: Тенденції
+      temperature_trends: Тенденції температури
+      temperature_trends_short: Температурні тенденції
+      outdoor_now: На відкритому повітрі зараз
+      indoor_now: В приміщенні зараз
+      now: Зараз
+      low_high_24h: 24 години Мінімум / Максимум
+      average_24h: 24-годинний середній показник
+      outdoor: На відкритому повітрі
+      indoor: В приміщенні
+      rain_gauge_not_connected: Дощомір не підключений
+      wind_gauge_not_connected: Анемометр не підключений
+      no_rain_gauge: Без дощоміра
+      no_wind_gauge: Без вітроміра
+      add_module_hint: Додайте опціональний модуль %{module}, щоб переглянути ці дані.
+      range_24h: Діапазон 24 години
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Відсутній токен доступу. Будь ласка, підключіть свій обліковий запис Netatmo знову.
+        no_station_selected: Не вибрано метеостанцію. Виберіть станцію в налаштуваннях.
+        connection_failed: Неможливо підключитися до станції Netatmo. Перевірте підключення до Інтернету.
+        data_retrieval_failed: Неможливо отримати дані про погоду. Спробуйте пізніше.
+        session_expired: Сесія закінчилася. Будь ласка, підключіть свій обліковий запис Netatmo знову в налаштуваннях.
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: Доставка
+      empty: Доставка не здійснюється
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Помилка API посилки
+        http: Помилка HTTP %{код}
+        internal: Внутрішня помилка
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Активна доставка
+          other: Активні доставки
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Останні доставки
+          other: Останні поставки
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: Доставлено
+        delivery_exception: Виняток щодо доставки
+        expecting_pickup: Очікування підбору
+        failed_delivery_attempt: Невдала спроба доставки
+        frozen: Заморожений
+        in_transit: У транзиті
+        information_received: Отримана інформація
+        not_found: Не знайдено
+        out_for_delivery: Вийшов на доставку
+        unknown: Невідомо
+      today: Сьогодні
+      tomorrow: Завтра
     weather:
-      title: Weather
-      temperature: Temperature
-      feels_like: Feels Like
-      humidity: Humidity
-      low: Low
-      high: High
-      uv: UV
-      right_now: Right Now
-      today: Today
-      tomorrow: Tomorrow
-      low_high_short: L/H
-      uv_short: UV
-      max: Max
+      title: Погода
+      temperature: Температура
+      feels_like: Відчуття
+      humidity: Вологість
+      low: Низький
+      high: Високий
+      uv: УФ
+      right_now: Прямо зараз
+      today: Сьогодні
+      tomorrow: Завтра
+      low_high_short: Л/П
+      uv_short: УФ
+      max: Макс
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Чіткий
+          cloudy: Хмарно
+          foggy: Туманний
+          partly_cloudy: Частково хмарно
+          rain_likely: Ймовірний дощ
+          rain_possible: Можливий дощ
+          snow: Сніг
+          snow_possible: Можливий сніг
+          thunderstorms_likely: Можливі грози
+          thunderstorms_possible: Можливі грози
+          very_light_rain: Дуже слабкий дощ
+          windy: Вітряний
+          wintry_mix_likely: Можлива зимова негода
+          wintry_mix_possible: Можливий зимовий мікс
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: Низький
+          moderate: Помірний
+          high: Високий
+          very_high: Дуже високий
+          extreme: Екстремальний
         conditions:
         - code: 1000
           day: Sunny

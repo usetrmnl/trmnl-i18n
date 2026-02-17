@@ -1,0 +1,280 @@
+---
+fi:
+  renders:
+    and_x_more_prefix: Ja
+    and_x_more_suffix: lisää
+    days_left_year:
+      title: Tänä vuonna jäljellä olevat päivät
+      days_passed: Kuluneet päivät
+      days_left: Jäljellä olevat päivät
+    lunar_calendar:
+      title: Kuun kalenteri
+      age: Kuun ikä
+      current_phase: Nykyinen vaihe
+      illumination: Kuun valaistus
+      next_full_moon: Seuraava täysikuu
+      next_new_moon: Seuraava uusikuu
+      next_phase: Seuraava vaihe
+      next_phase_short: Seuraava
+      moon_phases:
+        new_moon: Uusi kuu
+        waxing_crescent: Vahaus puolikuun muotoinen
+        first_quarter: Ensimmäinen neljännes
+        waxing_gibbous: Vahaus Gibbous
+        full_moon: Täysikuu
+        waning_gibbous: Katoava kuunpimennys
+        third_quarter: Kolmas neljännes
+        waning_crescent: Laskeva puolikuu
+    netatmo_weather_station:
+      title: Netatmo-sää
+      title_short: Netatmo
+      indoor_temp: Sisälämpötila
+      indoor_temp_short: Sisätiloissa
+      indoor_humidity: Sisäilman kosteus
+      indoor_humidity_short: Sisäilman kosteus.
+      outdoor_humidity: Ulkona vallitseva kosteus
+      outdoor_humidity_short: Ulos. Hmm.
+      co2: CO₂
+      co2_ppm: CO₂ ppm
+      pressure: Paine
+      noise: Melu
+      min_max: Min/Max
+      feels: Tuntuu
+      rain: Sade
+      wind: Tuuli
+      gust: Gust
+      default_station_name: Netatmo-asema
+      default_outdoor_module: Ulkona lämpötila.
+      default_indoor_module: Sisätiloissa
+      trends_title: "%{metric} Trendit"
+      trends_title_short: Trendit
+      temperature_trends: Lämpötilan kehitys
+      temperature_trends_short: Lämpötilatrendit
+      outdoor_now: Ulkona nyt
+      indoor_now: Sisällä nyt
+      now: Nyt
+      low_high_24h: 24h Matala / Korkea
+      average_24h: 24 tunnin keskiarvo
+      outdoor: Ulkona
+      indoor: Sisätiloissa
+      rain_gauge_not_connected: Sademittari ei ole kytketty
+      wind_gauge_not_connected: Tuulimittari ei ole kytketty
+      no_rain_gauge: Ei sademittaria
+      no_wind_gauge: Ei tuulimittaria
+      add_module_hint: Lisää valinnainen %{module} -moduuli nähdäksesi nämä tiedot.
+      range_24h: 24 tunnin kantama
+      errors:
+        missing_access_token: Puuttuva pääsytunnus. Yhdistä Netatmo-tilisi uudelleen.
+        no_station_selected: Sääasemaa ei ole valittu. Valitse asema asetuksista.
+        connection_failed: Yhteyttä Netatmo-asemaan ei voida muodostaa. Tarkista internetyhteytesi.
+        data_retrieval_failed: Säätietoja ei voida hakea. Yritä myöhemmin uudelleen.
+        session_expired: Istunto on päättynyt. Yhdistä Netatmo-tilisi uudelleen asetuksissa.
+    parcel:
+      delivery_by: Toimitus
+      empty: Toimituksia ei ole
+      errors:
+        api: Paketti-API-virhe
+        http: HTTP-virhe %{koodi}
+        internal: Sisäinen virhe
+      filter_modes:
+        active:
+          one: Aktiivinen toimitus
+          other: Aktiiviset toimitukset
+        recent:
+          one: Viimeaikaiset toimitukset
+          other: Viimeaikaiset toimitukset
+      status:
+        delivered: Toimitettu
+        delivery_exception: Toimituspoikkeus
+        expecting_pickup: Odotetaan noutoa
+        failed_delivery_attempt: Toimitusyritys epäonnistui
+        frozen: Jäädytetty
+        in_transit: Kuljetuksessa
+        information_received: Saadut tiedot
+        not_found: Ei löydy
+        out_for_delivery: Toimituksessa
+        unknown: Tuntematon
+      today: Tänään
+      tomorrow: Huomenna
+    weather:
+      title: Sää
+      temperature: Lämpötila
+      feels_like: Tuntuu kuin
+      humidity: Kosteus
+      low: Matala
+      high: Korkea
+      uv: UV
+      right_now: Juuri nyt
+      today: Tänään
+      tomorrow: Huomenna
+      low_high_short: L/H
+      uv_short: UV
+      max: Max
+      tempest:
+        conditions:
+          clear: Selkeä
+          cloudy: Pilvinen
+          foggy: Sumuisa
+          partly_cloudy: Osittain pilvistä
+          rain_likely: Sateen todennäköisyys
+          rain_possible: Sateen mahdollisuus
+          snow: Lumi
+          snow_possible: Lunta mahdollinen
+          thunderstorms_likely: Ukkosmyrskyjen todennäköisyys
+          thunderstorms_possible: Ukkosmyrskyt mahdollisia
+          very_light_rain: Erittäin heikko sade
+          windy: Tuulinen
+          wintry_mix_likely: Talvinen sää todennäköinen
+          wintry_mix_possible: Talvinen sää mahdollinen
+      weatherapi:
+        uv:
+          low: Matala
+          moderate: Kohtalainen
+          high: Korkea
+          very_high: Erittäin korkea
+          extreme: Äärimmäinen
+        conditions:
+        - code: 1000
+          day: Sunny
+          night: Clear
+        - code: 1003
+          day: Partly Cloudy
+          night: Partly Cloudy
+        - code: 1006
+          day: Cloudy
+          night: Cloudy
+        - code: 1009
+          day: Overcast
+          night: Overcast
+        - code: 1030
+          day: Mist
+          night: Mist
+        - code: 1063
+          day: Light Rain
+          night: Light Rain
+        - code: 1066
+          day: Light Snow
+          night: Light Snow
+        - code: 1069
+          day: Sleet
+          night: Sleet
+        - code: 1072
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1087
+          day: Thunder
+          night: Thunder
+        - code: 1114
+          day: Blowing Snow
+          night: Blowing Snow
+        - code: 1117
+          day: Blizzard
+          night: Blizzard
+        - code: 1135
+          day: Fog
+          night: Fog
+        - code: 1147
+          day: Freezing Fog
+          night: Freezing Fog
+        - code: 1150
+          day: Light Drizzle
+          night: Light Drizzle
+        - code: 1153
+          day: Drizzle
+          night: Drizzle
+        - code: 1168
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1171
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1180
+          day: Light Rain
+          night: Light Rain
+        - code: 1183
+          day: Light Rain
+          night: Light Rain
+        - code: 1186
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1189
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1192
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1195
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1198
+          day: Light Freeze
+          night: Light Freeze
+        - code: 1201
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1204
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1207
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1210
+          day: Light Snow
+          night: Light Snow
+        - code: 1213
+          day: Light Snow
+          night: Light Snow
+        - code: 1216
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1219
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1222
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1225
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1237
+          day: Ice Pellets
+          night: Ice Pellets
+        - code: 1240
+          day: Light Rain
+          night: Light Rain
+        - code: 1243
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1246
+          day: Torrential Rain
+          night: Torrential Rain
+        - code: 1249
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1252
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1255
+          day: Light Snow
+          night: Light Snow
+        - code: 1258
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1261
+          day: Light Ice
+          night: Light Ice
+        - code: 1264
+          day: Heavy Ice
+          night: Heavy Ice
+        - code: 1273
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1276
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1279
+          day: Thunder & Snow
+          night: Thunder & Snow
+        - code: 1282
+          day: Thunder & Snow
+          night: Thunder & Snow

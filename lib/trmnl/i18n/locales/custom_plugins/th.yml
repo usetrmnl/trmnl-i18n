@@ -1,0 +1,209 @@
+---
+th:
+  custom_plugins:
+    today: วันนี้
+    tomorrow: พรุ่งนี้
+    updated: อัปเดตแล้ว
+    activity: กิจกรรม
+    done: เสร็จแล้ว
+    due: ครบกำหนด
+    deutsche_bahn_departures:
+      departures: การเดินทางออก
+      time: เวลา
+      line: เส้น
+      destination: จุดหมายปลายทาง
+      platform: แพลตฟอร์ม
+      delay: ความล่าช้า
+      train: รถไฟ
+      on_time: ตรงเวลา
+      cancelled: ยกเลิก
+      minutes: เมตร
+      refreshed: สดชื่น
+    simple_calendar:
+      title: ปฏิทิน
+      ym_format: "%B %Y"
+      chinese_korean:
+        leap_format: กระโดด %{month_label}
+        leap_format_short: LM%{alt_month}
+        ym_format: ", %{ชื่อเดือนอธิกมาส} %{ธาตุสวรรค์} %{กิ่งโลก}"
+        month_labels:
+        -
+        - M1
+        - M2
+        - M3
+        - M4
+        - M5
+        - M6
+        - M7
+        - M8
+        - M9
+        - M10
+        - M11
+        - M12
+        date_labels:
+        -
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+        - '14'
+        - '15'
+        - '16'
+        - '17'
+        - '18'
+        - '19'
+        - '20'
+        - '21'
+        - '22'
+        - '23'
+        - '24'
+        - '25'
+        - '26'
+        - '27'
+        - '28'
+        - '29'
+        - '30'
+        heavenly_stems:
+        - Wood
+        - Wood
+        - Fire
+        - Fire
+        - Earth
+        - Earth
+        - Metal
+        - Metal
+        - Water
+        - Water
+        earthly_branches:
+        - Rat
+        - Ox
+        - Tiger
+        - Rabbit
+        - Dragon
+        - Snake
+        - Horse
+        - Goat
+        - Monkey
+        - Rooster
+        - Dog
+        - Pig
+      japanese:
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 仏滅
+        - 大安
+        - 赤口
+        nengo:
+          reiwa: เรวะ
+        ym_format: "%B %Y (%{nengo} %{alt_year})"
+        year_1: '1'
+      hebrew:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        - Nisan
+        - Iyar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tishri
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
+        month_labels_abbr:
+        - Nis
+        - Iya
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tis
+        - Hes
+        - Kis
+        - Tev
+        - Shv
+        - Ada
+        - Ad1
+        - Ad2
+      hijri:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Muharram
+        - Safar
+        - Rabiʻ I
+        - Rabiʻ II
+        - Jumada I
+        - Jumada II
+        - Rajab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
+        - Dhuʻl-Qiʻdah
+        - Dhuʻl-Hijjah
+      bengali:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
+      indian:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
+        - Asadha
+        - Sravana
+        - Bhadra
+        - Asvina
+        - Kartika
+        - Agrahayana
+        - Pausa
+        - Magha
+        - Phalguna
+    public_recipe_stats:
+      connections: ".input {$value :number} .match $value zero {{ไม่มีการเชื่อมต่อ}} one {{{$value :number} การเชื่อมต่อ}} * {{{$value :number} การเชื่อมต่อ}}"
+      forks: ".input {$value :number} .match $value zero {{ไม่มีส้อม}} one {{{$value :number} แยก}} * {{{$value :number} forks}}"
+      installs: ".input {$value :number} .match $value zero {{ไม่ต้องติดตั้ง}} one {{{$value :number} ติดตั้ง}} * {{{$value :number} ติดตั้ง}}"
+      and_more: และ {$value :number} อีก
+      error_keyword_title: '"{$keyword}" ไม่ตรงกับผลลัพธ์ใด ๆ'
+      error_keyword_subtitle: ลองค้นหาสิ่งอื่นดู
+      error_new_title: ไม่พบสูตรใหม่
+      error_new_subtitle: สิ่งนี้ไม่ควรเกิดขึ้น
+      error_self_title: คุณไม่ได้เผยแพร่สูตรอาหารใด ๆ
+      error_self_subtitle: เรียนรู้วิธีเผยแพร่ผลงานชิ้นแรกของคุณได้ที่ https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'ผู้ใช้ #{$authorId} ไม่ได้เผยแพร่สูตรอาหารใด ๆ'
+      error_author_id_subtitle: ไม่พบสูตรอาหารที่เกี่ยวข้องกับ ID นี้
+      error_recipe_ids_title: ไม่พบหมายเลขสูตรอาหาร
+      error_recipe_ids_subtitle: เพิ่มรหัสสูตรเพื่อเริ่มต้น
+    horizontal_world_clock:
+      name: นาฬิกาโลก
+    language_learning_sentences:
+      from_to: "{$from :langName} ถึง {$to :langNameList}"

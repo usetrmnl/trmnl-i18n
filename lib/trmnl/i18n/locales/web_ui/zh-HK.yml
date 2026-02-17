@@ -40,7 +40,7 @@ zh-HK:
   first_name: 名字
   forgot_password: 忘記密碼
   forgot_password_title: 再次輸入
-  friendly_id: Friendly ID
+  friendly_id: 友善識別碼
   get_started: 讓我們開始吧！
   hidden: 隱藏
   identify: 識別
@@ -97,7 +97,7 @@ zh-HK:
       api_key_confirm: 確定要重新生成API金鑰嗎？舊金鑰將會失效。
       api_key_hint: 查看__文件__以了解如何設定本地環境。
       api_key_label: 用於驗證本地開發工具的憑證
-      api_key_not_generated: （尚未生成）
+      api_key_not_generated: "（尚未生成）"
       api_key_reset: 重新生成
       api_key: 用戶API金鑰
       beta_features: Beta功能
@@ -133,10 +133,13 @@ zh-HK:
       time_zone_hint: 決定重新整理頻率及裝置睡眠時間。
       locale: 地區語言
       locale_hint: 你偏好哪種語言及地區設定？ __按此了解更多__。
+      theme: 外觀
+      theme_hint: 自訂 TRMNL 的顯示樣式。選擇主題或與系統設定同步。
     update:
       success: 成功更新個人資料
     reset_api_key:
       success: 成功重新生成API金鑰
+    success: 成功
   dashboard:
     index:
       title: 儀表板
@@ -259,6 +262,7 @@ zh-HK:
         warning_1: 我明白此升級是<strong>不可逆轉</strong>，並且無法復原。
         warning_2: 我明白這是<strong>危險</strong>操作，可能會導致我的裝置變磚。
         cta: 升級至 TRMNL OG (2-bit)
+      tidbyt_api_key: Tidbit API 金鑰
     index:
       title: 裝置
       tagline: 你的TRMNL裝置
@@ -292,6 +296,11 @@ zh-HK:
     update:
       error: 更新裝置時發生錯誤
       success: 成功更新「%{device}」的裝置設定
+    error: 錯誤
+    error_not_shared: 錯誤未共享
+    error_oneself: 自誤
+    success: 成功
+    success_removed: 成功移除
   invoices:
     rate_limit: 嘗試次數過多，請稍後再試
     invoice_not_found: 找不到發票
@@ -330,6 +339,7 @@ zh-HK:
       revert_confirm: 確定要還原嗎？所有未儲存的變更將會遺失。
       save_changes: 儲存變更 (⌘﹢S)
       separate_preview: 預覽已在獨立視窗開啟
+      edit_composition: 編輯構圖
     merge_variables:
       your_variables: 變數
     no_merge_variables:
@@ -354,6 +364,8 @@ zh-HK:
       reset_instructions: 按下TRMNL背面的按鈕以生成重設碼
       success: 雙重驗證成功
       error: OTP代碼無效
+    enable_otp_path:
+      already_enabled: 已啟用
   playlist_items:
     index:
       title: 播放清單
@@ -404,7 +416,12 @@ zh-HK:
     set_preferences:
       success: 已更新智能播放清單偏好設定
     update:
-      success: Playlist order updated
+      success: 播放清單順序已更新
+    error: 錯誤
+    playlist:
+      displayed_now: 現在顯示
+      not_displayed_yet: 尚未顯示
+    success: 成功
   plugins:
     index:
       title: 外掛功能
@@ -413,6 +430,7 @@ zh-HK:
       connected: 已連接
       recipes: 模板(Recipe)
       recipes_hint: 社群成員開發的客製外掛，一鍵即可安裝。 __了解更多__
+      supported_by_this_device: 由本裝置提供支援
     search:
       placeholder: 搜尋外掛
     my:
@@ -452,6 +470,12 @@ zh-HK:
       tagline: 更新你的外掛詳情。
       name: 名稱
       description: 描述
+    mondrian:
+      common:
+        view: 檢視
+    recipes:
+      recipe_lander:
+        preview: 預覽
   plugin_recipes:
     connected: 已連接模板
     connections:
@@ -475,7 +499,7 @@ zh-HK:
     form:
       active_hint: 在裝置上顯示或隱藏此外掛實例
       advanced_settings: 進階設定
-      back_to_playlist: Back to Playlist
+      back_to_playlist: 返回播放清單
       back_to_plugin: 返回%{plugin}
       back_to_plugins: 返回外掛列表
       connect_with: 連接%{plugin}
@@ -505,7 +529,7 @@ zh-HK:
       linked_account_success: 成功連結%{plugin_name}
       link_oauth: 連結帳戶
       link_oauth_hint: 如要繼續，請先按照「%{plugin}」提供的安全授權流程進行
-      mirrored: Mirrored
+      mirrored: 鏡像
       multiple_instances_hint: 此外掛支援多個執行個體。
       name: 名稱
       name_hint: 為其命名以便參考
@@ -523,7 +547,7 @@ zh-HK:
       recipe_cta_body_in_review: 此外掛已提交給我們的團隊審核。請稍候。
       recipe_cta_body_not_published: 提交此外掛以供其他人安裝。__了解更多__。
       recipe_cta_confirm: 確定嗎？我們的團隊將進行審核，並在數日內回覆你。你可以繼續進行變更。
-      recipe_mirrored: This screen is mirrored from the recipe.
+      recipe_mirrored: 此畫面是從食譜鏡像複製而來。
       recipe_visibility_title: 你想如何發佈？
       recipe_visibility_edit_title: 編輯提交內容
       recipe_visibility_public: 公開
@@ -545,13 +569,13 @@ zh-HK:
       refresh_paused_mashup: 只更新混搭畫面
       refresh_paused_mashup_hint: 已暫停全螢幕的自動更新，混搭畫面(Mashup)仍會更新。
       refresh_stopped: 自動更新已停止。請修正外掛錯誤以繼續。
-      view_recipe: View Recipe
+      view_recipe: 查看食譜
       visit_docs: 查看文件
     import:
       archive_too_large: ZIP檔案太大（最大%{max_mb} MB）
       missing_entry: ZIP檔案未包含「%{filename}」
-      entry_too_large: 「%{filename}」檔案太大
-      malformed: 「%{filename}」格式錯誤
+      entry_too_large: "「%{filename}」檔案太大"
+      malformed: "「%{filename}」格式錯誤"
     create:
       success: 已新增外掛，並加入至你的
       playlist: 播放清單
@@ -562,9 +586,17 @@ zh-HK:
       success: 成功更新外掛設定
     add_to_playlist:
       success: 外掛已加入至播放清單
+    back_button:
+      back_to_plugin: 返回外掛程式
+      back_to_plugins: 返回外掛程式
+    index:
+      no_plugin_settings_found: 未找到任何外掛設定
+    playlist: 播放清單
+    success: 成功
   referral_code:
     create:
       request_received: 已收到請求，請查看收件箱
+    request_received: 收到請求
   recipes:
     index:
       newest_to_oldest: 從新到舊
@@ -580,6 +612,8 @@ zh-HK:
       some_schedule: 只於此期間顯示畫面⋯
       to: 至
       copy_prompt: 複製時間表⋯
+      cancel: 取消
+      save: 儲存
   upgrade:
     index:
       title: 正在升級裝置：
@@ -588,3 +622,68 @@ zh-HK:
       error: 裝置「%{device_name}」已經升級，請切換至另一部裝置
     confirm:
       success: 開發者版本附加組件現已啟用
+  action: 行動
+  actions: 行動
+  active_admin:
+    blank_slate:
+      content: 內容
+      link: 連結
+    comments:
+      add: 添加
+      author_missing: 作者不詳
+      delete: 刪除
+      delete_confirmation: 刪除確認
+      no_comments_yet: 目前尚無留言
+    devise: 設計
+    logout: 登出
+    pagination:
+      empty: 空
+      next: 下一頁
+      previous: 先前
+    powered_by: 由提供技術支援
+  date:
+    abbr_day_names: 縮寫日名
+    day_names: 星期名稱
+  default: 預設
+  default_webhook_rate_limit: 預設 webhook 速率限制
+  developer_edition_addon_amount: 開發者版附加元件數量
+  duration: 持續時間
+  errors:
+    messages:
+      not_saved: 未儲存
+  fetch: 擷取
+  framework:
+    responsive_test:
+      example-size-btn: 範例大小按鈕
+      test-config-btn: 測試設定按鈕
+  id: Id
+  ignore_log_messages: 忽略日誌訊息
+  ignore_logs: 忽略日誌
+  maintenance_mode: 維護模式
+  mashup_id: 混搭 ID
+  mashups:
+    mashup:
+      add_to_playlist: 加入播放清單
+  month: 月份
+  name: 姓名
+  order_number: 訂單編號
+  plus_webhook_rate_limit: 加上 webhook 速率限制
+  primary: 初級
+  public: 公眾
+  query: 查詢
+  rolling_month: 滾動月份
+  rolling_week: 滾動週
+  schedule: 日程
+  shop_promotion: 商店促銷
+  site_banner: 網站橫幅
+  site_banner_link: 網站橫幅連結
+  sleep_mode_enabled: 睡眠模式已啟用
+  title: 標題
+  today_only: 僅限今日
+  value: 價值
+  views:
+    pagination:
+      truncate: 截斷
+  visible: 可見
+  week: 週
+  work_week: 工作週

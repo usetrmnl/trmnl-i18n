@@ -1,0 +1,280 @@
+---
+ro:
+  renders:
+    and_x_more_prefix: And
+    and_x_more_suffix: more
+    days_left_year:
+      title: Days Left This Year
+      days_passed: Days Passed
+      days_left: Days Left
+    lunar_calendar:
+      title: Lunar Calendar
+      age: Lunar Age
+      current_phase: Current Phase
+      illumination: Moon Illumination
+      next_full_moon: Next Full Moon
+      next_new_moon: Next New Moon
+      next_phase: Next Phase
+      next_phase_short: Next
+      moon_phases:
+        new_moon: New Moon
+        waxing_crescent: Waxing Crescent
+        first_quarter: First Quarter
+        waxing_gibbous: Waxing Gibbous
+        full_moon: Full Moon
+        waning_gibbous: Waning Gibbous
+        third_quarter: Third Quarter
+        waning_crescent: Waning Crescent
+    netatmo_weather_station:
+      title: Netatmo Weather
+      title_short: Netatmo
+      indoor_temp: Indoor Temp.
+      indoor_temp_short: Indoor
+      indoor_humidity: Indoor Humidity
+      indoor_humidity_short: Indoor Hum.
+      outdoor_humidity: Outdoor Humidity
+      outdoor_humidity_short: Out. Hum.
+      co2: CO₂
+      co2_ppm: CO₂ ppm
+      pressure: Pressure
+      noise: Noise
+      min_max: Min/Max
+      feels: Feels
+      rain: Rain
+      wind: Wind
+      gust: Gust
+      default_station_name: Netatmo Station
+      default_outdoor_module: Outdoor Temp.
+      default_indoor_module: Indoor
+      trends_title: "%{metric} Trends"
+      trends_title_short: Trends
+      temperature_trends: Temperature Trends
+      temperature_trends_short: Temp Trends
+      outdoor_now: Outdoor Now
+      indoor_now: Indoor Now
+      now: Now
+      low_high_24h: 24h Low / High
+      average_24h: 24h Average
+      outdoor: Outdoor
+      indoor: Indoor
+      rain_gauge_not_connected: Rain gauge not connected
+      wind_gauge_not_connected: Wind gauge not connected
+      no_rain_gauge: No rain gauge
+      no_wind_gauge: No wind gauge
+      add_module_hint: Add the optional %{module} module to see this data
+      range_24h: 24h Range
+      errors:
+        missing_access_token: Missing access token. Please reconnect your Netatmo account.
+        no_station_selected: No weather station selected. Please choose a station in settings.
+        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
+        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
+        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+    parcel:
+      delivery_by: Delivery by
+      empty: There are no deliveries
+      errors:
+        api: Parcel API error
+        http: HTTP error %{code}
+        internal: Internal error
+      filter_modes:
+        active:
+          one: Active Delivery
+          other: Active Deliveries
+        recent:
+          one: Recent Delivery
+          other: Recent Deliveries
+      status:
+        delivered: Delivered
+        delivery_exception: Delivery Exception
+        expecting_pickup: Expecting Pickup
+        failed_delivery_attempt: Failed Delivery Attempt
+        frozen: Frozen
+        in_transit: In Transit
+        information_received: Information Received
+        not_found: Not Found
+        out_for_delivery: Out For Delivery
+        unknown: Unknown
+      today: Today
+      tomorrow: Tomorrow
+    weather:
+      title: Weather
+      temperature: Temperature
+      feels_like: Feels Like
+      humidity: Humidity
+      low: Low
+      high: High
+      uv: UV
+      right_now: Right Now
+      today: Today
+      tomorrow: Tomorrow
+      low_high_short: L/H
+      uv_short: UV
+      max: Max
+      tempest:
+        conditions:
+          clear: Clear
+          cloudy: Cloudy
+          foggy: Foggy
+          partly_cloudy: Partly Cloudy
+          rain_likely: Rain Likely
+          rain_possible: Rain Possible
+          snow: Snow
+          snow_possible: Snow Possible
+          thunderstorms_likely: Thunderstorms Likely
+          thunderstorms_possible: Thunderstorms Possible
+          very_light_rain: Very Light Rain
+          windy: Windy
+          wintry_mix_likely: Wintry Mix Likely
+          wintry_mix_possible: Wintry Mix Possible
+      weatherapi:
+        uv:
+          low: Low
+          moderate: Moderate
+          high: High
+          very_high: Very High
+          extreme: Extreme
+        conditions:
+        - code: 1000
+          day: Sunny
+          night: Clear
+        - code: 1003
+          day: Partly Cloudy
+          night: Partly Cloudy
+        - code: 1006
+          day: Cloudy
+          night: Cloudy
+        - code: 1009
+          day: Overcast
+          night: Overcast
+        - code: 1030
+          day: Mist
+          night: Mist
+        - code: 1063
+          day: Light Rain
+          night: Light Rain
+        - code: 1066
+          day: Light Snow
+          night: Light Snow
+        - code: 1069
+          day: Sleet
+          night: Sleet
+        - code: 1072
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1087
+          day: Thunder
+          night: Thunder
+        - code: 1114
+          day: Blowing Snow
+          night: Blowing Snow
+        - code: 1117
+          day: Blizzard
+          night: Blizzard
+        - code: 1135
+          day: Fog
+          night: Fog
+        - code: 1147
+          day: Freezing Fog
+          night: Freezing Fog
+        - code: 1150
+          day: Light Drizzle
+          night: Light Drizzle
+        - code: 1153
+          day: Drizzle
+          night: Drizzle
+        - code: 1168
+          day: Freeze Drizzle
+          night: Freeze Drizzle
+        - code: 1171
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1180
+          day: Light Rain
+          night: Light Rain
+        - code: 1183
+          day: Light Rain
+          night: Light Rain
+        - code: 1186
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1189
+          day: Moderate Rain
+          night: Moderate Rain
+        - code: 1192
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1195
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1198
+          day: Light Freeze
+          night: Light Freeze
+        - code: 1201
+          day: Heavy Freeze
+          night: Heavy Freeze
+        - code: 1204
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1207
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1210
+          day: Light Snow
+          night: Light Snow
+        - code: 1213
+          day: Light Snow
+          night: Light Snow
+        - code: 1216
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1219
+          day: Moderate Snow
+          night: Moderate Snow
+        - code: 1222
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1225
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1237
+          day: Ice Pellets
+          night: Ice Pellets
+        - code: 1240
+          day: Light Rain
+          night: Light Rain
+        - code: 1243
+          day: Heavy Rain
+          night: Heavy Rain
+        - code: 1246
+          day: Torrential Rain
+          night: Torrential Rain
+        - code: 1249
+          day: Light Sleet
+          night: Light Sleet
+        - code: 1252
+          day: Heavy Sleet
+          night: Heavy Sleet
+        - code: 1255
+          day: Light Snow
+          night: Light Snow
+        - code: 1258
+          day: Heavy Snow
+          night: Heavy Snow
+        - code: 1261
+          day: Light Ice
+          night: Light Ice
+        - code: 1264
+          day: Heavy Ice
+          night: Heavy Ice
+        - code: 1273
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1276
+          day: Thunder & Rain
+          night: Thunder & Rain
+        - code: 1279
+          day: Thunder & Snow
+          night: Thunder & Snow
+        - code: 1282
+          day: Thunder & Snow
+          night: Thunder & Snow

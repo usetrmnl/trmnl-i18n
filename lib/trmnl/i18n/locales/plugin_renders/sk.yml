@@ -26,49 +26,49 @@ sk:
         third_quarter: Posledná štvrť
         waning_crescent: Ubúdajúci polmesiac
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Počasie Netatmo
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Teplota v interiéri.
+      indoor_temp_short: Vnútorné
+      indoor_humidity: Vnútorná vlhkosť
+      indoor_humidity_short: Vnútorná vlhkosť.
+      outdoor_humidity: Vonkajšia vlhkosť
+      outdoor_humidity_short: Von. Hm.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
+      pressure: Tlak
+      noise: Hluk
       min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
+      feels: Pocity
+      rain: Dážď
+      wind: Vietor
       gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      default_station_name: Stanica Netatmo
+      default_outdoor_module: Vonkajšia teplota
+      default_indoor_module: Vnútorné
+      trends_title: "%{metrika} Trendy"
+      trends_title_short: Trendy
+      temperature_trends: Teplotné trendy
+      temperature_trends_short: Trendy teplôt
+      outdoor_now: Vonku teraz
+      indoor_now: Vnútri teraz
+      now: Teraz
+      low_high_24h: 24 hodín Nízka / Vysoká
+      average_24h: 24-hodinový priemer
+      outdoor: Vonku
+      indoor: Vnútorné
+      rain_gauge_not_connected: Dažďový merač nie je pripojený
+      wind_gauge_not_connected: Anemometer nie je pripojený
+      no_rain_gauge: Žiadny dažďový merací prístroj
+      no_wind_gauge: Žiadny vetromer
+      add_module_hint: Pridajte voliteľný modul %{module}, aby ste mohli zobraziť tieto údaje.
+      range_24h: 24-hodinový dosah
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Chýba prístupový token. Opätovne pripojte svoj účet Netatmo.
+        no_station_selected: Nebola vybraná žiadna meteorologická stanica. Vyberte stanicu v nastaveniach.
+        connection_failed: Nie je možné sa pripojiť k stanici Netatmo. Skontrolujte pripojenie k internetu.
+        data_retrieval_failed: Nie je možné načítať údaje o počasí. Skúste to neskôr.
+        session_expired: Relácia vypršala. Prosím, znovu pripojte svoj účet Netatmo v nastaveniach.
     parcel:
       delivery_by: Doručenie do
       empty: Žiadne zásielky

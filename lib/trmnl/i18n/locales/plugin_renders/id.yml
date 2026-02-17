@@ -1,138 +1,138 @@
 ---
 id:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: Dan
+    and_x_more_suffix: lebih
     days_left_year:
-      title: Days Left This Year
-      days_passed: Days Passed
-      days_left: Days Left
+      title: Hari yang tersisa tahun ini
+      days_passed: Hari yang Telah Berlalu
+      days_left: Hari yang tersisa
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: Kalender Lunar
+      age: Usia Bulan
+      current_phase: Fase Saat Ini
+      illumination: Penerangan Bulan
+      next_full_moon: Bulan Purnama Berikutnya
+      next_new_moon: Bulanan Baru Berikutnya
+      next_phase: Fase Berikutnya
+      next_phase_short: Selanjutnya
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: Bulan Baru
+        waxing_crescent: Bulanan Sabit
+        first_quarter: Kuartal Pertama
+        waxing_gibbous: Fase Bulan Cembung
+        full_moon: Bulan Purnama
+        waning_gibbous: Bulan Cembung Menurun
+        third_quarter: Kuartal Ketiga
+        waning_crescent: Bulan Sabit Menurun
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo Cuaca
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
-      co2: CO₂
-      co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      indoor_temp: Suhu dalam ruangan.
+      indoor_temp_short: Di dalam ruangan
+      indoor_humidity: Kelembaban Udara di Dalam Ruangan
+      indoor_humidity_short: Kelembaban dalam ruangan.
+      outdoor_humidity: Kelembaban Udara di Luar Ruangan
+      outdoor_humidity_short: Keluar. Hmm.
+      co2: Karbon dioksida
+      co2_ppm: CO₂ per juta bagian (ppm)
+      pressure: Tekanan
+      noise: Bising
+      min_max: Minimum/Maksimum
+      feels: Merasa
+      rain: Hujan
+      wind: Angin
+      gust: Angin kencang
+      default_station_name: Stasiun Netatmo
+      default_outdoor_module: Suhu Luar Ruangan.
+      default_indoor_module: Di dalam ruangan
+      trends_title: "%{metrik} Tren"
+      trends_title_short: Tren
+      temperature_trends: Tren Suhu
+      temperature_trends_short: Tren Suhu
+      outdoor_now: Outdoor Sekarang
+      indoor_now: Di Dalam Sekarang
+      now: Sekarang
+      low_high_24h: 24 jam Rendah / Tinggi
+      average_24h: Rata-rata 24 jam
+      outdoor: Di luar ruangan
+      indoor: Di dalam ruangan
+      rain_gauge_not_connected: Alat ukur hujan tidak terhubung
+      wind_gauge_not_connected: Alat pengukur angin tidak terhubung
+      no_rain_gauge: Tidak ada alat ukur hujan
+      no_wind_gauge: Tidak ada alat ukur angin
+      add_module_hint: Tambahkan modul opsional %{module} untuk melihat data ini.
+      range_24h: Jangkauan 24 Jam
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: Token akses tidak ditemukan. Silakan sambungkan kembali akun Netatmo Anda.
+        no_station_selected: Tidak ada stasiun cuaca yang dipilih. Silakan pilih stasiun di pengaturan.
+        connection_failed: Tidak dapat terhubung ke stasiun Netatmo. Silakan periksa koneksi internet Anda.
+        data_retrieval_failed: Tidak dapat mengambil data cuaca. Silakan coba lagi nanti.
+        session_expired: Sesi telah berakhir. Silakan sambungkan kembali akun Netatmo Anda di pengaturan.
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: Pengiriman oleh
+      empty: Tidak ada pengiriman.
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Kesalahan API Paket
+        http: Kesalahan HTTP %{code}
+        internal: Kesalahan internal
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: Pengiriman Aktif
+          other: Pengiriman Aktif
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: Pengiriman Terbaru
+          other: Pengiriman Terbaru
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: Dikirim
+        delivery_exception: Kecuali Pengiriman
+        expecting_pickup: Menunggu Penjemputan
+        failed_delivery_attempt: Upaya Pengiriman Gagal
+        frozen: Beku
+        in_transit: Dalam Perjalanan
+        information_received: Informasi yang Diterima
+        not_found: Tidak Ditemukan
+        out_for_delivery: Siap untuk Pengiriman
+        unknown: Tidak diketahui
+      today: Hari ini
+      tomorrow: Besok
     weather:
-      title: Weather
-      temperature: Temperature
-      feels_like: Feels Like
-      humidity: Humidity
-      low: Low
-      high: High
+      title: Cuaca
+      temperature: Suhu
+      feels_like: Rasanya seperti
+      humidity: Kelembaban
+      low: Rendah
+      high: Tinggi
       uv: UV
-      right_now: Right Now
-      today: Today
-      tomorrow: Tomorrow
+      right_now: Saat ini
+      today: Hari ini
+      tomorrow: Besok
       low_high_short: L/H
       uv_short: UV
-      max: Max
+      max: Maksimal
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Jelas
+          cloudy: Berawan
+          foggy: Berkabut
+          partly_cloudy: Berawan Sebagian
+          rain_likely: Hujan Kemungkinan Terjadi
+          rain_possible: Hujan Mungkin Terjadi
+          snow: Salju
+          snow_possible: Salju Mungkin Turun
+          thunderstorms_likely: Badai petir kemungkinan terjadi.
+          thunderstorms_possible: Kemungkinan terjadi badai petir
+          very_light_rain: Hujan Sangat Ringan
+          windy: Berangin
+          wintry_mix_likely: Campuran cuaca dingin kemungkinan terjadi.
+          wintry_mix_possible: Campuran cuaca dingin mungkin terjadi
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: Rendah
+          moderate: Sedang
+          high: Tinggi
+          very_high: Sangat Tinggi
+          extreme: Ekstrim
         conditions:
         - code: 1000
           day: Sunny
