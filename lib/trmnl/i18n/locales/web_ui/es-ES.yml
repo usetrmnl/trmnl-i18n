@@ -2,8 +2,8 @@
 es-ES:
   locale_name: Español (España)
   about: Acerca de
-  add: Crear
-  add_new: Crear nueva
+  add: Añadir
+  add_new: Añadir nueva
   ago: hace
   already_have_account: Ya tengo una cuenta
   are_you_sure: "¿Estás seguro?"
@@ -13,8 +13,8 @@ es-ES:
   brand: Marca
   buy_now: Comprar ahora
   cancel: Cancelar
-  change_password: Cambiar Contraseña
-  charge_level: Nivel de Carga
+  change_password: Cambiar contraseña
+  charge_level: Nivel de carga
   charged: Cargado
   charging: Cargando
   claim_plus_trial: Obtén 6 meses gratis
@@ -30,7 +30,7 @@ es-ES:
   days: días
   delete: Eliminar
   developers: Desarrolladores
-  developer_edition_required: Se requiere la Edición para Desarrolladores para activar esta característica.
+  developer_edition_required: Se requiere la Edición para Desarrolladores para activar esta función.
   device_id: ID del dispositivo
   device: Dispositivo
   edit: Editar
@@ -68,7 +68,7 @@ es-ES:
   refresh_rates_hint: Aprende cómo funcionan las tasas de refresco __aquí__.
   reset_password: Restablecer mi contraseña
   reset_to_defaults: Restablecer valores predeterminados
-  required: Requerido
+  required: Obligatorio
   save: Guardar
   shown: mostrado
   section: Sección
@@ -85,7 +85,7 @@ es-ES:
   collaboration_request: ¿Quieres colaborar?
   collaboration_request_hint: Asociaciones, ventas grupales, proyectos especiales — tú decides.
   collaboration_request_cta: Hablemos
-  welcome: Hola
+  welcome: Te damos la bienvenida
   time:
     formats:
       shorter: "%-H:%M"
@@ -120,7 +120,7 @@ es-ES:
       enable_2fa: "¿Habilitar 2FA?"
       enable_2fa_hint: __Haz clic aquí__ para habilitar OTP.
       disable_2fa: Deshabilitar 2FA
-      disable_2fa_hint: Proporciona un código OTP válido y tu contraseña actual más arriba para desactivar esta opción.
+      disable_2fa_hint: Introduce un código OTP válido y tu contraseña actual más arriba para desactivar esta opción.
       plus_subscription: Suscripción a TRMNL+
       plus_subscription_trial_until: Estás en una prueba gratuita hasta %{plus_trial_end_at}.
       plus_subscription_hint: Desbloquea tasas de refresco más rápidas y límites de tráfico más altos. __Más información__.
@@ -153,8 +153,8 @@ es-ES:
       title: Noticias
       cta: Ver todas
     playlist_items:
-      title: Lista de Reproducción
-      cta: Editar Lista de Reproducción
+      title: Lista de reproducción
+      cta: Editar lista
       pieces_of_content_displayed: Contenido mostrado
     plugins:
       title: Plugins
@@ -177,15 +177,15 @@ es-ES:
       accepts_beta_firmware_hint: Activa para obtener las últimas mejoras de firmware del dispositivo antes que otros usuarios.
       back_to_devices: Volver a Dispositivos
       battery_and_sleep: Batería y suspensión
-      battery_consumption: Consumo de Batería
-      battery_consumption_hint: Ahorra energía y mejora el uso de batería habilitando el Modo de Suspensión.
-      battery_learn_more: Aprende más sobre la carga de la __aquí__.
+      battery_consumption: Consumo de batería
+      battery_consumption_hint: Ahorra energía y mejora el uso de batería habilitando el Modo de suspensión.
+      battery_learn_more: Aprende más sobre la carga de la batería __aquí__.
       battery_refresh: Actualizar
-      developer_perks: Ventajas para Desarrolladores
+      developer_perks: Ventajas para desarrolladores
       developer_perks_hint: Las opciones a continuación requieren el __plugin de Desarrolladores__.
       device_credentials: Credenciales del dispositivo
       device_credentials_hint: Puedes ver qué puedes hacer con estas credenciales __aquí__
-      device_name: Nombre del Dispositivo
+      device_name: Nombre del dispositivo
       device_name_hint: Lo utilizamos para hacer la interfaz de TRMNL más cómoda
       device_model: Modelo del dispositivo
       device_model_hint: Tu modelo de hardware
@@ -201,44 +201,44 @@ es-ES:
       display_calibration_pixel_ratio_hint: "Nivel de zoom de la imagen (0.5–3.0). Por defecto:"
       display_calibration_ui_scale: Escala de la interfaz
       display_calibration_ui_scale_hint: "Tamaño de texto y elementos (0.5–2.0). Por defecto:"
-      edit_device: Editar Dispositivo
+      edit_device: Editar dispositivo
       firmware: Firmware
       firmware_updates_enabled: Actualizaciones habilitadas
       firmware_updates_disabled: Actualizaciones deshabilitadas
-      guest_mode: Modo Invitado
+      guest_mode: Modo invitado
       guest_mode_hint: Elige qué mostrar (y por cuánto tiempo) cuando el modo invitado esté activado.
       guest_mode_item_placeholder: Elige un elemento
       guest_mode_duration_placeholder: Elige una duración
       identify: Identificar
-      identify_device: Identificar Dispositivo
+      identify_device: Identificar dispositivo
       identify_device_hint: Haz clic en el botón de abajo para crear una pantalla en este dispositivo que ayude a identificarlo.
       logs: Registros
       logs_hint: Depura tu dispositivo y plugins con un feed en vivo de logs de error.
-      low_battery_email_notification: Notificación por Correo de Batería Baja
+      low_battery_email_notification: Notificación por correo de batería baja
       low_battery_email_notification_hint: Recibe un correo cuando la batería de tu dispositivo esté baja.
       mirror: Modo espejo
-      mirror_device: Espejar otro Dispositivo
-      mirror_device_hint: Proporciona un ID de dispositivo (compartible) para espejar su lista de reproducción. Tu lista seguirá mostrándose.
+      mirror_device: Replicar otro dispositivo
+      mirror_device_hint: Introduce un ID de dispositivo (compartible) para replicar su lista de reproducción. Tu lista seguirá mostrándose.
       mirror_disabled: Modo espejo desactivado
       mirror_enabled: Modo espejo activado
       mirror_stop: Desconectar modo espejo
       mirror_sync: Sincronizar pantallas
-      ota_enabled: Actualizaciones OTA Habilitadas
+      ota_enabled: Actualizaciones OTA habilitadas
       ota_enabled_hint: Instala automáticamente nuevo firmware. Desactiva para usar tu propio firmware.
-      ota_byod_not_supported: OTA no es compatible con dispositivos BYOD. Flashea una versión compatible directamente desde usetrmnl.com/flash
-      maximum_compatibility: Habilitar Compatibilidad Máxima
+      ota_byod_not_supported: OTA no es compatible con dispositivos BYOD. Instala una versión compatible directamente desde usetrmnl.com/flash
+      maximum_compatibility: Habilitar compatibilidad máxima
       maximum_compatibility_hint: Resuelve problemas de visualización causados por ciertos chips de tinta electrónica. Desactiva la actualización rápida. Firmware 1.6.0+ requerido.
       palette: Paleta de colores
       palette_hint: Selecciona la paleta de colores para las pantallas de este dispositivo. Una paleta mayor se ve mejor, pero una menor dibuja más rápido en e-ink. Los elementos de la lista pueden anular esto.
-      sleep_mode: Modo de Suspensión
+      sleep_mode: Modo de suspensión
       sleep_mode_hint: Ajusta tu tasa de refresco para optimizar el enfoque y la duración de la batería.
-      sleep_screen: Pantalla de Suspensión
-      sleep_screen_tooltip: Habilita el Modo de Suspensión para usar esta función
+      sleep_screen: Pantalla de suspensión
+      sleep_screen_tooltip: Habilita el Modo de suspensión para usar esta función
       sleep_screen_hint: Muestra una pantalla de suspensión durante las horas de modo de suspensión.
-      special_function: Función Especial
+      special_function: Función especial
       special_function_hint: Configura una función de doble clic para el botón en la parte posterior de tu dispositivo.
       special_function_learn_more: Aprende más sobre funciones especiales __aquí__.
-      temperature_profile: Perfil de Temperatura
+      temperature_profile: Perfil de temperatura
       temperature_profile_hint: No cambiar a menos que se indique. Para pantallas con imágenes descoloridas.
       tidbyt_credentials: Credenciales Tidbyt
       tidbyt_credentials_hint: Introduce las credenciales API de tu dispositivo Tidbyt desde la app de Tidbyt en Ajustes → Developer → Obtener clave API.
@@ -246,12 +246,12 @@ es-ES:
       tidbyt_device_id: ID del dispositivo
       tidbyt_device_api_key: Clave API
       unlink: Desvincular
-      unlink_confirm: "¿Estás seguro? Esto borrará todos las configuraciones de los plugins y los elementos de la lista de reproducción, para que el dispositivo pueda ser añadido a otra cuenta."
-      unlink_device: Desvincular Dispositivo
+      unlink_confirm: "¿Estás seguro? Esto borrará todas las configuraciones de los plugins y los elementos de la lista de reproducción, para que el dispositivo pueda ser añadido a otra cuenta."
+      unlink_device: Desvincular dispositivo
       unlink_device_hint: Desvincular un dispositivo TRMNL lo hace seguro para revender o regalar a otra persona.
       unlink_device_learn_more: Sigue la guía completa __aquí__.
       visibility: Visibilidad
-      visibility_hint: Haz que tu dispositivo TRMNL sea espejeable cambiando la configuración a continuación.
+      visibility_hint: Haz que tu dispositivo TRMNL pueda ser replicado cambiando la configuración a continuación.
       your_device: Tu TRMNL
       upgrade_og:
         title: Actualización a pantalla de 2 bits disponible
@@ -281,10 +281,10 @@ es-ES:
       error: Error al actualizar el dispositivo
       success: Identificación del dispositivo solicitada
     mirror:
-      error: Error al copiar el dispositivo
-      error_not_shared: El ID de dispositivo proporcionado no puede compartirse
-      error_oneself: No se puede copiar un mismo dispositivo
-      success: Dispositivo %{friendly_id} copiado con éxito
+      error: Error al replicar el dispositivo
+      error_not_shared: El ID de dispositivo introducido no puede compartirse
+      error_oneself: No se puede replicar un mismo dispositivo
+      success: Dispositivo %{friendly_id} replicado con éxito
       success_removed: Modo espejo eliminado
     switch:
       error: Error al cambiar de dispositivo
@@ -293,7 +293,7 @@ es-ES:
       error: Error al actualizar el dispositivo
       success: Configuración del dispositivo %{device} actualizada con éxito
   invoices:
-    rate_limit: Demasiados intentos, por favor, espera e intentalo de nuevo
+    rate_limit: Demasiados intentos, por favor, espera e inténtalo de nuevo
     invoice_not_found: Factura no encontrada
   logs:
     index:
@@ -302,7 +302,7 @@ es-ES:
       bulk_destroy: Eliminar masivamente
       dump: Volcado
       id: ID
-      private_plugins: Plugins Privados
+      private_plugins: Plugins privados
       source: Fuente
       time: Hora
   markups:
@@ -311,7 +311,7 @@ es-ES:
     form:
       back_to_plugin_settings: Volver a configuración del plugin
       design_system: Aprovecha nuestro sistema de diseño nativo
-      design_system_docs: Documentación del Sistema de Diseño
+      design_system_docs: Documentación del sistema de diseño
       dirty_confirm: Tienes cambios sin guardar. ¿Seguro que quieres salir de esta página?
       edit_markup: Editar markup
       edit_markup_for_plugin: Editar markup para %{plugin_setting_name}
@@ -333,20 +333,20 @@ es-ES:
     merge_variables:
       your_variables: Tus variables
     no_merge_variables:
-      force_refresh: Si has proporcionado variables pero no se detectan, prueba un __refresco forzado__.
+      force_refresh: Si has introducido variables pero no se detectan, prueba un __refresco forzado__.
       no_variables_detected: No se detectaron variables
   mfa:
     disable_otp:
-      success: 2FA Deshabilitado
-      invalid_otp: OTP invalido
+      success: 2FA deshabilitado
+      invalid_otp: OTP inválido
       invalid_password: Contraseña incorrecta
       invalid_otp_and_password: OTP y contraseña incorrectos
     enable_otp:
       input_otp: Introduce el OTP
-      submit: Verificar y Habilitar
+      submit: Verificar y habilitar
       already_enabled: 2FA ya está habilitado
     enable_otp_verify:
-      success: 2FA Habilitado
+      success: 2FA habilitado
       error: Código OTP incorrecto
     verify_otp:
       verify: Verificar
@@ -356,12 +356,12 @@ es-ES:
       error: Código OTP inválido
   playlist_items:
     index:
-      title: Lista de Reproducción
+      title: Lista de reproducción
       tagline: Elige lo que se muestra en
-      add_a_group: Añadir un Grupo
-      add_a_plugin: Añadir un Plugin
+      add_a_group: Añadir un grupo
+      add_a_plugin: Añadir un plugin
       add_first_device_cta: "¡Empieza __añadiendo__ tu primer dispositivo TRMNL!"
-      add_to_playlist: Añadir a la Lista de Reproducción
+      add_to_playlist: Añadir a la lista
       create_first_playlist_cta: "¡Crea tu lista de reproducción después de __conectar__ tu primer plugin!"
       custom: Personalizado
       device_default: Predeterminado del dispositivo
@@ -380,31 +380,31 @@ es-ES:
       delete: "¿Seguro que quieres eliminar este elemento? El plugin permanecerá conectado, pero no se mostrará en tu dispositivo."
       displayed_now: Mostrado ahora
       not_displayed_yet: Pendiente
-      remove_from_playlist: Eliminar de la lista de reproducción
+      remove_from_playlist: Eliminar de la lista
       hide_playlist: Ocultar este elemento
       show_playlist: Mostrar este elemento
       refresh_rate_disabled:
         default: La tasa de actualización de este plugin no se puede configurar.
         external: Este plugin obtiene datos al vuelo, por lo que la configuración de la tasa de actualización no se aplica.
         global: Este plugin se actualiza a nivel de plataforma según un horario fijo.
-        mashup: El mashup se refrescará tan frecuentemente como su plugin más rápido.
+        mashup: El mashup se actualizará tan frecuentemente como su plugin más rápido.
         readonly: Este plugin tiene una tasa de actualización fija que no se puede configurar.
     create:
-      error: Falló la actualización de la Lista de Reproducción
-      success: Lista de Reproducción actualizada
+      error: Falló la actualización de la lista
+      success: Lista actualizada
     destroy:
-      error: Error al eliminar el elemento de la lista de reproducción
-      success: Plugin eliminado de la lista de reproducción
+      error: Error al eliminar el elemento de la lista
+      success: Plugin eliminado de la lista
     toggle_visibility:
       success: Elemento de la lista %{change}
     duplicate:
-      success: Lista de Reproducción duplicada
+      success: Lista duplicada
     sort:
-      success: Orden de la Lista de Reproducción actualizado
+      success: Orden de la lista actualizado
     set_preferences:
-      success: Smart playlist preference updated
+      success: Preferencias de lista inteligente actualizadas
     update:
-      success: Orden de la Lista de Reproducción actualizado
+      success: Orden de la lista actualizado
   plugins:
     index:
       title: Plugins
@@ -412,20 +412,20 @@ es-ES:
       available: Disponible
       connected: Conectado
       recipes: Recetas
-      recipes_hint: Plugins Privados creados por miembros de la comunidad que se pueden instalar en 1 click. __Aprende más__.
+      recipes_hint: Plugins privados creados por miembros de la comunidad que se pueden instalar en 1 click. __Aprende más__.
     search:
-      placeholder: Buscar Plugins
+      placeholder: Buscar plugins
     my:
       index:
-        title: Mis Plugins
-        tagline: Desarrolla para el mercado de Plugins
+        title: Mis plugins
+        tagline: Desarrolla para el mercado de plugins
       card:
         connections: Conexiones
         install: Instalar
         review_are_you_sure: "¿Estás seguro? El equipo de TRMNL lo revisará y te enviará un email con cualquier duda."
         submit_for_review: Mandar a revisión
     new:
-      title: Crear Plugin
+      title: Crear plugin
       tagline: Permitir que otros usuarios instalen tu plugin
       name: Nombre
       category: Categoría
@@ -436,19 +436,19 @@ es-ES:
       description_hint: Máximo 50 caracteres
       icon: Icono
       icon_hint: 512x512px recomendado
-      installation_url: URL de instalacion
+      installation_url: URL de instalación
       installation_url_hint: Aprende más sobre el flujo de instalación __aquí__.
       installation_success_webhook_url: URL de webhook de instalación exitosa
       knowledge_base_url: URL de la base de conocimiento
       management_url: URL de gestión del plugin
       management_url_hint: Aprende más sobre el flujo de gestión __aquí__.
-      markup_url: URL de Markup del plugin
+      markup_url: URL de markup del plugin
       markup_url_hint: Aprende más sobre la generación de pantallas __aquí__.
-      no_screen_padding: Sin padding de pantalla
-      no_screen_padding_hint: Elimina el padding exterior en modo pantalla completa
+      no_screen_padding: Sin relleno (padding) de pantalla
+      no_screen_padding_hint: Elimina el relleno exterior en modo pantalla completa
       uninstallation_webhook_url: URL de webhook de desinstalación
     edit:
-      title: Editar Plugin
+      title: Editar plugin
       tagline: Actualizar la información de tu plugin.
       name: Nombre
       description: Descripción
@@ -466,7 +466,7 @@ es-ES:
     active: Activo
     copy_are_you_sure: "¿Estás seguro de que quieres copiar este plugin?"
     delete_are_you_sure: "¿Estás seguro de que quieres eliminar este plugin?"
-    delete: Esto borrará completamente la configuración del plugin. Para ocultar este plugin de tu dispositivo, elimínalo de tu Lista de Reproducción en su lugar.
+    delete: Esto borrará completamente la configuración del plugin. Para ocultar este plugin de tu dispositivo, elimínalo de tu lista de reproducción.
     inactive: Inactivo
     no_plugin_settings_found: No se encontraron configuraciones del plugin.
     not_supported: No compatible con el dispositivo actual
@@ -474,10 +474,10 @@ es-ES:
     reset_credentials: Cuenta de %{plugin_name} restablecida con éxito
     form:
       active_hint: Mostrar u ocultar este plugin en tu dispositivo
-      advanced_settings: Ajustes Avanzados
-      back_to_playlist: Volver a la Lista de Reproducción
+      advanced_settings: Ajustes avanzados
+      back_to_playlist: Volver a la lista
       back_to_plugin: Volver a %{plugin}
-      back_to_plugins: Volver a Plugins
+      back_to_plugins: Volver a plugins
       connect_with: Conectar con %{plugin}
       debug_logs: Logs de depuración
       debug_logs_click_here: Haz clic aquí
@@ -486,7 +486,7 @@ es-ES:
       debug_logs_enabled_link: Ver logs
       disconnect_account: Desconectar cuenta
       manage_plugin: Configurar %{plugin}
-      force_refresh: Forzar Refresco
+      force_refresh: Forzar refresco
       force_refresh_hint: Esta función está diseñada solo para pruebas - por favor, no abuses de ella.
       force_refresh_click_here: Haz clic aquí
       force_refresh_click_here_hint: Genera una nueva pantalla inmediatamente
@@ -503,19 +503,19 @@ es-ES:
       learn_more_third_party_short: "Nota: este plugin es de un tercero."
       linked_account: Cuenta vinculada
       linked_account_success: Vinculado con éxito a %{plugin_name}
-      link_oauth: Vincular Cuenta
+      link_oauth: Vincular cuenta
       link_oauth_hint: Antes de continuar, sigue el proceso de autorización segura en %{plugin}
-      mirrored: Espejado
+      mirrored: Replicado
       multiple_instances_hint: Este plugin admite múltiples instancias.
       name: Nombre
       name_hint: Dale un nombre para fácil referencia
       parse: Analizar
       parse_save_first: Analizar (guardar plugin primero)
       parsed: Analizado
-      plugin_uuid: UUID del Plugin
+      plugin_uuid: UUID del plugin
       plugin_uuid_hint: Utiliza esto para hacer solicitudes a la API de Webhook.
       preview: Vista previa - tu dispositivo mostrará datos reales
-      recipe_cta_heading_published: Este plugin es una Receta
+      recipe_cta_heading_published: Este plugin es una receta
       recipe_cta_heading_unlisted: Este plugin no está listado
       recipe_cta_heading_in_review: Receta en revisión
       recipe_cta_heading_not_published: "¿Publicar como receta?"
@@ -523,7 +523,7 @@ es-ES:
       recipe_cta_body_in_review: Este plugin ha sido enviado a nuestro equipo. Mantente a la espera.
       recipe_cta_body_not_published: Envía este plugin para que otros lo instalen. __Aprende más__.
       recipe_cta_confirm: "¿Seguro? Nuestro equipo revisará y responderá en un par de días. Puedes continuar haciendo cambios."
-      recipe_mirrored: Esta pantalla está espejada desde la receta.
+      recipe_mirrored: Esta pantalla está replicada desde la receta.
       recipe_visibility_title: "¿Cómo te gustaría publicarlo?"
       recipe_visibility_edit_title: Editar envío
       recipe_visibility_public: Público
@@ -537,16 +537,16 @@ es-ES:
       refresh_rate_not_configurable: Sincroniza %{refresh_rate} (no configurable)
       refreshed: Refrescado
       remove_plugin: Eliminar plugin
-      remove_plugin_hint: Eliminar un plugin también lo eliminará de tu Lista de Reproducción
+      remove_plugin_hint: Eliminar un plugin también lo eliminará de tu lista
       synced: Sincronizado
       refresh_paused: Actualización en pausa
-      refresh_paused_hint: La actualización automática está en pausa. Añade a la Lista de Reproducción para comenzar de nuevo.
+      refresh_paused_hint: La actualización automática está en pausa. Añade a la lista para comenzar de nuevo.
       refresh_paused_hidden_hint: La actualización automática está en pausa porque el plugin está oculto en la lista de reproducción. La sincronización de datos está activa.
       refresh_paused_mashup: Actualizando mashups
       refresh_paused_mashup_hint: Actualización automática pausada para pantalla completa. Mashups están actualizando.
       refresh_stopped: La actualización automática se ha detenido. Por favor, arregla el error del plugin para continuar.
-      view_recipe: Ver Receta
-      visit_docs: Visitar Documentación
+      view_recipe: Ver receta
+      visit_docs: Visitar documentación
     import:
       archive_too_large: El archivo ZIP es demasiado grande (%{max_mb} MB máximo)
       missing_entry: El archivo ZIP no contiene %{filename}
@@ -554,21 +554,21 @@ es-ES:
       malformed: "%{filename} está mal formado"
     create:
       success: Plugin creado y añadido a tu
-      playlist: Lista de Reproducción
+      playlist: lista
     destroy:
       success: Plugin eliminado
     handle_canceled_consent: Consentimiento cancelado, por favor inténtelo de nuevo
     update:
       success: Configuración del plugin actualizada con éxito
     add_to_playlist:
-      success: Plugin añadido a la Lista de Reproducción
+      success: Plugin añadido a la lista
   referral_code:
     create:
       request_received: Solicitud recibida, compruebe su bandeja de entrada
   recipes:
     index:
-      newest_to_oldest: más Nuevas a más Antiguas
-      oldest_to_newest: más Antiguas a más Nuevas
+      newest_to_oldest: más nuevas a más antiguas
+      oldest_to_newest: más antiguas a más nuevas
       most_popular: Más populares
       install: Instalar
       fork: Fork
@@ -577,7 +577,7 @@ es-ES:
       add: Añade una programación personalizada
       append: Y durante…
       no_schedule: Esta pantalla se mostrará en todo momento.
-      some_schedule: Solo mostrar esta mañana durante…
+      some_schedule: Solo mostrar esta pantalla durante…
       to: a
       copy_prompt: Copiar programación de…
   upgrade:
@@ -587,4 +587,4 @@ es-ES:
       pay: Pagar
       error: El dispositivo %{device_name} ya se ha actualizado, cambie a otro dispositivo
     confirm:
-      success: Se ha habilitado el add-on de Desarrolladores
+      success: Se ha habilitado el add-on de desarrolladores
