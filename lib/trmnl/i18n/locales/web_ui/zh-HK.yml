@@ -97,7 +97,7 @@ zh-HK:
       api_key_confirm: 確定要重新生成API金鑰嗎？舊金鑰將會失效。
       api_key_hint: 查看__文件__以了解如何設定本地環境。
       api_key_label: 用於驗證本地開發工具的憑證
-      api_key_not_generated: （尚未生成）
+      api_key_not_generated: "（尚未生成）"
       api_key_reset: 重新生成
       api_key: 用戶API金鑰
       beta_features: Beta功能
@@ -129,6 +129,7 @@ zh-HK:
       session_hint: 你已登入為：%{user}
       show_title_bar: 顯示標題列
       show_title_bar_hint: 如停用此功能，原生（非全域）及第三方外掛功能會顯得更簡約。
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: 時區
       time_zone_hint: 決定重新整理頻率及裝置睡眠時間。
       locale: 地區語言
@@ -550,8 +551,8 @@ zh-HK:
     import:
       archive_too_large: ZIP檔案太大（最大%{max_mb} MB）
       missing_entry: ZIP檔案未包含「%{filename}」
-      entry_too_large: 「%{filename}」檔案太大
-      malformed: 「%{filename}」格式錯誤
+      entry_too_large: "「%{filename}」檔案太大"
+      malformed: "「%{filename}」格式錯誤"
     create:
       success: 已新增外掛，並加入至你的
       playlist: 播放清單

@@ -39,7 +39,6 @@ pl:
       pressure: Ciśnienie
       noise: Hałas
       min_max: Min/Maks
-      feels_like: Odczuwalna
       feels: Odczuwalna
       rain: Deszcz
       wind: Wiatr
@@ -47,7 +46,7 @@ pl:
       default_station_name: Stacja Netatmo
       default_outdoor_module: Temp. zew.
       default_indoor_module: Wewnątrz
-      trends_title: "Trendy %{metric}"
+      trends_title: Trendy %{metric}
       trends_title_short: Trendy
       temperature_trends: Trendy temperatury
       temperature_trends_short: Trendy temp.
@@ -70,6 +69,7 @@ pl:
         connection_failed: Połączenie ze stacją Netatmo nie powiodło się. Sprawdź swoje połączenie z Internetem.
         data_retrieval_failed: Nie można pobrać danych o pogodzie. Spróbuj ponownie później.
         session_expired: Sesja wygasła. Proszę podłączyć swoje konto Netatmo w ustawieniach.
+      feels_like: Odczuwalna
     parcel:
       delivery_by: Dostawa do
       empty: Brak dostaw
