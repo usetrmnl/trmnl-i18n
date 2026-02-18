@@ -193,12 +193,12 @@ pl:
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} few {{{$value :number} forki}} many {{{$value :number} forków}} * {{{$value :number} forki}}"
       installs: ".input {$value :number} .match $value zero {{Brak instalacji}} one {{{$value :number} instalacja}} * {{{$value :number} instalacji}}"
       and_more: i {$value :number} więcej
-      error_keyword_title: "nie znaleziono wyrażen pasujących do “{$keyword}”"
+      error_keyword_title: nie znaleziono wyrażen pasujących do “{$keyword}”
       error_keyword_subtitle: Spróbuj wyszukać coś innego.
       error_new_title: Nie znaleziono nowej receptury.
       error_new_subtitle: To się nie powinno zdarzyć.
       error_self_title: Żadna receptura nie została opublikowana.
-      error_self_subtitle: "Sprawdź, jak możesz opublikować pierwszą recepturę tutaj: https://help.usetrmnl.com/en/articles/9510536-private-plugins "
+      error_self_subtitle: 'Sprawdź, jak możesz opublikować pierwszą recepturę tutaj: https://help.usetrmnl.com/en/articles/9510536-private-plugins '
       error_author_id_title: 'Użytkownik #{$authorId} nie opublikował żadnej receptury.'
       error_author_id_subtitle: Nie znaleziono żadnej receptury powiązanej z tym ID.
       error_recipe_ids_title: Nie znaleziono receptury o takim ID.
