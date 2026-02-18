@@ -1,23 +1,23 @@
 ---
 ko:
   locale_name: 한국어
-  about: About
+  about: 소개
   add: 추가하기
   add_new: 새로 추가하기
-  ago: ago
+  ago: 전
   already_have_account: 이미 계정이 있음
-  are_you_sure: Are you sure?
+  are_you_sure: 정말요?
   back: 뒤로가기
   back_to_all_blog_posts: 모든 포스트 보기로 돌아가기
   blog: 블로그
-  brand: Brand
+  brand: 브랜드
   buy_now: 바로 구매
   cancel: 취소
   change_password: 비밀번호 변경
   charge_level: 충전 상태
   charged: 충전됨
-  charging: Charging
-  claim_plus_trial: Claim 6 Months Free
+  charging: 충전 중
+  claim_plus_trial: 6개월 무료 체험
   close: 닫기
   confirm_change_password: 비밀번호 변경하기
   confirm_password: 새 비밀번호 확인
@@ -29,20 +29,20 @@ ko:
   current_device: 현재 기기
   days: 일
   delete: 삭제하기
-  developers: Developers
-  developer_edition_required: 이 기능을 사용하기 위해서는 계발자 에디션이 필요합니다.
+  developers: 개발자
+  developer_edition_required: 이 기능을 사용하기 위해서는 개발자 에디션이 필요합니다.
   device_id: 기기 ID
   device: 디바이스
   edit: 수정
   email_address: 이메일 주소
-  export: 추출하기
+  export: 내보내기
   fetching: 가져오는 중
   first_name: 이름
   forgot_password: 비밀번호를 잊어버렸어요
   forgot_password_title: 자, 다시 갑시다
   friendly_id: Friendly ID
-  get_started: 시작할께요!
-  hidden: hidden
+  get_started: 시작해 볼까요!
+  hidden: 숨김
   identify: 확인하기
   import: 불러오기
   import_new: 새로 불러오기
@@ -54,37 +54,37 @@ ko:
   loading: 로딩중
   login: 로그인
   log_out: 로그아웃
-  manage: Manage
+  manage: 관리
   minimum_characters: 최소 글자 수
-  mins: mins
+  mins: 분
   my_playlist: 내 플레이리스트
   new_password: 새 비밀번호
   password: 비밀번호
   please_wait: 잠시만 기다려주세요...
   plugin_not_found: 플러그인을 찾을 수 없음
-  preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
+  preview: 미리보기
+  privacy: 개인정보 보호
+  refresh_rate: 새로고침 주기
   refresh_rates_hint: 리프레시률이 어떻게 작용되는지 알아보려면 __여기__를 누르세요.
   reset_password: 비밀번호 재설정
-  reset_to_defaults: Reset to defaults
-  required: Required
+  reset_to_defaults: 기본값으로 초기화
+  required: 필수
   save: 저장
-  shown: shown
+  shown: 표시
   section: 섹션
-  settings: Settings
+  settings: 설정
   sign_in: 로그인하기
   sign_up: 가입하기
-  something_went_wrong: 바르게 작동되지 않음
-  status: Status
-  subscribe: Subscribe
-  help_center: 도움
-  terms: Terms
-  update: 새로 저장
+  something_went_wrong: 문제가 발생했어요
+  status: 상태
+  subscribe: 구독
+  help_center: 고객지원
+  terms: 이용약관
+  update: 업데이트
   view: 보기
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
+  collaboration_request: 함께 해볼까요?
+  collaboration_request_hint: 파트너십, 단체 구매, 특별 프로젝트 등 무엇이든 좋아요.
+  collaboration_request_cta: 연락하기
   welcome: 환영합니다
   time:
     formats:
@@ -199,9 +199,9 @@ ko:
       display_calibration: Display Calibration
       display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
       display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
+      display_calibration_pixel_ratio_hint: "Image zoom level (0.5–3.0). Default:"
       display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      display_calibration_ui_scale_hint: "Text and element sizes (0.5–2.0). Default:"
       edit_device: 기기 수정
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
@@ -499,9 +499,9 @@ ko:
       learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
       learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
+      learn_more_recipe_short: "Note: this plugin is a Recipe."
       learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
+      learn_more_third_party_short: "Note: this plugin is by a 3rd party."
       linked_account: Linked Account
       linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: 계정 연결
@@ -554,7 +554,7 @@ ko:
       entry_too_large: "%{filename} is too large"
       malformed: "%{filename} is malformed"
     create:
-      success: '플러그인이 생성되었습니다. 여기서 확인하세요:'
+      success: "플러그인이 생성되었습니다. 여기서 확인하세요:"
       playlist: 플레이리스트
     destroy:
       success: 플러그인 삭제됨
@@ -583,7 +583,7 @@ ko:
       copy_prompt: Copy schedule from…
   upgrade:
     index:
-      title: '기기 업그레이드:'
+      title: "기기 업그레이드:"
       tagline: Unlock custom plugins and __more__.
       pay: Pay
       error: Device %{device_name} is already upgraded, switch to another device
