@@ -26,49 +26,49 @@ zh-HK:
         third_quarter: 下弦月
         waning_crescent: 殘月
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo天氣
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
-      co2: CO₂
-      co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      indoor_temp: 室內氣溫
+      indoor_temp_short: 室內
+      indoor_humidity: 室內濕度
+      indoor_humidity_short: 室內濕度
+      outdoor_humidity: 室外濕度
+      outdoor_humidity_short: 室外濕度
+      co2: 二氧化碳
+      co2_ppm: 二氧化碳ppm
+      pressure: 氣壓
+      noise: 噪音
+      min_max: 最低/最高
+      feels: 體感
+      rain: 雨
+      wind: 風
+      gust: 陣風
+      default_station_name: Netatmo氣象站
+      default_outdoor_module: 室外氣溫
+      default_indoor_module: 室內
+      trends_title: "%{metric}趨勢"
+      trends_title_short: 趨勢
+      temperature_trends: 氣溫趨勢
+      temperature_trends_short: 氣溫趨勢
+      outdoor_now: 室外現時
+      indoor_now: 室內現時
+      now: 現時
+      low_high_24h: 24小時最低/最高
+      average_24h: 24小時平均
+      outdoor: 室外
+      indoor: 室內
+      rain_gauge_not_connected: 未連接雨量計
+      wind_gauge_not_connected: 未連接風速計
+      no_rain_gauge: 無雨量計
+      no_wind_gauge: 無風速計
+      add_module_hint: 新增選配的%{module}模組即可查看數據
+      range_24h: 24小時範圍
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: 未有帳戶授權，請重新連接Netatmo帳戶。
+        no_station_selected: 未選擇氣象站，請在設定中選擇一個氣象站。
+        connection_failed: 無法連線至Netatmo氣象站，請檢查網絡連線。
+        data_retrieval_failed: 無法取得天氣數據，請稍後再試。
+        session_expired: 登入時效已過，請在設定中重新連接Netatmo帳戶。
     parcel:
       delivery_by: 預計送達時間
       empty: 沒有任何包裹
@@ -107,25 +107,25 @@ zh-HK:
       right_now: 即時
       today: 今日
       tomorrow: 明日
-      low_high_short: L/H
-      uv_short: UV
-      max: Max
+      low_high_short: 低/高
+      uv_short: 紫外線
+      max: 最高
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: 天色良好
+          cloudy: 多雲
+          foggy: 有霧
+          partly_cloudy: 部分時間多雲
+          rain_likely: 有雨
+          rain_possible: 可能有雨
+          snow: 有雪
+          snow_possible: 可能有雪
+          thunderstorms_likely: 有雷暴
+          thunderstorms_possible: 可能有雷暴
+          very_light_rain: 微微雨
+          windy: 大風
+          wintry_mix_likely: 有雨夾雪
+          wintry_mix_possible: 可能有雨夾雪
       weatherapi:
         uv:
           low: 低

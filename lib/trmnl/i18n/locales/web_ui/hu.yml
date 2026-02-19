@@ -78,7 +78,7 @@ hu:
   something_went_wrong: Valami hiba történt
   status: Status
   subscribe: Feliratkozás
-  support: Technikai támogatás
+  help_center: Technikai támogatás
   terms: Terms
   update: Frissítés
   view: Megtekintés
@@ -129,6 +129,7 @@ hu:
       session_hint: Be vagy jelentkezve mint %{user}
       show_title_bar: Címsor megjelenítése
       show_title_bar_hint: Ha kikapcsolod, a natív és harmadik féltől származó bővítmények minimalizáltabban jelennek meg.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Időzóna
       time_zone_hint: Meghatározza a frissítési rátákat és az eszköz alvási idejét.
       locale: Nyelv és lokalizáció
@@ -403,6 +404,8 @@ hu:
       success: A lejátszási lista sorrendje frissítve
     set_preferences:
       success: Az intelligens lejátszási lista beállítása frissítve
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: Bővítmények
@@ -473,6 +476,7 @@ hu:
     form:
       active_hint: Megjeleníti vagy elrejti ezt a bővítmény példányt az eszközödön
       advanced_settings: Speciális beállítások
+      back_to_playlist: Back to Playlist
       back_to_plugin: 'Vissza ide: %{plugin}'
       back_to_plugins: Vissza a bővítményekhez
       connect_with: 'Kapcsolódás a következőhöz: %{plugin}'
@@ -502,6 +506,7 @@ hu:
       linked_account_success: 'Sikeres összekapcsolás a következővel: %{plugin_name}'
       link_oauth: Fiók összekapcsolása
       link_oauth_hint: Mielőtt folytatod, kövesd a %{plugin} által biztosított biztonságos hitelesítési folyamatot.
+      mirrored: Mirrored
       multiple_instances_hint: Ez a bővítmény több példányt is támogat.
       name: Név
       name_hint: Adj neki egy nevet a könnyebb azonosításhoz
@@ -519,6 +524,7 @@ hu:
       recipe_cta_body_in_review: Ez a bővítmény be lett nyújtva a csapatunkhoz. Kérlek, várj türelemmel.
       recipe_cta_body_not_published: Küldd be a bővítményt, hogy mások is telepíthessék. __Tudj meg többet__.
       recipe_cta_confirm: Biztos vagy benne? A csapatunk pár napon belül visszajelez. Közben folytathatod a módosításokat.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: Hogyan szeretnéd közzétenni?
       recipe_visibility_edit_title: Beküldés szerkesztése
       recipe_visibility_public: Nyilvános
@@ -540,6 +546,7 @@ hu:
       refresh_paused_mashup: Összevonások frissítése
       refresh_paused_mashup_hint: Az automatikus frissítés teljes képernyős módban szünetel. Az összevonások frissülnek.
       refresh_stopped: Az automatikus frissítés leállt. Kérlek, javítsd a bővítmény hibáját a folytatáshoz.
+      view_recipe: View Recipe
       visit_docs: Dokumentáció megtekintése
     import:
       archive_too_large: A ZIP fájl túl nagy (%{max_mb} MB a maximális méret)

@@ -78,7 +78,7 @@ ru:
   something_went_wrong: Что-то пошло не так
   status: Status
   subscribe: Подписаться
-  support: Поддержка
+  help_center: Поддержка
   terms: Terms
   update: Обновить
   view: Просмотр
@@ -129,6 +129,7 @@ ru:
       session_hint: Вы вошли как %{user}
       show_title_bar: Показать строку заголовка
       show_title_bar_hint: Если отключено, нативные (не глобальные) и сторонние плагины будут более минималистичными.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Часовой пояс
       time_zone_hint: Определяет частоту обновления и время сна устройства.
       locale: Язык
@@ -403,6 +404,8 @@ ru:
       success: Порядок плейлиста обновлен
     set_preferences:
       success: Настройки умного плейлиста обновлены
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: Плагины
@@ -473,6 +476,7 @@ ru:
     form:
       active_hint: Показать или скрыть этот экземпляр плагина на вашем устройстве
       advanced_settings: Расширенные настройки
+      back_to_playlist: Back to Playlist
       back_to_plugin: Назад к %{plugin}
       back_to_plugins: Назад к плагинам
       connect_with: Подключиться с помощью %{plugin}
@@ -502,6 +506,7 @@ ru:
       linked_account_success: Успешно связано с %{plugin_name}
       link_oauth: Связать учётную запись
       link_oauth_hint: Прежде чем продолжить, следуйте безопасному процессу авторизации, предоставленному %{plugin}
+      mirrored: Mirrored
       multiple_instances_hint: Этот плагин поддерживает несколько экземпляров.
       name: Название
       name_hint: Дайте ему название для удобства
@@ -519,6 +524,7 @@ ru:
       recipe_cta_body_in_review: Этот плагин был отправлен нашей команде. Ожидайте.
       recipe_cta_body_not_published: Отправьте этот плагин, чтобы другие могли его установить. __Узнать больше__.
       recipe_cta_confirm: Вы уверены? Наша команда рассмотрит и свяжется с вами в течение нескольких дней. Вы можете продолжать вносить изменения.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: Как бы вы хотели опубликовать?
       recipe_visibility_edit_title: Редактировать отправку
       recipe_visibility_public: Публичный
@@ -540,6 +546,7 @@ ru:
       refresh_paused_mashup: Обновление мэшапов
       refresh_paused_mashup_hint: Автоматическое обновление приостановлено для полноэкранного режима. Мэшапы обновляются.
       refresh_stopped: Автоматическое обновление остановлено. Исправьте ошибку плагина, чтобы продолжить.
+      view_recipe: View Recipe
       visit_docs: Посетить документацию
     import:
       archive_too_large: ZIP-файл слишком большой (максимум %{max_mb} МБ)

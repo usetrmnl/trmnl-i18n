@@ -78,7 +78,7 @@ raw:
   something_went_wrong: something_went_wrong
   status: status
   subscribe: subscribe
-  support: support
+  help_center: support
   terms: terms
   update: update
   view: view
@@ -129,6 +129,7 @@ raw:
       session_hint: account.index.session_hint
       show_title_bar: account.index.show_title_bar
       show_title_bar_hint: account.index.show_title_bar_hint
+      theme_hint: account.index.theme_hint
       time_zone: account.index.time_zone
       time_zone_hint: account.index.time_zone_hint
       locale: account.index.locale
@@ -475,6 +476,7 @@ raw:
     form:
       active_hint: plugin_settings.form.active_hint
       advanced_settings: plugin_settings.form.advanced_settings
+      back_to_playlist: Back to Playlist
       back_to_plugin: plugin_settings.form.back_to_plugin
       back_to_plugins: plugin_settings.form.back_to_plugins
       connect_with: plugin_settings.form.connect_with
@@ -504,6 +506,7 @@ raw:
       linked_account_success: plugin_settings.form.linked_account_success
       link_oauth: plugin_settings.form.link_oauth
       link_oauth_hint: plugin_settings.form.link_oauth_hint
+      mirrored: Mirrored
       multiple_instances_hint: plugin_settings.form.multiple_instances_hint
       name: plugin_settings.form.name
       name_hint: plugin_settings.form.name_hint
@@ -521,6 +524,7 @@ raw:
       recipe_cta_body_in_review: plugin_settings.form.recipe_cta_body_in_review
       recipe_cta_body_not_published: plugin_settings.form.recipe_cta_body_not_published
       recipe_cta_confirm: plugin_settings.form.recipe_cta_confirm
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: plugin_settings.form.recipe_visibility_title
       recipe_visibility_edit_title: plugin_settings.form.recipe_visibility_edit_title
       recipe_visibility_public: plugin_settings.form.recipe_visibility_public
@@ -542,6 +546,7 @@ raw:
       refresh_paused_mashup: plugin_settings.form.refresh_paused_mashup
       refresh_paused_mashup_hint: plugin_settings.form.refresh_paused_mashup_hint
       refresh_stopped: plugin_settings.form.refresh_stopped
+      view_recipe: View Recipe
       visit_docs: plugin_settings.form.visit_docs
     import:
       archive_too_large: plugin_settings.import.archive_too_large

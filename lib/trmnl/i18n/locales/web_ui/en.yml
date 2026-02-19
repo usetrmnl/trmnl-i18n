@@ -78,7 +78,7 @@ en:
   something_went_wrong: Something went wrong
   status: Status
   subscribe: Subscribe
-  support: Support
+  help_center: Support
   terms: Terms
   update: Update
   view: View
@@ -129,6 +129,7 @@ en:
       session_hint: You're logged in as %{user}
       show_title_bar: Show title bar
       show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Time Zone
       time_zone_hint: Determines refresh rates and device sleep time.
       locale: Locale
@@ -246,7 +247,7 @@ en:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: Unlink
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Unlink Device
       unlink_device_hint: Unlinking a TRMNL makes it safe to re-sell or give to someone else.
       unlink_device_learn_more: Follow the full guide __here__.
@@ -403,6 +404,8 @@ en:
       success: Playlist order updated
     set_preferences:
       success: Smart Playlist preference updated
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: Plugins
@@ -473,6 +476,7 @@ en:
     form:
       active_hint: Show or hide this plugin instance on your device
       advanced_settings: Advanced Settings
+      back_to_playlist: Back to Playlist
       back_to_plugin: Back to %{plugin}
       back_to_plugins: Back to Plugins
       connect_with: Connect with %{plugin}
@@ -502,6 +506,7 @@ en:
       linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: Link Account
       link_oauth_hint: Before you continue, follow the secure authorization process provided by %{plugin}
+      mirrored: Mirrored
       multiple_instances_hint: This plugin supports multiple instances.
       name: Name
       name_hint: Give it a name for easy reference
@@ -519,6 +524,7 @@ en:
       recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
       recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
       recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
       recipe_visibility_public: Public
@@ -540,6 +546,7 @@ en:
       refresh_paused_mashup: Refreshing Mashups
       refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
       refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
+      view_recipe: View Recipe
       visit_docs: Visit Docs
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)

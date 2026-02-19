@@ -1,23 +1,23 @@
 ---
 ko:
   locale_name: 한국어
-  about: About
+  about: 소개
   add: 추가하기
   add_new: 새로 추가하기
-  ago: ago
+  ago: 전
   already_have_account: 이미 계정이 있음
-  are_you_sure: Are you sure?
+  are_you_sure: 정말요?
   back: 뒤로가기
   back_to_all_blog_posts: 모든 포스트 보기로 돌아가기
   blog: 블로그
-  brand: Brand
+  brand: 브랜드
   buy_now: 바로 구매
   cancel: 취소
   change_password: 비밀번호 변경
   charge_level: 충전 상태
   charged: 충전됨
-  charging: Charging
-  claim_plus_trial: Claim 6 Months Free
+  charging: 충전 중
+  claim_plus_trial: 6개월 무료 체험
   close: 닫기
   confirm_change_password: 비밀번호 변경하기
   confirm_password: 새 비밀번호 확인
@@ -29,20 +29,20 @@ ko:
   current_device: 현재 기기
   days: 일
   delete: 삭제하기
-  developers: Developers
-  developer_edition_required: 이 기능을 사용하기 위해서는 계발자 에디션이 필요합니다.
+  developers: 개발자
+  developer_edition_required: 이 기능은 개발자 에디션이 필요해요.
   device_id: 기기 ID
-  device: 디바이스
+  device: 기기
   edit: 수정
   email_address: 이메일 주소
-  export: 추출하기
+  export: 내보내기
   fetching: 가져오는 중
   first_name: 이름
   forgot_password: 비밀번호를 잊어버렸어요
   forgot_password_title: 자, 다시 갑시다
   friendly_id: Friendly ID
-  get_started: 시작할께요!
-  hidden: hidden
+  get_started: 시작해 볼까요!
+  hidden: 숨김
   identify: 확인하기
   import: 불러오기
   import_new: 새로 불러오기
@@ -51,41 +51,41 @@ ko:
   knowledge_base: 설명서
   last_name: 성
   learn_more: 더 알아보기
-  loading: 로딩중
+  loading: 로딩 중
   login: 로그인
   log_out: 로그아웃
-  manage: Manage
+  manage: 관리
   minimum_characters: 최소 글자 수
-  mins: mins
+  mins: 분
   my_playlist: 내 플레이리스트
   new_password: 새 비밀번호
   password: 비밀번호
   please_wait: 잠시만 기다려주세요...
   plugin_not_found: 플러그인을 찾을 수 없음
-  preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
-  refresh_rates_hint: 리프레시률이 어떻게 작용되는지 알아보려면 __여기__를 누르세요.
+  preview: 미리보기
+  privacy: 개인정보 보호
+  refresh_rate: 새로고침 주기
+  refresh_rates_hint: 새로고침 주기가 어떻게 작동하는지 __여기서__ 알아보세요.
   reset_password: 비밀번호 재설정
-  reset_to_defaults: Reset to defaults
-  required: Required
+  reset_to_defaults: 기본값으로 초기화
+  required: 필수
   save: 저장
-  shown: shown
+  shown: 표시
   section: 섹션
-  settings: Settings
+  settings: 설정
   sign_in: 로그인하기
   sign_up: 가입하기
-  something_went_wrong: 바르게 작동되지 않음
-  status: Status
-  subscribe: Subscribe
-  support: 도움
-  terms: Terms
-  update: 새로 저장
+  something_went_wrong: 문제가 발생했어요
+  status: 상태
+  subscribe: 구독
+  help_center: 고객지원
+  terms: 이용약관
+  update: 업데이트
   view: 보기
-  collaboration_request: Wanna collaborate?
-  collaboration_request_hint: Partnerships, group sales, special projects, your call.
-  collaboration_request_cta: Let's talk
-  welcome: 환영합니다
+  collaboration_request: 함께 해볼까요?
+  collaboration_request_hint: 파트너십, 단체 구매, 특별 프로젝트 등 무엇이든 좋아요.
+  collaboration_request_cta: 연락하기
+  welcome: 환영해요
   time:
     formats:
       shorter: "%-H:%M"
@@ -93,50 +93,51 @@ ko:
   account:
     index:
       title: 내 계정
-      tagline: 내 계정 설정 관리하기
-      api_key_confirm: 당신의 API 키를 다시 생성하기를 원하는게 맞습니까? 이전에 사용하던 것은 사용 불가해집니다.
-      api_key_hint: 당신의 로컬 환경에서 어떻게 설정할 수 있는지 이 __문서__를 통해 알아보세요.
-      api_key_label: The credential for authenticating local development tools
-      api_key_not_generated: "(none yet)"
-      api_key_reset: 다시 생성하기
-      api_key: API Key
-      beta_features: Beta Features
-      beta_features_hint: Try out new stuff here. Options may disappear at any time.
-      discord_community: Discord Community
-      discord_username: What's your Discord username?
-      discord_username_hint: May be used for support, attribution on published Recipes, etc.
+      tagline: 계정 설정을 관리하세요
+      api_key_confirm: API 키를 재생성할까요? 기존 키는 사용할 수 없게 돼요.
+      api_key_hint: 로컬 환경 설정 방법은 __문서__를 확인하세요.
+      api_key_label: 로컬 개발 도구 인증에 사용되는 키
+      api_key_not_generated: "(아직 없음)"
+      api_key_reset: 재생성
+      api_key: 사용자 API 키
+      beta_features: 베타 기능
+      beta_features_hint: 새로운 기능을 미리 써볼 수 있어요. 옵션이 예고 없이 사라질 수 있어요.
+      discord_community: Discord 커뮤니티
+      discord_username: Discord 사용자명이 뭔가요?
+      discord_username_hint: 고객지원, 공개 레시피 기여자 표시 등에 사용될 수 있어요.
       email_address: 이메일 주소
       refer_and_earn: 추천하고 보상받기
-      refer_and_earn_hint: 개인 맞춤형 쿠폰으로 TRMNL을 선물하세요. 사용 횟수 당 보상이 주어지고 월별 지급됩니다.
-      refer_and_earn_redemptions: Redemptions
-      refer_and_earn_request_code: 코드 주문하기
+      refer_and_earn_hint: 개인 쿠폰으로 TRMNL을 선물하세요. 사용 횟수당 보상을 받고, 매달 지급돼요.
+      refer_and_earn_redemptions: 사용 횟수
+      refer_and_earn_request_code: 코드 요청하기
       device_invoice: 기기 인보이스
-      device_invoice_label: 당신의 회계사를 위한 상업적인 문서 또는 (이상한) PDF 컬렉션을 다운받기.
-      device_invoice_hint: 택배 조회 페이지 또는 배송 알림 이메일에서 이를 찾아보세요.
-      email_address_hint: TRMNL에 가입할 때 쓰였고 시스템 메세지들을 받는 이메일.
-      first_name_hint: 당신이 TRMNL 인터페이스를 더 편안하게 쓸 수 있도록 당신의 이름을 사용합니다.
-      last_name_hint: 당신이 TRMNL 인터페이스를 더 편안하게 쓸 수 있도록 당신의 이름을 사용합니다.
-      password_hint: 당신의 TRMNL 계정을 보호하는데 쓰입니다.
-      enable_2fa: 2단계 보안인증을 사용하시겠습니까?
-      enable_2fa_hint: OTP 사용을 하시려면 __여기를 누르세요__.
-      disable_2fa: 2단계 보안인증 비활성화하기
+      device_invoice_label: 회계용 문서를 다운로드하거나, (이상한) PDF 컬렉션에 추가하세요.
+      device_invoice_hint: 택배 조회 페이지 또는 배송 알림 이메일에서 확인하세요.
+      email_address_hint: TRMNL 가입과 시스템 메시지 수신에 사용돼요.
+      first_name_hint: TRMNL을 더 편안하게 만드는 데 사용돼요.
+      last_name_hint: TRMNL을 더 편안하게 만드는 데 사용돼요.
+      password_hint: TRMNL 계정을 보호하는 데 사용돼요.
+      enable_2fa: 2단계 인증을 사용할까요?
+      enable_2fa_hint: OTP를 사용하려면 __여기를 눌러주세요__.
+      disable_2fa: 2단계 인증 비활성화
       disable_2fa_hint: 이 기능을 비활성화하려면 유효한 OTP와 현재 비밀번호를 입력하세요.
-      plus_subscription: TRMNL+ Subscription
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
-      plus_subscription_hint: Unlock faster refresh rates and higher rate limits. __Learn more__.
-      plus_subscription_modify: Want to update your payment method or cancel?
+      plus_subscription: TRMNL+ 구독
+      plus_subscription_trial_until: "%{plus_trial_end_at}까지 무료 체험 중이에요."
+      plus_subscription_hint: 더 빠른 새로고침 주기와 높은 사용 한도를 써보세요. __자세히 알아보기__.
+      plus_subscription_modify: 결제 수단을 변경하거나 구독을 취소하고 싶으세요?
       session: 세션
-      session_hint: 현재 %{user}로 로그인 되어있습니다.
-      show_title_bar: Show title bar
-      show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      session_hint: 현재 %{user}로 로그인되어 있어요.
+      show_title_bar: 타이틀 바 표시
+      show_title_bar_hint: 비활성화하면 네이티브(비전역) 및 서드파티 플러그인이 더 간결하게 표시돼요.
+      theme_hint: 테마를 설정하거나 기기에 동기화해 TRMNL 인터페이스를 꾸밀 수 있어요.
       time_zone: 시간대
-      time_zone_hint: 기기 새로 고침 비율과 절전 모드를 결정하는데 쓰입니다.
-      locale: 로컬라이징
-      locale_hint: 어떤 언어와 로컬라이제이션를 선호하십니까? __여기서 확인하세요__.
+      time_zone_hint: 새로고침 주기와 기기 절전 시간을 결정해요.
+      locale: 언어 설정
+      locale_hint: 선호하는 언어가 있나요? __여기서__ 설정하세요.
     update:
-      success: 프로필 정보가 업데이트 되었습니다.
+      success: 프로필을 업데이트했어요.
     reset_api_key:
-      success: API 키가 성공적으로 재생성되었습니다.
+      success: API 키를 재생성했어요.
   dashboard:
     index:
       title: 대시보드
@@ -146,24 +147,24 @@ ko:
       today: 오늘
       yesterday: 어제
     health:
-      bad: 현재 플러그인들에 오류가 있습니다
+      bad: 플러그인에 문제가 있어요
       good: 플러그인 모두 정상
-      next_steps: 어떤 변화가 있다면 알림 드리겠습니다
+      next_steps: 변화가 있으면 알려드릴게요
     news:
       title: 뉴스
       cta: 모두 보기
     playlist_items:
       title: 플레이리스트
-      cta: 플레이리스트 더보기
-      pieces_of_content_displayed: 개의 콘텐츠 화면에 보여짐
+      cta: 플레이리스트 편집
+      pieces_of_content_displayed: 개의 콘텐츠가 표시됐어요
     plugins:
       title: 플러그인
-      cta: 플러그인 더보기
-      connected: 연결
+      cta: 플러그인 바로가기
+      connected: 연결됨
       new_and_popular: 인기 급상승 & 새 플러그인
     shop:
       title: 쇼핑
-      need_another: Need another TRMNL?
+      need_another: TRMNL이 하나 더 필요하세요?
     time_saved:
       title: 절약한 시간
       cta: 더 알아보기
@@ -173,414 +174,418 @@ ko:
       evening_salutation: 안녕
   devices:
     edit:
-      accepts_beta_firmware: 새로 출시된 펌웨어
-      accepts_beta_firmware_hint: 다른 사용자들보다 먼저 새로 나온 디바이스 펌웨어를 사용하려면 버튼을 눌러주세요.
-      back_to_devices: 기기 관리 화면으로 돌아가기
-      battery_and_sleep: Battery & Sleep
+      accepts_beta_firmware: 펌웨어 조기 배포
+      accepts_beta_firmware_hint: 다른 사용자보다 먼저 최신 펌웨어를 받아보세요.
+      back_to_devices: 기기 목록으로 돌아가기
+      battery_and_sleep: 배터리 & 절전
       battery_consumption: 배터리 소모
-      battery_consumption_hint: 기기 절전 모드 설정을 하시면 더 오랫동안 배터리 수명을 유지할 수 있습니다.
-      battery_learn_more: Learn more about battery charging __here__.
-      battery_refresh: Refresh
-      developer_perks: 개발자 버전 특혜
-      developer_perks_hint: 아래는 __개발자 옵션을 추가한 경우__ 사용 가능합니다.
-      device_credentials: 기기 정보
-      device_credentials_hint: 이 정보들로 무엇을 할 수 있는지 __여기서__ 확인하세요.
+      battery_consumption_hint: 절전 모드로 배터리를 더 오래 쓸 수 있어요.
+      battery_learn_more: 배터리 충전에 대해 __여기서__ 알아보세요.
+      battery_refresh: 새로고침
+      developer_perks: 개발자 혜택
+      developer_perks_hint: 커스텀 플러그인 개발, MAC 주소 편집(BYOD 전용), 펌웨어 조기 배포, API 접근
+      device_credentials: 기기 인증 정보
+      device_credentials_hint: 이 인증 정보로 무엇을 할 수 있는지 __여기서__ 확인하세요.
       device_name: 기기 이름
-      device_name_hint: 당신이 TRMNL 인터페이스를 더 편안하게 쓸 수 있도록 합니다.
-      device_model: 디바이스 모델
-      device_model_hint: 당신의 하드웨어 디바이스 모델
-      device_model_switch_warning: 이 작업은 위험합니다. 더 알아보려면 __여기__를 누르세요.
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_name_hint: TRMNL을 더 편안하게 만드는 데 사용돼요
+      device_model: 기기 모델
+      device_model_hint: 하드웨어 모델
+      device_model_switch_warning: 위험한 작업이에요. __여기서__ 자세히 알아보세요.
+      device_info: 기기 정보
+      current_firmware: 현재 펌웨어
+      last_ping: 마지막 응답
+      unknown: 알 수 없음
+      never: 없음
+      display_calibration: 디스플레이 보정
+      display_calibration_hint: 렌더링을 세밀하게 조정하세요. 비워두면 모델 기본값이 적용돼요.
+      display_calibration_pixel_ratio: 픽셀 비율
+      display_calibration_pixel_ratio_hint: "이미지 확대 비율 (0.5–3.0). 기본값:"
+      display_calibration_ui_scale: UI 크기
+      display_calibration_ui_scale_hint: "텍스트 및 요소 크기 (0.5–2.0). 기본값:"
       edit_device: 기기 수정
-      firmware: Firmware
-      firmware_updates_enabled: Updates enabled
-      firmware_updates_disabled: Updates disabled
+      firmware: 펌웨어
+      firmware_updates_enabled: 업데이트 활성화됨
+      firmware_updates_disabled: 업데이트 비활성화됨
       guest_mode: 게스트 모드
       guest_mode_hint: 게스트 모드로 전환될 때 무엇을 화면에 띄우고 얼마나 오래 띄울지 고르세요.
       guest_mode_item_placeholder: 아이템을 고르세요
       guest_mode_duration_placeholder: 얼마나 오래 띄울지 고르세요
       identify: 확인하기
       identify_device: 기기 확인하기
-      identify_device_hint: 어떤 기기인지 더 쉽게 확인하기 위해 아래 버튼을 눌러 어떤 스크린이 보여지고 있는지 확인하세요.
-      logs: 기록
-      logs_hint: 에러 기록의 라이브 피드로 당신의 디바이스와 플러그인을 디버그 하세요.
-      low_battery_email_notification: 낮은 베터리 이메일 알림
-      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
-      mirror: 거울모드
-      mirror_device: 다른 기기에 거울모드
-      mirror_device_hint: 같은 플레이리스트를 띄우려면 (공유가능) 기기 ID를 알려주세요. 당신의 플레이리스트는 변함없이 보여질 것입니다.
-      mirror_disabled: Mirroring disabled
-      mirror_enabled: Mirroring
-      mirror_stop: 미러링 연결 끊기
-      mirror_sync: 스크린 싱크하기
+      identify_device_hint: 아래 버튼을 눌러 이 기기를 식별하는 화면을 표시하세요.
+      logs: 로그
+      logs_hint: 에러 로그 피드로 기기와 플러그인을 디버그하세요.
+      low_battery_email_notification: 배터리 부족 이메일 알림
+      low_battery_email_notification_hint: 기기 배터리가 부족하면 이메일로 알려드려요.
+      mirror: 미러링
+      mirror_device: 다른 기기 미러링
+      mirror_device_hint: (공유 가능한) 기기 ID를 입력하면 플레이리스트를 미러링해요. 내 플레이리스트는 그대로 표시돼요.
+      mirror_disabled: 미러링 비활성화됨
+      mirror_enabled: 미러링 중
+      mirror_stop: 미러링 해제
+      mirror_sync: 화면 동기화
       ota_enabled: OTA 업데이트 활성화됨
-      ota_enabled_hint: 새로운 펌웨어를 자동으로 설치하기. 당신의 펌웨어 사용을 비활성화하기.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
-      maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      ota_enabled_hint: 새 펌웨어를 자동으로 설치해요. 직접 만든 펌웨어를 쓰려면 비활성화하세요.
+      ota_byod_not_supported: BYOD 기기는 OTA를 지원하지 않아요. usetrmnl.com/flash에서 직접 플래시하세요.
+      maximum_compatibility: 최대 호환성 활성화
+      maximum_compatibility_hint: 특정 e-ink 드라이버 칩의 디스플레이 문제를 해결해요. 빠른 새로고침이 비활성화돼요. 펌웨어 1.6.0 이상 필요.
+      palette: 색상 팔레트
+      palette_hint: 화면 생성에 사용할 색상을 선택하세요. 팔레트가 클수록 보기 좋지만, 작을수록 e-ink에서 빠르게 그려져요. 개별 플레이리스트 항목에서 재설정할 수 있어요.
       sleep_mode: 절전 모드
-      sleep_mode_hint: 당신의 집중력과 배터리 수명을 최적화하기 위해 새로 고침 비율을 조정합니다.
+      sleep_mode_hint: 새로고침 주기를 조정해서 집중력과 배터리를 아끼세요.
       sleep_screen: 절전 화면
-      sleep_screen_tooltip: Enable Sleep Mode to use this feature
-      sleep_screen_hint: Display a sleep screen during sleep mode hours.
+      sleep_screen_tooltip: 이 기능을 사용하려면 절전 모드를 활성화하세요
+      sleep_screen_hint: 절전 시간에 절전 화면을 표시해요.
       special_function: 특별 기능
-      special_function_hint: 당신 기기 뒷편의 버튼의 더블 클릭 기능을 셋팅하세요.
-      special_function_learn_more: __여기__를 눌러 특별 기능에 대해 더 알아보세요.
-      temperature_profile: Temperature Profile
-      temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
-      tidbyt_credentials: Tidbyt Credentials
-      tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
-      tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
-      unlink: 연결 해지
-      unlink_confirm: 확실하신가요? 디바이스가 새로운 계정에 추가될 수 있도록 모든 플러그인 세팅과 플레이리스트 아이템이 삭제될 것 입니다.
-      unlink_device: 기기 연결 해지하기
-      unlink_device_hint: TRMNL 기기 연결을 해지하면 기기를 되팔거나 선물할 때 더 안전합니다.
-      unlink_device_learn_more: __여기__에 있는 모든 가이드를 따라하세요.
-      visibility: 공유 설정
-      visibility_hint: 아래 설정을 통해 당신의 TRMNL 기기가 거울모드가 가능합니다.
-      your_device: 당신의 TRMNL
+      special_function_hint: 기기 뒷면 버튼의 커스텀 기능을 설정하세요.
+      special_function_learn_more: 특별 기능에 대해 __여기서__ 자세히 알아보세요.
+      temperature_profile: 온도 프로파일
+      temperature_profile_hint: 안내가 없으면 변경하지 마세요. 화면이 바래 보이는 디스플레이용이에요.
+      tidbyt_credentials: Tidbyt 인증 정보
+      tidbyt_credentials_hint: Tidbyt 앱의 설정 → 개발자 → API 키 받기에서 기기 API 인증 정보를 입력하세요.
+      tidbyt_credentials_invalid: Tidbyt API 인증 정보가 올바르지 않아요. 다시 확인해주세요.
+      tidbyt_device_id: 기기 ID
+      tidbyt_device_api_key: API 키
+      unlink: 연결 해제
+      unlink_confirm: 정말요? 기기를 다른 사람에게 주거나 BYOS로 전환할 때만 진행하세요. 연결 해제 시 모든 플러그인 설정과 플레이리스트가 삭제돼요. 문제 해결 중이라면 help.trmnl.com에서 고객지원에 문의하세요.
+      unlink_device: 기기 연결 해제
+      unlink_device_hint: TRMNL 연결을 해제하면 되팔거나 선물할 때 안전해요.
+      unlink_device_learn_more: 전체 가이드를 __여기서__ 확인하세요.
+      visibility: 공개 설정
+      visibility_hint: 아래 설정을 바꾸면 다른 기기에서 미러링할 수 있어요.
+      your_device: 내 TRMNL
       upgrade_og:
-        title: Upgrade to 2-bit Display Available
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
-        warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
-        warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
-        cta: Upgrade to TRMNL OG (2-bit)
+        title: 2-bit 디스플레이 업그레이드 가능
+        sub_title: 4단계 그레이스케일 디스플레이로 업그레이드할 수 있어요.
+        warning_1: 이 업그레이드는 <strong>되돌릴 수 없다</strong>는 걸 이해해요.
+        warning_2: 이 작업은 <strong>위험</strong>하고 기기가 벽돌이 될 수 있다는 걸 이해해요.
+        cta: TRMNL OG (2-bit)로 업그레이드
     index:
       title: 기기 관리
-      tagline: 당신의 TRMNL 디바이스들
-      add_device_modal_title: 새로 기기 추가하기
-      add_first_device: 시작하려면 첫 디바이스를 추가하세요!
+      tagline: 내 TRMNL 기기
+      add_device_modal_title: 새 기기 추가하기
+      add_first_device: 첫 기기를 추가해서 시작하세요!
     new:
       title: 새 기기 추가하기
-      description: 새로운 TRMNL 기기를 계정에 추가하려면 기기 ID를 입력하세요.
+      description: Friendly ID를 입력해서 새 기기를 계정에 추가하세요.
       add_device: 새 기기 추가
     associate:
       error: 기기 연결 오류
-      success: 기기가 성공적으로 연결되었습니다
+      success: 기기를 연결했어요
     dissociate:
-      error: 기기 연결 해지 오류
-      success: 기기가 성공적으로 연결 해지되었습니다
+      error: 기기 연결 해제 오류
+      success: 기기 연결을 해제했어요
     external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
+      error: 기기 인증 정보가 올바르지 않아요
+      success: 기기 인증 정보를 업데이트했어요
     identify:
       error: 기기 업데이트 오류
-      success: 기기 확인이 요청되었습니다
+      success: 기기 식별을 요청했어요
     mirror:
-      error: 기기 거울모드 오류
-      error_not_shared: 제공하신 디바이스 ID가 공유 가능 상태가 아닙니다
-      error_oneself: 거울모두 사용 불가
-      success: "%{friendly_id} 기기가 성공적으로 거울모드 되었습니다"
-      success_removed: 미러링 제거됨
+      error: 기기 미러링 오류
+      error_not_shared: 입력한 기기 ID가 공유 가능 상태가 아니에요
+      error_oneself: 자기 자신은 미러링할 수 없어요
+      success: "%{friendly_id} 기기를 미러링했어요"
+      success_removed: 미러링을 해제했어요
     switch:
       error: 기기 변경 오류
-      success: 성공적으로 기기가 변경되었습니다
+      success: 기기를 변경했어요
     update:
       error: 기기 업데이트 오류
-      success: "%{device} 기기 설정이 성공적으로 업데이트 되었습니다"
+      success: "%{device} 기기 설정을 업데이트했어요"
   invoices:
-    rate_limit: 너무 많이 시도되었습니다. 잠시만 기다렸다가 다시 해주세요.
+    rate_limit: 너무 많이 시도했어요. 잠시 후 다시 해주세요.
     invoice_not_found: 인보이스를 찾을 수 없음
   logs:
     index:
-      title: 기록
-      all: 모두
-      bulk_destroy: Bulk Destroy
-      dump: Dump
+      title: 로그
+      all: 전체
+      bulk_destroy: 일괄 삭제
+      dump: 덤프
       id: ID
-      private_plugins: 프라이빗 플러그인
+      private_plugins: 비공개 플러그인
       source: 소스
       time: 시간
   markups:
     console_logs:
-      js_logs: JS Logs
+      js_logs: JS 로그
     form:
       back_to_plugin_settings: 플러그인 설정으로 돌아가기
-      design_system: 기존 디자인 시스템을 이용하기
+      design_system: 기본 디자인 시스템 활용하기
       design_system_docs: 디자인 시스템 문서
-      dirty_confirm: 저장되지 않은 것들이 있습니다. 이 페이지를 나가시겠습니까?
-      edit_markup: 마크업 고치기
-      edit_markup_for_plugin: "%{plugin_setting_name}의 마크업을 고치기"
-      edit_markup_please_save_first: 마크업을 고치기 전 저장해주세요
-      edit_markup_without_preview: 마크업 고치기 (미리보기 없이)
+      dirty_confirm: 저장하지 않은 변경사항이 있어요. 이 페이지를 떠날까요?
+      edit_markup: 마크업 편집
+      edit_markup_for_plugin: "%{plugin_setting_name} 마크업 편집"
+      edit_markup_please_save_first: 마크업을 편집하기 전에 저장해주세요
+      edit_markup_without_preview: 마크업 편집 (미리보기 없이)
       error_rendering_markup: 마크업 렌더링 오류
-      fix_indentation: 들여쓰기 고치기
+      fix_indentation: 들여쓰기 수정
       go_to_preview: 미리보기로 가기
       live_preview: 실시간 미리보기
-      no_changes_to_save: 저장할 것이 없습니다
-      pop_out_preview: 미리보기 열기
-      quickstart_examples: 예시 빠르게 시작하기
+      no_changes_to_save: 저장할 변경사항이 없어요
+      pop_out_preview: 미리보기 팝업
+      quickstart_examples: 빠른 시작 예시
       quickstart_example_applied: 적용됨!
       quickstart_use_this_example: 이 예시 사용하기
-      revert: 되돌아가기
-      revert_confirm: 되돌아가시겠습니까? 모든 저장된 변화들이 사라집니다.
+      revert: 되돌리기
+      revert_confirm: 되돌릴까요? 저장하지 않은 변경사항이 모두 사라져요.
       save_changes: 저장하기 (⌘﹢S)
-      separate_preview: 새 창에서 미리보기가 열립니다
+      separate_preview: 별도 창에서 미리보기가 열려 있어요
     merge_variables:
       your_variables: 내 변수
     no_merge_variables:
-      force_refresh: 변수를 제공하였는데도 찾아지지 않는다면, __강제 리프레시__를 시도하세요.
-      no_variables_detected: 변수를 찾을 수 없음.
+      force_refresh: 변수를 입력했는데 감지되지 않으면 __강제 새로고침__을 시도하세요.
+      no_variables_detected: 변수를 찾을 수 없어요.
   mfa:
     disable_otp:
-      success: 2단계 보안인증 비활성화
+      success: 2단계 인증 비활성화됨
       invalid_otp: 유효하지 않은 OTP
       invalid_password: 유효하지 않은 비밀번호
-      invalid_otp_and_password: 유효하지 않은 OTP와 비밀번
+      invalid_otp_and_password: 유효하지 않은 OTP와 비밀번호
     enable_otp:
-      input_otp: OTP 입력하기
+      input_otp: OTP 입력
       submit: 인증하고 활성화하기
-      already_enabled: 2단계 보안인증이 이미 활성화되어 있습니다
+      already_enabled: 2단계 인증이 이미 활성화되어 있어요
     enable_otp_verify:
-      success: 2단계 보안인증 활성화 됨
+      success: 2단계 인증 활성화됨
       error: 유효하지 않은 OTP 코드
     verify_otp:
       verify: 인증하기
-      reset: MFA 리셋하기
-      reset_instructions: Click the button on the back of your TRMNL to generate a reset code
-      success: 2FA successful
-      error: Invalid OTP code
+      reset: MFA 초기화
+      reset_instructions: TRMNL 뒷면 버튼을 눌러 초기화 코드를 생성하세요
+      success: 2단계 인증 성공
+      error: 유효하지 않은 OTP 코드
   playlist_items:
     index:
       title: 플레이리스트
-      tagline: 화면에 보여질 것을 고르세요
-      add_a_group: Add a Group
-      add_a_plugin: Add a Plugin
-      add_first_device_cta: 시작하려면 첫 TRMNL 기기를 __추가__하세요!
+      tagline: 화면에 표시할 것을 선택하세요
+      add_a_group: 그룹 추가
+      add_a_plugin: 플러그인 추가
+      add_first_device_cta: 첫 TRMNL 기기를 __추가__해서 시작하세요!
       add_to_playlist: 플레이리스트에 추가
-      create_first_playlist_cta: 플레이리스트를 만들려면 첫 플러그인을 __연결__ 하세요!
-      custom: Custom
-      device_default: Device default
-      display_period_from: Display from
-      display_period_to: to
-      display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
-      never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
+      create_first_playlist_cta: 첫 플러그인을 __연결__하면 플레이리스트를 만들 수 있어요!
+      custom: 커스텀
+      device_default: 기기 기본값
+      display_period_from: 시작
+      display_period_to: 종료
+      display_period_validation: 시작 시간이 종료 시간보다 빨라야 해요. 야간 시간대를 포함하려면 그룹을 하나 더 만드세요.
+      every: 매
+      never_skip: 화면 건너뛰지 않기
+      smart_playlist: 스마트 플레이리스트
+      smart_playlist_hint: 내용이 한동안 바뀌지 않은 화면을 자동으로 건너뛰어요.
       skip_after:
-        one: Skip stale screens after 1 day
-        other: Skip stale screens after %{count} days
+        one: 1일 후 오래된 화면 건너뛰기
+        other: "%{count}일 후 오래된 화면 건너뛰기"
     playlist_item:
-      adjust_schedule: Adjust schedule
-      delete: 해당 플러그인을 삭제하는 것이 맞습니까? 플러그인의 연결은 지속되지만 당신의 기기에 보여지지는 않을 것입니다.
-      displayed_now: 지금 화면에 보여짐
-      not_displayed_yet: 아직 화면에 보여지지 않음
+      adjust_schedule: 스케줄 조정
+      delete: 이 항목을 삭제할까요? 플러그인 연결은 유지되지만 기기에 표시되지 않아요.
+      displayed_now: 현재 표시 중
+      not_displayed_yet: 아직 표시되지 않음
       remove_from_playlist: 플레이리스트에서 삭제
-      hide_playlist: Hide this item
-      show_playlist: Show this item
+      hide_playlist: 이 항목 숨기기
+      show_playlist: 이 항목 표시하기
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: 이 플러그인의 새로고침 주기는 설정할 수 없어요.
+        external: 이 플러그인은 실시간으로 데이터를 가져오므로 새로고침 주기 설정이 적용되지 않아요.
+        global: 이 플러그인은 플랫폼 전체에서 고정 스케줄로 새로고침돼요.
+        mashup: 매시업은 가장 빠른 플러그인과 같은 주기로 새로고침돼요.
+        readonly: 이 플러그인의 새로고침 주기는 고정이라 변경할 수 없어요.
     create:
       error: 플레이리스트 업데이트 실패
-      success: 플레이리스트가 업데이트 되었습니다
+      success: 플레이리스트를 업데이트했어요
     destroy:
-      error: 플레이리스트 속 프러그인 삭제 오류
-      success: 해당 플러그인이 플레이리스트에서 삭제되었습니다.
+      error: 플레이리스트 항목 삭제 오류
+      success: 플러그인을 플레이리스트에서 삭제했어요
     toggle_visibility:
-      success: Playlist item %{change}
+      success: 플레이리스트 항목 %{change}
     duplicate:
-      success: Playlist duplicated
+      success: 플레이리스트를 복제했어요
     sort:
-      success: Playlist order updated
+      success: 플레이리스트 순서를 업데이트했어요
     set_preferences:
-      success: Smart playlist preference updated
+      success: 스마트 플레이리스트 설정을 업데이트했어요
     update:
-      success: 새 플레이리스트 순서가 업데이트 되었습니다
+      success: 플레이리스트 순서를 업데이트했어요
   plugins:
     index:
-      title: 플러그인 관리
-      tagline: 당신의 TRMNL에 무엇을 올리시겠습니까?
-      available: 가능한 플러그인들
+      title: 플러그인
+      tagline: TRMNL에 무엇을 올릴까요?
+      available: 사용 가능
       connected: 연결됨
-      recipes: Recipes
-      recipes_hint: Private plugins by community members that can be installed in 1 click. __Learn more__.
+      recipes: 레시피
+      recipes_hint: 커뮤니티 멤버가 만든 비공개 플러그인을 한번의 클릭으로 설치할 수 있어요. __자세히 알아보기__.
     search:
-      placeholder: 플러그인 검색하기
+      placeholder: 플러그인 검색
     my:
       index:
-        title: My Plugins
-        tagline: Develop Plugins for the public marketplace
+        title: 내 플러그인
+        tagline: 공개 마켓플레이스에 플러그인을 개발하세요
       card:
-        connections: connections
-        install: Install
-        review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
-        submit_for_review: Submit for Review
+        connections: 연결 수
+        install: 설치
+        review_are_you_sure: 정말요? TRMNL 팀이 테스트한 후 질문이 있으면 이메일로 연락드려요.
+        submit_for_review: 검토 요청
     new:
-      title: Create New Plugin
-      tagline: Enable other user to install your plugin.
-      name: Name
-      category: Category
-      category_hint: Hold cmd or ctrl to choose up to 3
-      refresh_every: Supported Refresh Interval
-      refresh_every_hint: The fastest refresh interval your plugin can support.
-      description: Description
-      description_hint: Maximum 50 characters
-      icon: Icon
-      icon_hint: 512x512px recommended
-      installation_url: Installation URL
-      installation_url_hint: Learn more about the installation flow __here__.
-      installation_success_webhook_url: Installation Success Webhook URL
-      knowledge_base_url: Knowledge Base URL
-      management_url: Plugin Management URL
-      management_url_hint: Learn more about the management flow __here__.
-      markup_url: Plugin Markup URL
-      markup_url_hint: Learn more about screen generation __here__.
-      no_screen_padding: No Screen Padding
-      no_screen_padding_hint: Removes the outermost padding in fullscreen mode.
-      uninstallation_webhook_url: Uninstallation Webhook URL
-    edit:
-      title: Edit Plugin
-      tagline: Update your plugin details.
-      name: Name
-      description: Description
-  plugin_recipes:
-    connected: Recipe connected
-    connections:
-      one: Connection
-      other: Connections
-    forks:
-      one: Fork
-      other: Forks
-    new:
-      error: Recipe not found
-  plugin_settings:
-    active: 활동중
-    copy_are_you_sure: Are you sure you want to copy this setting?
-    delete_are_you_sure: Are you sure you want to delete this setting?
-    delete: 플러그인의 설정을 완전히 지웁니다. 단순히 디바이스에서 해당 플러그인을 숨기고 싶다면, 플레이리스트에서 삭제하세요.
-    inactive: 활동정지
-    no_plugin_settings_found: 플러그인이 없습니다.
-    not_supported: Not supported on current device
-    refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
-    reset_credentials: "%{plugin_name} account reset successfully"
-    form:
-      active_hint: 당신의 기기에 이 플러그인 인스턴스 숨기거나 보이기
-      advanced_settings: Advanced Settings
-      back_to_plugin: "%{plugin}으로 돌아가기"
-      back_to_plugins: 플러그인 관리로 돌아가기
-      connect_with: "%{plugin} 연결하기"
-      debug_logs: Debug Logs
-      debug_logs_click_here: Click here
-      debug_logs_click_here_hint: to enable debug logs for this plugin instance.
-      debug_logs_enabled: Debug logs enabled for %{hours} hours.
-      debug_logs_enabled_link: View logs
-      disconnect_account: Disconnect Account
-      manage_plugin: Configure %{plugin}
-      force_refresh: 강제 새로 고침
-      force_refresh_hint: 이 기능은 테스트 용도 입니다. 남용하지 말아주세요.
-      force_refresh_click_here: 여길 누르세요
-      force_refresh_click_here_hint: 바로 새로운 화면을 재생함
-      force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
-      learn_more: 이 플러그인에 대해 더 알고싶다면 우리의 설명서를 참고하세요
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
-      learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
-      linked_account: Linked Account
-      linked_account_success: Successfully linked with %{plugin_name}
-      link_oauth: 계정 연결
-      link_oauth_hint: 계속하기 전, 이 %{plugin}에서 제공된 보호된 확인 절차를 따라주세요.
-      multiple_instances_hint: 이 플러그인은 여러 개의 인스턴스를 지원합니다.
+      title: 새 플러그인 만들기
+      tagline: 다른 사용자가 설치할 수 있는 플러그인을 만드세요.
       name: 이름
-      name_hint: 떠올리기 쉬운 이름을 지어주세요
-      parse: Parse
-      parse_save_first: Parse (Save plugin first)
-      parsed: Parsed
+      category: 카테고리
+      category_hint: cmd 또는 ctrl을 누른 채 최대 3개까지 선택하세요
+      refresh_every: 지원 새로고침 주기
+      refresh_every_hint: 플러그인이 지원하는 가장 빠른 새로고침 주기예요.
+      description: 설명
+      description_hint: 최대 50자
+      icon: 아이콘
+      icon_hint: 512x512px 권장
+      installation_url: 설치 URL
+      installation_url_hint: 설치 흐름에 대해 __여기서__ 알아보세요.
+      installation_success_webhook_url: 설치 성공 Webhook URL
+      knowledge_base_url: 설명서 URL
+      management_url: 플러그인 관리 URL
+      management_url_hint: 관리 흐름에 대해 __여기서__ 알아보세요.
+      markup_url: 플러그인 마크업 URL
+      markup_url_hint: 화면 생성에 대해 __여기서__ 알아보세요.
+      no_screen_padding: 화면 여백 없음
+      no_screen_padding_hint: 전체 화면 모드에서 바깥쪽 여백을 제거해요.
+      uninstallation_webhook_url: 삭제 Webhook URL
+    edit:
+      title: 플러그인 편집
+      tagline: 플러그인 정보를 업데이트하세요.
+      name: 이름
+      description: 설명
+  plugin_recipes:
+    connected: 레시피 연결됨
+    connections:
+      one: 연결
+      other: 연결
+    forks:
+      one: 포크
+      other: 포크
+    new:
+      error: 레시피를 찾을 수 없어요
+  plugin_settings:
+    active: 활성
+    copy_are_you_sure: 이 설정을 복사할까요?
+    delete_are_you_sure: 이 설정을 삭제할까요?
+    delete: 플러그인 설정을 완전히 삭제해요. 기기에서 플러그인을 숨기고 싶다면 플레이리스트에서 삭제하세요.
+    inactive: 비활성
+    no_plugin_settings_found: 플러그인 설정이 없어요.
+    not_supported: 현재 기기에서 지원하지 않아요
+    refreshing_now_please_wait: 새로고침 중이에요. 몇 초 후에 페이지를 다시 불러오세요.
+    reset_credentials: "%{plugin_name} 계정을 초기화했어요"
+    form:
+      active_hint: 기기에서 이 플러그인 인스턴스를 숨기거나 표시하기
+      advanced_settings: 고급 설정
+      back_to_playlist: 플레이리스트로 돌아가기
+      back_to_plugin: "%{plugin}으로 돌아가기"
+      back_to_plugins: 플러그인으로 돌아가기
+      connect_with: "%{plugin} 연결하기"
+      debug_logs: 디버그 로그
+      debug_logs_click_here: 여기를 눌러
+      debug_logs_click_here_hint: 이 플러그인 인스턴스의 디버그 로그를 활성화하세요.
+      debug_logs_enabled: "%{hours}시간 동안 디버그 로그가 활성화돼요."
+      debug_logs_enabled_link: 로그 보기
+      disconnect_account: 계정 연결 해제
+      manage_plugin: "%{plugin} 설정"
+      force_refresh: 강제 새로고침
+      force_refresh_hint: 이 기능은 테스트 전용이에요. 남용하지 마세요.
+      force_refresh_click_here: 여기를 눌러
+      force_refresh_click_here_hint: 새 화면을 바로 생성하세요
+      force_refresh_not_possible: TRMNL 서버가 이미지 처리를 하지 않아서 이 플러그인은 강제 새로고침할 수 없어요. 인스턴스 테스트 방법은 __여기서__ 알아보세요.
+      learn_more: 이 플러그인에 대해 설명서에서 알아보세요
+      learn_more_fork: 이 플러그인은 레시피에서 포크됐어요.
+      learn_more_fork_original: 원본 보기
+      learn_more_native_long: 이 플러그인은 TRMNL이 개발하고 관리해요.
+      learn_more_native_short: TRMNL이 관리하는 플러그인이에요.
+      learn_more_recipe_author: 도움이 필요하면 Discord에서 %{recipe_author}에게 연락하세요.
+      learn_more_recipe_long: 이 플러그인은 커뮤니티 레시피이며 TRMNL이 관리하지 않아요.
+      learn_more_recipe_short: "참고: 이 플러그인은 레시피예요."
+      learn_more_third_party_long: 이 플러그인은 서드파티가 만들었으며 TRMNL이 관리하지 않아요.
+      learn_more_third_party_short: "참고: 이 플러그인은 서드파티 제공이에요."
+      linked_account: 연결된 계정
+      linked_account_success: "%{plugin_name}에 연결했어요"
+      link_oauth: 계정 연결
+      link_oauth_hint: 계속하기 전에 %{plugin}에서 제공하는 인증 절차를 따라주세요.
+      mirrored: 미러링됨
+      multiple_instances_hint: 이 플러그인은 여러 인스턴스를 지원해요.
+      name: 이름
+      name_hint: 알아보기 쉬운 이름을 지어주세요
+      parse: 파싱
+      parse_save_first: 파싱 (먼저 플러그인을 저장하세요)
+      parsed: 파싱됨
       plugin_uuid: 플러그인 UUID
-      plugin_uuid_hint: Webhook API 요청을 위해 사용합니다
-      preview: 미리보기 - 당신의 기기에서 실제 데이터를 보여줍니다
-      recipe_cta_heading_published: This plugin is a Recipe
-      recipe_cta_heading_unlisted: This plugin is unlisted
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
-      recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
-      recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
-      recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
-      recipe_visibility_title: How would you like to publish?
-      recipe_visibility_edit_title: Edit Submission
-      recipe_visibility_public: Public
-      recipe_visibility_public_hint: Anyone can find and install.
-      recipe_visibility_private: Private
-      recipe_visibility_private_hint: Breaks external installs.
-      recipe_visibility_unlisted: Unlisted
-      recipe_visibility_unlisted_hint: Anyone with the link can install.
-      refresh_rate: 새로고침 비율
-      refresh_rate_hint: 이 플러그인 인스턴스가 얼마나 자주 새 데이터를 불러올지 정합니다
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
+      plugin_uuid_hint: Webhook API 요청에 사용돼요
+      preview: 미리보기 - 기기에 실제 데이터가 표시돼요
+      recipe_cta_heading_published: 이 플러그인은 공개 상태예요
+      recipe_cta_heading_unlisted: 이 플러그인은 비공개 링크 상태예요
+      recipe_cta_heading_in_review: 플러그인 검토 중
+      recipe_cta_heading_not_published: 플러그인을 공개할까요?
+      recipe_cta_body_published: 변경사항이 기존 설치와 향후 설치/포크에 반영돼요.
+      recipe_cta_body_in_review: 이 플러그인을 팀에 제출했어요. 잠시 기다려주세요.
+      recipe_cta_body_not_published: 다른 사용자가 설치할 수 있도록 플러그인을 제출하세요. __자세히 알아보기__.
+      recipe_cta_confirm: 정말요? 팀이 검토한 후 며칠 내로 연락드려요. 계속 수정할 수 있어요.
+      recipe_mirrored: 이 화면은 레시피에서 미러링됐어요.
+      recipe_visibility_title: 어떻게 공개할까요?
+      recipe_visibility_edit_title: 제출 수정
+      recipe_visibility_public: 공개
+      recipe_visibility_public_hint: 누구나 검색하고 설치할 수 있어요.
+      recipe_visibility_private: 비공개
+      recipe_visibility_private_hint: 외부 설치가 차단돼요.
+      recipe_visibility_unlisted: 비공개 링크
+      recipe_visibility_unlisted_hint: 링크가 있는 사람만 설치할 수 있어요.
+      refresh_rate: 새로고침 주기
+      refresh_rate_hint: 이 플러그인 인스턴스가 새 데이터를 가져오는 주기를 설정해요
+      refresh_rate_not_configurable: "%{refresh_rate} 주기로 동기화 (변경 불가)"
       refreshed: 새로고침됨
-      remove_plugin: Remove plugin
-      remove_plugin_hint: Removing a plugin will also remove it from your playlist
-      synced: Synced
-      refresh_paused: Refresh Paused
-      refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
-      refresh_paused_mashup: Refreshing Mashups
-      refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
-      refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
-      visit_docs: 문서열기
+      remove_plugin: 플러그인 삭제
+      remove_plugin_hint: 플러그인을 삭제하면 플레이리스트에서도 삭제돼요
+      synced: 동기화됨
+      refresh_paused: 새로고침 일시정지
+      refresh_paused_hint: 자동 새로고침이 일시정지됐어요. 플레이리스트에 추가하면 다시 시작돼요.
+      refresh_paused_hidden_hint: 플레이리스트에서 플러그인이 숨겨져 있어서 자동 새로고침이 일시정지됐어요. 데이터 동기화는 계속돼요.
+      refresh_paused_mashup: 매시업 새로고침 중
+      refresh_paused_mashup_hint: 전체 화면에서 자동 새로고침이 일시정지됐어요. 매시업은 업데이트 중이에요.
+      refresh_stopped: 자동 새로고침이 중지됐어요. 플러그인 오류를 수정해주세요.
+      view_recipe: 레시피 보기
+      visit_docs: 문서 보기
     import:
-      archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
-      missing_entry: The ZIP file does not contain %{filename}
-      entry_too_large: "%{filename} is too large"
-      malformed: "%{filename} is malformed"
+      archive_too_large: ZIP 파일이 너무 커요 (최대 %{max_mb} MB)
+      missing_entry: ZIP 파일에 %{filename}이(가) 없어요
+      entry_too_large: "%{filename}이(가) 너무 커요"
+      malformed: "%{filename}이(가) 올바르지 않아요"
     create:
-      success: '플러그인이 생성되었습니다. 여기서 확인하세요:'
+      success: 플러그인을 생성하고 플레이리스트에 추가했어요
       playlist: 플레이리스트
     destroy:
-      success: 플러그인 삭제됨
-    handle_canceled_consent: 동의가 취소되었습니다. 다시 시도하세요.
+      success: 플러그인을 삭제했어요
+    handle_canceled_consent: 동의가 취소됐어요. 다시 시도해주세요.
     update:
-      success: 플러그인 구성이 성공적으로 업데이트 되었습니다.
+      success: 플러그인 설정을 업데이트했어요.
     add_to_playlist:
-      success: Plugin added to Playlist
+      success: 플러그인을 플레이리스트에 추가했어요
   referral_code:
     create:
-      request_received: Request received, check your inbox
+      request_received: 요청을 받았어요. 이메일을 확인해주세요
   recipes:
     index:
-      newest_to_oldest: Newest to Oldest
-      oldest_to_newest: Oldest to Newest
-      most_popular: Most Popular
-      install: Install
-      fork: Fork
+      newest_to_oldest: 최신순
+      oldest_to_newest: 오래된순
+      most_popular: 인기순
+      install: 설치
+      fork: 포크
   schedules:
     form:
-      add: Add a custom schedule
-      append: And during…
-      no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
-      to: to
-      copy_prompt: Copy schedule from…
+      add: 커스텀 스케줄 추가
+      append: 그리고…
+      no_schedule: 이 화면은 항상 표시돼요.
+      some_schedule: 이 시간에만 표시…
+      to: ~
+      copy_prompt: 스케줄 복사…
   upgrade:
     index:
-      title: '기기 업그레이드:'
-      tagline: Unlock custom plugins and __more__.
-      pay: Pay
-      error: Device %{device_name} is already upgraded, switch to another device
+      title: "기기 업그레이드:"
+      tagline: 커스텀 플러그인과 __더 많은 기능__을 사용하세요.
+      pay: 결제
+      error: "%{device_name} 기기는 이미 업그레이드됐어요. 다른 기기로 전환하세요"
     confirm:
-      success: Developer edition add-on is now enabled
+      success: 개발자 에디션 애드온이 활성화됐어요
