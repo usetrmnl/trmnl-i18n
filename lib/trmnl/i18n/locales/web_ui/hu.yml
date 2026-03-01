@@ -129,6 +129,7 @@ hu:
       session_hint: Be vagy jelentkezve mint %{user}
       show_title_bar: Címsor megjelenítése
       show_title_bar_hint: Ha kikapcsolod, a natív és harmadik féltől származó bővítmények minimalizáltabban jelennek meg.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Időzóna
       time_zone_hint: Meghatározza a frissítési rátákat és az eszköz alvási idejét.
       locale: Nyelv és lokalizáció
@@ -225,7 +226,7 @@ hu:
       mirror_sync: Képernyők szinkronizálása
       ota_enabled: OTA frissítések engedélyezve
       ota_enabled_hint: Automatikusan telepíti az új firmware-t. Kapcsold ki, ha saját firmware-t szeretnél használni.
-      ota_byod_not_supported: Az OTA nem támogatott a saját eszközök (BYOD) esetén. Tölts le egy kompatibilis verziót közvetlenül a usetrmnl.com/flash oldalról.
+      ota_byod_not_supported: Az OTA nem támogatott a saját eszközök (BYOD) esetén. Tölts le egy kompatibilis verziót közvetlenül a trmnl.com/flash oldalról.
       maximum_compatibility: Maximális kompatibilitás engedélyezése
       maximum_compatibility_hint: Kijavítja az egyes e-ink kijelzőchipek által okozott megjelenítési hibákat. Kikapcsolja a gyors frissítést. Firmware 1.6.0+ szükséges.
       palette: Color Palette
@@ -383,6 +384,11 @@ hu:
       remove_from_playlist: Eltávolítás a lejátszási listáról
       hide_playlist: Elem elrejtése
       show_playlist: Elem megjelenítése
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +466,7 @@ hu:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: A recept nem található
   plugin_settings:

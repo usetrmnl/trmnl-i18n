@@ -129,6 +129,7 @@ is:
       session_hint: Þú ert innskráður sem %{user}
       show_title_bar: Sýna titilrönd
       show_title_bar_hint: Ef slökkt, verða viðbætur einfaldari í útliti.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Tímabelti
       time_zone_hint: Stýrir uppfærslutíðni og svefntíma tækisins.
       locale: Landsstaðall
@@ -225,7 +226,7 @@ is:
       mirror_sync: Samstilla skjái
       ota_enabled: OTA uppfærslur virkar
       ota_enabled_hint: Setur sjálfkrafa inn nýjan vélbúnað. Slökktu til að nota þinn eigin.
-      ota_byod_not_supported: OTA er ekki stutt fyrir BYOD-tæki. "Flassaðu" samhæfða útgáfu beint frá usetrmnl.com/flash
+      ota_byod_not_supported: OTA er ekki stutt fyrir BYOD-tæki. "Flassaðu" samhæfða útgáfu beint frá trmnl.com/flash
       maximum_compatibility: Hámarkssamhæfni
       maximum_compatibility_hint: Leysir skjávandamál af völdum sumra e-ink rekla. Slekkur á hraðri uppfærslu. Krefst fastbúnaðar 1.6.0+.
       palette: Color Palette
@@ -383,6 +384,11 @@ is:
       remove_from_playlist: Fjarlægja úr spilunarlista
       hide_playlist: Fela þetta atriði
       show_playlist: Sýna þetta atriði
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +466,7 @@ is:
     forks:
       one: Sjálfun
       other: Sjálfanir
+    forked: Recipe forked
     new:
       error: Uppskrift fannst ekki
   plugin_settings:

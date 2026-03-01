@@ -129,6 +129,7 @@ zh-CN:
       session_hint: 当前登录的用户名：%{user}
       show_title_bar: 显示标题栏
       show_title_bar_hint: 关闭的时候, 原生插件（非全局插件）和第三方插件将会更简约。
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: 时区
       time_zone_hint: 用于自动调整刷新率与设备休眠
       locale: 语言
@@ -225,7 +226,7 @@ zh-CN:
       mirror_sync: 同步画面
       ota_enabled: 启用OTA更新
       ota_enabled_hint: 自动安装新固件。禁用以手动更新。
-      ota_byod_not_supported: 自带设备（BYOD）不支持 OTA 固件更新。请直接从 usetrmnl.com/flash 刷入兼容版本。
+      ota_byod_not_supported: 自带设备（BYOD）不支持 OTA 固件更新。请直接从 trmnl.com/flash 刷入兼容版本。
       maximum_compatibility: 启用最大兼容模式
       maximum_compatibility_hint: 解决由某些电子墨水驱动芯片引发的显示问题。禁用快速刷新功能。需固件版本 1.6.0 及以上。
       palette: 调色板
@@ -383,6 +384,11 @@ zh-CN:
       remove_from_playlist: 从播放列表中删除
       hide_playlist: 隐藏此项
       show_playlist: 显示此项
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +466,7 @@ zh-CN:
     forks:
       one: Fork
       other: 分支
+    forked: Recipe forked
     new:
       error: 未找到配方
   plugin_settings:

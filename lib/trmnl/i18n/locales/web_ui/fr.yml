@@ -129,6 +129,7 @@ fr:
       session_hint: Vous êtes connecté en tant que %{user}
       show_title_bar: Afficher la barre de titre
       show_title_bar_hint: Si cette option est désactivée, les plugins natifs (non globaux) et les plugins tiers seront minimisés.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Fuseau horaire
       time_zone_hint: Détermine les taux de rafraîchissement et le temps de veille de l'appareil.
       locale: Locale
@@ -225,7 +226,7 @@ fr:
       mirror_sync: Synchroniser les écrans
       ota_enabled: Mises à jour OTA activées
       ota_enabled_hint: Installe automatiquement le nouveau firmware. Désactivez cette option si vous souhaitez utiliser votre propre firmware.
-      ota_byod_not_supported: L'OTA n'est pas pris en charge pour les appareils BYOD. Flashez une version compatible directement depuis usetrmnl.com/flash
+      ota_byod_not_supported: L'OTA n'est pas pris en charge pour les appareils BYOD. Flashez une version compatible directement depuis trmnl.com/flash
       maximum_compatibility: Activer la compatibilité maximale
       maximum_compatibility_hint: Résout les problèmes d'affichage causés par certaines puces de pilote e-ink. Désactive le rafraîchissement rapide. Firmware 1.6.0+ requis.
       palette: Color Palette
@@ -383,6 +384,11 @@ fr:
       remove_from_playlist: Retirer de la playlist
       hide_playlist: Masquer cet élément
       show_playlist: Afficher cet élément
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +466,7 @@ fr:
     forks:
       one: Duplication
       other: Duplications
+    forked: Recipe forked
     new:
       error: Recette introuvable
   plugin_settings:

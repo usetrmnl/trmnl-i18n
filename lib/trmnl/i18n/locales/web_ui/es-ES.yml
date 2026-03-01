@@ -129,6 +129,7 @@ es-ES:
       session_hint: Conectado como %{user}
       show_title_bar: Mostrar la barra de título
       show_title_bar_hint: Si se deshabilita, los plugins nativos (no globales) y los de terceros serán más minimalistas.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Zona horaria
       time_zone_hint: Determina la tasa de refresco y el tiempo de suspensión del dispositivo.
       locale: Idioma
@@ -225,8 +226,8 @@ es-ES:
       mirror_sync: Sincronizar pantallas
       ota_enabled: Actualizaciones OTA habilitadas
       ota_enabled_hint: Instala automáticamente nuevo firmware. Desactiva para usar tu propio firmware.
-      ota_byod_not_supported: OTA no es compatible con dispositivos BYOD. Instala una versión compatible directamente desde usetrmnl.com/flash
-      maximum_compatibility: Habilitar compatibilidad máxima
+      ota_byod_not_supported: OTA no es compatible con dispositivos BYOD. Flashea una versión compatible directamente desde trmnl.com/flash
+      maximum_compatibility: Habilitar Compatibilidad Máxima
       maximum_compatibility_hint: Resuelve problemas de visualización causados por ciertos chips de tinta electrónica. Desactiva la actualización rápida. Firmware 1.6.0+ requerido.
       palette: Paleta de colores
       palette_hint: Selecciona la paleta de colores para las pantallas de este dispositivo. Una paleta mayor se ve mejor, pero una menor dibuja más rápido en e-ink. Los elementos de la lista pueden anular esto.
@@ -383,6 +384,11 @@ es-ES:
       remove_from_playlist: Eliminar de la lista
       hide_playlist: Ocultar este elemento
       show_playlist: Mostrar este elemento
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: La tasa de actualización de este plugin no se puede configurar.
         external: Este plugin obtiene datos al vuelo, por lo que la configuración de la tasa de actualización no se aplica.
@@ -460,6 +466,7 @@ es-ES:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: Receta no encontrada
   plugin_settings:

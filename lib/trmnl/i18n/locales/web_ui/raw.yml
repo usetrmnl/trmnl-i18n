@@ -129,6 +129,7 @@ raw:
       session_hint: account.index.session_hint
       show_title_bar: account.index.show_title_bar
       show_title_bar_hint: account.index.show_title_bar_hint
+      theme_hint: account.index.theme_hint
       time_zone: account.index.time_zone
       time_zone_hint: account.index.time_zone_hint
       locale: account.index.locale
@@ -383,6 +384,11 @@ raw:
       remove_from_playlist: playlists.playlist.remove_from_playlist
       hide_playlist: playlists.playlist.hide_playlist
       show_playlist: playlists.playlist.show_playlist
+      duplicate: playlist_items.playlist_item.duplicate
+      duplicate_confirm: playlist_items.playlist_item.duplicate_confirm
+      color_palette: playlist_items.playlist_item.color_palette
+      device_default: playlist_items.playlist_item.device_default
+      palette_unavailable: playlist_items.playlist_item.palette_unavailable
       refresh_rate_disabled:
         default: playlist_items.playlist_item.refresh_rate_disabled.default
         external: playlist_items.playlist_item.refresh_rate_disabled.external
@@ -460,6 +466,7 @@ raw:
     forks:
       one: plugin_recipes.forks.one
       other: plugin_recipes.forks.many
+    forked: plugin_recipes.forked
     new:
       error: plugin_recipes.new.error
   plugin_settings:

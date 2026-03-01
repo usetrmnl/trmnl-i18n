@@ -129,6 +129,7 @@ it:
       session_hint: Sei connesso/a come %{user}
       show_title_bar: Show title bar
       show_title_bar_hint: Se disabilitato, i plugin nativi (non globali) e di terze parti saranno più minimali.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Time Zone
       time_zone_hint: Determina la frequenza di aggiornamento e il periodo di riposo del dispositivo.
       locale: Lingua
@@ -225,7 +226,7 @@ it:
       mirror_sync: Sinctronizza Schermi
       ota_enabled: Abilita aggiornamenti OTA
       ota_enabled_hint: Installa automaticamente i nuovi firmware. Disabilita per utilizzare il tuo firmware
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
+      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Abilita compatibilità massima
       maximum_compatibility_hint: Risolve problemi dello schermo causati da alcuni chip driver per e-ink. Disattiva il fast refresh. Richiede Firmware 1.6.0 o successivo.
       palette: Palette Colori
@@ -383,6 +384,11 @@ it:
       remove_from_playlist: Rimuovi dalla playlist
       hide_playlist: Nascondi elemento
       show_playlist: Mostra elemento
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +466,7 @@ it:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: Recipe non trovata
   plugin_settings:
