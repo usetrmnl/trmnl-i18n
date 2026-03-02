@@ -1,0 +1,209 @@
+---
+ro:
+  custom_plugins:
+    today: astăzi
+    tomorrow: mâine
+    updated: Actualizat
+    activity: Activitate
+    done: Terminat
+    due: Termen
+    deutsche_bahn_departures:
+      departures: Plecări
+      time: Ora
+      line: Linie
+      destination: Destinație
+      platform: Peron
+      delay: Întârziere
+      train: Tren
+      on_time: La timp
+      cancelled: Anulat
+      minutes: min
+      refreshed: Actualizat
+    simple_calendar:
+      title: Calendar
+      ym_format: "%B %Y"
+      chinese_korean:
+        leap_format: Bisect %{month_label}
+        leap_format_short: LB%{alt_month}
+        ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
+        month_labels:
+        -
+        - L1
+        - L2
+        - L3
+        - L4
+        - L5
+        - L6
+        - L7
+        - L8
+        - L9
+        - L10
+        - L11
+        - L12
+        date_labels:
+        -
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+        - '14'
+        - '15'
+        - '16'
+        - '17'
+        - '18'
+        - '19'
+        - '20'
+        - '21'
+        - '22'
+        - '23'
+        - '24'
+        - '25'
+        - '26'
+        - '27'
+        - '28'
+        - '29'
+        - '30'
+        heavenly_stems:
+        - Lemn
+        - Lemn
+        - Foc
+        - Foc
+        - Pământ
+        - Pământ
+        - Metal
+        - Metal
+        - Apă
+        - Apă
+        earthly_branches:
+        - Șobolan
+        - Bou
+        - Tigru
+        - Iepure
+        - Dragon
+        - Șarpe
+        - Cal
+        - Capră
+        - Maimuță
+        - Cocoș
+        - Câine
+        - Porc
+      japanese:
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 仏滅
+        - 大安
+        - 赤口
+        nengo:
+          reiwa: Reiwa
+        ym_format: "%B %Y (%{nengo} %{alt_year})"
+        year_1: '1'
+      hebrew:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        - Nisan
+        - Iyar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tishri
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
+        month_labels_abbr:
+        - Nis
+        - Iya
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tis
+        - Hes
+        - Kis
+        - Tev
+        - Shv
+        - Ada
+        - Ad1
+        - Ad2
+      hijri:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Muharram
+        - Safar
+        - Rabiʻ I
+        - Rabiʻ II
+        - Jumada I
+        - Jumada II
+        - Rajab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
+        - Dhuʻl-Qiʻdah
+        - Dhuʻl-Hijjah
+      bengali:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
+      indian:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
+        - Asadha
+        - Sravana
+        - Bhadra
+        - Asvina
+        - Kartika
+        - Agrahayana
+        - Pausa
+        - Magha
+        - Phalguna
+    public_recipe_stats:
+      connections: ".input {$value :number} .match $value zero {{Nicio conexiune}} one {{{$value :number} conexiune}} * {{{$value :number} conexiuni}}"
+      forks: ".input {$value :number} .match $value zero {{Niciun fork}} one {{{$value :number} fork}} * {{{$value :number} fork-uri}}"
+      installs: ".input {$value :number} .match $value zero {{Nicio instalare}} one {{{$value :number} instalare}} * {{{$value :number} instalări}}"
+      and_more: și {$value :number} mai mult
+      error_keyword_title: "\"{$keyword}\" nu a corespuns niciunui rezultat."
+      error_keyword_subtitle: Încearcă să cauți altceva.
+      error_new_title: Nu a fost găsit niciun rețetar nou.
+      error_new_subtitle: Asta nu ar trebui să se întâmple.
+      error_self_title: Nu ai publicat niciun rețetar.
+      error_self_subtitle: Află cum să publici primul tău rețetar la https://help.trmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Utilizatorul #{$authorId} nu a publicat niciun rețetar.'
+      error_author_id_subtitle: Nu a fost găsit niciun rețetar asociat cu acest ID.
+      error_recipe_ids_title: Nu a fost găsit niciun ID de rețetar.
+      error_recipe_ids_subtitle: Adaugă un ID de rețetar pentru a începe.
+    horizontal_world_clock:
+      name: Ceas mondial
+    language_learning_sentences:
+      from_to: "{$from :langName} în {$to :langNameList}"
