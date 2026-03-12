@@ -193,7 +193,7 @@ ro:
       forks: ".input {$value :number} .match $value zero {{Niciun fork}} one {{{$value :number} fork}} * {{{$value :number} fork-uri}}"
       installs: ".input {$value :number} .match $value zero {{Nicio instalare}} one {{{$value :number} instalare}} * {{{$value :number} instalări}}"
       and_more: și {$value :number} mai mult
-      error_keyword_title: "\"{$keyword}\" nu a corespuns niciunui rezultat."
+      error_keyword_title: '"{$keyword}" nu a corespuns niciunui rezultat.'
       error_keyword_subtitle: Încearcă să cauți altceva.
       error_new_title: Nu a fost găsit niciun rețetar nou.
       error_new_subtitle: Asta nu ar trebui să se întâmple.
