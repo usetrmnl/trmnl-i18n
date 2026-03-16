@@ -189,10 +189,13 @@ ko:
         - Magha
         - Phalguna
     public_recipe_stats:
+      __translator_note: Strings for recipe https://trmnl.com/recipes/170970. You do not need to translate strings ending with `__translator_note`. The following strings are using the Unicode MessageFormat 2 syntax. See https://messageformat.unicode.org/ for details. See https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html for pluralization rules of your language.
       connections: "{$value :number}개 연결"
+      connections__translator_note: Title for the number of connections to a public recipe. {$value :number} is the number of connections.
       forks: "{$value :number}개 포크"
       installs: "{$value :number}개 설치"
       and_more: 외 {$value :number}개
+      and_more__translator_note: Used when some recipe stats are not shown on screen. {$value :number} is the number of additional stats that are not shown. You may pluralization rules if necessary in your language.
       error_keyword_title: "“{$keyword}”에 일치하는 결과가 없어요."
       error_keyword_subtitle: 다른 키워드로 검색해보세요.
       error_new_title: 새 레시피를 찾을 수 없어요.
@@ -206,4 +209,17 @@ ko:
     horizontal_world_clock:
       name: 세계 시계
     language_learning_sentences:
+      __translator_note: Strings for recipe https://trmnl.com/recipes/177718. You do not need to translate strings ending with `__translator_note`.
       from_to: "{$from :langName}에서 {$to :langNameList}(으)로"
+      from_to__translator_note: Title representing translation from one language to one or more other languages. ${from :langName} is the localized name of the source language, and ${to :langNameList} is the localized name of the target language(s). For example, "English to Spanish" or "English to Spanish, French".
+    custom_next_holiday:
+      __translator_note: Strings for recipe https://trmnl.com/recipes/257171. You do not need to translate strings ending with `__translator_note`. The following strings are using the Unicode MessageFormat 2 syntax. See https://messageformat.unicode.org/ for details. See https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html for pluralization rules of your language. Open an issue to https://github.com/blueset/trmnl-recipes if your language needs additional conditions like vowel harmony or gender agreement.
+      next_holiday: Next holiday
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
+      today_and_next__translator_note: String for when today is a holiday and there is another holiday coming up. {$name} is the name of today’s holiday, {$nextName} is the name of the next holiday, and {$nextDays :number} is the number of days until the next holiday. If your language has words for tomorrow or the day after tommorow, use selectors `1` or `2` to make the string more natural. `{$mainValue}...{/mainValue}` is the largest font size, `{$mainLabel}...{/mainLabel}` is the second largest font size, and `{$subLabel}...{/subLabel}` is the smallest font size. `{#br/}` represents a line break.
+      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      today_only__translator_note: String for when today is a holiday and there is no other holiday coming up. {$name} is the name of today’s holiday.
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      next_only__translator_note: String for when today is not a holiday and there is a holiday coming up. {$nextName} is the name of the next holiday, and {$nextDays :number} is the number of days until the next holiday. If your language has words for tomorrow or the day after tommorow, use selectors `1` or `2` to make the string more natural.
+      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
+      no_holidays__translator_note: String for when there is no holiday coming up within the range of added holidays.
