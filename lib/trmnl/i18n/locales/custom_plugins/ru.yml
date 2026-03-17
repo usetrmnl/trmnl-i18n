@@ -189,10 +189,13 @@ ru:
         - Магха
         - Пхальгуна
     public_recipe_stats:
+      __translator_note: Strings for recipe https://trmnl.com/recipes/170970. You do not need to translate strings ending with `__translator_note`. The following strings are using the Unicode MessageFormat 2 syntax. See https://messageformat.unicode.org/ for details. See https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html for pluralization rules of your language.
       connections: ".input {$value :number} .match $value one {{{$value :number} подключение}} few {{{$value :number} подключения}} many {{{$value :number} подключений}} * {{{$value :number} подключения}}"
+      connections__translator_note: Title for the number of connections to a public recipe. {$value :number} is the number of connections.
       forks: ".input {$value :number} .match $value one {{{$value :number} форк}} few {{{$value :number} форка}} many {{{$value :number} форков}} * {{{$value :number} форки}}"
       installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
       and_more: и {$value :number} ещё
+      and_more__translator_note: Used when some recipe stats are not shown on screen. {$value :number} is the number of additional stats that are not shown. You may pluralization rules if necessary in your language.
       error_keyword_title: "“{$keyword}” did not match any result."
       error_keyword_subtitle: Try searching for something else.
       error_new_title: No new recipe is found.
@@ -206,4 +209,17 @@ ru:
     horizontal_world_clock:
       name: World clock
     language_learning_sentences:
+      __translator_note: Strings for recipe https://trmnl.com/recipes/177718. You do not need to translate strings ending with `__translator_note`.
       from_to: "{$from :langName} to {$to :langNameList}"
+      from_to__translator_note: Title representing translation from one language to one or more other languages. ${from :langName} is the localized name of the source language, and ${to :langNameList} is the localized name of the target language(s). For example, "English to Spanish" or "English to Spanish, French".
+    custom_next_holiday:
+      __translator_note: Strings for recipe https://trmnl.com/recipes/257171. You do not need to translate strings ending with `__translator_note`. The following strings are using the Unicode MessageFormat 2 syntax. See https://messageformat.unicode.org/ for details. See https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html for pluralization rules of your language. Open an issue to https://github.com/blueset/trmnl-recipes if your language needs additional conditions like vowel harmony or gender agreement.
+      next_holiday: Next holiday
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
+      today_and_next__translator_note: String for when today is a holiday and there is another holiday coming up. {$name} is the name of today’s holiday, {$nextName} is the name of the next holiday, and {$nextDays :number} is the number of days until the next holiday. If your language has words for tomorrow or the day after tommorow, use selectors `1` or `2` to make the string more natural. `{$mainValue}...{/mainValue}` is the largest font size, `{$mainLabel}...{/mainLabel}` is the second largest font size, and `{$subLabel}...{/subLabel}` is the smallest font size. `{#br/}` represents a line break.
+      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      today_only__translator_note: String for when today is a holiday and there is no other holiday coming up. {$name} is the name of today’s holiday.
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      next_only__translator_note: String for when today is not a holiday and there is a holiday coming up. {$nextName} is the name of the next holiday, and {$nextDays :number} is the number of days until the next holiday. If your language has words for tomorrow or the day after tommorow, use selectors `1` or `2` to make the string more natural.
+      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
+      no_holidays__translator_note: String for when there is no holiday coming up within the range of added holidays.
