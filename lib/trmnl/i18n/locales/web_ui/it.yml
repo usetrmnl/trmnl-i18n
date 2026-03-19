@@ -226,7 +226,7 @@ it:
       mirror_sync: Sinctronizza Schermi
       ota_enabled: Abilita aggiornamenti OTA
       ota_enabled_hint: Installa automaticamente i nuovi firmware. Disabilita per utilizzare il tuo firmware
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
+      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Abilita compatibilità massima
       maximum_compatibility_hint: Risolve problemi dello schermo causati da alcuni chip driver per e-ink. Disattiva il fast refresh. Richiede Firmware 1.6.0 o successivo.
       palette: Palette Colori
@@ -241,6 +241,8 @@ it:
       special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.
       temperature_profile: Profilo temperatura
       temperature_profile_hint: Non cambiare se non specificato. Per schermi con immagini sbiadite.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Credenziali Tidbyt.
       tidbyt_credentials_hint: Inserisci le tue credenziali API per il dispositivo Tidbyt dall'applicazione Tidbyt nelle impostazioni -> Sviluppo -> Ottieni chiave API.
       tidbyt_credentials_invalid: Credenziali API Tidbyt API Invalide. Perfavore controlla e riprova.
@@ -384,6 +386,11 @@ it:
       remove_from_playlist: Rimuovi dalla playlist
       hide_playlist: Nascondi elemento
       show_playlist: Mostra elemento
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -461,6 +468,7 @@ it:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: Recipe non trovata
   plugin_settings:

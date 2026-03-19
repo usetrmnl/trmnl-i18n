@@ -226,7 +226,7 @@ pl:
       mirror_sync: Synchronizuj wyświetlacze
       ota_enabled: Aktualizacje OTA włączone
       ota_enabled_hint: Automatycznie instaluj nowy firmware. Wyłącz, jeśli chcesz instalować własny firmware.
-      ota_byod_not_supported: Aktualizacje OTA nie są wspierane na urządzeniach firm trzecich (BYOD). Wgraj kompatybilne oprogramowanie ze strony usetrmnl.com/flash
+      ota_byod_not_supported: Aktualizacje OTA nie są wspierane na urządzeniach firm trzecich (BYOD). Wgraj kompatybilne oprogramowanie ze strony trmnl.com/flash
       maximum_compatibility: Włącz maksymalną kompatybilność
       maximum_compatibility_hint: Rozwiązuje problemy z wyświetlaniem na niektórych wyświetlaczach e-ink. Wyłącza szybkie odświeżanie. Wymaga oprogramowania 1.6.0 lub nowszego.
       palette: Paleta kolorów
@@ -241,6 +241,8 @@ pl:
       special_function_learn_more: Szczegółowe informacje znajdziesz __tutaj__.
       temperature_profile: Profil temperaturowy
       temperature_profile_hint: Nie należy zmieniać we własnym zakresie. Przeznaczone dla ekranów wyświetlających wyblakłe obrazy.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Poświadczenia Tidbyt
       tidbyt_credentials_hint: Wprowadź poświadczenia API swojego urządzenia Tidbyt. Znajdziesz je w aplikacji Tidbyt w menu Settings → Developer → Get API Key
       tidbyt_credentials_invalid: Niepoprawne poświadczenia Tidbyt API. Sprawdź ich poprawność i spróbuj ponownie.
@@ -384,6 +386,11 @@ pl:
       remove_from_playlist: Usuń z playlisty
       hide_playlist: Ukryj ten element
       show_playlist: Pokaż ten element
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: Częstotliwość odświeżania tego pluginu nie może być skonfigurowana.
         external: Ten plugin pobiera dane na bieżąco, więc częstotliwość odświeżania nie ma tu zastosowania.
@@ -461,6 +468,7 @@ pl:
     forks:
       one: Fork
       other: Forki
+    forked: Recipe forked
     new:
       error: Nie znaleziono receptury
   plugin_settings:

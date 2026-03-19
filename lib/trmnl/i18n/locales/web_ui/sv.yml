@@ -226,7 +226,7 @@ sv:
       mirror_sync: Sync Screens
       ota_enabled: OTA Updates Enabled
       ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
+      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       palette: Color Palette
@@ -241,6 +241,8 @@ sv:
       special_function_learn_more: Learn more about special functions __here__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
@@ -384,6 +386,11 @@ sv:
       remove_from_playlist: Remove from playlist
       hide_playlist: Hide this item
       show_playlist: Show this item
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -461,6 +468,7 @@ sv:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: Recipe not found
   plugin_settings:

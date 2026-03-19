@@ -2,7 +2,7 @@
 :toclevels: 5
 :figure-caption!:
 
-:trmnl_link: link:https://usetrmnl.com[TRMNL]
+:trmnl_link: link:https://trmnl.com[TRMNL]
 :ror_link: link:https://rubyonrails.org[Ruby on Rails]
 :i18n_link: link:https://guides.rubyonrails.org/i18n.html[I18n]
 
@@ -31,7 +31,7 @@ To install _with_ security, run:
 [source,bash]
 ----
 # 💡 Skip this line if you already have the public certificate installed.
-gem cert --add <(curl --compressed --location https://usetrmnl.com/gems.pem)
+gem cert --add <(curl --compressed --location https://trmnl.com/gems.pem)
 gem install trmnl-i18n --trust-policy HighSecurity
 ----
 
@@ -140,5 +140,6 @@ That's it!
 * Chinese (Hong Kong) via link:https://github.com/liahsheep[@liahsheep]
 * Hebrew via link:https://github.com/itay99988[@itay99988]
 * Russian via link:https://github.com/putnik[@putnik]
+* Romanian via link:https://github.com/tomita-militaru[@tomita-militaru]
 * Built with link:https://alchemists.io/projects/gemsmith[Gemsmith].
-* Engineered by link:https://usetrmnl.com[TRMNL].
+* Engineered by link:https://trmnl.com[TRMNL].

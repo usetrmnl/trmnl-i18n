@@ -226,7 +226,7 @@ zh-HK:
       mirror_sync: 同步畫面
       ota_enabled: 啟用自動更新
       ota_enabled_hint: 自動安裝新的韌體。如要使用自訂韌體，請停用此設定。
-      ota_byod_not_supported: 自攜裝置 (BYOD) 不支援自動更新。請直接從 usetrmnl.com/flash 下載並刷寫兼容版本。
+      ota_byod_not_supported: 自攜裝置 (BYOD) 不支援自動更新。請直接從 trmnl.com/flash 下載並刷寫兼容版本。
       maximum_compatibility: 啟用最大兼容性
       maximum_compatibility_hint: 解決由某些電子墨水驅動晶片引起的顯示問題。會停用快速重新整理。需要韌體版本1.6.0或以上。
       palette: 色彩模式
@@ -241,6 +241,8 @@ zh-HK:
       special_function_learn_more: __按此__了解更多特別功能。
       temperature_profile: 色溫設定檔
       temperature_profile_hint: 除非獲得指示，否則請勿更改。適用於影像顯示褪色的螢幕。
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt憑證
       tidbyt_credentials_hint: 在Tidbyt應用程式前往「Settings → Developer → Get API Key」尋找你的Tidbyt裝置API憑證。
       tidbyt_credentials_invalid: Tidbyt API憑證無效。請檢查並重試。
@@ -384,6 +386,11 @@ zh-HK:
       remove_from_playlist: 從播放清單中移除
       hide_playlist: 隱藏此項目
       show_playlist: 顯示此項目
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: 無法設定此外掛的重新整理頻率。
         external: 此外掛即時擷取數據，因此重新整理頻率設定不適用。
@@ -461,6 +468,7 @@ zh-HK:
     forks:
       one: 個分叉
       other: 個分叉
+    forked: Recipe forked
     new:
       error: 找不到模板
   plugin_settings:

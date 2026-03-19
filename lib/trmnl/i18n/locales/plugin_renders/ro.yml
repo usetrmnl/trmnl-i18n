@@ -1,0 +1,280 @@
+---
+ro:
+  renders:
+    and_x_more_prefix: Și
+    and_x_more_suffix: mai mult
+    days_left_year:
+      title: Zile rămase în an
+      days_passed: Zile trecute
+      days_left: Zile rămase
+    lunar_calendar:
+      title: Calendar lunar
+      age: Vârsta lunii
+      current_phase: Faza curentă
+      illumination: Iluminarea lunii
+      next_full_moon: Următoarea lună plină
+      next_new_moon: Următoarea lună nouă
+      next_phase: Faza următoare
+      next_phase_short: Următor
+      moon_phases:
+        new_moon: Lună nouă
+        waxing_crescent: Semilună în creștere
+        first_quarter: Primul pătrar
+        waxing_gibbous: Gibboasă în creștere
+        full_moon: Lună plină
+        waning_gibbous: Gibboasă în descreștere
+        third_quarter: Ultimul pătrar
+        waning_crescent: Semilună în descreștere
+    netatmo_weather_station:
+      title: Meteo Netatmo
+      title_short: Netatmo
+      indoor_temp: Temp. interior
+      indoor_temp_short: Interior
+      indoor_humidity: Umiditate interior
+      indoor_humidity_short: Um. int.
+      outdoor_humidity: Umiditate exterior
+      outdoor_humidity_short: Um. ext.
+      co2: CO₂
+      co2_ppm: CO₂ ppm
+      pressure: Presiune
+      noise: Zgomot
+      min_max: Min/Max
+      feels: Resimțit
+      rain: Ploaie
+      wind: Vânt
+      gust: Rafală
+      default_station_name: Stație Netatmo
+      default_outdoor_module: Temp. exterior
+      default_indoor_module: Interior
+      trends_title: Tendințe %{metric}
+      trends_title_short: Tendințe
+      temperature_trends: Tendințe temperatură
+      temperature_trends_short: Tend. temp.
+      outdoor_now: Exterior acum
+      indoor_now: Interior acum
+      now: Acum
+      low_high_24h: Min / Max 24h
+      average_24h: Medie 24h
+      outdoor: Exterior
+      indoor: Interior
+      rain_gauge_not_connected: Pluviometrul nu este conectat
+      wind_gauge_not_connected: Anemometrul nu este conectat
+      no_rain_gauge: Fără pluviometru
+      no_wind_gauge: Fără anemometru
+      add_module_hint: Adaugă modulul opțional %{module} pentru a vedea aceste date
+      range_24h: Interval 24h
+      errors:
+        missing_access_token: Token de acces lipsă. Reconectează-ți contul Netatmo.
+        no_station_selected: Nicio stație meteo selectată. Alege o stație în setări.
+        connection_failed: Imposibil de conectat la stația Netatmo. Verifică conexiunea la internet.
+        data_retrieval_failed: Imposibil de preluat datele meteo. Încearcă din nou mai târziu.
+        session_expired: Sesiunea a expirat. Reconectează-ți contul Netatmo în setări.
+    parcel:
+      delivery_by: Livrare de
+      empty: Nu există livrări
+      errors:
+        api: Eroare API Parcel
+        http: Eroare HTTP %{code}
+        internal: Eroare internă
+      filter_modes:
+        active:
+          one: Livrare activă
+          other: Livrări active
+        recent:
+          one: Livrare recentă
+          other: Livrări recente
+      status:
+        delivered: Livrat
+        delivery_exception: Excepție la livrare
+        expecting_pickup: Așteptare ridicare
+        failed_delivery_attempt: Tentativă de livrare eșuată
+        frozen: Înghețat
+        in_transit: În tranzit
+        information_received: Informații primite
+        not_found: Negăsit
+        out_for_delivery: În curs de livrare
+        unknown: Necunoscut
+      today: Astăzi
+      tomorrow: Mâine
+    weather:
+      title: Meteo
+      temperature: Temperatură
+      feels_like: Resimțit ca
+      humidity: Umiditate
+      low: Min
+      high: Max
+      uv: UV
+      right_now: Chiar acum
+      today: Astăzi
+      tomorrow: Mâine
+      low_high_short: Min/Max
+      uv_short: UV
+      max: Max
+      tempest:
+        conditions:
+          clear: Senin
+          cloudy: Noros
+          foggy: Cețos
+          partly_cloudy: Parțial noros
+          rain_likely: Ploaie probabilă
+          rain_possible: Ploaie posibilă
+          snow: Ninsoare
+          snow_possible: Ninsoare posibilă
+          thunderstorms_likely: Furtuni probabile
+          thunderstorms_possible: Furtuni posibile
+          very_light_rain: Ploaie foarte ușoară
+          windy: Vântos
+          wintry_mix_likely: Precipitații mixte probabile
+          wintry_mix_possible: Precipitații mixte posibile
+      weatherapi:
+        uv:
+          low: Scăzut
+          moderate: Moderat
+          high: Ridicat
+          very_high: Foarte ridicat
+          extreme: Extrem
+        conditions:
+        - code: 1000
+          day: Însorit
+          night: Senin
+        - code: 1003
+          day: Parțial noros
+          night: Parțial noros
+        - code: 1006
+          day: Noros
+          night: Noros
+        - code: 1009
+          day: Acoperit
+          night: Acoperit
+        - code: 1030
+          day: Ceață ușoară
+          night: Ceață ușoară
+        - code: 1063
+          day: Ploaie ușoară
+          night: Ploaie ușoară
+        - code: 1066
+          day: Ninsoare ușoară
+          night: Ninsoare ușoară
+        - code: 1069
+          day: Lapoviță
+          night: Lapoviță
+        - code: 1072
+          day: Burniță înghețată
+          night: Burniță înghețată
+        - code: 1087
+          day: Tunet
+          night: Tunet
+        - code: 1114
+          day: Ninsoare viscolită
+          night: Ninsoare viscolită
+        - code: 1117
+          day: Viscol
+          night: Viscol
+        - code: 1135
+          day: Ceață
+          night: Ceață
+        - code: 1147
+          day: Ceață înghețată
+          night: Ceață înghețată
+        - code: 1150
+          day: Burniță ușoară
+          night: Burniță ușoară
+        - code: 1153
+          day: Burniță
+          night: Burniță
+        - code: 1168
+          day: Burniță înghețată
+          night: Burniță înghețată
+        - code: 1171
+          day: Îngheț puternic
+          night: Îngheț puternic
+        - code: 1180
+          day: Ploaie ușoară
+          night: Ploaie ușoară
+        - code: 1183
+          day: Ploaie ușoară
+          night: Ploaie ușoară
+        - code: 1186
+          day: Ploaie moderată
+          night: Ploaie moderată
+        - code: 1189
+          day: Ploaie moderată
+          night: Ploaie moderată
+        - code: 1192
+          day: Ploaie puternică
+          night: Ploaie puternică
+        - code: 1195
+          day: Ploaie puternică
+          night: Ploaie puternică
+        - code: 1198
+          day: Îngheț ușor
+          night: Îngheț ușor
+        - code: 1201
+          day: Îngheț puternic
+          night: Îngheț puternic
+        - code: 1204
+          day: Lapoviță ușoară
+          night: Lapoviță ușoară
+        - code: 1207
+          day: Lapoviță puternică
+          night: Lapoviță puternică
+        - code: 1210
+          day: Ninsoare ușoară
+          night: Ninsoare ușoară
+        - code: 1213
+          day: Ninsoare ușoară
+          night: Ninsoare ușoară
+        - code: 1216
+          day: Ninsoare moderată
+          night: Ninsoare moderată
+        - code: 1219
+          day: Ninsoare moderată
+          night: Ninsoare moderată
+        - code: 1222
+          day: Ninsoare puternică
+          night: Ninsoare puternică
+        - code: 1225
+          day: Ninsoare puternică
+          night: Ninsoare puternică
+        - code: 1237
+          day: Granule de gheață
+          night: Granule de gheață
+        - code: 1240
+          day: Ploaie ușoară
+          night: Ploaie ușoară
+        - code: 1243
+          day: Ploaie puternică
+          night: Ploaie puternică
+        - code: 1246
+          day: Ploaie torențială
+          night: Ploaie torențială
+        - code: 1249
+          day: Lapoviță ușoară
+          night: Lapoviță ușoară
+        - code: 1252
+          day: Lapoviță puternică
+          night: Lapoviță puternică
+        - code: 1255
+          day: Ninsoare ușoară
+          night: Ninsoare ușoară
+        - code: 1258
+          day: Ninsoare puternică
+          night: Ninsoare puternică
+        - code: 1261
+          day: Gheață ușoară
+          night: Gheață ușoară
+        - code: 1264
+          day: Gheață puternică
+          night: Gheață puternică
+        - code: 1273
+          day: Tunet și ploaie
+          night: Tunet și ploaie
+        - code: 1276
+          day: Tunet și ploaie
+          night: Tunet și ploaie
+        - code: 1279
+          day: Tunet și ninsoare
+          night: Tunet și ninsoare
+        - code: 1282
+          day: Tunet și ninsoare
+          night: Tunet și ninsoare

@@ -199,9 +199,9 @@ ko:
       display_calibration: 디스플레이 보정
       display_calibration_hint: 렌더링을 세밀하게 조정하세요. 비워두면 모델 기본값이 적용돼요.
       display_calibration_pixel_ratio: 픽셀 비율
-      display_calibration_pixel_ratio_hint: "이미지 확대 비율 (0.5–3.0). 기본값:"
+      display_calibration_pixel_ratio_hint: '이미지 확대 비율 (0.5–3.0). 기본값:'
       display_calibration_ui_scale: UI 크기
-      display_calibration_ui_scale_hint: "텍스트 및 요소 크기 (0.5–2.0). 기본값:"
+      display_calibration_ui_scale_hint: '텍스트 및 요소 크기 (0.5–2.0). 기본값:'
       edit_device: 기기 수정
       firmware: 펌웨어
       firmware_updates_enabled: 업데이트 활성화됨
@@ -219,14 +219,14 @@ ko:
       low_battery_email_notification_hint: 기기 배터리가 부족하면 이메일로 알려드려요.
       mirror: 미러링
       mirror_device: 다른 기기 미러링
-      mirror_device_hint: (공유 가능한) 기기 ID를 입력하면 플레이리스트를 미러링해요. 내 플레이리스트는 그대로 표시돼요.
+      mirror_device_hint: "(공유 가능한) 기기 ID를 입력하면 플레이리스트를 미러링해요. 내 플레이리스트는 그대로 표시돼요."
       mirror_disabled: 미러링 비활성화됨
       mirror_enabled: 미러링 중
       mirror_stop: 미러링 해제
       mirror_sync: 화면 동기화
       ota_enabled: OTA 업데이트 활성화됨
       ota_enabled_hint: 새 펌웨어를 자동으로 설치해요. 직접 만든 펌웨어를 쓰려면 비활성화하세요.
-      ota_byod_not_supported: BYOD 기기는 OTA를 지원하지 않아요. usetrmnl.com/flash에서 직접 플래시하세요.
+      ota_byod_not_supported: BYOD 기기는 OTA를 지원하지 않아요. trmnl.com/flash에서 직접 플래시하세요.
       maximum_compatibility: 최대 호환성 활성화
       maximum_compatibility_hint: 특정 e-ink 드라이버 칩의 디스플레이 문제를 해결해요. 빠른 새로고침이 비활성화돼요. 펌웨어 1.6.0 이상 필요.
       palette: 색상 팔레트
@@ -241,6 +241,8 @@ ko:
       special_function_learn_more: 특별 기능에 대해 __여기서__ 자세히 알아보세요.
       temperature_profile: 온도 프로파일
       temperature_profile_hint: 안내가 없으면 변경하지 마세요. 화면이 바래 보이는 디스플레이용이에요.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt 인증 정보
       tidbyt_credentials_hint: Tidbyt 앱의 설정 → 개발자 → API 키 받기에서 기기 API 인증 정보를 입력하세요.
       tidbyt_credentials_invalid: Tidbyt API 인증 정보가 올바르지 않아요. 다시 확인해주세요.
@@ -384,6 +386,11 @@ ko:
       remove_from_playlist: 플레이리스트에서 삭제
       hide_playlist: 이 항목 숨기기
       show_playlist: 이 항목 표시하기
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: 이 플러그인의 새로고침 주기는 설정할 수 없어요.
         external: 이 플러그인은 실시간으로 데이터를 가져오므로 새로고침 주기 설정이 적용되지 않아요.
@@ -459,8 +466,9 @@ ko:
       one: 연결
       other: 연결
     forks:
-      one: 포크
-      other: 포크
+      one: Fork
+      other: Forks
+    forked: Recipe forked
     new:
       error: 레시피를 찾을 수 없어요
   plugin_settings:
@@ -499,9 +507,9 @@ ko:
       learn_more_native_short: TRMNL이 관리하는 플러그인이에요.
       learn_more_recipe_author: 도움이 필요하면 Discord에서 %{recipe_author}에게 연락하세요.
       learn_more_recipe_long: 이 플러그인은 커뮤니티 레시피이며 TRMNL이 관리하지 않아요.
-      learn_more_recipe_short: "참고: 이 플러그인은 레시피예요."
+      learn_more_recipe_short: '참고: 이 플러그인은 레시피예요.'
       learn_more_third_party_long: 이 플러그인은 서드파티가 만들었으며 TRMNL이 관리하지 않아요.
-      learn_more_third_party_short: "참고: 이 플러그인은 서드파티 제공이에요."
+      learn_more_third_party_short: '참고: 이 플러그인은 서드파티 제공이에요.'
       linked_account: 연결된 계정
       linked_account_success: "%{plugin_name}에 연결했어요"
       link_oauth: 계정 연결
@@ -579,11 +587,11 @@ ko:
       append: 그리고…
       no_schedule: 이 화면은 항상 표시돼요.
       some_schedule: 이 시간에만 표시…
-      to: ~
+      to:
       copy_prompt: 스케줄 복사…
   upgrade:
     index:
-      title: "기기 업그레이드:"
+      title: '기기 업그레이드:'
       tagline: 커스텀 플러그인과 __더 많은 기능__을 사용하세요.
       pay: 결제
       error: "%{device_name} 기기는 이미 업그레이드됐어요. 다른 기기로 전환하세요"

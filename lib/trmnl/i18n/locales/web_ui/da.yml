@@ -226,7 +226,7 @@ da:
       mirror_sync: Synkroniser skærme
       ota_enabled: OTA-opdateringer aktiveret
       ota_enabled_hint: Installer automatisk ny firmware. Deaktiver for at bruge din egen firmware.
-      ota_byod_not_supported: OTA understøttes ikke for BYOD-enheder. Flash en kompatibel version direkte fra usetrmnl.com/flash
+      ota_byod_not_supported: OTA understøttes ikke for BYOD-enheder. Flash en kompatibel version direkte fra trmnl.com/flash
       maximum_compatibility: Aktivér maksimal kompatibilitet
       maximum_compatibility_hint: Løser visningsproblemer forårsaget af visse e-ink driverchips. Deaktiverer hurtig opdatering. Firmware 1.6.0+ kræves.
       palette: Color Palette
@@ -241,6 +241,8 @@ da:
       special_function_learn_more: Læs mere om specialfunktioner __her__.
       temperature_profile: Temperaturprofil
       temperature_profile_hint: Ændr ikke medmindre instrueret. Til displays med udvaskede billeder.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
@@ -384,6 +386,11 @@ da:
       remove_from_playlist: Fjern fra playliste
       hide_playlist: Skjul dette element
       show_playlist: Vis dette element
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -461,6 +468,7 @@ da:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: Opskrift ikke fundet
   plugin_settings:

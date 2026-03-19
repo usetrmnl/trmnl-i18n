@@ -1,45 +1,45 @@
 ---
-is:
+ro:
   custom_plugins:
-    today: í dag
-    tomorrow: á morgun
-    updated: Uppfært
-    activity: Virkni
-    done: Lokið
-    due: Eftir
+    today: astăzi
+    tomorrow: mâine
+    updated: Actualizat
+    activity: Activitate
+    done: Terminat
+    due: Termen
     deutsche_bahn_departures:
-      departures: Brottfarir
-      time: Tími
-      line: Lína
-      destination: Áfangastaður
-      platform: Brautarpallur
-      delay: Töf
-      train: Lest
-      on_time: Á réttum tíma
-      cancelled: Aflýst
-      minutes: m
-      refreshed: Uppfært
+      departures: Plecări
+      time: Ora
+      line: Linie
+      destination: Destinație
+      platform: Peron
+      delay: Întârziere
+      train: Tren
+      on_time: La timp
+      cancelled: Anulat
+      minutes: min
+      refreshed: Actualizat
     simple_calendar:
-      title: Dagatal
+      title: Calendar
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Hlaup %{month_label}
-        leap_format_short: LM%{alt_month}
+        leap_format: Bisect %{month_label}
+        leap_format_short: LB%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
         -
-        - M1
-        - M2
-        - M3
-        - M4
-        - M5
-        - M6
-        - M7
-        - M8
-        - M9
-        - M10
-        - M11
-        - M12
+        - L1
+        - L2
+        - L3
+        - L4
+        - L5
+        - L6
+        - L7
+        - L8
+        - L9
+        - L10
+        - L11
+        - L12
         date_labels:
         -
         - '1'
@@ -73,29 +73,29 @@ is:
         - '29'
         - '30'
         heavenly_stems:
-        - Viður
-        - Viður
-        - Eldur
-        - Eldur
-        - Jörð
-        - Jörð
-        - Málmur
-        - Málmur
-        - Vatn
-        - Vatn
+        - Lemn
+        - Lemn
+        - Foc
+        - Foc
+        - Pământ
+        - Pământ
+        - Metal
+        - Metal
+        - Apă
+        - Apă
         earthly_branches:
-        - Rotta
-        - Naut
-        - Tígrisdýr
-        - Kanína
-        - Dreki
-        - Snákur
-        - Hestur
-        - Geit
-        - Apar
-        - Han
-        - Hundur
-        - Svín
+        - Șobolan
+        - Bou
+        - Tigru
+        - Iepure
+        - Dragon
+        - Șarpe
+        - Cal
+        - Capră
+        - Maimuță
+        - Cocoș
+        - Câine
+        - Porc
       japanese:
         rokuyo_terms:
         - 先勝
@@ -189,21 +189,21 @@ is:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value one {{{$value :number} tenging}} * {{{$value :number} tengingar}}"
-      forks: ".input {$value :number} .match $value one {{{$value :number} sjálfun}} * {{{$value :number} sjálfanir}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
-      and_more: og {$value :number} fleiri
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.trmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      connections: ".input {$value :number} .match $value zero {{Nicio conexiune}} one {{{$value :number} conexiune}} * {{{$value :number} conexiuni}}"
+      forks: ".input {$value :number} .match $value zero {{Niciun fork}} one {{{$value :number} fork}} * {{{$value :number} fork-uri}}"
+      installs: ".input {$value :number} .match $value zero {{Nicio instalare}} one {{{$value :number} instalare}} * {{{$value :number} instalări}}"
+      and_more: și {$value :number} mai mult
+      error_keyword_title: '"{$keyword}" nu a corespuns niciunui rezultat.'
+      error_keyword_subtitle: Încearcă să cauți altceva.
+      error_new_title: Nu a fost găsit niciun rețetar nou.
+      error_new_subtitle: Asta nu ar trebui să se întâmple.
+      error_self_title: Nu ai publicat niciun rețetar.
+      error_self_subtitle: Află cum să publici primul tău rețetar la https://help.trmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Utilizatorul #{$authorId} nu a publicat niciun rețetar.'
+      error_author_id_subtitle: Nu a fost găsit niciun rețetar asociat cu acest ID.
+      error_recipe_ids_title: Nu a fost găsit niciun ID de rețetar.
+      error_recipe_ids_subtitle: Adaugă un ID de rețetar pentru a începe.
     horizontal_world_clock:
-      name: World clock
+      name: Ceas mondial
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} în {$to :langNameList}"
