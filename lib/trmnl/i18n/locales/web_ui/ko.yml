@@ -4,7 +4,6 @@ ko:
   about: 소개
   add: 추가하기
   add_new: 새로 추가하기
-  ago: 전
   already_have_account: 이미 계정이 있음
   are_you_sure: 정말요?
   back: 뒤로가기
@@ -90,6 +89,23 @@ ko:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time} 전"
+      future: "%{time} 후"
+      distance_in_words:
+        half_a_minute: "30초"
+        less_than_x_seconds: "%{count}초 미만"
+        less_than_x_minutes: "%{count}분 미만"
+        x_seconds: "%{count}초"
+        x_minutes: "%{count}분"
+        about_x_hours: "대략 %{count}시간"
+        x_days: "%{count}일"
+        about_x_months: "대략 %{count}개월"
+        x_months: "%{count}개월"
+        about_x_years: "대략 %{count}년"
+        over_x_years: "%{count}년 초과"
+        almost_x_years: "거의 %{count}년"
   account:
     index:
       title: 내 계정

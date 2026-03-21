@@ -4,7 +4,6 @@ raw:
   about: about
   add: add
   add_new: add_new
-  ago: ago
   already_have_account: already_have_account
   are_you_sure: are_you_sure
   back: back
@@ -90,6 +89,23 @@ raw:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "datetime.relative.past"
+      future: "datetime.relative.future"
+      distance_in_words:
+        half_a_minute: "half_a_minute"
+        less_than_x_seconds: "less_than_x_seconds"
+        less_than_x_minutes: "less_than_x_minutes"
+        x_seconds: "x_seconds"
+        x_minutes: "x_minutes"
+        about_x_hours: "about_x_hours"
+        x_days: "x_days"
+        about_x_months: "about_x_months"
+        x_months: "x_months"
+        about_x_years: "about_x_years"
+        over_x_years: "over_x_years"
+        almost_x_years: "almost_x_years"
   account:
     index:
       title: account.index.title

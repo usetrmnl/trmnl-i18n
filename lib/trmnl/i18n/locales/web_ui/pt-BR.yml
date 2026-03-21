@@ -4,7 +4,6 @@ pt-BR:
   about: Sobre
   add: Adicionar
   add_new: Adicionar novo
-  ago: atrás
   already_have_account: Já tenho uma conta
   are_you_sure: Tem certeza?
   back: Voltar
@@ -90,6 +89,45 @@ pt-BR:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "há %{time}"
+      future: "em %{time}"
+      distance_in_words:
+        half_a_minute: "meio minuto"
+        less_than_x_seconds:
+          one: "menos de %{count} segundo"
+          other: "menos de %{count} segundos"
+        less_than_x_minutes:
+          one: "menos de um minuto"
+          other: "menos de %{count} minutos"
+        x_seconds:
+          one: "%{count} segundo"
+          other: "%{count} segundos"
+        x_minutes:
+          one: "%{count} minuto"
+          other: "%{count} minutos"
+        about_x_hours:
+          one: "aproximadamente %{count} hora"
+          other: "aproximadamente %{count} horas"
+        x_days:
+          one: "%{count} dia"
+          other: "%{count} dias"
+        about_x_months:
+          one: "aproximadamente %{count} mês"
+          other: "aproximadamente %{count} meses"
+        x_months:
+          one: "%{count} mês"
+          other: "%{count} meses"
+        about_x_years:
+          one: "aproximadamente %{count} ano"
+          other: "aproximadamente %{count} anos"
+        over_x_years:
+          one: "mais de %{count} ano"
+          other: "mais de %{count} anos"
+        almost_x_years:
+          one: "quase %{count} ano"
+          other: "quase %{count} anos"
   account:
     index:
       title: Conta

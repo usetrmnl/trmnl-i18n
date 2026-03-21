@@ -4,7 +4,6 @@ zh-HK:
   about: 簡介
   add: 加入
   add_new: 新增
-  ago: 前
   already_have_account: 我已經有帳戶
   are_you_sure: 確定嗎？
   back: 返回
@@ -90,6 +89,23 @@ zh-HK:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time}前"
+      future: "%{time}後"
+      distance_in_words:
+        half_a_minute: "半分鐘"
+        less_than_x_seconds: "不到%{count}秒"
+        less_than_x_minutes: "不到%{count}分鐘"
+        x_seconds: "%{count}秒"
+        x_minutes: "%{count}分鐘"
+        about_x_hours: "約%{count}小時"
+        x_days: "%{count}天"
+        about_x_months: "約%{count}個月"
+        x_months: "%{count}個月"
+        about_x_years: "約%{count}年"
+        over_x_years: "超過%{count}年"
+        almost_x_years: "接近%{count}年"
   account:
     index:
       title: 帳戶
