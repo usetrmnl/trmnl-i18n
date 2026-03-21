@@ -95,17 +95,39 @@ ja:
       future: "%{time}後"
       distance_in_words:
         half_a_minute: "30秒前後"
-        less_than_x_seconds: "%{count}秒未満"
-        less_than_x_minutes: "%{count}分未満"
-        x_seconds: "%{count}秒"
-        x_minutes: "%{count}分"
-        about_x_hours: "約%{count}時間"
-        x_days: "%{count}日"
-        about_x_months: "約%{count}ヶ月"
-        x_months: "%{count}ヶ月"
-        about_x_years: "約%{count}年"
-        over_x_years: "%{count}年以上"
-        almost_x_years: "%{count}年弱"
+        less_than_x_seconds:
+          one: "%{count}秒未満"
+          other: "%{count}秒未満"
+        less_than_x_minutes:
+          one: "%{count}分未満"
+          other: "%{count}分未満"
+        x_seconds:
+          one: "%{count}秒"
+          other: "%{count}秒"
+        x_minutes:
+          one: "%{count}分"
+          other: "%{count}分"
+        about_x_hours:
+          one: "約%{count}時間"
+          other: "約%{count}時間"
+        x_days:
+          one: "%{count}日"
+          other: "%{count}日"
+        about_x_months:
+          one: "約%{count}ヶ月"
+          other: "約%{count}ヶ月"
+        x_months:
+          one: "%{count}ヶ月"
+          other: "%{count}ヶ月"
+        about_x_years:
+          one: "約%{count}年"
+          other: "約%{count}年"
+        over_x_years:
+          one: "%{count}年以上"
+          other: "%{count}年以上"
+        almost_x_years:
+          one: "%{count}年弱"
+          other: "%{count}年弱"
   account:
     index:
       title: マイアカウント

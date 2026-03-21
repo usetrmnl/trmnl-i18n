@@ -95,17 +95,39 @@ zh-HK:
       future: "%{time}後"
       distance_in_words:
         half_a_minute: "半分鐘"
-        less_than_x_seconds: "不到%{count}秒"
-        less_than_x_minutes: "不到%{count}分鐘"
-        x_seconds: "%{count}秒"
-        x_minutes: "%{count}分鐘"
-        about_x_hours: "約%{count}小時"
-        x_days: "%{count}天"
-        about_x_months: "約%{count}個月"
-        x_months: "%{count}個月"
-        about_x_years: "約%{count}年"
-        over_x_years: "超過%{count}年"
-        almost_x_years: "接近%{count}年"
+        less_than_x_seconds:
+          one: "不到%{count}秒"
+          other: "不到%{count}秒"
+        less_than_x_minutes:
+          one: "不到%{count}分鐘"
+          other: "不到%{count}分鐘"
+        x_seconds:
+          one: "%{count}秒"
+          other: "%{count}秒"
+        x_minutes:
+          one: "%{count}分鐘"
+          other: "%{count}分鐘"
+        about_x_hours:
+          one: "約%{count}小時"
+          other: "約%{count}小時"
+        x_days:
+          one: "%{count}天"
+          other: "%{count}天"
+        about_x_months:
+          one: "約%{count}個月"
+          other: "約%{count}個月"
+        x_months:
+          one: "%{count}個月"
+          other: "%{count}個月"
+        about_x_years:
+          one: "約%{count}年"
+          other: "約%{count}年"
+        over_x_years:
+          one: "超過%{count}年"
+          other: "超過%{count}年"
+        almost_x_years:
+          one: "接近%{count}年"
+          other: "接近%{count}年"
   account:
     index:
       title: 帳戶
