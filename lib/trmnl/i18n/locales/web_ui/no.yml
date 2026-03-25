@@ -4,7 +4,6 @@
   about: About
   add: Legg til
   add_new: Legg til ny
-  ago: siden
   already_have_account: Jeg har allerede en konto
   are_you_sure: Are you sure?
   back: Tilbake
@@ -90,6 +89,45 @@
     formats:
       shorter: "%-H.%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} siden"
+      future: "om %{time}"
+      distance_in_words:
+        half_a_minute: "et halvt minutt"
+        less_than_x_seconds:
+          one: "mindre enn %{count} sekund"
+          other: "mindre enn %{count} sekunder"
+        less_than_x_minutes:
+          one: "mindre enn %{count} minutt"
+          other: "mindre enn %{count} minutter"
+        x_seconds:
+          one: "%{count} sekund"
+          other: "%{count} sekunder"
+        x_minutes:
+          one: "%{count} minutt"
+          other: "%{count} minutter"
+        about_x_hours:
+          one: "rundt %{count} time"
+          other: "rundt %{count} timer"
+        x_days:
+          one: "%{count} dag"
+          other: "%{count} dager"
+        about_x_months:
+          one: "rundt %{count} måned"
+          other: "rundt %{count} måneder"
+        x_months:
+          one: "%{count} måned"
+          other: "%{count} måneder"
+        about_x_years:
+          one: "rundt %{count} år"
+          other: "rundt %{count} år"
+        over_x_years:
+          one: "over %{count} år"
+          other: "over %{count} år"
+        almost_x_years:
+          one: "nesten %{count} år"
+          other: "nesten %{count} år"
   account:
     index:
       title: Konto

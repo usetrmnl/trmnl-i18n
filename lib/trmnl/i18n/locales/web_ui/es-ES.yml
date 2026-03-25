@@ -4,7 +4,6 @@ es-ES:
   about: About
   add: Crear
   add_new: Crear nueva
-  ago: hace
   already_have_account: Ya tengo una cuenta
   are_you_sure: Are you sure?
   back: Atrás
@@ -90,6 +89,45 @@ es-ES:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "hace %{time}"
+      future: "en %{time}"
+      distance_in_words:
+        half_a_minute: "medio minuto"
+        less_than_x_seconds:
+          one: "menos de %{count} segundo"
+          other: "menos de %{count} segundos"
+        less_than_x_minutes:
+          one: "menos de %{count} minuto"
+          other: "menos de %{count} minutos"
+        x_seconds:
+          one: "%{count} segundo"
+          other: "%{count} segundos"
+        x_minutes:
+          one: "%{count} minuto"
+          other: "%{count} minutos"
+        about_x_hours:
+          one: "alrededor de %{count} hora"
+          other: "alrededor de %{count} horas"
+        x_days:
+          one: "%{count} día"
+          other: "%{count} días"
+        about_x_months:
+          one: "alrededor de %{count} mes"
+          other: "alrededor de %{count} meses"
+        x_months:
+          one: "%{count} mes"
+          other: "%{count} meses"
+        about_x_years:
+          one: "alrededor de %{count} año"
+          other: "alrededor de %{count} años"
+        over_x_years:
+          one: "más de %{count} año"
+          other: "más de %{count} años"
+        almost_x_years:
+          one: "casi %{count} año"
+          other: "casi %{count} años"
   account:
     index:
       title: Cuenta
