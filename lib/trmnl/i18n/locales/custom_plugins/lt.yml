@@ -188,7 +188,7 @@ lt:
         - Pausa
         - Magha
         - Phalguna
-public_recipe_stats:
+    public_recipe_stats:
       connections: '.input {$value :number} .match $value zero {{Nėra prisijungimų}} one {{{$value :number} prisijungimas}} other {{{$value :number} prisijungimai}}'
       forks: '.input {$value :number} .match $value zero {{Nėra atšakų}} one {{{$value :number} atšaka}} other {{{$value :number} atšakos}}'
       installs: '.input {$value :number} .match $value zero {{Nėra įdiegimų}} one {{{$value :number} įdiegimas}} other {{{$value :number} įdiegimai}}'
