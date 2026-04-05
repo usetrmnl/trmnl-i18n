@@ -1,45 +1,45 @@
 ---
-pl:
+ro:
   custom_plugins:
-    today: dziś
-    tomorrow: jutro
-    updated: Zaktualizowano
-    activity: Aktywność
-    done: Zrobione
-    due: Do zrobienia
+    today: astăzi
+    tomorrow: mâine
+    updated: Actualizat
+    activity: Activitate
+    done: Terminat
+    due: Termen
     deutsche_bahn_departures:
-      departures: Odjazdy
-      time: Czas
-      line: Linia
-      destination: Cel
+      departures: Plecări
+      time: Ora
+      line: Linie
+      destination: Destinație
       platform: Peron
-      delay: Opóźnienie
-      train: Pociąg
-      on_time: Na czas
-      cancelled: Odwołany
-      minutes: m
-      refreshed: Odświeżony
+      delay: Întârziere
+      train: Tren
+      on_time: La timp
+      cancelled: Anulat
+      minutes: min
+      refreshed: Actualizat
     simple_calendar:
-      title: Kalendarz
+      title: Calendar
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Przestępny %{month_label}
-        leap_format_short: LM%{alt_month}
-        ym_format: ", %{leap_month_label} %{earthly_branch}, żywioł: %{heavenly_stem}"
+        leap_format: Bisect %{month_label}
+        leap_format_short: LB%{alt_month}
+        ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
         -
-        - M1
-        - M2
-        - M3
-        - M4
-        - M5
-        - M6
-        - M7
-        - M8
-        - M9
-        - M10
-        - M11
-        - M12
+        - L1
+        - L2
+        - L3
+        - L4
+        - L5
+        - L6
+        - L7
+        - L8
+        - L9
+        - L10
+        - L11
+        - L12
         date_labels:
         -
         - '1'
@@ -73,29 +73,29 @@ pl:
         - '29'
         - '30'
         heavenly_stems:
-        - Drewno
-        - Drewno
-        - Ogień
-        - Ogień
-        - Ziemia
-        - Ziemia
+        - Lemn
+        - Lemn
+        - Foc
+        - Foc
+        - Pământ
+        - Pământ
         - Metal
         - Metal
-        - Woda
-        - Woda
+        - Apă
+        - Apă
         earthly_branches:
-        - Szczur
-        - Wół
-        - Tygrys
-        - Królik
-        - Smok
-        - Wąż
-        - Koń
-        - Koza
-        - Małpa
-        - Kogut
-        - Pies
-        - Świnia
+        - Șobolan
+        - Bou
+        - Tigru
+        - Iepure
+        - Dragon
+        - Șarpe
+        - Cal
+        - Capră
+        - Maimuță
+        - Cocoș
+        - Câine
+        - Porc
       japanese:
         rokuyo_terms:
         - 先勝
@@ -189,21 +189,21 @@ pl:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value one {{{$value :number} połączenie}} few {{{$value :number} połączenia}} many {{{$value :number} połączeń}} * {{{$value :number} połączenia}}"
-      forks: ".input {$value :number} .match $value one {{{$value :number} fork}} few {{{$value :number} forki}} many {{{$value :number} forków}} * {{{$value :number} forki}}"
-      installs: ".input {$value :number} .match $value zero {{Brak instalacji}} one {{{$value :number} instalacja}} * {{{$value :number} instalacji}}"
-      and_more: i {$value :number} więcej
-      error_keyword_title: nie znaleziono wyrażeń pasujących do “{$keyword}”
-      error_keyword_subtitle: Spróbuj wyszukać coś innego.
-      error_new_title: Nie znaleziono nowej receptury.
-      error_new_subtitle: To się nie powinno zdarzyć.
-      error_self_title: Żadna receptura nie została opublikowana.
-      error_self_subtitle: 'Sprawdź, jak możesz opublikować pierwszą recepturę tutaj: https://help.trmnl.com/en/articles/9510536-private-plugins '
-      error_author_id_title: 'Użytkownik #{$authorId} nie opublikował żadnej receptury.'
-      error_author_id_subtitle: Nie znaleziono żadnej receptury powiązanej z tym ID.
-      error_recipe_ids_title: Nie znaleziono receptury o takim ID.
-      error_recipe_ids_subtitle: Dodaj ID receptury, aby zacząć.
+      connections: ".input {$value :number} .match $value zero {{Nicio conexiune}} one {{{$value :number} conexiune}} * {{{$value :number} conexiuni}}"
+      forks: ".input {$value :number} .match $value zero {{Niciun fork}} one {{{$value :number} fork}} * {{{$value :number} fork-uri}}"
+      installs: ".input {$value :number} .match $value zero {{Nicio instalare}} one {{{$value :number} instalare}} * {{{$value :number} instalări}}"
+      and_more: și {$value :number} mai mult
+      error_keyword_title: '"{$keyword}" nu a corespuns niciunui rezultat.'
+      error_keyword_subtitle: Încearcă să cauți altceva.
+      error_new_title: Nu a fost găsit niciun rețetar nou.
+      error_new_subtitle: Asta nu ar trebui să se întâmple.
+      error_self_title: Nu ai publicat niciun rețetar.
+      error_self_subtitle: Află cum să publici primul tău rețetar la https://help.trmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Utilizatorul #{$authorId} nu a publicat niciun rețetar.'
+      error_author_id_subtitle: Nu a fost găsit niciun rețetar asociat cu acest ID.
+      error_recipe_ids_title: Nu a fost găsit niciun ID de rețetar.
+      error_recipe_ids_subtitle: Adaugă un ID de rețetar pentru a începe.
     horizontal_world_clock:
-      name: Zegar światowy
+      name: Ceas mondial
     language_learning_sentences:
-      from_to: "{$from :langName} -> {$to :langNameList}"
+      from_to: "{$from :langName} în {$to :langNameList}"

@@ -4,7 +4,6 @@ is:
   about: About
   add: Bæta við
   add_new: Bæta nýju við
-  ago: síðan
   already_have_account: Ég á nú þegar aðgang
   are_you_sure: Are you sure?
   back: Til baka
@@ -90,6 +89,45 @@ is:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time} ago"
+      future: "in %{time}"
+      distance_in_words:
+        half_a_minute: "hálf mínúta"
+        less_than_x_seconds:
+          one: "minna en %{count} sekúnda"
+          other: "minna en %{count} sekúndur"
+        less_than_x_minutes:
+          one: "minna en %{count} mínúta"
+          other: "minna en %{count} mínútur"
+        x_seconds:
+          one: "%{count} sekúnda"
+          other: "%{count} sekúndur"
+        x_minutes:
+          one: "%{count} mínúta"
+          other: "%{count} mínútur"
+        about_x_hours:
+          one: "u.þ.b. %{count} klukkustund"
+          other: "u.þ.b. %{count} klukkustundir"
+        x_days:
+          one: "%{count} dagur"
+          other: "%{count} dagar"
+        about_x_months:
+          one: "u.þ.b. %{count} mánuður"
+          other: "u.þ.b. %{count} mánuðir"
+        x_months:
+          one: "%{count} mánuður"
+          other: "%{count} mánuðir"
+        about_x_years:
+          one: "u.þ.b. %{count} ár"
+          other: "u.þ.b. %{count} ár"
+        over_x_years:
+          one: "meira en %{count} ár"
+          other: "meira en %{count} ár"
+        almost_x_years:
+          one: "næstum %{count} ár"
+          other: "næstum %{count} ár"
   account:
     index:
       title: Aðgangur
@@ -241,6 +279,8 @@ is:
       special_function_learn_more: Lestu meira um sérstök hlutverk __hér__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.

@@ -4,7 +4,6 @@ zh-CN:
   about: 关于
   add: 添加
   add_new: 添加新设备
-  ago: 之前
   already_have_account: 已经有账号？
   are_you_sure: 您确定吗？
   back: 后退
@@ -90,6 +89,80 @@ zh-CN:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time}前"
+      future: "%{time}后"
+      distance_in_words:
+        half_a_minute: "半分钟"
+        less_than_x_seconds:
+          one: "不到%{count}秒"
+          other: "不到%{count}秒"
+        less_than_x_minutes:
+          one: "不到%{count}分钟"
+          other: "不到%{count}分钟"
+        x_seconds:
+          one: "%{count}秒"
+          other: "%{count}秒"
+        x_minutes:
+          one: "%{count}分钟"
+          other: "%{count}分钟"
+        about_x_hours:
+          one: "约%{count}小时"
+          other: "约%{count}小时"
+        x_days:
+          one: "%{count}天"
+          other: "%{count}天"
+        about_x_months:
+          one: "约%{count}个月"
+          other: "约%{count}个月"
+        x_months:
+          one: "%{count}个月"
+          other: "%{count}个月"
+        about_x_years:
+          one: "约%{count}年"
+          other: "约%{count}年"
+        over_x_years:
+          one: "%{count}年多"
+          other: "%{count}年多"
+        almost_x_years:
+          one: "不到%{count}年"
+          other: "不到%{count}年"
+      distance_in_words_future:
+        half_a_minute: "半分钟后"
+        less_than_x_seconds:
+          one: "%{count}秒以内"
+          other: "%{count}秒以内"
+        less_than_x_minutes:
+          one: "%{count}分钟以内"
+          other: "%{count}分钟以内"
+        x_seconds:
+          one: "%{count}秒后"
+          other: "%{count}秒后"
+        x_minutes:
+          one: "%{count}分钟后"
+          other: "%{count}分钟后"
+        about_x_hours:
+          one: "约%{count}小时后"
+          other: "约%{count}小时后"
+        x_days:
+          one: "%{count}天后"
+          other: "%{count}天后"
+        about_x_months:
+          one: "约%{count}个月后"
+          other: "约%{count}个月后"
+        x_months:
+          one: "%{count}个月后"
+          other: "%{count}个月后"
+        about_x_years:
+          one: "约%{count}年后"
+          other: "约%{count}年后"
+        over_x_years:
+          one: "%{count}年多后"
+          other: "%{count}年多后"
+        almost_x_years:
+          one: "不到%{count}年后"
+          other: "不到%{count}年后"
   account:
     index:
       title: 账号
@@ -241,6 +314,8 @@ zh-CN:
       special_function_learn_more: 点击__此处__以了解更多
       temperature_profile: 温度曲线
       temperature_profile_hint: 除非另有指示，否则请勿更改。适用于显示画面褪色情况。
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt 凭据
       tidbyt_credentials_hint: 从 Tidbyt 应用的「设置」→「开发者」→「获取 API 密钥」中输入您的 Tidbyt 设备的 API 凭据。
       tidbyt_credentials_invalid: Tidbyt API 凭据无效。请仔细检查后重试。

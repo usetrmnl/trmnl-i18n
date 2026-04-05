@@ -4,7 +4,6 @@ zh-HK:
   about: 簡介
   add: 加入
   add_new: 新增
-  ago: 前
   already_have_account: 我已經有帳戶
   are_you_sure: 確定嗎？
   back: 返回
@@ -90,6 +89,45 @@ zh-HK:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time}前"
+      future: "%{time}後"
+      distance_in_words:
+        half_a_minute: "半分鐘"
+        less_than_x_seconds:
+          one: "不到%{count}秒"
+          other: "不到%{count}秒"
+        less_than_x_minutes:
+          one: "不到%{count}分鐘"
+          other: "不到%{count}分鐘"
+        x_seconds:
+          one: "%{count}秒"
+          other: "%{count}秒"
+        x_minutes:
+          one: "%{count}分鐘"
+          other: "%{count}分鐘"
+        about_x_hours:
+          one: "約%{count}小時"
+          other: "約%{count}小時"
+        x_days:
+          one: "%{count}天"
+          other: "%{count}天"
+        about_x_months:
+          one: "約%{count}個月"
+          other: "約%{count}個月"
+        x_months:
+          one: "%{count}個月"
+          other: "%{count}個月"
+        about_x_years:
+          one: "約%{count}年"
+          other: "約%{count}年"
+        over_x_years:
+          one: "超過%{count}年"
+          other: "超過%{count}年"
+        almost_x_years:
+          one: "接近%{count}年"
+          other: "接近%{count}年"
   account:
     index:
       title: 帳戶
@@ -241,6 +279,8 @@ zh-HK:
       special_function_learn_more: __按此__了解更多特別功能。
       temperature_profile: 色溫設定檔
       temperature_profile_hint: 除非獲得指示，否則請勿更改。適用於影像顯示褪色的螢幕。
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt憑證
       tidbyt_credentials_hint: 在Tidbyt應用程式前往「Settings → Developer → Get API Key」尋找你的Tidbyt裝置API憑證。
       tidbyt_credentials_invalid: Tidbyt API憑證無效。請檢查並重試。

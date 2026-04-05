@@ -4,7 +4,6 @@ it:
   about: Informazioni
   add: Aggiungi
   add_new: Aggiungi nuovo
-  ago: fa
   already_have_account: Ho già un account
   are_you_sure: Sei sicuro?
   back: Indietro
@@ -90,6 +89,45 @@ it:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} fa"
+      future: "tra %{time}"
+      distance_in_words:
+        half_a_minute: "mezzo minuto"
+        less_than_x_seconds:
+          one: "meno di un secondo"
+          other: "meno di %{count} secondi"
+        less_than_x_minutes:
+          one: "meno di un minuto"
+          other: "meno di %{count} minuti"
+        x_seconds:
+          one: "%{count} secondo"
+          other: "%{count} secondi"
+        x_minutes:
+          one: "%{count} minuto"
+          other: "%{count} minuti"
+        about_x_hours:
+          one: "circa un'ora"
+          other: "circa %{count} ore"
+        x_days:
+          one: "%{count} giorno"
+          other: "%{count} giorni"
+        about_x_months:
+          one: "circa un mese"
+          other: "circa %{count} mesi"
+        x_months:
+          one: "%{count} mese"
+          other: "%{count} mesi"
+        about_x_years:
+          one: "circa un anno"
+          other: "circa %{count} anni"
+        over_x_years:
+          one: "oltre un anno"
+          other: "oltre %{count} anni"
+        almost_x_years:
+          one: "quasi un anno"
+          other: "quasi %{count} anni"
   account:
     index:
       title: Profilo
@@ -241,6 +279,8 @@ it:
       special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.
       temperature_profile: Profilo temperatura
       temperature_profile_hint: Non cambiare se non specificato. Per schermi con immagini sbiadite.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Credenziali Tidbyt.
       tidbyt_credentials_hint: Inserisci le tue credenziali API per il dispositivo Tidbyt dall'applicazione Tidbyt nelle impostazioni -> Sviluppo -> Ottieni chiave API.
       tidbyt_credentials_invalid: Credenziali API Tidbyt API Invalide. Perfavore controlla e riprova.

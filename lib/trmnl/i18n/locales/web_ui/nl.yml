@@ -4,7 +4,6 @@ nl:
   about: About
   add: Toevoegen
   add_new: Nieuwe toevoegen
-  ago: ago
   already_have_account: Ik heb al een account
   are_you_sure: Are you sure?
   back: Terug
@@ -90,6 +89,45 @@ nl:
     formats:
       shorter: "%-H.%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} geleden"
+      future: "over %{time}"
+      distance_in_words:
+        half_a_minute: "een halve minuut"
+        less_than_x_seconds:
+          one: "minder dan een seconde"
+          other: "minder dan %{count} seconden"
+        less_than_x_minutes:
+          one: "minder dan een minuut"
+          other: "minder dan %{count} minuten"
+        x_seconds:
+          one: "%{count} seconde"
+          other: "%{count} seconden"
+        x_minutes:
+          one: "%{count} minuut"
+          other: "%{count} minuten"
+        about_x_hours:
+          one: "ongeveer een uur"
+          other: "ongeveer %{count} uur"
+        x_days:
+          one: "%{count} dag"
+          other: "%{count} dagen"
+        about_x_months:
+          one: "ongeveer een maand"
+          other: "ongeveer %{count} maanden"
+        x_months:
+          one: "%{count} maand"
+          other: "%{count} maanden"
+        about_x_years:
+          one: "ongeveer een jaar"
+          other: "ongeveer %{count} jaar"
+        over_x_years:
+          one: "meer dan een jaar"
+          other: "meer dan %{count} jaar"
+        almost_x_years:
+          one: "bijna een jaar"
+          other: "bijna %{count} jaar"
   account:
     index:
       title: Account
@@ -241,6 +279,8 @@ nl:
       special_function_learn_more: Lees __hier__ meer over speciale functies.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.

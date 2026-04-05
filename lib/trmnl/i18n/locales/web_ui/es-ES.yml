@@ -2,9 +2,8 @@
 es-ES:
   locale_name: Español (España)
   about: Acerca de
-  add: Añadir
-  add_new: Añadir nueva
-  ago: hace
+  add: Crear
+  add_new: Crear nueva
   already_have_account: Ya tengo una cuenta
   are_you_sure: "¿Estás seguro?"
   back: Atrás
@@ -90,6 +89,45 @@ es-ES:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "hace %{time}"
+      future: "en %{time}"
+      distance_in_words:
+        half_a_minute: "medio minuto"
+        less_than_x_seconds:
+          one: "menos de %{count} segundo"
+          other: "menos de %{count} segundos"
+        less_than_x_minutes:
+          one: "menos de %{count} minuto"
+          other: "menos de %{count} minutos"
+        x_seconds:
+          one: "%{count} segundo"
+          other: "%{count} segundos"
+        x_minutes:
+          one: "%{count} minuto"
+          other: "%{count} minutos"
+        about_x_hours:
+          one: "alrededor de %{count} hora"
+          other: "alrededor de %{count} horas"
+        x_days:
+          one: "%{count} día"
+          other: "%{count} días"
+        about_x_months:
+          one: "alrededor de %{count} mes"
+          other: "alrededor de %{count} meses"
+        x_months:
+          one: "%{count} mes"
+          other: "%{count} meses"
+        about_x_years:
+          one: "alrededor de %{count} año"
+          other: "alrededor de %{count} años"
+        over_x_years:
+          one: "más de %{count} año"
+          other: "más de %{count} años"
+        almost_x_years:
+          one: "casi %{count} año"
+          other: "casi %{count} años"
   account:
     index:
       title: Cuenta
@@ -241,6 +279,8 @@ es-ES:
       special_function_learn_more: Aprende más sobre funciones especiales __aquí__.
       temperature_profile: Perfil de temperatura
       temperature_profile_hint: No cambiar a menos que se indique. Para pantallas con imágenes descoloridas.
+      touchbar_mode: Modo de barra táctil
+      touchbar_mode_hint: ¿A qué tipo de gestos debe responder tu dispositivo?
       tidbyt_credentials: Credenciales Tidbyt
       tidbyt_credentials_hint: Introduce las credenciales API de tu dispositivo Tidbyt desde la app de Tidbyt en Ajustes → Developer → Obtener clave API.
       tidbyt_credentials_invalid: Las credenciales API de Tidbyt no son válidas. Por favor, comprueba y vuelve a intentarlo.

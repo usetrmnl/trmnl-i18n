@@ -4,7 +4,6 @@ uk:
   about: About
   add: Додати
   add_new: Додати новий
-  ago: ago
   already_have_account: У мене вже є акаунт
   are_you_sure: Are you sure?
   back: Назад
@@ -90,6 +89,67 @@ uk:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} тому"
+      future: "через %{time}"
+      distance_in_words:
+        half_a_minute: "пів хвилини"
+        less_than_x_seconds:
+          one: "менше %{count} секунди"
+          few: "менше %{count} секунд"
+          many: "менше %{count} секунд"
+          other: "менше %{count} секунди"
+        less_than_x_minutes:
+          one: "менше %{count} хвилини"
+          few: "менше %{count} хвилин"
+          many: "менше %{count} хвилин"
+          other: "менше %{count} хвилини"
+        x_seconds:
+          one: "%{count} секунда"
+          few: "%{count} секунди"
+          many: "%{count} секунд"
+          other: "%{count} секунди"
+        x_minutes:
+          one: "%{count} хвилина"
+          few: "%{count} хвилини"
+          many: "%{count} хвилин"
+          other: "%{count} хвилини"
+        about_x_hours:
+          one: "близько %{count} години"
+          few: "близько %{count} годин"
+          many: "близько %{count} годин"
+          other: "близько %{count} години"
+        x_days:
+          one: "%{count} день"
+          few: "%{count} дні"
+          many: "%{count} днів"
+          other: "%{count} дня"
+        about_x_months:
+          one: "близько %{count} місяця"
+          few: "близько %{count} місяців"
+          many: "близько %{count} місяців"
+          other: "близько %{count} місяця"
+        x_months:
+          one: "%{count} місяць"
+          few: "%{count} місяці"
+          many: "%{count} місяців"
+          other: "%{count} місяця"
+        about_x_years:
+          one: "близько %{count} року"
+          few: "близько %{count} років"
+          many: "близько %{count} років"
+          other: "близько %{count} року"
+        over_x_years:
+          one: "більше %{count} року"
+          few: "більше %{count} років"
+          many: "більше %{count} років"
+          other: "більше %{count} року"
+        almost_x_years:
+          one: "майже %{count} рік"
+          few: "майже %{count} роки"
+          many: "майже %{count} років"
+          other: "майже %{count} років"
   account:
     index:
       title: Акаунт
@@ -241,6 +301,8 @@ uk:
       special_function_learn_more: Learn more about special functions __here__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.

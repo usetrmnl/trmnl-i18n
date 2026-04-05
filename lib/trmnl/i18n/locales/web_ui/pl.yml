@@ -4,7 +4,6 @@ pl:
   about: O nas
   add: Dodaj
   add_new: Dodaj nowy
-  ago: temu
   already_have_account: Mam już konto
   are_you_sure: Czy na pewno?
   back: Wstecz
@@ -90,6 +89,67 @@ pl:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} temu"
+      future: "za %{time}"
+      distance_in_words:
+        half_a_minute: "pół minuty"
+        less_than_x_seconds:
+          one: "mniej niż sekundę"
+          few: "mniej niż %{count} sekundy"
+          many: "mniej niż %{count} sekund"
+          other: "mniej niż %{count} sekund"
+        less_than_x_minutes:
+          one: "mniej niż minutę"
+          few: "mniej niż %{count} minuty"
+          many: "mniej niż %{count} minut"
+          other: "mniej niż %{count} minut"
+        x_seconds:
+          one: "%{count} sekunda"
+          few: "%{count} sekundy"
+          many: "%{count} sekund"
+          other: "%{count} sekund"
+        x_minutes:
+          one: "%{count} minuta"
+          few: "%{count} minuty"
+          many: "%{count} minut"
+          other: "%{count} minut"
+        about_x_hours:
+          one: "około godziny"
+          few: "około %{count} godziny"
+          many: "około %{count} godzin"
+          other: "około %{count} godzin"
+        x_days:
+          one: "%{count} dzień"
+          few: "%{count} dni"
+          many: "%{count} dni"
+          other: "%{count} dni"
+        about_x_months:
+          one: "około miesiąca"
+          few: "około %{count} miesiące"
+          many: "około %{count} miesięcy"
+          other: "około %{count} miesięcy"
+        x_months:
+          one: "%{count} miesiąc"
+          few: "%{count} miesiące"
+          many: "%{count} miesięcy"
+          other: "%{count} miesięcy"
+        about_x_years:
+          one: "około rok"
+          few: "około %{count} lata"
+          many: "około %{count} lat"
+          other: "około %{count} lat"
+        over_x_years:
+          one: "ponad rok"
+          few: "ponad %{count} lata"
+          many: "ponad %{count} lat"
+          other: "ponad %{count} lat"
+        almost_x_years:
+          one: "prawie rok"
+          few: "prawie %{count} lata"
+          many: "prawie %{count} lat"
+          other: "prawie %{count} lat"
   account:
     index:
       title: Konto
@@ -241,6 +301,8 @@ pl:
       special_function_learn_more: Szczegółowe informacje znajdziesz __tutaj__.
       temperature_profile: Profil temperaturowy
       temperature_profile_hint: Nie należy zmieniać we własnym zakresie. Przeznaczone dla ekranów wyświetlających wyblakłe obrazy.
+      touchbar_mode: Tryb Panelu Dotykowego
+      touchbar_mode_hint: Na jakie gesty ma reagować Twoje urządzenie?
       tidbyt_credentials: Poświadczenia Tidbyt
       tidbyt_credentials_hint: Wprowadź poświadczenia API swojego urządzenia Tidbyt. Znajdziesz je w aplikacji Tidbyt w menu Settings → Developer → Get API Key
       tidbyt_credentials_invalid: Niepoprawne poświadczenia Tidbyt API. Sprawdź ich poprawność i spróbuj ponownie.
@@ -384,11 +446,11 @@ pl:
       remove_from_playlist: Usuń z playlisty
       hide_playlist: Ukryj ten element
       show_playlist: Pokaż ten element
-      duplicate: Duplicate
-      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
-      color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
+      duplicate: Duplikuj
+      duplicate_confirm: Funkcja ta zduplikuje obiekt i umieści go na końcu playlisty. Kontynować?
+      color_palette: Paleta kolorów
+      device_default: Domyślne dla urządzenia (%{name})
+      palette_unavailable: Dostępne tylko dla urządzeń obsługujących palety kolorów
       refresh_rate_disabled:
         default: Częstotliwość odświeżania tego pluginu nie może być skonfigurowana.
         external: Ten plugin pobiera dane na bieżąco, więc częstotliwość odświeżania nie ma tu zastosowania.
@@ -466,7 +528,7 @@ pl:
     forks:
       one: Fork
       other: Forki
-    forked: Recipe forked
+    forked: Receptura sforkowana
     new:
       error: Nie znaleziono receptury
   plugin_settings:

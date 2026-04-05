@@ -4,7 +4,6 @@ ru:
   about: About
   add: Добавить
   add_new: Добавить новый
-  ago: назад
   already_have_account: У меня уже есть учётная запись
   are_you_sure: Are you sure?
   back: Назад
@@ -90,6 +89,67 @@ ru:
     formats:
       shorter: "%-I:%M %p"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} назад"
+      future: "через %{time}"
+      distance_in_words:
+        half_a_minute: "полминуты"
+        less_than_x_seconds:
+          one: "меньше %{count} секунды"
+          few: "меньше %{count} секунд"
+          many: "меньше %{count} секунд"
+          other: "меньше %{count} секунд"
+        less_than_x_minutes:
+          one: "меньше %{count} минуты"
+          few: "меньше %{count} минут"
+          many: "меньше %{count} минут"
+          other: "меньше %{count} минут"
+        x_seconds:
+          one: "%{count} секунда"
+          few: "%{count} секунды"
+          many: "%{count} секунд"
+          other: "%{count} секунд"
+        x_minutes:
+          one: "%{count} минута"
+          few: "%{count} минуты"
+          many: "%{count} минут"
+          other: "%{count} минут"
+        about_x_hours:
+          one: "около %{count} часа"
+          few: "около %{count} часов"
+          many: "около %{count} часов"
+          other: "около %{count} часов"
+        x_days:
+          one: "%{count} день"
+          few: "%{count} дня"
+          many: "%{count} дней"
+          other: "%{count} дней"
+        about_x_months:
+          one: "около %{count} месяца"
+          few: "около %{count} месяцев"
+          many: "около %{count} месяцев"
+          other: "около %{count} месяцев"
+        x_months:
+          one: "%{count} месяц"
+          few: "%{count} месяца"
+          many: "%{count} месяцев"
+          other: "%{count} месяцев"
+        about_x_years:
+          one: "около %{count} года"
+          few: "около %{count} лет"
+          many: "около %{count} лет"
+          other: "около %{count} лет"
+        over_x_years:
+          one: "больше %{count} года"
+          few: "больше %{count} лет"
+          many: "больше %{count} лет"
+          other: "больше %{count} лет"
+        almost_x_years:
+          one: "почти %{count} год"
+          few: "почти %{count} года"
+          many: "почти %{count} лет"
+          other: "почти %{count} лет"
   account:
     index:
       title: Учётная запись
@@ -241,6 +301,8 @@ ru:
       special_function_learn_more: Узнайте больше о специальных функциях __здесь__.
       temperature_profile: Температурный профиль
       temperature_profile_hint: Не изменяйте, если не указано иное. Для дисплеев с выцветшими изображениями.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.

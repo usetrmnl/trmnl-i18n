@@ -4,7 +4,6 @@ de:
   about: Über
   add: Hinzufügen
   add_new: Neu hinzufügen
-  ago: vor
   already_have_account: Ich besitze bereits ein Konto
   are_you_sure: Bist du sicher?
   back: Zurück
@@ -90,6 +89,45 @@ de:
     formats:
       shorter: "%-H:%M"
     start_of_week: '1'
+  datetime:
+    relative:
+      past: "vor %{time}"
+      future: "in %{time}"
+      distance_in_words:
+        half_a_minute: "einer halben Minute"
+        less_than_x_seconds:
+          one: "weniger als einer Sekunde"
+          other: "weniger als %{count} Sekunden"
+        less_than_x_minutes:
+          one: "weniger als einer Minute"
+          other: "weniger als %{count} Minuten"
+        x_seconds:
+          one: "einer Sekunde"
+          other: "%{count} Sekunden"
+        x_minutes:
+          one: "einer Minute"
+          other: "%{count} Minuten"
+        about_x_hours:
+          one: "ungefähr einer Stunde"
+          other: "ungefähr %{count} Stunden"
+        x_days:
+          one: "einem Tag"
+          other: "%{count} Tagen"
+        about_x_months:
+          one: "ungefähr einem Monat"
+          other: "ungefähr %{count} Monaten"
+        x_months:
+          one: "einem Monat"
+          other: "%{count} Monaten"
+        about_x_years:
+          one: "ungefähr einem Jahr"
+          other: "ungefähr %{count} Jahren"
+        over_x_years:
+          one: "mehr als einem Jahr"
+          other: "mehr als %{count} Jahren"
+        almost_x_years:
+          one: "fast einem Jahr"
+          other: "fast %{count} Jahren"
   account:
     index:
       title: Konto
@@ -241,6 +279,8 @@ de:
       special_function_learn_more: Erfahre mehr zu den Sonderfunktionen __hier__.
       temperature_profile: Temperaturprofil
       temperature_profile_hint: Nur ändern, wenn du dazu aufgefordert wirst. Für Displays mit zu blasser Darstellung.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt-Anmeldedaten
       tidbyt_credentials_hint: Gib hier die API-Zugangsdaten deines Tidbyt-Geräts ein (Einstellungen → Entwickler → API-Schlüssel in der Tidbyt-App).
       tidbyt_credentials_invalid: Ungültige Tidbyt-API-Zugangsdaten. Bitte prüfen und erneut versuchen.

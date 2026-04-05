@@ -4,7 +4,6 @@ ko:
   about: 소개
   add: 추가하기
   add_new: 새로 추가하기
-  ago: 전
   already_have_account: 이미 계정이 있음
   are_you_sure: 정말요?
   back: 뒤로가기
@@ -90,6 +89,45 @@ ko:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time} 전"
+      future: "%{time} 후"
+      distance_in_words:
+        half_a_minute: "30초"
+        less_than_x_seconds:
+          one: "%{count}초 미만"
+          other: "%{count}초 미만"
+        less_than_x_minutes:
+          one: "%{count}분 미만"
+          other: "%{count}분 미만"
+        x_seconds:
+          one: "%{count}초"
+          other: "%{count}초"
+        x_minutes:
+          one: "%{count}분"
+          other: "%{count}분"
+        about_x_hours:
+          one: "대략 %{count}시간"
+          other: "대략 %{count}시간"
+        x_days:
+          one: "%{count}일"
+          other: "%{count}일"
+        about_x_months:
+          one: "대략 %{count}개월"
+          other: "대략 %{count}개월"
+        x_months:
+          one: "%{count}개월"
+          other: "%{count}개월"
+        about_x_years:
+          one: "대략 %{count}년"
+          other: "대략 %{count}년"
+        over_x_years:
+          one: "%{count}년 초과"
+          other: "%{count}년 초과"
+        almost_x_years:
+          one: "거의 %{count}년"
+          other: "거의 %{count}년"
   account:
     index:
       title: 내 계정
@@ -241,6 +279,8 @@ ko:
       special_function_learn_more: 특별 기능에 대해 __여기서__ 자세히 알아보세요.
       temperature_profile: 온도 프로파일
       temperature_profile_hint: 안내가 없으면 변경하지 마세요. 화면이 바래 보이는 디스플레이용이에요.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt 인증 정보
       tidbyt_credentials_hint: Tidbyt 앱의 설정 → 개발자 → API 키 받기에서 기기 API 인증 정보를 입력하세요.
       tidbyt_credentials_invalid: Tidbyt API 인증 정보가 올바르지 않아요. 다시 확인해주세요.

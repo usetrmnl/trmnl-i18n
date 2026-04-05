@@ -4,7 +4,6 @@ fr:
   about: À propos
   add: Ajouter
   add_new: Ajouter
-  ago: plus tôt
   already_have_account: J'ai déjà un compte
   are_you_sure: Êtes-vous sûr ?
   back: Retour
@@ -90,6 +89,47 @@ fr:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "il y a %{time}"
+      future: "dans %{time}"
+      distance_in_words:
+        half_a_minute: "une demi‑minute"
+        less_than_x_seconds:
+          zero: "moins d'une seconde"
+          one: "moins d'une seconde"
+          other: "moins de %{count} secondes"
+        less_than_x_minutes:
+          zero: "moins d'une minute"
+          one: "moins d'une minute"
+          other: "moins de %{count} minutes"
+        x_seconds:
+          one: "%{count} seconde"
+          other: "%{count} secondes"
+        x_minutes:
+          one: "%{count} minute"
+          other: "%{count} minutes"
+        about_x_hours:
+          one: "environ une heure"
+          other: "environ %{count} heures"
+        x_days:
+          one: "%{count} jour"
+          other: "%{count} jours"
+        about_x_months:
+          one: "environ un mois"
+          other: "environ %{count} mois"
+        x_months:
+          one: "%{count} mois"
+          other: "%{count} mois"
+        about_x_years:
+          one: "environ un an"
+          other: "environ %{count} ans"
+        over_x_years:
+          one: "plus d'un an"
+          other: "plus de %{count} ans"
+        almost_x_years:
+          one: "presque un an"
+          other: "presque %{count} ans"
   account:
     index:
       title: Compte
@@ -241,6 +281,8 @@ fr:
       special_function_learn_more: En savoir plus sur les actions spéciales __ici__.
       temperature_profile: Profil de température
       temperature_profile_hint: Ne changez pas sauf instruction contraire. Pour les écrans aux images délavées.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Identifiants Tidbyt
       tidbyt_credentials_hint: Entrez les identifiants API de votre appareil Tidbyt depuis l'app Tidbyt sous Paramètres → Développeur → Obtenir la clé API.
       tidbyt_credentials_invalid: Les identifiants API Tidbyt sont invalides. Veuillez vérifier et réessayer.
