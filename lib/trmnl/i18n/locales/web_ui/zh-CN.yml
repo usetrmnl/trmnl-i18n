@@ -4,7 +4,6 @@ zh-CN:
   about: 关于
   add: 添加
   add_new: 添加新设备
-  ago: 之前
   already_have_account: 已经有账号？
   are_you_sure: 您确定吗？
   back: 后退
@@ -90,6 +89,80 @@ zh-CN:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time}前"
+      future: "%{time}后"
+      distance_in_words:
+        half_a_minute: "半分钟"
+        less_than_x_seconds:
+          one: "不到%{count}秒"
+          other: "不到%{count}秒"
+        less_than_x_minutes:
+          one: "不到%{count}分钟"
+          other: "不到%{count}分钟"
+        x_seconds:
+          one: "%{count}秒"
+          other: "%{count}秒"
+        x_minutes:
+          one: "%{count}分钟"
+          other: "%{count}分钟"
+        about_x_hours:
+          one: "约%{count}小时"
+          other: "约%{count}小时"
+        x_days:
+          one: "%{count}天"
+          other: "%{count}天"
+        about_x_months:
+          one: "约%{count}个月"
+          other: "约%{count}个月"
+        x_months:
+          one: "%{count}个月"
+          other: "%{count}个月"
+        about_x_years:
+          one: "约%{count}年"
+          other: "约%{count}年"
+        over_x_years:
+          one: "%{count}年多"
+          other: "%{count}年多"
+        almost_x_years:
+          one: "不到%{count}年"
+          other: "不到%{count}年"
+      distance_in_words_future:
+        half_a_minute: "半分钟后"
+        less_than_x_seconds:
+          one: "%{count}秒以内"
+          other: "%{count}秒以内"
+        less_than_x_minutes:
+          one: "%{count}分钟以内"
+          other: "%{count}分钟以内"
+        x_seconds:
+          one: "%{count}秒后"
+          other: "%{count}秒后"
+        x_minutes:
+          one: "%{count}分钟后"
+          other: "%{count}分钟后"
+        about_x_hours:
+          one: "约%{count}小时后"
+          other: "约%{count}小时后"
+        x_days:
+          one: "%{count}天后"
+          other: "%{count}天后"
+        about_x_months:
+          one: "约%{count}个月后"
+          other: "约%{count}个月后"
+        x_months:
+          one: "%{count}个月后"
+          other: "%{count}个月后"
+        about_x_years:
+          one: "约%{count}年后"
+          other: "约%{count}年后"
+        over_x_years:
+          one: "%{count}年多后"
+          other: "%{count}年多后"
+        almost_x_years:
+          one: "不到%{count}年后"
+          other: "不到%{count}年后"
   account:
     index:
       title: 账号
@@ -129,6 +202,7 @@ zh-CN:
       session_hint: 当前登录的用户名：%{user}
       show_title_bar: 显示标题栏
       show_title_bar_hint: 关闭的时候, 原生插件（非全局插件）和第三方插件将会更简约。
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: 时区
       time_zone_hint: 用于自动调整刷新率与设备休眠
       locale: 语言
@@ -225,7 +299,7 @@ zh-CN:
       mirror_sync: 同步画面
       ota_enabled: 启用OTA更新
       ota_enabled_hint: 自动安装新固件。禁用以手动更新。
-      ota_byod_not_supported: 自带设备（BYOD）不支持 OTA 固件更新。请直接从 usetrmnl.com/flash 刷入兼容版本。
+      ota_byod_not_supported: 自带设备（BYOD）不支持 OTA 固件更新。请直接从 trmnl.com/flash 刷入兼容版本。
       maximum_compatibility: 启用最大兼容模式
       maximum_compatibility_hint: 解决由某些电子墨水驱动芯片引发的显示问题。禁用快速刷新功能。需固件版本 1.6.0 及以上。
       palette: 调色板
@@ -240,6 +314,8 @@ zh-CN:
       special_function_learn_more: 点击__此处__以了解更多
       temperature_profile: 温度曲线
       temperature_profile_hint: 除非另有指示，否则请勿更改。适用于显示画面褪色情况。
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt 凭据
       tidbyt_credentials_hint: 从 Tidbyt 应用的「设置」→「开发者」→「获取 API 密钥」中输入您的 Tidbyt 设备的 API 凭据。
       tidbyt_credentials_invalid: Tidbyt API 凭据无效。请仔细检查后重试。
@@ -383,6 +459,11 @@ zh-CN:
       remove_from_playlist: 从播放列表中删除
       hide_playlist: 隐藏此项
       show_playlist: 显示此项
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +541,7 @@ zh-CN:
     forks:
       one: Fork
       other: 分支
+    forked: Recipe forked
     new:
       error: 未找到配方
   plugin_settings:
@@ -475,6 +557,7 @@ zh-CN:
     form:
       active_hint: 显示/隐藏此插件
       advanced_settings: 高级设置
+      back_to_playlist: Back to Playlist
       back_to_plugin: 返回 %{plugin}
       back_to_plugins: 返回插件
       connect_with: 已连接 %{plugin}
@@ -504,6 +587,7 @@ zh-CN:
       linked_account_success: 已成功关联 %{plugin_name}
       link_oauth: 链接账户
       link_oauth_hint: 在继续之前，请按照 %{plugin} 提供的授权流程操作
+      mirrored: Mirrored
       multiple_instances_hint: 此插件支持多实例
       name: 名称
       name_hint: 起一个好听的名字
@@ -521,6 +605,7 @@ zh-CN:
       recipe_cta_body_in_review: 此插件已提交至我们的团队。请稍候。
       recipe_cta_body_not_published: 发布此插件以供他人安装。__了解更多__。
       recipe_cta_confirm: 您确定吗？我们的团队将进行审核，并在几天内与您联系。您可以继续进行更改。
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: 您希望如何发布？
       recipe_visibility_edit_title: 编辑提交
       recipe_visibility_public: 公开
@@ -542,6 +627,7 @@ zh-CN:
       refresh_paused_mashup: 正在刷新混搭
       refresh_paused_mashup_hint: 全屏模式的自动刷新已暂停。混搭仍在更新。
       refresh_stopped: 自动刷新已停止。请修复插件错误以继续。
+      view_recipe: View Recipe
       visit_docs: 查看文档
     import:
       archive_too_large: ZIP 文件过大（最大 %{max_mb} MB）

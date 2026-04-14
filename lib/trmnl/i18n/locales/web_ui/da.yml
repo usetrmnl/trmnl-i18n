@@ -4,7 +4,6 @@ da:
   about: About
   add: Tilføj
   add_new: Tilføj ny
-  ago: siden
   already_have_account: Jeg har allerede en konto
   are_you_sure: Are you sure?
   back: Tilbage
@@ -90,6 +89,45 @@ da:
     formats:
       shorter: "%-H.%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} siden"
+      future: "om %{time}"
+      distance_in_words:
+        half_a_minute: "et halvt minut"
+        less_than_x_seconds:
+          one: "mindre end et sekund"
+          other: "mindre end %{count} sekunder"
+        less_than_x_minutes:
+          one: "mindre end et minut"
+          other: "mindre end %{count} minutter"
+        x_seconds:
+          one: "et sekund"
+          other: "%{count} sekunder"
+        x_minutes:
+          one: "et minut"
+          other: "%{count} minutter"
+        about_x_hours:
+          one: "cirka en time"
+          other: "cirka %{count} timer"
+        x_days:
+          one: "en dag"
+          other: "%{count} dage"
+        about_x_months:
+          one: "cirka en måned"
+          other: "cirka %{count} måneder"
+        x_months:
+          one: "en måned"
+          other: "%{count} måneder"
+        about_x_years:
+          one: "cirka et år"
+          other: "cirka %{count} år"
+        over_x_years:
+          one: "mere end et år"
+          other: "mere end %{count} år"
+        almost_x_years:
+          one: "næsten et år"
+          other: "næsten %{count} år"
   account:
     index:
       title: Konto
@@ -129,6 +167,7 @@ da:
       session_hint: Du er logget ind som %{user}
       show_title_bar: Vis titelbjælke
       show_title_bar_hint: Hvis deaktiveret, vil native (ikke globale) og tredjeparts-plugins være mere minimalistiske.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Tidszone
       time_zone_hint: Bestemmer opdateringshastigheder og enhedens sovetid.
       locale: Lokalitet
@@ -225,7 +264,7 @@ da:
       mirror_sync: Synkroniser skærme
       ota_enabled: OTA-opdateringer aktiveret
       ota_enabled_hint: Installer automatisk ny firmware. Deaktiver for at bruge din egen firmware.
-      ota_byod_not_supported: OTA understøttes ikke for BYOD-enheder. Flash en kompatibel version direkte fra usetrmnl.com/flash
+      ota_byod_not_supported: OTA understøttes ikke for BYOD-enheder. Flash en kompatibel version direkte fra trmnl.com/flash
       maximum_compatibility: Aktivér maksimal kompatibilitet
       maximum_compatibility_hint: Løser visningsproblemer forårsaget af visse e-ink driverchips. Deaktiverer hurtig opdatering. Firmware 1.6.0+ kræves.
       palette: Color Palette
@@ -240,6 +279,8 @@ da:
       special_function_learn_more: Læs mere om specialfunktioner __her__.
       temperature_profile: Temperaturprofil
       temperature_profile_hint: Ændr ikke medmindre instrueret. Til displays med udvaskede billeder.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
@@ -383,6 +424,11 @@ da:
       remove_from_playlist: Fjern fra playliste
       hide_playlist: Skjul dette element
       show_playlist: Vis dette element
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +506,7 @@ da:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: Opskrift ikke fundet
   plugin_settings:
@@ -475,6 +522,7 @@ da:
     form:
       active_hint: Vis eller skjul denne plugin-instans på din enhed
       advanced_settings: Avancerede indstillinger
+      back_to_playlist: Back to Playlist
       back_to_plugin: Tilbage til %{plugin}
       back_to_plugins: Tilbage til Plugins
       connect_with: Forbind med %{plugin}
@@ -504,6 +552,7 @@ da:
       linked_account_success: Succesfuldt tilknyttet med %{plugin_name}
       link_oauth: Link konto
       link_oauth_hint: Følg den sikre autorisationsproces leveret af %{plugin}
+      mirrored: Mirrored
       multiple_instances_hint: Dette plugin understøtter flere instanser.
       name: Navn
       name_hint: Giv det et navn til nem reference
@@ -521,6 +570,7 @@ da:
       recipe_cta_body_in_review: Dette plugin er sendt til vores team. Vent venligst.
       recipe_cta_body_not_published: Indsend dette plugin, så andre kan installere det. __Læs mere__.
       recipe_cta_confirm: Er du sikker? Vores team vil gennemgå det og vende tilbage inden for få dage. Du kan fortsætte med at foretage ændringer.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
       recipe_visibility_public: Public
@@ -542,6 +592,7 @@ da:
       refresh_paused_mashup: Opdaterer Mashups
       refresh_paused_mashup_hint: Auto-opdatering af fuldskærmsvisning er på pause. Mashups opdaterer.
       refresh_stopped: Auto-opdatering stoppet. Ret pluginfejl for at fortsætte.
+      view_recipe: View Recipe
       visit_docs: Besøg dokumentation
     import:
       archive_too_large: ZIP-fil er for stor (%{max_mb} MB maksimum)

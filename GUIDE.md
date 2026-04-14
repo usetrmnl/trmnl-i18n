@@ -43,7 +43,7 @@ es-ES:
   ```
 
 learn how users can leverage this dictionary here:
-https://help.usetrmnl.com/en/articles/10347358-custom-plugin-filters
+https://help.trmnl.com/en/articles/10347358-custom-plugin-filters
 
 ## how to provide localizations
 in [a previous guide](https://github.com/usetrmnl/localizations/blob/87c0ce5b4b71bff2f80346065aa50a5ce7a7e050/GUIDE.md) we provided annotated screenshots for each phrase, but this approach was cumbersome. whenever our interface changed, the guide become outdated.
@@ -62,7 +62,7 @@ to ensure this library is in parity with our website, we now support a `raw` loc
 
 ### plugin renders
 to localize plugins, pick a plugin here (requires login):
-https://usetrmnl.com/plugins/demo
+https://trmnl.com/plugins/demo
 
 <kbd>![trmnl-localizations-raw-locale-plugin-example](https://github.com/usetrmnl/localizations/blob/main/support/raw_plugin_example.png)</kbd>
 

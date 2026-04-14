@@ -4,7 +4,6 @@ sk:
   about: About
   add: Add
   add_new: Add new
-  ago: ago
   already_have_account: I already have an account
   are_you_sure: Are you sure?
   back: Back
@@ -90,6 +89,57 @@ sk:
     formats:
       shorter: "%-I:%M %p"
     start_of_week: 0
+  # TODO: native speaker review needed
+  datetime:
+    relative:
+      past: "%{time} ago"
+      future: "in %{time}"
+      distance_in_words:
+        half_a_minute: "pol minútou"
+        less_than_x_seconds:
+          one: "necelou sekundou"
+          few: "necelými %{count} sekundami"
+          other: "necelými %{count} sekundami"
+        less_than_x_minutes:
+          one: "necelou minútou"
+          few: "necelými %{count} minútami"
+          other: "necelými %{count} minútami"
+        x_seconds:
+          one: "sekundou"
+          few: "%{count} sekundami"
+          other: "%{count} sekundami"
+        x_minutes:
+          one: "minútou"
+          few: "%{count} minútami"
+          other: "%{count} minútami"
+        about_x_hours:
+          one: "asi hodinou"
+          few: "asi %{count} hodinami"
+          other: "asi %{count} hodinami"
+        x_days:
+          one: "dňom"
+          few: "%{count} dňami"
+          other: "%{count} dňami"
+        about_x_months:
+          one: "asi mesiacom"
+          few: "asi %{count} mesiacmi"
+          other: "asi %{count} mesiacmi"
+        x_months:
+          one: "mesiacom"
+          few: "%{count} mesiacmi"
+          other: "%{count} mesiacmi"
+        about_x_years:
+          one: "asi rokom"
+          few: "asi %{count} rokmi"
+          other: "asi %{count} rokmi"
+        over_x_years:
+          one: "viac ako rokom"
+          few: "viac ako %{count} rokmi"
+          other: "viac ako %{count} rokmi"
+        almost_x_years:
+          one: "takmer rokom"
+          few: "takmer %{count} rokmi"
+          other: "takmer %{count} rokmi"
   account:
     index:
       title: Account
@@ -129,6 +179,7 @@ sk:
       session_hint: You're logged in as %{user}
       show_title_bar: Show title bar
       show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Time Zone
       time_zone_hint: Determines refresh rates and device sleep time.
       locale: Locale
@@ -225,7 +276,7 @@ sk:
       mirror_sync: Sync Screens
       ota_enabled: OTA Updates Enabled
       ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
+      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       palette: Color Palette
@@ -240,6 +291,8 @@ sk:
       special_function_learn_more: Learn more about special functions __here__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
@@ -383,6 +436,11 @@ sk:
       remove_from_playlist: Remove from playlist
       hide_playlist: Hide this item
       show_playlist: Show this item
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -403,6 +461,8 @@ sk:
       success: Playlist order updated
     set_preferences:
       success: Smart playlist preference updated
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: Plugins
@@ -458,6 +518,7 @@ sk:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: Recipe not found
   plugin_settings:
@@ -473,6 +534,7 @@ sk:
     form:
       active_hint: Show or hide this plugin instance on your device
       advanced_settings: Advanced Settings
+      back_to_playlist: Back to Playlist
       back_to_plugin: Back to %{plugin}
       back_to_plugins: Back to Plugins
       connect_with: Connect with %{plugin}
@@ -502,6 +564,7 @@ sk:
       linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: Link Account
       link_oauth_hint: Before you continue, follow the secure authorization process provided by %{plugin}
+      mirrored: Mirrored
       multiple_instances_hint: This plugin supports multiple instances.
       name: Name
       name_hint: Give it a name for easy reference
@@ -519,6 +582,7 @@ sk:
       recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
       recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
       recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
       recipe_visibility_public: Public
@@ -540,6 +604,7 @@ sk:
       refresh_paused_mashup: Refreshing Mashups
       refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
       refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
+      view_recipe: View Recipe
       visit_docs: Visit Docs
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)

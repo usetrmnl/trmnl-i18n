@@ -4,7 +4,6 @@ pt-BR:
   about: Sobre
   add: Adicionar
   add_new: Adicionar novo
-  ago: atrás
   already_have_account: Já tenho uma conta
   are_you_sure: Tem certeza?
   back: Voltar
@@ -90,6 +89,45 @@ pt-BR:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "há %{time}"
+      future: "em %{time}"
+      distance_in_words:
+        half_a_minute: "meio minuto"
+        less_than_x_seconds:
+          one: "menos de %{count} segundo"
+          other: "menos de %{count} segundos"
+        less_than_x_minutes:
+          one: "menos de um minuto"
+          other: "menos de %{count} minutos"
+        x_seconds:
+          one: "%{count} segundo"
+          other: "%{count} segundos"
+        x_minutes:
+          one: "%{count} minuto"
+          other: "%{count} minutos"
+        about_x_hours:
+          one: "aproximadamente %{count} hora"
+          other: "aproximadamente %{count} horas"
+        x_days:
+          one: "%{count} dia"
+          other: "%{count} dias"
+        about_x_months:
+          one: "aproximadamente %{count} mês"
+          other: "aproximadamente %{count} meses"
+        x_months:
+          one: "%{count} mês"
+          other: "%{count} meses"
+        about_x_years:
+          one: "aproximadamente %{count} ano"
+          other: "aproximadamente %{count} anos"
+        over_x_years:
+          one: "mais de %{count} ano"
+          other: "mais de %{count} anos"
+        almost_x_years:
+          one: "quase %{count} ano"
+          other: "quase %{count} anos"
   account:
     index:
       title: Conta
@@ -129,6 +167,7 @@ pt-BR:
       session_hint: Você está logado como %{user}
       show_title_bar: Exibir barra de título
       show_title_bar_hint: Se desativado, plugins nativos e de terceiros serão mais minimalistas.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Fuso Horário
       time_zone_hint: Determina as taxas de atualização e horários de descanso do dispositivo.
       locale: Idioma
@@ -225,7 +264,7 @@ pt-BR:
       mirror_sync: Sincronizar Telas
       ota_enabled: Ativar Atualizações OTA
       ota_enabled_hint: Instalar novos firmwares automaticamente. Desative para usar seu próprio firmware.
-      ota_byod_not_supported: OTA não é suportado em dispositivos BYOD. Instale uma versão compatível diretamente de usetrmnl.com/flash
+      ota_byod_not_supported: OTA não é suportado em dispositivos BYOD. Instale uma versão compatível diretamente de trmnl.com/flash
       maximum_compatibility: Habilitar Compatibilidade Máxima
       maximum_compatibility_hint: Resolve problemas de exibição causados por determinados chips e-ink. Desabilida a atualização rápida. Requer o firmware 1.6.0+.
       palette: Color Palette
@@ -240,6 +279,8 @@ pt-BR:
       special_function_learn_more: Saiba mais sobre funções especiais __aqui__.
       temperature_profile: Perfil de Temperatura
       temperature_profile_hint: Não altere a não ser que tenha sido instruído. Para dispositivos com imagens desbotadas.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
@@ -383,6 +424,11 @@ pt-BR:
       remove_from_playlist: Remover da playlist
       hide_playlist: Esconder esse item
       show_playlist: Exibir esse item
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +506,7 @@ pt-BR:
     forks:
       one: Derivação
       other: Derivações
+    forked: Recipe forked
     new:
       error: Receita não encontrada
   plugin_settings:
@@ -475,6 +522,7 @@ pt-BR:
     form:
       active_hint: Exibir ou esconder este plugin no seu dispositivo
       advanced_settings: Configurações Avançadas
+      back_to_playlist: Back to Playlist
       back_to_plugin: Voltar para %{plugin}
       back_to_plugins: Voltar para Plugins
       connect_with: Conectar com %{plugin}
@@ -504,6 +552,7 @@ pt-BR:
       linked_account_success: Conta vinculada com sucesso com %{plugin_name}
       link_oauth: Vincular Conta
       link_oauth_hint: Antes de continuar, siga o processo de autorização segura fornecido por %{plugin}
+      mirrored: Mirrored
       multiple_instances_hint: Esse plugin suporta múltiplas instâncias.
       name: Nome
       name_hint: Dê um nome para se lembrar facilmente
@@ -521,6 +570,7 @@ pt-BR:
       recipe_cta_body_in_review: Esse plugin foi submetido para nosso time. Aguarde.
       recipe_cta_body_not_published: Submeta esse plugin para que outros possam instalá-lo. __Saiba mais__.
       recipe_cta_confirm: Tem certeza? Nosso time irá revisar e te retornar em alguns dias. Você pode continuar efetuando mudanças.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: Como você gostaria de publicar?
       recipe_visibility_edit_title: Alterar Submissão
       recipe_visibility_public: Público
@@ -542,6 +592,7 @@ pt-BR:
       refresh_paused_mashup: Atualizando Mashups
       refresh_paused_mashup_hint: Atualização pausada para tela cheia. Os mashups estão atualizando.
       refresh_stopped: Atualização desativada. Por favor corrija o erro do plugin para continuar.
+      view_recipe: View Recipe
       visit_docs: Visitar Documentação
     import:
       archive_too_large: O arquivo ZIP é muito grande (máximo de %{max_mb} MB)

@@ -1,0 +1,280 @@
+---
+lt:
+  renders:
+    and_x_more_prefix: Ir dar
+    and_x_more_suffix: daugiau
+    days_left_year:
+      title: Dienų liko šiais metais
+      days_passed: Praėjo dienų
+      days_left: Liko dienų
+    lunar_calendar:
+      title: Mėnulio kalendorius
+      age: Mėnulio amžius
+      current_phase: Dabartinė fazė
+      illumination: Mėnulio apšviestumas
+      next_full_moon: Kita pilnatis
+      next_new_moon: Kita jaunatis
+      next_phase: Kita fazė
+      next_phase_short: Sekanti
+      moon_phases:
+        new_moon: Jaunatis
+        waxing_crescent: Jaunas mėnulis (priešpriešis)
+        first_quarter: Priešpilnis
+        waxing_gibbous: Isipūtęs mėnulis (prieš pilnatį)
+        full_moon: Pilnatis
+        waning_gibbous: Delčia (po pilnaties)
+        third_quarter: Delčia (paskutinis ketvirtis)
+        waning_crescent: Senas mėnulis
+    netatmo_weather_station:
+      title: Netatmo orai
+      title_short: Netatmo
+      indoor_temp: Vidaus temp.
+      indoor_temp_short: Viduje
+      indoor_humidity: Vidaus drėgmė
+      indoor_humidity_short: Vidaus drėgn.
+      outdoor_humidity: Lauko drėgmė
+      outdoor_humidity_short: Lauko drėgn.
+      co2: CO₂
+      co2_ppm: CO₂ ppm
+      pressure: Slėgis
+      noise: Triukšmas
+      min_max: Min/Maks
+      feels: Juntama
+      rain: Lietus
+      wind: Vėjas
+      gust: Gūsis
+      default_station_name: Netatmo stotelė
+      default_outdoor_module: Lauko temp.
+      default_indoor_module: Viduje
+      trends_title: "%{metric} tendencijos"
+      trends_title_short: Tendencijos
+      temperature_trends: Temperatūros tendencijos
+      temperature_trends_short: Temp. tendencijos
+      outdoor_now: Lauke dabar
+      indoor_now: Viduje dabar
+      now: Dabar
+      low_high_24h: 24 val. žemiausia / aukščiausia
+      average_24h: 24 val. vidurkis
+      outdoor: Lauke
+      indoor: Viduje
+      rain_gauge_not_connected: Lietaus matuoklis neprijungtas
+      wind_gauge_not_connected: Vėjo matuoklis neprijungtas
+      no_rain_gauge: Nėra lietaus matuoklio
+      no_wind_gauge: Nėra vėjo matuoklio
+      add_module_hint: Pridėkite papildomą %{module} modulį, kad matytumėte šiuos duomenis
+      range_24h: 24 val. diapazonas
+      errors:
+        missing_access_token: Trūksta prieigos rakto. Prašome iš naujo prijungti Netatmo paskyrą.
+        no_station_selected: Nepasirinkta meteorologinė stotelė. Pasirinkite stotelę nustatymuose.
+        connection_failed: Nepavyko prisijungti prie Netatmo stotelės. Patikrinkite interneto ryšį.
+        data_retrieval_failed: Nepavyko gauti orų duomenų. Bandykite vėliau.
+        session_expired: Sesija baigėsi. Nustatymuose iš naujo prijunkite Netatmo paskyrą.
+    parcel:
+      delivery_by: Pristatys iki
+      empty: Pristatymų nėra
+      errors:
+        api: Siuntų API klaida
+        http: HTTP klaida %{code}
+        internal: Vidinė klaida
+      filter_modes:
+        active:
+          one: Aktyvus pristatymas
+          other: Aktyvūs pristatymai
+        recent:
+          one: Nesenas pristatymas
+          other: Neseni pristatymai
+      status:
+        delivered: Pristatyta
+        delivery_exception: Pristatymo išimtis (trikdys)
+        expecting_pickup: Laukiama atsiėmimo
+        failed_delivery_attempt: Nesėkmingas bandymas pristatyti
+        frozen: Įšaldyta
+        in_transit: Pakeliui
+        information_received: Informacija gauta
+        not_found: Nerasta
+        out_for_delivery: Išduota kurjeriui
+        unknown: Nežinoma
+      today: Šiandien
+      tomorrow: Rytoj
+    weather:
+      title: Orai
+      temperature: Temperatūra
+      feels_like: Juntama kaip
+      humidity: Drėgmė
+      low: Žemiausia
+      high: Aukščiausia
+      uv: UV
+      right_now: Šiuo metu
+      today: Šiandien
+      tomorrow: Rytoj
+      low_high_short: Ž/A
+      uv_short: UV
+      max: Maks.
+      tempest:
+        conditions:
+          clear: Giedra
+          cloudy: Debesuota
+          foggy: Rūkas
+          partly_cloudy: Mažai debesuota
+          rain_likely: Tikėtinas lietus
+          rain_possible: Galimas lietus
+          snow: Sniegas
+          snow_possible: Galimas sniegas
+          thunderstorms_likely: Tikėtina perkūnija
+          thunderstorms_possible: Galima perkūnija
+          very_light_rain: Labai lengvas lietus
+          windy: Vėjuota
+          wintry_mix_likely: Tikėtina šlapdriba
+          wintry_mix_possible: Galima šlapdriba
+      weatherapi:
+        uv:
+          low: Žemas
+          moderate: Vidutinis
+          high: Aukštas
+          very_high: Labai aukštas
+          extreme: Ekstremalus
+        conditions:
+        - code: 1000
+          day: Saulėta
+          night: Giedra
+        - code: 1003
+          day: Mažai debesuota
+          night: Mažai debesuota
+        - code: 1006
+          day: Debesuota
+          night: Debesuota
+        - code: 1009
+          day: Apsiniaukę
+          night: Apsiniaukę
+        - code: 1030
+          day: Migla
+          night: Migla
+        - code: 1063
+          day: Lengvas lietus
+          night: Lengvas lietus
+        - code: 1066
+          day: Lengvas sniegas
+          night: Lengvas sniegas
+        - code: 1069
+          day: Šlapdriba
+          night: Šlapdriba
+        - code: 1072
+          day: Šalanti dulksna
+          night: Šalanti dulksna
+        - code: 1087
+          day: Perkūnija
+          night: Perkūnija
+        - code: 1114
+          day: Pūga
+          night: Pūga
+        - code: 1117
+          day: Stipri pūga
+          night: Stipri pūga
+        - code: 1135
+          day: Rūkas
+          night: Rūkas
+        - code: 1147
+          day: Šalantis rūkas
+          night: Šalantis rūkas
+        - code: 1150
+          day: Lengva dulksna
+          night: Lengva dulksna
+        - code: 1153
+          day: Dulksna
+          night: Dulksna
+        - code: 1168
+          day: Šalanti dulksna
+          night: Šalanti dulksna
+        - code: 1171
+          day: Stipri šalanti dulksna
+          night: Stipri šalanti dulksna
+        - code: 1180
+          day: Nedidelis lietus
+          night: Nedidelis lietus
+        - code: 1183
+          day: Lengvas lietus
+          night: Lengvas lietus
+        - code: 1186
+          day: Vidutinis lietus
+          night: Vidutinis lietus
+        - code: 1189
+          day: Lietus
+          night: Lietus
+        - code: 1192
+          day: Stiprus lietus
+          night: Stiprus lietus
+        - code: 1195
+          day: Labai stiprus lietus
+          night: Labai stiprus lietus
+        - code: 1198
+          day: Šalanti dulksna
+          night: Šalanti dulksna
+        - code: 1201
+          day: Šalantis lietus
+          night: Šalantis lietus
+        - code: 1204
+          day: Lengva šlapdriba
+          night: Lengva šlapdriba
+        - code: 1207
+          day: Šlapdriba
+          night: Šlapdriba
+        - code: 1210
+          day: Lengvas sniegas
+          night: Lengvas sniegas
+        - code: 1213
+          day: Nedidelis sniegas
+          night: Nedidelis sniegas
+        - code: 1216
+          day: Vidutinis sniegas
+          night: Vidutinis sniegas
+        - code: 1219
+          day: Sniegas
+          night: Sniegas
+        - code: 1222
+          day: Stiprus sniegas
+          night: Stiprus sniegas
+        - code: 1225
+          day: Labai stiprus sniegas
+          night: Labai stiprus sniegas
+        - code: 1237
+          day: Ledo kruša
+          night: Ledo kruša
+        - code: 1240
+          day: Lengvas liūtis
+          night: Lengvas liūtis
+        - code: 1243
+          day: Liūtis
+          night: Liūtis
+        - code: 1246
+          day: Labai stipri liūtis
+          night: Labai stipri liūtis
+        - code: 1249
+          day: Lengva šlapdriba
+          night: Lengva šlapdriba
+        - code: 1252
+          day: Šlapdriba
+          night: Šlapdriba
+        - code: 1255
+          day: Lengvas sniegas
+          night: Lengvas sniegas
+        - code: 1258
+          day: Sniegas (liūtis)
+          night: Sniegas (liūtis)
+        - code: 1261
+          day: Lengva kruša
+          night: Lengva kruša
+        - code: 1264
+          day: Kruša
+          night: Kruša
+        - code: 1273
+          day: Perkūnija ir lietus
+          night: Perkūnija ir lietus
+        - code: 1276
+          day: Perkūnija ir stiprus lietus
+          night: Perkūnija ir stiprus lietus
+        - code: 1279
+          day: Perkūnija ir nedidelis sniegas
+          night: Perkūnija ir nedidelis sniegas
+        - code: 1282
+          day: Perkūnija ir sniegas
+          night: Perkūnija ir sniegas

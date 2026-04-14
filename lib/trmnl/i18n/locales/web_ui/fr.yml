@@ -4,7 +4,6 @@ fr:
   about: À propos
   add: Ajouter
   add_new: Ajouter
-  ago: plus tôt
   already_have_account: J'ai déjà un compte
   are_you_sure: Êtes-vous sûr ?
   back: Retour
@@ -90,6 +89,47 @@ fr:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "il y a %{time}"
+      future: "dans %{time}"
+      distance_in_words:
+        half_a_minute: "une demi‑minute"
+        less_than_x_seconds:
+          zero: "moins d'une seconde"
+          one: "moins d'une seconde"
+          other: "moins de %{count} secondes"
+        less_than_x_minutes:
+          zero: "moins d'une minute"
+          one: "moins d'une minute"
+          other: "moins de %{count} minutes"
+        x_seconds:
+          one: "%{count} seconde"
+          other: "%{count} secondes"
+        x_minutes:
+          one: "%{count} minute"
+          other: "%{count} minutes"
+        about_x_hours:
+          one: "environ une heure"
+          other: "environ %{count} heures"
+        x_days:
+          one: "%{count} jour"
+          other: "%{count} jours"
+        about_x_months:
+          one: "environ un mois"
+          other: "environ %{count} mois"
+        x_months:
+          one: "%{count} mois"
+          other: "%{count} mois"
+        about_x_years:
+          one: "environ un an"
+          other: "environ %{count} ans"
+        over_x_years:
+          one: "plus d'un an"
+          other: "plus de %{count} ans"
+        almost_x_years:
+          one: "presque un an"
+          other: "presque %{count} ans"
   account:
     index:
       title: Compte
@@ -129,6 +169,7 @@ fr:
       session_hint: Vous êtes connecté en tant que %{user}
       show_title_bar: Afficher la barre de titre
       show_title_bar_hint: Si cette option est désactivée, les plugins natifs (non globaux) et les plugins tiers seront minimisés.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Fuseau horaire
       time_zone_hint: Détermine les taux de rafraîchissement et le temps de veille de l'appareil.
       locale: Locale
@@ -225,7 +266,7 @@ fr:
       mirror_sync: Synchroniser les écrans
       ota_enabled: Mises à jour OTA activées
       ota_enabled_hint: Installe automatiquement le nouveau firmware. Désactivez cette option si vous souhaitez utiliser votre propre firmware.
-      ota_byod_not_supported: L'OTA n'est pas pris en charge pour les appareils BYOD. Flashez une version compatible directement depuis usetrmnl.com/flash
+      ota_byod_not_supported: L'OTA n'est pas pris en charge pour les appareils BYOD. Flashez une version compatible directement depuis trmnl.com/flash
       maximum_compatibility: Activer la compatibilité maximale
       maximum_compatibility_hint: Résout les problèmes d'affichage causés par certaines puces de pilote e-ink. Désactive le rafraîchissement rapide. Firmware 1.6.0+ requis.
       palette: Color Palette
@@ -240,6 +281,8 @@ fr:
       special_function_learn_more: En savoir plus sur les actions spéciales __ici__.
       temperature_profile: Profil de température
       temperature_profile_hint: Ne changez pas sauf instruction contraire. Pour les écrans aux images délavées.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Identifiants Tidbyt
       tidbyt_credentials_hint: Entrez les identifiants API de votre appareil Tidbyt depuis l'app Tidbyt sous Paramètres → Développeur → Obtenir la clé API.
       tidbyt_credentials_invalid: Les identifiants API Tidbyt sont invalides. Veuillez vérifier et réessayer.
@@ -383,6 +426,11 @@ fr:
       remove_from_playlist: Retirer de la playlist
       hide_playlist: Masquer cet élément
       show_playlist: Afficher cet élément
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +508,7 @@ fr:
     forks:
       one: Duplication
       other: Duplications
+    forked: Recipe forked
     new:
       error: Recette introuvable
   plugin_settings:
@@ -475,6 +524,7 @@ fr:
     form:
       active_hint: Afficher ou masquer cette instance de plugin sur votre appareil
       advanced_settings: Paramètres avancés
+      back_to_playlist: Back to Playlist
       back_to_plugin: Retour à %{plugin}
       back_to_plugins: Retour aux plugins
       connect_with: Se connecter avec %{plugin}
@@ -504,6 +554,7 @@ fr:
       linked_account_success: Lié avec succès à %{plugin_name}
       link_oauth: Lier un compte
       link_oauth_hint: Avant de continuer, suivez la procédure d'autorisation sécurisée fournie par %{plugin}
+      mirrored: Mirrored
       multiple_instances_hint: Ce plugin prend en charge plusieurs instances.
       name: Nom
       name_hint: Donnez-lui un nom pour l'identifier plus facilement
@@ -521,6 +572,7 @@ fr:
       recipe_cta_body_in_review: Ce plugin a été soumis à notre équipe. Merci de patienter.
       recipe_cta_body_not_published: Soumettez ce plugin pour que d'autres puissent l'installer. __En savoir plus__.
       recipe_cta_confirm: Êtes-vous sûr ? Notre équipe va l'examiner et vous recontacter dans quelques jours. Vous pouvez continuer à apporter des modifications.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: Comment souhaitez-vous publier ?
       recipe_visibility_edit_title: Modifier la soumission
       recipe_visibility_public: Public
@@ -542,6 +594,7 @@ fr:
       refresh_paused_mashup: Rafraîchissement des combinaisons
       refresh_paused_mashup_hint: Rafraîchissement automatique en pause pour le plein écran. Les combinaisons se mettent à jour.
       refresh_stopped: Rafraîchissement automatique arrêté. Veuillez corriger l'erreur du plugin pour continuer.
+      view_recipe: View Recipe
       visit_docs: Visiter la documentation
     import:
       archive_too_large: Le fichier ZIP est trop volumineux (%{max_mb} MB maximum)

@@ -4,7 +4,6 @@ zh-HK:
   about: 簡介
   add: 加入
   add_new: 新增
-  ago: 前
   already_have_account: 我已經有帳戶
   are_you_sure: 確定嗎？
   back: 返回
@@ -90,6 +89,45 @@ zh-HK:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time}前"
+      future: "%{time}後"
+      distance_in_words:
+        half_a_minute: "半分鐘"
+        less_than_x_seconds:
+          one: "不到%{count}秒"
+          other: "不到%{count}秒"
+        less_than_x_minutes:
+          one: "不到%{count}分鐘"
+          other: "不到%{count}分鐘"
+        x_seconds:
+          one: "%{count}秒"
+          other: "%{count}秒"
+        x_minutes:
+          one: "%{count}分鐘"
+          other: "%{count}分鐘"
+        about_x_hours:
+          one: "約%{count}小時"
+          other: "約%{count}小時"
+        x_days:
+          one: "%{count}天"
+          other: "%{count}天"
+        about_x_months:
+          one: "約%{count}個月"
+          other: "約%{count}個月"
+        x_months:
+          one: "%{count}個月"
+          other: "%{count}個月"
+        about_x_years:
+          one: "約%{count}年"
+          other: "約%{count}年"
+        over_x_years:
+          one: "超過%{count}年"
+          other: "超過%{count}年"
+        almost_x_years:
+          one: "接近%{count}年"
+          other: "接近%{count}年"
   account:
     index:
       title: 帳戶
@@ -129,6 +167,7 @@ zh-HK:
       session_hint: 你已登入為：%{user}
       show_title_bar: 顯示標題列
       show_title_bar_hint: 如停用此功能，原生（非全域）及第三方外掛功能會顯得更簡約。
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: 時區
       time_zone_hint: 決定重新整理頻率及裝置睡眠時間。
       locale: 地區語言
@@ -225,7 +264,7 @@ zh-HK:
       mirror_sync: 同步畫面
       ota_enabled: 啟用自動更新
       ota_enabled_hint: 自動安裝新的韌體。如要使用自訂韌體，請停用此設定。
-      ota_byod_not_supported: 自攜裝置 (BYOD) 不支援自動更新。請直接從 usetrmnl.com/flash 下載並刷寫兼容版本。
+      ota_byod_not_supported: 自攜裝置 (BYOD) 不支援自動更新。請直接從 trmnl.com/flash 下載並刷寫兼容版本。
       maximum_compatibility: 啟用最大兼容性
       maximum_compatibility_hint: 解決由某些電子墨水驅動晶片引起的顯示問題。會停用快速重新整理。需要韌體版本1.6.0或以上。
       palette: 色彩模式
@@ -240,6 +279,8 @@ zh-HK:
       special_function_learn_more: __按此__了解更多特別功能。
       temperature_profile: 色溫設定檔
       temperature_profile_hint: 除非獲得指示，否則請勿更改。適用於影像顯示褪色的螢幕。
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt憑證
       tidbyt_credentials_hint: 在Tidbyt應用程式前往「Settings → Developer → Get API Key」尋找你的Tidbyt裝置API憑證。
       tidbyt_credentials_invalid: Tidbyt API憑證無效。請檢查並重試。
@@ -383,6 +424,11 @@ zh-HK:
       remove_from_playlist: 從播放清單中移除
       hide_playlist: 隱藏此項目
       show_playlist: 顯示此項目
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: 無法設定此外掛的重新整理頻率。
         external: 此外掛即時擷取數據，因此重新整理頻率設定不適用。
@@ -403,6 +449,8 @@ zh-HK:
       success: 已更新播放清單順序
     set_preferences:
       success: 已更新智能播放清單偏好設定
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: 外掛功能
@@ -458,6 +506,7 @@ zh-HK:
     forks:
       one: 個分叉
       other: 個分叉
+    forked: Recipe forked
     new:
       error: 找不到模板
   plugin_settings:
@@ -473,6 +522,7 @@ zh-HK:
     form:
       active_hint: 在裝置上顯示或隱藏此外掛實例
       advanced_settings: 進階設定
+      back_to_playlist: Back to Playlist
       back_to_plugin: 返回%{plugin}
       back_to_plugins: 返回外掛列表
       connect_with: 連接%{plugin}
@@ -502,6 +552,7 @@ zh-HK:
       linked_account_success: 成功連結%{plugin_name}
       link_oauth: 連結帳戶
       link_oauth_hint: 如要繼續，請先按照「%{plugin}」提供的安全授權流程進行
+      mirrored: Mirrored
       multiple_instances_hint: 此外掛支援多個執行個體。
       name: 名稱
       name_hint: 為其命名以便參考
@@ -519,6 +570,7 @@ zh-HK:
       recipe_cta_body_in_review: 此外掛已提交給我們的團隊審核。請稍候。
       recipe_cta_body_not_published: 提交此外掛以供其他人安裝。__了解更多__。
       recipe_cta_confirm: 確定嗎？我們的團隊將進行審核，並在數日內回覆你。你可以繼續進行變更。
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: 你想如何發佈？
       recipe_visibility_edit_title: 編輯提交內容
       recipe_visibility_public: 公開
@@ -540,6 +592,7 @@ zh-HK:
       refresh_paused_mashup: 只更新混搭畫面
       refresh_paused_mashup_hint: 已暫停全螢幕的自動更新，混搭畫面(Mashup)仍會更新。
       refresh_stopped: 自動更新已停止。請修正外掛錯誤以繼續。
+      view_recipe: View Recipe
       visit_docs: 查看文件
     import:
       archive_too_large: ZIP檔案太大（最大%{max_mb} MB）

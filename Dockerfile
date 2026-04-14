@@ -2,7 +2,7 @@
 FROM ruby:3.4.7
 
 # Install dependencies
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     git \
     nodejs \
@@ -17,9 +17,8 @@ COPY Gemfile Gemfile.lock* .ruby-version ./
 # Copy the rest of the project
 COPY . .
 
-# Install gems
-RUN gem install bundler && bundle install
-
+# Update Ruby environment
+RUN gem update --system
 
 # Default command
 CMD ["rake"]

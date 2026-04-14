@@ -4,7 +4,6 @@ raw:
   about: about
   add: add
   add_new: add_new
-  ago: ago
   already_have_account: already_have_account
   are_you_sure: are_you_sure
   back: back
@@ -90,6 +89,45 @@ raw:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "datetime.relative.past"
+      future: "datetime.relative.future"
+      distance_in_words:
+        half_a_minute: "half_a_minute"
+        less_than_x_seconds:
+          one: "less_than_x_seconds"
+          other: "less_than_x_seconds"
+        less_than_x_minutes:
+          one: "less_than_x_minutes"
+          other: "less_than_x_minutes"
+        x_seconds:
+          one: "x_seconds"
+          other: "x_seconds"
+        x_minutes:
+          one: "x_minutes"
+          other: "x_minutes"
+        about_x_hours:
+          one: "about_x_hours"
+          other: "about_x_hours"
+        x_days:
+          one: "x_days"
+          other: "x_days"
+        about_x_months:
+          one: "about_x_months"
+          other: "about_x_months"
+        x_months:
+          one: "x_months"
+          other: "x_months"
+        about_x_years:
+          one: "about_x_years"
+          other: "about_x_years"
+        over_x_years:
+          one: "over_x_years"
+          other: "over_x_years"
+        almost_x_years:
+          one: "almost_x_years"
+          other: "almost_x_years"
   account:
     index:
       title: account.index.title
@@ -129,6 +167,7 @@ raw:
       session_hint: account.index.session_hint
       show_title_bar: account.index.show_title_bar
       show_title_bar_hint: account.index.show_title_bar_hint
+      theme_hint: account.index.theme_hint
       time_zone: account.index.time_zone
       time_zone_hint: account.index.time_zone_hint
       locale: account.index.locale
@@ -240,6 +279,8 @@ raw:
       special_function_learn_more: devices.edit.special_function_learn_more
       temperature_profile: devices.edit.temperature_profile
       temperature_profile_hint: devices.edit.temperature_profile_hint
+      touchbar_mode: devices.edit.touchbar_mode
+      touchbar_mode_hint: devices.edit.touchbar_mode_hint
       tidbyt_credentials: devices.edit.tidbyt_credentials
       tidbyt_credentials_hint: devices.edit.tidbyt_credentials_hint
       tidbyt_credentials_invalid: devices.edit.tidbyt_credentials_invalid
@@ -383,6 +424,11 @@ raw:
       remove_from_playlist: playlists.playlist.remove_from_playlist
       hide_playlist: playlists.playlist.hide_playlist
       show_playlist: playlists.playlist.show_playlist
+      duplicate: playlist_items.playlist_item.duplicate
+      duplicate_confirm: playlist_items.playlist_item.duplicate_confirm
+      color_palette: playlist_items.playlist_item.color_palette
+      device_default: playlist_items.playlist_item.device_default
+      palette_unavailable: playlist_items.playlist_item.palette_unavailable
       refresh_rate_disabled:
         default: playlist_items.playlist_item.refresh_rate_disabled.default
         external: playlist_items.playlist_item.refresh_rate_disabled.external
@@ -460,6 +506,7 @@ raw:
     forks:
       one: plugin_recipes.forks.one
       other: plugin_recipes.forks.many
+    forked: plugin_recipes.forked
     new:
       error: plugin_recipes.new.error
   plugin_settings:
@@ -475,6 +522,7 @@ raw:
     form:
       active_hint: plugin_settings.form.active_hint
       advanced_settings: plugin_settings.form.advanced_settings
+      back_to_playlist: Back to Playlist
       back_to_plugin: plugin_settings.form.back_to_plugin
       back_to_plugins: plugin_settings.form.back_to_plugins
       connect_with: plugin_settings.form.connect_with
@@ -504,6 +552,7 @@ raw:
       linked_account_success: plugin_settings.form.linked_account_success
       link_oauth: plugin_settings.form.link_oauth
       link_oauth_hint: plugin_settings.form.link_oauth_hint
+      mirrored: Mirrored
       multiple_instances_hint: plugin_settings.form.multiple_instances_hint
       name: plugin_settings.form.name
       name_hint: plugin_settings.form.name_hint
@@ -521,6 +570,7 @@ raw:
       recipe_cta_body_in_review: plugin_settings.form.recipe_cta_body_in_review
       recipe_cta_body_not_published: plugin_settings.form.recipe_cta_body_not_published
       recipe_cta_confirm: plugin_settings.form.recipe_cta_confirm
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: plugin_settings.form.recipe_visibility_title
       recipe_visibility_edit_title: plugin_settings.form.recipe_visibility_edit_title
       recipe_visibility_public: plugin_settings.form.recipe_visibility_public
@@ -542,6 +592,7 @@ raw:
       refresh_paused_mashup: plugin_settings.form.refresh_paused_mashup
       refresh_paused_mashup_hint: plugin_settings.form.refresh_paused_mashup_hint
       refresh_stopped: plugin_settings.form.refresh_stopped
+      view_recipe: View Recipe
       visit_docs: plugin_settings.form.visit_docs
     import:
       archive_too_large: plugin_settings.import.archive_too_large

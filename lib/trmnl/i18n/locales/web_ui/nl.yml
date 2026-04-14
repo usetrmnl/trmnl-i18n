@@ -4,7 +4,6 @@ nl:
   about: About
   add: Toevoegen
   add_new: Nieuwe toevoegen
-  ago: ago
   already_have_account: Ik heb al een account
   are_you_sure: Are you sure?
   back: Terug
@@ -90,6 +89,45 @@ nl:
     formats:
       shorter: "%-H.%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} geleden"
+      future: "over %{time}"
+      distance_in_words:
+        half_a_minute: "een halve minuut"
+        less_than_x_seconds:
+          one: "minder dan een seconde"
+          other: "minder dan %{count} seconden"
+        less_than_x_minutes:
+          one: "minder dan een minuut"
+          other: "minder dan %{count} minuten"
+        x_seconds:
+          one: "%{count} seconde"
+          other: "%{count} seconden"
+        x_minutes:
+          one: "%{count} minuut"
+          other: "%{count} minuten"
+        about_x_hours:
+          one: "ongeveer een uur"
+          other: "ongeveer %{count} uur"
+        x_days:
+          one: "%{count} dag"
+          other: "%{count} dagen"
+        about_x_months:
+          one: "ongeveer een maand"
+          other: "ongeveer %{count} maanden"
+        x_months:
+          one: "%{count} maand"
+          other: "%{count} maanden"
+        about_x_years:
+          one: "ongeveer een jaar"
+          other: "ongeveer %{count} jaar"
+        over_x_years:
+          one: "meer dan een jaar"
+          other: "meer dan %{count} jaar"
+        almost_x_years:
+          one: "bijna een jaar"
+          other: "bijna %{count} jaar"
   account:
     index:
       title: Account
@@ -129,6 +167,7 @@ nl:
       session_hint: Je bent ingelogd als %{user}
       show_title_bar: Show title bar
       show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Tijdzone
       time_zone_hint: Bepaalt de refresh rates en apparaat slaapmodus.
       locale: Landinstelling
@@ -225,7 +264,7 @@ nl:
       mirror_sync: Sync Screens
       ota_enabled: OTA-updates ingeschakeld
       ota_enabled_hint: Installeer automatisch nieuwe firmware. Deactiveer als je je je eigen firmware wil gebruiken.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
+      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Activeer Maximale Compatibiliteit
       maximum_compatibility_hint: Los scherm issues op met bepaalde e-ink driver chips. Zet snelle verversing uit. Firmware 1.6.0+ benodigd.
       palette: Color Palette
@@ -240,6 +279,8 @@ nl:
       special_function_learn_more: Lees __hier__ meer over speciale functies.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
@@ -383,6 +424,11 @@ nl:
       remove_from_playlist: Verwijderen van afspeellijst
       hide_playlist: Verberg dit item
       show_playlist: Toon dit item
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +506,7 @@ nl:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: Recept niet gevonden
   plugin_settings:
@@ -475,6 +522,7 @@ nl:
     form:
       active_hint: Toon of verberg deze plugin op je apparaat
       advanced_settings: Geavanceerde Instellingen
+      back_to_playlist: Back to Playlist
       back_to_plugin: Terug naar %{plugin}
       back_to_plugins: Terug naar plugins
       connect_with: Verbinden met %{plugin}
@@ -504,6 +552,7 @@ nl:
       linked_account_success: Succesvol gekoppeld met %{plugin_name}
       link_oauth: Account koppelen
       link_oauth_hint: Voordat je verder gaat, volg het veilige authenticatieproces van %{plugin}
+      mirrored: Mirrored
       multiple_instances_hint: Deze plugin ondersteunt meerdere instanties.
       name: Naam
       name_hint: Voer een naam in om het makkelijk te herkennen in de toekomst
@@ -521,6 +570,7 @@ nl:
       recipe_cta_body_in_review: De plugin is ingediend bij het team. Nog even geduld.
       recipe_cta_body_not_published: Verstuur de plugin zodat anderen deze ook kunnen gebruiken. __Lees hier meer over__.
       recipe_cta_confirm: Weet je het zeker? Ons team zal je plugin reviewen en bij je terugkomen met mogelijke vragen. Je kan ondertussen wijzigingen blijven doorvoeren.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
       recipe_visibility_public: Public
@@ -542,6 +592,7 @@ nl:
       refresh_paused_mashup: Mashups worden ververst
       refresh_paused_mashup_hint: Auto-verversen gepauzeerd voor fullscreen. Mashups worden geupdate.
       refresh_stopped: Auto-verversen gestopt. Los de plugin fouten op om door te gaan.
+      view_recipe: View Recipe
       visit_docs: Bekijk documentatie
     import:
       archive_too_large: ZIP bestand is te groot (%{max_mb} MB max)

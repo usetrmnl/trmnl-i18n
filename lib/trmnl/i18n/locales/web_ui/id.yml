@@ -4,7 +4,6 @@ id:
   about: About
   add: Tambah
   add_new: Tambah baru
-  ago: ago
   already_have_account: Saya sudah punya akun
   are_you_sure: Are you sure?
   back: Kembali
@@ -90,6 +89,48 @@ id:
     formats:
       shorter: "%-H.%M"
     start_of_week: 1
+  # TODO: native speaker review needed
+  datetime:
+    relative:
+      past: "%{time} ago"
+      future: "in %{time}"
+      distance_in_words:
+        half_a_minute: "setengah menit"
+        less_than_x_seconds:
+          zero: "kurang dari 1 detik"
+          one: "kurang dari %{count} detik"
+          other: "kurang dari %{count} detik"
+        less_than_x_minutes:
+          zero: "kurang dari 1 menit"
+          one: "kurang dari %{count} menit"
+          other: "kurang dari %{count} menit"
+        x_seconds:
+          one: "satu detik"
+          other: "%{count} detik"
+        x_minutes:
+          one: "satu menit"
+          other: "%{count} menit"
+        about_x_hours:
+          one: "sekitar satu jam"
+          other: "sekitar %{count} jam"
+        x_days:
+          one: "sehari"
+          other: "%{count} hari"
+        about_x_months:
+          one: "sekitar sebulan"
+          other: "sekitar %{count} bulan"
+        x_months:
+          one: "sebulan"
+          other: "%{count} bulan"
+        about_x_years:
+          one: "sekitar setahun"
+          other: "sekitar %{count} tahun"
+        over_x_years:
+          one: "lebih dari setahun"
+          other: "lebih dari %{count} tahun"
+        almost_x_years:
+          one: "hampir setahun"
+          other: "hampir %{count} tahun"
   account:
     index:
       title: Akun
@@ -129,6 +170,7 @@ id:
       session_hint: Anda sedang masuk sebagai %{user}
       show_title_bar: Show title bar
       show_title_bar_hint: If disabled, native (non global) and third party plugins will be more minimal.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Zona Waktu
       time_zone_hint: Menentukan penyegaran dan waktu tidur perangkat.
       locale: Locale
@@ -225,7 +267,7 @@ id:
       mirror_sync: Sync Screens
       ota_enabled: Pembaruan OTA Diaktifkan
       ota_enabled_hint: Firmware terbaru akan diinstal secara otomatis. Nonaktifkan jika menggunakan firmware Anda sendiri.
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from usetrmnl.com/flash
+      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       palette: Color Palette
@@ -240,6 +282,8 @@ id:
       special_function_learn_more: Pelajari lebih lanjut tentang fungsi khusus __di sini__.
       temperature_profile: Temperature Profile
       temperature_profile_hint: Don't change unless instructed. For displays with washed out images.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
@@ -383,6 +427,11 @@ id:
       remove_from_playlist: Hapus dari daftar putar
       hide_playlist: Hide this item
       show_playlist: Show this item
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +509,7 @@ id:
     forks:
       one: Fork
       other: Forks
+    forked: Recipe forked
     new:
       error: Recipe not found
   plugin_settings:
@@ -475,6 +525,7 @@ id:
     form:
       active_hint: Tampilkan atau sembunyikan plugin ini di perangkat Anda
       advanced_settings: Advanced Settings
+      back_to_playlist: Back to Playlist
       back_to_plugin: Kembali ke %{plugin}
       back_to_plugins: Kembali ke Plugin
       connect_with: Hubungkan dengan %{plugin}
@@ -504,6 +555,7 @@ id:
       linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: Tautkan Akun
       link_oauth_hint: Sebelum Anda melanjutkan, ikuti proses otorisasi aman yang disediakan oleh %{plugin}
+      mirrored: Mirrored
       multiple_instances_hint: Plugin ini mendukung beberapa instance.
       name: Nama
       name_hint: Beri nama untuk referensi yang lebih mudah
@@ -521,6 +573,7 @@ id:
       recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
       recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
       recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
+      recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
       recipe_visibility_public: Public
@@ -542,6 +595,7 @@ id:
       refresh_paused_mashup: Refreshing Mashups
       refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
       refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
+      view_recipe: View Recipe
       visit_docs: Kunjungi Dokumentasi
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)

@@ -5,97 +5,97 @@ ko:
     and_x_more_suffix: 개 더
     days_left_year:
       title: 올해 남은 날
-      days_passed: 일 후
+      days_passed: 지난 날
       days_left: 남은 날
     lunar_calendar:
       title: 음력
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: 다음 단계
+      age: 월령
+      current_phase: 현재 위상
+      illumination: 달 밝기
+      next_full_moon: 다음 보름달
+      next_new_moon: 다음 삭
+      next_phase: 다음 위상
       next_phase_short: 다음
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: 삭
+        waxing_crescent: 초승달
+        first_quarter: 상현달
+        waxing_gibbous: 상현보름
+        full_moon: 보름달
+        waning_gibbous: 하현보름
+        third_quarter: 하현달
+        waning_crescent: 그믐달
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Netatmo 날씨
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: 실내 온도
+      indoor_temp_short: 실내
+      indoor_humidity: 실내 습도
+      indoor_humidity_short: 실내 습도
+      outdoor_humidity: 실외 습도
+      outdoor_humidity_short: 실외 습도
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      pressure: 기압
+      noise: 소음
+      min_max: 최저/최고
+      feels: 체감
+      rain: 비
+      wind: 바람
+      gust: 돌풍
+      default_station_name: Netatmo 스테이션
+      default_outdoor_module: 실외 온도
+      default_indoor_module: 실내
+      trends_title: "%{metric} 추이"
+      trends_title_short: 추이
+      temperature_trends: 온도 추이
+      temperature_trends_short: 온도 추이
+      outdoor_now: 현재 실외
+      indoor_now: 현재 실내
+      now: 현재
+      low_high_24h: 24시간 최저/최고
+      average_24h: 24시간 평균
+      outdoor: 실외
+      indoor: 실내
+      rain_gauge_not_connected: 우량계가 연결되지 않았어요
+      wind_gauge_not_connected: 풍속계가 연결되지 않았어요
+      no_rain_gauge: 우량계 없음
+      no_wind_gauge: 풍속계 없음
+      add_module_hint: 이 데이터를 보려면 %{module} 모듈을 추가하세요
+      range_24h: 24시간 범위
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
+        missing_access_token: 액세스 토큰이 없어요. Netatmo 계정을 다시 연결하세요.
+        no_station_selected: 기상 관측소가 선택되지 않았어요. 설정에서 관측소를 선택하세요.
+        connection_failed: Netatmo 관측소에 연결할 수 없어요. 인터넷 연결을 확인하세요.
+        data_retrieval_failed: 날씨 데이터를 가져올 수 없어요. 나중에 다시 시도하세요.
+        session_expired: 세션이 만료됐어요. 설정에서 Netatmo 계정을 다시 연결하세요.
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: 배송 예정
+      empty: 배송 내역이 없어요
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: Parcel API 오류
+        http: HTTP 오류 %{code}
+        internal: 내부 오류
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: 배송 중
+          other: 배송 중
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: 최근 배송
+          other: 최근 배송
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: 배송 완료
+        delivery_exception: 배송 이상
+        expecting_pickup: 픽업 대기
+        failed_delivery_attempt: 배송 실패
+        frozen: 보류
+        in_transit: 배송 중
+        information_received: 접수됨
+        not_found: 찾을 수 없음
+        out_for_delivery: 배달 중
+        unknown: 알 수 없음
+      today: 오늘
+      tomorrow: 내일
     weather:
       title: 날씨
       temperature: 온도
@@ -107,174 +107,174 @@ ko:
       right_now: 지금
       today: 오늘
       tomorrow: 내일
-      low_high_short: L/H
+      low_high_short: 최저/최고
       uv_short: UV
-      max: Max
+      max: 최대
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: 맑음
+          cloudy: 흐림
+          foggy: 안개
+          partly_cloudy: 구름 많음
+          rain_likely: 비 예상
+          rain_possible: 비 가능성
+          snow: 눈
+          snow_possible: 눈 가능성
+          thunderstorms_likely: 뇌우 예상
+          thunderstorms_possible: 뇌우 가능성
+          very_light_rain: 약한 비
+          windy: 바람
+          wintry_mix_likely: 눈비 예상
+          wintry_mix_possible: 눈비 가능성
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: 낮음
+          moderate: 보통
+          high: 높음
+          very_high: 매우 높음
+          extreme: 극심
         conditions:
         - code: 1000
-          day: Sunny
-          night: Clear
+          day: 맑음
+          night: 맑음
         - code: 1003
-          day: Partly Cloudy
-          night: Partly Cloudy
+          day: 구름 많음
+          night: 구름 많음
         - code: 1006
-          day: Cloudy
-          night: Cloudy
+          day: 구름 많음
+          night: 구름 많음
         - code: 1009
-          day: Overcast
-          night: Overcast
+          day: 흐림
+          night: 흐림
         - code: 1030
-          day: Mist
-          night: Mist
+          day: 박무
+          night: 박무
         - code: 1063
-          day: Light Rain
-          night: Light Rain
+          day: 약한 비
+          night: 약한 비
         - code: 1066
-          day: Light Snow
-          night: Light Snow
+          day: 약한 눈
+          night: 약한 눈
         - code: 1069
-          day: Sleet
-          night: Sleet
+          day: 진눈깨비
+          night: 진눈깨비
         - code: 1072
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: 어는 이슬비
+          night: 어는 이슬비
         - code: 1087
-          day: Thunder
-          night: Thunder
+          day: 천둥
+          night: 천둥
         - code: 1114
-          day: Blowing Snow
-          night: Blowing Snow
+          day: 눈날림
+          night: 눈날림
         - code: 1117
-          day: Blizzard
-          night: Blizzard
+          day: 눈보라
+          night: 눈보라
         - code: 1135
-          day: Fog
-          night: Fog
+          day: 안개
+          night: 안개
         - code: 1147
-          day: Freezing Fog
-          night: Freezing Fog
+          day: 어는 안개
+          night: 어는 안개
         - code: 1150
-          day: Light Drizzle
-          night: Light Drizzle
+          day: 약한 이슬비
+          night: 약한 이슬비
         - code: 1153
-          day: Drizzle
-          night: Drizzle
+          day: 이슬비
+          night: 이슬비
         - code: 1168
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: 어는 이슬비
+          night: 어는 이슬비
         - code: 1171
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: 강한 어는 이슬비
+          night: 강한 어는 이슬비
         - code: 1180
-          day: Light Rain
-          night: Light Rain
+          day: 약한 비
+          night: 약한 비
         - code: 1183
-          day: Light Rain
-          night: Light Rain
+          day: 약한 비
+          night: 약한 비
         - code: 1186
-          day: Moderate Rain
-          night: Moderate Rain
+          day: 비
+          night: 비
         - code: 1189
-          day: Moderate Rain
-          night: Moderate Rain
+          day: 비
+          night: 비
         - code: 1192
-          day: Heavy Rain
-          night: Heavy Rain
+          day: 강한 비
+          night: 강한 비
         - code: 1195
-          day: Heavy Rain
-          night: Heavy Rain
+          day: 강한 비
+          night: 강한 비
         - code: 1198
-          day: Light Freeze
-          night: Light Freeze
+          day: 약한 어는 비
+          night: 약한 어는 비
         - code: 1201
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: 어는 비
+          night: 어는 비
         - code: 1204
-          day: Light Sleet
-          night: Light Sleet
+          day: 약한 진눈깨비
+          night: 약한 진눈깨비
         - code: 1207
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: 진눈깨비
+          night: 진눈깨비
         - code: 1210
-          day: Light Snow
-          night: Light Snow
+          day: 약한 눈
+          night: 약한 눈
         - code: 1213
-          day: Light Snow
-          night: Light Snow
+          day: 약한 눈
+          night: 약한 눈
         - code: 1216
-          day: Moderate Snow
-          night: Moderate Snow
+          day: 눈
+          night: 눈
         - code: 1219
-          day: Moderate Snow
-          night: Moderate Snow
+          day: 눈
+          night: 눈
         - code: 1222
-          day: Heavy Snow
-          night: Heavy Snow
+          day: 강한 눈
+          night: 강한 눈
         - code: 1225
-          day: Heavy Snow
-          night: Heavy Snow
+          day: 강한 눈
+          night: 강한 눈
         - code: 1237
-          day: Ice Pellets
-          night: Ice Pellets
+          day: 얼음싸라기
+          night: 얼음싸라기
         - code: 1240
-          day: Light Rain
-          night: Light Rain
+          day: 약한 소나기
+          night: 약한 소나기
         - code: 1243
-          day: Heavy Rain
-          night: Heavy Rain
+          day: 소나기
+          night: 소나기
         - code: 1246
-          day: Torrential Rain
-          night: Torrential Rain
+          day: 호우
+          night: 호우
         - code: 1249
-          day: Light Sleet
-          night: Light Sleet
+          day: 약한 진눈깨비
+          night: 약한 진눈깨비
         - code: 1252
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: 진눈깨비
+          night: 진눈깨비
         - code: 1255
-          day: Light Snow
-          night: Light Snow
+          day: 약한 소낙눈
+          night: 약한 소낙눈
         - code: 1258
-          day: Heavy Snow
-          night: Heavy Snow
+          day: 소낙눈
+          night: 소낙눈
         - code: 1261
-          day: Light Ice
-          night: Light Ice
+          day: 약한 싸락우박
+          night: 약한 싸락우박
         - code: 1264
-          day: Heavy Ice
-          night: Heavy Ice
+          day: 싸락우박
+          night: 싸락우박
         - code: 1273
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: 뇌우
+          night: 뇌우
         - code: 1276
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: 뇌우
+          night: 뇌우
         - code: 1279
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: 천둥 동반 눈
+          night: 천둥 동반 눈
         - code: 1282
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: 천둥 동반 강한 눈
+          night: 천둥 동반 강한 눈

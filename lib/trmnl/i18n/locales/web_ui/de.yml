@@ -4,7 +4,6 @@ de:
   about: Über
   add: Hinzufügen
   add_new: Neu hinzufügen
-  ago: vor
   already_have_account: Ich besitze bereits ein Konto
   are_you_sure: Bist du sicher?
   back: Zurück
@@ -90,6 +89,45 @@ de:
     formats:
       shorter: "%-H:%M"
     start_of_week: '1'
+  datetime:
+    relative:
+      past: "vor %{time}"
+      future: "in %{time}"
+      distance_in_words:
+        half_a_minute: "einer halben Minute"
+        less_than_x_seconds:
+          one: "weniger als einer Sekunde"
+          other: "weniger als %{count} Sekunden"
+        less_than_x_minutes:
+          one: "weniger als einer Minute"
+          other: "weniger als %{count} Minuten"
+        x_seconds:
+          one: "einer Sekunde"
+          other: "%{count} Sekunden"
+        x_minutes:
+          one: "einer Minute"
+          other: "%{count} Minuten"
+        about_x_hours:
+          one: "ungefähr einer Stunde"
+          other: "ungefähr %{count} Stunden"
+        x_days:
+          one: "einem Tag"
+          other: "%{count} Tagen"
+        about_x_months:
+          one: "ungefähr einem Monat"
+          other: "ungefähr %{count} Monaten"
+        x_months:
+          one: "einem Monat"
+          other: "%{count} Monaten"
+        about_x_years:
+          one: "ungefähr einem Jahr"
+          other: "ungefähr %{count} Jahren"
+        over_x_years:
+          one: "mehr als einem Jahr"
+          other: "mehr als %{count} Jahren"
+        almost_x_years:
+          one: "fast einem Jahr"
+          other: "fast %{count} Jahren"
   account:
     index:
       title: Konto
@@ -129,6 +167,7 @@ de:
       session_hint: Angemeldet als %{user}
       show_title_bar: Titelleiste anzeigen
       show_title_bar_hint: Bei ausgeschalteter Option werden (nicht-globale) offizielle und Community-Erweiterungen minimalistischer aussehen.
+      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
       time_zone: Zeitzone
       time_zone_hint: Legt Aktualisierungsraten und Ruhezeiten des Geräts fest.
       locale: Sprache
@@ -225,7 +264,7 @@ de:
       mirror_sync: Bildschirme synchronisieren
       ota_enabled: OTA-Updates aktiviert
       ota_enabled_hint: Neue Firmware automatisch installieren. Deaktiviere diese Option, um deine eigene Firmware zu verwenden.
-      ota_byod_not_supported: OTA wird für BYOD-Geräte nicht unterstützt. Überspiele eine kompatible Version direkt unter usetrmnl.com/flash.
+      ota_byod_not_supported: OTA wird für BYOD-Geräte nicht unterstützt. Überspiele eine kompatible Version direkt unter trmnl.com/flash.
       maximum_compatibility: Maximale Kompatibilität aktivieren
       maximum_compatibility_hint: Behebt Anzeigefehler aufgrund bestimmter E-Ink-Treiber-Chips. Deaktiviert schnelles Rendern. Benötigt Firmware 1.6.0+.
       palette: Farbpalette
@@ -240,6 +279,8 @@ de:
       special_function_learn_more: Erfahre mehr zu den Sonderfunktionen __hier__.
       temperature_profile: Temperaturprofil
       temperature_profile_hint: Nur ändern, wenn du dazu aufgefordert wirst. Für Displays mit zu blasser Darstellung.
+      touchbar_mode: Touchbar Mode
+      touchbar_mode_hint: What type of gestures should your device respond to?
       tidbyt_credentials: Tidbyt-Anmeldedaten
       tidbyt_credentials_hint: Gib hier die API-Zugangsdaten deines Tidbyt-Geräts ein (Einstellungen → Entwickler → API-Schlüssel in der Tidbyt-App).
       tidbyt_credentials_invalid: Ungültige Tidbyt-API-Zugangsdaten. Bitte prüfen und erneut versuchen.
@@ -383,6 +424,11 @@ de:
       remove_from_playlist: Von Wiedergabeliste entfernen
       hide_playlist: Eintrag verstecken
       show_playlist: Eintrag anzeigen
+      duplicate: Duplicate
+      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      color_palette: Color Palette
+      device_default: Device Default (%{name})
+      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -460,6 +506,7 @@ de:
     forks:
       one: Fork
       other: Forks
+    forked: Blaupause geforkt
     new:
       error: Blaupause nicht gefunden
   plugin_settings:
@@ -475,6 +522,7 @@ de:
     form:
       active_hint: Anzeigen oder Verbergen der Erweiterung auf dem Gerät
       advanced_settings: Erweiterte Einstellungen
+      back_to_playlist: Zurück zur Wiedergabeliste
       back_to_plugin: Zurück zu %{plugin}
       back_to_plugins: Zurück zu den Erweiterungen
       connect_with: Verbinden mit %{plugin}
@@ -504,6 +552,7 @@ de:
       linked_account_success: Erfolgreich verbunden mit %{plugin_name}
       link_oauth: Konto verknüpfen
       link_oauth_hint: Um fortzufahren, muss eine Kontoverknüpfung mit %{plugin} hergestellt werden
+      mirrored: gespiegelt
       multiple_instances_hint: Diese Erweiterung unterstützt mehrere Instanzen.
       name: Name
       name_hint: Vergib einen Namen zur einfachen Unterscheidung
@@ -521,6 +570,7 @@ de:
       recipe_cta_body_in_review: Diese Erweiterung wurde an unser Team übermittelt. Danke für deine Geduld!
       recipe_cta_body_not_published: Reiche diese Erweiterung ein, damit sie auch andere installieren können. __Mehr erfahren__.
       recipe_cta_confirm: Bist du sicher? Unser Team wird sich in einigen Tagen nach erfolgter Prüfung zurückmelden. Du kannst weiterhin Änderungen vornehmen.
+      recipe_mirrored: Diese Anzeige ist eine Spiegelung der Blaupause.
       recipe_visibility_title: Wie möchtest du veröffentlichen?
       recipe_visibility_edit_title: Einreichung bearbeiten
       recipe_visibility_public: Öffentlich
@@ -542,6 +592,7 @@ de:
       refresh_paused_mashup: Mashups aktualisieren
       refresh_paused_mashup_hint: Automatische Aktualisierung der Vollbildansicht pausiert. Mashups werden aktualisiert.
       refresh_stopped: Automatische Aktualisierung angehalten. Bitte zuerst den Fehler in der Erweiterung beheben.
+      view_recipe: Blaupause anzeigen
       visit_docs: Dokumentation anzeigen
     import:
       archive_too_large: ZIP-Datei ist zu groß (maximal %{max_mb} MB)
