@@ -92,15 +92,15 @@ it:
   datetime:
     relative:
       past: "%{time} fa"
-      future: "tra %{time}"
+      future: tra %{time}
       distance_in_words:
-        half_a_minute: "mezzo minuto"
+        half_a_minute: mezzo minuto
         less_than_x_seconds:
-          one: "meno di un secondo"
-          other: "meno di %{count} secondi"
+          one: meno di un secondo
+          other: meno di %{count} secondi
         less_than_x_minutes:
-          one: "meno di un minuto"
-          other: "meno di %{count} minuti"
+          one: meno di un minuto
+          other: meno di %{count} minuti
         x_seconds:
           one: "%{count} secondo"
           other: "%{count} secondi"
@@ -108,26 +108,26 @@ it:
           one: "%{count} minuto"
           other: "%{count} minuti"
         about_x_hours:
-          one: "circa un'ora"
-          other: "circa %{count} ore"
+          one: circa un'ora
+          other: circa %{count} ore
         x_days:
           one: "%{count} giorno"
           other: "%{count} giorni"
         about_x_months:
-          one: "circa un mese"
-          other: "circa %{count} mesi"
+          one: circa un mese
+          other: circa %{count} mesi
         x_months:
           one: "%{count} mese"
           other: "%{count} mesi"
         about_x_years:
-          one: "circa un anno"
-          other: "circa %{count} anni"
+          one: circa un anno
+          other: circa %{count} anni
         over_x_years:
-          one: "oltre un anno"
-          other: "oltre %{count} anni"
+          one: oltre un anno
+          other: oltre %{count} anni
         almost_x_years:
-          one: "quasi un anno"
-          other: "quasi %{count} anni"
+          one: quasi un anno
+          other: quasi %{count} anni
   account:
     index:
       title: Profilo

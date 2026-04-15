@@ -89,48 +89,47 @@ id:
     formats:
       shorter: "%-H.%M"
     start_of_week: 1
-  # TODO: native speaker review needed
   datetime:
     relative:
       past: "%{time} ago"
-      future: "in %{time}"
+      future: in %{time}
       distance_in_words:
-        half_a_minute: "setengah menit"
+        half_a_minute: setengah menit
         less_than_x_seconds:
-          zero: "kurang dari 1 detik"
-          one: "kurang dari %{count} detik"
-          other: "kurang dari %{count} detik"
+          one: kurang dari %{count} detik
+          other: kurang dari %{count} detik
+          zero: kurang dari 1 detik
         less_than_x_minutes:
-          zero: "kurang dari 1 menit"
-          one: "kurang dari %{count} menit"
-          other: "kurang dari %{count} menit"
+          one: kurang dari %{count} menit
+          other: kurang dari %{count} menit
+          zero: kurang dari 1 menit
         x_seconds:
-          one: "satu detik"
+          one: satu detik
           other: "%{count} detik"
         x_minutes:
-          one: "satu menit"
+          one: satu menit
           other: "%{count} menit"
         about_x_hours:
-          one: "sekitar satu jam"
-          other: "sekitar %{count} jam"
+          one: sekitar satu jam
+          other: sekitar %{count} jam
         x_days:
-          one: "sehari"
+          one: sehari
           other: "%{count} hari"
         about_x_months:
-          one: "sekitar sebulan"
-          other: "sekitar %{count} bulan"
+          one: sekitar sebulan
+          other: sekitar %{count} bulan
         x_months:
-          one: "sebulan"
+          one: sebulan
           other: "%{count} bulan"
         about_x_years:
-          one: "sekitar setahun"
-          other: "sekitar %{count} tahun"
+          one: sekitar setahun
+          other: sekitar %{count} tahun
         over_x_years:
-          one: "lebih dari setahun"
-          other: "lebih dari %{count} tahun"
+          one: lebih dari setahun
+          other: lebih dari %{count} tahun
         almost_x_years:
-          one: "hampir setahun"
-          other: "hampir %{count} tahun"
+          one: hampir setahun
+          other: hampir %{count} tahun
   account:
     index:
       title: Akun
