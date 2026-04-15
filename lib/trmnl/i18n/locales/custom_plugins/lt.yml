@@ -189,16 +189,16 @@ lt:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: '.input {$value :number} .match $value zero {{Nėra prisijungimų}} one {{{$value :number} prisijungimas}} other {{{$value :number} prisijungimai}}'
-      forks: '.input {$value :number} .match $value zero {{Nėra atšakų}} one {{{$value :number} atšaka}} other {{{$value :number} atšakos}}'
-      installs: '.input {$value :number} .match $value zero {{Nėra įdiegimų}} one {{{$value :number} įdiegimas}} other {{{$value :number} įdiegimai}}'
+      connections: ".input {$value :number} .match $value zero {{Nėra prisijungimų}} one {{{$value :number} prisijungimas}} other {{{$value :number} prisijungimai}}"
+      forks: ".input {$value :number} .match $value zero {{Nėra atšakų}} one {{{$value :number} atšaka}} other {{{$value :number} atšakos}}"
+      installs: ".input {$value :number} .match $value zero {{Nėra įdiegimų}} one {{{$value :number} įdiegimas}} other {{{$value :number} įdiegimai}}"
       and_more: ir dar {$value :number}
       error_keyword_title: "„{$keyword}“ neatitiko jokių rezultatų."
       error_keyword_subtitle: Pabandykite ieškoti ko nors kito.
       error_new_title: Naujų receptų nerasta.
       error_new_subtitle: Taip neturėtų nutikti.
       error_self_title: Jūs nepaskelbėte jokių receptų.
-      error_self_subtitle: "Sužinokite, kaip paskelbti savo pirmąjį receptą čia: https://help.trmnl.com/en/articles/9510536-private-plugins"
+      error_self_subtitle: 'Sužinokite, kaip paskelbti savo pirmąjį receptą čia: https://help.trmnl.com/en/articles/9510536-private-plugins'
       error_author_id_title: 'Vartotojas #{$authorId} nepaskelbė jokių receptų.'
       error_author_id_subtitle: Nerasta jokių receptų, susietų su šiuo ID.
       error_recipe_ids_title: Nerasta jokio recepto ID.
@@ -206,4 +206,4 @@ lt:
     horizontal_world_clock:
       name: Pasaulio laikrodis
     language_learning_sentences:
-      from_to: "iš {$from :langName} į {$to :langNameList}"
+      from_to: iš {$from :langName} į {$to :langNameList}

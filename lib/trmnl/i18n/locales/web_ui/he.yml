@@ -91,45 +91,45 @@ he:
     start_of_week: 0
   datetime:
     relative:
-      past: "לפני %{time}"
-      future: "בעוד %{time}"
+      past: לפני %{time}
+      future: בעוד %{time}
       distance_in_words:
-        half_a_minute: "חצי דקה"
+        half_a_minute: חצי דקה
         less_than_x_seconds:
-          zero: "פחות משניה אחת"
-          one: "פחות משניה אחת"
-          other: "פחות מ- %{count} שניות"
+          one: פחות משניה אחת
+          other: פחות מ- %{count} שניות
+          zero: פחות משניה אחת
         less_than_x_minutes:
-          zero: "פחות מדקה אחת"
-          one: "פחות מדקה אחת"
-          other: "פחות מ- %{count} דקות"
+          one: פחות מדקה אחת
+          other: פחות מ- %{count} דקות
+          zero: פחות מדקה אחת
         x_seconds:
-          one: "שניה אחת"
+          one: שניה אחת
           other: "%{count} שניות"
         x_minutes:
-          one: "דקה אחת"
+          one: דקה אחת
           other: "%{count} דקות"
         about_x_hours:
-          one: "בערך שעה אחת"
-          other: "בערך %{count} שעות"
+          one: בערך שעה אחת
+          other: בערך %{count} שעות
         x_days:
-          one: "יום אחד"
+          one: יום אחד
           other: "%{count} ימים"
         about_x_months:
-          one: "בערך חודש אחד"
-          other: "בערך %{count} חודשים"
+          one: בערך חודש אחד
+          other: בערך %{count} חודשים
         x_months:
-          one: "חודש אחד"
+          one: חודש אחד
           other: "%{count} חודשים"
         about_x_years:
-          one: "בערך שנה אחת"
-          other: "בערך %{count} שנים"
+          one: בערך שנה אחת
+          other: בערך %{count} שנים
         over_x_years:
-          one: "מעל שנה אחת"
-          other: "מעל %{count} שנים"
+          one: מעל שנה אחת
+          other: מעל %{count} שנים
         almost_x_years:
-          one: "כמעט שנה"
-          other: "כמעט %{count} שנים"
+          one: כמעט שנה
+          other: כמעט %{count} שנים
   account:
     index:
       title: Account

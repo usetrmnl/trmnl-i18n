@@ -81,7 +81,7 @@ es-ES:
   terms: Términos
   update: Actualizar
   view: Ver
-  collaboration_request: ¿Quieres colaborar?
+  collaboration_request: "¿Quieres colaborar?"
   collaboration_request_hint: Asociaciones, ventas grupales, proyectos especiales — tú decides.
   collaboration_request_cta: Hablemos
   welcome: Bienvenido
@@ -91,16 +91,16 @@ es-ES:
     start_of_week: 1
   datetime:
     relative:
-      past: "hace %{time}"
-      future: "en %{time}"
+      past: hace %{time}
+      future: en %{time}
       distance_in_words:
-        half_a_minute: "medio minuto"
+        half_a_minute: medio minuto
         less_than_x_seconds:
-          one: "menos de %{count} segundo"
-          other: "menos de %{count} segundos"
+          one: menos de %{count} segundo
+          other: menos de %{count} segundos
         less_than_x_minutes:
-          one: "menos de %{count} minuto"
-          other: "menos de %{count} minutos"
+          one: menos de %{count} minuto
+          other: menos de %{count} minutos
         x_seconds:
           one: "%{count} segundo"
           other: "%{count} segundos"
@@ -108,26 +108,26 @@ es-ES:
           one: "%{count} minuto"
           other: "%{count} minutos"
         about_x_hours:
-          one: "alrededor de %{count} hora"
-          other: "alrededor de %{count} horas"
+          one: alrededor de %{count} hora
+          other: alrededor de %{count} horas
         x_days:
           one: "%{count} día"
           other: "%{count} días"
         about_x_months:
-          one: "alrededor de %{count} mes"
-          other: "alrededor de %{count} meses"
+          one: alrededor de %{count} mes
+          other: alrededor de %{count} meses
         x_months:
           one: "%{count} mes"
           other: "%{count} meses"
         about_x_years:
-          one: "alrededor de %{count} año"
-          other: "alrededor de %{count} años"
+          one: alrededor de %{count} año
+          other: alrededor de %{count} años
         over_x_years:
-          one: "más de %{count} año"
-          other: "más de %{count} años"
+          one: más de %{count} año
+          other: más de %{count} años
         almost_x_years:
-          one: "casi %{count} año"
-          other: "casi %{count} años"
+          one: casi %{count} año
+          other: casi %{count} años
   account:
     index:
       title: Cuenta
@@ -237,9 +237,9 @@ es-ES:
       display_calibration: Calibración de pantalla
       display_calibration_hint: Ajusta el renderizado de tu pantalla. Déjalo vacío para usar los valores predeterminados del modelo.
       display_calibration_pixel_ratio: Relación de píxeles
-      display_calibration_pixel_ratio_hint: "Nivel de zoom de la imagen (0.5–3.0). Por defecto:"
+      display_calibration_pixel_ratio_hint: 'Nivel de zoom de la imagen (0.5–3.0). Por defecto:'
       display_calibration_ui_scale: Escala de la interfaz
-      display_calibration_ui_scale_hint: "Tamaño de texto y elementos (0.5–2.0). Por defecto:"
+      display_calibration_ui_scale_hint: 'Tamaño de texto y elementos (0.5–2.0). Por defecto:'
       edit_device: Editar dispositivo
       firmware: Firmware
       firmware_updates_enabled: Actualizaciones habilitadas
@@ -280,7 +280,7 @@ es-ES:
       temperature_profile: Perfil de temperatura
       temperature_profile_hint: No cambiar a menos que se indique. Para pantallas con imágenes descoloridas.
       touchbar_mode: Modo de barra táctil
-      touchbar_mode_hint: ¿A qué tipo de gestos debe responder tu dispositivo?
+      touchbar_mode_hint: "¿A qué tipo de gestos debe responder tu dispositivo?"
       tidbyt_credentials: Credenciales Tidbyt
       tidbyt_credentials_hint: Introduce las credenciales API de tu dispositivo Tidbyt desde la app de Tidbyt en Ajustes → Developer → Obtener clave API.
       tidbyt_credentials_invalid: Las credenciales API de Tidbyt no son válidas. Por favor, comprueba y vuelve a intentarlo.
@@ -545,9 +545,9 @@ es-ES:
       learn_more_native_short: Mantenido por TRMNL.
       learn_more_recipe_author: "¿Necesitas ayuda? Contacta a %{recipe_author} en Discord."
       learn_more_recipe_long: Este plugin es una receta de la comunidad y no es mantenido por TRMNL.
-      learn_more_recipe_short: "Nota: este plugin es una receta."
+      learn_more_recipe_short: 'Nota: este plugin es una receta.'
       learn_more_third_party_long: Este plugin es de un tercero y no está mantenido por TRMNL.
-      learn_more_third_party_short: "Nota: este plugin es de un tercero."
+      learn_more_third_party_short: 'Nota: este plugin es de un tercero.'
       linked_account: Cuenta vinculada
       linked_account_success: Vinculado con éxito a %{plugin_name}
       link_oauth: Vincular cuenta
@@ -630,7 +630,7 @@ es-ES:
       no_days_error: Please select at least one day.
   upgrade:
     index:
-      title: "Actualizando dispositivo:"
+      title: 'Actualizando dispositivo:'
       tagline: Desbloquea plugins personalizados y __más__.
       pay: Pagar
       error: El dispositivo %{device_name} ya se ha actualizado, cambie a otro dispositivo
