@@ -267,8 +267,10 @@ en-GB:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      color_and_rotation: Colour & Rotation
+      screen_rotation: Screen Rotation
+      palette: Colour Palette
+      palette_hint: Select the set of colours to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
       sleep_mode: Sleep Mode
       sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
       sleep_screen: Sleep Screen
@@ -296,7 +298,7 @@ en-GB:
       your_device: Your TRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 colour levels instead of 2.
         warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
         warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
         cta: Upgrade to TRMNL OG (2-bit)
@@ -426,9 +428,9 @@ en-GB:
       show_playlist: Show this item
       duplicate: Duplicate
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
-      color_palette: Color Palette
+      color_palette: Colour Palette
       device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
+      palette_unavailable: Only available for devices with multiple colour palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
