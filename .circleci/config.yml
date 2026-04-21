@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/project
     docker:
-      - image: bkuhlmann/alpine-ruby:latest
+      - image: bkuhlmann/alpine-ruby:5.4.0
     steps:
       - checkout
 
