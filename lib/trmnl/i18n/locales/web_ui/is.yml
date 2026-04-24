@@ -4,6 +4,8 @@ is:
   about: About
   add: Bæta við
   add_new: Bæta nýju við
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: Ég á nú þegar aðgang
   are_you_sure: Are you sure?
   back: Til baka
@@ -32,6 +34,7 @@ is:
   developer_edition_required: Þróunarútgáfa er nauðsynleg til að virkja þennan eiginleika.
   device_id: Kennimerki tækis
   device: Tæki
+  discard: Discard
   edit: Breyta
   email_address: Netfang
   export: Flytja út
@@ -79,6 +82,7 @@ is:
   subscribe: Gerast áskrifandi
   help_center: Aðstoð
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: Uppfæra
   view: Skoða
   collaboration_request: Wanna collaborate?
@@ -515,12 +519,15 @@ is:
     forked: Recipe forked
     new:
       error: Uppskrift fannst ekki
+    show:
+      more_by_author: More by this Author
   plugin_settings:
     active: Virkt
     copy_are_you_sure: Ertu viss um að þú viljir afrita þessa stillingu?
     delete_are_you_sure: Ertu viss um að þú viljir eyða þessari stillingu?
     delete: Þetta fjarlægir allar stillingar viðbótarinnar. Til að fela hana, fjarlægðu hana úr spilunarlistanum í staðinn.
     inactive: Óvirkt
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Engar stillingar fundust.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Glæði, endurhlaðið síðuna eftir nokkrar sekúndur.
