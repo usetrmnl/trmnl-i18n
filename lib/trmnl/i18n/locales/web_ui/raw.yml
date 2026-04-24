@@ -4,6 +4,8 @@ raw:
   about: about
   add: add
   add_new: add_new
+  ai_assistant: ai_assistant
+  ai_assistant_hint: ai_assistant_hint
   already_have_account: already_have_account
   are_you_sure: are_you_sure
   back: back
@@ -32,6 +34,7 @@ raw:
   developer_edition_required: developer_edition_required
   device_id: device_id
   device: device
+  discard: discard
   edit: edit
   email_address: email_address
   export: export
@@ -79,6 +82,7 @@ raw:
   subscribe: subscribe
   help_center: support
   terms: terms
+  unsaved_changes: unsaved_changes
   update: update
   view: view
   collaboration_request: collaboration_request
@@ -515,12 +519,15 @@ raw:
     forked: plugin_recipes.forked
     new:
       error: plugin_recipes.new.error
+    show:
+      more_by_author: plugin_recipes.show.more_by_author
   plugin_settings:
     active: plugin_settings.active
     copy_are_you_sure: plugin_settings.copy_are_you_sure
     delete_are_you_sure: plugin_settings.delete_are_you_sure
     delete: plugin_settings.delete
     inactive: plugin_settings.inactive
+    no_matches_found: plugin_settings.no_matches_found
     no_plugin_settings_found: plugin_settings.no_plugin_settings_found
     not_supported: plugin_settings.not_supported
     refreshing_now_please_wait: plugin_settings.refreshing_now_please_wait

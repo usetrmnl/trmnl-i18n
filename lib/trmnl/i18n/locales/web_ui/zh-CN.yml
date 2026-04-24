@@ -4,6 +4,8 @@ zh-CN:
   about: 关于
   add: 添加
   add_new: 添加新设备
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: 已经有账号？
   are_you_sure: 您确定吗？
   back: 后退
@@ -32,6 +34,7 @@ zh-CN:
   developer_edition_required: 此功能需要升级至开发者版。
   device_id: 设备ID
   device: 设备
+  discard: Discard
   edit: 编辑
   email_address: 邮箱
   export: 导出
@@ -79,6 +82,7 @@ zh-CN:
   subscribe: 订阅
   help_center: 技术支持
   terms: 条款
+  unsaved_changes: You have unsaved changes
   update: 更新
   view: 查看
   collaboration_request: 想合作吗？
@@ -550,12 +554,15 @@ zh-CN:
     forked: Recipe forked
     new:
       error: 未找到配方
+    show:
+      more_by_author: More by this Author
   plugin_settings:
     active: 激活
     copy_are_you_sure: 您确定要复制此设置吗？
     delete_are_you_sure: 您确定要删除此设置吗？
     delete: 删除。这将完全删除插件的设置。要仅隐藏此插件，请从播放列表中删除。
     inactive: 停用
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: 未找到插件信息
     not_supported: 不支持当前设备
     refreshing_now_please_wait: 正在刷新，请稍后重新加载此页面。

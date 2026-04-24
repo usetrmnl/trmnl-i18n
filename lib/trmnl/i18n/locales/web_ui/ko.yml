@@ -4,6 +4,8 @@ ko:
   about: 소개
   add: 추가하기
   add_new: 새로 추가하기
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: 이미 계정이 있음
   are_you_sure: 정말요?
   back: 뒤로가기
@@ -32,6 +34,7 @@ ko:
   developer_edition_required: 이 기능은 개발자 에디션이 필요해요.
   device_id: 기기 ID
   device: 기기
+  discard: Discard
   edit: 수정
   email_address: 이메일 주소
   export: 내보내기
@@ -79,6 +82,7 @@ ko:
   subscribe: 구독
   help_center: 고객지원
   terms: 이용약관
+  unsaved_changes: You have unsaved changes
   update: 업데이트
   view: 보기
   collaboration_request: 함께 해볼까요?
@@ -515,12 +519,15 @@ ko:
     forked: Recipe forked
     new:
       error: 레시피를 찾을 수 없어요
+    show:
+      more_by_author: More by this Author
   plugin_settings:
     active: 활성
     copy_are_you_sure: 이 설정을 복사할까요?
     delete_are_you_sure: 이 설정을 삭제할까요?
     delete: 플러그인 설정을 완전히 삭제해요. 기기에서 플러그인을 숨기고 싶다면 플레이리스트에서 삭제하세요.
     inactive: 비활성
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: 플러그인 설정이 없어요.
     not_supported: 현재 기기에서 지원하지 않아요
     refreshing_now_please_wait: 새로고침 중이에요. 몇 초 후에 페이지를 다시 불러오세요.
