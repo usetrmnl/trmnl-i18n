@@ -4,7 +4,8 @@ sk:
   about: About
   add: Add
   add_new: Add new
-  ago: ago
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: I already have an account
   are_you_sure: Are you sure?
   back: Back
@@ -33,6 +34,7 @@ sk:
   developer_edition_required: Developer edition is required to enable this feature.
   device_id: Device ID
   device: Device
+  discard: Discard
   edit: Edit
   email_address: Email address
   export: Export
@@ -80,6 +82,7 @@ sk:
   subscribe: Subscribe
   help_center: Support
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: Update
   view: View
   collaboration_request: Wanna collaborate?
@@ -90,6 +93,56 @@ sk:
     formats:
       shorter: "%-I:%M %p"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time} ago"
+      future: in %{time}
+      distance_in_words:
+        half_a_minute: pol minútou
+        less_than_x_seconds:
+          one: necelou sekundou
+          other: necelými %{count} sekundami
+          few: necelými %{count} sekundami
+        less_than_x_minutes:
+          one: necelou minútou
+          other: necelými %{count} minútami
+          few: necelými %{count} minútami
+        x_seconds:
+          one: sekundou
+          other: "%{count} sekundami"
+          few: "%{count} sekundami"
+        x_minutes:
+          one: minútou
+          other: "%{count} minútami"
+          few: "%{count} minútami"
+        about_x_hours:
+          one: asi hodinou
+          other: asi %{count} hodinami
+          few: asi %{count} hodinami
+        x_days:
+          one: dňom
+          other: "%{count} dňami"
+          few: "%{count} dňami"
+        about_x_months:
+          one: asi mesiacom
+          other: asi %{count} mesiacmi
+          few: asi %{count} mesiacmi
+        x_months:
+          one: mesiacom
+          other: "%{count} mesiacmi"
+          few: "%{count} mesiacmi"
+        about_x_years:
+          one: asi rokom
+          other: asi %{count} rokmi
+          few: asi %{count} rokmi
+        over_x_years:
+          one: viac ako rokom
+          other: viac ako %{count} rokmi
+          few: viac ako %{count} rokmi
+        almost_x_years:
+          one: takmer rokom
+          other: takmer %{count} rokmi
+          few: takmer %{count} rokmi
   account:
     index:
       title: Account
@@ -206,6 +259,8 @@ sk:
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -229,8 +284,12 @@ sk:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      color_and_rotation: Farba a otáčanie
+      screen_rotation: Otáčanie obrazovky
+      screen_rotation_not_supported: Otáčanie obrazovky nie je momentálne podporované na vašom zariadení.
       palette: Color Palette
       palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: Sleep Mode
       sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
       sleep_screen: Sleep Screen
@@ -249,7 +308,7 @@ sk:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: Unlink
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Unlink Device
       unlink_device_hint: Unlinking a TRMNL makes it safe to re-sell or give to someone else.
       unlink_device_learn_more: Follow the full guide __here__.
@@ -471,12 +530,16 @@ sk:
     forked: Recipe forked
     new:
       error: Recipe not found
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Active
     copy_are_you_sure: Are you sure you want to copy this setting?
     delete_are_you_sure: Are you sure you want to delete this setting?
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your Playlist instead.
     inactive: Inactive
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: No plugin settings found.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
@@ -589,6 +652,7 @@ sk:
       some_schedule: Only show this screen during…
       to: to
       copy_prompt: Copy schedule from…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Upgrading device:'

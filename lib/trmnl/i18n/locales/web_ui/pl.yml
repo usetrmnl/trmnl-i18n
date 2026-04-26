@@ -4,7 +4,8 @@ pl:
   about: O nas
   add: Dodaj
   add_new: Dodaj nowy
-  ago: temu
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: Mam już konto
   are_you_sure: Czy na pewno?
   back: Wstecz
@@ -33,6 +34,7 @@ pl:
   developer_edition_required: Aby aktywować tę funkcję, wymagane jest posiadanie edycji deweloperskiej.
   device_id: ID urządzenia
   device: Urządzenie
+  discard: Discard
   edit: Edytuj
   email_address: Adres e-mail
   export: Eksportuj
@@ -80,6 +82,7 @@ pl:
   subscribe: Subskrybuj
   help_center: Wsparcie techniczne
   terms: Warunki
+  unsaved_changes: You have unsaved changes
   update: Aktualizacja
   view: Widok
   collaboration_request: Chcesz nawiązać współpracę?
@@ -90,6 +93,67 @@ pl:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} temu"
+      future: za %{time}
+      distance_in_words:
+        half_a_minute: pół minuty
+        less_than_x_seconds:
+          one: mniej niż sekundę
+          other: mniej niż %{count} sekund
+          few: mniej niż %{count} sekundy
+          many: mniej niż %{count} sekund
+        less_than_x_minutes:
+          one: mniej niż minutę
+          other: mniej niż %{count} minut
+          few: mniej niż %{count} minuty
+          many: mniej niż %{count} minut
+        x_seconds:
+          one: "%{count} sekunda"
+          other: "%{count} sekund"
+          few: "%{count} sekundy"
+          many: "%{count} sekund"
+        x_minutes:
+          one: "%{count} minuta"
+          other: "%{count} minut"
+          few: "%{count} minuty"
+          many: "%{count} minut"
+        about_x_hours:
+          one: około godziny
+          other: około %{count} godzin
+          few: około %{count} godziny
+          many: około %{count} godzin
+        x_days:
+          one: "%{count} dzień"
+          other: "%{count} dni"
+          few: "%{count} dni"
+          many: "%{count} dni"
+        about_x_months:
+          one: około miesiąca
+          other: około %{count} miesięcy
+          few: około %{count} miesiące
+          many: około %{count} miesięcy
+        x_months:
+          one: "%{count} miesiąc"
+          other: "%{count} miesięcy"
+          few: "%{count} miesiące"
+          many: "%{count} miesięcy"
+        about_x_years:
+          one: około rok
+          other: około %{count} lat
+          few: około %{count} lata
+          many: około %{count} lat
+        over_x_years:
+          one: ponad rok
+          other: ponad %{count} lat
+          few: ponad %{count} lata
+          many: ponad %{count} lat
+        almost_x_years:
+          one: prawie rok
+          other: prawie %{count} lat
+          few: prawie %{count} lata
+          many: prawie %{count} lat
   account:
     index:
       title: Konto
@@ -206,6 +270,8 @@ pl:
       firmware: Firmware
       firmware_updates_enabled: Aktualizacje włączone
       firmware_updates_disabled: Aktualizacje wyłączone
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Tryb gościa
       guest_mode_hint: Wybierz co ma być wyświetlane (i przez jaki czas), kiedy tryb gościa jest włączony.
       guest_mode_item_placeholder: Wybierz element
@@ -229,8 +295,12 @@ pl:
       ota_byod_not_supported: Aktualizacje OTA nie są wspierane na urządzeniach firm trzecich (BYOD). Wgraj kompatybilne oprogramowanie ze strony trmnl.com/flash
       maximum_compatibility: Włącz maksymalną kompatybilność
       maximum_compatibility_hint: Rozwiązuje problemy z wyświetlaniem na niektórych wyświetlaczach e-ink. Wyłącza szybkie odświeżanie. Wymaga oprogramowania 1.6.0 lub nowszego.
+      color_and_rotation: Kolor i obrót
+      screen_rotation: Obrót ekranu
+      screen_rotation_not_supported: Obrót ekranu nie jest obecnie obsługiwany na Twoim urządzeniu.
       palette: Paleta kolorów
       palette_hint: Wybierz zestaw kolorów, który ma być wyświetlany na tym urządzeniu. Większa paleta wygląda lepiej, ale mniejsza jest szybciej rysowana na wyświetlaczach e-ink. Ustawienie to da się zmienić indywidualnie dla każdego elementu playlisty.
+      presentation: Presentation
       sleep_mode: Tryb uśpienia
       sleep_mode_hint: Dostosuj częstotliwość odświeżania, aby zoptymalizować skupienie i wydłużyć czas pracy na baterii.
       sleep_screen: Ekran uśpienia
@@ -249,7 +319,7 @@ pl:
       tidbyt_device_id: ID urządzenia
       tidbyt_device_api_key: Klucz API
       unlink: Odłącz
-      unlink_confirm: Czy na pewno chcesz to zrobić? To usunie wszystkie ustawienia pluginów i elementy playlist. Umożliwi to dołączenie urządzenia do innego konta.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Odłącz urządzenie
       unlink_device_hint: Odłączenie urządzenia TRMNL od konta sprawia, że można bezpiecznie je sprzedać lub komuś podarować.
       unlink_device_learn_more: Szczegółowe informacje znajdziesz __tutaj__.
@@ -471,12 +541,16 @@ pl:
     forked: Receptura sforkowana
     new:
       error: Nie znaleziono receptury
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Aktywny
     copy_are_you_sure: Czy na pewno chcesz skopiować to ustawienie?
     delete_are_you_sure: Czy na pewno chcesz usunąć to ustawienie?
     delete: To całkowicie usunie ustawienia pluginu. Jeśli nie chcesz, by plugin był wyświetlany na urządzeniu, po prostu usuń go z playlisty.
     inactive: Nieaktywny
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Nie znaleziono ustawień pluginu.
     not_supported: Niewspierany na tym urządzeniu
     refreshing_now_please_wait: Odświeżanie w toku, przeładuj tę stronę za kilka sekund.
@@ -589,6 +663,7 @@ pl:
       some_schedule: Określ, kiedy ten ekran ma być wyświetlany
       to: do
       copy_prompt: Kopiuj harmonogram z…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Aktualizowanie urządzenia:'

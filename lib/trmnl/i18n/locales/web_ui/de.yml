@@ -4,7 +4,8 @@ de:
   about: Über
   add: Hinzufügen
   add_new: Neu hinzufügen
-  ago: vor
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: Ich besitze bereits ein Konto
   are_you_sure: Bist du sicher?
   back: Zurück
@@ -33,6 +34,7 @@ de:
   developer_edition_required: Die TRMNL-Entwickler-Edition wird für dieses Feature benötigt.
   device_id: Gerätekennung
   device: Gerät
+  discard: Discard
   edit: Ändern
   email_address: E-Mail-Adresse
   export: Exportieren
@@ -80,6 +82,7 @@ de:
   subscribe: Abonnieren
   help_center: Hilfe
   terms: AGB
+  unsaved_changes: You have unsaved changes
   update: Aktualisieren
   view: Ansicht
   collaboration_request: Lust zusammenzuarbeiten?
@@ -90,6 +93,45 @@ de:
     formats:
       shorter: "%-H:%M"
     start_of_week: '1'
+  datetime:
+    relative:
+      past: vor %{time}
+      future: in %{time}
+      distance_in_words:
+        half_a_minute: einer halben Minute
+        less_than_x_seconds:
+          one: weniger als einer Sekunde
+          other: weniger als %{count} Sekunden
+        less_than_x_minutes:
+          one: weniger als einer Minute
+          other: weniger als %{count} Minuten
+        x_seconds:
+          one: einer Sekunde
+          other: "%{count} Sekunden"
+        x_minutes:
+          one: einer Minute
+          other: "%{count} Minuten"
+        about_x_hours:
+          one: ungefähr einer Stunde
+          other: ungefähr %{count} Stunden
+        x_days:
+          one: einem Tag
+          other: "%{count} Tagen"
+        about_x_months:
+          one: ungefähr einem Monat
+          other: ungefähr %{count} Monaten
+        x_months:
+          one: einem Monat
+          other: "%{count} Monaten"
+        about_x_years:
+          one: ungefähr einem Jahr
+          other: ungefähr %{count} Jahren
+        over_x_years:
+          one: mehr als einem Jahr
+          other: mehr als %{count} Jahren
+        almost_x_years:
+          one: fast einem Jahr
+          other: fast %{count} Jahren
   account:
     index:
       title: Konto
@@ -206,6 +248,8 @@ de:
       firmware: Firmware
       firmware_updates_enabled: Updates aktiviert
       firmware_updates_disabled: Updates deaktiviert
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Gästemodus
       guest_mode_hint: Was soll angezeigt werden (und wie lange), wenn der Gästemodus eingeschaltet wurde.
       guest_mode_item_placeholder: Eintrag auswählen
@@ -229,8 +273,12 @@ de:
       ota_byod_not_supported: OTA wird für BYOD-Geräte nicht unterstützt. Überspiele eine kompatible Version direkt unter trmnl.com/flash.
       maximum_compatibility: Maximale Kompatibilität aktivieren
       maximum_compatibility_hint: Behebt Anzeigefehler aufgrund bestimmter E-Ink-Treiber-Chips. Deaktiviert schnelles Rendern. Benötigt Firmware 1.6.0+.
+      color_and_rotation: Farbe & Rotation
+      screen_rotation: Bildschirmrotation
+      screen_rotation_not_supported: Bildschirmrotation ist derzeit nicht auf deinem Gerät unterstützt.
       palette: Farbpalette
       palette_hint: Wähle die Farbzahl für die Anzeige auf diesem Gerät. Große Paletten wirken schöner, kleine Paletten werden auf E-Ink schneller angezeigt. Einzelne Einträge in der Wiedergabeliste können diese Einstellung überschreiben.
+      presentation: Presentation
       sleep_mode: Schlafmodus
       sleep_mode_hint: Aktualisierungsrate für bessere Konzentration und Batterielaufzeit anpassen.
       sleep_screen: Schlaf-Bildschirm
@@ -249,7 +297,7 @@ de:
       tidbyt_device_id: Geräte-ID
       tidbyt_device_api_key: API-Schlüssel
       unlink: Entkoppeln
-      unlink_confirm: Bist du sicher? Hiermit werden alle Erweiterungseinstellungen und Einträge der Wiedergabeliste gelöscht, um das Gerät einem anderen Konto zuzuordnen.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Gerät entkoppeln
       unlink_device_hint: Verbindung zu einem TRMNL-Gerät entfernen, um es sicher zu verkaufen oder weiterzugeben.
       unlink_device_learn_more: __Hier__ gibt es die vollständige Anleitung dazu.
@@ -471,12 +519,16 @@ de:
     forked: Blaupause geforkt
     new:
       error: Blaupause nicht gefunden
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Aktiv
     copy_are_you_sure: Möchtest du diese Einstellung wirklich kopieren?
     delete_are_you_sure: Möchtest du diese Einstellung wirklich löschen?
     delete: Hiermit werden alle Einstellungen der Erweiterung vollständig entfernt. Um sie lediglich auszublenden, entferne sie von der Wiedergabeliste.
     inactive: Inaktiv
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Keine Einstellungen für diese Erweiterung gefunden.
     not_supported: Aktuell für dieses Gerät nicht unterstützt
     refreshing_now_please_wait: Wird aktualisiert, bitte die Seite in ein paar Sekunden neu laden.
@@ -589,6 +641,7 @@ de:
       some_schedule: Zeige diesen Bildschirm nur von …
       to: bis
       copy_prompt: Zeitplan kopieren von …
+      no_days_error: Bitte mindestens einen Wochentag auswählen.
   upgrade:
     index:
       title: 'Gerät wird aktualisiert:'

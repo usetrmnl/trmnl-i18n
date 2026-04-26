@@ -4,7 +4,8 @@ zh-HK:
   about: 簡介
   add: 加入
   add_new: 新增
-  ago: 前
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: 我已經有帳戶
   are_you_sure: 確定嗎？
   back: 返回
@@ -33,6 +34,7 @@ zh-HK:
   developer_edition_required: 需要開發者版本才能啟用此功能。
   device_id: 裝置ID
   device: 裝置
+  discard: Discard
   edit: 編輯
   email_address: 電郵地址
   export: 匯出
@@ -80,6 +82,7 @@ zh-HK:
   subscribe: 訂閱
   help_center: 支援
   terms: 條款
+  unsaved_changes: You have unsaved changes
   update: 更新
   view: 查看
   collaboration_request: 想合作嗎？
@@ -90,6 +93,45 @@ zh-HK:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time}前"
+      future: "%{time}後"
+      distance_in_words:
+        half_a_minute: 半分鐘
+        less_than_x_seconds:
+          one: 不到%{count}秒
+          other: 不到%{count}秒
+        less_than_x_minutes:
+          one: 不到%{count}分鐘
+          other: 不到%{count}分鐘
+        x_seconds:
+          one: "%{count}秒"
+          other: "%{count}秒"
+        x_minutes:
+          one: "%{count}分鐘"
+          other: "%{count}分鐘"
+        about_x_hours:
+          one: 約%{count}小時
+          other: 約%{count}小時
+        x_days:
+          one: "%{count}天"
+          other: "%{count}天"
+        about_x_months:
+          one: 約%{count}個月
+          other: 約%{count}個月
+        x_months:
+          one: "%{count}個月"
+          other: "%{count}個月"
+        about_x_years:
+          one: 約%{count}年
+          other: 約%{count}年
+        over_x_years:
+          one: 超過%{count}年
+          other: 超過%{count}年
+        almost_x_years:
+          one: 接近%{count}年
+          other: 接近%{count}年
   account:
     index:
       title: 帳戶
@@ -206,6 +248,8 @@ zh-HK:
       firmware: 韌體
       firmware_updates_enabled: 已啟用更新
       firmware_updates_disabled: 已停用更新
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: 訪客模式
       guest_mode_hint: 選擇啟用訪客模式時顯示的內容（以及顯示多久）。
       guest_mode_item_placeholder: 選擇項目
@@ -229,8 +273,12 @@ zh-HK:
       ota_byod_not_supported: 自攜裝置 (BYOD) 不支援自動更新。請直接從 trmnl.com/flash 下載並刷寫兼容版本。
       maximum_compatibility: 啟用最大兼容性
       maximum_compatibility_hint: 解決由某些電子墨水驅動晶片引起的顯示問題。會停用快速重新整理。需要韌體版本1.6.0或以上。
+      color_and_rotation: 顏色和旋轉
+      screen_rotation: 屏幕旋轉
+      screen_rotation_not_supported: 屏幕旋轉目前不支援你的裝置。
       palette: 色彩模式
       palette_hint: 選擇此裝置生成畫面時使用的色彩模式。色彩層次越多視覺效果越佳，但層次越少則電子墨水螢幕的繪製速度越快。個別播放清單項目可以覆寫此設定。
+      presentation: Presentation
       sleep_mode: 睡眠模式
       sleep_mode_hint: 調整重新整理頻率，以提升專注度及電池續航時間。
       sleep_screen: 睡眠畫面
@@ -249,7 +297,7 @@ zh-HK:
       tidbyt_device_id: 裝置ID
       tidbyt_device_api_key: API金鑰
       unlink: 取消連結
-      unlink_confirm: 確定嗎？這將刪除所有相關的外掛設定及播放清單項目，以便裝置加入另一個帳戶。
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: 取消連結裝置
       unlink_device_hint: 取消連結TRMNL後，可安全地轉售或贈送他人。
       unlink_device_learn_more: __按此__查看完整指南。
@@ -471,12 +519,16 @@ zh-HK:
     forked: Recipe forked
     new:
       error: 找不到模板
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: 啟用
     copy_are_you_sure: 確定要複製此設定嗎？
     delete_are_you_sure: 確定要刪除此設定嗎？
     delete: 這將完全移除此外掛的設定。如只想在裝置上隱藏，請從播放清單中刪除。
     inactive: 停用
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: 找不到外掛設定。
     not_supported: 此裝置不支援
     refreshing_now_please_wait: 正在重新整理，請在幾秒鐘後重新載入此頁面。
@@ -589,6 +641,7 @@ zh-HK:
       some_schedule: 只於此期間顯示畫面⋯
       to: 至
       copy_prompt: 複製時間表⋯
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 正在升級裝置：
