@@ -4,7 +4,8 @@ id:
   about: About
   add: Tambah
   add_new: Tambah baru
-  ago: ago
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: Saya sudah punya akun
   are_you_sure: Are you sure?
   back: Kembali
@@ -33,6 +34,7 @@ id:
   developer_edition_required: Developer edition is required to enable this feature.
   device_id: ID Perangkat
   device: Device
+  discard: Discard
   edit: Pengaturan
   email_address: Alamat Email
   export: Export
@@ -80,6 +82,7 @@ id:
   subscribe: Subscribe
   help_center: Support
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: Perbarui
   view: Lihat
   collaboration_request: Wanna collaborate?
@@ -90,6 +93,47 @@ id:
     formats:
       shorter: "%-H.%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} ago"
+      future: in %{time}
+      distance_in_words:
+        half_a_minute: setengah menit
+        less_than_x_seconds:
+          one: kurang dari %{count} detik
+          other: kurang dari %{count} detik
+          zero: kurang dari 1 detik
+        less_than_x_minutes:
+          one: kurang dari %{count} menit
+          other: kurang dari %{count} menit
+          zero: kurang dari 1 menit
+        x_seconds:
+          one: satu detik
+          other: "%{count} detik"
+        x_minutes:
+          one: satu menit
+          other: "%{count} menit"
+        about_x_hours:
+          one: sekitar satu jam
+          other: sekitar %{count} jam
+        x_days:
+          one: sehari
+          other: "%{count} hari"
+        about_x_months:
+          one: sekitar sebulan
+          other: sekitar %{count} bulan
+        x_months:
+          one: sebulan
+          other: "%{count} bulan"
+        about_x_years:
+          one: sekitar setahun
+          other: sekitar %{count} tahun
+        over_x_years:
+          one: lebih dari setahun
+          other: lebih dari %{count} tahun
+        almost_x_years:
+          one: hampir setahun
+          other: hampir %{count} tahun
   account:
     index:
       title: Akun
@@ -206,6 +250,8 @@ id:
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -228,9 +274,13 @@ id:
       ota_enabled_hint: Firmware terbaru akan diinstal secara otomatis. Nonaktifkan jika menggunakan firmware Anda sendiri.
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain ePaper driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      color_and_rotation: Warna dan Rotasi Layar
+      screen_rotation: Rotasi Layar
+      screen_rotation_not_supported: Rotasi layar saat ini tidak didukung pada perangkat Anda.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: Mode Tidur
       sleep_mode_hint: Sesuaikan tingkat penyegaran untuk fokus dan hemat baterai.
       sleep_screen: Sleep Screen
@@ -249,7 +299,7 @@ id:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: Lepas Tautan
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Lepaskan Tautan Perangkat
       unlink_device_hint: Lepaskan tautan perangkat TRMNL agar aman untuk dijual kembali atau diberikan kepada orang lain.
       unlink_device_learn_more: Follow the full guide __here__.
@@ -267,6 +317,7 @@ id:
       tagline: Perangkat TRMNL Anda
       add_device_modal_title: Tambah perangkat baru
       add_first_device: Mulai dengan menambahkan perangkat pertama Anda!
+      go_to_settings: Go to settings
     new:
       title: Tambah perangkat baru
       description: Masukkan ID Perangkat Anda untuk menambahkan perangkat TRMNL baru ke akun Anda.
@@ -292,6 +343,7 @@ id:
     switch:
       error: Terjadi kesalahan saat mengganti perangkat
       success: Perangkat berhasil diganti
+      title: Switch to device
     update:
       error: Terjadi kesalahan saat memperbarui perangkat
       success: Pengaturan perangkat %{device} berhasil diperbarui
@@ -471,12 +523,16 @@ id:
     forked: Recipe forked
     new:
       error: Recipe not found
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Aktif
     copy_are_you_sure: Are you sure you want to copy this setting?
     delete_are_you_sure: Are you sure you want to delete this setting?
     delete: Ini akan sepenuhnya menghapus pengaturan plugin. Untuk hanya menyembunyikan plugin ini dari perangkat Anda, hapus dari Daftar Putar Anda.
     inactive: Tidak Aktif
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Tidak ditemukan pengaturan plugin.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
@@ -589,6 +645,7 @@ id:
       some_schedule: Only show this screen during…
       to: to
       copy_prompt: Copy schedule from…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Upgrading device:'

@@ -4,7 +4,8 @@ da:
   about: About
   add: Tilføj
   add_new: Tilføj ny
-  ago: siden
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: Jeg har allerede en konto
   are_you_sure: Are you sure?
   back: Tilbage
@@ -33,6 +34,7 @@ da:
   developer_edition_required: Udviklerudgave kræves for at aktivere denne funktion.
   device_id: Enheds-ID
   device: Enhed
+  discard: Discard
   edit: Rediger
   email_address: Mailadresse
   export: Eksporter
@@ -80,6 +82,7 @@ da:
   subscribe: Abonner
   help_center: Support
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: Opdater
   view: Vis
   collaboration_request: Wanna collaborate?
@@ -90,6 +93,45 @@ da:
     formats:
       shorter: "%-H.%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} siden"
+      future: om %{time}
+      distance_in_words:
+        half_a_minute: et halvt minut
+        less_than_x_seconds:
+          one: mindre end et sekund
+          other: mindre end %{count} sekunder
+        less_than_x_minutes:
+          one: mindre end et minut
+          other: mindre end %{count} minutter
+        x_seconds:
+          one: et sekund
+          other: "%{count} sekunder"
+        x_minutes:
+          one: et minut
+          other: "%{count} minutter"
+        about_x_hours:
+          one: cirka en time
+          other: cirka %{count} timer
+        x_days:
+          one: en dag
+          other: "%{count} dage"
+        about_x_months:
+          one: cirka en måned
+          other: cirka %{count} måneder
+        x_months:
+          one: en måned
+          other: "%{count} måneder"
+        about_x_years:
+          one: cirka et år
+          other: cirka %{count} år
+        over_x_years:
+          one: mere end et år
+          other: mere end %{count} år
+        almost_x_years:
+          one: næsten et år
+          other: næsten %{count} år
   account:
     index:
       title: Konto
@@ -206,6 +248,8 @@ da:
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Gæstetilstand
       guest_mode_hint: Vælg hvad der skal vises (og i hvor lang tid), når gæstetilstand er aktiveret.
       guest_mode_item_placeholder: Vælg et element
@@ -228,9 +272,13 @@ da:
       ota_enabled_hint: Installer automatisk ny firmware. Deaktiver for at bruge din egen firmware.
       ota_byod_not_supported: OTA understøttes ikke for BYOD-enheder. Flash en kompatibel version direkte fra trmnl.com/flash
       maximum_compatibility: Aktivér maksimal kompatibilitet
-      maximum_compatibility_hint: Løser visningsproblemer forårsaget af visse e-ink driverchips. Deaktiverer hurtig opdatering. Firmware 1.6.0+ kræves.
+      maximum_compatibility_hint: Løser visningsproblemer forårsaget af visse ePaper driverchips. Deaktiverer hurtig opdatering. Firmware 1.6.0+ kræves.
+      color_and_rotation: Farve og rotation
+      screen_rotation: Skærmrotation
+      screen_rotation_not_supported: Skærmrotation er ikke understøttet på din enhed.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: Dvaletilstand
       sleep_mode_hint: Juster opdateringshastigheden for at optimere fokus og batterilevetid.
       sleep_screen: Dvaleskærm
@@ -249,7 +297,7 @@ da:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: Fjern tilknytning
-      unlink_confirm: Er du sikker? Dette sletter alle plugin-indstillinger og playliste-elementer, så enheden kan tilknyttes en anden konto.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Fjern tilknytning til enhed
       unlink_device_hint: At fjerne tilknytning gør det sikkert at sælge eller give TRMNL-enheden til en anden.
       unlink_device_learn_more: Følg den fulde guide __her__.
@@ -267,6 +315,7 @@ da:
       tagline: Dine TRMNL-enheder
       add_device_modal_title: Tilføj en ny enhed
       add_first_device: Start med at tilføje din første enhed!
+      go_to_settings: Go to settings
     new:
       title: Tilføj en ny enhed
       description: Indtast dit enheds-ID for at tilføje en ny TRMNL-enhed til din konto.
@@ -292,6 +341,7 @@ da:
     switch:
       error: Fejl ved skift af enhed
       success: Enhed skiftet med succes
+      title: Switch to device
     update:
       error: Fejl ved opdatering af enhed
       success: "%{device} enhedsindstillinger opdateret med succes"
@@ -471,12 +521,16 @@ da:
     forked: Recipe forked
     new:
       error: Opskrift ikke fundet
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Aktiv
     copy_are_you_sure: Er du sikker på, at du vil kopiere denne indstilling?
     delete_are_you_sure: Er du sikker på, at du vil slette denne indstilling?
     delete: Dette vil fuldstændigt fjerne pluginets indstillinger. For blot at skjule pluginet fra din enhed, skal du slette det fra din playliste i stedet.
     inactive: Inaktiv
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Ingen plugin-indstillinger fundet.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Opdaterer nu, genindlæs siden om et par sekunder.
@@ -589,6 +643,7 @@ da:
       some_schedule: Vis kun denne skærm under…
       to: til
       copy_prompt: Kopiér tidsplan fra…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Opgradering af enhed:'

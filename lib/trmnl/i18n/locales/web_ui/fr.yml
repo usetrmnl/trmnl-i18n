@@ -4,7 +4,8 @@ fr:
   about: À propos
   add: Ajouter
   add_new: Ajouter
-  ago: plus tôt
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: J'ai déjà un compte
   are_you_sure: Êtes-vous sûr ?
   back: Retour
@@ -33,6 +34,7 @@ fr:
   developer_edition_required: Édition développeur nécessaire pour activer cette fonctionnalité.
   device_id: ID de l'appareil
   device: Appareil
+  discard: Discard
   edit: Modifier
   email_address: Adresse email
   export: Exporter
@@ -80,6 +82,7 @@ fr:
   subscribe: S'abonner
   help_center: Support
   terms: Conditions
+  unsaved_changes: You have unsaved changes
   update: Mise à jour
   view: Vue
   collaboration_request: Envie de collaborer ?
@@ -90,6 +93,47 @@ fr:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: il y a %{time}
+      future: dans %{time}
+      distance_in_words:
+        half_a_minute: une demi‑minute
+        less_than_x_seconds:
+          one: moins d'une seconde
+          other: moins de %{count} secondes
+          zero: moins d'une seconde
+        less_than_x_minutes:
+          one: moins d'une minute
+          other: moins de %{count} minutes
+          zero: moins d'une minute
+        x_seconds:
+          one: "%{count} seconde"
+          other: "%{count} secondes"
+        x_minutes:
+          one: "%{count} minute"
+          other: "%{count} minutes"
+        about_x_hours:
+          one: environ une heure
+          other: environ %{count} heures
+        x_days:
+          one: "%{count} jour"
+          other: "%{count} jours"
+        about_x_months:
+          one: environ un mois
+          other: environ %{count} mois
+        x_months:
+          one: "%{count} mois"
+          other: "%{count} mois"
+        about_x_years:
+          one: environ un an
+          other: environ %{count} ans
+        over_x_years:
+          one: plus d'un an
+          other: plus de %{count} ans
+        almost_x_years:
+          one: presque un an
+          other: presque %{count} ans
   account:
     index:
       title: Compte
@@ -206,6 +250,8 @@ fr:
       firmware: Firmware
       firmware_updates_enabled: Mises à jour activées
       firmware_updates_disabled: Mises à jour désactivées
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Mode invité
       guest_mode_hint: Choisissez ce qui s'affiche (et pendant combien de temps) quand le mode invité est activé.
       guest_mode_item_placeholder: Choisir un élément
@@ -228,9 +274,13 @@ fr:
       ota_enabled_hint: Installe automatiquement le nouveau firmware. Désactivez cette option si vous souhaitez utiliser votre propre firmware.
       ota_byod_not_supported: L'OTA n'est pas pris en charge pour les appareils BYOD. Flashez une version compatible directement depuis trmnl.com/flash
       maximum_compatibility: Activer la compatibilité maximale
-      maximum_compatibility_hint: Résout les problèmes d'affichage causés par certaines puces de pilote e-ink. Désactive le rafraîchissement rapide. Firmware 1.6.0+ requis.
+      maximum_compatibility_hint: Résout les problèmes d'affichage causés par certaines puces de pilote ePaper. Désactive le rafraîchissement rapide. Firmware 1.6.0+ requis.
+      color_and_rotation: Couleur & Rotation
+      screen_rotation: Rotation de l'écran
+      screen_rotation_not_supported: La rotation de l'écran n'est pas actuellement prise en charge sur votre appareil.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: Mode Veille
       sleep_mode_hint: Ajustez la fréquence de rafraîchissement pour réduire les distractions et augmenter l'autonomie de la batterie.
       sleep_screen: Écran de veille
@@ -249,7 +299,7 @@ fr:
       tidbyt_device_id: ID de l'appareil
       tidbyt_device_api_key: Clé API
       unlink: Dissocier
-      unlink_confirm: Êtes-vous sûr ? Cela supprimera tous les paramètres de plugins et éléments de playlist sous-jacents, afin que l'appareil puisse être ajouté à un autre compte.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Dissocier l'appareil
       unlink_device_hint: Dissocier un appareil TRMNL permet de le revendre ou de le donner en toute sécurité.
       unlink_device_learn_more: Suivez le guide complet __ici__.
@@ -267,6 +317,7 @@ fr:
       tagline: Vos appareils TRMNL
       add_device_modal_title: Ajouter un nouvel appareil
       add_first_device: Commencez en ajoutant votre premier appareil !
+      go_to_settings: Go to settings
     new:
       title: Ajouter un nouvel appareil
       description: Entrez votre ID d'appareil pour ajouter un nouveau TRMNL à votre compte.
@@ -292,6 +343,7 @@ fr:
     switch:
       error: Erreur lors du changement d'appareil
       success: Appareil changé avec succès
+      title: Switch to device
     update:
       error: Erreur lors de la mise à jour de l'appareil
       success: "%{device} mis à jour avec succès"
@@ -471,12 +523,16 @@ fr:
     forked: Recipe forked
     new:
       error: Recette introuvable
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Actif
     copy_are_you_sure: Êtes-vous sûr de vouloir copier ce paramètre ?
     delete_are_you_sure: Êtes-vous sûr de vouloir supprimer ce paramètre ?
     delete: Cela va entièrement supprimer les paramètres du plugin. Pour simplement masquer le plugin de votre appareil, supprimez-le plutôt de la playlist.
     inactive: Inactif
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Aucun paramètre pour le plugin trouvé.
     not_supported: Non pris en charge sur l'appareil actuel
     refreshing_now_please_wait: Actualisation en cours, veuillez recharger cette page dans quelques secondes.
@@ -589,6 +645,7 @@ fr:
       some_schedule: Afficher cet écran uniquement pendant…
       to: à
       copy_prompt: Copier l'horaire depuis…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Mise à niveau de l''appareil :'

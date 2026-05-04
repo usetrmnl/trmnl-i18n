@@ -4,7 +4,8 @@ uk:
   about: About
   add: Додати
   add_new: Додати новий
-  ago: ago
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: У мене вже є акаунт
   are_you_sure: Are you sure?
   back: Назад
@@ -33,6 +34,7 @@ uk:
   developer_edition_required: Developer edition is required to enable this feature.
   device_id: ID пристрою
   device: пристрою
+  discard: Discard
   edit: Редагувати
   email_address: Адреса електронної пошти
   export: Export
@@ -80,6 +82,7 @@ uk:
   subscribe: Subscribe
   help_center: Support
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: Оновити
   view: Переглянути
   collaboration_request: Wanna collaborate?
@@ -90,6 +93,67 @@ uk:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} тому"
+      future: через %{time}
+      distance_in_words:
+        half_a_minute: пів хвилини
+        less_than_x_seconds:
+          one: менше %{count} секунди
+          other: менше %{count} секунди
+          few: менше %{count} секунд
+          many: менше %{count} секунд
+        less_than_x_minutes:
+          one: менше %{count} хвилини
+          other: менше %{count} хвилини
+          few: менше %{count} хвилин
+          many: менше %{count} хвилин
+        x_seconds:
+          one: "%{count} секунда"
+          other: "%{count} секунди"
+          few: "%{count} секунди"
+          many: "%{count} секунд"
+        x_minutes:
+          one: "%{count} хвилина"
+          other: "%{count} хвилини"
+          few: "%{count} хвилини"
+          many: "%{count} хвилин"
+        about_x_hours:
+          one: близько %{count} години
+          other: близько %{count} години
+          few: близько %{count} годин
+          many: близько %{count} годин
+        x_days:
+          one: "%{count} день"
+          other: "%{count} дня"
+          few: "%{count} дні"
+          many: "%{count} днів"
+        about_x_months:
+          one: близько %{count} місяця
+          other: близько %{count} місяця
+          few: близько %{count} місяців
+          many: близько %{count} місяців
+        x_months:
+          one: "%{count} місяць"
+          other: "%{count} місяця"
+          few: "%{count} місяці"
+          many: "%{count} місяців"
+        about_x_years:
+          one: близько %{count} року
+          other: близько %{count} року
+          few: близько %{count} років
+          many: близько %{count} років
+        over_x_years:
+          one: більше %{count} року
+          other: більше %{count} року
+          few: більше %{count} років
+          many: більше %{count} років
+        almost_x_years:
+          one: майже %{count} рік
+          other: майже %{count} років
+          few: майже %{count} роки
+          many: майже %{count} років
   account:
     index:
       title: Акаунт
@@ -206,6 +270,8 @@ uk:
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -228,9 +294,13 @@ uk:
       ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain ePaper driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      color_and_rotation: Колір і обертання
+      screen_rotation: Обертання екрану
+      screen_rotation_not_supported: Обертання екрану в даний час не підтримується на вашому пристрої.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: Режим сну
       sleep_mode_hint: Налаштуйте частоту оновлення, щоб покращити концентрацію та час роботи батареї.
       sleep_screen: Sleep Screen
@@ -249,7 +319,7 @@ uk:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: Відв'язати
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Відв'язати пристрій
       unlink_device_hint: Відв'язування пристрою TRMNL робить його безпечним для перепродажу або передачі іншій особі.
       unlink_device_learn_more: Follow the full guide __here__.
@@ -267,6 +337,7 @@ uk:
       tagline: Ваші пристрої TRMNL
       add_device_modal_title: Додати новий пристрій
       add_first_device: Почніть, додавши свій перший пристрій!
+      go_to_settings: Go to settings
     new:
       title: Додати новий пристрій
       description: Введіть ваш Дружній ID, щоб додати новий пристрій TRMNL до вашого акаунту.
@@ -292,6 +363,7 @@ uk:
     switch:
       error: Помилка перемикання пристрою
       success: Пристрій успішно перемкнено
+      title: Switch to device
     update:
       error: Помилка оновлення пристрою
       success: Налаштування пристрою %{device} успішно оновлено
@@ -471,12 +543,16 @@ uk:
     forked: Recipe forked
     new:
       error: Recipe not found
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Активний
     copy_are_you_sure: Are you sure you want to copy this setting?
     delete_are_you_sure: Are you sure you want to delete this setting?
     delete: Це повністю видалить налаштування плагіна. Щоб просто приховати цей плагін з вашого пристрою, видаліть його з плейлиста.
     inactive: Неактивний
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Налаштування плагінів не знайдено.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
@@ -589,6 +665,7 @@ uk:
       some_schedule: Only show this screen during…
       to: to
       copy_prompt: Copy schedule from…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Upgrading device:'

@@ -4,7 +4,8 @@ it:
   about: Informazioni
   add: Aggiungi
   add_new: Aggiungi nuovo
-  ago: fa
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: Ho già un account
   are_you_sure: Sei sicuro?
   back: Indietro
@@ -33,6 +34,7 @@ it:
   developer_edition_required: Developer edition è richiesta per abilitare questa funzione
   device_id: ID Dispositivo
   device: Dispositivi
+  discard: Discard
   edit: Modifica
   email_address: Indirizzo email
   export: Esporta
@@ -80,6 +82,7 @@ it:
   subscribe: Iscriviti
   help_center: Supporto
   terms: Termini
+  unsaved_changes: You have unsaved changes
   update: Aggiorna
   view: Visualizza
   collaboration_request: Vuoi Collaborare?
@@ -90,6 +93,45 @@ it:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} fa"
+      future: tra %{time}
+      distance_in_words:
+        half_a_minute: mezzo minuto
+        less_than_x_seconds:
+          one: meno di un secondo
+          other: meno di %{count} secondi
+        less_than_x_minutes:
+          one: meno di un minuto
+          other: meno di %{count} minuti
+        x_seconds:
+          one: "%{count} secondo"
+          other: "%{count} secondi"
+        x_minutes:
+          one: "%{count} minuto"
+          other: "%{count} minuti"
+        about_x_hours:
+          one: circa un'ora
+          other: circa %{count} ore
+        x_days:
+          one: "%{count} giorno"
+          other: "%{count} giorni"
+        about_x_months:
+          one: circa un mese
+          other: circa %{count} mesi
+        x_months:
+          one: "%{count} mese"
+          other: "%{count} mesi"
+        about_x_years:
+          one: circa un anno
+          other: circa %{count} anni
+        over_x_years:
+          one: oltre un anno
+          other: oltre %{count} anni
+        almost_x_years:
+          one: quasi un anno
+          other: quasi %{count} anni
   account:
     index:
       title: Profilo
@@ -206,6 +248,8 @@ it:
       firmware: Firmware
       firmware_updates_enabled: Aggiornamenti attivi
       firmware_updates_disabled: Aggiornamenti disattivati
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Modalità Ospite
       guest_mode_hint: Scegli cosa mostrare (e per quanto tempo) quando la modalità ospite è attiva.
       guest_mode_item_placeholder: Scegli un elemento
@@ -228,9 +272,13 @@ it:
       ota_enabled_hint: Installa automaticamente i nuovi firmware. Disabilita per utilizzare il tuo firmware
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Abilita compatibilità massima
-      maximum_compatibility_hint: Risolve problemi dello schermo causati da alcuni chip driver per e-ink. Disattiva il fast refresh. Richiede Firmware 1.6.0 o successivo.
+      maximum_compatibility_hint: Risolve problemi dello schermo causati da alcuni chip driver per ePaper. Disattiva il fast refresh. Richiede Firmware 1.6.0 o successivo.
+      color_and_rotation: Colore e Rotazione
+      screen_rotation: Rotazione Schermo
+      screen_rotation_not_supported: La rotazione dello schermo non è attualmente supportata sul tuo dispositivo.
       palette: Palette Colori
       palette_hint: Scegli il set di colori da utilizzare durante la generazione delle schermate per questo dispositivo. Un set più grande è più bello da vedere, ma uno più piccolo viene disegnato più rapidamente. GLi elementi della playlist possono sovrascrivere questa opzione.
+      presentation: Presentation
       sleep_mode: Modalità Riposo
       sleep_mode_hint: Regola la frequenza di aggiornamento per ottimizzare la concentrazione e la durata della batteria.
       sleep_screen: Schermata di riposo
@@ -249,7 +297,7 @@ it:
       tidbyt_device_id: ID Dispositivo
       tidbyt_device_api_key: Chiave API
       unlink: Scollega
-      unlink_confirm: Sei sicuro? Verranno eliminate tutte le impostazioni dei plugin e gli oggetti nelle playlist per permettere di aggiungere questo dispositivi ad un altro account.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Scollega Dispositivo
       unlink_device_hint: Scollegare un dispositivo TRMNL rende sicuro rivenderlo o darlo a qualcun altro.
       unlink_device_learn_more: Segui la guida completa __qui__.
@@ -267,6 +315,7 @@ it:
       tagline: I tuoi dispositivi TRMNL
       add_device_modal_title: Aggiungi un nuovo dispositivo
       add_first_device: Inizia aggiungendo il tuo primo dispositivo!
+      go_to_settings: Go to settings
     new:
       title: Aggiungi un nuovo dispositivo
       description: Immetti l'ID del dispositivo per aggiungere un nuovo dispositivo TRMNL al tuo profilo.
@@ -292,6 +341,7 @@ it:
     switch:
       error: Errore nel cambio dispositivo
       success: Dispositivo cambiato
+      title: Switch to device
     update:
       error: Errore nell'aggiornamento del dispositivo
       success: "%{device} impostazioni dispositivo aggiornate con successo"
@@ -386,17 +436,17 @@ it:
       remove_from_playlist: Rimuovi dalla playlist
       hide_playlist: Nascondi elemento
       show_playlist: Mostra elemento
-      duplicate: Duplicate
-      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
+      duplicate: Duplica
+      duplicate_confirm: Verrà creata una copia di questo articolo e aggiunta alla fine della playlist. Vuoi continuare?
       color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
+      device_default: Dispositivo Default (%{name})
+      palette_unavailable: Disponibile solo per dispositivi con pattern a più colori
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: La frequenza di aggiornamento per questo plugin non può essere configurata.
+        external: Questo plugin ottiene dati in tempo reale, la frequenza di aggiornamento non viene consierata.
+        global: Questo plugin viene aggiornato su tutta la piattaforma con una programmazione fissa.
+        mashup: Il mashup verrà aggiornato con la frequenza del plugin più veloce.
+        readonly: Questo plugin ha una frequenza di aggiornamento fissa che non può essere cambiata.
     create:
       error: Aggiornamento Playlist fallito
       success: Playlist aggiornata
@@ -471,12 +521,16 @@ it:
     forked: Recipe forked
     new:
       error: Recipe non trovata
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Attivo
     copy_are_you_sure: Sei sicuro di voler copiare queste impostazioni?
     delete_are_you_sure: Sei sicuro di voler eliminare queste impostazioni?
     delete: Questo cancellerà qualunque impostazione del plugin. Per nascondere questo plugin dal dispositivo, rimuoverlo invece dalla Playlist.
     inactive: Inattivo
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Impostazioni per plugin non trovate.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Aggiornamento, ricarica questa pagina tra qualche secondo.
@@ -503,8 +557,8 @@ it:
       learn_more: Maggiori informazioni su questo plugin sono nella nostra knowledge base
       learn_more_fork: Questo plugin è un fork di una Recipe.
       learn_more_fork_original: Mostra Originale
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
+      learn_more_native_long: Questo plugin è nativo e manutenuto da TRMNL.
+      learn_more_native_short: Questo plugin è manutenuto da  TRMNL.
       learn_more_recipe_author: Hai bisogno di aiuto? Contatta %{recipe_author} su Discord.
       learn_more_recipe_long: Questi plugin è una Recipe della comunità e non viene manutenuta da TRMNL.
       learn_more_recipe_short: 'Note: questo plugin è una Recipe'
@@ -589,6 +643,7 @@ it:
       some_schedule: Mostra questo schermo solo durante…
       to: alle
       copy_prompt: Copia programmazione da…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Aggiorna dispositivo:'

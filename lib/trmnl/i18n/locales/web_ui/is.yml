@@ -4,7 +4,8 @@ is:
   about: About
   add: Bæta við
   add_new: Bæta nýju við
-  ago: síðan
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: Ég á nú þegar aðgang
   are_you_sure: Are you sure?
   back: Til baka
@@ -33,6 +34,7 @@ is:
   developer_edition_required: Þróunarútgáfa er nauðsynleg til að virkja þennan eiginleika.
   device_id: Kennimerki tækis
   device: Tæki
+  discard: Discard
   edit: Breyta
   email_address: Netfang
   export: Flytja út
@@ -80,6 +82,7 @@ is:
   subscribe: Gerast áskrifandi
   help_center: Aðstoð
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: Uppfæra
   view: Skoða
   collaboration_request: Wanna collaborate?
@@ -90,6 +93,45 @@ is:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time} ago"
+      future: in %{time}
+      distance_in_words:
+        half_a_minute: hálf mínúta
+        less_than_x_seconds:
+          one: minna en %{count} sekúnda
+          other: minna en %{count} sekúndur
+        less_than_x_minutes:
+          one: minna en %{count} mínúta
+          other: minna en %{count} mínútur
+        x_seconds:
+          one: "%{count} sekúnda"
+          other: "%{count} sekúndur"
+        x_minutes:
+          one: "%{count} mínúta"
+          other: "%{count} mínútur"
+        about_x_hours:
+          one: u.þ.b. %{count} klukkustund
+          other: u.þ.b. %{count} klukkustundir
+        x_days:
+          one: "%{count} dagur"
+          other: "%{count} dagar"
+        about_x_months:
+          one: u.þ.b. %{count} mánuður
+          other: u.þ.b. %{count} mánuðir
+        x_months:
+          one: "%{count} mánuður"
+          other: "%{count} mánuðir"
+        about_x_years:
+          one: u.þ.b. %{count} ár
+          other: u.þ.b. %{count} ár
+        over_x_years:
+          one: meira en %{count} ár
+          other: meira en %{count} ár
+        almost_x_years:
+          one: næstum %{count} ár
+          other: næstum %{count} ár
   account:
     index:
       title: Aðgangur
@@ -206,6 +248,8 @@ is:
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Gestahamur
       guest_mode_hint: Veldu hvað á að birta (og hversu lengi) þegar gestahamur er virkjaður.
       guest_mode_item_placeholder: Veldu atriði
@@ -228,9 +272,13 @@ is:
       ota_enabled_hint: Setur sjálfkrafa inn nýjan vélbúnað. Slökktu til að nota þinn eigin.
       ota_byod_not_supported: OTA er ekki stutt fyrir BYOD-tæki. "Flassaðu" samhæfða útgáfu beint frá trmnl.com/flash
       maximum_compatibility: Hámarkssamhæfni
-      maximum_compatibility_hint: Leysir skjávandamál af völdum sumra e-ink rekla. Slekkur á hraðri uppfærslu. Krefst fastbúnaðar 1.6.0+.
+      maximum_compatibility_hint: Leysir skjávandamál af völdum sumra ePaper rekla. Slekkur á hraðri uppfærslu. Krefst fastbúnaðar 1.6.0+.
+      color_and_rotation: Litur og Snúningur
+      screen_rotation: Skjásnúningur
+      screen_rotation_not_supported: Skjásnúningur er ekki í boði fyrir þetta tæki.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: Svefnhamur
       sleep_mode_hint: Stilltu uppfærslutíðni til að bæta einbeitingu og lengja rafhlöðuendingu.
       sleep_screen: Svefnskjár
@@ -249,7 +297,7 @@ is:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: Aftengja
-      unlink_confirm: Ertu viss? Þetta eyðir öllum viðbótarstillingum og spilunarlistum svo tækið geti verið tengt við annan aðgang.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Aftengja tæki
       unlink_device_hint: Aftenging gerir tækið öruggt til endursölu eða afhendingar til annars aðila.
       unlink_device_learn_more: Fylgdu leiðbeiningum __hér__.
@@ -267,6 +315,7 @@ is:
       tagline: TRMNL tækin þín
       add_device_modal_title: Bæta við nýju tæki
       add_first_device: Byrjaðu á því að bæta við fyrsta tækinu þínu!
+      go_to_settings: Go to settings
     new:
       title: Bæta við nýju tæki
       description: Sláðu inn kennimerki tækis til að bæta TRMNL tæki við aðganginn þinn.
@@ -292,6 +341,7 @@ is:
     switch:
       error: Villa við skiptingu tækis
       success: Tæki skipt
+      title: Switch to device
     update:
       error: Villa við að uppfæra tæki
       success: Stillingar tækis %{device} uppfærðar
@@ -471,12 +521,16 @@ is:
     forked: Recipe forked
     new:
       error: Uppskrift fannst ekki
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Virkt
     copy_are_you_sure: Ertu viss um að þú viljir afrita þessa stillingu?
     delete_are_you_sure: Ertu viss um að þú viljir eyða þessari stillingu?
     delete: Þetta fjarlægir allar stillingar viðbótarinnar. Til að fela hana, fjarlægðu hana úr spilunarlistanum í staðinn.
     inactive: Óvirkt
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Engar stillingar fundust.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Glæði, endurhlaðið síðuna eftir nokkrar sekúndur.
@@ -589,6 +643,7 @@ is:
       some_schedule: Sýna þennan skjá aðeins á…
       to: til
       copy_prompt: Afrita tímasetningu frá…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Uppfæri tæki:'

@@ -4,7 +4,8 @@ raw:
   about: about
   add: add
   add_new: add_new
-  ago: ago
+  ai_assistant: ai_assistant
+  ai_assistant_hint: ai_assistant_hint
   already_have_account: already_have_account
   are_you_sure: are_you_sure
   back: back
@@ -33,6 +34,7 @@ raw:
   developer_edition_required: developer_edition_required
   device_id: device_id
   device: device
+  discard: discard
   edit: edit
   email_address: email_address
   export: export
@@ -80,6 +82,7 @@ raw:
   subscribe: subscribe
   help_center: support
   terms: terms
+  unsaved_changes: unsaved_changes
   update: update
   view: view
   collaboration_request: collaboration_request
@@ -90,6 +93,45 @@ raw:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: datetime.relative.past
+      future: datetime.relative.future
+      distance_in_words:
+        half_a_minute: half_a_minute
+        less_than_x_seconds:
+          one: less_than_x_seconds
+          other: less_than_x_seconds
+        less_than_x_minutes:
+          one: less_than_x_minutes
+          other: less_than_x_minutes
+        x_seconds:
+          one: x_seconds
+          other: x_seconds
+        x_minutes:
+          one: x_minutes
+          other: x_minutes
+        about_x_hours:
+          one: about_x_hours
+          other: about_x_hours
+        x_days:
+          one: x_days
+          other: x_days
+        about_x_months:
+          one: about_x_months
+          other: about_x_months
+        x_months:
+          one: x_months
+          other: x_months
+        about_x_years:
+          one: about_x_years
+          other: about_x_years
+        over_x_years:
+          one: over_x_years
+          other: over_x_years
+        almost_x_years:
+          one: almost_x_years
+          other: almost_x_years
   account:
     index:
       title: account.index.title
@@ -206,6 +248,8 @@ raw:
       firmware: devices.edit.firmware
       firmware_updates_enabled: devices.edit.firmware_updates_enabled
       firmware_updates_disabled: devices.edit.firmware_updates_disabled
+      font_family: devices.edit.font_family
+      font_family_hint: devices.edit.font_family_hint
       guest_mode: devices.edit.guest_mode
       guest_mode_hint: devices.edit.guest_mode_hint
       guest_mode_item_placeholder: devices.edit.guest_mode_item_placeholder
@@ -229,8 +273,12 @@ raw:
       ota_byod_not_supported: devices.edit.ota_byod_not_supported
       maximum_compatibility: devices.edit.maximum_compatibility
       maximum_compatibility_hint: devices.edit.maximum_compatibility_hint
+      color_and_rotation: devices.edit.color_and_rotation
+      screen_rotation: devices.edit.screen_rotation
+      screen_rotation_not_supported: devices.edit.screen_rotation_not_supported
       palette: devices.edit.palette
       palette_hint: devices.edit.palette_hint
+      presentation: devices.edit.presentation
       sleep_mode: devices.edit.sleep_mode
       sleep_mode_hint: devices.edit.sleep_mode_hint
       sleep_screen: devices.edit.sleep_screen
@@ -267,6 +315,7 @@ raw:
       tagline: devices.index.tagline
       add_device_modal_title: devices.index.add_device_modal_title
       add_first_device: devices.index.add_first_device
+      go_to_settings: devices.index.go_to_settings
     new:
       title: devices.new.title
       description: devices.new.description
@@ -292,6 +341,7 @@ raw:
     switch:
       error: devices.switch.error
       success: devices.switch.success
+      title: devices.switch.title
     update:
       error: devices.update.error
       success: devices.update.success
@@ -471,12 +521,16 @@ raw:
     forked: plugin_recipes.forked
     new:
       error: plugin_recipes.new.error
+    show:
+      more_by_author: plugin_recipes.show.more_by_author
+      view_all: plugin_recipes.show.view_all
   plugin_settings:
     active: plugin_settings.active
     copy_are_you_sure: plugin_settings.copy_are_you_sure
     delete_are_you_sure: plugin_settings.delete_are_you_sure
     delete: plugin_settings.delete
     inactive: plugin_settings.inactive
+    no_matches_found: plugin_settings.no_matches_found
     no_plugin_settings_found: plugin_settings.no_plugin_settings_found
     not_supported: plugin_settings.not_supported
     refreshing_now_please_wait: plugin_settings.refreshing_now_please_wait
@@ -589,6 +643,7 @@ raw:
       some_schedule: schedules.form.some_schedule
       to: schedules.form.to
       copy_prompt: schedules.form.copy_prompt
+      no_days_error: schedules.form.no_days_error
   upgrade:
     index:
       title: upgrade.index.title

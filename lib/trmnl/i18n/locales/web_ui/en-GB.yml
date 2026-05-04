@@ -4,7 +4,8 @@ en-GB:
   about: About
   add: Add
   add_new: Add new
-  ago: ago
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: I already have an account
   are_you_sure: Are you sure?
   back: Back
@@ -33,6 +34,7 @@ en-GB:
   developer_edition_required: Developer edition is required to enable this feature.
   device_id: Device ID
   device: Device
+  discard: Discard
   edit: Edit
   email_address: Email address
   export: Export
@@ -80,6 +82,7 @@ en-GB:
   subscribe: Subscribe
   help_center: Support
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: Update
   view: View
   collaboration_request: Wanna collaborate?
@@ -90,6 +93,45 @@ en-GB:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} ago"
+      future: in %{time}
+      distance_in_words:
+        half_a_minute: half a minute
+        less_than_x_seconds:
+          one: less than %{count} second
+          other: less than %{count} seconds
+        less_than_x_minutes:
+          one: less than a minute
+          other: less than %{count} minutes
+        x_seconds:
+          one: "%{count} second"
+          other: "%{count} seconds"
+        x_minutes:
+          one: "%{count} minute"
+          other: "%{count} minutes"
+        about_x_hours:
+          one: about %{count} hour
+          other: about %{count} hours
+        x_days:
+          one: "%{count} day"
+          other: "%{count} days"
+        about_x_months:
+          one: about %{count} month
+          other: about %{count} months
+        x_months:
+          one: "%{count} month"
+          other: "%{count} months"
+        about_x_years:
+          one: about %{count} year
+          other: about %{count} years
+        over_x_years:
+          one: over %{count} year
+          other: over %{count} years
+        almost_x_years:
+          one: almost %{count} year
+          other: almost %{count} years
   account:
     index:
       title: Account
@@ -206,6 +248,8 @@ en-GB:
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -228,9 +272,13 @@ en-GB:
       ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      maximum_compatibility_hint: Resolves display issues caused by certain ePaper driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      color_and_rotation: Colour & Rotation
+      screen_rotation: Screen Rotation
+      screen_rotation_not_supported: Screen rotation is currently not supported on your device.
+      palette: Colour Palette
+      palette_hint: Select the set of colours to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: Sleep Mode
       sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
       sleep_screen: Sleep Screen
@@ -249,7 +297,7 @@ en-GB:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: Unlink
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Unlink Device
       unlink_device_hint: Unlinking a TRMNL device makes it safe to re-sell or give to someone else.
       unlink_device_learn_more: Follow the full guide __here__.
@@ -258,7 +306,7 @@ en-GB:
       your_device: Your TRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
+        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 colour levels instead of 2.
         warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
         warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
         cta: Upgrade to TRMNL OG (2-bit)
@@ -267,6 +315,7 @@ en-GB:
       tagline: Your TRMNL devices
       add_device_modal_title: Add a new device
       add_first_device: Start by adding your first device!
+      go_to_settings: Go to settings
     new:
       title: Add a new device
       description: Enter your Friendly ID to add a new device to your account.
@@ -292,6 +341,7 @@ en-GB:
     switch:
       error: Error switching device
       success: Device switched successfully
+      title: Switch to device
     update:
       error: Error updating device
       success: "%{device} device settings updated successfully"
@@ -388,9 +438,9 @@ en-GB:
       show_playlist: Show this item
       duplicate: Duplicate
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
-      color_palette: Color Palette
+      color_palette: Colour Palette
       device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
+      palette_unavailable: Only available for devices with multiple colour palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -471,12 +521,16 @@ en-GB:
     forked: Recipe forked
     new:
       error: Recipe not found
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Active
     copy_are_you_sure: Are you sure you want to copy this setting?
     delete_are_you_sure: Are you sure you want to delete this setting?
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your playlist instead.
     inactive: Inactive
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: No plugin settings found.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
@@ -589,6 +643,7 @@ en-GB:
       some_schedule: Only show this screen during…
       to: to
       copy_prompt: Copy schedule from…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Upgrading device:'

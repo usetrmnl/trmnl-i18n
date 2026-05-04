@@ -4,7 +4,8 @@ ru:
   about: About
   add: Добавить
   add_new: Добавить новый
-  ago: назад
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: У меня уже есть учётная запись
   are_you_sure: Are you sure?
   back: Назад
@@ -33,6 +34,7 @@ ru:
   developer_edition_required: Для включения этой функции требуется версия для разработчиков.
   device_id: ID устройства
   device: Устройство
+  discard: Discard
   edit: Редактировать
   email_address: Адрес электронной почты
   export: Экспорт
@@ -80,6 +82,7 @@ ru:
   subscribe: Подписаться
   help_center: Поддержка
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: Обновить
   view: Просмотр
   collaboration_request: Wanna collaborate?
@@ -90,6 +93,67 @@ ru:
     formats:
       shorter: "%-I:%M %p"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} назад"
+      future: через %{time}
+      distance_in_words:
+        half_a_minute: полминуты
+        less_than_x_seconds:
+          one: меньше %{count} секунды
+          other: меньше %{count} секунд
+          few: меньше %{count} секунд
+          many: меньше %{count} секунд
+        less_than_x_minutes:
+          one: меньше %{count} минуты
+          other: меньше %{count} минут
+          few: меньше %{count} минут
+          many: меньше %{count} минут
+        x_seconds:
+          one: "%{count} секунда"
+          other: "%{count} секунд"
+          few: "%{count} секунды"
+          many: "%{count} секунд"
+        x_minutes:
+          one: "%{count} минута"
+          other: "%{count} минут"
+          few: "%{count} минуты"
+          many: "%{count} минут"
+        about_x_hours:
+          one: около %{count} часа
+          other: около %{count} часов
+          few: около %{count} часов
+          many: около %{count} часов
+        x_days:
+          one: "%{count} день"
+          other: "%{count} дней"
+          few: "%{count} дня"
+          many: "%{count} дней"
+        about_x_months:
+          one: около %{count} месяца
+          other: около %{count} месяцев
+          few: около %{count} месяцев
+          many: около %{count} месяцев
+        x_months:
+          one: "%{count} месяц"
+          other: "%{count} месяцев"
+          few: "%{count} месяца"
+          many: "%{count} месяцев"
+        about_x_years:
+          one: около %{count} года
+          other: около %{count} лет
+          few: около %{count} лет
+          many: около %{count} лет
+        over_x_years:
+          one: больше %{count} года
+          other: больше %{count} лет
+          few: больше %{count} лет
+          many: больше %{count} лет
+        almost_x_years:
+          one: почти %{count} год
+          other: почти %{count} лет
+          few: почти %{count} года
+          many: почти %{count} лет
   account:
     index:
       title: Учётная запись
@@ -206,6 +270,8 @@ ru:
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Гостевой режим
       guest_mode_hint: Выберите, что отображать (и на какой срок) при включении гостевого режима.
       guest_mode_item_placeholder: Выберите элемент
@@ -228,9 +294,13 @@ ru:
       ota_enabled_hint: Автоматически устанавливать новую прошивку. Отключите, чтобы использовать собственную прошивку.
       ota_byod_not_supported: OTA не поддерживается для устройств BYOD. Прошейте совместимую версию прямо с trmnl.com/flash
       maximum_compatibility: Включить максимальную совместимость
-      maximum_compatibility_hint: Устраняет проблемы с отображением, вызванные некоторыми чипами драйверов e-ink. Отключает быстрое обновление. Требуется прошивка 1.6.0+.
+      maximum_compatibility_hint: Устраняет проблемы с отображением, вызванные некоторыми чипами драйверов ePaper. Отключает быстрое обновление. Требуется прошивка 1.6.0+.
+      color_and_rotation: Color & Rotation
+      screen_rotation: Screen Rotation
+      screen_rotation_not_supported: Вращение экрана в настоящее время не поддерживается на вашем устройстве.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: Спящий режим
       sleep_mode_hint: Настройте частоту обновления для оптимизации фокусировки и времени автономной работы.
       sleep_screen: Экран сна
@@ -249,7 +319,7 @@ ru:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: Отвязать
-      unlink_confirm: Вы уверены? Это приведет к удалению всех основных настроек плагинов и элементов плейлиста, чтобы устройство можно было добавить в другую учётную запись.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Отвязать устройство
       unlink_device_hint: Отвязка TRMNL делает его безопасным для перепродажи или передачи кому-либо ещё.
       unlink_device_learn_more: Следуйте полному руководству __здесь__.
@@ -267,6 +337,7 @@ ru:
       tagline: Ваши устройства TRMNL
       add_device_modal_title: Добавить новое устройство
       add_first_device: Начните с добавления вашего первого устройства!
+      go_to_settings: Go to settings
     new:
       title: Добавить новое устройство
       description: Введите свой Дружелюбный ID, чтобы добавить новое устройство в свою учётную запись.
@@ -292,6 +363,7 @@ ru:
     switch:
       error: Ошибка переключения устройства
       success: Устройство успешно переключено
+      title: Switch to device
     update:
       error: Ошибка обновления устройства
       success: Настройки устройства "%{device}" успешно обновлены
@@ -471,12 +543,16 @@ ru:
     forked: Recipe forked
     new:
       error: Рецепт не найден
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Активен
     copy_are_you_sure: Вы уверены, что хотите скопировать эту настройку?
     delete_are_you_sure: Вы уверены, что хотите удалить эту настройку?
     delete: Это полностью удалит настройки плагина. Чтобы просто скрыть этот плагин на вашем устройстве, удалите его из плейлиста.
     inactive: Неактивен
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Настройки плагина не найдены.
     not_supported: Не поддерживается на текущем устройстве
     refreshing_now_please_wait: Обновление, перезагрузите страницу через несколько секунд.
@@ -589,6 +665,7 @@ ru:
       some_schedule: Показывать этот экран только в это время…
       to: по
       copy_prompt: Копировать расписание из…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Обновление устройства:'

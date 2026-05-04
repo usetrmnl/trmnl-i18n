@@ -4,7 +4,8 @@ ko:
   about: 소개
   add: 추가하기
   add_new: 새로 추가하기
-  ago: 전
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: 이미 계정이 있음
   are_you_sure: 정말요?
   back: 뒤로가기
@@ -33,6 +34,7 @@ ko:
   developer_edition_required: 이 기능은 개발자 에디션이 필요해요.
   device_id: 기기 ID
   device: 기기
+  discard: Discard
   edit: 수정
   email_address: 이메일 주소
   export: 내보내기
@@ -80,6 +82,7 @@ ko:
   subscribe: 구독
   help_center: 고객지원
   terms: 이용약관
+  unsaved_changes: You have unsaved changes
   update: 업데이트
   view: 보기
   collaboration_request: 함께 해볼까요?
@@ -90,6 +93,45 @@ ko:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time} 전"
+      future: "%{time} 후"
+      distance_in_words:
+        half_a_minute: 30초
+        less_than_x_seconds:
+          one: "%{count}초 미만"
+          other: "%{count}초 미만"
+        less_than_x_minutes:
+          one: "%{count}분 미만"
+          other: "%{count}분 미만"
+        x_seconds:
+          one: "%{count}초"
+          other: "%{count}초"
+        x_minutes:
+          one: "%{count}분"
+          other: "%{count}분"
+        about_x_hours:
+          one: 대략 %{count}시간
+          other: 대략 %{count}시간
+        x_days:
+          one: "%{count}일"
+          other: "%{count}일"
+        about_x_months:
+          one: 대략 %{count}개월
+          other: 대략 %{count}개월
+        x_months:
+          one: "%{count}개월"
+          other: "%{count}개월"
+        about_x_years:
+          one: 대략 %{count}년
+          other: 대략 %{count}년
+        over_x_years:
+          one: "%{count}년 초과"
+          other: "%{count}년 초과"
+        almost_x_years:
+          one: 거의 %{count}년
+          other: 거의 %{count}년
   account:
     index:
       title: 내 계정
@@ -206,6 +248,8 @@ ko:
       firmware: 펌웨어
       firmware_updates_enabled: 업데이트 활성화됨
       firmware_updates_disabled: 업데이트 비활성화됨
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: 게스트 모드
       guest_mode_hint: 게스트 모드로 전환될 때 무엇을 화면에 띄우고 얼마나 오래 띄울지 고르세요.
       guest_mode_item_placeholder: 아이템을 고르세요
@@ -228,9 +272,13 @@ ko:
       ota_enabled_hint: 새 펌웨어를 자동으로 설치해요. 직접 만든 펌웨어를 쓰려면 비활성화하세요.
       ota_byod_not_supported: BYOD 기기는 OTA를 지원하지 않아요. trmnl.com/flash에서 직접 플래시하세요.
       maximum_compatibility: 최대 호환성 활성화
-      maximum_compatibility_hint: 특정 e-ink 드라이버 칩의 디스플레이 문제를 해결해요. 빠른 새로고침이 비활성화돼요. 펌웨어 1.6.0 이상 필요.
+      maximum_compatibility_hint: 특정 ePaper 드라이버 칩의 디스플레이 문제를 해결해요. 빠른 새로고침이 비활성화돼요. 펌웨어 1.6.0 이상 필요.
+      color_and_rotation: 색상과 회전
+      screen_rotation: 화면 회전
+      screen_rotation_not_supported: 화면 회전은 현재 지원되지 않아요.
       palette: 색상 팔레트
-      palette_hint: 화면 생성에 사용할 색상을 선택하세요. 팔레트가 클수록 보기 좋지만, 작을수록 e-ink에서 빠르게 그려져요. 개별 플레이리스트 항목에서 재설정할 수 있어요.
+      palette_hint: 화면 생성에 사용할 색상을 선택하세요. 팔레트가 클수록 보기 좋지만, 작을수록 ePaper에서 빠르게 그려져요. 개별 플레이리스트 항목에서 재설정할 수 있어요.
+      presentation: Presentation
       sleep_mode: 절전 모드
       sleep_mode_hint: 새로고침 주기를 조정해서 집중력과 배터리를 아끼세요.
       sleep_screen: 절전 화면
@@ -267,6 +315,7 @@ ko:
       tagline: 내 TRMNL 기기
       add_device_modal_title: 새 기기 추가하기
       add_first_device: 첫 기기를 추가해서 시작하세요!
+      go_to_settings: Go to settings
     new:
       title: 새 기기 추가하기
       description: Friendly ID를 입력해서 새 기기를 계정에 추가하세요.
@@ -292,6 +341,7 @@ ko:
     switch:
       error: 기기 변경 오류
       success: 기기를 변경했어요
+      title: Switch to device
     update:
       error: 기기 업데이트 오류
       success: "%{device} 기기 설정을 업데이트했어요"
@@ -471,12 +521,16 @@ ko:
     forked: Recipe forked
     new:
       error: 레시피를 찾을 수 없어요
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: 활성
     copy_are_you_sure: 이 설정을 복사할까요?
     delete_are_you_sure: 이 설정을 삭제할까요?
     delete: 플러그인 설정을 완전히 삭제해요. 기기에서 플러그인을 숨기고 싶다면 플레이리스트에서 삭제하세요.
     inactive: 비활성
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: 플러그인 설정이 없어요.
     not_supported: 현재 기기에서 지원하지 않아요
     refreshing_now_please_wait: 새로고침 중이에요. 몇 초 후에 페이지를 다시 불러오세요.
@@ -589,6 +643,7 @@ ko:
       some_schedule: 이 시간에만 표시…
       to:
       copy_prompt: 스케줄 복사…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: '기기 업그레이드:'

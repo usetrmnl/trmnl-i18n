@@ -5,26 +5,26 @@ es-ES:
     tomorrow: mañana
     updated: Actualizado
     activity: Actividad
-    done: Realizada
-    due: Pendiente
+    done: Completado
+    due: Vence
     deutsche_bahn_departures:
       departures: Salidas
-      time: Tiempo
+      time: Hora
       line: Línea
       destination: Destino
-      platform: Platforma
+      platform: Vía
       delay: Retraso
       train: Tren
       on_time: En hora
       cancelled: Cancelado
-      minutes: m
-      refreshed: Refrescado
+      minutes: min
+      refreshed: Actualizado
     simple_calendar:
       title: Calendario
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: "%{month_label} Intercalado"
-        leap_format_short: "%{alt_month}MI"
+        leap_format: "%{month_label} (Intercalado)"
+        leap_format_short: "%{alt_month}int"
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
         -
@@ -111,35 +111,35 @@ es-ES:
       hebrew:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
-        - nisan
-        - iyar
-        - sivan
-        - tamuz
-        - av
-        - elul
-        - tishri
-        - heshvan
-        - kislev
-        - tevet
-        - shevat
-        - adar
-        - adar I
-        - adar II
+        - Nisán
+        - Iyar
+        - Siván
+        - Tamuz
+        - Av
+        - Elul
+        - Tishrei
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
         month_labels_abbr:
-        - nis
-        - iya
-        - siv
-        - tam
-        - av
-        - elu
-        - tis
-        - hes
-        - kis
-        - tev
-        - shv
-        - ada
-        - ad1
-        - ad2
+        - Nis
+        - Iya
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tis
+        - Hes
+        - Kis
+        - Tev
+        - She
+        - Ada
+        - Ad1
+        - Ad2
       hijri:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
@@ -154,63 +154,63 @@ es-ES:
         - Shaʻban
         - Ramadán
         - Shawwal
-        - Dhuʻl-qiʻdah
-        - Dhuʻl-hijjah
+        - Dhul-Qadah
+        - Dhul-Hijah
       bengali:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
-        - boishakh
-        - joishtho
-        - asharh
-        - srabon
-        - bhadro
-        - ashwin
-        - kartika
-        - ogrohayon
-        - poush
-        - magh
-        - falgun
-        - choitro
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
       indian:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
-        - chaitra
-        - vaisakha
-        - jyaistha
-        - asadha
-        - sravana
-        - bhadra
-        - asvina
-        - kartika
-        - agrahayana
-        - pausa
-        - magha
-        - phalguna
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
+        - Asadha
+        - Sravana
+        - Bhadra
+        - Asvina
+        - Kartika
+        - Agrahayana
+        - Pausa
+        - Magha
+        - Phalguna
     public_recipe_stats:
       __translator_note: Strings for recipe https://trmnl.com/recipes/170970. You do not need to translate strings ending with `__translator_note`. The following strings are using the Unicode MessageFormat 2 syntax. See https://messageformat.unicode.org/ for details. See https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html for pluralization rules of your language.
       connections: ".input {$value :number} .match $value one {{{$value :number} conexión}} many {{{$value :number} conexiones}} * {{{$value :number} conexiones}}"
       connections__translator_note: Title for the number of connections to a public recipe. {$value :number} is the number of connections.
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} many {{{$value :number} forks}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Sin instalaciones}} one {{{$value :number} instalación}} * {{{$value :number} instalaciones}}"
       and_more: y {$value :number} más
       and_more__translator_note: Used when some recipe stats are not shown on screen. {$value :number} is the number of additional stats that are not shown. You may pluralization rules if necessary in your language.
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.trmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: "“{$keyword}” no ha dado resultados."
+      error_keyword_subtitle: Prueba a buscar otra cosa.
+      error_new_title: No se han encontrado nuevas recetas.
+      error_new_subtitle: Esto no debería pasar.
+      error_self_title: No has publicado ninguna receta.
+      error_self_subtitle: Aprende cómo publicar la primera en https://help.usetrmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'El usuario #{$authorId} no ha publicado ninguna receta.'
+      error_author_id_subtitle: No se ha encontrado ninguna receta asociada a este ID.
+      error_recipe_ids_title: No se ha encontrado el ID de la receta.
+      error_recipe_ids_subtitle: Añade un ID de receta para empezar.
     horizontal_world_clock:
-      name: World clock
+      name: Reloj mundial
     language_learning_sentences:
       __translator_note: Strings for recipe https://trmnl.com/recipes/177718. You do not need to translate strings ending with `__translator_note`.
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} a {$to :langNameList}"
       from_to__translator_note: Title representing translation from one language to one or more other languages. ${from :langName} is the localized name of the source language, and ${to :langNameList} is the localized name of the target language(s). For example, "English to Spanish" or "English to Spanish, French".
     custom_next_holiday:
       __translator_note: Strings for recipe https://trmnl.com/recipes/257171. You do not need to translate strings ending with `__translator_note`. The following strings are using the Unicode MessageFormat 2 syntax. See https://messageformat.unicode.org/ for details. See https://www.unicode.org/cldr/charts/48/supplemental/language_plural_rules.html for pluralization rules of your language. Open an issue to https://github.com/blueset/trmnl-recipes if your language needs additional conditions like vowel harmony or gender agreement.

@@ -4,7 +4,8 @@ nl:
   about: About
   add: Toevoegen
   add_new: Nieuwe toevoegen
-  ago: ago
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: Ik heb al een account
   are_you_sure: Are you sure?
   back: Terug
@@ -33,6 +34,7 @@ nl:
   developer_edition_required: Developer-editie is vereist om deze functie in the schakelen.
   device_id: Apparaat ID
   device: Apparaat
+  discard: Discard
   edit: Bewerken
   email_address: Emailadres
   export: Export
@@ -80,6 +82,7 @@ nl:
   subscribe: Subscribe
   help_center: Support
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: Bijwerken
   view: Bekijk
   collaboration_request: Wanna collaborate?
@@ -90,6 +93,45 @@ nl:
     formats:
       shorter: "%-H.%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time} geleden"
+      future: over %{time}
+      distance_in_words:
+        half_a_minute: een halve minuut
+        less_than_x_seconds:
+          one: minder dan een seconde
+          other: minder dan %{count} seconden
+        less_than_x_minutes:
+          one: minder dan een minuut
+          other: minder dan %{count} minuten
+        x_seconds:
+          one: "%{count} seconde"
+          other: "%{count} seconden"
+        x_minutes:
+          one: "%{count} minuut"
+          other: "%{count} minuten"
+        about_x_hours:
+          one: ongeveer een uur
+          other: ongeveer %{count} uur
+        x_days:
+          one: "%{count} dag"
+          other: "%{count} dagen"
+        about_x_months:
+          one: ongeveer een maand
+          other: ongeveer %{count} maanden
+        x_months:
+          one: "%{count} maand"
+          other: "%{count} maanden"
+        about_x_years:
+          one: ongeveer een jaar
+          other: ongeveer %{count} jaar
+        over_x_years:
+          one: meer dan een jaar
+          other: meer dan %{count} jaar
+        almost_x_years:
+          one: bijna een jaar
+          other: bijna %{count} jaar
   account:
     index:
       title: Account
@@ -206,6 +248,8 @@ nl:
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Gast Modus
       guest_mode_hint: Kies wat je wil tonen (en voor hoe lang) in gast modus.
       guest_mode_item_placeholder: Kies een item
@@ -228,9 +272,13 @@ nl:
       ota_enabled_hint: Installeer automatisch nieuwe firmware. Deactiveer als je je je eigen firmware wil gebruiken.
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Activeer Maximale Compatibiliteit
-      maximum_compatibility_hint: Los scherm issues op met bepaalde e-ink driver chips. Zet snelle verversing uit. Firmware 1.6.0+ benodigd.
+      maximum_compatibility_hint: Los scherm issues op met bepaalde ePaper driver chips. Zet snelle verversing uit. Firmware 1.6.0+ benodigd.
+      color_and_rotation: Kleur en rotatie
+      screen_rotation: Schermrotatie
+      screen_rotation_not_supported: Schermrotatie is momenteel niet ondersteund op je apparaat.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
       sleep_screen: Slaapscherm
@@ -249,7 +297,7 @@ nl:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: Ontkoppelen
-      unlink_confirm: Weet je het zeker? Dit zal alle plugin instellingen en afspeellijsten verwijderen, zodat je het device aan een nieuw account kan koppelen.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Apparaat ontkoppelen
       unlink_device_hint: Door een TRMNL apparaat te ontkoppelen kun je hem veilig verkopen of aan iemand anders geven.
       unlink_device_learn_more: Volg __hier__ de volledige handleiding.
@@ -267,6 +315,7 @@ nl:
       tagline: Jouw TRMNL apparaten
       add_device_modal_title: Nieuw apparaat toevoegen
       add_first_device: Begin door jouw eerste apparaat toe te voegen!
+      go_to_settings: Go to settings
     new:
       title: Nieuw apparaat toevoegen
       description: Voer je Apparaat ID in om een nieuw TRMNL apparaat aan je account toe te voegen.
@@ -292,6 +341,7 @@ nl:
     switch:
       error: Fout bij wisselen apparaat
       success: Apparaat succesvol gewisseld
+      title: Switch to device
     update:
       error: Fout bij updaten apparaat
       success: "%{device} apparaatinstellingen succesvol bijgewerkt"
@@ -471,12 +521,16 @@ nl:
     forked: Recipe forked
     new:
       error: Recept niet gevonden
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: Actief
     copy_are_you_sure: Weet je zeker dat je deze instelling wilt kopiëren?
     delete_are_you_sure: Weet je zeker dat je deze instelling wilt verwijderen?
     delete: Hiermee verwijder je de instellingen van de plugin volledig. Om deze plugin simpelweg te verbergen verwijder je deze uit jouw afspeellijst.
     inactive: Inactief
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: Geen plugininstellingen gevonden.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Plugin wordt ververst, herlaad de pagina over een paar seconden.
@@ -589,6 +643,7 @@ nl:
       some_schedule: Toon enkel tijdens…
       to: naar
       copy_prompt: Kopieër schema van…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'Apparaat upgraden:'

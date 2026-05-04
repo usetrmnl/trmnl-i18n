@@ -4,7 +4,8 @@ zh-CN:
   about: 关于
   add: 添加
   add_new: 添加新设备
-  ago: 之前
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: 已经有账号？
   are_you_sure: 您确定吗？
   back: 后退
@@ -33,6 +34,7 @@ zh-CN:
   developer_edition_required: 此功能需要升级至开发者版。
   device_id: 设备ID
   device: 设备
+  discard: Discard
   edit: 编辑
   email_address: 邮箱
   export: 导出
@@ -80,6 +82,7 @@ zh-CN:
   subscribe: 订阅
   help_center: 技术支持
   terms: 条款
+  unsaved_changes: You have unsaved changes
   update: 更新
   view: 查看
   collaboration_request: 想合作吗？
@@ -90,6 +93,80 @@ zh-CN:
     formats:
       shorter: "%-H:%M"
     start_of_week: 1
+  datetime:
+    relative:
+      past: "%{time}前"
+      future: "%{time}后"
+      distance_in_words:
+        half_a_minute: 半分钟
+        less_than_x_seconds:
+          one: 不到%{count}秒
+          other: 不到%{count}秒
+        less_than_x_minutes:
+          one: 不到%{count}分钟
+          other: 不到%{count}分钟
+        x_seconds:
+          one: "%{count}秒"
+          other: "%{count}秒"
+        x_minutes:
+          one: "%{count}分钟"
+          other: "%{count}分钟"
+        about_x_hours:
+          one: 约%{count}小时
+          other: 约%{count}小时
+        x_days:
+          one: "%{count}天"
+          other: "%{count}天"
+        about_x_months:
+          one: 约%{count}个月
+          other: 约%{count}个月
+        x_months:
+          one: "%{count}个月"
+          other: "%{count}个月"
+        about_x_years:
+          one: 约%{count}年
+          other: 约%{count}年
+        over_x_years:
+          one: "%{count}年多"
+          other: "%{count}年多"
+        almost_x_years:
+          one: 不到%{count}年
+          other: 不到%{count}年
+      distance_in_words_future:
+        half_a_minute: 半分钟后
+        less_than_x_seconds:
+          one: "%{count}秒以内"
+          other: "%{count}秒以内"
+        less_than_x_minutes:
+          one: "%{count}分钟以内"
+          other: "%{count}分钟以内"
+        x_seconds:
+          one: "%{count}秒后"
+          other: "%{count}秒后"
+        x_minutes:
+          one: "%{count}分钟后"
+          other: "%{count}分钟后"
+        about_x_hours:
+          one: 约%{count}小时后
+          other: 约%{count}小时后
+        x_days:
+          one: "%{count}天后"
+          other: "%{count}天后"
+        about_x_months:
+          one: 约%{count}个月后
+          other: 约%{count}个月后
+        x_months:
+          one: "%{count}个月后"
+          other: "%{count}个月后"
+        about_x_years:
+          one: 约%{count}年后
+          other: 约%{count}年后
+        over_x_years:
+          one: "%{count}年多后"
+          other: "%{count}年多后"
+        almost_x_years:
+          one: 不到%{count}年后
+          other: 不到%{count}年后
   account:
     index:
       title: 账号
@@ -206,6 +283,8 @@ zh-CN:
       firmware: 固件
       firmware_updates_enabled: 更新已启用
       firmware_updates_disabled: 更新已禁用
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: 访客模式
       guest_mode_hint: 设置访客模式下显示的内容与时长。
       guest_mode_item_placeholder: 选择项目
@@ -229,8 +308,12 @@ zh-CN:
       ota_byod_not_supported: 自带设备（BYOD）不支持 OTA 固件更新。请直接从 trmnl.com/flash 刷入兼容版本。
       maximum_compatibility: 启用最大兼容模式
       maximum_compatibility_hint: 解决由某些电子墨水驱动芯片引发的显示问题。禁用快速刷新功能。需固件版本 1.6.0 及以上。
+      color_and_rotation: 颜色和旋转
+      screen_rotation: 屏幕旋转
+      screen_rotation_not_supported: 屏幕旋转目前不支持您的设备。
       palette: 调色板
       palette_hint: 选择生成此设备屏幕时使用的颜色集。较大的调色板看起来更好，但较小的调色板在电子墨水屏上绘制速度更快。单个播放列表项可以覆盖此设置。
+      presentation: Presentation
       sleep_mode: 睡眠模式
       sleep_mode_hint: 降低刷新率以优化焦点和电池寿命
       sleep_screen: 休眠画面
@@ -249,7 +332,7 @@ zh-CN:
       tidbyt_device_id: 设备 ID
       tidbyt_device_api_key: API 密钥
       unlink: 解绑
-      unlink_confirm: 您确定吗？此操作将删除所有基础插件设置和播放列表项目，以便该设备可添加至其他账户。
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: 解绑设备
       unlink_device_hint: 解绑TRMNL设备以转移用户
       unlink_device_learn_more: __点击此处__阅读完整说明。
@@ -267,6 +350,7 @@ zh-CN:
       tagline: 您的的TRMNL设备
       add_device_modal_title: 添加新TRMNL设备
       add_first_device: 添加您的第一个TRMNL设备！
+      go_to_settings: Go to settings
     new:
       title: 添加新TRMNL设备
       description: 输入您的TRMNL设备ID以添加新TRMNL设备
@@ -292,6 +376,7 @@ zh-CN:
     switch:
       error: 禁止切换设备
       success: 设备切换成功
+      title: Switch to device
     update:
       error: 设备更新错误
       success: "“%{device} 更新成功”"
@@ -471,12 +556,16 @@ zh-CN:
     forked: 配方分支成功
     new:
       error: 未找到配方
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: 激活
     copy_are_you_sure: 您确定要复制此设置吗？
     delete_are_you_sure: 您确定要删除此设置吗？
     delete: 删除。这将完全删除插件的设置。要仅隐藏此插件，请从播放列表中删除。
     inactive: 停用
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: 未找到插件信息
     not_supported: 不支持当前设备
     refreshing_now_please_wait: 正在刷新，请稍后重新加载此页面。
@@ -589,6 +678,7 @@ zh-CN:
       some_schedule: 仅在以下时间显示此屏幕…
       to: 到
       copy_prompt: 复制现有时间表…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 正在升级设备：

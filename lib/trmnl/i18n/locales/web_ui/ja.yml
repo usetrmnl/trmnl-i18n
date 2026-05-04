@@ -4,7 +4,8 @@ ja:
   about: About
   add: 追加
   add_new: 新規追加
-  ago: ago
+  ai_assistant: Agent
+  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: すでにアカウントをお持ちです
   are_you_sure: Are you sure?
   back: 戻る
@@ -33,6 +34,7 @@ ja:
   developer_edition_required: この機能を有効にするには、開発者エディションが必要です。
   device_id: デバイスID
   device: デバイス
+  discard: Discard
   edit: 編集
   email_address: メールアドレス
   export: Export
@@ -80,6 +82,7 @@ ja:
   subscribe: Subscribe
   help_center: サポート
   terms: Terms
+  unsaved_changes: You have unsaved changes
   update: 更新
   view: 表示
   collaboration_request: Wanna collaborate?
@@ -90,6 +93,45 @@ ja:
     formats:
       shorter: "%-H:%M"
     start_of_week: 0
+  datetime:
+    relative:
+      past: "%{time}前"
+      future: "%{time}後"
+      distance_in_words:
+        half_a_minute: 約30秒
+        less_than_x_seconds:
+          one: "%{count}秒未満"
+          other: "%{count}秒未満"
+        less_than_x_minutes:
+          one: "%{count}分未満"
+          other: "%{count}分未満"
+        x_seconds:
+          one: "%{count}秒"
+          other: "%{count}秒"
+        x_minutes:
+          one: "%{count}分"
+          other: "%{count}分"
+        about_x_hours:
+          one: 約%{count}時間
+          other: 約%{count}時間
+        x_days:
+          one: "%{count}日"
+          other: "%{count}日"
+        about_x_months:
+          one: 約%{count}ヶ月
+          other: 約%{count}ヶ月
+        x_months:
+          one: "%{count}ヶ月"
+          other: "%{count}ヶ月"
+        about_x_years:
+          one: 約%{count}年
+          other: 約%{count}年
+        over_x_years:
+          one: "%{count}年以上"
+          other: "%{count}年以上"
+        almost_x_years:
+          one: "%{count}年弱"
+          other: "%{count}年弱"
   account:
     index:
       title: マイアカウント
@@ -206,6 +248,8 @@ ja:
       firmware: Firmware
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
+      font_family: Font Family
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -228,9 +272,13 @@ ja:
       ota_enabled_hint: 新しいファームウェアを自動的にインストールします。独自のファームウェアを使用するには無効にしてください。
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain ePaper driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      color_and_rotation: 色と回転
+      screen_rotation: 画面回転
+      screen_rotation_not_supported: 画面回転は現在、あなたのデバイスではサポートされていません。
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      presentation: Presentation
       sleep_mode: スリープモード
       sleep_mode_hint: 集中力とバッテリー寿命を最適化するために、更新頻度を調整します。
       sleep_screen: スリープ画面
@@ -249,7 +297,7 @@ ja:
       tidbyt_device_id: Device ID
       tidbyt_device_api_key: API Key
       unlink: 接続解除
-      unlink_confirm: Are you sure? This will delete all underlying plugin settings and playlist items, so the device can be added to another account.
+      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: デバイス接続を解除する
       unlink_device_hint: TRMNLデバイスの接続を解除すると、デバイスを再販したり贈ったりするときにより安全です。
       unlink_device_learn_more: Follow the full guide __here__.
@@ -267,6 +315,7 @@ ja:
       tagline: あなたのTRMNLデバイス
       add_device_modal_title: 新しいデバイスを追加
       add_first_device: 始めるには最初のデバイスを追加してください！
+      go_to_settings: Go to settings
     new:
       title: 新しいデバイスを追加
       description: デバイスIDを入力して、新しいTRMNLデバイスをアカウントに追加してください。
@@ -292,6 +341,7 @@ ja:
     switch:
       error: デバイス切り替えエラー
       success: デバイスが正常に切り替えられました
+      title: Switch to device
     update:
       error: デバイス更新エラー
       success: "%{device}デバイスの設定が正常に更新されました"
@@ -471,12 +521,16 @@ ja:
     forked: Recipe forked
     new:
       error: レシピが見つかりません
+    show:
+      more_by_author: More by this Author
+      view_all: View all
   plugin_settings:
     active: アクティブ
     copy_are_you_sure: この設定をコピーしてもよろしいですか？
     delete_are_you_sure: この設定を削除してもよろしいですか？
     delete: プラグインの設定を完全に削除します。デバイスからプラグインを単に隠したいだけなら、プレイリストから削除してください。
     inactive: 非アクティブ
+    no_matches_found: No plugins match your filters.
     no_plugin_settings_found: プラグインが見つかりません。
     not_supported: Not supported on current device
     refreshing_now_please_wait: 更新中です。数秒後にこのページを再読み込みしてください。
@@ -589,6 +643,7 @@ ja:
       some_schedule: Only show this screen during…
       to: to
       copy_prompt: Copy schedule from…
+      no_days_error: Please select at least one day.
   upgrade:
     index:
       title: 'デバイスのアップグレード:'
