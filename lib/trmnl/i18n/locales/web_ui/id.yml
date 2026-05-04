@@ -251,7 +251,7 @@ id:
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
       font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -274,12 +274,12 @@ id:
       ota_enabled_hint: Firmware terbaru akan diinstal secara otomatis. Nonaktifkan jika menggunakan firmware Anda sendiri.
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain ePaper driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       color_and_rotation: Warna dan Rotasi Layar
       screen_rotation: Rotasi Layar
       screen_rotation_not_supported: Rotasi layar saat ini tidak didukung pada perangkat Anda.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
       presentation: Presentation
       sleep_mode: Mode Tidur
       sleep_mode_hint: Sesuaikan tingkat penyegaran untuk fokus dan hemat baterai.
@@ -317,6 +317,7 @@ id:
       tagline: Perangkat TRMNL Anda
       add_device_modal_title: Tambah perangkat baru
       add_first_device: Mulai dengan menambahkan perangkat pertama Anda!
+      go_to_settings: Go to settings
     new:
       title: Tambah perangkat baru
       description: Masukkan ID Perangkat Anda untuk menambahkan perangkat TRMNL baru ke akun Anda.
@@ -342,6 +343,7 @@ id:
     switch:
       error: Terjadi kesalahan saat mengganti perangkat
       success: Perangkat berhasil diganti
+      title: Switch to device
     update:
       error: Terjadi kesalahan saat memperbarui perangkat
       success: Pengaturan perangkat %{device} berhasil diperbarui

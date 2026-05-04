@@ -249,7 +249,7 @@ is:
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
       font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Gestahamur
       guest_mode_hint: Veldu hvað á að birta (og hversu lengi) þegar gestahamur er virkjaður.
       guest_mode_item_placeholder: Veldu atriði
@@ -272,12 +272,12 @@ is:
       ota_enabled_hint: Setur sjálfkrafa inn nýjan vélbúnað. Slökktu til að nota þinn eigin.
       ota_byod_not_supported: OTA er ekki stutt fyrir BYOD-tæki. "Flassaðu" samhæfða útgáfu beint frá trmnl.com/flash
       maximum_compatibility: Hámarkssamhæfni
-      maximum_compatibility_hint: Leysir skjávandamál af völdum sumra e-ink rekla. Slekkur á hraðri uppfærslu. Krefst fastbúnaðar 1.6.0+.
+      maximum_compatibility_hint: Leysir skjávandamál af völdum sumra ePaper rekla. Slekkur á hraðri uppfærslu. Krefst fastbúnaðar 1.6.0+.
       color_and_rotation: Litur og Snúningur
       screen_rotation: Skjásnúningur
       screen_rotation_not_supported: Skjásnúningur er ekki í boði fyrir þetta tæki.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
       presentation: Presentation
       sleep_mode: Svefnhamur
       sleep_mode_hint: Stilltu uppfærslutíðni til að bæta einbeitingu og lengja rafhlöðuendingu.
@@ -315,6 +315,7 @@ is:
       tagline: TRMNL tækin þín
       add_device_modal_title: Bæta við nýju tæki
       add_first_device: Byrjaðu á því að bæta við fyrsta tækinu þínu!
+      go_to_settings: Go to settings
     new:
       title: Bæta við nýju tæki
       description: Sláðu inn kennimerki tækis til að bæta TRMNL tæki við aðganginn þinn.
@@ -340,6 +341,7 @@ is:
     switch:
       error: Villa við skiptingu tækis
       success: Tæki skipt
+      title: Switch to device
     update:
       error: Villa við að uppfæra tæki
       success: Stillingar tækis %{device} uppfærðar

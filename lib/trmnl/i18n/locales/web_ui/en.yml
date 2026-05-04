@@ -249,7 +249,7 @@ en:
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
       font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Guest Mode
       guest_mode_hint: Choose what to display (and for how long) whenever guest mode is enabled.
       guest_mode_item_placeholder: Choose an item
@@ -272,12 +272,12 @@ en:
       ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
-      maximum_compatibility_hint: Resolves display issues caused by certain e-ink driver chips. Disables fast refresh. Firmware 1.6.0+ required.
+      maximum_compatibility_hint: Resolves display issues caused by certain ePaper driver chips. Disables fast refresh. Firmware 1.6.0+ required.
       color_and_rotation: Color & Rotation
       screen_rotation: Screen Rotation
       screen_rotation_not_supported: Screen rotation is currently not supported on your device.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
       presentation: Presentation
       sleep_mode: Sleep Mode
       sleep_mode_hint: Adjust your refresh rate to optimize focus and battery life.
@@ -315,6 +315,7 @@ en:
       tagline: Your TRMNL devices
       add_device_modal_title: Add a new device
       add_first_device: Start by adding your first device!
+      go_to_settings: Go to settings
     new:
       title: Add a new device
       description: Enter your Friendly ID to add a new device to your account.
@@ -340,6 +341,7 @@ en:
     switch:
       error: Error switching device
       success: Device switched successfully
+      title: Switch to device
     update:
       error: Error updating device
       success: "%{device} device settings updated successfully"

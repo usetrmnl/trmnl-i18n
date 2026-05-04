@@ -251,7 +251,7 @@ fr:
       firmware_updates_enabled: Mises à jour activées
       firmware_updates_disabled: Mises à jour désactivées
       font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Mode invité
       guest_mode_hint: Choisissez ce qui s'affiche (et pendant combien de temps) quand le mode invité est activé.
       guest_mode_item_placeholder: Choisir un élément
@@ -274,12 +274,12 @@ fr:
       ota_enabled_hint: Installe automatiquement le nouveau firmware. Désactivez cette option si vous souhaitez utiliser votre propre firmware.
       ota_byod_not_supported: L'OTA n'est pas pris en charge pour les appareils BYOD. Flashez une version compatible directement depuis trmnl.com/flash
       maximum_compatibility: Activer la compatibilité maximale
-      maximum_compatibility_hint: Résout les problèmes d'affichage causés par certaines puces de pilote e-ink. Désactive le rafraîchissement rapide. Firmware 1.6.0+ requis.
+      maximum_compatibility_hint: Résout les problèmes d'affichage causés par certaines puces de pilote ePaper. Désactive le rafraîchissement rapide. Firmware 1.6.0+ requis.
       color_and_rotation: Couleur & Rotation
       screen_rotation: Rotation de l'écran
       screen_rotation_not_supported: La rotation de l'écran n'est pas actuellement prise en charge sur votre appareil.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
       presentation: Presentation
       sleep_mode: Mode Veille
       sleep_mode_hint: Ajustez la fréquence de rafraîchissement pour réduire les distractions et augmenter l'autonomie de la batterie.
@@ -317,6 +317,7 @@ fr:
       tagline: Vos appareils TRMNL
       add_device_modal_title: Ajouter un nouvel appareil
       add_first_device: Commencez en ajoutant votre premier appareil !
+      go_to_settings: Go to settings
     new:
       title: Ajouter un nouvel appareil
       description: Entrez votre ID d'appareil pour ajouter un nouveau TRMNL à votre compte.
@@ -342,6 +343,7 @@ fr:
     switch:
       error: Erreur lors du changement d'appareil
       success: Appareil changé avec succès
+      title: Switch to device
     update:
       error: Erreur lors de la mise à jour de l'appareil
       success: "%{device} mis à jour avec succès"

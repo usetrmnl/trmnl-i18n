@@ -249,7 +249,7 @@ pt-BR:
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
       font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Modo Convidado
       guest_mode_hint: Escolha o que exibir (e por quanto tempo) quando o modo convidado está ativado.
       guest_mode_item_placeholder: Escolha um item
@@ -272,12 +272,12 @@ pt-BR:
       ota_enabled_hint: Instalar novos firmwares automaticamente. Desative para usar seu próprio firmware.
       ota_byod_not_supported: OTA não é suportado em dispositivos BYOD. Instale uma versão compatível diretamente de trmnl.com/flash
       maximum_compatibility: Habilitar Compatibilidade Máxima
-      maximum_compatibility_hint: Resolve problemas de exibição causados por determinados chips e-ink. Desabilida a atualização rápida. Requer o firmware 1.6.0+.
+      maximum_compatibility_hint: Resolve problemas de exibição causados por determinados chips ePaper. Desabilida a atualização rápida. Requer o firmware 1.6.0+.
       color_and_rotation: Color & Rotation
       screen_rotation: Screen Rotation
       screen_rotation_not_supported: A rotação da tela não é suportada no seu dispositivo.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
       presentation: Presentation
       sleep_mode: Modo de Descanso
       sleep_mode_hint: Ajuste sua taxa de atualização para otimizar foco e duração da bateria.
@@ -315,6 +315,7 @@ pt-BR:
       tagline: Seus dispositivos TRMNL
       add_device_modal_title: Adicionar novo dispositivo
       add_first_device: Comece adicionando seu primeiro dispositivo!
+      go_to_settings: Go to settings
     new:
       title: Adicionar novo dispositivo
       description: Coloque o ID do Dispositivo para adicionar um novo TRMNL à sua conta.
@@ -340,6 +341,7 @@ pt-BR:
     switch:
       error: Erro ao trocar dispositivo
       success: Dispositivo trocado com sucesso
+      title: Switch to device
     update:
       error: Erro ao atualizar dispositivo
       success: Configurações do dispositivo %{device} atualizadas com sucesso

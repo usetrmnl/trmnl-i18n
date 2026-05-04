@@ -271,7 +271,7 @@ ru:
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
       font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Гостевой режим
       guest_mode_hint: Выберите, что отображать (и на какой срок) при включении гостевого режима.
       guest_mode_item_placeholder: Выберите элемент
@@ -294,12 +294,12 @@ ru:
       ota_enabled_hint: Автоматически устанавливать новую прошивку. Отключите, чтобы использовать собственную прошивку.
       ota_byod_not_supported: OTA не поддерживается для устройств BYOD. Прошейте совместимую версию прямо с trmnl.com/flash
       maximum_compatibility: Включить максимальную совместимость
-      maximum_compatibility_hint: Устраняет проблемы с отображением, вызванные некоторыми чипами драйверов e-ink. Отключает быстрое обновление. Требуется прошивка 1.6.0+.
+      maximum_compatibility_hint: Устраняет проблемы с отображением, вызванные некоторыми чипами драйверов ePaper. Отключает быстрое обновление. Требуется прошивка 1.6.0+.
       color_and_rotation: Color & Rotation
       screen_rotation: Screen Rotation
       screen_rotation_not_supported: Вращение экрана в настоящее время не поддерживается на вашем устройстве.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
       presentation: Presentation
       sleep_mode: Спящий режим
       sleep_mode_hint: Настройте частоту обновления для оптимизации фокусировки и времени автономной работы.
@@ -337,6 +337,7 @@ ru:
       tagline: Ваши устройства TRMNL
       add_device_modal_title: Добавить новое устройство
       add_first_device: Начните с добавления вашего первого устройства!
+      go_to_settings: Go to settings
     new:
       title: Добавить новое устройство
       description: Введите свой Дружелюбный ID, чтобы добавить новое устройство в свою учётную запись.
@@ -362,6 +363,7 @@ ru:
     switch:
       error: Ошибка переключения устройства
       success: Устройство успешно переключено
+      title: Switch to device
     update:
       error: Ошибка обновления устройства
       success: Настройки устройства "%{device}" успешно обновлены

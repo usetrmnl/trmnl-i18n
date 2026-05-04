@@ -249,7 +249,7 @@ nl:
       firmware_updates_enabled: Updates enabled
       firmware_updates_disabled: Updates disabled
       font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on e-ink screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
       guest_mode: Gast Modus
       guest_mode_hint: Kies wat je wil tonen (en voor hoe lang) in gast modus.
       guest_mode_item_placeholder: Kies een item
@@ -272,12 +272,12 @@ nl:
       ota_enabled_hint: Installeer automatisch nieuwe firmware. Deactiveer als je je je eigen firmware wil gebruiken.
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Activeer Maximale Compatibiliteit
-      maximum_compatibility_hint: Los scherm issues op met bepaalde e-ink driver chips. Zet snelle verversing uit. Firmware 1.6.0+ benodigd.
+      maximum_compatibility_hint: Los scherm issues op met bepaalde ePaper driver chips. Zet snelle verversing uit. Firmware 1.6.0+ benodigd.
       color_and_rotation: Kleur en rotatie
       screen_rotation: Schermrotatie
       screen_rotation_not_supported: Schermrotatie is momenteel niet ondersteund op je apparaat.
       palette: Color Palette
-      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on e-ink. Individual playlist items can override this setting.
+      palette_hint: Select the set of colors to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
       presentation: Presentation
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
@@ -315,6 +315,7 @@ nl:
       tagline: Jouw TRMNL apparaten
       add_device_modal_title: Nieuw apparaat toevoegen
       add_first_device: Begin door jouw eerste apparaat toe te voegen!
+      go_to_settings: Go to settings
     new:
       title: Nieuw apparaat toevoegen
       description: Voer je Apparaat ID in om een nieuw TRMNL apparaat aan je account toe te voegen.
@@ -340,6 +341,7 @@ nl:
     switch:
       error: Fout bij wisselen apparaat
       success: Apparaat succesvol gewisseld
+      title: Switch to device
     update:
       error: Fout bij updaten apparaat
       success: "%{device} apparaatinstellingen succesvol bijgewerkt"
