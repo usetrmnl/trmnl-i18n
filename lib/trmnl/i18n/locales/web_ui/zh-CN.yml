@@ -66,10 +66,10 @@ zh-CN:
   plugin_not_found: 未发现插件
   preview: 预览
   privacy: 隐私
-  refresh_rate: Refresh rate
+  refresh_rate: 刷新频率
   refresh_rates_hint: 点击 __此处__ 了解刷新频次。
   reset_password: 重置密码
-  reset_to_defaults: Reset to defaults
+  reset_to_defaults: 恢复默认设置
   required: 必填
   save: 保存
   shown: 显示
@@ -206,7 +206,7 @@ zh-CN:
       session_hint: 当前登录的用户名：%{user}
       show_title_bar: 显示标题栏
       show_title_bar_hint: 关闭的时候, 原生插件（非全局插件）和第三方插件将会更简约。
-      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
+      theme_hint: 个性化 TRMNL 界面，您可以设置主题或与选择设备同步。
       time_zone: 时区
       time_zone_hint: 用于自动调整刷新率与设备休眠
       locale: 语言
@@ -268,17 +268,17 @@ zh-CN:
       device_model: 设备型号
       device_model_hint: 您的设备型号
       device_model_switch_warning: 这是一个危险操作，__了解详情__。
-      device_info: Device Info
-      current_firmware: Current firmware
-      last_ping: Last ping
-      unknown: Unknown
-      never: Never
-      display_calibration: Display Calibration
-      display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
-      display_calibration_pixel_ratio: Pixel Ratio
-      display_calibration_pixel_ratio_hint: 'Image zoom level (0.5–3.0). Default:'
-      display_calibration_ui_scale: UI Scale
-      display_calibration_ui_scale_hint: 'Text and element sizes (0.5–2.0). Default:'
+      device_info: 设备信息
+      current_firmware: 当前固件
+      last_ping: 上次响应
+      unknown: 未知
+      never: 从未
+      display_calibration: 显示校准
+      display_calibration_hint: 微调显示效果。留空以使用型号默认值。
+      display_calibration_pixel_ratio: 像素比
+      display_calibration_pixel_ratio_hint: 图像缩放级别 (0.5–3.0)。默认值：
+      display_calibration_ui_scale: 界面缩放
+      display_calibration_ui_scale_hint: 文本和元素大小 (0.5–2.0)。默认值：
       edit_device: 修改设备
       firmware: 固件
       firmware_updates_enabled: 更新已启用
@@ -324,8 +324,8 @@ zh-CN:
       special_function_learn_more: 点击__此处__以了解更多
       temperature_profile: 温度曲线
       temperature_profile_hint: 除非另有指示，否则请勿更改。适用于显示画面褪色情况。
-      touchbar_mode: Touchbar Mode
-      touchbar_mode_hint: What type of gestures should your device respond to?
+      touchbar_mode: 触摸条模式
+      touchbar_mode_hint: 您的设备应响应哪种类型的手势？
       tidbyt_credentials: Tidbyt 凭据
       tidbyt_credentials_hint: 从 Tidbyt 应用的「设置」→「开发者」→「获取 API 密钥」中输入您的 Tidbyt 设备的 API 凭据。
       tidbyt_credentials_invalid: Tidbyt API 凭据无效。请仔细检查后重试。
@@ -461,7 +461,7 @@ zh-CN:
       smart_playlist: 智能播放列表
       smart_playlist_hint: 自动跳过内容长时间未更新的画面。
       skip_after:
-        one: Skip stale screens after 1 day
+        one: 跳过超过 1 天未更新的画面
         other: 跳过超过 %{count} 天未更新的画面
     playlist_item:
       adjust_schedule: 调整定时
@@ -471,17 +471,17 @@ zh-CN:
       remove_from_playlist: 从播放列表中删除
       hide_playlist: 隐藏此项
       show_playlist: 显示此项
-      duplicate: Duplicate
-      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
-      color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
+      duplicate: 复制
+      duplicate_confirm: 这将创建此项的副本并将其添加到播放列表的底部。是否继续？
+      color_palette: 颜色调色板
+      device_default: 设备默认（%{name}）
+      palette_unavailable: 仅适用于具有多个颜色调色板的设备
       refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
+        default: 此插件的刷新率无法配置。
+        external: 此插件实时获取数据，因此刷新率设置不适用。
+        global: 此插件在平台范围内按固定计划刷新。
+        mashup: 混合插件将根据其最快的插件刷新频率进行刷新。
+        readonly: 此插件具有固定的刷新率，无法配置。
     create:
       error: 创建播放列表错误
       success: 播放列表创建成功
@@ -548,12 +548,12 @@ zh-CN:
   plugin_recipes:
     connected: 已连接配方
     connections:
-      one: Connection
+      one: 连接
       other: 连接
     forks:
-      one: Fork
+      one: 分支
       other: 分支
-    forked: Recipe forked
+    forked: 配方分支成功
     new:
       error: 未找到配方
     show:
@@ -573,7 +573,7 @@ zh-CN:
     form:
       active_hint: 显示/隐藏此插件
       advanced_settings: 高级设置
-      back_to_playlist: Back to Playlist
+      back_to_playlist: 返回播放列表
       back_to_plugin: 返回 %{plugin}
       back_to_plugins: 返回插件
       connect_with: 已连接 %{plugin}
@@ -603,7 +603,7 @@ zh-CN:
       linked_account_success: 已成功关联 %{plugin_name}
       link_oauth: 链接账户
       link_oauth_hint: 在继续之前，请按照 %{plugin} 提供的授权流程操作
-      mirrored: Mirrored
+      mirrored: 镜像
       multiple_instances_hint: 此插件支持多实例
       name: 名称
       name_hint: 起一个好听的名字
@@ -621,7 +621,7 @@ zh-CN:
       recipe_cta_body_in_review: 此插件已提交至我们的团队。请稍候。
       recipe_cta_body_not_published: 发布此插件以供他人安装。__了解更多__。
       recipe_cta_confirm: 您确定吗？我们的团队将进行审核，并在几天内与您联系。您可以继续进行更改。
-      recipe_mirrored: This screen is mirrored from the recipe.
+      recipe_mirrored: 此屏幕从配方镜像而来。
       recipe_visibility_title: 您希望如何发布？
       recipe_visibility_edit_title: 编辑提交
       recipe_visibility_public: 公开
@@ -643,7 +643,7 @@ zh-CN:
       refresh_paused_mashup: 正在刷新混搭
       refresh_paused_mashup_hint: 全屏模式的自动刷新已暂停。混搭仍在更新。
       refresh_stopped: 自动刷新已停止。请修复插件错误以继续。
-      view_recipe: View Recipe
+      view_recipe: 查看配方
       visit_docs: 查看文档
     import:
       archive_too_large: ZIP 文件过大（最大 %{max_mb} MB）

@@ -189,10 +189,13 @@ raw:
         - Magha
         - Phalguna
     public_recipe_stats:
+      __translator_note: custom_plugins.public_recipe_stats.__translator_note
       connections: custom_plugins.public_recipe_stats.connections
+      connections__translator_note: custom_plugins.public_recipe_stats.connections__translator_note
       forks: custom_plugins.public_recipe_stats.forks
       installs: custom_plugins.public_recipe_stats.installs
       and_more: custom_plugins.public_recipe_stats.and_more
+      and_more__translator_note: custom_plugins.public_recipe_stats.and_more__translator_note
       error_keyword_title: custom_plugins.public_recipe_stats.error_keyword_title
       error_keyword_subtitle: custom_plugins.public_recipe_stats.error_keyword_subtitle
       error_new_title: custom_plugins.public_recipe_stats.error_new_title
@@ -206,4 +209,17 @@ raw:
     horizontal_world_clock:
       name: custom_plugins.horizontal_world_clock.name
     language_learning_sentences:
+      __translator_note: custom_plugins.language_learning_sentences.__translator_note
       from_to: custom_plugins.language_learning_sentences.from_to
+      from_to__translator_note: custom_plugins.language_learning_sentences.from_to__translator_note
+    custom_next_holiday:
+      __translator_note: custom_plugins.custom_next_holiday.__translator_note
+      next_holiday: custom_plugins.custom_next_holiday.next_holiday
+      today_and_next: custom_plugins.custom_next_holiday.today_and_next
+      today_and_next__translator_note: custom_plugins.custom_next_holiday.today_and_next__translator_note
+      today_only: custom_plugins.custom_next_holiday.today_only
+      today_only__translator_note: custom_plugins.custom_next_holiday.today_only__translator_note
+      next_only: custom_plugins.custom_next_holiday.next_only
+      next_only__translator_note: custom_plugins.custom_next_holiday.next_only__translator_note
+      no_holidays: custom_plugins.custom_next_holiday.no_holidays
+      no_holidays__translator_note: custom_plugins.custom_next_holiday.no_holidays__translator_note
