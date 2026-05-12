@@ -317,6 +317,16 @@ raw:
       add_device_modal_title: devices.index.add_device_modal_title
       add_first_device: devices.index.add_first_device
       go_to_settings: devices.index.go_to_settings
+      clear_playlist: devices.index.clear_playlist
+      clear_playlist_confirm: devices.index.clear_playlist_confirm
+      copy_playlist_to_device: devices.index.copy_playlist_to_device
+      copy_playlist_submit: devices.index.copy_playlist_submit
+      target_device: devices.index.target_device
+    clear_playlist:
+      success: devices.clear_playlist.success
+    copy_playlist:
+      error_same_device: devices.copy_playlist.error_same_device
+      success: devices.copy_playlist.success
     new:
       title: devices.new.title
       description: devices.new.description

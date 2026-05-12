@@ -317,6 +317,16 @@ ja:
       add_device_modal_title: 新しいデバイスを追加
       add_first_device: 始めるには最初のデバイスを追加してください！
       go_to_settings: Go to settings
+      clear_playlist: Clear playlist
+      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
+      copy_playlist_to_device: Copy playlist to device
+      copy_playlist_submit: Copy playlist
+      target_device: Target device
+    clear_playlist:
+      success: "%{device}'s playlist has been cleared."
+    copy_playlist:
+      error_same_device: Source and target device must be different.
+      success: Playlist copied from %{source} to %{target}.
     new:
       title: 新しいデバイスを追加
       description: デバイスIDを入力して、新しいTRMNLデバイスをアカウントに追加してください。
