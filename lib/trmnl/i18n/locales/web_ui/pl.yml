@@ -273,7 +273,7 @@ pl:
       firmware_updates_enabled: Aktualizacje włączone
       firmware_updates_disabled: Aktualizacje wyłączone
       font_family: Rodzina czcionek
-      font_family_hint: Rodzina czcionek TRMNL została zaprojektowana do używania w wyświetlaczach e-ink. Wsparcie w pluginach we Framework UI od wersji %{min_version}+.
+      font_family_hint: Rodzina czcionek TRMNL została zaprojektowana do używania w wyświetlaczach e-papierowych. Wsparcie w pluginach we Framework UI od wersji %{min_version}+.
       guest_mode: Tryb gościa
       guest_mode_hint: Wybierz co ma być wyświetlane (i przez jaki czas), kiedy tryb gościa jest włączony.
       guest_mode_item_placeholder: Wybierz element
@@ -301,7 +301,7 @@ pl:
       screen_rotation: Obrót ekranu
       screen_rotation_not_supported: Obrót ekranu nie jest obecnie obsługiwany na Twoim urządzeniu.
       palette: Paleta kolorów
-      palette_hint: Wybierz zestaw kolorów, który ma być wyświetlany na tym urządzeniu. Większa paleta wygląda lepiej, ale mniejsza jest szybciej rysowana na wyświetlaczach e-ink. Ustawienie to da się zmienić indywidualnie dla każdego elementu playlisty.
+      palette_hint: Wybierz zestaw kolorów, który ma być wyświetlany na tym urządzeniu. Większa paleta wygląda lepiej, ale mniejsza jest szybciej rysowana na wyświetlaczach e-papierowych. Ustawienie to da się zmienić indywidualnie dla każdego elementu playlisty.
       presentation: Prezentacja
       sleep_mode: Tryb uśpienia
       sleep_mode_hint: Dostosuj częstotliwość odświeżania, aby zoptymalizować skupienie i wydłużyć czas pracy na baterii.
@@ -591,9 +591,9 @@ pl:
       force_refresh_click_here: Kliknij tutaj
       force_refresh_click_here_hint: aby natychmiast wygenerować nowy ekran
       force_refresh_not_possible: Nie można wymusić odświeżenia tego pluginu, ponieważ serwer TRMNL nie wspiera przetwarzania obrazów. __Tutaj__ dowiesz się, jak przetestować swoją instancję.
-      health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications: Powiadomienia o stanie
+      health_notifications_hint: Otrzymaj e-maila, jeśli stan tego pluginu wskaże problem (zdegradowany / błąd). Otrzymasz najwyżej jeden e-mail na zmianę stanu na incydent. Alerty uzbrajają się ponownie po powrocie pluginu do stanu "zdrowy".
+      health_notifications_checkbox: Wyślij mi e-mail, jeśli plugin będzie miał problem z działaniem
       learn_more: Dowiedz się więcej o tym pluginie z naszej bazy wiedzy
       learn_more_fork: Ten plugin jest forkiem Receptury.
       learn_more_fork_original: Zobacz oryginał
