@@ -2,6 +2,7 @@
 uk:
   locale_name: Ukrainian
   about: About
+  actions: Actions
   add: Додати
   add_new: Додати новий
   ai_assistant: Agent
@@ -180,6 +181,7 @@ uk:
       email_address_hint: Використовується для входу в TRMNL та для отримання системних повідомлень.
       first_name_hint: Ми використовуємо ваше ім'я, щоб зробити інтерфейс TRMNL більш зручним.
       last_name_hint: Ми використовуємо ваше прізвище, щоб зробити інтерфейс TRMNL більш зручним.
+      github_username_hint: Used to attribute open source contributions to the Creator Fund.
       password_hint: Використовується для захисту вашого акаунту TRMNL.
       enable_2fa: Enable 2FA?
       enable_2fa_hint: __Click here__ to enable OTP.
@@ -338,6 +340,19 @@ uk:
       add_device_modal_title: Додати новий пристрій
       add_first_device: Почніть, додавши свій перший пристрій!
       go_to_settings: Go to settings
+      clear_playlist: Clear playlist
+      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
+      copy_playlist_to_device: Copy playlist to device
+      copy_playlist_submit: Copy playlist
+      copy_playlist_from_device: From
+      copy_playlist_to_device_label: To
+      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      target_device: Target device
+    clear_playlist:
+      success: "%{device}'s playlist has been cleared."
+    copy_playlist:
+      error_same_device: Source and target device must be different.
+      success: Playlist copied from %{source} to %{target}.
     new:
       title: Додати новий пристрій
       description: Введіть ваш Дружній ID, щоб додати новий пристрій TRMNL до вашого акаунту.
@@ -576,6 +591,9 @@ uk:
       force_refresh_click_here: Натисніть тут
       force_refresh_click_here_hint: щоб негайно створити новий екран
       force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      health_notifications: Health notifications
+      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
+      health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Дізнайтеся більше про цей плагін у нашій базі знань
       learn_more_fork: This plugin was forked from a Recipe.
       learn_more_fork_original: See Original
@@ -619,6 +637,7 @@ uk:
       recipe_visibility_unlisted_hint: Anyone with the link can install.
       refresh_rate: Частота оновлення
       refresh_rate_hint: Оберіть, як часто цей екземпляр плагіна отримує свіжі дані
+      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
       refreshed: Оновлено
       remove_plugin: Remove plugin
@@ -626,7 +645,7 @@ uk:
       synced: Synced
       refresh_paused: Refresh Paused
       refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Refreshing Mashups
       refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
       refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.

@@ -2,6 +2,7 @@
 hu:
   locale_name: Magyar
   about: About
+  actions: Actions
   add: Hozzáadás
   add_new: Új hozzáadása
   ai_assistant: Agent
@@ -158,6 +159,7 @@ hu:
       email_address_hint: A TRMNL-ba való bejelentkezéshez és rendszerüzenetek fogadásához használjuk.
       first_name_hint: A keresztneved segít személyesebbé tenni a TRMNL felületét.
       last_name_hint: A vezetékneved segít személyesebbé tenni a TRMNL felületét.
+      github_username_hint: Used to attribute open source contributions to the Creator Fund.
       password_hint: A fiókod védelmére szolgál.
       enable_2fa: Kétlépcsős azonosítás engedélyezése
       enable_2fa_hint: __Kattints ide__ az egyszeri jelszó (OTP) engedélyezéséhez.
@@ -316,6 +318,19 @@ hu:
       add_device_modal_title: Új eszköz hozzáadása
       add_first_device: Kezdd az első eszközöd hozzáadásával!
       go_to_settings: Go to settings
+      clear_playlist: Clear playlist
+      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
+      copy_playlist_to_device: Copy playlist to device
+      copy_playlist_submit: Copy playlist
+      copy_playlist_from_device: From
+      copy_playlist_to_device_label: To
+      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      target_device: Target device
+    clear_playlist:
+      success: "%{device}'s playlist has been cleared."
+    copy_playlist:
+      error_same_device: Source and target device must be different.
+      success: Playlist copied from %{source} to %{target}.
     new:
       title: Új eszköz hozzáadása
       description: Add meg az eszközazonosítót, hogy új TRMNL eszközt kapcsolj a fiókodhoz.
@@ -554,6 +569,9 @@ hu:
       force_refresh_click_here: Kattints ide
       force_refresh_click_here_hint: hogy azonnal új képernyőt generálj
       force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      health_notifications: Health notifications
+      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
+      health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Tudj meg többet erről a bővítményről a tudásbázisunkban
       learn_more_fork: Ez a bővítmény egy receptből lett létrehozva.
       learn_more_fork_original: Eredeti megtekintése
@@ -597,6 +615,7 @@ hu:
       recipe_visibility_unlisted_hint: Bárki, aki ismeri a linket, telepítheti.
       refresh_rate: Frissítési gyakoriság
       refresh_rate_hint: Add meg, milyen gyakran frissítse ez a bővítmény az adatokat
+      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
       refreshed: Frissítve
       remove_plugin: Bővítmény eltávolítása
@@ -604,7 +623,7 @@ hu:
       synced: Szinkronizálva
       refresh_paused: Frissítés szüneteltetve
       refresh_paused_hint: Az automatikus frissítés szünetel. Add hozzá a lejátszási listához a folytatáshoz.
-      refresh_paused_hidden_hint: Az automatikus frissítés szünetel, mert a bővítmény el van rejtve a lejátszási listában. Az adatszinkron aktív.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Összevonások frissítése
       refresh_paused_mashup_hint: Az automatikus frissítés teljes képernyős módban szünetel. Az összevonások frissülnek.
       refresh_stopped: Az automatikus frissítés leállt. Kérlek, javítsd a bővítmény hibáját a folytatáshoz.

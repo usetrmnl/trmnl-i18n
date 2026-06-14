@@ -2,6 +2,7 @@
 'no':
   locale_name: Norwegian
   about: About
+  actions: Actions
   add: Legg til
   add_new: Legg til ny
   ai_assistant: Agent
@@ -158,6 +159,7 @@
       email_address_hint: Brukes for å logge inn på TRMNL og motta systemmeldinger.
       first_name_hint: Vi bruker navnet ditt for å gjøre TRMNL-grensesnittet mer personlig.
       last_name_hint: Vi bruker navnet ditt for å gjøre TRMNL-grensesnittet mer personlig.
+      github_username_hint: Used to attribute open source contributions to the Creator Fund.
       password_hint: Brukes for å beskytte TRMNL-kontoen din.
       enable_2fa: Aktiver 2FA?
       enable_2fa_hint: __Klikk her__ for å aktivere OTP.
@@ -316,6 +318,19 @@
       add_device_modal_title: Legg til en ny enhet
       add_first_device: Start med å legge til din første enhet!
       go_to_settings: Go to settings
+      clear_playlist: Clear playlist
+      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
+      copy_playlist_to_device: Copy playlist to device
+      copy_playlist_submit: Copy playlist
+      copy_playlist_from_device: From
+      copy_playlist_to_device_label: To
+      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      target_device: Target device
+    clear_playlist:
+      success: "%{device}'s playlist has been cleared."
+    copy_playlist:
+      error_same_device: Source and target device must be different.
+      success: Playlist copied from %{source} to %{target}.
     new:
       title: Legg til en ny enhet
       description: Skriv inn din enhets-ID for å legge til en ny TRMNL-enhet til kontoen din.
@@ -554,6 +569,9 @@
       force_refresh_click_here: Klikk her
       force_refresh_click_here_hint: for å generere en ny skjerm umiddelbart
       force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
+      health_notifications: Health notifications
+      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
+      health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Les om denne pluginen i vår kunnskapsbase
       learn_more_fork: This plugin was forked from a Recipe.
       learn_more_fork_original: See Original
@@ -597,6 +615,7 @@
       recipe_visibility_unlisted_hint: Anyone with the link can install.
       refresh_rate: Oppdateringsfrekvens
       refresh_rate_hint: Definer hvor ofte denne plugin-instansen henter nye data
+      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
       refreshed: Oppdatert
       remove_plugin: Fjern plugin
@@ -604,7 +623,7 @@
       synced: Synkronisert
       refresh_paused: Refresh Paused
       refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Refreshing Mashups
       refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
       refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.

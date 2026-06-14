@@ -2,6 +2,7 @@
 zh-CN:
   locale_name: 简体中文
   about: 关于
+  actions: Actions
   add: 添加
   add_new: 新增
   ai_assistant: Agent（智能体）
@@ -193,6 +194,7 @@ zh-CN:
       email_address_hint: 用于登录 TRMNL 和接收系统通知
       first_name_hint: 用于 TRMNL 界面
       last_name_hint: 用于 TRMNL 界面
+      github_username_hint: 用于在创作者基金（Creator Fund）中确认您的开源贡献。
       password_hint: 用于 TRMNL 账号登录
       enable_2fa: 启用双重因子认证（2FA）吗？
       enable_2fa_hint: __点击此处__启用一次性口令（OTP）。
@@ -351,6 +353,19 @@ zh-CN:
       add_device_modal_title: 添加新 TRMNL 设备
       add_first_device: 添加您的第一个 TRMNL 设备！
       go_to_settings: 前往设置
+      clear_playlist: 清空播放列表
+      clear_playlist_confirm: 确定要清空 %{device} 的所有播放列表项吗？此操作无法撤销。
+      copy_playlist_to_device: 复制播放列表到设备
+      copy_playlist_submit: 复制播放列表
+      copy_playlist_from_device: 从
+      copy_playlist_to_device_label: 到
+      copy_playlist_non_destructive: 不会清除现有的播放列表项。
+      target_device: 目标设备
+    clear_playlist:
+      success: "%{device} 的播放列表已清空。"
+    copy_playlist:
+      error_same_device: 源设备和目标设备必须不同。
+      success: 播放列表已从 %{source} 复制到 %{target}。
     new:
       title: 添加新设备
       description: 输入您的设备 ID 以添加新设备
@@ -589,6 +604,9 @@ zh-CN:
       force_refresh_click_here: 点击此处
       force_refresh_click_here_hint: 立即刷新插件
       force_refresh_not_possible: 此插件无法强制刷新，因为 TRMNL 服务器不执行图像处理。__点击此处__了解如何测试您的实例。
+      health_notifications: Health notifications
+      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
+      health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: 了解更多
       learn_more_fork: 此插件从配方分支而来。
       learn_more_fork_original: 查看原始版本
@@ -632,6 +650,7 @@ zh-CN:
       recipe_visibility_unlisted_hint: 任何拥有链接的人都可以安装。
       refresh_rate: 刷新率
       refresh_rate_hint: 设置插件刷新频率
+      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: "%{refresh_rate}同步（不可配置）"
       refreshed: 已刷新
       remove_plugin: 移除插件
@@ -639,7 +658,7 @@ zh-CN:
       synced: 已同步
       refresh_paused: 刷新已暂停
       refresh_paused_hint: 自动刷新已暂停。添加到播放列表以重新开始。
-      refresh_paused_hidden_hint: 由于插件在播放列表中已隐藏，自动刷新已暂停。数据同步仍处于活动状态。
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: 正在刷新混搭
       refresh_paused_mashup_hint: 全屏模式的自动刷新已暂停。混搭仍在更新。
       refresh_stopped: 自动刷新已停止。请修复插件错误以继续。

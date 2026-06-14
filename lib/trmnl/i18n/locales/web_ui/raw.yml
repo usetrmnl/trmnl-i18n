@@ -2,6 +2,7 @@
 raw:
   locale_name: locale_name
   about: about
+  actions: actions
   add: add
   add_new: add_new
   ai_assistant: ai_assistant
@@ -158,6 +159,7 @@ raw:
       email_address_hint: account.index.email_address_hint
       first_name_hint: account.index.first_name_hint
       last_name_hint: account.index.last_name_hint
+      github_username_hint: account.index.github_username_hint
       password_hint: account.index.password_hint
       enable_2fa: account.index.enable_2fa
       enable_2fa_hint: account.index.enable_2fa_hint __Click here__.
@@ -316,6 +318,19 @@ raw:
       add_device_modal_title: devices.index.add_device_modal_title
       add_first_device: devices.index.add_first_device
       go_to_settings: devices.index.go_to_settings
+      clear_playlist: devices.index.clear_playlist
+      clear_playlist_confirm: devices.index.clear_playlist_confirm
+      copy_playlist_to_device: devices.index.copy_playlist_to_device
+      copy_playlist_submit: devices.index.copy_playlist_submit
+      copy_playlist_from_device: devices.index.copy_playlist_from_device
+      copy_playlist_to_device_label: devices.index.copy_playlist_to_device_label
+      copy_playlist_non_destructive: devices.index.copy_playlist_non_destructive
+      target_device: devices.index.target_device
+    clear_playlist:
+      success: devices.clear_playlist.success
+    copy_playlist:
+      error_same_device: devices.copy_playlist.error_same_device
+      success: devices.copy_playlist.success
     new:
       title: devices.new.title
       description: devices.new.description
@@ -554,6 +569,9 @@ raw:
       force_refresh_click_here: plugin_settings.form.force_refresh_click_here
       force_refresh_click_here_hint: plugin_settings.form.force_refresh_click_here_hint
       force_refresh_not_possible: plugin_settings.form.force_refresh_not_possible
+      health_notifications: plugin_settings.form.health_notifications
+      health_notifications_hint: plugin_settings.form.health_notifications_hint
+      health_notifications_checkbox: plugin_settings.form.health_notifications_checkbox
       learn_more: plugin_settings.form.learn_more
       learn_more_fork: plugin_settings.form.learn_more_fork
       learn_more_fork_original: plugin_settings.form.learn_more_fork_original
@@ -597,6 +615,7 @@ raw:
       recipe_visibility_unlisted_hint: plugin_settings.form.recipe_visibility_unlisted_hint
       refresh_rate: plugin_settings.form.refresh_rate
       refresh_rate_hint: plugin_settings.form.refresh_rate_hint
+      refresh_rate_jit_hint: plugin_settings.form.refresh_rate_jit_hint
       refresh_rate_not_configurable: plugin_settings.form.refresh_rate_not_configurable
       refreshed: plugin_settings.form.refreshed
       remove_plugin: plugin_settings.form.remove_plugin

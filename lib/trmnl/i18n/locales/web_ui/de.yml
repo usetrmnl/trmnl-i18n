@@ -2,6 +2,7 @@
 de:
   locale_name: Deutsch
   about: Über
+  actions: Aktionen
   add: Hinzufügen
   add_new: Neu hinzufügen
   ai_assistant: Agent
@@ -158,6 +159,7 @@ de:
       email_address_hint: Wird für die TRMNL-Anmeldung und den Versand von wichtigen Benachrichtigungen verwendet.
       first_name_hint: Wir verwenden deinen Vornamen, um TRMNL zu personalisieren.
       last_name_hint: Wir verwenden deinen Namen, um TRMNL zu personalisieren.
+      github_username_hint: Used to attribute open source contributions to the Creator Fund.
       password_hint: Wird verwendet, um dein TRMNL-Konto zu schützen.
       enable_2fa: Zwei-Faktor-Authentifizierung aktivieren?
       enable_2fa_hint: __Hier klicken__, um OTP zu aktivieren.
@@ -315,7 +317,20 @@ de:
       tagline: Deine TRMNL-Geräte
       add_device_modal_title: Neues Gerät hinzufügen
       add_first_device: Beginne mit dem Hinzufügen deines ersten Gerätes!
-      go_to_settings: Go to settings
+      go_to_settings: Zu den Einstellungen
+      clear_playlist: Clear playlist
+      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
+      copy_playlist_to_device: Copy playlist to device
+      copy_playlist_submit: Copy playlist
+      copy_playlist_from_device: Von
+      copy_playlist_to_device_label: Nach
+      copy_playlist_non_destructive: Vorhandene Einträge werden nicht gelöscht.
+      target_device: Target device
+    clear_playlist:
+      success: "%{device}'s playlist has been cleared."
+    copy_playlist:
+      error_same_device: Source and target device must be different.
+      success: Playlist copied from %{source} to %{target}.
     new:
       title: Neues Gerät hinzufügen
       description: Gib deine Gerätekennung ein, um ein neues Gerät zu deinem Konto hinzuzufügen.
@@ -341,7 +356,7 @@ de:
     switch:
       error: Fehler beim Wechseln des Gerätes
       success: Gerät erfolgreich gewechselt
-      title: Switch to device
+      title: Zu Gerät wechseln
     update:
       error: Fehler beim Aktualisieren des Gerätes
       success: Einstellungen von %{device} erfolgreich aktualisiert
@@ -554,6 +569,9 @@ de:
       force_refresh_click_here: Hier klicken
       force_refresh_click_here_hint: ", um die Anzeige sofort zu aktualisieren."
       force_refresh_not_possible: Die Anzeige kann nicht aktualisiert werden, weil der TRMNL-Server keine Bildverarbeitung durchführt. Erfahre __hier__, wie du deine Instanz testen kannst.
+      health_notifications: Health notifications
+      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
+      health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Mehr Informationen zur Erweiterung in unserer Wissensdatenbank
       learn_more_fork: Diese Erweiterung ist von einer Blaupause geforkt worden.
       learn_more_fork_original: Original aufrufen
@@ -597,6 +615,7 @@ de:
       recipe_visibility_unlisted_hint: Jeder mit dem Link kann installieren.
       refresh_rate: Aktualisierungsrate
       refresh_rate_hint: Definiere, wie oft die Erweiterung Daten aktualisiert
+      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: 'Aktualisiersfrequenz: %{refresh_rate} (nicht einstellbar)'
       refreshed: Aktualisiert
       remove_plugin: Erweiterung entfernen
@@ -604,7 +623,7 @@ de:
       synced: Synchronisiert
       refresh_paused: Aktualisierung pausiert
       refresh_paused_hint: Automatische Aktualisierung wurde angehalten. Zur Wiedergabeliste hinzufügen, um sie wieder aktualisieren zu lassen.
-      refresh_paused_hidden_hint: Automatische Aktualisierung wurde angehalten, weil die Erweiterung in der Wiedergabeliste versteckt wurde. Datensynchronisierung ist aktiv.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Mashups aktualisieren
       refresh_paused_mashup_hint: Automatische Aktualisierung der Vollbildansicht pausiert. Mashups werden aktualisiert.
       refresh_stopped: Automatische Aktualisierung angehalten. Bitte zuerst den Fehler in der Erweiterung beheben.

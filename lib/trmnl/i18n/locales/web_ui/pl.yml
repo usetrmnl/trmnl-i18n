@@ -2,10 +2,11 @@
 pl:
   locale_name: Polski
   about: O nas
+  actions: Actions
   add: Dodaj
   add_new: Dodaj nowy
   ai_assistant: Agent
-  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
+  ai_assistant_hint: Włącz obsługę edycji znaczników przez agenta w edytorze wtyczek.
   already_have_account: Mam już konto
   are_you_sure: Czy na pewno?
   back: Wstecz
@@ -34,7 +35,7 @@ pl:
   developer_edition_required: Aby aktywować tę funkcję, wymagane jest posiadanie edycji deweloperskiej.
   device_id: ID urządzenia
   device: Urządzenie
-  discard: Discard
+  discard: Odrzuć
   edit: Edytuj
   email_address: Adres e-mail
   export: Eksportuj
@@ -82,7 +83,7 @@ pl:
   subscribe: Subskrybuj
   help_center: Wsparcie techniczne
   terms: Warunki
-  unsaved_changes: You have unsaved changes
+  unsaved_changes: Masz niezapisane zmiany
   update: Aktualizacja
   view: Widok
   collaboration_request: Chcesz nawiązać współpracę?
@@ -180,6 +181,7 @@ pl:
       email_address_hint: Używany do logowania do TRMNL i odbioru wiadomości systemowych.
       first_name_hint: Używamy Twojego imienia, aby uczynić korzystanie z TRMNL przyjemniejszym.
       last_name_hint: Używamy Twojego nazwiska, aby uczynić korzystanie z TRMNL przyjemniejszym.
+      github_username_hint: Used to attribute open source contributions to the Creator Fund.
       password_hint: Służy do ochrony Twojego konta TRMNL.
       enable_2fa: Włączyć uwierzytelnianie dwuskładnikowe (2FA)?
       enable_2fa_hint: __Kliknij tutaj__ by włączyć hasła jednorazowe (OTP).
@@ -270,8 +272,8 @@ pl:
       firmware: Firmware
       firmware_updates_enabled: Aktualizacje włączone
       firmware_updates_disabled: Aktualizacje wyłączone
-      font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family: Rodzina czcionek
+      font_family_hint: Rodzina czcionek TRMNL została zaprojektowana do używania w wyświetlaczach e-papierowych. Wsparcie w pluginach we Framework UI od wersji %{min_version}+.
       guest_mode: Tryb gościa
       guest_mode_hint: Wybierz co ma być wyświetlane (i przez jaki czas), kiedy tryb gościa jest włączony.
       guest_mode_item_placeholder: Wybierz element
@@ -299,8 +301,8 @@ pl:
       screen_rotation: Obrót ekranu
       screen_rotation_not_supported: Obrót ekranu nie jest obecnie obsługiwany na Twoim urządzeniu.
       palette: Paleta kolorów
-      palette_hint: Wybierz zestaw kolorów, który ma być wyświetlany na tym urządzeniu. Większa paleta wygląda lepiej, ale mniejsza jest szybciej rysowana na wyświetlaczach ePaper. Ustawienie to da się zmienić indywidualnie dla każdego elementu playlisty.
-      presentation: Presentation
+      palette_hint: Wybierz zestaw kolorów, który ma być wyświetlany na tym urządzeniu. Większa paleta wygląda lepiej, ale mniejsza jest szybciej rysowana na wyświetlaczach e-papierowych. Ustawienie to da się zmienić indywidualnie dla każdego elementu playlisty.
+      presentation: Prezentacja
       sleep_mode: Tryb uśpienia
       sleep_mode_hint: Dostosuj częstotliwość odświeżania, aby zoptymalizować skupienie i wydłużyć czas pracy na baterii.
       sleep_screen: Ekran uśpienia
@@ -338,6 +340,19 @@ pl:
       add_device_modal_title: Dodaj nowe urządzenie
       add_first_device: Zacznij, dodając swoje pierwsze urządzenie!
       go_to_settings: Go to settings
+      clear_playlist: Clear playlist
+      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
+      copy_playlist_to_device: Copy playlist to device
+      copy_playlist_submit: Copy playlist
+      copy_playlist_from_device: From
+      copy_playlist_to_device_label: To
+      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      target_device: Target device
+    clear_playlist:
+      success: "%{device}'s playlist has been cleared."
+    copy_playlist:
+      error_same_device: Source and target device must be different.
+      success: Playlist copied from %{source} to %{target}.
     new:
       title: Dodaj nowe urządzenie
       description: Wprowadź swoje Przyjazne ID, aby przypisać nowe urządzenie do tego konta.
@@ -544,15 +559,15 @@ pl:
     new:
       error: Nie znaleziono receptury
     show:
-      more_by_author: More by this Author
-      view_all: View all
+      more_by_author: Więcej od tego Autora
+      view_all: Pokaż wszystko
   plugin_settings:
     active: Aktywny
     copy_are_you_sure: Czy na pewno chcesz skopiować to ustawienie?
     delete_are_you_sure: Czy na pewno chcesz usunąć to ustawienie?
     delete: To całkowicie usunie ustawienia pluginu. Jeśli nie chcesz, by plugin był wyświetlany na urządzeniu, po prostu usuń go z playlisty.
     inactive: Nieaktywny
-    no_matches_found: No plugins match your filters.
+    no_matches_found: Nie znaleziono pluginów pasujących do kryteriów.
     no_plugin_settings_found: Nie znaleziono ustawień pluginu.
     not_supported: Niewspierany na tym urządzeniu
     refreshing_now_please_wait: Odświeżanie w toku, przeładuj tę stronę za kilka sekund.
@@ -576,6 +591,9 @@ pl:
       force_refresh_click_here: Kliknij tutaj
       force_refresh_click_here_hint: aby natychmiast wygenerować nowy ekran
       force_refresh_not_possible: Nie można wymusić odświeżenia tego pluginu, ponieważ serwer TRMNL nie wspiera przetwarzania obrazów. __Tutaj__ dowiesz się, jak przetestować swoją instancję.
+      health_notifications: Powiadomienia o stanie
+      health_notifications_hint: Otrzymaj e-maila, jeśli stan tego pluginu wskaże problem (zdegradowany / błąd). Otrzymasz najwyżej jeden e-mail na zmianę stanu na incydent. Alerty uzbrajają się ponownie po powrocie pluginu do stanu "zdrowy".
+      health_notifications_checkbox: Wyślij mi e-mail, jeśli plugin będzie miał problem z działaniem
       learn_more: Dowiedz się więcej o tym pluginie z naszej bazy wiedzy
       learn_more_fork: Ten plugin jest forkiem Receptury.
       learn_more_fork_original: Zobacz oryginał
@@ -619,6 +637,7 @@ pl:
       recipe_visibility_unlisted_hint: Tylko osoby posiadające link mogą zainstalować.
       refresh_rate: Częstotliwość odświeżania
       refresh_rate_hint: Określ, jak często ta instancja pluginu ma pobierać świeże dane.
+      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Odświeżanie %{refresh_rate} (niekonfigurowalne)
       refreshed: Odświeżony
       remove_plugin: Usuń plugin
@@ -626,7 +645,7 @@ pl:
       synced: Zsynchronizowany
       refresh_paused: Odświeżanie wstrzymane
       refresh_paused_hint: Automatyczne odświeżanie jest wstrzymane. Dodaj do playlisty, aby włączyć je z powrotem.
-      refresh_paused_hidden_hint: Automatyczne odświeżanie jest wstrzymane, bo plugin został ukryty na playliście. Synchronizacja danych jest aktywna.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Odświeżanie szablonów
       refresh_paused_mashup_hint: Automatyczne odświeżanie wstrzymane w trybie pełnoekranowym. Szablony się odświeżają.
       refresh_stopped: Automatyczne odświeżanie wstrzymane. Należy naprawić błędy w pluginie, nim będzie można kontynuować.
@@ -665,7 +684,7 @@ pl:
       some_schedule: Określ, kiedy ten ekran ma być wyświetlany
       to: do
       copy_prompt: Kopiuj harmonogram z…
-      no_days_error: Please select at least one day.
+      no_days_error: Wybierz proszę minimum jeden dzień.
   upgrade:
     index:
       title: 'Aktualizowanie urządzenia:'

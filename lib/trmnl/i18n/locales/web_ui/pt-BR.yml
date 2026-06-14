@@ -2,6 +2,7 @@
 pt-BR:
   locale_name: Portuguese (Brazil)
   about: Sobre
+  actions: Actions
   add: Adicionar
   add_new: Adicionar novo
   ai_assistant: Agent
@@ -158,6 +159,7 @@ pt-BR:
       email_address_hint: Usado para entrar no TRMNL e receber mensagens do sistema.
       first_name_hint: Nós usamos o seu nome para tornar a interface do TRMNL mais confortável.
       last_name_hint: Nós usamos o seu nome para tornar a interface do TRMNL mais confortável.
+      github_username_hint: Used to attribute open source contributions to the Creator Fund.
       password_hint: Usada para proteger sua conta TRMNL.
       enable_2fa: Ativar 2FA?
       enable_2fa_hint: __Clique aqui__ para ativar o OTP.
@@ -316,6 +318,19 @@ pt-BR:
       add_device_modal_title: Adicionar novo dispositivo
       add_first_device: Comece adicionando seu primeiro dispositivo!
       go_to_settings: Go to settings
+      clear_playlist: Clear playlist
+      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
+      copy_playlist_to_device: Copy playlist to device
+      copy_playlist_submit: Copy playlist
+      copy_playlist_from_device: From
+      copy_playlist_to_device_label: To
+      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      target_device: Target device
+    clear_playlist:
+      success: "%{device}'s playlist has been cleared."
+    copy_playlist:
+      error_same_device: Source and target device must be different.
+      success: Playlist copied from %{source} to %{target}.
     new:
       title: Adicionar novo dispositivo
       description: Coloque o ID do Dispositivo para adicionar um novo TRMNL à sua conta.
@@ -554,6 +569,9 @@ pt-BR:
       force_refresh_click_here: Clique aqui
       force_refresh_click_here_hint: para gerar uma nova tela imediatamente
       force_refresh_not_possible: Esse plugin não pode ser atualizado pois o servidor TRMNL não realiza processamento de imagens. Saiba como testar sua instância __aqui__.
+      health_notifications: Health notifications
+      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
+      health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Saiba mais sobre esse plugin em nossa base de conhecimento
       learn_more_fork: Esse plugin foi derivado de uma Receita.
       learn_more_fork_original: Ver Original
@@ -597,6 +615,7 @@ pt-BR:
       recipe_visibility_unlisted_hint: Apenas quem possuir o link pode instalar.
       refresh_rate: Taxa de atualização
       refresh_rate_hint: Defina com que frequência esse plugin obtém novos dados
+      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Atualiza %{refresh_rate} (não configurável)
       refreshed: Atualizado
       remove_plugin: Remover plugin
@@ -604,7 +623,7 @@ pt-BR:
       synced: Sincronizado
       refresh_paused: Atualização Pausada
       refresh_paused_hint: Atualização pausada. Adicione na playlist para reiniciar.
-      refresh_paused_hidden_hint: Atualização pausada pois o plugin está escondido na playlist. Sincronização de dados ativa.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Atualizando Mashups
       refresh_paused_mashup_hint: Atualização pausada para tela cheia. Os mashups estão atualizando.
       refresh_stopped: Atualização desativada. Por favor corrija o erro do plugin para continuar.

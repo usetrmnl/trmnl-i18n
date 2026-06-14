@@ -2,6 +2,7 @@
 lt:
   locale_name: Lietuvių
   about: Apie
+  actions: Actions
   add: Pridėti
   add_new: Pridėti naują
   ai_assistant: Agent
@@ -158,6 +159,7 @@ lt:
       email_address_hint: Naudojama prisijungimui prie TRMNL ir sistemos pranešimams gauti.
       first_name_hint: Mes naudojame jūsų vardą, kad TRMNL sąsaja būtų jaukesnė.
       last_name_hint: Mes naudojame jūsų pavardę, kad TRMNL sąsaja būtų jaukesnė.
+      github_username_hint: Used to attribute open source contributions to the Creator Fund.
       password_hint: Naudojamas jūsų TRMNL paskyros apsaugai.
       enable_2fa: Įjungti 2FA?
       enable_2fa_hint: __Spustelėkite čia__, kad įjungtumėte OTP.
@@ -316,6 +318,19 @@ lt:
       add_device_modal_title: Pridėti naują įrenginį
       add_first_device: Pradėkite pridėdami savo pirmąjį įrenginį!
       go_to_settings: Go to settings
+      clear_playlist: Clear playlist
+      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
+      copy_playlist_to_device: Copy playlist to device
+      copy_playlist_submit: Copy playlist
+      copy_playlist_from_device: From
+      copy_playlist_to_device_label: To
+      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      target_device: Target device
+    clear_playlist:
+      success: "%{device}'s playlist has been cleared."
+    copy_playlist:
+      error_same_device: Source and target device must be different.
+      success: Playlist copied from %{source} to %{target}.
     new:
       title: Pridėti naują įrenginį
       description: Įveskite savo Friendly ID, kad pridėtumėte naują įrenginį prie savo paskyros.
@@ -554,6 +569,9 @@ lt:
       force_refresh_click_here: Spustelėkite čia
       force_refresh_click_here_hint: kad iškart sugeneruotumėte naują ekraną
       force_refresh_not_possible: Šio įskiepio negalima atnaujinti priverstinai, nes TRMNL serveris neatlieka vaizdo apdorojimo. Sužinokite, kaip išbandyti savo instanciją __čia__.
+      health_notifications: Health notifications
+      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
+      health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Sužinokite apie šį įskiepį mūsų žinių bazėje
       learn_more_fork: Šis įskiepis buvo atšakotas iš recepto.
       learn_more_fork_original: Žiūrėti originalą
@@ -597,6 +615,7 @@ lt:
       recipe_visibility_unlisted_hint: Įsidiegti gali visi, kas turi nuorodą.
       refresh_rate: Atnaujinimo dažnis
       refresh_rate_hint: Nustatykite, kaip dažnai ši įskiepio instancija nuskaito šviežius duomenis
+      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Sinchronizuojama %{refresh_rate} (nekonfigūruojama)
       refreshed: Atnaujinta
       remove_plugin: Pašalinti įskiepį
@@ -604,7 +623,7 @@ lt:
       synced: Sinchronizuota
       refresh_paused: Atnaujinimas sustabdytas
       refresh_paused_hint: Automatinis atnaujinimas pristabdytas. Pridėkite prie grojaraščio, kad paleistumėte vėl.
-      refresh_paused_hidden_hint: Automatinis atnaujinimas pristabdytas, nes įskiepis yra paslėptas grojaraštyje. Duomenų sinchronizavimas yra aktyvus.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Atnaujinami mišiniai (Mashups)
       refresh_paused_mashup_hint: Automatinis atnaujinimas pristabdytas viso ekrano režimui. Mišiniai atnaujinami.
       refresh_stopped: Automatinis atnaujinimas sustabdytas. Norėdami tęsti, ištaisykite įskiepio klaidą.
