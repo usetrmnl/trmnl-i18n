@@ -3,13 +3,13 @@ zh-CN:
   locale_name: 简体中文
   about: 关于
   add: 添加
-  add_new: 添加新设备
-  ai_assistant: Agent
-  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
+  add_new: 新增
+  ai_assistant: Agent（智能体）
+  ai_assistant_hint: 在插件编辑器中启用 Agent（AI 智能体）来编辑插件。
   already_have_account: 已经有账号？
   are_you_sure: 您确定吗？
   back: 后退
-  back_to_all_blog_posts: 返回首页
+  back_to_all_blog_posts: 返回所有文章
   blog: 博客
   brand: 品牌
   buy_now: 立即购买
@@ -19,7 +19,7 @@ zh-CN:
   charged: 电量
   charging: 充电中
   claim_plus_trial: 领取 6 个月免费试用
-  close: 取消
+  close: 关闭
   confirm_change_password: 确认修改密码
   confirm_password: 确认密码
   copy: 复制
@@ -34,7 +34,7 @@ zh-CN:
   developer_edition_required: 此功能需要升级至开发者版。
   device_id: 设备ID
   device: 设备
-  discard: Discard
+  discard: 放弃
   edit: 编辑
   email_address: 邮箱
   export: 导出
@@ -47,7 +47,7 @@ zh-CN:
   hidden: 隐藏
   identify: 识别
   import: 导入
-  import_new: 导入新设备
+  import_new: 导入
   integrations: 整合
   keep_me_signed_in: 保持登录
   knowledge_base: 说明书
@@ -62,12 +62,12 @@ zh-CN:
   my_playlist: 我的播放列表
   new_password: 新密码
   password: 密码
-  please_wait: 请等待……
+  please_wait: 请稍候…
   plugin_not_found: 未发现插件
   preview: 预览
   privacy: 隐私
   refresh_rate: 刷新频率
-  refresh_rates_hint: 点击 __此处__ 了解刷新频次。
+  refresh_rates_hint: 点击__此处__了解刷新频次。
   reset_password: 重置密码
   reset_to_defaults: 恢复默认设置
   required: 必填
@@ -82,7 +82,7 @@ zh-CN:
   subscribe: 订阅
   help_center: 技术支持
   terms: 条款
-  unsaved_changes: You have unsaved changes
+  unsaved_changes: 您有未保存的更改
   update: 更新
   view: 查看
   collaboration_request: 想合作吗？
@@ -100,87 +100,87 @@ zh-CN:
       distance_in_words:
         half_a_minute: 半分钟
         less_than_x_seconds:
-          one: 不到%{count}秒
-          other: 不到%{count}秒
+          one: 不到 %{count} 秒
+          other: 不到 %{count} 秒
         less_than_x_minutes:
-          one: 不到%{count}分钟
-          other: 不到%{count}分钟
+          one: 不到 %{count} 分钟
+          other: 不到 %{count} 分钟
         x_seconds:
-          one: "%{count}秒"
-          other: "%{count}秒"
+          one: " %{count} 秒"
+          other: " %{count} 秒"
         x_minutes:
-          one: "%{count}分钟"
-          other: "%{count}分钟"
+          one: " %{count} 分钟"
+          other: " %{count} 分钟"
         about_x_hours:
-          one: 约%{count}小时
-          other: 约%{count}小时
+          one: 约 %{count} 小时
+          other: 约 %{count} 小时
         x_days:
-          one: "%{count}天"
-          other: "%{count}天"
+          one: " %{count} 天"
+          other: " %{count} 天"
         about_x_months:
-          one: 约%{count}个月
-          other: 约%{count}个月
+          one: 约 %{count} 个月
+          other: 约 %{count} 个月
         x_months:
-          one: "%{count}个月"
-          other: "%{count}个月"
+          one: " %{count} 个月"
+          other: " %{count} 个月"
         about_x_years:
-          one: 约%{count}年
-          other: 约%{count}年
+          one: 约 %{count} 年
+          other: 约 %{count} 年
         over_x_years:
-          one: "%{count}年多"
-          other: "%{count}年多"
+          one: " %{count} 年多"
+          other: " %{count} 年多"
         almost_x_years:
-          one: 不到%{count}年
-          other: 不到%{count}年
+          one: 不到 %{count} 年
+          other: 不到 %{count} 年
       distance_in_words_future:
         half_a_minute: 半分钟后
         less_than_x_seconds:
-          one: "%{count}秒以内"
-          other: "%{count}秒以内"
+          one: " %{count} 秒以内"
+          other: " %{count} 秒以内"
         less_than_x_minutes:
-          one: "%{count}分钟以内"
-          other: "%{count}分钟以内"
+          one: " %{count} 分钟以内"
+          other: " %{count} 分钟以内"
         x_seconds:
-          one: "%{count}秒后"
-          other: "%{count}秒后"
+          one: " %{count} 秒后"
+          other: " %{count} 秒后"
         x_minutes:
-          one: "%{count}分钟后"
-          other: "%{count}分钟后"
+          one: " %{count} 分钟后"
+          other: " %{count} 分钟后"
         about_x_hours:
-          one: 约%{count}小时后
-          other: 约%{count}小时后
+          one: 约 %{count} 小时后
+          other: 约 %{count} 小时后
         x_days:
-          one: "%{count}天后"
-          other: "%{count}天后"
+          one: " %{count} 天后"
+          other: " %{count} 天后"
         about_x_months:
-          one: 约%{count}个月后
-          other: 约%{count}个月后
+          one: 约 %{count} 个月后
+          other: 约 %{count} 个月后
         x_months:
-          one: "%{count}个月后"
-          other: "%{count}个月后"
+          one: " %{count} 个月后"
+          other: " %{count} 个月后"
         about_x_years:
-          one: 约%{count}年后
-          other: 约%{count}年后
+          one: 约 %{count} 年后
+          other: 约 %{count} 年后
         over_x_years:
-          one: "%{count}年多后"
-          other: "%{count}年多后"
+          one: " %{count} 年多后"
+          other: " %{count} 年多后"
         almost_x_years:
-          one: 不到%{count}年后
-          other: 不到%{count}年后
+          one: 不到 %{count} 年后
+          other: 不到 %{count} 年后
   account:
     index:
       title: 账号
       tagline: 修改账号设置
-      api_key_confirm: 您确定要重新生成您的API密钥吗？ 旧的密钥会失效。
+      api_key_confirm: 您确定要重新生成您的 API 密钥吗？旧的密钥会失效。
       api_key_hint: 查看__文档__，了解如何配置您的本地环境。
       api_key_label: 用于验证本地开发工具的凭据
       api_key_not_generated: "（无）"
       api_key_reset: 重新生成
-      api_key: API密钥
+      api_key: API 密钥
       beta_features: 测试功能
       beta_features_hint: 试用新功能。选项可能随时消失。
-      discord_community: Discord社区
-      discord_username: 您的Discord用户名是什么？
+      discord_community: Discord 社区
+      discord_username: 您的 Discord 用户名是什么？
       discord_username_hint: 可能会用于支持，在已发布的配方中署名等用途。
       email_address: 邮箱
       refer_and_earn: 返利
@@ -190,10 +190,10 @@ zh-CN:
       device_invoice: 设备发票
       device_invoice_label: 下载您的商业发票或者 PDF 汇款证明。
       device_invoice_hint: 您可以在包裹追踪页面或发货提醒的电子邮箱中找到。
-      email_address_hint: 用于登陆TRMNL和接收系统通知
-      first_name_hint: 用于TRMNL界面
-      last_name_hint: 用于TRMNL界面
-      password_hint: 用于TRMNL账号登录
+      email_address_hint: 用于登录 TRMNL 和接收系统通知
+      first_name_hint: 用于 TRMNL 界面
+      last_name_hint: 用于 TRMNL 界面
+      password_hint: 用于 TRMNL 账号登录
       enable_2fa: 启用双重因子认证（2FA）吗？
       enable_2fa_hint: __点击此处__启用一次性口令（OTP）。
       disable_2fa: 禁用双重因子认证（2FA）
@@ -218,9 +218,9 @@ zh-CN:
   dashboard:
     index:
       title: 仪表盘
-      last_7_days: 过去7日
-      last_30_days: 过去30日
-      last_90_days: 过去90日
+      last_7_days: 过去 7 日
+      last_30_days: 过去 30 日
+      last_90_days: 过去 90 日
       today: 今日
       yesterday: 昨日
     health:
@@ -241,7 +241,7 @@ zh-CN:
       new_and_popular: 热门插件
     shop:
       title: 店铺
-      need_another: 又需要一个TRMNL吗？
+      need_another: 又需要一个 TRMNL 吗？
     time_saved:
       title: 节省时间
       cta: 详细信息
@@ -251,20 +251,20 @@ zh-CN:
       evening_salutation: 晚上好
   devices:
     edit:
-      accepts_beta_firmware: beta测试固件
+      accepts_beta_firmware: beta 测试固件
       accepts_beta_firmware_hint: 打开以提前使用最新固件
       back_to_devices: 返回设备列表
       battery_and_sleep: 电池与睡眠
       battery_consumption: 电池消耗
-      battery_consumption_hint: 在晚上10点到早上8点之间启用睡眠模式，节省电量并延长电池寿命。
+      battery_consumption_hint: 启用睡眠模式可节省电量并延长电池寿命。
       battery_learn_more: __点击此处__了解更多关于充电的信息。
       battery_refresh: 刷新
       developer_perks: 开发者选项
-      developer_perks_hint: 下列选项需要__开发者选项__
+      developer_perks_hint: 定制插件开发、可编辑 MAC 地址（仅限自带设备）、固件抢先体验以及 API 访问权限
       device_credentials: 设备密码
       device_credentials_hint: __点击此处__了解如果使用这些密码。
       device_name: 设备名称
-      device_name_hint: 用于TRMNL界面
+      device_name_hint: 用于 TRMNL 界面
       device_model: 设备型号
       device_model_hint: 您的设备型号
       device_model_switch_warning: 这是一个危险操作，__了解详情__。
@@ -283,8 +283,8 @@ zh-CN:
       firmware: 固件
       firmware_updates_enabled: 更新已启用
       firmware_updates_disabled: 更新已禁用
-      font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family: 字体
+      font_family_hint: TRMNL 字体风格专为电子墨水屏优化。支持 UI 框架版本 v%{min_version} 以上的插件。
       guest_mode: 访客模式
       guest_mode_hint: 设置访客模式下显示的内容与时长。
       guest_mode_item_placeholder: 选择项目
@@ -298,7 +298,7 @@ zh-CN:
       low_battery_email_notification_hint: 在您的设备电量过低时获得邮件通知。
       mirror: 镜像
       mirror_device: 镜像其他设备
-      mirror_device_hint: 生成一个设备ID，用于镜像播放列表
+      mirror_device_hint: 提供一个（可共享的）设备 ID 以镜像其播放列表。您自己的播放列表仍会显示。
       mirror_disabled: 镜像已禁用
       mirror_enabled: 镜像已启用
       mirror_stop: 取消镜像
@@ -313,7 +313,7 @@ zh-CN:
       screen_rotation_not_supported: 屏幕旋转目前不支持您的设备。
       palette: 调色板
       palette_hint: 选择生成此设备屏幕时使用的颜色集。较大的调色板看起来更好，但较小的调色板在电子墨水屏上绘制速度更快。单个播放列表项可以覆盖此设置。
-      presentation: Presentation
+      presentation: 显示效果
       sleep_mode: 睡眠模式
       sleep_mode_hint: 降低刷新率以优化焦点和电池寿命
       sleep_screen: 休眠画面
@@ -332,13 +332,13 @@ zh-CN:
       tidbyt_device_id: 设备 ID
       tidbyt_device_api_key: API 密钥
       unlink: 解绑
-      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
+      unlink_confirm: 您确定吗？解绑仅适用于在将此设备交给他人或切换到自带设备（BYOD）的情况。解绑会删除所有插件设置和播放列表项。如果遇到问题，请访问 help.trmnl.com。
       unlink_device: 解绑设备
-      unlink_device_hint: 解绑TRMNL设备以转移用户
+      unlink_device_hint: 解绑 TRMNL 设备以转移用户
       unlink_device_learn_more: __点击此处__阅读完整说明。
       visibility: 隐藏
-      visibility_hint: 让TRMNL设备显示镜像播放列表
-      your_device: 您的TRMNL
+      visibility_hint: 让 TRMNL 设备显示镜像播放列表
+      your_device: 您的 TRMNL
       upgrade_og:
         title: 可升级至 2 位显示
         sub_title: 您的设备可升级至增强型灰度显示，支持从 2 级色彩升级至 4 级。
@@ -347,14 +347,14 @@ zh-CN:
         cta: 升级至 TRMNL OG（2 位）
     index:
       title: 设备列表
-      tagline: 您的的TRMNL设备
-      add_device_modal_title: 添加新TRMNL设备
-      add_first_device: 添加您的第一个TRMNL设备！
-      go_to_settings: Go to settings
+      tagline: 您的 TRMNL 设备
+      add_device_modal_title: 添加新 TRMNL 设备
+      add_first_device: 添加您的第一个 TRMNL 设备！
+      go_to_settings: 前往设置
     new:
-      title: 添加新TRMNL设备
-      description: 输入您的TRMNL设备ID以添加新TRMNL设备
-      add_device: 添加新添加新TRMNL设备设备
+      title: 添加新设备
+      description: 输入您的设备 ID 以添加新设备
+      add_device: 添加新设备
     associate:
       error: 设备连接错误
       success: 设备连接成功
@@ -369,17 +369,17 @@ zh-CN:
       success: 设备识别请求成功
     mirror:
       error: 设备镜像错误
-      error_not_shared: 提供的设备ID不可共享
-      error_oneself: 禁止镜像自己
-      success: 设备ID：%{friendly_id} 镜像成功
+      error_not_shared: 提供的设备 ID 不可共享
+      error_oneself: 禁止镜像设备本身
+      success: 设备 ID：%{friendly_id} 镜像成功
       success_removed: 镜像已删除
     switch:
-      error: 禁止切换设备
+      error: 设备切换错误
       success: 设备切换成功
-      title: Switch to device
+      title: 切换设备
     update:
       error: 设备更新错误
-      success: "“%{device} 更新成功”"
+      success: "%{device} 更新成功"
   invoices:
     rate_limit: 尝试次数过多，请耐心等待之后再次尝试
     invoice_not_found: 未找到发票
@@ -445,10 +445,10 @@ zh-CN:
   playlist_items:
     index:
       title: 播放列表
-      tagline: 选择您的播放列表
+      tagline: 管理您的播放列表
       add_a_group: 添加分组
       add_a_plugin: 添加插件
-      add_first_device_cta: 添加您的第一个TRMNL设备！
+      add_first_device_cta: 添加您的第一个 TRMNL 设备！
       add_to_playlist: 添加到播放列表
       create_first_playlist_cta: 连接您的第一个插件以创建播放列表！
       custom: 自定义
@@ -501,7 +501,7 @@ zh-CN:
   plugins:
     index:
       title: 插件
-      tagline: 让您的TRMNL更加强大
+      tagline: 让您的 TRMNL 更加强大
       available: 可用
       connected: 已连接
       recipes: 配方
@@ -519,7 +519,7 @@ zh-CN:
         submit_for_review: 提交审核
     new:
       title: 创建插件
-      tagline: 开发您的第一个插件
+      tagline: 其他用户将能够安装您的插件
       name: 名称
       category: 类别
       category_hint: 按住 Command 或 Ctrl 以多选，最多选择 3 项。
@@ -530,13 +530,13 @@ zh-CN:
       icon: 图标
       icon_hint: 推荐大小 512 × 512 像素
       installation_url: 安装 URL
-      installation_url_hint: __了解__更多关于安装流程
+      installation_url_hint: __了解更多__关于安装流程
       installation_success_webhook_url: 安装成功用 Webhook URL
       knowledge_base_url: 知识库 URL
       management_url: 插件管理 URL
-      management_url_hint: __了解__更多关于插件管理
+      management_url_hint: __了解更多__关于插件管理
       markup_url: 插件标记 URL
-      markup_url_hint: __了解__更多关于插件标记
+      markup_url_hint: __了解更多__关于插件标记
       no_screen_padding: 无屏幕边距
       no_screen_padding_hint: 在全屏模式下移除最外层的边距。
       uninstallation_webhook_url: 卸载用 Webhook URL
@@ -557,15 +557,15 @@ zh-CN:
     new:
       error: 未找到配方
     show:
-      more_by_author: More by this Author
-      view_all: View all
+      more_by_author: 更多来自此作者的配方
+      view_all: 查看全部
   plugin_settings:
     active: 激活
     copy_are_you_sure: 您确定要复制此设置吗？
     delete_are_you_sure: 您确定要删除此设置吗？
     delete: 删除。这将完全删除插件的设置。要仅隐藏此插件，请从播放列表中删除。
     inactive: 停用
-    no_matches_found: No plugins match your filters.
+    no_matches_found: 未找到匹配的插件。
     no_plugin_settings_found: 未找到插件信息
     not_supported: 不支持当前设备
     refreshing_now_please_wait: 正在刷新，请稍后重新加载此页面。
@@ -612,7 +612,7 @@ zh-CN:
       parsed: 已解析
       plugin_uuid: 插件UUID
       plugin_uuid_hint: 用于发起 Webhook API 请求
-      preview: 预览
+      preview: 预览 - 您的设备将显示实际数据
       recipe_cta_heading_published: 此插件为配方
       recipe_cta_heading_unlisted: 此插件未公开
       recipe_cta_heading_in_review: 配方审核中
@@ -678,11 +678,11 @@ zh-CN:
       some_schedule: 仅在以下时间显示此屏幕…
       to: 到
       copy_prompt: 复制现有时间表…
-      no_days_error: Please select at least one day.
+      no_days_error: 请至少选择一天。
   upgrade:
     index:
       title: 正在升级设备：
-      tagline: 选择您的升级计划
+      tagline: 解锁自定义插件及__更多功能__。
       pay: 支付
       error: 设备 %{device_name} 已升级，请切换至其他设备
     confirm:
