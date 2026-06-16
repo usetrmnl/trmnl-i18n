@@ -1,5 +1,5 @@
-# Use official Ruby 3.4.5 image
-FROM ruby:3.4.7
+# Use official Ruby image
+FROM ruby:4.0.2
 
 # Install dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
