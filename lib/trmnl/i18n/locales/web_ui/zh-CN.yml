@@ -247,6 +247,11 @@ zh-CN:
     time_saved:
       title: 节省时间
       cta: 详细信息
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: 早上好
       afternoon_salutation: 下午好
@@ -395,6 +400,28 @@ zh-CN:
     update:
       error: 设备更新错误
       success: "“%{device} 更新成功”"
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: 尝试次数过多，请耐心等待之后再次尝试
     invoice_not_found: 未找到发票
@@ -438,6 +465,9 @@ zh-CN:
     no_merge_variables:
       force_refresh: 如果您已提供变量但未被检测到，请尝试进行__强制刷新__。
       no_variables_detected: 未检测到变量。
+  notices:
+    dismiss:
+      discover_callout: You can set up a Persona anytime via Discover.
   mfa:
     disable_otp:
       success: 已禁用双重认证

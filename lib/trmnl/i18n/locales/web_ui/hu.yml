@@ -212,6 +212,11 @@ hu:
     time_saved:
       title: Megtakarított idő
       cta: Olvass róla
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: Jó reggelt
       afternoon_salutation: Jó napot
@@ -360,6 +365,28 @@ hu:
     update:
       error: Hiba az eszköz frissítésekor
       success: "%{device} eszközbeállításai sikeresen frissítve"
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: Túl sok próbálkozás, kérlek várj, majd próbáld újra
     invoice_not_found: A számla nem található
@@ -403,6 +430,9 @@ hu:
     no_merge_variables:
       force_refresh: Ha megadtál változókat, de nem érzékeli őket, próbáld meg a __kényszerített frissítést__.
       no_variables_detected: Nem észleltek változókat.
+  notices:
+    dismiss:
+      discover_callout: You can set up a Persona anytime via Discover.
   mfa:
     disable_otp:
       success: Kétlépcsős azonosítás kikapcsolva

@@ -212,6 +212,11 @@ raw:
     time_saved:
       title: dashboard.time_saved.title
       cta: dashboard.time_saved.cta
+    discover_callout:
+      manage_persona: dashboard.discover_callout.manage_persona
+      dismiss: dashboard.discover_callout.dismiss
+    saved_discovery_setup:
+      manage_persona: dashboard.saved_discovery_setup.manage_persona
     welcome_message:
       morning_salutation: dashboard.welcome_message.morning_salutation
       afternoon_salutation: dashboard.welcome_message.afternoon_salutation
@@ -360,6 +365,28 @@ raw:
     update:
       error: devices.update.error
       success: devices.update.success
+  discovery:
+    dashboard_action:
+      saved:
+        title: discovery.dashboard_action.saved.title
+        subtext: discovery.dashboard_action.saved.subtext
+        primary_label: discovery.dashboard_action.saved.primary_label
+      fresh:
+        title: discovery.dashboard_action.fresh.title
+        subtext: discovery.dashboard_action.fresh.subtext
+        primary_label: discovery.dashboard_action.fresh.primary_label
+      persona:
+        title: discovery.dashboard_action.persona.title
+        subtext: discovery.dashboard_action.persona.subtext
+        primary_label: discovery.dashboard_action.persona.primary_label
+      rerun:
+        title: discovery.dashboard_action.rerun.title
+        subtext: discovery.dashboard_action.rerun.subtext
+        primary_label: discovery.dashboard_action.rerun.primary_label
+      setup:
+        title: discovery.dashboard_action.setup.title
+        subtext: discovery.dashboard_action.setup.subtext
+        primary_label: discovery.dashboard_action.setup.primary_label
   invoices:
     rate_limit: invoices.rate_limit
     invoice_not_found: invoices.invoice_not_found
@@ -403,6 +430,9 @@ raw:
     no_merge_variables:
       force_refresh: markups.no_merge_variables.force_refresh
       no_variables_detected: markups.no_merge_variables.no_variables_detected __force refresh__.
+  notices:
+    dismiss:
+      discover_callout: notices.dismiss.discover_callout
   mfa:
     disable_otp:
       success: mfa.disable_otp.success
