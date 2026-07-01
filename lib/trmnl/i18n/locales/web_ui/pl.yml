@@ -278,7 +278,7 @@ pl:
       firmware_updates_enabled: Aktualizacje włączone
       firmware_updates_disabled: Aktualizacje wyłączone
       font_family: Rodzina czcionek
-      font_family_hint: Rodzina czcionek TRMNL została zaprojektowana do używania w wyświetlaczach e-ink. Wsparcie w pluginach we Framework UI od wersji %{min_version}+.
+      font_family_hint: Rodzina czcionek TRMNL została zaprojektowana do używania w wyświetlaczach e-papierowych. Wsparcie w pluginach we Framework UI od wersji %{min_version}+.
       guest_mode: Tryb gościa
       guest_mode_hint: Wybierz co ma być wyświetlane (i przez jaki czas), kiedy tryb gościa jest włączony.
       guest_mode_item_placeholder: Wybierz element
@@ -290,6 +290,8 @@ pl:
       logs_hint: Debuguj swoje urządzenie i pluginy za pomocą wyświetlanych w czasie rzeczywistym informacji z logów błędów.
       low_battery_email_notification: Powiadomienie e-mail o niskim stanie baterii
       low_battery_email_notification_hint: Otrzymaj powiadomienie, gdy w Twoim urządzeniu zacznie wyczerpywać się bateria.
+      low_battery_screen_disabled: Hide Low Battery Screen
+      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
       mirror: Kopia lustrzana
       mirror_device: Odzwierciedla zachowanie innego urządzenia
       mirror_device_hint: Podaj identyfikator (ID) innego urządzenia, aby wyświetlać tę samą playlistę. Twoja playlista nadal będzie wyświetlana.
@@ -306,7 +308,7 @@ pl:
       screen_rotation: Obrót ekranu
       screen_rotation_not_supported: Obrót ekranu nie jest obecnie obsługiwany na Twoim urządzeniu.
       palette: Paleta kolorów
-      palette_hint: Wybierz zestaw kolorów, który ma być wyświetlany na tym urządzeniu. Większa paleta wygląda lepiej, ale mniejsza jest szybciej rysowana na wyświetlaczach e-ink. Ustawienie to da się zmienić indywidualnie dla każdego elementu playlisty.
+      palette_hint: Wybierz zestaw kolorów, który ma być wyświetlany na tym urządzeniu. Większa paleta wygląda lepiej, ale mniejsza jest szybciej rysowana na wyświetlaczach e-papierowych. Ustawienie to da się zmienić indywidualnie dla każdego elementu playlisty.
       presentation: Prezentacja
       sleep_mode: Tryb uśpienia
       sleep_mode_hint: Dostosuj częstotliwość odświeżania, aby zoptymalizować skupienie i wydłużyć czas pracy na baterii.
@@ -621,9 +623,9 @@ pl:
       force_refresh_click_here: Kliknij tutaj
       force_refresh_click_here_hint: aby natychmiast wygenerować nowy ekran
       force_refresh_not_possible: Nie można wymusić odświeżenia tego pluginu, ponieważ serwer TRMNL nie wspiera przetwarzania obrazów. __Tutaj__ dowiesz się, jak przetestować swoją instancję.
-      health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications: Powiadomienia o stanie
+      health_notifications_hint: Otrzymaj e-maila, jeśli stan tego pluginu wskaże problem (zdegradowany / błąd). Otrzymasz najwyżej jeden e-mail na zmianę stanu na incydent. Alerty uzbrajają się ponownie po powrocie pluginu do stanu "zdrowy".
+      health_notifications_checkbox: Wyślij mi e-mail, jeśli plugin będzie miał problem z działaniem
       learn_more: Dowiedz się więcej o tym pluginie z naszej bazy wiedzy
       learn_more_fork: Ten plugin jest forkiem Receptury.
       learn_more_fork_original: Zobacz oryginał
@@ -675,7 +677,7 @@ pl:
       synced: Zsynchronizowany
       refresh_paused: Odświeżanie wstrzymane
       refresh_paused_hint: Automatyczne odświeżanie jest wstrzymane. Dodaj do playlisty, aby włączyć je z powrotem.
-      refresh_paused_hidden_hint: Automatyczne odświeżanie jest wstrzymane, bo plugin został ukryty na playliście. Synchronizacja danych jest aktywna.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Odświeżanie szablonów
       refresh_paused_mashup_hint: Automatyczne odświeżanie wstrzymane w trybie pełnoekranowym. Szablony się odświeżają.
       refresh_stopped: Automatyczne odświeżanie wstrzymane. Należy naprawić błędy w pluginie, nim będzie można kontynuować.
