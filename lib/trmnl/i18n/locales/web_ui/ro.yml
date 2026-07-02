@@ -212,6 +212,11 @@ ro:
     time_saved:
       title: Timp economisit
       cta: Citește despre
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: Bună dimineața
       afternoon_salutation: Bună ziua
@@ -362,6 +367,28 @@ ro:
     update:
       error: Eroare la actualizarea dispozitivului
       success: Setările dispozitivului %{device} actualizate cu succes
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: Prea multe încercări, așteptați și încercați din nou
     invoice_not_found: Factură negăsită
@@ -405,6 +432,9 @@ ro:
     no_merge_variables:
       force_refresh: Dacă ai furnizat variabile dar nu sunt detectate, încearcă o __reîmprospătare forțată__.
       no_variables_detected: Nicio variabilă detectată.
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA dezactivat

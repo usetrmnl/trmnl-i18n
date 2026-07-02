@@ -212,6 +212,11 @@ ja:
     time_saved:
       title: 節約した時間
       cta: 詳しく見る
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: おはようございます
       afternoon_salutation: こんにちは
@@ -362,6 +367,28 @@ ja:
     update:
       error: デバイス更新エラー
       success: "%{device}デバイスの設定が正常に更新されました"
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: 試行回数が多すぎます。しばらく待ってから再度お試しください。
     invoice_not_found: 請求書が見つかりませんでした。
@@ -405,6 +432,9 @@ ja:
     no_merge_variables:
       force_refresh: 変数を指定したのに検出されない場合は、__強制リフレッシュ__ を試してください。
       no_variables_detected: 変数が検出されませんでした。
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2段階認証を無効化しました

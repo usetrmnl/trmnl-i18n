@@ -212,6 +212,11 @@ ko:
     time_saved:
       title: 절약한 시간
       cta: 더 알아보기
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: 좋은 아침
       afternoon_salutation: 안녕
@@ -362,6 +367,28 @@ ko:
     update:
       error: 기기 업데이트 오류
       success: "%{device} 기기 설정을 업데이트했어요"
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: 너무 많이 시도했어요. 잠시 후 다시 해주세요.
     invoice_not_found: 인보이스를 찾을 수 없음
@@ -405,6 +432,9 @@ ko:
     no_merge_variables:
       force_refresh: 변수를 입력했는데 감지되지 않으면 __강제 새로고침__을 시도하세요.
       no_variables_detected: 변수를 찾을 수 없어요.
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2단계 인증 비활성화됨

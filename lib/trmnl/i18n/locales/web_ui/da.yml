@@ -212,6 +212,11 @@ da:
     time_saved:
       title: Tid sparet
       cta: Læs om
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: Godmorgen
       afternoon_salutation: God eftermiddag
@@ -362,6 +367,28 @@ da:
     update:
       error: Fejl ved opdatering af enhed
       success: "%{device} enhedsindstillinger opdateret med succes"
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: For mange forsøg, vent venligst og prøv igen
     invoice_not_found: Faktura ikke fundet
@@ -405,6 +432,9 @@ da:
     no_merge_variables:
       force_refresh: Hvis du har angivet variabler, men de ikke registreres, prøv en __tvungen opdatering__.
       no_variables_detected: Ingen variabler registreret.
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA deaktiveret
