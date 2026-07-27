@@ -234,6 +234,11 @@ pl:
     time_saved:
       title: Zaoszczędzony czas
       cta: Dowiedz się więcej
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: Dzień dobry
       afternoon_salutation: Dzień dobry
@@ -248,6 +253,9 @@ pl:
       battery_consumption_hint: Oszczędzaj energię i ciesz się dłuższym działaniem dzięki Trybowi Uśpienia.
       battery_learn_more: Informacje o ładowaniu baterii znajdziesz __tutaj__.
       battery_refresh: Odśwież
+      click: Click
+      click_action: Advance playlist
+      controls: Controls
       developer_perks: Opcje dla programistów
       developer_perks_hint: Tworzenie własnych pluginów, edytowalny adres MAC (tylko BYOD), wczesny dostęp do firmware'u, dostęp do API.
       device_credentials: Poświadczenia urządzenia
@@ -283,8 +291,16 @@ pl:
       identify_device_hint: Kliknij poniżej, aby wyświetlić na tym urządzeniu ekran ułatwiający jego identyfikację.
       logs: Logi
       logs_hint: Debuguj swoje urządzenie i pluginy za pomocą wyświetlanych w czasie rzeczywistym informacji z logów błędów.
+      long_press: Long press (6–7s)
+      long_press_action: Reset Wi-Fi credentials
+      longest_press: Longest press (16–18s)
+      longest_press_action: Soft reset
       low_battery_email_notification: Powiadomienie e-mail o niskim stanie baterii
       low_battery_email_notification_hint: Otrzymaj powiadomienie, gdy w Twoim urządzeniu zacznie wyczerpywać się bateria.
+      low_battery_screen_disabled: Hide Low Battery Screen
+      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
+      medium_press: Medium press (1–2s)
+      medium_press_action: Special Function (above)
       mirror: Kopia lustrzana
       mirror_device: Odzwierciedla zachowanie innego urządzenia
       mirror_device_hint: Podaj identyfikator (ID) innego urządzenia, aby wyświetlać tę samą playlistę. Twoja playlista nadal będzie wyświetlana.
@@ -382,6 +398,28 @@ pl:
     update:
       error: Błąd podczas aktualizacji urządzenia
       success: Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: Zbyt wiele prób, odczekaj chwilę i spróbuj ponownie
     invoice_not_found: Nie odnaleziono faktury
@@ -425,6 +463,9 @@ pl:
     no_merge_variables:
       force_refresh: Jeśli zmienne nie są wykrywane po dodaniu, spróbuj użyć opcji __wymuś aktualizację__.
       no_variables_detected: Nie wykryto żadnych zmiennych.
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: Uwierzytelnianie dwuskładnikowe (2FA) wyłączone
@@ -645,7 +686,7 @@ pl:
       synced: Zsynchronizowany
       refresh_paused: Odświeżanie wstrzymane
       refresh_paused_hint: Automatyczne odświeżanie jest wstrzymane. Dodaj do playlisty, aby włączyć je z powrotem.
-      refresh_paused_hidden_hint: Automatyczne odświeżanie jest wstrzymane, bo plugin został ukryty na playliście. Synchronizacja danych jest aktywna.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Odświeżanie szablonów
       refresh_paused_mashup_hint: Automatyczne odświeżanie wstrzymane w trybie pełnoekranowym. Szablony się odświeżają.
       refresh_stopped: Automatyczne odświeżanie wstrzymane. Należy naprawić błędy w pluginie, nim będzie można kontynuować.

@@ -212,6 +212,11 @@ is:
     time_saved:
       title: Sparaður tími
       cta: Lesa meira
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: Góðan dag
       afternoon_salutation: Góðan dag
@@ -226,6 +231,9 @@ is:
       battery_consumption_hint: Sparaðu orku og lengdu rafhlöðuendingu með því að virkja svefnham.
       battery_learn_more: Lestu meira um hleðslu rafhlöðu __hér__.
       battery_refresh: Refresh
+      click: Click
+      click_action: Advance playlist
+      controls: Controls
       developer_perks: Forritaraeiginleikar
       developer_perks_hint: Valkostir hér að neðan krefjast __forritaraviðbótar__.
       device_credentials: Auðkenni tækis
@@ -261,8 +269,16 @@ is:
       identify_device_hint: Smelltu á hnappinn hér að neðan til að birta skjá sem auðkennir tækið.
       logs: Atburðaskrár
       logs_hint: Villuleitaðu tækið og viðbætur með lifandi atburðaskrá.
+      long_press: Long press (6–7s)
+      long_press_action: Reset Wi-Fi credentials
+      longest_press: Longest press (16–18s)
+      longest_press_action: Soft reset
       low_battery_email_notification: Lág rafhlaða - tilkynning með tölvupósti
       low_battery_email_notification_hint: Fáðu tilkynningu með tölvupósti þegar rafhlaðan er að tæmast.
+      low_battery_screen_disabled: Hide Low Battery Screen
+      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
+      medium_press: Medium press (1–2s)
+      medium_press_action: Special Function (above)
       mirror: Spegla
       mirror_device: Spegla annað tæki
       mirror_device_hint: Sláðu inn deilanlegt tækis ID til að spegla spilunarlista þess. Þinn listi birtist áfram.
@@ -360,6 +376,28 @@ is:
     update:
       error: Villa við að uppfæra tæki
       success: Stillingar tækis %{device} uppfærðar
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: Of margar tilraunir, vinsamlegast bíðið og reynið aftur
     invoice_not_found: Reikningur fannst ekki
@@ -403,6 +441,9 @@ is:
     no_merge_variables:
       force_refresh: Ef þú hefur gefið upp breytur en þær sjást ekki, prófaðu __þvingaða uppfærslu__.
       no_variables_detected: Engar breytur fundust.
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA óvirkt
@@ -623,7 +664,7 @@ is:
       synced: Samstillt
       refresh_paused: Uppfærsla í bið
       refresh_paused_hint: Sjálfvirk uppfærsla stöðvuð. Bættu við spilunarlista til að hefja aftur.
-      refresh_paused_hidden_hint: Sjálfvirk uppfærsla er á bið vegna þess að viðbótin er falin spilunarlista. Samstilling gagna er virk.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Uppfærsla á samsetningum
       refresh_paused_mashup_hint: Sjálfvirk uppfærsla í bið fyrir heilskjá. Samsetningar eru að uppfærast.
       refresh_stopped: Sjálfvirk uppfærsla stöðvuð. Lagfærðu villuna til að halda áfram.

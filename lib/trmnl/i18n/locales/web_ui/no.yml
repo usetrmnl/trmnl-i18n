@@ -212,6 +212,11 @@
     time_saved:
       title: Tid spart
       cta: Les om
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: God morgen
       afternoon_salutation: God ettermiddag
@@ -226,6 +231,9 @@
       battery_consumption_hint: Spar strøm og få lengre batterilevetid ved å aktivere dvalemodus.
       battery_learn_more: Learn more about battery charging __here__.
       battery_refresh: Refresh
+      click: Click
+      click_action: Advance playlist
+      controls: Controls
       developer_perks: Utviklerfordeler
       developer_perks_hint: Valgene nedenfor krever __Utviklertillegget__.
       device_credentials: Enhetslegitimasjon
@@ -261,8 +269,16 @@
       identify_device_hint: Klikk på knappen nedenfor for å generere en skjerm på denne enheten som hjelper med å identifisere den.
       logs: Logger
       logs_hint: Feilsøk enheten og plugins med en live feed av rå feillogger.
+      long_press: Long press (6–7s)
+      long_press_action: Reset Wi-Fi credentials
+      longest_press: Longest press (16–18s)
+      longest_press_action: Soft reset
       low_battery_email_notification: Low Battery Email Notification
       low_battery_email_notification_hint: Get notified via email when your device battery is running low.
+      low_battery_screen_disabled: Hide Low Battery Screen
+      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
+      medium_press: Medium press (1–2s)
+      medium_press_action: Special Function (above)
       mirror: Speil
       mirror_device: Speil en annen enhet
       mirror_device_hint: Oppgi en (delbar) enhets-ID for å speile dens spilleliste. Din spilleliste vil fortsatt vises.
@@ -360,6 +376,28 @@
     update:
       error: Feil ved oppdatering av enhet
       success: "%{device} enhetsinnstillingene ble oppdatert"
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: For mange forsøk, vennligst vent og prøv igjen
     invoice_not_found: Faktura ikke funnet
@@ -403,6 +441,9 @@
     no_merge_variables:
       force_refresh: Hvis du har oppgitt variabler, men de ikke blir oppdaget, prøv en __tvinget oppdatering__.
       no_variables_detected: Ingen variabler oppdaget.
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA deaktivert
@@ -623,7 +664,7 @@
       synced: Synkronisert
       refresh_paused: Refresh Paused
       refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Refreshing Mashups
       refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
       refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.

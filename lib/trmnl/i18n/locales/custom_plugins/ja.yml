@@ -207,3 +207,9 @@ ja:
       name: World clock
     language_learning_sentences:
       from_to: "{$from :langName} to {$to :langNameList}"
+    custom_next_holiday:
+      next_holiday: 次の祝日
+      today_and_next: ".input {$nextDays :number} .match $nextDays 1 {{ {#mainLabel}今日は{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}明日は{$nextName}です。{/subLabel} }} 2 {{ {#mainLabel}今日は{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}明後日は{$nextName}です。{/subLabel} }} * {{ {#mainLabel}今日は{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}次の祝日の{$nextName}まであと {$nextDays} 日です。{/subLabel} }}"
+      today_only: "{#mainLabel}今日は{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#mainLabel}です{/mainLabel}"
+      next_only: ".input {$nextDays :number} .match $nextDays 1 {{ {#mainLabel}明日は{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue}{#br/}{#mainLabel}です{/mainLabel} }} 2 {{ {#mainLabel}明後日は{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue}{#br/}{#mainLabel}です{/mainLabel} }} * {{ {#mainValue}{$nextName}{/mainValue}{#br/}{#mainLabel}まであと {/mainLabel}{#mainValue}{$nextDays}{/mainValue}{#mainLabel} 日{/mainLabel} }}"
+      no_holidays: "{#subLabel}登録された祝日はすべて終了しました。{/subLabel}"

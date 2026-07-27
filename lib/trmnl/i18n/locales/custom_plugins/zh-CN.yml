@@ -245,3 +245,9 @@ zh-CN:
       name: 世界时钟
     language_learning_sentences:
       from_to: "{$from :langName}到{$to :langNameList}"
+    custom_next_holiday:
+      next_holiday: 下一个节日
+      today_and_next: ".input {$nextDays :number} .match $nextDays 1 {{ {#mainLabel}今天是{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}明天是{$nextName}。{/subLabel} }} 2 {{ {#mainLabel}今天是{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}后天是{$nextName}。{/subLabel} }} * {{ {#mainLabel}今天是{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}距离下一个节日{$nextName}还有 {$nextDays} 天。{/subLabel} }}"
+      today_only: "{#mainLabel}今天是{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays 1 {{ {#mainLabel}明天是{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }} 2 {{ {#mainLabel}后天是{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }} * {{ {#mainLabel}距离{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue}{#br/}{#mainLabel}还有 {/mainLabel}{#mainValue}{$nextDays}{/mainValue}{#mainLabel} 天{/mainLabel} }}"
+      no_holidays: "{#subLabel}已添加的节日已全部结束。{/subLabel}"

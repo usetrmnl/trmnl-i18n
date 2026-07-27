@@ -212,6 +212,11 @@ ja:
     time_saved:
       title: 節約した時間
       cta: 詳しく見る
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: おはようございます
       afternoon_salutation: こんにちは
@@ -226,6 +231,9 @@ ja:
       battery_consumption_hint: デバイスをスリープ モードにすると、バッテリー寿命を延ばすことができます
       battery_learn_more: Learn more about battery charging __here__.
       battery_refresh: Refresh
+      click: Click
+      click_action: Advance playlist
+      controls: Controls
       developer_perks: 開発者向け特典
       developer_perks_hint: 以下は、__開発者オプション__を追加した場合に利用可能です。
       device_credentials: デバイス認証情報
@@ -261,8 +269,16 @@ ja:
       identify_device_hint: どのデバイスかを簡単に識別するために、以下のボタンを押してどの画面が表示されているか確認してください。
       logs: ログ
       logs_hint: 生のエラーログのライブフィードでデバイスとプラグインをデバッグします。
+      long_press: Long press (6–7s)
+      long_press_action: Reset Wi-Fi credentials
+      longest_press: Longest press (16–18s)
+      longest_press_action: Soft reset
       low_battery_email_notification: Low Battery Email Notification
       low_battery_email_notification_hint: Get notified via email when your device battery is running low.
+      low_battery_screen_disabled: Hide Low Battery Screen
+      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
+      medium_press: Medium press (1–2s)
+      medium_press_action: Special Function (above)
       mirror: ミラーモード
       mirror_device: 他のデバイスにミラーモードを適用する
       mirror_device_hint: 同じプレイリストを表示するには（共有可能）デバイスIDをお知らせください。あなたのプレイリストは変更なく表示されます。
@@ -360,6 +376,28 @@ ja:
     update:
       error: デバイス更新エラー
       success: "%{device}デバイスの設定が正常に更新されました"
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: 試行回数が多すぎます。しばらく待ってから再度お試しください。
     invoice_not_found: 請求書が見つかりませんでした。
@@ -403,6 +441,9 @@ ja:
     no_merge_variables:
       force_refresh: 変数を指定したのに検出されない場合は、__強制リフレッシュ__ を試してください。
       no_variables_detected: 変数が検出されませんでした。
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2段階認証を無効化しました
@@ -623,7 +664,7 @@ ja:
       synced: 同期済み
       refresh_paused: Refresh Paused
       refresh_paused_hint: Auto-refresh is paused. Add to playlist to start again.
-      refresh_paused_hidden_hint: Auto-refresh is paused because the plugin is hidden in the playlist. Data sync is active.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Refreshing Mashups
       refresh_paused_mashup_hint: Auto-refresh paused for fullscreen. Mashups are updating.
       refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.

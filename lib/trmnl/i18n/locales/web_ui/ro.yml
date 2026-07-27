@@ -212,6 +212,11 @@ ro:
     time_saved:
       title: Timp economisit
       cta: Citește despre
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: Bună dimineața
       afternoon_salutation: Bună ziua
@@ -226,6 +231,9 @@ ro:
       battery_consumption_hint: Economisește energie și bucură-te de o durată de viață mai lungă a bateriei activând Modul repaus.
       battery_learn_more: Află mai mult despre încărcarea bateriei __aici__.
       battery_refresh: Reîmprospătează
+      click: Click
+      click_action: Advance playlist
+      controls: Controls
       developer_perks: Avantaje dezvoltator
       developer_perks_hint: Dezvoltare plugin-uri personalizate, adresă MAC editabilă (doar BYOD), lansare anticipată firmware și acces API
       device_credentials: Credențiale dispozitiv
@@ -261,8 +269,16 @@ ro:
       identify_device_hint: Apasă butonul de mai jos pentru a genera un ecran pe acest dispozitiv care ajută la identificarea lui.
       logs: Jurnale
       logs_hint: Depanează dispozitivul și plugin-urile cu un flux live de jurnale de erori brute.
+      long_press: Long press (6–7s)
+      long_press_action: Reset Wi-Fi credentials
+      longest_press: Longest press (16–18s)
+      longest_press_action: Soft reset
       low_battery_email_notification: Notificare email baterie descărcată
       low_battery_email_notification_hint: Primește notificări prin email când bateria dispozitivului este pe terminate.
+      low_battery_screen_disabled: Hide Low Battery Screen
+      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
+      medium_press: Medium press (1–2s)
+      medium_press_action: Special Function (above)
       mirror: Oglindire
       mirror_device: Oglindește alt dispozitiv
       mirror_device_hint: Furnizează un ID de dispozitiv (partajabil) pentru a oglindi lista sa de redare. Lista ta va fi în continuare afișată.
@@ -360,6 +376,28 @@ ro:
     update:
       error: Eroare la actualizarea dispozitivului
       success: Setările dispozitivului %{device} actualizate cu succes
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: Prea multe încercări, așteptați și încercați din nou
     invoice_not_found: Factură negăsită
@@ -403,6 +441,9 @@ ro:
     no_merge_variables:
       force_refresh: Dacă ai furnizat variabile dar nu sunt detectate, încearcă o __reîmprospătare forțată__.
       no_variables_detected: Nicio variabilă detectată.
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA dezactivat
@@ -623,7 +664,7 @@ ro:
       synced: Sincronizat
       refresh_paused: Reîmprospătare pausată
       refresh_paused_hint: Reîmprospătarea automată este pausată. Adaugă în lista de redare pentru a reporni.
-      refresh_paused_hidden_hint: Reîmprospătarea automată este pausată deoarece plugin-ul este ascuns în lista de redare. Sincronizarea datelor este activă.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: Reîmprospătare mashup-uri
       refresh_paused_mashup_hint: Reîmprospătarea automată pausată pentru ecran complet. Mashup-urile se actualizează.
       refresh_stopped: Reîmprospătarea automată oprită. Rezolvă eroarea plugin-ului pentru a continua.

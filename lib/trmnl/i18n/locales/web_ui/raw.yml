@@ -212,6 +212,11 @@ raw:
     time_saved:
       title: dashboard.time_saved.title
       cta: dashboard.time_saved.cta
+    discover_callout:
+      manage_persona: dashboard.discover_callout.manage_persona
+      dismiss: dashboard.discover_callout.dismiss
+    saved_discovery_setup:
+      manage_persona: dashboard.saved_discovery_setup.manage_persona
     welcome_message:
       morning_salutation: dashboard.welcome_message.morning_salutation
       afternoon_salutation: dashboard.welcome_message.afternoon_salutation
@@ -226,6 +231,9 @@ raw:
       battery_consumption_hint: devices.edit.battery_consumption_hint
       battery_learn_more: devices.edit.battery_learn_more
       battery_refresh: devices.edit.battery_refresh
+      click: devices.edit.click
+      click_action: devices.edit.click_action
+      controls: devices.edit.controls
       developer_perks: devices.edit.developer_perks
       developer_perks_hint: devices.edit.developer_perks_hint
       device_credentials: devices.edit.device_credentials
@@ -261,8 +269,16 @@ raw:
       identify_device_hint: devices.edit.identify_device_hint
       logs: devices.edit.logs
       logs_hint: devices.edit.logs_hint
+      long_press: devices.edit.long_press
+      long_press_action: devices.edit.long_press_action
+      longest_press: devices.edit.longest_press
+      longest_press_action: devices.edit.longest_press_action
       low_battery_email_notification: devices.edit.low_battery_email_notification
       low_battery_email_notification_hint: devices.edit.low_battery_email_notification_hint
+      low_battery_screen_disabled: devices.edit.low_battery_screen_disabled
+      low_battery_screen_disabled_hint: devices.edit.low_battery_screen_disabled_hint
+      medium_press: devices.edit.medium_press
+      medium_press_action: devices.edit.medium_press_action
       mirror: devices.edit.mirror
       mirror_device: devices.edit.mirror_device
       mirror_device_hint: devices.edit.mirror_device_hint
@@ -360,6 +376,28 @@ raw:
     update:
       error: devices.update.error
       success: devices.update.success
+  discovery:
+    dashboard_action:
+      saved:
+        title: discovery.dashboard_action.saved.title
+        subtext: discovery.dashboard_action.saved.subtext
+        primary_label: discovery.dashboard_action.saved.primary_label
+      fresh:
+        title: discovery.dashboard_action.fresh.title
+        subtext: discovery.dashboard_action.fresh.subtext
+        primary_label: discovery.dashboard_action.fresh.primary_label
+      persona:
+        title: discovery.dashboard_action.persona.title
+        subtext: discovery.dashboard_action.persona.subtext
+        primary_label: discovery.dashboard_action.persona.primary_label
+      rerun:
+        title: discovery.dashboard_action.rerun.title
+        subtext: discovery.dashboard_action.rerun.subtext
+        primary_label: discovery.dashboard_action.rerun.primary_label
+      setup:
+        title: discovery.dashboard_action.setup.title
+        subtext: discovery.dashboard_action.setup.subtext
+        primary_label: discovery.dashboard_action.setup.primary_label
   invoices:
     rate_limit: invoices.rate_limit
     invoice_not_found: invoices.invoice_not_found
@@ -403,6 +441,9 @@ raw:
     no_merge_variables:
       force_refresh: markups.no_merge_variables.force_refresh
       no_variables_detected: markups.no_merge_variables.no_variables_detected __force refresh__.
+  notices:
+    dismiss:
+      discover_callout: notices.dismiss.discover_callout
   mfa:
     disable_otp:
       success: mfa.disable_otp.success

@@ -212,6 +212,11 @@ ko:
     time_saved:
       title: 절약한 시간
       cta: 더 알아보기
+    discover_callout:
+      manage_persona: Manage persona
+      dismiss: Dismiss
+    saved_discovery_setup:
+      manage_persona: Manage persona
     welcome_message:
       morning_salutation: 좋은 아침
       afternoon_salutation: 안녕
@@ -226,6 +231,9 @@ ko:
       battery_consumption_hint: 절전 모드로 배터리를 더 오래 쓸 수 있어요.
       battery_learn_more: 배터리 충전에 대해 __여기서__ 알아보세요.
       battery_refresh: 새로고침
+      click: Click
+      click_action: Advance playlist
+      controls: Controls
       developer_perks: 개발자 혜택
       developer_perks_hint: 커스텀 플러그인 개발, MAC 주소 편집(BYOD 전용), 펌웨어 조기 배포, API 접근
       device_credentials: 기기 인증 정보
@@ -261,8 +269,16 @@ ko:
       identify_device_hint: 아래 버튼을 눌러 이 기기를 식별하는 화면을 표시하세요.
       logs: 로그
       logs_hint: 에러 로그 피드로 기기와 플러그인을 디버그하세요.
+      long_press: Long press (6–7s)
+      long_press_action: Reset Wi-Fi credentials
+      longest_press: Longest press (16–18s)
+      longest_press_action: Soft reset
       low_battery_email_notification: 배터리 부족 이메일 알림
       low_battery_email_notification_hint: 기기 배터리가 부족하면 이메일로 알려드려요.
+      low_battery_screen_disabled: Hide Low Battery Screen
+      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
+      medium_press: Medium press (1–2s)
+      medium_press_action: Special Function (above)
       mirror: 미러링
       mirror_device: 다른 기기 미러링
       mirror_device_hint: "(공유 가능한) 기기 ID를 입력하면 플레이리스트를 미러링해요. 내 플레이리스트는 그대로 표시돼요."
@@ -360,6 +376,28 @@ ko:
     update:
       error: 기기 업데이트 오류
       success: "%{device} 기기 설정을 업데이트했어요"
+  discovery:
+    dashboard_action:
+      saved:
+        title: Recommendations saved for %{device_label}
+        subtext: Review your saved picks, or update the persona that shaped them.
+        primary_label: Review saved recommendations
+      fresh:
+        title: New recommendations ready for %{device_label}
+        subtext: Review the latest picks for this persona.
+        primary_label: Review new recommendations
+      persona:
+        title: Persona set for %{device_label}
+        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
+        primary_label: Get new recommendations
+      rerun:
+        title: Ready for another Discover round for %{device_label}
+        subtext: Go through another round when you want fresh recommendations for this TRMNL.
+        primary_label: Get more recommendations
+      setup:
+        title: Set up a persona for %{device_label}
+        subtext: Answer a few questions so recommendations fit this TRMNL's role.
+        primary_label: Set up persona
   invoices:
     rate_limit: 너무 많이 시도했어요. 잠시 후 다시 해주세요.
     invoice_not_found: 인보이스를 찾을 수 없음
@@ -403,6 +441,9 @@ ko:
     no_merge_variables:
       force_refresh: 변수를 입력했는데 감지되지 않으면 __강제 새로고침__을 시도하세요.
       no_variables_detected: 변수를 찾을 수 없어요.
+  notices:
+    dismiss:
+      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2단계 인증 비활성화됨
@@ -623,7 +664,7 @@ ko:
       synced: 동기화됨
       refresh_paused: 새로고침 일시정지
       refresh_paused_hint: 자동 새로고침이 일시정지됐어요. 플레이리스트에 추가하면 다시 시작돼요.
-      refresh_paused_hidden_hint: 플레이리스트에서 플러그인이 숨겨져 있어서 자동 새로고침이 일시정지됐어요. 데이터 동기화는 계속돼요.
+      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
       refresh_paused_mashup: 매시업 새로고침 중
       refresh_paused_mashup_hint: 전체 화면에서 자동 새로고침이 일시정지됐어요. 매시업은 업데이트 중이에요.
       refresh_stopped: 자동 새로고침이 중지됐어요. 플러그인 오류를 수정해주세요.
