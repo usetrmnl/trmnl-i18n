@@ -208,8 +208,8 @@ pl:
     language_learning_sentences:
       from_to: "{$from :langName} -> {$to :langNameList}"
     custom_next_holiday:
-      next_holiday: Next holiday
-      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
-      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
-      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
-      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
+      next_holiday: Kolejne święto
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Dziś jest{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Jutro jest {$nextName}.{/subLabel} }}* {{ {#mainLabel}Dziś jest{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Kolejne święto to {$nextName} za {$nextDays} dni.{/subLabel} }}"
+      today_only: "{#mainLabel}Dziś jest{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Jutro jest{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} dni do{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      no_holidays: "{#subLabel}Brak dodanych świąt.{/subLabel}"
