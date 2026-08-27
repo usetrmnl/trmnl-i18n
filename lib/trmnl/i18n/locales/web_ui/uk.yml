@@ -350,6 +350,23 @@ uk:
         warning_1: I understand this upgrade is <strong>irreversible</strong> and cannot be undone.
         warning_2: I understand this is a <strong>dangerous</strong> action and can brick my device.
         cta: Upgrade to TRMNL OG (2-bit)
+      persona:
+        discover: Discover
+        discover_hint: Discover suggests plugins and recipes tailored to this device
+        discover_banner_toggle: Show the Discover banner on the dashboard for this device
+        persona: Persona
+        persona_hint: A device persona shapes Discover recommendations
+        provisioned_by_html: This device was provisioned by the <strong>%{name}</strong> persona.
+        mirror_disabled_hint: Persona management is disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
+        save_persona: Save persona
+        reset_persona: Reset persona
+        reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
+        reset_persona_confirm: Reset this persona and delete its saved recommendations?
+    discover_persona:
+      label: Persona & Discover
+      disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
+      completed_hint: Persona is set up for this device
+      setup_hint: Set up a persona for this device
     index:
       title: Пристрої
       tagline: Ваші пристрої TRMNL
