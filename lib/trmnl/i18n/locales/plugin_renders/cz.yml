@@ -1,0 +1,282 @@
+cs:
+  renders:
+    and_x_more_prefix: A
+    and_x_more_suffix: více
+    calendars:
+      no_upcoming_events: Žádné nadcházející události
+      no_events_today: Dnes žádné události
+    days_left_year:
+      title: Zbývající dny v tomto roce
+      days_passed: Uplynulé dny
+      days_left: Zbývající dny
+    lunar_calendar:
+      title: Lunární kalendář
+      age: Stáří Měsíce
+      current_phase: Aktuální fáze
+      illumination: Osvětlení Měsíce
+      next_full_moon: Příští úplněk
+      next_new_moon: Příští nov
+      next_phase: Příští fáze
+      next_phase_short: Příští
+      moon_phases:
+        new_moon: Nov
+        waxing_crescent: Dorůstající srp
+        first_quarter: První čtvrť
+        waxing_gibbous: Dorůstající měsíc
+        full_moon: Úplněk
+        waning_gibbous: Ubývající měsíc
+        third_quarter: Poslední čtvrť
+        waning_crescent: Ubývající srp
+    netatmo_weather_station:
+      title: Počasí Netatmo
+      title_short: Netatmo
+      indoor_temp: Vnitřní teplota
+      indoor_temp_short: Vnitřní
+      indoor_humidity: Vnitřní vlhkost
+      indoor_humidity_short: Vnitřní vlhk.
+      outdoor_humidity: Venkovní vlhkost
+      outdoor_humidity_short: Venk. vlhk.
+      co2: CO₂
+      co2_ppm: CO₂ ppm
+      pressure: Tlak
+      noise: Hluk
+      min_max: Min/Max
+      feels: Pocitová
+      rain: Déšť
+      wind: Vítr
+      gust: Náraz větru
+      default_station_name: Stanice Netatmo
+      default_outdoor_module: Venkovní teplota
+      default_indoor_module: Vnitřní
+      trends_title: "Trendy: %{metric}"
+      trends_title_short: Trendy
+      temperature_trends: Trendy teploty
+      temperature_trends_short: Trendy teploty
+      outdoor_now: Venku nyní
+      indoor_now: Uvnitř nyní
+      now: Nyní
+      low_high_24h: 24h Min / Max
+      average_24h: 24h Průměr
+      outdoor: Venku
+      indoor: Uvnitř
+      rain_gauge_not_connected: Srážkoměr není připojen
+      wind_gauge_not_connected: Anemometr není připojen
+      no_rain_gauge: Bez srážkoměru
+      no_wind_gauge: Bez anemometru
+      add_module_hint: Přidejte volitelný modul %{module} pro zobrazení těchto dat
+      range_24h: 24h rozsah
+      errors:
+        missing_access_token: Chybí přístupový token. Připojte prosím znovu svůj účet Netatmo.
+        no_station_selected: Nebyla vybrána žádná meteostanice. Vyberte prosím stanici v nastavení.
+        connection_failed: Nelze se připojit ke stanici Netatmo. Zkontrolujte prosím své připojení k internetu.
+        data_retrieval_failed: Nelze načíst data o počasí. Zkuste to prosím později.
+        session_expired: Relace vypršela. Připojte prosím znovu svůj účet Netatmo v nastavení.
+    parcel:
+      delivery_by: Doručení do
+      empty: Žádné zásilky
+      errors:
+        api: Chyba API zásilek
+        http: Chyba HTTP %{code}
+        internal: Vnitřní chyba
+      filter_modes:
+        active:
+          one: Aktivní zásilka
+          other: Aktivní zásilky
+        recent:
+          one: Nedávná zásilka
+          other: Nedávné zásilky
+      status:
+        delivered: Doručeno
+        delivery_exception: Výjimka při doručení
+        expecting_pickup: Čeká na vyzvednutí
+        failed_delivery_attempt: Neúspěšný pokus o doručení
+        frozen: Pozastaveno
+        in_transit: Na cestě
+        information_received: Informace přijaty
+        not_found: Nenalezeno
+        out_for_delivery: Doručuje se
+        unknown: Neznámé
+      today: Dnes
+      tomorrow: Zítra
+    weather:
+      title: Počasí
+      temperature: Teplota
+      feels_like: Pocitová teplota
+      humidity: Vlhkost
+      low: Minimum
+      high: Maximum
+      uv: UV
+      right_now: Právě teď
+      today: Dnes
+      tomorrow: Zítra
+      low_high_short: Min/Max
+      uv_short: UV
+      max: Max
+      tempest:
+        conditions:
+          clear: Jasno
+          cloudy: Oblačno
+          foggy: Mlha
+          partly_cloudy: Polojasno
+          rain_likely: Pravděpodobný déšť
+          rain_possible: Možný déšť
+          snow: Sněžení
+          snow_possible: Možné sněžení
+          thunderstorms_likely: Pravděpodobné bouřky
+          thunderstorms_possible: Možné bouřky
+          very_light_rain: Velmi slabý déšť
+          windy: Větrno
+          wintry_mix_likely: Pravděpodobné smíšené srážky
+          wintry_mix_possible: Možné smíšené srážky
+      weatherapi:
+        uv:
+          low: Nízký
+          moderate: Střední
+          high: Vysoký
+          very_high: Velmi vysoký
+          extreme: Extrémní
+        conditions:
+        - code: 1000
+          day: Slunečno
+          night: Jasno
+        - code: 1003
+          day: Polojasno
+          night: Polojasno
+        - code: 1006
+          day: Oblačno
+          night: Oblačno
+        - code: 1009
+          day: Zataženo
+          night: Zataženo
+        - code: 1030
+          day: Kouřmo
+          night: Kouřmo
+        - code: 1063
+          day: Slabý déšť
+          night: Slabý déšť
+        - code: 1066
+          day: Slabé sněžení
+          night: Slabé sněžení
+        - code: 1069
+          day: Déšť se sněhem
+          night: Déšť se sněhem
+        - code: 1072
+          day: Mrznoucí mrholení
+          night: Mrznoucí mrholení
+        - code: 1087
+          day: Bouřky
+          night: Bouřky
+        - code: 1114
+          day: Zvířený sníh
+          night: Zvířený sníh
+        - code: 1117
+          day: Sněhová bouře
+          night: Sněhová bouře
+        - code: 1135
+          day: Mlha
+          night: Mlha
+        - code: 1147
+          day: Mrznoucí mlha
+          night: Mrznoucí mlha
+        - code: 1150
+          day: Slabé mrholení
+          night: Slabé mrholení
+        - code: 1153
+          day: Mrholení
+          night: Mrholení
+        - code: 1168
+          day: Mrznoucí mrholení
+          night: Mrznoucí mrholení
+        - code: 1171
+          day: Silné mrznoucí mrholení
+          night: Silné mrznoucí mrholení
+        - code: 1180
+          day: Slabý déšť
+          night: Slabý déšť
+        - code: 1183
+          day: Slabý déšť
+          night: Slabý déšť
+        - code: 1186
+          day: Mírný déšť
+          night: Mírný déšť
+        - code: 1189
+          day: Mírný déšť
+          night: Mírný déšť
+        - code: 1192
+          day: Silný déšť
+          night: Silný déšť
+        - code: 1195
+          day: Silný déšť
+          night: Silný déšť
+        - code: 1198
+          day: Slabý mrznoucí déšť
+          night: Slabý mrznoucí déšť
+        - code: 1201
+          day: Silný mrznoucí déšť
+          night: Silný mrznoucí déšť
+        - code: 1204
+          day: Slabý déšť se sněhem
+          night: Slabý déšť se sněhem
+        - code: 1207
+          day: Silný déšť se sněhem
+          night: Silný déšť se sněhem
+        - code: 1210
+          day: Slabé sněžení
+          night: Slabé sněžení
+        - code: 1213
+          day: Slabé sněžení
+          night: Slabé sněžení
+        - code: 1216
+          day: Mírné sněžení
+          night: Mírné sněžení
+        - code: 1219
+          day: Mírné sněžení
+          night: Mírné sněžení
+        - code: 1222
+          day: Silné sněžení
+          night: Silné sněžení
+        - code: 1225
+          day: Silné sněžení
+          night: Silné sněžení
+        - code: 1237
+          day: Ledové krupky
+          night: Ledové krupky
+        - code: 1240
+          day: Slabé dešťové přeháňky
+          night: Slabé dešťové přeháňky
+        - code: 1243
+          day: Silné dešťové přeháňky
+          night: Silné dešťové přeháňky
+        - code: 1246
+          day: Průtrž mračen
+          night: Průtrž mračen
+        - code: 1249
+          day: Slabé přeháňky deště se sněhem
+          night: Slabé přeháňky deště se sněhem
+        - code: 1252
+          day: Silné přeháňky deště se sněhem
+          night: Silné přeháňky deště se sněhem
+        - code: 1255
+          day: Slabé sněhové přeháňky
+          night: Slabé sněhové přeháňky
+        - code: 1258
+          day: Silné sněhové přeháňky
+          night: Silné sněhové přeháňky
+        - code: 1261
+          day: Slabé krupobití
+          night: Slabé krupobití
+        - code: 1264
+          day: Silné krupobití
+          night: Silné krupobití
+        - code: 1273
+          day: Bouřka s deštěm
+          night: Bouřka s deštěm
+        - code: 1276
+          day: Bouřka s deštěm
+          night: Bouřka s deštěm
+        - code: 1279
+          day: Bouřka se sněžením
+          night: Bouřka se sněžením
+        - code: 1282
+          day: Bouřka se sněžením
+          night: Bouřka se sněžením
