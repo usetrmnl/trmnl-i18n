@@ -5,13 +5,13 @@ de:
   actions: Aktionen
   add: Hinzufügen
   add_new: Neu hinzufügen
-  ai_assistant: Agent
+  ai_assistant:
   ai_assistant_hint: Aktiviere den Agent für die Markup-Bearbeitung im Plugin-Editor.
   already_have_account: Ich besitze bereits ein Konto
   are_you_sure: Bist du sicher?
   back: Zurück
   back_to_all_blog_posts: Zurück zu allen Posts
-  blog: Blog
+  blog:
   brand: Marke
   buy_now: Jetzt kaufen
   cancel: Abbrechen
@@ -43,7 +43,7 @@ de:
   first_name: Vorname
   forgot_password: Passwort vergessen
   forgot_password_title: Neues Passwort vergeben
-  friendly_id: Friendly ID
+  friendly_id:
   get_started: Lass uns loslegen!
   hidden: versteckt
   identify: Identifizieren
@@ -79,7 +79,7 @@ de:
   sign_in: Anmelden
   sign_up: Registrieren
   something_went_wrong: Etwas ist schiefgegangen
-  status: Status
+  status:
   subscribe: Abonnieren
   help_center: Hilfe
   terms: AGB
@@ -97,7 +97,7 @@ de:
   datetime:
     relative:
       past: vor %{time}
-      future: in %{time}
+      future:
       distance_in_words:
         half_a_minute: einer halben Minute
         less_than_x_seconds:
@@ -207,7 +207,7 @@ de:
       connected: Verbunden
       new_and_popular: Neu und beliebt
     shop:
-      title: Shop
+      title:
       need_another: Brauchst du noch einen TRMNL?
     time_saved:
       title: Eingesparte Zeit
@@ -255,7 +255,7 @@ de:
       display_calibration_ui_scale: UI-Skalierung
       display_calibration_ui_scale_hint: 'Text- und Elementgröße (0,5–2,0). Standard:'
       edit_device: Gerät bearbeiten
-      firmware: Firmware
+      firmware:
       firmware_updates_enabled: Updates aktiviert
       firmware_updates_disabled: Updates deaktiviert
       font_family: Schriftfamilie
@@ -292,6 +292,7 @@ de:
       maximum_compatibility: Maximale Kompatibilität aktivieren
       maximum_compatibility_hint: Behebt Anzeigefehler aufgrund bestimmter ePaper-Treiber-Chips. Deaktiviert schnelles Rendern. Benötigt Firmware 1.6.0+.
       color_and_rotation: Farbe & Rotation
+      image_rotation:
       screen_rotation: Bildschirmrotation
       screen_rotation_not_supported: Bildschirmrotation ist derzeit nicht auf deinem Gerät unterstützt.
       palette: Farbpalette
@@ -311,6 +312,7 @@ de:
       touchbar_mode_hint: Auf welche Art von Gesten soll dein Gerät reagieren?
       tidbyt_credentials: Tidbyt-Anmeldedaten
       tidbyt_credentials_hint: Gib hier die API-Zugangsdaten deines Tidbyt-Geräts ein (Einstellungen → Entwickler → API-Schlüssel in der Tidbyt-App).
+      tidbyt_api_key:
       tidbyt_credentials_invalid: Ungültige Tidbyt-API-Zugangsdaten. Bitte prüfen und erneut versuchen.
       tidbyt_device_id: Geräte-ID
       tidbyt_device_api_key: API-Schlüssel
@@ -329,22 +331,22 @@ de:
         warning_2: Mir ist bewusst, dass dies ein <strong>gefährlicher</strong> Vorgang ist, der mein Gerät dauerhaft beschädigen kann.
         cta: Auf TRMNL OG (2-bit) upgraden
       persona:
-        discover: Discover
-        discover_hint: Discover suggests plugins and recipes tailored to this device
-        discover_banner_toggle: Show the Discover banner on the dashboard for this device
-        persona: Persona
-        persona_hint: A device persona shapes Discover recommendations
-        provisioned_by_html: This device was provisioned by the <strong>%{name}</strong> persona.
-        mirror_disabled_hint: Persona management is disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-        save_persona: Save persona
-        reset_persona: Reset persona
-        reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
-        reset_persona_confirm: Reset this persona and delete its saved recommendations?
+        discover:
+        discover_hint:
+        discover_banner_toggle:
+        persona:
+        persona_hint:
+        provisioned_by_html:
+        mirror_disabled_hint:
+        save_persona:
+        reset_persona:
+        reset_persona_hint:
+        reset_persona_confirm:
     discover_persona:
-      label: Persona & Discover
-      disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-      completed_hint: Persona is set up for this device
-      setup_hint: Set up a persona for this device
+      label:
+      disabled_hint:
+      completed_hint:
+      setup_hint:
     index:
       title: Geräte
       tagline: Deine TRMNL-Geräte
@@ -423,7 +425,7 @@ de:
       all: Alle
       bulk_destroy: Stapel-Löschen
       dump: Ausgabe
-      id: ID
+      id:
       private_plugins: Private Erweiterungen
       source: Quelle
       time: Zeit
@@ -435,6 +437,7 @@ de:
       design_system: Nutze unser natives Design-System
       design_system_docs: Dokumentation anzeigen
       dirty_confirm: Es gibt ungespeicherte Änderungen. Möchtest Du diese Seite wirklich verlassen?
+      edit_composition:
       edit_markup: Markup bearbeiten
       edit_markup_for_plugin: Markup von %{plugin_setting_name} bearbeiten
       edit_markup_please_save_first: Bitte vor dem Bearbeiten des Markups speichern
@@ -510,6 +513,7 @@ de:
       show_playlist: Eintrag anzeigen
       duplicate: Duplizieren
       duplicate_confirm: Es wird eine Kopie dieses Eintrags erstellt und am Ende der Wiedergabeliste hinzugefügt. Fortfahren?
+      presentation:
       color_palette: Farbpalette
       device_default: Geräte-Standard (%{name})
       palette_unavailable: Nur verfügbar für Geräte mit mehreren Farbpaletten
@@ -541,6 +545,7 @@ de:
       tagline: Was soll auf dem TRMNL angezeigt werden?
       available: Verfügbar
       connected: Verbunden
+      supported_by_this_device:
       recipes: Blaupausen
       recipes_hint: Private Erweiterungen aus der Community können mit einem Klick installiert werden. __Mehr erfahren__
     search:
@@ -557,7 +562,7 @@ de:
     new:
       title: Neue Erweiterung erstellen
       tagline: Ermögliche anderen Benutzern, deine Erweiterung zu installieren.
-      name: Name
+      name:
       category: Kategorie
       category_hint: Cmd oder Strg gedrückt halten, um bis zu 3 Einträge auszuwählen
       refresh_every: Unterstütztes Intervall für Aktualisierungen
@@ -580,7 +585,7 @@ de:
     edit:
       title: Erweiterung bearbeiten
       tagline: Aktualisiere Details deiner Erweiterung.
-      name: Name
+      name:
       description: Beschreibung
   plugin_recipes:
     connected: Blaupause verbunden
@@ -588,8 +593,8 @@ de:
       one: Verbindung
       other: Verbindungen
     forks:
-      one: Fork
-      other: Forks
+      one:
+      other:
     forked: Blaupause geforkt
     new:
       error: Blaupause nicht gefunden
@@ -645,7 +650,7 @@ de:
       link_oauth_hint: Um fortzufahren, muss eine Kontoverknüpfung mit %{plugin} hergestellt werden
       mirrored: gespiegelt
       multiple_instances_hint: Diese Erweiterung unterstützt mehrere Instanzen.
-      name: Name
+      name:
       name_hint: Vergib einen Namen zur einfachen Unterscheidung
       parse: Parsen
       parse_save_first: Parsen (Erweiterung zuerst speichern)

@@ -2,11 +2,11 @@
 zh-HK:
   locale_name: 繁體中文（香港）
   about: 簡介
-  actions: Actions
+  actions:
   add: 加入
   add_new: 新增
-  ai_assistant: Agent
-  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
+  ai_assistant:
+  ai_assistant_hint:
   already_have_account: 我已經有帳戶
   are_you_sure: 確定嗎？
   back: 返回
@@ -35,7 +35,7 @@ zh-HK:
   developer_edition_required: 需要開發者版本才能啟用此功能。
   device_id: 裝置ID
   device: 裝置
-  discard: Discard
+  discard:
   edit: 編輯
   email_address: 電郵地址
   export: 匯出
@@ -43,7 +43,7 @@ zh-HK:
   first_name: 名字
   forgot_password: 忘記密碼
   forgot_password_title: 再次輸入
-  friendly_id: Friendly ID
+  friendly_id:
   get_started: 讓我們開始吧！
   hidden: 隱藏
   identify: 識別
@@ -83,7 +83,7 @@ zh-HK:
   subscribe: 訂閱
   help_center: 支援
   terms: 條款
-  unsaved_changes: You have unsaved changes
+  unsaved_changes:
   update: 更新
   view: 查看
   collaboration_request: 想合作嗎？
@@ -93,7 +93,7 @@ zh-HK:
   time:
     formats:
       shorter: "%-H:%M"
-    start_of_week: 0
+    start_of_week:
   datetime:
     relative:
       past: "%{time}前"
@@ -159,7 +159,7 @@ zh-HK:
       email_address_hint: 用於登入TRMNL及接收系統訊息。
       first_name_hint: 我們使用你的名字讓TRMNL介面更具親切感。
       last_name_hint: 我們使用你的名字讓TRMNL介面更具親切感。
-      github_username_hint: Used to attribute open source contributions to the Creator Fund.
+      github_username_hint:
       password_hint: 用於保護你的TRMNL帳戶。
       enable_2fa: 啟用雙重驗證(2FA)？
       enable_2fa_hint: __按此__啟用OTP。
@@ -173,7 +173,7 @@ zh-HK:
       session_hint: 你已登入為：%{user}
       show_title_bar: 顯示標題列
       show_title_bar_hint: 如停用此功能，原生（非全域）及第三方外掛功能會顯得更簡約。
-      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
+      theme_hint:
       time_zone: 時區
       time_zone_hint: 決定重新整理頻率及裝置睡眠時間。
       locale: 地區語言
@@ -213,10 +213,10 @@ zh-HK:
       title: 已節省時間
       cta: 閱讀詳情
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
+      manage_persona:
+      dismiss:
     saved_discovery_setup:
-      manage_persona: Manage persona
+      manage_persona:
     welcome_message:
       morning_salutation: 早晨
       afternoon_salutation: 午安
@@ -231,9 +231,9 @@ zh-HK:
       battery_consumption_hint: 啟用「睡眠模式」可節省電量，並延長電池續航時間。
       battery_learn_more: __按此__了解更多關於電池充電的資訊。
       battery_refresh: 重新整理
-      click: Click
-      click_action: Advance playlist
-      controls: Controls
+      click:
+      click_action:
+      controls:
       developer_perks: 開發者福利
       developer_perks_hint: 開發自訂外掛、可編輯MAC地址（只限BYOD）、韌體搶先體驗及API訪問。
       device_credentials: 裝置憑證
@@ -258,8 +258,8 @@ zh-HK:
       firmware: 韌體
       firmware_updates_enabled: 已啟用更新
       firmware_updates_disabled: 已停用更新
-      font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family:
+      font_family_hint:
       guest_mode: 訪客模式
       guest_mode_hint: 選擇啟用訪客模式時顯示的內容（以及顯示多久）。
       guest_mode_item_placeholder: 選擇項目
@@ -269,16 +269,16 @@ zh-HK:
       identify_device_hint: 按下按鈕以在裝置上生成一個幫助識別它的畫面。
       logs: 記錄檔
       logs_hint: 即時串流原始錯誤記錄，以偵錯你的裝置及外掛。
-      long_press: Long press (6–7s)
-      long_press_action: Reset Wi-Fi credentials
-      longest_press: Longest press (16–18s)
-      longest_press_action: Soft reset
+      long_press:
+      long_press_action:
+      longest_press:
+      longest_press_action:
       low_battery_email_notification: 低電量電郵通知
       low_battery_email_notification_hint: 當裝置電量不足時，透過電郵接收通知。
-      low_battery_screen_disabled: Hide Low Battery Screen
-      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
-      medium_press: Medium press (1–2s)
-      medium_press_action: Special Function (above)
+      low_battery_screen_disabled:
+      low_battery_screen_disabled_hint:
+      medium_press:
+      medium_press_action:
       mirror: 鏡像共享
       mirror_device: 鏡像共享另一部裝置
       mirror_device_hint: 輸入可共享(shareable)裝置的ID，以鏡像共享其播放清單。你的播放清單仍會顯示。
@@ -292,11 +292,12 @@ zh-HK:
       maximum_compatibility: 啟用最大兼容性
       maximum_compatibility_hint: 解決由某些電子墨水驅動晶片引起的顯示問題。會停用快速重新整理。需要韌體版本1.6.0或以上。
       color_and_rotation: 顏色和旋轉
+      image_rotation:
       screen_rotation: 屏幕旋轉
       screen_rotation_not_supported: 屏幕旋轉目前不支援你的裝置。
       palette: 色彩模式
       palette_hint: 選擇此裝置生成畫面時使用的色彩模式。色彩層次越多視覺效果越佳，但層次越少則電子墨水螢幕的繪製速度越快。個別播放清單項目可以覆寫此設定。
-      presentation: Presentation
+      presentation:
       sleep_mode: 睡眠模式
       sleep_mode_hint: 調整重新整理頻率，以提升專注度及電池續航時間。
       sleep_screen: 睡眠畫面
@@ -307,15 +308,16 @@ zh-HK:
       special_function_learn_more: __按此__了解更多特別功能。
       temperature_profile: 色溫設定檔
       temperature_profile_hint: 除非獲得指示，否則請勿更改。適用於影像顯示褪色的螢幕。
-      touchbar_mode: Touchbar Mode
-      touchbar_mode_hint: What type of gestures should your device respond to?
+      touchbar_mode:
+      touchbar_mode_hint:
       tidbyt_credentials: Tidbyt憑證
       tidbyt_credentials_hint: 在Tidbyt應用程式前往「Settings → Developer → Get API Key」尋找你的Tidbyt裝置API憑證。
+      tidbyt_api_key:
       tidbyt_credentials_invalid: Tidbyt API憑證無效。請檢查並重試。
       tidbyt_device_id: 裝置ID
       tidbyt_device_api_key: API金鑰
       unlink: 取消連結
-      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
+      unlink_confirm:
       unlink_device: 取消連結裝置
       unlink_device_hint: 取消連結TRMNL後，可安全地轉售或贈送他人。
       unlink_device_learn_more: __按此__查看完整指南。
@@ -329,41 +331,41 @@ zh-HK:
         warning_2: 我明白這是<strong>危險</strong>操作，可能會導致我的裝置變磚。
         cta: 升級至 TRMNL OG (2-bit)
       persona:
-        discover: Discover
-        discover_hint: Discover suggests plugins and recipes tailored to this device
-        discover_banner_toggle: Show the Discover banner on the dashboard for this device
-        persona: Persona
-        persona_hint: A device persona shapes Discover recommendations
-        provisioned_by_html: This device was provisioned by the <strong>%{name}</strong> persona.
-        mirror_disabled_hint: Persona management is disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-        save_persona: Save persona
-        reset_persona: Reset persona
-        reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
-        reset_persona_confirm: Reset this persona and delete its saved recommendations?
+        discover:
+        discover_hint:
+        discover_banner_toggle:
+        persona:
+        persona_hint:
+        provisioned_by_html:
+        mirror_disabled_hint:
+        save_persona:
+        reset_persona:
+        reset_persona_hint:
+        reset_persona_confirm:
     discover_persona:
-      label: Persona & Discover
-      disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-      completed_hint: Persona is set up for this device
-      setup_hint: Set up a persona for this device
+      label:
+      disabled_hint:
+      completed_hint:
+      setup_hint:
     index:
       title: 裝置
       tagline: 你的TRMNL裝置
       add_device_modal_title: 新增裝置
       add_first_device: 請先新增你的第一部裝置！
-      go_to_settings: Go to settings
-      clear_playlist: Clear playlist
-      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
-      copy_playlist_to_device: Copy playlist to device
-      copy_playlist_submit: Copy playlist
-      copy_playlist_from_device: From
-      copy_playlist_to_device_label: To
-      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      go_to_settings:
+      clear_playlist:
+      clear_playlist_confirm:
+      copy_playlist_to_device:
+      copy_playlist_submit:
+      copy_playlist_from_device:
+      copy_playlist_to_device_label:
+      copy_playlist_non_destructive:
       target_device: Target device
     clear_playlist:
-      success: "%{device}'s playlist has been cleared."
+      success:
     copy_playlist:
-      error_same_device: Source and target device must be different.
-      success: Playlist copied from %{source} to %{target}.
+      error_same_device:
+      success:
     new:
       title: 新增裝置
       description: 輸入Friendly ID以新增裝置到你的帳戶。
@@ -389,32 +391,32 @@ zh-HK:
     switch:
       error: 切換裝置時發生錯誤
       success: 成功切換裝置
-      title: Switch to device
+      title:
     update:
       error: 更新裝置時發生錯誤
       success: 成功更新「%{device}」的裝置設定
   discovery:
     dashboard_action:
       saved:
-        title: Recommendations saved for %{device_label}
-        subtext: Review your saved picks, or update the persona that shaped them.
-        primary_label: Review saved recommendations
+        title:
+        subtext:
+        primary_label:
       fresh:
-        title: New recommendations ready for %{device_label}
-        subtext: Review the latest picks for this persona.
-        primary_label: Review new recommendations
+        title:
+        subtext:
+        primary_label:
       persona:
-        title: Persona set for %{device_label}
-        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
-        primary_label: Get new recommendations
+        title:
+        subtext:
+        primary_label:
       rerun:
-        title: Ready for another Discover round for %{device_label}
-        subtext: Go through another round when you want fresh recommendations for this TRMNL.
-        primary_label: Get more recommendations
+        title:
+        subtext:
+        primary_label:
       setup:
-        title: Set up a persona for %{device_label}
-        subtext: Answer a few questions so recommendations fit this TRMNL's role.
-        primary_label: Set up persona
+        title:
+        subtext:
+        primary_label:
   invoices:
     rate_limit: 嘗試次數過多，請稍後再試
     invoice_not_found: 找不到發票
@@ -424,7 +426,7 @@ zh-HK:
       all: 所有
       bulk_destroy: 批量銷毀
       dump: 傾印
-      id: ID
+      id:
       private_plugins: 客製外掛
       source: 來源
       time: 時間
@@ -436,6 +438,7 @@ zh-HK:
       design_system: 活用我們的原生設計系統
       design_system_docs: 設計系統文件
       dirty_confirm: 你有未儲存的變更。確定要離開此頁面嗎？
+      edit_composition:
       edit_markup: 編輯標記碼
       edit_markup_for_plugin: 編輯「%{plugin_setting_name}」的標記碼
       edit_markup_please_save_first: 編輯標記碼前請先儲存
@@ -460,7 +463,7 @@ zh-HK:
       no_variables_detected: 未偵測到變數。
   notices:
     dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
+      discover_callout:
   mfa:
     disable_otp:
       success: 已停用雙重驗證
@@ -509,11 +512,12 @@ zh-HK:
       remove_from_playlist: 從播放清單中移除
       hide_playlist: 隱藏此項目
       show_playlist: 顯示此項目
-      duplicate: Duplicate
-      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
-      color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
+      duplicate:
+      duplicate_confirm:
+      presentation:
+      color_palette:
+      device_default:
+      palette_unavailable:
       refresh_rate_disabled:
         default: 無法設定此外掛的重新整理頻率。
         external: 此外掛即時擷取數據，因此重新整理頻率設定不適用。
@@ -535,13 +539,14 @@ zh-HK:
     set_preferences:
       success: 已更新智能播放清單偏好設定
     update:
-      success: Playlist order updated
+      success:
   plugins:
     index:
       title: 外掛功能
       tagline: 你會在TRMNL上顯示什麼？
       available: 可使用
       connected: 已連接
+      supported_by_this_device:
       recipes: 模板(Recipe)
       recipes_hint: 社群成員開發的客製外掛，一鍵即可安裝。 __了解更多__
     search:
@@ -591,19 +596,19 @@ zh-HK:
     forks:
       one: 個分叉
       other: 個分叉
-    forked: Recipe forked
+    forked:
     new:
       error: 找不到模板
     show:
-      more_by_author: More by this Author
-      view_all: View all
+      more_by_author:
+      view_all:
   plugin_settings:
     active: 啟用
     copy_are_you_sure: 確定要複製此設定嗎？
     delete_are_you_sure: 確定要刪除此設定嗎？
     delete: 這將完全移除此外掛的設定。如只想在裝置上隱藏，請從播放清單中刪除。
     inactive: 停用
-    no_matches_found: No plugins match your filters.
+    no_matches_found:
     no_plugin_settings_found: 找不到外掛設定。
     not_supported: 此裝置不支援
     refreshing_now_please_wait: 正在重新整理，請在幾秒鐘後重新載入此頁面。
@@ -611,7 +616,7 @@ zh-HK:
     form:
       active_hint: 在裝置上顯示或隱藏此外掛實例
       advanced_settings: 進階設定
-      back_to_playlist: Back to Playlist
+      back_to_playlist:
       back_to_plugin: 返回%{plugin}
       back_to_plugins: 返回外掛列表
       connect_with: 連接%{plugin}
@@ -627,9 +632,9 @@ zh-HK:
       force_refresh_click_here: 按此
       force_refresh_click_here_hint: 立即生成新的畫面
       force_refresh_not_possible: 無法強制重新整理此外掛，因為TRMNL伺服器不執行影像處理。__按此__了解如何測試你的外掛。
-      health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications:
+      health_notifications_hint:
+      health_notifications_checkbox:
       learn_more: 前往知識庫以了解此外掛
       learn_more_fork: 此外掛是從模板分叉(fork)而來。
       learn_more_fork_original: 查看原始版本
@@ -644,7 +649,7 @@ zh-HK:
       linked_account_success: 成功連結%{plugin_name}
       link_oauth: 連結帳戶
       link_oauth_hint: 如要繼續，請先按照「%{plugin}」提供的安全授權流程進行
-      mirrored: Mirrored
+      mirrored:
       multiple_instances_hint: 此外掛支援多個執行個體。
       name: 名稱
       name_hint: 為其命名以便參考
@@ -662,7 +667,7 @@ zh-HK:
       recipe_cta_body_in_review: 此外掛已提交給我們的團隊審核。請稍候。
       recipe_cta_body_not_published: 提交此外掛以供其他人安裝。__了解更多__。
       recipe_cta_confirm: 確定嗎？我們的團隊將進行審核，並在數日內回覆你。你可以繼續進行變更。
-      recipe_mirrored: This screen is mirrored from the recipe.
+      recipe_mirrored:
       recipe_visibility_title: 你想如何發佈？
       recipe_visibility_edit_title: 編輯提交內容
       recipe_visibility_public: 公開
@@ -673,7 +678,7 @@ zh-HK:
       recipe_visibility_unlisted_hint: 擁有連結的任何人都可以安裝。
       refresh_rate: 重新整理頻率
       refresh_rate_hint: 設定此外掛每隔多久後擷取新資料。
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
+      refresh_rate_jit_hint:
       refresh_rate_not_configurable: 重新整理頻率 %{refresh_rate}（固定）
       refreshed: 已重新整理
       remove_plugin: 移除外掛
@@ -681,11 +686,11 @@ zh-HK:
       synced: 已同步
       refresh_paused: 已暫停更新
       refresh_paused_hint: 自動更新已暫停，請加入至播放清單以重新開始。
-      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
+      refresh_paused_hidden_hint:
       refresh_paused_mashup: 只更新混搭畫面
       refresh_paused_mashup_hint: 已暫停全螢幕的自動更新，混搭畫面(Mashup)仍會更新。
       refresh_stopped: 自動更新已停止。請修正外掛錯誤以繼續。
-      view_recipe: View Recipe
+      view_recipe:
       visit_docs: 查看文件
     import:
       archive_too_large: ZIP檔案太大（最大%{max_mb} MB）
@@ -720,7 +725,7 @@ zh-HK:
       some_schedule: 只於此期間顯示畫面⋯
       to: 至
       copy_prompt: 複製時間表⋯
-      no_days_error: Please select at least one day.
+      no_days_error:
   upgrade:
     index:
       title: 正在升級裝置：

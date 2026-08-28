@@ -292,6 +292,7 @@ raw:
       maximum_compatibility: devices.edit.maximum_compatibility
       maximum_compatibility_hint: devices.edit.maximum_compatibility_hint
       color_and_rotation: devices.edit.color_and_rotation
+      image_rotation: devices.edit.image_rotation
       screen_rotation: devices.edit.screen_rotation
       screen_rotation_not_supported: devices.edit.screen_rotation_not_supported
       palette: devices.edit.palette
@@ -311,6 +312,7 @@ raw:
       touchbar_mode_hint: devices.edit.touchbar_mode_hint
       tidbyt_credentials: devices.edit.tidbyt_credentials
       tidbyt_credentials_hint: devices.edit.tidbyt_credentials_hint
+      tidbyt_api_key: devices.edit.tidbyt_api_key
       tidbyt_credentials_invalid: devices.edit.tidbyt_credentials_invalid
       tidbyt_device_id: devices.edit.tidbyt_device_id
       tidbyt_device_api_key: devices.edit.tidbyt_device_api_key
@@ -436,6 +438,7 @@ raw:
       design_system: markups.form.design_system
       design_system_docs: markups.form.design_system_docs
       dirty_confirm: markups.form.dirty_confirm
+      edit_composition: markups.form.edit_composition
       edit_markup: markups.form.edit_markup
       edit_markup_for_plugin: markups.form.edit_markup_for_plugin
       edit_markup_please_save_first: markups.form.edit_markup_please_save_first
@@ -511,6 +514,7 @@ raw:
       show_playlist: playlists.playlist.show_playlist
       duplicate: playlist_items.playlist_item.duplicate
       duplicate_confirm: playlist_items.playlist_item.duplicate_confirm
+      presentation: playlist_items.playlist_item.presentation
       color_palette: playlist_items.playlist_item.color_palette
       device_default: playlist_items.playlist_item.device_default
       palette_unavailable: playlist_items.playlist_item.palette_unavailable
@@ -542,6 +546,7 @@ raw:
       tagline: plugins.index.tagline
       available: plugins.index.available
       connected: plugins.index.connected
+      supported_by_this_device: plugins.index.supported_by_this_device
       recipes: recipes
       recipes_hint: recipes_hint. __Learn more__.
     search:

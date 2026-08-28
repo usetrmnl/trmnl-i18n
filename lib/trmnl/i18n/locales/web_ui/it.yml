@@ -2,17 +2,17 @@
 it:
   locale_name: Italiano
   about: Informazioni
-  actions: Actions
+  actions:
   add: Aggiungi
   add_new: Aggiungi nuovo
-  ai_assistant: Agent
-  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
+  ai_assistant:
+  ai_assistant_hint:
   already_have_account: Ho già un account
   are_you_sure: Sei sicuro?
   back: Indietro
   back_to_all_blog_posts: Torna a tutt i post
-  blog: Blog
-  brand: Brand
+  blog:
+  brand:
   buy_now: Compra ora
   cancel: Annulla
   change_password: Cambia Password
@@ -35,7 +35,7 @@ it:
   developer_edition_required: Developer edition è richiesta per abilitare questa funzione
   device_id: ID Dispositivo
   device: Dispositivi
-  discard: Discard
+  discard:
   edit: Modifica
   email_address: Indirizzo email
   export: Esporta
@@ -43,15 +43,15 @@ it:
   first_name: Nome
   forgot_password: Ho dimenticato la password
   forgot_password_title: Ci risiamo
-  friendly_id: Friendly ID
+  friendly_id:
   get_started: Iniziamo!
-  hidden: hidden
+  hidden:
   identify: Identifica
   import: Importa
   import_new: Importa nuovo
   integrations: Integrazioni
   keep_me_signed_in: Ricordami
-  knowledge_base: Knowledge base
+  knowledge_base:
   last_name: Cognome
   learn_more: Scopri di più
   loading: Caricamento
@@ -62,15 +62,15 @@ it:
   mins: min
   my_playlist: La mia Playlist
   new_password: Nuova password
-  password: Password
+  password:
   please_wait: Attendi...
   plugin_not_found: Plugin non trovato
   preview: Anteprima
-  privacy: Privacy
-  refresh_rate: Refresh rate
+  privacy:
+  refresh_rate:
   refresh_rates_hint: Scopri come i gli aggiornamenti fuzionano __qui__.
   reset_password: Reimposta password
-  reset_to_defaults: Reset to defaults
+  reset_to_defaults:
   required: Richiesto
   save: Salva
   shown: Mostrato
@@ -83,7 +83,7 @@ it:
   subscribe: Iscriviti
   help_center: Supporto
   terms: Termini
-  unsaved_changes: You have unsaved changes
+  unsaved_changes:
   update: Aggiorna
   view: Visualizza
   collaboration_request: Vuoi Collaborare?
@@ -145,7 +145,7 @@ it:
       api_key: API Key
       beta_features: Funzioni Beta
       beta_features_hint: Prova le novità qui. Alcune opzioni potrebbero sparire nel tempo.
-      discord_community: Discord Community
+      discord_community:
       discord_username: Qual'è il tuo username Discord?
       discord_username_hint: Potrebbe essere utilizzato per supporto, attribuzione su Recipe pubbliche, ecc.
       email_address: Indirizzo Email
@@ -159,7 +159,7 @@ it:
       email_address_hint: Usato per accedere a TRMNL e ricevere messaggi di sistema.
       first_name_hint: Usiamo il tuo nome per migliorare l'interfaccia TRMNL.
       last_name_hint: Usiamo il tuo cognome per migliorare l'interfaccia TRMNL.
-      github_username_hint: Used to attribute open source contributions to the Creator Fund.
+      github_username_hint:
       password_hint: Usata per proteggere il tuo profilo TRMNL.
       enable_2fa: Abilitare 2FA?
       enable_2fa_hint: __Clicca qui__ per abilitare l'OTP.
@@ -171,10 +171,10 @@ it:
       plus_subscription_modify: Vuoi aggiornare il metodo di pagamento o annullare?
       session: Sessione
       session_hint: Sei connesso/a come %{user}
-      show_title_bar: Show title bar
+      show_title_bar:
       show_title_bar_hint: Se disabilitato, i plugin nativi (non globali) e di terze parti saranno più minimali.
-      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
-      time_zone: Time Zone
+      theme_hint:
+      time_zone:
       time_zone_hint: Determina la frequenza di aggiornamento e il periodo di riposo del dispositivo.
       locale: Lingua
       locale_hint: Quale lingua e localizzazione preferisci? __Vai qui__.
@@ -184,7 +184,7 @@ it:
       success: API key ricreata correttamente
   dashboard:
     index:
-      title: Dashboard
+      title:
       last_7_days: Ultimi 7 giorni
       last_30_days: Ultimi 30 giorni
       last_90_days: Ultimi 90 giorni
@@ -198,7 +198,7 @@ it:
       title: Novità
       cta: Vedi tutti
     playlist_items:
-      title: Playlist
+      title:
       cta: Vai alle Playlist
       pieces_of_content_displayed: Elementi di contenuto mostrati
     plugins:
@@ -213,10 +213,10 @@ it:
       title: Tempo risparmiato
       cta: Maggiori informazioni
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
+      manage_persona:
+      dismiss:
     saved_discovery_setup:
-      manage_persona: Manage persona
+      manage_persona:
     welcome_message:
       morning_salutation: Buongiorno
       afternoon_salutation: Buon pomeriggio
@@ -231,9 +231,9 @@ it:
       battery_consumption_hint: Risparmia energia e aumenta la durata della batteria attivando la Modalità Riposo.
       battery_learn_more: Scopri di più sulla ricarica della batteria __qui__.
       battery_refresh: Ricarica
-      click: Click
-      click_action: Advance playlist
-      controls: Controls
+      click:
+      click_action:
+      controls:
       developer_perks: Modalità Sviluppatore
       developer_perks_hint: Queste opzioni richiedono la Modalità Sviluppatore.
       device_credentials: Credenziali Dispositivo
@@ -244,22 +244,22 @@ it:
       device_model_hint: Il tuo modello di Hardware
       device_model_switch_warning: Questa è un operazione pericolosa, scopri di più __qui__
       device_info: Informazioni Dispositivo
-      current_firmware: Current firmware
+      current_firmware:
       last_ping: Ultimo Ping
-      unknown: Unknown
+      unknown:
       never: Mai
       display_calibration: Calibrazione Schermo
       display_calibration_hint: Personalizza il rendering del tuo schermo. Lascia vuoto per usare le impostazioni default del tuo modello.
-      display_calibration_pixel_ratio: Pixel Ratio
+      display_calibration_pixel_ratio:
       display_calibration_pixel_ratio_hint: 'Livello di zoom (0.5–3.0). Default:'
       display_calibration_ui_scale: Scala UI
       display_calibration_ui_scale_hint: 'Dimensioni testo ed elementi (0.5–2.0). Default:'
       edit_device: Modifica Dispositivo
-      firmware: Firmware
+      firmware:
       firmware_updates_enabled: Aggiornamenti attivi
       firmware_updates_disabled: Aggiornamenti disattivati
-      font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family:
+      font_family_hint:
       guest_mode: Modalità Ospite
       guest_mode_hint: Scegli cosa mostrare (e per quanto tempo) quando la modalità ospite è attiva.
       guest_mode_item_placeholder: Scegli un elemento
@@ -267,36 +267,37 @@ it:
       identify: Identifica
       identify_device: Identifica Dispositivo
       identify_device_hint: Fai click sul pulsante sottostante per mostrare una schermata di identificazione sul dispositivo.
-      logs: Logs
+      logs:
       logs_hint: Effettua il debug del tuo dispositivo o plugin con un log degli errori in tempo reale.
-      long_press: Long press (6–7s)
-      long_press_action: Reset Wi-Fi credentials
-      longest_press: Longest press (16–18s)
-      longest_press_action: Soft reset
+      long_press:
+      long_press_action:
+      longest_press:
+      longest_press_action:
       low_battery_email_notification: Notifica di batteria scarica per Email
-      low_battery_email_notification_hint: Get notified via email when your device battery is running low.
-      low_battery_screen_disabled: Hide Low Battery Screen
-      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
-      medium_press: Medium press (1–2s)
-      medium_press_action: Special Function (above)
+      low_battery_email_notification_hint:
+      low_battery_screen_disabled:
+      low_battery_screen_disabled_hint:
+      medium_press:
+      medium_press_action:
       mirror: Duplica
       mirror_device: Duplica un altro Dispositivo
       mirror_device_hint: Indica un ID Dispositivo (condivisibile) per duplicare la sua playlist. La tua playlist rimarrà visibile.
       mirror_disabled: Mirroring disabilitato
-      mirror_enabled: Mirroring
+      mirror_enabled:
       mirror_stop: Disconnetti Mirroring
       mirror_sync: Sinctronizza Schermi
       ota_enabled: Abilita aggiornamenti OTA
       ota_enabled_hint: Installa automaticamente i nuovi firmware. Disabilita per utilizzare il tuo firmware
-      ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
+      ota_byod_not_supported:
       maximum_compatibility: Abilita compatibilità massima
       maximum_compatibility_hint: Risolve problemi dello schermo causati da alcuni chip driver per ePaper. Disattiva il fast refresh. Richiede Firmware 1.6.0 o successivo.
       color_and_rotation: Colore e Rotazione
+      image_rotation:
       screen_rotation: Rotazione Schermo
       screen_rotation_not_supported: La rotazione dello schermo non è attualmente supportata sul tuo dispositivo.
       palette: Palette Colori
       palette_hint: Scegli il set di colori da utilizzare durante la generazione delle schermate per questo dispositivo. Un set più grande è più bello da vedere, ma uno più piccolo viene disegnato più rapidamente. GLi elementi della playlist possono sovrascrivere questa opzione.
-      presentation: Presentation
+      presentation:
       sleep_mode: Modalità Riposo
       sleep_mode_hint: Regola la frequenza di aggiornamento per ottimizzare la concentrazione e la durata della batteria.
       sleep_screen: Schermata di riposo
@@ -307,15 +308,16 @@ it:
       special_function_learn_more: Scopri di più sulle funzioni speciali __qui__.
       temperature_profile: Profilo temperatura
       temperature_profile_hint: Non cambiare se non specificato. Per schermi con immagini sbiadite.
-      touchbar_mode: Touchbar Mode
-      touchbar_mode_hint: What type of gestures should your device respond to?
+      touchbar_mode:
+      touchbar_mode_hint:
       tidbyt_credentials: Credenziali Tidbyt.
       tidbyt_credentials_hint: Inserisci le tue credenziali API per il dispositivo Tidbyt dall'applicazione Tidbyt nelle impostazioni -> Sviluppo -> Ottieni chiave API.
+      tidbyt_api_key:
       tidbyt_credentials_invalid: Credenziali API Tidbyt API Invalide. Perfavore controlla e riprova.
       tidbyt_device_id: ID Dispositivo
       tidbyt_device_api_key: Chiave API
       unlink: Scollega
-      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
+      unlink_confirm:
       unlink_device: Scollega Dispositivo
       unlink_device_hint: Scollegare un dispositivo TRMNL rende sicuro rivenderlo o darlo a qualcun altro.
       unlink_device_learn_more: Segui la guida completa __qui__.
@@ -329,41 +331,41 @@ it:
         warning_2: Sono consapevole che questa è un azione <strong>pericolosa</strong> e che può bloccare il mio dispositivo.
         cta: Aggiorna al TRMNL OG (2-bit)
       persona:
-        discover: Discover
-        discover_hint: Discover suggests plugins and recipes tailored to this device
-        discover_banner_toggle: Show the Discover banner on the dashboard for this device
-        persona: Persona
-        persona_hint: A device persona shapes Discover recommendations
-        provisioned_by_html: This device was provisioned by the <strong>%{name}</strong> persona.
-        mirror_disabled_hint: Persona management is disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-        save_persona: Save persona
-        reset_persona: Reset persona
-        reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
-        reset_persona_confirm: Reset this persona and delete its saved recommendations?
+        discover:
+        discover_hint:
+        discover_banner_toggle:
+        persona:
+        persona_hint:
+        provisioned_by_html:
+        mirror_disabled_hint:
+        save_persona:
+        reset_persona:
+        reset_persona_hint:
+        reset_persona_confirm:
     discover_persona:
-      label: Persona & Discover
-      disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-      completed_hint: Persona is set up for this device
-      setup_hint: Set up a persona for this device
+      label:
+      disabled_hint:
+      completed_hint:
+      setup_hint:
     index:
       title: Dispositivi
       tagline: I tuoi dispositivi TRMNL
       add_device_modal_title: Aggiungi un nuovo dispositivo
       add_first_device: Inizia aggiungendo il tuo primo dispositivo!
-      go_to_settings: Go to settings
-      clear_playlist: Clear playlist
-      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
-      copy_playlist_to_device: Copy playlist to device
-      copy_playlist_submit: Copy playlist
-      copy_playlist_from_device: From
-      copy_playlist_to_device_label: To
-      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      go_to_settings:
+      clear_playlist:
+      clear_playlist_confirm:
+      copy_playlist_to_device:
+      copy_playlist_submit:
+      copy_playlist_from_device:
+      copy_playlist_to_device_label:
+      copy_playlist_non_destructive:
       target_device: Target device
     clear_playlist:
-      success: "%{device}'s playlist has been cleared."
+      success:
     copy_playlist:
-      error_same_device: Source and target device must be different.
-      success: Playlist copied from %{source} to %{target}.
+      error_same_device:
+      success:
     new:
       title: Aggiungi un nuovo dispositivo
       description: Immetti l'ID del dispositivo per aggiungere un nuovo dispositivo TRMNL al tuo profilo.
@@ -389,53 +391,54 @@ it:
     switch:
       error: Errore nel cambio dispositivo
       success: Dispositivo cambiato
-      title: Switch to device
+      title:
     update:
       error: Errore nell'aggiornamento del dispositivo
       success: "%{device} impostazioni dispositivo aggiornate con successo"
   discovery:
     dashboard_action:
       saved:
-        title: Recommendations saved for %{device_label}
-        subtext: Review your saved picks, or update the persona that shaped them.
-        primary_label: Review saved recommendations
+        title:
+        subtext:
+        primary_label:
       fresh:
-        title: New recommendations ready for %{device_label}
-        subtext: Review the latest picks for this persona.
-        primary_label: Review new recommendations
+        title:
+        subtext:
+        primary_label:
       persona:
-        title: Persona set for %{device_label}
-        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
-        primary_label: Get new recommendations
+        title:
+        subtext:
+        primary_label:
       rerun:
-        title: Ready for another Discover round for %{device_label}
-        subtext: Go through another round when you want fresh recommendations for this TRMNL.
-        primary_label: Get more recommendations
+        title:
+        subtext:
+        primary_label:
       setup:
-        title: Set up a persona for %{device_label}
-        subtext: Answer a few questions so recommendations fit this TRMNL's role.
-        primary_label: Set up persona
+        title:
+        subtext:
+        primary_label:
   invoices:
     rate_limit: Troppi tentativi, riprova più tardi
     invoice_not_found: Fattura non trovata
   logs:
     index:
-      title: Logs
+      title:
       all: Tutti
       bulk_destroy: Eliminazione massiva
-      dump: Dump
-      id: ID
+      dump:
+      id:
       private_plugins: Plugin Privati
       source: Sorgente
       time: Ora
   markups:
     console_logs:
-      js_logs: JS Logs
+      js_logs:
     form:
       back_to_plugin_settings: Torna alle impostazioni del plugin
       design_system: Utilizza il nostro sistema di design nativo
       design_system_docs: Documentazione del sistema di design
       dirty_confirm: Hai dei cambiamenti non salvati. Sei sicuro di voler lasciare questa pagina?
+      edit_composition:
       edit_markup: Modifica Markup
       edit_markup_for_plugin: Modifica markup per %{plugin_setting_name}
       edit_markup_please_save_first: Per favore salva prima di modificare il markup
@@ -460,7 +463,7 @@ it:
       no_variables_detected: Nessuna variabile trovata.
   notices:
     dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
+      discover_callout:
   mfa:
     disable_otp:
       success: 2FA Disabilitato
@@ -476,27 +479,27 @@ it:
       error: Codice OTP non valido
     verify_otp:
       verify: Verifica
-      reset: Reset MFA
+      reset:
       reset_instructions: Clicca il pulsante sul retro del tuo TRMNL per generare un codice di reset
-      success: 2FA successful
+      success:
       error: Codice OTP non valido
   playlist_items:
     index:
-      title: Playlist
+      title:
       tagline: Scegli cosa mostrare
       add_a_group: Aggiungi un gruppo
       add_a_plugin: Aggiungi un Plugin
       add_first_device_cta: Comincia __aggiungendo__ il tuo primo dispositivo TRMNL!
       add_to_playlist: Aggiungi a Playlist
       create_first_playlist_cta: Crea la tua playlist, ma prima __connetti__ il tuo primo plugin!
-      custom: Custom
-      device_default: Device default
+      custom:
+      device_default:
       display_period_from: Mostra dalle
       display_period_to: alle
       display_period_validation: L'ora di inizio deve essere inferiore all'ora di fine. Crea un altro gruppo per le ore notturne.
       every: Ogni
       never_skip: Non saltare schermate.
-      smart_playlist: Smart Playlist
+      smart_playlist:
       smart_playlist_hint: Salta automaticamente le schermate nelle quali il contenuto non è campiato per un po' di tempo.
       skip_after:
         one: Salta schermate stagnanti dopo 1 giorno
@@ -511,7 +514,8 @@ it:
       show_playlist: Mostra elemento
       duplicate: Duplica
       duplicate_confirm: Verrà creata una copia di questo articolo e aggiunta alla fine della playlist. Vuoi continuare?
-      color_palette: Color Palette
+      presentation:
+      color_palette:
       device_default: Dispositivo Default (%{name})
       palette_unavailable: Disponibile solo per dispositivi con pattern a più colori
       refresh_rate_disabled:
@@ -527,7 +531,7 @@ it:
       error: Errore nella rimozione dell'elemento dalla Playlist
       success: Plugin rimosso dalla Playlist
     toggle_visibility:
-      success: Playlist item %{change}
+      success:
     duplicate:
       success: Playlist duplicata
     sort:
@@ -542,7 +546,8 @@ it:
       tagline: Cosa metterai sul tuo TRMNL?
       available: Disponibile
       connected: Connesso
-      recipes: Recipes
+      supported_by_this_device:
+      recipes:
       recipes_hint: Plugin privati dai membri della comunità possono essere installati in 1 click. __Scopri di più__.
     search:
       placeholder: Cerca Plugin
@@ -569,13 +574,13 @@ it:
       icon_hint: 512x512px raccomandata
       installation_url: URL installazione
       installation_url_hint: Maggiori dettagli sulla procedura di installazione __qui__.
-      installation_success_webhook_url: Installation Success Webhook URL
-      knowledge_base_url: Knowledge Base URL
+      installation_success_webhook_url:
+      knowledge_base_url:
       management_url: URL gestione Plugin
       management_url_hint: Maggiori dettagli sulla procedura di gestione __qui__.
       markup_url: URL Markup Plugin
       markup_url_hint: Maggiori dettagli sulla generazione delle schermate __qui__.
-      no_screen_padding: No Screen Padding
+      no_screen_padding:
       no_screen_padding_hint: Rmuove il padding esterno per la modalità fullscreen.
       uninstallation_webhook_url: Webhook URL Disistallazione
     edit:
@@ -589,29 +594,29 @@ it:
       one: Connessione
       other: Connessioni
     forks:
-      one: Fork
-      other: Forks
-    forked: Recipe forked
+      one:
+      other:
+    forked:
     new:
       error: Recipe non trovata
     show:
-      more_by_author: More by this Author
-      view_all: View all
+      more_by_author:
+      view_all:
   plugin_settings:
     active: Attivo
     copy_are_you_sure: Sei sicuro di voler copiare queste impostazioni?
     delete_are_you_sure: Sei sicuro di voler eliminare queste impostazioni?
     delete: Questo cancellerà qualunque impostazione del plugin. Per nascondere questo plugin dal dispositivo, rimuoverlo invece dalla Playlist.
     inactive: Inattivo
-    no_matches_found: No plugins match your filters.
+    no_matches_found:
     no_plugin_settings_found: Impostazioni per plugin non trovate.
-    not_supported: Not supported on current device
+    not_supported:
     refreshing_now_please_wait: Aggiornamento, ricarica questa pagina tra qualche secondo.
     reset_credentials: "%{plugin_name} Account resettato con successo"
     form:
       active_hint: Mostra o nascondi questo plugin sul tuo dispositivo
       advanced_settings: Impostazioni Avanzate
-      back_to_playlist: Back to Playlist
+      back_to_playlist:
       back_to_plugin: Torna a %{plugin}
       back_to_plugins: Torna ai Plugin
       connect_with: Connetti con %{plugin}
@@ -627,9 +632,9 @@ it:
       force_refresh_click_here: Clicca qui
       force_refresh_click_here_hint: per generare subito una nuova schermata
       force_refresh_not_possible: Questo plugin non può essere aggiornato forzatamante perchè il server TRMNL non genera l'immagine. Scopri come provare la tua istanza __qui__.
-      health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications:
+      health_notifications_hint:
+      health_notifications_checkbox:
       learn_more: Maggiori informazioni su questo plugin sono nella nostra knowledge base
       learn_more_fork: Questo plugin è un fork di una Recipe.
       learn_more_fork_original: Mostra Originale
@@ -644,14 +649,14 @@ it:
       linked_account_success: Connesso correttamente con %{plugin_name}
       link_oauth: Collega Profilo
       link_oauth_hint: Prima di continuare, segui la procedura di autorizzazione sicura fornita da %{plugin}
-      mirrored: Mirrored
+      mirrored:
       multiple_instances_hint: Questo plugin supporta istanze multiple.
       name: Nome
       name_hint: Dagli un nome per riconoscerlo facilmente
-      parse: Parse
+      parse:
       parse_save_first: Parse (Salva prima il plugin)
-      parsed: Parsed
-      plugin_uuid: Plugin UUID
+      parsed:
+      plugin_uuid:
       plugin_uuid_hint: Utilizzalo per richieste Webhook API.
       preview: Anteprima - il tuo dispositivo mostrerà dati reali
       recipe_cta_heading_published: Questo plugin è una Recipe
@@ -662,7 +667,7 @@ it:
       recipe_cta_body_in_review: Questo plugin è stato inviato al nostro team. Attendi.
       recipe_cta_body_not_published: Invia questo plugin per essere installabile da altri. __Scopri di più__.
       recipe_cta_confirm: Sei sicuro? Il nostro team verificherà e ti farà sapere in alcuni giorni. Potrai continuare a fare modifiche.
-      recipe_mirrored: This screen is mirrored from the recipe.
+      recipe_mirrored:
       recipe_visibility_title: Come vorresti che venga pubblicata?
       recipe_visibility_edit_title: Modifica Invio
       recipe_visibility_public: Pubblica
@@ -673,19 +678,19 @@ it:
       recipe_visibility_unlisted_hint: Tutti con il link possono installarla.
       refresh_rate: Frequenza di aggiornamento
       refresh_rate_hint: Definisce con quale frequenza questo plugin recupera dati aggiornati
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
-      refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
+      refresh_rate_jit_hint:
+      refresh_rate_not_configurable:
       refreshed: Aggiornato
       remove_plugin: Rimuovi plugin
       remove_plugin_hint: Rimuovendo un plugin verrà rimosso anche dalla tua playlist
       synced: Sincronizzato
       refresh_paused: Aggiornamento in pausa
       refresh_paused_hint: Aggiornamento automatico fermo. Aggiungi una playlist per avviarlo.
-      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
+      refresh_paused_hidden_hint:
       refresh_paused_mashup: Aggiornamento Mashups
       refresh_paused_mashup_hint: Aggiornamento automatico in pausa per schemo interno. Mashups si aggiornano.
       refresh_stopped: Aggiornamento automatico fermo. Correggi l'errore con il plugin per continuare.
-      view_recipe: View Recipe
+      view_recipe:
       visit_docs: Guarda la Documentazione
     import:
       archive_too_large: File ZIP troppo grande (%{max_mb} MB massimi)
@@ -694,7 +699,7 @@ it:
       malformed: "%{filename} non valido"
     create:
       success: Plugin creato e aggiunto alla tua
-      playlist: playlist
+      playlist:
     destroy:
       success: Plugin eliminato
     handle_canceled_consent: Consenso revocato, riprova
@@ -711,7 +716,7 @@ it:
       oldest_to_newest: Dal più vecchio
       most_popular: Popolari
       install: Installa
-      fork: Fork
+      fork:
   schedules:
     form:
       add: Aggiungi programmazione personalizzata
@@ -720,7 +725,7 @@ it:
       some_schedule: Mostra questo schermo solo durante…
       to: alle
       copy_prompt: Copia programmazione da…
-      no_days_error: Please select at least one day.
+      no_days_error:
   upgrade:
     index:
       title: 'Aggiorna dispositivo:'
