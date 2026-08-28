@@ -221,6 +221,9 @@ it:
       morning_salutation: Buongiorno
       afternoon_salutation: Buon pomeriggio
       evening_salutation: Buonasera
+  date:
+    formats:
+      day_month_long: "%A %-d %B"
   devices:
     edit:
       accepts_beta_firmware: Firmware Accesso Anticipato
@@ -238,6 +241,8 @@ it:
       developer_perks_hint: Queste opzioni richiedono la Modalità Sviluppatore.
       device_credentials: Credenziali Dispositivo
       device_credentials_hint: Scopri cosa puoi fare con queste credenziali __qui__
+      device_api_key:
+      mac_address:
       device_name: Nome Dispositivo
       device_name_hint: Lo usiamo per migliorare l'interfaccia TRMNL
       device_model: Modello dispositivo

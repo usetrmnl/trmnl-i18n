@@ -70,6 +70,10 @@ https://trmnl.com/plugins/demo
 
 localization files live inside `lib/trmnl/i18n/locales`. from within that directory make a copy of `web_ui/en.yml`, `plugin_renders/en.yml`, or `custom_plugins/en.yml`, save a new version using your [ISO 639 language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes). submit this as a pull request and [ask questions](https://github.com/usetrmnl/trmnl-i18n/issues/new) if you need help.
 
+copy `en.yml`, not `raw.yml`. the two look alike, but `raw.yml` opens with `raw:` and every spec reads that first line to know which locale the file holds. change it to your own code, so `it.yml` starts with `it:`.
+
+leave a string you have not translated yet empty rather than copying the English. an empty value falls back to English on screen and counts as outstanding work, where a copy of the English counts as finished and nobody comes back to it.
+
 ## general tips
 
 we understand that...

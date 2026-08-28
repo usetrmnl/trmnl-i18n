@@ -221,6 +221,9 @@ en:
       morning_salutation: Good morning
       afternoon_salutation: Good afternoon
       evening_salutation: Good evening
+  date:
+    formats:
+      day_month_long: "%A, %B %-d"
   devices:
     edit:
       accepts_beta_firmware: Firmware Early Release
@@ -238,6 +241,8 @@ en:
       developer_perks_hint: Custom plugin development, editable MAC address (BYOD-only), firmware early release, and API access
       device_credentials: Device Credentials
       device_credentials_hint: See what you can do with these credentials __here__
+      device_api_key: Device API Key
+      mac_address: MAC Address
       device_name: Device Name
       device_name_hint: We use this to make the TRMNL interface more comfortable
       device_model: Device Model

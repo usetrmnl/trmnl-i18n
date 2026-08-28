@@ -221,6 +221,9 @@ raw:
       morning_salutation: dashboard.welcome_message.morning_salutation
       afternoon_salutation: dashboard.welcome_message.afternoon_salutation
       evening_salutation: dashboard.welcome_message.evening_salutation
+  date:
+    formats:
+      day_month_long: date.formats.day_month_long
   devices:
     edit:
       accepts_beta_firmware: devices.edit.accepts_beta_firmware
@@ -238,6 +241,8 @@ raw:
       developer_perks_hint: devices.edit.developer_perks_hint
       device_credentials: devices.edit.device_credentials
       device_credentials_hint: device_credentials_hint __here__
+      device_api_key: devices.edit.device_api_key
+      mac_address: devices.edit.mac_address
       device_name: devices.edit.device_name
       device_name_hint: devices.edit.device_name_hint
       device_model: devices.edit.device_model
