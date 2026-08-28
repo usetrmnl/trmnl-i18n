@@ -2,11 +2,11 @@
 lt:
   locale_name: Lietuvių
   about: Apie
-  actions: Actions
+  actions:
   add: Pridėti
   add_new: Pridėti naują
-  ai_assistant: Agent
-  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
+  ai_assistant:
+  ai_assistant_hint:
   already_have_account: Jau turiu paskyrą
   are_you_sure: Ar esate tikri?
   back: Atgal
@@ -35,7 +35,7 @@ lt:
   developer_edition_required: Norint įjungti šią funkciją, reikalinga kūrėjo versija.
   device_id: Įrenginio ID
   device: Įrenginys
-  discard: Discard
+  discard:
   edit: Redaguoti
   email_address: El. pašto adresas
   export: Eksportuoti
@@ -83,7 +83,7 @@ lt:
   subscribe: Prenumeruoti
   help_center: Pagalba
   terms: Sąlygos
-  unsaved_changes: You have unsaved changes
+  unsaved_changes:
   update: Atnaujinti
   view: Peržiūrėti
   collaboration_request: Norite bendradarbiauti?
@@ -92,7 +92,7 @@ lt:
   welcome: Sveiki
   time:
     formats:
-      shorter: "%-I:%M %p"
+      shorter:
     start_of_week: 1
   datetime:
     relative:
@@ -159,7 +159,7 @@ lt:
       email_address_hint: Naudojama prisijungimui prie TRMNL ir sistemos pranešimams gauti.
       first_name_hint: Mes naudojame jūsų vardą, kad TRMNL sąsaja būtų jaukesnė.
       last_name_hint: Mes naudojame jūsų pavardę, kad TRMNL sąsaja būtų jaukesnė.
-      github_username_hint: Used to attribute open source contributions to the Creator Fund.
+      github_username_hint:
       password_hint: Naudojamas jūsų TRMNL paskyros apsaugai.
       enable_2fa: Įjungti 2FA?
       enable_2fa_hint: __Spustelėkite čia__, kad įjungtumėte OTP.
@@ -213,10 +213,10 @@ lt:
       title: Sutaupytas laikas
       cta: Skaityti apie
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
+      manage_persona:
+      dismiss:
     saved_discovery_setup:
-      manage_persona: Manage persona
+      manage_persona:
     welcome_message:
       morning_salutation: Labas rytas
       afternoon_salutation: Laba diena
@@ -231,9 +231,9 @@ lt:
       battery_consumption_hint: Taupykite energiją ir mėgaukitės ilgesniu baterijos veikimo laiku įjungdami miego režimą.
       battery_learn_more: Sužinokite daugiau apie baterijos įkrovimą __čia__.
       battery_refresh: Atnaujinti
-      click: Click
-      click_action: Advance playlist
-      controls: Controls
+      click:
+      click_action:
+      controls:
       developer_perks: Privilegijos kūrėjams
       developer_perks_hint: Pasirinktinių įskiepių kūrimas, redaguojamas MAC adresas (tik BYOD), ankstyvosios programinės įrangos versijos ir API prieiga.
       device_credentials: Įrenginio kredencialai
@@ -258,8 +258,8 @@ lt:
       firmware: Programinė įranga
       firmware_updates_enabled: Atnaujinimai įjungti
       firmware_updates_disabled: Atnaujinimai išjungti
-      font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family:
+      font_family_hint:
       guest_mode: Svečio režimas
       guest_mode_hint: Pasirinkite, ką rodyti (ir kiek laiko), kai įjungtas svečio režimas.
       guest_mode_item_placeholder: Pasirinkite elementą
@@ -269,16 +269,16 @@ lt:
       identify_device_hint: Spustelėkite žemiau esantį mygtuką, kad šio įrenginio ekrane būtų sugeneruotas vaizdas, padedantis jį atpažinti.
       logs: Žurnalai (Logs)
       logs_hint: Derinkite savo įrenginį ir įskiepius naudodami tiesioginį klaidų žurnalų srautą.
-      long_press: Long press (6–7s)
-      long_press_action: Reset Wi-Fi credentials
-      longest_press: Longest press (16–18s)
-      longest_press_action: Soft reset
+      long_press:
+      long_press_action:
+      longest_press:
+      longest_press_action:
       low_battery_email_notification: Pranešimas el. paštu apie senkančią bateriją
       low_battery_email_notification_hint: Gaukite pranešimą el. paštu, kai jūsų įrenginio baterija senka.
-      low_battery_screen_disabled: Hide Low Battery Screen
-      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
-      medium_press: Medium press (1–2s)
-      medium_press_action: Special Function (above)
+      low_battery_screen_disabled:
+      low_battery_screen_disabled_hint:
+      medium_press:
+      medium_press_action:
       mirror: Veidrodinis atspindys
       mirror_device: Atspindėti kitą įrenginį
       mirror_device_hint: Pateikite (bendrinamą) įrenginio ID, kad atspindėtumėte jo grojaraštį. Jūsų grojaraštis vis tiek bus rodomas.
@@ -292,12 +292,12 @@ lt:
       maximum_compatibility: Įjungti maksimalų suderinamumą
       maximum_compatibility_hint: Išsprendžia ekrano problemas, kurias sukelia tam tikros ePaper tvarkyklės. Išjungia greitąjį atnaujinimą. Reikalinga programinė įranga 1.6.0+.
       color_and_rotation: Spalvų ir ratavimas
-      image_rotation: Image Rotation
+      image_rotation:
       screen_rotation: Ekranų ratavimas
       screen_rotation_not_supported: Ekranų ratavimas šiuo metu nepalaikomas jūsų įrenginyje.
       palette: Spalvų paletė
       palette_hint: Pasirinkite spalvų rinkinį, kuris bus naudojamas generuojant šio įrenginio ekranus. Didesnė paletė atrodo gražiau, tačiau mažesnė paletė ePaper ekrane piešiama greičiau. Atskiri grojaraščio elementai gali perrašyti šį nustatymą.
-      presentation: Presentation
+      presentation:
       sleep_mode: Miego režimas
       sleep_mode_hint: Sureguliuokite atnaujinimo dažnį, kad optimizuotumėte dėmesio sutelkimą ir baterijos veikimo laiką.
       sleep_screen: Miego ekranas
@@ -312,7 +312,7 @@ lt:
       touchbar_mode_hint: Į kokio tipo gestus turėtų reaguoti jūsų įrenginys?
       tidbyt_credentials: Tidbyt kredencialai
       tidbyt_credentials_hint: Įveskite savo Tidbyt įrenginio API kredencialus iš Tidbyt programėlės (skiltyje Settings → Developer → Get API Key).
-      tidbyt_api_key: Tidbyt API Key
+      tidbyt_api_key:
       tidbyt_credentials_invalid: Tidbyt API kredencialai negalioja. Patikrinkite ir bandykite dar kartą.
       tidbyt_device_id: Įrenginio ID
       tidbyt_device_api_key: API raktas
@@ -331,41 +331,41 @@ lt:
         warning_2: Suprantu, kad tai yra <strong>pavojingas</strong> veiksmas ir gali sugadinti mano įrenginį.
         cta: Atnaujinti į TRMNL OG (2-bit)
       persona:
-        discover: Discover
-        discover_hint: Discover suggests plugins and recipes tailored to this device
-        discover_banner_toggle: Show the Discover banner on the dashboard for this device
-        persona: Persona
-        persona_hint: A device persona shapes Discover recommendations
-        provisioned_by_html: This device was provisioned by the <strong>%{name}</strong> persona.
-        mirror_disabled_hint: Persona management is disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-        save_persona: Save persona
-        reset_persona: Reset persona
-        reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
-        reset_persona_confirm: Reset this persona and delete its saved recommendations?
+        discover:
+        discover_hint:
+        discover_banner_toggle:
+        persona:
+        persona_hint:
+        provisioned_by_html:
+        mirror_disabled_hint:
+        save_persona:
+        reset_persona:
+        reset_persona_hint:
+        reset_persona_confirm:
     discover_persona:
-      label: Persona & Discover
-      disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-      completed_hint: Persona is set up for this device
-      setup_hint: Set up a persona for this device
+      label:
+      disabled_hint:
+      completed_hint:
+      setup_hint:
     index:
       title: Įrenginiai
       tagline: Jūsų TRMNL įrenginiai
       add_device_modal_title: Pridėti naują įrenginį
       add_first_device: Pradėkite pridėdami savo pirmąjį įrenginį!
-      go_to_settings: Go to settings
-      clear_playlist: Clear playlist
-      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
-      copy_playlist_to_device: Copy playlist to device
-      copy_playlist_submit: Copy playlist
-      copy_playlist_from_device: From
-      copy_playlist_to_device_label: To
-      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      go_to_settings:
+      clear_playlist:
+      clear_playlist_confirm:
+      copy_playlist_to_device:
+      copy_playlist_submit:
+      copy_playlist_from_device:
+      copy_playlist_to_device_label:
+      copy_playlist_non_destructive:
       target_device: Target device
     clear_playlist:
-      success: "%{device}'s playlist has been cleared."
+      success:
     copy_playlist:
-      error_same_device: Source and target device must be different.
-      success: Playlist copied from %{source} to %{target}.
+      error_same_device:
+      success:
     new:
       title: Pridėti naują įrenginį
       description: Įveskite savo Friendly ID, kad pridėtumėte naują įrenginį prie savo paskyros.
@@ -391,32 +391,32 @@ lt:
     switch:
       error: Klaida perjungiant įrenginį
       success: Įrenginys sėkmingai perjungtas
-      title: Switch to device
+      title:
     update:
       error: Klaida atnaujinant įrenginį
       success: "%{device} įrenginio nustatymai sėkmingai atnaujinti"
   discovery:
     dashboard_action:
       saved:
-        title: Recommendations saved for %{device_label}
-        subtext: Review your saved picks, or update the persona that shaped them.
-        primary_label: Review saved recommendations
+        title:
+        subtext:
+        primary_label:
       fresh:
-        title: New recommendations ready for %{device_label}
-        subtext: Review the latest picks for this persona.
-        primary_label: Review new recommendations
+        title:
+        subtext:
+        primary_label:
       persona:
-        title: Persona set for %{device_label}
-        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
-        primary_label: Get new recommendations
+        title:
+        subtext:
+        primary_label:
       rerun:
-        title: Ready for another Discover round for %{device_label}
-        subtext: Go through another round when you want fresh recommendations for this TRMNL.
-        primary_label: Get more recommendations
+        title:
+        subtext:
+        primary_label:
       setup:
-        title: Set up a persona for %{device_label}
-        subtext: Answer a few questions so recommendations fit this TRMNL's role.
-        primary_label: Set up persona
+        title:
+        subtext:
+        primary_label:
   invoices:
     rate_limit: Per daug bandymų, palaukite ir bandykite dar kartą
     invoice_not_found: Sąskaita-faktūra nerasta
@@ -426,7 +426,7 @@ lt:
       all: Visi
       bulk_destroy: Masinis trynimas
       dump: Išrašas (Dump)
-      id: ID
+      id:
       private_plugins: Privatūs įskiepiai
       source: Šaltinis
       time: Laikas
@@ -438,7 +438,7 @@ lt:
       design_system: Pasinaudokite mūsų vietine dizaino sistema
       design_system_docs: Dizaino sistemos dokumentacija
       dirty_confirm: Turite neišsaugotų pakeitimų. Ar tikrai norite išeiti iš šio puslapio?
-      edit_composition: Edit Composition
+      edit_composition:
       edit_markup: Redaguoti žymėjimą
       edit_markup_for_plugin: Redaguoti %{plugin_setting_name} žymėjimą
       edit_markup_please_save_first: Prieš redaguodami žymėjimą, išsaugokite
@@ -463,7 +463,7 @@ lt:
       no_variables_detected: Kintamųjų neaptikta.
   notices:
     dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
+      discover_callout:
   mfa:
     disable_otp:
       success: 2FA išjungta
@@ -514,7 +514,7 @@ lt:
       show_playlist: Rodyti šį elementą
       duplicate: Dubliuoti
       duplicate_confirm: Tai sukurs šio elemento kopiją ir pridės ją prie jūsų grojaraščio apačios. Tęsti?
-      presentation: Presentation
+      presentation:
       color_palette: Spalvų paletė
       device_default: Įrenginio numatytasis (%{name})
       palette_unavailable: Galima tik įrenginiams su keliomis spalvų paletėmis
@@ -546,7 +546,7 @@ lt:
       tagline: Ką įkelsite į savo TRMNL?
       available: Prieinami
       connected: Prijungti
-      supported_by_this_device: Supported by this device
+      supported_by_this_device:
       recipes: Receptai
       recipes_hint: Bendruomenės narių privatūs įskiepiai, kuriuos galima įdiegti 1 spustelėjimu. __Sužinokite daugiau__.
     search:
@@ -600,15 +600,15 @@ lt:
     new:
       error: Receptas nerastas
     show:
-      more_by_author: More by this Author
-      view_all: View all
+      more_by_author:
+      view_all:
   plugin_settings:
     active: Aktyvus
     copy_are_you_sure: Ar tikrai norite nukopijuoti šį nustatymą?
     delete_are_you_sure: Ar tikrai norite ištrinti šį nustatymą?
     delete: Tai visiškai pašalins įskiepio nustatymus. Norėdami tiesiog paslėpti šį įskiepį savo įrenginyje, ištrinkite jį iš savo grojaraščio.
     inactive: Neaktyvus
-    no_matches_found: No plugins match your filters.
+    no_matches_found:
     no_plugin_settings_found: Įskiepio nustatymų nerasta.
     not_supported: Nepalaikoma dabartiniame įrenginyje
     refreshing_now_please_wait: Dabar atnaujinama, perkraukite šį puslapį po kelių sekundžių.
@@ -632,9 +632,9 @@ lt:
       force_refresh_click_here: Spustelėkite čia
       force_refresh_click_here_hint: kad iškart sugeneruotumėte naują ekraną
       force_refresh_not_possible: Šio įskiepio negalima atnaujinti priverstinai, nes TRMNL serveris neatlieka vaizdo apdorojimo. Sužinokite, kaip išbandyti savo instanciją __čia__.
-      health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications:
+      health_notifications_hint:
+      health_notifications_checkbox:
       learn_more: Sužinokite apie šį įskiepį mūsų žinių bazėje
       learn_more_fork: Šis įskiepis buvo atšakotas iš recepto.
       learn_more_fork_original: Žiūrėti originalą
@@ -678,7 +678,7 @@ lt:
       recipe_visibility_unlisted_hint: Įsidiegti gali visi, kas turi nuorodą.
       refresh_rate: Atnaujinimo dažnis
       refresh_rate_hint: Nustatykite, kaip dažnai ši įskiepio instancija nuskaito šviežius duomenis
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
+      refresh_rate_jit_hint:
       refresh_rate_not_configurable: Sinchronizuojama %{refresh_rate} (nekonfigūruojama)
       refreshed: Atnaujinta
       remove_plugin: Pašalinti įskiepį
@@ -686,7 +686,7 @@ lt:
       synced: Sinchronizuota
       refresh_paused: Atnaujinimas sustabdytas
       refresh_paused_hint: Automatinis atnaujinimas pristabdytas. Pridėkite prie grojaraščio, kad paleistumėte vėl.
-      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
+      refresh_paused_hidden_hint:
       refresh_paused_mashup: Atnaujinami mišiniai (Mashups)
       refresh_paused_mashup_hint: Automatinis atnaujinimas pristabdytas viso ekrano režimui. Mišiniai atnaujinami.
       refresh_stopped: Automatinis atnaujinimas sustabdytas. Norėdami tęsti, ištaisykite įskiepio klaidą.
@@ -725,7 +725,7 @@ lt:
       some_schedule: Rodyti šį ekraną tik šiuo metu…
       to: iki
       copy_prompt: Kopijuoti tvarkaraštį iš…
-      no_days_error: Please select at least one day.
+      no_days_error:
   upgrade:
     index:
       title: 'Atnaujinamas įrenginys:'

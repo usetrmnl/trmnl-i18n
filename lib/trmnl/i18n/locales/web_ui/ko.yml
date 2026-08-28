@@ -2,11 +2,11 @@
 ko:
   locale_name: 한국어
   about: 소개
-  actions: Actions
+  actions:
   add: 추가하기
   add_new: 새로 추가하기
-  ai_assistant: Agent
-  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
+  ai_assistant:
+  ai_assistant_hint:
   already_have_account: 이미 계정이 있음
   are_you_sure: 정말요?
   back: 뒤로가기
@@ -35,7 +35,7 @@ ko:
   developer_edition_required: 이 기능은 개발자 에디션이 필요해요.
   device_id: 기기 ID
   device: 기기
-  discard: Discard
+  discard:
   edit: 수정
   email_address: 이메일 주소
   export: 내보내기
@@ -43,7 +43,7 @@ ko:
   first_name: 이름
   forgot_password: 비밀번호를 잊어버렸어요
   forgot_password_title: 자, 다시 갑시다
-  friendly_id: Friendly ID
+  friendly_id:
   get_started: 시작해 볼까요!
   hidden: 숨김
   identify: 확인하기
@@ -83,7 +83,7 @@ ko:
   subscribe: 구독
   help_center: 고객지원
   terms: 이용약관
-  unsaved_changes: You have unsaved changes
+  unsaved_changes:
   update: 업데이트
   view: 보기
   collaboration_request: 함께 해볼까요?
@@ -93,7 +93,7 @@ ko:
   time:
     formats:
       shorter: "%-H:%M"
-    start_of_week: 0
+    start_of_week:
   datetime:
     relative:
       past: "%{time} 전"
@@ -159,7 +159,7 @@ ko:
       email_address_hint: TRMNL 가입과 시스템 메시지 수신에 사용돼요.
       first_name_hint: TRMNL을 더 편안하게 만드는 데 사용돼요.
       last_name_hint: TRMNL을 더 편안하게 만드는 데 사용돼요.
-      github_username_hint: Used to attribute open source contributions to the Creator Fund.
+      github_username_hint:
       password_hint: TRMNL 계정을 보호하는 데 사용돼요.
       enable_2fa: 2단계 인증을 사용할까요?
       enable_2fa_hint: OTP를 사용하려면 __여기를 눌러주세요__.
@@ -213,10 +213,10 @@ ko:
       title: 절약한 시간
       cta: 더 알아보기
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
+      manage_persona:
+      dismiss:
     saved_discovery_setup:
-      manage_persona: Manage persona
+      manage_persona:
     welcome_message:
       morning_salutation: 좋은 아침
       afternoon_salutation: 안녕
@@ -231,9 +231,9 @@ ko:
       battery_consumption_hint: 절전 모드로 배터리를 더 오래 쓸 수 있어요.
       battery_learn_more: 배터리 충전에 대해 __여기서__ 알아보세요.
       battery_refresh: 새로고침
-      click: Click
-      click_action: Advance playlist
-      controls: Controls
+      click:
+      click_action:
+      controls:
       developer_perks: 개발자 혜택
       developer_perks_hint: 커스텀 플러그인 개발, MAC 주소 편집(BYOD 전용), 펌웨어 조기 배포, API 접근
       device_credentials: 기기 인증 정보
@@ -258,8 +258,8 @@ ko:
       firmware: 펌웨어
       firmware_updates_enabled: 업데이트 활성화됨
       firmware_updates_disabled: 업데이트 비활성화됨
-      font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family:
+      font_family_hint:
       guest_mode: 게스트 모드
       guest_mode_hint: 게스트 모드로 전환될 때 무엇을 화면에 띄우고 얼마나 오래 띄울지 고르세요.
       guest_mode_item_placeholder: 아이템을 고르세요
@@ -269,16 +269,16 @@ ko:
       identify_device_hint: 아래 버튼을 눌러 이 기기를 식별하는 화면을 표시하세요.
       logs: 로그
       logs_hint: 에러 로그 피드로 기기와 플러그인을 디버그하세요.
-      long_press: Long press (6–7s)
-      long_press_action: Reset Wi-Fi credentials
-      longest_press: Longest press (16–18s)
-      longest_press_action: Soft reset
+      long_press:
+      long_press_action:
+      longest_press:
+      longest_press_action:
       low_battery_email_notification: 배터리 부족 이메일 알림
       low_battery_email_notification_hint: 기기 배터리가 부족하면 이메일로 알려드려요.
-      low_battery_screen_disabled: Hide Low Battery Screen
-      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
-      medium_press: Medium press (1–2s)
-      medium_press_action: Special Function (above)
+      low_battery_screen_disabled:
+      low_battery_screen_disabled_hint:
+      medium_press:
+      medium_press_action:
       mirror: 미러링
       mirror_device: 다른 기기 미러링
       mirror_device_hint: "(공유 가능한) 기기 ID를 입력하면 플레이리스트를 미러링해요. 내 플레이리스트는 그대로 표시돼요."
@@ -292,12 +292,12 @@ ko:
       maximum_compatibility: 최대 호환성 활성화
       maximum_compatibility_hint: 특정 ePaper 드라이버 칩의 디스플레이 문제를 해결해요. 빠른 새로고침이 비활성화돼요. 펌웨어 1.6.0 이상 필요.
       color_and_rotation: 색상과 회전
-      image_rotation: Image Rotation
+      image_rotation:
       screen_rotation: 화면 회전
       screen_rotation_not_supported: 화면 회전은 현재 지원되지 않아요.
       palette: 색상 팔레트
       palette_hint: 화면 생성에 사용할 색상을 선택하세요. 팔레트가 클수록 보기 좋지만, 작을수록 ePaper에서 빠르게 그려져요. 개별 플레이리스트 항목에서 재설정할 수 있어요.
-      presentation: Presentation
+      presentation:
       sleep_mode: 절전 모드
       sleep_mode_hint: 새로고침 주기를 조정해서 집중력과 배터리를 아끼세요.
       sleep_screen: 절전 화면
@@ -308,11 +308,11 @@ ko:
       special_function_learn_more: 특별 기능에 대해 __여기서__ 자세히 알아보세요.
       temperature_profile: 온도 프로파일
       temperature_profile_hint: 안내가 없으면 변경하지 마세요. 화면이 바래 보이는 디스플레이용이에요.
-      touchbar_mode: Touchbar Mode
-      touchbar_mode_hint: What type of gestures should your device respond to?
+      touchbar_mode:
+      touchbar_mode_hint:
       tidbyt_credentials: Tidbyt 인증 정보
       tidbyt_credentials_hint: Tidbyt 앱의 설정 → 개발자 → API 키 받기에서 기기 API 인증 정보를 입력하세요.
-      tidbyt_api_key: Tidbyt API Key
+      tidbyt_api_key:
       tidbyt_credentials_invalid: Tidbyt API 인증 정보가 올바르지 않아요. 다시 확인해주세요.
       tidbyt_device_id: 기기 ID
       tidbyt_device_api_key: API 키
@@ -331,41 +331,41 @@ ko:
         warning_2: 이 작업은 <strong>위험</strong>하고 기기가 벽돌이 될 수 있다는 걸 이해해요.
         cta: TRMNL OG (2-bit)로 업그레이드
       persona:
-        discover: Discover
-        discover_hint: Discover suggests plugins and recipes tailored to this device
-        discover_banner_toggle: Show the Discover banner on the dashboard for this device
-        persona: Persona
-        persona_hint: A device persona shapes Discover recommendations
-        provisioned_by_html: This device was provisioned by the <strong>%{name}</strong> persona.
-        mirror_disabled_hint: Persona management is disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-        save_persona: Save persona
-        reset_persona: Reset persona
-        reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
-        reset_persona_confirm: Reset this persona and delete its saved recommendations?
+        discover:
+        discover_hint:
+        discover_banner_toggle:
+        persona:
+        persona_hint:
+        provisioned_by_html:
+        mirror_disabled_hint:
+        save_persona:
+        reset_persona:
+        reset_persona_hint:
+        reset_persona_confirm:
     discover_persona:
-      label: Persona & Discover
-      disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-      completed_hint: Persona is set up for this device
-      setup_hint: Set up a persona for this device
+      label:
+      disabled_hint:
+      completed_hint:
+      setup_hint:
     index:
       title: 기기 관리
       tagline: 내 TRMNL 기기
       add_device_modal_title: 새 기기 추가하기
       add_first_device: 첫 기기를 추가해서 시작하세요!
-      go_to_settings: Go to settings
-      clear_playlist: Clear playlist
-      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
-      copy_playlist_to_device: Copy playlist to device
-      copy_playlist_submit: Copy playlist
-      copy_playlist_from_device: From
-      copy_playlist_to_device_label: To
-      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      go_to_settings:
+      clear_playlist:
+      clear_playlist_confirm:
+      copy_playlist_to_device:
+      copy_playlist_submit:
+      copy_playlist_from_device:
+      copy_playlist_to_device_label:
+      copy_playlist_non_destructive:
       target_device: Target device
     clear_playlist:
-      success: "%{device}'s playlist has been cleared."
+      success:
     copy_playlist:
-      error_same_device: Source and target device must be different.
-      success: Playlist copied from %{source} to %{target}.
+      error_same_device:
+      success:
     new:
       title: 새 기기 추가하기
       description: Friendly ID를 입력해서 새 기기를 계정에 추가하세요.
@@ -391,32 +391,32 @@ ko:
     switch:
       error: 기기 변경 오류
       success: 기기를 변경했어요
-      title: Switch to device
+      title:
     update:
       error: 기기 업데이트 오류
       success: "%{device} 기기 설정을 업데이트했어요"
   discovery:
     dashboard_action:
       saved:
-        title: Recommendations saved for %{device_label}
-        subtext: Review your saved picks, or update the persona that shaped them.
-        primary_label: Review saved recommendations
+        title:
+        subtext:
+        primary_label:
       fresh:
-        title: New recommendations ready for %{device_label}
-        subtext: Review the latest picks for this persona.
-        primary_label: Review new recommendations
+        title:
+        subtext:
+        primary_label:
       persona:
-        title: Persona set for %{device_label}
-        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
-        primary_label: Get new recommendations
+        title:
+        subtext:
+        primary_label:
       rerun:
-        title: Ready for another Discover round for %{device_label}
-        subtext: Go through another round when you want fresh recommendations for this TRMNL.
-        primary_label: Get more recommendations
+        title:
+        subtext:
+        primary_label:
       setup:
-        title: Set up a persona for %{device_label}
-        subtext: Answer a few questions so recommendations fit this TRMNL's role.
-        primary_label: Set up persona
+        title:
+        subtext:
+        primary_label:
   invoices:
     rate_limit: 너무 많이 시도했어요. 잠시 후 다시 해주세요.
     invoice_not_found: 인보이스를 찾을 수 없음
@@ -426,7 +426,7 @@ ko:
       all: 전체
       bulk_destroy: 일괄 삭제
       dump: 덤프
-      id: ID
+      id:
       private_plugins: 비공개 플러그인
       source: 소스
       time: 시간
@@ -438,7 +438,7 @@ ko:
       design_system: 기본 디자인 시스템 활용하기
       design_system_docs: 디자인 시스템 문서
       dirty_confirm: 저장하지 않은 변경사항이 있어요. 이 페이지를 떠날까요?
-      edit_composition: Edit Composition
+      edit_composition:
       edit_markup: 마크업 편집
       edit_markup_for_plugin: "%{plugin_setting_name} 마크업 편집"
       edit_markup_please_save_first: 마크업을 편집하기 전에 저장해주세요
@@ -463,7 +463,7 @@ ko:
       no_variables_detected: 변수를 찾을 수 없어요.
   notices:
     dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
+      discover_callout:
   mfa:
     disable_otp:
       success: 2단계 인증 비활성화됨
@@ -512,12 +512,12 @@ ko:
       remove_from_playlist: 플레이리스트에서 삭제
       hide_playlist: 이 항목 숨기기
       show_playlist: 이 항목 표시하기
-      duplicate: Duplicate
-      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
-      presentation: Presentation
-      color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
+      duplicate:
+      duplicate_confirm:
+      presentation:
+      color_palette:
+      device_default:
+      palette_unavailable:
       refresh_rate_disabled:
         default: 이 플러그인의 새로고침 주기는 설정할 수 없어요.
         external: 이 플러그인은 실시간으로 데이터를 가져오므로 새로고침 주기 설정이 적용되지 않아요.
@@ -546,7 +546,7 @@ ko:
       tagline: TRMNL에 무엇을 올릴까요?
       available: 사용 가능
       connected: 연결됨
-      supported_by_this_device: Supported by this device
+      supported_by_this_device:
       recipes: 레시피
       recipes_hint: 커뮤니티 멤버가 만든 비공개 플러그인을 한번의 클릭으로 설치할 수 있어요. __자세히 알아보기__.
     search:
@@ -594,21 +594,21 @@ ko:
       one: 연결
       other: 연결
     forks:
-      one: Fork
-      other: Forks
-    forked: Recipe forked
+      one:
+      other:
+    forked:
     new:
       error: 레시피를 찾을 수 없어요
     show:
-      more_by_author: More by this Author
-      view_all: View all
+      more_by_author:
+      view_all:
   plugin_settings:
     active: 활성
     copy_are_you_sure: 이 설정을 복사할까요?
     delete_are_you_sure: 이 설정을 삭제할까요?
     delete: 플러그인 설정을 완전히 삭제해요. 기기에서 플러그인을 숨기고 싶다면 플레이리스트에서 삭제하세요.
     inactive: 비활성
-    no_matches_found: No plugins match your filters.
+    no_matches_found:
     no_plugin_settings_found: 플러그인 설정이 없어요.
     not_supported: 현재 기기에서 지원하지 않아요
     refreshing_now_please_wait: 새로고침 중이에요. 몇 초 후에 페이지를 다시 불러오세요.
@@ -632,9 +632,9 @@ ko:
       force_refresh_click_here: 여기를 눌러
       force_refresh_click_here_hint: 새 화면을 바로 생성하세요
       force_refresh_not_possible: TRMNL 서버가 이미지 처리를 하지 않아서 이 플러그인은 강제 새로고침할 수 없어요. 인스턴스 테스트 방법은 __여기서__ 알아보세요.
-      health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications:
+      health_notifications_hint:
+      health_notifications_checkbox:
       learn_more: 이 플러그인에 대해 설명서에서 알아보세요
       learn_more_fork: 이 플러그인은 레시피에서 포크됐어요.
       learn_more_fork_original: 원본 보기
@@ -678,7 +678,7 @@ ko:
       recipe_visibility_unlisted_hint: 링크가 있는 사람만 설치할 수 있어요.
       refresh_rate: 새로고침 주기
       refresh_rate_hint: 이 플러그인 인스턴스가 새 데이터를 가져오는 주기를 설정해요
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
+      refresh_rate_jit_hint:
       refresh_rate_not_configurable: "%{refresh_rate} 주기로 동기화 (변경 불가)"
       refreshed: 새로고침됨
       remove_plugin: 플러그인 삭제
@@ -686,7 +686,7 @@ ko:
       synced: 동기화됨
       refresh_paused: 새로고침 일시정지
       refresh_paused_hint: 자동 새로고침이 일시정지됐어요. 플레이리스트에 추가하면 다시 시작돼요.
-      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
+      refresh_paused_hidden_hint:
       refresh_paused_mashup: 매시업 새로고침 중
       refresh_paused_mashup_hint: 전체 화면에서 자동 새로고침이 일시정지됐어요. 매시업은 업데이트 중이에요.
       refresh_stopped: 자동 새로고침이 중지됐어요. 플러그인 오류를 수정해주세요.
@@ -725,7 +725,7 @@ ko:
       some_schedule: 이 시간에만 표시…
       to:
       copy_prompt: 스케줄 복사…
-      no_days_error: Please select at least one day.
+      no_days_error:
   upgrade:
     index:
       title: '기기 업그레이드:'

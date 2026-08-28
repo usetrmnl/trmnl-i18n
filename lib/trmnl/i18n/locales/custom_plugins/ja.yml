@@ -3,28 +3,28 @@ ja:
   custom_plugins:
     today: 今日
     tomorrow: 明日
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
+    updated:
+    activity:
+    done:
+    due:
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
-      minutes: m
-      refreshed: Refreshed
+      departures:
+      time:
+      line:
+      destination:
+      platform:
+      delay:
+      train:
+      on_time:
+      cancelled:
+      minutes:
+      refreshed:
     simple_calendar:
       title: カレンダー
       ym_format: "%Y年%-m月"
       chinese_korean:
         leap_format: 閏%{month_label}
-        leap_format_short: LM%{alt_month}
+        leap_format_short:
         ym_format: ", %{heavenly_stem}%{earthly_branch}年%{leap_month_label}"
         month_labels:
         -
@@ -41,37 +41,6 @@ ja:
         - 十一月
         - 十二月
         date_labels:
-        -
-        - '1'
-        - '2'
-        - '3'
-        - '4'
-        - '5'
-        - '6'
-        - '7'
-        - '8'
-        - '9'
-        - '10'
-        - '11'
-        - '12'
-        - '13'
-        - '14'
-        - '15'
-        - '16'
-        - '17'
-        - '18'
-        - '19'
-        - '20'
-        - '21'
-        - '22'
-        - '23'
-        - '24'
-        - '25'
-        - '26'
-        - '27'
-        - '28'
-        - '29'
-        - '30'
         heavenly_stems:
         - 甲
         - 乙
@@ -98,115 +67,42 @@ ja:
         - 亥
       japanese:
         rokuyo_terms:
-        - 先勝
-        - 友引
-        - 先負
-        - 仏滅
-        - 大安
-        - 赤口
         nengo:
           reiwa: 令和
         ym_format: "%Y年 (%{nengo}%{alt_year}年) %-m月"
         year_1: 元
       hebrew:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        - Nisan
-        - Iyar
-        - Sivan
-        - Tamuz
-        - Av
-        - Elul
-        - Tishri
-        - Heshvan
-        - Kislev
-        - Tevet
-        - Shevat
-        - Adar
-        - Adar I
-        - Adar II
         month_labels_abbr:
-        - Nis
-        - Iya
-        - Siv
-        - Tam
-        - Av
-        - Elu
-        - Tis
-        - Hes
-        - Kis
-        - Tev
-        - Shv
-        - Ada
-        - Ad1
-        - Ad2
       hijri:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        -
-        - Muharram
-        - Safar
-        - Rabiʻ I
-        - Rabiʻ II
-        - Jumada I
-        - Jumada II
-        - Rajab
-        - Shaʻban
-        - Ramadan
-        - Shawwal
-        - Dhuʻl-Qiʻdah
-        - Dhuʻl-Hijjah
       bengali:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        -
-        - Boishakh
-        - Joishtho
-        - Asharh
-        - Srabon
-        - Bhadro
-        - Ashwin
-        - Kartika
-        - Ogrohayon
-        - Poush
-        - Magh
-        - Falgun
-        - Choitro
       indian:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        -
-        - Chaitra
-        - Vaisakha
-        - Jyaistha
-        - Asadha
-        - Sravana
-        - Bhadra
-        - Asvina
-        - Kartika
-        - Agrahayana
-        - Pausa
-        - Magha
-        - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
-      and_more: and {$value :number} more
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.trmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      connections:
+      forks:
+      installs:
+      and_more:
+      error_keyword_title:
+      error_keyword_subtitle:
+      error_new_title:
+      error_new_subtitle:
+      error_self_title:
+      error_self_subtitle:
+      error_author_id_title:
+      error_author_id_subtitle:
+      error_recipe_ids_title:
+      error_recipe_ids_subtitle:
     horizontal_world_clock:
-      name: World clock
+      name:
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to:
     custom_next_holiday:
       next_holiday: 次の祝日
       today_and_next: ".input {$nextDays :number} .match $nextDays 1 {{ {#mainLabel}今日は{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}明日は{$nextName}です。{/subLabel} }} 2 {{ {#mainLabel}今日は{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}明後日は{$nextName}です。{/subLabel} }} * {{ {#mainLabel}今日は{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}次の祝日の{$nextName}まであと {$nextDays} 日です。{/subLabel} }}"

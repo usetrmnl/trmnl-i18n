@@ -20,8 +20,12 @@ RSpec.describe TRMNL::I18n::Synchronization::Processor do
       processor.call
     end
 
-    it "copies values from the source locale to the destination locales" do
-      expect(repo.load("fr")).to eq({"fr" => {"hello" => "Bonjour", "world" => "World"}})
+    it "adds keys the destination locale is missing, marked untranslated" do
+      expect(repo.load("fr")).to eq({"fr" => {"hello" => "Bonjour", "world" => nil}})
+    end
+
+    it "leaves the source locale alone" do
+      expect(repo.load("en")).to eq({"en" => {"hello" => "Hello", "world" => "World"}})
     end
 
     it "generates values for the raw locale" do

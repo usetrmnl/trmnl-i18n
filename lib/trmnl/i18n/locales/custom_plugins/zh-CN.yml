@@ -147,85 +147,18 @@ zh-CN:
         ym_format: "%Y年 (%{nengo}%{alt_year}年) %-m月"
         year_1: 元
       hebrew:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        - Nisan
-        - Iyar
-        - Sivan
-        - Tamuz
-        - Av
-        - Elul
-        - Tishri
-        - Heshvan
-        - Kislev
-        - Tevet
-        - Shevat
-        - Adar
-        - Adar I
-        - Adar II
         month_labels_abbr:
-        - Nis
-        - Iya
-        - Siv
-        - Tam
-        - Av
-        - Elu
-        - Tis
-        - Hes
-        - Kis
-        - Tev
-        - Shv
-        - Ada
-        - Ad1
-        - Ad2
       hijri:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        -
-        - Muharram
-        - Safar
-        - Rabiʻ I
-        - Rabiʻ II
-        - Jumada I
-        - Jumada II
-        - Rajab
-        - Shaʻban
-        - Ramadan
-        - Shawwal
-        - Dhuʻl-Qiʻdah
-        - Dhuʻl-Hijjah
       bengali:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        -
-        - Boishakh
-        - Joishtho
-        - Asharh
-        - Srabon
-        - Bhadro
-        - Ashwin
-        - Kartika
-        - Ogrohayon
-        - Poush
-        - Magh
-        - Falgun
-        - Choitro
       indian:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        -
-        - Chaitra
-        - Vaisakha
-        - Jyaistha
-        - Asadha
-        - Sravana
-        - Bhadra
-        - Asvina
-        - Kartika
-        - Agrahayana
-        - Pausa
-        - Magha
-        - Phalguna
     public_recipe_stats:
       connections: "{$value :number} 个连接"
       forks: "{$value :number} 个分支"
