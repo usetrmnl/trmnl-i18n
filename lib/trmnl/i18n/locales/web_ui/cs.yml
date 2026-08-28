@@ -1,38 +1,37 @@
----
 cs:
   locale_name: Čeština
   about: O aplikaci
   actions: Akce
   add: Přidat
   add_new: Přidat nový
-  ai_assistant: AI asistent
-  ai_assistant_hint: Nápověda AI asistenta
-  already_have_account: Již máte účet?
-  are_you_sure: Jste si jisti?
+  ai_assistant: Agent
+  ai_assistant_hint: Povolte Agenta pro úpravu značkování v editoru pluginů.
+  already_have_account: Již mám účet
+  are_you_sure: Jste si jistí?
   back: Zpět
-  back_to_all_blog_posts: Zpět na všechny příspěvky blogu
+  back_to_all_blog_posts: Zpět na všechny příspěvky
   blog: Blog
   brand: Značka
   buy_now: Koupit nyní
   cancel: Zrušit
   change_password: Změnit heslo
   charge_level: Úroveň nabití
-  charged: Nabito
-  charging: Nabíjí se
-  claim_plus_trial: Aktivovat zkušební verzi Plus
+  charged: nabito
+  charging: Nabíjení
+  claim_plus_trial: Získejte 6 měsíců zdarma
   close: Zavřít
-  confirm_change_password: Potvrdit změnu hesla
-  confirm_password: Potvrdit heslo
+  confirm_change_password: Změnit moje heslo
+  confirm_password: Potvrdit nové heslo
   copy: Kopírovat
-  copied_to_clipboard: Zkopírováno do schránky
+  copied_to_clipboard: Zkopírováno!
   copy_to_clipboard: Zkopírovat do schránky
   created: Vytvořeno
   create_an_account: Vytvořit účet
   current_device: Aktuální zařízení
-  days: dny
+  days: dní
   delete: Smazat
   developers: Vývojáři
-  developer_edition_required: Vyžadována vývojářská edice
+  developer_edition_required: Pro povolení této funkce je vyžadována edice Developer.
   device_id: ID zařízení
   device: Zařízení
   discard: Zahodit
@@ -40,17 +39,17 @@ cs:
   email_address: E-mailová adresa
   export: Exportovat
   fetching: Načítání
-  first_name: Křestní jméno
-  forgot_password: Zapomenuté heslo
-  forgot_password_title: Titul zapomenutého hesla
-  friendly_id: Přátelské ID
-  get_started: Začít
-  hidden: Skryto
+  first_name: Jméno
+  forgot_password: Zapomněl(a) jsem heslo
+  forgot_password_title: A je to tu zas
+  friendly_id: Friendly ID
+  get_started: Jdeme na to!
+  hidden: skryté
   identify: Identifikovat
   import: Importovat
-  import_new: Importovat nový
+  import_new: Importovat nové
   integrations: Integrace
-  keep_me_signed_in: Zůstat přihlášený
+  keep_me_signed_in: Zůstat přihlášen(a)
   knowledge_base: Znalostní báze
   last_name: Příjmení
   learn_more: Dozvědět se více
@@ -58,683 +57,673 @@ cs:
   login: Přihlásit se
   log_out: Odhlásit se
   manage: Spravovat
-  minimum_characters: Minimální počet znaků
+  minimum_characters: znaků minimálně
   mins: min
   my_playlist: Můj playlist
   new_password: Nové heslo
   password: Heslo
-  please_wait: Čekejte prosím
+  please_wait: Čekejte prosím...
   plugin_not_found: Plugin nenalezen
   preview: Náhled
   privacy: Soukromí
   refresh_rate: Obnovovací frekvence
-  refresh_rates_hint: Nápověda k obnovovacím frekvencím __zde__.
-  reset_password: Obnovit heslo
-  reset_to_defaults: Obnovit do výchozího nastavení
-  required: Vyžadováno
+  refresh_rates_hint: Jak funguje obnovovací frekvence zjistíte __zde__.
+  reset_password: Obnovit moje heslo
+  reset_to_defaults: Obnovit výchozí
+  required: Povinné
   save: Uložit
-  shown: Zobrazeno
+  shown: zobrazeno
   section: Sekce
   settings: Nastavení
   sign_in: Přihlásit se
-  sign_up: Zaregistrovat se
+  sign_up: Registrovat se
   something_went_wrong: Něco se pokazilo
   status: Stav
   subscribe: Odebírat
-  help_center: Centrum nápovědy
+  help_center: Podpora
   terms: Podmínky
-  unsaved_changes: Neuložené změny
+  unsaved_changes: Máte neuložené změny
   update: Aktualizovat
   view: Zobrazit
-  collaboration_request: Žádost o spolupráci
-  collaboration_request_hint: Nápověda k žádosti o spolupráci
-  collaboration_request_cta: Výzva k akci pro spolupráci
+  collaboration_request: Chcete spolupracovat?
+  collaboration_request_hint: Partnerství, skupinový prodej, speciální projekty – je to na vás.
+  collaboration_request_cta: Pojďme si promluvit
   welcome: Vítejte
   time:
     formats:
-      shorter:
-    start_of_week:
+      shorter: "%-H:%M"
+    start_of_week: 0
   datetime:
     relative:
-      past:
-      future:
+      past: před %{time}
+      future: za %{time}
       distance_in_words:
-        half_a_minute:
+        half_a_minute: půl minutou
         less_than_x_seconds:
-          one:
-          other:
+          one: méně než %{count} sekundou
+          other: méně než %{count} sekundami
         less_than_x_minutes:
-          one:
-          other:
+          one: méně než minutou
+          other: méně než %{count} minutami
         x_seconds:
-          one:
-          other:
+          one: "%{count} sekunda"
+          other: "%{count} sekundami"
         x_minutes:
-          one:
-          other:
+          one: "%{count} minuta"
+          other: "%{count} minutami"
         about_x_hours:
-          one:
-          other:
+          one: asi %{count} hodina
+          other: asi %{count} hodinami
         x_days:
-          one:
-          other:
+          one: "%{count} den"
+          other: "%{count} dny"
         about_x_months:
-          one:
-          other:
+          one: asi %{count} měsíc
+          other: asi %{count} měsíci
         x_months:
-          one:
-          other:
+          one: "%{count} měsíc"
+          other: "%{count} měsíci"
         about_x_years:
-          one:
-          other:
+          one: asi %{count} rok
+          other: asi %{count} lety
         over_x_years:
-          one:
-          other:
+          one: více než %{count} rok
+          other: více než %{count} lety
         almost_x_years:
-          one:
-          other:
+          one: téměř %{count} rok
+          other: téměř %{count} lety
   account:
     index:
-      title:
-      tagline:
-      api_key_confirm:
-      api_key_hint:
-      api_key_label:
-      api_key_not_generated:
-      api_key_reset:
-      api_key:
-      beta_features:
-      beta_features_hint:
-      discord_community:
-      discord_username:
-      discord_username_hint:
-      email_address:
-      refer_and_earn:
-      refer_and_earn_hint:
-      refer_and_earn_redemptions:
-      refer_and_earn_request_code:
-      device_invoice:
-      device_invoice_label:
-      device_invoice_hint:
-      email_address_hint:
-      first_name_hint:
-      last_name_hint:
-      github_username_hint:
-      password_hint:
-      enable_2fa:
-      enable_2fa_hint:
-      disable_2fa:
-      disable_2fa_hint:
-      plus_subscription:
-      plus_subscription_trial_until:
-      plus_subscription_hint:
-      plus_subscription_modify:
-      session:
-      session_hint:
-      show_title_bar:
-      show_title_bar_hint:
-      theme_hint:
-      time_zone:
-      time_zone_hint:
-      locale:
-      locale_hint:
+      title: Účet
+      tagline: Spravujte nastavení svého účtu
+      api_key_confirm: Opravdu chcete znovu vygenerovat svůj API klíč? Starý klíč přestane platit.
+      api_key_hint: Podívejte se do __dokumentace__, jak nakonfigurovat své místní prostředí.
+      api_key_label: Přihlašovací údaje pro autentizaci lokálních vývojářských nástrojů
+      api_key_not_generated: "(zatím žádný)"
+      api_key_reset: Vygenerovat znovu
+      api_key: Uživatelský API klíč
+      beta_features: Beta funkce
+      beta_features_hint: Vyzkoušejte nové funkce. Možnosti se mohou kdykoli změnit nebo zmizet.
+      discord_community: Komunita Discord
+      discord_username: Jaké je vaše uživatelské jméno na Discordu?
+      discord_username_hint: Může být použito pro podporu, uvedení autorství u zveřejněných Receptů atd.
+      email_address: E-mailová adresa
+      refer_and_earn: Doporučte a získejte
+      refer_and_earn_hint: Darujte TRMNL s personalizovaným kupónem. Získejte odměnu za každé použití, vyplácenou měsíčně.
+      refer_and_earn_redemptions: Uplatnění
+      refer_and_earn_request_code: Požádat o kód
+      device_invoice: Faktura za zařízení
+      device_invoice_label: Stáhněte si účetní doklady pro svého účetního nebo vaši sbírku PDF.
+      device_invoice_hint: Najdete na stránce sledování zásilky nebo v e-mailu o odeslání.
+      email_address_hint: Používá se k přihlášení do TRMNL a přijímání systémových zpráv.
+      first_name_hint: Vaše jméno používáme k přizpůsobení rozhraní TRMNL.
+      last_name_hint: Vaše příjmení používáme k přizpůsobení rozhraní TRMNL.
+      github_username_hint: Používá se k připsání zásluh za open-source příspěvky do Creator Fundu.
+      password_hint: Slouží k ochraně vašeho účtu TRMNL.
+      enable_2fa: Povolit 2FA?
+      enable_2fa_hint: __Klikněte sem__ pro povolení OTP.
+      disable_2fa: Zakázat 2FA
+      disable_2fa_hint: Pro zakázání této funkce zadejte platný OTP kód a aktuální heslo výše.
+      plus_subscription: Předplatné TRMNL+
+      plus_subscription_trial_until: Jste ve zkušební verzi zdarma do %{plus_trial_end_at}.
+      plus_subscription_hint: Odemkněte rychlejší obnovovací frekvenci a vyšší limity. __Dozvědět se více__.
+      plus_subscription_modify: Chcete upravit platební metodu nebo zrušit předplatné?
+      session: Relace
+      session_hint: Jste přihlášeni jako %{user}
+      show_title_bar: Zobrazit záhlaví
+      show_title_bar_hint: Pokud je zakázáno, nativní (ne-globální) i pluginy třetích stran budou minimalističtější.
+      theme_hint: Přizpůsobte si rozhraní TRMNL nastavením motivu nebo synchronizací se zařízením.
+      time_zone: Časové pásmo
+      time_zone_hint: Určuje obnovovací frekvenci a čas spánku zařízení.
+      locale: Jazyk / Lokalizace
+      locale_hint: Jaký jazyk a lokalizaci preferujete? __Přejděte sem__.
     update:
-      success:
+      success: Profil byl úspěšně aktualizován
     reset_api_key:
-      success:
+      success: API klíč byl úspěšně regenerován
   dashboard:
     index:
-      title:
-      last_7_days:
-      last_30_days:
-      last_90_days:
-      today:
-      yesterday:
+      title: Nástěnka
+      last_7_days: Posledních 7 dní
+      last_30_days: Posledních 30 dní
+      last_90_days: Posledních 90 dní
+      today: Dnes
+      yesterday: Včera
     health:
-      bad:
-      good:
-      next_steps:
+      bad: Pluginy mají problémy
+      good: Pluginy fungují správně
+      next_steps: Budeme vás informovat, pokud se cokoli změní
     news:
-      title:
-      cta:
+      title: Novinky
+      cta: Zobrazit vše
     playlist_items:
-      title:
-      cta:
-      pieces_of_content_displayed:
+      title: Playlist
+      cta: Upravit playlist
+      pieces_of_content_displayed: Zobrazené položky obsahu
     plugins:
-      title:
-      cta:
-      connected:
-      new_and_popular:
+      title: Pluginy
+      cta: Přejít na pluginy
+      connected: Připojeno
+      new_and_popular: Nové a populární
     shop:
-      title:
-      need_another:
+      title: Obchod
+      need_another: Potřebujete další TRMNL?
     time_saved:
-      title:
-      cta:
+      title: Ušetřený čas
+      cta: Číst o
     discover_callout:
-      manage_persona:
-      dismiss:
+      manage_persona: Spravovat personu
+      dismiss: Skrýt
     saved_discovery_setup:
-      manage_persona:
+      manage_persona: Spravovat personu
     welcome_message:
-      morning_salutation:
-      afternoon_salutation:
-      evening_salutation:
-  date:
-    formats:
-      day_month_long:
+      morning_salutation: Dobré ráno
+      afternoon_salutation: Dobré odpoledne
+      evening_salutation: Dobrý večer
   devices:
     edit:
-      accepts_beta_firmware:
-      accepts_beta_firmware_hint:
-      back_to_devices:
-      battery_and_sleep:
-      battery_consumption:
-      battery_consumption_hint:
-      battery_learn_more:
-      battery_refresh:
-      click:
-      click_action:
-      controls:
-      developer_perks:
-      developer_perks_hint:
-      device_credentials:
-      device_credentials_hint:
-      device_api_key:
-      mac_address:
-      device_name:
-      device_name_hint:
-      device_model:
-      device_model_hint:
-      device_model_switch_warning:
-      device_info:
-      current_firmware:
-      last_ping:
-      unknown:
-      never:
-      display_calibration:
-      display_calibration_hint:
-      display_calibration_pixel_ratio:
-      display_calibration_pixel_ratio_hint:
-      display_calibration_ui_scale:
-      display_calibration_ui_scale_hint:
-      edit_device:
-      firmware:
-      firmware_updates_enabled:
-      firmware_updates_disabled:
-      font_family:
-      font_family_hint:
-      guest_mode:
-      guest_mode_hint:
-      guest_mode_item_placeholder:
-      guest_mode_duration_placeholder:
-      identify:
-      identify_device:
-      identify_device_hint:
-      logs:
-      logs_hint:
-      long_press:
-      long_press_action:
-      longest_press:
-      longest_press_action:
-      low_battery_email_notification:
-      low_battery_email_notification_hint:
-      low_battery_screen_disabled:
-      low_battery_screen_disabled_hint:
-      medium_press:
-      medium_press_action:
-      mirror:
-      mirror_device:
-      mirror_device_hint:
-      mirror_disabled:
-      mirror_enabled:
-      mirror_stop:
-      mirror_sync:
-      ota_enabled:
-      ota_enabled_hint:
-      ota_byod_not_supported:
-      maximum_compatibility:
-      maximum_compatibility_hint:
-      color_and_rotation:
-      image_rotation:
-      screen_rotation:
-      screen_rotation_not_supported:
-      palette:
-      palette_hint:
-      presentation:
-      sleep_mode:
-      sleep_mode_hint:
-      sleep_screen:
-      sleep_screen_tooltip:
-      sleep_screen_hint:
-      special_function:
-      special_function_hint:
-      special_function_learn_more:
-      temperature_profile:
-      temperature_profile_hint:
-      touchbar_mode:
-      touchbar_mode_hint:
-      tidbyt_credentials:
-      tidbyt_credentials_hint:
-      tidbyt_api_key:
-      tidbyt_credentials_invalid:
-      tidbyt_device_id:
-      tidbyt_device_api_key:
-      unlink:
-      unlink_confirm:
-      unlink_device:
-      unlink_device_hint:
-      unlink_device_learn_more:
-      visibility:
-      visibility_hint:
-      your_device:
+      accepts_beta_firmware: Předběžné verze firmwaru
+      accepts_beta_firmware_hint: Zapněte pro získání nejnovějších vylepšení firmwaru před ostatními uživateli.
+      back_to_devices: Zpět na zařízení
+      battery_and_sleep: Baterie a spánek
+      battery_consumption: Spotřeba baterie
+      battery_consumption_hint: Šetřete energii a užijte si delší výdrž baterie povolením režimu spánku.
+      battery_learn_more: Více o nabíjení baterie se dozvíte __zde__.
+      battery_refresh: Obnovit
+      click: Stisknutí
+      click_action: Posunout playlist
+      controls: Ovládání
+      developer_perks: Výhody pro vývojáře
+      developer_perks_hint: Vývoj vlastních pluginů, upravitelná MAC adresa (pouze BYOD), předběžný přístup k firmwaru a přístup k API
+      device_credentials: Přihlašovací údaje zařízení
+      device_credentials_hint: Zjistěte, co s těmito přihlašovacími údaji můžete dělat __zde__
+      device_name: Název zařízení
+      device_name_hint: Používáme jej k přizpůsobení rozhraní TRMNL
+      device_model: Model zařízení
+      device_model_hint: Váš hardwarový model
+      device_model_switch_warning: Toto je nebezpečná operace, dozvíte se více __zde__
+      device_info: Informace o zařízení
+      current_firmware: Aktuální firmware
+      last_ping: Poslední ping
+      unknown: Neznámý
+      never: Nikdy
+      display_calibration: Kalibrace displeje
+      display_calibration_hint: Dolaďte vykreslování pro váš displej. Ponechte prázdné pro použití výchozích hodnot modelu.
+      display_calibration_pixel_ratio: Poměr pixelů
+      display_calibration_pixel_ratio_hint: 'Úroveň přiblížení obrázku (0.5–3.0). Výchozí:'
+      display_calibration_ui_scale: Měřítko UI
+      display_calibration_ui_scale_hint: 'Velikost textu a prvků (0.5–2.0). Výchozí:'
+      edit_device: Upravit zařízení
+      firmware: Firmware
+      firmware_updates_enabled: Aktualizace povoleny
+      firmware_updates_disabled: Aktualizace zakázány
+      font_family: Rodina písma
+      font_family_hint: Písmo TRMNL bylo navrženo pro optimální výkon na ePaper obrazovkách. Podporováno na pluginech s UI Framework v%{min_version}+.
+      guest_mode: Režim pro hosty
+      guest_mode_hint: Vyberte, co se má zobrazit (a na jak dlouho), když je povolen režim pro hosty.
+      guest_mode_item_placeholder: Vyberte položku
+      guest_mode_duration_placeholder: Vyberte dobu trvání
+      identify: Identifikovat
+      identify_device: Identifikovat zařízení
+      identify_device_hint: Kliknutím na tlačítko níže vygenerujete na tomto zařízení obrazovku, která pomůže s jeho identifikací.
+      logs: Protokoly
+      logs_hint: Ladění zařízení a pluginů pomocí živého kanálu chybových protokolů.
+      long_press: Dlouhé stisknutí (6–7 s)
+      long_press_action: Obnovit přihlašovací údaje Wi-Fi
+      longest_press: Nejdelší stisknutí (16–18 s)
+      longest_press_action: Soft reset
+      low_battery_email_notification: E-mailové upozornění na nízkou baterii
+      low_battery_email_notification_hint: Získejte e-mailové upozornění, když dochází baterie zařízení.
+      low_battery_screen_disabled: Skrýt obrazovku nízké baterie
+      low_battery_screen_disabled_hint: Zabraňuje zobrazení varovné obrazovky nízké baterie na tomto zařízení. Užitečné, pokud je zařízení neustále zapojeno do sítě.
+      medium_press: Střední stisknutí (1–2 s)
+      medium_press_action: Speciální funkce (výše)
+      mirror: Zrcadlení
+      mirror_device: Zrcadlit jiné zařízení
+      mirror_device_hint: Zadejte (sdílitelné) ID zařízení pro zrcadlení jeho playlistu. Váš playlist bude i nadále zobrazován.
+      mirror_disabled: Zrcadlení zakázáno
+      mirror_enabled: Zrcadlení
+      mirror_stop: Odpojit zrcadlení
+      mirror_sync: Synchronizovat obrazovky
+      ota_enabled: OTA aktualizace povoleny
+      ota_enabled_hint: Automaticky instalovat nový firmware. Zakžte pro použití vlastního firmwaru.
+      ota_byod_not_supported: OTA není podporována pro BYOD zařízení. Nahrajte kompatibilní verzi přímo z trmnl.com/flash
+      maximum_compatibility: Povolit maximální kompatibilitu
+      maximum_compatibility_hint: Řeší problémy se zobrazením způsobené některými čipy ovladačů ePaper. Zakáže rychlé obnovení. Vyžadován firmware 1.6.0+.
+      color_and_rotation: Barvy a otočení
+      screen_rotation: Otočení obrazovky
+      screen_rotation_not_supported: Otočení obrazovky není na vašem zařízení aktuálně podporováno.
+      palette: Paleta barev
+      palette_hint: Vyberte sadu barev použitou při generování obrazovek pro toto zařízení. Větší paleta vypadá lépe, ale menší paleta se na ePaperu vykresluje rychleji. Jednotlivé položky playlistu mohou toto nastavení přepsat.
+      presentation: Prezentace
+      sleep_mode: Režim spánku
+      sleep_mode_hint: Upravte obnovovací frekvenci pro optimalizaci soustředění a výdrže baterie.
+      sleep_screen: Obrazovka spánku
+      sleep_screen_tooltip: Pro použití této funkce povolte režim spánku
+      sleep_screen_hint: Zobrazovat obrazovku spánku během hodin režimu spánku.
+      special_function: Speciální funkce
+      special_function_hint: Nastavte vlastní funkci pro tlačítko na zadní straně zařízení.
+      special_function_learn_more: Více o ovládání se dozvíte __zde__.
+      temperature_profile: Teplotní profil
+      temperature_profile_hint: Neměňte, pokud k tomu nejste vyzváni. Určeno pro displeje s vybledlým obrazem.
+      touchbar_mode: Režim Touchbar
+      touchbar_mode_hint: Na jaký typ gest by mělo vaše zařízení reagovat?
+      tidbyt_credentials: Přihlašovací údaje Tidbyt
+      tidbyt_credentials_hint: Zadejte API přihlašovací údaje svého zařízení Tidbyt z aplikace Tidbyt v části Nastavení → Vývojář → Získat API klíč.
+      tidbyt_credentials_invalid: API přihlašovací údaje Tidbyt jsou neplatné. Zkontrolujte je a zkuste to znovu.
+      tidbyt_device_id: ID zařízení
+      tidbyt_device_api_key: API klíč
+      unlink: Odpojit
+      unlink_confirm: Jste si jistí? Pokračujte pouze v případě, že toto zařízení předáváte někomu jinému nebo přecházíte na BYOS. Odpárování smaže veškerá nastavení pluginů a položky playlistu. Při řešení problémů kontaktujte podporu na help.trmnl.com.
+      unlink_device: Odpojit zařízení
+      unlink_device_hint: Odpojením TRMNL je zařízení bezpečné pro předání nebo prodej.
+      unlink_device_learn_more: Postupujte podle kompletního průvodce __zde__.
+      visibility: Viditelnost
+      visibility_hint: Změňte nastavení níže, aby bylo vaše zařízení TRMNL zrcadlitelné.
+      your_device: Váš TRMNL
       upgrade_og:
-        title:
-        sub_title:
-        warning_1:
-        warning_2:
-        cta:
+        title: K dispozici je upgrade na 2bitový displej
+        sub_title: Vaše zařízení lze upgradovat na podporu vylepšených stupňů šedi se 4 úrovněmi barev namísto 2.
+        warning_1: Chápu, že tento upgrade je <strong>nevratný</strong> a nelze jej vrátit zpět.
+        warning_2: Chápu, že se jedná o <strong>nebezpečnou</strong> akci, která může znefunkčnit moje zařízení.
+        cta: Upgradovat na TRMNL OG (2-bit)
       persona:
-        discover:
-        discover_hint:
-        discover_banner_toggle:
-        persona:
-        persona_hint:
-        provisioned_by_html:
-        mirror_disabled_hint:
-        save_persona:
-        reset_persona:
-        reset_persona_hint:
-        reset_persona_confirm:
+        discover: Objevovat
+        discover_hint: Objevovat navrhuje pluginy a recepty přizpůsobené tomuto zařízení
+        discover_banner_toggle: Zobrazit banner Objevovat na nástěnce pro toto zařízení
+        persona: Persona
+        persona_hint: Persona zařízení utváří doporučení v sekci Objevovat
+        provisioned_by_html: Toto zařízení bylo nastaveno personou <strong>%{name}</strong>.
+        mirror_disabled_hint: Správa persony je pro zrcadlené TRMNL zakázána. Doporučení spravujte na hlavním zařízení.
+        save_persona: Uložit personu
+        reset_persona: Obnovit personu
+        reset_persona_hint: Obnovení persony tohoto zařízení neovlivní jeho nastavení a playlist
+        reset_persona_confirm: Obnovit tuto personu a smazat její uložená doporučení?
     discover_persona:
-      label:
-      disabled_hint:
-      completed_hint:
-      setup_hint:
+      label: Persona & Objevovat
+      disabled_hint: Zakázáno pro zrcadlené TRMNL. Doporučení spravujte na hlavním zařízení.
+      completed_hint: Persona je pro toto zařízení nastavena
+      setup_hint: Nastavte personu pro toto zařízení
     index:
-      title:
-      tagline:
-      add_device_modal_title:
-      add_first_device:
-      go_to_settings:
-      clear_playlist:
-      clear_playlist_confirm:
-      copy_playlist_to_device:
-      copy_playlist_submit:
-      copy_playlist_from_device:
-      copy_playlist_to_device_label:
-      copy_playlist_non_destructive:
+      title: Zařízení
+      tagline: Vaše zařízení TRMNL
+      add_device_modal_title: Přidat nové zařízení
+      add_first_device: Začněte přidáním svého prvního zařízení!
+      go_to_settings: Přejít do nastavení
+      clear_playlist: Vyprázdnit playlist
+      clear_playlist_confirm: Odstranit všechny položky playlistu z zařízení %{device}? Tuto akci nelze vrátit zpět.
+      copy_playlist_to_device: Kopírovat playlist do zařízení
+      copy_playlist_submit: Kopírovat playlist
+      copy_playlist_from_device: Z
+      copy_playlist_to_device_label: Do
+      copy_playlist_non_destructive: Žádné stávající položky playlistu nebudou smazány.
     clear_playlist:
-      success:
+      success: Playlist zařízení %{device} byl vyprázdněn.
     copy_playlist:
-      error_same_device:
-      success:
+      error_same_device: Zdrojové a cílové zařízení se musí lišit.
+      success: Playlist zkopírován z %{source} do %{target}.
     new:
-      title:
-      description:
-      add_device:
+      title: Přidat nové zařízení
+      description: Zadejte své Friendly ID pro přidání nového zařízení k vašemu účtu.
+      add_device: Přidat nové zařízení
     associate:
-      error:
-      success:
+      error: Chyba při propojení zařízení
+      success: Zařízení úspěšně propojeno
     dissociate:
-      error:
-      success:
+      error: Chyba při odpojování zařízení
+      success: Zařízení úspěšně odpojeno
     external_credentials:
-      error:
-      success:
+      error: Neplatné přihlašovací údaje zařízení
+      success: Přihlašovací údaje zařízení úspěšně aktualizovány
     identify:
-      error:
-      success:
+      error: Chyba při aktualizaci zařízení
+      success: Identifikace zařízení vyžádána
     mirror:
-      error:
-      error_not_shared:
-      error_oneself:
-      success:
-      success_removed:
+      error: Chyba při zrcadlení zařízení
+      error_not_shared: Poskytnuté ID zařízení nelze sdílet
+      error_oneself: Nelze zrcadlit sám sebe
+      success: Zařízení %{friendly_id} bylo úspěšně zrcadleno
+      success_removed: Zrcadlení odstraněno
     switch:
-      error:
-      success:
-      title:
+      error: Chyba při přepínání zařízení
+      success: Zařízení úspěšně přepnuto
+      title: Přepnout na zařízení
     update:
-      error:
-      success:
+      error: Chyba při aktualizaci zařízení
+      success: Nastavení zařízení %{device} byla úspěšně aktualizována
   discovery:
     dashboard_action:
       saved:
-        title:
-        subtext:
-        primary_label:
+        title: Doporučení uložená pro %{device_label}
+        subtext: Prohlédněte si uložené tipy nebo upravte personu, která je vytvořila.
+        primary_label: Zkontrolovat uložená doporučení
       fresh:
-        title:
-        subtext:
-        primary_label:
+        title: Nová doporučení připravena pro %{device_label}
+        subtext: Prohlédněte si nejnovější tipy pro tuto personu.
+        primary_label: Zkontrolovat nová doporučení
       persona:
-        title:
-        subtext:
-        primary_label:
+        title: Persona nastavena pro %{device_label}
+        subtext: Získejte další sadu doporučení nebo upravte personu, pokud se role tohoto zařízení TRMNL změní.
+        primary_label: Získejte nová doporučení
       rerun:
-        title:
-        subtext:
-        primary_label:
+        title: Připraveno na další kolo Objevování pro %{device_label}
+        subtext: Projděte si další kolo, pokud chcete pro toto zařízení TRMNL čerstvá doporučení.
+        primary_label: Získejte další doporučení
       setup:
-        title:
-        subtext:
-        primary_label:
+        title: Nastavte personu pro %{device_label}
+        subtext: Odpovězte na několik otázek, aby doporučení odpovídala roli tohoto zařízení TRMNL.
+        primary_label: Nastavit personu
   invoices:
-    rate_limit:
-    invoice_not_found:
+    rate_limit: Příliš mnoho pokusů, počkejte prosím a zkuste to znovu
+    invoice_not_found: Faktura nenalezena
   logs:
     index:
-      title:
-      all:
-      bulk_destroy:
-      dump:
-      id:
-      private_plugins:
-      source:
-      time:
+      title: Protokoly
+      all: Vše
+      bulk_destroy: Hromadně smazat
+      dump: Export protokolu
+      id: ID
+      private_plugins: Soukromé pluginy
+      source: Zdroj
+      time: Čas
   markups:
     console_logs:
-      js_logs:
+      js_logs: JS Protokoly
     form:
-      back_to_plugin_settings:
-      design_system:
-      design_system_docs:
-      dirty_confirm:
-      edit_composition:
-      edit_markup:
-      edit_markup_for_plugin:
-      edit_markup_please_save_first:
-      edit_markup_without_preview:
-      error_rendering_markup:
-      fix_indentation:
-      go_to_preview:
-      live_preview:
-      no_changes_to_save:
-      pop_out_preview:
-      quickstart_examples:
-      quickstart_example_applied:
-      quickstart_use_this_example:
-      revert:
-      revert_confirm:
-      save_changes:
-      separate_preview:
+      back_to_plugin_settings: Zpět do nastavení pluginu
+      design_system: Využijte náš nativní design systém
+      design_system_docs: Dokumentace design systému
+      dirty_confirm: Máte neuložené změny. Opravdu chcete opustit tuto stránku?
+      edit_markup: Upravit značkování
+      edit_markup_for_plugin: Upravit značkování pro %{plugin_setting_name}
+      edit_markup_please_save_first: Před úpravou značkování prosím uložte změny
+      edit_markup_without_preview: Upravit značkování (bez náhledu)
+      error_rendering_markup: Chyba při vykreslování značkování
+      fix_indentation: Opravit odsazení
+      go_to_preview: Přejít na náhled
+      live_preview: Živý náhled
+      no_changes_to_save: Žádné změny k uložení
+      pop_out_preview: Otevřít náhled v novém okně
+      quickstart_examples: Příklady pro rychlý start
+      quickstart_example_applied: Aplikováno!
+      quickstart_use_this_example: Použít tento příklad
+      revert: Obnovit původní
+      revert_confirm: Opravdu chcete změny vrátit? Všechny neuložené změny budou ztraceny.
+      save_changes: Uložit změny (⌘﹢S)
+      separate_preview: Náhled je otevřen v samostatném okně
     merge_variables:
-      your_variables:
+      your_variables: Vaše proměnné
     no_merge_variables:
-      force_refresh:
-      no_variables_detected:
+      force_refresh: Pokud jste zadali proměnné, ale nebyly zjištěny, zkuste __vynucené obnovení__.
+      no_variables_detected: Nebyly zjištěny žádné proměnné.
   notices:
     dismiss:
-      discover_callout:
+      discover_callout: Personu můžete kdykoli nastavit nebo změnit v nastavení zařízení.
   mfa:
     disable_otp:
-      success:
-      invalid_otp:
-      invalid_password:
-      invalid_otp_and_password:
+      success: 2FA vypnuto
+      invalid_otp: Neplatný OTP kód
+      invalid_password: Neplatné heslo
+      invalid_otp_and_password: Neplatný OTP kód a heslo
     enable_otp:
-      input_otp:
-      submit:
-      already_enabled:
+      input_otp: Zadejte OTP kód
+      submit: Ověřit a povolit
+      already_enabled: 2FA je již povoleno
     enable_otp_verify:
-      success:
-      error:
+      success: 2FA povoleno
+      error: Neplatný OTP kód
     verify_otp:
-      verify:
-      reset:
-      reset_instructions:
-      success:
-      error:
+      verify: Ověřit
+      reset: Obnovit MFA
+      reset_instructions: Stisknutím tlačítka na zadní straně zařízení TRMNL vygenerujete kód pro obnovení
+      success: Ověření 2FA úspěšné
+      error: Neplatný OTP kód
   playlist_items:
     index:
-      title:
-      tagline:
-      add_a_group:
-      add_a_plugin:
-      add_first_device_cta:
-      add_to_playlist:
-      create_first_playlist_cta:
-      custom:
-      device_default:
-      display_period_from:
-      display_period_to:
-      display_period_validation:
-      every:
-      never_skip:
-      smart_playlist:
-      smart_playlist_hint:
+      title: Playlist
+      tagline: Vyberte, co se zobrazí na
+      add_a_group: Přidat skupinu
+      add_a_plugin: Přidat plugin
+      add_first_device_cta: Začněte __přidáním__ svého prvního zařízení TRMNL!
+      add_to_playlist: Přidat do playlistu
+      create_first_playlist_cta: Vytvořte si svůj playlist po __připojení__ prvního pluginu!
+      custom: Vlastní
+      device_default: Výchozí zařízení
+      display_period_from: Zobrazovat od
+      display_period_to: do
+      display_period_validation: Počáteční čas musí být před koncovým časem. Pro překlenutí nočních hodin vytvořte další skupinu.
+      every: Každý
+      never_skip: Nikdy nepřeskakovat obrazovky
+      smart_playlist: Chytrý playlist
+      smart_playlist_hint: Automaticky přeskakovat obrazovky, jejichž obsah se již nějakou dobu nezměnil.
       skip_after:
-        one:
-        other:
+        one: Přeskočit zastaralé obrazovky po 1 dni
+        other: Přeskočit zastaralé obrazovky po %{count} dnech
     playlist_item:
-      adjust_schedule:
-      delete:
-      displayed_now:
-      not_displayed_yet:
-      remove_from_playlist:
-      hide_playlist:
-      show_playlist:
-      duplicate:
-      duplicate_confirm:
-      presentation:
-      color_palette:
-      device_default:
-      palette_unavailable:
+      adjust_schedule: Upravit rozvrh
+      delete: Opravdu chcete tuto položku odebrat? Plugin zůstane připojen, pouze se nebude zobrazovat na vašem zařízení.
+      displayed_now: Nyní zobrazeno
+      not_displayed_yet: Zatím nezobrazeno
+      remove_from_playlist: Odebrat z playlistu
+      hide_playlist: Skrýt tuto položku
+      show_playlist: Zobrazit tuto položku
+      duplicate: Duplikovat
+      duplicate_confirm: Tímto vytvoříte kopii této položky a přidáte ji na konec svého playlistu. Pokračovat?
+      color_palette: Paleta barev
+      device_default: Výchozí zařízení (%{name})
+      palette_unavailable: K dispozici pouze pro zařízení s více paletami barev
       refresh_rate_disabled:
-        default:
-        external:
-        global:
-        mashup:
-        readonly:
+        default: Obnovovací frekvenci tohoto pluginu nelze konfigurovat.
+        external: Tento plugin načítá data za chodu, takže nastavení obnovovací frekvence neplatí.
+        global: Tento plugin se obnovuje v rámci celé platformy podle pevného rozvrhu.
+        mashup: Mashup se bude obnovovat tak často jako jeho nejrychlejší plugin.
+        readonly: Tento plugin má pevnou obnovovací frekvenci, kterou nelze konfigurovat.
     create:
-      error:
-      success:
+      error: Aktualizace playlistu se nezdařila
+      success: Playlist aktualizován
     destroy:
-      error:
-      success:
+      error: Chyba při odebrání položky z playlistu
+      success: Plugin odebrán z playlistu
     toggle_visibility:
-      success:
+      success: Položka playlistu %{change}
     duplicate:
-      success:
+      success: Položka zduplikována
     sort:
-      success:
+      success: Pořadí playlistu aktualizováno
     set_preferences:
-      success:
+      success: Předvolba Chytrého playlistu aktualizována
     update:
-      success:
+      success: Pořadí playlistu aktualizováno
   plugins:
     index:
-      title:
-      tagline:
-      available:
-      connected:
-      supported_by_this_device:
-      recipes:
-      recipes_hint:
+      title: Pluginy
+      tagline: Co si dáte na svůj TRMNL?
+      available: Dostupné
+      connected: Připojené
+      recipes: Recepty
+      recipes_hint: Soukromé pluginy od členů komunity, které lze nainstalovat jedním kliknutím. __Dozvědět se více__.
     search:
-      placeholder:
+      placeholder: Hledat pluginy
     my:
       index:
-        title:
-        tagline:
+        title: Moje pluginy
+        tagline: Vyvíjejte pluginy pro veřejný trh
       card:
-        connections:
-        install:
-        review_are_you_sure:
-        submit_for_review:
+        connections: připojení
+        install: Nainstalovat
+        review_are_you_sure: Jste si jistí? Tým TRMNL jej otestuje a případné dotazy vám zašle e-mailem.
+        submit_for_review: Odeslat ke kontrole
     new:
-      title:
-      tagline:
-      name:
-      category:
-      category_hint:
-      refresh_every:
-      refresh_every_hint:
-      description:
-      description_hint:
-      icon:
-      icon_hint:
-      installation_url:
-      installation_url_hint:
-      installation_success_webhook_url:
-      knowledge_base_url:
-      management_url:
-      management_url_hint:
-      markup_url:
-      markup_url_hint:
-      no_screen_padding:
-      no_screen_padding_hint:
-      uninstallation_webhook_url:
+      title: Vytvořit nový plugin
+      tagline: Ostatní uživatelé si budou moci váš plugin nainstalovat.
+      name: Název
+      category: Kategorie
+      category_hint: Podržte klávesu cmd nebo ctrl pro výběr až 3 možností
+      refresh_every: Podporovaný interval obnovení
+      refresh_every_hint: Nejrychlejší interval obnovení, který váš plugin podporuje.
+      description: Popis
+      description_hint: Maximálně 50 znaků
+      icon: Ikona
+      icon_hint: Doporučeno 512x512px
+      installation_url: Instalační URL
+      installation_url_hint: Další informace o průběhu instalace najdete __zde__.
+      installation_success_webhook_url: Webhook URL pro úspěšnou instalaci
+      knowledge_base_url: URL znalostní báze
+      management_url: URL pro správu pluginu
+      management_url_hint: Další informace o správě pluginu najdete __zde__.
+      markup_url: URL pro značkování pluginu
+      markup_url_hint: Další informace o generování obrazovky najdete __zde__.
+      no_screen_padding: Bez odsazení obrazovky
+      no_screen_padding_hint: Odstraní vnější odsazení v režimu celého displeje.
+      uninstallation_webhook_url: Webhook URL pro odinstalaci
     edit:
-      title:
-      tagline:
-      name:
-      description:
+      title: Upravit plugin
+      tagline: Aktualizujte podrobnosti o svém pluginu.
+      name: Název
+      description: Popis
   plugin_recipes:
-    connected:
+    connected: Recept připojen
     connections:
-      one:
-      other:
+      one: Připojení
+      other: Připojení
     forks:
-      one:
-      other:
-    forked:
+      one: Fork
+      other: Forky
+    forked: Recept forknut
     new:
-      error:
+      error: Recept nenalezen
     show:
-      more_by_author:
-      view_all:
+      more_by_author: Další od tohoto autora
+      view_all: Zobrazit vše
   plugin_settings:
-    active:
-    copy_are_you_sure:
-    delete_are_you_sure:
-    delete:
-    inactive:
-    no_matches_found:
-    no_plugin_settings_found:
-    not_supported:
-    refreshing_now_please_wait:
-    reset_credentials:
+    active: Aktivní
+    copy_are_you_sure: Opravdu chcete toto nastavení zkopírovat?
+    delete_are_you_sure: Opravdu chcete toto nastavení smazat?
+    delete: Tímto zcela odstraníte nastavení pluginu. Chcete-li tento plugin ze zařízení pouze skrýt, smažte jej raději ze svého playlistu.
+    inactive: Neaktivní
+    no_matches_found: Vašim filtrům neodpovídají žádné pluginy.
+    no_plugin_settings_found: Nebyla nalezena žádná nastavení pluginu.
+    not_supported: Na aktuálním zařízení není podporováno
+    refreshing_now_please_wait: Nyní probíhá obnovení, načtěte tuto stránku znovu za několik sekund.
+    reset_credentials: Účet %{plugin_name} byl úspěšně obnoven
     form:
-      active_hint:
-      advanced_settings:
-      back_to_playlist:
-      back_to_plugin:
-      back_to_plugins:
-      connect_with:
-      debug_logs:
-      debug_logs_click_here:
-      debug_logs_click_here_hint:
-      debug_logs_enabled:
-      debug_logs_enabled_link:
-      disconnect_account:
-      manage_plugin:
-      force_refresh:
-      force_refresh_hint:
-      force_refresh_click_here:
-      force_refresh_click_here_hint:
-      force_refresh_not_possible:
-      health_notifications:
-      health_notifications_hint:
-      health_notifications_checkbox:
-      learn_more:
-      learn_more_fork:
-      learn_more_fork_original:
-      learn_more_native_long:
-      learn_more_native_short:
-      learn_more_recipe_author:
-      learn_more_recipe_long:
-      learn_more_recipe_short:
-      learn_more_third_party_long:
-      learn_more_third_party_short:
-      linked_account:
-      linked_account_success:
-      link_oauth:
-      link_oauth_hint:
-      mirrored:
-      multiple_instances_hint:
-      name:
-      name_hint:
-      parse:
-      parse_save_first:
-      parsed:
-      plugin_uuid:
-      plugin_uuid_hint:
-      preview:
-      recipe_cta_heading_published:
-      recipe_cta_heading_unlisted:
-      recipe_cta_heading_in_review:
-      recipe_cta_heading_not_published:
-      recipe_cta_body_published:
-      recipe_cta_body_in_review:
-      recipe_cta_body_not_published:
-      recipe_cta_confirm:
-      recipe_mirrored:
-      recipe_visibility_title:
-      recipe_visibility_edit_title:
-      recipe_visibility_public:
-      recipe_visibility_public_hint:
-      recipe_visibility_private:
-      recipe_visibility_private_hint:
-      recipe_visibility_unlisted:
-      recipe_visibility_unlisted_hint:
-      refresh_rate:
-      refresh_rate_hint:
-      refresh_rate_jit_hint:
-      refresh_rate_not_configurable:
-      refreshed:
-      remove_plugin:
-      remove_plugin_hint:
-      synced:
-      refresh_paused:
-      refresh_paused_hint:
-      refresh_paused_hidden_hint:
-      refresh_paused_mashup:
-      refresh_paused_mashup_hint:
-      refresh_stopped:
-      view_recipe:
-      visit_docs:
+      active_hint: Zobrazit nebo skrýt tuto instanci pluginu na vašem zařízení
+      advanced_settings: Pokročilá nastavení
+      back_to_playlist: Zpět do playlistu
+      back_to_plugin: Zpět na %{plugin}
+      back_to_plugins: Zpět na pluginy
+      connect_with: Připojit s %{plugin}
+      debug_logs: Protokoly ladění
+      debug_logs_click_here: Klikněte sem
+      debug_logs_click_here_hint: pro povolení protokolů ladění pro tuto instanci pluginu.
+      debug_logs_enabled: Protokoly ladění povoleny na %{hours} hodin.
+      debug_logs_enabled_link: Zobrazit protokoly
+      disconnect_account: Odpojit účet
+      manage_plugin: Konfigurovat %{plugin}
+      force_refresh: Vynutit obnovení
+      force_refresh_hint: Tato funkce je určena pouze pro testování – prosíme, nezneužívejte ji.
+      force_refresh_click_here: Klikněte sem
+      force_refresh_click_here_hint: pro okamžité vygenerování nové obrazovky
+      force_refresh_not_possible: Tento plugin nelze vynuceně obnovit, protože server TRMNL neprovádí zpracování obrazu. Jak otestovat vaši instanci se dozvíte __zde__.
+      health_notifications: Upozornění na stav
+      health_notifications_hint: Dostávejte e-mail, když se stav tohoto pluginu změní na zhoršený nebo chybový. Obdržíte maximálně jeden e-mail na stav a incident; výstrahy se znovu aktivují, jakmile se plugin vrátí do bezchybného stavu.
+      health_notifications_checkbox: Poslat e-mail, pokud se tento plugin stane nefunkčním
+      learn_more: Další informace o tomto pluginu najdete v naší znalostní bázi
+      learn_more_fork: Tento plugin byl vytvořen forknutím z Receptu.
+      learn_more_fork_original: Zobrazit originál
+      learn_more_native_long: Tento plugin je nativní a je spravován společností TRMNL.
+      learn_more_native_short: Tento plugin je spravován společností TRMNL.
+      learn_more_recipe_author: Potřebujete pomoc? Kontaktujte uživatele %{recipe_author} na Discordu.
+      learn_more_recipe_long: Tento plugin je komunitní Recept a není spravován společností TRMNL.
+      learn_more_recipe_short: 'Poznámka: tento plugin je Recept.'
+      learn_more_third_party_long: Tento plugin pochází od 3. strany a není spravován společností TRMNL.
+      learn_more_third_party_short: 'Poznámka: tento plugin pochází od 3. strany.'
+      linked_account: Propojený účet
+      linked_account_success: Úspěšně propojeno s %{plugin_name}
+      link_oauth: Propojit účet
+      link_oauth_hint: Než budete pokračovat, dokončete bezpečný autorizační proces poskytovaný službou %{plugin}
+      mirrored: Zrcadleno
+      multiple_instances_hint: Tento plugin podporuje více instancí.
+      name: Název
+      name_hint: Pojmenujte jej pro snadnou identifikaci
+      parse: Parsovat
+      parse_save_first: Parsovat (nejprve uložte plugin)
+      parsed: Parsováno
+      plugin_uuid: UUID pluginu
+      plugin_uuid_hint: Použijte pro požadavky Webhook API.
+      preview: Náhled – vaše zařízení zobrazí skutečná data
+      recipe_cta_heading_published: Tento plugin je veřejný
+      recipe_cta_heading_unlisted: Tento plugin je nezařazený
+      recipe_cta_heading_in_review: Plugin prochází kontrolou
+      recipe_cta_heading_not_published: Publikovat plugin?
+      recipe_cta_body_published: Změny se projeví u stávajících instalací i budoucích instalací/forků.
+      recipe_cta_body_in_review: Tento plugin byl odeslán našemu týmu. Počkejte prosím.
+      recipe_cta_body_not_published: Odeslat tento plugin, aby si jej mohli nainstalovat i ostatní. __Dozvědět se více__.
+      recipe_cta_confirm: Jste si jistí? Náš tým jej zkontroluje a během několika dní se vám ozve. V provádění změn můžete pokračovat.
+      recipe_mirrored: Tato obrazovka je zrcadlena z receptu.
+      recipe_visibility_title: Jak si přejete publikovat?
+      recipe_visibility_edit_title: Upravit odeslaný plugin
+      recipe_visibility_public: Veřejné
+      recipe_visibility_public_hint: Cokoliv jej může najít a nainstalovat.
+      recipe_visibility_private: Soukromé
+      recipe_visibility_private_hint: Přeruší externí instalace.
+      recipe_visibility_unlisted: Nezařazené
+      recipe_visibility_unlisted_hint: Nainstalovat může kdokoli, kdo má odkaz.
+      refresh_rate: Obnovovací frekvence
+      refresh_rate_hint: Určete, jak často tato instance pluginu načítá čerstvá data
+      refresh_rate_jit_hint: Tento plugin se automaticky obnovuje podle potřeby. Více se dozvíte __zde__.
+      refresh_rate_not_configurable: Synchronizuje se %{refresh_rate} (nelze konfigurovat)
+      refreshed: Obnoveno
+      remove_plugin: Odstranit plugin
+      remove_plugin_hint: Odstraněním pluginu jej také odeberete ze svého playlistu
+      synced: Synchronizováno
+      refresh_paused: Obnovování pozastaveno
+      refresh_paused_hint: Automatické obnovování je pozastaveno. Přidejte do playlistu pro opětovné spuštění.
+      refresh_paused_hidden_hint: Automatické obnovování je pozastaveno, protože je tento plugin skrytý. Chcete-li udržet jeho data čerstvá pro ostatní pluginy, použijte strategii Sloučení pluginů.
+      refresh_paused_mashup: Obnovování Mashupů
+      refresh_paused_mashup_hint: Automatické obnovení pozastaveno pro režim celé obrazovky. Mashupy se aktualizují.
+      refresh_stopped: Automatické obnovování se zastavilo. Pro pokračování opravte chybu pluginu.
+      view_recipe: Zobrazit recept
+      visit_docs: Navštívit dokumentaci
     import:
-      archive_too_large:
-      missing_entry:
-      entry_too_large:
-      malformed:
+      archive_too_large: Soubor ZIP je příliš velký (maximálně %{max_mb} MB)
+      missing_entry: Soubor ZIP neobsahuje %{filename}
+      entry_too_large: "%{filename} je příliš velký"
+      malformed: "%{filename} je poškozený"
     create:
-      success:
-      playlist:
+      success: Plugin byl vytvořen a přidán do vašeho
+      playlist: playlistu
     destroy:
-      success:
-    handle_canceled_consent:
+      success: Plugin byl smazán
+    handle_canceled_consent: Souhlas byl zrušen, zkuste to prosím znovu
     update:
-      success:
+      success: Konfigurace pluginu byla úspěšně aktualizována
     add_to_playlist:
-      success:
+      success: Plugin byl přidán do playlistu
   referral_code:
     create:
-      request_received:
+      request_received: Žádost byla přijata, zkontrolujte svou e-mailovou schránku
   recipes:
     index:
-      newest_to_oldest:
-      oldest_to_newest:
-      most_popular:
-      install:
-      fork:
+      newest_to_oldest: Od nejnovějších po nejstarší
+      oldest_to_newest: Od nejstarších po nejnovější
+      most_popular: Nejoblíbenější
+      install: Nainstalovat
+      fork: Forknout
   schedules:
     form:
-      add:
-      append:
-      no_schedule:
-      some_schedule:
-      to:
-      copy_prompt:
-      no_days_error:
+      add: Přidat vlastní rozvrh
+      append: A během…
+      no_schedule: Tato obrazovka se bude zobrazovat neustále.
+      some_schedule: Zobrazovat tuto obrazovku pouze během…
+      to: do
+      copy_prompt: Kopírovat rozvrh z…
+      no_days_error: Vyberte prosím alespoň jeden den.
   upgrade:
     index:
-      title:
-      tagline:
-      pay:
-      error:
+      title: 'Upgrade zařízení:'
+      tagline: Odemkněte vlastní pluginy a __další__.
+      pay: Zaplatit
+      error: Zařízení %{device_name} je již upgradováno, přepněte na jiné zařízení
     confirm:
-      success:
+      success: Doplněk edice Developer je nyní povolen
