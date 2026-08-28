@@ -2,17 +2,17 @@
 ro:
   locale_name: Română
   about: Despre
-  actions: Actions
+  actions:
   add: Adaugă
   add_new: Adaugă nou
-  ai_assistant: Agent
-  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
+  ai_assistant:
+  ai_assistant_hint:
   already_have_account: Am deja un cont
   are_you_sure: Ești sigur?
   back: Înapoi
   back_to_all_blog_posts: Înapoi la toate postările
-  blog: Blog
-  brand: Brand
+  blog:
+  brand:
   buy_now: Cumpără acum
   cancel: Anulează
   change_password: Schimbă parola
@@ -35,7 +35,7 @@ ro:
   developer_edition_required: Ediția pentru dezvoltatori este necesară pentru a activa această funcție.
   device_id: ID dispozitiv
   device: Dispozitiv
-  discard: Discard
+  discard:
   edit: Editează
   email_address: Adresă de email
   export: Exportă
@@ -83,7 +83,7 @@ ro:
   subscribe: Abonează-te
   help_center: Asistență
   terms: Termeni
-  unsaved_changes: You have unsaved changes
+  unsaved_changes:
   update: Actualizează
   view: Vizualizează
   collaboration_request: Vrei să colaborezi?
@@ -159,7 +159,7 @@ ro:
       email_address_hint: Folosit pentru autentificarea în TRMNL și primirea mesajelor de sistem.
       first_name_hint: Folosim numele tău pentru a face interfața TRMNL mai confortabilă.
       last_name_hint: Folosim numele tău pentru a face interfața TRMNL mai confortabilă.
-      github_username_hint: Used to attribute open source contributions to the Creator Fund.
+      github_username_hint:
       password_hint: Folosit pentru a proteja contul tău TRMNL.
       enable_2fa: Activează 2FA?
       enable_2fa_hint: __Apasă aici__ pentru a activa OTP.
@@ -213,10 +213,10 @@ ro:
       title: Timp economisit
       cta: Citește despre
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
+      manage_persona:
+      dismiss:
     saved_discovery_setup:
-      manage_persona: Manage persona
+      manage_persona:
     welcome_message:
       morning_salutation: Bună dimineața
       afternoon_salutation: Bună ziua
@@ -231,9 +231,9 @@ ro:
       battery_consumption_hint: Economisește energie și bucură-te de o durată de viață mai lungă a bateriei activând Modul repaus.
       battery_learn_more: Află mai mult despre încărcarea bateriei __aici__.
       battery_refresh: Reîmprospătează
-      click: Click
-      click_action: Advance playlist
-      controls: Controls
+      click:
+      click_action:
+      controls:
       developer_perks: Avantaje dezvoltator
       developer_perks_hint: Dezvoltare plugin-uri personalizate, adresă MAC editabilă (doar BYOD), lansare anticipată firmware și acces API
       device_credentials: Credențiale dispozitiv
@@ -255,11 +255,11 @@ ro:
       display_calibration_ui_scale: Scală UI
       display_calibration_ui_scale_hint: 'Dimensiuni text și elemente (0.5–2.0). Implicit:'
       edit_device: Editează dispozitivul
-      firmware: Firmware
+      firmware:
       firmware_updates_enabled: Actualizări activate
       firmware_updates_disabled: Actualizări dezactivate
-      font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family:
+      font_family_hint:
       guest_mode: Mod oaspete
       guest_mode_hint: Alege ce să afișezi (și pentru cât timp) ori de câte ori modul oaspete este activat.
       guest_mode_item_placeholder: Alege un element
@@ -269,16 +269,16 @@ ro:
       identify_device_hint: Apasă butonul de mai jos pentru a genera un ecran pe acest dispozitiv care ajută la identificarea lui.
       logs: Jurnale
       logs_hint: Depanează dispozitivul și plugin-urile cu un flux live de jurnale de erori brute.
-      long_press: Long press (6–7s)
-      long_press_action: Reset Wi-Fi credentials
-      longest_press: Longest press (16–18s)
-      longest_press_action: Soft reset
+      long_press:
+      long_press_action:
+      longest_press:
+      longest_press_action:
       low_battery_email_notification: Notificare email baterie descărcată
       low_battery_email_notification_hint: Primește notificări prin email când bateria dispozitivului este pe terminate.
-      low_battery_screen_disabled: Hide Low Battery Screen
-      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
-      medium_press: Medium press (1–2s)
-      medium_press_action: Special Function (above)
+      low_battery_screen_disabled:
+      low_battery_screen_disabled_hint:
+      medium_press:
+      medium_press_action:
       mirror: Oglindire
       mirror_device: Oglindește alt dispozitiv
       mirror_device_hint: Furnizează un ID de dispozitiv (partajabil) pentru a oglindi lista sa de redare. Lista ta va fi în continuare afișată.
@@ -292,12 +292,12 @@ ro:
       maximum_compatibility: Activează compatibilitate maximă
       maximum_compatibility_hint: Rezolvă problemele de afișare cauzate de anumite chipuri de driver ePaper. Dezactivează reîmprospătarea rapidă. Necesită firmware 1.6.0+.
       color_and_rotation: Culoare și rotație
-      image_rotation: Image Rotation
+      image_rotation:
       screen_rotation: Rotație ecran
       screen_rotation_not_supported: Rotația ecranului nu este în prezent suportată pe dispozitivul tău.
       palette: Paletă de culori
       palette_hint: Selectează setul de culori de folosit la generarea ecranelor pentru acest dispozitiv. O paletă mai mare arată mai bine, dar una mai mică se desenează mai rapid pe ePaper. Elementele individuale din listă pot suprascrie această setare.
-      presentation: Presentation
+      presentation:
       sleep_mode: Mod repaus
       sleep_mode_hint: Ajustează rata de reîmprospătare pentru a optimiza concentrarea și durata bateriei.
       sleep_screen: Ecran de repaus
@@ -308,11 +308,11 @@ ro:
       special_function_learn_more: Află mai mult despre funcțiile speciale __aici__.
       temperature_profile: Profil temperatură
       temperature_profile_hint: Nu modifica dacă nu ți s-a indicat. Pentru afișaje cu imagini șterse.
-      touchbar_mode: Touchbar Mode
-      touchbar_mode_hint: What type of gestures should your device respond to?
+      touchbar_mode:
+      touchbar_mode_hint:
       tidbyt_credentials: Credențiale Tidbyt
       tidbyt_credentials_hint: Introdu credențialele API ale dispozitivului tău Tidbyt din aplicația Tidbyt sub Setări → Dezvoltator → Obține cheie API.
-      tidbyt_api_key: Tidbyt API Key
+      tidbyt_api_key:
       tidbyt_credentials_invalid: Credențialele API Tidbyt sunt invalide. Verifică și încearcă din nou.
       tidbyt_device_id: ID dispozitiv
       tidbyt_device_api_key: Cheie API
@@ -331,41 +331,41 @@ ro:
         warning_2: Înțeleg că aceasta este o acțiune <strong>periculoasă</strong> și îmi poate deteriora dispozitivul.
         cta: Upgrade la TRMNL OG (2-bit)
       persona:
-        discover: Discover
-        discover_hint: Discover suggests plugins and recipes tailored to this device
-        discover_banner_toggle: Show the Discover banner on the dashboard for this device
-        persona: Persona
-        persona_hint: A device persona shapes Discover recommendations
-        provisioned_by_html: This device was provisioned by the <strong>%{name}</strong> persona.
-        mirror_disabled_hint: Persona management is disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-        save_persona: Save persona
-        reset_persona: Reset persona
-        reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
-        reset_persona_confirm: Reset this persona and delete its saved recommendations?
+        discover:
+        discover_hint:
+        discover_banner_toggle:
+        persona:
+        persona_hint:
+        provisioned_by_html:
+        mirror_disabled_hint:
+        save_persona:
+        reset_persona:
+        reset_persona_hint:
+        reset_persona_confirm:
     discover_persona:
-      label: Persona & Discover
-      disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-      completed_hint: Persona is set up for this device
-      setup_hint: Set up a persona for this device
+      label:
+      disabled_hint:
+      completed_hint:
+      setup_hint:
     index:
       title: Dispozitive
       tagline: Dispozitivele tale TRMNL
       add_device_modal_title: Adaugă un dispozitiv nou
       add_first_device: Începe prin a adăuga primul tău dispozitiv!
-      go_to_settings: Go to settings
-      clear_playlist: Clear playlist
-      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
-      copy_playlist_to_device: Copy playlist to device
-      copy_playlist_submit: Copy playlist
-      copy_playlist_from_device: From
-      copy_playlist_to_device_label: To
-      copy_playlist_non_destructive: No existing playlist items will be cleared.
+      go_to_settings:
+      clear_playlist:
+      clear_playlist_confirm:
+      copy_playlist_to_device:
+      copy_playlist_submit:
+      copy_playlist_from_device:
+      copy_playlist_to_device_label:
+      copy_playlist_non_destructive:
       target_device: Target device
     clear_playlist:
-      success: "%{device}'s playlist has been cleared."
+      success:
     copy_playlist:
-      error_same_device: Source and target device must be different.
-      success: Playlist copied from %{source} to %{target}.
+      error_same_device:
+      success:
     new:
       title: Adaugă un dispozitiv nou
       description: Introdu ID-ul prietenos pentru a adăuga un dispozitiv nou în contul tău.
@@ -391,32 +391,32 @@ ro:
     switch:
       error: Eroare la schimbarea dispozitivului
       success: Dispozitiv schimbat cu succes
-      title: Switch to device
+      title:
     update:
       error: Eroare la actualizarea dispozitivului
       success: Setările dispozitivului %{device} actualizate cu succes
   discovery:
     dashboard_action:
       saved:
-        title: Recommendations saved for %{device_label}
-        subtext: Review your saved picks, or update the persona that shaped them.
-        primary_label: Review saved recommendations
+        title:
+        subtext:
+        primary_label:
       fresh:
-        title: New recommendations ready for %{device_label}
-        subtext: Review the latest picks for this persona.
-        primary_label: Review new recommendations
+        title:
+        subtext:
+        primary_label:
       persona:
-        title: Persona set for %{device_label}
-        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
-        primary_label: Get new recommendations
+        title:
+        subtext:
+        primary_label:
       rerun:
-        title: Ready for another Discover round for %{device_label}
-        subtext: Go through another round when you want fresh recommendations for this TRMNL.
-        primary_label: Get more recommendations
+        title:
+        subtext:
+        primary_label:
       setup:
-        title: Set up a persona for %{device_label}
-        subtext: Answer a few questions so recommendations fit this TRMNL's role.
-        primary_label: Set up persona
+        title:
+        subtext:
+        primary_label:
   invoices:
     rate_limit: Prea multe încercări, așteptați și încercați din nou
     invoice_not_found: Factură negăsită
@@ -426,7 +426,7 @@ ro:
       all: Toate
       bulk_destroy: Ștergere în masă
       dump: Descarcă
-      id: ID
+      id:
       private_plugins: Plugin-uri private
       source: Sursă
       time: Timp
@@ -438,7 +438,7 @@ ro:
       design_system: Folosește sistemul nostru nativ de design
       design_system_docs: Documentație sistem design
       dirty_confirm: Ai modificări nesalvate. Ești sigur că vrei să părăsești această pagină?
-      edit_composition: Edit Composition
+      edit_composition:
       edit_markup: Editează markup
       edit_markup_for_plugin: Editează markup pentru %{plugin_setting_name}
       edit_markup_please_save_first: Salvează înainte de a edita markup-ul
@@ -463,7 +463,7 @@ ro:
       no_variables_detected: Nicio variabilă detectată.
   notices:
     dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
+      discover_callout:
   mfa:
     disable_otp:
       success: 2FA dezactivat
@@ -514,7 +514,7 @@ ro:
       show_playlist: Afișează acest element
       duplicate: Duplică
       duplicate_confirm: Aceasta va crea o copie a acestui element și o va adăuga la sfârșitul listei tale. Continui?
-      presentation: Presentation
+      presentation:
       color_palette: Paletă de culori
       device_default: Implicit dispozitiv (%{name})
       palette_unavailable: Disponibil doar pentru dispozitive cu mai multe palete de culori
@@ -546,7 +546,7 @@ ro:
       tagline: Ce vei pune pe TRMNL-ul tău?
       available: Disponibile
       connected: Conectate
-      supported_by_this_device: Supported by this device
+      supported_by_this_device:
       recipes: Rețetare
       recipes_hint: Plugin-uri private create de membrii comunității care pot fi instalate cu un singur clic. __Află mai mult__.
     search:
@@ -596,19 +596,19 @@ ro:
     forks:
       one: Fork
       other: Fork-uri
-    forked: Recipe forked
+    forked:
     new:
       error: Rețetar negăsit
     show:
-      more_by_author: More by this Author
-      view_all: View all
+      more_by_author:
+      view_all:
   plugin_settings:
     active: Activ
     copy_are_you_sure: Ești sigur că vrei să copiezi această setare?
     delete_are_you_sure: Ești sigur că vrei să ștergi această setare?
     delete: Aceasta va elimina complet setările plugin-ului. Pentru a ascunde pur și simplu acest plugin de pe dispozitivul tău, șterge-l din lista de redare.
     inactive: Inactiv
-    no_matches_found: No plugins match your filters.
+    no_matches_found:
     no_plugin_settings_found: Nu au fost găsite setări de plugin.
     not_supported: Nesuportat pe dispozitivul curent
     refreshing_now_please_wait: Se reîmprospătează acum, reîncarcă această pagină în câteva secunde.
@@ -632,9 +632,9 @@ ro:
       force_refresh_click_here: Apasă aici
       force_refresh_click_here_hint: pentru a genera un ecran nou imediat
       force_refresh_not_possible: Acest plugin nu poate fi reîmprospătat forțat deoarece serverul TRMNL nu efectuează procesarea imaginilor. Află cum să testezi instanța ta __aici__.
-      health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications:
+      health_notifications_hint:
+      health_notifications_checkbox:
       learn_more: Află despre acest plugin în baza noastră de cunoștințe
       learn_more_fork: Acest plugin a fost bifurcat dintr-un Rețetar.
       learn_more_fork_original: Vezi originalul
@@ -670,7 +670,7 @@ ro:
       recipe_mirrored: Acest ecran este oglindit din rețetar.
       recipe_visibility_title: Cum ai dori să publici?
       recipe_visibility_edit_title: Editează trimiterea
-      recipe_visibility_public: Public
+      recipe_visibility_public:
       recipe_visibility_public_hint: Oricine poate găsi și instala.
       recipe_visibility_private: Privat
       recipe_visibility_private_hint: Întrerupe instalările externe.
@@ -678,7 +678,7 @@ ro:
       recipe_visibility_unlisted_hint: Oricine cu link-ul poate instala.
       refresh_rate: Rată de reîmprospătare
       refresh_rate_hint: Definește cât de frecvent preia date această instanță de plugin
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
+      refresh_rate_jit_hint:
       refresh_rate_not_configurable: Sincronizează %{refresh_rate} (neconfigurabil)
       refreshed: Reîmprospătat
       remove_plugin: Elimină plugin-ul
@@ -686,7 +686,7 @@ ro:
       synced: Sincronizat
       refresh_paused: Reîmprospătare pausată
       refresh_paused_hint: Reîmprospătarea automată este pausată. Adaugă în lista de redare pentru a reporni.
-      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
+      refresh_paused_hidden_hint:
       refresh_paused_mashup: Reîmprospătare mashup-uri
       refresh_paused_mashup_hint: Reîmprospătarea automată pausată pentru ecran complet. Mashup-urile se actualizează.
       refresh_stopped: Reîmprospătarea automată oprită. Rezolvă eroarea plugin-ului pentru a continua.
@@ -725,7 +725,7 @@ ro:
       some_schedule: Afișează acest ecran doar în timpul…
       to: până la
       copy_prompt: Copiază programul de la…
-      no_days_error: Please select at least one day.
+      no_days_error:
   upgrade:
     index:
       title: 'Actualizare dispozitiv:'

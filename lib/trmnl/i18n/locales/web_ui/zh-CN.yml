@@ -2,7 +2,7 @@
 zh-CN:
   locale_name: 简体中文
   about: 关于
-  actions: Actions
+  actions:
   add: 添加
   add_new: 新增
   ai_assistant: Agent（智能体）
@@ -248,10 +248,10 @@ zh-CN:
       title: 节省时间
       cta: 详细信息
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
+      manage_persona:
+      dismiss:
     saved_discovery_setup:
-      manage_persona: Manage persona
+      manage_persona:
     welcome_message:
       morning_salutation: 早上好
       afternoon_salutation: 下午好
@@ -266,9 +266,9 @@ zh-CN:
       battery_consumption_hint: 启用睡眠模式可节省电量并延长电池寿命。
       battery_learn_more: __点击此处__了解更多关于充电的信息。
       battery_refresh: 刷新
-      click: Click
-      click_action: Advance playlist
-      controls: Controls
+      click:
+      click_action:
+      controls:
       developer_perks: 开发者选项
       developer_perks_hint: 定制插件开发、可编辑 MAC 地址（仅限自带设备）、固件抢先体验以及 API 访问权限
       device_credentials: 设备密码
@@ -304,16 +304,16 @@ zh-CN:
       identify_device_hint: 点击以在此设备上显示识别信息
       logs: 日志
       logs_hint: 通过实时原始错误日志流对设备和插件进行故障排查。
-      long_press: Long press (6–7s)
-      long_press_action: Reset Wi-Fi credentials
-      longest_press: Longest press (16–18s)
-      longest_press_action: Soft reset
+      long_press:
+      long_press_action:
+      longest_press:
+      longest_press_action:
       low_battery_email_notification: 低电量邮件通知
       low_battery_email_notification_hint: 在您的设备电量过低时获得邮件通知。
-      low_battery_screen_disabled: Hide Low Battery Screen
-      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
-      medium_press: Medium press (1–2s)
-      medium_press_action: Special Function (above)
+      low_battery_screen_disabled:
+      low_battery_screen_disabled_hint:
+      medium_press:
+      medium_press_action:
       mirror: 镜像
       mirror_device: 镜像其他设备
       mirror_device_hint: 提供一个（可共享的）设备 ID 以镜像其播放列表。您自己的播放列表仍会显示。
@@ -327,7 +327,7 @@ zh-CN:
       maximum_compatibility: 启用最大兼容模式
       maximum_compatibility_hint: 解决由某些电子墨水驱动芯片引发的显示问题。禁用快速刷新功能。需固件版本 1.6.0 及以上。
       color_and_rotation: 颜色和旋转
-      image_rotation: Image Rotation
+      image_rotation:
       screen_rotation: 屏幕旋转
       screen_rotation_not_supported: 屏幕旋转目前不支持您的设备。
       palette: 调色板
@@ -347,7 +347,7 @@ zh-CN:
       touchbar_mode_hint: 您的设备应响应哪种类型的手势？
       tidbyt_credentials: Tidbyt 凭据
       tidbyt_credentials_hint: 从 Tidbyt 应用的「设置」→「开发者」→「获取 API 密钥」中输入您的 Tidbyt 设备的 API 凭据。
-      tidbyt_api_key: Tidbyt API Key
+      tidbyt_api_key:
       tidbyt_credentials_invalid: Tidbyt API 凭据无效。请仔细检查后重试。
       tidbyt_device_id: 设备 ID
       tidbyt_device_api_key: API 密钥
@@ -366,22 +366,22 @@ zh-CN:
         warning_2: 本人知悉此操作<strong>存在风险</strong>，可能导致设备变砖。
         cta: 升级至 TRMNL OG（2 位）
       persona:
-        discover: Discover
-        discover_hint: Discover suggests plugins and recipes tailored to this device
-        discover_banner_toggle: Show the Discover banner on the dashboard for this device
-        persona: Persona
-        persona_hint: A device persona shapes Discover recommendations
-        provisioned_by_html: This device was provisioned by the <strong>%{name}</strong> persona.
-        mirror_disabled_hint: Persona management is disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-        save_persona: Save persona
-        reset_persona: Reset persona
-        reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
-        reset_persona_confirm: Reset this persona and delete its saved recommendations?
+        discover:
+        discover_hint:
+        discover_banner_toggle:
+        persona:
+        persona_hint:
+        provisioned_by_html:
+        mirror_disabled_hint:
+        save_persona:
+        reset_persona:
+        reset_persona_hint:
+        reset_persona_confirm:
     discover_persona:
-      label: Persona & Discover
-      disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-      completed_hint: Persona is set up for this device
-      setup_hint: Set up a persona for this device
+      label:
+      disabled_hint:
+      completed_hint:
+      setup_hint:
     index:
       title: 设备列表
       tagline: 您的 TRMNL 设备
@@ -433,25 +433,25 @@ zh-CN:
   discovery:
     dashboard_action:
       saved:
-        title: Recommendations saved for %{device_label}
-        subtext: Review your saved picks, or update the persona that shaped them.
-        primary_label: Review saved recommendations
+        title:
+        subtext:
+        primary_label:
       fresh:
-        title: New recommendations ready for %{device_label}
-        subtext: Review the latest picks for this persona.
-        primary_label: Review new recommendations
+        title:
+        subtext:
+        primary_label:
       persona:
-        title: Persona set for %{device_label}
-        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
-        primary_label: Get new recommendations
+        title:
+        subtext:
+        primary_label:
       rerun:
-        title: Ready for another Discover round for %{device_label}
-        subtext: Go through another round when you want fresh recommendations for this TRMNL.
-        primary_label: Get more recommendations
+        title:
+        subtext:
+        primary_label:
       setup:
-        title: Set up a persona for %{device_label}
-        subtext: Answer a few questions so recommendations fit this TRMNL's role.
-        primary_label: Set up persona
+        title:
+        subtext:
+        primary_label:
   invoices:
     rate_limit: 尝试次数过多，请耐心等待之后再次尝试
     invoice_not_found: 未找到发票
@@ -461,7 +461,7 @@ zh-CN:
       all: 全部
       bulk_destroy: 批量删除
       dump: 导出
-      id: ID
+      id:
       private_plugins: 私有插件
       source: 来源
       time: 时间
@@ -473,7 +473,7 @@ zh-CN:
       design_system: 利用我们的原生设计系统
       design_system_docs: 设计系统文档
       dirty_confirm: 您有未保存的更改。确定要离开此页面吗？
-      edit_composition: Edit Composition
+      edit_composition:
       edit_markup: 编辑标记
       edit_markup_for_plugin: 为 %{plugin_setting_name} 编辑标记
       edit_markup_please_save_first: 请先保存后再编辑标记
@@ -498,7 +498,7 @@ zh-CN:
       no_variables_detected: 未检测到变量。
   notices:
     dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
+      discover_callout:
   mfa:
     disable_otp:
       success: 已禁用双重认证
@@ -549,7 +549,7 @@ zh-CN:
       show_playlist: 显示此项
       duplicate: 复制
       duplicate_confirm: 这将创建此项的副本并将其添加到播放列表的底部。是否继续？
-      presentation: Presentation
+      presentation:
       color_palette: 颜色调色板
       device_default: 设备默认（%{name}）
       palette_unavailable: 仅适用于具有多个颜色调色板的设备
@@ -581,7 +581,7 @@ zh-CN:
       tagline: 让您的 TRMNL 更加强大
       available: 可用
       connected: 已连接
-      supported_by_this_device: Supported by this device
+      supported_by_this_device:
       recipes: 配方
       recipes_hint: 社区成员开发的私有插件，支持一键安装。__了解更多__。
     search:
@@ -667,9 +667,9 @@ zh-CN:
       force_refresh_click_here: 点击此处
       force_refresh_click_here_hint: 立即刷新插件
       force_refresh_not_possible: 此插件无法强制刷新，因为 TRMNL 服务器不执行图像处理。__点击此处__了解如何测试您的实例。
-      health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications:
+      health_notifications_hint:
+      health_notifications_checkbox:
       learn_more: 了解更多
       learn_more_fork: 此插件从配方分支而来。
       learn_more_fork_original: 查看原始版本
@@ -713,7 +713,7 @@ zh-CN:
       recipe_visibility_unlisted_hint: 任何拥有链接的人都可以安装。
       refresh_rate: 刷新率
       refresh_rate_hint: 设置插件刷新频率
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
+      refresh_rate_jit_hint:
       refresh_rate_not_configurable: "%{refresh_rate}同步（不可配置）"
       refreshed: 已刷新
       remove_plugin: 移除插件
@@ -721,7 +721,7 @@ zh-CN:
       synced: 已同步
       refresh_paused: 刷新已暂停
       refresh_paused_hint: 自动刷新已暂停。添加到播放列表以重新开始。
-      refresh_paused_hidden_hint: Auto-refresh is paused because this plugin is hidden. To keep its data fresh for other plugins, use the Plugin Merge strategy.
+      refresh_paused_hidden_hint:
       refresh_paused_mashup: 正在刷新混搭
       refresh_paused_mashup_hint: 全屏模式的自动刷新已暂停。混搭仍在更新。
       refresh_stopped: 自动刷新已停止。请修复插件错误以继续。

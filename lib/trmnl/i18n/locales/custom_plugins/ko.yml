@@ -24,7 +24,7 @@ ko:
       ym_format: "%Y년 %-m월"
       chinese_korean:
         leap_format: 윤%{month_label}
-        leap_format_short: LM%{alt_month}
+        leap_format_short:
         ym_format: ", %{heavenly_stem}%{earthly_branch}년 %{leap_month_label}"
         month_labels:
         -
@@ -41,37 +41,6 @@ ko:
         - 11월
         - 12월
         date_labels:
-        -
-        - '1'
-        - '2'
-        - '3'
-        - '4'
-        - '5'
-        - '6'
-        - '7'
-        - '8'
-        - '9'
-        - '10'
-        - '11'
-        - '12'
-        - '13'
-        - '14'
-        - '15'
-        - '16'
-        - '17'
-        - '18'
-        - '19'
-        - '20'
-        - '21'
-        - '22'
-        - '23'
-        - '24'
-        - '25'
-        - '26'
-        - '27'
-        - '28'
-        - '29'
-        - '30'
         heavenly_stems:
         - 갑
         - 을
@@ -98,96 +67,23 @@ ko:
         - 해
       japanese:
         rokuyo_terms:
-        - 先勝
-        - 友引
-        - 先負
-        - 仏滅
-        - 大安
-        - 赤口
         nengo:
           reiwa: 레이와
         ym_format: "%Y년 (%{nengo} %{alt_year}년) %-m월"
         year_1: 원
       hebrew:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        - Nisan
-        - Iyar
-        - Sivan
-        - Tamuz
-        - Av
-        - Elul
-        - Tishri
-        - Heshvan
-        - Kislev
-        - Tevet
-        - Shevat
-        - Adar
-        - Adar I
-        - Adar II
         month_labels_abbr:
-        - Nis
-        - Iya
-        - Siv
-        - Tam
-        - Av
-        - Elu
-        - Tis
-        - Hes
-        - Kis
-        - Tev
-        - Shv
-        - Ada
-        - Ad1
-        - Ad2
       hijri:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        -
-        - Muharram
-        - Safar
-        - Rabiʻ I
-        - Rabiʻ II
-        - Jumada I
-        - Jumada II
-        - Rajab
-        - Shaʻban
-        - Ramadan
-        - Shawwal
-        - Dhuʻl-Qiʻdah
-        - Dhuʻl-Hijjah
       bengali:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        -
-        - Boishakh
-        - Joishtho
-        - Asharh
-        - Srabon
-        - Bhadro
-        - Ashwin
-        - Kartika
-        - Ogrohayon
-        - Poush
-        - Magh
-        - Falgun
-        - Choitro
       indian:
-        ym_format: ", %{month_label} %{alt_year}"
+        ym_format:
         month_labels:
-        -
-        - Chaitra
-        - Vaisakha
-        - Jyaistha
-        - Asadha
-        - Sravana
-        - Bhadra
-        - Asvina
-        - Kartika
-        - Agrahayana
-        - Pausa
-        - Magha
-        - Phalguna
     public_recipe_stats:
       connections: "{$value :number}개 연결"
       forks: "{$value :number}개 포크"
@@ -208,8 +104,8 @@ ko:
     language_learning_sentences:
       from_to: "{$from :langName}에서 {$to :langNameList}(으)로"
     custom_next_holiday:
-      next_holiday: Next holiday
-      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
-      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
-      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
-      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
+      next_holiday:
+      today_and_next:
+      today_only:
+      next_only:
+      no_holidays:
