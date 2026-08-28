@@ -25,5 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "railties", "~> 8.0"
 
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
-  spec.files = Dir["*.gemspec", "lib/**/*"]
+  # Repository tooling under lib/tasks configures the Weblate instance and is not shipped.
+  spec.files = Dir["*.gemspec", "lib/**/*"] - Dir["lib/tasks", "lib/tasks/**/*"]
 end

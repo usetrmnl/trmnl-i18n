@@ -16,6 +16,7 @@ Bundler.require :tools
 require "active_support/core_ext/module/delegation"
 require "refinements"
 require "trmnl/i18n"
+require "webmock/rspec"
 
 SPEC_ROOT = Pathname(__dir__).realpath.freeze
 
