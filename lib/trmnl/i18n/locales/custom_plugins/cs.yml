@@ -1,3 +1,4 @@
+---
 cs:
   custom_plugins:
     today: dnes
@@ -205,7 +206,7 @@ cs:
     horizontal_world_clock:
       name: Světové hodiny
     language_learning_sentences:
-      from_to: "Z jazyka {$from :langName} do {$to :langNameList}"
+      from_to: Z jazyka {$from :langName} do {$to :langNameList}
     custom_next_holiday:
       next_holiday: Příští svátek
       today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Dnes je{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Zítra je {$nextName}.{/subLabel} }}* {{ {#mainLabel}Dnes je{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Příští svátek je {$nextName} za {$nextDays} dní.{/subLabel} }}"
