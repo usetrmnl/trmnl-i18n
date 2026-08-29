@@ -99,6 +99,52 @@ module Weblate
 
   def self.update_settings(name) = component_settings(name).except(*SHARED_REPOSITORY_KEYS)
 
+  # screenshots/plugin_renders/weather.png names the strings it shows. Weblate separates
+  # nested keys with -> rather than a dot, so a dotted prefix matches nothing.
+  def self.key_prefix_for filename
+    parts = filename.split "/"
+    return unless parts.length == 3 && parts.first == "screenshots"
+
+    "renders->#{File.basename parts.last, ".png"}->"
+  end
+
+  # Only the English units accept a screenshot link; the rest are its translations.
+  # :reek:TooManyStatements - paging is a loop with a cursor; splitting it hides the cursor.
+  def self.source_units client, component
+    page = 1
+    [].tap do |units|
+      loop do
+        answer = client.get "units/?q=component:#{component}&page=#{page}&page_size=200"
+        units.concat(answer.fetch("results").select { it["translation"].end_with? "/en/" })
+        break unless answer["next"]
+
+        page += 1
+      end
+    end
+  end
+
+  # Answers a line per screenshot describing what it did, so the task itself stays a caller.
+  def self.link_screenshots client, component
+    units = source_units client, component
+    listing = client.get "components/#{PROJECT}/#{component}/screenshots/"
+
+    listing.fetch("results").map { link_screenshot client, it, units }
+  end
+
+  # :reek:TooManyStatements - three refusals and the link, each worth reporting separately.
+  def self.link_screenshot client, screenshot, units
+    name = screenshot.fetch "name"
+    prefix = key_prefix_for name
+    return "skipped #{name}: no key prefix" unless prefix
+    return "#{name}: already linked" if screenshot.fetch("units").any?
+
+    matching = units.select { it.fetch("context").start_with? prefix }
+    matching.each do |unit|
+      client.post "screenshots/#{screenshot.fetch "id"}/units/", {"unit_id" => unit.fetch("id")}
+    end
+    "#{name}: linked #{matching.count}"
+  end
+
   def self.ensure_project client
     return if client.get("projects/").fetch("results").any? { it["slug"] == PROJECT }
 

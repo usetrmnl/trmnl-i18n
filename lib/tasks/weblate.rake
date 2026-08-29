@@ -21,4 +21,10 @@ namespace :weblate do
       end
     end
   end
+
+  desc "Link each committed screenshot to the strings it shows"
+  task :screenshot_units do
+    client = Weblate::Client.new url: ENV.fetch("WEBLATE_URL"), token: ENV.fetch("WEBLATE_TOKEN")
+    puts Weblate.link_screenshots(client, "plugin_renders")
+  end
 end

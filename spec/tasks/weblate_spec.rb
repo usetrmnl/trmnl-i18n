@@ -41,6 +41,127 @@ RSpec.describe Weblate do
     end
   end
 
+  describe ".key_prefix_for" do
+    it "derives the key prefix from the screenshot filename" do
+      expect(described_class.key_prefix_for("screenshots/plugin_renders/weather.png"))
+        .to eq("renders->weather->")
+    end
+
+    it "answers nil for a path that names no component" do
+      expect(described_class.key_prefix_for("weather.png")).to be(nil)
+    end
+  end
+
+  describe ".source_units" do
+    subject(:units) { described_class.source_units client, "plugin_renders" }
+
+    let(:client) { instance_double Weblate::Client }
+    let :first do
+      {
+        "next" => "page2",
+        "results" => [
+          {"id" => 1, "translation" => "https://x/api/translations/trmnl/plugin_renders/en/"},
+          {"id" => 2, "translation" => "https://x/api/translations/trmnl/plugin_renders/de/"}
+        ]
+      }
+    end
+    let :second do
+      {
+        "next" => nil,
+        "results" => [{"id" => 3, "translation" => "https://x/api/translations/trmnl/plugin_renders/en/"}]
+      }
+    end
+
+    before { allow(client).to receive(:get).and_return(first, second) }
+
+    it "follows every page" do
+      expect(units.map { it["id"] }).to eq([1, 3])
+    end
+
+    it "keeps only the English source units" do
+      expect(units.map { it["translation"] }).to all(end_with("/en/"))
+    end
+  end
+
+  describe ".link_screenshots" do
+    subject(:outcomes) { described_class.link_screenshots client, "plugin_renders" }
+
+    let(:client) { instance_double Weblate::Client, post: {} }
+    let :listing do
+      {
+        "next" => nil,
+        "results" => [
+          {
+            "id" => 9,
+            "name" => "screenshots/plugin_renders/weather.png",
+            "units" => []
+          }
+        ]
+      }
+    end
+    let :page do
+      {
+        "next" => nil,
+        "results" => [
+          {
+            "id" => 1,
+            "context" => "renders->weather->title",
+            "translation" => "https://x/api/translations/trmnl/plugin_renders/en/"
+          }
+        ]
+      }
+    end
+
+    before { allow(client).to receive(:get).and_return(page, listing) }
+
+    it "answers a line for each screenshot" do
+      expect(outcomes).to eq(["screenshots/plugin_renders/weather.png: linked 1"])
+    end
+  end
+
+  describe ".link_screenshot" do
+    subject(:outcome) { described_class.link_screenshot client, screenshot, units }
+
+    let(:client) { instance_double Weblate::Client, post: {} }
+    let(:weather) { "screenshots/plugin_renders/weather.png" }
+    let :units do
+      [
+        {"id" => 1, "context" => "renders->weather->title"},
+        {"id" => 2, "context" => "renders->parcel->status"}
+      ]
+    end
+
+    context "when the screenshot has no links yet" do
+      let(:screenshot) { {"id" => 9, "name" => weather, "units" => []} }
+
+      it "links only the strings that screenshot shows" do
+        outcome
+        expect(client).to have_received(:post).with("screenshots/9/units/", {"unit_id" => 1}).once
+      end
+
+      it "reports what it linked" do
+        expect(outcome).to eq("#{weather}: linked 1")
+      end
+    end
+
+    context "when the screenshot is already linked" do
+      let(:screenshot) { {"id" => 9, "name" => weather, "units" => [1]} }
+
+      it "leaves it alone" do
+        outcome
+        expect(client).not_to have_received(:post)
+      end
+    end
+
+    context "when the filename names no component" do
+      let(:screenshot) { {"id" => 9, "name" => "weather.png", "units" => []} }
+
+      it "says why it skipped" do
+        expect(outcome).to eq("skipped weather.png: no key prefix")
+      end
+    end
+  end
+
   describe ".ensure_project" do
     let(:client) { instance_double Weblate::Client }
 
