@@ -1,0 +1,56 @@
+name: Sync locales
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'lib/trmnl/i18n/locales/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-locales
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Copy English into every locale that is missing a key
+        run: bin/sync
+
+      - name: Open a pull request when that changed anything
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # The specs already refuse an unsynced tree, so this only fires for something that
+          # reached main without them: a direct push, or a merge of two PRs that each passed.
+          if git diff --quiet -- lib/trmnl/i18n/locales; then
+            echo "Locales already match English."
+            exit 0
+          fi
+
+          git diff --stat -- lib/trmnl/i18n/locales
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c sync-locales
+          git commit -m "Updated every locale with the English keys it was missing" \
+                     -- lib/trmnl/i18n/locales
+          git push --force origin sync-locales
+
+          # Force-pushing updates an open pull request in place, so only open one when there
+          # is none: a second call fails rather than reusing it.
+          if [ "$(gh pr list --head sync-locales --state open --json number --jq 'length')" = "0" ]; then
+            gh pr create --base main --head sync-locales \
+              --title "Updated every locale with the English keys it was missing" \
+              --body "bin/sync found keys in en.yml that other locales did not carry. Opened automatically by .github/workflows/sync-locales.yml after a push to main."
+          fi
