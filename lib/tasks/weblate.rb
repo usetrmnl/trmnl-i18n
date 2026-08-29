@@ -12,23 +12,32 @@ module Weblate
   PROJECT_SETTINGS = {"name" => "TRMNL", "slug" => PROJECT, "web" => "https://trmnl.com/"}.freeze
   REPOSITORY = "https://github.com/usetrmnl/trmnl-i18n.git"
 
-  # Weblate shares one checkout across components in a project, and a linked component
-  # rejects any repository field outright instead of ignoring it.
-  SHARED_REPOSITORY_KEYS = %w[slug repo branch vcs push push_branch].freeze
+  # A component sharing another's checkout inherits these and answers 400 for them rather than
+  # ignoring them. Which component Weblate treats as the borrower is not visible over the API —
+  # is_repo_link reads null for all of them — so the update tries everything, then retries
+  # without them when Weblate says so.
+  INHERITED_BY_LINKED_COMPONENT = "Option is not available for linked repositories"
+  INHERITED_KEYS = %w[branch].freeze
+  SHARED_REPOSITORY_KEYS = %w[slug].freeze
 
   COMPONENT_DEFAULTS = {
     "file_format" => "ruby-yaml",
+    # 65535 is Weblate's "no line wrapping". At its default of 80 it refolds every long value
+    # on write, so one translated string arrives as hundreds of reformatted lines.
+    "file_format_params" => {"yaml_line_wrap" => 65_535},
     # raw.yml holds dotted key paths for debugging, not a translation, and "raw" is not a
     # language. Weblate applies this only while discovering languages, so a component that
     # imported raw once has to be deleted and recreated, not patched.
     "language_regex" => "^(?!raw$).+$",
     "repo" => REPOSITORY,
     "branch" => "main",
+    # push is deliberately absent. Weblate authenticates a push to origin from credentials in
+    # the URL itself, so it holds a token, and Cloudflare rejects a request body carrying one
+    # with error 1010. It is set once on the server and this task must not overwrite it.
     # The github backend opens a pull request instead of pushing to the branch people
     # read. Naming a push branch is what keeps the work in this repository: Weblate
     # only forks when the push branch is absent or equal to the translated branch.
     "vcs" => "github",
-    "push" => REPOSITORY,
     "push_branch" => "weblate-translations",
     "license" => "MIT"
   }.freeze
@@ -98,6 +107,20 @@ module Weblate
   end
 
   def self.update_settings(name) = component_settings(name).except(*SHARED_REPOSITORY_KEYS)
+
+  # Answers the settings that applied. Sent as one patch so Weblate validates them together:
+  # vcs github is refused on its own because it reads push_branch as still empty.
+  # :reek:TooManyStatements - one patch and a guarded retry; splitting it hides the guard.
+  def self.update_component client, name
+    path = "components/#{PROJECT}/#{name}/"
+    settings = update_settings name
+    client.patch path, settings
+    settings
+  rescue Client::Error => error
+    raise unless error.message.include? INHERITED_BY_LINKED_COMPONENT
+
+    settings.except(*INHERITED_KEYS).tap { client.patch path, it }
+  end
 
   # screenshots/plugin_renders/weather.png names the strings it shows. Weblate separates
   # nested keys with -> rather than a dot, so a dotted prefix matches nothing.

@@ -13,8 +13,8 @@ namespace :weblate do
 
     Weblate::COMPONENTS.each do |name|
       if existing.key? name
-        client.patch "components/#{Weblate::PROJECT}/#{name}/", Weblate.update_settings(name)
-        puts "updated #{name}"
+        applied = Weblate.update_component client, name
+        puts "updated #{name} (#{applied.count} settings)"
       else
         client.post "projects/#{Weblate::PROJECT}/components/", Weblate.component_settings(name)
         puts "created #{name}"

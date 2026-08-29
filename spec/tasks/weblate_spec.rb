@@ -10,6 +10,7 @@ RSpec.describe Weblate do
         "name" => "Web ui",
         "slug" => "web_ui",
         "file_format" => "ruby-yaml",
+        "file_format_params" => {"yaml_line_wrap" => 65_535},
         "filemask" => "lib/trmnl/i18n/locales/web_ui/*.yml",
         "template" => "lib/trmnl/i18n/locales/web_ui/en.yml",
         "screenshot_filemask" => "screenshots/web_ui/*.png",
@@ -17,7 +18,6 @@ RSpec.describe Weblate do
         "repo" => "https://github.com/usetrmnl/trmnl-i18n.git",
         "branch" => "main",
         "vcs" => "github",
-        "push" => "https://github.com/usetrmnl/trmnl-i18n.git",
         "push_branch" => "weblate-translations",
         "license" => "MIT"
       )
@@ -32,12 +32,55 @@ RSpec.describe Weblate do
   describe ".update_settings" do
     subject(:settings) { described_class.update_settings "web_ui" }
 
-    it "omits the repository fields a linked component rejects" do
-      expect(settings.keys).not_to include("slug", "repo", "branch", "vcs", "push", "push_branch")
+    it "omits the slug, which names the component rather than configuring it" do
+      expect(settings.keys).not_to include("slug")
+    end
+
+    it "leaves the push URL alone, since it carries a token this task cannot send" do
+      expect(settings.keys).not_to include("push")
     end
 
     it "keeps the file layout so a moved locale directory still lands" do
       expect(settings["filemask"]).to eq("lib/trmnl/i18n/locales/web_ui/*.yml")
+    end
+  end
+
+  describe ".update_component" do
+    subject(:applied) { described_class.update_component client, "web_ui" }
+
+    let(:client) { instance_double Weblate::Client }
+    let(:refusal) { Weblate::Client::Error.new "400 Option is not available for linked repositories." }
+
+    context "when the whole patch applies" do
+      before { allow(client).to receive(:patch).and_return({}) }
+
+      it "keeps the repository fields" do
+        expect(applied.keys).to include("branch", "repo")
+      end
+    end
+
+    context "when the component inherits its repository from another" do
+      before do
+        call = 0
+        allow(client).to receive(:patch) { (call += 1) == 1 ? fail(refusal) : {} }
+      end
+
+      it "retries without the inherited fields" do
+        expect(applied.keys).not_to include("branch")
+      end
+
+      it "still applies the rest" do
+        expect(applied.keys).to include("vcs", "push_branch")
+      end
+    end
+
+    context "when Weblate refuses for any other reason" do
+      before { allow(client).to receive(:patch).and_raise(Weblate::Client::Error, "400 nope") }
+
+      it "raises" do
+        expectation = proc { applied }
+        expect(&expectation).to raise_error(Weblate::Client::Error, /nope/)
+      end
     end
   end
 
