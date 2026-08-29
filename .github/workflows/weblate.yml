@@ -1,0 +1,29 @@
+name: Weblate
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: weblate-pull
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull main into Weblate
+        env:
+          WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
+        run: |
+          # Only the primary component owns a checkout and the other two borrow it, so
+          # pulling it is what moves all three. See PRIMARY_COMPONENT in lib/tasks/weblate.rb.
+          answer=$(curl --fail-with-body -sS --max-time 120 -X POST \
+            -H "Authorization: Token $WEBLATE_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{"operation": "pull"}' \
+            https://translate.trmnl.com/api/components/trmnl/plugin_renders/repository/)
+          echo "$answer" | jq .
+          # Weblate answers 200 with result false and the reason in detail, so the HTTP
+          # status on its own does not say whether the pull landed.
+          echo "$answer" | jq -e '.result' > /dev/null
