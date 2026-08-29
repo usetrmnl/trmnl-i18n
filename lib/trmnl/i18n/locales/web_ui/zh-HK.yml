@@ -1,4 +1,3 @@
----
 zh-HK:
   locale_name: 繁體中文（香港）
   about: 簡介
@@ -101,37 +100,26 @@ zh-HK:
       distance_in_words:
         half_a_minute: 半分鐘
         less_than_x_seconds:
-          one: 不到%{count}秒
           other: 不到%{count}秒
         less_than_x_minutes:
-          one: 不到%{count}分鐘
           other: 不到%{count}分鐘
         x_seconds:
-          one: "%{count}秒"
-          other: "%{count}秒"
+          other: '%{count}秒'
         x_minutes:
-          one: "%{count}分鐘"
-          other: "%{count}分鐘"
+          other: '%{count}分鐘'
         about_x_hours:
-          one: 約%{count}小時
           other: 約%{count}小時
         x_days:
-          one: "%{count}天"
-          other: "%{count}天"
+          other: '%{count}天'
         about_x_months:
-          one: 約%{count}個月
           other: 約%{count}個月
         x_months:
-          one: "%{count}個月"
-          other: "%{count}個月"
+          other: '%{count}個月'
         about_x_years:
-          one: 約%{count}年
           other: 約%{count}年
         over_x_years:
-          one: 超過%{count}年
           other: 超過%{count}年
         almost_x_years:
-          one: 接近%{count}年
           other: 接近%{count}年
   account:
     index:
@@ -526,8 +514,7 @@ zh-HK:
       smart_playlist: 智能播放清單
       smart_playlist_hint: 自動跳過內容長段時間未變更的畫面。
       skip_after:
-        one: 1日未更新後跳過畫面
-        other: "%{count}日未更新後跳過畫面"
+        other: '%{count}日未更新後跳過畫面'
       add_plugin:
       select:
       exit_select:
@@ -702,10 +689,8 @@ zh-HK:
   plugin_recipes:
     connected: 已連接模板
     connections:
-      one: 個連接
       other: 個連接
     forks:
-      one: 個分叉
       other: 個分叉
     forked:
     new:
