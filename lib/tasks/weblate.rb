@@ -7,7 +7,10 @@ require "net/http"
 # rebuilt rather than remembered. Repository tooling, loaded by lib/tasks/weblate.rake.
 # :reek:TooManyConstants - the constants are the configuration; that is the point of it.
 module Weblate
-  COMPONENTS = %w[web_ui plugin_renders custom_plugins].freeze
+  # The first owns the checkout; the rest borrow it. Three components pushing the same branch
+  # from three checkouts overwrite each other, which Weblate reports as a conflicting setup.
+  PRIMARY_COMPONENT = "plugin_renders"
+  COMPONENTS = [PRIMARY_COMPONENT, "web_ui", "custom_plugins"].freeze
   PROJECT = "trmnl"
   PROJECT_SETTINGS = {"name" => "TRMNL", "slug" => PROJECT, "web" => "https://trmnl.com/"}.freeze
   REPOSITORY = "https://github.com/usetrmnl/trmnl-i18n.git"
@@ -17,7 +20,7 @@ module Weblate
   # is_repo_link reads null for all of them — so the update tries everything, then retries
   # without them when Weblate says so.
   INHERITED_BY_LINKED_COMPONENT = "Option is not available for linked repositories"
-  INHERITED_KEYS = %w[branch].freeze
+  INHERITED_KEYS = %w[branch push push_branch].freeze
   SHARED_REPOSITORY_KEYS = %w[slug].freeze
 
   COMPONENT_DEFAULTS = {
@@ -29,7 +32,6 @@ module Weblate
     # language. Weblate applies this only while discovering languages, so a component that
     # imported raw once has to be deleted and recreated, not patched.
     "language_regex" => "^(?!raw$).+$",
-    "repo" => REPOSITORY,
     "branch" => "main",
     # push is deliberately absent. Weblate authenticates a push to origin from credentials in
     # the URL itself, so it holds a token, and Cloudflare rejects a request body carrying one
@@ -98,8 +100,18 @@ module Weblate
     end
   end
 
+  # :reek:ControlParameter - one component owns the checkout and the rest borrow it; which one
+  # a component is IS the question this answers.
+  def self.repository_settings name
+    return {"repo" => REPOSITORY} if name == PRIMARY_COMPONENT
+
+    # Borrowing the primary's checkout, so Weblate refuses every repository field of its own.
+    {"repo" => "weblate://#{PROJECT}/#{PRIMARY_COMPONENT}"}.merge(INHERITED_KEYS.to_h { [it, ""] })
+  end
+
   def self.component_settings name
-    COMPONENT_DEFAULTS.merge "name" => name.tr("_", " ").capitalize,
+    COMPONENT_DEFAULTS.merge(repository_settings(name))
+                      .merge "name" => name.tr("_", " ").capitalize,
                              "slug" => name,
                              "filemask" => "lib/trmnl/i18n/locales/#{name}/*.yml",
                              "template" => "lib/trmnl/i18n/locales/#{name}/en.yml",
