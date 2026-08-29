@@ -21,6 +21,7 @@ end
 group :test do
   gem "refinements", "~> 14.0"
   gem "rspec", "~> 3.13"
+  gem "webmock", "~> 3.0"
 end
 
 group :tools do

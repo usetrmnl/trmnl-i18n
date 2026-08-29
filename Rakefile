@@ -9,6 +9,8 @@ Reek::Rake::Task.new
 RSpec::Core::RakeTask.new { |task| task.verbose = false }
 RuboCop::RakeTask.new
 
+Dir["lib/tasks/*.rake"].each { |path| load path }
+
 desc "Run code quality checks"
 task quality: %i[reek rubocop]
 
