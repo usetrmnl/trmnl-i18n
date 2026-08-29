@@ -1,4 +1,3 @@
----
 pl:
   locale_name: Polski
   about: O nas
@@ -93,7 +92,7 @@ pl:
   time:
     formats:
       shorter: "%-H:%M"
-    start_of_week: 1
+    start_of_week: '1'
   datetime:
     relative:
       past: "%{time} temu"
@@ -102,57 +101,46 @@ pl:
         half_a_minute: pół minuty
         less_than_x_seconds:
           one: mniej niż sekundę
-          other: mniej niż %{count} sekund
           few: mniej niż %{count} sekundy
           many: mniej niż %{count} sekund
         less_than_x_minutes:
           one: mniej niż minutę
-          other: mniej niż %{count} minut
           few: mniej niż %{count} minuty
           many: mniej niż %{count} minut
         x_seconds:
-          one: "%{count} sekunda"
-          other: "%{count} sekund"
-          few: "%{count} sekundy"
-          many: "%{count} sekund"
+          one: '%{count} sekunda'
+          few: '%{count} sekundy'
+          many: '%{count} sekund'
         x_minutes:
-          one: "%{count} minuta"
-          other: "%{count} minut"
-          few: "%{count} minuty"
-          many: "%{count} minut"
+          one: '%{count} minuta'
+          few: '%{count} minuty'
+          many: '%{count} minut'
         about_x_hours:
           one: około godziny
-          other: około %{count} godzin
           few: około %{count} godziny
           many: około %{count} godzin
         x_days:
-          one: "%{count} dzień"
-          other: "%{count} dni"
-          few: "%{count} dni"
-          many: "%{count} dni"
+          one: '%{count} dzień'
+          few: '%{count} dni'
+          many: '%{count} dni'
         about_x_months:
           one: około miesiąca
-          other: około %{count} miesięcy
           few: około %{count} miesiące
           many: około %{count} miesięcy
         x_months:
-          one: "%{count} miesiąc"
-          other: "%{count} miesięcy"
-          few: "%{count} miesiące"
-          many: "%{count} miesięcy"
+          one: '%{count} miesiąc'
+          few: '%{count} miesiące'
+          many: '%{count} miesięcy'
         about_x_years:
           one: około rok
-          other: około %{count} lat
           few: około %{count} lata
           many: około %{count} lat
         over_x_years:
           one: ponad rok
-          other: ponad %{count} lat
           few: ponad %{count} lata
           many: ponad %{count} lat
         almost_x_years:
           one: prawie rok
-          other: prawie %{count} lat
           few: prawie %{count} lata
           many: prawie %{count} lat
   account:
@@ -549,7 +537,8 @@ pl:
       smart_playlist_hint: Automatycznie pomiń ekrany, na których treści się nie zmieniły przez dłuższy czas.
       skip_after:
         one: Pomiń nieaktualne ekrany po 1 dniu
-        other: Pomiń nieaktualne ekrany po %{count} dniach
+        few:
+        many:
       add_plugin:
       select:
       exit_select:
@@ -725,10 +714,12 @@ pl:
     connected: Receptura połączona
     connections:
       one: Połączenie
-      other: Połączenia
+      few:
+      many:
     forks:
       one: Fork
-      other: Forki
+      few:
+      many:
     forked: Receptura sforkowana
     new:
       error: Nie znaleziono receptury
