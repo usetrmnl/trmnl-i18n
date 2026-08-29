@@ -1,4 +1,3 @@
----
 zh-CN:
   locale_name: 简体中文
   about: 关于
@@ -93,7 +92,7 @@ zh-CN:
   time:
     formats:
       shorter: "%-H:%M"
-    start_of_week: 1
+    start_of_week: '1'
   datetime:
     relative:
       past: "%{time}前"
@@ -101,72 +100,50 @@ zh-CN:
       distance_in_words:
         half_a_minute: 半分钟
         less_than_x_seconds:
-          one: 不到 %{count} 秒
           other: 不到 %{count} 秒
         less_than_x_minutes:
-          one: 不到 %{count} 分钟
           other: 不到 %{count} 分钟
         x_seconds:
-          one: " %{count} 秒"
-          other: " %{count} 秒"
+          other: ' %{count} 秒'
         x_minutes:
-          one: " %{count} 分钟"
-          other: " %{count} 分钟"
+          other: ' %{count} 分钟'
         about_x_hours:
-          one: 约 %{count} 小时
           other: 约 %{count} 小时
         x_days:
-          one: " %{count} 天"
-          other: " %{count} 天"
+          other: ' %{count} 天'
         about_x_months:
-          one: 约 %{count} 个月
           other: 约 %{count} 个月
         x_months:
-          one: " %{count} 个月"
-          other: " %{count} 个月"
+          other: ' %{count} 个月'
         about_x_years:
-          one: 约 %{count} 年
           other: 约 %{count} 年
         over_x_years:
-          one: " %{count} 年多"
-          other: " %{count} 年多"
+          other: ' %{count} 年多'
         almost_x_years:
-          one: 不到 %{count} 年
           other: 不到 %{count} 年
       distance_in_words_future:
         half_a_minute: 半分钟后
         less_than_x_seconds:
-          one: " %{count} 秒以内"
-          other: " %{count} 秒以内"
+          other: ' %{count} 秒以内'
         less_than_x_minutes:
-          one: " %{count} 分钟以内"
-          other: " %{count} 分钟以内"
+          other: ' %{count} 分钟以内'
         x_seconds:
-          one: " %{count} 秒后"
-          other: " %{count} 秒后"
+          other: ' %{count} 秒后'
         x_minutes:
-          one: " %{count} 分钟后"
-          other: " %{count} 分钟后"
+          other: ' %{count} 分钟后'
         about_x_hours:
-          one: 约 %{count} 小时后
           other: 约 %{count} 小时后
         x_days:
-          one: " %{count} 天后"
-          other: " %{count} 天后"
+          other: ' %{count} 天后'
         about_x_months:
-          one: 约 %{count} 个月后
           other: 约 %{count} 个月后
         x_months:
-          one: " %{count} 个月后"
-          other: " %{count} 个月后"
+          other: ' %{count} 个月后'
         about_x_years:
-          one: 约 %{count} 年后
           other: 约 %{count} 年后
         over_x_years:
-          one: " %{count} 年多后"
-          other: " %{count} 年多后"
+          other: ' %{count} 年多后'
         almost_x_years:
-          one: 不到 %{count} 年后
           other: 不到 %{count} 年后
   account:
     index:
@@ -561,7 +538,6 @@ zh-CN:
       smart_playlist: 智能播放列表
       smart_playlist_hint: 自动跳过内容长时间未更新的画面。
       skip_after:
-        one: 跳过超过 1 天未更新的画面
         other: 跳过超过 %{count} 天未更新的画面
       add_plugin:
       select:
@@ -737,10 +713,8 @@ zh-CN:
   plugin_recipes:
     connected: 已连接配方
     connections:
-      one: 连接
       other: 连接
     forks:
-      one: 分支
       other: 分支
     forked: 配方分支成功
     new:
