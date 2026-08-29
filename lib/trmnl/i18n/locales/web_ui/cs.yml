@@ -1,4 +1,3 @@
----
 cs:
   locale_name: Čeština
   about: O aplikaci
@@ -93,7 +92,7 @@ cs:
   time:
     formats:
       shorter: "%-H:%M"
-    start_of_week: 1
+    start_of_week: '1'
   datetime:
     relative:
       past: před %{time}
@@ -102,37 +101,48 @@ cs:
         half_a_minute: půl minutou
         less_than_x_seconds:
           one: méně než %{count} sekundou
-          other: méně než %{count} sekundami
+          few: méně než %{count} sekundami
+          other:
         less_than_x_minutes:
           one: méně než minutou
-          other: méně než %{count} minutami
+          few: méně než %{count} minutami
+          other:
         x_seconds:
-          one: "%{count} sekunda"
-          other: "%{count} sekundami"
+          one: '%{count} sekunda'
+          few: '%{count} sekundami'
+          other:
         x_minutes:
-          one: "%{count} minuta"
-          other: "%{count} minutami"
+          one: '%{count} minuta'
+          few: '%{count} minutami'
+          other:
         about_x_hours:
           one: asi %{count} hodina
-          other: asi %{count} hodinami
+          few: asi %{count} hodinami
+          other:
         x_days:
-          one: "%{count} den"
-          other: "%{count} dny"
+          one: '%{count} den'
+          few: '%{count} dny'
+          other:
         about_x_months:
           one: asi %{count} měsíc
-          other: asi %{count} měsíci
+          few: asi %{count} měsíci
+          other:
         x_months:
-          one: "%{count} měsíc"
-          other: "%{count} měsíci"
+          one: '%{count} měsíc'
+          few: '%{count} měsíci'
+          other:
         about_x_years:
           one: asi %{count} rok
-          other: asi %{count} lety
+          few: asi %{count} lety
+          other:
         over_x_years:
           one: více než %{count} rok
-          other: více než %{count} lety
+          few: více než %{count} lety
+          other:
         almost_x_years:
           one: téměř %{count} rok
-          other: téměř %{count} lety
+          few: téměř %{count} lety
+          other:
   account:
     index:
       title: Účet
@@ -526,7 +536,8 @@ cs:
       smart_playlist_hint: Automaticky přeskakovat obrazovky, jejichž obsah se již nějakou dobu nezměnil.
       skip_after:
         one: Přeskočit zastaralé obrazovky po 1 dni
-        other: Přeskočit zastaralé obrazovky po %{count} dnech
+        few: Přeskočit zastaralé obrazovky po %{count} dnech
+        other:
       add_plugin:
       select:
       exit_select:
@@ -702,10 +713,12 @@ cs:
     connected: Recept připojen
     connections:
       one: Připojení
-      other: Připojení
+      few: Připojení
+      other:
     forks:
       one: Fork
-      other: Forky
+      few: Forky
+      other:
     forked: Recept forknut
     new:
       error: Recept nenalezen
