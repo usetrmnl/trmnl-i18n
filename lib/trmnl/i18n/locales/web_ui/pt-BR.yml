@@ -1,4 +1,3 @@
----
 pt-BR:
   locale_name: Portuguese (Brazil)
   about: Sobre
@@ -102,37 +101,48 @@ pt-BR:
         half_a_minute: meio minuto
         less_than_x_seconds:
           one: menos de %{count} segundo
-          other: menos de %{count} segundos
+          many: menos de %{count} segundos
+          other:
         less_than_x_minutes:
           one: menos de um minuto
-          other: menos de %{count} minutos
+          many: menos de %{count} minutos
+          other:
         x_seconds:
-          one: "%{count} segundo"
-          other: "%{count} segundos"
+          one: '%{count} segundo'
+          many: '%{count} segundos'
+          other:
         x_minutes:
-          one: "%{count} minuto"
-          other: "%{count} minutos"
+          one: '%{count} minuto'
+          many: '%{count} minutos'
+          other:
         about_x_hours:
           one: aproximadamente %{count} hora
-          other: aproximadamente %{count} horas
+          many: aproximadamente %{count} horas
+          other:
         x_days:
-          one: "%{count} dia"
-          other: "%{count} dias"
+          one: '%{count} dia'
+          many: '%{count} dias'
+          other:
         about_x_months:
           one: aproximadamente %{count} mês
-          other: aproximadamente %{count} meses
+          many: aproximadamente %{count} meses
+          other:
         x_months:
-          one: "%{count} mês"
-          other: "%{count} meses"
+          one: '%{count} mês'
+          many: '%{count} meses'
+          other:
         about_x_years:
           one: aproximadamente %{count} ano
-          other: aproximadamente %{count} anos
+          many: aproximadamente %{count} anos
+          other:
         over_x_years:
           one: mais de %{count} ano
-          other: mais de %{count} anos
+          many: mais de %{count} anos
+          other:
         almost_x_years:
           one: quase %{count} ano
-          other: quase %{count} anos
+          many: quase %{count} anos
+          other:
   account:
     index:
       title: Conta
@@ -527,7 +537,8 @@ pt-BR:
       smart_playlist_hint: Esconda telas cujo conteúdo não foi alterado durante algum tempo.
       skip_after:
         one: Esconda telas após 1 dia
-        other: Esconda telas após %{count} dias
+        many: Esconda telas após %{count} dias
+        other:
       add_plugin:
       select:
       exit_select:
@@ -703,10 +714,12 @@ pt-BR:
     connected: Receita instalada
     connections:
       one: Conexão
-      other: Conexões
+      many: Conexões
+      other:
     forks:
       one: Derivação
-      other: Derivações
+      many: Derivações
+      other:
     forked:
     new:
       error: Receita não encontrada
