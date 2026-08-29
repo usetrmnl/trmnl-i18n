@@ -20,8 +20,12 @@ RSpec.describe TRMNL::I18n::Synchronization::Processor do
       processor.call
     end
 
-    it "adds keys the destination locale is missing, marked untranslated" do
-      expect(repo.load("fr")).to eq({"fr" => {"hello" => "Bonjour", "world" => nil}})
+    it "adds keys the destination locale is missing, defaulted to English" do
+      expect(repo.load("fr")).to eq({"fr" => {"hello" => "Bonjour", "world" => "World"}})
+    end
+
+    it "keeps an existing translation rather than overwriting it with English" do
+      expect(repo.load("fr").fetch("fr").fetch("hello")).to eq("Bonjour")
     end
 
     it "leaves the source locale alone" do
