@@ -351,6 +351,18 @@ raw:
         reset_persona_confirm: devices.edit.persona.reset_persona_confirm
       low_battery_notification_email: devices.edit.low_battery_notification_email
       low_battery_notification_email_hint: devices.edit.low_battery_notification_email_hint
+      custom_width: devices.edit.custom_width
+      custom_height: devices.edit.custom_height
+      custom_format: devices.edit.custom_format
+      framework_size: devices.edit.framework_size
+      maximum_image_bytes: devices.edit.maximum_image_bytes
+      dither_pixel_ratio: devices.edit.dither_pixel_ratio
+      text_scale: devices.edit.text_scale
+      text_scale_hint: devices.edit.text_scale_hint
+      text_scale_version_note: devices.edit.text_scale_version_note
+      theme: devices.edit.theme
+      theme_hint: devices.edit.theme_hint
+      theme_version_note: devices.edit.theme_version_note
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -651,6 +663,10 @@ raw:
     smart_skip_modal:
       title: playlist_items.smart_skip_modal.title
       apply: playlist_items.smart_skip_modal.apply
+    playlist_item_schedule:
+      adjust_schedule: playlist_items.playlist_item_schedule.adjust_schedule
+    update_full_playlist_order:
+      error: playlist_items.update_full_playlist_order.error
   plugins:
     index:
       title: plugins.index.title
@@ -1368,6 +1384,8 @@ raw:
     update:
       success: mashups.update.success
       error: mashups.update.error
+    render_section_error:
+      error: mashups.render_section_error.error
   playlist_coverage:
     title: playlist_coverage.title
     your_timezone: playlist_coverage.your_timezone

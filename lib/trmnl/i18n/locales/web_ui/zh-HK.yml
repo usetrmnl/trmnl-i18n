@@ -351,6 +351,18 @@ zh-HK:
         reset_persona_confirm: Reset this persona and delete its saved recommendations?
       low_battery_notification_email: Send This Device's Notification To
       low_battery_notification_email_hint: Overrides the address on your account, so one display can alert whoever looks after it. Leave blank to use the account address.
+      custom_width: Width (px)
+      custom_height: Height (px)
+      custom_format: Image format
+      framework_size: Framework size
+      maximum_image_bytes: Maximum image bytes
+      dither_pixel_ratio: Dither pixel ratio
+      text_scale: Text Scale
+      text_scale_hint: Adjust the size of text across your plugin screens.
+      text_scale_version_note: Requires Framework 3.1.5 or later. Private plugins pinned to an older version will not be affected.
+      theme: Theme
+      theme_hint: Apply a color theme across your plugin screens.
+      theme_version_note: Requires Framework 3.2 or later. Private plugins pinned to an older version will not be affected.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -651,6 +663,10 @@ zh-HK:
     smart_skip_modal:
       title: Smart Skip
       apply: Done
+    playlist_item_schedule:
+      adjust_schedule: Adjust schedule
+    update_full_playlist_order:
+      error: Playlist order could not be saved
   plugins:
     index:
       title: 外掛功能
@@ -1370,6 +1386,8 @@ zh-HK:
     update:
       success: Mashup updated
       error: Every section needs a plugin — pick one for each and save again.
+    render_section_error:
+      error: That section could not be rendered — try again.
   playlist_coverage:
     title: Playlist coverage
     your_timezone: your timezone
