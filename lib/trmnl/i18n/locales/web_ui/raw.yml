@@ -178,6 +178,8 @@ raw:
       time_zone_hint: account.index.time_zone_hint
       locale: account.index.locale
       locale_hint: account.index.locale_hint __Go here__.
+      low_battery_notification_email: account.index.low_battery_notification_email
+      low_battery_notification_email_hint: account.index.low_battery_notification_email_hint
     update:
       success: account.update.success
     reset_api_key:
@@ -347,6 +349,8 @@ raw:
         reset_persona: devices.edit.persona.reset_persona
         reset_persona_hint: devices.edit.persona.reset_persona_hint
         reset_persona_confirm: devices.edit.persona.reset_persona_confirm
+      low_battery_notification_email: devices.edit.low_battery_notification_email
+      low_battery_notification_email_hint: devices.edit.low_battery_notification_email_hint
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -435,6 +439,18 @@ raw:
       private_plugins: logs.index.private_plugins
       source: logs.index.source
       time: logs.index.time
+      activity: logs.index.activity
+      device: logs.index.device
+      plugins: logs.index.plugins
+      mashups: logs.index.mashups
+      errors_only: logs.index.errors_only
+      auto_refresh: logs.index.auto_refresh
+      not_available: logs.index.not_available
+      temporarily_unavailable: logs.index.temporarily_unavailable
+      empty: logs.index.empty
+      expiry_notice: logs.index.expiry_notice
+      load_older: logs.index.load_older
+      level: logs.index.level
   markups:
     console_logs:
       js_logs: markups.console_logs.js_logs
@@ -488,6 +504,9 @@ raw:
       reset_instructions: mfa.verify_otp.reset_instructions
       success: mfa.verify_otp.success
       error: mfa.verify_otp.error
+      reset_hint: mfa.verify_otp.reset_hint
+      reset_pending: mfa.verify_otp.reset_pending
+      no_device: mfa.verify_otp.no_device
   playlist_items:
     index:
       title: playlists.index.title
@@ -509,6 +528,29 @@ raw:
       skip_after:
         one: playlist_items.index.skip_after.one
         other: playlist_items.index.skip_after.other
+      add_plugin: playlist_items.index.add_plugin
+      select: playlist_items.index.select
+      exit_select: playlist_items.index.exit_select
+      time_travel_now: playlist_items.index.time_travel_now
+      time_travel_at: playlist_items.index.time_travel_at
+      smart_skip: playlist_items.index.smart_skip
+      smart_skip_hint: playlist_items.index.smart_skip_hint
+      view: playlist_items.index.view
+      list_density: playlist_items.index.list_density
+      regular: playlist_items.index.regular
+      compact: playlist_items.index.compact
+      schedule: playlist_items.index.schedule
+      show: playlist_items.index.show
+      hide: playlist_items.index.hide
+      empty:
+        no_plugins:
+          heading: playlist_items.index.empty.no_plugins.heading
+          description: playlist_items.index.empty.no_plugins.description
+          cta: playlist_items.index.empty.no_plugins.cta
+        no_items:
+          heading: playlist_items.index.empty.no_items.heading
+          description: playlist_items.index.empty.no_items.description
+          cta: playlist_items.index.empty.no_items.cta
     playlist_item:
       adjust_schedule: playlist_items.playlist_item.adjust_schedule
       delete: playlists.playlist.delete
@@ -529,6 +571,10 @@ raw:
         global: playlist_items.playlist_item.refresh_rate_disabled.global
         mashup: playlist_items.playlist_item.refresh_rate_disabled.mashup
         readonly: playlist_items.playlist_item.refresh_rate_disabled.readonly
+      last_shown: playlist_items.playlist_item.last_shown
+      title_tooltip:
+        source_plugin: playlist_items.playlist_item.title_tooltip.source_plugin
+      force_refresh: playlist_items.playlist_item.force_refresh
     create:
       error: playlists.create.error
       success: playlists.create.success
@@ -545,6 +591,66 @@ raw:
       success: playlist_items.set_preferences.success
     update:
       success: playlists.update.success
+    refresh:
+      success: playlist_items.refresh.success
+      placeholder: playlist_items.refresh.placeholder
+    status:
+      error: playlist_items.status.error
+      setup: playlist_items.status.setup
+      now: playlist_items.status.now
+      hidden: playlist_items.status.hidden
+      skipped: playlist_items.status.skipped
+      out_of_schedule: playlist_items.status.out_of_schedule
+      important_active: playlist_items.status.important_active
+      stale: playlist_items.status.stale
+      pending: playlist_items.status.pending
+    status_description:
+      error: playlist_items.status_description.error
+      setup: playlist_items.status_description.setup
+      now: playlist_items.status_description.now
+      hidden: playlist_items.status_description.hidden
+      skipped: playlist_items.status_description.skipped
+      out_of_schedule: playlist_items.status_description.out_of_schedule
+      important_active: playlist_items.status_description.important_active
+      stale: playlist_items.status_description.stale
+      pending: playlist_items.status_description.pending
+    schedule:
+      always: playlist_items.schedule.always
+      custom:
+        one: playlist_items.schedule.custom.one
+        other: playlist_items.schedule.custom.other
+      important_title: playlist_items.schedule.important_title
+      important_description: playlist_items.schedule.important_description
+    column:
+      schedule: playlist_items.column.schedule
+      status: playlist_items.column.status
+    skip_reasons:
+      needs_configuration: playlist_items.skip_reasons.needs_configuration
+      hidden: playlist_items.skip_reasons.hidden
+      skipped: playlist_items.skip_reasons.skipped
+      schedule: playlist_items.skip_reasons.schedule
+      stale: playlist_items.skip_reasons.stale
+    bulk_actions:
+      selected:
+        one: playlist_items.bulk_actions.selected.one
+        other: playlist_items.bulk_actions.selected.other
+      hide: playlist_items.bulk_actions.hide
+      show: playlist_items.bulk_actions.show
+      delete: playlist_items.bulk_actions.delete
+      cancel: playlist_items.bulk_actions.cancel
+      destroy_confirm: playlist_items.bulk_actions.destroy_confirm
+      success:
+        hide: playlist_items.bulk_actions.success.hide
+        show: playlist_items.bulk_actions.success.show
+        destroy: playlist_items.bulk_actions.success.destroy
+      error: playlist_items.bulk_actions.error
+    time_travel_modal:
+      title: playlist_items.time_travel_modal.title
+      apply: playlist_items.time_travel_modal.apply
+      false: playlist_items.time_travel_modal.false
+    smart_skip_modal:
+      title: playlist_items.smart_skip_modal.title
+      apply: playlist_items.smart_skip_modal.apply
   plugins:
     index:
       title: plugins.index.title
@@ -697,6 +803,9 @@ raw:
       refresh_stopped: plugin_settings.form.refresh_stopped
       view_recipe: View Recipe
       visit_docs: plugin_settings.form.visit_docs
+      preview_from_device: plugin_settings.form.preview_from_device
+      refresh_paused_merge: plugin_settings.form.refresh_paused_merge
+      refresh_paused_merge_hint: plugin_settings.form.refresh_paused_merge_hint
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -712,6 +821,14 @@ raw:
       success: plugin_settings.update.success
     add_to_playlist:
       success: plugin_settings.add_to_playlist.success
+    refresh_already_in_progress: plugin_settings.refresh_already_in_progress
+    remote_select:
+      awaiting_connection: plugin_settings.remote_select.awaiting_connection
+      connection_broken: plugin_settings.remote_select.connection_broken
+      unavailable: plugin_settings.remote_select.unavailable
+    delete_mashup_warning:
+      one: plugin_settings.delete_mashup_warning.one
+      other: plugin_settings.delete_mashup_warning.other
   referral_code:
     create:
       request_received: referral_code.create.request_received
@@ -739,3 +856,524 @@ raw:
       error: upgrade.index.error
     confirm:
       success: upgrade.confirm.success
+  activity_logs:
+    index:
+      title: activity_logs.index.title
+      view_logs: activity_logs.index.view_logs
+      hint: activity_logs.index.hint
+      not_available: activity_logs.index.not_available
+      temporarily_unavailable: activity_logs.index.temporarily_unavailable
+      empty_day: activity_logs.index.empty_day
+      truncated: activity_logs.index.truncated
+      previous_day: activity_logs.index.previous_day
+      next_day: activity_logs.index.next_day
+      day_events:
+        one: activity_logs.index.day_events.one
+        other: activity_logs.index.day_events.other
+      time: activity_logs.index.time
+      event: activity_logs.index.event
+      screen: activity_logs.index.screen
+      device: activity_logs.index.device
+      detail: activity_logs.index.detail
+    link:
+      title: activity_logs.link.title
+      device_hint: activity_logs.link.device_hint
+      source_hint: activity_logs.link.source_hint
+    events:
+      checkin: activity_logs.events.checkin
+      schedule: activity_logs.events.schedule
+      render: activity_logs.events.render
+      serve: activity_logs.events.serve
+      caught_up: activity_logs.events.caught_up
+    checkin:
+      ok: activity_logs.checkin.ok
+      failed: activity_logs.checkin.failed
+      firmware: activity_logs.checkin.firmware
+      battery: activity_logs.checkin.battery
+    schedule:
+      refresh_at: activity_logs.schedule.refresh_at
+    schedule_reasons:
+      wrote: activity_logs.schedule_reasons.wrote
+      wrote_screen: activity_logs.schedule_reasons.wrote_screen
+      not_predicted: activity_logs.schedule_reasons.not_predicted
+      source_missing: activity_logs.schedule_reasons.source_missing
+      mirror: activity_logs.schedule_reasons.mirror
+      mirror_scheduled: activity_logs.schedule_reasons.mirror_scheduled
+      mirror_throttled: activity_logs.schedule_reasons.mirror_throttled
+      mirror_cold: activity_logs.schedule_reasons.mirror_cold
+      global_bootstrap: activity_logs.schedule_reasons.global_bootstrap
+      owner_mismatch: activity_logs.schedule_reasons.owner_mismatch
+      unhealthy: activity_logs.schedule_reasons.unhealthy
+      never_later: activity_logs.schedule_reasons.never_later
+      refresh_overdue: activity_logs.schedule_reasons.refresh_overdue
+      not_jit_schedulable: activity_logs.schedule_reasons.not_jit_schedulable
+      violates_minimum: activity_logs.schedule_reasons.violates_minimum
+    render_statuses:
+      ok: activity_logs.render_statuses.ok
+      error: activity_logs.render_statuses.error
+      skipped: activity_logs.render_statuses.skipped
+      timeout: activity_logs.render_statuses.timeout
+    render_reasons:
+      data_changed: activity_logs.render_reasons.data_changed
+      first_screen: activity_logs.render_reasons.first_screen
+      forced: activity_logs.render_reasons.forced
+      timely: activity_logs.render_reasons.timely
+      no_data_changed: activity_logs.render_reasons.no_data_changed
+      all_appearances_fresh: activity_logs.render_reasons.all_appearances_fresh
+      device_inactive: activity_logs.render_reasons.device_inactive
+      playlist_items_hidden: activity_logs.render_reasons.playlist_items_hidden
+      mashup_incomplete: activity_logs.render_reasons.mashup_incomplete
+      only_in_mashups: activity_logs.render_reasons.only_in_mashups
+      no_screen_generation: activity_logs.render_reasons.no_screen_generation
+      skip_screen_generation: activity_logs.render_reasons.skip_screen_generation
+      skip_display: activity_logs.render_reasons.skip_display
+      markup_incomplete: activity_logs.render_reasons.markup_incomplete
+      render_crash_backoff: activity_logs.render_reasons.render_crash_backoff
+      completed_after_deadline: activity_logs.render_reasons.completed_after_deadline
+      data_fetch_error: activity_logs.render_reasons.data_fetch_error
+      network_connect_error: activity_logs.render_reasons.network_connect_error
+      invalid_url: activity_logs.render_reasons.invalid_url
+      access_token_expired: activity_logs.render_reasons.access_token_expired
+      transform_error: activity_logs.render_reasons.transform_error
+      liquid_syntax_error: activity_logs.render_reasons.liquid_syntax_error
+      size_too_large: activity_logs.render_reasons.size_too_large
+      render_timeout: activity_logs.render_reasons.render_timeout
+      dead_session: activity_logs.render_reasons.dead_session
+      command_timeout: activity_logs.render_reasons.command_timeout
+      unhandled_error: activity_logs.render_reasons.unhandled_error
+    serve_statuses:
+      served: activity_logs.serve_statuses.served
+      alias: activity_logs.serve_statuses.alias
+      redirect: activity_logs.serve_statuses.redirect
+      empty_state: activity_logs.serve_statuses.empty_state
+      no_content: activity_logs.serve_statuses.no_content
+  activerecord:
+    models:
+      apps/room_booking/app: activerecord.models.apps/room_booking/app
+      apps/fleet/app: activerecord.models.apps/fleet/app
+      plugin_uninstall_feedback:
+        one: activerecord.models.plugin_uninstall_feedback.one
+        other: activerecord.models.plugin_uninstall_feedback.other
+    attributes:
+      plugin_setting:
+        ai_coauthored: activerecord.attributes.plugin_setting.ai_coauthored
+  apps:
+    core:
+      public:
+        expired:
+          title: apps.core.public.expired.title
+          body: apps.core.public.expired.body
+    room_booking:
+      resource_kinds:
+        room: apps.room_booking.resource_kinds.room
+        space: apps.room_booking.resource_kinds.space
+        workspace: apps.room_booking.resource_kinds.workspace
+        desk: apps.room_booking.resource_kinds.desk
+        parking_space: apps.room_booking.resource_kinds.parking_space
+        vehicle: apps.room_booking.resource_kinds.vehicle
+        equipment: apps.room_booking.resource_kinds.equipment
+        person: apps.room_booking.resource_kinds.person
+        other: apps.room_booking.resource_kinds.other
+      summary:
+        rooms:
+          one: apps.room_booking.summary.rooms.one
+          other: apps.room_booking.summary.rooms.other
+      common:
+        unavailable: apps.room_booking.common.unavailable
+        units_available:
+          one: apps.room_booking.common.units_available.one
+          other: apps.room_booking.common.units_available.other
+        add_to_device: apps.room_booking.common.add_to_device
+        available: apps.room_booking.common.available
+        booked: apps.room_booking.common.booked
+        booking: apps.room_booking.common.booking
+        booked_for_day: apps.room_booking.common.booked_for_day
+        booked_with_trmnl: apps.room_booking.common.booked_with_trmnl
+        booking_cancelled: apps.room_booking.common.booking_cancelled
+        booking_ended: apps.room_booking.common.booking_ended
+        cancel: apps.room_booking.common.cancel
+        cancel_booking_confirm: apps.room_booking.common.cancel_booking_confirm
+        capacity: apps.room_booking.common.capacity
+        calendars: apps.room_booking.common.calendars
+        collections: apps.room_booking.common.collections
+        disconnect: apps.room_booking.common.disconnect
+        device_count:
+          one: apps.room_booking.common.device_count.one
+          other: apps.room_booking.common.device_count.other
+        edit: apps.room_booking.common.edit
+        visit_docs: apps.room_booking.common.visit_docs
+        end: apps.room_booking.common.end
+        end_booking_confirm: apps.room_booking.common.end_booking_confirm
+        integrations: apps.room_booking.common.integrations
+        provider_names:
+          google: apps.room_booking.common.provider_names.google
+          ical: apps.room_booking.common.provider_names.ical
+          microsoft: apps.room_booking.common.provider_names.microsoft
+        remove: apps.room_booking.common.remove
+        save_changes: apps.room_booking.common.save_changes
+        update_changes: apps.room_booking.common.update_changes
+        seats:
+          one: apps.room_booking.common.seats.one
+          other: apps.room_booking.common.seats.other
+        features:
+          one: apps.room_booking.common.features.one
+          other: apps.room_booking.common.features.other
+        settings: apps.room_booking.common.settings
+        show_more: apps.room_booking.common.show_more
+        sync_error: apps.room_booking.common.sync_error
+        sync_error_badge: apps.room_booking.common.sync_error_badge
+        synchronize: apps.room_booking.common.synchronize
+        timezone: apps.room_booking.common.timezone
+        tz: apps.room_booking.common.tz
+        walk_up_title: apps.room_booking.common.walk_up_title
+      shared:
+        back_to_apps: apps.room_booking.shared.back_to_apps
+        displays:
+          no_devices: apps.room_booking.shared.displays.no_devices
+          open_settings: apps.room_booking.shared.displays.open_settings
+          other_manager: apps.room_booking.shared.displays.other_manager
+          show_on_device: apps.room_booking.shared.displays.show_on_device
+          stop_showing_confirm: apps.room_booking.shared.displays.stop_showing_confirm
+          title: apps.room_booking.shared.displays.title
+      screens:
+        available:
+          next: apps.room_booking.screens.available.next
+          nothing_scheduled_today: apps.room_booking.screens.available.nothing_scheduled_today
+        occupied:
+          attendee: apps.room_booking.screens.occupied.attendee
+          all_day: apps.room_booking.screens.occupied.all_day
+          more_attendees:
+            one: apps.room_booking.screens.occupied.more_attendees.one
+            other: apps.room_booking.screens.occupied.more_attendees.other
+      room_screens:
+        until: apps.room_booking.room_screens.until
+      home:
+        index:
+          calendars_on_display: apps.room_booking.home.index.calendars_on_display
+          company_branding: apps.room_booking.home.index.company_branding
+          low_battery: apps.room_booking.home.index.low_battery
+          none: apps.room_booking.home.index.none
+          sync_errors: apps.room_booking.home.index.sync_errors
+          toggle_values:
+            disabled: apps.room_booking.home.index.toggle_values.disabled
+            enabled: apps.room_booking.home.index.toggle_values.enabled
+          unmapped_devices: apps.room_booking.home.index.unmapped_devices
+          virtual_device: apps.room_booking.home.index.virtual_device
+      calendars:
+        setup_docs: apps.room_booking.calendars.setup_docs
+        display_preview:
+          not_rendered_yet: apps.room_booking.calendars.display_preview.not_rendered_yet
+        form:
+          booking_integrations: apps.room_booking.calendars.form.booking_integrations
+          capacity_hint: apps.room_booking.calendars.form.capacity_hint
+          create_calendar: apps.room_booking.calendars.form.create_calendar
+          delete_calendar: apps.room_booking.calendars.form.delete_calendar
+          delete_calendar_confirm: apps.room_booking.calendars.form.delete_calendar_confirm
+          ical_url: apps.room_booking.calendars.form.ical_url
+          ical_url_hint: apps.room_booking.calendars.form.ical_url_hint
+          managed_fields_disclaimer: apps.room_booking.calendars.form.managed_fields_disclaimer
+          override_name: apps.room_booking.calendars.form.override_name
+          override_name_hint: apps.room_booking.calendars.form.override_name_hint
+          remote_id: apps.room_booking.calendars.form.remote_id
+          show_booking_qr: apps.room_booking.calendars.form.show_booking_qr
+          timezone: apps.room_booking.calendars.form.timezone
+          timezone_hint: apps.room_booking.calendars.form.timezone_hint
+        new:
+          title: apps.room_booking.calendars.new.title
+          description: apps.room_booking.calendars.new.description
+          back_to_calendars: apps.room_booking.calendars.new.back_to_calendars
+        edit:
+          back_to_calendar: apps.room_booking.calendars.edit.back_to_calendar
+          title: apps.room_booking.calendars.edit.title
+        index:
+          google_personal: apps.room_booking.calendars.index.google_personal
+          google_workspace: apps.room_booking.calendars.index.google_workspace
+          microsoft_personal: apps.room_booking.calendars.index.microsoft_personal
+          microsoft_workspace: apps.room_booking.calendars.index.microsoft_workspace
+          ical_rooms: apps.room_booking.calendars.index.ical_rooms
+          empty_html: apps.room_booking.calendars.index.empty_html
+        show:
+          available_now: apps.room_booking.calendars.show.available_now
+          back_to_calendars: apps.room_booking.calendars.show.back_to_calendars
+          building: apps.room_booking.calendars.show.building
+          calendar_schedule: apps.room_booking.calendars.show.calendar_schedule
+          edit_room: apps.room_booking.calendars.show.edit_room
+          edit_calendar: apps.room_booking.calendars.show.edit_calendar
+          edited_name: apps.room_booking.calendars.show.edited_name
+          edited_name_yes: apps.room_booking.calendars.show.edited_name_yes
+          externally_managed: apps.room_booking.calendars.show.externally_managed
+          externally_managed_hint: apps.room_booking.calendars.show.externally_managed_hint
+          features: apps.room_booking.calendars.show.features
+          floor: apps.room_booking.calendars.show.floor
+          floor_area: apps.room_booking.calendars.show.floor_area
+          in_use: apps.room_booking.calendars.show.in_use
+          in_use_until_html: apps.room_booking.calendars.show.in_use_until_html
+          kind: apps.room_booking.calendars.show.kind
+          last_synced_html: apps.room_booking.calendars.show.last_synced_html
+          next_at_html: apps.room_booking.calendars.show.next_at_html
+          no_upcoming_bookings: apps.room_booking.calendars.show.no_upcoming_bookings
+          print_booking_code: apps.room_booking.calendars.show.print_booking_code
+          show_qr: apps.room_booking.calendars.show.show_qr
+          show_booking_qr: apps.room_booking.calendars.show.show_booking_qr
+          show_booking_qr_values:
+            disabled: apps.room_booking.calendars.show.show_booking_qr_values.disabled
+            enabled: apps.room_booking.calendars.show.show_booking_qr_values.enabled
+          upcoming: apps.room_booking.calendars.show.upcoming
+      collections:
+        edit:
+          back_to_collection: apps.room_booking.collections.edit.back_to_collection
+          title: apps.room_booking.collections.edit.title
+        form:
+          create_collection: apps.room_booking.collections.form.create_collection
+          delete_collection: apps.room_booking.collections.form.delete_collection
+          delete_collection_confirm: apps.room_booking.collections.form.delete_collection_confirm
+          display_layout: apps.room_booking.collections.form.display_layout
+          no_resources: apps.room_booking.collections.form.no_resources
+          no_resources_for_type: apps.room_booking.collections.form.no_resources_for_type
+          resource_type: apps.room_booking.collections.form.resource_type
+          resources_required: apps.room_booking.collections.form.resources_required
+          resources: apps.room_booking.collections.form.resources
+          resources_hint: apps.room_booking.collections.form.resources_hint
+          select_all: apps.room_booking.collections.form.select_all
+          select_none: apps.room_booking.collections.form.select_none
+          show_booking_qr: apps.room_booking.collections.form.show_booking_qr
+          type: apps.room_booking.collections.form.type
+        display_layouts:
+          grid: apps.room_booking.collections.display_layouts.grid
+          list: apps.room_booking.collections.display_layouts.list
+        index:
+          create_collection: apps.room_booking.collections.index.create_collection
+          empty: apps.room_booking.collections.index.empty
+          resource_count:
+            one: apps.room_booking.collections.index.resource_count.one
+            other: apps.room_booking.collections.index.resource_count.other
+          title: apps.room_booking.collections.index.title
+        new:
+          back_to_collections: apps.room_booking.collections.new.back_to_collections
+          description: apps.room_booking.collections.new.description
+          title: apps.room_booking.collections.new.title
+        notices:
+          created: apps.room_booking.collections.notices.created
+          removed: apps.room_booking.collections.notices.removed
+          updated: apps.room_booking.collections.notices.updated
+        resource_types:
+          none: apps.room_booking.collections.resource_types.none
+          room: apps.room_booking.collections.resource_types.room
+        show:
+          back_to_collections: apps.room_booking.collections.show.back_to_collections
+          display_layout: apps.room_booking.collections.show.display_layout
+          included_resources: apps.room_booking.collections.show.included_resources
+          no_resources: apps.room_booking.collections.show.no_resources
+          resource_count: apps.room_booking.collections.show.resource_count
+          resource_types: apps.room_booking.collections.show.resource_types
+          show_booking_qr: apps.room_booking.collections.show.show_booking_qr
+          show_qr: apps.room_booking.collections.show.show_qr
+          show_booking_qr_values:
+            disabled: apps.room_booking.collections.show.show_booking_qr_values.disabled
+            enabled: apps.room_booking.collections.show.show_booking_qr_values.enabled
+          type: apps.room_booking.collections.show.type
+          edit_collection: apps.room_booking.collections.show.edit_collection
+        screens:
+          empty: apps.room_booking.collections.screens.empty
+        types:
+          any: apps.room_booking.collections.types.any
+          rooms: apps.room_booking.collections.types.rooms
+          spaces: apps.room_booking.collections.types.spaces
+          desks: apps.room_booking.collections.types.desks
+          desk_pools: apps.room_booking.collections.types.desk_pools
+          parking_spaces: apps.room_booking.collections.types.parking_spaces
+          vehicles: apps.room_booking.collections.types.vehicles
+          equipment: apps.room_booking.collections.types.equipment
+          people: apps.room_booking.collections.types.people
+          other: apps.room_booking.collections.types.other
+      integrations:
+        edit:
+          back_to_integrations: apps.room_booking.integrations.edit.back_to_integrations
+          microsoft_exchange_docs: apps.room_booking.integrations.edit.microsoft_exchange_docs
+          microsoft_verification_failed: apps.room_booking.integrations.edit.microsoft_verification_failed
+          no_calendars: apps.room_booking.integrations.edit.no_calendars
+          synchronized_calendars: apps.room_booking.integrations.edit.synchronized_calendars
+          synchronized_calendars_hint: apps.room_booking.integrations.edit.synchronized_calendars_hint
+          title: apps.room_booking.integrations.edit.title
+        index:
+          add_account: apps.room_booking.integrations.index.add_account
+          add_calendar: apps.room_booking.integrations.index.add_calendar
+          add_company: apps.room_booking.integrations.index.add_company
+          connected_accounts: apps.room_booking.integrations.index.connected_accounts
+          disconnect_account_confirm: apps.room_booking.integrations.index.disconnect_account_confirm
+          disconnect_workspace_confirm: apps.room_booking.integrations.index.disconnect_workspace_confirm
+          google_account: apps.room_booking.integrations.index.google_account
+          google_account_hint: apps.room_booking.integrations.index.google_account_hint
+          google_workspace: apps.room_booking.integrations.index.google_workspace
+          google_workspace_account: apps.room_booking.integrations.index.google_workspace_account
+          google_workspace_hint: apps.room_booking.integrations.index.google_workspace_hint
+          ical: apps.room_booking.integrations.index.ical
+          ical_hint: apps.room_booking.integrations.index.ical_hint
+          change_configuration: apps.room_booking.integrations.index.change_configuration
+          configure_organizer_and_resource_groups: apps.room_booking.integrations.index.configure_organizer_and_resource_groups
+          microsoft_account: apps.room_booking.integrations.index.microsoft_account
+          microsoft_booking_organizer: apps.room_booking.integrations.index.microsoft_booking_organizer
+          microsoft_booking_organizer_fallback_hint: apps.room_booking.integrations.index.microsoft_booking_organizer_fallback_hint
+          microsoft_parking_group: apps.room_booking.integrations.index.microsoft_parking_group
+          microsoft_parking_group_hint: apps.room_booking.integrations.index.microsoft_parking_group_hint
+          microsoft_parking_group_placeholder: apps.room_booking.integrations.index.microsoft_parking_group_placeholder
+          parking_spaces: apps.room_booking.integrations.index.parking_spaces
+          microsoft_exchange: apps.room_booking.integrations.index.microsoft_exchange
+          microsoft_exchange_hint: apps.room_booking.integrations.index.microsoft_exchange_hint
+          microsoft_exchange_workspace: apps.room_booking.integrations.index.microsoft_exchange_workspace
+          microsoft_outlook: apps.room_booking.integrations.index.microsoft_outlook
+          microsoft_outlook_hint: apps.room_booking.integrations.index.microsoft_outlook_hint
+          other: apps.room_booking.integrations.index.other
+          other_hint: apps.room_booking.integrations.index.other_hint
+          suggest_integration: apps.room_booking.integrations.index.suggest_integration
+          suggest_integration_prompt: apps.room_booking.integrations.index.suggest_integration_prompt
+          supported_integrations: apps.room_booking.integrations.index.supported_integrations
+        notices:
+          updated: apps.room_booking.integrations.notices.updated
+      print_qr:
+        title: apps.room_booking.print_qr.title
+        scan_to_book: apps.room_booking.print_qr.scan_to_book
+      public_bookings:
+        collection:
+          choose_resource: apps.room_booking.public_bookings.collection.choose_resource
+          empty: apps.room_booking.public_bookings.collection.empty
+        new:
+          add_to_calendar: apps.room_booking.public_bookings.new.add_to_calendar
+          aria_booking_view: apps.room_booking.public_bookings.new.aria_booking_view
+          back_to_collection: apps.room_booking.public_bookings.new.back_to_collection
+          book_room: apps.room_booking.public_bookings.new.book_room
+          booked: apps.room_booking.public_bookings.new.booked
+          availability_unavailable: apps.room_booking.public_bookings.new.availability_unavailable
+          choose_valid_time: apps.room_booking.public_bookings.new.choose_valid_time
+          crosses_midnight: apps.room_booking.public_bookings.new.crosses_midnight
+          copy:
+            desk:
+              reserve_hint: apps.room_booking.public_bookings.new.copy.desk.reserve_hint
+              submit: apps.room_booking.public_bookings.new.copy.desk.submit
+            equipment:
+              reserve_hint: apps.room_booking.public_bookings.new.copy.equipment.reserve_hint
+              submit: apps.room_booking.public_bookings.new.copy.equipment.submit
+            other:
+              reserve_hint: apps.room_booking.public_bookings.new.copy.other.reserve_hint
+              submit: apps.room_booking.public_bookings.new.copy.other.submit
+            people:
+              reserve_hint: apps.room_booking.public_bookings.new.copy.people.reserve_hint
+              submit: apps.room_booking.public_bookings.new.copy.people.submit
+            space:
+              reserve_hint: apps.room_booking.public_bookings.new.copy.space.reserve_hint
+              submit: apps.room_booking.public_bookings.new.copy.space.submit
+            vehicle:
+              reserve_hint: apps.room_booking.public_bookings.new.copy.vehicle.reserve_hint
+              submit: apps.room_booking.public_bookings.new.copy.vehicle.submit
+          create_booking: apps.room_booking.public_bookings.new.create_booking
+          duration: apps.room_booking.public_bookings.new.duration
+          from: apps.room_booking.public_bookings.new.from
+          more_options: apps.room_booking.public_bookings.new.more_options
+          no_upcoming_bookings: apps.room_booking.public_bookings.new.no_upcoming_bookings
+          occupied: apps.room_booking.public_bookings.new.occupied
+          open_choices: apps.room_booking.public_bookings.new.open_choices
+          overlap: apps.room_booking.public_bookings.new.overlap
+          overlap_time_only: apps.room_booking.public_bookings.new.overlap_time_only
+          on_demand_notice: apps.room_booking.public_bookings.new.on_demand_notice
+          outside_booking_window: apps.room_booking.public_bookings.new.outside_booking_window
+          reserve_hint: apps.room_booking.public_bookings.new.reserve_hint
+          title: apps.room_booking.public_bookings.new.title
+          today: apps.room_booking.public_bookings.new.today
+          tomorrow: apps.room_booking.public_bookings.new.tomorrow
+          until: apps.room_booking.public_bookings.new.until
+          quick_durations:
+            fifteen_minutes: apps.room_booking.public_bookings.new.quick_durations.fifteen_minutes
+            thirty_minutes: apps.room_booking.public_bookings.new.quick_durations.thirty_minutes
+            one_hour: apps.room_booking.public_bookings.new.quick_durations.one_hour
+          periods:
+            am: apps.room_booking.public_bookings.new.periods.am
+            pm: apps.room_booking.public_bookings.new.periods.pm
+          ordinal_suffixes:
+            default: apps.room_booking.public_bookings.new.ordinal_suffixes.default
+            one: apps.room_booking.public_bookings.new.ordinal_suffixes.one
+            two: apps.room_booking.public_bookings.new.ordinal_suffixes.two
+            few: apps.room_booking.public_bookings.new.ordinal_suffixes.few
+          weekdays:
+          - apps.room_booking.public_bookings.new.weekdays[0]
+          - apps.room_booking.public_bookings.new.weekdays[1]
+          - apps.room_booking.public_bookings.new.weekdays[2]
+          - apps.room_booking.public_bookings.new.weekdays[3]
+          - apps.room_booking.public_bookings.new.weekdays[4]
+          - apps.room_booking.public_bookings.new.weekdays[5]
+          - apps.room_booking.public_bookings.new.weekdays[6]
+          months:
+          - apps.room_booking.public_bookings.new.months[0]
+          - apps.room_booking.public_bookings.new.months[1]
+          - apps.room_booking.public_bookings.new.months[2]
+          - apps.room_booking.public_bookings.new.months[3]
+          - apps.room_booking.public_bookings.new.months[4]
+          - apps.room_booking.public_bookings.new.months[5]
+          - apps.room_booking.public_bookings.new.months[6]
+          - apps.room_booking.public_bookings.new.months[7]
+          - apps.room_booking.public_bookings.new.months[8]
+          - apps.room_booking.public_bookings.new.months[9]
+          - apps.room_booking.public_bookings.new.months[10]
+          - apps.room_booking.public_bookings.new.months[11]
+      settings:
+        show:
+          branding: apps.room_booking.settings.show.branding
+          booking_window: apps.room_booking.settings.show.booking_window
+          booking_window_hint: apps.room_booking.settings.show.booking_window_hint
+          booking_window_one_day: apps.room_booking.settings.show.booking_window_one_day
+          booking_window_one_month: apps.room_booking.settings.show.booking_window_one_month
+          booking_window_one_week: apps.room_booking.settings.show.booking_window_one_week
+          booking_window_two_days: apps.room_booking.settings.show.booking_window_two_days
+          company_logo: apps.room_booking.settings.show.company_logo
+          company_logo_1_bit: apps.room_booking.settings.show.company_logo_1_bit
+          company_logo_2_bit: apps.room_booking.settings.show.company_logo_2_bit
+          company_logo_4_bit: apps.room_booking.settings.show.company_logo_4_bit
+          company_logo_6_color: apps.room_booking.settings.show.company_logo_6_color
+          company_logo_bwry: apps.room_booking.settings.show.company_logo_bwry
+          company_logo_choose: apps.room_booking.settings.show.company_logo_choose
+          company_logo_replace: apps.room_booking.settings.show.company_logo_replace
+          company_logo_hint: apps.room_booking.settings.show.company_logo_hint
+          company_logo_original: apps.room_booking.settings.show.company_logo_original
+          color_company_logo: apps.room_booking.settings.show.color_company_logo
+          branding_docs: apps.room_booking.settings.show.branding_docs
+          danger_zone: apps.room_booking.settings.show.danger_zone
+          dark_mode: apps.room_booking.settings.show.dark_mode
+          dark_mode_hint: apps.room_booking.settings.show.dark_mode_hint
+          invalid_booking_window: apps.room_booking.settings.show.invalid_booking_window
+          invalid_time_format: apps.room_booking.settings.show.invalid_time_format
+          public_bookings: apps.room_booking.settings.show.public_bookings
+          public_bookings_hint: apps.room_booking.settings.show.public_bookings_hint
+          qr_code_security: apps.room_booking.settings.show.qr_code_security
+          qr_code_security_hint: apps.room_booking.settings.show.qr_code_security_hint
+          remove_app_hint: apps.room_booking.settings.show.remove_app_hint
+          show_company_logo: apps.room_booking.settings.show.show_company_logo
+          show_company_logo_hint: apps.room_booking.settings.show.show_company_logo_hint
+          time_format: apps.room_booking.settings.show.time_format
+          time_format_12_hour: apps.room_booking.settings.show.time_format_12_hour
+          time_format_24_hour: apps.room_booking.settings.show.time_format_24_hour
+          time_format_detect: apps.room_booking.settings.show.time_format_detect
+          time_format_hint: apps.room_booking.settings.show.time_format_hint
+          time_settings: apps.room_booking.settings.show.time_settings
+          timezone: apps.room_booking.settings.show.timezone
+          timezone_hint: apps.room_booking.settings.show.timezone_hint
+          timezone_calendar: apps.room_booking.settings.show.timezone_calendar
+          uninstall: apps.room_booking.settings.show.uninstall
+          uninstall_confirm: apps.room_booking.settings.show.uninstall_confirm
+          uninstall_app: apps.room_booking.settings.show.uninstall_app
+          walk_up_booking: apps.room_booking.settings.show.walk_up_booking
+          walk_up_calendar: apps.room_booking.settings.show.walk_up_calendar
+          walk_up_calendar_hint: apps.room_booking.settings.show.walk_up_calendar_hint
+  mashups:
+    mashup:
+      add_to_playlist: mashups.mashup.add_to_playlist
+    update:
+      success: mashups.update.success
+      error: mashups.update.error
+  playlist_coverage:
+    title: playlist_coverage.title
+    your_timezone: playlist_coverage.your_timezone
+    timezone_hint: playlist_coverage.timezone_hint
+    explanation: playlist_coverage.explanation
+    notice:
+      one: playlist_coverage.notice.one
+      other: playlist_coverage.notice.other
+    view: playlist_coverage.view

@@ -178,6 +178,8 @@ en:
       time_zone_hint: Determines refresh rates and device sleep time.
       locale: Locale
       locale_hint: What language and localization do you prefer? __Go here__.
+      low_battery_notification_email: Low Battery Notification Email
+      low_battery_notification_email_hint: Send every device's low battery email here instead of to your account address. Leave blank to use your account address.
     update:
       success: Profile updated successfully
     reset_api_key:
@@ -347,6 +349,8 @@ en:
         reset_persona: Reset persona
         reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
         reset_persona_confirm: Reset this persona and delete its saved recommendations?
+      low_battery_notification_email: Send This Device's Notification To
+      low_battery_notification_email_hint: Overrides the address on your account, so one display can alert whoever looks after it. Leave blank to use the account address.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -429,11 +433,23 @@ en:
       title: Logs
       all: All
       bulk_destroy: Bulk Destroy
-      dump: Dump
+      dump: Message
       id: ID
-      private_plugins: Private Plugins
+      private_plugins: Private plugins
       source: Source
-      time: Time
+      time: Time (UTC)
+      activity: View activity
+      device: Device
+      plugins: Plugins
+      mashups: Mashups
+      errors_only: Errors only
+      auto_refresh: Auto-refresh
+      not_available: ClickHouse logging isn't enabled in this environment yet.
+      temporarily_unavailable: Logs are temporarily unavailable. Please try again later.
+      empty: No logs yet.
+      expiry_notice: Logs are kept for two weeks and expire automatically — there's no manual delete here.
+      load_older: Load older
+      level: Level
   markups:
     console_logs:
       js_logs: JS Logs
@@ -487,6 +503,9 @@ en:
       reset_instructions: Click the button on the back of your TRMNL to generate a reset code
       success: 2FA successful
       error: Invalid OTP code
+      reset_hint: Lost your authenticator? We can show a one-time code on your TRMNL instead.
+      reset_pending: A one-time code is on its way to your TRMNL and appears at its next check-in. Your authenticator app still works in the meantime.
+      no_device: None of your TRMNLs have checked in recently, so there is nowhere to show you a reset code. Please contact support.
   playlist_items:
     index:
       title: Playlist
@@ -508,6 +527,29 @@ en:
       skip_after:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
+      add_plugin: Add Plugin
+      select: Select
+      exit_select: Exit select mode
+      time_travel_now: Now
+      time_travel_at: "%{day} %{time}"
+      smart_skip: Smart Skip
+      smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
+      view: View
+      list_density: List density
+      regular: Regular
+      compact: Compact
+      schedule: Schedule
+      show: Show
+      hide: Hide
+      empty:
+        no_plugins:
+          heading: This playlist is empty
+          description: Connect your first plugin and come back here.
+          cta: Browse %{plugin_count} available Plugins
+        no_items:
+          heading: This playlist is empty
+          description: Select Add Plugin above to add one of your plugins.
+          cta: Looking for something new? Browse Plugins
     playlist_item:
       adjust_schedule: Adjust schedule
       delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
@@ -528,6 +570,10 @@ en:
         global: This plugin gets refreshed platform-wide on a fixed schedule.
         mashup: The mashup will refresh as often as its fastest plugin.
         readonly: This plugin has a fixed refresh rate that cannot be configured.
+      last_shown: Last shown %{time}
+      title_tooltip:
+        source_plugin: Source plugin
+      force_refresh: Refresh now
     create:
       error: Failed to update Playlist
       success: Playlist updated
@@ -544,6 +590,66 @@ en:
       success: Smart Playlist preference updated
     update:
       success: Playlist order updated
+    refresh:
+      success: Refreshing now — the preview updates when the render finishes
+      placeholder: Configure this playlist item before refreshing it
+    status:
+      error: Not refreshing
+      setup: Needs setup
+      now: Displayed now
+      hidden: Hidden
+      skipped: Skipped by plugin
+      out_of_schedule: Out of schedule
+      important_active: Important active
+      stale: Stale
+      pending: Not rendered yet
+    status_description:
+      error: Refreshes stopped after repeated failures. Open its settings to fix it.
+      setup: Finish configuring this item before it can appear on the device.
+      now: This is the screen on the device right now.
+      hidden: You hid this item, so it stays out of the rotation.
+      skipped: The plugin asked to be skipped.
+      out_of_schedule: Outside the schedule you set for this item.
+      important_active: An Important item has this slot right now.
+      stale: Smart Skip is skipping this — its screen hasn't updated in a while.
+      pending: Its first render starts at the next device check-in.
+    schedule:
+      always: Always
+      custom:
+        one: Custom (1 window)
+        other: Custom (%{count} windows)
+      important_title: Important
+      important_description: Only shown alongside other important screens during its schedule.
+    column:
+      schedule: Schedule
+      status: Status
+    skip_reasons:
+      needs_configuration: Needs setup
+      hidden: Hidden
+      skipped: Skipped by plugin
+      schedule: Out of schedule
+      stale: Stale
+    bulk_actions:
+      selected:
+        one: 1 selected
+        other: "%{count} selected"
+      hide: Hide
+      show: Show
+      delete: Delete
+      cancel: Cancel
+      destroy_confirm: Remove the selected items from this playlist?
+      success:
+        hide: Items hidden
+        show: Items shown
+        destroy: Items removed from playlist
+      error: Bulk action failed
+    time_travel_modal:
+      title: Time Travel
+      apply: Apply
+      false: false
+    smart_skip_modal:
+      title: Smart Skip
+      apply: Done
   plugins:
     index:
       title: Plugins
@@ -696,6 +802,9 @@ en:
       refresh_stopped: Auto-refresh stopped. Please fix the plugin error to continue.
       view_recipe: View Recipe
       visit_docs: Visit Docs
+      preview_from_device: Preview from %{device}
+      refresh_paused_merge: Refreshing via Plugin Merge
+      refresh_paused_merge_hint: Auto-refresh is paused because this plugin is hidden. Its data is kept fresh by %{names} via Plugin Merge.
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
@@ -711,6 +820,14 @@ en:
       success: Plugin configuration updated successfully
     add_to_playlist:
       success: Plugin added to playlist
+    refresh_already_in_progress: A refresh is already in progress — your screen will update shortly.
+    remote_select:
+      awaiting_connection: Connect your account in the OAuth section above, then reload this page.
+      connection_broken: OAuth connection is broken — reconnect it in the OAuth section, then reload this page.
+      unavailable: Options failed to load — check the plugin's logs for details.
+    delete_mashup_warning:
+      one: This plugin fills a mashup slot. Removing it leaves that slot empty.
+      other: This plugin fills %{count} mashup slots. Removing it leaves those slots empty.
   referral_code:
     create:
       request_received: Request received, check your inbox
@@ -738,3 +855,526 @@ en:
       error: Device %{device_name} is already upgraded, switch to another device
     confirm:
       success: Developer edition add-on is now enabled
+  activity_logs:
+    index:
+      title: Activity
+      view_logs: View logs
+      hint: What happened and why, one page per day, from the last %{days} days of telemetry. Times are UTC.
+      not_available: Activity tracking isn't enabled in this environment yet.
+      temporarily_unavailable: Activity tracking is temporarily unavailable. Please try again later.
+      empty_day: No activity recorded on this day.
+      truncated: Busy day — showing the first %{limit} events.
+      previous_day: Older
+      next_day: Newer
+      day_events:
+        one: "%{day}: 1 event"
+        other: "%{day}: %{count} events"
+      time: Time (UTC)
+      event: Event
+      screen: Screen
+      device: Device
+      detail: What happened
+    link:
+      title: Activity
+      device_hint: When this device checked in, what it scheduled, and which screens it received.
+      source_hint: When this screen refreshed, why it skipped, and which devices received it.
+    events:
+      checkin: Check-in
+      schedule: Schedule
+      render: Render
+      serve: Delivered
+      caught_up: Caught up
+    checkin:
+      ok: Device checked in
+      failed: Check-in failed (%{status})
+      firmware: firmware %{version}
+      battery: battery %{percent}%
+    schedule:
+      refresh_at: refresh at %{time}
+    schedule_reasons:
+      wrote: Refresh scheduled
+      wrote_screen: Refresh scheduled for this screen size
+      not_predicted: Nothing upcoming to schedule
+      source_missing: Skipped — screen source was deleted
+      mirror: Refresh delegated to the recipe it mirrors
+      mirror_scheduled: Refresh scheduled on the recipe it mirrors
+      mirror_throttled: Waiting — the recipe it mirrors refreshed moments ago
+      mirror_cold: Asked the recipe it mirrors to render this screen size
+      global_bootstrap: Requesting this shared plugin's first screen for this size
+      owner_mismatch: Skipped — source belongs to another user
+      unhealthy: Paused after repeated failed refreshes
+      never_later: Already scheduled sooner
+      refresh_overdue: Waiting — a queued refresh is overdue
+      not_jit_schedulable: Refreshes on its own schedule
+      violates_minimum: Waiting out its minimum refresh interval
+    render_statuses:
+      ok: Rendered
+      error: Render failed
+      skipped: Render skipped
+      timeout: Render timed out
+    render_reasons:
+      data_changed: data changed
+      first_screen: first render
+      forced: manual refresh
+      timely: time-sensitive refresh
+      no_data_changed: no change in data
+      all_appearances_fresh: every screen size is still up to date
+      device_inactive: device offline
+      playlist_items_hidden: hidden on every playlist
+      mashup_incomplete: mashup not complete
+      only_in_mashups: only rendered inside mashups
+      no_screen_generation: plugin does not generate screens
+      skip_screen_generation: plugin chose not to render
+      skip_display: plugin chose not to display
+      markup_incomplete: markup not complete
+      render_crash_backoff: paused after the render browser crashed repeatedly
+      completed_after_deadline: finished after the deadline had passed
+      data_fetch_error: could not fetch data from the source
+      network_connect_error: could not connect to the source
+      invalid_url: the source URL is not valid
+      access_token_expired: access token expired — reconnect the plugin
+      transform_error: the data transform failed
+      liquid_syntax_error: the markup has a syntax error
+      size_too_large: the response was too large
+      render_timeout: no render slot free before the deadline
+      dead_session: the browser session ended mid-render
+      command_timeout: the browser stopped responding
+      unhandled_error: unexpected error
+    serve_statuses:
+      served: Screen sent to device
+      alias: Alias image sent to device
+      redirect: Redirect sent to device
+      empty_state: Caught-up screen sent — nothing new to show
+      no_content: Caught-up screen sent — still nothing to show, so the device will check back less often to save battery
+  activerecord:
+    models:
+      apps/room_booking/app: Booking
+      apps/fleet/app: Fleet
+      plugin_uninstall_feedback:
+        one: Feedback
+        other: Feedback
+    attributes:
+      plugin_setting:
+        ai_coauthored: AI Coauthored
+  apps:
+    core:
+      public:
+        expired:
+          title: This code has expired
+          body: Scan the code on the display again to pick up where you left off.
+    room_booking:
+      resource_kinds:
+        room: Room
+        space: Open Space
+        workspace: Desk Pool
+        desk: Desk
+        parking_space: Parking Space
+        vehicle: Vehicle
+        equipment: Equipment
+        person: Person
+        other: Other
+      summary:
+        rooms:
+          one: 1 room
+          other: "%{count} rooms"
+      common:
+        unavailable: Unavailable
+        units_available:
+          one: 1 available
+          other: "%{count} available"
+        add_to_device: Add to device
+        available: Available
+        booked: Booked
+        booking: Booking
+        booked_for_day: Booked for the day
+        booked_with_trmnl: Booked with TRMNL
+        booking_cancelled: Booking cancelled.
+        booking_ended: Booking ended.
+        cancel: Cancel
+        cancel_booking_confirm: Cancel this booking?
+        capacity: Capacity
+        calendars: Calendars
+        collections: Collections
+        disconnect: Disconnect
+        device_count:
+          one: "%{count} Device"
+          other: "%{count} Devices"
+        edit: Edit
+        visit_docs: Visit Docs
+        end: End
+        end_booking_confirm: End this booking now?
+        integrations: Integrations
+        provider_names:
+          google: Google
+          ical: iCal
+          microsoft: Microsoft
+        remove: Remove
+        save_changes: Save changes
+        update_changes: Update changes
+        seats:
+          one: 1 seat
+          other: "%{count} seats"
+        features:
+          one: 1 feature
+          other: "%{count} features"
+        settings: Settings
+        show_more: Show %{count} more
+        sync_error: 'Sync error:'
+        sync_error_badge: Error
+        synchronize: Synchronize
+        timezone: 'Time Zone:'
+        tz: Time Zone
+        walk_up_title: Occupied
+      shared:
+        back_to_apps: Back to Apps
+        displays:
+          no_devices: Add a TRMNL device to show it on a screen.
+          open_settings: Open %{device} display settings
+          other_manager: other manager
+          show_on_device: 'Show this %{type} on %{which} device:'
+          stop_showing_confirm: Stop showing %{name} on %{device}?
+          title: Displays
+      screens:
+        available:
+          next: 'Next: %{title}'
+          nothing_scheduled_today: Nothing scheduled for today
+        occupied:
+          attendee: attendee
+          all_day: All day
+          more_attendees:
+            one: 1 more
+            other: "%{count} more"
+      room_screens:
+        until: Until %{time}
+      home:
+        index:
+          calendars_on_display: Calendars on a display
+          company_branding: Company Branding
+          low_battery: Low battery
+          none: None
+          sync_errors: Sync Errors
+          toggle_values:
+            disabled: 'Off'
+            enabled: 'On'
+          unmapped_devices: Devices not showing anything yet
+          virtual_device: Virtual
+      calendars:
+        setup_docs: Time zones, displays & walk-up booking for a meeting room.
+        display_preview:
+          not_rendered_yet: Not rendered yet
+        form:
+          booking_integrations: Booking Integrations
+          capacity_hint: How many people the room seats (optional).
+          create_calendar: Create Calendar
+          delete_calendar: Delete Calendar
+          delete_calendar_confirm: Delete %{calendar}?
+          ical_url: iCal URL
+          ical_url_hint: Optional. When set, this feed is the source of truth for future bookings.
+          managed_fields_disclaimer: Some fields are managed by the integration
+          override_name: Override name
+          override_name_hint: Leave blank to use the name from the integration.
+          remote_id: Remote ID
+          show_booking_qr: Show booking QR code
+          timezone: Time Zone
+          timezone_hint: Used for the device screen and booking times.
+        new:
+          title: New Calendar
+          description: Add a calendar to %{app}.
+          back_to_calendars: Back to Calendars
+        edit:
+          back_to_calendar: Back to Calendar
+          title: Edit Calendar
+        index:
+          google_personal: Google Personal Calendars
+          google_workspace: Google Workspace Resources
+          microsoft_personal: Microsoft Office Calendars
+          microsoft_workspace: Microsoft Exchange Resources
+          ical_rooms: iCal Calendars
+          empty_html: Manage connected calendar under %{link}.
+        show:
+          available_now: Available now
+          back_to_calendars: Back to Calendars
+          building: Building
+          calendar_schedule: Calendar Schedule
+          edit_room: Edit
+          edit_calendar: Edit Calendar
+          edited_name: Edited name
+          edited_name_yes: 'Yes'
+          externally_managed: Externally managed
+          externally_managed_hint: Bookings are controlled by the linked iCal feed. Add or change events in your external calendar.
+          features: Features
+          floor: Floor
+          floor_area: Area
+          in_use: In use
+          in_use_until_html: In use until %{time}
+          kind: Kind
+          last_synced_html: Last synced %{time}
+          next_at_html: 'Next: %{title} at %{time}'
+          no_upcoming_bookings: No upcoming bookings.
+          print_booking_code: Print booking code
+          show_qr: QR code
+          show_booking_qr: 'Show booking QR code:'
+          show_booking_qr_values:
+            disabled: Disabled
+            enabled: Enabled
+          upcoming: Upcoming
+      collections:
+        edit:
+          back_to_collection: Back to Collection
+          title: Edit Collection
+        form:
+          create_collection: Create Collection
+          delete_collection: Delete Collection
+          delete_collection_confirm: Delete %{collection}?
+          display_layout: Display layout
+          no_resources: Connect calendars before creating a collection.
+          no_resources_for_type: No %{type} available.
+          resource_type: Resource Type
+          resources_required: Select at least one resource.
+          resources: Resources
+          resources_hint: Type filters the list by default; selected resources are saved as the collection.
+          select_all: Select all
+          select_none: Select none
+          show_booking_qr: Show booking QR code
+          type: Type
+        display_layouts:
+          grid: Grid
+          list: List
+        index:
+          create_collection: Create Collection
+          empty: No collections yet.
+          resource_count:
+            one: 1 resource
+            other: "%{count} resources"
+          title: Resource Collections
+        new:
+          back_to_collections: Back to Collections
+          description: Group calendars for booking and display workflows.
+          title: New Collection
+        notices:
+          created: Collection created.
+          removed: Collection removed.
+          updated: Collection updated.
+        resource_types:
+          none: None
+          room: Room
+        show:
+          back_to_collections: Back to Collections
+          display_layout: Display layout
+          included_resources: Included Resources
+          no_resources: No resources included.
+          resource_count: Resources
+          resource_types: Resource types
+          show_booking_qr: 'Show booking QR code:'
+          show_qr: QR code
+          show_booking_qr_values:
+            disabled: Disabled
+            enabled: Enabled
+          type: Type
+          edit_collection: Edit Collection
+        screens:
+          empty: Configure which calendars to display under "Apps > Booking > Collections" on trmnl.com.
+        types:
+          any: Any
+          rooms: Rooms
+          spaces: Open Spaces
+          desks: Desks
+          desk_pools: Desk Pools
+          parking_spaces: Parking Spaces
+          vehicles: Vehicles
+          equipment: Equipment
+          people: People
+          other: Other
+      integrations:
+        edit:
+          back_to_integrations: Back to Integrations
+          microsoft_exchange_docs: Shared organizer mailbox & custom resource groups in Exchange
+          microsoft_verification_failed: Microsoft could not verify these settings. Check Full Access, Send As, group ID, and consent.
+          no_calendars: Synchronize this integration to discover calendars.
+          synchronized_calendars: Synchronized Calendars
+          synchronized_calendars_hint: Choose which calendars appear in Booking and synchronize calendar events.
+          title: Edit Integration
+        index:
+          add_account: Add account
+          add_calendar: Add calendar
+          add_company: Add company
+          connected_accounts: Connected Accounts
+          disconnect_account_confirm: Disconnect %{account}? This removes its synced rooms from every installation that uses this account.
+          disconnect_workspace_confirm: Disconnect %{workspace}? This removes its synced rooms from every installation that uses this workspace.
+          google_account: Google Account
+          google_account_hint: Your personal calendars, including meeting rooms you subscribe to.
+          google_workspace: Google Workspace
+          google_workspace_account: Google Workspace · %{email}
+          google_workspace_hint: Company meeting rooms & resources.
+          ical: iCal
+          ical_hint: Connect any .ics feed URL. Doesn't support booking.
+          change_configuration: Change configuration
+          configure_organizer_and_resource_groups: Configure organizer and resource groups
+          microsoft_account: Microsoft account
+          microsoft_booking_organizer: Booking organizer
+          microsoft_booking_organizer_fallback_hint: 'Leave blank to use the connected administrator. Recommended: trmnl-booking@<your-domain>'
+          microsoft_parking_group: Parking resource group
+          microsoft_parking_group_hint: Optional Entra group containing Exchange equipment mailboxes that represent parking spaces.
+          microsoft_parking_group_placeholder: Entra group object ID
+          parking_spaces: Parking Spaces
+          microsoft_exchange: Microsoft Exchange
+          microsoft_exchange_hint: Company conference rooms & resources. Supports booking.
+          microsoft_exchange_workspace: Microsoft Exchange · %{email}
+          microsoft_outlook: Microsoft Outlook
+          microsoft_outlook_hint: Your personal calendars. Supports booking.
+          other: Other
+          other_hint: Need a different type of calendar?
+          suggest_integration: Suggest integration
+          suggest_integration_prompt: 'Room booking should support another calendar type: '
+          supported_integrations: Supported Integrations
+        notices:
+          updated: Integration settings updated.
+      print_qr:
+        title: Book %{room}
+        scan_to_book: Scan to book this room
+      public_bookings:
+        collection:
+          choose_resource: Choose a resource to book
+          empty: No resources in this collection are available for booking.
+        new:
+          add_to_calendar: View calendar
+          aria_booking_view: Booking view
+          back_to_collection: Back to %{collection}
+          book_room: Book this room
+          booked: Booked
+          availability_unavailable: Availability unavailable
+          choose_valid_time: Choose a valid start and end time.
+          crosses_midnight: Bookings can't continue past midnight.
+          copy:
+            desk:
+              reserve_hint: Reserve this desk — no account needed.
+              submit: Book this desk
+            equipment:
+              reserve_hint: Reserve this equipment — no account needed.
+              submit: Book this equipment
+            other:
+              reserve_hint: Create a reservation — no account needed.
+              submit: Book this now
+            people:
+              reserve_hint: Create an appointment — no account needed.
+              submit: Book this meeting
+            space:
+              reserve_hint: Reserve this space — no account needed.
+              submit: Book this space
+            vehicle:
+              reserve_hint: Reserve this vehicle — no account needed.
+              submit: Book this vehicle
+          create_booking: Create booking
+          duration: Duration
+          from: From
+          more_options: More
+          no_upcoming_bookings: No upcoming bookings.
+          occupied: Occupied
+          open_choices: Open choices
+          overlap: Overlaps with %{title}, %{date}, %{starts_at} - %{ends_at}.
+          overlap_time_only: Overlaps with an existing booking, %{starts_at} - %{ends_at}.
+          on_demand_notice: Available now, but advance booking is restricted.
+          outside_booking_window: Choose a date within the booking window.
+          reserve_hint: Reserve this room — no account needed.
+          title: Title
+          today: Today
+          tomorrow: Tomorrow
+          until: Until
+          quick_durations:
+            fifteen_minutes: 15 min
+            thirty_minutes: 30 min
+            one_hour: 1 hour
+          periods:
+            am: AM
+            pm: PM
+          ordinal_suffixes:
+            default: th
+            one: st
+            two: nd
+            few: rd
+          weekdays:
+          - Sunday
+          - Monday
+          - Tuesday
+          - Wednesday
+          - Thursday
+          - Friday
+          - Saturday
+          months:
+          - Jan
+          - Feb
+          - Mar
+          - Apr
+          - May
+          - Jun
+          - Jul
+          - Aug
+          - Sep
+          - Oct
+          - Nov
+          - Dec
+      settings:
+        show:
+          branding: Branding
+          booking_window: Bookable Until
+          booking_window_hint: How far ahead of today someone may create a walk-up booking.
+          booking_window_one_day: 1 day
+          booking_window_one_month: 1 month
+          booking_window_one_week: 1 week
+          booking_window_two_days: 2 days
+          company_logo: Monochrome Logo File
+          company_logo_1_bit: 1-bit
+          company_logo_2_bit: 2-bit
+          company_logo_4_bit: 4-bit
+          company_logo_6_color: 6-color
+          company_logo_bwry: BWRY
+          company_logo_choose: Choose File
+          company_logo_replace: Replace File
+          company_logo_hint: PNG, JPG, or SVG, up to 2 MB.
+          company_logo_original: Original
+          color_company_logo: Color Logo File
+          branding_docs: How to optimize assets & device configuration for best results.
+          danger_zone: Danger Zone
+          dark_mode: Dark Mode
+          dark_mode_hint: Render device screens in dark mode — a dark canvas with light text.
+          invalid_booking_window: Booking window is invalid.
+          invalid_time_format: Time format is invalid.
+          public_bookings: Walk-up Booking
+          public_bookings_hint: Let anyone book a room by scanning a QR code. Requires Google or Microsoft calendar.
+          qr_code_security: QR Code Security
+          qr_code_security_hint: Rotate public booking URLs daily to expire calendar access for outside visitors.
+          remove_app_hint: Remove this app from your account.
+          show_company_logo: Show Company Branding
+          show_company_logo_hint: Add your company logo to Booking.
+          time_format: Time Format
+          time_format_12_hour: AM/PM format
+          time_format_24_hour: 24-hour format
+          time_format_detect: Detect from time zone
+          time_format_hint: Choose whether booking times should appear as 24-hour or AM/PM on dashboards, public booking pages, and device screens.
+          time_settings: Time Zone & Format
+          timezone: Time Zone
+          timezone_hint: 'Set one time zone for all the calendars, or let the app determine it: The calendar time zone is preferred if available, otherwise the time zone chosen in account settings is used.
+
+            '
+          timezone_calendar: Calendar or account time zone
+          uninstall: Uninstall
+          uninstall_confirm: Uninstall %{app}?
+          uninstall_app: Uninstall %{app}
+          walk_up_booking: Walk-up Booking
+          walk_up_calendar: Show Calendar
+          walk_up_calendar_hint: Show upcoming bookings on the walk-up booking screen.
+  mashups:
+    mashup:
+      add_to_playlist: Add to playlist
+    update:
+      success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
+  playlist_coverage:
+    title: Playlist coverage
+    your_timezone: your timezone
+    timezone_hint: Times shown in %{zone}.
+    explanation: Your device shows the "You're caught up!" screen during these times because no playlist item is scheduled.
+    notice:
+      one: Your playlist has 1 uncovered period.
+      other: Your playlist has %{count} uncovered periods.
+    view: See when

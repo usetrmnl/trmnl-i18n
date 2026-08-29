@@ -1,6 +1,6 @@
 ---
-en-GB:
-  locale_name: English (United Kingdom)
+en-AU:
+  locale_name: English (Australia)
   about:
   actions:
   add:
@@ -92,7 +92,7 @@ en-GB:
   welcome:
   time:
     formats:
-      shorter: "%-H:%M"
+      shorter: "%-I:%M %p"
     start_of_week: 1
   datetime:
     relative:
@@ -142,7 +142,7 @@ en-GB:
       api_key_label:
       api_key_not_generated:
       api_key_reset:
-      api_key: API Key
+      api_key:
       beta_features:
       beta_features_hint:
       discord_community:
@@ -240,7 +240,7 @@ en-GB:
       click_action:
       controls:
       developer_perks:
-      developer_perks_hint: Options below require the __Developer add-on__.
+      developer_perks_hint:
       device_credentials:
       device_credentials_hint:
       device_api_key:
@@ -298,12 +298,12 @@ en-GB:
       ota_byod_not_supported:
       maximum_compatibility:
       maximum_compatibility_hint:
-      color_and_rotation: Colour & Rotation
+      color_and_rotation:
       image_rotation:
       screen_rotation:
       screen_rotation_not_supported:
-      palette: Colour Palette
-      palette_hint: Select the set of colours to use when generating screens for this device. A larger palette looks nicer, but a smaller palette draws faster on ePaper. Individual playlist items can override this setting.
+      palette:
+      palette_hint:
       presentation:
       sleep_mode:
       sleep_mode_hint:
@@ -312,7 +312,7 @@ en-GB:
       sleep_screen_hint:
       special_function:
       special_function_hint:
-      special_function_learn_more: Learn more about special functions __here__.
+      special_function_learn_more:
       temperature_profile:
       temperature_profile_hint:
       touchbar_mode:
@@ -326,14 +326,14 @@ en-GB:
       unlink:
       unlink_confirm:
       unlink_device:
-      unlink_device_hint: Unlinking a TRMNL device makes it safe to re-sell or give to someone else.
+      unlink_device_hint:
       unlink_device_learn_more:
       visibility:
       visibility_hint:
       your_device:
       upgrade_og:
         title:
-        sub_title: Your device can be upgraded to support enhanced grayscale display with 4 colour levels instead of 2.
+        sub_title:
         warning_1:
         warning_2:
         cta:
@@ -369,7 +369,6 @@ en-GB:
       copy_playlist_from_device:
       copy_playlist_to_device_label:
       copy_playlist_non_destructive:
-      target_device: Target device
     clear_playlist:
       success:
     copy_playlist:
@@ -562,9 +561,9 @@ en-GB:
       duplicate:
       duplicate_confirm:
       presentation:
-      color_palette: Colour Palette
+      color_palette:
       device_default:
-      palette_unavailable: Only available for devices with multiple colour palettes
+      palette_unavailable:
       refresh_rate_disabled:
         default:
         external:
@@ -584,7 +583,7 @@ en-GB:
     toggle_visibility:
       success:
     duplicate:
-      success: Playlist duplicated
+      success:
     sort:
       success:
     set_preferences:
@@ -770,10 +769,10 @@ en-GB:
       plugin_uuid:
       plugin_uuid_hint:
       preview:
-      recipe_cta_heading_published: This plugin is a Recipe
+      recipe_cta_heading_published:
       recipe_cta_heading_unlisted:
-      recipe_cta_heading_in_review: Recipe in review
-      recipe_cta_heading_not_published: Publish as a Recipe?
+      recipe_cta_heading_in_review:
+      recipe_cta_heading_not_published:
       recipe_cta_body_published:
       recipe_cta_body_in_review:
       recipe_cta_body_not_published:
