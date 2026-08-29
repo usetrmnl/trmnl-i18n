@@ -1,4 +1,3 @@
----
 ru:
   locale_name: Русский
   about:
@@ -93,7 +92,7 @@ ru:
   time:
     formats:
       shorter:
-    start_of_week: 1
+    start_of_week: '1'
   datetime:
     relative:
       past: "%{time} назад"
@@ -102,57 +101,46 @@ ru:
         half_a_minute: полминуты
         less_than_x_seconds:
           one: меньше %{count} секунды
-          other: меньше %{count} секунд
           few: меньше %{count} секунд
           many: меньше %{count} секунд
         less_than_x_minutes:
           one: меньше %{count} минуты
-          other: меньше %{count} минут
           few: меньше %{count} минут
           many: меньше %{count} минут
         x_seconds:
-          one: "%{count} секунда"
-          other: "%{count} секунд"
-          few: "%{count} секунды"
-          many: "%{count} секунд"
+          one: '%{count} секунда'
+          few: '%{count} секунды'
+          many: '%{count} секунд'
         x_minutes:
-          one: "%{count} минута"
-          other: "%{count} минут"
-          few: "%{count} минуты"
-          many: "%{count} минут"
+          one: '%{count} минута'
+          few: '%{count} минуты'
+          many: '%{count} минут'
         about_x_hours:
           one: около %{count} часа
-          other: около %{count} часов
           few: около %{count} часов
           many: около %{count} часов
         x_days:
-          one: "%{count} день"
-          other: "%{count} дней"
-          few: "%{count} дня"
-          many: "%{count} дней"
+          one: '%{count} день'
+          few: '%{count} дня'
+          many: '%{count} дней'
         about_x_months:
           one: около %{count} месяца
-          other: около %{count} месяцев
           few: около %{count} месяцев
           many: около %{count} месяцев
         x_months:
-          one: "%{count} месяц"
-          other: "%{count} месяцев"
-          few: "%{count} месяца"
-          many: "%{count} месяцев"
+          one: '%{count} месяц'
+          few: '%{count} месяца'
+          many: '%{count} месяцев'
         about_x_years:
           one: около %{count} года
-          other: около %{count} лет
           few: около %{count} лет
           many: около %{count} лет
         over_x_years:
           one: больше %{count} года
-          other: больше %{count} лет
           few: больше %{count} лет
           many: больше %{count} лет
         almost_x_years:
           one: почти %{count} год
-          other: почти %{count} лет
           few: почти %{count} года
           many: почти %{count} лет
   account:
@@ -549,7 +537,8 @@ ru:
       smart_playlist_hint: Автоматически пропускать экраны, содержимое которых давно не менялось.
       skip_after:
         one: Пропускать устаревшие экраны через 1 день
-        other: Пропускать устаревшие экраны через %{count} дней
+        few:
+        many:
       add_plugin:
       select:
       exit_select:
@@ -725,10 +714,12 @@ ru:
     connected: Рецепт подключен
     connections:
       one: Подключение
-      other: Подключения
+      few:
+      many:
     forks:
       one: Форк
-      other: Форки
+      few:
+      many:
     forked:
     new:
       error: Рецепт не найден
