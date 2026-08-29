@@ -4,7 +4,6 @@ require "cogger"
 require "refinements"
 require "yaml"
 
-require_relative "untranslated_reducer"
 require_relative "value_reducer"
 
 module TRMNL
@@ -45,16 +44,12 @@ module TRMNL
           destination_root
         end
 
-        # A new key arrives empty rather than as English, so an untranslated string is not
-        # mistaken for a finished one by anything reading these files.
+        # Every locale starts as English, so an untranslated key renders English rather than
+        # nothing. raw is the exception: it answers dotted key paths for debugging.
         # :reek:ControlParameter
         def reduce source_locale, destination_locale
           repository.load(source_locale)[source_locale].then do |contents|
-            case destination_locale
-              when "raw" then reducer.call contents
-              when source_locale then contents
-              else UntranslatedReducer.call contents
-            end
+            destination_locale == "raw" ? reducer.call(contents) : contents
           end
         end
       end
