@@ -1,4 +1,3 @@
----
 lt:
   locale_name: Lietuvių
   about: Apie
@@ -93,7 +92,7 @@ lt:
   time:
     formats:
       shorter:
-    start_of_week: 1
+    start_of_week: '1'
   datetime:
     relative:
       past: prieš %{time}
@@ -102,37 +101,48 @@ lt:
         half_a_minute: pusė minutės
         less_than_x_seconds:
           one: mažiau nei %{count} sekundė
-          other: mažiau nei %{count} sekundės
+          few: mažiau nei %{count} sekundės
+          other:
         less_than_x_minutes:
           one: mažiau nei minutė
-          other: mažiau nei %{count} minutės
+          few: mažiau nei %{count} minutės
+          other:
         x_seconds:
-          one: "%{count} sekundė"
-          other: "%{count} sekundės"
+          one: '%{count} sekundė'
+          few: '%{count} sekundės'
+          other:
         x_minutes:
-          one: "%{count} minutė"
-          other: "%{count} minutės"
+          one: '%{count} minutė'
+          few: '%{count} minutės'
+          other:
         about_x_hours:
           one: maždaug %{count} valanda
-          other: maždaug %{count} valandos
+          few: maždaug %{count} valandos
+          other:
         x_days:
-          one: "%{count} diena"
-          other: "%{count} dienos"
+          one: '%{count} diena'
+          few: '%{count} dienos'
+          other:
         about_x_months:
           one: maždaug %{count} mėnesis
-          other: maždaug %{count} mėnesiai
+          few: maždaug %{count} mėnesiai
+          other:
         x_months:
-          one: "%{count} mėnesis"
-          other: "%{count} mėnesiai"
+          one: '%{count} mėnesis'
+          few: '%{count} mėnesiai'
+          other:
         about_x_years:
           one: maždaug %{count} metai
-          other: maždaug %{count} metai
+          few: maždaug %{count} metai
+          other:
         over_x_years:
           one: virš %{count} metų
-          other: virš %{count} metų
+          few: virš %{count} metų
+          other:
         almost_x_years:
           one: beveik %{count} metai
-          other: beveik %{count} metai
+          few: beveik %{count} metai
+          other:
   account:
     index:
       title: Paskyra
@@ -527,7 +537,8 @@ lt:
       smart_playlist_hint: Automatiškai praleisti ekranus, kurių turinys kurį laiką nesikeitė.
       skip_after:
         one: Praleisti pasenusius ekranus po 1 dienos
-        other: Praleisti pasenusius ekranus po %{count} dienų
+        few: Praleisti pasenusius ekranus po %{count} dienų
+        other:
       add_plugin:
       select:
       exit_select:
@@ -703,10 +714,12 @@ lt:
     connected: Receptas prijungtas
     connections:
       one: Prisijungimas
-      other: Prisijungimai
+      few: Prisijungimai
+      other:
     forks:
       one: Atšaka (Fork)
-      other: Atšakos (Forks)
+      few: Atšakos (Forks)
+      other:
     forked: Receptas atšakotas
     new:
       error: Receptas nerastas
