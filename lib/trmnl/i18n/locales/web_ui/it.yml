@@ -1,4 +1,3 @@
----
 it:
   locale_name: Italiano
   about: Informazioni
@@ -93,7 +92,7 @@ it:
   time:
     formats:
       shorter: "%-H:%M"
-    start_of_week: 1
+    start_of_week: '1'
   datetime:
     relative:
       past: "%{time} fa"
@@ -102,37 +101,48 @@ it:
         half_a_minute: mezzo minuto
         less_than_x_seconds:
           one: meno di un secondo
-          other: meno di %{count} secondi
+          many: meno di %{count} secondi
+          other:
         less_than_x_minutes:
           one: meno di un minuto
-          other: meno di %{count} minuti
+          many: meno di %{count} minuti
+          other:
         x_seconds:
-          one: "%{count} secondo"
-          other: "%{count} secondi"
+          one: '%{count} secondo'
+          many: '%{count} secondi'
+          other:
         x_minutes:
-          one: "%{count} minuto"
-          other: "%{count} minuti"
+          one: '%{count} minuto'
+          many: '%{count} minuti'
+          other:
         about_x_hours:
           one: circa un'ora
-          other: circa %{count} ore
+          many: circa %{count} ore
+          other:
         x_days:
-          one: "%{count} giorno"
-          other: "%{count} giorni"
+          one: '%{count} giorno'
+          many: '%{count} giorni'
+          other:
         about_x_months:
           one: circa un mese
-          other: circa %{count} mesi
+          many: circa %{count} mesi
+          other:
         x_months:
-          one: "%{count} mese"
-          other: "%{count} mesi"
+          one: '%{count} mese'
+          many: '%{count} mesi'
+          other:
         about_x_years:
           one: circa un anno
-          other: circa %{count} anni
+          many: circa %{count} anni
+          other:
         over_x_years:
           one: oltre un anno
-          other: oltre %{count} anni
+          many: oltre %{count} anni
+          other:
         almost_x_years:
           one: quasi un anno
-          other: quasi %{count} anni
+          many: quasi %{count} anni
+          other:
   account:
     index:
       title: Profilo
@@ -527,7 +537,8 @@ it:
       smart_playlist_hint: Salta automaticamente le schermate nelle quali il contenuto non è campiato per un po' di tempo.
       skip_after:
         one: Salta schermate stagnanti dopo 1 giorno
-        other: Salta schermate stagnanti dopo %{count} giorni
+        many: Salta schermate stagnanti dopo %{count} giorni
+        other:
       add_plugin:
       select:
       exit_select:
@@ -703,7 +714,8 @@ it:
     connected: Recipe connessa
     connections:
       one: Connessione
-      other: Connessioni
+      many: Connessioni
+      other:
     forks:
       one:
       other:
