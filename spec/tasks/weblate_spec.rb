@@ -6,26 +6,28 @@ require "tasks/weblate"
 RSpec.describe Weblate do
   describe ".component_settings" do
     it "answers a component whose template is the English file in its own directory" do
-      expect(described_class.component_settings("web_ui")).to eq(
-        "name" => "Web ui",
-        "slug" => "web_ui",
-        "file_format" => "ruby-yaml",
-        "file_format_params" => {"yaml_line_wrap" => 65_535},
-        "filemask" => "lib/trmnl/i18n/locales/web_ui/*.yml",
-        "template" => "lib/trmnl/i18n/locales/web_ui/en.yml",
-        "screenshot_filemask" => "screenshots/web_ui/*.png",
-        "language_regex" => "^(?!raw$).+$",
-        "repo" => "https://github.com/usetrmnl/trmnl-i18n.git",
-        "branch" => "main",
-        "vcs" => "github",
-        "push_branch" => "weblate-translations",
-        "license" => "MIT"
-      )
+      expect(described_class.component_settings("web_ui")["template"])
+        .to eq("lib/trmnl/i18n/locales/web_ui/en.yml")
     end
 
-    it "names a push branch so translations arrive as a pull request, not a fork" do
+    it "stops Weblate refolding long values into an unreviewable diff" do
+      expect(described_class.component_settings("web_ui")["file_format_params"])
+        .to eq({"yaml_line_wrap" => 65_535})
+    end
+
+    it "points the primary component at the real repository" do
+      expect(described_class.component_settings("plugin_renders")["repo"])
+        .to eq("https://github.com/usetrmnl/trmnl-i18n.git")
+    end
+
+    it "borrows the primary's checkout for the others, so one branch serves them all" do
+      expect(described_class.component_settings("web_ui")["repo"])
+        .to eq("weblate://trmnl/plugin_renders")
+    end
+
+    it "clears the repository fields a borrowing component may not set" do
       settings = described_class.component_settings "web_ui"
-      expect(settings["push_branch"]).to eq("weblate-translations")
+      expect(settings.values_at(*described_class::INHERITED_KEYS)).to all(eq(""))
     end
   end
 
@@ -36,8 +38,8 @@ RSpec.describe Weblate do
       expect(settings.keys).not_to include("slug")
     end
 
-    it "leaves the push URL alone, since it carries a token this task cannot send" do
-      expect(settings.keys).not_to include("push")
+    it "never sends a push URL for the component that owns the checkout" do
+      expect(described_class.update_settings("plugin_renders").keys).not_to include("push")
     end
 
     it "keeps the file layout so a moved locale directory still lands" do
@@ -70,7 +72,7 @@ RSpec.describe Weblate do
       end
 
       it "still applies the rest" do
-        expect(applied.keys).to include("vcs", "push_branch")
+        expect(applied.keys).to include("file_format", "filemask")
       end
     end
 
