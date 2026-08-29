@@ -1,4 +1,3 @@
----
 fr:
   locale_name: Français
   about: À propos
@@ -93,7 +92,7 @@ fr:
   time:
     formats:
       shorter: "%-H:%M"
-    start_of_week: 1
+    start_of_week: '1'
   datetime:
     relative:
       past: il y a %{time}
@@ -102,39 +101,47 @@ fr:
         half_a_minute: une demi‑minute
         less_than_x_seconds:
           one: moins d'une seconde
-          other: moins de %{count} secondes
-          zero: moins d'une seconde
+          many: moins de %{count} secondes
+          other:
         less_than_x_minutes:
           one: moins d'une minute
-          other: moins de %{count} minutes
-          zero: moins d'une minute
+          many: moins de %{count} minutes
+          other:
         x_seconds:
-          one: "%{count} seconde"
-          other: "%{count} secondes"
+          one: '%{count} seconde'
+          many: '%{count} secondes'
+          other:
         x_minutes:
           one:
           other:
         about_x_hours:
           one: environ une heure
-          other: environ %{count} heures
+          many: environ %{count} heures
+          other:
         x_days:
-          one: "%{count} jour"
-          other: "%{count} jours"
+          one: '%{count} jour'
+          many: '%{count} jours'
+          other:
         about_x_months:
           one: environ un mois
-          other: environ %{count} mois
+          many: environ %{count} mois
+          other:
         x_months:
-          one: "%{count} mois"
-          other: "%{count} mois"
+          one: '%{count} mois'
+          many: '%{count} mois'
+          other:
         about_x_years:
           one: environ un an
-          other: environ %{count} ans
+          many: environ %{count} ans
+          other:
         over_x_years:
           one: plus d'un an
-          other: plus de %{count} ans
+          many: plus de %{count} ans
+          other:
         almost_x_years:
           one: presque un an
-          other: presque %{count} ans
+          many: presque %{count} ans
+          other:
   account:
     index:
       title: Compte
@@ -156,7 +163,7 @@ fr:
       refer_and_earn_redemptions: Utilisations du code
       refer_and_earn_request_code: Demander un code
       device_invoice: Facture de l'appareil
-      device_invoice_label: "Téléchargez les documents commerciaux pour votre comptable (ou pour votre collection de PDF, si vous en avez une \U0001F609)."
+      device_invoice_label: "Téléchargez les documents commerciaux pour votre comptable (ou pour votre collection de PDF, si vous en avez une 😉)."
       device_invoice_hint: Retrouvez ce numéro sur la page de suivi de votre colis ou dans l'e-mail de notification de l'envoi.
       email_address_hint: Utilisé pour s'identifier dans TRMNL et recevoir des messages du système.
       first_name_hint: Nous utilisons votre prénom pour rendre l'interface de TRMNL plus agréable.
@@ -529,7 +536,8 @@ fr:
       smart_playlist_hint: Ignore automatiquement les écrans dont le contenu n'a pas changé depuis un moment.
       skip_after:
         one: Ignorer les écrans inchangés après 1 jour
-        other: Ignorer les écrans inchangés après %{count} jours
+        many: Ignorer les écrans inchangés après %{count} jours
+        other:
       add_plugin:
       select:
       exit_select:
@@ -705,10 +713,12 @@ fr:
     connected: Recette connectée
     connections:
       one: Connexion
-      other: Connexions
+      many: Connexions
+      other:
     forks:
       one: Duplication
-      other: Duplications
+      many: Duplications
+      other:
     forked:
     new:
       error: Recette introuvable
