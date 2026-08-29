@@ -92,7 +92,7 @@ cs:
   time:
     formats:
       shorter: "%-H:%M"
-    start_of_week: 0
+    start_of_week: 1
   datetime:
     relative:
       past: před %{time}
@@ -220,6 +220,9 @@ cs:
       morning_salutation: Dobré ráno
       afternoon_salutation: Dobré odpoledne
       evening_salutation: Dobrý večer
+  date:
+    formats:
+      day_month_long: "%A %-d. %B"
   devices:
     edit:
       accepts_beta_firmware: Předběžné verze firmwaru
@@ -237,6 +240,8 @@ cs:
       developer_perks_hint: Vývoj vlastních pluginů, upravitelná MAC adresa (pouze BYOD), předběžný přístup k firmwaru a přístup k API
       device_credentials: Přihlašovací údaje zařízení
       device_credentials_hint: Zjistěte, co s těmito přihlašovacími údaji můžete dělat __zde__
+      device_api_key: API klíč zařízení
+      mac_address: MAC adresa
       device_name: Název zařízení
       device_name_hint: Používáme jej k přizpůsobení rozhraní TRMNL
       device_model: Model zařízení
@@ -291,6 +296,7 @@ cs:
       maximum_compatibility: Povolit maximální kompatibilitu
       maximum_compatibility_hint: Řeší problémy se zobrazením způsobené některými čipy ovladačů ePaper. Zakáže rychlé obnovení. Vyžadován firmware 1.6.0+.
       color_and_rotation: Barvy a otočení
+      image_rotation: Otočení obrázku
       screen_rotation: Otočení obrazovky
       screen_rotation_not_supported: Otočení obrazovky není na vašem zařízení aktuálně podporováno.
       palette: Paleta barev
@@ -310,6 +316,7 @@ cs:
       touchbar_mode_hint: Na jaký typ gest by mělo vaše zařízení reagovat?
       tidbyt_credentials: Přihlašovací údaje Tidbyt
       tidbyt_credentials_hint: Zadejte API přihlašovací údaje svého zařízení Tidbyt z aplikace Tidbyt v části Nastavení → Vývojář → Získat API klíč.
+      tidbyt_api_key: API klíč Tidbyt
       tidbyt_credentials_invalid: API přihlašovací údaje Tidbyt jsou neplatné. Zkontrolujte je a zkuste to znovu.
       tidbyt_device_id: ID zařízení
       tidbyt_device_api_key: API klíč
@@ -434,6 +441,7 @@ cs:
       design_system: Využijte náš nativní design systém
       design_system_docs: Dokumentace design systému
       dirty_confirm: Máte neuložené změny. Opravdu chcete opustit tuto stránku?
+      edit_composition: Upravit kompozici
       edit_markup: Upravit značkování
       edit_markup_for_plugin: Upravit značkování pro %{plugin_setting_name}
       edit_markup_please_save_first: Před úpravou značkování prosím uložte změny
@@ -509,6 +517,7 @@ cs:
       show_playlist: Zobrazit tuto položku
       duplicate: Duplikovat
       duplicate_confirm: Tímto vytvoříte kopii této položky a přidáte ji na konec svého playlistu. Pokračovat?
+      presentation: Prezentace
       color_palette: Paleta barev
       device_default: Výchozí zařízení (%{name})
       palette_unavailable: K dispozici pouze pro zařízení s více paletami barev
@@ -540,6 +549,7 @@ cs:
       tagline: Co si dáte na svůj TRMNL?
       available: Dostupné
       connected: Připojené
+      supported_by_this_device: Podporováno tímto zařízením
       recipes: Recepty
       recipes_hint: Soukromé pluginy od členů komunity, které lze nainstalovat jedním kliknutím. __Dozvědět se více__.
     search:
