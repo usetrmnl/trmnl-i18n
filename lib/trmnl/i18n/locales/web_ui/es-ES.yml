@@ -1,4 +1,3 @@
----
 es-ES:
   locale_name: Español (España)
   about: Acerca de
@@ -93,7 +92,7 @@ es-ES:
   time:
     formats:
       shorter: "%-H:%M"
-    start_of_week: 1
+    start_of_week: '1'
   datetime:
     relative:
       past: hace %{time}
@@ -102,37 +101,48 @@ es-ES:
         half_a_minute: medio minuto
         less_than_x_seconds:
           one: menos de %{count} segundo
-          other: menos de %{count} segundos
+          many: menos de %{count} segundos
+          other:
         less_than_x_minutes:
           one: menos de %{count} minuto
-          other: menos de %{count} minutos
+          many: menos de %{count} minutos
+          other:
         x_seconds:
-          one: "%{count} segundo"
-          other: "%{count} segundos"
+          one: '%{count} segundo'
+          many: '%{count} segundos'
+          other:
         x_minutes:
-          one: "%{count} minuto"
-          other: "%{count} minutos"
+          one: '%{count} minuto'
+          many: '%{count} minutos'
+          other:
         about_x_hours:
           one: alrededor de %{count} hora
-          other: alrededor de %{count} horas
+          many: alrededor de %{count} horas
+          other:
         x_days:
-          one: "%{count} día"
-          other: "%{count} días"
+          one: '%{count} día'
+          many: '%{count} días'
+          other:
         about_x_months:
           one: alrededor de %{count} mes
-          other: alrededor de %{count} meses
+          many: alrededor de %{count} meses
+          other:
         x_months:
-          one: "%{count} mes"
-          other: "%{count} meses"
+          one: '%{count} mes'
+          many: '%{count} meses'
+          other:
         about_x_years:
           one: alrededor de %{count} año
-          other: alrededor de %{count} años
+          many: alrededor de %{count} años
+          other:
         over_x_years:
           one: más de %{count} año
-          other: más de %{count} años
+          many: más de %{count} años
+          other:
         almost_x_years:
           one: casi %{count} año
-          other: casi %{count} años
+          many: casi %{count} años
+          other:
   account:
     index:
       title: Cuenta
@@ -527,7 +537,8 @@ es-ES:
       smart_playlist_hint: Omitir automáticamente pantallas cuyos contenidos no han cambiado durante un tiempo.
       skip_after:
         one: Omitir pantallas obsoletas después de 1 día
-        other: Omitir pantallas obsoletas después de %{count} días
+        many: Omitir pantallas obsoletas después de %{count} días
+        other:
       add_plugin:
       select:
       exit_select:
@@ -703,7 +714,8 @@ es-ES:
     connected: Receta conectada
     connections:
       one: Conexión
-      other: Conexiones
+      many: Conexiones
+      other:
     forks:
       one:
       other:
