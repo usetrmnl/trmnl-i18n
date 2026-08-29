@@ -14,7 +14,7 @@ module Weblate
 
   # Weblate shares one checkout across components in a project, and a linked component
   # rejects any repository field outright instead of ignoring it.
-  SHARED_REPOSITORY_KEYS = %w[slug repo branch vcs].freeze
+  SHARED_REPOSITORY_KEYS = %w[slug repo branch vcs push push_branch].freeze
 
   COMPONENT_DEFAULTS = {
     "file_format" => "ruby-yaml",
@@ -24,7 +24,12 @@ module Weblate
     "language_regex" => "^(?!raw$).+$",
     "repo" => REPOSITORY,
     "branch" => "main",
-    "vcs" => "git",
+    # The github backend opens a pull request instead of pushing to the branch people
+    # read. Naming a push branch is what keeps the work in this repository: Weblate
+    # only forks when the push branch is absent or equal to the translated branch.
+    "vcs" => "github",
+    "push" => REPOSITORY,
+    "push_branch" => "weblate-translations",
     "license" => "MIT"
   }.freeze
 

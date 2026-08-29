@@ -16,9 +16,16 @@ RSpec.describe Weblate do
         "language_regex" => "^(?!raw$).+$",
         "repo" => "https://github.com/usetrmnl/trmnl-i18n.git",
         "branch" => "main",
-        "vcs" => "git",
+        "vcs" => "github",
+        "push" => "https://github.com/usetrmnl/trmnl-i18n.git",
+        "push_branch" => "weblate-translations",
         "license" => "MIT"
       )
+    end
+
+    it "names a push branch so translations arrive as a pull request, not a fork" do
+      settings = described_class.component_settings "web_ui"
+      expect(settings["push_branch"]).to eq("weblate-translations")
     end
   end
 
@@ -26,7 +33,7 @@ RSpec.describe Weblate do
     subject(:settings) { described_class.update_settings "web_ui" }
 
     it "omits the repository fields a linked component rejects" do
-      expect(settings.keys).not_to include("slug", "repo", "branch", "vcs")
+      expect(settings.keys).not_to include("slug", "repo", "branch", "vcs", "push", "push_branch")
     end
 
     it "keeps the file layout so a moved locale directory still lands" do
