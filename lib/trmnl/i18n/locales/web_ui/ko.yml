@@ -1,4 +1,3 @@
----
 ko:
   locale_name: 한국어
   about: 소개
@@ -101,37 +100,26 @@ ko:
       distance_in_words:
         half_a_minute: 30초
         less_than_x_seconds:
-          one: "%{count}초 미만"
-          other: "%{count}초 미만"
+          other: '%{count}초 미만'
         less_than_x_minutes:
-          one: "%{count}분 미만"
-          other: "%{count}분 미만"
+          other: '%{count}분 미만'
         x_seconds:
-          one: "%{count}초"
-          other: "%{count}초"
+          other: '%{count}초'
         x_minutes:
-          one: "%{count}분"
-          other: "%{count}분"
+          other: '%{count}분'
         about_x_hours:
-          one: 대략 %{count}시간
           other: 대략 %{count}시간
         x_days:
-          one: "%{count}일"
-          other: "%{count}일"
+          other: '%{count}일'
         about_x_months:
-          one: 대략 %{count}개월
           other: 대략 %{count}개월
         x_months:
-          one: "%{count}개월"
-          other: "%{count}개월"
+          other: '%{count}개월'
         about_x_years:
-          one: 대략 %{count}년
           other: 대략 %{count}년
         over_x_years:
-          one: "%{count}년 초과"
-          other: "%{count}년 초과"
+          other: '%{count}년 초과'
         almost_x_years:
-          one: 거의 %{count}년
           other: 거의 %{count}년
   account:
     index:
@@ -526,8 +514,7 @@ ko:
       smart_playlist: 스마트 플레이리스트
       smart_playlist_hint: 내용이 한동안 바뀌지 않은 화면을 자동으로 건너뛰어요.
       skip_after:
-        one: 1일 후 오래된 화면 건너뛰기
-        other: "%{count}일 후 오래된 화면 건너뛰기"
+        other: '%{count}일 후 오래된 화면 건너뛰기'
       add_plugin:
       select:
       exit_select:
@@ -702,7 +689,6 @@ ko:
   plugin_recipes:
     connected: 레시피 연결됨
     connections:
-      one: 연결
       other: 연결
     forks:
       one:
