@@ -184,6 +184,35 @@ raw:
       success: account.update.success
     reset_api_key:
       success: account.reset_api_key.success
+    ai_agent_settings:
+      title: account.ai_agent_settings.title
+      tagline: account.ai_agent_settings.tagline
+      model: account.ai_agent_settings.model
+      model_group_claude: account.ai_agent_settings.model_group_claude
+      model_group_other: account.ai_agent_settings.model_group_other
+      model_custom: account.ai_agent_settings.model_custom
+      model_custom_placeholder: account.ai_agent_settings.model_custom_placeholder
+      model_hint: account.ai_agent_settings.model_hint
+      openrouter_key: account.ai_agent_settings.openrouter_key
+      openrouter_recommended: account.ai_agent_settings.openrouter_recommended
+      openrouter_hint: account.ai_agent_settings.openrouter_hint
+      anthropic_key: account.ai_agent_settings.anthropic_key
+      anthropic_direct: account.ai_agent_settings.anthropic_direct
+      anthropic_hint: account.ai_agent_settings.anthropic_hint
+      tavily_key: account.ai_agent_settings.tavily_key
+      tavily_optional: account.ai_agent_settings.tavily_optional
+      tavily_hint: account.ai_agent_settings.tavily_hint
+      remove_key: account.ai_agent_settings.remove_key
+      key_set: account.ai_agent_settings.key_set
+      key_removed_on_save: account.ai_agent_settings.key_removed_on_save
+      usage: account.ai_agent_settings.usage
+      total_cost: account.ai_agent_settings.total_cost
+      api_calls: account.ai_agent_settings.api_calls
+      input_tokens: account.ai_agent_settings.input_tokens
+      output_tokens: account.ai_agent_settings.output_tokens
+      avg_cost_per_plugin: account.ai_agent_settings.avg_cost_per_plugin
+      cache: account.ai_agent_settings.cache
+      cost_by_model: account.ai_agent_settings.cost_by_model
   dashboard:
     index:
       title: dashboard.index.title
@@ -494,6 +523,59 @@ raw:
     no_merge_variables:
       force_refresh: markups.no_merge_variables.force_refresh
       no_variables_detected: markups.no_merge_variables.no_variables_detected __force refresh__.
+    visual_editor:
+      back: markups.visual_editor.back
+      choose_your_layout: markups.visual_editor.choose_your_layout
+      clear_logs: markups.visual_editor.clear_logs
+      click_to_copy: markups.visual_editor.click_to_copy
+      close: markups.visual_editor.close
+      code: markups.visual_editor.code
+      code_agent: markups.visual_editor.code_agent
+      code_agent_disabled_hint: markups.visual_editor.code_agent_disabled_hint
+      code_agent_panel: markups.visual_editor.code_agent_panel
+      components: markups.visual_editor.components
+      develop_on_github: markups.visual_editor.develop_on_github
+      documentation: markups.visual_editor.documentation
+      edit_settings: markups.visual_editor.edit_settings
+      element_tree_sidebar: markups.visual_editor.element_tree_sidebar
+      element_tree_sidebar_contents: markups.visual_editor.element_tree_sidebar_contents
+      force_refresh: markups.visual_editor.force_refresh
+      import: markups.visual_editor.import
+      js_logs: markups.visual_editor.js_logs
+      keyboard_shortcuts: markups.visual_editor.keyboard_shortcuts
+      keyboard_shortcuts_dialog: markups.visual_editor.keyboard_shortcuts_dialog
+      last_refresh: markups.visual_editor.last_refresh
+      open_visual_editor: markups.visual_editor.open_visual_editor
+      preview_only: markups.visual_editor.preview_only
+      preview_placeholder: markups.visual_editor.preview_placeholder
+      properties: markups.visual_editor.properties
+      redo: markups.visual_editor.redo
+      refresh: markups.visual_editor.refresh
+      resize_code_and_js_logs: markups.visual_editor.resize_code_and_js_logs
+      resize_element_tree_and_code_agent: markups.visual_editor.resize_element_tree_and_code_agent
+      resize_left_sidebar: markups.visual_editor.resize_left_sidebar
+      resize_preview_and_code: markups.visual_editor.resize_preview_and_code
+      save_cmd_s: markups.visual_editor.save_cmd_s
+      saved: markups.visual_editor.saved
+      select_view_hint: markups.visual_editor.select_view_hint
+      serverless: markups.visual_editor.serverless
+      serverless_language: markups.visual_editor.serverless_language
+      shared: markups.visual_editor.shared
+      show_at_startup: markups.visual_editor.show_at_startup
+      side_by_side_layout: markups.visual_editor.side_by_side_layout
+      stacked_layout: markups.visual_editor.stacked_layout
+      state: markups.visual_editor.state
+      switch_private_plugin: markups.visual_editor.switch_private_plugin
+      templates: markups.visual_editor.templates
+      to_get_started: markups.visual_editor.to_get_started
+      toggle_code_agent: markups.visual_editor.toggle_code_agent
+      toggle_properties: markups.visual_editor.toggle_properties
+      undo: markups.visual_editor.undo
+      variables: markups.visual_editor.variables
+      what_you_can_do: markups.visual_editor.what_you_can_do
+      workspace_ready: markups.visual_editor.workspace_ready
+      zoom_in: markups.visual_editor.zoom_in
+      zoom_out: markups.visual_editor.zoom_out
   notices:
     dismiss:
       discover_callout: notices.dismiss.discover_callout
@@ -1395,3 +1477,55 @@ raw:
       one: playlist_coverage.notice.one
       other: playlist_coverage.notice.other
     view: playlist_coverage.view
+  compositions:
+    form:
+      add_layer: compositions.form.add_layer
+      adjust_layer_panel_height: compositions.form.adjust_layer_panel_height
+      adjust_pane_size: compositions.form.adjust_pane_size
+      auto: compositions.form.auto
+      background_color: compositions.form.background_color
+      backgrounds: compositions.form.backgrounds
+      box: compositions.form.box
+      center: compositions.form.center
+      choose_image: compositions.form.choose_image
+      choose_image_prompt: compositions.form.choose_image_prompt
+      color: compositions.form.color
+      content: compositions.form.content
+      delete_layer: compositions.form.delete_layer
+      enable_led_preview: compositions.form.enable_led_preview
+      eraser_e: compositions.form.eraser_e
+      fill: compositions.form.fill
+      fill_f: compositions.form.fill_f
+      font: compositions.form.font
+      graphic_hint: compositions.form.graphic_hint
+      hide_layer: compositions.form.hide_layer
+      icons: compositions.form.icons
+      layer_settings: compositions.form.layer_settings
+      layers: compositions.form.layers
+      layout: compositions.form.layout
+      left: compositions.form.left
+      letter_spacing: compositions.form.letter_spacing
+      lock_layer: compositions.form.lock_layer
+      marquee_m: compositions.form.marquee_m
+      pencil_p: compositions.form.pencil_p
+      picker_i: compositions.form.picker_i
+      place_assets_hint_html: compositions.form.place_assets_hint_html
+      place_graphic: compositions.form.place_graphic
+      primary_color: compositions.form.primary_color
+      rectangle_r: compositions.form.rectangle_r
+      redo: compositions.form.redo
+      rename_layer: compositions.form.rename_layer
+      right: compositions.form.right
+      secondary_color: compositions.form.secondary_color
+      select_v: compositions.form.select_v
+      side_by_side_layout: compositions.form.side_by_side_layout
+      stacked_layout: compositions.form.stacked_layout
+      swap_colors: compositions.form.swap_colors
+      text_alignment: compositions.form.text_alignment
+      toggle_grid: compositions.form.toggle_grid
+      toggle_lock: compositions.form.toggle_lock
+      toggle_visibility: compositions.form.toggle_visibility
+      undo: compositions.form.undo
+      variables: compositions.form.variables
+      visible_if: compositions.form.visible_if
+      width: compositions.form.width
