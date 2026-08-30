@@ -184,6 +184,35 @@ en-AU:
       success: Profile updated successfully
     reset_api_key:
       success: API key was regenerated successfully
+    ai_agent_settings:
+      title: AI Agent
+      tagline: Configure your AI agent. Built for Claude Sonnet 5, but other models work well too.
+      model: Model
+      model_group_claude: Claude (Anthropic or OpenRouter key)
+      model_group_other: Other models (OpenRouter key required)
+      model_custom: Custom model...
+      model_custom_placeholder: e.g. meta-llama/llama-4-scout
+      model_hint: Pick a preset or enter any __OpenRouter model ID__.
+      openrouter_key: OpenRouter API Key
+      openrouter_recommended: "(recommended)"
+      openrouter_hint: Works with all models. No rate limit issues. If both keys are set, OpenRouter is used.
+      anthropic_key: Anthropic API Key
+      anthropic_direct: "(direct)"
+      anthropic_hint: Requires Tier 2+ usage on your Anthropic account. New accounts will hit rate limits.
+      tavily_key: Tavily API Key
+      tavily_optional: "(optional)"
+      tavily_hint: Enables web search in the Agent.
+      remove_key: Remove
+      key_set: "(key is set)"
+      key_removed_on_save: Key will be removed on save.
+      usage: Usage
+      total_cost: Total Cost
+      api_calls: API Calls
+      input_tokens: Input Tokens
+      output_tokens: Output Tokens
+      avg_cost_per_plugin: Avg Cost / Plugin
+      cache: 'Cache: %{read} read / %{created} created'
+      cost_by_model: Cost by Model
   dashboard:
     index:
       title: Dashboard
@@ -493,6 +522,59 @@ en-AU:
     no_merge_variables:
       force_refresh: If you've provided variables but they aren't being detected, try a __force refresh__.
       no_variables_detected: No variables detected.
+    visual_editor:
+      back: Back
+      choose_your_layout: Choose your layout
+      clear_logs: Clear logs
+      click_to_copy: Click to copy
+      close: Close
+      code: Code
+      code_agent: Code Agent
+      code_agent_disabled_hint: Enable AI from Account Settings to use Code Agent.
+      code_agent_panel: Code Agent panel
+      components: Components
+      develop_on_github: Develop on GitHub
+      documentation: Documentation
+      edit_settings: Edit Settings
+      element_tree_sidebar: Element Tree sidebar
+      element_tree_sidebar_contents: 'Element Tree sidebar: element tree, Code Agent'
+      force_refresh: Force Refresh
+      import: Import
+      js_logs: JS Logs
+      keyboard_shortcuts: Keyboard shortcuts
+      keyboard_shortcuts_dialog: Visual Editor keyboard shortcuts
+      last_refresh: Last refresh
+      open_visual_editor: Open Visual Editor
+      preview_only: Preview only
+      preview_placeholder: Your live preview will appear here
+      properties: Properties
+      redo: Redo
+      refresh: Refresh
+      resize_code_and_js_logs: Resize code and JS logs
+      resize_element_tree_and_code_agent: Resize element tree and code agent
+      resize_left_sidebar: Resize left sidebar
+      resize_preview_and_code: Resize preview and code
+      save_cmd_s: Save (Cmd+S)
+      saved: Saved
+      select_view_hint: Select this view to define its layout
+      serverless: Serverless
+      serverless_language: Serverless language
+      shared: Shared
+      show_at_startup: Show at startup
+      side_by_side_layout: Side by side layout
+      stacked_layout: Stacked layout
+      state: State
+      switch_private_plugin: Switch private plugin
+      templates: Templates
+      to_get_started: To get started
+      toggle_code_agent: 'Code Agent: show or hide the Code Agent panel'
+      toggle_properties: 'Properties: show or hide the properties panel'
+      undo: Undo
+      variables: Variables
+      what_you_can_do: What you can do
+      workspace_ready: Your workspace is set how you like.
+      zoom_in: Zoom in
+      zoom_out: Zoom out
   notices:
     dismiss:
       discover_callout: You can always set up or change your Persona in the device settings.
@@ -1396,3 +1478,55 @@ en-AU:
       one: Your playlist has 1 uncovered period.
       other: Your playlist has %{count} uncovered periods.
     view: See when
+  compositions:
+    form:
+      add_layer: Add layer
+      adjust_layer_panel_height: Adjust layer panel height
+      adjust_pane_size: Adjust pane size
+      auto: Auto
+      background_color: Background color
+      backgrounds: Backgrounds
+      box: Box
+      center: Center
+      choose_image: Choose Image
+      choose_image_prompt: Choose image...
+      color: Color
+      content: Content
+      delete_layer: Delete layer
+      enable_led_preview: Enable LED preview
+      eraser_e: Eraser (E)
+      fill: Fill
+      fill_f: Fill (F)
+      font: Font
+      graphic_hint: Select a preset or choose your own bitmap-sized graphic.
+      hide_layer: Hide layer
+      icons: Icons
+      layer_settings: Layer Settings
+      layers: Layers
+      layout: Layout
+      left: Left
+      letter_spacing: Letter spacing
+      lock_layer: Lock layer
+      marquee_m: Marquee (M)
+      pencil_p: Pencil (P)
+      picker_i: Picker (I)
+      place_assets_hint_html: Add 64×32 assets under %{path}.
+      place_graphic: Place Graphic
+      primary_color: Primary color
+      rectangle_r: Rectangle (R)
+      redo: Redo
+      rename_layer: Rename layer
+      right: Right
+      secondary_color: Secondary color
+      select_v: Select (V)
+      side_by_side_layout: Side by side layout
+      stacked_layout: Stacked layout
+      swap_colors: Swap colors
+      text_alignment: Text alignment
+      toggle_grid: Toggle grid
+      toggle_lock: Toggle lock
+      toggle_visibility: Toggle visibility
+      undo: Undo
+      variables: Variables
+      visible_if: Visible if...
+      width: Width
