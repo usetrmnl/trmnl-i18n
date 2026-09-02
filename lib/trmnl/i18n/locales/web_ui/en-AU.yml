@@ -905,6 +905,7 @@ en-AU:
       preview_from_device: Preview from %{device}
       refresh_paused_merge: Refreshing via Plugin Merge
       refresh_paused_merge_hint: Auto-refresh is paused because this plugin is hidden. Its data is kept fresh by %{names} via Plugin Merge.
+      clear_state: Clear Saved State
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
@@ -928,6 +929,7 @@ en-AU:
     delete_mashup_warning:
       one: This plugin fills a mashup slot. Removing it leaves that slot empty.
       other: This plugin fills %{count} mashup slots. Removing it leaves those slots empty.
+    state_cleared: Saved state cleared. The next refresh starts from scratch.
   referral_code:
     create:
       request_received: Request received, check your inbox
