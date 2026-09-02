@@ -1135,6 +1135,7 @@ sk:
         timezone: 'Time Zone:'
         tz: Time Zone
         walk_up_title: Occupied
+        billing: Billing
       shared:
         back_to_apps: Back to Apps
         displays:
@@ -1144,6 +1145,7 @@ sk:
           show_on_device: 'Show this %{type} on %{which} device:'
           stop_showing_confirm: Stop showing %{name} on %{device}?
           title: Displays
+        back_to_app: Back to %{app}
       screens:
         available:
           next: 'Next: %{title}'
@@ -1473,6 +1475,27 @@ sk:
           walk_up_booking: Walk-up Booking
           walk_up_calendar: Show Calendar
           walk_up_calendar_hint: Show upcoming bookings on the walk-up booking screen.
+      billing:
+        title: Billing
+        summary:
+          one: "%{count} resource on displays — %{total} per month"
+          other: "%{count} resources on displays — %{total} per month"
+        incomplete: Checkout was not completed.
+        active: Your Booking subscription is active.
+        manage: Manage billing
+        checkout_error: Could not load checkout. Refresh to try again.
+        trial_active: Your free trial is running. You will be billed when it ends.
+        nothing_to_bill: Nothing is on a display yet, so there is nothing to bill. Put a resource on a device to get started.
+        bind_confirm:
+          one: This adds 1 resource to your plan (%{amount}). Continue?
+          other: This adds %{count} resources to your plan (%{amount}). Continue?
+        screen_title: Subscription needed
+        screen_body: Add a payment method to show this resource again.
+        locked: Add a payment method to keep your resources on screen.
+        past_due: Your last payment failed. Update your card to avoid interruption.
+        grace:
+          one: Booking becomes a paid app on %{date}. Your %{count} resource will be %{total} per month.
+          other: Booking becomes a paid app on %{date}. Your %{count} resources will be %{total} per month.
   mashups:
     mashup:
       add_to_playlist: Add to playlist

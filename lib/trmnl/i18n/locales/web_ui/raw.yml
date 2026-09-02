@@ -1124,6 +1124,7 @@ raw:
         timezone: apps.room_booking.common.timezone
         tz: apps.room_booking.common.tz
         walk_up_title: apps.room_booking.common.walk_up_title
+        billing: apps.room_booking.common.billing
       shared:
         back_to_apps: apps.room_booking.shared.back_to_apps
         displays:
@@ -1133,6 +1134,7 @@ raw:
           show_on_device: apps.room_booking.shared.displays.show_on_device
           stop_showing_confirm: apps.room_booking.shared.displays.stop_showing_confirm
           title: apps.room_booking.shared.displays.title
+        back_to_app: apps.room_booking.shared.back_to_app
       screens:
         available:
           next: apps.room_booking.screens.available.next
@@ -1460,6 +1462,27 @@ raw:
           walk_up_booking: apps.room_booking.settings.show.walk_up_booking
           walk_up_calendar: apps.room_booking.settings.show.walk_up_calendar
           walk_up_calendar_hint: apps.room_booking.settings.show.walk_up_calendar_hint
+      billing:
+        title: apps.room_booking.billing.title
+        summary:
+          one: apps.room_booking.billing.summary.one
+          other: apps.room_booking.billing.summary.other
+        incomplete: apps.room_booking.billing.incomplete
+        active: apps.room_booking.billing.active
+        manage: apps.room_booking.billing.manage
+        checkout_error: apps.room_booking.billing.checkout_error
+        trial_active: apps.room_booking.billing.trial_active
+        nothing_to_bill: apps.room_booking.billing.nothing_to_bill
+        bind_confirm:
+          one: apps.room_booking.billing.bind_confirm.one
+          other: apps.room_booking.billing.bind_confirm.other
+        screen_title: apps.room_booking.billing.screen_title
+        screen_body: apps.room_booking.billing.screen_body
+        locked: apps.room_booking.billing.locked
+        past_due: apps.room_booking.billing.past_due
+        grace:
+          one: apps.room_booking.billing.grace.one
+          other: apps.room_booking.billing.grace.other
   mashups:
     mashup:
       add_to_playlist: mashups.mashup.add_to_playlist
