@@ -180,6 +180,8 @@ raw:
       locale_hint: account.index.locale_hint __Go here__.
       low_battery_notification_email: account.index.low_battery_notification_email
       low_battery_notification_email_hint: account.index.low_battery_notification_email_hint
+      explore_apps: account.index.explore_apps
+      explore_apps_hint: account.index.explore_apps_hint
     update:
       success: account.update.success
     reset_api_key:
@@ -1483,6 +1485,9 @@ raw:
         grace:
           one: apps.room_booking.billing.grace.one
           other: apps.room_booking.billing.grace.other
+      tagline: apps.room_booking.tagline
+    fleet:
+      tagline: apps.fleet.tagline
   mashups:
     mashup:
       add_to_playlist: mashups.mashup.add_to_playlist
