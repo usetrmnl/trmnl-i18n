@@ -215,6 +215,22 @@ raw:
       avg_cost_per_plugin: account.ai_agent_settings.avg_cost_per_plugin
       cache: account.ai_agent_settings.cache
       cost_by_model: account.ai_agent_settings.cost_by_model
+    shared_accounts:
+      title: account.shared_accounts.title
+      hint: account.shared_accounts.hint
+      switch: account.shared_accounts.switch
+      leave: account.shared_accounts.leave
+    sharing:
+      name: account.sharing.name
+      name_hint: account.sharing.name_hint
+      save_name: account.sharing.save_name
+      title: account.sharing.title
+      hint: account.sharing.hint
+      email_placeholder: account.sharing.email_placeholder
+      invite: account.sharing.invite
+      pending: account.sharing.pending
+      expired: account.sharing.expired
+      remove: account.sharing.remove
   dashboard:
     index:
       title: dashboard.index.title
@@ -394,6 +410,71 @@ raw:
       theme: devices.edit.theme
       theme_hint: devices.edit.theme_hint
       theme_version_note: devices.edit.theme_version_note
+      waits_for_next_render: devices.edit.waits_for_next_render
+      waits_for_next_render_hint: devices.edit.waits_for_next_render_hint
+      battery_advice:
+        title: devices.edit.battery_advice.title
+        wakes_per_day:
+          one: devices.edit.battery_advice.wakes_per_day.one
+          other: devices.edit.battery_advice.wakes_per_day.other
+        days_per_charge:
+          one: devices.edit.battery_advice.days_per_charge.one
+          other: devices.edit.battery_advice.days_per_charge.other
+        gain:
+          zero: devices.edit.battery_advice.gain.zero
+          one: devices.edit.battery_advice.gain.one
+          other: devices.edit.battery_advice.gain.other
+        nothing_to_change: devices.edit.battery_advice.nothing_to_change
+        suggestions:
+          enable_wait: devices.edit.battery_advice.suggestions.enable_wait
+          match_plugin_interval: devices.edit.battery_advice.suggestions.match_plugin_interval
+          enable_sleep_mode: devices.edit.battery_advice.suggestions.enable_sleep_mode
+      check_in_preview:
+        next_check_in: devices.edit.check_in_preview.next_check_in
+        next_check_in_unknown: devices.edit.check_in_preview.next_check_in_unknown
+        next_check_in_overdue: devices.edit.check_in_preview.next_check_in_overdue
+        why: devices.edit.check_in_preview.why
+        title: devices.edit.check_in_preview.title
+        then_shows: devices.edit.check_in_preview.then_shows
+        then_shows_nothing: devices.edit.check_in_preview.then_shows_nothing
+        then_sleeps: devices.edit.check_in_preview.then_sleeps
+        renders_at: devices.edit.check_in_preview.renders_at
+        no_render_because: devices.edit.check_in_preview.no_render_because
+        render_overdue: devices.edit.check_in_preview.render_overdue
+        told: devices.edit.check_in_preview.told
+        timeline_title: devices.edit.check_in_preview.timeline_title
+        timeline_group:
+          one: devices.edit.check_in_preview.timeline_group.one
+          other: devices.edit.check_in_preview.timeline_group.other
+        timeline_sleep_group:
+          one: devices.edit.check_in_preview.timeline_sleep_group.one
+          other: devices.edit.check_in_preview.timeline_sleep_group.other
+        timeline_nothing_group:
+          one: devices.edit.check_in_preview.timeline_nothing_group.one
+          other: devices.edit.check_in_preview.timeline_nothing_group.other
+        timeline_step: devices.edit.check_in_preview.timeline_step
+        timeline_asleep: devices.edit.check_in_preview.timeline_asleep
+        timeline_nothing: devices.edit.check_in_preview.timeline_nothing
+        rules: devices.edit.check_in_preview.rules
+        close: devices.edit.check_in_preview.close
+        reasons:
+          waiting_for_render: devices.edit.check_in_preview.reasons.waiting_for_render
+          sleep_window: devices.edit.check_in_preview.reasons.sleep_window
+          maximum_wait: devices.edit.check_in_preview.reasons.maximum_wait
+          next_screen_change: devices.edit.check_in_preview.reasons.next_screen_change
+          asleep: devices.edit.check_in_preview.reasons.asleep
+          rotation: devices.edit.check_in_preview.reasons.rotation
+          render_before_next_poll: devices.edit.check_in_preview.reasons.render_before_next_poll
+          nothing_served: devices.edit.check_in_preview.reasons.nothing_served
+          wait_disabled: devices.edit.check_in_preview.reasons.wait_disabled
+          setup_day: devices.edit.check_in_preview.reasons.setup_day
+          push_driven: devices.edit.check_in_preview.reasons.push_driven
+          clock_driven: devices.edit.check_in_preview.reasons.clock_driven
+          renders_elsewhere: devices.edit.check_in_preview.reasons.renders_elsewhere
+          scheduled: devices.edit.check_in_preview.reasons.scheduled
+          feature_off: devices.edit.check_in_preview.reasons.feature_off
+          no_render_scheduled: devices.edit.check_in_preview.reasons.no_render_scheduled
+          render_running: devices.edit.check_in_preview.reasons.render_running
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -671,6 +752,11 @@ raw:
       title_tooltip:
         source_plugin: playlist_items.playlist_item.title_tooltip.source_plugin
       force_refresh: playlist_items.playlist_item.force_refresh
+      next_shown: playlist_items.playlist_item.next_shown
+      next_shown_overdue: playlist_items.playlist_item.next_shown_overdue
+      next_render: playlist_items.playlist_item.next_render
+      render_overdue: playlist_items.playlist_item.render_overdue
+      no_next_render: playlist_items.playlist_item.no_next_render
     create:
       error: playlists.create.error
       success: playlists.create.success
@@ -751,6 +837,19 @@ raw:
       adjust_schedule: playlist_items.playlist_item_schedule.adjust_schedule
     update_full_playlist_order:
       error: playlist_items.update_full_playlist_order.error
+    day_ahead:
+      title: playlist_items.day_ahead.title
+      window: playlist_items.day_ahead.window
+      open: playlist_items.day_ahead.open
+      toggle: playlist_items.day_ahead.toggle
+      times:
+        one: playlist_items.day_ahead.times.one
+        other: playlist_items.day_ahead.times.other
+      asleep: playlist_items.day_ahead.asleep
+      nothing: playlist_items.day_ahead.nothing
+      asleep_segment: playlist_items.day_ahead.asleep_segment
+      nothing_segment: playlist_items.day_ahead.nothing_segment
+      segment: playlist_items.day_ahead.segment
   plugins:
     index:
       title: plugins.index.title
@@ -1059,6 +1158,14 @@ raw:
     attributes:
       plugin_setting:
         ai_coauthored: activerecord.attributes.plugin_setting.ai_coauthored
+    errors:
+      models:
+        account_membership:
+          attributes:
+            email:
+              owner: activerecord.errors.models.account_membership.attributes.email.owner
+            owner:
+              admin: activerecord.errors.models.account_membership.attributes.owner.admin
   apps:
     core:
       public:
@@ -1559,3 +1666,39 @@ raw:
       variables: compositions.form.variables
       visible_if: compositions.form.visible_if
       width: compositions.form.width
+  shared:
+    impersonator:
+      managing: shared.impersonator.managing
+      back_to_my_account: shared.impersonator.back_to_my_account
+  account_invitations:
+    show:
+      title: account_invitations.show.title
+      body: account_invitations.show.body
+      accept: account_invitations.show.accept
+      not_now: account_invitations.show.not_now
+      have_a_login: account_invitations.show.have_a_login
+      log_in: account_invitations.show.log_in
+      create_and_accept: account_invitations.show.create_and_accept
+    accept:
+      accepted: account_invitations.accept.accepted
+      own_account: account_invitations.accept.own_account
+      already_member: account_invitations.accept.already_member
+  account_memberships:
+    create:
+      sent: account_memberships.create.sent
+    destroy:
+      removed: account_memberships.destroy.removed
+    leave:
+      left: account_memberships.leave.left
+  account_switches:
+    create:
+      switched: account_switches.create.switched
+    revoked: account_switches.revoked
+    own_account_only: account_switches.own_account_only
+  user_mailer:
+    account_invitation:
+      subject: user_mailer.account_invitation.subject
+      greeting: user_mailer.account_invitation.greeting
+      body: user_mailer.account_invitation.body
+      accept: user_mailer.account_invitation.accept
+      expiry: user_mailer.account_invitation.expiry
