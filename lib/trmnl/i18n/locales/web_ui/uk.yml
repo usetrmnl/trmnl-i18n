@@ -237,6 +237,22 @@ uk:
       avg_cost_per_plugin: Avg Cost / Plugin
       cache: 'Cache: %{read} read / %{created} created'
       cost_by_model: Cost by Model
+    shared_accounts:
+      title: Accounts shared with you
+      hint: Pick an account to manage its devices, playlists and plugins, or leave it.
+      switch: Manage
+      leave: Leave
+    sharing:
+      name: Account name
+      name_hint: What the people you share with see, such as Home or Acme HQ. Leave blank to use your name.
+      save_name: Rename
+      title: Sharing
+      hint: Invite someone to manage your devices, playlists and plugins. They use their own TRMNL login.
+      email_placeholder: name@example.com
+      invite: Invite
+      pending: Pending
+      expired: Expired
+      remove: Remove
   dashboard:
     index:
       title: Панель управління
@@ -416,6 +432,71 @@ uk:
       theme: Theme
       theme_hint: Apply a color theme across your plugin screens.
       theme_version_note: Requires Framework 3.2 or later. Private plugins pinned to an older version will not be affected.
+      waits_for_next_render: Wait for the next update
+      waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
+      battery_advice:
+        title: Battery advice
+        wakes_per_day:
+          one: This device wakes about once a day.
+          other: This device wakes about %{count} times a day.
+        days_per_charge:
+          one: At that rate a charge lasts about a day.
+          other: At that rate a charge lasts about %{count} days.
+        gain:
+          zero: ''
+          one: "(adds about a day to a charge)"
+          other: "(adds about %{count} days to a charge)"
+        nothing_to_change: Nothing to change here. It already wakes no more often than its plugins update.
+        suggestions:
+          enable_wait: Turn "Wait for the next update" back on, so it sleeps through updates that cannot have changed.
+          match_plugin_interval: Set the refresh rate to %{minutes} minutes, the fastest any of its plugins updates.
+          enable_sleep_mode: Turn on Sleep Mode for the hours nobody is looking.
+      check_in_preview:
+        next_check_in: Next check-in %{when}.
+        next_check_in_unknown: 'Next check-in: unknown until it has checked in.'
+        next_check_in_overdue: Check-in overdue since %{when}.
+        why: Why?
+        title: How this device decides when to check in
+        then_shows: Then it shows %{item}.
+        then_shows_nothing: Then it has nothing to show.
+        then_sleeps: Then it shows the sleep screen until its sleep window ends.
+        renders_at: "%{item} next renders %{when}."
+        no_render_because: "%{item} has no render time, %{reason}."
+        render_overdue: "%{item} has had a render overdue since %{when}."
+        told: It will be told to check in again in %{when}, %{reason}.
+        timeline_title: The day ahead
+        timeline_group:
+          one: "%{item}: once, at %{at}"
+          other: "%{item}: %{count} times, first at %{at}"
+        timeline_sleep_group:
+          one: 'Asleep: once'
+          other: 'Asleep: %{count} times'
+        timeline_nothing_group:
+          one: 'Nothing to show: once'
+          other: 'Nothing to show: %{count} times'
+        timeline_step: "%{at}: shows %{item}, then waits %{wait}."
+        timeline_asleep: "%{at}: sleeps until %{until}."
+        timeline_nothing: "%{at}: has nothing to show."
+        rules: Its refresh rate, a playlist item's own duration, each plugin's refresh interval, sleep mode and the wait for the next update each decide part of this.
+        close: Close
+        reasons:
+          waiting_for_render: because its plugin's next update is not due before then
+          sleep_window: because its sleep window starts then
+          maximum_wait: because two hours is the longest a device waits
+          next_screen_change: because the room's next meeting starts or ends then
+          asleep: because it is inside its sleep window
+          rotation: because its playlist rotates more than one item, so every check-in shows the next
+          render_before_next_poll: because its plugin's next update lands before then
+          nothing_served: because nothing is on its playlist yet
+          wait_disabled: because waiting for the next update is turned off for this device
+          setup_day: because it was set up less than a day ago
+          push_driven: because its plugin updates whenever data arrives, not on a schedule
+          clock_driven: because its screen changes with the clock rather than with a render
+          renders_elsewhere: because its plugin is rendered by a shared master, not on its own schedule
+          scheduled: because it only shows inside a schedule window
+          feature_off: because waiting for the next update is switched off for everyone
+          no_render_scheduled: because no render is scheduled for its plugin
+          render_running: because its plugin is rendering right now
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -693,6 +774,11 @@ uk:
       title_tooltip:
         source_plugin: Source plugin
       force_refresh: Refresh now
+      next_shown: Next shown %{time}
+      next_shown_overdue: Next shown as soon as it checks in; it is overdue
+      next_render: Renders again %{time}
+      render_overdue: A render has been overdue since %{time}
+      no_next_render: No render before then, %{reason}
     create:
       error: Не вдалося оновити плейлист
       success: Плейлист оновлено
@@ -773,6 +859,19 @@ uk:
       adjust_schedule: Adjust schedule
     update_full_playlist_order:
       error: Playlist order could not be saved
+    day_ahead:
+      title: The day ahead
+      window: next 24 hours
+      open: Open the day ahead
+      toggle: Hide or show the day ahead
+      times:
+        one: once
+        other: "%{count}×"
+      asleep: Asleep %{duration}
+      nothing: Nothing to show %{duration}
+      asleep_segment: Asleep
+      nothing_segment: Nothing to show
+      segment: "%{item} for %{duration}"
   plugins:
     index:
       title: Плагіни
@@ -1081,6 +1180,14 @@ uk:
     attributes:
       plugin_setting:
         ai_coauthored: AI Coauthored
+    errors:
+      models:
+        account_membership:
+          attributes:
+            email:
+              owner: is the account owner's own address
+            owner:
+              admin: is an admin login and cannot be shared
   apps:
     core:
       public:
@@ -1583,3 +1690,39 @@ uk:
       variables: Variables
       visible_if: Visible if...
       width: Width
+  shared:
+    impersonator:
+      managing: Managing %{name}
+      back_to_my_account: Back to my account
+  account_invitations:
+    show:
+      title: You have been invited
+      body: "%{inviter} invited you to manage their TRMNL: its devices, playlists and plugins."
+      accept: Accept
+      not_now: Not now
+      have_a_login: Already have a TRMNL login?
+      log_in: Log in
+      create_and_accept: Create login and accept
+    accept:
+      accepted: You're now managing %{name}'s account
+      own_account: That invitation is for your own account
+      already_member: You already manage this account
+  account_memberships:
+    create:
+      sent: Invitation sent to %{email}
+    destroy:
+      removed: Access removed
+    leave:
+      left: You left %{name}
+  account_switches:
+    create:
+      switched: You're now managing %{name}'s account
+    revoked: Your access to that account was removed
+    own_account_only: Switch back to your own account first
+  user_mailer:
+    account_invitation:
+      subject: "%{name} invited you to manage their TRMNL"
+      greeting: Hey there,
+      body: "%{inviter} invited you to manage their TRMNL: its devices, playlists and plugins."
+      accept: Accept the invitation
+      expiry: This link will work for %{days} days.
