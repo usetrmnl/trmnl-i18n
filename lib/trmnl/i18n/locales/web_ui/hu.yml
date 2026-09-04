@@ -429,6 +429,10 @@ hu:
           enable_wait: Turn "Wait for the next update" back on, so it sleeps through updates that cannot have changed.
           match_plugin_interval: Set the refresh rate to %{minutes} minutes, the fastest any of its plugins updates.
           enable_sleep_mode: Turn on Sleep Mode for the hours nobody is looking.
+        wakes_per_day_measured:
+          one: Over the last 7 days this device woke about once a day.
+          other: Over the last 7 days this device woke about %{count} times a day.
+        stale: Save your changes to work these figures out again for the new setting.
       check_in_preview:
         next_check_in: Next check-in %{when}.
         next_check_in_unknown: 'Next check-in: unknown until it has checked in.'
@@ -475,6 +479,9 @@ hu:
           feature_off: because waiting for the next update is switched off for everyone
           no_render_scheduled: because no render is scheduled for its plugin
           render_running: because its plugin is rendering right now
+          schedule_boundary: because a schedule window on its playlist opens or closes then
+          sibling_render: because another item on its playlist updates then
+      battery_estimate: 'Estimated battery life at this setting: %{days} days'
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -850,6 +857,9 @@ hu:
       asleep_segment: Asleep
       nothing_segment: Nothing to show
       segment: "%{item} for %{duration}"
+      window_hours: next %{count} hours
+      window_label: How far ahead to look
+      window_option: "%{count}h"
   plugins:
     index:
       title: Bővítmények
@@ -1040,6 +1050,7 @@ hu:
       most_popular: Legnépszerűbb
       install: Telepítés
       fork: Fork létrehozása
+      search_placeholder: 'Search eg: Comic'
   schedules:
     form:
       add: Egyéni ütemezés hozzáadása
@@ -1672,6 +1683,13 @@ hu:
     impersonator:
       managing: Managing %{name}
       back_to_my_account: Back to my account
+    search_bar:
+      min_characters: Type at least 3 characters to search
+      sort_by: 'Sort by:'
+      plugin_catalog_placeholder: Search plugins by name, description or category
+    search_summary:
+      found: "%{results} found for “%{query}”"
+      none: Nothing matches “%{query}”. Try a shorter word.
   account_invitations:
     show:
       title: You have been invited
@@ -1704,3 +1722,10 @@ hu:
       body: "%{inviter} invited you to manage their TRMNL: its devices, playlists and plugins."
       accept: Accept the invitation
       expiry: This link will work for %{days} days.
+  pages:
+    flash_firmware:
+      linux_warning: Flashing from Linux often fails because Chrome can't open the serial port. Add your user to the dialout group (sudo usermod -aG dialout $USER), log out and back in, then retry. If that doesn't help, use Chrome or Edge on a Mac or Windows PC.
+      serial_failure:
+        guide_link: See the flashing mode guide
+        port_unavailable: Couldn't open the serial port. Your USB-C cable may only be able to charge, or your device isn't in flashing mode.
+        reset_refused: Your device didn't enter flashing mode, so the reset failed. Repeat Step 3 and try again.
