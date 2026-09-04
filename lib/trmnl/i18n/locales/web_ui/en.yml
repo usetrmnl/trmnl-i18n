@@ -411,7 +411,7 @@ en:
       theme_hint: Apply a color theme across your plugin screens.
       theme_version_note: Requires Framework 3.2 or later. Private plugins pinned to an older version will not be affected.
       waits_for_next_render: Wait for the next update
-      waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
+      waits_for_next_render_hint: If only one item can be on screen right now, this device waits for that item's next update instead of checking in at the refresh rate above. That's a single plugin, a mashup, or a playlist where schedules leave one item showing. Turn this off to check in at the refresh rate regardless.
       battery_advice:
         title: Battery advice
         wakes_per_day:
