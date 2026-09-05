@@ -12,7 +12,6 @@ ro:
   back: Înapoi
   back_to_all_blog_posts: Înapoi la toate postările
   blog: Blog
-  brand: Brand
   buy_now: Cumpără acum
   cancel: Anulează
   change_password: Schimbă parola
@@ -26,15 +25,11 @@ ro:
   copy: Copiază
   copied_to_clipboard: Copiat!
   copy_to_clipboard: Copiază în clipboard
-  created: Creat
   create_an_account: Creează un cont
   current_device: Dispozitivul curent
-  days: zile
   delete: Șterge
   developers: Dezvoltatori
   developer_edition_required: Ediția pentru dezvoltatori este necesară pentru a activa această funcție.
-  device_id: ID dispozitiv
-  device: Dispozitiv
   discard: Discard
   edit: Editează
   email_address: Adresă de email
@@ -45,7 +40,6 @@ ro:
   forgot_password_title: Hai să rezolvăm asta
   friendly_id: ID prietenos
   get_started: Să începem!
-  hidden: ascuns
   identify: Identifică
   import: Importă
   import_new: Importă nou
@@ -59,32 +53,23 @@ ro:
   log_out: Deconectare
   manage: Gestionează
   minimum_characters: caractere minimum
-  mins: min
-  my_playlist: Lista mea
   new_password: Parolă nouă
   password: Parolă
-  please_wait: Vă rugăm așteptați...
   plugin_not_found: Plugin negăsit
   preview: Previzualizare
-  privacy: Confidențialitate
-  refresh_rate: Rată de reîmprospătare
   refresh_rates_hint: Află cum funcționează ratele de reîmprospătare __aici__.
   reset_password: Resetează parola mea
   reset_to_defaults: Resetează la valori implicite
   required: Obligatoriu
   save: Salvează
-  shown: afișat
   section: Secțiune
   settings: Setări
   sign_in: Autentifică-te
   sign_up: Înregistrează-te
   something_went_wrong: Ceva a mers greșit
   status: Stare
-  subscribe: Abonează-te
   help_center: Asistență
-  terms: Termeni
   unsaved_changes: You have unsaved changes
-  update: Actualizează
   view: Vizualizează
   collaboration_request: Vrei să colaborezi?
   collaboration_request_hint: Parteneriate, vânzări de grup, proiecte speciale, la alegerea ta.
@@ -153,9 +138,6 @@ ro:
       refer_and_earn_hint: Oferă cadoul TRMNL cu un cupon personalizat. Câștigă per utilizare, plătit lunar.
       refer_and_earn_redemptions: Utilizări
       refer_and_earn_request_code: Solicită un cod
-      device_invoice: Factură dispozitiv
-      device_invoice_label: Descarcă documente comerciale pentru contabilul tău sau colecția ta (ciudată) de PDF-uri.
-      device_invoice_hint: Găsește-l pe pagina de urmărire a coletului sau în emailul de notificare al expedierii.
       email_address_hint: Folosit pentru autentificarea în TRMNL și primirea mesajelor de sistem.
       first_name_hint: Folosim numele tău pentru a face interfața TRMNL mai confortabilă.
       last_name_hint: Folosim numele tău pentru a face interfața TRMNL mai confortabilă.
@@ -234,13 +216,7 @@ ro:
   dashboard:
     index:
       title: Panou de control
-      last_7_days: Ultimele 7 zile
-      last_30_days: Ultimele 30 de zile
-      last_90_days: Ultimele 90 de zile
-      today: Astăzi
-      yesterday: Ieri
     health:
-      bad: Plugin-urile întâmpină probleme
       good: Plugin-urile funcționează corect
       next_steps: Te vom anunța dacă ceva se schimbă
     news:
@@ -257,14 +233,9 @@ ro:
       new_and_popular: Noi și populare
     shop:
       title: Magazin
-      need_another: Mai ai nevoie de un TRMNL?
     time_saved:
       title: Timp economisit
-      cta: Citește despre
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
-    saved_discovery_setup:
       manage_persona: Manage persona
     welcome_message:
       morning_salutation: Bună dimineața
@@ -277,7 +248,6 @@ ro:
     edit:
       accepts_beta_firmware: Firmware lansare anticipată
       accepts_beta_firmware_hint: Activează pentru a primi cele mai recente îmbunătățiri de firmware înaintea altor utilizatori.
-      back_to_devices: Înapoi la dispozitive
       battery_and_sleep: Baterie și repaus
       battery_consumption: Consum baterie
       battery_consumption_hint: Economisește energie și bucură-te de o durată de viață mai lungă a bateriei activând Modul repaus.
@@ -299,7 +269,6 @@ ro:
       device_model_switch_warning: Aceasta este o operațiune periculoasă, află mai mult __aici__
       device_info: Informații dispozitiv
       current_firmware: Firmware curent
-      last_ping: Ultimul ping
       unknown: Necunoscut
       never: Niciodată
       display_calibration: Calibrare afișaj
@@ -345,7 +314,6 @@ ro:
       ota_byod_not_supported: OTA nu este suportat pentru dispozitivele BYOD. Instalează o versiune compatibilă direct de pe trmnl.com/flash
       maximum_compatibility: Activează compatibilitate maximă
       maximum_compatibility_hint: Rezolvă problemele de afișare cauzate de anumite chipuri de driver ePaper. Dezactivează reîmprospătarea rapidă. Necesită firmware 1.6.0+.
-      color_and_rotation: Culoare și rotație
       image_rotation: Image Rotation
       screen_rotation: Rotație ecran
       screen_rotation_not_supported: Rotația ecranului nu este în prezent suportată pe dispozitivul tău.
@@ -367,9 +335,7 @@ ro:
       tidbyt_credentials: Credențiale Tidbyt
       tidbyt_credentials_hint: Introdu credențialele API ale dispozitivului tău Tidbyt din aplicația Tidbyt sub Setări → Dezvoltator → Obține cheie API.
       tidbyt_api_key: Tidbyt API Key
-      tidbyt_credentials_invalid: Credențialele API Tidbyt sunt invalide. Verifică și încearcă din nou.
       tidbyt_device_id: ID dispozitiv
-      tidbyt_device_api_key: Cheie API
       unlink: Dezasociază
       unlink_confirm: Ești sigur? Continuă doar dacă dai acest dispozitiv altcuiva sau treci la BYOS. Dezasocierea șterge toate setările plugin-urilor și elementele din listă. Dacă depanezi, contactează asistența la help.trmnl.com.
       unlink_device: Dezasociază dispozitivul
@@ -377,7 +343,6 @@ ro:
       unlink_device_learn_more: Urmează ghidul complet __aici__.
       visibility: Vizibilitate
       visibility_hint: Fă dispozitivul tău TRMNL oglindicibil schimbând setările de mai jos.
-      your_device: TRMNL-ul tău
       upgrade_og:
         title: Upgrade la afișaj 2-bit disponibil
         sub_title: Dispozitivul tău poate fi actualizat pentru a suporta un afișaj îmbunătățit în nuanțe de gri cu 4 niveluri de culoare în loc de 2.
@@ -414,9 +379,6 @@ ro:
       waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
       battery_advice:
         title: Battery advice
-        wakes_per_day:
-          one: This device wakes about once a day.
-          other: This device wakes about %{count} times a day.
         days_per_charge:
           one: At that rate a charge lasts about a day.
           other: At that rate a charge lasts about %{count} days.
@@ -490,7 +452,6 @@ ro:
     index:
       title: Dispozitive
       tagline: Dispozitivele tale TRMNL
-      add_device_modal_title: Adaugă un dispozitiv nou
       add_first_device: Începe prin a adăuga primul tău dispozitiv!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -516,9 +477,6 @@ ro:
     dissociate:
       error: Eroare la deconectarea dispozitivului
       success: Dispozitiv dezasociat cu succes
-    external_credentials:
-      error: Credențiale dispozitiv invalide
-      success: Credențiale dispozitiv actualizate cu succes
     identify:
       error: Eroare la actualizarea dispozitivului
       success: Identificare dispozitiv solicitată
@@ -557,16 +515,11 @@ ro:
         title: Set up a persona for %{device_label}
         subtext: Answer a few questions so recommendations fit this TRMNL's role.
         primary_label: Set up persona
-  invoices:
-    rate_limit: Prea multe încercări, așteptați și încercați din nou
-    invoice_not_found: Factură negăsită
   logs:
     index:
       title: Jurnale
       all: Toate
-      bulk_destroy: Ștergere în masă
       dump: Message
-      id: ID
       private_plugins: Plugin-uri private
       source: Sursă
       time: Time (UTC)
@@ -601,9 +554,6 @@ ro:
       live_preview: Previzualizare live
       no_changes_to_save: Nicio modificare de salvat
       pop_out_preview: Deschide previzualizarea
-      quickstart_examples: Exemple de pornire rapidă
-      quickstart_example_applied: Aplicat!
-      quickstart_use_this_example: Folosește acest exemplu
       revert: Revertează
       revert_confirm: Ești sigur că vrei să revertezi? Toate modificările nesalvate vor fi pierdute.
       save_changes: Salvează modificările (⌘﹢S)
@@ -667,9 +617,6 @@ ro:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
-  notices:
-    dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA dezactivat
@@ -695,21 +642,12 @@ ro:
   playlist_items:
     index:
       title: Listă de redare
-      tagline: Alege ce se afișează pe
-      add_a_group: Adaugă un grup
-      add_a_plugin: Adaugă un plugin
       add_first_device_cta: Începe prin __adăugarea__ primului tău dispozitiv TRMNL!
       add_to_playlist: Adaugă în listă
-      create_first_playlist_cta: Creează lista ta după __conectarea__ primului plugin!
       custom: Personalizat
       device_default: Implicit dispozitiv
-      display_period_from: Afișează de la
-      display_period_to: până la
       display_period_validation: Ora de începere trebuie să fie înainte de ora de încheiere. Creează un alt grup pentru orele de noapte.
-      every: La fiecare
       never_skip: Nu sări niciodată ecranele
-      smart_playlist: Listă inteligentă
-      smart_playlist_hint: Sare automat ecranele al căror conținut nu s-a schimbat de mult timp.
       skip_after:
         one: Sare ecranele vechi după 1 zi
         other: Sare ecranele vechi după %{count} zile
@@ -747,9 +685,6 @@ ro:
       duplicate: Duplică
       duplicate_confirm: Aceasta va crea o copie a acestui element și o va adăuga la sfârșitul listei tale. Continui?
       presentation: Presentation
-      color_palette: Paletă de culori
-      device_default: Implicit dispozitiv (%{name})
-      palette_unavailable: Disponibil doar pentru dispozitive cu mai multe palete de culori
       refresh_rate_disabled:
         default: Rata de reîmprospătare a acestui plugin nu poate fi configurată.
         external: Acest plugin preia date din mers, deci setările ratei de reîmprospătare nu se aplică.
@@ -766,7 +701,6 @@ ro:
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
     create:
-      error: Actualizarea listei de redare a eșuat
       success: Listă de redare actualizată
     destroy:
       error: Eroare la eliminarea elementului din listă
@@ -779,8 +713,6 @@ ro:
       success: Ordinea listei actualizată
     set_preferences:
       success: Preferința listei inteligente actualizată
-    update:
-      success: Ordinea listei actualizată
     refresh:
       success: Refreshing now — the preview updates when the render finishes
       placeholder: Configure this playlist item before refreshing it
@@ -811,23 +743,10 @@ ro:
         other: Custom (%{count} windows)
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
-    column:
-      schedule: Schedule
-      status: Status
-    skip_reasons:
-      needs_configuration: Needs setup
-      hidden: Hidden
-      skipped: Skipped by plugin
-      schedule: Out of schedule
-      stale: Stale
     bulk_actions:
-      selected:
-        one: 1 selected
-        other: "%{count} selected"
       hide: Hide
       show: Show
       delete: Delete
-      cancel: Cancel
       destroy_confirm: Remove the selected items from this playlist?
       success:
         hide: Items hidden
@@ -835,8 +754,6 @@ ro:
         destroy: Items removed from playlist
       error: Bulk action failed
     time_travel_modal:
-      title: Time Travel
-      apply: Apply
       false: false
     smart_skip_modal:
       title: Smart Skip
@@ -847,9 +764,6 @@ ro:
       error: Playlist order could not be saved
     day_ahead:
       title: The day ahead
-      window: next 24 hours
-      open: Open the day ahead
-      toggle: Hide or show the day ahead
       times:
         one: once
         other: "%{count}×"
@@ -865,7 +779,6 @@ ro:
     index:
       title: Plugin-uri
       tagline: Ce vei pune pe TRMNL-ul tău?
-      available: Disponibile
       connected: Conectate
       supported_by_this_device: Supported by this device
       recipes: Rețetare
@@ -877,7 +790,6 @@ ro:
         title: Plugin-urile mele
         tagline: Dezvoltă plugin-uri pentru piața publică
       card:
-        connections: conexiuni
         install: Instalează
         review_are_you_sure: Ești sigur? Echipa TRMNL îl va testa și îți va trimite întrebări prin email.
         submit_for_review: Trimite pentru revizuire
@@ -907,16 +819,11 @@ ro:
     edit:
       title: Editează plugin
       tagline: Actualizează detaliile plugin-ului tău.
-      name: Nume
-      description: Descriere
   plugin_recipes:
     connected: Rețetar conectat
     connections:
       one: Conexiune
       other: Conexiuni
-    forks:
-      one: Fork
-      other: Fork-uri
     forked: Recipe forked
     new:
       error: Rețetar negăsit
@@ -924,18 +831,14 @@ ro:
       more_by_author: More by this Author
       view_all: View all
   plugin_settings:
-    active: Activ
     copy_are_you_sure: Ești sigur că vrei să copiezi această setare?
     delete_are_you_sure: Ești sigur că vrei să ștergi această setare?
     delete: Aceasta va elimina complet setările plugin-ului. Pentru a ascunde pur și simplu acest plugin de pe dispozitivul tău, șterge-l din lista de redare.
-    inactive: Inactiv
     no_matches_found: No plugins match your filters.
-    no_plugin_settings_found: Nu au fost găsite setări de plugin.
     not_supported: Nesuportat pe dispozitivul curent
     refreshing_now_please_wait: Se reîmprospătează acum, reîncarcă această pagină în câteva secunde.
     reset_credentials: Contul %{plugin_name} resetat cu succes
     form:
-      active_hint: Afișează sau ascunde această instanță de plugin pe dispozitivul tău
       advanced_settings: Setări avansate
       back_to_playlist: Înapoi la lista de redare
       back_to_plugin: Înapoi la %{plugin}
@@ -957,15 +860,7 @@ ro:
       health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
       health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Află despre acest plugin în baza noastră de cunoștințe
-      learn_more_fork: Acest plugin a fost bifurcat dintr-un Rețetar.
-      learn_more_fork_original: Vezi originalul
-      learn_more_native_long: Acest plugin este nativ și menținut de TRMNL.
-      learn_more_native_short: Acest plugin este menținut de TRMNL.
       learn_more_recipe_author: Ai nevoie de ajutor? Contactează %{recipe_author} pe Discord.
-      learn_more_recipe_long: Acest plugin este un Rețetar al comunității și nu este menținut de TRMNL.
-      learn_more_recipe_short: 'Notă: acest plugin este un Rețetar.'
-      learn_more_third_party_long: Acest plugin aparține unei terțe părți și nu este menținut de TRMNL.
-      learn_more_third_party_short: 'Notă: acest plugin aparține unei terțe părți.'
       linked_account: Cont asociat
       linked_account_success: Asociat cu succes cu %{plugin_name}
       link_oauth: Asociază contul
@@ -987,7 +882,6 @@ ro:
       recipe_cta_body_published: Modificările vor fi reflectate în instalările existente și viitoare/bifurcări.
       recipe_cta_body_in_review: Acest plugin a fost trimis echipei noastre. Stai pe fază.
       recipe_cta_body_not_published: Trimite acest plugin pentru ca alții să îl instaleze. __Află mai mult__.
-      recipe_cta_confirm: Ești sigur? Echipa noastră va analiza și îți va răspunde în câteva zile. Poți continua să faci modificări.
       recipe_mirrored: Acest ecran este oglindit din rețetar.
       recipe_visibility_title: Cum ai dori să publici?
       recipe_visibility_edit_title: Editează trimiterea
@@ -998,8 +892,6 @@ ro:
       recipe_visibility_unlisted: Nelistat
       recipe_visibility_unlisted_hint: Oricine cu link-ul poate instala.
       refresh_rate: Rată de reîmprospătare
-      refresh_rate_hint: Definește cât de frecvent preia date această instanță de plugin
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Sincronizează %{refresh_rate} (neconfigurabil)
       refreshed: Reîmprospătat
       remove_plugin: Elimină plugin-ul
@@ -1056,10 +948,8 @@ ro:
       search_placeholder: 'Search eg: Comic'
   schedules:
     form:
-      add: Adaugă un program personalizat
       append: Și în timpul…
       no_schedule: Acest ecran va fi afișat în orice moment.
-      some_schedule: Afișează acest ecran doar în timpul…
       to: până la
       copy_prompt: Copiază programul de la…
       no_days_error: Please select at least one day.
@@ -1085,11 +975,6 @@ ro:
       day_events:
         one: "%{day}: 1 event"
         other: "%{day}: %{count} events"
-      time: Time (UTC)
-      event: Event
-      screen: Screen
-      device: Device
-      detail: What happened
     link:
       title: Activity
       device_hint: When this device checked in, what it scheduled, and which screens it received.
@@ -1618,7 +1503,6 @@ ro:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
-      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

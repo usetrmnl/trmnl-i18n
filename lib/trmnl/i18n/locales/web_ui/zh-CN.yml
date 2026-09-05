@@ -12,7 +12,6 @@ zh-CN:
   back: 后退
   back_to_all_blog_posts: 返回所有文章
   blog: 博客
-  brand: 品牌
   buy_now: 立即购买
   cancel: 取消
   change_password: 修改密码
@@ -26,15 +25,11 @@ zh-CN:
   copy: 复制
   copied_to_clipboard: 已复制
   copy_to_clipboard: 复制到剪贴板
-  created: 新建于
   create_an_account: 创建账号
   current_device: 当前设备
-  days: 天
   delete: 删除
   developers: 开发者
   developer_edition_required: 此功能需要升级至开发者版。
-  device_id: 设备ID
-  device: 设备
   discard: 放弃
   edit: 编辑
   email_address: 邮箱
@@ -45,7 +40,6 @@ zh-CN:
   forgot_password_title: 重新设置密码
   friendly_id: 友好 ID
   get_started: 开始使用
-  hidden: 隐藏
   identify: 识别
   import: 导入
   import_new: 导入
@@ -59,32 +53,23 @@ zh-CN:
   log_out: 登出
   manage: 管理
   minimum_characters: 最少字符
-  mins: 分
-  my_playlist: 我的播放列表
   new_password: 新密码
   password: 密码
-  please_wait: 请稍候…
   plugin_not_found: 未发现插件
   preview: 预览
-  privacy: 隐私
-  refresh_rate: 刷新频率
   refresh_rates_hint: 点击__此处__了解刷新频次。
   reset_password: 重置密码
   reset_to_defaults: 恢复默认设置
   required: 必填
   save: 保存
-  shown: 显示
   section: 分区
   settings: 设置
   sign_in: 登录
   sign_up: 注册
   something_went_wrong: 未知错误
   status: 状态
-  subscribe: 订阅
   help_center: 技术支持
-  terms: 条款
   unsaved_changes: 您有未保存的更改
-  update: 更新
   view: 查看
   collaboration_request: 想合作吗？
   collaboration_request_hint: 合作伙伴、团体采购、特别项目，由您决定。
@@ -188,9 +173,6 @@ zh-CN:
       refer_and_earn_hint: 通过个性化的优惠券赠送 TRMNL 设备。按使用次数付费，按月支付。
       refer_and_earn_redemptions: 兑换次数
       refer_and_earn_request_code: 生成兑换码
-      device_invoice: 设备发票
-      device_invoice_label: 下载您的商业发票或者 PDF 汇款证明。
-      device_invoice_hint: 您可以在包裹追踪页面或发货提醒的电子邮箱中找到。
       email_address_hint: 用于登录 TRMNL 和接收系统通知
       first_name_hint: 用于 TRMNL 界面
       last_name_hint: 用于 TRMNL 界面
@@ -269,13 +251,7 @@ zh-CN:
   dashboard:
     index:
       title: 仪表盘
-      last_7_days: 过去 7 日
-      last_30_days: 过去 30 日
-      last_90_days: 过去 90 日
-      today: 今日
-      yesterday: 昨日
     health:
-      bad: 插件出现错误
       good: 插件正常
       next_steps: 若有进一步变化，将通知您
     news:
@@ -292,14 +268,9 @@ zh-CN:
       new_and_popular: 热门插件
     shop:
       title: 店铺
-      need_another: 又需要一个 TRMNL 吗？
     time_saved:
       title: 节省时间
-      cta: 详细信息
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
-    saved_discovery_setup:
       manage_persona: Manage persona
     welcome_message:
       morning_salutation: 早上好
@@ -312,7 +283,6 @@ zh-CN:
     edit:
       accepts_beta_firmware: beta 测试固件
       accepts_beta_firmware_hint: 打开以提前使用最新固件
-      back_to_devices: 返回设备列表
       battery_and_sleep: 电池与睡眠
       battery_consumption: 电池消耗
       battery_consumption_hint: 启用睡眠模式可节省电量并延长电池寿命。
@@ -334,7 +304,6 @@ zh-CN:
       device_model_switch_warning: 这是一个危险操作，__了解详情__。
       device_info: 设备信息
       current_firmware: 当前固件
-      last_ping: 上次响应
       unknown: 未知
       never: 从未
       display_calibration: 显示校准
@@ -380,7 +349,6 @@ zh-CN:
       ota_byod_not_supported: 自带设备（BYOD）不支持 OTA 固件更新。请直接从 trmnl.com/flash 刷入兼容版本。
       maximum_compatibility: 启用最大兼容模式
       maximum_compatibility_hint: 解决由某些电子墨水驱动芯片引发的显示问题。禁用快速刷新功能。需固件版本 1.6.0 及以上。
-      color_and_rotation: 颜色和旋转
       image_rotation: Image Rotation
       screen_rotation: 屏幕旋转
       screen_rotation_not_supported: 屏幕旋转目前不支持您的设备。
@@ -402,9 +370,7 @@ zh-CN:
       tidbyt_credentials: Tidbyt 凭据
       tidbyt_credentials_hint: 从 Tidbyt 应用的「设置」→「开发者」→「获取 API 密钥」中输入您的 Tidbyt 设备的 API 凭据。
       tidbyt_api_key: Tidbyt API Key
-      tidbyt_credentials_invalid: Tidbyt API 凭据无效。请仔细检查后重试。
       tidbyt_device_id: 设备 ID
-      tidbyt_device_api_key: API 密钥
       unlink: 解绑
       unlink_confirm: 您确定吗？解绑仅适用于在将此设备交给他人或切换到自带设备（BYOD）的情况。解绑会删除所有插件设置和播放列表项。如果遇到问题，请访问 help.trmnl.com。
       unlink_device: 解绑设备
@@ -412,7 +378,6 @@ zh-CN:
       unlink_device_learn_more: __点击此处__阅读完整说明。
       visibility: 隐藏
       visibility_hint: 让 TRMNL 设备显示镜像播放列表
-      your_device: 您的 TRMNL
       upgrade_og:
         title: 可升级至 2 位显示
         sub_title: 您的设备可升级至增强型灰度显示，支持从 2 级色彩升级至 4 级。
@@ -449,9 +414,6 @@ zh-CN:
       waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
       battery_advice:
         title: Battery advice
-        wakes_per_day:
-          one: This device wakes about once a day.
-          other: This device wakes about %{count} times a day.
         days_per_charge:
           one: At that rate a charge lasts about a day.
           other: At that rate a charge lasts about %{count} days.
@@ -525,7 +487,6 @@ zh-CN:
     index:
       title: 设备列表
       tagline: 您的 TRMNL 设备
-      add_device_modal_title: 添加新 TRMNL 设备
       add_first_device: 添加您的第一个 TRMNL 设备！
       go_to_settings: 前往设置
       clear_playlist: 清空播放列表
@@ -551,9 +512,6 @@ zh-CN:
     dissociate:
       error: 设备解绑错误
       success: 设备解绑成功
-    external_credentials:
-      error: 无效的设备凭据
-      success: 设备凭据更新成功
     identify:
       error: 设备识别请求错误
       success: 设备识别请求成功
@@ -592,16 +550,11 @@ zh-CN:
         title: Set up a persona for %{device_label}
         subtext: Answer a few questions so recommendations fit this TRMNL's role.
         primary_label: Set up persona
-  invoices:
-    rate_limit: 尝试次数过多，请耐心等待之后再次尝试
-    invoice_not_found: 未找到发票
   logs:
     index:
       title: 日志
       all: 全部
-      bulk_destroy: 批量删除
       dump: Message
-      id: ID
       private_plugins: 私有插件
       source: 来源
       time: Time (UTC)
@@ -636,9 +589,6 @@ zh-CN:
       live_preview: 实时预览
       no_changes_to_save: 没有可以保存的更改
       pop_out_preview: 弹出预览窗口
-      quickstart_examples: 快速入门示例
-      quickstart_example_applied: 已应用！
-      quickstart_use_this_example: 使用此示例
       revert: 还原
       revert_confirm: 确定要还原吗？所有未保存的更改都将丢失。
       save_changes: 保存更改（⌘﹢S）
@@ -702,9 +652,6 @@ zh-CN:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
-  notices:
-    dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 已禁用双重认证
@@ -730,21 +677,12 @@ zh-CN:
   playlist_items:
     index:
       title: 播放列表
-      tagline: 管理您的播放列表
-      add_a_group: 添加分组
-      add_a_plugin: 添加插件
       add_first_device_cta: 添加您的第一个 TRMNL 设备！
       add_to_playlist: 添加到播放列表
-      create_first_playlist_cta: 连接您的第一个插件以创建播放列表！
       custom: 自定义
       device_default: 系统默认
-      display_period_from: 开始时间
-      display_period_to: 结束时间
       display_period_validation: 开始时间必须早于结束时间。请创建另一个组来覆盖跨夜时段。
-      every: 每
       never_skip: 不跳过屏幕
-      smart_playlist: 智能播放列表
-      smart_playlist_hint: 自动跳过内容长时间未更新的画面。
       skip_after:
         one: 跳过超过 1 天未更新的画面
         other: 跳过超过 %{count} 天未更新的画面
@@ -782,9 +720,6 @@ zh-CN:
       duplicate: 复制
       duplicate_confirm: 这将创建此项的副本并将其添加到播放列表的底部。是否继续？
       presentation: Presentation
-      color_palette: 颜色调色板
-      device_default: 设备默认（%{name}）
-      palette_unavailable: 仅适用于具有多个颜色调色板的设备
       refresh_rate_disabled:
         default: 此插件的刷新率无法配置。
         external: 此插件实时获取数据，因此刷新率设置不适用。
@@ -801,7 +736,6 @@ zh-CN:
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
     create:
-      error: 创建播放列表错误
       success: 播放列表创建成功
     destroy:
       error: 删除播放列表错误
@@ -814,8 +748,6 @@ zh-CN:
       success: 更新顺序成功
     set_preferences:
       success: 智能播放列表设定更新成功
-    update:
-      success: 播放列表更新成功
     refresh:
       success: Refreshing now — the preview updates when the render finishes
       placeholder: Configure this playlist item before refreshing it
@@ -846,23 +778,10 @@ zh-CN:
         other: Custom (%{count} windows)
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
-    column:
-      schedule: Schedule
-      status: Status
-    skip_reasons:
-      needs_configuration: Needs setup
-      hidden: Hidden
-      skipped: Skipped by plugin
-      schedule: Out of schedule
-      stale: Stale
     bulk_actions:
-      selected:
-        one: 1 selected
-        other: "%{count} selected"
       hide: Hide
       show: Show
       delete: Delete
-      cancel: Cancel
       destroy_confirm: Remove the selected items from this playlist?
       success:
         hide: Items hidden
@@ -870,8 +789,6 @@ zh-CN:
         destroy: Items removed from playlist
       error: Bulk action failed
     time_travel_modal:
-      title: Time Travel
-      apply: Apply
       false: false
     smart_skip_modal:
       title: Smart Skip
@@ -882,9 +799,6 @@ zh-CN:
       error: Playlist order could not be saved
     day_ahead:
       title: The day ahead
-      window: next 24 hours
-      open: Open the day ahead
-      toggle: Hide or show the day ahead
       times:
         one: once
         other: "%{count}×"
@@ -900,7 +814,6 @@ zh-CN:
     index:
       title: 插件
       tagline: 让您的 TRMNL 更加强大
-      available: 可用
       connected: 已连接
       supported_by_this_device: Supported by this device
       recipes: 配方
@@ -912,7 +825,6 @@ zh-CN:
         title: 我的插件
         tagline: 开发插件并与其他用户共享
       card:
-        connections: 连接
         install: 安装
         review_are_you_sure: 您确定吗？TRMNL 团队将进行测试，如有任何疑问会通过邮件联系您。
         submit_for_review: 提交审核
@@ -942,16 +854,11 @@ zh-CN:
     edit:
       title: 编辑插件
       tagline: 修改您的插件
-      name: 名称
-      description: 简介
   plugin_recipes:
     connected: 已连接配方
     connections:
       one: 连接
       other: 连接
-    forks:
-      one: 分支
-      other: 分支
     forked: 配方分支成功
     new:
       error: 未找到配方
@@ -959,18 +866,14 @@ zh-CN:
       more_by_author: 更多来自此作者的配方
       view_all: 查看全部
   plugin_settings:
-    active: 激活
     copy_are_you_sure: 您确定要复制此设置吗？
     delete_are_you_sure: 您确定要删除此设置吗？
     delete: 删除。这将完全删除插件的设置。要仅隐藏此插件，请从播放列表中删除。
-    inactive: 停用
     no_matches_found: 未找到匹配的插件。
-    no_plugin_settings_found: 未找到插件信息
     not_supported: 不支持当前设备
     refreshing_now_please_wait: 正在刷新，请稍后重新加载此页面。
     reset_credentials: "%{plugin_name} 账户重置成功"
     form:
-      active_hint: 显示/隐藏此插件
       advanced_settings: 高级设置
       back_to_playlist: 返回播放列表
       back_to_plugin: 返回 %{plugin}
@@ -992,15 +895,7 @@ zh-CN:
       health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
       health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: 了解更多
-      learn_more_fork: 此插件从配方分支而来。
-      learn_more_fork_original: 查看原始版本
-      learn_more_native_long: 此插件为原生插件，由 TRMNL 维护。
-      learn_more_native_short: 此插件由 TRMNL 维护。
       learn_more_recipe_author: 需要帮助？请在 Discord 上联系 %{recipe_author}。
-      learn_more_recipe_long: 此插件为社区配方，不由 TRMNL 维护。
-      learn_more_recipe_short: 注意：此插件为配方。
-      learn_more_third_party_long: 此插件由第三方提供，不由 TRMNL 维护。
-      learn_more_third_party_short: 注意：此插件由第三方提供。
       linked_account: 关联账户
       linked_account_success: 已成功关联 %{plugin_name}
       link_oauth: 链接账户
@@ -1022,7 +917,6 @@ zh-CN:
       recipe_cta_body_published: 更改将反映到现有安装和未来的安装和分支上。
       recipe_cta_body_in_review: 此插件已提交至我们的团队。请稍候。
       recipe_cta_body_not_published: 发布此插件以供他人安装。__了解更多__。
-      recipe_cta_confirm: 您确定吗？我们的团队将进行审核，并在几天内与您联系。您可以继续进行更改。
       recipe_mirrored: 此屏幕从配方镜像而来。
       recipe_visibility_title: 您希望如何发布？
       recipe_visibility_edit_title: 编辑提交
@@ -1033,8 +927,6 @@ zh-CN:
       recipe_visibility_unlisted: 不公开
       recipe_visibility_unlisted_hint: 任何拥有链接的人都可以安装。
       refresh_rate: 刷新率
-      refresh_rate_hint: 设置插件刷新频率
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: "%{refresh_rate}同步（不可配置）"
       refreshed: 已刷新
       remove_plugin: 移除插件
@@ -1091,10 +983,8 @@ zh-CN:
       search_placeholder: 'Search eg: Comic'
   schedules:
     form:
-      add: 添加自定义时间表
       append: 追加时段…
       no_schedule: 此屏幕将始终显示。
-      some_schedule: 仅在以下时间显示此屏幕…
       to: 到
       copy_prompt: 复制现有时间表…
       no_days_error: 请至少选择一天。
@@ -1120,11 +1010,6 @@ zh-CN:
       day_events:
         one: "%{day}: 1 event"
         other: "%{day}: %{count} events"
-      time: Time (UTC)
-      event: Event
-      screen: Screen
-      device: Device
-      detail: What happened
     link:
       title: Activity
       device_hint: When this device checked in, what it scheduled, and which screens it received.
@@ -1653,7 +1538,6 @@ zh-CN:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
-      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

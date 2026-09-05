@@ -12,7 +12,6 @@ ru:
   back: Назад
   back_to_all_blog_posts: Назад ко всем записям в блоге
   blog: Блог
-  brand: Brand
   buy_now: Купить сейчас
   cancel: Отмена
   change_password: Изменить пароль
@@ -26,15 +25,11 @@ ru:
   copy: Копировать
   copied_to_clipboard: Скопировано!
   copy_to_clipboard: Копировать в буфер обмена
-  created: Создано
   create_an_account: Создать учётную запись
   current_device: Текущее устройство
-  days: дней
   delete: Удалить
   developers: Developers
   developer_edition_required: Для включения этой функции требуется версия для разработчиков.
-  device_id: ID устройства
-  device: Устройство
   discard: Discard
   edit: Редактировать
   email_address: Адрес электронной почты
@@ -45,7 +40,6 @@ ru:
   forgot_password_title: И вот опять
   friendly_id: Дружелюбный ID
   get_started: Давайте начнём!
-  hidden: hidden
   identify: Идентифицировать
   import: Импорт
   import_new: Импортировать новый
@@ -59,32 +53,23 @@ ru:
   log_out: Выйти
   manage: Управлять
   minimum_characters: минимум символов
-  mins: мин
-  my_playlist: Мой плейлист
   new_password: Новый пароль
   password: Пароль
-  please_wait: Пожалуйста, подождите…
   plugin_not_found: Плагин не найден
   preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
   refresh_rates_hint: Узнайте, как работает частота обновления __здесь__.
   reset_password: Сбросить мой пароль
   reset_to_defaults: Reset to defaults
   required: Required
   save: Сохранить
-  shown: shown
   section: Раздел
   settings: Настройки
   sign_in: Войти
   sign_up: Зарегистрироваться
   something_went_wrong: Что-то пошло не так
   status: Status
-  subscribe: Подписаться
   help_center: Поддержка
-  terms: Terms
   unsaved_changes: You have unsaved changes
-  update: Обновить
   view: Просмотр
   collaboration_request: Wanna collaborate?
   collaboration_request_hint: Partnerships, group sales, special projects, your call.
@@ -175,9 +160,6 @@ ru:
       refer_and_earn_hint: Подарите TRMNL с помощью персонального купона. Зарабатывайте за каждое использование, выплаты ежемесячно.
       refer_and_earn_redemptions: Погашения
       refer_and_earn_request_code: Запросить код
-      device_invoice: Счёт-фактура на устройство
-      device_invoice_label: Загрузите коммерческие документы для своего бухгалтера или (странной) коллекции PDF.
-      device_invoice_hint: Найдите это на странице отслеживания посылки или в электронном письме с уведомлением об отправке.
       email_address_hint: Используется для входа в TRMNL и получения системных сообщений.
       first_name_hint: Мы используем ваше имя, чтобы сделать интерфейс TRMNL более удобным.
       last_name_hint: Мы используем вашу фамилию, чтобы сделать интерфейс TRMNL более удобным.
@@ -256,13 +238,7 @@ ru:
   dashboard:
     index:
       title: Панель управления
-      last_7_days: Последние 7 дней
-      last_30_days: Последние 30 дней
-      last_90_days: Последние 90 дней
-      today: Сегодня
-      yesterday: Вчера
     health:
-      bad: Плагины испытывают проблемы
       good: Плагины в порядке
       next_steps: Мы сообщим вам, если что-то изменится
     news:
@@ -279,14 +255,9 @@ ru:
       new_and_popular: Новые и популярные
     shop:
       title: Магазин
-      need_another: Нужен ещё один TRMNL?
     time_saved:
       title: Сэкономленное время
-      cta: Читать о
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
-    saved_discovery_setup:
       manage_persona: Manage persona
     welcome_message:
       morning_salutation: Доброе утро
@@ -299,7 +270,6 @@ ru:
     edit:
       accepts_beta_firmware: Ранний доступ к прошивке
       accepts_beta_firmware_hint: Включите, чтобы получать последние улучшения прошивки устройства раньше других пользователей.
-      back_to_devices: Назад к устройствам
       battery_and_sleep: Battery & Sleep
       battery_consumption: Потребление батареи
       battery_consumption_hint: Сэкономьте энергию и продлите время работы батареи, включив спящий режим.
@@ -321,7 +291,6 @@ ru:
       device_model_switch_warning: Это опасная операция, узнайте больше __здесь__
       device_info: Device Info
       current_firmware: Current firmware
-      last_ping: Last ping
       unknown: Unknown
       never: Never
       display_calibration: Display Calibration
@@ -367,7 +336,6 @@ ru:
       ota_byod_not_supported: OTA не поддерживается для устройств BYOD. Прошейте совместимую версию прямо с trmnl.com/flash
       maximum_compatibility: Включить максимальную совместимость
       maximum_compatibility_hint: Устраняет проблемы с отображением, вызванные некоторыми чипами драйверов ePaper. Отключает быстрое обновление. Требуется прошивка 1.6.0+.
-      color_and_rotation: Color & Rotation
       image_rotation: Image Rotation
       screen_rotation: Screen Rotation
       screen_rotation_not_supported: Вращение экрана в настоящее время не поддерживается на вашем устройстве.
@@ -389,9 +357,7 @@ ru:
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_api_key: Tidbyt API Key
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
       tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
       unlink: Отвязать
       unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Отвязать устройство
@@ -399,7 +365,6 @@ ru:
       unlink_device_learn_more: Следуйте полному руководству __здесь__.
       visibility: Видимость
       visibility_hint: Сделайте ваше устройство TRMNL зеркалируемым, изменив настройки ниже.
-      your_device: Ваш TRMNL
       upgrade_og:
         title: Доступно обновление для 2-битного дисплея
         sub_title: Ваше устройство можно обновить для поддержки улучшенного отображения в оттенках серого с 4 уровнями цвета вместо 2.
@@ -436,9 +401,6 @@ ru:
       waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
       battery_advice:
         title: Battery advice
-        wakes_per_day:
-          one: This device wakes about once a day.
-          other: This device wakes about %{count} times a day.
         days_per_charge:
           one: At that rate a charge lasts about a day.
           other: At that rate a charge lasts about %{count} days.
@@ -512,7 +474,6 @@ ru:
     index:
       title: Устройства
       tagline: Ваши устройства TRMNL
-      add_device_modal_title: Добавить новое устройство
       add_first_device: Начните с добавления вашего первого устройства!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -538,9 +499,6 @@ ru:
     dissociate:
       error: Ошибка отключения устройства
       success: Устройство успешно отвязано
-    external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
     identify:
       error: Ошибка обновления устройства
       success: Запрошена идентификация устройства
@@ -579,16 +537,11 @@ ru:
         title: Set up a persona for %{device_label}
         subtext: Answer a few questions so recommendations fit this TRMNL's role.
         primary_label: Set up persona
-  invoices:
-    rate_limit: Слишком много попыток, подождите и попробуйте ещё раз
-    invoice_not_found: Счёт-фактура не найдена
   logs:
     index:
       title: Журналы
       all: Все
-      bulk_destroy: Массовое удаление
       dump: Message
-      id: ID
       private_plugins: Приватные плагины
       source: Источник
       time: Time (UTC)
@@ -623,9 +576,6 @@ ru:
       live_preview: Живой предпросмотр
       no_changes_to_save: Нет изменений для сохранения
       pop_out_preview: Вынести предпросмотр
-      quickstart_examples: Примеры для быстрого старта
-      quickstart_example_applied: Применено!
-      quickstart_use_this_example: Использовать этот пример
       revert: Отменить
       revert_confirm: Вы уверены, что хотите отменить? Все несохраненные изменения будут потеряны.
       save_changes: Сохранить изменения (⌘﹢S)
@@ -689,9 +639,6 @@ ru:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
-  notices:
-    dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA отключена
@@ -717,21 +664,12 @@ ru:
   playlist_items:
     index:
       title: Плейлист
-      tagline: Выберите, что показывать на
-      add_a_group: Добавить группу
-      add_a_plugin: Добавить плагин
       add_first_device_cta: Начните с __добавления__ вашего первого устройства TRMNL!
       add_to_playlist: Добавить в плейлист
-      create_first_playlist_cta: Создайте свой плейлист после __подключения__ вашего первого плагина!
       custom: Пользовательский
       device_default: По умолчанию для устройства
-      display_period_from: Показывать с
-      display_period_to: по
       display_period_validation: Время начала должно быть раньше времени окончания. Создайте другую группу, чтобы охватить ночные часы.
-      every: Каждый
       never_skip: Никогда не пропускать экраны
-      smart_playlist: Умный плейлист
-      smart_playlist_hint: Автоматически пропускать экраны, содержимое которых давно не менялось.
       skip_after:
         one: Пропускать устаревшие экраны через 1 день
         other: Пропускать устаревшие экраны через %{count} дней
@@ -769,9 +707,6 @@ ru:
       duplicate: Duplicate
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
       presentation: Presentation
-      color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -788,7 +723,6 @@ ru:
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
     create:
-      error: Не удалось обновить плейлист
       success: Плейлист обновлен
     destroy:
       error: Ошибка удаления элемента из плейлиста
@@ -801,8 +735,6 @@ ru:
       success: Порядок плейлиста обновлен
     set_preferences:
       success: Настройки умного плейлиста обновлены
-    update:
-      success: Playlist order updated
     refresh:
       success: Refreshing now — the preview updates when the render finishes
       placeholder: Configure this playlist item before refreshing it
@@ -833,23 +765,10 @@ ru:
         other: Custom (%{count} windows)
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
-    column:
-      schedule: Schedule
-      status: Status
-    skip_reasons:
-      needs_configuration: Needs setup
-      hidden: Hidden
-      skipped: Skipped by plugin
-      schedule: Out of schedule
-      stale: Stale
     bulk_actions:
-      selected:
-        one: 1 selected
-        other: "%{count} selected"
       hide: Hide
       show: Show
       delete: Delete
-      cancel: Cancel
       destroy_confirm: Remove the selected items from this playlist?
       success:
         hide: Items hidden
@@ -857,8 +776,6 @@ ru:
         destroy: Items removed from playlist
       error: Bulk action failed
     time_travel_modal:
-      title: Time Travel
-      apply: Apply
       false: false
     smart_skip_modal:
       title: Smart Skip
@@ -869,9 +786,6 @@ ru:
       error: Playlist order could not be saved
     day_ahead:
       title: The day ahead
-      window: next 24 hours
-      open: Open the day ahead
-      toggle: Hide or show the day ahead
       times:
         one: once
         other: "%{count}×"
@@ -887,7 +801,6 @@ ru:
     index:
       title: Плагины
       tagline: Что вы разместите на своем TRMNL?
-      available: Доступно
       connected: Подключено
       supported_by_this_device: Supported by this device
       recipes: Рецепты
@@ -899,7 +812,6 @@ ru:
         title: Мои плагины
         tagline: Разрабатывайте плагины для публичного маркетплейса
       card:
-        connections: подключений
         install: Установить
         review_are_you_sure: Вы уверены? Команда TRMNL протестирует его и отправит вам любые вопросы по электронной почте.
         submit_for_review: Отправить на рассмотрение
@@ -929,16 +841,11 @@ ru:
     edit:
       title: Редактировать плагин
       tagline: Обновите данные вашего плагина.
-      name: Название
-      description: Описание
   plugin_recipes:
     connected: Рецепт подключен
     connections:
       one: Подключение
       other: Подключения
-    forks:
-      one: Форк
-      other: Форки
     forked: Recipe forked
     new:
       error: Рецепт не найден
@@ -946,18 +853,14 @@ ru:
       more_by_author: More by this Author
       view_all: View all
   plugin_settings:
-    active: Активен
     copy_are_you_sure: Вы уверены, что хотите скопировать эту настройку?
     delete_are_you_sure: Вы уверены, что хотите удалить эту настройку?
     delete: Это полностью удалит настройки плагина. Чтобы просто скрыть этот плагин на вашем устройстве, удалите его из плейлиста.
-    inactive: Неактивен
     no_matches_found: No plugins match your filters.
-    no_plugin_settings_found: Настройки плагина не найдены.
     not_supported: Не поддерживается на текущем устройстве
     refreshing_now_please_wait: Обновление, перезагрузите страницу через несколько секунд.
     reset_credentials: Учётная запись "%{plugin_name}" успешно сброшена
     form:
-      active_hint: Показать или скрыть этот экземпляр плагина на вашем устройстве
       advanced_settings: Расширенные настройки
       back_to_playlist: Back to Playlist
       back_to_plugin: Назад к %{plugin}
@@ -979,15 +882,7 @@ ru:
       health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
       health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Узнайте больше об этом плагине в нашей базе знаний
-      learn_more_fork: Этот плагин был форкнут из рецепта.
-      learn_more_fork_original: Посмотреть оригинал
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Нужна помощь? Свяжитесь с %{recipe_author} в Discord.
-      learn_more_recipe_long: Этот плагин является рецептом сообщества и не поддерживается TRMNL.
-      learn_more_recipe_short: 'Примечание: этот плагин является рецептом.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Связанная учётная запись
       linked_account_success: Успешно связано с %{plugin_name}
       link_oauth: Связать учётную запись
@@ -1009,7 +904,6 @@ ru:
       recipe_cta_body_published: Изменения будут отражены на существующих установках и будущих установках/форках.
       recipe_cta_body_in_review: Этот плагин был отправлен нашей команде. Ожидайте.
       recipe_cta_body_not_published: Отправьте этот плагин, чтобы другие могли его установить. __Узнать больше__.
-      recipe_cta_confirm: Вы уверены? Наша команда рассмотрит и свяжется с вами в течение нескольких дней. Вы можете продолжать вносить изменения.
       recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: Как бы вы хотели опубликовать?
       recipe_visibility_edit_title: Редактировать отправку
@@ -1020,8 +914,6 @@ ru:
       recipe_visibility_unlisted: Не внесен в список
       recipe_visibility_unlisted_hint: Любой, у кого есть ссылка, может установить.
       refresh_rate: Частота обновления
-      refresh_rate_hint: Определите, как часто этот экземпляр плагина будет запрашивать свежие данные
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Синхронизируется %{refresh_rate} (не настраивается)
       refreshed: Обновлено
       remove_plugin: Удалить плагин
@@ -1078,10 +970,8 @@ ru:
       search_placeholder: 'Search eg: Comic'
   schedules:
     form:
-      add: Добавить пользовательское расписание
       append: И в это время…
       no_schedule: Этот экран будет отображаться постоянно.
-      some_schedule: Показывать этот экран только в это время…
       to: по
       copy_prompt: Копировать расписание из…
       no_days_error: Please select at least one day.
@@ -1107,11 +997,6 @@ ru:
       day_events:
         one: "%{day}: 1 event"
         other: "%{day}: %{count} events"
-      time: Time (UTC)
-      event: Event
-      screen: Screen
-      device: Device
-      detail: What happened
     link:
       title: Activity
       device_hint: When this device checked in, what it scheduled, and which screens it received.
@@ -1640,7 +1525,6 @@ ru:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
-      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:
