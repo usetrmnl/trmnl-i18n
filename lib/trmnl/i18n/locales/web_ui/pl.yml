@@ -931,6 +931,8 @@ pl:
       refresh_paused_merge: Refreshing via Plugin Merge
       refresh_paused_merge_hint: Auto-refresh is paused because this plugin is hidden. Its data is kept fresh by %{names} via Plugin Merge.
       clear_state: Clear Saved State
+      virtual_device_short_heading: Virtual device? Click below to generate screens.
+      virtual_device_long_heading: Virtual device? Use this to generate screens on demand.
     import:
       archive_too_large: Archiwum ZIP jest zbyt duże (maksimum %{max_mb} MB)
       missing_entry: Archiwum ZIP nie zawiera %{filename}
@@ -957,6 +959,9 @@ pl:
     state_cleared: Saved state cleared. The next refresh starts from scratch.
     index:
       no_plugin_settings_found: You have not set up this plugin yet.
+    health_status_banner:
+      short_heading: Plugin analytics
+      long_heading: Monitor plugin analytics and health across installs
   referral_code:
     create:
       request_received: Zgłoszenie przyjęte, sprawdź swoją skrzynkę odbiorczą
