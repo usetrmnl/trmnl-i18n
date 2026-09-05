@@ -12,7 +12,6 @@ ja:
   back: 戻る
   back_to_all_blog_posts: すべてのブログ記事へ戻る
   blog: ブログ
-  brand: Brand
   buy_now: 今すぐ購入
   cancel: キャンセル
   change_password: パスワード変更
@@ -26,15 +25,11 @@ ja:
   copy: コピー
   copied_to_clipboard: コピーしました！
   copy_to_clipboard: クリップボードにコピー
-  created: 作成時刻
   create_an_account: アカウントを作成する
   current_device: 現在のデバイス
-  days: 日
   delete: 削除
   developers: Developers
   developer_edition_required: この機能を有効にするには、開発者エディションが必要です。
-  device_id: デバイスID
-  device: デバイス
   discard: Discard
   edit: 編集
   email_address: メールアドレス
@@ -45,7 +40,6 @@ ja:
   forgot_password_title: さあ、再スタートです
   friendly_id: Friendly ID
   get_started: 始めましょう！
-  hidden: hidden
   identify: 確認する
   import: Import
   import_new: Import new
@@ -59,32 +53,23 @@ ja:
   log_out: ログアウト
   manage: Manage
   minimum_characters: 最小文字数
-  mins: 分
-  my_playlist: マイプレイリスト
   new_password: 新しいパスワード
   password: パスワード
-  please_wait: しばらくお待ちください...
   plugin_not_found: プラグインが見つかりません
   preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
   refresh_rates_hint: リフレッシュレートの仕組みについては__こちら__をご覧ください。
   reset_password: パスワードをリセット
   reset_to_defaults: Reset to defaults
   required: Required
   save: 保存
-  shown: shown
   section: セクション
   settings: Settings
   sign_in: サインインする
   sign_up: サインアップ
   something_went_wrong: 問題が発生しました
   status: Status
-  subscribe: Subscribe
   help_center: サポート
-  terms: Terms
   unsaved_changes: You have unsaved changes
-  update: 更新
   view: 表示
   collaboration_request: Wanna collaborate?
   collaboration_request_hint: Partnerships, group sales, special projects, your call.
@@ -153,9 +138,6 @@ ja:
       refer_and_earn_hint: パーソナライズされたクーポンでTRMNLをプレゼントしましょう。利用ごとに報酬が発生し、毎月お支払いします。
       refer_and_earn_redemptions: 利用回数
       refer_and_earn_request_code: コードをリクエスト
-      device_invoice: デバイスの請求書
-      device_invoice_label: 会計士向けの商用ドキュメントをダウンロードしてください。
-      device_invoice_hint: 配送追跡ページまたは発送通知メールに記載されています。
       email_address_hint: TRMNLへのサインアップ時に使用し、システムメッセージを受信するメールアドレスです。
       first_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。
       last_name_hint: TRMNLインターフェースをより快適に使用するため、あなたの名前を使用します。
@@ -234,13 +216,7 @@ ja:
   dashboard:
     index:
       title: ダッシュボード
-      last_7_days: 過去7日間
-      last_30_days: 過去30日間
-      last_90_days: 過去90日間
-      today: 今日
-      yesterday: 昨日
     health:
-      bad: 現在、プラグインにエラーがあります
       good: すべてのプラグインが正常です
       next_steps: 変化があれば通知します
     news:
@@ -257,14 +233,9 @@ ja:
       new_and_popular: 新着＆人気のプラグイン
     shop:
       title: ショップ
-      need_another: Need another TRMNL?
     time_saved:
       title: 節約した時間
-      cta: 詳しく見る
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
-    saved_discovery_setup:
       manage_persona: Manage persona
     welcome_message:
       morning_salutation: おはようございます
@@ -277,7 +248,6 @@ ja:
     edit:
       accepts_beta_firmware: 新しいファームウェアを受け入れる
       accepts_beta_firmware_hint: 通常のユーザーよりも早く新しいデバイスファームウェアを使用するには、ボタンを押してください。
-      back_to_devices: デバイス管理画面に戻る
       battery_and_sleep: Battery & Sleep
       battery_consumption: バッテリー消費
       battery_consumption_hint: デバイスをスリープ モードにすると、バッテリー寿命を延ばすことができます
@@ -299,7 +269,6 @@ ja:
       device_model_switch_warning: This is a dangerous operation, learn more __here__
       device_info: Device Info
       current_firmware: Current firmware
-      last_ping: Last ping
       unknown: Unknown
       never: Never
       display_calibration: Display Calibration
@@ -345,7 +314,6 @@ ja:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain ePaper driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      color_and_rotation: 色と回転
       image_rotation: Image Rotation
       screen_rotation: 画面回転
       screen_rotation_not_supported: 画面回転は現在、あなたのデバイスではサポートされていません。
@@ -367,9 +335,7 @@ ja:
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_api_key: Tidbyt API Key
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
       tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
       unlink: 接続解除
       unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: デバイス接続を解除する
@@ -377,7 +343,6 @@ ja:
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: 共有設定
       visibility_hint: 以下の設定を使用して、TRMNLデバイスをミラーモードにすることができます。
-      your_device: あなたのTRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
         sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
@@ -414,9 +379,6 @@ ja:
       waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
       battery_advice:
         title: Battery advice
-        wakes_per_day:
-          one: This device wakes about once a day.
-          other: This device wakes about %{count} times a day.
         days_per_charge:
           one: At that rate a charge lasts about a day.
           other: At that rate a charge lasts about %{count} days.
@@ -490,7 +452,6 @@ ja:
     index:
       title: デバイス管理
       tagline: あなたのTRMNLデバイス
-      add_device_modal_title: 新しいデバイスを追加
       add_first_device: 始めるには最初のデバイスを追加してください！
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -516,9 +477,6 @@ ja:
     dissociate:
       error: デバイス接続解除エラー
       success: デバイスの接続が正常に解除されました
-    external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
     identify:
       error: デバイス更新エラー
       success: デバイスの確認が要求されました
@@ -557,16 +515,11 @@ ja:
         title: Set up a persona for %{device_label}
         subtext: Answer a few questions so recommendations fit this TRMNL's role.
         primary_label: Set up persona
-  invoices:
-    rate_limit: 試行回数が多すぎます。しばらく待ってから再度お試しください。
-    invoice_not_found: 請求書が見つかりませんでした。
   logs:
     index:
       title: ログ
       all: すべて
-      bulk_destroy: Bulk Destroy
       dump: Message
-      id: ID
       private_plugins: プライベートプラグイン
       source: ソース
       time: Time (UTC)
@@ -601,9 +554,6 @@ ja:
       live_preview: ライブプレビュー
       no_changes_to_save: 保存する変更はありません
       pop_out_preview: Pop Out Preview
-      quickstart_examples: クイックスタート例
-      quickstart_example_applied: 適用済み！
-      quickstart_use_this_example: この例を使用
       revert: 元に戻す
       revert_confirm: 元に戻してもよろしいですか？保存されていない変更はすべて失われます。
       save_changes: 変更を保存 (⌘﹢S)
@@ -667,9 +617,6 @@ ja:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
-  notices:
-    dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2段階認証を無効化しました
@@ -695,21 +642,12 @@ ja:
   playlist_items:
     index:
       title: プレイリスト
-      tagline: 画面に表示するものを選んでください
-      add_a_group: グループを追加
-      add_a_plugin: プラグインを追加
       add_first_device_cta: 始めるには最初のTRMNLデバイスを__追加__してください！
       add_to_playlist: プレイリストに追加
-      create_first_playlist_cta: プレイリストを作成するには最初のプラグインを__接続__してください！
       custom: Custom
       device_default: Device default
-      display_period_from: 表示期間：
-      display_period_to: "〜"
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
       never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
       skip_after:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
@@ -747,9 +685,6 @@ ja:
       duplicate: Duplicate
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
       presentation: Presentation
-      color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -766,7 +701,6 @@ ja:
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
     create:
-      error: プレイリストの更新に失敗しました
       success: プレイリストが更新されました
     destroy:
       error: プレイリスト内のプラグイン削除エラー
@@ -779,8 +713,6 @@ ja:
       success: Playlist order updated
     set_preferences:
       success: Smart playlist preference updated
-    update:
-      success: 新しいプレイリストの順序が更新されました
     refresh:
       success: Refreshing now — the preview updates when the render finishes
       placeholder: Configure this playlist item before refreshing it
@@ -811,23 +743,10 @@ ja:
         other: Custom (%{count} windows)
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
-    column:
-      schedule: Schedule
-      status: Status
-    skip_reasons:
-      needs_configuration: Needs setup
-      hidden: Hidden
-      skipped: Skipped by plugin
-      schedule: Out of schedule
-      stale: Stale
     bulk_actions:
-      selected:
-        one: 1 selected
-        other: "%{count} selected"
       hide: Hide
       show: Show
       delete: Delete
-      cancel: Cancel
       destroy_confirm: Remove the selected items from this playlist?
       success:
         hide: Items hidden
@@ -835,8 +754,6 @@ ja:
         destroy: Items removed from playlist
       error: Bulk action failed
     time_travel_modal:
-      title: Time Travel
-      apply: Apply
       false: false
     smart_skip_modal:
       title: Smart Skip
@@ -847,9 +764,6 @@ ja:
       error: Playlist order could not be saved
     day_ahead:
       title: The day ahead
-      window: next 24 hours
-      open: Open the day ahead
-      toggle: Hide or show the day ahead
       times:
         one: once
         other: "%{count}×"
@@ -865,7 +779,6 @@ ja:
     index:
       title: プラグイン管理
       tagline: TRMNLに何を表示しますか？
-      available: 利用可能なプラグイン
       connected: 接続済み
       supported_by_this_device: Supported by this device
       recipes: レシピ
@@ -877,7 +790,6 @@ ja:
         title: マイプラグイン
         tagline: 公開マーケットプレイス向けのプラグインを開発
       card:
-        connections: コネクション
         install: インストール
         review_are_you_sure: よろしいですか？TRMNLチームがテストを行い、質問があればメールでご連絡します。
         submit_for_review: レビューのために提出
@@ -907,16 +819,11 @@ ja:
     edit:
       title: プラグインの編集
       tagline: プラグインの詳細を更新します。
-      name: 名前
-      description: 説明
   plugin_recipes:
     connected: Recipe connected
     connections:
       one: Connection
       other: Connections
-    forks:
-      one: Fork
-      other: Forks
     forked: Recipe forked
     new:
       error: レシピが見つかりません
@@ -924,18 +831,14 @@ ja:
       more_by_author: More by this Author
       view_all: View all
   plugin_settings:
-    active: アクティブ
     copy_are_you_sure: この設定をコピーしてもよろしいですか？
     delete_are_you_sure: この設定を削除してもよろしいですか？
     delete: プラグインの設定を完全に削除します。デバイスからプラグインを単に隠したいだけなら、プレイリストから削除してください。
-    inactive: 非アクティブ
     no_matches_found: No plugins match your filters.
-    no_plugin_settings_found: プラグインが見つかりません。
     not_supported: Not supported on current device
     refreshing_now_please_wait: 更新中です。数秒後にこのページを再読み込みしてください。
     reset_credentials: "%{plugin_name}アカウントが正常にリセットされました"
     form:
-      active_hint: デバイスにこのプラグインインスタンスを表示または非表示にする
       advanced_settings: Advanced Settings
       back_to_playlist: Back to Playlist
       back_to_plugin: "%{plugin}に戻る"
@@ -957,15 +860,7 @@ ja:
       health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
       health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: このプラグインについてもっと知りたい場合は、ドキュメントをご参照ください
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: 連携済みアカウント
       linked_account_success: 成功
       link_oauth: アカウント連携
@@ -987,7 +882,6 @@ ja:
       recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
       recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
       recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
       recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
@@ -998,8 +892,6 @@ ja:
       recipe_visibility_unlisted: Unlisted
       recipe_visibility_unlisted_hint: Anyone with the link can install.
       refresh_rate: リフレッシュ頻度
-      refresh_rate_hint: このプラグインインスタンスがどれくらい頻繁に新しいデータを取得するかを決定します
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
       refreshed: リフレッシュ完了
       remove_plugin: プラグインを削除
@@ -1056,10 +948,8 @@ ja:
       search_placeholder: 'Search eg: Comic'
   schedules:
     form:
-      add: Add a custom schedule
       append: And during…
       no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
       to: to
       copy_prompt: Copy schedule from…
       no_days_error: Please select at least one day.
@@ -1085,11 +975,6 @@ ja:
       day_events:
         one: "%{day}: 1 event"
         other: "%{day}: %{count} events"
-      time: Time (UTC)
-      event: Event
-      screen: Screen
-      device: Device
-      detail: What happened
     link:
       title: Activity
       device_hint: When this device checked in, what it scheduled, and which screens it received.
@@ -1618,7 +1503,6 @@ ja:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
-      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

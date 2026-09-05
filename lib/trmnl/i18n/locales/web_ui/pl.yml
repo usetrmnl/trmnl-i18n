@@ -12,7 +12,6 @@ pl:
   back: Wstecz
   back_to_all_blog_posts: Powrót do wszystkich postów
   blog: Blog
-  brand: Marka
   buy_now: Kup teraz
   cancel: Anuluj
   change_password: Zmień hasło
@@ -26,15 +25,11 @@ pl:
   copy: Kopiuj
   copied_to_clipboard: Skopiowano!
   copy_to_clipboard: Skopiuj do schowka
-  created: Utworzono
   create_an_account: Utwórz konto
   current_device: Obecne urządzenie
-  days: dni
   delete: Usuń
   developers: Deweloperzy
   developer_edition_required: Aby aktywować tę funkcję, wymagane jest posiadanie edycji deweloperskiej.
-  device_id: ID urządzenia
-  device: Urządzenie
   discard: Odrzuć
   edit: Edytuj
   email_address: Adres e-mail
@@ -45,7 +40,6 @@ pl:
   forgot_password_title: Utwórz nowe hasło
   friendly_id: Przyjazne ID
   get_started: No to zaczynamy!
-  hidden: ukryty
   identify: Identyfikuj
   import: Importuj
   import_new: Importuj nowe
@@ -59,32 +53,23 @@ pl:
   log_out: Wyloguj
   manage: Zarządzaj
   minimum_characters: znaków minimum
-  mins: min.
-  my_playlist: Moja playlista
   new_password: Nowe hasło
   password: Hasło
-  please_wait: Proszę czekać...
   plugin_not_found: Nie znaleziono pluginu
   preview: Podgląd
-  privacy: Prywatność
-  refresh_rate: Refresh rate
   refresh_rates_hint: __Tutaj__ dowiesz się więcej o częstotliwościach odświeżania.
   reset_password: Zresetuj hasło
   reset_to_defaults: Przywróć ustawienia fabryczne
   required: Wymagany
   save: Zapisz
-  shown: wyświetlany
   section: Sekcja
   settings: Ustawienia
   sign_in: Zaloguj się
   sign_up: Zarejestruj się
   something_went_wrong: Ups, coś poszło nie tak
   status: Status
-  subscribe: Subskrybuj
   help_center: Wsparcie techniczne
-  terms: Warunki
   unsaved_changes: Masz niezapisane zmiany
-  update: Aktualizacja
   view: Widok
   collaboration_request: Chcesz nawiązać współpracę?
   collaboration_request_hint: Partnerstwo, sprzedaż grupowa, projekty specjalne, Twój wybór.
@@ -175,9 +160,6 @@ pl:
       refer_and_earn_hint: Udostępnij spersonalizowany kod polecający. Zarabiaj przy każdym użyciu (rozliczenie miesięczne).
       refer_and_earn_redemptions: Realizacje
       refer_and_earn_request_code: Zawnioskuj o kod
-      device_invoice: Faktura za urządzenie
-      device_invoice_label: Pobierz dokumenty dla księgowości lub (dziwny) zbiór PDF-ów.
-      device_invoice_hint: Znajdziesz tę informację na stronie śledzenia paczki lub w e-mailu z powiadomieniem o wysyłce.
       email_address_hint: Używany do logowania do TRMNL i odbioru wiadomości systemowych.
       first_name_hint: Używamy Twojego imienia, aby uczynić korzystanie z TRMNL przyjemniejszym.
       last_name_hint: Używamy Twojego nazwiska, aby uczynić korzystanie z TRMNL przyjemniejszym.
@@ -256,13 +238,7 @@ pl:
   dashboard:
     index:
       title: Pulpit
-      last_7_days: Ostatnie 7 dni
-      last_30_days: Ostatnie 30 dni
-      last_90_days: Ostatnie 90 dni
-      today: Dziś
-      yesterday: Wczoraj
     health:
-      bad: Występują problemy z pluginami
       good: Pluginy działają poprawnie
       next_steps: Poinformujemy Cię, jeśli cokolwiek się zmieni
     news:
@@ -279,14 +255,9 @@ pl:
       new_and_popular: Nowe i popularne
     shop:
       title: Sklep
-      need_another: Potrzebujesz kolejnego TRMNL?
     time_saved:
       title: Zaoszczędzony czas
-      cta: Dowiedz się więcej
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
-    saved_discovery_setup:
       manage_persona: Manage persona
     welcome_message:
       morning_salutation: Dzień dobry
@@ -299,7 +270,6 @@ pl:
     edit:
       accepts_beta_firmware: Firmware - wczesny dostęp
       accepts_beta_firmware_hint: Włącz, aby uzyskać najnowsze oprogramowanie układowe przed innymi użytkownikami.
-      back_to_devices: Wróć do przeglądu urządzeń
       battery_and_sleep: Bateria i tryb uśpienia
       battery_consumption: Zużycie baterii
       battery_consumption_hint: Oszczędzaj energię i ciesz się dłuższym działaniem dzięki Trybowi Uśpienia.
@@ -321,7 +291,6 @@ pl:
       device_model_switch_warning: Zmiana jest obarczona ryzykiem. Przeczytaj więcej __tutaj__
       device_info: Informacje o urządzeniu
       current_firmware: Obecny firmware
-      last_ping: Ostatni ping
       unknown: Nieznane
       never: Nigdy
       display_calibration: Kalibracja wyświetlacza
@@ -367,7 +336,6 @@ pl:
       ota_byod_not_supported: Aktualizacje OTA nie są wspierane na urządzeniach firm trzecich (BYOD). Wgraj kompatybilne oprogramowanie ze strony trmnl.com/flash
       maximum_compatibility: Włącz maksymalną kompatybilność
       maximum_compatibility_hint: Rozwiązuje problemy z wyświetlaniem na niektórych wyświetlaczach ePaper. Wyłącza szybkie odświeżanie. Wymaga oprogramowania 1.6.0 lub nowszego.
-      color_and_rotation: Kolor i obrót
       image_rotation: Image Rotation
       screen_rotation: Obrót ekranu
       screen_rotation_not_supported: Obrót ekranu nie jest obecnie obsługiwany na Twoim urządzeniu.
@@ -389,9 +357,7 @@ pl:
       tidbyt_credentials: Poświadczenia Tidbyt
       tidbyt_credentials_hint: Wprowadź poświadczenia API swojego urządzenia Tidbyt. Znajdziesz je w aplikacji Tidbyt w menu Settings → Developer → Get API Key
       tidbyt_api_key: Tidbyt API Key
-      tidbyt_credentials_invalid: Niepoprawne poświadczenia Tidbyt API. Sprawdź ich poprawność i spróbuj ponownie.
       tidbyt_device_id: ID urządzenia
-      tidbyt_device_api_key: Klucz API
       unlink: Odłącz
       unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Odłącz urządzenie
@@ -399,7 +365,6 @@ pl:
       unlink_device_learn_more: Szczegółowe informacje znajdziesz __tutaj__.
       visibility: Widoczność
       visibility_hint: Przełączenie w tryb udostępniania umożliwi ustawienie urządzenia jako źródła kopii lustrzanej (mirror).
-      your_device: Twój TRMNL
       upgrade_og:
         title: Aktualizacja do 2-bitowego wyświetlacza dostępna
         sub_title: Twoje urządzenie może być zaktualizowane, aby być w stanie wyświetlać 4 odcienie szarości zamiast standardowych 2.
@@ -436,9 +401,6 @@ pl:
       waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
       battery_advice:
         title: Battery advice
-        wakes_per_day:
-          one: This device wakes about once a day.
-          other: This device wakes about %{count} times a day.
         days_per_charge:
           one: At that rate a charge lasts about a day.
           other: At that rate a charge lasts about %{count} days.
@@ -512,7 +474,6 @@ pl:
     index:
       title: Urządzenia
       tagline: Twoje urządzenia TRMNL
-      add_device_modal_title: Dodaj nowe urządzenie
       add_first_device: Zacznij, dodając swoje pierwsze urządzenie!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -538,9 +499,6 @@ pl:
     dissociate:
       error: Błąd przy odłączaniu urządzenia
       success: Pomyślnie odłączono urządzenie
-    external_credentials:
-      error: Niepoprawne poświadczenia urządzenia
-      success: Poświadczenia urządzenia zostały pomyślnie zaktualizowane
     identify:
       error: Błąd podczas aktualizacji urządzenia
       success: Wysłano żądanie identyfikacji urządzenia
@@ -579,16 +537,11 @@ pl:
         title: Set up a persona for %{device_label}
         subtext: Answer a few questions so recommendations fit this TRMNL's role.
         primary_label: Set up persona
-  invoices:
-    rate_limit: Zbyt wiele prób, odczekaj chwilę i spróbuj ponownie
-    invoice_not_found: Nie odnaleziono faktury
   logs:
     index:
       title: Logi
       all: Wszystkie
-      bulk_destroy: Usuń wszystko
       dump: Message
-      id: ID
       private_plugins: Prywatne pluginy
       source: Źródło
       time: Time (UTC)
@@ -623,9 +576,6 @@ pl:
       live_preview: Podgląd na żywo
       no_changes_to_save: Brak zmian do zapisania
       pop_out_preview: Podgląd w nowym oknie
-      quickstart_examples: Gotowe przykłady na start
-      quickstart_example_applied: Zastosowano!
-      quickstart_use_this_example: Użyj tego przykładu
       revert: Cofnij
       revert_confirm: Na pewno chcesz cofnąć? Wszystkie niezapisane zmiany zostaną utracone.
       save_changes: Zapisz zmiany (⌘﹢S / Ctrl + S)
@@ -689,9 +639,6 @@ pl:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
-  notices:
-    dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: Uwierzytelnianie dwuskładnikowe (2FA) wyłączone
@@ -717,21 +664,12 @@ pl:
   playlist_items:
     index:
       title: Playlista
-      tagline: 'Wybierz, co ma się wyświetlać na:'
-      add_a_group: Dodaj grupę
-      add_a_plugin: Dodaj plugin
       add_first_device_cta: Zacznij od __dodania__ Twojego pierwszego TRMNL!
       add_to_playlist: Dodaj do playlisty
-      create_first_playlist_cta: Stwórz playlistę po __dodaniu__ swojego pierwszego pluginu!
       custom: Niestandardowe
       device_default: Domyślne dla urządzenia
-      display_period_from: Wyświetlaj od
-      display_period_to: do
       display_period_validation: Godzina startu nie może być późniejsza niż godzina zakończenia. Utwórz kolejną grupę, aby objąć godziny nocne.
-      every: Każdy
       never_skip: Nigdy nie pomijaj żadnych ekranów
-      smart_playlist: Inteligentna playlista
-      smart_playlist_hint: Automatycznie pomiń ekrany, na których treści się nie zmieniły przez dłuższy czas.
       skip_after:
         one: Pomiń nieaktualne ekrany po 1 dniu
         other: Pomiń nieaktualne ekrany po %{count} dniach
@@ -769,9 +707,6 @@ pl:
       duplicate: Duplikuj
       duplicate_confirm: Funkcja ta zduplikuje obiekt i umieści go na końcu playlisty. Kontynować?
       presentation: Presentation
-      color_palette: Paleta kolorów
-      device_default: Domyślne dla urządzenia (%{name})
-      palette_unavailable: Dostępne tylko dla urządzeń obsługujących palety kolorów
       refresh_rate_disabled:
         default: Częstotliwość odświeżania tego pluginu nie może być skonfigurowana.
         external: Ten plugin pobiera dane na bieżąco, więc częstotliwość odświeżania nie ma tu zastosowania.
@@ -788,7 +723,6 @@ pl:
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
     create:
-      error: Aktualizacja playlisty nie powiodła się
       success: Playlista zaktualizowana
     destroy:
       error: Usunięcie elementu z playlisty nie powiodło się
@@ -801,8 +735,6 @@ pl:
       success: Kolejność playlisty została zaktualizowana
     set_preferences:
       success: Ustawienia inteligentnej listy odtwarzania zaktualizowane
-    update:
-      success: Zaktualizowano kolejność odtwarzania
     refresh:
       success: Refreshing now — the preview updates when the render finishes
       placeholder: Configure this playlist item before refreshing it
@@ -833,23 +765,10 @@ pl:
         other: Custom (%{count} windows)
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
-    column:
-      schedule: Schedule
-      status: Status
-    skip_reasons:
-      needs_configuration: Needs setup
-      hidden: Hidden
-      skipped: Skipped by plugin
-      schedule: Out of schedule
-      stale: Stale
     bulk_actions:
-      selected:
-        one: 1 selected
-        other: "%{count} selected"
       hide: Hide
       show: Show
       delete: Delete
-      cancel: Cancel
       destroy_confirm: Remove the selected items from this playlist?
       success:
         hide: Items hidden
@@ -857,8 +776,6 @@ pl:
         destroy: Items removed from playlist
       error: Bulk action failed
     time_travel_modal:
-      title: Time Travel
-      apply: Apply
       false: false
     smart_skip_modal:
       title: Smart Skip
@@ -869,9 +786,6 @@ pl:
       error: Playlist order could not be saved
     day_ahead:
       title: The day ahead
-      window: next 24 hours
-      open: Open the day ahead
-      toggle: Hide or show the day ahead
       times:
         one: once
         other: "%{count}×"
@@ -887,7 +801,6 @@ pl:
     index:
       title: Pluginy
       tagline: Co umieścisz na swoim TRMNL?
-      available: Dostępne
       connected: Połączone
       supported_by_this_device: Supported by this device
       recipes: Receptury
@@ -899,7 +812,6 @@ pl:
         title: Moje pluginy
         tagline: Twórz pluginy i udostępniaj je w publicznym katalogu
       card:
-        connections: połączenia
         install: Instaluj
         review_are_you_sure: Na pewno? Zespół TRMNL przetestuje plugin i w razie potrzeby skontaktuje się z Tobą przez e-mail.
         submit_for_review: Prześlij do weryfikacji
@@ -929,16 +841,11 @@ pl:
     edit:
       title: Edytuj plugin
       tagline: Zaktualizuj szczegóły swojego pluginu.
-      name: Nazwa
-      description: Opis
   plugin_recipes:
     connected: Receptura połączona
     connections:
       one: Połączenie
       other: Połączenia
-    forks:
-      one: Fork
-      other: Forki
     forked: Receptura sforkowana
     new:
       error: Nie znaleziono receptury
@@ -946,18 +853,14 @@ pl:
       more_by_author: Więcej od tego Autora
       view_all: Pokaż wszystko
   plugin_settings:
-    active: Aktywny
     copy_are_you_sure: Czy na pewno chcesz skopiować to ustawienie?
     delete_are_you_sure: Czy na pewno chcesz usunąć to ustawienie?
     delete: To całkowicie usunie ustawienia pluginu. Jeśli nie chcesz, by plugin był wyświetlany na urządzeniu, po prostu usuń go z playlisty.
-    inactive: Nieaktywny
     no_matches_found: Nie znaleziono pluginów pasujących do kryteriów.
-    no_plugin_settings_found: Nie znaleziono ustawień pluginu.
     not_supported: Niewspierany na tym urządzeniu
     refreshing_now_please_wait: Odświeżanie w toku, przeładuj tę stronę za kilka sekund.
     reset_credentials: Pomyślnie zresetowano konto %{plugin_name}
     form:
-      active_hint: Pokazuje lub ukrywa instancję tego pluginu na Twoim urządzeniu
       advanced_settings: Zaawansowane
       back_to_playlist: Wróć do Playlist
       back_to_plugin: Wróć do %{plugin}
@@ -979,15 +882,7 @@ pl:
       health_notifications_hint: Otrzymaj e-maila, jeśli stan tego pluginu wskaże problem (zdegradowany / błąd). Otrzymasz najwyżej jeden e-mail na zmianę stanu na incydent. Alerty uzbrajają się ponownie po powrocie pluginu do stanu "zdrowy".
       health_notifications_checkbox: Wyślij mi e-mail, jeśli plugin będzie miał problem z działaniem
       learn_more: Dowiedz się więcej o tym pluginie z naszej bazy wiedzy
-      learn_more_fork: Ten plugin jest forkiem Receptury.
-      learn_more_fork_original: Zobacz oryginał
-      learn_more_native_long: To jest natywny plugin, wspierany przez TRMNL.
-      learn_more_native_short: Ten plugin jest wspierany przez TRMNL.
       learn_more_recipe_author: Potrzebujesz pomocy? Skontaktuj się z %{recipe_author} na Discordzie.
-      learn_more_recipe_long: Ten plugin jest Recepturą społecznościową i nie jest utrzymywany przez TRMNL.
-      learn_more_recipe_short: 'Uwaga: ten plugin jest Recepturą.'
-      learn_more_third_party_long: Wtyczka została stworzona przez osoby trzecie i nie jest wspierana przez TRMNL.
-      learn_more_third_party_short: 'Uwaga: wtyczka stworzona przez osoby trzecie.'
       linked_account: Konto połączone
       linked_account_success: Pomyślnie połączono z %{plugin_name}
       link_oauth: Połącz konto
@@ -1009,7 +904,6 @@ pl:
       recipe_cta_body_published: Zmiany będą miały wpływ na obecne i przyszłe instalacje/forki.
       recipe_cta_body_in_review: Plugin został zgłoszony do przetestowania przez nasz zespół. Prosimy o cierpliwość.
       recipe_cta_body_not_published: Opublikuj ten plugin, aby inni mogli go zainstalować. __Dowiedz się więcej__.
-      recipe_cta_confirm: Na pewno? Zespół TRMNL przetestuje plugin i odezwie się w ciągu kilku dni. Możesz nadal nanosić zmiany.
       recipe_mirrored: Ten ekran jest kopią lustrzaną z receptury.
       recipe_visibility_title: Wybierz sposób publikacji
       recipe_visibility_edit_title: Edytuj zgłoszenie
@@ -1020,8 +914,6 @@ pl:
       recipe_visibility_unlisted: Ukryty
       recipe_visibility_unlisted_hint: Tylko osoby posiadające link mogą zainstalować.
       refresh_rate: Częstotliwość odświeżania
-      refresh_rate_hint: Określ, jak często ta instancja pluginu ma pobierać świeże dane.
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Odświeżanie %{refresh_rate} (niekonfigurowalne)
       refreshed: Odświeżony
       remove_plugin: Usuń plugin
@@ -1078,10 +970,8 @@ pl:
       search_placeholder: 'Search eg: Comic'
   schedules:
     form:
-      add: Dodaj własny harmonogram
       append: Oraz…
       no_schedule: Ten ekran będzie wyświetlany przez cały czas.
-      some_schedule: Określ, kiedy ten ekran ma być wyświetlany
       to: do
       copy_prompt: Kopiuj harmonogram z…
       no_days_error: Wybierz proszę minimum jeden dzień.
@@ -1107,11 +997,6 @@ pl:
       day_events:
         one: "%{day}: 1 event"
         other: "%{day}: %{count} events"
-      time: Time (UTC)
-      event: Event
-      screen: Screen
-      device: Device
-      detail: What happened
     link:
       title: Activity
       device_hint: When this device checked in, what it scheduled, and which screens it received.
@@ -1640,7 +1525,6 @@ pl:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
-      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

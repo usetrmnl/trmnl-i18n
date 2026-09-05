@@ -12,7 +12,6 @@ is:
   back: Til baka
   back_to_all_blog_posts: Til baka í allar færslur
   blog: Blogg
-  brand: Brand
   buy_now: Kaupa núna
   cancel: Hætta við
   change_password: Breyta lykilorði
@@ -26,15 +25,11 @@ is:
   copy: Afrita
   copied_to_clipboard: Afritað!
   copy_to_clipboard: Afrita í klemmuspjald
-  created: Búið til
   create_an_account: Stofna aðgang
   current_device: Núverandi tæki
-  days: dagar
   delete: Eyða
   developers: Developers
   developer_edition_required: Þróunarútgáfa er nauðsynleg til að virkja þennan eiginleika.
-  device_id: Kennimerki tækis
-  device: Tæki
   discard: Discard
   edit: Breyta
   email_address: Netfang
@@ -45,7 +40,6 @@ is:
   forgot_password_title: Nú förum við aftur af stað
   friendly_id: Friendly ID
   get_started: Byrjum!
-  hidden: hidden
   identify: Auðkenna
   import: Flytja inn
   import_new: Flytja inn nýtt
@@ -59,32 +53,23 @@ is:
   log_out: Útskrá
   manage: Stjórna
   minimum_characters: lágmarks stafir
-  mins: mín
-  my_playlist: Spilunarlistinn minn
   new_password: Nýtt lykilorð
   password: Lykilorð
-  please_wait: Vinsamlegast bíðið...
   plugin_not_found: Viðbót fannst ekki
   preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
   refresh_rates_hint: Lestu um uppfærslutíðni __hér__.
   reset_password: Endurstilla lykilorð
   reset_to_defaults: Reset to defaults
   required: Required
   save: Vista
-  shown: shown
   section: Hluti
   settings: Stillingar
   sign_in: Skrá inn
   sign_up: Skrá nýjan aðgang
   something_went_wrong: Eitthvað fór úrskeiðis
   status: Status
-  subscribe: Gerast áskrifandi
   help_center: Aðstoð
-  terms: Terms
   unsaved_changes: You have unsaved changes
-  update: Uppfæra
   view: Skoða
   collaboration_request: Wanna collaborate?
   collaboration_request_hint: Partnerships, group sales, special projects, your call.
@@ -153,9 +138,6 @@ is:
       refer_and_earn_hint: Deildu TRMNL afsláttarkóða og fáðu greitt mánaðarlega fyrir notkun.
       refer_and_earn_redemptions: Innlausnir
       refer_and_earn_request_code: Biðja um kóða
-      device_invoice: Reikningur fyrir tæki
-      device_invoice_label: Sækja skjöl fyrir bókara eða safnið þitt.
-      device_invoice_hint: Finndu þetta á rekjunarvef eða í sendingartilkynningu.
       email_address_hint: Notað til að skrá þig inn  á TRMNL og fá kerfistilkynningar.
       first_name_hint: Nafnið þitt birtist í TRMNL viðmótinu.
       last_name_hint: Nafnið þitt birtist í TRMNL viðmótinu.
@@ -234,13 +216,7 @@ is:
   dashboard:
     index:
       title: Stjórnborð
-      last_7_days: Síðustu 7 dagar
-      last_30_days: Síðustu 30 dagar
-      last_90_days: Síðustu 90 dagar
-      today: Í dag
-      yesterday: Í gær
     health:
-      bad: Vandamál með viðbætur
       good: Viðbætur eru í lagi
       next_steps: Við látum þig vita ef eitthvað breytist
     news:
@@ -257,14 +233,9 @@ is:
       new_and_popular: Nýjar og vinsælar
     shop:
       title: Verslun
-      need_another: Þarftu annað TRMNL?
     time_saved:
       title: Sparaður tími
-      cta: Lesa meira
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
-    saved_discovery_setup:
       manage_persona: Manage persona
     welcome_message:
       morning_salutation: Góðan dag
@@ -277,7 +248,6 @@ is:
     edit:
       accepts_beta_firmware: Snemmútgáfa fastbúnaðar
       accepts_beta_firmware_hint: Kveiktu á þessu til að fá nýjustu fastbúnaðaruppfærslur á undan öðrum.
-      back_to_devices: Til baka í tæki
       battery_and_sleep: Battery & Sleep
       battery_consumption: Rafhlöðunotkun
       battery_consumption_hint: Sparaðu orku og lengdu rafhlöðuendingu með því að virkja svefnham.
@@ -299,7 +269,6 @@ is:
       device_model_switch_warning: Þetta er hættuleg aðgerð, lestu meira __hér__
       device_info: Device Info
       current_firmware: Current firmware
-      last_ping: Last ping
       unknown: Unknown
       never: Never
       display_calibration: Display Calibration
@@ -345,7 +314,6 @@ is:
       ota_byod_not_supported: OTA er ekki stutt fyrir BYOD-tæki. "Flassaðu" samhæfða útgáfu beint frá trmnl.com/flash
       maximum_compatibility: Hámarkssamhæfni
       maximum_compatibility_hint: Leysir skjávandamál af völdum sumra ePaper rekla. Slekkur á hraðri uppfærslu. Krefst fastbúnaðar 1.6.0+.
-      color_and_rotation: Litur og Snúningur
       image_rotation: Image Rotation
       screen_rotation: Skjásnúningur
       screen_rotation_not_supported: Skjásnúningur er ekki í boði fyrir þetta tæki.
@@ -367,9 +335,7 @@ is:
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_api_key: Tidbyt API Key
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
       tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
       unlink: Aftengja
       unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Aftengja tæki
@@ -377,7 +343,6 @@ is:
       unlink_device_learn_more: Fylgdu leiðbeiningum __hér__.
       visibility: Sýnileiki
       visibility_hint: Gera TRMNL tækið þitt speglanlegt með því að breyta stillingunum hér að neðan.
-      your_device: Þitt TRMNL tæki
       upgrade_og:
         title: Uppfærsla í 2-bita skjá í boði
         sub_title: Tækið þitt getur verið uppfært til að styðja betri grátóna með 4 litastigum í stað 2.
@@ -414,9 +379,6 @@ is:
       waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
       battery_advice:
         title: Battery advice
-        wakes_per_day:
-          one: This device wakes about once a day.
-          other: This device wakes about %{count} times a day.
         days_per_charge:
           one: At that rate a charge lasts about a day.
           other: At that rate a charge lasts about %{count} days.
@@ -490,7 +452,6 @@ is:
     index:
       title: Tæki
       tagline: TRMNL tækin þín
-      add_device_modal_title: Bæta við nýju tæki
       add_first_device: Byrjaðu á því að bæta við fyrsta tækinu þínu!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -516,9 +477,6 @@ is:
     dissociate:
       error: Villa við að aftengja tæki
       success: Tæki aftengt
-    external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
     identify:
       error: Villa við að uppfæra tæki
       success: Beiðni um auðkenningu send
@@ -557,16 +515,11 @@ is:
         title: Set up a persona for %{device_label}
         subtext: Answer a few questions so recommendations fit this TRMNL's role.
         primary_label: Set up persona
-  invoices:
-    rate_limit: Of margar tilraunir, vinsamlegast bíðið og reynið aftur
-    invoice_not_found: Reikningur fannst ekki
   logs:
     index:
       title: Atburðaskrár
       all: Allt
-      bulk_destroy: Bulk Destroy
       dump: Message
-      id: ID
       private_plugins: Einkaviðbætur
       source: Uppruni
       time: Time (UTC)
@@ -601,9 +554,6 @@ is:
       live_preview: Lifandi forskoðun
       no_changes_to_save: Engar breytingar til að vista
       pop_out_preview: Forskoðun í nýjum glugga
-      quickstart_examples: Sýnidæmi
-      quickstart_example_applied: Virkjað!
-      quickstart_use_this_example: Nota þetta sýnidæmi
       revert: Hætta við breytingar
       revert_confirm: Ertu viss? Allar óvistaðar breytingar munu tapast.
       save_changes: Vista breytingar (⌘﹢S)
@@ -667,9 +617,6 @@ is:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
-  notices:
-    dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA óvirkt
@@ -695,21 +642,12 @@ is:
   playlist_items:
     index:
       title: Spilunarlisti
-      tagline: Veldu hvað birtist á
-      add_a_group: Bæta við hópi
-      add_a_plugin: Bæta við viðbót
       add_first_device_cta: Byrjaðu á því að __bæta við__ fyrsta TRMNL tækinu þínu!
       add_to_playlist: Bæta við spilunarlista
-      create_first_playlist_cta: Búðu til spilunarlistann þinn eftir að þú hefur __tengt__ fyrstu viðbótina!
       custom: Sérsniðið
       device_default: Sjálfgefið fyrir tæki
-      display_period_from: Sýna frá
-      display_period_to: til
       display_period_validation: Byrjunartími verður að vera fyrir lokatíma. Bættu við hópi til að spanna nóttina.
-      every: Sérhver
       never_skip: Aldrei sleppa skjám
-      smart_playlist: Snjall spilunarlisti
-      smart_playlist_hint: Sleppir sjálfkrafa skjámyndum sem hafa ekki breyst í einhvern tíma.
       skip_after:
         one: Sleppa skjámyndum eftir 1 dag
         other: Sleppa skjámyndum eftir %{count} daga
@@ -747,9 +685,6 @@ is:
       duplicate: Duplicate
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
       presentation: Presentation
-      color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -766,7 +701,6 @@ is:
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
     create:
-      error: Gat ekki uppfært spilunarlista
       success: Spilunarlisti uppfærður
     destroy:
       error: Villa við að fjarlægja atriði úr spilunarlista
@@ -779,8 +713,6 @@ is:
       success: Röðun spilunarlista uppfærð
     set_preferences:
       success: Stillingar snjallspilunarlista uppfærðar
-    update:
-      success: Playlist order updated
     refresh:
       success: Refreshing now — the preview updates when the render finishes
       placeholder: Configure this playlist item before refreshing it
@@ -811,23 +743,10 @@ is:
         other: Custom (%{count} windows)
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
-    column:
-      schedule: Schedule
-      status: Status
-    skip_reasons:
-      needs_configuration: Needs setup
-      hidden: Hidden
-      skipped: Skipped by plugin
-      schedule: Out of schedule
-      stale: Stale
     bulk_actions:
-      selected:
-        one: 1 selected
-        other: "%{count} selected"
       hide: Hide
       show: Show
       delete: Delete
-      cancel: Cancel
       destroy_confirm: Remove the selected items from this playlist?
       success:
         hide: Items hidden
@@ -835,8 +754,6 @@ is:
         destroy: Items removed from playlist
       error: Bulk action failed
     time_travel_modal:
-      title: Time Travel
-      apply: Apply
       false: false
     smart_skip_modal:
       title: Smart Skip
@@ -847,9 +764,6 @@ is:
       error: Playlist order could not be saved
     day_ahead:
       title: The day ahead
-      window: next 24 hours
-      open: Open the day ahead
-      toggle: Hide or show the day ahead
       times:
         one: once
         other: "%{count}×"
@@ -865,7 +779,6 @@ is:
     index:
       title: Viðbætur
       tagline: Hvað viltu setja á TRMNL tækið þitt?
-      available: Tiltækar
       connected: Tengdar
       supported_by_this_device: Supported by this device
       recipes: Uppskriftir
@@ -877,7 +790,6 @@ is:
         title: Viðbæturnar mínar
         tagline: Þróaðu viðbætur fyrir markaðinn
       card:
-        connections: tengingar
         install: Setja upp
         review_are_you_sure: Ertu viss? TRMNL teymið mun prófa viðbótina og hafa samband ef spurningar vakna.
         submit_for_review: Senda í skoðun
@@ -907,16 +819,11 @@ is:
     edit:
       title: Breyta viðbót
       tagline: Uppfæra upplýsingar viðbótarinnar.
-      name: Heiti
-      description: Lýsing
   plugin_recipes:
     connected: Uppskrift tengd
     connections:
       one: Tenging
       other: Tengingar
-    forks:
-      one: Sjálfun
-      other: Sjálfanir
     forked: Recipe forked
     new:
       error: Uppskrift fannst ekki
@@ -924,18 +831,14 @@ is:
       more_by_author: More by this Author
       view_all: View all
   plugin_settings:
-    active: Virkt
     copy_are_you_sure: Ertu viss um að þú viljir afrita þessa stillingu?
     delete_are_you_sure: Ertu viss um að þú viljir eyða þessari stillingu?
     delete: Þetta fjarlægir allar stillingar viðbótarinnar. Til að fela hana, fjarlægðu hana úr spilunarlistanum í staðinn.
-    inactive: Óvirkt
     no_matches_found: No plugins match your filters.
-    no_plugin_settings_found: Engar stillingar fundust.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Glæði, endurhlaðið síðuna eftir nokkrar sekúndur.
     reset_credentials: "%{plugin_name} aðgangur endurstilltur"
     form:
-      active_hint: Sýna eða fela þessa viðbót á tækinu þínu
       advanced_settings: Ítarlegar stillingar
       back_to_playlist: Back to Playlist
       back_to_plugin: Til baka í %{plugin}
@@ -957,15 +860,7 @@ is:
       health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
       health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Lesa meira um þessa viðbót í hjálpargagnasafni
-      learn_more_fork: Þessi viðbót er afrituð úr uppskrift.
-      learn_more_fork_original: Skoða upprunalega
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Þarftu hjálp? Hafðu samband við %{recipe_author} á Discord.
-      learn_more_recipe_long: Þessi viðbót er frá samfélaginu og er ekki viðhaldið af TRMNL.
-      learn_more_recipe_short: 'Athugið: þessi viðbót er uppskrift.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Tengt notandanafni
       linked_account_success: Tókst að tengja við %{plugin_name}
       link_oauth: Tengja aðgang
@@ -987,7 +882,6 @@ is:
       recipe_cta_body_published: Breytingar verða sýnilegar á núverandi og komandi uppsetningum.
       recipe_cta_body_in_review: Viðbótin hefur verið send inn til skoðunar. Hinkraðu.
       recipe_cta_body_not_published: Senda viðbótina til annarra. __Lesa meira__.
-      recipe_cta_confirm: Ertu viss? Teymið okkar mun skoða þetta næstdu daga. Þú getur haldið áfram að breyta á meðan.
       recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
@@ -998,8 +892,6 @@ is:
       recipe_visibility_unlisted: Unlisted
       recipe_visibility_unlisted_hint: Anyone with the link can install.
       refresh_rate: Uppfærslutíðni
-      refresh_rate_hint: Stilltu hversu oft þessi viðbót sækir gögn
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
       refreshed: Uppfært
       remove_plugin: Fjarlægja viðbót
@@ -1056,10 +948,8 @@ is:
       search_placeholder: 'Search eg: Comic'
   schedules:
     form:
-      add: Bæta við sérsniðinni tímasetningu
       append: Og á meðan…
       no_schedule: Þessi skjár verður alltaf sýndur.
-      some_schedule: Sýna þennan skjá aðeins á…
       to: til
       copy_prompt: Afrita tímasetningu frá…
       no_days_error: Please select at least one day.
@@ -1085,11 +975,6 @@ is:
       day_events:
         one: "%{day}: 1 event"
         other: "%{day}: %{count} events"
-      time: Time (UTC)
-      event: Event
-      screen: Screen
-      device: Device
-      detail: What happened
     link:
       title: Activity
       device_hint: When this device checked in, what it scheduled, and which screens it received.
@@ -1618,7 +1503,6 @@ is:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
-      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

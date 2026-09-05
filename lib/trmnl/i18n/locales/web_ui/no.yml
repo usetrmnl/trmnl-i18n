@@ -12,7 +12,6 @@
   back: Tilbake
   back_to_all_blog_posts: Tilbake til alle innlegg
   blog: Blogg
-  brand: Brand
   buy_now: Kjøp nå
   cancel: Avbryt
   change_password: Endre passord
@@ -26,15 +25,11 @@
   copy: Kopier
   copied_to_clipboard: Kopiert!
   copy_to_clipboard: Kopier til utklippstavle
-  created: Opprettet
   create_an_account: Lag en konto
   current_device: Nåværende enhet
-  days: dager
   delete: Slett
   developers: Developers
   developer_edition_required: Utviklerutgaven kreves for å aktivere denne funksjonen.
-  device_id: Enhets-ID
-  device: Enhet
   discard: Discard
   edit: Innstillinger
   email_address: E-postadresse
@@ -45,7 +40,6 @@
   forgot_password_title: Her går vi igjen
   friendly_id: Friendly ID
   get_started: La oss komme i gang!
-  hidden: hidden
   identify: Identifiser
   import: Importer
   import_new: Importer ny
@@ -59,32 +53,23 @@
   log_out: Logg ut
   manage: Manage
   minimum_characters: minimum antall tegn
-  mins: min
-  my_playlist: Min spilleliste
   new_password: Nytt passord
   password: Passord
-  please_wait: Vennligst vent...
   plugin_not_found: Plugin ikke funnet
   preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
   refresh_rates_hint: Lær hvordan oppdateringsfrekvenser fungerer __her__.
   reset_password: Tilbakestill passordet mitt
   reset_to_defaults: Reset to defaults
   required: Required
   save: Lagre
-  shown: shown
   section: Seksjon
   settings: Settings
   sign_in: Logg inn
   sign_up: Registrer deg
   something_went_wrong: Noe gikk galt
   status: Status
-  subscribe: Subscribe
   help_center: Support
-  terms: Terms
   unsaved_changes: You have unsaved changes
-  update: Oppdater
   view: Vis
   collaboration_request: Wanna collaborate?
   collaboration_request_hint: Partnerships, group sales, special projects, your call.
@@ -153,9 +138,6 @@
       refer_and_earn_hint: Gi gaven av TRMNL med en personlig kupong. Tjen per bruk, betalt månedlig.
       refer_and_earn_redemptions: Innbyttinger
       refer_and_earn_request_code: Be om en kode
-      device_invoice: Enhetsfaktura
-      device_invoice_label: Last ned kommersielle dokumenter for regnskapsføreren din eller til PDF-samlingen (merkelig).
-      device_invoice_hint: Finnes på sporingssiden for pakken din eller i e-posten for forsendelsesvarsel.
       email_address_hint: Brukes for å logge inn på TRMNL og motta systemmeldinger.
       first_name_hint: Vi bruker navnet ditt for å gjøre TRMNL-grensesnittet mer personlig.
       last_name_hint: Vi bruker navnet ditt for å gjøre TRMNL-grensesnittet mer personlig.
@@ -234,13 +216,7 @@
   dashboard:
     index:
       title: Oversikt
-      last_7_days: Siste 7 dager
-      last_30_days: Siste 30 dager
-      last_90_days: Siste 90 dager
-      today: I dag
-      yesterday: I går
     health:
-      bad: Plugins har problemer
       good: Plugins fungerer bra
       next_steps: Vi informerer deg hvis noe endres
     news:
@@ -257,14 +233,9 @@
       new_and_popular: Nye og populære
     shop:
       title: Butikk
-      need_another: Need another TRMNL?
     time_saved:
       title: Tid spart
-      cta: Les om
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
-    saved_discovery_setup:
       manage_persona: Manage persona
     welcome_message:
       morning_salutation: God morgen
@@ -277,7 +248,6 @@
     edit:
       accepts_beta_firmware: Tidlig utgivelse av fastvare
       accepts_beta_firmware_hint: Slå på for å få de nyeste fastvareoppdateringene før andre brukere.
-      back_to_devices: Tilbake til enheter
       battery_and_sleep: Battery & Sleep
       battery_consumption: Batteriforbruk
       battery_consumption_hint: Spar strøm og få lengre batterilevetid ved å aktivere dvalemodus.
@@ -299,7 +269,6 @@
       device_model_switch_warning: This is a dangerous operation, learn more __here__
       device_info: Device Info
       current_firmware: Current firmware
-      last_ping: Last ping
       unknown: Unknown
       never: Never
       display_calibration: Display Calibration
@@ -345,7 +314,6 @@
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain ePaper driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      color_and_rotation: Farge og rotasjon
       image_rotation: Image Rotation
       screen_rotation: Skjermrotasjon
       screen_rotation_not_supported: Skjermrotasjon er ikke understøttet på din enhet.
@@ -367,9 +335,7 @@
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_api_key: Tidbyt API Key
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
       tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
       unlink: Koble fra
       unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Koble fra enhet
@@ -377,7 +343,6 @@
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: Synlighet
       visibility_hint: Gjør TRMNL-enheten din speilbar ved å endre innstillingene nedenfor.
-      your_device: Din TRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
         sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
@@ -414,9 +379,6 @@
       waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
       battery_advice:
         title: Battery advice
-        wakes_per_day:
-          one: This device wakes about once a day.
-          other: This device wakes about %{count} times a day.
         days_per_charge:
           one: At that rate a charge lasts about a day.
           other: At that rate a charge lasts about %{count} days.
@@ -490,7 +452,6 @@
     index:
       title: Enheter
       tagline: Dine TRMNL-enheter
-      add_device_modal_title: Legg til en ny enhet
       add_first_device: Start med å legge til din første enhet!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -516,9 +477,6 @@
     dissociate:
       error: Feil ved frakobling av enhet
       success: Enheten ble frakoblet
-    external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
     identify:
       error: Feil ved oppdatering av enhet
       success: Forespørsel om enhetsidentifikasjon sendt
@@ -557,16 +515,11 @@
         title: Set up a persona for %{device_label}
         subtext: Answer a few questions so recommendations fit this TRMNL's role.
         primary_label: Set up persona
-  invoices:
-    rate_limit: For mange forsøk, vennligst vent og prøv igjen
-    invoice_not_found: Faktura ikke funnet
   logs:
     index:
       title: Logger
       all: Alle
-      bulk_destroy: Bulk Destroy
       dump: Message
-      id: ID
       private_plugins: Private plugins
       source: Kilde
       time: Time (UTC)
@@ -601,9 +554,6 @@
       live_preview: Direkte forhåndsvisning
       no_changes_to_save: Ingen endringer å lagre
       pop_out_preview: Pop Out Preview
-      quickstart_examples: Raskstartseksempler
-      quickstart_example_applied: Anvendt!
-      quickstart_use_this_example: Bruk dette eksempelet
       revert: Angre
       revert_confirm: Er du sikker på at du vil angre? Alle uspurte endringer vil gå tapt.
       save_changes: Lagre endringer (⌘﹢S)
@@ -667,9 +617,6 @@
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
-  notices:
-    dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA deaktivert
@@ -695,21 +642,12 @@
   playlist_items:
     index:
       title: Spilleliste
-      tagline: Velg hva som vises på
-      add_a_group: Legg til en gruppe
-      add_a_plugin: Legg til en plugin
       add_first_device_cta: Start med å __legge til__ din første TRMNL-enhet!
       add_to_playlist: Legg til i spilleliste
-      create_first_playlist_cta: Lag spillelisten din etter å ha __koblet til__ din første plugin!
       custom: Custom
       device_default: Device default
-      display_period_from: Vis fra
-      display_period_to: til
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
       never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
       skip_after:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
@@ -747,9 +685,6 @@
       duplicate: Duplicate
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
       presentation: Presentation
-      color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -766,7 +701,6 @@
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
     create:
-      error: Kunne ikke oppdatere spillelisten
       success: Spilleliste oppdatert
     destroy:
       error: Feil ved fjerning av element fra spilleliste
@@ -779,8 +713,6 @@
       success: Playlist order updated
     set_preferences:
       success: Smart playlist preference updated
-    update:
-      success: Rekkefølgen i spillelisten er oppdatert
     refresh:
       success: Refreshing now — the preview updates when the render finishes
       placeholder: Configure this playlist item before refreshing it
@@ -811,23 +743,10 @@
         other: Custom (%{count} windows)
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
-    column:
-      schedule: Schedule
-      status: Status
-    skip_reasons:
-      needs_configuration: Needs setup
-      hidden: Hidden
-      skipped: Skipped by plugin
-      schedule: Out of schedule
-      stale: Stale
     bulk_actions:
-      selected:
-        one: 1 selected
-        other: "%{count} selected"
       hide: Hide
       show: Show
       delete: Delete
-      cancel: Cancel
       destroy_confirm: Remove the selected items from this playlist?
       success:
         hide: Items hidden
@@ -835,8 +754,6 @@
         destroy: Items removed from playlist
       error: Bulk action failed
     time_travel_modal:
-      title: Time Travel
-      apply: Apply
       false: false
     smart_skip_modal:
       title: Smart Skip
@@ -847,9 +764,6 @@
       error: Playlist order could not be saved
     day_ahead:
       title: The day ahead
-      window: next 24 hours
-      open: Open the day ahead
-      toggle: Hide or show the day ahead
       times:
         one: once
         other: "%{count}×"
@@ -865,7 +779,6 @@
     index:
       title: Plugins
       tagline: Hva vil du vise på din TRMNL?
-      available: Tilgjengelig
       connected: Tilkoblet
       supported_by_this_device: Supported by this device
       recipes: Oppskrifter
@@ -877,7 +790,6 @@
         title: Mine plugins
         tagline: Utvikle plugins for det offentlige markedet
       card:
-        connections: tilkoblinger
         install: Installer
         review_are_you_sure: Er du sikker? TRMNL-teamet vil teste den og sende deg e-post med spørsmål.
         submit_for_review: Send inn for vurdering
@@ -907,16 +819,11 @@
     edit:
       title: Rediger plugin
       tagline: Oppdater detaljene for din plugin.
-      name: Navn
-      description: Beskrivelse
   plugin_recipes:
     connected: Recipe connected
     connections:
       one: Connection
       other: Connections
-    forks:
-      one: Fork
-      other: Forks
     forked: Recipe forked
     new:
       error: Oppskrift ikke funnet
@@ -924,18 +831,14 @@
       more_by_author: More by this Author
       view_all: View all
   plugin_settings:
-    active: Aktiv
     copy_are_you_sure: Er du sikker på at du vil kopiere denne innstillingen?
     delete_are_you_sure: Er du sikker på at du vil slette denne innstillingen?
     delete: Dette vil fullstendig fjerne plugin-innstillingene. For kun å skjule pluginen fra enheten din, fjern den fra spillelisten i stedet.
-    inactive: Inaktiv
     no_matches_found: No plugins match your filters.
-    no_plugin_settings_found: Ingen plugin-innstillinger funnet.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Oppdaterer nå, last siden på nytt om noen sekunder.
     reset_credentials: "%{plugin_name} konto ble tilbakestilt"
     form:
-      active_hint: Vis eller skjul denne plugin-instansen på enheten din
       advanced_settings: Advanced Settings
       back_to_playlist: Back to Playlist
       back_to_plugin: Tilbake til %{plugin}
@@ -957,15 +860,7 @@
       health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
       health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Les om denne pluginen i vår kunnskapsbase
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Koblet konto
       linked_account_success: Koblet til %{plugin_name} med hell
       link_oauth: Koble konto
@@ -987,7 +882,6 @@
       recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
       recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
       recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
       recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
@@ -998,8 +892,6 @@
       recipe_visibility_unlisted: Unlisted
       recipe_visibility_unlisted_hint: Anyone with the link can install.
       refresh_rate: Oppdateringsfrekvens
-      refresh_rate_hint: Definer hvor ofte denne plugin-instansen henter nye data
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
       refreshed: Oppdatert
       remove_plugin: Fjern plugin
@@ -1056,10 +948,8 @@
       search_placeholder: 'Search eg: Comic'
   schedules:
     form:
-      add: Add a custom schedule
       append: And during…
       no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
       to: to
       copy_prompt: Copy schedule from…
       no_days_error: Please select at least one day.
@@ -1085,11 +975,6 @@
       day_events:
         one: "%{day}: 1 event"
         other: "%{day}: %{count} events"
-      time: Time (UTC)
-      event: Event
-      screen: Screen
-      device: Device
-      detail: What happened
     link:
       title: Activity
       device_hint: When this device checked in, what it scheduled, and which screens it received.
@@ -1618,7 +1503,6 @@
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
-      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

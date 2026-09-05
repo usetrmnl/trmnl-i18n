@@ -12,7 +12,6 @@ en-AU:
   back: Back
   back_to_all_blog_posts: Back to all posts
   blog: Blog
-  brand: Brand
   buy_now: Buy Now
   cancel: Cancel
   change_password: Change Password
@@ -26,15 +25,11 @@ en-AU:
   copy: Copy
   copied_to_clipboard: Copied!
   copy_to_clipboard: Copy to clipboard
-  created: Created
   create_an_account: Create an account
   current_device: Current device
-  days: days
   delete: Delete
   developers: Developers
   developer_edition_required: Developer edition is required to enable this feature.
-  device_id: Device ID
-  device: Device
   discard: Discard
   edit: Edit
   email_address: Email address
@@ -45,7 +40,6 @@ en-AU:
   forgot_password_title: Here we go again
   friendly_id: Friendly ID
   get_started: Let's get you started!
-  hidden: hidden
   identify: Identify
   import: Import
   import_new: Import new
@@ -59,32 +53,23 @@ en-AU:
   log_out: Log out
   manage: Manage
   minimum_characters: characters minimum
-  mins: mins
-  my_playlist: My Playlist
   new_password: New password
   password: Password
-  please_wait: Please Wait...
   plugin_not_found: Plugin not found
   preview: Preview
-  privacy: Privacy
-  refresh_rate: Refresh rate
   refresh_rates_hint: Learn how refresh rates work __here__.
   reset_password: Reset my password
   reset_to_defaults: Reset to defaults
   required: Required
   save: Save
-  shown: shown
   section: Section
   settings: Settings
   sign_in: Sign in
   sign_up: Sign up
   something_went_wrong: Something went wrong
   status: Status
-  subscribe: Subscribe
   help_center: Support
-  terms: Terms
   unsaved_changes: You have unsaved changes
-  update: Update
   view: View
   collaboration_request: Wanna collaborate?
   collaboration_request_hint: Partnerships, group sales, special projects, your call.
@@ -153,9 +138,6 @@ en-AU:
       refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
       refer_and_earn_redemptions: Redemptions
       refer_and_earn_request_code: Request a Code
-      device_invoice: Device Invoice
-      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
-      device_invoice_hint: Find this on your package tracking page or shipment notification email.
       email_address_hint: Used to sign into TRMNL and receive system messages.
       first_name_hint: We use your name to make the TRMNL interface more comfortable.
       last_name_hint: We use your name to make the TRMNL interface more comfortable.
@@ -234,13 +216,7 @@ en-AU:
   dashboard:
     index:
       title: Dashboard
-      last_7_days: Last 7 days
-      last_30_days: Last 30 days
-      last_90_days: Last 90 days
-      today: Today
-      yesterday: Yesterday
     health:
-      bad: Plugins are experiencing issues
       good: Plugins are healthy
       next_steps: We will inform you if anything changes
     news:
@@ -257,14 +233,9 @@ en-AU:
       new_and_popular: New and Popular
     shop:
       title: Shop
-      need_another: Need another TRMNL?
     time_saved:
       title: Time saved
-      cta: Read about
     discover_callout:
-      manage_persona: Manage persona
-      dismiss: Dismiss
-    saved_discovery_setup:
       manage_persona: Manage persona
     welcome_message:
       morning_salutation: Good morning
@@ -277,7 +248,6 @@ en-AU:
     edit:
       accepts_beta_firmware: Firmware Early Release
       accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
-      back_to_devices: Back to Devices
       battery_and_sleep: Battery & Sleep
       battery_consumption: Battery Consumption
       battery_consumption_hint: Save power and enjoy a longer battery life by enabling Sleep Mode.
@@ -299,7 +269,6 @@ en-AU:
       device_model_switch_warning: This is a dangerous operation, learn more __here__
       device_info: Device Info
       current_firmware: Current firmware
-      last_ping: Last ping
       unknown: Unknown
       never: Never
       display_calibration: Display Calibration
@@ -345,7 +314,6 @@ en-AU:
       ota_byod_not_supported: OTA is not supported for BYOD devices. Flash a compatible version directly from trmnl.com/flash
       maximum_compatibility: Enable Maximum Compatibility
       maximum_compatibility_hint: Resolves display issues caused by certain ePaper driver chips. Disables fast refresh. Firmware 1.6.0+ required.
-      color_and_rotation: Color & Rotation
       image_rotation: Image Rotation
       screen_rotation: Screen Rotation
       screen_rotation_not_supported: Screen rotation is currently not supported on your device.
@@ -367,9 +335,7 @@ en-AU:
       tidbyt_credentials: Tidbyt Credentials
       tidbyt_credentials_hint: Enter your Tidbyt device's API credentials from the Tidbyt app under Settings → Developer → Get API Key.
       tidbyt_api_key: Tidbyt API Key
-      tidbyt_credentials_invalid: Tidbyt API credentials are invalid. Please double-check and try again.
       tidbyt_device_id: Device ID
-      tidbyt_device_api_key: API Key
       unlink: Unlink
       unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
       unlink_device: Unlink Device
@@ -377,7 +343,6 @@ en-AU:
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: Visibility
       visibility_hint: Make your TRMNL device mirrorable by changing the settings below.
-      your_device: Your TRMNL
       upgrade_og:
         title: Upgrade to 2-bit Display Available
         sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
@@ -414,9 +379,6 @@ en-AU:
       waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
       battery_advice:
         title: Battery advice
-        wakes_per_day:
-          one: This device wakes about once a day.
-          other: This device wakes about %{count} times a day.
         days_per_charge:
           one: At that rate a charge lasts about a day.
           other: At that rate a charge lasts about %{count} days.
@@ -490,7 +452,6 @@ en-AU:
     index:
       title: Devices
       tagline: Your TRMNL devices
-      add_device_modal_title: Add a new device
       add_first_device: Start by adding your first device!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -515,9 +476,6 @@ en-AU:
     dissociate:
       error: Error disconnecting device
       success: Device successfully unlinked
-    external_credentials:
-      error: Invalid device credentials
-      success: Device credentials updated successfully
     identify:
       error: Error updating device
       success: Device identification requested
@@ -556,16 +514,11 @@ en-AU:
         title: Set up a persona for %{device_label}
         subtext: Answer a few questions so recommendations fit this TRMNL's role.
         primary_label: Set up persona
-  invoices:
-    rate_limit: Too many attempts, please wait and try again
-    invoice_not_found: Invoice not found
   logs:
     index:
       title: Logs
       all: All
-      bulk_destroy: Bulk Destroy
       dump: Message
-      id: ID
       private_plugins: Private plugins
       source: Source
       time: Time (UTC)
@@ -600,9 +553,6 @@ en-AU:
       live_preview: Live Preview
       no_changes_to_save: No changes to save
       pop_out_preview: Pop Out Preview
-      quickstart_examples: Quick-start Examples
-      quickstart_example_applied: Applied!
-      quickstart_use_this_example: Use this example
       revert: Revert
       revert_confirm: Are you sure you want to revert? All unsaved changes will be lost.
       save_changes: Save Changes (⌘﹢S)
@@ -666,9 +616,6 @@ en-AU:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
-  notices:
-    dismiss:
-      discover_callout: You can always set up or change your Persona in the device settings.
   mfa:
     disable_otp:
       success: 2FA Disabled
@@ -694,21 +641,12 @@ en-AU:
   playlist_items:
     index:
       title: Playlist
-      tagline: Choose what's shown on
-      add_a_group: Add a Group
-      add_a_plugin: Add a Plugin
       add_first_device_cta: Start by __adding__ your first TRMNL device!
       add_to_playlist: Add to playlist
-      create_first_playlist_cta: Create your Playlist after __connecting__ your first plugin!
       custom: Custom
       device_default: Device default
-      display_period_from: Display from
-      display_period_to: to
       display_period_validation: Start time must be before end time. Create another group to span overnight hours.
-      every: Every
       never_skip: Never skip screens
-      smart_playlist: Smart Playlist
-      smart_playlist_hint: Automatically skip screens whose contents haven't changed in a while.
       skip_after:
         one: Skip stale screens after 1 day
         other: Skip stale screens after %{count} days
@@ -746,9 +684,6 @@ en-AU:
       duplicate: Duplicate
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
       presentation: Presentation
-      color_palette: Color Palette
-      device_default: Device Default (%{name})
-      palette_unavailable: Only available for devices with multiple color palettes
       refresh_rate_disabled:
         default: This plugin's refresh rate cannot be configured.
         external: This plugin fetches data on the fly, so refresh rate settings don't apply.
@@ -765,7 +700,6 @@ en-AU:
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
     create:
-      error: Failed to update Playlist
       success: Playlist updated
     destroy:
       error: Error removing item from playlist
@@ -778,8 +712,6 @@ en-AU:
       success: Playlist order updated
     set_preferences:
       success: Smart Playlist preference updated
-    update:
-      success: Playlist order updated
     refresh:
       success: Refreshing now — the preview updates when the render finishes
       placeholder: Configure this playlist item before refreshing it
@@ -810,23 +742,10 @@ en-AU:
         other: Custom (%{count} windows)
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
-    column:
-      schedule: Schedule
-      status: Status
-    skip_reasons:
-      needs_configuration: Needs setup
-      hidden: Hidden
-      skipped: Skipped by plugin
-      schedule: Out of schedule
-      stale: Stale
     bulk_actions:
-      selected:
-        one: 1 selected
-        other: "%{count} selected"
       hide: Hide
       show: Show
       delete: Delete
-      cancel: Cancel
       destroy_confirm: Remove the selected items from this playlist?
       success:
         hide: Items hidden
@@ -834,8 +753,6 @@ en-AU:
         destroy: Items removed from playlist
       error: Bulk action failed
     time_travel_modal:
-      title: Time Travel
-      apply: Apply
       false: false
     smart_skip_modal:
       title: Smart Skip
@@ -846,9 +763,6 @@ en-AU:
       error: Playlist order could not be saved
     day_ahead:
       title: The day ahead
-      window: next 24 hours
-      open: Open the day ahead
-      toggle: Hide or show the day ahead
       times:
         one: once
         other: "%{count}×"
@@ -864,7 +778,6 @@ en-AU:
     index:
       title: Plugins
       tagline: What will you put on your TRMNL?
-      available: Available
       connected: Connected
       supported_by_this_device: Supported by this device
       recipes: Recipes
@@ -876,7 +789,6 @@ en-AU:
         title: My Plugins
         tagline: Develop Plugins for the public marketplace
       card:
-        connections: connections
         install: Install
         review_are_you_sure: Are you sure? The TRMNL team will test it and email you any questions.
         submit_for_review: Submit for Review
@@ -906,16 +818,11 @@ en-AU:
     edit:
       title: Edit Plugin
       tagline: Update your plugin details.
-      name: Name
-      description: Description
   plugin_recipes:
     connected: Recipe connected
     connections:
       one: Connection
       other: Connections
-    forks:
-      one: Fork
-      other: Forks
     forked: Recipe forked
     new:
       error: Recipe not found
@@ -923,18 +830,14 @@ en-AU:
       more_by_author: More by this Author
       view_all: View all
   plugin_settings:
-    active: Active
     copy_are_you_sure: Are you sure you want to copy this setting?
     delete_are_you_sure: Are you sure you want to delete this setting?
     delete: This will completely remove the plugin's settings. To simply hide this plugin from your device, delete it from your playlist instead.
-    inactive: Inactive
     no_matches_found: No plugins match your filters.
-    no_plugin_settings_found: No plugin settings found.
     not_supported: Not supported on current device
     refreshing_now_please_wait: Refreshing now, reload this page in a few seconds.
     reset_credentials: "%{plugin_name} account reset successfully"
     form:
-      active_hint: Show or hide this plugin instance on your device
       advanced_settings: Advanced Settings
       back_to_playlist: Back to Playlist
       back_to_plugin: Back to %{plugin}
@@ -956,15 +859,7 @@ en-AU:
       health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
       health_notifications_checkbox: Email me when this plugin becomes unhealthy
       learn_more: Learn about this plugin in our knowledge base
-      learn_more_fork: This plugin was forked from a Recipe.
-      learn_more_fork_original: See Original
-      learn_more_native_long: This plugin is native and maintained by TRMNL.
-      learn_more_native_short: This plugin is maintained by TRMNL.
       learn_more_recipe_author: Need help? Contact %{recipe_author} on Discord.
-      learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
-      learn_more_recipe_short: 'Note: this plugin is a Recipe.'
-      learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
-      learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       linked_account: Linked Account
       linked_account_success: Successfully linked with %{plugin_name}
       link_oauth: Link Account
@@ -986,7 +881,6 @@ en-AU:
       recipe_cta_body_published: Changes will be reflected on existing installs and future installs/forks.
       recipe_cta_body_in_review: This plugin has been submitted to our team. Stand by.
       recipe_cta_body_not_published: Submit this plugin for others to install. __Learn more__.
-      recipe_cta_confirm: Are you sure? Our team will review and get back to you within a couple days. You may continue making changes.
       recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: How would you like to publish?
       recipe_visibility_edit_title: Edit Submission
@@ -997,8 +891,6 @@ en-AU:
       recipe_visibility_unlisted: Unlisted
       recipe_visibility_unlisted_hint: Anyone with the link can install.
       refresh_rate: Refresh rate
-      refresh_rate_hint: Define how frequently this plugin instance fetches fresh data
-      refresh_rate_jit_hint: This plugin automatically refreshes on-demand. Learn more __here__.
       refresh_rate_not_configurable: Syncs %{refresh_rate} (not configurable)
       refreshed: Refreshed
       remove_plugin: Remove plugin
@@ -1055,10 +947,8 @@ en-AU:
       search_placeholder: 'Search eg: Comic'
   schedules:
     form:
-      add: Add a custom schedule
       append: And during…
       no_schedule: This screen will be shown at all times.
-      some_schedule: Only show this screen during…
       to: to
       copy_prompt: Copy schedule from…
       no_days_error: Please select at least one day.
@@ -1084,11 +974,6 @@ en-AU:
       day_events:
         one: "%{day}: 1 event"
         other: "%{day}: %{count} events"
-      time: Time (UTC)
-      event: Event
-      screen: Screen
-      device: Device
-      detail: What happened
     link:
       title: Activity
       device_hint: When this device checked in, what it scheduled, and which screens it received.
@@ -1617,7 +1502,6 @@ en-AU:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
-      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

@@ -12,7 +12,6 @@ raw:
   back: back
   back_to_all_blog_posts: back_to_all_blog_posts
   blog: blog
-  brand: brand
   buy_now: buy_now
   cancel: cancel
   change_password: change_password
@@ -26,15 +25,11 @@ raw:
   copy: copy
   copied_to_clipboard: copied_to_clipboard
   copy_to_clipboard: copy_to_clipboard
-  created: created
   create_an_account: create_an_account
   current_device: current_device
-  days: days
   delete: delete
   developers: developers
   developer_edition_required: developer_edition_required
-  device_id: device_id
-  device: device
   discard: discard
   edit: edit
   email_address: email_address
@@ -45,7 +40,6 @@ raw:
   forgot_password_title: forgot_password_title
   friendly_id: friendly_id
   get_started: get_started
-  hidden: hidden
   identify: identify
   import: import
   import_new: import_new
@@ -59,32 +53,23 @@ raw:
   log_out: log_out
   manage: manage
   minimum_characters: minimum_characters
-  mins: mins
-  my_playlist: my_playlist
   new_password: new_password
   password: password
-  please_wait: please_wait
   plugin_not_found: plugin_not_found
   preview: preview
-  privacy: privacy
-  refresh_rate: refresh_rate
   refresh_rates_hint: refresh_rates_hint __here__.
   reset_password: reset_password
   reset_to_defaults: reset_to_defaults
   required: required
   save: save
-  shown: shown
   section: section
   settings: settings
   sign_in: sign_in
   sign_up: sign_up
   something_went_wrong: something_went_wrong
   status: status
-  subscribe: subscribe
   help_center: support
-  terms: terms
   unsaved_changes: unsaved_changes
-  update: update
   view: view
   collaboration_request: collaboration_request
   collaboration_request_hint: collaboration_request_hint
@@ -153,9 +138,6 @@ raw:
       refer_and_earn_hint: account.index.refer_and_earn_hint
       refer_and_earn_redemptions: account.index.refer_and_earn_redemptions
       refer_and_earn_request_code: account.index.refer_and_earn_request_code
-      device_invoice: account.index.device_invoice
-      device_invoice_label: account.index.device_invoice_label
-      device_invoice_hint: account.index.device_invoice_hint
       email_address_hint: account.index.email_address_hint
       first_name_hint: account.index.first_name_hint
       last_name_hint: account.index.last_name_hint
@@ -234,13 +216,7 @@ raw:
   dashboard:
     index:
       title: dashboard.index.title
-      last_7_days: dashboard.index.last_7_days
-      last_30_days: dashboard.index.last_30_days
-      last_90_days: dashboard.index.last_90_days
-      today: dashboard.index.today
-      yesterday: dashboard.index.yesterday
     health:
-      bad: dashboard.health.bad
       good: dashboard.health.good
       next_steps: dashboard.health.next_steps
     news:
@@ -257,15 +233,10 @@ raw:
       new_and_popular: dashboard.plugins.new_and_popular
     shop:
       title: dashboard.shop.title
-      need_another: dashboard.shop.need_another
     time_saved:
       title: dashboard.time_saved.title
-      cta: dashboard.time_saved.cta
     discover_callout:
       manage_persona: dashboard.discover_callout.manage_persona
-      dismiss: dashboard.discover_callout.dismiss
-    saved_discovery_setup:
-      manage_persona: dashboard.saved_discovery_setup.manage_persona
     welcome_message:
       morning_salutation: dashboard.welcome_message.morning_salutation
       afternoon_salutation: dashboard.welcome_message.afternoon_salutation
@@ -277,7 +248,6 @@ raw:
     edit:
       accepts_beta_firmware: devices.edit.accepts_beta_firmware
       accepts_beta_firmware_hint: devices.edit.accepts_beta_firmware_hint
-      back_to_devices: devices.edit.back_to_devices
       battery_and_sleep: devices.edit.battery_and_sleep
       battery_consumption: devices.edit.battery_consumption
       battery_consumption_hint: devices.edit.battery_consumption_hint
@@ -299,7 +269,6 @@ raw:
       device_model_switch_warning: devices.edit.device_model_switch_warning
       device_info: devices.edit.device_info
       current_firmware: devices.edit.current_firmware
-      last_ping: devices.edit.last_ping
       unknown: devices.edit.unknown
       never: devices.edit.never
       display_calibration: devices.edit.display_calibration
@@ -345,7 +314,6 @@ raw:
       ota_byod_not_supported: devices.edit.ota_byod_not_supported
       maximum_compatibility: devices.edit.maximum_compatibility
       maximum_compatibility_hint: devices.edit.maximum_compatibility_hint
-      color_and_rotation: devices.edit.color_and_rotation
       image_rotation: devices.edit.image_rotation
       screen_rotation: devices.edit.screen_rotation
       screen_rotation_not_supported: devices.edit.screen_rotation_not_supported
@@ -367,9 +335,7 @@ raw:
       tidbyt_credentials: devices.edit.tidbyt_credentials
       tidbyt_credentials_hint: devices.edit.tidbyt_credentials_hint
       tidbyt_api_key: devices.edit.tidbyt_api_key
-      tidbyt_credentials_invalid: devices.edit.tidbyt_credentials_invalid
       tidbyt_device_id: devices.edit.tidbyt_device_id
-      tidbyt_device_api_key: devices.edit.tidbyt_device_api_key
       unlink: devices.edit.unlink
       unlink_confirm: devices.edit.unlink_confirm
       unlink_device: devices.edit.unlink_device
@@ -377,7 +343,6 @@ raw:
       unlink_device_learn_more: devices.edit.unlink_device_learn_more
       visibility: devices.edit.visibility
       visibility_hint: devices.edit.visibility_hint
-      your_device: devices.edit.your_device
       upgrade_og:
         title: devices.edit.upgrade_og.title
         sub_title: devices.edit.upgrade_og.sub_title
@@ -414,9 +379,6 @@ raw:
       waits_for_next_render_hint: devices.edit.waits_for_next_render_hint
       battery_advice:
         title: devices.edit.battery_advice.title
-        wakes_per_day:
-          one: devices.edit.battery_advice.wakes_per_day.one
-          other: devices.edit.battery_advice.wakes_per_day.other
         days_per_charge:
           one: devices.edit.battery_advice.days_per_charge.one
           other: devices.edit.battery_advice.days_per_charge.other
@@ -490,7 +452,6 @@ raw:
     index:
       title: devices.index.title
       tagline: devices.index.tagline
-      add_device_modal_title: devices.index.add_device_modal_title
       add_first_device: devices.index.add_first_device
       go_to_settings: devices.index.go_to_settings
       clear_playlist: devices.index.clear_playlist
@@ -516,9 +477,6 @@ raw:
     dissociate:
       error: devices.dissociate.error
       success: devices.dissociate.success
-    external_credentials:
-      error: devices.external_credentials.error
-      success: devices.external_credentials.success
     identify:
       error: devices.identify.error
       success: devices.identify.success
@@ -557,16 +515,11 @@ raw:
         title: discovery.dashboard_action.setup.title
         subtext: discovery.dashboard_action.setup.subtext
         primary_label: discovery.dashboard_action.setup.primary_label
-  invoices:
-    rate_limit: invoices.rate_limit
-    invoice_not_found: invoices.invoice_not_found
   logs:
     index:
       title: logs.index.title
       all: logs.index.all
-      bulk_destroy: logs.index.bulk_destroy
       dump: logs.index.dump
-      id: logs.index.id
       private_plugins: logs.index.private_plugins
       source: logs.index.source
       time: logs.index.time
@@ -601,9 +554,6 @@ raw:
       live_preview: markups.form.live_preview
       no_changes_to_save: markups.form.no_changes_to_save
       pop_out_preview: markups.form.pop_out_preview
-      quickstart_examples: markups.form.quickstart_examples
-      quickstart_example_applied: markups.form.quickstart_example_applied
-      quickstart_use_this_example: markups.form.quickstart_use_this_example
       revert: markups.form.revert
       revert_confirm: markups.form.revert_confirm
       save_changes: markups.form.save_changes
@@ -667,9 +617,6 @@ raw:
       workspace_ready: markups.visual_editor.workspace_ready
       zoom_in: markups.visual_editor.zoom_in
       zoom_out: markups.visual_editor.zoom_out
-  notices:
-    dismiss:
-      discover_callout: notices.dismiss.discover_callout
   mfa:
     disable_otp:
       success: mfa.disable_otp.success
@@ -695,21 +642,12 @@ raw:
   playlist_items:
     index:
       title: playlists.index.title
-      tagline: playlists.index.tagline
-      add_a_group: playlists.index.add_a_group
-      add_a_plugin: playlists.index.add_a_plugin
       add_first_device_cta: playlists.index.add_first_device_cta
       add_to_playlist: playlists.index.add_to_playlist
-      create_first_playlist_cta: playlists.index.create_first_playlist_cta
       custom: playlists.index.custom
       device_default: playlists.index.device_default
-      display_period_from: playlists.index.display_period_from
-      display_period_to: playlists.index.display_period_to
       display_period_validation: playlists.index.display_period_validation
-      every: playlists.index.every
       never_skip: playlist_items.index.never_skip
-      smart_playlist: playlist_items.index.smart_playlist
-      smart_playlist_hint: playlist_items.index.smart_playlist_hint
       skip_after:
         one: playlist_items.index.skip_after.one
         other: playlist_items.index.skip_after.other
@@ -747,9 +685,6 @@ raw:
       duplicate: playlist_items.playlist_item.duplicate
       duplicate_confirm: playlist_items.playlist_item.duplicate_confirm
       presentation: playlist_items.playlist_item.presentation
-      color_palette: playlist_items.playlist_item.color_palette
-      device_default: playlist_items.playlist_item.device_default
-      palette_unavailable: playlist_items.playlist_item.palette_unavailable
       refresh_rate_disabled:
         default: playlist_items.playlist_item.refresh_rate_disabled.default
         external: playlist_items.playlist_item.refresh_rate_disabled.external
@@ -766,7 +701,6 @@ raw:
       render_overdue: playlist_items.playlist_item.render_overdue
       no_next_render: playlist_items.playlist_item.no_next_render
     create:
-      error: playlists.create.error
       success: playlists.create.success
     destroy:
       error: playlists.destroy.error
@@ -779,8 +713,6 @@ raw:
       success: playlists.sort.success
     set_preferences:
       success: playlist_items.set_preferences.success
-    update:
-      success: playlists.update.success
     refresh:
       success: playlist_items.refresh.success
       placeholder: playlist_items.refresh.placeholder
@@ -811,23 +743,10 @@ raw:
         other: playlist_items.schedule.custom.other
       important_title: playlist_items.schedule.important_title
       important_description: playlist_items.schedule.important_description
-    column:
-      schedule: playlist_items.column.schedule
-      status: playlist_items.column.status
-    skip_reasons:
-      needs_configuration: playlist_items.skip_reasons.needs_configuration
-      hidden: playlist_items.skip_reasons.hidden
-      skipped: playlist_items.skip_reasons.skipped
-      schedule: playlist_items.skip_reasons.schedule
-      stale: playlist_items.skip_reasons.stale
     bulk_actions:
-      selected:
-        one: playlist_items.bulk_actions.selected.one
-        other: playlist_items.bulk_actions.selected.other
       hide: playlist_items.bulk_actions.hide
       show: playlist_items.bulk_actions.show
       delete: playlist_items.bulk_actions.delete
-      cancel: playlist_items.bulk_actions.cancel
       destroy_confirm: playlist_items.bulk_actions.destroy_confirm
       success:
         hide: playlist_items.bulk_actions.success.hide
@@ -835,8 +754,6 @@ raw:
         destroy: playlist_items.bulk_actions.success.destroy
       error: playlist_items.bulk_actions.error
     time_travel_modal:
-      title: playlist_items.time_travel_modal.title
-      apply: playlist_items.time_travel_modal.apply
       false: playlist_items.time_travel_modal.false
     smart_skip_modal:
       title: playlist_items.smart_skip_modal.title
@@ -847,9 +764,6 @@ raw:
       error: playlist_items.update_full_playlist_order.error
     day_ahead:
       title: playlist_items.day_ahead.title
-      window: playlist_items.day_ahead.window
-      open: playlist_items.day_ahead.open
-      toggle: playlist_items.day_ahead.toggle
       times:
         one: playlist_items.day_ahead.times.one
         other: playlist_items.day_ahead.times.other
@@ -865,7 +779,6 @@ raw:
     index:
       title: plugins.index.title
       tagline: plugins.index.tagline
-      available: plugins.index.available
       connected: plugins.index.connected
       supported_by_this_device: plugins.index.supported_by_this_device
       recipes: recipes
@@ -877,7 +790,6 @@ raw:
         title: plugins.my.title
         tagline: plugins.my.tagline
       card:
-        connections: plugins.my.connections
         install: plugins.my.install
         review_are_you_sure: plugins.my.review_are_you_sure
         submit_for_review: plugins.my.submit_for_review
@@ -907,16 +819,11 @@ raw:
     edit:
       title: plugins.edit.title
       tagline: plugins.edit.tagline
-      name: plugins.edit.name
-      description: plugins.edit.description
   plugin_recipes:
     connected: plugin_recipes.connected
     connections:
       one: plugin_recipes.connections.one
       other: plugin_recipes.connections.many
-    forks:
-      one: plugin_recipes.forks.one
-      other: plugin_recipes.forks.many
     forked: plugin_recipes.forked
     new:
       error: plugin_recipes.new.error
@@ -924,18 +831,14 @@ raw:
       more_by_author: plugin_recipes.show.more_by_author
       view_all: plugin_recipes.show.view_all
   plugin_settings:
-    active: plugin_settings.active
     copy_are_you_sure: plugin_settings.copy_are_you_sure
     delete_are_you_sure: plugin_settings.delete_are_you_sure
     delete: plugin_settings.delete
-    inactive: plugin_settings.inactive
     no_matches_found: plugin_settings.no_matches_found
-    no_plugin_settings_found: plugin_settings.no_plugin_settings_found
     not_supported: plugin_settings.not_supported
     refreshing_now_please_wait: plugin_settings.refreshing_now_please_wait
     reset_credentials: plugin_settings.reset_credentials
     form:
-      active_hint: plugin_settings.form.active_hint
       advanced_settings: plugin_settings.form.advanced_settings
       back_to_playlist: Back to Playlist
       back_to_plugin: plugin_settings.form.back_to_plugin
@@ -957,15 +860,7 @@ raw:
       health_notifications_hint: plugin_settings.form.health_notifications_hint
       health_notifications_checkbox: plugin_settings.form.health_notifications_checkbox
       learn_more: plugin_settings.form.learn_more
-      learn_more_fork: plugin_settings.form.learn_more_fork
-      learn_more_fork_original: plugin_settings.form.learn_more_fork_original
-      learn_more_native_long: plugin_settings.form.learn_more_native_long
-      learn_more_native_short: plugin_settings.form.learn_more_native_short
       learn_more_recipe_author: plugin_settings.form.learn_more_recipe_author
-      learn_more_recipe_long: plugin_settings.form.learn_more_recipe_long
-      learn_more_recipe_short: plugin_settings.form.learn_more_recipe_short
-      learn_more_third_party_long: plugin_settings.form.learn_more_third_party_long
-      learn_more_third_party_short: plugin_settings.form.learn_more_third_party_short
       linked_account: plugin_settings.form.linked_account
       linked_account_success: plugin_settings.form.linked_account_success
       link_oauth: plugin_settings.form.link_oauth
@@ -987,7 +882,6 @@ raw:
       recipe_cta_body_published: plugin_settings.form.recipe_cta_body_published
       recipe_cta_body_in_review: plugin_settings.form.recipe_cta_body_in_review
       recipe_cta_body_not_published: plugin_settings.form.recipe_cta_body_not_published
-      recipe_cta_confirm: plugin_settings.form.recipe_cta_confirm
       recipe_mirrored: This screen is mirrored from the recipe.
       recipe_visibility_title: plugin_settings.form.recipe_visibility_title
       recipe_visibility_edit_title: plugin_settings.form.recipe_visibility_edit_title
@@ -998,8 +892,6 @@ raw:
       recipe_visibility_unlisted: plugin_settings.form.recipe_visibility_unlisted
       recipe_visibility_unlisted_hint: plugin_settings.form.recipe_visibility_unlisted_hint
       refresh_rate: plugin_settings.form.refresh_rate
-      refresh_rate_hint: plugin_settings.form.refresh_rate_hint
-      refresh_rate_jit_hint: plugin_settings.form.refresh_rate_jit_hint
       refresh_rate_not_configurable: plugin_settings.form.refresh_rate_not_configurable
       refreshed: plugin_settings.form.refreshed
       remove_plugin: plugin_settings.form.remove_plugin
@@ -1056,10 +948,8 @@ raw:
       search_placeholder: recipes.index.search_placeholder
   schedules:
     form:
-      add: schedules.form.add
       append: schedules.form.append
       no_schedule: schedules.form.no_schedule
-      some_schedule: schedules.form.some_schedule
       to: schedules.form.to
       copy_prompt: schedules.form.copy_prompt
       no_days_error: schedules.form.no_days_error
@@ -1085,11 +975,6 @@ raw:
       day_events:
         one: activity_logs.index.day_events.one
         other: activity_logs.index.day_events.other
-      time: activity_logs.index.time
-      event: activity_logs.index.event
-      screen: activity_logs.index.screen
-      device: activity_logs.index.device
-      detail: activity_logs.index.detail
     link:
       title: activity_logs.link.title
       device_hint: activity_logs.link.device_hint
@@ -1616,7 +1501,6 @@ raw:
       add_to_playlist: mashups.mashup.add_to_playlist
     update:
       success: mashups.update.success
-      error: mashups.update.error
     render_section_error:
       error: mashups.render_section_error.error
   playlist_coverage:
