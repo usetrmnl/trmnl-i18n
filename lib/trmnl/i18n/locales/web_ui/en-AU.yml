@@ -492,6 +492,9 @@ en-AU:
     update:
       error: Error updating device
       success: "%{device} device settings updated successfully"
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
   discovery:
     dashboard_action:
       saved:
@@ -701,6 +704,7 @@ en-AU:
       no_next_render: No render before then, %{reason}
     create:
       success: Playlist updated
+      error: Failed to update Playlist
     destroy:
       error: Error removing item from playlist
       success: Plugin removed from playlist
@@ -774,6 +778,8 @@ en-AU:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: Plugins
@@ -1513,6 +1519,7 @@ en-AU:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

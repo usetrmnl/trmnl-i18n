@@ -495,6 +495,9 @@ id:
     update:
       error: Terjadi kesalahan saat memperbarui perangkat
       success: Pengaturan perangkat %{device} berhasil diperbarui
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
   discovery:
     dashboard_action:
       saved:
@@ -704,6 +707,7 @@ id:
       no_next_render: No render before then, %{reason}
     create:
       success: Daftar putar berhasil diperbarui
+      error: Gagal memperbarui daftar putar
     destroy:
       error: Terjadi kesalahan saat menghapus item dari daftar putar
       success: Plugin berhasil dihapus dari Daftar Putar
@@ -777,6 +781,8 @@ id:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Urutan daftar putar berhasil diperbarui
   plugins:
     index:
       title: Plugin
@@ -1516,6 +1522,7 @@ id:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

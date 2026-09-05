@@ -492,6 +492,9 @@ cs:
     update:
       error: Chyba při aktualizaci zařízení
       success: Nastavení zařízení %{device} byla úspěšně aktualizována
+    external_credentials:
+      error: Neplatné přihlašovací údaje zařízení
+      success: Přihlašovací údaje zařízení úspěšně aktualizovány
   discovery:
     dashboard_action:
       saved:
@@ -701,6 +704,7 @@ cs:
       no_next_render: No render before then, %{reason}
     create:
       success: Playlist aktualizován
+      error: Aktualizace playlistu se nezdařila
     destroy:
       error: Chyba při odebrání položky z playlistu
       success: Plugin odebrán z playlistu
@@ -774,6 +778,8 @@ cs:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Pořadí playlistu aktualizováno
   plugins:
     index:
       title: Pluginy
@@ -1513,6 +1519,7 @@ cs:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

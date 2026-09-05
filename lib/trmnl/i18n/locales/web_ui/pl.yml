@@ -515,6 +515,9 @@ pl:
     update:
       error: Błąd podczas aktualizacji urządzenia
       success: Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane
+    external_credentials:
+      error: Niepoprawne poświadczenia urządzenia
+      success: Poświadczenia urządzenia zostały pomyślnie zaktualizowane
   discovery:
     dashboard_action:
       saved:
@@ -724,6 +727,7 @@ pl:
       no_next_render: No render before then, %{reason}
     create:
       success: Playlista zaktualizowana
+      error: Aktualizacja playlisty nie powiodła się
     destroy:
       error: Usunięcie elementu z playlisty nie powiodło się
       success: Plugin został usunięty z playlisty
@@ -797,6 +801,8 @@ pl:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Zaktualizowano kolejność odtwarzania
   plugins:
     index:
       title: Pluginy
@@ -1536,6 +1542,7 @@ pl:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

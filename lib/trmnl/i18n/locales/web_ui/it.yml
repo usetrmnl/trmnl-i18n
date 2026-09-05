@@ -493,6 +493,9 @@ it:
     update:
       error: Errore nell'aggiornamento del dispositivo
       success: "%{device} impostazioni dispositivo aggiornate con successo"
+    external_credentials:
+      error: Credenziali dispositivo invalide
+      success: Credenziali dispositivo aggiornate correttamente
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ it:
       no_next_render: No render before then, %{reason}
     create:
       success: Playlist aggiornata
+      error: Aggiornamento Playlist fallito
     destroy:
       error: Errore nella rimozione dell'elemento dalla Playlist
       success: Plugin rimosso dalla Playlist
@@ -775,6 +779,8 @@ it:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Ordinamento Playlist aggiornato
   plugins:
     index:
       title: Plugin
@@ -1514,6 +1520,7 @@ it:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

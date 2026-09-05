@@ -515,6 +515,9 @@ ru:
     update:
       error: Ошибка обновления устройства
       success: Настройки устройства "%{device}" успешно обновлены
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
   discovery:
     dashboard_action:
       saved:
@@ -724,6 +727,7 @@ ru:
       no_next_render: No render before then, %{reason}
     create:
       success: Плейлист обновлен
+      error: Не удалось обновить плейлист
     destroy:
       error: Ошибка удаления элемента из плейлиста
       success: Плагин удален из плейлиста
@@ -797,6 +801,8 @@ ru:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: Плагины
@@ -1536,6 +1542,7 @@ ru:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

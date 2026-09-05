@@ -493,6 +493,9 @@ raw:
     update:
       error: devices.update.error
       success: devices.update.success
+    external_credentials:
+      error: devices.external_credentials.error
+      success: devices.external_credentials.success
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ raw:
       no_next_render: playlist_items.playlist_item.no_next_render
     create:
       success: playlists.create.success
+      error: playlists.create.error
     destroy:
       error: playlists.destroy.error
       success: playlists.destroy.success
@@ -775,6 +779,8 @@ raw:
       window_hours: playlist_items.day_ahead.window_hours
       window_label: playlist_items.day_ahead.window_label
       window_option: playlist_items.day_ahead.window_option
+    update:
+      success: playlists.update.success
   plugins:
     index:
       title: plugins.index.title
@@ -1512,6 +1518,7 @@ raw:
       add_to_playlist: mashups.mashup.add_to_playlist
     update:
       success: mashups.update.success
+      error: mashups.update.error
     render_section_error:
       error: mashups.render_section_error.error
   playlist_coverage:

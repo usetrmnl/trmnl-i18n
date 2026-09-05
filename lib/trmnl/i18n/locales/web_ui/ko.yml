@@ -493,6 +493,9 @@ ko:
     update:
       error: 기기 업데이트 오류
       success: "%{device} 기기 설정을 업데이트했어요"
+    external_credentials:
+      error: 기기 인증 정보가 올바르지 않아요
+      success: 기기 인증 정보를 업데이트했어요
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ ko:
       no_next_render: No render before then, %{reason}
     create:
       success: 플레이리스트를 업데이트했어요
+      error: 플레이리스트 업데이트 실패
     destroy:
       error: 플레이리스트 항목 삭제 오류
       success: 플러그인을 플레이리스트에서 삭제했어요
@@ -775,6 +779,8 @@ ko:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: 플레이리스트 순서를 업데이트했어요
   plugins:
     index:
       title: 플러그인
@@ -1514,6 +1520,7 @@ ko:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

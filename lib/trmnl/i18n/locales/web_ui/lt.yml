@@ -493,6 +493,9 @@ lt:
     update:
       error: Klaida atnaujinant įrenginį
       success: "%{device} įrenginio nustatymai sėkmingai atnaujinti"
+    external_credentials:
+      error: Neteisingi įrenginio kredencialai
+      success: Įrenginio kredencialai sėkmingai atnaujinti
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ lt:
       no_next_render: No render before then, %{reason}
     create:
       success: Grojaraštis atnaujintas
+      error: Nepavyko atnaujinti grojaraščio
     destroy:
       error: Klaida šalinant elementą iš grojaraščio
       success: Įskiepis pašalintas iš grojaraščio
@@ -775,6 +779,8 @@ lt:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Grojaraščio tvarka atnaujinta
   plugins:
     index:
       title: Įskiepiai
@@ -1514,6 +1520,7 @@ lt:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

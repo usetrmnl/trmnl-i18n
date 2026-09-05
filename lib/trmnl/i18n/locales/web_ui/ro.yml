@@ -493,6 +493,9 @@ ro:
     update:
       error: Eroare la actualizarea dispozitivului
       success: Setările dispozitivului %{device} actualizate cu succes
+    external_credentials:
+      error: Credențiale dispozitiv invalide
+      success: Credențiale dispozitiv actualizate cu succes
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ ro:
       no_next_render: No render before then, %{reason}
     create:
       success: Listă de redare actualizată
+      error: Actualizarea listei de redare a eșuat
     destroy:
       error: Eroare la eliminarea elementului din listă
       success: Plugin eliminat din lista de redare
@@ -775,6 +779,8 @@ ro:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Ordinea listei actualizată
   plugins:
     index:
       title: Plugin-uri
@@ -1514,6 +1520,7 @@ ro:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

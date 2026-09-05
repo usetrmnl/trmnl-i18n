@@ -493,6 +493,9 @@ is:
     update:
       error: Villa við að uppfæra tæki
       success: Stillingar tækis %{device} uppfærðar
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ is:
       no_next_render: No render before then, %{reason}
     create:
       success: Spilunarlisti uppfærður
+      error: Gat ekki uppfært spilunarlista
     destroy:
       error: Villa við að fjarlægja atriði úr spilunarlista
       success: Viðbót fjarlægð úr spilunarlista
@@ -775,6 +779,8 @@ is:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: Viðbætur
@@ -1514,6 +1520,7 @@ is:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

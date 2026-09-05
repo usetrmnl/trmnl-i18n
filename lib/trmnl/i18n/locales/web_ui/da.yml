@@ -493,6 +493,9 @@ da:
     update:
       error: Fejl ved opdatering af enhed
       success: "%{device} enhedsindstillinger opdateret med succes"
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ da:
       no_next_render: No render before then, %{reason}
     create:
       success: Playliste opdateret
+      error: Fejl ved opdatering af playliste
     destroy:
       error: Fejl ved fjernelse af element fra playliste
       success: Plugin fjernet fra playliste
@@ -775,6 +779,8 @@ da:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Playlistens rækkefølge opdateret
   plugins:
     index:
       title: Plugins
@@ -1514,6 +1520,7 @@ da:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:
