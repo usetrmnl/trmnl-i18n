@@ -515,6 +515,9 @@ uk:
     update:
       error: Помилка оновлення пристрою
       success: Налаштування пристрою %{device} успішно оновлено
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
   discovery:
     dashboard_action:
       saved:
@@ -724,6 +727,7 @@ uk:
       no_next_render: No render before then, %{reason}
     create:
       success: Плейлист оновлено
+      error: Не вдалося оновити плейлист
     destroy:
       error: Помилка видалення елементу з плейлиста
       success: Плагін видалено з плейлиста
@@ -797,6 +801,8 @@ uk:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Порядок елементів оновлено
   plugins:
     index:
       title: Плагіни
@@ -1536,6 +1542,7 @@ uk:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

@@ -493,6 +493,9 @@ hu:
     update:
       error: Hiba az eszköz frissítésekor
       success: "%{device} eszközbeállításai sikeresen frissítve"
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ hu:
       no_next_render: No render before then, %{reason}
     create:
       success: Lejátszási lista frissítve
+      error: Hiba történt a lejátszási lista frissítésekor
     destroy:
       error: Hiba történt az elem eltávolításakor a lejátszási listáról
       success: A bővítmény eltávolítva a lejátszási listáról
@@ -775,6 +779,8 @@ hu:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: Bővítmények
@@ -1514,6 +1520,7 @@ hu:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

@@ -528,6 +528,9 @@ zh-CN:
     update:
       error: 设备更新错误
       success: "“%{device} 更新成功”"
+    external_credentials:
+      error: 无效的设备凭据
+      success: 设备凭据更新成功
   discovery:
     dashboard_action:
       saved:
@@ -737,6 +740,7 @@ zh-CN:
       no_next_render: No render before then, %{reason}
     create:
       success: 播放列表创建成功
+      error: 创建播放列表错误
     destroy:
       error: 删除播放列表错误
       success: 播放列表删除成功
@@ -810,6 +814,8 @@ zh-CN:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: 播放列表更新成功
   plugins:
     index:
       title: 插件
@@ -1549,6 +1555,7 @@ zh-CN:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

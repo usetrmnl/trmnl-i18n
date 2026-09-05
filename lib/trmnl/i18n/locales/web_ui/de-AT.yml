@@ -492,6 +492,9 @@ de-AT:
     update:
       error: Fehler beim Aktualisieren des Gerätes
       success: Einstellungen von %{device} erfolgreich aktualisiert
+    external_credentials:
+      error: Ungültige Gerätezugangsdaten
+      success: Gerätezugangsdaten erfolgreich aktualisiert
   discovery:
     dashboard_action:
       saved:
@@ -701,6 +704,7 @@ de-AT:
       no_next_render: No render before then, %{reason}
     create:
       success: Wiedergabeliste aktualisiert
+      error: Fehler beim Aktualisieren der Wiedergabeliste
     destroy:
       error: Fehler beim Entfernen von der Wiedergabeliste
       success: Erweiterung von der Wiedergabeliste entfernt
@@ -774,6 +778,8 @@ de-AT:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Wiedergabereihenfolge aktualisiert
   plugins:
     index:
       title: Erweiterungen
@@ -1513,6 +1519,7 @@ de-AT:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

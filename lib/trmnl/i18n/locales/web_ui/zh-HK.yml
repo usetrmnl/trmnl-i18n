@@ -493,6 +493,9 @@ zh-HK:
     update:
       error: 更新裝置時發生錯誤
       success: 成功更新「%{device}」的裝置設定
+    external_credentials:
+      error: 裝置憑證無效
+      success: 成功更新裝置憑證
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ zh-HK:
       no_next_render: No render before then, %{reason}
     create:
       success: 已更新播放清單
+      error: 更新播放清單時發生錯誤
     destroy:
       error: 從播放清單移除項目時發生錯誤
       success: 已從播放清單移除外掛
@@ -775,6 +779,8 @@ zh-HK:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: Playlist order updated
   plugins:
     index:
       title: 外掛功能
@@ -1514,6 +1520,7 @@ zh-HK:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:

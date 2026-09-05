@@ -493,6 +493,9 @@ ja:
     update:
       error: デバイス更新エラー
       success: "%{device}デバイスの設定が正常に更新されました"
+    external_credentials:
+      error: Invalid device credentials
+      success: Device credentials updated successfully
   discovery:
     dashboard_action:
       saved:
@@ -702,6 +705,7 @@ ja:
       no_next_render: No render before then, %{reason}
     create:
       success: プレイリストが更新されました
+      error: プレイリストの更新に失敗しました
     destroy:
       error: プレイリスト内のプラグイン削除エラー
       success: プラグインがプレイリストから削除されました。
@@ -775,6 +779,8 @@ ja:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+    update:
+      success: 新しいプレイリストの順序が更新されました
   plugins:
     index:
       title: プラグイン管理
@@ -1514,6 +1520,7 @@ ja:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
+      error: Every section needs a plugin — pick one for each and save again.
     render_section_error:
       error: That section could not be rendered — try again.
   playlist_coverage:
