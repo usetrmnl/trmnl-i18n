@@ -429,6 +429,10 @@ raw:
           enable_wait: devices.edit.battery_advice.suggestions.enable_wait
           match_plugin_interval: devices.edit.battery_advice.suggestions.match_plugin_interval
           enable_sleep_mode: devices.edit.battery_advice.suggestions.enable_sleep_mode
+        wakes_per_day_measured:
+          one: devices.edit.battery_advice.wakes_per_day_measured.one
+          other: devices.edit.battery_advice.wakes_per_day_measured.other
+        stale: devices.edit.battery_advice.stale
       check_in_preview:
         next_check_in: devices.edit.check_in_preview.next_check_in
         next_check_in_unknown: devices.edit.check_in_preview.next_check_in_unknown
@@ -475,6 +479,9 @@ raw:
           feature_off: devices.edit.check_in_preview.reasons.feature_off
           no_render_scheduled: devices.edit.check_in_preview.reasons.no_render_scheduled
           render_running: devices.edit.check_in_preview.reasons.render_running
+          schedule_boundary: devices.edit.check_in_preview.reasons.schedule_boundary
+          sibling_render: devices.edit.check_in_preview.reasons.sibling_render
+      battery_estimate: devices.edit.battery_estimate
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -850,6 +857,9 @@ raw:
       asleep_segment: playlist_items.day_ahead.asleep_segment
       nothing_segment: playlist_items.day_ahead.nothing_segment
       segment: playlist_items.day_ahead.segment
+      window_hours: playlist_items.day_ahead.window_hours
+      window_label: playlist_items.day_ahead.window_label
+      window_option: playlist_items.day_ahead.window_option
   plugins:
     index:
       title: plugins.index.title
@@ -1040,6 +1050,7 @@ raw:
       most_popular: recipes.index.most_popular
       install: recipes.index.install
       fork: recipes.index.fork
+      search_placeholder: recipes.index.search_placeholder
   schedules:
     form:
       add: schedules.form.add
@@ -1670,6 +1681,13 @@ raw:
     impersonator:
       managing: shared.impersonator.managing
       back_to_my_account: shared.impersonator.back_to_my_account
+    search_bar:
+      min_characters: shared.search_bar.min_characters
+      sort_by: shared.search_bar.sort_by
+      plugin_catalog_placeholder: shared.search_bar.plugin_catalog_placeholder
+    search_summary:
+      found: shared.search_summary.found
+      none: shared.search_summary.none
   account_invitations:
     show:
       title: account_invitations.show.title
@@ -1702,3 +1720,10 @@ raw:
       body: user_mailer.account_invitation.body
       accept: user_mailer.account_invitation.accept
       expiry: user_mailer.account_invitation.expiry
+  pages:
+    flash_firmware:
+      linux_warning: pages.flash_firmware.linux_warning
+      serial_failure:
+        guide_link: pages.flash_firmware.serial_failure.guide_link
+        port_unavailable: pages.flash_firmware.serial_failure.port_unavailable
+        reset_refused: pages.flash_firmware.serial_failure.reset_refused
