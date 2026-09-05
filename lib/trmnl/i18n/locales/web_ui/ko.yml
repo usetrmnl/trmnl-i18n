@@ -909,6 +909,8 @@ ko:
       refresh_paused_merge: Refreshing via Plugin Merge
       refresh_paused_merge_hint: Auto-refresh is paused because this plugin is hidden. Its data is kept fresh by %{names} via Plugin Merge.
       clear_state: Clear Saved State
+      virtual_device_short_heading: Virtual device? Click below to generate screens.
+      virtual_device_long_heading: Virtual device? Use this to generate screens on demand.
     import:
       archive_too_large: ZIP 파일이 너무 커요 (최대 %{max_mb} MB)
       missing_entry: ZIP 파일에 %{filename}이(가) 없어요
@@ -935,6 +937,9 @@ ko:
     state_cleared: Saved state cleared. The next refresh starts from scratch.
     index:
       no_plugin_settings_found: You have not set up this plugin yet.
+    health_status_banner:
+      short_heading: Plugin analytics
+      long_heading: Monitor plugin analytics and health across installs
   referral_code:
     create:
       request_received: 요청을 받았어요. 이메일을 확인해주세요
