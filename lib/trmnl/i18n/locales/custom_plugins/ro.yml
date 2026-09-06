@@ -96,6 +96,44 @@ ro:
         - Cocoș
         - Câine
         - Porc
+        zodiac_animals:
+        - Rat
+        - Ox
+        - Tiger
+        - Rabbit
+        - Dragon
+        - Snake
+        - Horse
+        - Goat
+        - Monkey
+        - Rooster
+        - Dog
+        - Pig
+        solar_terms:
+        - Minor Cold
+        - Major Cold
+        - Start of Spring
+        - Rain Water
+        - Awakening of Insects
+        - Spring Equinox
+        - Pure Brightness
+        - Grain Rain
+        - Start of Summer
+        - Grain Buds
+        - Grain in Ear
+        - Summer Solstice
+        - Minor Heat
+        - Major Heat
+        - Start of Autumn
+        - End of Heat
+        - White Dew
+        - Autumn Equinox
+        - Cold Dew
+        - Frost's Descent
+        - Start of Winter
+        - Minor Snow
+        - Major Snow
+        - Winter Solstice
       japanese:
         rokuyo_terms:
         - 先勝
@@ -213,3 +251,4 @@ ro:
       today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
       next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
       no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
+    sun_chart: Sun Chart

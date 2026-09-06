@@ -251,3 +251,4 @@ zh-HK:
       today_only: "{#mainLabel}今日是{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
       next_only: ".input {$nextDays :number} .match $nextDays 1 {{ {#mainLabel}明日是{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }} 2 {{ {#mainLabel}後日是{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }} * {{ {#mainValue}{$nextName}{/mainValue}{#br/}{#mainLabel}還有 {/mainLabel}{#mainValue}{$nextDays}{/mainValue}{#mainLabel} 日{/mainLabel} }}"
       no_holidays: "{#subLabel}已添加的假期已全部結束。{/subLabel}"
+    sun_chart: Sun Chart
