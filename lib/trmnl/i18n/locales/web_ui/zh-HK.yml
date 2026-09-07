@@ -1058,6 +1058,11 @@ zh-HK:
       dead_session: the browser session ended mid-render
       command_timeout: the browser stopped responding
       unhandled_error: unexpected error
+      batch_deadline_passed: the batch ran out of time before this screen started
+      mashup_member_refreshed: refreshed as part of a mashup
+      no_appearances_to_render: no screen sizes left to render
+      no_render_slot: no render slot was free before the deadline
+      render_lock_held: another render for this plugin was already running
     serve_statuses:
       served: Screen sent to device
       alias: Alias image sent to device
