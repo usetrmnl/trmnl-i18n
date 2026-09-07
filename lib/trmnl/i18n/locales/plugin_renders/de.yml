@@ -72,7 +72,7 @@ de:
         connection_failed: Verbindung zur Netatmo-Station fehlgeschlagen. Bitte überprüfe deine Internetverbindung.
         data_retrieval_failed: Wetterdaten konnten nicht abgerufen werden. Bitte später erneut versuchen.
         session_expired: Sitzung abgelaufen. Bitte verbinde dein Netatmo-Konto erneut in den Einstellungen.
-        indoor_module_missing: Selected indoor module not found. Please reconfigure in settings.
+        indoor_module_missing: Ausgewähltes Innenmodul nicht gefunden. Bitte in den Einstellungen neu konfigurieren.
     parcel:
       delivery_by: Lieferung bis
       empty: Es gibt keine Lieferungen
@@ -283,20 +283,20 @@ de:
           day: Gewitter mit Schnee
           night: Gewitter mit Schnee
     place_of_the_day:
-      title: Place of the Day
+      title: Ort des Tages
       wikipedia_credit: Wikipedia CC BY-SA
-      type: Type
-      population: Population
-      coordinates: Coordinates
-      founded: Founded
-      elevation: Elevation
-      area: Area
-      local_time: Local time
-      year_bc: "%{count} BC"
+      type: Typ
+      population: Einwohnerzahl
+      coordinates: Koordinaten
+      founded: Gegründet
+      elevation: Höhe
+      area: Fläche
+      local_time: Ortszeit
+      year_bc: "%{count} v. Chr."
       metres: "%{count} m"
       square_km: "%{count} km²"
-      city: City
-      wonder: Wonder
+      city: Stadt
+      wonder: Wunder
     welcome:
       title: Willkommen
       greeting: Hallo, %{name}

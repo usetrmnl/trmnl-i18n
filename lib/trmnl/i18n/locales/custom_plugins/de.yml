@@ -229,7 +229,7 @@ de:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} Verbindung}} * {{{$value :number} Verbindungen}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Keine Installationen}} one {{{$value :number} Installation}} * {{{$value :number} Installationen}}"
       and_more: und {$value :number} weitere
       error_keyword_title: Kein Ergebnis für “{$keyword}”.
       error_keyword_subtitle: Versuche es mit einem anderen Suchbegriff.
@@ -246,9 +246,9 @@ de:
     language_learning_sentences:
       from_to: "{$from :langName} bis {$to :langNameList}"
     custom_next_holiday:
-      next_holiday: Next holiday
-      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
-      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
-      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
-      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
-    sun_chart: Sun Chart
+      next_holiday: Nächster Feiertag
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Heute ist{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Morgen ist {$nextName}.{/subLabel} }}* {{ {#mainLabel}Heute ist{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Der nächste Feiertag ist {$nextName} in {$nextDays} Tagen.{/subLabel} }}"
+      today_only: "{#mainLabel}Heute ist{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Morgen ist{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} Tage bis{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      no_holidays: "{#subLabel}Ende der hinzugefügten Feiertage.{/subLabel}"
+    sun_chart: Sonnendiagramm
