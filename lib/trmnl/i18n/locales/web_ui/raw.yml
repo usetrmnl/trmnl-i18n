@@ -1082,6 +1082,11 @@ raw:
               owner: activerecord.errors.models.account_membership.attributes.email.owner
             owner:
               admin: activerecord.errors.models.account_membership.attributes.owner.admin
+        github_sync:
+          attributes:
+            directory:
+              invalid_folder: activerecord.errors.models.github_sync.attributes.directory.invalid_folder
+              taken_by_another_plugin: activerecord.errors.models.github_sync.attributes.directory.taken_by_another_plugin
   apps:
     core:
       public:
@@ -1632,3 +1637,49 @@ raw:
         guide_link: pages.flash_firmware.serial_failure.guide_link
         port_unavailable: pages.flash_firmware.serial_failure.port_unavailable
         reset_refused: pages.flash_firmware.serial_failure.reset_refused
+  github_syncs:
+    alerts:
+      connection_failed: github_syncs.alerts.connection_failed
+      import_failed: github_syncs.alerts.import_failed
+      no_repository: github_syncs.alerts.no_repository
+      unsyncable: github_syncs.alerts.unsyncable
+      unverified_installation: github_syncs.alerts.unverified_installation
+    card:
+      at_commit_html: github_syncs.card.at_commit_html
+      disconnect: github_syncs.card.disconnect
+      disconnect_confirm: github_syncs.card.disconnect_confirm
+      drifted: github_syncs.card.drifted
+      import: github_syncs.card.import
+      learn_more: github_syncs.card.learn_more
+      overwrite_warning: github_syncs.card.overwrite_warning
+      pitch: github_syncs.card.pitch
+      reconnect: github_syncs.card.reconnect
+      stopped: github_syncs.card.stopped
+      synced_to_html: github_syncs.card.synced_to_html
+      title_connected: github_syncs.card.title_connected
+      title_disconnected: github_syncs.card.title_disconnected
+      view_diff: github_syncs.card.view_diff
+    errors:
+      commit_rejected: github_syncs.errors.commit_rejected
+      retries_exhausted: github_syncs.errors.retries_exhausted
+    lander:
+      report_issue: github_syncs.lander.report_issue
+      view_on_github: github_syncs.lander.view_on_github
+    notices:
+      connected: github_syncs.notices.connected
+      disconnected: github_syncs.notices.disconnected
+      imported: github_syncs.notices.imported
+    setup:
+      after_create: github_syncs.setup.after_create
+      connect_different: github_syncs.setup.connect_different
+      create_repository: github_syncs.setup.create_repository
+      folder_hint_html: github_syncs.setup.folder_hint_html
+      folder_label: github_syncs.setup.folder_label
+      folder_optional: github_syncs.setup.folder_optional
+      heading: github_syncs.setup.heading
+      need_repository: github_syncs.setup.need_repository
+      page_title: github_syncs.setup.page_title
+      repository_label: github_syncs.setup.repository_label
+      repository_placeholder: github_syncs.setup.repository_placeholder
+      submit: github_syncs.setup.submit
+      wrong_account: github_syncs.setup.wrong_account

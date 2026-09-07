@@ -1082,6 +1082,11 @@ is:
               owner: is the account owner's own address
             owner:
               admin: is an admin login and cannot be shared
+        github_sync:
+          attributes:
+            directory:
+              invalid_folder: must be a folder path like plugins/clock
+              taken_by_another_plugin: is already synced to another plugin in this repository
   apps:
     core:
       public:
@@ -1634,3 +1639,49 @@ is:
         guide_link: See the flashing mode guide
         port_unavailable: Couldn't open the serial port. Your USB-C cable may only be able to charge, or your device isn't in flashing mode.
         reset_refused: Your device didn't enter flashing mode, so the reset failed. Repeat Step 3 and try again.
+  github_syncs:
+    alerts:
+      connection_failed: 'GitHub connection failed: %{detail}'
+      import_failed: Import failed.
+      no_repository: Pick a repository to connect.
+      unsyncable: GitHub sync is only available for private plugins you own outright.
+      unverified_installation: 'GitHub connection failed: could not verify the app installation belongs to you. Please reconnect.'
+    card:
+      at_commit_html: at %{commit}
+      disconnect: Disconnect
+      disconnect_confirm: Disconnect this repository? The repo and its history stay on GitHub.
+      drifted: GitHub has newer changes
+      import: Import from GitHub
+      learn_more: Learn more
+      overwrite_warning: Saving here overwrites them.
+      pitch: Connect a repo and every save becomes a commit.
+      reconnect: Reconnect
+      stopped: 'Sync stopped: %{message}'
+      synced_to_html: Synced to %{repository}
+      title_connected: GitHub sync
+      title_disconnected: Sync to GitHub?
+      view_diff: view diff
+    errors:
+      commit_rejected: GitHub rejected the commit (%{detail}). Reconnect to retry.
+      retries_exhausted: GitHub kept rejecting the commit (%{detail}). Reconnect to retry.
+    lander:
+      report_issue: Report an issue
+      view_on_github: View on GitHub
+    notices:
+      connected: Connected to %{repository}. First commit is on its way.
+      disconnected: GitHub sync disconnected.
+      imported: Imported the latest changes from GitHub.
+    setup:
+      after_create: then reload this page to pick it. If your installation covers only select repositories, add the new repo in GitHub settings first.
+      connect_different: Connect a different one
+      create_repository: Create one on GitHub
+      folder_hint_html: Leave this blank when the repository holds one plugin. Name a folder to keep several plugins in one repository — this plugin then writes to <code>&lt;folder&gt;/src/</code>, and <code>trmnlp serve</code> works from inside the folder.
+      folder_label: Folder in the repository
+      folder_optional: "(optional)"
+      heading: Connect "%{plugin}" to GitHub
+      need_repository: Need a repository?
+      page_title: Connect GitHub
+      repository_label: Choose a repository
+      repository_placeholder: Please select...
+      submit: Connect
+      wrong_account: Wrong account?
