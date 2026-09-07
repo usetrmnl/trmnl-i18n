@@ -1058,6 +1058,11 @@ raw:
       dead_session: activity_logs.render_reasons.dead_session
       command_timeout: activity_logs.render_reasons.command_timeout
       unhandled_error: activity_logs.render_reasons.unhandled_error
+      batch_deadline_passed: activity_logs.render_reasons.batch_deadline_passed
+      mashup_member_refreshed: activity_logs.render_reasons.mashup_member_refreshed
+      no_appearances_to_render: activity_logs.render_reasons.no_appearances_to_render
+      no_render_slot: activity_logs.render_reasons.no_render_slot
+      render_lock_held: activity_logs.render_reasons.render_lock_held
     serve_statuses:
       served: activity_logs.serve_statuses.served
       alias: activity_logs.serve_statuses.alias
