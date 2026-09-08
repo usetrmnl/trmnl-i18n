@@ -269,8 +269,11 @@ is:
       device_model_switch_warning: Þetta er hættuleg aðgerð, lestu meira __hér__
       device_info: Device Info
       current_firmware: Current firmware
+      pinned_firmware: Pinned firmware
       unknown: Unknown
       never: Never
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Display Calibration
       display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
       display_calibration_pixel_ratio: Pixel Ratio
@@ -343,6 +346,9 @@ is:
       unlink_device_learn_more: Fylgdu leiðbeiningum __hér__.
       visibility: Sýnileiki
       visibility_hint: Gera TRMNL tækið þitt speglanlegt með því að breyta stillingunum hér að neðan.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Uppfærsla í 2-bita skjá í boði
         sub_title: Tækið þitt getur verið uppfært til að styðja betri grátóna með 4 litastigum í stað 2.
@@ -452,6 +458,7 @@ is:
     index:
       title: Tæki
       tagline: TRMNL tækin þín
+      virtual: Virtual
       add_first_device: Byrjaðu á því að bæta við fyrsta tækinu þínu!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -657,6 +664,7 @@ is:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

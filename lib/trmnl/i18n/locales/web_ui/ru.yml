@@ -291,8 +291,11 @@ ru:
       device_model_switch_warning: Это опасная операция, узнайте больше __здесь__
       device_info: Device Info
       current_firmware: Current firmware
+      pinned_firmware: Pinned firmware
       unknown: Unknown
       never: Never
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Display Calibration
       display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
       display_calibration_pixel_ratio: Pixel Ratio
@@ -365,6 +368,9 @@ ru:
       unlink_device_learn_more: Следуйте полному руководству __здесь__.
       visibility: Видимость
       visibility_hint: Сделайте ваше устройство TRMNL зеркалируемым, изменив настройки ниже.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Доступно обновление для 2-битного дисплея
         sub_title: Ваше устройство можно обновить для поддержки улучшенного отображения в оттенках серого с 4 уровнями цвета вместо 2.
@@ -474,6 +480,7 @@ ru:
     index:
       title: Устройства
       tagline: Ваши устройства TRMNL
+      virtual: Virtual
       add_first_device: Начните с добавления вашего первого устройства!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -679,6 +686,7 @@ ru:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

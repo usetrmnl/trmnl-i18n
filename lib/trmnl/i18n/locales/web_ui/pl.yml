@@ -291,8 +291,11 @@ pl:
       device_model_switch_warning: Zmiana jest obarczona ryzykiem. Przeczytaj więcej __tutaj__
       device_info: Informacje o urządzeniu
       current_firmware: Obecny firmware
+      pinned_firmware: Pinned firmware
       unknown: Nieznane
       never: Nigdy
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Kalibracja wyświetlacza
       display_calibration_hint: Dostosuj renderowanie na swoim wyświetlaczu. Zostaw puste, aby użyć wartości domyślnych.
       display_calibration_pixel_ratio: Proporcja pikseli
@@ -365,6 +368,9 @@ pl:
       unlink_device_learn_more: Szczegółowe informacje znajdziesz __tutaj__.
       visibility: Widoczność
       visibility_hint: Przełączenie w tryb udostępniania umożliwi ustawienie urządzenia jako źródła kopii lustrzanej (mirror).
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Aktualizacja do 2-bitowego wyświetlacza dostępna
         sub_title: Twoje urządzenie może być zaktualizowane, aby być w stanie wyświetlać 4 odcienie szarości zamiast standardowych 2.
@@ -474,6 +480,7 @@ pl:
     index:
       title: Urządzenia
       tagline: Twoje urządzenia TRMNL
+      virtual: Virtual
       add_first_device: Zacznij, dodając swoje pierwsze urządzenie!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -679,6 +686,7 @@ pl:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

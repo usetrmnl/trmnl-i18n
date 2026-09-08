@@ -269,8 +269,11 @@ hu:
       device_model_switch_warning: Ez veszélyes művelet, tudj meg róla többet __itt__.
       device_info: Device Info
       current_firmware: Current firmware
+      pinned_firmware: Pinned firmware
       unknown: Unknown
       never: Never
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Display Calibration
       display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
       display_calibration_pixel_ratio: Pixel Ratio
@@ -343,6 +346,9 @@ hu:
       unlink_device_learn_more: Kövesd a teljes útmutatót __itt__.
       visibility: Láthatóság
       visibility_hint: Állítsd be, hogy a TRMNL eszközöd tükrözhető legyen az alábbi beállításokkal.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Elérhető 2-bites kijelző frissítés
         sub_title: Az eszközöd frissíthető, hogy 2 helyett 4 szürkeárnyalati szintet támogasson.
@@ -452,6 +458,7 @@ hu:
     index:
       title: Eszközök
       tagline: A te TRMNL eszközeid
+      virtual: Virtual
       add_first_device: Kezdd az első eszközöd hozzáadásával!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -657,6 +664,7 @@ hu:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

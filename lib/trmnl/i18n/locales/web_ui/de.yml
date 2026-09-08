@@ -269,8 +269,11 @@ de:
       device_model_switch_warning: Diese Aktion kann gefährlich sein, erfahre __hier__ mehr darüber
       device_info: Geräteinformationen
       current_firmware: Aktuelle Firmware
+      pinned_firmware: Pinned firmware
       unknown: Unbekannt
       never: Nie
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Bildschirmkalibrierung
       display_calibration_hint: Rendering deines Displays anpassen. Feld leer lassen, um die Standardwerte zu verwenden.
       display_calibration_pixel_ratio: Pixelverhältnis
@@ -343,6 +346,9 @@ de:
       unlink_device_learn_more: __Hier__ gibt es die vollständige Anleitung dazu.
       visibility: Sichtbarkeit
       visibility_hint: Macht das TRMNL öffentlich sichtbar.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Upgrade auf 2-bit-Anzeige verfügbar
         sub_title: Dein Gerät kann ein Upgrade erhalten und damit eine verbesserte Graustufendarstellung mit 4 anstelle von 2 Farbwerten unterstützen.
@@ -452,6 +458,7 @@ de:
     index:
       title: Geräte
       tagline: Deine TRMNL-Geräte
+      virtual: Virtual
       add_first_device: Beginne mit dem Hinzufügen deines ersten Gerätes!
       go_to_settings: Zu den Einstellungen
       clear_playlist: Wiedergabeliste leeren
@@ -656,6 +663,7 @@ de:
       add_plugin: Erweiterung hinzufügen
       select: Auswählen
       exit_select: Auswahlmodus verlassen
+      time_travel: Time Travel
       time_travel_now: Jetzt
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

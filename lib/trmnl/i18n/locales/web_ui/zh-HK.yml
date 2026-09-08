@@ -269,8 +269,11 @@ zh-HK:
       device_model_switch_warning: 這是危險操作，請__按此__了解更多。
       device_info: 裝置資訊
       current_firmware: 現時韌體版本
+      pinned_firmware: Pinned firmware
       unknown: 未知
       never: 從未
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: 螢幕校準
       display_calibration_hint: 為你的螢幕微調顯示設定，留空則使用型號預設值。
       display_calibration_pixel_ratio: 像素比例
@@ -343,6 +346,9 @@ zh-HK:
       unlink_device_learn_more: __按此__查看完整指南。
       visibility: 共享狀態
       visibility_hint: 調整下方設定使你的TRMNL裝置可被鏡像共享。
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: 可升級至 2-bit 顯示
         sub_title: 你的裝置可升級以支援增強的灰階顯示，從2個顏色級別升級至4個。
@@ -452,6 +458,7 @@ zh-HK:
     index:
       title: 裝置
       tagline: 你的TRMNL裝置
+      virtual: Virtual
       add_first_device: 請先新增你的第一部裝置！
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -657,6 +664,7 @@ zh-HK:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

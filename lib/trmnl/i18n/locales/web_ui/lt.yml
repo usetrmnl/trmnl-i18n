@@ -269,8 +269,11 @@ lt:
       device_model_switch_warning: Tai pavojingas veiksmas, sužinokite daugiau __čia__.
       device_info: Įrenginio informacija
       current_firmware: Dabartinė programinė įranga
+      pinned_firmware: Pinned firmware
       unknown: Nežinoma
       never: Niekada
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Ekrano kalibravimas
       display_calibration_hint: Tiksliai sureguliuokite atvaizdavimą savo ekranui. Palikite tuščią, kad naudotumėte numatytuosius modelio nustatymus.
       display_calibration_pixel_ratio: Pikselių santykis
@@ -343,6 +346,9 @@ lt:
       unlink_device_learn_more: Sekite pilną gidą __čia__.
       visibility: Matomumas
       visibility_hint: Padarykite savo TRMNL įrenginį atspindimą pakeisdami žemiau esančius nustatymus.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Galimas atnaujinimas į 2-bitų ekraną
         sub_title: Jūsų įrenginį galima atnaujinti, kad jis palaikytų patobulintą pilkų atspalvių ekraną su 4 spalvų lygiais vietoj 2.
@@ -452,6 +458,7 @@ lt:
     index:
       title: Įrenginiai
       tagline: Jūsų TRMNL įrenginiai
+      virtual: Virtual
       add_first_device: Pradėkite pridėdami savo pirmąjį įrenginį!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -657,6 +664,7 @@ lt:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

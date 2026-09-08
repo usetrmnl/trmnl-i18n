@@ -269,8 +269,11 @@ cs:
       device_model_switch_warning: Toto je nebezpečná operace, dozvíte se více __zde__
       device_info: Informace o zařízení
       current_firmware: Aktuální firmware
+      pinned_firmware: Pinned firmware
       unknown: Neznámý
       never: Nikdy
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Kalibrace displeje
       display_calibration_hint: Dolaďte vykreslování pro váš displej. Ponechte prázdné pro použití výchozích hodnot modelu.
       display_calibration_pixel_ratio: Poměr pixelů
@@ -343,6 +346,9 @@ cs:
       unlink_device_learn_more: Postupujte podle kompletního průvodce __zde__.
       visibility: Viditelnost
       visibility_hint: Změňte nastavení níže, aby bylo vaše zařízení TRMNL zrcadlitelné.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: K dispozici je upgrade na 2bitový displej
         sub_title: Vaše zařízení lze upgradovat na podporu vylepšených stupňů šedi se 4 úrovněmi barev namísto 2.
@@ -452,6 +458,7 @@ cs:
     index:
       title: Zařízení
       tagline: Vaše zařízení TRMNL
+      virtual: Virtual
       add_first_device: Začněte přidáním svého prvního zařízení!
       go_to_settings: Přejít do nastavení
       clear_playlist: Vyprázdnit playlist
@@ -656,6 +663,7 @@ cs:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

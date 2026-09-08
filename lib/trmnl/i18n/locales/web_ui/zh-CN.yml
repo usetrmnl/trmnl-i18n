@@ -304,8 +304,11 @@ zh-CN:
       device_model_switch_warning: 这是一个危险操作，__了解详情__。
       device_info: 设备信息
       current_firmware: 当前固件
+      pinned_firmware: Pinned firmware
       unknown: 未知
       never: 从未
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: 显示校准
       display_calibration_hint: 微调显示效果。留空以使用型号默认值。
       display_calibration_pixel_ratio: 像素比
@@ -378,6 +381,9 @@ zh-CN:
       unlink_device_learn_more: __点击此处__阅读完整说明。
       visibility: 隐藏
       visibility_hint: 让 TRMNL 设备显示镜像播放列表
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: 可升级至 2 位显示
         sub_title: 您的设备可升级至增强型灰度显示，支持从 2 级色彩升级至 4 级。
@@ -487,6 +493,7 @@ zh-CN:
     index:
       title: 设备列表
       tagline: 您的 TRMNL 设备
+      virtual: Virtual
       add_first_device: 添加您的第一个 TRMNL 设备！
       go_to_settings: 前往设置
       clear_playlist: 清空播放列表
@@ -692,6 +699,7 @@ zh-CN:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

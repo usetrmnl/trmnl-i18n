@@ -269,8 +269,11 @@ ro:
       device_model_switch_warning: Aceasta este o operațiune periculoasă, află mai mult __aici__
       device_info: Informații dispozitiv
       current_firmware: Firmware curent
+      pinned_firmware: Pinned firmware
       unknown: Necunoscut
       never: Niciodată
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Calibrare afișaj
       display_calibration_hint: Ajustează fin randarea pentru afișajul tău. Lasă gol pentru a folosi valorile implicite ale modelului.
       display_calibration_pixel_ratio: Raport pixeli
@@ -343,6 +346,9 @@ ro:
       unlink_device_learn_more: Urmează ghidul complet __aici__.
       visibility: Vizibilitate
       visibility_hint: Fă dispozitivul tău TRMNL oglindicibil schimbând setările de mai jos.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Upgrade la afișaj 2-bit disponibil
         sub_title: Dispozitivul tău poate fi actualizat pentru a suporta un afișaj îmbunătățit în nuanțe de gri cu 4 niveluri de culoare în loc de 2.
@@ -452,6 +458,7 @@ ro:
     index:
       title: Dispozitive
       tagline: Dispozitivele tale TRMNL
+      virtual: Virtual
       add_first_device: Începe prin a adăuga primul tău dispozitiv!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -657,6 +664,7 @@ ro:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
