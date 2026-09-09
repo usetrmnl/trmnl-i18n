@@ -1,0 +1,254 @@
+---
+sl:
+  custom_plugins:
+    today: danes
+    tomorrow: jutri
+    updated: Posodobljeno
+    activity: Dejavnost
+    done: Končano
+    due: Zapadlo
+    deutsche_bahn_departures:
+      departures: Odhodi
+      time: Čas
+      line: Linija
+      destination: Cilj
+      platform: Tir
+      delay: Zamuda
+      train: Vlak
+      on_time: Točen
+      cancelled: Odpovedan
+      minutes: min
+      refreshed: Osveženo
+    simple_calendar:
+      title: Koledar
+      ym_format: "%B %Y"
+      chinese_korean:
+        leap_format: Prestopni %{month_label}
+        leap_format_short: PM%{alt_month}
+        ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
+        month_labels:
+        -
+        - M1
+        - M2
+        - M3
+        - M4
+        - M5
+        - M6
+        - M7
+        - M8
+        - M9
+        - M10
+        - M11
+        - M12
+        date_labels:
+        -
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+        - '14'
+        - '15'
+        - '16'
+        - '17'
+        - '18'
+        - '19'
+        - '20'
+        - '21'
+        - '22'
+        - '23'
+        - '24'
+        - '25'
+        - '26'
+        - '27'
+        - '28'
+        - '29'
+        - '30'
+        heavenly_stems:
+        - Les
+        - Les
+        - Ogenj
+        - Ogenj
+        - Zemlja
+        - Zemlja
+        - Kovina
+        - Kovina
+        - Voda
+        - Voda
+        earthly_branches:
+        - Podgana
+        - Vol
+        - Tiger
+        - Zajec
+        - Zmaj
+        - Kača
+        - Konj
+        - Koza
+        - Opica
+        - Petelin
+        - Pes
+        - Prašič
+        zodiac_animals:
+        - Podgana
+        - Vol
+        - Tiger
+        - Zajec
+        - Zmaj
+        - Kača
+        - Konj
+        - Koza
+        - Opica
+        - Petelin
+        - Pes
+        - Prašič
+        solar_terms:
+        - Rahel mraz
+        - Hud mraz
+        - Začetek pomladi
+        - Deževje
+        - Prebujenje žuželk
+        - Pomladno enakonočje
+        - Čista svetloba
+        - Žitni dež
+        - Začetek poletja
+        - Nabrekanje zrnja
+        - Klasenje žita
+        - Poletni solsticij
+        - Rahla vročina
+        - Huda vročina
+        - Začetek jeseni
+        - Konec vročine
+        - Bela rosa
+        - Jesensko enakonočje
+        - Hladna rosa
+        - Slana
+        - Začetek zime
+        - Rahel sneg
+        - Obilen sneg
+        - Zimski solsticij
+      japanese:
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 仏滅
+        - 大安
+        - 赤口
+        nengo:
+          reiwa: Reiwa
+        ym_format: "%B %Y (%{nengo} %{alt_year})"
+        year_1: '1'
+      hebrew:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        - Nisan
+        - Ijar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tišri
+        - Hešvan
+        - Kislev
+        - Tevet
+        - Švat
+        - Adar
+        - Adar I
+        - Adar II
+        month_labels_abbr:
+        - Nis
+        - Ija
+        - Siv
+        - Tam
+        - Av
+        - Elu
+        - Tiš
+        - Heš
+        - Kis
+        - Tev
+        - Švt
+        - Ada
+        - Ad1
+        - Ad2
+      hijri:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Muharem
+        - Safer
+        - Rabi I
+        - Rabi II
+        - Džumada I
+        - Džumada II
+        - Redžeb
+        - Šaban
+        - Ramadan
+        - Šaval
+        - Zu l-kaada
+        - Zu l-hidža
+      bengali:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Boišak
+        - Džoištho
+        - Ašard
+        - Šrabon
+        - Bhadro
+        - Ašvin
+        - Kartika
+        - Ogrohajon
+        - Poš
+        - Mag
+        - Falgun
+        - Čojtro
+      indian:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - Čajtra
+        - Vaišaka
+        - Džjaištha
+        - Ašadha
+        - Šravana
+        - Bhadra
+        - Ašvina
+        - Kartika
+        - Agrahajana
+        - Pauša
+        - Magha
+        - Phalguna
+    public_recipe_stats:
+      connections: ".input {$value :number} .match $value one {{{$value :number} povezava}} two {{{$value :number} povezavi}} few {{{$value :number} povezave}} * {{{$value :number} povezav}}"
+      forks: ".input {$value :number} .match $value one {{{$value :number} razvejitev}} two {{{$value :number} razvejitvi}} few {{{$value :number} razvejitve}} * {{{$value :number} razvejitev}}"
+      installs: ".input {$value :number} .match $value one {{{$value :number} namestitev}} two {{{$value :number} namestitvi}} few {{{$value :number} namestitve}} * {{{$value :number} namestitev}}"
+      and_more: in še {$value :number}
+      error_keyword_title: "»{$keyword}« ni ustrezal nobenemu rezultatu."
+      error_keyword_subtitle: Poskusite iskati kaj drugega.
+      error_new_title: Ni najdenega novega recepta.
+      error_new_subtitle: To se ne bi smelo zgoditi.
+      error_self_title: Niste objavili še nobenega recepta.
+      error_self_subtitle: Preverite, kako objaviti svojega prvega, na https://help.trmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Uporabnik #{$authorId} ni objavil nobenega recepta.'
+      error_author_id_subtitle: S tem ID-jem ni povezan noben recept.
+      error_recipe_ids_title: ID recepta ni najden.
+      error_recipe_ids_subtitle: Za začetek dodajte ID recepta.
+    horizontal_world_clock:
+      name: Svetovna ura
+    language_learning_sentences:
+      from_to: "{$from :langName} v {$to :langNameList}"
+    custom_next_holiday:
+      next_holiday: Naslednji praznik
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Danes je{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Jutri je {$nextName}.{/subLabel} }}* {{ {#mainLabel}Danes je{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Naslednji praznik je {$nextName} čez {$nextDays} dni.{/subLabel} }}"
+      today_only: "{#mainLabel}Danes je{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Jutri je{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} dni do{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      no_holidays: "{#subLabel}Konec dodanih praznikov.{/subLabel}"
+    sun_chart: Sončni diagram
