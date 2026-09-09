@@ -301,3 +301,25 @@ sv:
       title: Välkommen
       greeting: Hej, %{name}
       greeting_blank: Hej
+    homey:
+      'on': 'On'
+      'off': 'Off'
+      offline: Offline
+      all_offline: Every device is offline
+      all_offline_hint:
+        one: One device is unreachable
+        other: All %{count} devices are unreachable
+      batteries_healthy:
+        one: Battery
+        other: Batteries
+      batteries_low:
+        one: Needs a cell
+        other: Need a cell
+      no_batteries: No batteries to watch
+      no_batteries_hint: Nothing here reports a battery level
+      insights: Insights
+      no_chart: No chart
+      no_insights: No series pushed yet
+      no_insights_hint: A Homey app can push an Insights log to chart here
+      no_devices: Waiting for your first devices
+      no_devices_hint: They appear after the first push or cloud sync
