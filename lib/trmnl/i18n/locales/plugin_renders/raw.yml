@@ -301,3 +301,25 @@ raw:
       title: renders.welcome.title
       greeting: renders.welcome.greeting
       greeting_blank: renders.welcome.greeting_blank
+    homey:
+      'on': renders.homey.on
+      'off': renders.homey.off
+      offline: renders.homey.offline
+      all_offline: renders.homey.all_offline
+      all_offline_hint:
+        one: renders.homey.all_offline_hint.one
+        other: renders.homey.all_offline_hint.other
+      batteries_healthy:
+        one: renders.homey.batteries_healthy.one
+        other: renders.homey.batteries_healthy.other
+      batteries_low:
+        one: renders.homey.batteries_low.one
+        other: renders.homey.batteries_low.other
+      no_batteries: renders.homey.no_batteries
+      no_batteries_hint: renders.homey.no_batteries_hint
+      insights: renders.homey.insights
+      no_chart: renders.homey.no_chart
+      no_insights: renders.homey.no_insights
+      no_insights_hint: renders.homey.no_insights_hint
+      no_devices: renders.homey.no_devices
+      no_devices_hint: renders.homey.no_devices_hint
