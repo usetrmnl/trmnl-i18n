@@ -1093,6 +1093,12 @@ sl:
       dead_session: seja brskalnika se je končala sredi izrisa
       command_timeout: brskalnik se je nehal odzivati
       unhandled_error: nepričakovana napaka
+      batch_deadline_passed: čas serije je potekel, preden se je ta zaslon začel izrisovati
+      mashup_member_refreshed: osveženo kot del mešanice
+      no_appearances_to_render: ni več velikosti zaslona za izris
+      no_render_slot: pred rokom ni bilo prostega mesta za izris
+      render_lock_held: drug izris za ta vtičnik je že potekal
+      no_document_changed: brez sprememb na strani, ki jo izrisuje
     serve_statuses:
       served: Zaslon poslan napravi
       alias: Nadomestna slika poslana napravi
@@ -1117,6 +1123,11 @@ sl:
               owner: je naslov lastnika računa
             owner:
               admin: je skrbniška prijava in je ni mogoče deliti
+        github_sync:
+          attributes:
+            directory:
+              invalid_folder: mora biti pot do mape, npr. plugins/clock
+              taken_by_another_plugin: je že sinhronizirana z drugim vtičnikom v tem repozitoriju
   apps:
     core:
       public:
@@ -1687,3 +1698,49 @@ sl:
         guide_link: Oglejte si vodnik za način nalaganja
         port_unavailable: Serijskih vrat ni bilo mogoče odpreti. Vaš kabel USB-C morda omogoča le polnjenje, ali pa naprava ni v načinu nalaganja.
         reset_refused: Vaša naprava ni prešla v način nalaganja, zato ponastavitev ni uspela. Ponovite 3. korak in poskusite znova.
+  github_syncs:
+    alerts:
+      connection_failed: 'Povezava z GitHub-om ni uspela: %{detail}'
+      import_failed: Uvoz ni uspel.
+      no_repository: Izberite repozitorij za povezavo.
+      unsyncable: Sinhronizacija z GitHub-om je na voljo samo za zasebne vtičnike, ki jih imate v celoti v lasti.
+      unverified_installation: 'Povezava z GitHub-om ni uspela: ni bilo mogoče preveriti, da namestitev aplikacije pripada vam. Prosimo, znova se povežite.'
+    card:
+      at_commit_html: pri %{commit}
+      disconnect: Prekini povezavo
+      disconnect_confirm: Prekiniti povezavo s tem repozitorijem? Repozitorij in njegova zgodovina ostaneta na GitHubu.
+      drifted: GitHub ima novejše spremembe
+      import: Uvozi iz GitHub-a
+      learn_more: Preberi več
+      overwrite_warning: Shranjevanje tukaj jih prepiše.
+      pitch: Povežite repozitorij in vsako shranjevanje postane commit.
+      reconnect: Znova poveži
+      stopped: 'Sinhronizacija ustavljena: %{message}'
+      synced_to_html: Sinhronizirano z %{repository}
+      title_connected: Sinhronizacija z GitHub-om
+      title_disconnected: Sinhroniziraj z GitHub-om?
+      view_diff: prikaži razlike
+    errors:
+      commit_rejected: GitHub je zavrnil commit (%{detail}). Za ponovni poskus se znova povežite.
+      retries_exhausted: GitHub je večkrat zavrnil commit (%{detail}). Za ponovni poskus se znova povežite.
+    lander:
+      report_issue: Prijavi težavo
+      view_on_github: Prikaži na GitHub-u
+    notices:
+      connected: Povezano z %{repository}. Prvi commit je na poti.
+      disconnected: Sinhronizacija z GitHub-om prekinjena.
+      imported: Uvožene so bile najnovejše spremembe iz GitHub-a.
+    setup:
+      after_create: nato znova naložite to stran, da ga izberete. Če vaša namestitev pokriva samo izbrane repozitorije, najprej dodajte nov repozitorij v nastavitvah GitHub.
+      connect_different: Poveži drugega
+      create_repository: Ustvari na GitHub-u
+      folder_hint_html: Pustite prazno, če repozitorij vsebuje en vtičnik. Poimenujte mapo, da v enem repozitoriju hranite več vtičnikov — ta vtičnik nato piše v <code>&lt;mapa&gt;/src/</code>, ukaz <code>trmnlp serve</code> pa deluje iz te mape.
+      folder_label: Mapa v repozitoriju
+      folder_optional: "(neobvezno)"
+      heading: Poveži "%{plugin}" z GitHub-om
+      need_repository: Potrebujete repozitorij?
+      page_title: Poveži GitHub
+      repository_label: Izberite repozitorij
+      repository_placeholder: Prosimo, izberite...
+      submit: Poveži
+      wrong_account: Napačen račun?
