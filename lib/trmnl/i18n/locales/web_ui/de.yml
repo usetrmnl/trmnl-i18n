@@ -400,14 +400,14 @@ de:
         next_check_in_unknown: 'Nächster Check-in: unbekannt, bis es sich eingecheckt hat.'
         next_check_in_overdue: Check-in überfällig seit %{when}.
         why: Warum?
-        title: Wie dieses Gerät entscheidet, wann es eincheckt
+        title: The next %{hours} hours
         then_shows: Dann zeigt es %{item}.
         then_shows_nothing: Dann hat es nichts anzuzeigen.
         then_sleeps: Dann zeigt es den Schlaf-Bildschirm, bis der Schlafzeitraum endet.
         renders_at: "%{item} rendert als Nächstes %{when}."
         no_render_because: "%{item} hat keine Renderzeit, %{reason}."
         render_overdue: "%{item} hat seit %{when} ein überfälliges Rendering."
-        told: Es wird angewiesen, in %{when} erneut einzuchecken, %{reason}.
+        told: Checks in again in %{when}, %{reason}.
         timeline_title: Der bevorstehende Tag
         timeline_group:
           one: "%{item}: einmal, um %{at}"
@@ -424,25 +424,26 @@ de:
         rules: Seine Aktualisierungsrate, die eigene Dauer eines Wiedergabelisten-Eintrags, das Aktualisierungsintervall jeder Erweiterung, der Schlafmodus und das Warten auf das nächste Update bestimmen jeweils einen Teil davon.
         close: Schließen
         reasons:
-          waiting_for_render: weil das nächste Update der Erweiterung vorher noch nicht fällig ist
-          sleep_window: weil dann sein Schlafzeitraum beginnt
-          maximum_wait: weil zwei Stunden die längste Wartezeit eines Geräts sind
-          next_screen_change: weil dann das nächste Meeting des Raums beginnt oder endet
-          asleep: weil es sich in seinem Schlafzeitraum befindet
-          rotation: weil seine Wiedergabeliste mehr als einen Eintrag rotiert, sodass jeder Check-in den nächsten Eintrag zeigt
-          render_before_next_poll: weil das nächste Update der Erweiterung vorher eintrifft
-          nothing_served: weil seine Wiedergabeliste noch leer ist
-          wait_disabled: weil das Warten auf das nächste Update für dieses Gerät deaktiviert ist
-          setup_day: weil es vor weniger als einem Tag eingerichtet wurde
-          push_driven: weil sich seine Erweiterung aktualisiert, sobald Daten eintreffen, nicht nach Zeitplan
-          clock_driven: weil sich sein Bildschirm mit der Uhrzeit ändert und nicht mit einem Render
-          renders_elsewhere: weil seine Erweiterung von einem gemeinsamen Hauptgerät gerendert wird, nicht nach eigenem Zeitplan
+          waiting_for_render: once its plugin has updated
+          sleep_window: when its sleep window starts
+          maximum_wait: the longest a device waits
+          next_screen_change: when the room's next meeting starts or ends
+          asleep: when its sleep window ends
+          rotation: to show the next playlist item
+          render_before_next_poll: after its plugin's next update
+          nothing_served: because its playlist is empty
+          wait_disabled: because waiting for updates is off for this device
+          setup_day: during its first day
+          push_driven: because its plugin updates when data arrives
+          clock_driven: because its screen changes with the clock
+          renders_elsewhere: because a shared master renders its plugin
           scheduled: weil es nur innerhalb eines Zeitplan-Fensters angezeigt wird
-          feature_off: weil das Warten auf das nächste Update für alle deaktiviert ist
+          feature_off: because waiting for updates is off for everyone
           no_render_scheduled: weil für seine Erweiterung kein Rendering geplant ist
-          render_running: weil seine Erweiterung gerade rendert
-          schedule_boundary: weil sich dann ein Zeitplan-Fenster der Wiedergabeliste öffnet oder schließt
-          sibling_render: weil sich dann ein anderer Eintrag seiner Wiedergabeliste aktualisiert
+          render_running: because its plugin is rendering now
+          schedule_boundary: when a schedule window opens or closes
+          sibling_render: when another playlist item updates
+        longer_than_refresh_rate: Longer than its %{rate} refresh rate. Turn off "%{setting}" under %{section} to keep to the refresh rate.
       battery_estimate: 'Geschätzte Akkulaufzeit bei dieser Einstellung: %{days} Tage'
     discover_persona:
       label: Persona & Discover
@@ -778,6 +779,7 @@ de:
       window_hours: nächste %{count} Stunden
       window_label: Wie weit vorausgeschaut werden soll
       window_option: "%{count}h"
+      render_marker: Renders
     update:
       success: Wiedergabereihenfolge aktualisiert
   plugins:
@@ -943,6 +945,7 @@ de:
       connection_broken: Die OAuth-Verbindung wurde unterbrochen — stelle sie im OAuth-Bereich wieder her und lade diese Seite dann neu.
       unavailable: Optionen konnten nicht geladen werden — Details findest du in den Protokollen der Erweiterung.
       credentials_rejected: Those credentials were rejected — check them and reload this page.
+      no_homey: No Homey was found on this Athom account — add one in the Homey app, then reload this page.
     delete_mashup_warning:
       one: Diese Erweiterung füllt einen Mashup-Slot. Wird sie entfernt, bleibt dieser Slot leer.
       other: Diese Erweiterung füllt %{count} Mashup-Slots. Wird sie entfernt, bleiben diese Slots leer.
