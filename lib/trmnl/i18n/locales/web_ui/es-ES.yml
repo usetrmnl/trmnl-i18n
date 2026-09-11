@@ -400,14 +400,14 @@ es-ES:
         next_check_in_unknown: 'Next check-in: unknown until it has checked in.'
         next_check_in_overdue: Check-in overdue since %{when}.
         why: Why?
-        title: How this device decides when to check in
+        title: The next %{hours} hours
         then_shows: Then it shows %{item}.
         then_shows_nothing: Then it has nothing to show.
         then_sleeps: Then it shows the sleep screen until its sleep window ends.
         renders_at: "%{item} next renders %{when}."
         no_render_because: "%{item} has no render time, %{reason}."
         render_overdue: "%{item} has had a render overdue since %{when}."
-        told: It will be told to check in again in %{when}, %{reason}.
+        told: Checks in again in %{when}, %{reason}.
         timeline_title: The day ahead
         timeline_group:
           one: "%{item}: once, at %{at}"
@@ -424,25 +424,26 @@ es-ES:
         rules: Its refresh rate, a playlist item's own duration, each plugin's refresh interval, sleep mode and the wait for the next update each decide part of this.
         close: Close
         reasons:
-          waiting_for_render: because its plugin's next update is not due before then
-          sleep_window: because its sleep window starts then
-          maximum_wait: because two hours is the longest a device waits
-          next_screen_change: because the room's next meeting starts or ends then
-          asleep: because it is inside its sleep window
-          rotation: because its playlist rotates more than one item, so every check-in shows the next
-          render_before_next_poll: because its plugin's next update lands before then
-          nothing_served: because nothing is on its playlist yet
-          wait_disabled: because waiting for the next update is turned off for this device
-          setup_day: because it was set up less than a day ago
-          push_driven: because its plugin updates whenever data arrives, not on a schedule
-          clock_driven: because its screen changes with the clock rather than with a render
-          renders_elsewhere: because its plugin is rendered by a shared master, not on its own schedule
+          waiting_for_render: once its plugin has updated
+          sleep_window: when its sleep window starts
+          maximum_wait: the longest a device waits
+          next_screen_change: when the room's next meeting starts or ends
+          asleep: when its sleep window ends
+          rotation: to show the next playlist item
+          render_before_next_poll: after its plugin's next update
+          nothing_served: because its playlist is empty
+          wait_disabled: because waiting for updates is off for this device
+          setup_day: during its first day
+          push_driven: because its plugin updates when data arrives
+          clock_driven: because its screen changes with the clock
+          renders_elsewhere: because a shared master renders its plugin
           scheduled: because it only shows inside a schedule window
-          feature_off: because waiting for the next update is switched off for everyone
+          feature_off: because waiting for updates is off for everyone
           no_render_scheduled: because no render is scheduled for its plugin
-          render_running: because its plugin is rendering right now
-          schedule_boundary: because a schedule window on its playlist opens or closes then
-          sibling_render: because another item on its playlist updates then
+          render_running: because its plugin is rendering now
+          schedule_boundary: when a schedule window opens or closes
+          sibling_render: when another playlist item updates
+        longer_than_refresh_rate: Longer than its %{rate} refresh rate. Turn off "%{setting}" under %{section} to keep to the refresh rate.
       battery_estimate: 'Estimated battery life at this setting: %{days} days'
     discover_persona:
       label: Persona & Discover
@@ -779,6 +780,7 @@ es-ES:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+      render_marker: Renders
     update:
       success: Orden de la lista actualizado
   plugins:
@@ -944,6 +946,7 @@ es-ES:
       connection_broken: OAuth connection is broken — reconnect it in the OAuth section, then reload this page.
       unavailable: Options failed to load — check the plugin's logs for details.
       credentials_rejected: Those credentials were rejected — check them and reload this page.
+      no_homey: No Homey was found on this Athom account — add one in the Homey app, then reload this page.
     delete_mashup_warning:
       one: This plugin fills a mashup slot. Removing it leaves that slot empty.
       other: This plugin fills %{count} mashup slots. Removing it leaves those slots empty.
