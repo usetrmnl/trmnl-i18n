@@ -931,6 +931,25 @@ lt:
       learn_more_recipe_long: Šis įskiepis yra bendruomenės receptas ir jo neprižiūri TRMNL.
       learn_more_third_party_short: 'Pastaba: šis įskiepis yra sukurtas trečiosios šalies.'
       learn_more_third_party_long: Šis įskiepis yra trečiosios šalies ir jo neprižiūri TRMNL.
+      ai_features_default_on_markup_editor: The __agentic markup editor__ is now available to everyone.
+      ai_features_default_on_account_settings: Use it if it helps, or switch it off anytime in __Account Settings__.
+      description_hint: A short tagline for this plugin. Shown in search results if published as a recipe.
+      description_placeholder: Upcoming train departures
+      max_refresh_rate: Max refresh rate
+      max_refresh_rate_hint: Refreshes on-demand when your device checks in — no more often than the rate below. __Learn more__.
+      recipe_step_acknowledge: Acknowledge best practices
+      recipe_step_choose_visibility: Choose visibility
+      recipe_best_practices_acknowledgement: I've read and applied the plugin publishing __best practices__. A real human on the TRMNL team will thoughtfully review my submission and share detailed feedback.
+      recipe_licensing_note_label: Note
+      recipe_licensing_notice: Public plugins are subject to __Plugin Licensing__.
+      upload_image: Upload Image
+      upload_image_hint: Or upload directly from your browser.
+      upload_image_dropzone: Drag & drop, paste, or click to upload
+      upload_image_caption: PNG, JPEG, or WebP · max %{max_size}
+      upload_image_caption_for_device: PNG, JPEG, or WebP · max %{max_size} for device "%{device}"
+      webhook_url: Webhook URL
+      webhook_url_hint: POST raw image data (PNG, JPEG, or WebP) to this URL to update the display.
+      ai_features_default_on_html: The %{markup_editor_link} is now available to everyone. Use it if it helps, or switch it off anytime in %{account_settings_link}.
     import:
       archive_too_large: ZIP failas yra per didelis (maksimaliai %{max_mb} MB)
       missing_entry: ZIP faile nėra %{filename}
@@ -961,6 +980,32 @@ lt:
     health_status_banner:
       short_heading: Plugin analytics
       long_heading: Monitor plugin analytics and health across installs
+      degraded_short: This plugin is in a degraded state.
+      degraded_long: Plugin is in a degraded state. Please fix the issue to prevent refresh from stopping.
+      erroring_short: This plugin is currently experiencing an error.
+      erroring_long: Plugin experiencing an error. Please fix the issue to restart refresh.
+      reset_health: Reset Health
+    inactive_references_banner:
+      short: Referenced plugins not syncing.
+      long: 'This plugin references data from plugins that aren''t in any Playlist:'
+      hint: Add them as a hidden item to a Playlist or Mashup to ensure their data stays fresh.
+    uninstall_modal:
+      title: Uninstall plugin?
+      warning: This removes the plugin instance. Mind sharing why? It helps us improve TRMNL, but it's optional.
+      reason_label: Reason (optional)
+      reason_placeholder: Select a reason (optional)
+      detail_placeholder: Tell us more (optional)
+      cancel: Cancel
+      confirm: Uninstall
+    mcp_key:
+      title: MCP API Key
+      description: Use this key to connect AI agents (Claude Desktop, etc.) to manage this plugin's markup.
+      copy_title: Copy full key to clipboard
+      revoke: Revoke Key
+      revoke_confirm: Revoke this MCP key? Any connected agents will lose access.
+      client_config: MCP client config
+      client_config_hint_html: Add %{env_var} to your %{dotenv_file} file. Copy full key with the button above.
+      generate: Generate MCP Key
   referral_code:
     create:
       request_received: Užklausa gauta, patikrinkite savo pašto dėžutę
