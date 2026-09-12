@@ -175,7 +175,7 @@ de-AT:
       model_group_claude: Claude (Anthropic- oder OpenRouter-Schlüssel)
       model_group_other: Andere Modelle (OpenRouter-Schlüssel erforderlich)
       model_custom: Eigenes Modell...
-      model_custom_placeholder: e.g. meta-llama/llama-4-scout
+      model_custom_placeholder: z. B. meta-llama/llama-4-scout
       model_hint: Wähle eine Voreinstellung oder gib eine beliebige __OpenRouter-Modell-ID__ ein.
       openrouter_key: OpenRouter-API-Schlüssel
       openrouter_recommended: "(empfohlen)"
@@ -378,7 +378,7 @@ de-AT:
       text_scale: Textgröße
       text_scale_hint: Passe die Textgröße auf all deinen Erweiterungen an.
       text_scale_version_note: Erfordert Framework 3.1.5 oder höher. Private Erweiterungen, die auf eine ältere Version festgelegt sind, sind davon nicht betroffen.
-      theme: Theme
+      theme: Thema
       theme_hint: Wende ein Farbthema auf all deine Erweiterungen an.
       theme_version_note: Erfordert Framework 3.2 oder höher. Private Erweiterungen, die auf eine ältere Version festgelegt sind, sind davon nicht betroffen.
       waits_for_next_render: Auf das nächste Update warten
@@ -666,7 +666,7 @@ de-AT:
       time_travel: Zeitreise
       time_travel_now: Jetzt
       time_travel_at: "%{day} %{time}"
-      smart_skip: Smart Skip
+      smart_skip: Smartes Überspringen
       smart_skip_hint: Überspringt automatisch Bildschirme, deren Inhalt sich eine Weile nicht geändert hat.
       view: Ansicht
       list_density: Listendichte
@@ -968,7 +968,7 @@ de-AT:
       awaiting_connection: Verbinde dein Konto im OAuth-Bereich oben und lade diese Seite dann neu.
       connection_broken: Die OAuth-Verbindung wurde unterbrochen — stelle sie im OAuth-Bereich wieder her und lade diese Seite dann neu.
       unavailable: Optionen konnten nicht geladen werden — Details findest du in den Protokollen der Erweiterung.
-      credentials_rejected: Those credentials were rejected — check them and reload this page.
+      credentials_rejected: Diese Anmeldedaten wurden abgelehnt — überprüfe sie und lade diese Seite neu.
     delete_mashup_warning:
       one: Diese Erweiterung füllt einen Mashup-Slot. Wird sie entfernt, bleibt dieser Slot leer.
       other: Diese Erweiterung füllt %{count} Mashup-Slots. Wird sie entfernt, bleiben diese Slots leer.
@@ -1115,8 +1115,8 @@ de-AT:
       no_appearances_to_render: keine Bildschirmgrößen mehr zu rendern
       no_render_slot: kein Render-Slot war vor der Frist frei
       render_lock_held: ein anderes Render für dieses Plugin lief bereits
-      no_document_changed: no change in the page it renders
-      data_not_refetched: cached data reused, no fetch was due
+      no_document_changed: keine Änderung an der gerenderten Seite
+      data_not_refetched: zwischengespeicherte Daten wiederverwendet, kein Abruf fällig
     serve_statuses:
       served: Bildschirm an Gerät gesendet
       alias: Alias-Bild an Gerät gesendet
@@ -1247,7 +1247,7 @@ de-AT:
           sync_errors: Sync-Fehler
           toggle_values:
             disabled: Aus
-            enabled: 'On'
+            enabled: 'Ein'
           unmapped_devices: Geräte, die noch nichts anzeigen
           virtual_device: Virtuell
       calendars:
@@ -1480,10 +1480,10 @@ de-AT:
             am: AM
             pm: PM
           ordinal_suffixes:
-            default: th
-            one: st
-            two: nd
-            few: rd
+            default: "."
+            one: "."
+            two: "."
+            few: "."
           weekdays:
           - Sonntag
           - Montag
