@@ -269,8 +269,11 @@ raw:
       device_model_switch_warning: devices.edit.device_model_switch_warning
       device_info: devices.edit.device_info
       current_firmware: devices.edit.current_firmware
+      pinned_firmware: devices.edit.pinned_firmware
       unknown: devices.edit.unknown
       never: devices.edit.never
+      last_ping: devices.edit.last_ping
+      wifi_band: devices.edit.wifi_band
       display_calibration: devices.edit.display_calibration
       display_calibration_hint: devices.edit.display_calibration_hint
       display_calibration_pixel_ratio: devices.edit.display_calibration_pixel_ratio
@@ -343,6 +346,9 @@ raw:
       unlink_device_learn_more: devices.edit.unlink_device_learn_more
       visibility: devices.edit.visibility
       visibility_hint: devices.edit.visibility_hint
+      visibility_options:
+        standalone: devices.edit.visibility_options.standalone
+        sharable: devices.edit.visibility_options.sharable
       upgrade_og:
         title: devices.edit.upgrade_og.title
         sub_title: devices.edit.upgrade_og.sub_title
@@ -452,6 +458,7 @@ raw:
     index:
       title: devices.index.title
       tagline: devices.index.tagline
+      virtual: devices.index.virtual
       add_first_device: devices.index.add_first_device
       go_to_settings: devices.index.go_to_settings
       clear_playlist: devices.index.clear_playlist
@@ -657,6 +664,7 @@ raw:
       add_plugin: playlist_items.index.add_plugin
       select: playlist_items.index.select
       exit_select: playlist_items.index.exit_select
+      time_travel: playlist_items.index.time_travel
       time_travel_now: playlist_items.index.time_travel_now
       time_travel_at: playlist_items.index.time_travel_at
       smart_skip: playlist_items.index.smart_skip

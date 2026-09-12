@@ -291,8 +291,11 @@ uk:
       device_model_switch_warning: This is a dangerous operation, learn more __here__
       device_info: Device Info
       current_firmware: Current firmware
+      pinned_firmware: Pinned firmware
       unknown: Unknown
       never: Never
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Display Calibration
       display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
       display_calibration_pixel_ratio: Pixel Ratio
@@ -365,6 +368,9 @@ uk:
       unlink_device_learn_more: Follow the full guide __here__.
       visibility: Спільний доступ
       visibility_hint: Зробіть ваш пристрій TRMNL доступним для віддзеркалення, змінивши налаштування нижче.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Upgrade to 2-bit Display Available
         sub_title: Your device can be upgraded to support enhanced grayscale display with 4 color levels instead of 2.
@@ -474,6 +480,7 @@ uk:
     index:
       title: Пристрої
       tagline: Ваші пристрої TRMNL
+      virtual: Virtual
       add_first_device: Почніть, додавши свій перший пристрій!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -679,6 +686,7 @@ uk:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

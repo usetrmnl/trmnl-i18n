@@ -269,8 +269,11 @@ it:
       device_model_switch_warning: Questa è un operazione pericolosa, scopri di più __qui__
       device_info: Informazioni Dispositivo
       current_firmware: Current firmware
+      pinned_firmware: Pinned firmware
       unknown: Unknown
       never: Mai
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Calibrazione Schermo
       display_calibration_hint: Personalizza il rendering del tuo schermo. Lascia vuoto per usare le impostazioni default del tuo modello.
       display_calibration_pixel_ratio: Pixel Ratio
@@ -343,6 +346,9 @@ it:
       unlink_device_learn_more: Segui la guida completa __qui__.
       visibility: Visibilità
       visibility_hint: Permetti la duplicazione di questo dispositivo TRMNL modificando le impostazioni seguenti.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Aggiornamento per display a 2-bit disponibile
         sub_title: Il tuo dispositivo può essere aggiornato per suportare una migliorata visualizzazione di grigi a quattro liveli al posto di 2.
@@ -452,6 +458,7 @@ it:
     index:
       title: Dispositivi
       tagline: I tuoi dispositivi TRMNL
+      virtual: Virtual
       add_first_device: Inizia aggiungendo il tuo primo dispositivo!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -657,6 +664,7 @@ it:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

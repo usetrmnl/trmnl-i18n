@@ -269,8 +269,11 @@ nl:
       device_model_switch_warning: Dit is een gevaarlijke actie, lees __hier__ meer
       device_info: Device Info
       current_firmware: Current firmware
+      pinned_firmware: Pinned firmware
       unknown: Unknown
       never: Never
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Display Calibration
       display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
       display_calibration_pixel_ratio: Pixel Ratio
@@ -343,6 +346,9 @@ nl:
       unlink_device_learn_more: Volg __hier__ de volledige handleiding.
       visibility: Vindbaarheid
       visibility_hint: Maak jouw TRMNL apparaat spiegelbaar door onderstaande instelling aan te passen.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Upgrade naar 2-bit scherm beschikbaar
         sub_title: Jouw device kan geupgrade worden om uitgebreide grijswaarden te ondersteunen, met 4 kleurniveau's ipv 2.
@@ -452,6 +458,7 @@ nl:
     index:
       title: Apparaten
       tagline: Jouw TRMNL apparaten
+      virtual: Virtual
       add_first_device: Begin door jouw eerste apparaat toe te voegen!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -657,6 +664,7 @@ nl:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

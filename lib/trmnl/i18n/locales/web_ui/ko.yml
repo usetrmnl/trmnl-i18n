@@ -269,8 +269,11 @@ ko:
       device_model_switch_warning: 위험한 작업이에요. __여기서__ 자세히 알아보세요.
       device_info: 기기 정보
       current_firmware: 현재 펌웨어
+      pinned_firmware: Pinned firmware
       unknown: 알 수 없음
       never: 없음
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: 디스플레이 보정
       display_calibration_hint: 렌더링을 세밀하게 조정하세요. 비워두면 모델 기본값이 적용돼요.
       display_calibration_pixel_ratio: 픽셀 비율
@@ -343,6 +346,9 @@ ko:
       unlink_device_learn_more: 전체 가이드를 __여기서__ 확인하세요.
       visibility: 공개 설정
       visibility_hint: 아래 설정을 바꾸면 다른 기기에서 미러링할 수 있어요.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: 2-bit 디스플레이 업그레이드 가능
         sub_title: 4단계 그레이스케일 디스플레이로 업그레이드할 수 있어요.
@@ -452,6 +458,7 @@ ko:
     index:
       title: 기기 관리
       tagline: 내 TRMNL 기기
+      virtual: Virtual
       add_first_device: 첫 기기를 추가해서 시작하세요!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -657,6 +664,7 @@ ko:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip

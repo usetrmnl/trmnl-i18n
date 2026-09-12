@@ -269,8 +269,11 @@ da:
       device_model_switch_warning: Dette er en risikabel handling, læs mere __her__
       device_info: Device Info
       current_firmware: Current firmware
+      pinned_firmware: Pinned firmware
       unknown: Unknown
       never: Never
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Display Calibration
       display_calibration_hint: Fine-tune rendering for your display. Leave empty to use model defaults.
       display_calibration_pixel_ratio: Pixel Ratio
@@ -343,6 +346,9 @@ da:
       unlink_device_learn_more: Følg den fulde guide __her__.
       visibility: Synlighed
       visibility_hint: Gør din TRMNL-enhed spejlbar ved at ændre indstillingerne nedenfor.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Opgradering til 2-bit Display tilgængelig
         sub_title: Din enhed kan opgraderes til forbedret gråtonedisplay med 4 farveniveauer i stedet for 2.
@@ -452,6 +458,7 @@ da:
     index:
       title: Enheder
       tagline: Dine TRMNL-enheder
+      virtual: Virtual
       add_first_device: Start med at tilføje din første enhed!
       go_to_settings: Go to settings
       clear_playlist: Clear playlist
@@ -657,6 +664,7 @@ da:
       add_plugin: Add Plugin
       select: Select
       exit_select: Exit select mode
+      time_travel: Time Travel
       time_travel_now: Now
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
