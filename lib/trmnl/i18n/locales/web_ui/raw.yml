@@ -931,6 +931,25 @@ raw:
       learn_more_recipe_long: plugin_settings.form.learn_more_recipe_long
       learn_more_third_party_short: plugin_settings.form.learn_more_third_party_short
       learn_more_third_party_long: plugin_settings.form.learn_more_third_party_long
+      ai_features_default_on_markup_editor: plugin_settings.form.ai_features_default_on_markup_editor
+      ai_features_default_on_account_settings: plugin_settings.form.ai_features_default_on_account_settings
+      description_hint: plugin_settings.form.description_hint
+      description_placeholder: plugin_settings.form.description_placeholder
+      max_refresh_rate: plugin_settings.form.max_refresh_rate
+      max_refresh_rate_hint: plugin_settings.form.max_refresh_rate_hint
+      recipe_step_acknowledge: plugin_settings.form.recipe_step_acknowledge
+      recipe_step_choose_visibility: plugin_settings.form.recipe_step_choose_visibility
+      recipe_best_practices_acknowledgement: plugin_settings.form.recipe_best_practices_acknowledgement
+      recipe_licensing_note_label: plugin_settings.form.recipe_licensing_note_label
+      recipe_licensing_notice: plugin_settings.form.recipe_licensing_notice
+      upload_image: plugin_settings.form.upload_image
+      upload_image_hint: plugin_settings.form.upload_image_hint
+      upload_image_dropzone: plugin_settings.form.upload_image_dropzone
+      upload_image_caption: plugin_settings.form.upload_image_caption
+      upload_image_caption_for_device: plugin_settings.form.upload_image_caption_for_device
+      webhook_url: plugin_settings.form.webhook_url
+      webhook_url_hint: plugin_settings.form.webhook_url_hint
+      ai_features_default_on_html: plugin_settings.form.ai_features_default_on_html
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -961,6 +980,32 @@ raw:
     health_status_banner:
       short_heading: plugin_settings.health_status_banner.short_heading
       long_heading: plugin_settings.health_status_banner.long_heading
+      degraded_short: plugin_settings.health_status_banner.degraded_short
+      degraded_long: plugin_settings.health_status_banner.degraded_long
+      erroring_short: plugin_settings.health_status_banner.erroring_short
+      erroring_long: plugin_settings.health_status_banner.erroring_long
+      reset_health: plugin_settings.health_status_banner.reset_health
+    inactive_references_banner:
+      short: plugin_settings.inactive_references_banner.short
+      long: plugin_settings.inactive_references_banner.long
+      hint: plugin_settings.inactive_references_banner.hint
+    uninstall_modal:
+      title: plugin_settings.uninstall_modal.title
+      warning: plugin_settings.uninstall_modal.warning
+      reason_label: plugin_settings.uninstall_modal.reason_label
+      reason_placeholder: plugin_settings.uninstall_modal.reason_placeholder
+      detail_placeholder: plugin_settings.uninstall_modal.detail_placeholder
+      cancel: plugin_settings.uninstall_modal.cancel
+      confirm: plugin_settings.uninstall_modal.confirm
+    mcp_key:
+      title: plugin_settings.mcp_key.title
+      description: plugin_settings.mcp_key.description
+      copy_title: plugin_settings.mcp_key.copy_title
+      revoke: plugin_settings.mcp_key.revoke
+      revoke_confirm: plugin_settings.mcp_key.revoke_confirm
+      client_config: plugin_settings.mcp_key.client_config
+      client_config_hint_html: plugin_settings.mcp_key.client_config_hint_html
+      generate: plugin_settings.mcp_key.generate
   referral_code:
     create:
       request_received: referral_code.create.request_received
