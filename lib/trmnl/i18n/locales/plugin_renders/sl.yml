@@ -1,0 +1,307 @@
+---
+sl:
+  renders:
+    and_x_more_prefix: in še
+    and_x_more_suffix: ''
+    calendars:
+      no_upcoming_events: Ni prihajajočih dogodkov
+      no_events_today: Danes ni dogodkov
+    days_left_year:
+      title: Preostali dnevi v letu
+      days_passed: Pretekli dnevi
+      days_left: Preostali dnevi
+    lunar_calendar:
+      title: Lunarni koledar
+      age: Lunarna starost
+      current_phase: Trenutna faza
+      illumination: Osvetljenost lune
+      next_full_moon: Naslednja polna luna
+      next_new_moon: Naslednja mlaj
+      next_phase: Naslednja faza
+      next_phase_short: Naslednja
+      moon_phases:
+        new_moon: Mlaj
+        waxing_crescent: Rastoči srp
+        first_quarter: Prvi krajec
+        waxing_gibbous: Rastoča grbinasta luna
+        full_moon: Polna luna
+        waning_gibbous: Pojemajoča grbinasta luna
+        third_quarter: Zadnji krajec
+        waning_crescent: Pojemajoči srp
+    netatmo_weather_station:
+      title: Netatmo vreme
+      title_short: Netatmo
+      indoor_temp: Temp. v notranjosti
+      indoor_temp_short: Notranja
+      indoor_humidity: Vlažnost v notranjosti
+      indoor_humidity_short: Vlaž. znotraj
+      outdoor_humidity: Vlažnost zunaj
+      outdoor_humidity_short: Vlaž. zunaj
+      co2: CO₂
+      co2_ppm: CO₂ ppm
+      pressure: Tlak
+      noise: Hrup
+      min_max: Min/Maks
+      feels: Občuti se kot
+      rain: Dež
+      wind: Veter
+      gust: Sunki vetra
+      default_station_name: Netatmo postaja
+      default_outdoor_module: Zunanja temp.
+      default_indoor_module: Notranja
+      trends_title: "%{metric} trendi"
+      trends_title_short: Trendi
+      temperature_trends: Trendi temperature
+      temperature_trends_short: Trendi temp.
+      outdoor_now: Trenutno zunaj
+      indoor_now: Trenutno znotraj
+      now: Zdaj
+      low_high_24h: 24h min/maks
+      average_24h: 24h povprečje
+      outdoor: Zunaj
+      indoor: Znotraj
+      rain_gauge_not_connected: Merilnik dežja ni povezan
+      wind_gauge_not_connected: Merilnik vetra ni povezan
+      no_rain_gauge: Ni merilnika dežja
+      no_wind_gauge: Ni merilnika vetra
+      add_module_hint: Dodajte dodatni modul %{module}, da vidite te podatke
+      range_24h: 24h razpon
+      errors:
+        missing_access_token: Manjka dostopni žeton. Znova povežite svoj račun Netatmo.
+        no_station_selected: Nobena vremenska postaja ni izbrana. Izberite postajo v nastavitvah.
+        connection_failed: Povezava s postajo Netatmo ni uspela. Preverite internetno povezavo.
+        data_retrieval_failed: Pridobivanje vremenskih podatkov ni uspelo. Poskusite znova pozneje.
+        session_expired: Seja je potekla. Znova povežite svoj račun Netatmo v nastavitvah.
+        indoor_module_missing: Izbranega notranjega modula ni mogoče najti. Znova ga nastavite v nastavitvah.
+    parcel:
+      delivery_by: Dostava do
+      empty: Ni pošiljk
+      errors:
+        api: Napaka API-ja za pošiljke
+        http: HTTP napaka %{code}
+        internal: Notranja napaka
+      filter_modes:
+        active:
+          one: Aktivna pošiljka
+          two: Aktivni pošiljki
+          few: Aktivne pošiljke
+          other: Aktivnih pošiljk
+        recent:
+          one: Nedavna pošiljka
+          two: Nedavni pošiljki
+          few: Nedavne pošiljke
+          other: Nedavnih pošiljk
+      status:
+        delivered: Dostavljeno
+        delivery_exception: Napaka pri dostavi
+        expecting_pickup: Čaka na prevzem
+        failed_delivery_attempt: Neuspel poskus dostave
+        frozen: Zamrznjeno
+        in_transit: Na poti
+        information_received: Podatki prejeti
+        not_found: Ni najdeno
+        out_for_delivery: V dostavi
+        unknown: Neznano
+      today: Danes
+      tomorrow: Jutri
+    weather:
+      title: Vreme
+      temperature: Temperatura
+      feels_like: Občuti se kot
+      humidity: Vlažnost
+      low: Najnižja
+      high: Najvišja
+      uv: UV
+      right_now: Trenutno
+      today: Danes
+      tomorrow: Jutri
+      low_high_short: N/V
+      uv_short: UV
+      max: Maks
+      tempest:
+        conditions:
+          clear: Jasno
+          cloudy: Oblačno
+          foggy: Meglica
+          partly_cloudy: Delno oblačno
+          rain_likely: Verjetno dež
+          rain_possible: Možen dež
+          snow: Sneg
+          snow_possible: Možen sneg
+          thunderstorms_likely: Verjetne nevihte
+          thunderstorms_possible: Možne nevihte
+          very_light_rain: Zelo šibek dež
+          windy: Vetrovno
+          wintry_mix_likely: Verjetna zimska mešanica
+          wintry_mix_possible: Možna zimska mešanica
+      weatherapi:
+        uv:
+          low: Nizek
+          moderate: Zmeren
+          high: Visok
+          very_high: Zelo visok
+          extreme: Ekstremen
+        conditions:
+        - code: 1000
+          day: Sončno
+          night: Jasno
+        - code: 1003
+          day: Delno oblačno
+          night: Delno oblačno
+        - code: 1006
+          day: Oblačno
+          night: Oblačno
+        - code: 1009
+          day: Pooblačeno
+          night: Pooblačeno
+        - code: 1030
+          day: Meglica
+          night: Meglica
+        - code: 1063
+          day: Šibek dež
+          night: Šibek dež
+        - code: 1066
+          day: Šibek sneg
+          night: Šibek sneg
+        - code: 1069
+          day: Žled
+          night: Žled
+        - code: 1072
+          day: Zmrzujoče rosenje
+          night: Zmrzujoče rosenje
+        - code: 1087
+          day: Grmenje
+          night: Grmenje
+        - code: 1114
+          day: Snežni vejavec
+          night: Snežni vejavec
+        - code: 1117
+          day: Snežni vihar
+          night: Snežni vihar
+        - code: 1135
+          day: Megla
+          night: Megla
+        - code: 1147
+          day: Ledena megla
+          night: Ledena megla
+        - code: 1150
+          day: Šibko rosenje
+          night: Šibko rosenje
+        - code: 1153
+          day: Rosenje
+          night: Rosenje
+        - code: 1168
+          day: Zmrzujoče rosenje
+          night: Zmrzujoče rosenje
+        - code: 1171
+          day: Močna poledica
+          night: Močna poledica
+        - code: 1180
+          day: Šibek dež
+          night: Šibek dež
+        - code: 1183
+          day: Šibek dež
+          night: Šibek dež
+        - code: 1186
+          day: Zmeren dež
+          night: Zmeren dež
+        - code: 1189
+          day: Zmeren dež
+          night: Zmeren dež
+        - code: 1192
+          day: Močan dež
+          night: Močan dež
+        - code: 1195
+          day: Močan dež
+          night: Močan dež
+        - code: 1198
+          day: Šibka poledica
+          night: Šibka poledica
+        - code: 1201
+          day: Močna poledica
+          night: Močna poledica
+        - code: 1204
+          day: Šibek žled
+          night: Šibek žled
+        - code: 1207
+          day: Močan žled
+          night: Močan žled
+        - code: 1210
+          day: Šibek sneg
+          night: Šibek sneg
+        - code: 1213
+          day: Šibek sneg
+          night: Šibek sneg
+        - code: 1216
+          day: Zmeren sneg
+          night: Zmeren sneg
+        - code: 1219
+          day: Zmeren sneg
+          night: Zmeren sneg
+        - code: 1222
+          day: Močan sneg
+          night: Močan sneg
+        - code: 1225
+          day: Močan sneg
+          night: Močan sneg
+        - code: 1237
+          day: Ledene kroglice
+          night: Ledene kroglice
+        - code: 1240
+          day: Šibek dež
+          night: Šibek dež
+        - code: 1243
+          day: Močan dež
+          night: Močan dež
+        - code: 1246
+          day: Silovit dež
+          night: Silovit dež
+        - code: 1249
+          day: Šibek žled
+          night: Šibek žled
+        - code: 1252
+          day: Močan žled
+          night: Močan žled
+        - code: 1255
+          day: Šibek sneg
+          night: Šibek sneg
+        - code: 1258
+          day: Močan sneg
+          night: Močan sneg
+        - code: 1261
+          day: Šibek led
+          night: Šibek led
+        - code: 1264
+          day: Močan led
+          night: Močan led
+        - code: 1273
+          day: Grmenje in dež
+          night: Grmenje in dež
+        - code: 1276
+          day: Grmenje in dež
+          night: Grmenje in dež
+        - code: 1279
+          day: Grmenje in sneg
+          night: Grmenje in sneg
+        - code: 1282
+          day: Grmenje in sneg
+          night: Grmenje in sneg
+    place_of_the_day:
+      title: Kraj dneva
+      wikipedia_credit: Wikipedia CC BY-SA
+      type: Vrsta
+      population: Prebivalstvo
+      coordinates: Koordinate
+      founded: Ustanovljeno
+      elevation: Nadmorska višina
+      area: Površina
+      local_time: Lokalni čas
+      year_bc: "%{count} pr. n. št."
+      metres: "%{count} m"
+      square_km: "%{count} km²"
+      city: Mesto
+      wonder: Čudo
+    welcome:
+      title: Dobrodošli
+      greeting: Pozdravljeni, %{name}
+      greeting_blank: Pozdravljeni
