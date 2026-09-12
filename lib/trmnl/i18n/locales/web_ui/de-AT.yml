@@ -269,11 +269,11 @@ de-AT:
       device_model_switch_warning: Diese Aktion kann gefährlich sein, erfahre __hier__ mehr darüber
       device_info: Geräteinformationen
       current_firmware: Aktuelle Firmware
-      pinned_firmware: Pinned firmware
+      pinned_firmware: Angeheftete Firmware
       unknown: Unbekannt
       never: Nie
-      last_ping: Hardware last ping
-      wifi_band: Wi-Fi band
+      last_ping: Letzter Hardware-Ping
+      wifi_band: WLAN-Frequenzbereich
       display_calibration: Bildschirmkalibrierung
       display_calibration_hint: Rendering deines Displays anpassen. Feld leer lassen, um die Standardwerte zu verwenden.
       display_calibration_pixel_ratio: Pixelverhältnis
@@ -347,8 +347,8 @@ de-AT:
       visibility: Sichtbarkeit
       visibility_hint: Macht das TRMNL öffentlich sichtbar.
       visibility_options:
-        standalone: Standalone
-        sharable: Sharable
+        standalone: Eigenständig
+        sharable: Teilbar
       upgrade_og:
         title: Upgrade auf 2-bit-Anzeige verfügbar
         sub_title: Dein Gerät kann ein Upgrade erhalten und damit eine verbesserte Graustufendarstellung mit 4 anstelle von 2 Farbwerten unterstützen.
@@ -458,7 +458,7 @@ de-AT:
     index:
       title: Geräte
       tagline: Deine TRMNL-Geräte
-      virtual: Virtual
+      virtual: Virtuell
       add_first_device: Beginne mit dem Hinzufügen deines ersten Gerätes!
       go_to_settings: Zu den Einstellungen
       clear_playlist: Wiedergabeliste leeren
@@ -663,7 +663,7 @@ de-AT:
       add_plugin: Erweiterung hinzufügen
       select: Auswählen
       exit_select: Auswahlmodus verlassen
-      time_travel: Time Travel
+      time_travel: Zeitreise
       time_travel_now: Jetzt
       time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
@@ -930,24 +930,24 @@ de-AT:
       learn_more_recipe_long: Diese Erweiterung ist eine Community-Blaupause und wird nicht von TRMNL gewartet.
       learn_more_third_party_short: 'Hinweis: Diese Erweiterung stammt von einem Drittanbieter.'
       learn_more_third_party_long: Diese Erweiterung stammt von einem Drittanbieter und wird nicht von TRMNL gewartet.
-      ai_features_default_on_markup_editor: The __agentic markup editor__ is now available to everyone.
-      ai_features_default_on_account_settings: Use it if it helps, or switch it off anytime in __Account Settings__.
-      description_hint: A short tagline for this plugin. Shown in search results if published as a recipe.
-      description_placeholder: Upcoming train departures
-      max_refresh_rate: Max refresh rate
-      max_refresh_rate_hint: Refreshes on-demand when your device checks in — no more often than the rate below. __Learn more__.
-      recipe_step_acknowledge: Acknowledge best practices
-      recipe_step_choose_visibility: Choose visibility
-      recipe_best_practices_acknowledgement: I've read and applied the plugin publishing __best practices__. A real human on the TRMNL team will thoughtfully review my submission and share detailed feedback.
-      recipe_licensing_note_label: Note
-      recipe_licensing_notice: Public plugins are subject to __Plugin Licensing__.
-      upload_image: Upload Image
-      upload_image_hint: Or upload directly from your browser.
-      upload_image_dropzone: Drag & drop, paste, or click to upload
-      upload_image_caption: PNG, JPEG, or WebP · max %{max_size}
-      upload_image_caption_for_device: PNG, JPEG, or WebP · max %{max_size} for device "%{device}"
-      webhook_url: Webhook URL
-      webhook_url_hint: POST raw image data (PNG, JPEG, or WebP) to this URL to update the display.
+      ai_features_default_on_markup_editor: Der __agentische Markup-Editor__ ist jetzt für alle verfügbar.
+      ai_features_default_on_account_settings: Nutze ihn, wenn er hilfreich ist, oder schalte ihn jederzeit in den __Kontoeinstellungen__ aus.
+      description_hint: Ein kurzer Slogan für diese Erweiterung. Wird in den Suchergebnissen angezeigt, wenn sie als Blaupause veröffentlicht wird.
+      description_placeholder: Nächste Zugabfahrten
+      max_refresh_rate: Maximale Aktualisierungsrate
+      max_refresh_rate_hint: Aktualisiert bei Bedarf, wenn sich dein Gerät meldet – jedoch nicht häufiger als die Rate unten. __Mehr erfahren__.
+      recipe_step_acknowledge: Best Practices bestätigen
+      recipe_step_choose_visibility: Sichtbarkeit wählen
+      recipe_best_practices_acknowledgement: Ich habe die __Best Practices__ zur Veröffentlichung von Erweiterungen gelesen und angewendet. Jemand aus dem TRMNL-Team prüft meine Einreichung sorgfältig und gibt ausführliches Feedback.
+      recipe_licensing_note_label: Hinweis
+      recipe_licensing_notice: Öffentliche Erweiterungen unterliegen der __Erweiterungslizenz__.
+      upload_image: Bild hochladen
+      upload_image_hint: Oder lade es direkt über deinen Browser hoch.
+      upload_image_dropzone: Zum Hochladen hierher ziehen, einfügen oder klicken
+      upload_image_caption: PNG, JPEG oder WebP · max. %{max_size}
+      upload_image_caption_for_device: PNG, JPEG oder WebP · max. %{max_size} für Gerät „%{device}“
+      webhook_url: Webhook-URL
+      webhook_url_hint: Sende rohe Bilddaten (PNG, JPEG oder WebP) per POST an diese URL, um die Anzeige zu aktualisieren.
       ai_features_default_on_html: The %{markup_editor_link} is now available to everyone. Use it if it helps, or switch it off anytime in %{account_settings_link}.
     import:
       archive_too_large: ZIP-Datei ist zu groß (maximal %{max_mb} MB)
@@ -979,32 +979,32 @@ de-AT:
     health_status_banner:
       short_heading: Erweiterung-Analyse
       long_heading: Überwache Erweiterungs-Analyse und -Zustände über alle Installationen hinweg
-      degraded_short: This plugin is in a degraded state.
-      degraded_long: Plugin is in a degraded state. Please fix the issue to prevent refresh from stopping.
-      erroring_short: This plugin is currently experiencing an error.
-      erroring_long: Plugin experiencing an error. Please fix the issue to restart refresh.
-      reset_health: Reset Health
+      degraded_short: Diese Erweiterung befindet sich in einem beeinträchtigten Zustand.
+      degraded_long: Die Erweiterung befindet sich in einem beeinträchtigten Zustand. Behebe das Problem, damit die Aktualisierung nicht angehalten wird.
+      erroring_short: Bei dieser Erweiterung liegt derzeit ein Fehler vor.
+      erroring_long: Bei der Erweiterung liegt ein Fehler vor. Behebe das Problem, um die Aktualisierung fortzusetzen.
+      reset_health: Status zurücksetzen
     inactive_references_banner:
-      short: Referenced plugins not syncing.
-      long: 'This plugin references data from plugins that aren''t in any Playlist:'
-      hint: Add them as a hidden item to a Playlist or Mashup to ensure their data stays fresh.
+      short: Referenzierte Erweiterungen synchronisieren nicht.
+      long: 'Diese Erweiterung verweist auf Daten von Erweiterungen, die sich in keiner Wiedergabeliste befinden:'
+      hint: Füge sie als ausgeblendeten Eintrag zu einer Wiedergabeliste oder einem Mashup hinzu, damit ihre Daten aktuell bleiben.
     uninstall_modal:
-      title: Uninstall plugin?
-      warning: This removes the plugin instance. Mind sharing why? It helps us improve TRMNL, but it's optional.
-      reason_label: Reason (optional)
-      reason_placeholder: Select a reason (optional)
-      detail_placeholder: Tell us more (optional)
-      cancel: Cancel
-      confirm: Uninstall
+      title: Erweiterung deinstallieren?
+      warning: Dies entfernt diese Erweiterungsinstanz. Magst du uns sagen, warum? Das hilft uns, TRMNL zu verbessern – ist aber optional.
+      reason_label: Grund (optional)
+      reason_placeholder: Grund auswählen (optional)
+      detail_placeholder: Erzähl uns mehr (optional)
+      cancel: Abbrechen
+      confirm: Deinstallieren
     mcp_key:
-      title: MCP API Key
-      description: Use this key to connect AI agents (Claude Desktop, etc.) to manage this plugin's markup.
-      copy_title: Copy full key to clipboard
-      revoke: Revoke Key
-      revoke_confirm: Revoke this MCP key? Any connected agents will lose access.
-      client_config: MCP client config
-      client_config_hint_html: Add %{env_var} to your %{dotenv_file} file. Copy full key with the button above.
-      generate: Generate MCP Key
+      title: MCP-API-Schlüssel
+      description: Verwende diesen Schlüssel, um KI-Agenten (z. B. Claude Desktop) mit dem Markup dieser Erweiterung zu verbinden.
+      copy_title: Vollständigen Schlüssel in die Zwischenablage kopieren
+      revoke: Schlüssel widerrufen
+      revoke_confirm: Diesen MCP-Schlüssel widerrufen? Verbundene Agenten verlieren dadurch den Zugriff.
+      client_config: MCP-Client-Konfiguration
+      client_config_hint_html: Füge %{env_var} zu deiner %{dotenv_file}-Datei hinzu. Kopiere den vollständigen Schlüssel über die Schaltfläche oben.
+      generate: MCP-Schlüssel generieren
   referral_code:
     create:
       request_received: Anfrage erhalten, bitte Posteingang überprüfen
