@@ -81,65 +81,65 @@ sl:
     start_of_week: 1
   datetime:
     relative:
-      past: "pred %{time}"
+      past: pred %{time}
       future: čez %{time}
       distance_in_words:
         half_a_minute: pol minute
         less_than_x_seconds:
           one: manj kot sekundo
+          other: manj kot %{count} sekund
           two: manj kot %{count} sekundi
           few: manj kot %{count} sekunde
-          other: manj kot %{count} sekund
         less_than_x_minutes:
           one: manj kot minuto
+          other: manj kot %{count} minut
           two: manj kot %{count} minuti
           few: manj kot %{count} minute
-          other: manj kot %{count} minut
         x_seconds:
           one: "%{count} sekunda"
+          other: "%{count} sekund"
           two: "%{count} sekundi"
           few: "%{count} sekunde"
-          other: "%{count} sekund"
         x_minutes:
           one: "%{count} minuta"
+          other: "%{count} minut"
           two: "%{count} minuti"
           few: "%{count} minute"
-          other: "%{count} minut"
         about_x_hours:
           one: približno uro
+          other: približno %{count} ur
           two: približno %{count} uri
           few: približno %{count} ure
-          other: približno %{count} ur
         x_days:
           one: "%{count} dan"
+          other: "%{count} dni"
           two: "%{count} dneva"
           few: "%{count} dnevi"
-          other: "%{count} dni"
         about_x_months:
           one: približno mesec
+          other: približno %{count} mesecev
           two: približno %{count} meseca
           few: približno %{count} mesece
-          other: približno %{count} mesecev
         x_months:
           one: "%{count} mesec"
+          other: "%{count} mesecev"
           two: "%{count} meseca"
           few: "%{count} meseci"
-          other: "%{count} mesecev"
         about_x_years:
           one: približno leto
+          other: približno %{count} let
           two: približno %{count} leti
           few: približno %{count} leta
-          other: približno %{count} let
         over_x_years:
           one: več kot leto
+          other: več kot %{count} let
           two: več kot %{count} leti
           few: več kot %{count} leta
-          other: več kot %{count} let
         almost_x_years:
           one: skoraj leto
+          other: skoraj %{count} let
           two: skoraj %{count} leti
           few: skoraj %{count} leta
-          other: skoraj %{count} let
   account:
     index:
       title: Račun
@@ -291,8 +291,11 @@ sl:
       device_model_switch_warning: To je nevarno dejanje, preberite več __tukaj__
       device_info: Podatki o napravi
       current_firmware: Trenutna vdelana programska oprema
+      pinned_firmware: Pinned firmware
       unknown: Neznano
       never: Nikoli
+      last_ping: Hardware last ping
+      wifi_band: Wi-Fi band
       display_calibration: Kalibracija zaslona
       display_calibration_hint: Fino nastavite izrisovanje za svoj zaslon. Pustite prazno za uporabo privzetih vrednosti modela.
       display_calibration_pixel_ratio: Razmerje slikovnih pik
@@ -365,6 +368,9 @@ sl:
       unlink_device_learn_more: Sledite celotnemu vodniku __tukaj__.
       visibility: Vidnost
       visibility_hint: S spodnjimi nastavitvami omogočite zrcaljenje svoje naprave TRMNL.
+      visibility_options:
+        standalone: Standalone
+        sharable: Sharable
       upgrade_og:
         title: Na voljo je nadgradnja na 2-bitni zaslon
         sub_title: Vašo napravo je mogoče nadgraditi za podporo izboljšanemu sivinskemu prikazu s 4 namesto 2 barvnimi stopnjami.
@@ -403,15 +409,15 @@ sl:
         title: Nasvet za baterijo
         days_per_charge:
           one: Pri tej hitrosti polnjenje zdrži približno dan.
+          other: Pri tej hitrosti polnjenje zdrži približno %{count} dni.
           two: Pri tej hitrosti polnjenje zdrži približno %{count} dneva.
           few: Pri tej hitrosti polnjenje zdrži približno %{count} dneve.
-          other: Pri tej hitrosti polnjenje zdrži približno %{count} dni.
         gain:
           zero: ''
           one: "(doda približno dan polnjenja)"
+          other: "(doda približno %{count} dni polnjenja)"
           two: "(doda približno %{count} dneva polnjenja)"
           few: "(doda približno %{count} dneve polnjenja)"
-          other: "(doda približno %{count} dni polnjenja)"
         nothing_to_change: Tukaj ni česa spremeniti. Naprava se že zdaj ne prebuja pogosteje, kot se posodabljajo njeni vtičniki.
         suggestions:
           enable_wait: Ponovno vklopite možnost »Počakaj na naslednjo posodobitev«, da naprava prespi posodobitve, ki se niso mogle spremeniti.
@@ -478,6 +484,7 @@ sl:
     index:
       title: Naprave
       tagline: Vaše naprave TRMNL
+      virtual: Virtual
       add_first_device: Začnite z dodajanjem svoje prve naprave!
       go_to_settings: Pojdi na nastavitve
       clear_playlist: Počisti seznam predvajanja
@@ -488,7 +495,7 @@ sl:
       copy_playlist_to_device_label: Na
       copy_playlist_non_destructive: Noben obstoječi predmet seznama predvajanja ne bo izbrisan.
     clear_playlist:
-      success: "Seznam predvajanja naprave %{device} je bil počiščen."
+      success: Seznam predvajanja naprave %{device} je bil počiščen.
     copy_playlist:
       error_same_device: Izvorna in ciljna naprava morata biti različni.
       success: Seznam predvajanja je bil kopiran iz naprave %{source} na napravo %{target}.
@@ -517,7 +524,7 @@ sl:
       title: Preklopi na napravo
     update:
       error: Napaka pri posodabljanju naprave
-      success: "Nastavitve naprave %{device} so bile uspešno posodobljene"
+      success: Nastavitve naprave %{device} so bile uspešno posodobljene
     external_credentials:
       error: Neveljavne poverilnice naprave
       success: Poverilnice naprave so bile uspešno posodobljene
@@ -678,12 +685,13 @@ sl:
       never_skip: Nikoli ne preskoči zaslonov
       skip_after:
         one: Preskoči zastarele zaslone po 1 dnevu
+        other: Preskoči zastarele zaslone po %{count} dneh
         two: Preskoči zastarele zaslone po %{count} dneh
         few: Preskoči zastarele zaslone po %{count} dneh
-        other: Preskoči zastarele zaslone po %{count} dneh
       add_plugin: Dodaj vtičnik
       select: Izberi
       exit_select: Zapusti način izbire
+      time_travel: Time Travel
       time_travel_now: Zdaj
       time_travel_at: "%{day} %{time}"
       smart_skip: Pametno preskakovanje
@@ -771,9 +779,9 @@ sl:
       always: Vedno
       custom:
         one: Po meri (1 okno)
+        other: Po meri (%{count} oken)
         two: Po meri (%{count} okni)
         few: Po meri (%{count} okna)
-        other: Po meri (%{count} oken)
       important_title: Pomembno
       important_description: Prikazano samo ob drugih pomembnih zaslonih med njegovim urnikom.
     bulk_actions:
@@ -858,9 +866,9 @@ sl:
     connected: Recept povezan
     connections:
       one: Povezava
+      other: Povezav
       two: Povezavi
       few: Povezave
-      other: Povezav
     forked: Recept podvojen
     new:
       error: Recept ni najden
@@ -874,7 +882,7 @@ sl:
     no_matches_found: Noben vtičnik ne ustreza vašim filtrom.
     not_supported: Ni podprto na trenutni napravi
     refreshing_now_please_wait: Osveževanje poteka, stran znova naložite čez nekaj sekund.
-    reset_credentials: "Račun %{plugin_name} je bil uspešno ponastavljen"
+    reset_credentials: Račun %{plugin_name} je bil uspešno ponastavljen
     form:
       advanced_settings: Napredne nastavitve
       back_to_playlist: Nazaj na seznam predvajanja
@@ -954,6 +962,24 @@ sl:
       learn_more_recipe_long: Ta vtičnik je recept skupnosti in ga TRMNL ne vzdržuje.
       learn_more_third_party_short: 'Opomba: ta vtičnik je tretje osebe.'
       learn_more_third_party_long: Ta vtičnik je tretje osebe in ga TRMNL ne vzdržuje.
+      ai_features_default_on_markup_editor: The __agentic markup editor__ is now available to everyone.
+      ai_features_default_on_account_settings: Use it if it helps, or switch it off anytime in __Account Settings__.
+      description_hint: A short tagline for this plugin. Shown in search results if published as a recipe.
+      description_placeholder: Upcoming train departures
+      max_refresh_rate: Max refresh rate
+      max_refresh_rate_hint: Refreshes on-demand when your device checks in — no more often than the rate below. __Learn more__.
+      recipe_step_acknowledge: Acknowledge best practices
+      recipe_step_choose_visibility: Choose visibility
+      recipe_best_practices_acknowledgement: I've read and applied the plugin publishing __best practices__. A real human on the TRMNL team will thoughtfully review my submission and share detailed feedback.
+      recipe_licensing_note_label: Note
+      recipe_licensing_notice: Public plugins are subject to __Plugin Licensing__.
+      upload_image: Upload Image
+      upload_image_hint: Or upload directly from your browser.
+      upload_image_dropzone: Drag & drop, paste, or click to upload
+      upload_image_caption: PNG, JPEG, or WebP · max %{max_size}
+      upload_image_caption_for_device: PNG, JPEG, or WebP · max %{max_size} for device "%{device}"
+      webhook_url: Webhook URL
+      webhook_url_hint: POST raw image data (PNG, JPEG, or WebP) to this URL to update the display.
     import:
       archive_too_large: Datoteka ZIP je prevelika (največ %{max_mb} MB)
       missing_entry: Datoteka ZIP ne vsebuje %{filename}
@@ -974,17 +1000,44 @@ sl:
       awaiting_connection: Povežite svoj račun v zgornjem razdelku OAuth, nato znova naložite to stran.
       connection_broken: Povezava OAuth je prekinjena — znova jo povežite v razdelku OAuth, nato znova naložite to stran.
       unavailable: Možnosti se niso naložile — podrobnosti preverite v dnevnikih vtičnika.
+      credentials_rejected: Those credentials were rejected — check them and reload this page.
     delete_mashup_warning:
       one: Ta vtičnik zaseda mesto v mešanici. Če ga odstranite, to mesto ostane prazno.
+      other: Ta vtičnik zaseda %{count} mest v mešanicah. Če ga odstranite, ta mesta ostanejo prazna.
       two: Ta vtičnik zaseda %{count} mesti v mešanicah. Če ga odstranite, ta mesta ostanejo prazna.
       few: Ta vtičnik zaseda %{count} mesta v mešanicah. Če ga odstranite, ta mesta ostanejo prazna.
-      other: Ta vtičnik zaseda %{count} mest v mešanicah. Če ga odstranite, ta mesta ostanejo prazna.
     state_cleared: Shranjeno stanje počiščeno. Naslednja osvežitev se začne od začetka.
     index:
       no_plugin_settings_found: Tega vtičnika še niste nastavili.
     health_status_banner:
       short_heading: Analitika vtičnika
       long_heading: Spremljajte analitiko in stanje vtičnika med namestitvami
+      degraded_short: This plugin is in a degraded state.
+      degraded_long: Plugin is in a degraded state. Please fix the issue to prevent refresh from stopping.
+      erroring_short: This plugin is currently experiencing an error.
+      erroring_long: Plugin experiencing an error. Please fix the issue to restart refresh.
+      reset_health: Reset Health
+    inactive_references_banner:
+      short: Referenced plugins not syncing.
+      long: 'This plugin references data from plugins that aren''t in any Playlist:'
+      hint: Add them as a hidden item to a Playlist or Mashup to ensure their data stays fresh.
+    uninstall_modal:
+      title: Uninstall plugin?
+      warning: This removes the plugin instance. Mind sharing why? It helps us improve TRMNL, but it's optional.
+      reason_label: Reason (optional)
+      reason_placeholder: Select a reason (optional)
+      detail_placeholder: Tell us more (optional)
+      cancel: Cancel
+      confirm: Uninstall
+    mcp_key:
+      title: MCP API Key
+      description: Use this key to connect AI agents (Claude Desktop, etc.) to manage this plugin's markup.
+      copy_title: Copy full key to clipboard
+      revoke: Revoke Key
+      revoke_confirm: Revoke this MCP key? Any connected agents will lose access.
+      client_config: MCP client config
+      client_config_hint_html: Add %{env_var} to your %{dotenv_file} file. Copy full key with the button above.
+      generate: Generate MCP Key
   referral_code:
     create:
       request_received: Zahteva prejeta, preverite svoj poštni predal
@@ -1024,9 +1077,9 @@ sl:
       next_day: Novejše
       day_events:
         one: "%{day}: 1 dogodek"
+        other: "%{day}: %{count} dogodkov"
         two: "%{day}: %{count} dogodka"
         few: "%{day}: %{count} dogodki"
-        other: "%{day}: %{count} dogodkov"
     link:
       title: Dejavnost
       device_hint: Kdaj se je ta naprava prijavila, kaj je razporedila in katere zaslone je prejela.
@@ -1099,6 +1152,7 @@ sl:
       no_render_slot: pred rokom ni bilo prostega mesta za izris
       render_lock_held: drug izris za ta vtičnik je že potekal
       no_document_changed: brez sprememb na strani, ki jo izrisuje
+      data_not_refetched: cached data reused, no fetch was due
     serve_statuses:
       served: Zaslon poslan napravi
       alias: Nadomestna slika poslana napravi
@@ -1148,9 +1202,9 @@ sl:
       summary:
         rooms:
           one: 1 soba
+          other: "%{count} sob"
           two: "%{count} sobi"
           few: "%{count} sobe"
-          other: "%{count} sob"
       common:
         unavailable: Ni na voljo
         units_available:
@@ -1172,9 +1226,9 @@ sl:
         disconnect: Prekini povezavo
         device_count:
           one: "%{count} naprava"
+          other: "%{count} naprav"
           two: "%{count} napravi"
           few: "%{count} naprave"
-          other: "%{count} naprav"
         edit: Uredi
         visit_docs: Obišči dokumentacijo
         end: Konec
@@ -1189,14 +1243,14 @@ sl:
         update_changes: Posodobi spremembe
         seats:
           one: 1 sedež
+          other: "%{count} sedežev"
           two: "%{count} sedeža"
           few: "%{count} sedeži"
-          other: "%{count} sedežev"
         features:
           one: 1 funkcija
+          other: "%{count} funkcij"
           two: "%{count} funkciji"
           few: "%{count} funkcije"
-          other: "%{count} funkcij"
         settings: Nastavitve
         show_more: Prikaži še %{count}
         sync_error: 'Napaka sinhronizacije:'
@@ -1225,7 +1279,7 @@ sl:
           all_day: Ves dan
           more_attendees:
             one: še 1
-            other: "še %{count}"
+            other: še %{count}
       room_screens:
         until: Do %{time}
       home:
@@ -1236,8 +1290,8 @@ sl:
           none: Brez
           sync_errors: Napake sinhronizacije
           toggle_values:
-            disabled: 'Izklopljeno'
-            enabled: 'Vklopljeno'
+            disabled: Izklopljeno
+            enabled: Vklopljeno
           unmapped_devices: Naprave, ki še ničesar ne prikazujejo
           virtual_device: Navidezna
       calendars:
@@ -1281,7 +1335,7 @@ sl:
           edit_room: Uredi
           edit_calendar: Uredi koledar
           edited_name: Urejeno ime
-          edited_name_yes: 'Da'
+          edited_name_yes: Da
           externally_managed: Upravljano zunaj
           externally_managed_hint: Rezervacije upravlja povezan vir iCal. Dogodke dodajajte ali spreminjajte v svojem zunanjem koledarju.
           features: Funkcije
@@ -1327,9 +1381,9 @@ sl:
           empty: Še ni zbirk.
           resource_count:
             one: 1 vir
+            other: "%{count} virov"
             two: "%{count} vira"
             few: "%{count} viri"
-            other: "%{count} virov"
           title: Zbirke virov
         new:
           back_to_collections: Nazaj na zbirke
@@ -1551,9 +1605,9 @@ sl:
         title: Obračunavanje
         summary:
           one: "%{count} vir na zaslonih — %{total} na mesec"
+          other: "%{count} virov na zaslonih — %{total} na mesec"
           two: "%{count} vira na zaslonih — %{total} na mesec"
           few: "%{count} viri na zaslonih — %{total} na mesec"
-          other: "%{count} virov na zaslonih — %{total} na mesec"
         incomplete: Postopek plačila ni bil dokončan.
         active: Vaša naročnina na Rezervacije je aktivna.
         manage: Upravljaj obračunavanje
@@ -1562,18 +1616,18 @@ sl:
         nothing_to_bill: Na zaslonu še ni ničesar, zato ni česa zaračunati. Za začetek dodajte vir na napravo.
         bind_confirm:
           one: To doda 1 vir vašemu paketu (%{amount}). Nadaljujem?
+          other: To doda %{count} virov vašemu paketu (%{amount}). Nadaljujem?
           two: To doda %{count} vira vašemu paketu (%{amount}). Nadaljujem?
           few: To doda %{count} vire vašemu paketu (%{amount}). Nadaljujem?
-          other: To doda %{count} virov vašemu paketu (%{amount}). Nadaljujem?
         screen_title: Potrebna je naročnina
         screen_body: Dodajte način plačila, da ta vir znova prikažete.
         locked: Dodajte način plačila, da vaši viri ostanejo na zaslonu.
         past_due: Vaše zadnje plačilo ni uspelo. Posodobite kartico, da se izognete prekinitvi.
         grace:
           one: Rezervacije postanejo plačljiva aplikacija %{date}. Vaš %{count} vir bo stal %{total} na mesec.
+          other: Rezervacije postanejo plačljiva aplikacija %{date}. Vaših %{count} virov bo stalo %{total} na mesec.
           two: Rezervacije postanejo plačljiva aplikacija %{date}. Vaša %{count} vira bosta stala %{total} na mesec.
           few: Rezervacije postanejo plačljiva aplikacija %{date}. Vaši %{count} viri bodo stali %{total} na mesec.
-          other: Rezervacije postanejo plačljiva aplikacija %{date}. Vaših %{count} virov bo stalo %{total} na mesec.
       tagline: Urniki sob na vaših zaslonih z rezervacijami prek QR kode na licu mesta.
     fleet:
       tagline: Zrcalite zaslon in nastavitve ene naprave na več zaslonih.
@@ -1592,9 +1646,9 @@ sl:
     explanation: Vaša naprava v teh časih prikazuje zaslon »Ujeli ste se!«, ker ni razporejen noben predmet seznama predvajanja.
     notice:
       one: Vaš seznam predvajanja ima 1 nepokrito obdobje.
+      other: Vaš seznam predvajanja ima %{count} nepokritih obdobij.
       two: Vaš seznam predvajanja ima %{count} nepokriti obdobji.
       few: Vaš seznam predvajanja ima %{count} nepokrita obdobja.
-      other: Vaš seznam predvajanja ima %{count} nepokritih obdobij.
     view: Poglej kdaj
   compositions:
     form:
