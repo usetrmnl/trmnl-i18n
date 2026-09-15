@@ -450,6 +450,8 @@ raw:
           schedule_boundary: devices.edit.check_in_preview.reasons.schedule_boundary
           sibling_render: devices.edit.check_in_preview.reasons.sibling_render
       battery_estimate: devices.edit.battery_estimate
+      refreshing_screen_disabled: devices.edit.refreshing_screen_disabled
+      refreshing_screen_disabled_hint: devices.edit.refreshing_screen_disabled_hint
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -787,6 +789,7 @@ raw:
       window_hours: playlist_items.day_ahead.window_hours
       window_label: playlist_items.day_ahead.window_label
       window_option: playlist_items.day_ahead.window_option
+      render_marker: playlist_items.day_ahead.render_marker
     update:
       success: playlists.update.success
   plugins:
@@ -970,6 +973,7 @@ raw:
       connection_broken: plugin_settings.remote_select.connection_broken
       unavailable: plugin_settings.remote_select.unavailable
       credentials_rejected: plugin_settings.remote_select.credentials_rejected
+      no_homey: plugin_settings.remote_select.no_homey
     delete_mashup_warning:
       one: plugin_settings.delete_mashup_warning.one
       other: plugin_settings.delete_mashup_warning.other
@@ -1078,6 +1082,7 @@ raw:
       refresh_overdue: activity_logs.schedule_reasons.refresh_overdue
       not_jit_schedulable: activity_logs.schedule_reasons.not_jit_schedulable
       violates_minimum: activity_logs.schedule_reasons.violates_minimum
+      external_image: activity_logs.schedule_reasons.external_image
     render_statuses:
       ok: activity_logs.render_statuses.ok
       error: activity_logs.render_statuses.error
@@ -1658,6 +1663,8 @@ raw:
     search_summary:
       found: shared.search_summary.found
       none: shared.search_summary.none
+    nav:
+      themes: shared.nav.themes
   account_invitations:
     show:
       title: account_invitations.show.title
@@ -1743,3 +1750,324 @@ raw:
       repository_placeholder: github_syncs.setup.repository_placeholder
       submit: github_syncs.setup.submit
       wrong_account: github_syncs.setup.wrong_account
+      secrets_warning: github_syncs.setup.secrets_warning
+  user_themes:
+    index:
+      title: user_themes.index.title
+      description: user_themes.index.description
+      new_theme: user_themes.index.new_theme
+      stock_look: user_themes.index.stock_look
+      renders_default: user_themes.index.renders_default
+      delete_confirm: user_themes.index.delete_confirm
+      empty: user_themes.index.empty
+    new:
+      title: user_themes.new.title
+    create:
+      notice: user_themes.create.notice
+    update:
+      notice: user_themes.update.notice
+    destroy:
+      notice: user_themes.destroy.notice
+    import:
+      alert: user_themes.import.alert
+    form:
+      sample_theme: user_themes.form.sample_theme
+      samples: user_themes.form.samples
+      your_plugins: user_themes.form.your_plugins
+      compare_palettes: user_themes.form.compare_palettes
+      share: user_themes.form.share
+      save: user_themes.form.save
+      start_from: user_themes.form.start_from
+      preset_placeholder: user_themes.form.preset_placeholder
+      device_font: user_themes.form.device_font
+      preview_title: user_themes.form.preview_title
+      share_title: user_themes.form.share_title
+      export_scss: user_themes.form.export_scss
+      public_link: user_themes.form.public_link
+      snippet: user_themes.form.snippet
+      done: user_themes.form.done
+      import_title: user_themes.form.import_title
+      import_hint: user_themes.form.import_hint
+      apply: user_themes.form.apply
+      snippet_wrong_version: user_themes.form.snippet_wrong_version
+      snippet_unreadable: user_themes.form.snippet_unreadable
+      advanced_not_a_mapping: user_themes.form.advanced_not_a_mapping
+      sections:
+        typeface: user_themes.form.sections.typeface
+        screen: user_themes.form.sections.screen
+        title_bar: user_themes.form.sections.title_bar
+        items: user_themes.form.sections.items
+        tables: user_themes.form.sections.tables
+        progress: user_themes.form.sections.progress
+        dividers: user_themes.form.sections.dividers
+        chips: user_themes.form.sections.chips
+        color_remap: user_themes.form.sections.color_remap
+        advanced: user_themes.form.sections.advanced
+      labels:
+        advanced: user_themes.form.labels.advanced
+        font: user_themes.form.labels.font
+        weight: user_themes.form.labels.weight
+        paper: user_themes.form.labels.paper
+        text: user_themes.form.labels.text
+        muted_text: user_themes.form.labels.muted_text
+        strong_fill: user_themes.form.labels.strong_fill
+        soft_fills: user_themes.form.labels.soft_fills
+        borders: user_themes.form.labels.borders
+        title_bar: user_themes.form.labels.title_bar
+        progress: user_themes.form.labels.progress
+        dividers: user_themes.form.labels.dividers
+        whitespace: user_themes.form.labels.whitespace
+        corners: user_themes.form.labels.corners
+        title_bar_height: user_themes.form.labels.title_bar_height
+        title_bar_padding: user_themes.form.labels.title_bar_padding
+        item_padding: user_themes.form.labels.item_padding
+        item_fill: user_themes.form.labels.item_fill
+        item_ink: user_themes.form.labels.item_ink
+        item_border: user_themes.form.labels.item_border
+        title_bar_ink: user_themes.form.labels.title_bar_ink
+        title_bar_instance: user_themes.form.labels.title_bar_instance
+        title_bar_stroke: user_themes.form.labels.title_bar_stroke
+        title_bar_instance_stroke: user_themes.form.labels.title_bar_instance_stroke
+        chip: user_themes.form.labels.chip
+        title_case: user_themes.form.labels.title_case
+        title_tracking: user_themes.form.labels.title_tracking
+        value_case: user_themes.form.labels.value_case
+        value_tracking: user_themes.form.labels.value_tracking
+        label_case: user_themes.form.labels.label_case
+        label_tracking: user_themes.form.labels.label_tracking
+        description_case: user_themes.form.labels.description_case
+        description_tracking: user_themes.form.labels.description_tracking
+        title_bar_case: user_themes.form.labels.title_bar_case
+        title_bar_tracking: user_themes.form.labels.title_bar_tracking
+        title_bar_instance_case: user_themes.form.labels.title_bar_instance_case
+        title_bar_instance_tracking: user_themes.form.labels.title_bar_instance_tracking
+        table_head_case: user_themes.form.labels.table_head_case
+        table_head_tracking: user_themes.form.labels.table_head_tracking
+        table_body_tracking: user_themes.form.labels.table_body_tracking
+        screen_scale: user_themes.form.labels.screen_scale
+        grays: user_themes.form.labels.grays
+        red: user_themes.form.labels.red
+        orange: user_themes.form.labels.orange
+        yellow: user_themes.form.labels.yellow
+        lime: user_themes.form.labels.lime
+        green: user_themes.form.labels.green
+        cyan: user_themes.form.labels.cyan
+        blue: user_themes.form.labels.blue
+        violet: user_themes.form.labels.violet
+        purple: user_themes.form.labels.purple
+        pink: user_themes.form.labels.pink
+      picker:
+        dark_side: user_themes.form.picker.dark_side
+        bright_side: user_themes.form.picker.bright_side
+        full_ramp: user_themes.form.picker.full_ramp
+        ramp: user_themes.form.picker.ramp
+        no_scale_remap: user_themes.form.picker.no_scale_remap
+        keep_as_painted: user_themes.form.picker.keep_as_painted
+        mute_to_gray: user_themes.form.picker.mute_to_gray
+        invert_the_scale: user_themes.form.picker.invert_the_scale
+        follow_the_bar: user_themes.form.picker.follow_the_bar
+        panel_inks: user_themes.form.picker.panel_inks
+        grayscale: user_themes.form.picker.grayscale
+  timelines:
+    trace:
+      facts: timelines.trace.facts
+      context: timelines.trace.context
+      kinds:
+        chose: timelines.trace.kinds.chose
+        did: timelines.trace.kinds.did
+      outcomes:
+        served: timelines.trace.outcomes.served
+        no_content: timelines.trace.outcomes.no_content
+        empty_state: timelines.trace.outcomes.empty_state
+        refreshing: timelines.trace.outcomes.refreshing
+        refresh_failed: timelines.trace.outcomes.refresh_failed
+        alias: timelines.trace.outcomes.alias
+        redirect: timelines.trace.outcomes.redirect
+        sleep: timelines.trace.outcomes.sleep
+        low_battery: timelines.trace.outcomes.low_battery
+        byod_error: timelines.trace.outcomes.byod_error
+        rate_limit: timelines.trace.outcomes.rate_limit
+        technical_difficulties: timelines.trace.outcomes.technical_difficulties
+        byod_trial_expired: timelines.trace.outcomes.byod_trial_expired
+        setup_logo: timelines.trace.outcomes.setup_logo
+        setup: timelines.trace.outcomes.setup
+        action_only: timelines.trace.outcomes.action_only
+        needs_setup: timelines.trace.outcomes.needs_setup
+        failed: timelines.trace.outcomes.failed
+      names:
+        sleep_screen: timelines.trace.names.sleep_screen
+        clear_pending_refresh: timelines.trace.names.clear_pending_refresh
+        sleep_image: timelines.trace.names.sleep_image
+        low_battery_screen: timelines.trace.names.low_battery_screen
+        byod_error: timelines.trace.names.byod_error
+        current_screen: timelines.trace.names.current_screen
+        first_item: timelines.trace.names.first_item
+        guest_mode: timelines.trace.names.guest_mode
+        decline_wait: timelines.trace.names.decline_wait
+        wait_screen: timelines.trace.names.wait_screen
+        upcoming_item: timelines.trace.names.upcoming_item
+        playlist_exhausted: timelines.trace.names.playlist_exhausted
+        skip_refresh: timelines.trace.names.skip_refresh
+        refresh_before_serving: timelines.trace.names.refresh_before_serving
+        defer_render: timelines.trace.names.defer_render
+        set_pending_refresh: timelines.trace.names.set_pending_refresh
+        refresh_budget: timelines.trace.names.refresh_budget
+        wait_finished: timelines.trace.names.wait_finished
+        refresh_pending: timelines.trace.names.refresh_pending
+        refresh_requested: timelines.trace.names.refresh_requested
+        refresh_failed_screen: timelines.trace.names.refresh_failed_screen
+        last_displayed: timelines.trace.names.last_displayed
+        special_screen: timelines.trace.names.special_screen
+        clear_special_request: timelines.trace.names.clear_special_request
+        enqueue_render: timelines.trace.names.enqueue_render
+        mark_displayed: timelines.trace.names.mark_displayed
+        playlist_screen: timelines.trace.names.playlist_screen
+        alias_image: timelines.trace.names.alias_image
+        redirect: timelines.trace.names.redirect
+        content_changed: timelines.trace.names.content_changed
+        screen_wiper: timelines.trace.names.screen_wiper
+        skip_item: timelines.trace.names.skip_item
+        screen_freshness: timelines.trace.names.screen_freshness
+        serve: timelines.trace.names.serve
+        empty_state: timelines.trace.names.empty_state
+        no_content: timelines.trace.names.no_content
+        special_function: timelines.trace.names.special_function
+        enqueue_notification: timelines.trace.names.enqueue_notification
+        set_identification_request: timelines.trace.names.set_identification_request
+        request_render: timelines.trace.names.request_render
+        next_screen_change: timelines.trace.names.next_screen_change
+        extended_refresh_rate: timelines.trace.names.extended_refresh_rate
+    show:
+      title: timelines.show.title
+      link_title: timelines.show.link_title
+      hint: timelines.show.hint
+      source_hint: timelines.show.source_hint
+      logs: timelines.show.logs
+      filtered: timelines.show.filtered
+      show_all: timelines.show.show_all
+      across_devices: timelines.show.across_devices
+      strip_title: timelines.show.strip_title
+      now: timelines.show.now
+      jump_to_now: timelines.show.jump_to_now
+      expected: timelines.show.expected
+      why: timelines.show.why
+      nothing_expected: timelines.show.nothing_expected
+    reasons:
+      waiting_for_render: timelines.reasons.waiting_for_render
+      sleep_window: timelines.reasons.sleep_window
+      maximum_wait: timelines.reasons.maximum_wait
+      next_screen_change: timelines.reasons.next_screen_change
+      asleep: timelines.reasons.asleep
+      rotation: timelines.reasons.rotation
+      render_before_next_poll: timelines.reasons.render_before_next_poll
+      nothing_served: timelines.reasons.nothing_served
+      wait_disabled: timelines.reasons.wait_disabled
+      setup_day: timelines.reasons.setup_day
+      push_driven: timelines.reasons.push_driven
+      clock_driven: timelines.reasons.clock_driven
+      renders_elsewhere: timelines.reasons.renders_elsewhere
+      scheduled: timelines.reasons.scheduled
+      feature_off: timelines.reasons.feature_off
+      no_render_scheduled: timelines.reasons.no_render_scheduled
+      render_running: timelines.reasons.render_running
+      schedule_boundary: timelines.reasons.schedule_boundary
+      sibling_render: timelines.reasons.sibling_render
+    next_check_in: timelines.next_check_in
+    next_check_in_unknown: timelines.next_check_in_unknown
+    next_check_in_overdue: timelines.next_check_in_overdue
+    longer_than_refresh_rate: timelines.longer_than_refresh_rate
+    render:
+      next_render: timelines.render.next_render
+      no_next_render: timelines.render.no_next_render
+      render_overdue: timelines.render.render_overdue
+    activity:
+      index:
+        view_logs: timelines.activity.index.view_logs
+        hint: timelines.activity.index.hint
+        not_available: timelines.activity.index.not_available
+        temporarily_unavailable: timelines.activity.index.temporarily_unavailable
+        empty_day: timelines.activity.index.empty_day
+        truncated: timelines.activity.index.truncated
+        previous_day: timelines.activity.index.previous_day
+        next_day: timelines.activity.index.next_day
+        day_events:
+          one: timelines.activity.index.day_events.one
+          other: timelines.activity.index.day_events.other
+      link:
+        device_hint: timelines.activity.link.device_hint
+        source_hint: timelines.activity.link.source_hint
+      events:
+        checkin: timelines.activity.events.checkin
+        schedule: timelines.activity.events.schedule
+        render: timelines.activity.events.render
+        serve: timelines.activity.events.serve
+        caught_up: timelines.activity.events.caught_up
+      checkin:
+        ok: timelines.activity.checkin.ok
+        failed: timelines.activity.checkin.failed
+        firmware: timelines.activity.checkin.firmware
+        battery: timelines.activity.checkin.battery
+      schedule:
+        refresh_at: timelines.activity.schedule.refresh_at
+      schedule_reasons:
+        wrote: timelines.activity.schedule_reasons.wrote
+        wrote_screen: timelines.activity.schedule_reasons.wrote_screen
+        not_predicted: timelines.activity.schedule_reasons.not_predicted
+        source_missing: timelines.activity.schedule_reasons.source_missing
+        mirror: timelines.activity.schedule_reasons.mirror
+        mirror_scheduled: timelines.activity.schedule_reasons.mirror_scheduled
+        mirror_throttled: timelines.activity.schedule_reasons.mirror_throttled
+        mirror_cold: timelines.activity.schedule_reasons.mirror_cold
+        global_bootstrap: timelines.activity.schedule_reasons.global_bootstrap
+        owner_mismatch: timelines.activity.schedule_reasons.owner_mismatch
+        unhealthy: timelines.activity.schedule_reasons.unhealthy
+        never_later: timelines.activity.schedule_reasons.never_later
+        refresh_overdue: timelines.activity.schedule_reasons.refresh_overdue
+        not_jit_schedulable: timelines.activity.schedule_reasons.not_jit_schedulable
+        violates_minimum: timelines.activity.schedule_reasons.violates_minimum
+      render_statuses:
+        ok: timelines.activity.render_statuses.ok
+        error: timelines.activity.render_statuses.error
+        skipped: timelines.activity.render_statuses.skipped
+        timeout: timelines.activity.render_statuses.timeout
+      render_reasons:
+        data_changed: timelines.activity.render_reasons.data_changed
+        first_screen: timelines.activity.render_reasons.first_screen
+        forced: timelines.activity.render_reasons.forced
+        timely: timelines.activity.render_reasons.timely
+        no_data_changed: timelines.activity.render_reasons.no_data_changed
+        all_appearances_fresh: timelines.activity.render_reasons.all_appearances_fresh
+        device_inactive: timelines.activity.render_reasons.device_inactive
+        playlist_items_hidden: timelines.activity.render_reasons.playlist_items_hidden
+        mashup_incomplete: timelines.activity.render_reasons.mashup_incomplete
+        only_in_mashups: timelines.activity.render_reasons.only_in_mashups
+        no_screen_generation: timelines.activity.render_reasons.no_screen_generation
+        skip_screen_generation: timelines.activity.render_reasons.skip_screen_generation
+        skip_display: timelines.activity.render_reasons.skip_display
+        markup_incomplete: timelines.activity.render_reasons.markup_incomplete
+        render_crash_backoff: timelines.activity.render_reasons.render_crash_backoff
+        completed_after_deadline: timelines.activity.render_reasons.completed_after_deadline
+        data_fetch_error: timelines.activity.render_reasons.data_fetch_error
+        network_connect_error: timelines.activity.render_reasons.network_connect_error
+        invalid_url: timelines.activity.render_reasons.invalid_url
+        access_token_expired: timelines.activity.render_reasons.access_token_expired
+        transform_error: timelines.activity.render_reasons.transform_error
+        liquid_syntax_error: timelines.activity.render_reasons.liquid_syntax_error
+        size_too_large: timelines.activity.render_reasons.size_too_large
+        render_timeout: timelines.activity.render_reasons.render_timeout
+        dead_session: timelines.activity.render_reasons.dead_session
+        command_timeout: timelines.activity.render_reasons.command_timeout
+        unhandled_error: timelines.activity.render_reasons.unhandled_error
+        batch_deadline_passed: timelines.activity.render_reasons.batch_deadline_passed
+        mashup_member_refreshed: timelines.activity.render_reasons.mashup_member_refreshed
+        no_appearances_to_render: timelines.activity.render_reasons.no_appearances_to_render
+        no_render_slot: timelines.activity.render_reasons.no_render_slot
+        render_lock_held: timelines.activity.render_reasons.render_lock_held
+        no_document_changed: timelines.activity.render_reasons.no_document_changed
+        data_not_refetched: timelines.activity.render_reasons.data_not_refetched
+      serve_statuses:
+        served: timelines.activity.serve_statuses.served
+        alias: timelines.activity.serve_statuses.alias
+        redirect: timelines.activity.serve_statuses.redirect
+        empty_state: timelines.activity.serve_statuses.empty_state
+        no_content: timelines.activity.serve_statuses.no_content
