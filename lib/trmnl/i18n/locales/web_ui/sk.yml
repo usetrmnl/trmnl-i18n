@@ -417,14 +417,14 @@ sk:
         next_check_in_unknown: 'Next check-in: unknown until it has checked in.'
         next_check_in_overdue: Check-in overdue since %{when}.
         why: Why?
-        title: How this device decides when to check in
+        title: The next %{hours} hours
         then_shows: Then it shows %{item}.
         then_shows_nothing: Then it has nothing to show.
         then_sleeps: Then it shows the sleep screen until its sleep window ends.
         renders_at: "%{item} next renders %{when}."
         no_render_because: "%{item} has no render time, %{reason}."
         render_overdue: "%{item} has had a render overdue since %{when}."
-        told: It will be told to check in again in %{when}, %{reason}.
+        told: Checks in again in %{when}, %{reason}.
         timeline_title: The day ahead
         timeline_group:
           one: "%{item}: once, at %{at}"
@@ -441,26 +441,28 @@ sk:
         rules: Its refresh rate, a playlist item's own duration, each plugin's refresh interval, sleep mode and the wait for the next update each decide part of this.
         close: Close
         reasons:
-          waiting_for_render: because its plugin's next update is not due before then
-          sleep_window: because its sleep window starts then
-          maximum_wait: because two hours is the longest a device waits
-          next_screen_change: because the room's next meeting starts or ends then
-          asleep: because it is inside its sleep window
-          rotation: because its playlist rotates more than one item, so every check-in shows the next
-          render_before_next_poll: because its plugin's next update lands before then
-          nothing_served: because nothing is on its playlist yet
-          wait_disabled: because waiting for the next update is turned off for this device
-          setup_day: because it was set up less than a day ago
-          push_driven: because its plugin updates whenever data arrives, not on a schedule
-          clock_driven: because its screen changes with the clock rather than with a render
-          renders_elsewhere: because its plugin is rendered by a shared master, not on its own schedule
+          waiting_for_render: once its plugin has updated
+          sleep_window: when its sleep window starts
+          maximum_wait: the longest a device waits
+          next_screen_change: when the room's next meeting starts or ends
+          asleep: when its sleep window ends
+          rotation: to show the next playlist item
+          render_before_next_poll: after its plugin's next update
+          nothing_served: because its playlist is empty
+          wait_disabled: because waiting for updates is off for this device
+          setup_day: during its first day
+          push_driven: because its plugin updates when data arrives
+          clock_driven: because its screen changes with the clock
+          renders_elsewhere: because a shared master renders its plugin
           scheduled: because it only shows inside a schedule window
-          feature_off: because waiting for the next update is switched off for everyone
+          feature_off: because waiting for updates is off for everyone
           no_render_scheduled: because no render is scheduled for its plugin
-          render_running: because its plugin is rendering right now
-          schedule_boundary: because a schedule window on its playlist opens or closes then
-          sibling_render: because another item on its playlist updates then
+          render_running: because its plugin is rendering now
+          schedule_boundary: when a schedule window opens or closes
+          sibling_render: when another playlist item updates
       battery_estimate: 'Estimated battery life at this setting: %{days} days'
+      refreshing_screen_disabled: Hide Refreshing Screen
+      refreshing_screen_disabled_hint: Keep the current screen while a refresh renders instead of showing the "Catching you up" screen. After a refresh press nothing changes until the new screen is ready.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -798,6 +800,7 @@ sk:
       window_hours: next %{count} hours
       window_label: How far ahead to look
       window_option: "%{count}h"
+      render_marker: Renders
     update:
       success: Playlist order updated
   plugins:
@@ -981,6 +984,7 @@ sk:
       connection_broken: OAuth connection is broken — reconnect it in the OAuth section, then reload this page.
       unavailable: Options failed to load — check the plugin's logs for details.
       credentials_rejected: Those credentials were rejected — check them and reload this page.
+      no_homey: No Homey was found on this Athom account — add one in the Homey app, then reload this page.
     delete_mashup_warning:
       one: This plugin fills a mashup slot. Removing it leaves that slot empty.
       other: This plugin fills %{count} mashup slots. Removing it leaves those slots empty.
@@ -1089,6 +1093,7 @@ sk:
       refresh_overdue: Waiting — a queued refresh is overdue
       not_jit_schedulable: Refreshes on its own schedule
       violates_minimum: Waiting out its minimum refresh interval
+      external_image: Skipped — the image is sent to it, nothing renders it
     render_statuses:
       ok: Rendered
       error: Render failed
@@ -1671,6 +1676,8 @@ sk:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
+    nav:
+      themes: Themes
   account_invitations:
     show:
       title: You have been invited
@@ -1756,3 +1763,324 @@ sk:
       repository_placeholder: Please select...
       submit: Connect
       wrong_account: Wrong account?
+      secrets_warning: The synced settings.yml carries this plugin's polling url, headers and body in plain text. Use a private repository, or move credentials into a custom field first.
+  user_themes:
+    index:
+      title: Themes
+      description: Your own looks for every plugin on your devices.
+      new_theme: New theme
+      stock_look: Stock look
+      renders_default: Renders the default look until its settings are fixed.
+      delete_confirm: Delete this theme? Devices using it fall back to the default look.
+      empty: No themes yet. Build one and pick it for any device or playlist item.
+    new:
+      title: New theme
+    create:
+      notice: Theme created
+    update:
+      notice: Theme updated
+    destroy:
+      notice: Theme deleted
+    import:
+      alert: 'Could not import that theme: %{message}'
+    form:
+      sample_theme: Theme sample
+      samples: Samples
+      your_plugins: Your plugins
+      compare_palettes: Compare palettes
+      share: Share
+      save: Save theme
+      start_from: Start from
+      preset_placeholder: Preset…
+      device_font: Device font
+      preview_title: Theme preview
+      share_title: Share this theme
+      export_scss: Download as a framework theme
+      public_link: Public link
+      snippet: Snippet
+      done: Done
+      import_title: Import a theme
+      import_hint: Paste a snippet or share link
+      apply: Apply
+      snippet_wrong_version: That snippet is not a v%{version} theme.
+      snippet_unreadable: That snippet could not be read.
+      advanced_not_a_mapping: Advanced settings must be a YAML mapping of keys to values.
+      sections:
+        typeface: Typeface
+        screen: Screen
+        title_bar: Title bar
+        items: Items
+        tables: Tables
+        progress: Progress
+        dividers: Dividers
+        chips: Chips
+        color_remap: Color remap
+        advanced: Advanced
+      labels:
+        advanced: Overrides as YAML
+        font: Font
+        weight: Weight
+        paper: Paper
+        text: Text
+        muted_text: Muted text
+        strong_fill: Strong fill
+        soft_fills: Soft fills
+        borders: Borders
+        title_bar: Title bar
+        progress: Progress
+        dividers: Dividers
+        whitespace: Whitespace
+        corners: Corners
+        title_bar_height: Title bar height
+        title_bar_padding: Title bar padding
+        item_padding: Item padding
+        item_fill: Card fill
+        item_ink: Card ink
+        item_border: Card border
+        title_bar_ink: Title & icon
+        title_bar_instance: Instance
+        title_bar_stroke: Outline
+        title_bar_instance_stroke: Instance outline
+        chip: Chip
+        title_case: Title case
+        title_tracking: Title tracking
+        value_case: Value case
+        value_tracking: Value tracking
+        label_case: Label case
+        label_tracking: Label tracking
+        description_case: Description case
+        description_tracking: Description tracking
+        title_bar_case: Title bar case
+        title_bar_tracking: Title bar tracking
+        title_bar_instance_case: Title bar instance case
+        title_bar_instance_tracking: Title bar instance tracking
+        table_head_case: Table head case
+        table_head_tracking: Table head tracking
+        table_body_tracking: Table body tracking
+        screen_scale: Screen scale
+        grays: Grayscale
+        red: Red
+        orange: Orange
+        yellow: Yellow
+        lime: Lime
+        green: Green
+        cyan: Cyan
+        blue: Blue
+        violet: Violet
+        purple: Purple
+        pink: Pink
+      picker:
+        dark_side: Dark side
+        bright_side: Bright side
+        full_ramp: Full ramp
+        ramp: ramp
+        no_scale_remap: No scale remap
+        keep_as_painted: Keep as painted
+        mute_to_gray: Mute to gray
+        invert_the_scale: Invert the scale
+        follow_the_bar: Follow the bar
+        panel_inks: Panel inks
+        grayscale: Grayscale
+  timelines:
+    trace:
+      facts: Evaluated values
+      context: Additional details
+      kinds:
+        chose: Selected
+        did: Confirmed
+      outcomes:
+        served: Content returned
+        no_content: No content
+        empty_state: Waiting for content
+        refreshing: Waiting for a refresh
+        refresh_failed: Refresh failure screen
+        alias: External image returned
+        redirect: Redirect returned
+        sleep: Sleep response
+        low_battery: Low battery screen
+        byod_error: Device setup required
+        rate_limit: Check-in limit reached
+        technical_difficulties: Maintenance screen
+        byod_trial_expired: Device trial expired
+        setup_logo: Setup logo
+        setup: Setup screen
+        action_only: Device action returned
+        needs_setup: Setup required
+        failed: Request failed
+      names:
+        sleep_screen: Sleep response
+        clear_pending_refresh: Cleared the pending refresh
+        sleep_image: Sleep image
+        low_battery_screen: Low battery screen
+        byod_error: Device setup required
+        current_screen: Current screen
+        first_item: First playlist item
+        guest_mode: Guest screen
+        decline_wait: No further waiting screen
+        wait_screen: Waiting screen
+        upcoming_item: Next playlist item
+        playlist_exhausted: No remaining playlist item to try
+        skip_refresh: No new refresh wait
+        refresh_before_serving: Refresh before returning content
+        defer_render: Accepted the render request into the local queue
+        set_pending_refresh: Set the pending refresh
+        refresh_budget: Checked the refresh limit
+        wait_finished: No remaining wait interval
+        refresh_pending: Checked whether the render is still pending
+        refresh_requested: Checked the pending refresh
+        refresh_failed_screen: Refresh failure screen
+        last_displayed: Last displayed playlist item
+        special_screen: Requested device screen
+        clear_special_request: Cleared the screen request
+        enqueue_render: Accepted the render job
+        mark_displayed: Recorded the displayed item
+        playlist_screen: Checked whether the screen can be returned
+        alias_image: External image
+        redirect: Redirect response
+        content_changed: Checked for new content
+        screen_wiper: Screen cleaning image
+        skip_item: Skipped an unavailable item
+        screen_freshness: Checked the screen age
+        serve: Selected the response content
+        empty_state: Waiting for content
+        no_content: No content available
+        special_function: Selected the device action
+        enqueue_notification: Accepted the notification job
+        set_identification_request: Set the identification request
+        request_render: Requested a render
+        next_screen_change: Checked the next screen change
+        extended_refresh_rate: Selected the next wake interval
+    show:
+      title: Timeline
+      link_title: Timeline
+      hint: What this device showed and why, and what it will show next. Recorded activity is kept for %{days} days.
+      source_hint: Where this was shown and why, and where it will be shown next, on every device. Recorded activity is kept for %{days} days.
+      logs: Device logs
+      filtered: Showing activity for %{name}
+      show_all: show everything
+      across_devices: this source on every device
+      strip_title: The next %{hours} hours
+      now: Now
+      jump_to_now: Jump to now
+      expected: Expected
+      why: Why?
+      nothing_expected: Nothing is expected in the next %{hours} hours.
+    reasons:
+      waiting_for_render: waits for its plugin's next update
+      sleep_window: its sleep window starts then
+      maximum_wait: two hours is the longest a device waits
+      next_screen_change: the room's next meeting starts or ends then
+      asleep: inside its sleep window
+      rotation: the playlist rotates to the next item
+      render_before_next_poll: its plugin updates before then
+      nothing_served: nothing on its playlist yet
+      wait_disabled: waiting for the next update is off for this device
+      setup_day: set up less than a day ago
+      push_driven: its plugin updates whenever data arrives
+      clock_driven: its screen changes with the clock, not a render
+      renders_elsewhere: rendered by a shared master
+      scheduled: only shows inside a schedule window
+      feature_off: waiting for the next update is off for everyone
+      no_render_scheduled: no render is scheduled for its plugin
+      render_running: its plugin is rendering right now
+      schedule_boundary: a schedule window opens or closes then
+      sibling_render: another item on its playlist updates then
+    next_check_in: Next check-in %{when}.
+    next_check_in_unknown: 'Next check-in: unknown until it has checked in.'
+    next_check_in_overdue: Check-in overdue since %{when}.
+    longer_than_refresh_rate: Longer than its %{rate} refresh rate. Turn off "%{setting}" under %{section} to keep to the refresh rate.
+    render:
+      next_render: Renders again %{time}
+      no_next_render: 'No render before then: %{reason}'
+      render_overdue: A render has been overdue since %{time}
+    activity:
+      index:
+        view_logs: View logs
+        hint: What happened and why, one page per day, from the last %{days} days of telemetry. Times are UTC.
+        not_available: Activity tracking isn't enabled in this environment yet.
+        temporarily_unavailable: Activity tracking is temporarily unavailable. Please try again later.
+        empty_day: No activity recorded on this day.
+        truncated: Busy day — showing the first %{limit} events.
+        previous_day: Older
+        next_day: Newer
+        day_events:
+          one: "%{day}: 1 event"
+          other: "%{day}: %{count} events"
+      link:
+        device_hint: When this device checked in, what it scheduled, and which screens it received.
+        source_hint: When this screen refreshed, why it skipped, and which devices received it.
+      events:
+        checkin: Check-in
+        schedule: Schedule
+        render: Render
+        serve: Delivered
+        caught_up: Caught up
+      checkin:
+        ok: Device checked in
+        failed: Check-in failed (%{status})
+        firmware: firmware %{version}
+        battery: battery %{percent}%
+      schedule:
+        refresh_at: refresh at %{time}
+      schedule_reasons:
+        wrote: Refresh scheduled
+        wrote_screen: Refresh scheduled for this screen size
+        not_predicted: Nothing upcoming to schedule
+        source_missing: Skipped — screen source was deleted
+        mirror: Refresh delegated to the recipe it mirrors
+        mirror_scheduled: Refresh scheduled on the recipe it mirrors
+        mirror_throttled: Waiting — the recipe it mirrors refreshed moments ago
+        mirror_cold: Asked the recipe it mirrors to render this screen size
+        global_bootstrap: Requesting this shared plugin's first screen for this size
+        owner_mismatch: Skipped — source belongs to another user
+        unhealthy: Paused after repeated failed refreshes
+        never_later: Already scheduled sooner
+        refresh_overdue: Waiting — a queued refresh is overdue
+        not_jit_schedulable: Refreshes on its own schedule
+        violates_minimum: Waiting out its minimum refresh interval
+      render_statuses:
+        ok: Rendered
+        error: Render failed
+        skipped: Render skipped
+        timeout: Render timed out
+      render_reasons:
+        data_changed: data changed
+        first_screen: first render
+        forced: manual refresh
+        timely: time-sensitive refresh
+        no_data_changed: no change in data
+        all_appearances_fresh: every screen size is still up to date
+        device_inactive: device offline
+        playlist_items_hidden: hidden on every playlist
+        mashup_incomplete: mashup not complete
+        only_in_mashups: only rendered inside mashups
+        no_screen_generation: plugin does not generate screens
+        skip_screen_generation: plugin chose not to render
+        skip_display: plugin chose not to display
+        markup_incomplete: markup not complete
+        render_crash_backoff: paused after the render browser crashed repeatedly
+        completed_after_deadline: finished after the deadline had passed
+        data_fetch_error: could not fetch data from the source
+        network_connect_error: could not connect to the source
+        invalid_url: the source URL is not valid
+        access_token_expired: access token expired — reconnect the plugin
+        transform_error: the data transform failed
+        liquid_syntax_error: the markup has a syntax error
+        size_too_large: the response was too large
+        render_timeout: no render slot free before the deadline
+        dead_session: the browser session ended mid-render
+        command_timeout: the browser stopped responding
+        unhandled_error: unexpected error
+        batch_deadline_passed: the batch ran out of time before this screen started
+        mashup_member_refreshed: refreshed as part of a mashup
+        no_appearances_to_render: no screen sizes left to render
+        no_render_slot: no render slot was free before the deadline
+        render_lock_held: another render for this plugin was already running
+        no_document_changed: no change in the page it renders
+        data_not_refetched: cached data reused, no fetch was due
+      serve_statuses:
+        served: Screen sent to device
+        alias: Alias image sent to device
+        redirect: Redirect sent to device
+        empty_state: Caught-up screen sent — nothing new to show
+        no_content: Caught-up screen sent — still nothing to show, so the device will check back less often to save battery
