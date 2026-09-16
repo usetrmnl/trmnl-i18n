@@ -241,9 +241,6 @@ zh-HK:
       morning_salutation: 早晨
       afternoon_salutation: 午安
       evening_salutation: 晚安
-  date:
-    formats:
-      day_month_long: "%A, %B %-d"
   devices:
     edit:
       accepts_beta_firmware: 韌體搶先體驗
@@ -406,29 +403,6 @@ zh-HK:
         next_check_in_unknown: 'Next check-in: unknown until it has checked in.'
         next_check_in_overdue: Check-in overdue since %{when}.
         why: Why?
-        title: The next %{hours} hours
-        then_shows: Then it shows %{item}.
-        then_shows_nothing: Then it has nothing to show.
-        then_sleeps: Then it shows the sleep screen until its sleep window ends.
-        renders_at: "%{item} next renders %{when}."
-        no_render_because: "%{item} has no render time, %{reason}."
-        render_overdue: "%{item} has had a render overdue since %{when}."
-        told: Checks in again in %{when}, %{reason}.
-        timeline_title: The day ahead
-        timeline_group:
-          one: "%{item}: once, at %{at}"
-          other: "%{item}: %{count} times, first at %{at}"
-        timeline_sleep_group:
-          one: 'Asleep: once'
-          other: 'Asleep: %{count} times'
-        timeline_nothing_group:
-          one: 'Nothing to show: once'
-          other: 'Nothing to show: %{count} times'
-        timeline_step: "%{at}: shows %{item}, then waits %{wait}."
-        timeline_asleep: "%{at}: sleeps until %{until}."
-        timeline_nothing: "%{at}: has nothing to show."
-        rules: Its refresh rate, a playlist item's own duration, each plugin's refresh interval, sleep mode and the wait for the next update each decide part of this.
-        close: Close
         reasons:
           waiting_for_render: once its plugin has updated
           sleep_window: when its sleep window starts
@@ -502,9 +476,6 @@ zh-HK:
     update:
       error: 更新裝置時發生錯誤
       success: 成功更新「%{device}」的裝置設定
-    external_credentials:
-      error: 裝置憑證無效
-      success: 成功更新裝置憑證
   discovery:
     dashboard_action:
       saved:
@@ -752,9 +723,6 @@ zh-HK:
       pending: Its first render starts at the next device check-in.
     schedule:
       always: Always
-      custom:
-        one: Custom (1 window)
-        other: Custom (%{count} windows)
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
     bulk_actions:
@@ -767,15 +735,11 @@ zh-HK:
         show: Items shown
         destroy: Items removed from playlist
       error: Bulk action failed
-    time_travel_modal:
-      false: false
     smart_skip_modal:
       title: Smart Skip
       apply: Done
     playlist_item_schedule:
       adjust_schedule: Adjust schedule
-    update_full_playlist_order:
-      error: Playlist order could not be saved
     day_ahead:
       title: The day ahead
       times:
@@ -790,8 +754,6 @@ zh-HK:
       window_label: How far ahead to look
       window_option: "%{count}h"
       render_marker: Renders
-    update:
-      success: Playlist order updated
   plugins:
     index:
       title: 外掛功能
@@ -928,12 +890,6 @@ zh-HK:
       clear_state: Clear Saved State
       virtual_device_short_heading: Virtual device? Click below to generate screens.
       virtual_device_long_heading: Virtual device? Use this to generate screens on demand.
-      learn_more_native_short: 此外掛由TRMNL維護。
-      learn_more_native_long: 此外掛為原生，並由TRMNL維護。
-      learn_more_recipe_short: 注意：此外掛是模板。
-      learn_more_recipe_long: 此外掛為社群用戶開發的模板，並非由TRMNL維護。
-      learn_more_third_party_short: 注意：此外掛由第三方開發。
-      learn_more_third_party_long: 此外掛由第三方開發，並非由TRMNL維護。
       ai_features_default_on_markup_editor: The __agentic markup editor__ is now available to everyone.
       ai_features_default_on_account_settings: Use it if it helps, or switch it off anytime in __Account Settings__.
       description_hint: A short tagline for this plugin. Shown in search results if published as a recipe.
@@ -1036,100 +992,6 @@ zh-HK:
       error: 裝置「%{device_name}」已經升級，請切換至另一部裝置
     confirm:
       success: 開發者版本附加組件現已啟用
-  activity_logs:
-    index:
-      title: Activity
-      view_logs: View logs
-      hint: What happened and why, one page per day, from the last %{days} days of telemetry. Times are UTC.
-      not_available: Activity tracking isn't enabled in this environment yet.
-      temporarily_unavailable: Activity tracking is temporarily unavailable. Please try again later.
-      empty_day: No activity recorded on this day.
-      truncated: Busy day — showing the first %{limit} events.
-      previous_day: Older
-      next_day: Newer
-      day_events:
-        one: "%{day}: 1 event"
-        other: "%{day}: %{count} events"
-    link:
-      title: Activity
-      device_hint: When this device checked in, what it scheduled, and which screens it received.
-      source_hint: When this screen refreshed, why it skipped, and which devices received it.
-    events:
-      checkin: Check-in
-      schedule: Schedule
-      render: Render
-      serve: Delivered
-      caught_up: Caught up
-    checkin:
-      ok: Device checked in
-      failed: Check-in failed (%{status})
-      firmware: firmware %{version}
-      battery: battery %{percent}%
-    schedule:
-      refresh_at: refresh at %{time}
-    schedule_reasons:
-      wrote: Refresh scheduled
-      wrote_screen: Refresh scheduled for this screen size
-      not_predicted: Nothing upcoming to schedule
-      source_missing: Skipped — screen source was deleted
-      mirror: Refresh delegated to the recipe it mirrors
-      mirror_scheduled: Refresh scheduled on the recipe it mirrors
-      mirror_throttled: Waiting — the recipe it mirrors refreshed moments ago
-      mirror_cold: Asked the recipe it mirrors to render this screen size
-      global_bootstrap: Requesting this shared plugin's first screen for this size
-      owner_mismatch: Skipped — source belongs to another user
-      unhealthy: Paused after repeated failed refreshes
-      never_later: Already scheduled sooner
-      refresh_overdue: Waiting — a queued refresh is overdue
-      not_jit_schedulable: Refreshes on its own schedule
-      violates_minimum: Waiting out its minimum refresh interval
-      external_image: Skipped — the image is sent to it, nothing renders it
-    render_statuses:
-      ok: Rendered
-      error: Render failed
-      skipped: Render skipped
-      timeout: Render timed out
-    render_reasons:
-      data_changed: data changed
-      first_screen: first render
-      forced: manual refresh
-      timely: time-sensitive refresh
-      no_data_changed: no change in data
-      all_appearances_fresh: every screen size is still up to date
-      device_inactive: device offline
-      playlist_items_hidden: hidden on every playlist
-      mashup_incomplete: mashup not complete
-      only_in_mashups: only rendered inside mashups
-      no_screen_generation: plugin does not generate screens
-      skip_screen_generation: plugin chose not to render
-      skip_display: plugin chose not to display
-      markup_incomplete: markup not complete
-      render_crash_backoff: paused after the render browser crashed repeatedly
-      completed_after_deadline: finished after the deadline had passed
-      data_fetch_error: could not fetch data from the source
-      network_connect_error: could not connect to the source
-      invalid_url: the source URL is not valid
-      access_token_expired: access token expired — reconnect the plugin
-      transform_error: the data transform failed
-      liquid_syntax_error: the markup has a syntax error
-      size_too_large: the response was too large
-      render_timeout: no render slot free before the deadline
-      dead_session: the browser session ended mid-render
-      command_timeout: the browser stopped responding
-      unhandled_error: unexpected error
-      batch_deadline_passed: the batch ran out of time before this screen started
-      mashup_member_refreshed: refreshed as part of a mashup
-      no_appearances_to_render: no screen sizes left to render
-      no_render_slot: no render slot was free before the deadline
-      render_lock_held: another render for this plugin was already running
-      no_document_changed: no change in the page it renders
-      data_not_refetched: cached data reused, no fetch was due
-    serve_statuses:
-      served: Screen sent to device
-      alias: Alias image sent to device
-      redirect: Redirect sent to device
-      empty_state: Caught-up screen sent — nothing new to show
-      no_content: Caught-up screen sent — still nothing to show, so the device will check back less often to save battery
   activerecord:
     models:
       apps/room_booking/app: 預訂
@@ -1592,8 +1454,6 @@ zh-HK:
     update:
       success: Mashup updated
       error: Every section needs a plugin — pick one for each and save again.
-    render_section_error:
-      error: That section could not be rendered — try again.
   playlist_coverage:
     title: Playlist coverage
     your_timezone: your timezone
@@ -1986,7 +1846,6 @@ zh-HK:
     activity:
       index:
         view_logs: View logs
-        hint: What happened and why, one page per day, from the last %{days} days of telemetry. Times are UTC.
         not_available: Activity tracking isn't enabled in this environment yet.
         temporarily_unavailable: Activity tracking is temporarily unavailable. Please try again later.
         empty_day: No activity recorded on this day.

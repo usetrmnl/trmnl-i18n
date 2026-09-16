@@ -263,9 +263,6 @@ sl:
       morning_salutation: Dobro jutro
       afternoon_salutation: Dober dan
       evening_salutation: Dober večer
-  date:
-    formats:
-      day_month_long: "%A, %-d. %B"
   devices:
     edit:
       accepts_beta_firmware: Zgodnja izdaja vdelane programske opreme
@@ -432,29 +429,6 @@ sl:
         next_check_in_unknown: 'Naslednja prijava: neznano, dokler se naprava ne prijavi.'
         next_check_in_overdue: Prijava zamuja od %{when}.
         why: Zakaj?
-        title: The next %{hours} hours
-        then_shows: Nato prikaže %{item}.
-        then_shows_nothing: Nato nima česa prikazati.
-        then_sleeps: Nato prikaže zaslon mirovanja do konca okna mirovanja.
-        renders_at: "%{item} se naslednjič izriše %{when}."
-        no_render_because: "%{item} nima časa izrisa, %{reason}."
-        render_overdue: "%{item} zamuja z izrisom od %{when}."
-        told: Checks in again in %{when}, %{reason}.
-        timeline_title: Dan pred nami
-        timeline_group:
-          one: "%{item}: enkrat, ob %{at}"
-          other: "%{item}: %{count}-krat, prvič ob %{at}"
-        timeline_sleep_group:
-          one: 'V mirovanju: enkrat'
-          other: 'V mirovanju: %{count}-krat'
-        timeline_nothing_group:
-          one: 'Nič za prikaz: enkrat'
-          other: 'Nič za prikaz: %{count}-krat'
-        timeline_step: "%{at}: prikaže %{item}, nato počaka %{wait}."
-        timeline_asleep: "%{at}: spi do %{until}."
-        timeline_nothing: "%{at}: nima česa prikazati."
-        rules: To določajo njena hitrost osveževanja, lastno trajanje posameznega predmeta seznama predvajanja, interval osveževanja vsakega vtičnika, način mirovanja in čakanje na naslednjo posodobitev.
-        close: Zapri
         reasons:
           waiting_for_render: once its plugin has updated
           sleep_window: when its sleep window starts
@@ -527,9 +501,6 @@ sl:
     update:
       error: Napaka pri posodabljanju naprave
       success: Nastavitve naprave %{device} so bile uspešno posodobljene
-    external_credentials:
-      error: Neveljavne poverilnice naprave
-      success: Poverilnice naprave so bile uspešno posodobljene
   discovery:
     dashboard_action:
       saved:
@@ -780,8 +751,6 @@ sl:
     schedule:
       always: Vedno
       custom:
-        one: Po meri (1 okno)
-        other: Po meri (%{count} oken)
         two: Po meri (%{count} okni)
         few: Po meri (%{count} okna)
       important_title: Pomembno
@@ -796,15 +765,11 @@ sl:
         show: Predmeti prikazani
         destroy: Predmeti odstranjeni s seznama predvajanja
       error: Množično dejanje ni uspelo
-    time_travel_modal:
-      false: false
     smart_skip_modal:
       title: Pametno preskakovanje
       apply: Končano
     playlist_item_schedule:
       adjust_schedule: Prilagodi urnik
-    update_full_playlist_order:
-      error: Vrstnega reda seznama predvajanja ni bilo mogoče shraniti
     day_ahead:
       title: Dan pred nami
       times:
@@ -819,8 +784,6 @@ sl:
       window_label: Kako daleč vnaprej pogledati
       window_option: "%{count}h"
       render_marker: Renders
-    update:
-      success: Vrstni red seznama predvajanja posodobljen
   plugins:
     index:
       title: Vtičniki
@@ -959,12 +922,6 @@ sl:
       clear_state: Počisti shranjeno stanje
       virtual_device_short_heading: Navidezna naprava? Kliknite spodaj za ustvarjanje zaslonov.
       virtual_device_long_heading: Navidezna naprava? To uporabite za ustvarjanje zaslonov na zahtevo.
-      learn_more_native_short: Ta vtičnik vzdržuje TRMNL.
-      learn_more_native_long: Ta vtičnik je domač in ga vzdržuje TRMNL.
-      learn_more_recipe_short: 'Opomba: ta vtičnik je recept.'
-      learn_more_recipe_long: Ta vtičnik je recept skupnosti in ga TRMNL ne vzdržuje.
-      learn_more_third_party_short: 'Opomba: ta vtičnik je tretje osebe.'
-      learn_more_third_party_long: Ta vtičnik je tretje osebe in ga TRMNL ne vzdržuje.
       ai_features_default_on_markup_editor: The __agentic markup editor__ is now available to everyone.
       ai_features_default_on_account_settings: Use it if it helps, or switch it off anytime in __Account Settings__.
       description_hint: A short tagline for this plugin. Shown in search results if published as a recipe.
@@ -1071,100 +1028,9 @@ sl:
       success: Razvijalska dodatna izdaja je zdaj omogočena
   activity_logs:
     index:
-      title: Dejavnost
-      view_logs: Ogled dnevnikov
-      hint: Kaj se je zgodilo in zakaj, ena stran na dan, iz zadnjih %{days} dni telemetrije. Časi so v UTC.
-      not_available: Sledenje dejavnosti v tem okolju še ni omogočeno.
-      temporarily_unavailable: Sledenje dejavnosti trenutno ni na voljo. Poskusite znova pozneje.
-      empty_day: Ta dan ni bilo zabeležene dejavnosti.
-      truncated: Zaposlen dan — prikazanih je prvih %{limit} dogodkov.
-      previous_day: Starejše
-      next_day: Novejše
       day_events:
-        one: "%{day}: 1 dogodek"
-        other: "%{day}: %{count} dogodkov"
         two: "%{day}: %{count} dogodka"
         few: "%{day}: %{count} dogodki"
-    link:
-      title: Dejavnost
-      device_hint: Kdaj se je ta naprava prijavila, kaj je razporedila in katere zaslone je prejela.
-      source_hint: Kdaj se je ta zaslon osvežil, zakaj je bil preskočen in katere naprave so ga prejele.
-    events:
-      checkin: Prijava
-      schedule: Razporeditev
-      render: Izris
-      serve: Dostavljeno
-      caught_up: Ujeto
-    checkin:
-      ok: Naprava se je prijavila
-      failed: Prijava ni uspela (%{status})
-      firmware: vdelana programska oprema %{version}
-      battery: baterija %{percent}%
-    schedule:
-      refresh_at: osvežitev ob %{time}
-    schedule_reasons:
-      wrote: Osvežitev razporejena
-      wrote_screen: Osvežitev razporejena za to velikost zaslona
-      not_predicted: Ni ničesar za razporeditev
-      source_missing: Preskočeno — izvor zaslona je bil izbrisan
-      mirror: Osvežitev prepuščena receptu, ki ga zrcali
-      mirror_scheduled: Osvežitev razporejena na receptu, ki ga zrcali
-      mirror_throttled: Čakanje — recept, ki ga zrcali, se je osvežil pred kratkim
-      mirror_cold: Recept, ki ga zrcali, je bil prošen za izris te velikosti zaslona
-      global_bootstrap: Zahtevanje prvega zaslona te velikosti za ta deljeni vtičnik
-      owner_mismatch: Preskočeno — izvor pripada drugemu uporabniku
-      unhealthy: V premoru po ponavljajočih se neuspelih osvežitvah
-      never_later: Že razporejeno prej
-      refresh_overdue: Čakanje — osvežitev v vrsti zamuja
-      not_jit_schedulable: Osvežuje se po lastnem urniku
-      violates_minimum: Čakanje na iztek minimalnega intervala osveževanja
-      external_image: Skipped — the image is sent to it, nothing renders it
-    render_statuses:
-      ok: Izrisano
-      error: Izris ni uspel
-      skipped: Izris preskočen
-      timeout: Izris je potekel
-    render_reasons:
-      data_changed: podatki spremenjeni
-      first_screen: prvi izris
-      forced: ročna osvežitev
-      timely: časovno občutljiva osvežitev
-      no_data_changed: ni sprememb podatkov
-      all_appearances_fresh: vse velikosti zaslona so še vedno posodobljene
-      device_inactive: naprava brez povezave
-      playlist_items_hidden: skrito na vseh seznamih predvajanja
-      mashup_incomplete: mešanica ni dokončana
-      only_in_mashups: izriše se samo znotraj mešanic
-      no_screen_generation: vtičnik ne ustvarja zaslonov
-      skip_screen_generation: vtičnik se je odločil, da ne bo izrisal
-      skip_display: vtičnik se je odločil, da ne bo prikazal
-      markup_incomplete: označevalni jezik ni dokončan
-      render_crash_backoff: v premoru po ponavljajočih se sesutjih brskalnika za izris
-      completed_after_deadline: končano po izteku roka
-      data_fetch_error: podatkov iz vira ni bilo mogoče pridobiti
-      network_connect_error: povezava z virom ni uspela
-      invalid_url: URL vira ni veljaven
-      access_token_expired: dostopni žeton je potekel — znova povežite vtičnik
-      transform_error: pretvorba podatkov ni uspela
-      liquid_syntax_error: označevalni jezik vsebuje skladenjsko napako
-      size_too_large: odziv je bil prevelik
-      render_timeout: pred rokom ni bilo prostega mesta za izris
-      dead_session: seja brskalnika se je končala sredi izrisa
-      command_timeout: brskalnik se je nehal odzivati
-      unhandled_error: nepričakovana napaka
-      batch_deadline_passed: čas serije je potekel, preden se je ta zaslon začel izrisovati
-      mashup_member_refreshed: osveženo kot del mešanice
-      no_appearances_to_render: ni več velikosti zaslona za izris
-      no_render_slot: pred rokom ni bilo prostega mesta za izris
-      render_lock_held: drug izris za ta vtičnik je že potekal
-      no_document_changed: brez sprememb na strani, ki jo izrisuje
-      data_not_refetched: cached data reused, no fetch was due
-    serve_statuses:
-      served: Zaslon poslan napravi
-      alias: Nadomestna slika poslana napravi
-      redirect: Preusmeritev poslana napravi
-      empty_state: Poslan zaslon "ujeto" — ni novega za prikaz
-      no_content: Poslan zaslon "ujeto" — še vedno ni ničesar za prikaz, zato se bo naprava zaradi varčevanja z baterijo javljala redkeje
   activerecord:
     models:
       apps/room_booking/app: Rezervacije
@@ -1643,8 +1509,6 @@ sl:
     update:
       success: Mešanica posodobljena
       error: Vsak razdelek potrebuje vtičnik — izberite enega za vsakega in znova shranite.
-    render_section_error:
-      error: Tega razdelka ni bilo mogoče izrisati — poskusite znova.
   playlist_coverage:
     title: Pokritost seznama predvajanja
     your_timezone: vaš časovni pas
@@ -2039,7 +1903,6 @@ sl:
     activity:
       index:
         view_logs: View logs
-        hint: What happened and why, one page per day, from the last %{days} days of telemetry. Times are UTC.
         not_available: Activity tracking isn't enabled in this environment yet.
         temporarily_unavailable: Activity tracking is temporarily unavailable. Please try again later.
         empty_day: No activity recorded on this day.

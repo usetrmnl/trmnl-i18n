@@ -241,9 +241,6 @@ raw:
       morning_salutation: dashboard.welcome_message.morning_salutation
       afternoon_salutation: dashboard.welcome_message.afternoon_salutation
       evening_salutation: dashboard.welcome_message.evening_salutation
-  date:
-    formats:
-      day_month_long: date.formats.day_month_long
   devices:
     edit:
       accepts_beta_firmware: devices.edit.accepts_beta_firmware
@@ -406,29 +403,6 @@ raw:
         next_check_in_unknown: devices.edit.check_in_preview.next_check_in_unknown
         next_check_in_overdue: devices.edit.check_in_preview.next_check_in_overdue
         why: devices.edit.check_in_preview.why
-        title: devices.edit.check_in_preview.title
-        then_shows: devices.edit.check_in_preview.then_shows
-        then_shows_nothing: devices.edit.check_in_preview.then_shows_nothing
-        then_sleeps: devices.edit.check_in_preview.then_sleeps
-        renders_at: devices.edit.check_in_preview.renders_at
-        no_render_because: devices.edit.check_in_preview.no_render_because
-        render_overdue: devices.edit.check_in_preview.render_overdue
-        told: devices.edit.check_in_preview.told
-        timeline_title: devices.edit.check_in_preview.timeline_title
-        timeline_group:
-          one: devices.edit.check_in_preview.timeline_group.one
-          other: devices.edit.check_in_preview.timeline_group.other
-        timeline_sleep_group:
-          one: devices.edit.check_in_preview.timeline_sleep_group.one
-          other: devices.edit.check_in_preview.timeline_sleep_group.other
-        timeline_nothing_group:
-          one: devices.edit.check_in_preview.timeline_nothing_group.one
-          other: devices.edit.check_in_preview.timeline_nothing_group.other
-        timeline_step: devices.edit.check_in_preview.timeline_step
-        timeline_asleep: devices.edit.check_in_preview.timeline_asleep
-        timeline_nothing: devices.edit.check_in_preview.timeline_nothing
-        rules: devices.edit.check_in_preview.rules
-        close: devices.edit.check_in_preview.close
         reasons:
           waiting_for_render: devices.edit.check_in_preview.reasons.waiting_for_render
           sleep_window: devices.edit.check_in_preview.reasons.sleep_window
@@ -502,9 +476,6 @@ raw:
     update:
       error: devices.update.error
       success: devices.update.success
-    external_credentials:
-      error: devices.external_credentials.error
-      success: devices.external_credentials.success
   discovery:
     dashboard_action:
       saved:
@@ -752,9 +723,6 @@ raw:
       pending: playlist_items.status_description.pending
     schedule:
       always: playlist_items.schedule.always
-      custom:
-        one: playlist_items.schedule.custom.one
-        other: playlist_items.schedule.custom.other
       important_title: playlist_items.schedule.important_title
       important_description: playlist_items.schedule.important_description
     bulk_actions:
@@ -767,15 +735,11 @@ raw:
         show: playlist_items.bulk_actions.success.show
         destroy: playlist_items.bulk_actions.success.destroy
       error: playlist_items.bulk_actions.error
-    time_travel_modal:
-      false: playlist_items.time_travel_modal.false
     smart_skip_modal:
       title: playlist_items.smart_skip_modal.title
       apply: playlist_items.smart_skip_modal.apply
     playlist_item_schedule:
       adjust_schedule: playlist_items.playlist_item_schedule.adjust_schedule
-    update_full_playlist_order:
-      error: playlist_items.update_full_playlist_order.error
     day_ahead:
       title: playlist_items.day_ahead.title
       times:
@@ -790,8 +754,6 @@ raw:
       window_label: playlist_items.day_ahead.window_label
       window_option: playlist_items.day_ahead.window_option
       render_marker: playlist_items.day_ahead.render_marker
-    update:
-      success: playlists.update.success
   plugins:
     index:
       title: plugins.index.title
@@ -928,12 +890,6 @@ raw:
       clear_state: plugin_settings.form.clear_state
       virtual_device_short_heading: plugin_settings.form.virtual_device_short_heading
       virtual_device_long_heading: plugin_settings.form.virtual_device_long_heading
-      learn_more_native_short: plugin_settings.form.learn_more_native_short
-      learn_more_native_long: plugin_settings.form.learn_more_native_long
-      learn_more_recipe_short: plugin_settings.form.learn_more_recipe_short
-      learn_more_recipe_long: plugin_settings.form.learn_more_recipe_long
-      learn_more_third_party_short: plugin_settings.form.learn_more_third_party_short
-      learn_more_third_party_long: plugin_settings.form.learn_more_third_party_long
       ai_features_default_on_markup_editor: plugin_settings.form.ai_features_default_on_markup_editor
       ai_features_default_on_account_settings: plugin_settings.form.ai_features_default_on_account_settings
       description_hint: plugin_settings.form.description_hint
@@ -1036,100 +992,6 @@ raw:
       error: upgrade.index.error
     confirm:
       success: upgrade.confirm.success
-  activity_logs:
-    index:
-      title: activity_logs.index.title
-      view_logs: activity_logs.index.view_logs
-      hint: activity_logs.index.hint
-      not_available: activity_logs.index.not_available
-      temporarily_unavailable: activity_logs.index.temporarily_unavailable
-      empty_day: activity_logs.index.empty_day
-      truncated: activity_logs.index.truncated
-      previous_day: activity_logs.index.previous_day
-      next_day: activity_logs.index.next_day
-      day_events:
-        one: activity_logs.index.day_events.one
-        other: activity_logs.index.day_events.other
-    link:
-      title: activity_logs.link.title
-      device_hint: activity_logs.link.device_hint
-      source_hint: activity_logs.link.source_hint
-    events:
-      checkin: activity_logs.events.checkin
-      schedule: activity_logs.events.schedule
-      render: activity_logs.events.render
-      serve: activity_logs.events.serve
-      caught_up: activity_logs.events.caught_up
-    checkin:
-      ok: activity_logs.checkin.ok
-      failed: activity_logs.checkin.failed
-      firmware: activity_logs.checkin.firmware
-      battery: activity_logs.checkin.battery
-    schedule:
-      refresh_at: activity_logs.schedule.refresh_at
-    schedule_reasons:
-      wrote: activity_logs.schedule_reasons.wrote
-      wrote_screen: activity_logs.schedule_reasons.wrote_screen
-      not_predicted: activity_logs.schedule_reasons.not_predicted
-      source_missing: activity_logs.schedule_reasons.source_missing
-      mirror: activity_logs.schedule_reasons.mirror
-      mirror_scheduled: activity_logs.schedule_reasons.mirror_scheduled
-      mirror_throttled: activity_logs.schedule_reasons.mirror_throttled
-      mirror_cold: activity_logs.schedule_reasons.mirror_cold
-      global_bootstrap: activity_logs.schedule_reasons.global_bootstrap
-      owner_mismatch: activity_logs.schedule_reasons.owner_mismatch
-      unhealthy: activity_logs.schedule_reasons.unhealthy
-      never_later: activity_logs.schedule_reasons.never_later
-      refresh_overdue: activity_logs.schedule_reasons.refresh_overdue
-      not_jit_schedulable: activity_logs.schedule_reasons.not_jit_schedulable
-      violates_minimum: activity_logs.schedule_reasons.violates_minimum
-      external_image: activity_logs.schedule_reasons.external_image
-    render_statuses:
-      ok: activity_logs.render_statuses.ok
-      error: activity_logs.render_statuses.error
-      skipped: activity_logs.render_statuses.skipped
-      timeout: activity_logs.render_statuses.timeout
-    render_reasons:
-      data_changed: activity_logs.render_reasons.data_changed
-      first_screen: activity_logs.render_reasons.first_screen
-      forced: activity_logs.render_reasons.forced
-      timely: activity_logs.render_reasons.timely
-      no_data_changed: activity_logs.render_reasons.no_data_changed
-      all_appearances_fresh: activity_logs.render_reasons.all_appearances_fresh
-      device_inactive: activity_logs.render_reasons.device_inactive
-      playlist_items_hidden: activity_logs.render_reasons.playlist_items_hidden
-      mashup_incomplete: activity_logs.render_reasons.mashup_incomplete
-      only_in_mashups: activity_logs.render_reasons.only_in_mashups
-      no_screen_generation: activity_logs.render_reasons.no_screen_generation
-      skip_screen_generation: activity_logs.render_reasons.skip_screen_generation
-      skip_display: activity_logs.render_reasons.skip_display
-      markup_incomplete: activity_logs.render_reasons.markup_incomplete
-      render_crash_backoff: activity_logs.render_reasons.render_crash_backoff
-      completed_after_deadline: activity_logs.render_reasons.completed_after_deadline
-      data_fetch_error: activity_logs.render_reasons.data_fetch_error
-      network_connect_error: activity_logs.render_reasons.network_connect_error
-      invalid_url: activity_logs.render_reasons.invalid_url
-      access_token_expired: activity_logs.render_reasons.access_token_expired
-      transform_error: activity_logs.render_reasons.transform_error
-      liquid_syntax_error: activity_logs.render_reasons.liquid_syntax_error
-      size_too_large: activity_logs.render_reasons.size_too_large
-      render_timeout: activity_logs.render_reasons.render_timeout
-      dead_session: activity_logs.render_reasons.dead_session
-      command_timeout: activity_logs.render_reasons.command_timeout
-      unhandled_error: activity_logs.render_reasons.unhandled_error
-      batch_deadline_passed: activity_logs.render_reasons.batch_deadline_passed
-      mashup_member_refreshed: activity_logs.render_reasons.mashup_member_refreshed
-      no_appearances_to_render: activity_logs.render_reasons.no_appearances_to_render
-      no_render_slot: activity_logs.render_reasons.no_render_slot
-      render_lock_held: activity_logs.render_reasons.render_lock_held
-      no_document_changed: activity_logs.render_reasons.no_document_changed
-      data_not_refetched: activity_logs.render_reasons.data_not_refetched
-    serve_statuses:
-      served: activity_logs.serve_statuses.served
-      alias: activity_logs.serve_statuses.alias
-      redirect: activity_logs.serve_statuses.redirect
-      empty_state: activity_logs.serve_statuses.empty_state
-      no_content: activity_logs.serve_statuses.no_content
   activerecord:
     models:
       apps/room_booking/app: activerecord.models.apps/room_booking/app
@@ -1590,8 +1452,6 @@ raw:
     update:
       success: mashups.update.success
       error: mashups.update.error
-    render_section_error:
-      error: mashups.render_section_error.error
   playlist_coverage:
     title: playlist_coverage.title
     your_timezone: playlist_coverage.your_timezone
@@ -1984,7 +1844,6 @@ raw:
     activity:
       index:
         view_logs: timelines.activity.index.view_logs
-        hint: timelines.activity.index.hint
         not_available: timelines.activity.index.not_available
         temporarily_unavailable: timelines.activity.index.temporarily_unavailable
         empty_day: timelines.activity.index.empty_day
