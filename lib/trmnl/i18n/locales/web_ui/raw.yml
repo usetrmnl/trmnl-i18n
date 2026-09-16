@@ -965,6 +965,7 @@ raw:
     handle_canceled_consent: plugin_settings.handle_canceled_consent
     update:
       success: plugin_settings.update.success
+      required_fields_missing: plugin_settings.update.required_fields_missing
     add_to_playlist:
       success: plugin_settings.add_to_playlist.success
     refresh_already_in_progress: plugin_settings.refresh_already_in_progress
