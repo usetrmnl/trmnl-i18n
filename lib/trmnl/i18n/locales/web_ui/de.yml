@@ -241,9 +241,6 @@ de:
       morning_salutation: Guten Morgen
       afternoon_salutation: Guten Tag
       evening_salutation: Guten Abend
-  date:
-    formats:
-      day_month_long: "%A, %B %-d"
   devices:
     edit:
       accepts_beta_firmware: Beta-Firmware
@@ -406,29 +403,6 @@ de:
         next_check_in_unknown: 'Nächster Check-in: unbekannt, bis es sich eingecheckt hat.'
         next_check_in_overdue: Check-in überfällig seit %{when}.
         why: Warum?
-        title: The next %{hours} hours
-        then_shows: Dann zeigt es %{item}.
-        then_shows_nothing: Dann hat es nichts anzuzeigen.
-        then_sleeps: Dann zeigt es den Schlaf-Bildschirm, bis der Schlafzeitraum endet.
-        renders_at: "%{item} rendert als Nächstes %{when}."
-        no_render_because: "%{item} hat keine Renderzeit, %{reason}."
-        render_overdue: "%{item} hat seit %{when} ein überfälliges Rendering."
-        told: Checks in again in %{when}, %{reason}.
-        timeline_title: Der bevorstehende Tag
-        timeline_group:
-          one: "%{item}: einmal, um %{at}"
-          other: "%{item}: %{count} Mal, zuerst um %{at}"
-        timeline_sleep_group:
-          one: 'Schläft: einmal'
-          other: 'Schläft: %{count} Mal'
-        timeline_nothing_group:
-          one: 'Nichts anzuzeigen: einmal'
-          other: 'Nichts anzuzeigen: %{count} Mal'
-        timeline_step: "%{at}: zeigt %{item}, wartet dann %{wait}."
-        timeline_asleep: "%{at}: schläft bis %{until}."
-        timeline_nothing: "%{at}: hat nichts anzuzeigen."
-        rules: Seine Aktualisierungsrate, die eigene Dauer eines Wiedergabelisten-Eintrags, das Aktualisierungsintervall jeder Erweiterung, der Schlafmodus und das Warten auf das nächste Update bestimmen jeweils einen Teil davon.
-        close: Schließen
         reasons:
           waiting_for_render: once its plugin has updated
           sleep_window: when its sleep window starts
@@ -501,9 +475,6 @@ de:
     update:
       error: Fehler beim Aktualisieren des Gerätes
       success: Einstellungen von %{device} erfolgreich aktualisiert
-    external_credentials:
-      error: Ungültige Gerätezugangsdaten
-      success: Gerätezugangsdaten erfolgreich aktualisiert
   discovery:
     dashboard_action:
       saved:
@@ -751,9 +722,6 @@ de:
       pending: Sein erstes Render startet beim nächsten Check-in des Geräts.
     schedule:
       always: Immer
-      custom:
-        one: Benutzerdefiniert (1 Fenster)
-        other: Benutzerdefiniert (%{count} Fenster)
       important_title: Wichtig
       important_description: Wird während seines Zeitplans nur zusammen mit anderen wichtigen Bildschirmen gezeigt.
     bulk_actions:
@@ -766,15 +734,11 @@ de:
         show: Einträge angezeigt
         destroy: Einträge aus Wiedergabeliste entfernt
       error: Sammelaktion fehlgeschlagen
-    time_travel_modal:
-      false: false
     smart_skip_modal:
       title: Smartes Überspringen
       apply: Fertig
     playlist_item_schedule:
       adjust_schedule: Zeitplan anpassen
-    update_full_playlist_order:
-      error: Reihenfolge der Wiedergabeliste konnte nicht gespeichert werden
     day_ahead:
       title: Der bevorstehende Tag
       times:
@@ -789,8 +753,6 @@ de:
       window_label: Wie weit vorausgeschaut werden soll
       window_option: "%{count}h"
       render_marker: Renders
-    update:
-      success: Wiedergabereihenfolge aktualisiert
   plugins:
     index:
       title: Erweiterungen
@@ -927,12 +889,6 @@ de:
       clear_state: Gespeicherten Status löschen
       virtual_device_short_heading: Virtuelles Gerät? Klicke unten, um Bildschirme zu erzeugen.
       virtual_device_long_heading: Virtuelles Gerät? Nutze dies, um Bildschirme bei Bedarf zu erzeugen.
-      learn_more_native_short: Diese Erweiterung wird von TRMNL gewartet.
-      learn_more_native_long: Dies ist eine offizielle Erweiterung, die von TRMNL gewartet wird.
-      learn_more_recipe_short: 'Hinweis: Diese Erweiterung ist eine Blaupause.'
-      learn_more_recipe_long: Diese Erweiterung ist eine Community-Blaupause und wird nicht von TRMNL gewartet.
-      learn_more_third_party_short: 'Hinweis: Diese Erweiterung stammt von einem Drittanbieter.'
-      learn_more_third_party_long: Diese Erweiterung stammt von einem Drittanbieter und wird nicht von TRMNL gewartet.
       ai_features_default_on_markup_editor: Der __agentische Markup-Editor__ ist jetzt für alle verfügbar.
       ai_features_default_on_account_settings: Nutze ihn, wenn er hilfreich ist, oder schalte ihn jederzeit in den __Kontoeinstellungen__ aus.
       description_hint: Ein kurzer Slogan für diese Erweiterung. Wird in den Suchergebnissen angezeigt, wenn sie als Blaupause veröffentlicht wird.
@@ -1035,100 +991,6 @@ de:
       error: Gerät %{device_name} wurde bereits geupgradet, wechsle auf ein anderes Gerät
     confirm:
       success: Addon für Entwickler-Edition ist nun aktiv
-  activity_logs:
-    index:
-      title: Aktivität
-      view_logs: Protokolle ansehen
-      hint: Was passiert ist und warum, eine Seite pro Tag, aus den letzten %{days} Tagen Telemetrie. Zeiten sind UTC.
-      not_available: Aktivitätsverfolgung ist in dieser Umgebung noch nicht aktiviert.
-      temporarily_unavailable: Aktivitätsverfolgung ist vorübergehend nicht verfügbar. Bitte versuche es später erneut.
-      empty_day: An diesem Tag wurde keine Aktivität aufgezeichnet.
-      truncated: Viel losgewesen — zeigt die ersten %{limit} Ereignisse.
-      previous_day: Älter
-      next_day: Neuer
-      day_events:
-        one: "%{day}: 1 Ereignis"
-        other: "%{day}: %{count} Ereignisse"
-    link:
-      title: Aktivität
-      device_hint: Wann sich dieses Gerät eingecheckt hat, was geplant wurde und welche Bildschirme es erhalten hat.
-      source_hint: Wann sich dieser Bildschirm aktualisiert hat, warum er übersprungen wurde und welche Geräte ihn erhalten haben.
-    events:
-      checkin: Check-in
-      schedule: Zeitplan
-      render: Rendering
-      serve: Gesendet
-      caught_up: Aktuell
-    checkin:
-      ok: Gerät eingecheckt
-      failed: Check-in fehlgeschlagen (%{status})
-      firmware: Firmware %{version}
-      battery: Akku %{percent}%
-    schedule:
-      refresh_at: Aktualisierung um %{time}
-    schedule_reasons:
-      wrote: Aktualisierung geplant
-      wrote_screen: Aktualisierung für diese Bildschirmgröße geplant
-      not_predicted: Nichts Bevorstehendes zu planen
-      source_missing: Übersprungen — Bildschirmquelle wurde gelöscht
-      mirror: Aktualisierung an die gespiegelte Blaupause delegiert
-      mirror_scheduled: Aktualisierung bei gespiegelter Blaupause geplant
-      mirror_throttled: Wartet — die gespiegelte Blaupause hat sich gerade erst aktualisiert
-      mirror_cold: Die gespiegelte Blaupause gebeten, diese Bildschirmgröße zu rendern
-      global_bootstrap: Fordert den ersten Bildschirm dieser geteilten Erweiterung für diese Größe an
-      owner_mismatch: Übersprungen — Quelle gehört einem anderen Benutzer
-      unhealthy: Pausiert nach wiederholt fehlgeschlagenen Aktualisierungen
-      never_later: Bereits früher geplant
-      refresh_overdue: Wartet — eine wartende Aktualisierung ist überfällig
-      not_jit_schedulable: Aktualisiert nach eigenem Zeitplan
-      violates_minimum: Wartet das minimale Aktualisierungsintervall ab
-      external_image: Skipped — the image is sent to it, nothing renders it
-    render_statuses:
-      ok: Gerendert
-      error: Rendering fehlgeschlagen
-      skipped: Rendering übersprungen
-      timeout: Rendering-Zeitüberschreitung
-    render_reasons:
-      data_changed: Daten geändert
-      first_screen: erstes Rendering
-      forced: manuelle Aktualisierung
-      timely: zeitkritische Aktualisierung
-      no_data_changed: keine Datenänderung
-      all_appearances_fresh: jede Bildschirmgröße ist noch aktuell
-      device_inactive: Gerät offline
-      playlist_items_hidden: in jeder Wiedergabeliste ausgeblendet
-      mashup_incomplete: Mashup nicht vollständig
-      only_in_mashups: wird nur innerhalb von Mashups gerendert
-      no_screen_generation: Erweiterung erzeugt keine Bildschirme
-      skip_screen_generation: Erweiterung hat sich gegen das Rendern entschieden
-      skip_display: Erweiterung hat sich gegen die Anzeige entschieden
-      markup_incomplete: Markup nicht vollständig
-      render_crash_backoff: pausiert, nachdem der Render-Browser wiederholt abgestürzt ist
-      completed_after_deadline: abgeschlossen, nachdem die Frist bereits verstrichen war
-      data_fetch_error: Daten konnten nicht von der Quelle abgerufen werden
-      network_connect_error: Verbindung zur Quelle konnte nicht hergestellt werden
-      invalid_url: die Quell-URL ist ungültig
-      access_token_expired: Zugriffstoken abgelaufen — Erweiterung erneut verbinden
-      transform_error: die Datenumwandlung ist fehlgeschlagen
-      liquid_syntax_error: das Markup enthält einen Syntaxfehler
-      size_too_large: die Antwort war zu groß
-      render_timeout: kein freier Render-Slot vor Ablauf der Frist
-      dead_session: die Browser-Sitzung endete während des Renderns
-      command_timeout: der Browser reagierte nicht mehr
-      unhandled_error: unerwarteter Fehler
-      batch_deadline_passed: der Batch ist vor dem Start dieses Bildschirms abgelaufen
-      mashup_member_refreshed: als Teil eines Mashups aktualisiert
-      no_appearances_to_render: keine Bildschirmgrößen mehr zu rendern
-      no_render_slot: kein Render-Slot war vor der Frist frei
-      render_lock_held: ein anderes Render für dieses Plugin lief bereits
-      no_document_changed: keine Änderung an der gerenderten Seite
-      data_not_refetched: zwischengespeicherte Daten wiederverwendet, kein Abruf fällig
-    serve_statuses:
-      served: Bildschirm an Gerät gesendet
-      alias: Alias-Bild an Gerät gesendet
-      redirect: Weiterleitung an Gerät gesendet
-      empty_state: Aktuell-Bildschirm gesendet — nichts Neues anzuzeigen
-      no_content: Aktuell-Bildschirm gesendet — weiterhin nichts anzuzeigen, daher meldet sich das Gerät seltener, um Akku zu sparen
   activerecord:
     models:
       apps/room_booking/app: Buchung
@@ -1591,8 +1453,6 @@ de:
     update:
       success: Mashup aktualisiert
       error: Jeder Abschnitt braucht eine Erweiterung — wähle für jeden eine aus und speichere erneut.
-    render_section_error:
-      error: Dieser Abschnitt konnte nicht gerendert werden — versuche es erneut.
   playlist_coverage:
     title: Wiedergabelisten-Abdeckung
     your_timezone: deine Zeitzone
@@ -1985,7 +1845,6 @@ de:
     activity:
       index:
         view_logs: View logs
-        hint: What happened and why, one page per day, from the last %{days} days of telemetry. Times are UTC.
         not_available: Activity tracking isn't enabled in this environment yet.
         temporarily_unavailable: Activity tracking is temporarily unavailable. Please try again later.
         empty_day: No activity recorded on this day.
