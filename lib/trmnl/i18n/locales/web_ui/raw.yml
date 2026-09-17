@@ -758,6 +758,7 @@ raw:
       window_label: playlist_items.day_ahead.window_label
       window_option: playlist_items.day_ahead.window_option
       render_marker: playlist_items.day_ahead.render_marker
+      asleep_window: playlist_items.day_ahead.asleep_window
   plugins:
     index:
       title: plugins.index.title
@@ -1026,6 +1027,10 @@ raw:
             directory:
               invalid_folder: activerecord.errors.models.github_sync.attributes.directory.invalid_folder
               taken_by_another_plugin: activerecord.errors.models.github_sync.attributes.directory.taken_by_another_plugin
+        device:
+          attributes:
+            sleep_end_time:
+              same_as_start: activerecord.errors.models.device.attributes.sleep_end_time.same_as_start
   apps:
     core:
       public:
@@ -1824,6 +1829,7 @@ raw:
       expected: timelines.show.expected
       why: timelines.show.why
       nothing_expected: timelines.show.nothing_expected
+      recorded_strip_title: timelines.show.recorded_strip_title
     reasons:
       waiting_for_render: timelines.reasons.waiting_for_render
       sleep_window: timelines.reasons.sleep_window
@@ -1896,6 +1902,7 @@ raw:
         refresh_overdue: timelines.activity.schedule_reasons.refresh_overdue
         not_jit_schedulable: timelines.activity.schedule_reasons.not_jit_schedulable
         violates_minimum: timelines.activity.schedule_reasons.violates_minimum
+        external_image: timelines.activity.schedule_reasons.external_image
       render_statuses:
         ok: timelines.activity.render_statuses.ok
         error: timelines.activity.render_statuses.error

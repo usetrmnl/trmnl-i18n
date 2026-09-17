@@ -757,6 +757,7 @@ cs:
       window_label: How far ahead to look
       window_option: "%{count}h"
       render_marker: Renders
+      asleep_window: Asleep %{from} → %{to} (%{duration})
   plugins:
     index:
       title: Pluginy
@@ -1025,6 +1026,10 @@ cs:
             directory:
               invalid_folder: must be a folder path like plugins/clock
               taken_by_another_plugin: is already synced to another plugin in this repository
+        device:
+          attributes:
+            sleep_end_time:
+              same_as_start: must differ from the start time, or the device would never sleep
   apps:
     core:
       public:
@@ -1825,6 +1830,7 @@ cs:
       expected: Expected
       why: Why?
       nothing_expected: Nothing is expected in the next %{hours} hours.
+      recorded_strip_title: The last %{hours} hours
     reasons:
       waiting_for_render: waits for its plugin's next update
       sleep_window: its sleep window starts then
@@ -1897,6 +1903,7 @@ cs:
         refresh_overdue: Waiting — a queued refresh is overdue
         not_jit_schedulable: Refreshes on its own schedule
         violates_minimum: Waiting out its minimum refresh interval
+        external_image: Skipped — the image is sent to it, nothing renders it
       render_statuses:
         ok: Rendered
         error: Render failed
