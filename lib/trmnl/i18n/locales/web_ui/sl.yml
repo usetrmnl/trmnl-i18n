@@ -751,11 +751,11 @@ sl:
       pending: Njegov prvi izris se začne ob naslednji prijavi naprave.
     schedule:
       always: Vedno
+      important_title: Pomembno
+      important_description: Prikazano samo ob drugih pomembnih zaslonih med njegovim urnikom.
       custom:
         two: Po meri (%{count} okni)
         few: Po meri (%{count} okna)
-      important_title: Pomembno
-      important_description: Prikazano samo ob drugih pomembnih zaslonih med njegovim urnikom.
     bulk_actions:
       hide: Skrij
       show: Prikaži
@@ -941,6 +941,7 @@ sl:
       upload_image_caption_for_device: PNG, JPEG, or WebP · max %{max_size} for device "%{device}"
       webhook_url: Webhook URL
       webhook_url_hint: POST raw image data (PNG, JPEG, or WebP) to this URL to update the display.
+      plus_refresh_upsell: Rates shown in gray need TRMNL+. __Earn it free__.
     import:
       archive_too_large: Datoteka ZIP je prevelika (največ %{max_mb} MB)
       missing_entry: Datoteka ZIP ne vsebuje %{filename}
@@ -1027,11 +1028,6 @@ sl:
       error: Naprava %{device_name} je že nadgrajena, preklopite na drugo napravo
     confirm:
       success: Razvijalska dodatna izdaja je zdaj omogočena
-  activity_logs:
-    index:
-      day_events:
-        two: "%{day}: %{count} dogodka"
-        few: "%{day}: %{count} dogodki"
   activerecord:
     models:
       apps/room_booking/app: Rezervacije
@@ -1991,3 +1987,8 @@ sl:
         redirect: Redirect sent to device
         empty_state: Caught-up screen sent — nothing new to show
         no_content: Caught-up screen sent — still nothing to show, so the device will check back less often to save battery
+  activity_logs:
+    index:
+      day_events:
+        two: "%{day}: %{count} dogodka"
+        few: "%{day}: %{count} dogodki"
