@@ -213,6 +213,23 @@ raw:
       pending: account.sharing.pending
       expired: account.sharing.expired
       remove: account.sharing.remove
+    connected_agents:
+      whole_account: account.connected_agents.whole_account
+      devices:
+        one: account.connected_agents.devices.one
+        other: account.connected_agents.devices.other
+      plugin_settings:
+        one: account.connected_agents.plugin_settings.one
+        other: account.connected_agents.plugin_settings.other
+      edit_access: account.connected_agents.edit_access
+      capabilities_fixed: account.connected_agents.capabilities_fixed
+      access_saved: account.connected_agents.access_saved
+      title: account.connected_agents.title
+      hint: account.connected_agents.hint
+      last_active: account.connected_agents.last_active
+      revoke: account.connected_agents.revoke
+      revoke_confirm: account.connected_agents.revoke_confirm
+      revoked: account.connected_agents.revoked
   dashboard:
     index:
       title: dashboard.index.title
@@ -426,6 +443,7 @@ raw:
           render_running: devices.edit.check_in_preview.reasons.render_running
           schedule_boundary: devices.edit.check_in_preview.reasons.schedule_boundary
           sibling_render: devices.edit.check_in_preview.reasons.sibling_render
+        next_check_in_due: devices.edit.check_in_preview.next_check_in_due
       battery_estimate: devices.edit.battery_estimate
       refreshing_screen_disabled: devices.edit.refreshing_screen_disabled
       refreshing_screen_disabled_hint: devices.edit.refreshing_screen_disabled_hint
@@ -1462,12 +1480,81 @@ raw:
       tagline: apps.room_booking.tagline
     fleet:
       tagline: apps.fleet.tagline
+      check_ins:
+        overdue: apps.fleet.check_ins.overdue
+        due: apps.fleet.check_ins.due
+        on_time: apps.fleet.check_ins.on_time
+        asleep: apps.fleet.check_ins.asleep
+        never_seen: apps.fleet.check_ins.never_seen
+        last_ping: apps.fleet.check_ins.last_ping
+      overview:
+        check_ins: apps.fleet.overview.check_ins
+        overdue: apps.fleet.overview.overdue
+        on_time: apps.fleet.overview.on_time
+        asleep: apps.fleet.overview.asleep
+        lowest_battery: apps.fleet.overview.lowest_battery
+        overdue_explainer: apps.fleet.overview.overdue_explainer
+        needs_attention: apps.fleet.overview.needs_attention
+        all_on_time: apps.fleet.overview.all_on_time
+        manage_devices: apps.fleet.overview.manage_devices
+        last_push: apps.fleet.overview.last_push
+        needs_push: apps.fleet.overview.needs_push
+        never_pushed: apps.fleet.overview.never_pushed
+      devices:
+        heading: apps.fleet.devices.heading
+        empty: apps.fleet.devices.empty
+        select_all: apps.fleet.devices.select_all
+        add_to_fleet: apps.fleet.devices.add_to_fleet
+        added:
+          one: apps.fleet.devices.added.one
+          other: apps.fleet.devices.added.other
+        not_added: apps.fleet.devices.not_added
+        none_selected: apps.fleet.devices.none_selected
+      alerts:
+        title: apps.fleet.alerts.title
+        description: apps.fleet.alerts.description
+        enabled: apps.fleet.alerts.enabled
+        threshold: apps.fleet.alerts.threshold
+        threshold_help: apps.fleet.alerts.threshold_help
+        thresholds:
+          '30': apps.fleet.alerts.thresholds.30
+          '60': apps.fleet.alerts.thresholds.60
+          '240': apps.fleet.alerts.thresholds.240
+        email: apps.fleet.alerts.email
+        email_help: apps.fleet.alerts.email_help
+        save: apps.fleet.alerts.save
+        saved: apps.fleet.alerts.saved
+      digest:
+        subject:
+          one: apps.fleet.digest.subject.one
+          other: apps.fleet.digest.subject.other
+        intro: apps.fleet.digest.intro
+        row: apps.fleet.digest.row
+        open_fleet: apps.fleet.digest.open_fleet
+        footer: apps.fleet.digest.footer
   mashups:
     mashup:
       add_to_playlist: mashups.mashup.add_to_playlist
     update:
       success: mashups.update.success
       error: mashups.update.error
+    health_status_banner:
+      degraded_short: mashups.health_status_banner.degraded_short
+      degraded_long: mashups.health_status_banner.degraded_long
+      erroring_short: mashups.health_status_banner.erroring_short
+      erroring_long: mashups.health_status_banner.erroring_long
+      reset_health: mashups.health_status_banner.reset_health
+    edit:
+      title: mashups.edit.title
+      back_to_playlist: mashups.edit.back_to_playlist
+      description: mashups.edit.description
+      health_notifications_hint: mashups.edit.health_notifications_hint
+      health_notifications_checkbox: mashups.edit.health_notifications_checkbox
+      refresh_rate_hint: mashups.edit.refresh_rate_hint
+      remove: mashups.edit.remove
+      remove_hint: mashups.edit.remove_hint
+    new:
+      title: mashups.new.title
   playlist_coverage:
     title: playlist_coverage.title
     your_timezone: playlist_coverage.your_timezone
@@ -1814,6 +1901,14 @@ raw:
         request_render: timelines.trace.names.request_render
         next_screen_change: timelines.trace.names.next_screen_change
         extended_refresh_rate: timelines.trace.names.extended_refresh_rate
+      values:
+        'yes': timelines.trace.values.yes
+        'no': timelines.trace.values.no
+      units:
+        days: timelines.trace.units.days
+        hours: timelines.trace.units.hours
+        minutes: timelines.trace.units.minutes
+        seconds: timelines.trace.units.seconds
     show:
       title: timelines.show.title
       link_title: timelines.show.link_title
@@ -1949,3 +2044,40 @@ raw:
         redirect: timelines.activity.serve_statuses.redirect
         empty_state: timelines.activity.serve_statuses.empty_state
         no_content: timelines.activity.serve_statuses.no_content
+    next_check_in_due: timelines.next_check_in_due
+  mcp_oauth:
+    account_feature_off: mcp_oauth.account_feature_off
+  doorkeeper:
+    scopes:
+      read: doorkeeper.scopes.read
+      write: doorkeeper.scopes.write
+      content: doorkeeper.scopes.content
+      devices: doorkeeper.scopes.devices
+      delete: doorkeeper.scopes.delete
+      openid: doorkeeper.scopes.openid
+      email: doorkeeper.scopes.email
+      profile: doorkeeper.scopes.profile
+    authorizations:
+      new:
+        can_reach: doorkeeper.authorizations.new.can_reach
+        none_ticked: doorkeeper.authorizations.new.none_ticked
+        title: doorkeeper.authorizations.new.title
+        prompt: doorkeeper.authorizations.new.prompt
+        able_to: doorkeeper.authorizations.new.able_to
+      buttons:
+        authorize: doorkeeper.authorizations.buttons.authorize
+        deny: doorkeeper.authorizations.buttons.deny
+  agent_grants:
+    picker:
+      whole_account: agent_grants.picker.whole_account
+      only_these: agent_grants.picker.only_these
+      devices: agent_grants.picker.devices
+      plugin_settings: agent_grants.picker.plugin_settings
+      none_picked: agent_grants.picker.none_picked
+  connected_agents:
+    edit:
+      title: connected_agents.edit.title
+      can_do: connected_agents.edit.can_do
+      can_reach: connected_agents.edit.can_reach
+      save: connected_agents.edit.save
+      cancel: connected_agents.edit.cancel

@@ -213,6 +213,23 @@
       pending: Pending
       expired: Expired
       remove: Remove
+    connected_agents:
+      whole_account: Reaches your whole account
+      devices:
+        one: 1 device
+        other: "%{count} devices"
+      plugin_settings:
+        one: 1 plugin setting
+        other: "%{count} plugin settings"
+      edit_access: Edit access
+      capabilities_fixed: To change what it can do, revoke it and connect it again.
+      access_saved: The agent's access is saved.
+      title: Connected agents
+      hint: Apps you signed in to your account through TRMNL. Revoking one signs it out at once; it can ask again.
+      last_active: Last active %{time} ago
+      revoke: Revoke
+      revoke_confirm: "%{name} loses access to your account now. Continue?"
+      revoked: The agent no longer has access to your account.
   dashboard:
     index:
       title: Oversikt
@@ -426,6 +443,7 @@
           render_running: because its plugin is rendering now
           schedule_boundary: when a schedule window opens or closes
           sibling_render: when another playlist item updates
+        next_check_in_due: Check-in due any moment.
       battery_estimate: 'Estimated battery life at this setting: %{days} days'
       refreshing_screen_disabled: Hide Refreshing Screen
       refreshing_screen_disabled_hint: Keep the current screen while a refresh renders instead of showing the "Catching you up" screen. After a refresh press nothing changes until the new screen is ready.
@@ -1464,12 +1482,81 @@
       tagline: Room schedules on your displays, with walk-up QR booking.
     fleet:
       tagline: Mirror one device's screen and settings across many displays.
+      check_ins:
+        overdue: Check-in overdue since %{at}
+        due: Check-in due any moment
+        on_time: Next check-in %{at}
+        asleep: Asleep, next check-in %{at}
+        never_seen: Never checked in
+        last_ping: last ping %{ago}
+      overview:
+        check_ins: Check-ins
+        overdue: Overdue
+        on_time: On time
+        asleep: Asleep
+        lowest_battery: Lowest battery
+        overdue_explainer: A device is overdue when it misses the check-in it told us to expect. Sleeping devices never count.
+        needs_attention: Needs attention
+        all_on_time: Every device checked in on time.
+        manage_devices: Manage devices
+        last_push: Last push
+        needs_push: Needs push
+        never_pushed: Never
+      devices:
+        heading: Devices
+        empty: No devices yet. Add one below.
+        select_all: Select all
+        add_to_fleet: Add to fleet
+        added:
+          one: 1 device added to the fleet.
+          other: "%{count} devices added to the fleet."
+        not_added: 'Could not add %{names}: already in a fleet or using legacy mirroring.'
+        none_selected: Check at least one device to add.
+      alerts:
+        title: Check-in alerts
+        description: One email per fleet listing every overdue device. A device is reported once per outage, and again after it checks in and goes quiet once more.
+        enabled: Email me when a device is overdue
+        threshold: Overdue by more than
+        threshold_help: On top of each device's own expected time.
+        thresholds:
+          '30': 30 minutes
+          '60': 1 hour
+          '240': 4 hours
+        email: Send to
+        email_help: Leave blank to use your account email.
+        save: Save alerts
+        saved: Check-in alerts saved.
+      digest:
+        subject:
+          one: 1 device in your fleet is overdue
+          other: "%{count} devices in your fleet are overdue"
+        intro: These devices missed the check-in they told us to expect by more than %{threshold}. Low battery and weak Wi-Fi are the usual reasons. A device with a healthy battery that went quiet is worth walking to.
+        row: "%{name}: expected %{expected}, last ping %{last_ping}, %{battery} battery, Wi-Fi %{wifi}."
+        open_fleet: Open fleet
+        footer: You get this because check-in alerts are on for this fleet. Turn them off in Fleet › Settings.
   mashups:
     mashup:
       add_to_playlist: Add to playlist
     update:
       success: Mashup updated
       error: Every section needs a plugin — pick one for each and save again.
+    health_status_banner:
+      degraded_short: This mashup is in a degraded state.
+      degraded_long: Mashup renders are failing. Check its plugins to keep the refresh from stopping.
+      erroring_short: This mashup has stopped refreshing.
+      erroring_long: Mashup renders kept failing, so its refresh stopped. Fix its plugins and reset its health.
+      reset_health: Reset Health
+    edit:
+      title: Configure %{name} Mashup
+      back_to_playlist: Back to Playlist
+      description: "%{layout} mashup"
+      health_notifications_hint: Get an email when this mashup's renders start failing or stop. At most one email per state per incident; alerts re-arm once the mashup is healthy again.
+      health_notifications_checkbox: Email me when this mashup becomes unhealthy
+      refresh_rate_hint: Renders %{refresh_rate}, set by the fastest of its plugins.
+      remove: Remove mashup
+      remove_hint: Removing a mashup takes it off your playlist. Its plugins stay installed.
+    new:
+      title: New mashup
   playlist_coverage:
     title: Playlist coverage
     your_timezone: your timezone
@@ -1816,6 +1903,14 @@
         request_render: Requested a render
         next_screen_change: Checked the next screen change
         extended_refresh_rate: Selected the next wake interval
+      values:
+        'yes': 'yes'
+        'no': 'no'
+      units:
+        days: d
+        hours: h
+        minutes: min
+        seconds: s
     show:
       title: Timeline
       link_title: Timeline
@@ -1951,3 +2046,40 @@
         redirect: Redirect sent to device
         empty_state: Caught-up screen sent — nothing new to show
         no_content: Caught-up screen sent — still nothing to show, so the device will check back less often to save battery
+    next_check_in_due: Check-in due any moment.
+  mcp_oauth:
+    account_feature_off: Connecting an app to your whole account is not open on your account yet.
+  doorkeeper:
+    scopes:
+      read: Read your devices and their logs, playlists, plugin settings and private plugin files
+      write: Change your devices, playlists, plugin settings and markup
+      content: Change your markup, plugin settings, playlists and mashups, install recipes and push images
+      devices: Change your device settings and identify a device
+      delete: Delete plugin settings and playlist items, and clear a device playlist
+      openid: Sign you in
+      email: See your email address
+      profile: See and change your name, time zone and display settings
+    authorizations:
+      new:
+        can_reach: 'It can reach:'
+        none_ticked: Tick at least one thing it may do, or choose Don't allow.
+        title: Connect an app to your account
+        prompt: "%{client_name} wants to use your TRMNL account."
+        able_to: 'It will be able to:'
+      buttons:
+        authorize: Allow
+        deny: Don't allow
+  agent_grants:
+    picker:
+      whole_account: Whole account
+      only_these: Only these
+      devices: Devices
+      plugin_settings: Plugin settings
+      none_picked: Pick at least one device or plugin setting, or choose the whole account.
+  connected_agents:
+    edit:
+      title: "%{name} access"
+      can_do: What it can do
+      can_reach: What it can reach
+      save: Save
+      cancel: Cancel
