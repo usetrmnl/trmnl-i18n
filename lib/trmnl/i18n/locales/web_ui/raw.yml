@@ -197,6 +197,8 @@ raw:
       avg_cost_per_plugin: account.ai_agent_settings.avg_cost_per_plugin
       cache: account.ai_agent_settings.cache
       cost_by_model: account.ai_agent_settings.cost_by_model
+      model_locked: account.ai_agent_settings.model_locked
+      router_locked: account.ai_agent_settings.router_locked
     shared_accounts:
       title: account.shared_accounts.title
       hint: account.shared_accounts.hint
@@ -621,6 +623,8 @@ raw:
       workspace_ready: markups.visual_editor.workspace_ready
       zoom_in: markups.visual_editor.zoom_in
       zoom_out: markups.visual_editor.zoom_out
+    ai_assistant_inline:
+      model_locked: markups.ai_assistant_inline.model_locked
   mfa:
     disable_otp:
       success: mfa.disable_otp.success
