@@ -197,6 +197,8 @@ de:
       avg_cost_per_plugin: Ø Kosten / Erweiterung
       cache: 'Cache: %{read} gelesen / %{created} erstellt'
       cost_by_model: Kosten nach Modell
+      model_locked: 'Your AI model is set by TRMNL: %{model}.'
+      router_locked: Works with all models. TRMNL sends Claude models through %{router} for your account.
     shared_accounts:
       title: Mit dir geteilte Konten
       hint: Wähle ein Konto aus, dessen Geräte, Wiedergabelisten und Erweiterungen du verwalten willst, oder verlasse es wieder.
@@ -620,6 +622,8 @@ de:
       workspace_ready: Dein Arbeitsbereich ist so eingerichtet, wie du es magst.
       zoom_in: Vergrößern
       zoom_out: Verkleinern
+    ai_assistant_inline:
+      model_locked: Your AI model is set by TRMNL
   mfa:
     disable_otp:
       success: 2FA abgeschaltet

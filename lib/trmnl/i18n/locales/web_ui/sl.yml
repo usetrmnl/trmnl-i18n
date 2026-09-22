@@ -219,6 +219,8 @@ sl:
       avg_cost_per_plugin: Povp. strošek / vtičnik
       cache: 'Predpomnilnik: %{read} prebranih / %{created} ustvarjenih'
       cost_by_model: Stroški po modelu
+      model_locked: 'Your AI model is set by TRMNL: %{model}.'
+      router_locked: Works with all models. TRMNL sends Claude models through %{router} for your account.
     shared_accounts:
       title: Računi, deljeni z vami
       hint: Izberite račun za upravljanje njegovih naprav, seznamov predvajanja in vtičnikov, ali ga zapustite.
@@ -646,6 +648,8 @@ sl:
       workspace_ready: Vaš delovni prostor je nastavljen po vaših željah.
       zoom_in: Približaj
       zoom_out: Oddalji
+    ai_assistant_inline:
+      model_locked: Your AI model is set by TRMNL
   mfa:
     disable_otp:
       success: 2FA onemogočen
