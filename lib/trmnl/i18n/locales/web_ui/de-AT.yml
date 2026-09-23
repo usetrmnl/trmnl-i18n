@@ -1499,8 +1499,8 @@ de-AT:
         asleep: Schläft
         lowest_battery: Niedrigster Akkustand
         overdue_explainer: Ein Gerät gilt als überfällig, wenn es den Check-in verpasst, den es uns angekündigt hat. Schlafende Geräte zählen nie dazu.
-        needs_attention: Braucht Aufmerksamkeit
-        all_on_time: Jedes Gerät hat sich pünktlich eingecheckt.
+        needs_attention: Bitte überprüfen
+        all_on_time: Jedes Gerät hat pünktlich eingecheckt.
         manage_devices: Geräte verwalten
         last_push: Letzter Push
         needs_push: Braucht Push
@@ -1533,7 +1533,7 @@ de-AT:
         subject:
           one: 1 Gerät in deiner Flotte ist überfällig
           other: "%{count} Geräte in deiner Flotte sind überfällig"
-        intro: Diese Geräte haben den angekündigten Check-in um mehr als %{threshold} verpasst. Niedriger Akkustand und schwaches WLAN sind die üblichen Gründe. Bei einem Gerät mit gutem Akkustand, das verstummt ist, lohnt sich ein Blick vor Ort.
+        intro: Diese Geräte haben den angekündigten Check-in um mehr als %{threshold} verpasst. Niedriger Akkustand und schwaches WLAN sind die üblichen Gründe. Bei einem Gerät mit gutem Akkustand, das sich nicht mehr meldet, lohnt sich ein Blick vor Ort.
         row: "%{name}: erwartet %{expected}, letzter Ping %{last_ping}, Akku %{battery}, WLAN %{wifi}."
         open_fleet: Flotte öffnen
         footer: Du erhältst diese E-Mail, weil Check-in-Benachrichtigungen für diese Flotte aktiviert sind. Du kannst sie unter Flotte › Einstellungen deaktivieren.
@@ -1547,7 +1547,7 @@ de-AT:
       degraded_short: Dieses Mashup befindet sich in einem beeinträchtigten Zustand.
       degraded_long: Mashup-Renderings schlagen fehl. Überprüfe seine Erweiterungen, damit die Aktualisierung nicht stoppt.
       erroring_short: Dieses Mashup aktualisiert sich nicht mehr.
-      erroring_long: Mashup-Renderings sind wiederholt fehlgeschlagen, daher wurde die Aktualisierung gestoppt. Behebe seine Erweiterungen und setze seinen Zustand zurück.
+      erroring_long: Mashup-Renderings sind wiederholt fehlgeschlagen, daher wurde die Aktualisierung gestoppt. Behebe Probleme bei den Erweiterungen und setze dann den Zustand zurück.
       reset_health: Zustand zurücksetzen
     edit:
       title: "%{name}-Mashup konfigurieren"
