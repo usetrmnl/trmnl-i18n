@@ -127,7 +127,7 @@ en-GB:
       api_key_label: The credential for authenticating local development tools
       api_key_not_generated: "(none yet)"
       api_key_reset: Regenerate
-      api_key: API Key
+      api_key: Legacy account API key
       beta_features: Beta Features
       beta_features_hint: Try out new stuff here. Options may disappear at any time.
       discord_community: Discord Community
@@ -227,11 +227,37 @@ en-GB:
       capabilities_fixed: To change what it can do, revoke it and connect it again.
       access_saved: The agent's access is saved.
       title: Connected agents
-      hint: Apps you signed in to your account through TRMNL. Revoking one signs it out at once; it can ask again.
+      hint: Apps signed in to your account. Revoke one to sign it out.
       last_active: Last active %{time} ago
       revoke: Revoke
       revoke_confirm: "%{name} loses access to your account now. Continue?"
       revoked: The agent no longer has access to your account.
+      reaches_nothing: Reaches nothing; the devices and plugin settings it was given are gone
+    capability_names:
+      read: Read
+      write: Write
+      content: Content
+      devices: Devices
+      delete: Delete
+      profile: Profile
+      apps: Apps
+      openid: Sign in
+      email: Email
+    api_keys:
+      title: Account API keys
+      hint: One key per script, so you can revoke it alone.
+      new: New account API key
+      copy_now: Copy this key now. You cannot see it again.
+      created: Account API key created.
+      revoked: Account API key revoked.
+      last_used: last used %{time} ago
+      never_used: not used yet
+      access_saved: The key's access is saved.
+      revoke: Revoke
+      revoke_confirm: Revoke %{name}? Anything that uses this key stops working.
+      name: Name
+      create: Create account API key
+      legacy_hint: Legacy key. It reaches only its original endpoints; for anything newer, create an account API key below.
   dashboard:
     index:
       title: Dashboard
@@ -449,6 +475,8 @@ en-GB:
       battery_estimate: 'Estimated battery life at this setting: %{days} days'
       refreshing_screen_disabled: Hide Refreshing Screen
       refreshing_screen_disabled_hint: Keep the current screen while a refresh renders instead of showing the "Catching you up" screen. After a refresh press nothing changes until the new screen is ready.
+      sleep_until: Sleep once
+      sleep_until_hint: At its next check-in the device goes to sleep until this time. Press its button to wake it sooner. If it is not asleep yet, clear the field to cancel.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -941,6 +969,9 @@ en-GB:
       learn_more_recipe_long: This plugin is a community Recipe and is not maintained by TRMNL.
       learn_more_third_party_short: 'Note: this plugin is by a 3rd party.'
       learn_more_third_party_long: This plugin is by a 3rd party and not maintained by TRMNL.
+      polling_inherited_hint: Blank, so the recipe author's value is used. Fill it in to use your own; set your own URL and the author's headers and body no longer apply.
+      refresh_rate_floor_by_author: The recipe author limits installs to %{refresh_rate}.
+      refresh_rate_floor_by_owner: Limited to %{refresh_rate} by the "Fastest refresh rate" setting below.
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
@@ -2040,6 +2071,7 @@ en-GB:
         no_document_changed: no change in the page it renders
         data_not_refetched: cached data reused, no fetch was due
         mirrors_master: mirrors its master's screens
+        fetch_timeout: the source did not answer in time
       serve_statuses:
         served: Screen sent to device
         alias: Alias image sent to device
@@ -2067,13 +2099,14 @@ en-GB:
         title: Connect an app to your account
         prompt: "%{client_name} wants to use your TRMNL account."
         able_to: 'It will be able to:'
+        returns_to: You return to %{host} after you choose.
       buttons:
         authorize: Allow
         deny: Don't allow
   agent_grants:
     picker:
-      whole_account: Whole account
-      only_these: Only these
+      whole_account: Whole account (no limit)
+      only_these: Only specific devices and plugin settings
       devices: Devices
       plugin_settings: Plugin settings
       none_picked: Pick at least one device or plugin setting, or choose the whole account.
@@ -2081,8 +2114,29 @@ en-GB:
     edit:
       title: "%{name} access"
       can_do: What it can do
-      can_reach: What it can reach
+      can_reach: Access control
       save: Save
       cancel: Cancel
   interactive_render_allowance:
     exhausted: This account has used its renders for the hour. Try again in a little while.
+  developer_apps:
+    title: Developer apps
+    hint: Let people connect your app to their TRMNL account.
+    register: Register an app
+    name: App name
+    redirect_uri: Redirect URIs
+    redirect_uri_hint: One per line. https only, except localhost.
+    public_client: A mobile, desktop or single-page app that cannot keep a secret
+    client_id: Client ID
+    client_secret: Client secret
+    how_to_connect_html: Send people through the authorization code flow with PKCE, then call the API with the access token. <a href="%{docs_url}" class="underline" target="_blank">See the docs</a>.
+    connections:
+      zero: no connections yet
+      one: 1 connection
+      other: "%{count} connections"
+    created: App registered.
+    deleted: App deleted. Every connection it held is revoked.
+    delete: Delete app
+    delete_confirm: Delete %{name}? Everyone who connected it loses the connection.
+    device_required: Developer apps need a TRMNL device on your account.
+    manage: Manage developer apps
