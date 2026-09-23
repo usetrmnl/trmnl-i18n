@@ -197,8 +197,8 @@ de:
       avg_cost_per_plugin: Ø Kosten / Erweiterung
       cache: 'Cache: %{read} gelesen / %{created} erstellt'
       cost_by_model: Kosten nach Modell
-      model_locked: 'Your AI model is set by TRMNL: %{model}.'
-      router_locked: Works with all models. TRMNL sends Claude models through %{router} for your account.
+      model_locked: 'Dein KI-Modell wird von TRMNL festgelegt: %{model}.'
+      router_locked: Funktioniert mit allen Modellen. TRMNL leitet Claude-Modelle für dein Konto über %{router}.
     shared_accounts:
       title: Mit dir geteilte Konten
       hint: Wähle ein Konto aus, dessen Geräte, Wiedergabelisten und Erweiterungen du verwalten willst, oder verlasse es wieder.
@@ -216,22 +216,22 @@ de:
       expired: Abgelaufen
       remove: Entfernen
     connected_agents:
-      whole_account: Reaches your whole account
+      whole_account: Hat Zugriff auf dein gesamtes Konto
       devices:
-        one: 1 device
-        other: "%{count} devices"
+        one: 1 Gerät
+        other: "%{count} Geräte"
       plugin_settings:
-        one: 1 plugin setting
-        other: "%{count} plugin settings"
-      edit_access: Edit access
-      capabilities_fixed: To change what it can do, revoke it and connect it again.
-      access_saved: The agent's access is saved.
-      title: Connected agents
-      hint: Apps you signed in to your account through TRMNL. Revoking one signs it out at once; it can ask again.
-      last_active: Last active %{time} ago
-      revoke: Revoke
-      revoke_confirm: "%{name} loses access to your account now. Continue?"
-      revoked: The agent no longer has access to your account.
+        one: 1 Erweiterungs-Einstellung
+        other: "%{count} Erweiterungs-Einstellungen"
+      edit_access: Zugriff bearbeiten
+      capabilities_fixed: Um zu ändern, was er darf, widerrufe ihn und verbinde ihn erneut.
+      access_saved: Der Zugriff des Agents wurde gespeichert.
+      title: Verbundene Agenten
+      hint: Apps, bei denen du dich über TRMNL in deinem Konto angemeldet hast. Ein Widerruf meldet die App sofort ab; sie kann danach erneut fragen.
+      last_active: Zuletzt aktiv vor %{time}
+      revoke: Widerrufen
+      revoke_confirm: "%{name} verliert jetzt den Zugriff auf dein Konto. Fortfahren?"
+      revoked: Der Agent hat keinen Zugriff mehr auf dein Konto.
   dashboard:
     index:
       title: Übersicht
@@ -623,7 +623,7 @@ de:
       zoom_in: Vergrößern
       zoom_out: Verkleinern
     ai_assistant_inline:
-      model_locked: Your AI model is set by TRMNL
+      model_locked: Dein KI-Modell wird von TRMNL festgelegt
   mfa:
     disable_otp:
       success: 2FA abgeschaltet
@@ -1051,7 +1051,7 @@ de:
         device:
           attributes:
             sleep_end_time:
-              same_as_start: must differ from the start time, or the device would never sleep
+              same_as_start: muss sich vom Startzeitpunkt unterscheiden, da das Gerät sonst nie schlafen würde
   apps:
     core:
       public:
@@ -1486,57 +1486,57 @@ de:
     fleet:
       tagline: Spiegle Bildschirm und Einstellungen eines Geräts auf viele Displays.
       check_ins:
-        overdue: Check-in overdue since %{at}
-        due: Check-in due any moment
-        on_time: Next check-in %{at}
-        asleep: Asleep, next check-in %{at}
-        never_seen: Never checked in
-        last_ping: last ping %{ago}
+        overdue: Check-in überfällig seit %{at}
+        due: Check-in steht jeden Moment bevor
+        on_time: Nächster Check-in %{at}
+        asleep: Schläft, nächster Check-in %{at}
+        never_seen: Noch nie eingecheckt
+        last_ping: letzter Ping vor %{ago}
       overview:
         check_ins: Check-ins
-        overdue: Overdue
-        on_time: On time
-        asleep: Asleep
-        lowest_battery: Lowest battery
-        overdue_explainer: A device is overdue when it misses the check-in it told us to expect. Sleeping devices never count.
-        needs_attention: Needs attention
-        all_on_time: Every device checked in on time.
-        manage_devices: Manage devices
-        last_push: Last push
-        needs_push: Needs push
-        never_pushed: Never
+        overdue: Überfällig
+        on_time: Pünktlich
+        asleep: Schläft
+        lowest_battery: Niedrigster Akkustand
+        overdue_explainer: Ein Gerät gilt als überfällig, wenn es den Check-in verpasst, den es uns angekündigt hat. Schlafende Geräte zählen nie dazu.
+        needs_attention: Braucht Aufmerksamkeit
+        all_on_time: Jedes Gerät hat sich pünktlich eingecheckt.
+        manage_devices: Geräte verwalten
+        last_push: Letzter Push
+        needs_push: Braucht Push
+        never_pushed: Nie
       devices:
-        heading: Devices
-        empty: No devices yet. Add one below.
-        select_all: Select all
-        add_to_fleet: Add to fleet
+        heading: Geräte
+        empty: Noch keine Geräte. Füge unten eines hinzu.
+        select_all: Alle auswählen
+        add_to_fleet: Zur Flotte hinzufügen
         added:
-          one: 1 device added to the fleet.
-          other: "%{count} devices added to the fleet."
-        not_added: 'Could not add %{names}: already in a fleet or using legacy mirroring.'
-        none_selected: Check at least one device to add.
+          one: 1 Gerät zur Flotte hinzugefügt.
+          other: "%{count} Geräte zur Flotte hinzugefügt."
+        not_added: "%{names} konnte(n) nicht hinzugefügt werden: bereits in einer Flotte oder nutzt die alte Spiegelung."
+        none_selected: Wähle mindestens ein Gerät zum Hinzufügen aus.
       alerts:
-        title: Check-in alerts
-        description: One email per fleet listing every overdue device. A device is reported once per outage, and again after it checks in and goes quiet once more.
-        enabled: Email me when a device is overdue
-        threshold: Overdue by more than
-        threshold_help: On top of each device's own expected time.
+        title: Check-in-Benachrichtigungen
+        description: Eine E-Mail pro Flotte mit einer Liste aller überfälligen Geräte. Ein Gerät wird einmal pro Ausfall gemeldet, und erneut, nachdem es sich eingecheckt hat und danach wieder verstummt.
+        enabled: Per E-Mail benachrichtigen, wenn ein Gerät überfällig ist
+        threshold: Überfällig um mehr als
+        threshold_help: Zusätzlich zur individuell erwarteten Zeit jedes Geräts.
         thresholds:
-          '30': 30 minutes
-          '60': 1 hour
-          '240': 4 hours
-        email: Send to
-        email_help: Leave blank to use your account email.
-        save: Save alerts
-        saved: Check-in alerts saved.
+          '30': 30 Minuten
+          '60': 1 Stunde
+          '240': 4 Stunden
+        email: Senden an
+        email_help: Leer lassen, um die Kontoadresse zu verwenden.
+        save: Benachrichtigungen speichern
+        saved: Check-in-Benachrichtigungen gespeichert.
       digest:
         subject:
-          one: 1 device in your fleet is overdue
-          other: "%{count} devices in your fleet are overdue"
-        intro: These devices missed the check-in they told us to expect by more than %{threshold}. Low battery and weak Wi-Fi are the usual reasons. A device with a healthy battery that went quiet is worth walking to.
-        row: "%{name}: expected %{expected}, last ping %{last_ping}, %{battery} battery, Wi-Fi %{wifi}."
-        open_fleet: Open fleet
-        footer: You get this because check-in alerts are on for this fleet. Turn them off in Fleet › Settings.
+          one: 1 Gerät in deiner Flotte ist überfällig
+          other: "%{count} Geräte in deiner Flotte sind überfällig"
+        intro: Diese Geräte haben den angekündigten Check-in um mehr als %{threshold} verpasst. Niedriger Akkustand und schwaches WLAN sind die üblichen Gründe. Bei einem Gerät mit gutem Akkustand, das verstummt ist, lohnt sich ein Blick vor Ort.
+        row: "%{name}: erwartet %{expected}, letzter Ping %{last_ping}, Akku %{battery}, WLAN %{wifi}."
+        open_fleet: Flotte öffnen
+        footer: Du erhältst diese E-Mail, weil Check-in-Benachrichtigungen für diese Flotte aktiviert sind. Du kannst sie unter Flotte › Einstellungen deaktivieren.
   mashups:
     mashup:
       add_to_playlist: Zur Wiedergabeliste hinzufügen
@@ -1544,22 +1544,22 @@ de:
       success: Mashup aktualisiert
       error: Jeder Abschnitt braucht eine Erweiterung — wähle für jeden eine aus und speichere erneut.
     health_status_banner:
-      degraded_short: This mashup is in a degraded state.
-      degraded_long: Mashup renders are failing. Check its plugins to keep the refresh from stopping.
-      erroring_short: This mashup has stopped refreshing.
-      erroring_long: Mashup renders kept failing, so its refresh stopped. Fix its plugins and reset its health.
-      reset_health: Reset Health
+      degraded_short: Dieses Mashup befindet sich in einem beeinträchtigten Zustand.
+      degraded_long: Mashup-Renderings schlagen fehl. Überprüfe seine Erweiterungen, damit die Aktualisierung nicht stoppt.
+      erroring_short: Dieses Mashup aktualisiert sich nicht mehr.
+      erroring_long: Mashup-Renderings sind wiederholt fehlgeschlagen, daher wurde die Aktualisierung gestoppt. Behebe seine Erweiterungen und setze seinen Zustand zurück.
+      reset_health: Zustand zurücksetzen
     edit:
-      title: Configure %{name} Mashup
-      back_to_playlist: Back to Playlist
-      description: "%{layout} mashup"
-      health_notifications_hint: Get an email when this mashup's renders start failing or stop. At most one email per state per incident; alerts re-arm once the mashup is healthy again.
-      health_notifications_checkbox: Email me when this mashup becomes unhealthy
-      refresh_rate_hint: Renders %{refresh_rate}, set by the fastest of its plugins.
-      remove: Remove mashup
-      remove_hint: Removing a mashup takes it off your playlist. Its plugins stay installed.
+      title: "%{name}-Mashup konfigurieren"
+      back_to_playlist: Zurück zur Wiedergabeliste
+      description: "%{layout}-Mashup"
+      health_notifications_hint: Erhalte eine E-Mail, wenn die Renderings dieses Mashups zu scheitern beginnen oder stoppen. Höchstens eine E-Mail pro Zustand und Vorfall; die Benachrichtigung wird erst wieder aktiv, sobald das Mashup wieder gesund ist.
+      health_notifications_checkbox: Per E-Mail benachrichtigen, wenn dieses Mashup ungesund wird
+      refresh_rate_hint: Rendert %{refresh_rate}, festgelegt durch die schnellste seiner Erweiterungen.
+      remove: Mashup entfernen
+      remove_hint: Das Entfernen eines Mashups nimmt es von deiner Wiedergabeliste. Seine Erweiterungen bleiben installiert.
     new:
-      title: New mashup
+      title: Neues Mashup
   playlist_coverage:
     title: Wiedergabelisten-Abdeckung
     your_timezone: deine Zeitzone
