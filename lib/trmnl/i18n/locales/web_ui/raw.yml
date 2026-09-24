@@ -231,6 +231,32 @@ raw:
       revoke: account.connected_agents.revoke
       revoke_confirm: account.connected_agents.revoke_confirm
       revoked: account.connected_agents.revoked
+      reaches_nothing: account.connected_agents.reaches_nothing
+    capability_names:
+      read: account.capability_names.read
+      write: account.capability_names.write
+      content: account.capability_names.content
+      devices: account.capability_names.devices
+      delete: account.capability_names.delete
+      profile: account.capability_names.profile
+      apps: account.capability_names.apps
+      openid: account.capability_names.openid
+      email: account.capability_names.email
+    api_keys:
+      title: account.api_keys.title
+      hint: account.api_keys.hint
+      new: account.api_keys.new
+      copy_now: account.api_keys.copy_now
+      created: account.api_keys.created
+      revoked: account.api_keys.revoked
+      last_used: account.api_keys.last_used
+      never_used: account.api_keys.never_used
+      access_saved: account.api_keys.access_saved
+      revoke: account.api_keys.revoke
+      revoke_confirm: account.api_keys.revoke_confirm
+      name: account.api_keys.name
+      create: account.api_keys.create
+      legacy_hint: account.api_keys.legacy_hint
   dashboard:
     index:
       title: dashboard.index.title
@@ -448,6 +474,8 @@ raw:
       battery_estimate: devices.edit.battery_estimate
       refreshing_screen_disabled: devices.edit.refreshing_screen_disabled
       refreshing_screen_disabled_hint: devices.edit.refreshing_screen_disabled_hint
+      sleep_until: devices.edit.sleep_until
+      sleep_until_hint: devices.edit.sleep_until_hint
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -726,6 +754,7 @@ raw:
     refresh:
       success: playlist_items.refresh.success
       placeholder: playlist_items.refresh.placeholder
+      global: playlist_items.refresh.global
     status:
       error: playlist_items.status.error
       setup: playlist_items.status.setup
@@ -940,6 +969,9 @@ raw:
       learn_more_recipe_long: plugin_settings.form.learn_more_recipe_long
       learn_more_third_party_short: plugin_settings.form.learn_more_third_party_short
       learn_more_third_party_long: plugin_settings.form.learn_more_third_party_long
+      polling_inherited_hint: plugin_settings.form.polling_inherited_hint
+      refresh_rate_floor_by_author: plugin_settings.form.refresh_rate_floor_by_author
+      refresh_rate_floor_by_owner: plugin_settings.form.refresh_rate_floor_by_owner
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -2037,6 +2069,7 @@ raw:
         no_document_changed: timelines.activity.render_reasons.no_document_changed
         data_not_refetched: timelines.activity.render_reasons.data_not_refetched
         mirrors_master: timelines.activity.render_reasons.mirrors_master
+        fetch_timeout: timelines.activity.render_reasons.fetch_timeout
       serve_statuses:
         served: timelines.activity.serve_statuses.served
         alias: timelines.activity.serve_statuses.alias
@@ -2064,6 +2097,7 @@ raw:
         title: doorkeeper.authorizations.new.title
         prompt: doorkeeper.authorizations.new.prompt
         able_to: doorkeeper.authorizations.new.able_to
+        returns_to: doorkeeper.authorizations.new.returns_to
       buttons:
         authorize: doorkeeper.authorizations.buttons.authorize
         deny: doorkeeper.authorizations.buttons.deny
@@ -2083,3 +2117,24 @@ raw:
       cancel: connected_agents.edit.cancel
   interactive_render_allowance:
     exhausted: interactive_render_allowance.exhausted
+  developer_apps:
+    title: developer_apps.title
+    hint: developer_apps.hint
+    register: developer_apps.register
+    name: developer_apps.name
+    redirect_uri: developer_apps.redirect_uri
+    redirect_uri_hint: developer_apps.redirect_uri_hint
+    public_client: developer_apps.public_client
+    client_id: developer_apps.client_id
+    client_secret: developer_apps.client_secret
+    how_to_connect_html: developer_apps.how_to_connect_html
+    connections:
+      zero: developer_apps.connections.zero
+      one: developer_apps.connections.one
+      other: developer_apps.connections.other
+    created: developer_apps.created
+    deleted: developer_apps.deleted
+    delete: developer_apps.delete
+    delete_confirm: developer_apps.delete_confirm
+    device_required: developer_apps.device_required
+    manage: developer_apps.manage
