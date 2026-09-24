@@ -126,7 +126,7 @@ de-AT:
       api_key_hint: Lies in der __Dokumentation__ nach, wie du deine eigene Entwicklungsumgebung aufsetzt.
       api_key_not_generated: "(bisher keiner)"
       api_key_reset: Neu generieren
-      api_key: API-Schlüssel
+      api_key: Legacy account API key
       beta_features: Beta-Funktionen
       beta_features_hint: Teste neueste Funktionen. Die Optionen hier können jederzeit verschwinden.
       discord_community: Discord-Gemeinschaft
@@ -226,11 +226,37 @@ de-AT:
       capabilities_fixed: Um zu ändern, was er darf, widerrufe ihn und verbinde ihn erneut.
       access_saved: Der Zugriff des Agents wurde gespeichert.
       title: Verbundene Agenten
-      hint: Apps, bei denen du dich über TRMNL in deinem Konto angemeldet hast. Ein Widerruf meldet die App sofort ab; sie kann danach erneut fragen.
+      hint: Apps signed in to your account. Revoke one to sign it out.
       last_active: Zuletzt aktiv vor %{time}
       revoke: Widerrufen
       revoke_confirm: "%{name} verliert jetzt den Zugriff auf dein Konto. Fortfahren?"
       revoked: Der Agent hat keinen Zugriff mehr auf dein Konto.
+      reaches_nothing: Reaches nothing; the devices and plugin settings it was given are gone
+    capability_names:
+      read: Read
+      write: Write
+      content: Content
+      devices: Devices
+      delete: Delete
+      profile: Profile
+      apps: Apps
+      openid: Sign in
+      email: Email
+    api_keys:
+      title: Account API keys
+      hint: One key per script, so you can revoke it alone.
+      new: New account API key
+      copy_now: Copy this key now. You cannot see it again.
+      created: Account API key created.
+      revoked: Account API key revoked.
+      last_used: last used %{time} ago
+      never_used: not used yet
+      access_saved: The key's access is saved.
+      revoke: Revoke
+      revoke_confirm: Revoke %{name}? Anything that uses this key stops working.
+      name: Name
+      create: Create account API key
+      legacy_hint: Legacy key. It reaches only its original endpoints; for anything newer, create an account API key below.
   dashboard:
     index:
       title: Übersicht
@@ -448,6 +474,8 @@ de-AT:
       battery_estimate: 'Geschätzte Akkulaufzeit bei dieser Einstellung: %{days} Tage'
       refreshing_screen_disabled: Aktualisierungsbildschirm ausblenden
       refreshing_screen_disabled_hint: Zeigt während eines Aktualisierungs-Renderings weiterhin den aktuellen Bildschirm an, statt den Bildschirm „Catching you up“ zu zeigen. Nach einem Aktualisierungs-Tastendruck ändert sich nichts, bis der neue Bildschirm bereit ist.
+      sleep_until: Sleep once
+      sleep_until_hint: At its next check-in the device goes to sleep until this time. Press its button to wake it sooner. If it is not asleep yet, clear the field to cancel.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Deaktiviert für gespiegelte TRMNLs. Verwalte Empfehlungen stattdessen auf dem Hauptgerät.
@@ -725,6 +753,7 @@ de-AT:
     refresh:
       success: Wird jetzt aktualisiert — die Vorschau aktualisiert sich, sobald das Rendering fertig ist
       placeholder: Konfiguriere diesen Wiedergabelisten-Eintrag, bevor du ihn aktualisierst
+      global: A global plugin renders on its own schedule for everyone.
     status:
       error: Wird nicht aktualisiert
       setup: Einrichtung erforderlich
@@ -939,6 +968,9 @@ de-AT:
       learn_more_recipe_long: Diese Erweiterung ist eine Community-Blaupause und wird nicht von TRMNL gewartet.
       learn_more_third_party_short: 'Hinweis: Diese Erweiterung stammt von einem Drittanbieter.'
       learn_more_third_party_long: Diese Erweiterung stammt von einem Drittanbieter und wird nicht von TRMNL gewartet.
+      polling_inherited_hint: Blank, so the recipe author's value is used. Fill it in to use your own; set your own URL and the author's headers and body no longer apply.
+      refresh_rate_floor_by_author: The recipe author limits installs to %{refresh_rate}.
+      refresh_rate_floor_by_owner: Limited to %{refresh_rate} by the "Fastest refresh rate" setting below.
     import:
       archive_too_large: ZIP-Datei ist zu groß (maximal %{max_mb} MB)
       missing_entry: Die ZIP-Datei enthält nicht %{filename}
@@ -2038,6 +2070,7 @@ de-AT:
         no_document_changed: keine Änderung an der gerenderten Seite
         data_not_refetched: zwischengespeicherte Daten wiederverwendet, kein Abruf war fällig
         mirrors_master: spiegelt die Anzeigen seines Hauptgeräts
+        fetch_timeout: the source did not answer in time
       serve_statuses:
         served: Anzeige an Gerät gesendet
         alias: Alias-Bild an Gerät gesendet
@@ -2065,13 +2098,14 @@ de-AT:
         title: Eine App mit deinem Konto verbinden
         prompt: "%{client_name} möchte dein TRMNL-Konto verwenden."
         able_to: 'Sie wird Folgendes können:'
+        returns_to: You return to %{host} after you choose.
       buttons:
         authorize: Erlauben
         deny: Nicht erlauben
   agent_grants:
     picker:
-      whole_account: Gesamtes Konto
-      only_these: Nur diese
+      whole_account: Whole account (no limit)
+      only_these: Only specific devices and plugin settings
       devices: Geräte
       plugin_settings: Erweiterungs-Einstellungen
       none_picked: Wähle mindestens ein Gerät oder eine Erweiterungs-Einstellung aus, oder wähle das gesamte Konto.
@@ -2079,8 +2113,29 @@ de-AT:
     edit:
       title: "%{name}-Zugriff"
       can_do: Was sie tun kann
-      can_reach: Worauf sie zugreifen kann
+      can_reach: Access control
       save: Speichern
       cancel: Abbrechen
   interactive_render_allowance:
     exhausted: Dieses Konto hat sein Rendering-Kontingent für diese Stunde aufgebraucht. Versuche es in Kürze erneut.
+  developer_apps:
+    title: Developer apps
+    hint: Let people connect your app to their TRMNL account.
+    register: Register an app
+    name: App name
+    redirect_uri: Redirect URIs
+    redirect_uri_hint: One per line. https only, except localhost.
+    public_client: A mobile, desktop or single-page app that cannot keep a secret
+    client_id: Client ID
+    client_secret: Client secret
+    how_to_connect_html: Send people through the authorization code flow with PKCE, then call the API with the access token. <a href="%{docs_url}" class="underline" target="_blank">See the docs</a>.
+    connections:
+      zero: no connections yet
+      one: 1 connection
+      other: "%{count} connections"
+    created: App registered.
+    deleted: App deleted. Every connection it held is revoked.
+    delete: Delete app
+    delete_confirm: Delete %{name}? Everyone who connected it loses the connection.
+    device_required: Developer apps need a TRMNL device on your account.
+    manage: Manage developer apps
