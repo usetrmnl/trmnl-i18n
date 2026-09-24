@@ -1197,6 +1197,7 @@ sl:
         tz: Časovni pas
         walk_up_title: Zasedeno
         billing: Obračunavanje
+        read_only_badge: Read only
       shared:
         back_to_apps: Nazaj na aplikacije
         displays:
@@ -1291,6 +1292,8 @@ sl:
             disabled: Onemogočeno
             enabled: Omogočeno
           upcoming: Prihajajoče
+          read_only: Read only
+          read_only_hint: The connected Google account can only view this calendar. Give it permission to make changes to events to take bookings here.
       collections:
         edit:
           back_to_collection: Nazaj na zbirko
@@ -1620,6 +1623,8 @@ sl:
         row: "%{name}: expected %{expected}, last ping %{last_ping}, %{battery} battery, Wi-Fi %{wifi}."
         open_fleet: Open fleet
         footer: You get this because check-in alerts are on for this fleet. Turn them off in Fleet › Settings.
+    bookings:
+      read_only_booking_error: This calendar is read only. The connected Google account needs permission to make changes to events before it can take bookings.
   mashups:
     mashup:
       add_to_playlist: Dodaj na seznam predvajanja

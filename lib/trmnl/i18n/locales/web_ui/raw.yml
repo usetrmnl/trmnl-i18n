@@ -1155,6 +1155,7 @@ raw:
         tz: apps.room_booking.common.tz
         walk_up_title: apps.room_booking.common.walk_up_title
         billing: apps.room_booking.common.billing
+        read_only_badge: apps.room_booking.common.read_only_badge
       shared:
         back_to_apps: apps.room_booking.shared.back_to_apps
         displays:
@@ -1249,6 +1250,8 @@ raw:
             disabled: apps.room_booking.calendars.show.show_booking_qr_values.disabled
             enabled: apps.room_booking.calendars.show.show_booking_qr_values.enabled
           upcoming: apps.room_booking.calendars.show.upcoming
+          read_only: apps.room_booking.calendars.show.read_only
+          read_only_hint: apps.room_booking.calendars.show.read_only_hint
       collections:
         edit:
           back_to_collection: apps.room_booking.collections.edit.back_to_collection
@@ -1568,6 +1571,8 @@ raw:
         row: apps.fleet.digest.row
         open_fleet: apps.fleet.digest.open_fleet
         footer: apps.fleet.digest.footer
+    bookings:
+      read_only_booking_error: apps.bookings.read_only_booking_error
   mashups:
     mashup:
       add_to_playlist: mashups.mashup.add_to_playlist

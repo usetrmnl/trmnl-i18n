@@ -1154,6 +1154,7 @@ de:
         tz: Zeitzone
         walk_up_title: Belegt
         billing: Abrechnung
+        read_only_badge: Read only
       shared:
         back_to_apps: Zurück zu Apps
         displays:
@@ -1248,6 +1249,8 @@ de:
             disabled: Deaktiviert
             enabled: Aktiviert
           upcoming: Anstehend
+          read_only: Read only
+          read_only_hint: The connected Google account can only view this calendar. Give it permission to make changes to events to take bookings here.
       collections:
         edit:
           back_to_collection: Zurück zur Sammlung
@@ -1569,6 +1572,8 @@ de:
         row: "%{name}: erwartet %{expected}, letzter Ping %{last_ping}, Akku %{battery}, WLAN %{wifi}."
         open_fleet: Flotte öffnen
         footer: Du erhältst diese E-Mail, weil Check-in-Benachrichtigungen für diese Flotte aktiviert sind. Du kannst sie unter Flotte › Einstellungen deaktivieren.
+    bookings:
+      read_only_booking_error: This calendar is read only. The connected Google account needs permission to make changes to events before it can take bookings.
   mashups:
     mashup:
       add_to_playlist: Zur Wiedergabeliste hinzufügen

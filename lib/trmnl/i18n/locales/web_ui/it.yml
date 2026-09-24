@@ -1155,6 +1155,7 @@ it:
         tz: Time Zone
         walk_up_title: Occupied
         billing: Billing
+        read_only_badge: Read only
       shared:
         back_to_apps: Back to Apps
         displays:
@@ -1249,6 +1250,8 @@ it:
             disabled: Disabled
             enabled: Enabled
           upcoming: Upcoming
+          read_only: Read only
+          read_only_hint: The connected Google account can only view this calendar. Give it permission to make changes to events to take bookings here.
       collections:
         edit:
           back_to_collection: Back to Collection
@@ -1570,6 +1573,8 @@ it:
         row: "%{name}: expected %{expected}, last ping %{last_ping}, %{battery} battery, Wi-Fi %{wifi}."
         open_fleet: Open fleet
         footer: You get this because check-in alerts are on for this fleet. Turn them off in Fleet › Settings.
+    bookings:
+      read_only_booking_error: This calendar is read only. The connected Google account needs permission to make changes to events before it can take bookings.
   mashups:
     mashup:
       add_to_playlist: Add to playlist
