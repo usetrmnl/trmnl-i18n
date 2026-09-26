@@ -973,6 +973,9 @@ raw:
       polling_inherited_hint: plugin_settings.form.polling_inherited_hint
       refresh_rate_floor_by_author: plugin_settings.form.refresh_rate_floor_by_author
       refresh_rate_floor_by_owner: plugin_settings.form.refresh_rate_floor_by_owner
+      parse_empty: plugin_settings.form.parse_empty
+      recipe_overview: plugin_settings.form.recipe_overview
+      recipe_overview_hint: plugin_settings.form.recipe_overview_hint
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -1328,6 +1331,11 @@ raw:
           synchronized_calendars: apps.room_booking.integrations.edit.synchronized_calendars
           synchronized_calendars_hint: apps.room_booking.integrations.edit.synchronized_calendars_hint
           title: apps.room_booking.integrations.edit.title
+          sync_error_title: apps.room_booking.integrations.edit.sync_error_title
+          sync_error_summary:
+            one: apps.room_booking.integrations.edit.sync_error_summary.one
+            other: apps.room_booking.integrations.edit.sync_error_summary.other
+          sync_error_detail: apps.room_booking.integrations.edit.sync_error_detail
         index:
           add_account: apps.room_booking.integrations.index.add_account
           add_calendar: apps.room_booking.integrations.index.add_calendar
@@ -1594,8 +1602,12 @@ raw:
       refresh_rate_hint: mashups.edit.refresh_rate_hint
       remove: mashups.edit.remove
       remove_hint: mashups.edit.remove_hint
+      name_hint: mashups.edit.name_hint
     new:
       title: mashups.new.title
+      playlist_item_title: mashups.new.playlist_item_title
+    create:
+      full_layout_error: mashups.create.full_layout_error
   playlist_coverage:
     title: playlist_coverage.title
     your_timezone: playlist_coverage.your_timezone

@@ -973,6 +973,9 @@ ro:
       polling_inherited_hint: Blank, so the recipe author's value is used. Fill it in to use your own; set your own URL and the author's headers and body no longer apply.
       refresh_rate_floor_by_author: The recipe author limits installs to %{refresh_rate}.
       refresh_rate_floor_by_owner: Limited to %{refresh_rate} by the "Fastest refresh rate" setting below.
+      parse_empty: Nothing rendered. Check that your Liquid conditions match the saved values. A select saves its option in lowercase.
+      recipe_overview: Public recipe overview
+      recipe_overview_hint: Describe what this recipe shows and how people can use it. Recipes with at least 100 useful words can appear in search results.
     import:
       archive_too_large: Fișierul ZIP este prea mare (%{max_mb} MB maxim)
       missing_entry: Fișierul ZIP nu conține %{filename}
@@ -1328,6 +1331,11 @@ ro:
           synchronized_calendars: Synchronized Calendars
           synchronized_calendars_hint: Choose which calendars appear in Booking and synchronize calendar events.
           title: Edit Integration
+          sync_error_title: Sync Error
+          sync_error_summary:
+            one: One calendar could not sync. Check its provider settings, then synchronize.
+            other: "%{count} calendars could not sync. Check their provider settings, then synchronize."
+          sync_error_detail: "%{calendar}: %{error}"
         index:
           add_account: Add account
           add_calendar: Add calendar
@@ -1596,8 +1604,12 @@ ro:
       refresh_rate_hint: Renders %{refresh_rate}, set by the fastest of its plugins.
       remove: Remove mashup
       remove_hint: Removing a mashup takes it off your playlist. Its plugins stay installed.
+      name_hint: Give it a name for easy reference, or leave it empty to show the names of its plugins.
     new:
       title: New mashup
+      playlist_item_title: New playlist item
+    create:
+      full_layout_error: Pick a plugin to add to your playlist.
   playlist_coverage:
     title: Playlist coverage
     your_timezone: your timezone
