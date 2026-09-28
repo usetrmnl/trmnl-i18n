@@ -163,6 +163,7 @@ is:
       low_battery_notification_email_hint: Send every device's low battery email here instead of to your account address. Leave blank to use your account address.
       explore_apps: Explore Apps
       explore_apps_hint: TRMNL Booking (walk-up meeting room reservations), fleet management, and more.
+      manage_themes: Manage themes
     update:
       success: Aðgangurinn var uppfærður
     reset_api_key:
@@ -476,6 +477,7 @@ is:
       refreshing_screen_disabled_hint: Keep the current screen while a refresh renders instead of showing the "Catching you up" screen. After a refresh press nothing changes until the new screen is ready.
       sleep_until: Sleep once
       sleep_until_hint: At its next check-in the device goes to sleep until this time. Press its button to wake it sooner. If it is not asleep yet, clear the field to cancel.
+      font_set_by_theme: Set by %{theme}
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -973,6 +975,9 @@ is:
       polling_inherited_hint: Blank, so the recipe author's value is used. Fill it in to use your own; set your own URL and the author's headers and body no longer apply.
       refresh_rate_floor_by_author: The recipe author limits installs to %{refresh_rate}.
       refresh_rate_floor_by_owner: Limited to %{refresh_rate} by the "Fastest refresh rate" setting below.
+      parse_empty: Nothing rendered. Check that your Liquid conditions match the saved values. A select saves its option in lowercase.
+      recipe_overview: Public recipe overview
+      recipe_overview_hint: Describe what this recipe shows and how people can use it. Recipes with at least 100 useful words can appear in search results.
     import:
       archive_too_large: ZIP skrá er of stór (%{max_mb} MB hámark)
       missing_entry: ZIP skrá inniheldur ekki %{filename}
@@ -1091,6 +1096,8 @@ is:
         expired:
           title: This code has expired
           body: Scan the code on the display again to pick up where you left off.
+      discovery:
+        billing_cancel_failed: Billing could not be canceled, so nothing was uninstalled. Please try again.
     room_booking:
       resource_kinds:
         room: Room
@@ -1190,6 +1197,7 @@ is:
             enabled: 'On'
           unmapped_devices: Devices not showing anything yet
           virtual_device: Virtual
+          undisplayed_calendars: Calendars not displayed on any device yet
       calendars:
         setup_docs: Time zones, displays & walk-up booking for a meeting room.
         display_preview:
@@ -1328,6 +1336,11 @@ is:
           synchronized_calendars: Synchronized Calendars
           synchronized_calendars_hint: Choose which calendars appear in Booking and synchronize calendar events.
           title: Edit Integration
+          sync_error_title: Sync Error
+          sync_error_summary:
+            one: One calendar could not sync. Check its provider settings, then synchronize.
+            other: "%{count} calendars could not sync. Check their provider settings, then synchronize."
+          sync_error_detail: "%{calendar}: %{error}"
         index:
           add_account: Add account
           add_calendar: Add calendar
@@ -1518,6 +1531,7 @@ is:
         grace:
           one: Booking becomes a paid app on %{date}. Your %{count} resource will be %{total} per month.
           other: Booking becomes a paid app on %{date}. Your %{count} resources will be %{total} per month.
+        manage_calendars: Manage calendars
       tagline: Room schedules on your displays, with walk-up QR booking.
     fleet:
       tagline: Mirror one device's screen and settings across many displays.
@@ -1596,6 +1610,11 @@ is:
       refresh_rate_hint: Renders %{refresh_rate}, set by the fastest of its plugins.
       remove: Remove mashup
       remove_hint: Removing a mashup takes it off your playlist. Its plugins stay installed.
+      name_hint: Give it a name for easy reference, or leave it empty to show the names of its plugins.
+    new:
+      playlist_item_title: New playlist item
+    create:
+      full_layout_error: Pick a plugin to add to your playlist.
   playlist_coverage:
     title: Playlist coverage
     your_timezone: your timezone
@@ -1873,6 +1892,7 @@ is:
         follow_the_bar: Follow the bar
         panel_inks: Panel inks
         grayscale: Grayscale
+      export_bundle: Download theme
   timelines:
     trace:
       outcomes:
