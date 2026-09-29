@@ -680,11 +680,9 @@ hu:
   playlist_items:
     index:
       title: Lejátszási lista
-      add_first_device_cta: Kezdd azzal, hogy __hozzáadod__ az első TRMNL eszközödet!
       add_to_playlist: Hozzáadás a lejátszási listához
       custom: Egyéni
       device_default: Eszköz alapértelmezés
-      display_period_validation: A kezdési időpontnak a befejezés előtt kell lennie. Hozz létre egy másik csoportot az éjszakai órák lefedéséhez.
       never_skip: Soha ne hagyja ki a képernyőket
       skip_after:
         one: A régi képernyők kihagyása 1 nap után
@@ -693,8 +691,6 @@ hu:
       select: Select
       exit_select: Exit select mode
       time_travel: Time Travel
-      time_travel_now: Now
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
       smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
       view: View
@@ -725,12 +721,6 @@ hu:
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
       presentation: Presentation
       mashup: Mashup
-      refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
       last_shown: Last shown %{time}
       title_tooltip:
         source_plugin: Source plugin
@@ -1688,8 +1678,6 @@ hu:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: You have been invited

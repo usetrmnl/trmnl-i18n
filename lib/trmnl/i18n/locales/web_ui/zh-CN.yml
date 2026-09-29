@@ -715,11 +715,9 @@ zh-CN:
   playlist_items:
     index:
       title: 播放列表
-      add_first_device_cta: 添加您的第一个 TRMNL 设备！
       add_to_playlist: 添加到播放列表
       custom: 自定义
       device_default: 系统默认
-      display_period_validation: 开始时间必须早于结束时间。请创建另一个组来覆盖跨夜时段。
       never_skip: 不跳过屏幕
       skip_after:
         one: 跳过超过 1 天未更新的画面
@@ -728,8 +726,6 @@ zh-CN:
       select: Select
       exit_select: Exit select mode
       time_travel: Time Travel
-      time_travel_now: Now
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
       smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
       view: View
@@ -760,12 +756,6 @@ zh-CN:
       duplicate_confirm: 这将创建此项的副本并将其添加到播放列表的底部。是否继续？
       presentation: Presentation
       mashup: Mashup
-      refresh_rate_disabled:
-        default: 此插件的刷新率无法配置。
-        external: 此插件实时获取数据，因此刷新率设置不适用。
-        global: 此插件在平台范围内按固定计划刷新。
-        mashup: 混合插件将根据其最快的插件刷新频率进行刷新。
-        readonly: 此插件具有固定的刷新率，无法配置。
       last_shown: Last shown %{time}
       title_tooltip:
         source_plugin: Source plugin
@@ -1723,8 +1713,6 @@ zh-CN:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: You have been invited

@@ -679,11 +679,9 @@ cs:
   playlist_items:
     index:
       title: Playlist
-      add_first_device_cta: Začněte __přidáním__ svého prvního zařízení TRMNL!
       add_to_playlist: Přidat do playlistu
       custom: Vlastní
       device_default: Výchozí zařízení
-      display_period_validation: Počáteční čas musí být před koncovým časem. Pro překlenutí nočních hodin vytvořte další skupinu.
       never_skip: Nikdy nepřeskakovat obrazovky
       skip_after:
         one: Přeskočit zastaralé obrazovky po 1 dni
@@ -692,8 +690,6 @@ cs:
       select: Select
       exit_select: Exit select mode
       time_travel: Time Travel
-      time_travel_now: Now
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
       smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
       view: View
@@ -724,12 +720,6 @@ cs:
       duplicate_confirm: Tímto vytvoříte kopii této položky a přidáte ji na konec svého playlistu. Pokračovat?
       presentation: Prezentace
       mashup: Mashup
-      refresh_rate_disabled:
-        default: Obnovovací frekvenci tohoto pluginu nelze konfigurovat.
-        external: Tento plugin načítá data za chodu, takže nastavení obnovovací frekvence neplatí.
-        global: Tento plugin se obnovuje v rámci celé platformy podle pevného rozvrhu.
-        mashup: Mashup se bude obnovovat tak často jako jeho nejrychlejší plugin.
-        readonly: Tento plugin má pevnou obnovovací frekvenci, kterou nelze konfigurovat.
       last_shown: Last shown %{time}
       title_tooltip:
         source_plugin: Source plugin
@@ -1687,8 +1677,6 @@ cs:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: You have been invited

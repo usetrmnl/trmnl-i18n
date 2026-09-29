@@ -679,11 +679,9 @@ de:
   playlist_items:
     index:
       title: Wiedergabeliste
-      add_first_device_cta: Beginne mit dem __Hinzufügen__ des ersten TRMNL-Gerätes!
       add_to_playlist: Zu Wiedergabeliste hinzufügen
       custom: Angepasst
       device_default: Geräte-Standard
-      display_period_validation: Startzeit muss vor der Endzeit liegen. Erstelle eine weitere Gruppe, um die Nachtstunden abzudecken.
       never_skip: Niemals Inhalte überspringen
       skip_after:
         one: Alte Inhalte nach 1 Tag überspringen
@@ -692,8 +690,6 @@ de:
       select: Auswählen
       exit_select: Auswahlmodus verlassen
       time_travel: Zeitreise
-      time_travel_now: Jetzt
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smartes Überspringen
       smart_skip_hint: Überspringt automatisch Bildschirme, deren Inhalt sich eine Weile nicht geändert hat.
       view: Ansicht
@@ -724,12 +720,6 @@ de:
       duplicate_confirm: Es wird eine Kopie dieses Eintrags erstellt und am Ende der Wiedergabeliste hinzugefügt. Fortfahren?
       presentation: Darstellung
       mashup: Mashup
-      refresh_rate_disabled:
-        default: Die Aktualisierungsrate dieser Erweiterung kann nicht konfiguriert werden.
-        external: Diese Erweiterung ruft Daten in Echtzeit ab, daher gelten keine Aktualisierungsraten-Einstellungen.
-        global: Diese Erweiterung wird plattformweit nach einem festen Zeitplan aktualisiert.
-        mashup: Das Mashup wird so oft aktualisiert wie seine schnellste Erweiterung.
-        readonly: Diese Erweiterung hat eine feste Aktualisierungsrate, die nicht konfiguriert werden kann.
       last_shown: 'Zuletzt gezeigt: %{time}'
       title_tooltip:
         source_plugin: Quell-Erweiterung
@@ -1687,8 +1677,6 @@ de:
     search_summary:
       found: "%{results} gefunden für „%{query}“"
       none: Nichts passt zu „%{query}“. Versuche ein kürzeres Wort.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: Du wurdest eingeladen

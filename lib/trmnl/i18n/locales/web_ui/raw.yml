@@ -680,11 +680,9 @@ raw:
   playlist_items:
     index:
       title: playlists.index.title
-      add_first_device_cta: playlists.index.add_first_device_cta
       add_to_playlist: playlists.index.add_to_playlist
       custom: playlists.index.custom
       device_default: playlists.index.device_default
-      display_period_validation: playlists.index.display_period_validation
       never_skip: playlist_items.index.never_skip
       skip_after:
         one: playlist_items.index.skip_after.one
@@ -693,8 +691,6 @@ raw:
       select: playlist_items.index.select
       exit_select: playlist_items.index.exit_select
       time_travel: playlist_items.index.time_travel
-      time_travel_now: playlist_items.index.time_travel_now
-      time_travel_at: playlist_items.index.time_travel_at
       smart_skip: playlist_items.index.smart_skip
       smart_skip_hint: playlist_items.index.smart_skip_hint
       view: playlist_items.index.view
@@ -725,12 +721,6 @@ raw:
       duplicate_confirm: playlist_items.playlist_item.duplicate_confirm
       presentation: playlist_items.playlist_item.presentation
       mashup: playlist_items.playlist_item.mashup
-      refresh_rate_disabled:
-        default: playlist_items.playlist_item.refresh_rate_disabled.default
-        external: playlist_items.playlist_item.refresh_rate_disabled.external
-        global: playlist_items.playlist_item.refresh_rate_disabled.global
-        mashup: playlist_items.playlist_item.refresh_rate_disabled.mashup
-        readonly: playlist_items.playlist_item.refresh_rate_disabled.readonly
       last_shown: playlist_items.playlist_item.last_shown
       title_tooltip:
         source_plugin: playlist_items.playlist_item.title_tooltip.source_plugin
@@ -1686,8 +1676,6 @@ raw:
     search_summary:
       found: shared.search_summary.found
       none: shared.search_summary.none
-    nav:
-      themes: shared.nav.themes
   account_invitations:
     show:
       title: account_invitations.show.title
