@@ -680,11 +680,9 @@ zh-HK:
   playlist_items:
     index:
       title: 播放清單
-      add_first_device_cta: 請先__新增__你的第一部TRMNL裝置！
       add_to_playlist: 加入至播放清單
       custom: 自訂
       device_default: 裝置預設
-      display_period_validation: 開始時間必須早於結束時間。如要跨越午夜，請新增另一個群組。
       never_skip: 永不跳過畫面
       skip_after:
         one: 1日未更新後跳過畫面
@@ -693,8 +691,6 @@ zh-HK:
       select: Select
       exit_select: Exit select mode
       time_travel: Time Travel
-      time_travel_now: Now
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
       smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
       view: View
@@ -725,12 +721,6 @@ zh-HK:
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
       presentation: Presentation
       mashup: Mashup
-      refresh_rate_disabled:
-        default: 無法設定此外掛的重新整理頻率。
-        external: 此外掛即時擷取數據，因此重新整理頻率設定不適用。
-        global: 此外掛按固定時間表在全平台進行重新整理。
-        mashup: 混搭外掛的重新整理頻率將與其最快的一個外掛同步。
-        readonly: 此外掛具有固定的重新整理頻率，無法設定。
       last_shown: Last shown %{time}
       title_tooltip:
         source_plugin: Source plugin
@@ -1688,8 +1678,6 @@ zh-HK:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: You have been invited

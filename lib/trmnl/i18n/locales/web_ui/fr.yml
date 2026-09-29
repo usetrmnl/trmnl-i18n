@@ -682,11 +682,9 @@ fr:
   playlist_items:
     index:
       title: Playlist
-      add_first_device_cta: Commencez par __ajouter__ votre premier appareil TRMNL !
       add_to_playlist: Ajouter à la playlist
       custom: Personnalisé
       device_default: Configuration par défaut
-      display_period_validation: L'heure de début doit précéder l'heure de fin. Créez un autre groupe pour couvrir les heures de nuit.
       never_skip: Ne jamais ignorer les écrans
       skip_after:
         one: Ignorer les écrans inchangés après 1 jour
@@ -695,8 +693,6 @@ fr:
       select: Select
       exit_select: Exit select mode
       time_travel: Time Travel
-      time_travel_now: Now
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
       smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
       view: View
@@ -727,12 +723,6 @@ fr:
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
       presentation: Presentation
       mashup: Mashup
-      refresh_rate_disabled:
-        default: This plugin's refresh rate cannot be configured.
-        external: This plugin fetches data on the fly, so refresh rate settings don't apply.
-        global: This plugin gets refreshed platform-wide on a fixed schedule.
-        mashup: The mashup will refresh as often as its fastest plugin.
-        readonly: This plugin has a fixed refresh rate that cannot be configured.
       last_shown: Last shown %{time}
       title_tooltip:
         source_plugin: Source plugin
@@ -1690,8 +1680,6 @@ fr:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: You have been invited

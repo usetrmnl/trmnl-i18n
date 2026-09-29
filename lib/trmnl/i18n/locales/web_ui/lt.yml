@@ -680,11 +680,9 @@ lt:
   playlist_items:
     index:
       title: Grojaraštis
-      add_first_device_cta: Pradėkite __pridėdami__ savo pirmąjį TRMNL įrenginį!
       add_to_playlist: Pridėti į grojaraštį
       custom: Pasirinktinis
       device_default: Įrenginio numatytasis
-      display_period_validation: Pradžios laikas turi būti ankstesnis už pabaigos laiką. Sukurkite kitą grupę, kad apimtumėte nakties valandas.
       never_skip: Niekada nepraleisti ekranų
       skip_after:
         one: Praleisti pasenusius ekranus po 1 dienos
@@ -693,8 +691,6 @@ lt:
       select: Select
       exit_select: Exit select mode
       time_travel: Time Travel
-      time_travel_now: Now
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
       smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
       view: View
@@ -725,12 +721,6 @@ lt:
       duplicate_confirm: Tai sukurs šio elemento kopiją ir pridės ją prie jūsų grojaraščio apačios. Tęsti?
       presentation: Presentation
       mashup: Mashup
-      refresh_rate_disabled:
-        default: Šio įskiepio atnaujinimo dažnio negalima konfigūruoti.
-        external: Šis įskiepis nuskaito duomenis realiuoju laiku, todėl atnaujinimo dažnio nustatymai netaikomi.
-        global: Šis įskiepis atnaujinamas visoje platformoje pagal fiksuotą tvarkaraštį.
-        mashup: Mišinys (mashup) bus atnaujinamas taip dažnai, kaip jo greičiausias įskiepis.
-        readonly: Šis įskiepis turi fiksuotą atnaujinimo dažnį, kurio negalima konfigūruoti.
       last_shown: Last shown %{time}
       title_tooltip:
         source_plugin: Source plugin
@@ -1688,8 +1678,6 @@ lt:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: You have been invited

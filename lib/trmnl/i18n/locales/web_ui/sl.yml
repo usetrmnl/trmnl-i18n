@@ -705,11 +705,9 @@ sl:
   playlist_items:
     index:
       title: Seznam predvajanja
-      add_first_device_cta: Začnite z __dodajanjem__ svoje prve naprave TRMNL!
       add_to_playlist: Dodaj na seznam predvajanja
       custom: Po meri
       device_default: Privzeto za napravo
-      display_period_validation: Začetni čas mora biti pred končnim. Za razpon čez polnoč ustvarite dodatno skupino.
       never_skip: Nikoli ne preskoči zaslonov
       skip_after:
         one: Preskoči zastarele zaslone po 1 dnevu
@@ -720,8 +718,6 @@ sl:
       select: Izberi
       exit_select: Zapusti način izbire
       time_travel: Time Travel
-      time_travel_now: Zdaj
-      time_travel_at: "%{day} %{time}"
       smart_skip: Pametno preskakovanje
       smart_skip_hint: Samodejno preskoči zaslone, katerih vsebina se nekaj časa ni spremenila.
       view: Pogled
@@ -752,12 +748,6 @@ sl:
       duplicate_confirm: To bo ustvarilo kopijo tega predmeta in jo dodalo na dno vašega seznama predvajanja. Želite nadaljevati?
       presentation: Predstavitev
       mashup: Mashup
-      refresh_rate_disabled:
-        default: Hitrosti osveževanja tega vtičnika ni mogoče nastaviti.
-        external: Ta vtičnik pridobiva podatke sproti, zato nastavitve hitrosti osveževanja ne veljajo.
-        global: Ta vtičnik se osvežuje po vsej platformi po fiksnem urniku.
-        mashup: Mešanica se bo osveževala tako pogosto kot njen najhitrejši vtičnik.
-        readonly: Ta vtičnik ima fiksno hitrost osveževanja, ki je ni mogoče nastaviti.
       last_shown: Nazadnje prikazano %{time}
       title_tooltip:
         source_plugin: Izvorni vtičnik
@@ -1740,8 +1730,6 @@ sl:
     search_summary:
       found: "%{results} zadetkov za »%{query}«"
       none: Nič se ne ujema z »%{query}«. Poskusite krajšo besedo.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: Povabljeni ste bili

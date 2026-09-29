@@ -680,11 +680,9 @@ ko:
   playlist_items:
     index:
       title: 플레이리스트
-      add_first_device_cta: 첫 TRMNL 기기를 __추가__해서 시작하세요!
       add_to_playlist: 플레이리스트에 추가
       custom: 커스텀
       device_default: 기기 기본값
-      display_period_validation: 시작 시간이 종료 시간보다 빨라야 해요. 야간 시간대를 포함하려면 그룹을 하나 더 만드세요.
       never_skip: 화면 건너뛰지 않기
       skip_after:
         one: 1일 후 오래된 화면 건너뛰기
@@ -693,8 +691,6 @@ ko:
       select: Select
       exit_select: Exit select mode
       time_travel: Time Travel
-      time_travel_now: Now
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
       smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
       view: View
@@ -725,12 +721,6 @@ ko:
       duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
       presentation: Presentation
       mashup: Mashup
-      refresh_rate_disabled:
-        default: 이 플러그인의 새로고침 주기는 설정할 수 없어요.
-        external: 이 플러그인은 실시간으로 데이터를 가져오므로 새로고침 주기 설정이 적용되지 않아요.
-        global: 이 플러그인은 플랫폼 전체에서 고정 스케줄로 새로고침돼요.
-        mashup: 매시업은 가장 빠른 플러그인과 같은 주기로 새로고침돼요.
-        readonly: 이 플러그인의 새로고침 주기는 고정이라 변경할 수 없어요.
       last_shown: Last shown %{time}
       title_tooltip:
         source_plugin: Source plugin
@@ -1688,8 +1678,6 @@ ko:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: You have been invited

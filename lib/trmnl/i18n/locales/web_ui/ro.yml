@@ -680,11 +680,9 @@ ro:
   playlist_items:
     index:
       title: Listă de redare
-      add_first_device_cta: Începe prin __adăugarea__ primului tău dispozitiv TRMNL!
       add_to_playlist: Adaugă în listă
       custom: Personalizat
       device_default: Implicit dispozitiv
-      display_period_validation: Ora de începere trebuie să fie înainte de ora de încheiere. Creează un alt grup pentru orele de noapte.
       never_skip: Nu sări niciodată ecranele
       skip_after:
         one: Sare ecranele vechi după 1 zi
@@ -693,8 +691,6 @@ ro:
       select: Select
       exit_select: Exit select mode
       time_travel: Time Travel
-      time_travel_now: Now
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
       smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
       view: View
@@ -725,12 +721,6 @@ ro:
       duplicate_confirm: Aceasta va crea o copie a acestui element și o va adăuga la sfârșitul listei tale. Continui?
       presentation: Presentation
       mashup: Mashup
-      refresh_rate_disabled:
-        default: Rata de reîmprospătare a acestui plugin nu poate fi configurată.
-        external: Acest plugin preia date din mers, deci setările ratei de reîmprospătare nu se aplică.
-        global: Acest plugin este reîmprospătat la nivel de platformă pe un program fix.
-        mashup: Mashup-ul se va reîmprospăta la fel de des ca cel mai rapid plugin al său.
-        readonly: Acest plugin are o rată de reîmprospătare fixă care nu poate fi configurată.
       last_shown: Last shown %{time}
       title_tooltip:
         source_plugin: Source plugin
@@ -1688,8 +1678,6 @@ ro:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: You have been invited

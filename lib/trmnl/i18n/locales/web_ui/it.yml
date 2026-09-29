@@ -680,11 +680,9 @@ it:
   playlist_items:
     index:
       title: Playlist
-      add_first_device_cta: Comincia __aggiungendo__ il tuo primo dispositivo TRMNL!
       add_to_playlist: Aggiungi a Playlist
       custom: Custom
       device_default: Device default
-      display_period_validation: L'ora di inizio deve essere inferiore all'ora di fine. Crea un altro gruppo per le ore notturne.
       never_skip: Non saltare schermate.
       skip_after:
         one: Salta schermate stagnanti dopo 1 giorno
@@ -693,8 +691,6 @@ it:
       select: Select
       exit_select: Exit select mode
       time_travel: Time Travel
-      time_travel_now: Now
-      time_travel_at: "%{day} %{time}"
       smart_skip: Smart Skip
       smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
       view: View
@@ -725,12 +721,6 @@ it:
       duplicate_confirm: Verrà creata una copia di questo articolo e aggiunta alla fine della playlist. Vuoi continuare?
       presentation: Presentation
       mashup: Mashup
-      refresh_rate_disabled:
-        default: La frequenza di aggiornamento per questo plugin non può essere configurata.
-        external: Questo plugin ottiene dati in tempo reale, la frequenza di aggiornamento non viene consierata.
-        global: Questo plugin viene aggiornato su tutta la piattaforma con una programmazione fissa.
-        mashup: Il mashup verrà aggiornato con la frequenza del plugin più veloce.
-        readonly: Questo plugin ha una frequenza di aggiornamento fissa che non può essere cambiata.
       last_shown: Last shown %{time}
       title_tooltip:
         source_plugin: Source plugin
@@ -1688,8 +1678,6 @@ it:
     search_summary:
       found: "%{results} found for “%{query}”"
       none: Nothing matches “%{query}”. Try a shorter word.
-    nav:
-      themes: Themes
   account_invitations:
     show:
       title: You have been invited
