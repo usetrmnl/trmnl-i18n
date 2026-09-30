@@ -1041,6 +1041,7 @@ ru:
       use_existing_connection: Or use an account you already connected
       use_connection_from: Use the connection from %{name}
       uses_connection_from: Uses the connection from %{name}.
+      connect_another_google_account: Connect another Google account
     import:
       archive_too_large: ZIP-файл слишком большой (максимум %{max_mb} МБ)
       missing_entry: ZIP-файл не содержит %{filename}
@@ -1100,6 +1101,9 @@ ru:
       client_config: MCP client config
       client_config_hint_html: Add %{env_var} to your %{dotenv_file} file. Copy full key with the button above.
       generate: Generate MCP Key
+    linked_google_account:
+      connected: Connected %{name}. Its events now show here.
+      default_name: Another Google account
   recipes:
     index:
       newest_to_oldest: От новых к старым

@@ -1018,6 +1018,7 @@ de-AT:
       use_existing_connection: Or use an account you already connected
       use_connection_from: Use the connection from %{name}
       uses_connection_from: Uses the connection from %{name}.
+      connect_another_google_account: Connect another Google account
     import:
       archive_too_large: ZIP-Datei ist zu groß (maximal %{max_mb} MB)
       missing_entry: Die ZIP-Datei enthält nicht %{filename}
@@ -1077,6 +1078,9 @@ de-AT:
       client_config: MCP-Client-Konfiguration
       client_config_hint_html: Füge %{env_var} zu deiner %{dotenv_file}-Datei hinzu. Kopiere den vollständigen Schlüssel über die Schaltfläche oben.
       generate: MCP-Schlüssel generieren
+    linked_google_account:
+      connected: Connected %{name}. Its events now show here.
+      default_name: Another Google account
   recipes:
     index:
       newest_to_oldest: Neueste zuerst
