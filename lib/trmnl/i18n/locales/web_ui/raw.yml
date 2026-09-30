@@ -165,6 +165,47 @@ raw:
       explore_apps_hint: account.index.explore_apps_hint
       manage_themes: account.index.manage_themes
       plus_subscription_lifetime: account.index.plus_subscription_lifetime
+      ai_agent_configure: account.index.ai_agent_configure
+      delete_account: account.index.delete_account
+      delete_account_button: account.index.delete_account_button
+      delete_account_confirm: account.index.delete_account_confirm
+      delete_account_hint: account.index.delete_account_hint
+      delete_trial_device: account.index.delete_trial_device
+      delete_trial_device_confirm: account.index.delete_trial_device_confirm
+      delete_trial_device_hint: account.index.delete_trial_device_hint
+      discord_after_license: account.index.discord_after_license
+      discord_join: account.index.discord_join
+      github_username: account.index.github_username
+      plus_claim: account.index.plus_claim
+      plus_extend: account.index.plus_extend
+      plus_offer_html: account.index.plus_offer_html
+      plus_subscribe: account.index.plus_subscribe
+      theme_preference: account.index.theme_preference
+      sections:
+        preferences:
+          title: account.index.sections.preferences.title
+          hint: account.index.sections.preferences.hint
+        developer:
+          title: account.index.sections.developer.title
+          hint: account.index.sections.developer.hint
+          api_keys:
+            one: account.index.sections.developer.api_keys.one
+            other: account.index.sections.developer.api_keys.other
+          connected_agents:
+            one: account.index.sections.developer.connected_agents.one
+            other: account.index.sections.developer.connected_agents.other
+        sharing:
+          title: account.index.sections.sharing.title
+          hint: account.index.sections.sharing.hint
+          shared_with:
+            one: account.index.sections.sharing.shared_with.one
+            other: account.index.sections.sharing.shared_with.other
+        profile:
+          title: account.index.sections.profile.title
+        security:
+          title: account.index.sections.security.title
+          two_factor_off: account.index.sections.security.two_factor_off
+          two_factor_on: account.index.sections.security.two_factor_on
     update:
       success: account.update.success
     reset_api_key:
@@ -259,6 +300,13 @@ raw:
       name: account.api_keys.name
       create: account.api_keys.create
       legacy_hint: account.api_keys.legacy_hint
+    destroy:
+      account_deleted: account.destroy.account_deleted
+      account_deleted_refunded: account.destroy.account_deleted_refunded
+      not_eligible: account.destroy.not_eligible
+      trial_device_deleted: account.destroy.trial_device_deleted
+      trial_device_deleted_refunded: account.destroy.trial_device_deleted_refunded
+    cli_hint: account.cli_hint
   dashboard:
     index:
       title: dashboard.index.title
@@ -969,6 +1017,9 @@ raw:
       parse_empty: plugin_settings.form.parse_empty
       recipe_overview: plugin_settings.form.recipe_overview
       recipe_overview_hint: plugin_settings.form.recipe_overview_hint
+      use_existing_connection: plugin_settings.form.use_existing_connection
+      use_connection_from: plugin_settings.form.use_connection_from
+      uses_connection_from: plugin_settings.form.uses_connection_from
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -1708,6 +1759,17 @@ raw:
       body: user_mailer.account_invitation.body
       accept: user_mailer.account_invitation.accept
       expiry: user_mailer.account_invitation.expiry
+    plus_trial_ending:
+      earn_body: user_mailer.plus_trial_ending.earn_body
+      earn_link: user_mailer.plus_trial_ending.earn_link
+      earn_title: user_mailer.plus_trial_ending.earn_title
+      greeting: user_mailer.plus_trial_ending.greeting
+      greeting_without_name: user_mailer.plus_trial_ending.greeting_without_name
+      subject: user_mailer.plus_trial_ending.subject
+      subscribe_link: user_mailer.plus_trial_ending.subscribe_link
+      subscribe_price: user_mailer.plus_trial_ending.subscribe_price
+      subscribe_title: user_mailer.plus_trial_ending.subscribe_title
+      trial_ends_html: user_mailer.plus_trial_ending.trial_ends_html
   pages:
     flash_firmware:
       linux_warning: pages.flash_firmware.linux_warning
