@@ -136,7 +136,6 @@ raw:
       refer_and_earn: account.index.refer_and_earn
       refer_and_earn_hint: account.index.refer_and_earn_hint
       refer_and_earn_redemptions: account.index.refer_and_earn_redemptions
-      refer_and_earn_request_code: account.index.refer_and_earn_request_code
       email_address_hint: account.index.email_address_hint
       first_name_hint: account.index.first_name_hint
       last_name_hint: account.index.last_name_hint
@@ -1028,9 +1027,6 @@ raw:
       client_config: plugin_settings.mcp_key.client_config
       client_config_hint_html: plugin_settings.mcp_key.client_config_hint_html
       generate: plugin_settings.mcp_key.generate
-  referral_code:
-    create:
-      request_received: referral_code.create.request_received
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
