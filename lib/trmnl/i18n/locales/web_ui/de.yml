@@ -165,6 +165,47 @@ de:
       explore_apps_hint: TRMNL Booking (Spontanreservierung von Besprechungsräumen), Flottenverwaltung und mehr.
       manage_themes: Manage themes
       plus_subscription_lifetime: You have lifetime TRMNL+. Thanks for your support!
+      ai_agent_configure: Configure model, keys & usage
+      delete_account: Delete account
+      delete_account_button: Delete my account & data
+      delete_account_confirm: This permanently deletes everything and refunds your $1. Continue?
+      delete_account_hint: Permanently delete your account, trial device, and all data. Your $1 trial fee is refunded.
+      delete_trial_device: Delete trial device
+      delete_trial_device_confirm: This deletes your trial device and refunds your $1. Your account and other devices are untouched. Continue?
+      delete_trial_device_hint: Deletes your trial device and its data; your $1 is refunded. Your account and other devices are untouched.
+      discord_after_license: Available after you purchase a license
+      discord_join: Join our developer-only server
+      github_username: GitHub Username
+      plus_claim: Claim for $0
+      plus_extend: Extend for $0
+      plus_offer_html: "%{offer} or %{subscribe}"
+      plus_subscribe: Subscribe
+      theme_preference: Theme preference
+      sections:
+        preferences:
+          title: Preferences
+          hint: Time zone, language, theme and beta features
+        developer:
+          title: Developer
+          hint: API keys, developer apps and connected agents
+          api_keys:
+            one: 1 API key
+            other: "%{count} API keys"
+          connected_agents:
+            one: 1 connected agent
+            other: "%{count} connected agents"
+        sharing:
+          title: Sharing
+          hint: Invite people to manage your devices
+          shared_with:
+            one: Shared with 1 person
+            other: Shared with %{count} people
+        profile:
+          title: Profile
+        security:
+          title: Security
+          two_factor_off: Two-factor authentication is off
+          two_factor_on: Two-factor authentication is on
     update:
       success: Konto erfolgreich aktualisiert
     reset_api_key:
@@ -259,6 +300,13 @@ de:
       name: Name
       create: Create account API key
       legacy_hint: Legacy key. It reaches only its original endpoints; for anything newer, create an account API key below.
+    destroy:
+      account_deleted: Your account and all data were deleted.
+      account_deleted_refunded: Your account and all data were deleted. Your $1 was refunded.
+      not_eligible: Self-serve deletion is only available during a BYOD trial. Contact support@trmnl.com.
+      trial_device_deleted: Trial device deleted.
+      trial_device_deleted_refunded: Trial device deleted. Your $1 was refunded.
+    cli_hint: Work from a terminal with the __TRMNL CLI__.
   dashboard:
     index:
       title: Übersicht
@@ -968,6 +1016,9 @@ de:
       parse_empty: Nothing rendered. Check that your Liquid conditions match the saved values. A select saves its option in lowercase.
       recipe_overview: Public recipe overview
       recipe_overview_hint: Describe what this recipe shows and how people can use it. Recipes with at least 100 useful words can appear in search results.
+      use_existing_connection: Or use an account you already connected
+      use_connection_from: Use the connection from %{name}
+      uses_connection_from: Uses the connection from %{name}.
     import:
       archive_too_large: ZIP-Datei ist zu groß (maximal %{max_mb} MB)
       missing_entry: Die ZIP-Datei enthält nicht %{filename}
@@ -1709,6 +1760,17 @@ de:
       body: "%{inviter} hat dich eingeladen, das TRMNL zu verwalten: Geräte, Wiedergabelisten und Erweiterungen."
       accept: Einladung annehmen
       expiry: Dieser Link funktioniert noch %{days} Tage.
+    plus_trial_ending:
+      earn_body: post a photo, write a review, or film a quick video and we'll add free months.
+      earn_link: Earn free months
+      earn_title: Earn it free
+      greeting: Hey %{name},
+      greeting_without_name: Hey,
+      subject: Your TRMNL+ trial ends in a week
+      subscribe_link: Subscribe
+      subscribe_price: "$%{monthly}/device/month, or $%{annual}/device/year (2 months free)."
+      subscribe_title: Subscribe
+      trial_ends_html: 'Heads up — your TRMNL+ trial ends on <strong>%{date}</strong>. To keep your Plus perks running, you''ve got two options:'
   pages:
     flash_firmware:
       linux_warning: Das Flashen von Linux aus schlägt oft fehl, weil Chrome den seriellen Port nicht öffnen kann. Füge deinen Benutzer zur dialout-Gruppe hinzu (sudo usermod -aG dialout $USER), melde dich ab und wieder an und versuche es erneut. Falls das nicht hilft, verwende Chrome oder Edge auf einem Mac oder Windows-PC.
