@@ -97,43 +97,43 @@ pl:
         - Pies
         - Świnia
         zodiac_animals:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
+        - Szczur
+        - Wół
+        - Tygrys
+        - Królik
+        - Smok
+        - Wąż
+        - Koń
+        - Koza
+        - Małpa
+        - Kogut
+        - Pies
+        - Świnia
         solar_terms:
-        - Minor Cold
-        - Major Cold
-        - Start of Spring
-        - Rain Water
-        - Awakening of Insects
-        - Spring Equinox
-        - Pure Brightness
-        - Grain Rain
-        - Start of Summer
-        - Grain Buds
-        - Grain in Ear
-        - Summer Solstice
-        - Minor Heat
-        - Major Heat
-        - Start of Autumn
-        - End of Heat
-        - White Dew
-        - Autumn Equinox
-        - Cold Dew
-        - Frost's Descent
-        - Start of Winter
-        - Minor Snow
-        - Major Snow
-        - Winter Solstice
+        - Małe Zimno
+        - Wielkie Zimno
+        - Początek Wiosny
+        - Woda Deszczowa
+        - Przebudzenie Owadów
+        - Równonoc Wiosenna
+        - Czysta Jasność
+        - Deszcz dla Zbóż
+        - Początek Lata
+        - Pączkowanie Zbóż
+        - Zboże w Kłosach
+        - Przesilenie Letnie
+        - Mały Upał
+        - Wielki Upał
+        - Początek Jesieni
+        - Koniec Upałów
+        - Biała Rosa
+        - Równonoc Jesienna
+        - Zimna Rosa
+        - Zejście Szronu
+        - Początek Zimy
+        - Mały Śnieg
+        - Wielki Śnieg
+        - Przesilenie Zimowe
       japanese:
         rokuyo_terms:
         - 先勝
@@ -251,4 +251,4 @@ pl:
       today_only: "{#mainLabel}Dziś jest{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
       next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Jutro jest{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} dni do{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
       no_holidays: "{#subLabel}Brak dodanych świąt.{/subLabel}"
-    sun_chart: Sun Chart
+    sun_chart: Wykres położenia słońca

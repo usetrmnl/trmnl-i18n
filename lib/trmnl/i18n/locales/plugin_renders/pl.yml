@@ -112,7 +112,7 @@ pl:
       right_now: Obecnie
       today: Dziś
       tomorrow: Jutro
-      low_high_short: L/H
+      low_high_short: min/max
       uv_short: UV
       max: Maks.
       tempest:
@@ -284,56 +284,56 @@ pl:
           day: Burza z intensywnymi opadami śniegu
           night: Burza z intensywnymi opadami śniegu
     place_of_the_day:
-      title: Place of the Day
+      title: Miejsce dnia
       wikipedia_credit: Wikipedia CC BY-SA
-      type: Type
-      population: Population
-      coordinates: Coordinates
-      founded: Founded
-      elevation: Elevation
-      area: Area
-      local_time: Local time
-      year_bc: "%{count} BC"
+      type: Typ
+      population: Populacja
+      coordinates: Współrzędne
+      founded: Założono
+      elevation: Wysokość n.p.m.
+      area: Powierzchnia
+      local_time: Czas lokalny
+      year_bc: "%{count} p.n.e."
       metres: "%{count} m"
       square_km: "%{count} km²"
-      city: City
-      wonder: Wonder
+      city: Miasto
+      wonder: Cud
     welcome:
       title: Witamy
       greeting: Cześć, %{name}
       greeting_blank: Cześć
     homey:
-      'on': 'On'
-      'off': 'Off'
+      'on': 'Włączone'
+      'off': 'Wyłączone'
       offline: Offline
-      all_offline: Every device is offline
+      all_offline: Wszystkie urządzenia są offline
       all_offline_hint:
-        one: One device is unreachable
-        other: All %{count} devices are unreachable
+        one: Jedno urządzenie jest niedostępne
+        other: Wszystkie %{count} urządzenia są niedostępne
       batteries_healthy:
-        one: Battery
-        other: Batteries
+        one: Bateria
+        other: Baterie
       batteries_low:
-        one: Needs a cell
-        other: Need a cell
-      no_batteries: No batteries to watch
-      no_batteries_hint: Nothing here reports a battery level
-      insights: Insights
-      no_chart: No chart
-      no_insights: No series pushed yet
-      no_insights_hint: A Homey app can push an Insights log to chart here
-      no_devices: Waiting for your first devices
-      no_devices_hint: They appear after the first push or cloud sync
+        one: Bateria do wymiany
+        other: Baterie do wymiany
+      no_batteries: Brak baterii do monitorowania
+      no_batteries_hint: Żadne urządzenie nie raportuje poziomu baterii
+      insights: Statystyki
+      no_chart: Brak wykresu
+      no_insights: Nie przesłano jeszcze żadnych serii danych
+      no_insights_hint: Aplikacja Homey może przesłać dziennik Insights do wyświetlenia na wykresie
+      no_devices: Oczekiwanie na pierwsze urządzenia
+      no_devices_hint: Pojawią się po pierwszym przesłaniu danych lub synchronizacji z chmurą
     mazevo:
-      in_use: In use
-      available: Available
-      available_until: Available until %{time}
-      available_all_day: Available for the rest of the day
-      coming_up: Coming up
-      later_today: Later today
-      nothing_later: Nothing else today
-      earlier_today: Earlier today
-      no_bookings: No bookings today
-      private_booking: Private booking
+      in_use: W użyciu
+      available: Dostępne
+      available_until: Dostępne do %{time}
+      available_all_day: Dostępne do końca dnia
+      coming_up: Nadchodzące rezerwacje
+      later_today: W dalszej części dnia
+      nothing_later: To wszystko na dziś
+      earlier_today: Poprzednie rezerwacje
+      no_bookings: Brak rezerwacji na dziś
+      private_booking: Rezerwacja prywatna
       time_range: "%{start} – %{end}"
-      updated_at: Updated %{time}
+      updated_at: Zaktualizowano %{time}
