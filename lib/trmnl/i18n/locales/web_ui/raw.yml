@@ -1019,6 +1019,7 @@ raw:
       use_existing_connection: plugin_settings.form.use_existing_connection
       use_connection_from: plugin_settings.form.use_connection_from
       uses_connection_from: plugin_settings.form.uses_connection_from
+      connect_another_google_account: plugin_settings.form.connect_another_google_account
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -1078,6 +1079,9 @@ raw:
       client_config: plugin_settings.mcp_key.client_config
       client_config_hint_html: plugin_settings.mcp_key.client_config_hint_html
       generate: plugin_settings.mcp_key.generate
+    linked_google_account:
+      connected: plugin_settings.linked_google_account.connected
+      default_name: plugin_settings.linked_google_account.default_name
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
