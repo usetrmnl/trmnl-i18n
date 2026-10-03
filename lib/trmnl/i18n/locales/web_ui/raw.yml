@@ -201,10 +201,12 @@ raw:
             other: account.index.sections.sharing.shared_with.other
         profile:
           title: account.index.sections.profile.title
+          hint: account.index.sections.profile.hint
         security:
           title: account.index.sections.security.title
           two_factor_off: account.index.sections.security.two_factor_off
           two_factor_on: account.index.sections.security.two_factor_on
+          hint: account.index.sections.security.hint
     update:
       success: account.update.success
     reset_api_key:
@@ -1020,6 +1022,9 @@ raw:
       use_connection_from: plugin_settings.form.use_connection_from
       uses_connection_from: plugin_settings.form.uses_connection_from
       connect_another_google_account: plugin_settings.form.connect_another_google_account
+      save_to_use_connection: plugin_settings.form.save_to_use_connection
+      connection_names_and_more: plugin_settings.form.connection_names_and_more
+      use_different_account: plugin_settings.form.use_different_account
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -1044,6 +1049,7 @@ raw:
       credentials_rejected: plugin_settings.remote_select.credentials_rejected
       no_homey: plugin_settings.remote_select.no_homey
       mazevo_rooms_forbidden: plugin_settings.remote_select.mazevo_rooms_forbidden
+      outlook_mailbox_unavailable: plugin_settings.remote_select.outlook_mailbox_unavailable
     delete_mashup_warning:
       one: plugin_settings.delete_mashup_warning.one
       other: plugin_settings.delete_mashup_warning.other
@@ -1115,6 +1121,7 @@ raw:
     attributes:
       plugin_setting:
         ai_coauthored: activerecord.attributes.plugin_setting.ai_coauthored
+        recipe_overview: activerecord.attributes.plugin_setting.recipe_overview
     errors:
       models:
         account_membership:
@@ -1132,6 +1139,10 @@ raw:
           attributes:
             sleep_end_time:
               same_as_start: activerecord.errors.models.device.attributes.sleep_end_time.same_as_start
+        plugin_setting:
+          attributes:
+            recipe_overview:
+              too_few_words: activerecord.errors.models.plugin_setting.attributes.recipe_overview.too_few_words
   apps:
     core:
       public:
@@ -1573,6 +1584,28 @@ raw:
           other: apps.room_booking.billing.grace.other
         manage_calendars: apps.room_booking.billing.manage_calendars
       tagline: apps.room_booking.tagline
+      sync_failure_email:
+        subject: apps.room_booking.sync_failure_email.subject
+        intro: apps.room_booking.sync_failure_email.intro
+        last_synced: apps.room_booking.sync_failure_email.last_synced
+        never_synced: apps.room_booking.sync_failure_email.never_synced
+        warning: apps.room_booking.sync_failure_email.warning
+        instructions: apps.room_booking.sync_failure_email.instructions
+        open_calendar: apps.room_booking.sync_failure_email.open_calendar
+        providers:
+          ical: apps.room_booking.sync_failure_email.providers.ical
+          google: apps.room_booking.sync_failure_email.providers.google
+          microsoft: apps.room_booking.sync_failure_email.providers.microsoft
+      url_displays:
+        label: apps.room_booking.url_displays.label
+        open: apps.room_booking.url_displays.open
+        copy: apps.room_booking.url_displays.copy
+        added: apps.room_booking.url_displays.added
+        removed: apps.room_booking.url_displays.removed
+        waiting: apps.room_booking.url_displays.waiting
+        syncing: apps.room_booking.url_displays.syncing
+        stale: apps.room_booking.url_displays.stale
+        unavailable: apps.room_booking.url_displays.unavailable
     fleet:
       tagline: apps.fleet.tagline
       check_ins:
@@ -1605,6 +1638,13 @@ raw:
           other: apps.fleet.devices.added.other
         not_added: apps.fleet.devices.not_added
         none_selected: apps.fleet.devices.none_selected
+        sort:
+          urgency: apps.fleet.devices.sort.urgency
+          name_asc: apps.fleet.devices.sort.name_asc
+          name_desc: apps.fleet.devices.sort.name_desc
+          battery_asc: apps.fleet.devices.sort.battery_asc
+          battery_desc: apps.fleet.devices.sort.battery_desc
+          apply: apps.fleet.devices.sort.apply
       alerts:
         title: apps.fleet.alerts.title
         description: apps.fleet.alerts.description
@@ -1655,6 +1695,15 @@ raw:
       playlist_item_title: mashups.new.playlist_item_title
     create:
       full_layout_error: mashups.create.full_layout_error
+    presets:
+      1x1: mashups.presets.1x1
+      1Lx1R: mashups.presets.1Lx1R
+      1Lx2R: mashups.presets.1Lx2R
+      2Lx1R: mashups.presets.2Lx1R
+      1Tx1B: mashups.presets.1Tx1B
+      1Tx2B: mashups.presets.1Tx2B
+      2Tx1B: mashups.presets.2Tx1B
+      2x2: mashups.presets.2x2
   playlist_coverage:
     title: playlist_coverage.title
     your_timezone: playlist_coverage.your_timezone
@@ -1824,6 +1873,10 @@ raw:
       submit: github_syncs.setup.submit
       wrong_account: github_syncs.setup.wrong_account
       secrets_warning: github_syncs.setup.secrets_warning
+    accounts:
+      label: github_syncs.accounts.label
+      not_listed: github_syncs.accounts.not_listed
+      install: github_syncs.accounts.install
   user_themes:
     index:
       title: user_themes.index.title
@@ -2218,3 +2271,112 @@ raw:
     plugin_settings_added_today: account_limits.plugin_settings_added_today
     mashups_held: account_limits.mashups_held
     playlist_items_held: account_limits.playlist_items_held
+  catalog_installations:
+    choices:
+      install: catalog_installations.choices.install
+      mirror: catalog_installations.choices.mirror
+      fork_own_config: catalog_installations.choices.fork_own_config
+      fork_shared_config: catalog_installations.choices.fork_shared_config
+    requirements:
+      register_provider_app: catalog_installations.requirements.register_provider_app
+  ai_allowance:
+    label: ai_allowance.label
+    used: ai_allowance.used
+    used_up: ai_allowance.used_up
+  integration_overviews:
+    alias: integration_overviews.alias
+    apple_calendar: integration_overviews.apple_calendar
+    apple_photos: integration_overviews.apple_photos
+    asana: integration_overviews.asana
+    basecamp: integration_overviews.basecamp
+    beehiiv: integration_overviews.beehiiv
+    bible_verses: integration_overviews.bible_verses
+    bitcoin_wallet_balance: integration_overviews.bitcoin_wallet_balance
+    caldav: integration_overviews.caldav
+    changelog: integration_overviews.changelog
+    chatgpt: integration_overviews.chatgpt
+    clicky: integration_overviews.clicky
+    clock: integration_overviews.clock
+    close: integration_overviews.close
+    coinmarketcap: integration_overviews.coinmarketcap
+    convertkit_analytics: integration_overviews.convertkit_analytics
+    custom_text: integration_overviews.custom_text
+    days_left_retirement: integration_overviews.days_left_retirement
+    days_left_until: integration_overviews.days_left_until
+    days_left_year: integration_overviews.days_left_year
+    days_since: integration_overviews.days_since
+    dropbox_photo_album: integration_overviews.dropbox_photo_album
+    eight_sleep: integration_overviews.eight_sleep
+    email_meter: integration_overviews.email_meter
+    enphase: integration_overviews.enphase
+    ethereum_wallet_balance: integration_overviews.ethereum_wallet_balance
+    etsy: integration_overviews.etsy
+    fastmail_calendar: integration_overviews.fastmail_calendar
+    fera: integration_overviews.fera
+    gaffa: integration_overviews.gaffa
+    github_commit_graph: integration_overviews.github_commit_graph
+    github_commits: integration_overviews.github_commits
+    github_contributor_summary: integration_overviews.github_contributor_summary
+    google_analytics: integration_overviews.google_analytics
+    google_calendar: integration_overviews.google_calendar
+    google_drive_photos: integration_overviews.google_drive_photos
+    google_photos: integration_overviews.google_photos
+    google_tasks: integration_overviews.google_tasks
+    gumroad_analytics: integration_overviews.gumroad_analytics
+    hacker_news: integration_overviews.hacker_news
+    home_assistant_screenshot: integration_overviews.home_assistant_screenshot
+    homey: integration_overviews.homey
+    hubspot: integration_overviews.hubspot
+    huckleberry: integration_overviews.huckleberry
+    image_display: integration_overviews.image_display
+    kickstarter: integration_overviews.kickstarter
+    language_learning: integration_overviews.language_learning
+    letterboxd: integration_overviews.letterboxd
+    lunar_calendar: integration_overviews.lunar_calendar
+    lunch_money: integration_overviews.lunch_money
+    mailchimp_analytics: integration_overviews.mailchimp_analytics
+    mazevo: integration_overviews.mazevo
+    microsoft_todo: integration_overviews.microsoft_todo
+    mondrian: integration_overviews.mondrian
+    motivational_quote: integration_overviews.motivational_quote
+    nano_banana_dashboard: integration_overviews.nano_banana_dashboard
+    netatmo_weather_station: integration_overviews.netatmo_weather_station
+    nextcloud_calendar: integration_overviews.nextcloud_calendar
+    notion: integration_overviews.notion
+    outlook_calendar: integration_overviews.outlook_calendar
+    parcel: integration_overviews.parcel
+    place_of_the_day: integration_overviews.place_of_the_day
+    poetry_today: integration_overviews.poetry_today
+    polymarket: integration_overviews.polymarket
+    postmark_analytics: integration_overviews.postmark_analytics
+    private_plugin: integration_overviews.private_plugin
+    product_hunt: integration_overviews.product_hunt
+    profit_well: integration_overviews.profit_well
+    proton_calendar: integration_overviews.proton_calendar
+    purpleair: integration_overviews.purpleair
+    readwise: integration_overviews.readwise
+    reddit: integration_overviews.reddit
+    redirect: integration_overviews.redirect
+    rss_feed: integration_overviews.rss_feed
+    screen_wiper: integration_overviews.screen_wiper
+    screensaver: integration_overviews.screensaver
+    screenshot: integration_overviews.screenshot
+    shopify: integration_overviews.shopify
+    shopping_list: integration_overviews.shopping_list
+    simple_analytics: integration_overviews.simple_analytics
+    square_pos: integration_overviews.square_pos
+    statuspage: integration_overviews.statuspage
+    stock_price: integration_overviews.stock_price
+    tempest_weather_station: integration_overviews.tempest_weather_station
+    the_office: integration_overviews.the_office
+    ticktick: integration_overviews.ticktick
+    todo_list: integration_overviews.todo_list
+    todoist: integration_overviews.todoist
+    unsplash: integration_overviews.unsplash
+    upcoming_movies: integration_overviews.upcoming_movies
+    weather: integration_overviews.weather
+    webhook_image: integration_overviews.webhook_image
+    wiki_random_article: integration_overviews.wiki_random_article
+    withings: integration_overviews.withings
+    workflowy: integration_overviews.workflowy
+    youtube_analytics: integration_overviews.youtube_analytics
