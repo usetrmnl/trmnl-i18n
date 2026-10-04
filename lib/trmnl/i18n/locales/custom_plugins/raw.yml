@@ -27,6 +27,19 @@ raw:
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[0]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[1]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[2]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[3]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[4]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[5]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[6]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[7]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[8]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[9]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[10]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[11]
+        - custom_plugins.simple_calendar.chinese_korean.month_labels[12]
         -
         - M1
         - M2
@@ -41,6 +54,37 @@ raw:
         - M11
         - M12
         date_labels:
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[0]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[1]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[2]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[3]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[4]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[5]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[6]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[7]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[8]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[9]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[10]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[11]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[12]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[13]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[14]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[15]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[16]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[17]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[18]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[19]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[20]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[21]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[22]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[23]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[24]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[25]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[26]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[27]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[28]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[29]
+        - custom_plugins.simple_calendar.chinese_korean.date_labels[30]
         -
         - '1'
         - '2'
@@ -73,17 +117,29 @@ raw:
         - '29'
         - '30'
         heavenly_stems:
-        - Wood
+        - custom_plugins.simple_calendar.chinese_korean.heavenly_stems[0]
+        - custom_plugins.simple_calendar.chinese_korean.heavenly_stems[1]
+        - custom_plugins.simple_calendar.chinese_korean.heavenly_stems[2]
+        - custom_plugins.simple_calendar.chinese_korean.heavenly_stems[3]
+        - custom_plugins.simple_calendar.chinese_korean.heavenly_stems[4]
         - Wood
         - Fire
-        - Fire
-        - Earth
         - Earth
         - Metal
-        - Metal
-        - Water
         - Water
         earthly_branches:
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[0]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[1]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[2]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[3]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[4]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[5]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[6]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[7]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[8]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[9]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[10]
+        - custom_plugins.simple_calendar.chinese_korean.earthly_branches[11]
         - Rat
         - Ox
         - Tiger
@@ -136,6 +192,12 @@ raw:
         - custom_plugins.simple_calendar.chinese_korean.solar_terms[23]
       japanese:
         rokuyo_terms:
+        - custom_plugins.simple_calendar.japanese.rokuyo_terms[0]
+        - custom_plugins.simple_calendar.japanese.rokuyo_terms[1]
+        - custom_plugins.simple_calendar.japanese.rokuyo_terms[2]
+        - custom_plugins.simple_calendar.japanese.rokuyo_terms[3]
+        - custom_plugins.simple_calendar.japanese.rokuyo_terms[4]
+        - custom_plugins.simple_calendar.japanese.rokuyo_terms[5]
         - 先勝
         - 友引
         - 先負
@@ -149,6 +211,20 @@ raw:
       hebrew:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
+        - custom_plugins.simple_calendar.hebrew.month_labels[0]
+        - custom_plugins.simple_calendar.hebrew.month_labels[1]
+        - custom_plugins.simple_calendar.hebrew.month_labels[2]
+        - custom_plugins.simple_calendar.hebrew.month_labels[3]
+        - custom_plugins.simple_calendar.hebrew.month_labels[4]
+        - custom_plugins.simple_calendar.hebrew.month_labels[5]
+        - custom_plugins.simple_calendar.hebrew.month_labels[6]
+        - custom_plugins.simple_calendar.hebrew.month_labels[7]
+        - custom_plugins.simple_calendar.hebrew.month_labels[8]
+        - custom_plugins.simple_calendar.hebrew.month_labels[9]
+        - custom_plugins.simple_calendar.hebrew.month_labels[10]
+        - custom_plugins.simple_calendar.hebrew.month_labels[11]
+        - custom_plugins.simple_calendar.hebrew.month_labels[12]
+        - custom_plugins.simple_calendar.hebrew.month_labels[13]
         - Nisan
         - Iyar
         - Sivan
@@ -164,6 +240,20 @@ raw:
         - Adar I
         - Adar II
         month_labels_abbr:
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[0]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[1]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[2]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[3]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[4]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[5]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[6]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[7]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[8]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[9]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[10]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[11]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[12]
+        - custom_plugins.simple_calendar.hebrew.month_labels_abbr[13]
         - Nis
         - Iya
         - Siv
@@ -181,6 +271,19 @@ raw:
       hijri:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
+        - custom_plugins.simple_calendar.hijri.month_labels[0]
+        - custom_plugins.simple_calendar.hijri.month_labels[1]
+        - custom_plugins.simple_calendar.hijri.month_labels[2]
+        - custom_plugins.simple_calendar.hijri.month_labels[3]
+        - custom_plugins.simple_calendar.hijri.month_labels[4]
+        - custom_plugins.simple_calendar.hijri.month_labels[5]
+        - custom_plugins.simple_calendar.hijri.month_labels[6]
+        - custom_plugins.simple_calendar.hijri.month_labels[7]
+        - custom_plugins.simple_calendar.hijri.month_labels[8]
+        - custom_plugins.simple_calendar.hijri.month_labels[9]
+        - custom_plugins.simple_calendar.hijri.month_labels[10]
+        - custom_plugins.simple_calendar.hijri.month_labels[11]
+        - custom_plugins.simple_calendar.hijri.month_labels[12]
         -
         - Muharram
         - Safar
@@ -197,6 +300,19 @@ raw:
       bengali:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
+        - custom_plugins.simple_calendar.bengali.month_labels[0]
+        - custom_plugins.simple_calendar.bengali.month_labels[1]
+        - custom_plugins.simple_calendar.bengali.month_labels[2]
+        - custom_plugins.simple_calendar.bengali.month_labels[3]
+        - custom_plugins.simple_calendar.bengali.month_labels[4]
+        - custom_plugins.simple_calendar.bengali.month_labels[5]
+        - custom_plugins.simple_calendar.bengali.month_labels[6]
+        - custom_plugins.simple_calendar.bengali.month_labels[7]
+        - custom_plugins.simple_calendar.bengali.month_labels[8]
+        - custom_plugins.simple_calendar.bengali.month_labels[9]
+        - custom_plugins.simple_calendar.bengali.month_labels[10]
+        - custom_plugins.simple_calendar.bengali.month_labels[11]
+        - custom_plugins.simple_calendar.bengali.month_labels[12]
         -
         - Boishakh
         - Joishtho
@@ -213,6 +329,19 @@ raw:
       indian:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
+        - custom_plugins.simple_calendar.indian.month_labels[0]
+        - custom_plugins.simple_calendar.indian.month_labels[1]
+        - custom_plugins.simple_calendar.indian.month_labels[2]
+        - custom_plugins.simple_calendar.indian.month_labels[3]
+        - custom_plugins.simple_calendar.indian.month_labels[4]
+        - custom_plugins.simple_calendar.indian.month_labels[5]
+        - custom_plugins.simple_calendar.indian.month_labels[6]
+        - custom_plugins.simple_calendar.indian.month_labels[7]
+        - custom_plugins.simple_calendar.indian.month_labels[8]
+        - custom_plugins.simple_calendar.indian.month_labels[9]
+        - custom_plugins.simple_calendar.indian.month_labels[10]
+        - custom_plugins.simple_calendar.indian.month_labels[11]
+        - custom_plugins.simple_calendar.indian.month_labels[12]
         -
         - Chaitra
         - Vaisakha
