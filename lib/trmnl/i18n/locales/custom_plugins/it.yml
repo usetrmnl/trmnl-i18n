@@ -74,14 +74,9 @@ it:
         - '30'
         heavenly_stems:
         - Wood
-        - Wood
-        - Fire
         - Fire
         - Earth
-        - Earth
         - Metal
-        - Metal
-        - Water
         - Water
         earthly_branches:
         - Rat
@@ -216,16 +211,19 @@ it:
         -
         - Chaitra
         - Vaisakha
-        - Jyaishtha
-        - Ashadha
+        - Jyaistha
+        - Asadha
         - Sravana
         - Bhadra
         - Asvina
         - Kartika
         - Agrahayana
-        - Pausha
+        - Pausa
         - Magha
         - Phalguna
+        - Jyaishtha
+        - Ashadha
+        - Pausha
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} connessione}} many {{{$value :number} connessioni}} * {{{$value :number} connessioni}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} many {{{$value :number} forks}} * {{{$value :number} forks}}"

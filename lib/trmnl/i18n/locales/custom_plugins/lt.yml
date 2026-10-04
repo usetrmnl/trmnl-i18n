@@ -73,17 +73,29 @@ lt:
         - '29'
         - '30'
         heavenly_stems:
-        - Medis
+        - Wood
+        - Fire
+        - Earth
+        - Metal
+        - Water
         - Medis
         - Ugnis
-        - Ugnis
-        - Žemė
         - Žemė
         - Metalas
-        - Metalas
-        - Vanduo
         - Vanduo
         earthly_branches:
+        - Rat
+        - Ox
+        - Tiger
+        - Rabbit
+        - Dragon
+        - Snake
+        - Horse
+        - Goat
+        - Monkey
+        - Rooster
+        - Dog
+        - Pig
         - Žiurkė
         - Jautis
         - Tigras
@@ -149,6 +161,20 @@ lt:
       hebrew:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
+        - Nisan
+        - Iyar
+        - Sivan
+        - Tamuz
+        - Av
+        - Elul
+        - Tishri
+        - Heshvan
+        - Kislev
+        - Tevet
+        - Shevat
+        - Adar
+        - Adar I
+        - Adar II
         - Nisanas
         - Ijaras
         - Sivanas
@@ -165,23 +191,39 @@ lt:
         - II Adaras
         month_labels_abbr:
         - Nis
-        - Ija
+        - Iya
         - Siv
         - Tam
         - Av
         - Elu
-        - Tiš
-        - Heš
+        - Tis
+        - Hes
         - Kis
         - Tev
-        - Šev
+        - Shv
         - Ada
         - Ad1
         - Ad2
+        - Ija
+        - Tiš
+        - Heš
+        - Šev
       hijri:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
+        - Muharram
+        - Safar
+        - Rabiʻ I
+        - Rabiʻ II
+        - Jumada I
+        - Jumada II
+        - Rajab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
+        - Dhuʻl-Qiʻdah
+        - Dhuʻl-Hijjah
         - Muharramas
         - Safaras
         - I Rabija
@@ -198,13 +240,24 @@ lt:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
         - Boišachas
         - Džoišthas
         - Ašarhas
         - Srabonas
         - Bhadras
         - Ašvinas
-        - Kartika
         - Ogrohajonas
         - Poušas
         - Maghas
@@ -214,18 +267,22 @@ lt:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
-        - Čaitra
-        - Vaišacha
-        - Jjaištha
+        - Chaitra
+        - Vaisakha
+        - Jyaistha
         - Asadha
         - Sravana
         - Bhadra
         - Asvina
         - Kartika
-        - Agrahajana
+        - Agrahayana
         - Pausa
         - Magha
         - Phalguna
+        - Čaitra
+        - Vaišacha
+        - Jjaištha
+        - Agrahajana
     public_recipe_stats:
       connections: ".input {$value :number} .match $value zero {{Nėra prisijungimų}} one {{{$value :number} prisijungimas}} other {{{$value :number} prisijungimai}}"
       forks: ".input {$value :number} .match $value zero {{Nėra atšakų}} one {{{$value :number} atšaka}} other {{{$value :number} atšakos}}"
