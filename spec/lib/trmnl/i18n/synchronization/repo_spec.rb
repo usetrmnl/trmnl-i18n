@@ -36,7 +36,14 @@ RSpec.describe TRMNL::I18n::Synchronization::Repo do
   describe "#load" do
     it "returns a hash for the specified locale" do
       result = repo.load "en"
-      expect(result).to eq("en" => {"hello" => "Hello", "world" => "World"})
+      expect(result).to eq(
+        "en" => {
+          "hello" => "Hello",
+          "world" => "World",
+          "stems" => %w[Wood Wood],
+          "greetings" => {"morning" => "Good morning", "evening" => "Good evening"}
+        }
+      )
     end
   end
 
