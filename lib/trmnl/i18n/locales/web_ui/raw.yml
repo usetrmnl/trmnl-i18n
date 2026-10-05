@@ -207,6 +207,9 @@ raw:
           two_factor_off: account.index.sections.security.two_factor_off
           two_factor_on: account.index.sections.security.two_factor_on
           hint: account.index.sections.security.hint
+        agent:
+          title: account.index.sections.agent.title
+          hint: account.index.sections.agent.hint
     update:
       success: account.update.success
     reset_api_key:
@@ -242,6 +245,10 @@ raw:
       cost_by_model: account.ai_agent_settings.cost_by_model
       model_locked: account.ai_agent_settings.model_locked
       router_locked: account.ai_agent_settings.router_locked
+      credit_title: account.ai_agent_settings.credit_title
+      credit_plus_hint: account.ai_agent_settings.credit_plus_hint
+      byok_title: account.ai_agent_settings.byok_title
+      byok_hint: account.ai_agent_settings.byok_hint
     shared_accounts:
       title: account.shared_accounts.title
       hint: account.shared_accounts.hint
@@ -301,6 +308,7 @@ raw:
       name: account.api_keys.name
       create: account.api_keys.create
       legacy_hint: account.api_keys.legacy_hint
+      older_key: account.api_keys.older_key
     destroy:
       account_deleted: account.destroy.account_deleted
       account_deleted_refunded: account.destroy.account_deleted_refunded
@@ -556,6 +564,7 @@ raw:
       title: devices.new.title
       description: devices.new.description
       add_device: devices.new.add_device
+      friendly_id_hint: devices.new.friendly_id_hint
     associate:
       error: devices.associate.error
       success: devices.associate.success
@@ -578,6 +587,7 @@ raw:
     update:
       error: devices.update.error
       success: devices.update.success
+    add_device_first: devices.add_device_first
   discovery:
     dashboard_action:
       saved:
@@ -600,6 +610,9 @@ raw:
         title: discovery.dashboard_action.setup.title
         subtext: discovery.dashboard_action.setup.subtext
         primary_label: discovery.dashboard_action.setup.primary_label
+    app_card:
+      tag: discovery.app_card.tag
+      hint: discovery.app_card.hint
   logs:
     index:
       title: logs.index.title
@@ -859,6 +872,11 @@ raw:
       supported_by_this_device: plugins.index.supported_by_this_device
       recipes: recipes
       recipes_hint: recipes_hint. __Learn more__.
+      view:
+        label: plugins.index.view.label
+        cards: plugins.index.view.cards
+        list: plugins.index.view.list
+      third_party_plugin: plugins.index.third_party_plugin
     search:
       placeholder: plugins.search.placeholder
     my:
@@ -895,6 +913,8 @@ raw:
     edit:
       title: plugins.edit.title
       tagline: plugins.edit.tagline
+    settings_preview:
+      show_all: plugins.settings_preview.show_all
   plugin_recipes:
     connected: plugin_recipes.connected
     connections:
@@ -906,6 +926,12 @@ raw:
     show:
       more_by_author: plugin_recipes.show.more_by_author
       view_all: plugin_recipes.show.view_all
+      install: plugin_recipes.show.install
+      install_again: plugin_recipes.show.install_again
+      installed: plugin_recipes.show.installed
+      open_settings: plugin_recipes.show.open_settings
+    added_to_playlist: plugin_recipes.added_to_playlist
+    check_settings: plugin_recipes.check_settings
   plugin_settings:
     copy_are_you_sure: plugin_settings.copy_are_you_sure
     delete_are_you_sure: plugin_settings.delete_are_you_sure
@@ -1021,6 +1047,12 @@ raw:
       save_to_use_connection: plugin_settings.form.save_to_use_connection
       connection_names_and_more: plugin_settings.form.connection_names_and_more
       use_different_account: plugin_settings.form.use_different_account
+      error_summary_title: plugin_settings.form.error_summary_title
+      lat_lon_pick_place: plugin_settings.form.lat_lon_pick_place
+      lat_lon_no_matches: plugin_settings.form.lat_lon_no_matches
+      lat_lon_placeholder: plugin_settings.form.lat_lon_placeholder
+      new_title: plugin_settings.form.new_title
+      edit_title: plugin_settings.form.edit_title
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -1084,6 +1116,7 @@ raw:
     linked_google_account:
       connected: plugin_settings.linked_google_account.connected
       default_name: plugin_settings.linked_google_account.default_name
+    preview_updated_just_now: plugin_settings.preview_updated_just_now
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -1221,6 +1254,13 @@ raw:
           show_on_device: apps.room_booking.shared.displays.show_on_device
           stop_showing_confirm: apps.room_booking.shared.displays.stop_showing_confirm
           title: apps.room_booking.shared.displays.title
+          schedule:
+            duration: apps.room_booking.shared.displays.schedule.duration
+            duration_hint: apps.room_booking.shared.displays.schedule.duration_hint
+            title: apps.room_booking.shared.displays.schedule.title
+            hint: apps.room_booking.shared.displays.schedule.hint
+            important: apps.room_booking.shared.displays.schedule.important
+            important_hint: apps.room_booking.shared.displays.schedule.important_hint
         back_to_app: apps.room_booking.shared.back_to_app
       screens:
         available:
@@ -2279,6 +2319,8 @@ raw:
     label: ai_allowance.label
     used: ai_allowance.used
     used_up: ai_allowance.used_up
+    topup_label: ai_allowance.topup_label
+    topup_left: ai_allowance.topup_left
   integration_overviews:
     alias: integration_overviews.alias
     apple_calendar: integration_overviews.apple_calendar
@@ -2376,3 +2418,15 @@ raw:
     withings: integration_overviews.withings
     workflowy: integration_overviews.workflowy
     youtube_analytics: integration_overviews.youtube_analytics
+  ai_credit_topups:
+    buy: ai_credit_topups.buy
+    hint: ai_credit_topups.hint
+    credit_line_item: ai_credit_topups.credit_line_item
+    fee_line_item: ai_credit_topups.fee_line_item
+    create:
+      unknown_amount: ai_credit_topups.create.unknown_amount
+    new:
+      success: ai_credit_topups.new.success
+      unpaid: ai_credit_topups.new.unpaid
+  banners:
+    got_it: banners.got_it

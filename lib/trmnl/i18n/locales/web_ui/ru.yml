@@ -205,7 +205,7 @@ ru:
       sections:
         preferences:
           title: Preferences
-          hint: Time zone, language, theme and AI assistant
+          hint: Time zone, language, theme and beta features
         developer:
           title: Developer
           hint: API keys, developer apps, themes and agents
@@ -229,6 +229,9 @@ ru:
           two_factor_off: 2FA is off
           two_factor_on: Two-factor authentication is on
           hint: Password and two-factor authentication
+        agent:
+          title: AI Agent
+          hint: Usage credits, model selection and bring your own keys
     update:
       success: Профиль успешно обновлён
     reset_api_key:
@@ -264,6 +267,10 @@ ru:
       cost_by_model: Cost by Model
       model_locked: 'Your AI model is set by TRMNL: %{model}.'
       router_locked: Works with all models. TRMNL sends Claude models through %{router} for your account.
+      credit_title: Usage credits
+      credit_plus_hint: __Subscribe to TRMNL+__ for free usage credits every month.
+      byok_title: Bring your own key
+      byok_hint: Add a key of your own to pick any model. The Agent then uses your key, not usage credits.
     shared_accounts:
       title: Accounts shared with you
       hint: Pick an account to manage its devices, playlists and plugins, or leave it.
@@ -322,7 +329,8 @@ ru:
       revoke_confirm: Revoke %{name}? Anything that uses this key stops working.
       name: Name
       create: Create account API key
-      legacy_hint: Legacy key. It reaches only its original endpoints; for anything newer, create an account API key below.
+      legacy_hint: Legacy key. It reaches only its original endpoints. For anything newer, create an account API key above.
+      older_key: Older key
     destroy:
       account_deleted: Your account and all data were deleted.
       account_deleted_refunded: Your account and all data were deleted. Your $1 was refunded.
@@ -578,6 +586,7 @@ ru:
       title: Добавить новое устройство
       description: Введите свой Дружелюбный ID, чтобы добавить новое устройство в свою учётную запись.
       add_device: Добавить новое устройство
+      friendly_id_hint: The 6 characters shown on your TRMNL's screen during setup.
     associate:
       error: Ошибка привязки устройства
       success: Устройство успешно привязано
@@ -600,6 +609,7 @@ ru:
     update:
       error: Ошибка обновления устройства
       success: Настройки устройства "%{device}" успешно обновлены
+    add_device_first: Add a device first
   discovery:
     dashboard_action:
       saved:
@@ -622,6 +632,9 @@ ru:
         title: Set up a persona for %{device_label}
         subtext: Answer a few questions so recommendations fit this TRMNL's role.
         primary_label: Set up persona
+    app_card:
+      tag: App
+      hint: Keep it to add it to your rotation.
   logs:
     index:
       title: Журналы
@@ -881,6 +894,11 @@ ru:
       supported_by_this_device: Supported by this device
       recipes: Рецепты
       recipes_hint: Приватные плагины от участников сообщества, которые можно установить в 1 клик. __Узнать больше__.
+      view:
+        label: Plugin view
+        cards: Cards
+        list: List
+      third_party_plugin: Third Party Plugin
     search:
       placeholder: Поиск плагинов
     my:
@@ -917,6 +935,8 @@ ru:
     edit:
       title: Редактировать плагин
       tagline: Обновите данные вашего плагина.
+    settings_preview:
+      show_all: Show all %{count} options
   plugin_recipes:
     connected: Рецепт подключен
     connections:
@@ -928,13 +948,19 @@ ru:
     show:
       more_by_author: More by this Author
       view_all: View all
+      install: Install
+      install_again: Install again
+      installed: Installed
+      open_settings: Open settings
+    added_to_playlist: Added to your playlist. Check the settings below.
+    check_settings: Installed. Check the settings below.
   plugin_settings:
     copy_are_you_sure: Вы уверены, что хотите скопировать эту настройку?
     delete_are_you_sure: Вы уверены, что хотите удалить эту настройку?
     delete: Это полностью удалит настройки плагина. Чтобы просто скрыть этот плагин на вашем устройстве, удалите его из плейлиста.
     no_matches_found: No plugins match your filters.
     not_supported: Не поддерживается на текущем устройстве
-    refreshing_now_please_wait: Обновление, перезагрузите страницу через несколько секунд.
+    refreshing_now_please_wait: Refreshing now.
     reset_credentials: Учётная запись "%{plugin_name}" успешно сброшена
     form:
       advanced_settings: Расширенные настройки
@@ -949,10 +975,10 @@ ru:
       debug_logs_enabled_link: Посмотреть журналы
       disconnect_account: Отключить учётную запись
       manage_plugin: Настроить %{plugin}
-      force_refresh: Принудительное обновление
-      force_refresh_hint: Эта функция предназначена только для тестирования - пожалуйста, не злоупотребляйте ей.
+      force_refresh: Refresh now
+      force_refresh_hint: Your TRMNL shows this at its next check-in.
       force_refresh_click_here: Нажмите здесь
-      force_refresh_click_here_hint: чтобы немедленно сгенерировать новый экран
+      force_refresh_click_here_hint: to make a new screen now
       force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
       health_notifications: Health notifications
       health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
@@ -1043,6 +1069,12 @@ ru:
       save_to_use_connection: Click Save to finish linking this account.
       connection_names_and_more: "%{names} and %{count} more"
       use_different_account: Use a different account
+      error_summary_title: 'Fix these fields to save:'
+      lat_lon_pick_place: Pick a place from the list
+      lat_lon_no_matches: No matches — try a city or postal code, or paste coordinates like 33.74,-84.38
+      lat_lon_placeholder: Search a city or postal code, or enter lat,long
+      new_title: Add %{plugin}
+      edit_title: "%{plugin} · %{name}"
     import:
       archive_too_large: ZIP-файл слишком большой (максимум %{max_mb} МБ)
       missing_entry: ZIP-файл не содержит %{filename}
@@ -1106,6 +1138,7 @@ ru:
     linked_google_account:
       connected: Connected %{name}. Its events now show here.
       default_name: Another Google account
+    preview_updated_just_now: Updated just now.
   recipes:
     index:
       newest_to_oldest: От новых к старым
@@ -1243,6 +1276,13 @@ ru:
           show_on_device: 'Show this %{type} on %{which} device:'
           stop_showing_confirm: Stop showing %{name} on %{device}?
           title: Displays
+          schedule:
+            duration: Duration
+            duration_hint: How long this screen should appear before progressing playlist
+            title: Schedule
+            hint: Show this screen during…
+            important: Important
+            important_hint: Only show this screen and other important screens during this schedule
         back_to_app: Back to %{app}
       screens:
         available:
@@ -2300,9 +2340,11 @@ ru:
     requirements:
       register_provider_app: Register your own provider application before connecting.
   ai_allowance:
-    label: Free AI this month
+    label: Free usage credits
     used: "%{percent}% used"
-    used_up: You used all of the free AI for this month. Add an OpenRouter or Anthropic key to continue.
+    used_up: You used all of your usage credits. __Top up or add a key__ to continue.
+    topup_label: Top-up credits
+    topup_left: "%{amount} left"
   integration_overviews:
     alias: |-
       Your own image, on a TRMNL ePaper display. Alias is for people who already make their screens somewhere else, like a script on a home server. Paste the image's full URL and your device fetches it straight from that address, so a local URL like http://localhost:4567/image.png works too.
@@ -2688,3 +2730,15 @@ ru:
       Your YouTube channel stats, on a TRMNL ePaper display. Views and hours watched lead the screen, followed by average view duration, subscribers gained, view through rate, likes, comments and shares.
 
       Connect with the Google account that owns your channel (managers of a shared channel can't connect it), then choose a lookback of 7, 28, 90 or 365 days. Run more than 1 channel? Add the plugin once per channel and name each one so you can tell them apart.
+  ai_credit_topups:
+    buy: Add %{amount}
+    hint: Credits last 3 months. Checkout adds a service fee for card and provider costs.
+    credit_line_item: TRMNL AI credit
+    fee_line_item: Service fee
+    create:
+      unknown_amount: Pick one of the top-up amounts.
+    new:
+      success: We added the usage credits to your account.
+      unpaid: The payment did not complete, so we added no usage credits.
+  banners:
+    got_it: Got it

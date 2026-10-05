@@ -183,7 +183,7 @@ de-AT:
       sections:
         preferences:
           title: Preferences
-          hint: Time zone, language, theme and AI assistant
+          hint: Time zone, language, theme and beta features
         developer:
           title: Developer
           hint: API keys, developer apps, themes and agents
@@ -207,6 +207,9 @@ de-AT:
           two_factor_off: 2FA is off
           two_factor_on: Two-factor authentication is on
           hint: Password and two-factor authentication
+        agent:
+          title: AI Agent
+          hint: Usage credits, model selection and bring your own keys
     update:
       success: Konto erfolgreich aktualisiert
     reset_api_key:
@@ -242,6 +245,10 @@ de-AT:
       cost_by_model: Kosten nach Modell
       model_locked: 'Dein KI-Modell wird von TRMNL festgelegt: %{model}.'
       router_locked: Funktioniert mit allen Modellen. TRMNL leitet Claude-Modelle für dein Konto über %{router}.
+      credit_title: Usage credits
+      credit_plus_hint: __Subscribe to TRMNL+__ for free usage credits every month.
+      byok_title: Bring your own key
+      byok_hint: Add a key of your own to pick any model. The Agent then uses your key, not usage credits.
     shared_accounts:
       title: Mit dir geteilte Konten
       hint: Wähle ein Konto aus, dessen Geräte, Wiedergabelisten und Erweiterungen du verwalten willst, oder verlasse es wieder.
@@ -300,7 +307,8 @@ de-AT:
       revoke_confirm: Revoke %{name}? Anything that uses this key stops working.
       name: Name
       create: Create account API key
-      legacy_hint: Legacy key. It reaches only its original endpoints; for anything newer, create an account API key below.
+      legacy_hint: Legacy key. It reaches only its original endpoints. For anything newer, create an account API key above.
+      older_key: Older key
     destroy:
       account_deleted: Your account and all data were deleted.
       account_deleted_refunded: Your account and all data were deleted. Your $1 was refunded.
@@ -555,6 +563,7 @@ de-AT:
       title: Neues Gerät hinzufügen
       description: Gib deine Gerätekennung ein, um ein neues Gerät zu deinem Konto hinzuzufügen.
       add_device: Neues Gerät hinzufügen
+      friendly_id_hint: The 6 characters shown on your TRMNL's screen during setup.
     associate:
       error: Fehler beim Verknüpfen des Gerätes
       success: Gerät erfolgreich verknüpft
@@ -577,6 +586,7 @@ de-AT:
     update:
       error: Fehler beim Aktualisieren des Gerätes
       success: Einstellungen von %{device} erfolgreich aktualisiert
+    add_device_first: Add a device first
   discovery:
     dashboard_action:
       saved:
@@ -599,6 +609,9 @@ de-AT:
         title: Persona für %{device_label} einrichten
         subtext: Beantworte ein paar Fragen, damit die Empfehlungen zum Einsatz dieses TRMNL passen.
         primary_label: Persona einrichten
+    app_card:
+      tag: App
+      hint: Keep it to add it to your rotation.
   logs:
     index:
       title: Log-Dateien
@@ -858,6 +871,11 @@ de-AT:
       supported_by_this_device: Von diesem Gerät unterstützt
       recipes: Blaupausen
       recipes_hint: Private Erweiterungen aus der Community können mit einem Klick installiert werden. __Mehr erfahren__
+      view:
+        label: Plugin view
+        cards: Cards
+        list: List
+      third_party_plugin: Third Party Plugin
     search:
       placeholder: Erweiterungen suchen
     my:
@@ -894,6 +912,8 @@ de-AT:
     edit:
       title: Erweiterung bearbeiten
       tagline: Aktualisiere Details deiner Erweiterung.
+    settings_preview:
+      show_all: Show all %{count} options
   plugin_recipes:
     connected: Blaupause verbunden
     connections:
@@ -905,13 +925,19 @@ de-AT:
     show:
       more_by_author: Mehr von diesem Autor
       view_all: Alle anzeigen
+      install: Install
+      install_again: Install again
+      installed: Installed
+      open_settings: Open settings
+    added_to_playlist: Added to your playlist. Check the settings below.
+    check_settings: Installed. Check the settings below.
   plugin_settings:
     copy_are_you_sure: Möchtest du diese Einstellung wirklich kopieren?
     delete_are_you_sure: Möchtest du diese Einstellung wirklich löschen?
     delete: Hiermit werden alle Einstellungen der Erweiterung vollständig entfernt. Um sie lediglich auszublenden, entferne sie von der Wiedergabeliste.
     no_matches_found: Keine Erweiterungen entsprechen deinen Filtern.
     not_supported: Aktuell für dieses Gerät nicht unterstützt
-    refreshing_now_please_wait: Wird aktualisiert, bitte die Seite in ein paar Sekunden neu laden.
+    refreshing_now_please_wait: Refreshing now.
     reset_credentials: Konto-Reset von %{plugin_name} erfolgreich
     form:
       advanced_settings: Erweiterte Einstellungen
@@ -926,10 +952,10 @@ de-AT:
       debug_logs_enabled_link: Logs anschauen
       disconnect_account: Account trennen
       manage_plugin: "%{plugin} konfigurieren"
-      force_refresh: Aktualisierung erzwingen
-      force_refresh_hint: Diese Funktion dient lediglich zu Testzwecken. Bitte umsichtig verwenden!
+      force_refresh: Refresh now
+      force_refresh_hint: Your TRMNL shows this at its next check-in.
       force_refresh_click_here: Hier klicken
-      force_refresh_click_here_hint: ", um die Anzeige sofort zu aktualisieren."
+      force_refresh_click_here_hint: to make a new screen now
       force_refresh_not_possible: Die Anzeige kann nicht aktualisiert werden, weil der TRMNL-Server keine Bildverarbeitung durchführt. Erfahre __hier__, wie du deine Instanz testen kannst.
       health_notifications: Statusbenachrichtigungen
       health_notifications_hint: Erhalte eine E-Mail, wenn sich der Zustand dieser Erweiterung auf „eingeschränkt“ oder „fehlerhaft“ ändert. Du erhältst maximal eine E-Mail pro Zustand und Vorfall; Benachrichtigungen werden erst wieder aktiviert, sobald die Erweiterung wieder funktionsfähig ist.
@@ -1020,6 +1046,12 @@ de-AT:
       save_to_use_connection: Click Save to finish linking this account.
       connection_names_and_more: "%{names} and %{count} more"
       use_different_account: Use a different account
+      error_summary_title: 'Fix these fields to save:'
+      lat_lon_pick_place: Pick a place from the list
+      lat_lon_no_matches: No matches — try a city or postal code, or paste coordinates like 33.74,-84.38
+      lat_lon_placeholder: Search a city or postal code, or enter lat,long
+      new_title: Add %{plugin}
+      edit_title: "%{plugin} · %{name}"
     import:
       archive_too_large: ZIP-Datei ist zu groß (maximal %{max_mb} MB)
       missing_entry: Die ZIP-Datei enthält nicht %{filename}
@@ -1083,6 +1115,7 @@ de-AT:
     linked_google_account:
       connected: Connected %{name}. Its events now show here.
       default_name: Another Google account
+    preview_updated_just_now: Updated just now.
   recipes:
     index:
       newest_to_oldest: Neueste zuerst
@@ -1220,6 +1253,13 @@ de-AT:
           show_on_device: 'Diesen %{type} auf %{which} Gerät anzeigen:'
           stop_showing_confirm: "%{name} nicht mehr auf %{device} anzeigen?"
           title: Anzeigen
+          schedule:
+            duration: Duration
+            duration_hint: How long this screen should appear before progressing playlist
+            title: Schedule
+            hint: Show this screen during…
+            important: Important
+            important_hint: Only show this screen and other important screens during this schedule
         back_to_app: Zurück zu %{app}
       screens:
         available:
@@ -2277,9 +2317,11 @@ de-AT:
     requirements:
       register_provider_app: Register your own provider application before connecting.
   ai_allowance:
-    label: Free AI this month
+    label: Free usage credits
     used: "%{percent}% used"
-    used_up: You used all of the free AI for this month. Add an OpenRouter or Anthropic key to continue.
+    used_up: You used all of your usage credits. __Top up or add a key__ to continue.
+    topup_label: Top-up credits
+    topup_left: "%{amount} left"
   integration_overviews:
     alias: |-
       Your own image, on a TRMNL ePaper display. Alias is for people who already make their screens somewhere else, like a script on a home server. Paste the image's full URL and your device fetches it straight from that address, so a local URL like http://localhost:4567/image.png works too.
@@ -2665,3 +2707,15 @@ de-AT:
       Your YouTube channel stats, on a TRMNL ePaper display. Views and hours watched lead the screen, followed by average view duration, subscribers gained, view through rate, likes, comments and shares.
 
       Connect with the Google account that owns your channel (managers of a shared channel can't connect it), then choose a lookback of 7, 28, 90 or 365 days. Run more than 1 channel? Add the plugin once per channel and name each one so you can tell them apart.
+  ai_credit_topups:
+    buy: Add %{amount}
+    hint: Credits last 3 months. Checkout adds a service fee for card and provider costs.
+    credit_line_item: TRMNL AI credit
+    fee_line_item: Service fee
+    create:
+      unknown_amount: Pick one of the top-up amounts.
+    new:
+      success: We added the usage credits to your account.
+      unpaid: The payment did not complete, so we added no usage credits.
+  banners:
+    got_it: Got it
