@@ -73,31 +73,20 @@ sl:
         - '29'
         - '30'
         heavenly_stems:
-        - Wood
-        - Fire
-        - Earth
-        - Metal
-        - Water
+        - Les
         - Les
         - Ogenj
+        - Ogenj
+        - Zemlja
         - Zemlja
         - Kovina
+        - Kovina
+        - Voda
         - Voda
         earthly_branches:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
         - Podgana
         - Vol
+        - Tiger
         - Zajec
         - Zmaj
         - Kača
@@ -108,20 +97,9 @@ sl:
         - Pes
         - Prašič
         zodiac_animals:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
         - Podgana
         - Vol
+        - Tiger
         - Zajec
         - Zmaj
         - Kača
@@ -132,30 +110,6 @@ sl:
         - Pes
         - Prašič
         solar_terms:
-        - Minor Cold
-        - Major Cold
-        - Start of Spring
-        - Rain Water
-        - Awakening of Insects
-        - Spring Equinox
-        - Pure Brightness
-        - Grain Rain
-        - Start of Summer
-        - Grain Buds
-        - Grain in Ear
-        - Summer Solstice
-        - Minor Heat
-        - Major Heat
-        - Start of Autumn
-        - End of Heat
-        - White Dew
-        - Autumn Equinox
-        - Cold Dew
-        - Frost's Descent
-        - Start of Winter
-        - Minor Snow
-        - Major Snow
-        - Winter Solstice
         - Rahel mraz
         - Hud mraz
         - Začetek pomladi
@@ -196,58 +150,38 @@ sl:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         - Nisan
-        - Iyar
+        - Ijar
         - Sivan
         - Tamuz
         - Av
         - Elul
-        - Tishri
-        - Heshvan
+        - Tišri
+        - Hešvan
         - Kislev
         - Tevet
-        - Shevat
+        - Švat
         - Adar
         - Adar I
         - Adar II
-        - Ijar
-        - Tišri
-        - Hešvan
-        - Švat
         month_labels_abbr:
         - Nis
-        - Iya
+        - Ija
         - Siv
         - Tam
         - Av
         - Elu
-        - Tis
-        - Hes
+        - Tiš
+        - Heš
         - Kis
         - Tev
-        - Shv
+        - Švt
         - Ada
         - Ad1
         - Ad2
-        - Ija
-        - Tiš
-        - Heš
-        - Švt
       hijri:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
-        - Muharram
-        - Safar
-        - Rabiʻ I
-        - Rabiʻ II
-        - Jumada I
-        - Jumada II
-        - Rajab
-        - Shaʻban
-        - Ramadan
-        - Shawwal
-        - Dhuʻl-Qiʻdah
-        - Dhuʻl-Hijjah
         - Muharem
         - Safer
         - Rabi I
@@ -256,6 +190,7 @@ sl:
         - Džumada II
         - Redžeb
         - Šaban
+        - Ramadan
         - Šaval
         - Zu l-kaada
         - Zu l-hidža
@@ -263,51 +198,34 @@ sl:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
-        - Boishakh
-        - Joishtho
-        - Asharh
-        - Srabon
-        - Bhadro
-        - Ashwin
-        - Kartika
-        - Ogrohayon
-        - Poush
-        - Magh
-        - Falgun
-        - Choitro
         - Boišak
         - Džoištho
         - Ašard
         - Šrabon
+        - Bhadro
         - Ašvin
+        - Kartika
         - Ogrohajon
         - Poš
         - Mag
+        - Falgun
         - Čojtro
       indian:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
-        - Chaitra
-        - Vaisakha
-        - Jyaistha
-        - Asadha
-        - Sravana
-        - Bhadra
-        - Asvina
-        - Kartika
-        - Agrahayana
-        - Pausa
-        - Magha
-        - Phalguna
         - Čajtra
         - Vaišaka
         - Džjaištha
         - Ašadha
         - Šravana
+        - Bhadra
         - Ašvina
+        - Kartika
         - Agrahajana
         - Pauša
+        - Magha
+        - Phalguna
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} povezava}} two {{{$value :number} povezavi}} few {{{$value :number} povezave}} * {{{$value :number} povezav}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} razvejitev}} two {{{$value :number} razvejitvi}} few {{{$value :number} razvejitve}} * {{{$value :number} razvejitev}}"

@@ -73,31 +73,20 @@ de:
         - '29'
         - '30'
         heavenly_stems:
-        - Wood
-        - Fire
-        - Earth
-        - Metal
-        - Water
+        - Holz
         - Holz
         - Feuer
+        - Feuer
+        - Erde
         - Erde
         - Metall
+        - Metall
+        - Wasser
         - Wasser
         earthly_branches:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
         - Ratte
         - Ochse
+        - Tiger
         - Hase
         - Drache
         - Schlange
@@ -161,46 +150,34 @@ de:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         - Nisan
-        - Iyar
-        - Sivan
-        - Tamuz
-        - Av
-        - Elul
-        - Tishri
-        - Heshvan
-        - Kislev
-        - Tevet
-        - Shevat
-        - Adar
-        - Adar I
-        - Adar II
         - Ijjar
         - Siwan
         - Tammus
         - Aw
+        - Elul
         - Tischri
         - Cheschwan
         - Kislew
+        - Tevet
         - Schevat
+        - Adar
+        - Adar I
+        - Adar II
         month_labels_abbr:
         - Nis
-        - Iya
-        - Siv
+        - Ija
+        - Siw
         - Tam
         - Av
         - Elu
         - Tis
-        - Hes
+        - Che
         - Kis
         - Tev
-        - Shv
+        - Schv
         - Ada
         - Ad1
         - Ad2
-        - Ija
-        - Siw
-        - Che
-        - Schv
       hijri:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
@@ -209,17 +186,12 @@ de:
         - Safar
         - Rabiʻ I
         - Rabiʻ II
-        - Jumada I
-        - Jumada II
-        - Rajab
-        - Shaʻban
-        - Ramadan
-        - Shawwal
-        - Dhuʻl-Qiʻdah
-        - Dhuʻl-Hijjah
         - Dschumada I
         - Dschumada II
         - Radschab
+        - Shaʻban
+        - Ramadan
+        - Shawwal
         - Dhu l-qaʻda
         - Dhu l-Hiddscha
       bengali:
@@ -244,22 +216,16 @@ de:
         -
         - Chaitra
         - Vaisakha
-        - Jyaistha
-        - Asadha
-        - Sravana
-        - Bhadra
-        - Asvina
-        - Kartika
-        - Agrahayana
-        - Pausa
-        - Magha
-        - Phalguna
         - Jyaishtha
         - Ashadha
+        - Sravana
         - Bhadrapada
         - Ashvina
+        - Kartika
         - Margasirsha
         - Pausha
+        - Magha
+        - Phalguna
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} Verbindung}} * {{{$value :number} Verbindungen}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} fork}} * {{{$value :number} forks}}"
