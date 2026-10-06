@@ -183,7 +183,7 @@ sl:
       low_battery_notification_email: E-pošta za obvestilo o nizki bateriji
       low_battery_notification_email_hint: Pošljite obvestila o nizki bateriji vseh naprav sem namesto na naslov računa. Pustite prazno za uporabo naslova vašega računa.
       explore_apps: Raziščite aplikacije
-      explore_apps_hint: TRMNL Booking (rezervacije sejnih sob na licu mesta), upravljanje flote naprav in več.
+      explore_apps_hint: TRMNL Booking (book rooms on the spot), fleet management, and more.
       manage_themes: Manage themes
       plus_subscription_lifetime: You have lifetime TRMNL+. Thanks for your support!
       ai_agent_configure: Configure model, keys & usage
@@ -208,7 +208,7 @@ sl:
           hint: Time zone, language, theme and beta features
         developer:
           title: Developer
-          hint: API keys, developer apps and connected agents
+          hint: API keys, developer apps, themes and agents
           api_keys:
             one: 1 API key
             other: "%{count} API keys"
@@ -223,10 +223,15 @@ sl:
             other: Shared with %{count} people
         profile:
           title: Profile
+          hint: Name, email, GitHub and Discord
         security:
           title: Security
-          two_factor_off: Two-factor authentication is off
+          two_factor_off: 2FA is off
           two_factor_on: Two-factor authentication is on
+          hint: Password and two-factor authentication
+        agent:
+          title: AI Agent
+          hint: Usage credits, model selection and bring your own keys
     update:
       success: Profil je bil uspešno posodobljen
     reset_api_key:
@@ -262,6 +267,10 @@ sl:
       cost_by_model: Stroški po modelu
       model_locked: 'Your AI model is set by TRMNL: %{model}.'
       router_locked: Works with all models. TRMNL sends Claude models through %{router} for your account.
+      credit_title: Usage credits
+      credit_plus_hint: __Subscribe to TRMNL+__ for free usage credits every month.
+      byok_title: Bring your own key
+      byok_hint: Add a key of your own to pick any model. The Agent then uses your key, not usage credits.
     shared_accounts:
       title: Računi, deljeni z vami
       hint: Izberite račun za upravljanje njegovih naprav, seznamov predvajanja in vtičnikov, ali ga zapustite.
@@ -320,7 +329,8 @@ sl:
       revoke_confirm: Revoke %{name}? Anything that uses this key stops working.
       name: Name
       create: Create account API key
-      legacy_hint: Legacy key. It reaches only its original endpoints; for anything newer, create an account API key below.
+      legacy_hint: Legacy key. It reaches only its original endpoints. For anything newer, create an account API key above.
+      older_key: Older key
     destroy:
       account_deleted: Your account and all data were deleted.
       account_deleted_refunded: Your account and all data were deleted. Your $1 was refunded.
@@ -579,6 +589,7 @@ sl:
       title: Dodaj novo napravo
       description: Vnesite svoj prijazen ID, da dodate novo napravo v svoj račun.
       add_device: Dodaj novo napravo
+      friendly_id_hint: The 6 characters shown on your TRMNL's screen during setup.
     associate:
       error: Napaka pri povezovanju naprave
       success: Naprava je bila uspešno povezana
@@ -601,6 +612,7 @@ sl:
     update:
       error: Napaka pri posodabljanju naprave
       success: Nastavitve naprave %{device} so bile uspešno posodobljene
+    add_device_first: Add a device first
   discovery:
     dashboard_action:
       saved:
@@ -623,6 +635,9 @@ sl:
         title: Nastavite persono za %{device_label}
         subtext: Odgovorite na nekaj vprašanj, da bodo priporočila ustrezala vlogi te naprave TRMNL.
         primary_label: Nastavi persono
+    app_card:
+      tag: App
+      hint: Keep it to add it to your rotation.
   logs:
     index:
       title: Dnevniki
@@ -887,6 +902,11 @@ sl:
       supported_by_this_device: Podprto na tej napravi
       recipes: Recepti
       recipes_hint: Zasebni vtičniki članov skupnosti, ki jih lahko namestite z enim klikom. __Preberite več__.
+      view:
+        label: Plugin view
+        cards: Cards
+        list: List
+      third_party_plugin: Third Party Plugin
     search:
       placeholder: Iskanje vtičnikov
     my:
@@ -923,6 +943,8 @@ sl:
     edit:
       title: Uredi vtičnik
       tagline: Posodobite podatke svojega vtičnika.
+    settings_preview:
+      show_all: Show all %{count} options
   plugin_recipes:
     connected: Recept povezan
     connections:
@@ -936,13 +958,19 @@ sl:
     show:
       more_by_author: Več od tega avtorja
       view_all: Ogled vseh
+      install: Install
+      install_again: Install again
+      installed: Installed
+      open_settings: Open settings
+    added_to_playlist: Added to your playlist. Check the settings below.
+    check_settings: Installed. Check the settings below.
   plugin_settings:
     copy_are_you_sure: Ali ste prepričani, da želite kopirati to nastavitev?
     delete_are_you_sure: Ali ste prepričani, da želite izbrisati to nastavitev?
     delete: To bo popolnoma odstranilo nastavitve vtičnika. Če želite vtičnik le skriti pred napravo, ga namesto tega izbrišite s seznama predvajanja.
     no_matches_found: Noben vtičnik ne ustreza vašim filtrom.
     not_supported: Ni podprto na trenutni napravi
-    refreshing_now_please_wait: Osveževanje poteka, stran znova naložite čez nekaj sekund.
+    refreshing_now_please_wait: Refreshing now.
     reset_credentials: Račun %{plugin_name} je bil uspešno ponastavljen
     form:
       advanced_settings: Napredne nastavitve
@@ -957,10 +985,10 @@ sl:
       debug_logs_enabled_link: Ogled dnevnikov
       disconnect_account: Prekini povezavo računa
       manage_plugin: Nastavi %{plugin}
-      force_refresh: Vsili osvežitev
-      force_refresh_hint: Ta funkcija je namenjena samo testiranju - prosimo, ne zlorabljajte je.
+      force_refresh: Refresh now
+      force_refresh_hint: Your TRMNL shows this at its next check-in.
       force_refresh_click_here: Kliknite tukaj
-      force_refresh_click_here_hint: za takojšnje ustvarjanje novega zaslona
+      force_refresh_click_here_hint: to make a new screen now
       force_refresh_not_possible: Tega vtičnika ni mogoče vsiljeno osvežiti, ker strežnik TRMNL ne izvaja obdelave slik. Preberite, kako preizkusiti svojo instanco, __tukaj__.
       health_notifications: Obvestila o stanju
       health_notifications_hint: Prejmite e-pošto, ko stanje tega vtičnika preide na degradirano ali napako. Prejeli boste največ eno e-pošto na stanje na dogodek; opozorila se znova aktivirajo, ko vtičnik znova postane brezhiben.
@@ -1017,8 +1045,6 @@ sl:
       clear_state: Počisti shranjeno stanje
       virtual_device_short_heading: Navidezna naprava? Kliknite spodaj za ustvarjanje zaslonov.
       virtual_device_long_heading: Navidezna naprava? To uporabite za ustvarjanje zaslonov na zahtevo.
-      ai_features_default_on_markup_editor: The __agentic markup editor__ is now available to everyone.
-      ai_features_default_on_account_settings: Use it if it helps, or switch it off anytime in __Account Settings__.
       description_hint: A short tagline for this plugin. Shown in search results if published as a recipe.
       description_placeholder: Upcoming train departures
       max_refresh_rate: Max refresh rate
@@ -1046,12 +1072,19 @@ sl:
       refresh_rate_floor_by_author: The recipe author limits installs to %{refresh_rate}.
       refresh_rate_floor_by_owner: Limited to %{refresh_rate} by the "Fastest refresh rate" setting below.
       parse_empty: Nothing rendered. Check that your Liquid conditions match the saved values. A select saves its option in lowercase.
-      recipe_overview: Public recipe overview
-      recipe_overview_hint: Describe what this recipe shows and how people can use it. Recipes with at least 100 useful words can appear in search results.
       use_existing_connection: Or use an account you already connected
       use_connection_from: Use the connection from %{name}
       uses_connection_from: Uses the connection from %{name}.
       connect_another_google_account: Connect another Google account
+      save_to_use_connection: Click Save to finish linking this account.
+      connection_names_and_more: "%{names} and %{count} more"
+      use_different_account: Use a different account
+      error_summary_title: 'Fix these fields to save:'
+      lat_lon_pick_place: Pick a place from the list
+      lat_lon_no_matches: No matches — try a city or postal code, or paste coordinates like 33.74,-84.38
+      lat_lon_placeholder: Search a city or postal code, or enter lat,long
+      new_title: Add %{plugin}
+      edit_title: "%{plugin} · %{name}"
     import:
       archive_too_large: Datoteka ZIP je prevelika (največ %{max_mb} MB)
       missing_entry: Datoteka ZIP ne vsebuje %{filename}
@@ -1076,6 +1109,7 @@ sl:
       credentials_rejected: Those credentials were rejected — check them and reload this page.
       no_homey: No Homey was found on this Athom account — add one in the Homey app, then reload this page.
       mazevo_rooms_forbidden: This API key cannot list rooms. Allow the Building and Rooms Calls group on it in Mazévo, or enter the Room ID below.
+      outlook_mailbox_unavailable: Microsoft cannot open the mailbox of this account. It can be inactive, deleted, or on your organization's own Exchange server. Ask your IT team, or connect a different Microsoft account.
     delete_mashup_warning:
       one: Ta vtičnik zaseda mesto v mešanici. Če ga odstranite, to mesto ostane prazno.
       other: Ta vtičnik zaseda %{count} mest v mešanicah. Če ga odstranite, ta mesta ostanejo prazna.
@@ -1116,6 +1150,7 @@ sl:
     linked_google_account:
       connected: Connected %{name}. Its events now show here.
       default_name: Another Google account
+    preview_updated_just_now: Updated just now.
   recipes:
     index:
       newest_to_oldest: Od najnovejših do najstarejših
@@ -1149,6 +1184,7 @@ sl:
     attributes:
       plugin_setting:
         ai_coauthored: Soavtorstvo AI
+        recipe_overview: Search engine index description
     errors:
       models:
         account_membership:
@@ -1166,6 +1202,10 @@ sl:
           attributes:
             sleep_end_time:
               same_as_start: must differ from the start time, or the device would never sleep
+        plugin_setting:
+          attributes:
+            recipe_overview:
+              too_few_words: needs at least %{count} words, or leave it blank
   apps:
     core:
       public:
@@ -1201,7 +1241,7 @@ sl:
         booked: Rezervirano
         booking: Rezervacija
         booked_for_day: Rezervirano za ves dan
-        booked_with_trmnl: Rezervirano s TRMNL
+        booked_with_trmnl: Booked on the spot
         booking_cancelled: Rezervacija preklicana.
         booking_ended: Rezervacija je končana.
         cancel: Prekliči
@@ -1256,6 +1296,13 @@ sl:
           show_on_device: 'Prikaži to %{type} na napravi %{which}:'
           stop_showing_confirm: Prenehaj prikazovati %{name} na napravi %{device}?
           title: Zasloni
+          schedule:
+            duration: Duration
+            duration_hint: How long this screen should appear before progressing playlist
+            title: Schedule
+            hint: Show this screen during…
+            important: Important
+            important_hint: Only show this screen and other important screens during this schedule
         back_to_app: Nazaj na %{app}
       screens:
         available:
@@ -1283,7 +1330,7 @@ sl:
           virtual_device: Navidezna
           undisplayed_calendars: Calendars not displayed on any device yet
       calendars:
-        setup_docs: Časovni pasovi, zasloni in rezervacije na licu mesta za sejno sobo.
+        setup_docs: Time zones, displays & Booking with TRMNL for a meeting room.
         display_preview:
           not_rendered_yet: Še ni izrisano
         form:
@@ -1550,7 +1597,7 @@ sl:
         show:
           branding: Znamčenje
           booking_window: Rezervabilno do
-          booking_window_hint: Kako daleč vnaprej lahko nekdo ustvari rezervacijo na licu mesta.
+          booking_window_hint: How far ahead of today someone may book a room.
           booking_window_one_day: 1 dan
           booking_window_one_month: 1 mesec
           booking_window_one_week: 1 teden
@@ -1572,7 +1619,7 @@ sl:
           dark_mode_hint: Izriši zaslone naprave v temnem načinu — temno ozadje s svetlim besedilom.
           invalid_booking_window: Okno rezervacij ni veljavno.
           invalid_time_format: Oblika časa ni veljavna.
-          public_bookings: Rezervacije na licu mesta
+          public_bookings: Booking with TRMNL
           public_bookings_hint: Omogočite komur koli rezervacijo sobe s skeniranjem QR kode. Zahteva koledar Google ali Microsoft.
           qr_code_security: Varnost QR kode
           qr_code_security_hint: Dnevno zamenjajte javne URL-je za rezervacije, da poteče dostop do koledarja za zunanje obiskovalce.
@@ -1593,9 +1640,9 @@ sl:
           uninstall: Odstrani
           uninstall_confirm: Odstrani %{app}?
           uninstall_app: Odstrani %{app}
-          walk_up_booking: Rezervacije na licu mesta
+          walk_up_booking: Booking with TRMNL
           walk_up_calendar: Prikaži koledar
-          walk_up_calendar_hint: Prikaži prihajajoče rezervacije na zaslonu za rezervacije na licu mesta.
+          walk_up_calendar_hint: Show upcoming bookings on the public booking page.
       billing:
         title: Obračunavanje
         summary:
@@ -1624,7 +1671,29 @@ sl:
           two: Rezervacije postanejo plačljiva aplikacija %{date}. Vaša %{count} vira bosta stala %{total} na mesec.
           few: Rezervacije postanejo plačljiva aplikacija %{date}. Vaši %{count} viri bodo stali %{total} na mesec.
         manage_calendars: Manage calendars
-      tagline: Urniki sob na vaših zaslonih z rezervacijami prek QR kode na licu mesta.
+      tagline: Room schedules on your displays, with Booking with TRMNL via QR code.
+      sync_failure_email:
+        subject: Booking calendar "%{name}" could not sync
+        intro: Booking could not sync "%{name}" from %{provider} after %{count} consecutive failed attempts.
+        last_synced: 'Last successful sync: %{time}.'
+        never_synced: This calendar has not synced successfully.
+        warning: Bookings shown on your displays may be out of date. Scheduled sync retries have stopped until a sync succeeds.
+        instructions: Check the calendar connection settings. For Google or Microsoft calendars, reconnect the account if access has expired. For iCal calendars, check that the feed URL still works. After fixing the connection, open the calendar page again to retry. A successful sync restarts scheduled retries.
+        open_calendar: Open calendar
+        providers:
+          ical: iCal
+          google: Google Calendar
+          microsoft: Microsoft Calendar
+      url_displays:
+        label: Other (via URL)
+        open: Open
+        copy: Copy URL
+        added: URL display added.
+        removed: URL display removed.
+        waiting: Waiting for calendar sync
+        syncing: Syncing
+        stale: Calendar data is delayed. Retrying…
+        unavailable: This display is no longer available.
     fleet:
       tagline: Zrcalite zaslon in nastavitve ene naprave na več zaslonih.
       check_ins:
@@ -1657,6 +1726,13 @@ sl:
           other: "%{count} devices added to the fleet."
         not_added: 'Could not add %{names}: already in a fleet or using legacy mirroring.'
         none_selected: Check at least one device to add.
+        sort:
+          urgency: Check-in urgency
+          name_asc: Device name (A–Z)
+          name_desc: Device name (Z–A)
+          battery_asc: Battery life (low to high)
+          battery_desc: Battery life (high to low)
+          apply: Sort
       alerts:
         title: Check-in alerts
         description: One email per fleet listing every overdue device. A device is reported once per outage, and again after it checks in and goes quiet once more.
@@ -1707,6 +1783,15 @@ sl:
       playlist_item_title: New playlist item
     create:
       full_layout_error: Pick a plugin to add to your playlist.
+    presets:
+      1x1: Full screen
+      1Lx1R: Two columns
+      1Lx2R: Large left, two right
+      2Lx1R: Two left, large right
+      1Tx1B: Two rows
+      1Tx2B: Large top, two bottom
+      2Tx1B: Two top, large bottom
+      2x2: Four sections
   playlist_coverage:
     title: Pokritost seznama predvajanja
     your_timezone: vaš časovni pas
@@ -1878,6 +1963,10 @@ sl:
       submit: Poveži
       wrong_account: Napačen račun?
       secrets_warning: The synced settings.yml carries this plugin's polling url, headers and body in plain text. Use a private repository, or move credentials into a custom field first.
+    accounts:
+      label: Choose a GitHub account
+      not_listed: Account not listed?
+      install: Install TRMNL Sync on it
   user_themes:
     index:
       title: Themes
@@ -2272,6 +2361,417 @@ sl:
     plugin_settings_added_today: An account can add at most %{count} plugins a day. Try again tomorrow.
     mashups_held: An account can hold at most %{count} mashups. Remove one before adding another.
     playlist_items_held: A device can hold at most %{count} playlist items. Remove one before adding another.
+  catalog_installations:
+    choices:
+      install: Install
+      mirror: Install shared display
+      fork_own_config: Use my own configuration
+      fork_shared_config: Use the author's shared configuration
+    requirements:
+      register_provider_app: Register your own provider application before connecting.
+  ai_allowance:
+    label: Free usage credits
+    used: "%{percent}% used"
+    used_up: You used all of your usage credits. __Top up or add a key__ to continue.
+    topup_label: Top-up credits
+    topup_left: "%{amount} left"
+  integration_overviews:
+    alias: |-
+      Your own image, on a TRMNL ePaper display. Alias is for people who already make their screens somewhere else, like a script on a home server. Paste the image's full URL and your device fetches it straight from that address, so a local URL like http://localhost:4567/image.png works too.
+
+      The image has to be ready for ePaper: a 1 bit BMP, or a 1 or 2 bit PNG, at your device's exact size. We don't convert it for you (that's what Image Display is for). Rewrite the same file over and over? Turn off caching and your device redraws it every time, even when the filename hasn't changed.
+    apple_calendar: |-
+      Your Apple Calendar, on a TRMNL ePaper display. There are 3 ways in: paste the link of a calendar you've made public in iCloud, sync from your iPhone or iPad with the TRMNL Companion app, or sign in with your Apple ID and an app-specific password and pick which iCloud calendars to show.
+
+      Then choose a layout: today's agenda, the next few days, a week or work week, a month grid, or a minimal schedule. Show event times and descriptions, use 12 or 24 hour time, hide events with certain words in them, and start your week on whatever day you like. A current time line and a highlight on today show you where you are in the day.
+    apple_photos: |-
+      Photos from an Apple Photos shared album, on a TRMNL ePaper display. In the Photos app, turn on Public Website for a shared album, then paste the album's link into the plugin. Each refresh picks a random photo from it.
+
+      Choose Cover to fill the whole screen (the edges may get cropped) or Contain to show the full photo with space around it. Photos you add to the album later join the rotation. TRMNL only reads that one shared album, nothing else in your library.
+    asana: |-
+      Your Asana tasks, on a TRMNL ePaper display. Connect your Asana account, pick a workspace, then choose which sections of My Tasks to show, like "Do today" or "Do later". The full screen fits 3 sections side by side; smaller layouts fit 2.
+
+      Each task shows its name and due date. Sort by due date, A to Z, or Asana's own order, and show due dates as "Today", "Tomorrow" and weekday names, or as short dates. You can also show which project each task belongs to and include completed tasks. Project views, shared team lists and subtasks are not supported, only My Tasks.
+    basecamp: |-
+      Your Basecamp to-dos, on a TRMNL ePaper display. Connect your Basecamp account, pick the account and project, and the screen lists the to-dos from that project's to-do lists in one place.
+
+      To-dos are sorted by due date, soonest first, so the next thing you need to do sits at the top. Want to watch more than 1 project? Add the plugin once per project and put them side by side on one screen with a mashup.
+    beehiiv: |-
+      Stats from your latest beehiiv newsletter, on a TRMNL ePaper display. You see the subject line, how many people got it, opens and open rate, clicks and click rate, plus unsubscribes and spam complaints.
+
+      Setup takes a minute and no code. In beehiiv, go to Settings, then Integrations, then API, create an API key and copy your publication ID. Paste both into the plugin and save. Run more than 1 newsletter? Add the plugin once per publication.
+    bible_verses: |-
+      A random Bible verse on your TRMNL ePaper display, a fresh one each time the screen refreshes. The verse sits in the middle of the screen under a "Daily Scripture" heading, with the book, chapter and verse below it.
+
+      Pick your translation: American Standard, King James, or World English Bible. That's the only setting. Add it to your playlist and let it turn up between your calendar and the weather.
+    bitcoin_wallet_balance: |-
+      The balance of a Bitcoin wallet, on a TRMNL ePaper display. Paste in a public wallet address and the screen shows what it holds in BTC and in US dollars, plus a candlestick chart of the Bitcoin price over the last 90 days.
+
+      You also get the price change over 7 days and 90 days, so you can see at a glance whether it was a good week. TRMNL only needs the public address, never your keys. Holding more than 1 wallet? Add the plugin once per address.
+    caldav: |-
+      Events from almost any calendar service, on a TRMNL ePaper display. Paste 1 or more published .ics calendar links, and add HTTP headers if your server needs them for access. Prefer your phone? Sync calendars from your iPhone or iPad with the TRMNL Companion app.
+
+      Then choose a layout: today's agenda, the next few days, a week or work week, a month grid, or a minimal schedule. Show event times and descriptions, use 12 or 24 hour time, hide events with certain words in them, and show calendar colors on event blocks. Week and month views can shade weekends, highlight today, show week numbers, and draw a line at the current time.
+    changelog: |-
+      News from the TRMNL team, on your TRMNL ePaper display. The screen lists our latest announcements, newest first, each with its date and title. The full screen adds a short description under each one.
+
+      There's nothing to set up. Add it to a playlist and you'll find out about new plugins and features from the device itself, without checking email or our socials.
+    chatgpt: |-
+      Answers from ChatGPT, on a TRMNL ePaper display. Write a prompt once and it's asked again on every refresh, so you get a new response each time. Think a fun fact, a word of the day, or a daily writing idea.
+
+      Create an API key in your OpenAI account and paste it in, along with your prompt. Pick a model, and turn on web search for answers that need current information, with the sources listed at the bottom. It runs on your own API key, so usage counts against your OpenAI account, and if you hit OpenAI's rate limits the screen shows their error.
+    clicky: |-
+      Your Clicky website analytics, on a TRMNL ePaper display. The screen shows pageviews, visitors, and average time on page, with a chart of pageviews by day underneath.
+
+      Enter your site's ID and site key from Clicky, then choose how far back to look: 1, 7, 14 or 30 days. Got more than 1 site? Add the plugin once per site and combine them on one screen with a mashup.
+    clock: |-
+      A clock for your TRMNL ePaper display. Go analog with a face and hands, or digital with seven-segment digits like a classic LCD clock, and set the time zone it shows. It can fill the whole screen, or take half or a quarter of it.
+
+      The digital face shows 24 hour time. Got colleagues or family in other cities? Add 1 clock per time zone. Then drop clocks into a mashup next to your calendar or weather, so the time sits right where you're already looking.
+    close: |-
+      Your Close CRM pipeline, on a TRMNL ePaper display. Connect your Close account, then pick up to 3 pipeline statuses to follow, like "Active" or "Won". Each status gets its own column of opportunities.
+
+      Every opportunity shows the lead's name, its value, and who on your team owns it. Choose how far back to look: opportunities updated in the last 7, 14 or 30 days. Put it on the wall near your sales team and everyone sees where deals stand.
+    coinmarketcap: |-
+      Live crypto prices from CoinMarketCap, on a TRMNL ePaper display. Each coin shows its symbol, name, current price, and change over the last 24 hours.
+
+      Add your CoinMarketCap API key, then enter the symbols you want to watch, like BTC or ETH. Show 1 coin big and bold, or up to 12 in a grid. Prices come in US dollars by default, or pick another currency like EUR, GBP, JPY or ZAR, converted with an exchange rate no more than a day old.
+    convertkit_analytics: |-
+      Your ConvertKit newsletter numbers, on a TRMNL ePaper display. One side shows your account: subscriber count and products sold. The other shows a broadcast's results: recipients, open rate, click rate, clicks, unsubscribes and status.
+
+      Paste in your ConvertKit API key and API secret, then pick a lookback of 7, 30 or 90 days.
+    custom_text: |-
+      Your own words, on a TRMNL ePaper display. A quote, a goal, a reminder to drink water. Type 1 phrase, or several separated by semicolons, and you get a random one on each refresh.
+
+      Markdown works, so you can add bold, italics or a list, or turn it off and show the text exactly as typed. Automatic font scaling sizes the text to fill the space, which suits longer passages, or keep a fixed size. Align it left, center or right, and add your own line to the title bar at the bottom.
+    days_left_retirement: |-
+      How close you are to retirement, on a TRMNL ePaper display. Enter your birthday and the age you plan to retire, and the screen shows how far along you are as a percentage, how many weeks are left, and a progress bar that fills in as the years go by.
+
+      Counting in weeks makes the time feel real, and that's the point. Put it in your playlist as a gentle reminder to spend the weeks you have on what matters.
+    days_left_until: |-
+      A countdown to any date, on a TRMNL ePaper display. A launch, a trip, a due date, a wedding. Set a start date and an end date, and the screen shows the days passed, the days left, and a progress bar of how far you've come.
+
+      Only care about 1 number? Hide the days passed or the days left. Counting down to more than 1 thing? Add the plugin once per date.
+    days_left_year: |-
+      The whole year at a glance, on a TRMNL ePaper display. Every day of the year is a small square, laid out week by week. Days already gone are shaded, today is solid black, and the rest are still to come. Above the grid you get 2 numbers: days passed and days left.
+
+      There's nothing to set up. Add it and save. It follows the date in your account's time zone, and starts over on January 1.
+    days_since: |-
+      A count of days since something that matters to you, on a TRMNL ePaper display. A habit you quit, the day you started a business, the last time anyone broke the build. The screen shows the start date and the number of days that have passed.
+
+      Pick the start date and how it's written, from "November 26, 2024" to 2024-11-26 or 11/26/2024. Tracking more than 1 thing? Add the plugin once per date and put them on one screen with a mashup.
+    dropbox_photo_album: |-
+      Turn your TRMNL ePaper display into a digital photo frame fed by Dropbox. Connect your Dropbox account and we create an app folder for TRMNL inside your Apps folder. Drop photos in there and each refresh shows a random one, fit to the screen.
+
+      TRMNL can only read and share files in that one folder, never the rest of your Dropbox. Shooting for a portrait setup? Upload portrait photos, and match landscape screens with landscape shots. Add or remove photos any time and the rotation follows.
+    eight_sleep: |-
+      Your Eight Sleep data, on a TRMNL ePaper display. Wake up, glance over, and see how the week went: a sleep score gauge for each of the last 7 days, plus your weekly score with a plain rating from Low to Good.
+
+      Beside it sit your weekly averages for sleep quality, snoring, deep sleep, REM, time to fall asleep, and total sleep. Setup is just the email and password you use in the Eight Sleep app. Eight Sleep has no official API, so we sign in the same way the app does and read the same numbers. This one takes the whole screen, so it can't join a mashup.
+    email_meter: |-
+      Inbox analytics for your Gmail, from Email Meter, on a TRMNL ePaper display. See how many messages you sent and to how many recipients, how many you received and from how many senders, and your average response time.
+
+      Pick a window of the last 1, 7 or 30 days. Setup takes a small trick: log in to Email Meter, open your browser's console, and copy your session token with the line the settings form gives you (no coding needed). Email Meter expires that token when your session ends. When the screen says it was rejected, grab a fresh one and paste it in.
+    enphase: |-
+      Your Enphase solar system, on a TRMNL ePaper display. Connect your Enphase account, pick your system, and the screen shows today's production curve, a big headline number, and the time your system last reported.
+
+      You choose that headline: produced, consumed, imported or exported today, net import or export, peak power, what you're producing right now, solar offset, grid dependence, lifetime production, or battery. Then pick which other figures sit beside it. Smaller layouts show the first few that fit. No consumption meter installed? Figures your system can't report are skipped, not shown as zero.
+    ethereum_wallet_balance: |-
+      Your Ethereum wallet balance, on a TRMNL ePaper display. Paste in a public wallet address and the screen shows what it's worth in US dollars, how much ETH it holds, and how the ETH price moved over the last 7 and 90 days, with a 90 day price chart.
+
+      Only the public address goes in. No keys, no signing in, nothing that can move your funds. Watching more than 1 wallet? Add the plugin once per address.
+    etsy: |-
+      Your Etsy shop's sales, on a TRMNL ePaper display. Connect your Etsy account, pick your shop, and see total sales, average order value, and how many orders are pending or fulfilled.
+
+      A chart lines up daily sales against the period before, so you know at a glance if this week beats last week. Choose the last 7, 30 or 90 days, or month to date. Canceled orders are left out, and orders that haven't been paid yet don't count toward sales.
+    fastmail_calendar: |-
+      Your Fastmail calendar, on a TRMNL ePaper display. In Fastmail, publish the calendar from its Edit & Share settings, with full event details or just free/busy, and paste the link into the plugin (swap "webcal" for "https"). Got more than 1 calendar? Add 1 link per line. Prefer your phone? Sync from your iPhone or iPad with the TRMNL Companion app instead.
+
+      Then choose a layout: today's agenda, the next few days, a week or work week, a month grid, or a minimal schedule. Show event times and descriptions, use 12 or 24 hour time, hide events with certain words in them, and show calendar colors. Week and month views can shade weekends, highlight today, and show week numbers.
+    fera: |-
+      Your Fera reviews, on a TRMNL ePaper display. Up top: your average rating, total reviews, the share that are verified, and how many products have reviews. Below that, your latest reviews with star ratings, headings and text.
+
+      Connect your Fera account and pick which reviews to show: approved (the default), pending approval, pending update, declined, or pending. TRMNL only reads your reviews and can't edit anything. You can disconnect it from the Fera side at any time.
+    gaffa: |-
+      Your own news front page, on a TRMNL ePaper display, built by Gaffa's AI. Give it the address of any news site and Gaffa reads the page, picks the top stories, and writes a short summary for each. You get a numbered list of headlines with a line or 2 of context.
+
+      Steer the summaries with your own prompt, like "focus on global events and skip clickbait", and swap the title bar label for your own. Gaffa's free trial covers the first 6 months. After that, paste in your own Gaffa API key to keep it going.
+    github_commit_graph: |-
+      Your GitHub contribution graph, on a TRMNL ePaper display. Enter your GitHub username (no @) and the screen draws the past year of activity as a grid of squares, darker on the days you did more.
+
+      Next to it: total contributions in the last year, your longest and current streaks, your busiest day, and your average per day. Nothing to connect and no token needed, just the username. Want a teammate's graph too? Add the plugin again with their username.
+    github_commits: |-
+      The latest commits to any GitHub repository, on a TRMNL ePaper display. Each line shows the commit message, who wrote it, the date and time, and the short commit hash.
+
+      Enter the repository as org/repo, or just paste its GitHub link. Leave the branch blank to follow the default branch, or name one to watch. Open source repos need nothing else. For a private repo, switch the visibility to private and add a fine grained token with read access to the repository's contents. If GitHub hiccups, the last good list stays on screen.
+    github_contributor_summary: |-
+      Who's committing to your GitHub repository, on a TRMNL ePaper display. A table lists each contributor's handle with their commits last week and their lifetime commits, so you can see at a glance who's active.
+
+      Enter the repository as username/repository and add a fine grained access token from your GitHub settings. Read access to repository metadata is all it needs. The token shows only once on GitHub, so copy it straight into TRMNL. Tracking more than 1 repo? Add the plugin once per repo.
+    google_analytics: |-
+      Your Google Analytics numbers, on a TRMNL ePaper display. See pageviews, sessions, visitors and average session length, with a chart of daily pageviews underneath.
+
+      Connect your Google account, enter the Property ID of the site you want to track, and pick a lookback of 7, 30 or 90 days. The data can run until today or until yesterday. Choose yesterday and the chart won't dip at the end just because today isn't over yet. Running more than 1 site? Add the plugin once per property.
+    google_calendar: |-
+      Your Google Calendar, on a TRMNL ePaper display. Sign in with Google, pick the calendars you care about, and you're set. Got a work account and a personal one? Connect more than one Google account and put their calendars on the same screen.
+
+      Then pick a layout that matches how you plan: today's agenda, the next few days, a week or work week, a month grid, or a minimal schedule. Show event times and descriptions, use 12 or 24 hour time, hide events with certain words in them, or show only events you accepted. You can add a line that marks the current time, and week and month views can also shade weekends, highlight today, and show week numbers.
+    google_drive_photos: |-
+      Turn a Google Drive folder into a photo frame for your TRMNL ePaper display. Each refresh picks a random image from the folder: JPEG, PNG, GIF, BMP, WebP or TIFF.
+
+      No Google sign in needed. Share the folder with the TRMNL email address shown in the settings, as a Viewer, then paste in the folder's link. TRMNL only sees what you share. Photos sitting directly in that folder join the rotation, subfolders don't. Choose Cover to fill the screen (edges may get cropped) or Contain to show the whole image with space around it.
+    google_photos: |-
+      Photos from your Google Photos library, on a TRMNL ePaper display. Connect your Google account, then hand pick the photos you want in Google's own photo picker. Each refresh shows a random one of them.
+
+      TRMNL only sees the photos you picked, nothing else in your library. Choose Cover to fill the screen (edges may get cropped) or Contain to show the whole photo with space around it. Google ends that access after 7 days, so you'll pick again now and then. The settings page shows when it runs out.
+    google_tasks: |-
+      Your Google Tasks, on a TRMNL ePaper display. Connect your Google account, pick a task list, and the screen shows what's still open, with due dates. Completed tasks stay off the screen.
+
+      Sort by due date, or keep the order you set in the app. Subtasks sit right under their parent task, indented, so you can tell them apart. You can also align the list to the top, center or bottom of its space. Got a work list and a personal one? Add the plugin once per list and put them side by side in a mashup.
+    gumroad_analytics: |-
+      Your Gumroad sales, on a TRMNL ePaper display. 2 big numbers: how many sales you made and what they were worth.
+
+      Connect your Gumroad account and pick a lookback period of 7, 30 or 90 days. That's the whole setup. Want this week and this quarter side by side? Add the plugin twice, once at 7 days and once at 90. Put it somewhere you'll see it while you work and let the numbers keep you honest.
+    hacker_news: |-
+      What the tech crowd is reading right now, on a TRMNL ePaper display. The screen lists Hacker News stories in order, each with its title, vote count and who posted it. On the full screen they flow into 2 columns.
+
+      Setup is 1 choice. Top Stories shows the stories ranked highest on Hacker News right now. Show HN shows things people built and want you to try (we drop the "Show HN:" prefix from titles, you already know). Put it in a mashup and it fills half or a quarter of the screen.
+    home_assistant_screenshot: |-
+      Your Home Assistant dashboards, on a TRMNL ePaper display. This plugin pairs with the TRMNL HA add-on, which screenshots your dashboards inside your own network, preps them for ePaper, and sends them to a private webhook URL the plugin gives you. Nothing reaches into your network from outside.
+
+      Install the add-on from the Home Assistant add-on store, or run it as its own container if you use Home Assistant in Docker. Create a schedule in the add-on, pick your device preset, and paste in the webhook URL. Back in TRMNL, choose whether the image fills its space or shows in full when it shares the screen with other plugins, and which color fills any empty space around it.
+    homey: |-
+      Your Homey smart home, on a TRMNL ePaper display. Overview leads with readings like power, temperature and humidity, lists any active alarms, then shows your devices. Batteries lists every battery device, emptiest first. Insights charts one recorded reading over the last hour, day, week or month.
+
+      There are 2 ways to get data across. Install the TRMNL app for Homey (or a HomeyScript) and paste in the plugin's Push URL. Or link your Homey account so TRMNL reads from Homey's cloud, then pick which Homey to show. Show every zone, or just one room. This plugin also powers the Homey recipes in the TRMNL catalog.
+    hubspot: |-
+      Your HubSpot deals, on a TRMNL ePaper display. Connect your HubSpot account, pick a sales pipeline, then choose up to 3 deal stages to watch.
+
+      Each stage gets its own column, listing its deals by name with the deal amount and the owner. It's a quick read on where the pipeline stands, without opening the CRM. Want more stages, or a second pipeline? Add the plugin again and combine them on one screen with a mashup.
+    huckleberry: |-
+      Your baby's day from Huckleberry, on a TRMNL ePaper display. The screen shows your child's name and age, whether they're asleep or awake and since when, and the next SweetSpot nap or bedtime. Below that come the last bottle, nursing, solids and diaper, plus the day's planned schedule.
+
+      Sign in with the same email and password you use in the Huckleberry app, save, then pick which child to show. Huckleberry has no official API, so we sign in the way the app does and read the same data it shows you. Tracking 2 kids? Add the plugin once per child and put them side by side in a mashup.
+    image_display: |-
+      Any image on the web, on a TRMNL ePaper display. Enter an image address and TRMNL converts it to fit your screen. Add more addresses, 1 per line, and you get a random one on each refresh. Google Drive share links work as is, so Drive can be your image host.
+
+      Use it for a photo, a chart or dashboard another system spits out, or a camera snapshot. Cover the screen, fit inside it with a background color around it, or stretch to fill. Hosting on a home server with a self-signed certificate? Let TRMNL fetch it anyway. And if your server sends ETag or Last-Modified headers, TRMNL only redraws when the image actually changes.
+    kickstarter: |-
+      Crowdfunding projects worth a look, on a TRMNL ePaper display. Each project on the list shows its name, a short blurb, how much of its goal it has raised as a percentage, the amount pledged in US dollars, and the country it comes from.
+
+      Pick Top to see the live projects that have raised the most, or Ending Soon for campaigns about to close, in case you want to back something before the clock runs out. That's the only setting.
+    language_learning: |-
+      A word in the language you're learning, on a TRMNL ePaper display. The screen shows the word in that language, what it means in English, and an example sentence that uses it.
+
+      Pick from 13 languages: Brazilian Portuguese, Danish, Dutch, English, French, Greek, Italian, Japanese, Korean, Norwegian, Spanish, Swedish or Turkish. Each refresh moves you to the next word in a list of thousands of everyday words, and TRMNL keeps your place. Want to sit with 1 word for longer? Set a slower refresh rate.
+    letterboxd: |-
+      Your Letterboxd diary, on a TRMNL ePaper display. Sign in with Letterboxd and the screen lists the films you logged most recently, with the date you watched, the release year, your star rating, a heart if you liked it, and a rewatch tag. Larger layouts add the poster of your latest film.
+
+      Curious what everyone else is watching? Switch to Friends mode for recent diary entries and reviews from the people you follow, each with who logged it, their rating, and the poster where there's room.
+    lunar_calendar: |-
+      Where the moon is in its cycle, on a TRMNL ePaper display. The screen leads with the current phase, how much of the moon is lit, and its age in days. Below that runs a timeline of the phases around today with their dates, then the next phase, the next full moon and the next new moon.
+
+      There's 1 setting: Detailed draws realistic moon images, and Simple uses clean icons. No location needed. Dates follow your account's time zone.
+    lunch_money: |-
+      Your Lunch Money finances, on a TRMNL ePaper display. Create an access token in Lunch Money's developer settings, paste it in, then pick what to see.
+
+      Budgets shows this month's spending so far per category, biggest first, with a chart of spending against what you budgeted. Choose parent or child categories so grouped spending isn't counted twice. Accounts lists the balances of your linked accounts and assets, liabilities included. Net Worth shows where you stand today, how much that changed, and a chart of assets and liabilities over the last 3, 6, 9 or 12 months. Amounts show in your Lunch Money primary currency.
+    mailchimp_analytics: |-
+      Your Mailchimp audience stats, on a TRMNL ePaper display. Connect your Mailchimp account and pick the audience you want to watch.
+
+      Recent Activity puts emails sent and open rate up top, then unique opens, clicks, hard and soft bounces, new subscribers and unsubscribes. Growth History keeps emails sent and open rate, and swaps the rest for a chart of your subscriber count month by month. Running more than 1 newsletter? Add the plugin once per audience.
+    mazevo: |-
+      Turn a TRMNL ePaper display into a room sign for any space you book in Mazévo. At a glance it says whether the room is in use, with the current booking's name and time, or that it's available and until when. The rest of today's bookings sit below.
+
+      Connect with a Mazévo API key and API URL, which supports organization and private bookings, or with a Mazévo calendar's iCal feed, which shows event names and times only. Pick the room the display sits outside. Then make it yours: swap the room name for your own heading, change the "Available" label, add a one-line note at the bottom, show or hide bookings that already ended, and use 12 or 24 hour time. Private bookings show as private, no names.
+    microsoft_todo: |-
+      Your Microsoft To Do tasks, on a TRMNL ePaper display. Sign in with your Microsoft account and pick the list to show.
+
+      The screen lists every task on it you haven't finished, with its due date and a short preview of any notes. Completed tasks drop off, so what you see is what's left. You can also align tasks to the top, center or bottom of the screen. Got a work list and a shopping list? Add the plugin once per list and show both in a mashup.
+    mondrian: |-
+      Generative art in the style of Piet Mondrian, on a TRMNL ePaper display. Each time the screen is drawn, it splits into a random grid of thick black lines and filled blocks, so no 2 renders look the same.
+
+      There's nothing to set up. Add it to a playlist for a break between your data screens, or drop it into a mashup as a small piece of art next to your calendar or weather.
+    motivational_quote: |-
+      A motivational quote for the day, on a TRMNL ePaper display. The screen shows the quote in large type with the author's name below it. Quotes come from ZenQuotes' quote of the day, so it changes daily and everyone sees the same one.
+
+      There's nothing to set up. Add it to a playlist, or put it in a mashup next to your calendar for something to think about between meetings.
+    nano_banana_dashboard: |-
+      Your TRMNL data, redrawn as a picture by Google's Gemini image models (the ones nicknamed Nano Banana). Pick up to 3 of your other plugins as data sources, and Gemini turns their data into a scene: a newspaper front page, a chalkboard cafe menu, a mission control room, and more.
+
+      You bring your own Gemini API key from Google AI Studio, with billing set up, and pick Flash, Flash 2.5 or Pro. Then shape it: add your own text, say which data to feature, choose a scene or Random, add style notes, and set the aspect ratio. Power users can write the whole prompt. A new image is only made when your settings or data change.
+    netatmo_weather_station: |-
+      Readings from your Netatmo Weather Station, on a TRMNL ePaper display. Sign in to Netatmo to give TRMNL read-only access, then pick your station and, if you like, which module gives the indoor readings.
+
+      Basic mode leads with the outdoor temperature and a temperature chart, then indoor temperature, humidity and CO2, plus outdoor humidity, pressure, noise and the day's low and high. Got the rain or wind gauge? Those readings show up too. Graph mode fills the space with 1 metric instead: temperature, humidity, CO2, noise, pressure, rain or wind. Choose Fahrenheit or Celsius, and knots for wind if you prefer.
+    nextcloud_calendar: |-
+      Your Nextcloud calendar, on a TRMNL ePaper display. Share your calendar as a link in Nextcloud and paste it in (add more, 1 per line), or sync from your iPhone or iPad with the TRMNL Companion app.
+
+      Then choose a layout: today's agenda, the next few days, a week, rolling week, work week or 3 day week, a month or rolling month grid, or a minimal schedule. Show event times and descriptions, use 12 or 24 hour time, show calendar colors, and hide events with certain words in them. Week and month views can shade weekends, highlight today, show week numbers, and draw a line at the current time.
+    notion: |-
+      Your Notion databases and pages, on a TRMNL ePaper display. Connect Notion with read-only access, choose which content TRMNL can see, then pick 1 database or 1 page to show.
+
+      For a database, choose which property is the title, which one shows as a big status badge, and which show as smaller labels or plain details below. Sort by any property, filter with Notion's own filter syntax (dynamic dates like "today plus 7" work too), set how many items to show, and use 1 or 2 columns. For a page, the screen shows its content in order: text, headings, lists, images and more.
+    outlook_calendar: |-
+      Your Outlook calendar, on a TRMNL ePaper display. Sign in with your Microsoft account and choose which calendars to show. Leave it blank and we'll use your default calendar.
+
+      Pick a layout: today's agenda, the next few days, a week or work week, a month grid, or a minimal schedule. Show event times and descriptions, use 12 or 24 hour time, hide events with certain words in them, and show only events you accepted. Week and month views can shade weekends, highlight today, and show week numbers. And if you block out your day hour by hour, a current time line keeps you honest.
+    parcel: |-
+      Your package deliveries from the Parcel app, on a TRMNL ePaper display. Each delivery shows its status, like in transit or out for delivery, its name, the latest tracking event, and when it's expected: today, tomorrow, a weekday or a date.
+
+      You need a paid Parcel subscription. Sign in at web.parcelapp.net, create an API key, and paste it in. Show active deliveries or recent ones, pick Detailed or the Compact style that drops the tracking event, and decide what happens when nothing's on the way: show the empty screen, or skip it.
+    place_of_the_day: |-
+      A new place on your TRMNL ePaper display every day: a city or a wonder of the world. Each screen shows the place's name, region and country, a map of its streets, and a short description, usually pulled from Wikipedia. When the data exists you also get facts like population, year founded, elevation, area, local time and coordinates.
+
+      There's nothing to set up. Everyone with the plugin sees the same place on a given day, and the picks rotate between Europe, the Americas and the rest of the world.
+    poetry_today: |-
+      A poem on your TRMNL ePaper display, with its title up top and the poet's name in the corner. Each refresh pulls a new one at random from PoetryDB, a public collection of classic poems.
+
+      There's nothing to set up. Add the plugin and you're done. We only pick poems short enough to fit the screen (24 lines at most), so you won't get half a sonnet cut off mid-thought. Good next to a clock or calendar in a mashup, when you want something slower to read than your inbox.
+    polymarket: |-
+      Polymarket prediction markets, on a TRMNL ePaper display. Pick a topic and the screen lists up to 12 open markets in it, each with its question, how many comments it has, and how much money is on it.
+
+      Topics include Business, Pop culture, Sports, Crypto, Science and Politics. No Polymarket account needed. We only show markets that are still active and close within the next 2 weeks, so you're looking at bets that resolve soon, not ones that run until next year. Want a topic that isn't in the list? Email support with the Polymarket tag ID and we'll add it to your account.
+    postmark_analytics: |-
+      Your Postmark email stats, on a TRMNL ePaper display. Paste in a Server API Token from your Postmark server and pick how far back to look: 7, 30 or 90 days.
+
+      The big numbers are emails sent and open rate. Below them you get unique opens, clicks, bounces, errors, spam complaints and bounce rate. Handy on a desk in an ops or support team, so a spike in bounces or spam complaints gets noticed before a customer asks why their password reset never arrived.
+    private_plugin: |-
+      Build your own screen for a TRMNL ePaper display. Write it in HTML with Liquid templates and the TRMNL design framework, then decide how data gets there: TRMNL polls a URL that returns JSON, XML or plain text, your own code sends data to a webhook, you enter static JSON, or you reuse data from your other TRMNL plugins.
+
+      Polling handles GET or POST, custom headers, a request body, and OAuth for services that need you to sign in. Add your own form fields so other people can configure your plugin without touching code, transform the data with a script in Node, PHP, Python or Ruby, and when it's done, share it as a recipe.
+    product_hunt: |-
+      Product Hunt's featured launches, on a TRMNL ePaper display. Each one shows its name, a short tagline and its vote count, in a numbered list.
+
+      There's nothing to connect and no account needed. Add the plugin and the list keeps itself up to date. Building something yourself? Keep an eye on what's launching (and how many votes it takes to get noticed) without opening another tab. It fits a full screen, half, or a quarter next to your other plugins.
+    profit_well: |-
+      Your ProfitWell revenue numbers, on a TRMNL ePaper display. Paste in your ProfitWell API token and the screen shows today's figures from your account.
+
+      Up top: new recurring revenue and total recurring revenue. Below: churned revenue, active customers, new customers and churned customers. Running a SaaS business? Put it where you'll see it every morning, so a bad churn day doesn't hide in a dashboard you forgot to open.
+    proton_calendar: |-
+      Your Proton Calendar, on a TRMNL ePaper display. There are 2 ways in: share your Proton calendar as a link and paste that .ics address into the plugin, or sync from your iPhone or iPad with the TRMNL Companion app. Worried about privacy? Proton lets you share a link that only shows when you're busy, not what the event is.
+
+      Then choose a layout: today's agenda, the next few days, a week, rolling week, work week or 3 day week, a month grid, or a minimal schedule. Show event times and descriptions, use 12 or 24 hour time, hide events with certain words in them, and start your week on any day. Week and month views can shade weekends, highlight today, and show week numbers.
+    purpleair: |-
+      Readings from a PurpleAir sensor, on a TRMNL ePaper display. Use your own sensor or any public one on the PurpleAir map. Enter its sensor ID and a PurpleAir API key, plus a read key if the sensor is private.
+
+      Choose what to show. Air quality gives you current PM2.5 and PM10, with a chart of the last 24 hours marked against the EPA air quality levels, from Good to Very Unhealthy. Temperature and humidity shows those 2 instead, in Fahrenheit or Celsius. We only ask PurpleAir for what changed since the last refresh, so your free API credits last a long time.
+    readwise: |-
+      Your Readwise highlights, on a TRMNL ePaper display. Get an access token from Readwise, paste it into the plugin, and you're set.
+
+      Each refresh shows 1 highlight from your Readwise daily review, with the title of the book or article it came from and the author. The next refresh moves on to the next one. It's a quiet way to actually revisit the passages you saved, instead of letting them pile up in an app you never open.
+    reddit: |-
+      Top posts from your favorite subreddits, on a TRMNL ePaper display. Connect your Reddit account, then list up to 3 subreddits. Each one gets its own column.
+
+      Sort by Hot, New or Top, and pick the time window, from the past hour to all time. Pinned posts get skipped, since they rarely change. Show the vote count and the poster's username under each title, or hide them. Shorten long titles to 1 line and you fit more posts on the screen.
+    redirect: |-
+      A tool for developers who make their own images. When your TRMNL ePaper display checks in, we call a URL on your server and pass its answer straight to the device: where to get the image, a filename, and how long to sleep before checking in again.
+
+      That means your server decides what shows and when, on every check-in. The image address can change on every request, and can even sit on your local network. Send the same filename twice and the screen won't redraw, which saves flicker and battery. Sleep time is up to you, down to 1 minute. Already using Alias and want more control? This is the next step up.
+    rss_feed: |-
+      Any RSS or Atom feed, on a TRMNL ePaper display. Paste in the feed's address and pick a layout.
+
+      Featured shows the newest post, with its title, text and images. List shows up to 8 recent posts, each with a title and a short plain text summary. Following a blog, a news site, a podcast or a forum that still has a feed? Put it on the wall. Running the feed on a home server with a self-signed certificate? Let TRMNL fetch it anyway.
+    screen_wiper: |-
+      Cleans up ghosting on your TRMNL ePaper display. Ghosting is the faint leftover of old images that ePaper can collect over time. When your device reaches Screen Wiper in its playlist, it runs a special set of cycles that flip the screen between black and white, then moves on to your next item.
+
+      Add the plugin and save. That's it. Depending on your device, the wipe flashes for 30 to 60 seconds, or up to 5 minutes. Use the scheduler to run it once a day or once a week, ideally just after your device wakes from sleep. It needs firmware 1.8.14 or newer.
+    screensaver: |-
+      Art for your TRMNL ePaper display. Each refresh picks a random image from our small screensaver library: think the Mona Lisa, Rome, the Apollo missions and a space station, all prepared to look sharp on ePaper.
+
+      There's nothing to set up. Add it to your playlist when you want the screen to look good instead of busy, like between meetings or overnight. The collection is small but growing, and we take submissions. Got an image you'd like to see in it? Email support@trmnl.com.
+    screenshot: |-
+      Any public web page, on a TRMNL ePaper display. Paste in the address and we'll grab the page and capture it as an image. A sports score page, a status board, your kid's lunch menu, all fair game.
+
+      Does the page need a login token? Add HTTP headers. We fix relative links to stylesheets, scripts and images so the page looks like it does in your browser (you can switch that off). If the page's HTML hasn't changed, we skip the redraw. For dashboards that load their data with JavaScript, turn on always refresh so you get a new capture every time. Tip: set your browser to 800x480 first to see what TRMNL sees.
+    shopify: |-
+      Your Shopify sales, on a TRMNL ePaper display. Create a custom app in your Shopify admin with read only access to orders, then paste its access token and your store's address into the plugin. Our help article walks you through it.
+
+      Pick a lookback period: last 7 days, last 30 days, or month to date. The screen shows total sales and how they compare with the period before, pending and fulfilled orders, average order value, and a chart of daily sales against the previous period. Amounts show in your store's currency. TRMNL only reads orders, nothing else in your store.
+    shopping_list: |-
+      Your shopping list, on a TRMNL ePaper display. Type your items into the plugin, 1 per line, and they show up as a numbered list on the screen.
+
+      Stick it on the fridge or by the door, and the next time you're grabbing your keys you'll remember the toothpaste. Add or remove items from your TRMNL dashboard whenever you like, and the list on the screen updates with them. We store the list encrypted.
+    simple_analytics: |-
+      Your Simple Analytics stats, on a TRMNL ePaper display. The screen shows pageviews, visitors and minutes on page up top, with a chart of daily pageviews underneath.
+
+      Create an API key in your Simple Analytics account settings, paste it in, and add your website's domain (no "http"). Then pick a lookback of 1, 7, 14 or 30 days. Want the chart to end on yesterday instead of today? Set that too, so a half-finished day doesn't look like traffic fell off a cliff.
+    square_pos: |-
+      Your Square sales, on a TRMNL ePaper display. Connect your Square account and pick up to 3 locations. Each one gets its own column with total payments up top and a numbered list of every completed payment below, with its amount and how it was paid.
+
+      Choose how far back to look: today, the last 24 hours, or the last 7 days. Running a few shops? See all of them side by side on one screen.
+    statuspage: |-
+      The status pages of the services you depend on, on a TRMNL ePaper display. Paste in the status page addresses, 1 per line, and we find each page's RSS or Atom feed for you. That works with Statuspage, AWS, Slack, Google Cloud and most others.
+
+      The screen splits into 2 lists. Incidents shows each service's latest incident and how long ago it happened, with an icon that flags anything from the last 24 hours. Scheduled shows upcoming maintenance and its date. If a page can't be reached or has no feed, it says so on the screen instead of going quiet.
+    stock_price: |-
+      Stock, metal and currency prices, on a TRMNL ePaper display. Enter up to 12 tickers and each shows its price, name and daily change, in percent or points. The layout resizes to fit however many you add.
+
+      US tickers work as is. Add an exchange for Canada, Germany, London or India (like SHOP.TSE or INFY.NSE), use the .FX suffix for currency pairs (EURUSD.FX), or track gold, silver, platinum, palladium and copper (XAUUSD for gold). Market indices aren't supported, so use an ETF like SPY for the S&P 500 (enter SPX and we'll suggest it). Need more than 12? Add the plugin twice and combine them in a mashup.
+    tempest_weather_station: |-
+      Readings from your own Tempest weather station, on a TRMNL ePaper display. Sign in to your Tempest account to give TRMNL read-only access (we can look, not touch), then pick the station to show.
+
+      The full screen has the current temperature, what it feels like, and conditions, along with humidity, wind, precipitation, UV, sunrise and sunset, plus today's and tomorrow's high and low. Choose Fahrenheit or Celsius, wind in units like mph, km/h, knots or Beaufort, and precipitation in inches, centimeters or millimeters. Got more than 1 station? Add the plugin once per station and combine them on one screen with a mashup.
+    the_office: |-
+      A random quote from The Office, on a TRMNL ePaper display, next to a drawing of the character who said it. Michael, Dwight, Jim and the rest of Dunder Mifflin take turns making your workday a bit lighter.
+
+      There's nothing to set up. Add the plugin, name it if you like, and save. Quotes come from Akash Rajpurohit's Office API.
+    ticktick: |-
+      Your TickTick tasks, on a TRMNL ePaper display. Connect your TickTick account, then pick the list you want to see, or your Inbox. Tasks show with their due dates, sorted by what's due first, and subtasks sit indented under their parent task.
+
+      Choose whether the list lines up at the top, center or bottom of its space. TickTick only shares task lists with other apps, so calendar, habits, Pomodoro and the Eisenhower Matrix stay in TickTick.
+    todo_list: |-
+      A simple todo list, on a TRMNL ePaper display. No account to connect. Type what you're working on into Doing, 1 item per line, and add finished items to Done if you like.
+
+      Come back and move items from Doing to Done as you go, and the screen keeps both lists in view: what's left, and what you already got through. Markdown works in each item, so you can add bold, italics and the like, or switch it off for plain text. Both lists are stored encrypted.
+    todoist: |-
+      Your Todoist tasks, on a TRMNL ePaper display. Connect your Todoist account, pick a project or the Today or Upcoming view, and the screen lists your tasks with their due dates.
+
+      Group tasks by date, deadline, priority or label, and sort by name, date, deadline, priority or your own manual order. Filters narrow the list by due date or deadline (anywhere from today to the next 30 days), by priority, by label, or by who the task is assigned to. Already fluent in Todoist filter queries? Switch on custom query mode and write your own.
+    unsplash: |-
+      A random photo from Unsplash, on a TRMNL ePaper display. Enter a search term like "space" or "moon" and each refresh pulls a new landscape photo that matches, dithered for ePaper and shown across the whole screen.
+
+      That's the only setting. Pick a theme you like looking at, or add the plugin a few times with different searches and let your playlist rotate through them.
+    upcoming_movies: |-
+      A movie to look forward to, on a TRMNL ePaper display. Each refresh picks a film and shows its title, poster, release date and a short summary. Movie data comes from The Movie Database (TMDB).
+
+      Pick your country so you see what's releasing near you. Then choose Upcoming for films that come out today or later, or Now Playing for ones already out. Good for settling "what should we see this weekend?" before the debate even starts.
+    weather: |-
+      Know the vibe outside before you head out, no weather station required. Search for a city or postal code, or enter coordinates, and your TRMNL ePaper display shows the current temperature and conditions, what it feels like, humidity, plus today's and tomorrow's high, low and UV.
+
+      You pick the data provider. Tempest uses the nearest Tempest station, or one you choose from the Tempest map, and adds wind, precipitation, sunrise and sunset to the full screen. WeatherAPI is the fallback for places without a station nearby. Set Fahrenheit or Celsius, choose wind and precipitation units, and label forecasts "today" and "tomorrow" or with real dates.
+    webhook_image: |-
+      Send your own images straight to a TRMNL ePaper display. Add the plugin and you get a private webhook URL. POST a PNG, JPEG or WebP to it from a script, a cron job or Home Assistant, and that image shows on your screen. Treat the URL like a password, since anyone with it can change your display.
+
+      TRMNL doesn't process the image, so size it for your device first. Uploads are checked against your device's size and color depth, or a model you choose, and you can skip that check if you know your device can handle it. Inside a mashup, cover the space or show the full image with a background color around it. You get up to 12 uploads an hour.
+    wiki_random_article: |-
+      Wikipedia's featured article of the day, on a TRMNL ePaper display. You get the article's title and a short summary, a new one every day. Some days it's a battle, some days a beetle.
+
+      There's nothing to set up. Add it to your playlist and pick up something interesting while your coffee brews. Articles come from English Wikipedia's daily featured feed, so everyone sees the same one.
+    withings: |-
+      Your Withings health data, on a TRMNL ePaper display. Sign in with Withings to give TRMNL read-only access, then pick a display mode that matches your device. Weight, for scales, shows your current weight, body fat and muscle percentages, and your change over the period, with a chart. Sleep, for the Sleep Analyzer, shows your sleep score, hours slept and efficiency, with a chart of deep, REM and light sleep each night. Activity, for wearables, shows today's steps against your goal, with a chart of steps and sleep.
+
+      Look back 7, 30 or 90 days, and show weight in pounds, kilograms or stone. Readings you entered by hand are left out.
+    workflowy: |-
+      Your Workflowy list, on a TRMNL ePaper display. Each item shows with its note underneath, in the same order you keep it in Workflowy.
+
+      Paste in your Workflowy API token to connect. By default you see your home list. Want just 1 project? Add its item ID and the plugin treats that item as the top level. Show up to 25 items, and choose whether completed items show up too (they get a checkmark and a strikethrough).
+    youtube_analytics: |-
+      Your YouTube channel stats, on a TRMNL ePaper display. Views and hours watched lead the screen, followed by average view duration, subscribers gained, view through rate, likes, comments and shares.
+
+      Connect with the Google account that owns your channel (managers of a shared channel can't connect it), then choose a lookback of 7, 28, 90 or 365 days. Run more than 1 channel? Add the plugin once per channel and name each one so you can tell them apart.
+  ai_credit_topups:
+    buy: Add %{amount}
+    hint: Credits last 3 months. Checkout adds a service fee for card and provider costs.
+    credit_line_item: TRMNL AI credit
+    fee_line_item: Service fee
+    create:
+      unknown_amount: Pick one of the top-up amounts.
+    new:
+      success: We added the usage credits to your account.
+      unpaid: The payment did not complete, so we added no usage credits.
+  banners:
+    got_it: Got it
   activity_logs:
     index:
       day_events:

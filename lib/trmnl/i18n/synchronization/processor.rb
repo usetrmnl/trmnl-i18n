@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require "cogger"
-require "refinements"
 require "yaml"
 
 require_relative "value_reducer"
@@ -11,8 +10,6 @@ module TRMNL
     module Synchronization
       # Copies new key/value pairs from the source locale (typically 'en') to destination locales.
       class Processor
-        using Refinements::Hash
-
         def initialize repository, reducer: ValueReducer, logger: Cogger.new(id: "trmnl-i18n")
           @repository = repository
           @reducer = reducer
@@ -40,8 +37,17 @@ module TRMNL
         def add_missing_contents source_locale, destination_locale, destination_root
           destination_contents = destination_root[destination_locale]
           contents_to_merge = reduce source_locale, destination_locale
-          destination_root[destination_locale] = contents_to_merge.deep_merge destination_contents
+          destination_root[destination_locale] =
+            merge_missing contents_to_merge, destination_contents
           destination_root
+        end
+
+        def merge_missing source, destination
+          source.merge destination do |_key, source_value, destination_value|
+            next destination_value unless source_value.is_a?(Hash) && destination_value.is_a?(Hash)
+
+            merge_missing source_value, destination_value
+          end
         end
 
         # Every locale starts as English, so an untranslated key renders English rather than

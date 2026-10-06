@@ -208,7 +208,7 @@ pl:
           hint: Strefa czasowa, język, motyw i funkcje beta
         developer:
           title: Deweloper
-          hint: Klucze API, aplikacje deweloperskie i połączeni agenci
+          hint: Klucze API, aplikacje deweloperskie, motywy i połączeni agenci
           api_keys:
             one: 1 klucz API
             other: "Liczba kluczy API: %{count}"
@@ -223,10 +223,15 @@ pl:
             other: Udostępniono %{count} osobom
         profile:
           title: Profil
+          hint: Imię i nazwisko, e-mail, GitHub i Discord
         security:
           title: Bezpieczeństwo
           two_factor_off: Uwierzytelnianie dwuskładnikowe jest wyłączone
           two_factor_on: Uwierzytelnianie dwuskładnikowe jest włączone
+          hint: Hasło i uwierzytelnianie dwuskładnikowe
+        agent:
+          title: Agent AI
+          hint: Limity użycia, wybór modelu i własne klucze
     update:
       success: Pomyślnie zaktualizowano profil
     reset_api_key:
@@ -262,6 +267,10 @@ pl:
       cost_by_model: Koszt według modelu
       model_locked: 'Twój model AI jest ustawiany przez TRMNL: %{model}.'
       router_locked: Działa ze wszystkimi modelami. TRMNL kieruje modele Claude przez %{router} dla Twojego konta.
+      credit_title: Limity użycia
+      credit_plus_hint: __Subskrybuj TRMNL+__, aby co miesiąc otrzymywać bezpłatne limity użycia.
+      byok_title: Użyj własnego klucza
+      byok_hint: Dodaj własny klucz, aby wybrać dowolny model. Agent będzie wtedy używał Twojego klucza zamiast limitu użycia.
     shared_accounts:
       title: Konta udostępnione Tobie
       hint: Wybierz konto, aby zarządzać jego urządzeniami, playlistami i pluginami, albo je opuść.
@@ -321,6 +330,7 @@ pl:
       name: Nazwa
       create: Utwórz klucz API konta
       legacy_hint: Klucz starszego typu. Ma dostęp tylko do swoich pierwotnych endpointów; do nowszych funkcji utwórz poniżej klucz API konta.
+      older_key: Starszy klucz
     destroy:
       account_deleted: Twoje konto i wszystkie dane zostały usunięte.
       account_deleted_refunded: Twoje konto i wszystkie dane zostały usunięte. Zwrócono 1 USD.
@@ -431,7 +441,7 @@ pl:
       ota_enabled_hint: Automatycznie instaluj nowy firmware. Wyłącz, jeśli chcesz instalować własny firmware.
       ota_byod_not_supported: Aktualizacje OTA nie są wspierane na urządzeniach firm trzecich (BYOD). Wgraj kompatybilne oprogramowanie ze strony trmnl.com/flash
       maximum_compatibility: Włącz maksymalną kompatybilność
-      maximum_compatibility_hint: Rozwiązuje problemy z wyświetlaniem na niektórych wyświetlaczach ePaper. Wyłącza szybkie odświeżanie. Wymaga oprogramowania 1.6.0 lub nowszego.
+      maximum_compatibility_hint: Rozwiązuje problemy z wyświetlaniem na niektórych wyświetlaczach ePapierowych. Wyłącza szybkie odświeżanie. Wymaga oprogramowania 1.6.0 lub nowszego.
       image_rotation: Obrót obrazu
       screen_rotation: Obrót ekranu
       screen_rotation_not_supported: Obrót ekranu nie jest obecnie obsługiwany na Twoim urządzeniu.
@@ -576,6 +586,7 @@ pl:
       title: Dodaj nowe urządzenie
       description: Wprowadź swoje Przyjazne ID, aby przypisać nowe urządzenie do tego konta.
       add_device: Dodaj nowe urządzenie
+      friendly_id_hint: 6 znaków wyświetlanych na ekranie TRMNL podczas konfiguracji.
     associate:
       error: Błąd przy podłączaniu urządzenia
       success: Pomyślnie podłączono urządzenie
@@ -598,6 +609,7 @@ pl:
     update:
       error: Błąd podczas aktualizacji urządzenia
       success: Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane
+    add_device_first: Najpierw dodaj urządzenie
   discovery:
     dashboard_action:
       saved:
@@ -620,6 +632,9 @@ pl:
         title: Skonfiguruj personę dla %{device_label}
         subtext: Odpowiedz na kilka pytań, aby rekomendacje pasowały do roli tego urządzenia TRMNL.
         primary_label: Skonfiguruj personę
+    app_card:
+      tag: Aplikacja
+      hint: Zachowaj ją, aby dodać ją do rotacji.
   logs:
     index:
       title: Logi
@@ -879,6 +894,11 @@ pl:
       supported_by_this_device: Obsługiwane przez to urządzenie
       recipes: Receptury
       recipes_hint: Prywatne pluginy stworzone przez społeczność, które mogą być zainstalowane jednym kliknięciem. __Więcej informacji__.
+      view:
+        label: Widok pluginów
+        cards: Karty
+        list: Lista
+      third_party_plugin: Plugin zewnętrzny
     search:
       placeholder: Szukaj pluginów
     my:
@@ -915,6 +935,8 @@ pl:
     edit:
       title: Edytuj plugin
       tagline: Zaktualizuj szczegóły swojego pluginu.
+    settings_preview:
+      show_all: Pokaż wszystkie opcje (%{count})
   plugin_recipes:
     connected: Receptura połączona
     connections:
@@ -926,17 +948,23 @@ pl:
     show:
       more_by_author: Więcej od tego Autora
       view_all: Pokaż wszystko
+      install: Zainstaluj
+      install_again: Zainstaluj ponownie
+      installed: Zainstalowano
+      open_settings: Otwórz ustawienia
+    added_to_playlist: Dodano do playlisty. Sprawdź ustawienia poniżej.
+    check_settings: Zainstalowano. Sprawdź ustawienia poniżej.
   plugin_settings:
     copy_are_you_sure: Czy na pewno chcesz skopiować to ustawienie?
     delete_are_you_sure: Czy na pewno chcesz usunąć to ustawienie?
     delete: To całkowicie usunie ustawienia pluginu. Jeśli nie chcesz, by plugin był wyświetlany na urządzeniu, po prostu usuń go z playlisty.
     no_matches_found: Nie znaleziono pluginów pasujących do kryteriów.
     not_supported: Niewspierany na tym urządzeniu
-    refreshing_now_please_wait: Odświeżanie w toku, przeładuj tę stronę za kilka sekund.
+    refreshing_now_please_wait: Odświeżanie w toku.
     reset_credentials: Pomyślnie zresetowano konto %{plugin_name}
     form:
       advanced_settings: Zaawansowane
-      back_to_playlist: Wróć do Playlist
+      back_to_playlist: Wróć do playlisty
       back_to_plugin: Wróć do %{plugin}
       back_to_plugins: Wróć do pluginów
       connect_with: Połącz z %{plugin}
@@ -947,10 +975,10 @@ pl:
       debug_logs_enabled_link: Przejrzyj logi
       disconnect_account: Odłącz konto
       manage_plugin: Konfiguruj %{plugin}
-      force_refresh: Wymuś odświeżenie
-      force_refresh_hint: Ta funkcjonalność jest przeznaczona na potrzeby testów. Prosimy, by jej nie nadużywać.
+      force_refresh: Odśwież teraz
+      force_refresh_hint: Twój TRMNL wyświetli to przy następnym zgłoszeniu.
       force_refresh_click_here: Kliknij tutaj
-      force_refresh_click_here_hint: aby natychmiast wygenerować nowy ekran
+      force_refresh_click_here_hint: aby utworzyć nowy ekran teraz
       force_refresh_not_possible: Nie można wymusić odświeżenia tego pluginu, ponieważ serwer TRMNL nie wspiera przetwarzania obrazów. __Tutaj__ dowiesz się, jak przetestować swoją instancję.
       health_notifications: Powiadomienia o stanie
       health_notifications_hint: Otrzymaj e-maila, jeśli stan tego pluginu wskaże problem (zdegradowany / błąd). Otrzymasz najwyżej jeden e-mail na zmianę stanu na incydent. Alerty uzbrajają się ponownie po powrocie pluginu do stanu "zdrowy".
@@ -1007,8 +1035,6 @@ pl:
       clear_state: Wyczyść zapisany stan
       virtual_device_short_heading: Urządzenie wirtualne? Kliknij poniżej, aby wygenerować ekrany.
       virtual_device_long_heading: Urządzenie wirtualne? Użyj tej opcji, aby generować ekrany na żądanie.
-      ai_features_default_on_markup_editor: __Agentowy edytor znaczników__ jest teraz dostępny dla wszystkich.
-      ai_features_default_on_account_settings: Używaj go, jeśli Ci pomaga, albo wyłącz go w dowolnym momencie w __Ustawieniach konta__.
       description_hint: Krótki opis tego pluginu. Jest wyświetlany w wynikach wyszukiwania, jeśli plugin zostanie opublikowany jako receptura.
       description_placeholder: Nadchodzące odjazdy pociągów
       max_refresh_rate: Maksymalna częstotliwość odświeżania
@@ -1036,12 +1062,19 @@ pl:
       refresh_rate_floor_by_author: Autor receptury ogranicza instalacje do %{refresh_rate}.
       refresh_rate_floor_by_owner: Ograniczono do %{refresh_rate} przez poniższe ustawienie "Najszybsza częstotliwość odświeżania".
       parse_empty: Nic nie wyrenderowano. Sprawdź, czy warunki Liquid odpowiadają zapisanym wartościom. Pole wyboru zapisuje swoją opcję małymi literami.
-      recipe_overview: Przegląd publicznej receptury
-      recipe_overview_hint: Opisz, co pokazuje ta receptura i jak można z niej korzystać. Receptury zawierające co najmniej 100 użytecznych słów mogą pojawiać się w wynikach wyszukiwania.
       use_existing_connection: Lub użyj konta, które jest już połączone
       use_connection_from: Użyj połączenia z %{name}
       uses_connection_from: Używa połączenia z %{name}.
       connect_another_google_account: Połącz kolejne konto Google
+      save_to_use_connection: Kliknij Zapisz, aby dokończyć łączenie tego konta.
+      connection_names_and_more: "%{names} i jeszcze %{count}"
+      use_different_account: Użyj innego konta
+      error_summary_title: 'Popraw te pola, aby zapisać:'
+      lat_lon_pick_place: Wybierz miejsce z listy
+      lat_lon_no_matches: Brak wyników — spróbuj podać miasto lub kod pocztowy albo wklej współrzędne, np. 33.74,-84.38
+      lat_lon_placeholder: Wyszukaj miasto lub kod pocztowy albo wpisz szerokość,długość
+      new_title: Dodaj %{plugin}
+      edit_title: "%{plugin} · %{name}"
     import:
       archive_too_large: Archiwum ZIP jest zbyt duże (maksimum %{max_mb} MB)
       missing_entry: Archiwum ZIP nie zawiera %{filename}
@@ -1066,6 +1099,7 @@ pl:
       credentials_rejected: Te dane uwierzytelniające zostały odrzucone — sprawdź je i przeładuj tę stronę.
       no_homey: Na tym koncie Athom nie znaleziono Homey — dodaj urządzenie w aplikacji Homey, a następnie przeładuj tę stronę.
       mazevo_rooms_forbidden: Ten klucz API nie może wyświetlać listy pomieszczeń. Zezwól dla niego w Mazévo na grupę wywołań Building and Rooms albo wpisz poniżej identyfikator pomieszczenia.
+      outlook_mailbox_unavailable: Microsoft nie może otworzyć skrzynki pocztowej tego konta. Może być nieaktywna, usunięta albo znajdować się na własnym serwerze Exchange Twojej organizacji. Skontaktuj się z zespołem IT lub połącz inne konto Microsoft.
     delete_mashup_warning:
       one: Ten plugin zajmuje jeden slot mashupu. Jego usunięcie pozostawi ten slot pusty.
       other: Ten plugin zajmuje %{count} slotów mashupu. Jego usunięcie pozostawi te sloty puste.
@@ -1104,6 +1138,7 @@ pl:
     linked_google_account:
       connected: Połączono konto %{name}. Zdarzenia będą teraz wyświetlane tutaj.
       default_name: Inne konto Google
+    preview_updated_just_now: Podgląd zaktualizowano przed chwilą.
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -1137,6 +1172,7 @@ pl:
     attributes:
       plugin_setting:
         ai_coauthored: Współtworzone przez AI
+        recipe_overview: Opis indeksowany przez wyszukiwarki
     errors:
       models:
         account_membership:
@@ -1154,6 +1190,10 @@ pl:
           attributes:
             sleep_end_time:
               same_as_start: musi różnić się od czasu rozpoczęcia, w przeciwnym razie urządzenie nigdy by nie spało
+        plugin_setting:
+          attributes:
+            recipe_overview:
+              too_few_words: musi zawierać co najmniej %{count} słów albo pozostać puste
   apps:
     core:
       public:
@@ -1187,7 +1227,7 @@ pl:
         booked: Zarezerwowane
         booking: Rezerwacja
         booked_for_day: Zarezerwowane na cały dzień
-        booked_with_trmnl: Zarezerwowane przez TRMNL
+        booked_with_trmnl: Zarezerwowane na miejscu
         booking_cancelled: Rezerwacja anulowana.
         booking_ended: Rezerwacja zakończona.
         cancel: Anuluj
@@ -1236,6 +1276,13 @@ pl:
           show_on_device: 'Pokaż ten zasób typu %{type} na urządzeniu %{which}:'
           stop_showing_confirm: Przestać wyświetlać %{name} na %{device}?
           title: Wyświetlacze
+          schedule:
+            duration: Czas trwania
+            duration_hint: Jak długo ten ekran ma być wyświetlany przed przejściem do następnej pozycji playlisty
+            title: Harmonogram
+            hint: Wyświetlaj ten ekran w czasie…
+            important: Ważne
+            important_hint: W tym harmonogramie wyświetlaj tylko ten ekran i inne ważne ekrany
         back_to_app: Wróć do %{app}
       screens:
         available:
@@ -1263,7 +1310,7 @@ pl:
           virtual_device: Wirtualne
           undisplayed_calendars: Kalendarze, które nie są jeszcze wyświetlane na żadnym urządzeniu
       calendars:
-        setup_docs: Strefy czasowe, wyświetlacze i rezerwacja sali spotkań na miejscu.
+        setup_docs: Strefy czasowe, wyświetlacze i Rezerwacja z TRMNL dla sali spotkań.
         display_preview:
           not_rendered_yet: Jeszcze niewyrenderowane
         form:
@@ -1528,7 +1575,7 @@ pl:
         show:
           branding: Identyfikacja wizualna
           booking_window: Możliwość rezerwacji do
-          booking_window_hint: Jak daleko od dzisiaj można utworzyć rezerwację na miejscu.
+          booking_window_hint: Jak daleko naprzód można zarezerwować salę.
           booking_window_one_day: 1 dzień
           booking_window_one_month: 1 miesiąc
           booking_window_one_week: 1 tydzień
@@ -1550,7 +1597,7 @@ pl:
           dark_mode_hint: Renderuj ekrany urządzeń w trybie ciemnym — ciemne tło z jasnym tekstem.
           invalid_booking_window: Okno rezerwacji jest nieprawidłowe.
           invalid_time_format: Format czasu jest nieprawidłowy.
-          public_bookings: Rezerwacja na miejscu
+          public_bookings: Rezerwacja z TRMNL
           public_bookings_hint: Pozwól każdemu zarezerwować salę przez zeskanowanie kodu QR. Wymaga kalendarza Google lub Microsoft.
           qr_code_security: Bezpieczeństwo kodu QR
           qr_code_security_hint: Codziennie zmieniaj publiczne adresy URL rezerwacji, aby wygaszać dostęp do kalendarza dla zewnętrznych gości.
@@ -1571,9 +1618,9 @@ pl:
           uninstall: Odinstaluj
           uninstall_confirm: Odinstalować %{app}?
           uninstall_app: Odinstaluj %{app}
-          walk_up_booking: Rezerwacja na miejscu
+          walk_up_booking: Rezerwacja z TRMNL
           walk_up_calendar: Pokaż kalendarz
-          walk_up_calendar_hint: Pokaż nadchodzące rezerwacje na ekranie rezerwacji na miejscu.
+          walk_up_calendar_hint: Pokaż nadchodzące rezerwacje na publicznej stronie rezerwacji.
       billing:
         title: Rozliczenia
         summary:
@@ -1597,6 +1644,28 @@ pl:
           other: Rezerwacje staną się płatną aplikacją %{date}. Twoje %{count} zasobów będzie kosztować %{total} miesięcznie.
         manage_calendars: Zarządzaj kalendarzami
       tagline: Harmonogramy sal na wyświetlaczach z rezerwacją na miejscu przez kod QR.
+      sync_failure_email:
+        subject: Nie udało się zsynchronizować kalendarza Rezerwacji "%{name}"
+        intro: Nie udało się zsynchronizować "%{name}" z %{provider} po %{count} kolejnych nieudanych próbach.
+        last_synced: 'Ostatnia udana synchronizacja: %{time}.'
+        never_synced: Ten kalendarz nie został jeszcze poprawnie zsynchronizowany.
+        warning: Rezerwacje wyświetlane na ekranach mogą być nieaktualne. Zaplanowane ponowienia synchronizacji zostały zatrzymane do czasu udanej synchronizacji.
+        instructions: Sprawdź ustawienia połączenia kalendarza. W przypadku kalendarzy Google lub Microsoft połącz konto ponownie, jeśli dostęp wygasł. W przypadku kalendarzy iCal sprawdź, czy adres kanału nadal działa. Po naprawieniu połączenia ponownie otwórz stronę kalendarza, aby spróbować jeszcze raz. Udana synchronizacja ponownie uruchomi zaplanowane próby.
+        open_calendar: Otwórz kalendarz
+        providers:
+          ical: iCal
+          google: Kalendarz Google
+          microsoft: Kalendarz Microsoft
+      url_displays:
+        label: Inne (przez URL)
+        open: Otwórz
+        copy: Kopiuj URL
+        added: Dodano wyświetlacz URL.
+        removed: Usunięto wyświetlacz URL.
+        waiting: Oczekiwanie na synchronizację kalendarza
+        syncing: Synchronizowanie
+        stale: Dane kalendarza są opóźnione. Ponawianie…
+        unavailable: Ten wyświetlacz nie jest już dostępny.
     fleet:
       tagline: Odzwierciedlaj ekran i ustawienia jednego urządzenia na wielu wyświetlaczach.
       check_ins:
@@ -1629,6 +1698,13 @@ pl:
           other: "%{count} urządzeń dodano do floty."
         not_added: 'Nie udało się dodać %{names}: urządzenie jest już we flocie lub używa starszego mechanizmu kopii lustrzanej.'
         none_selected: Zaznacz co najmniej jedno urządzenie do dodania.
+        sort:
+          urgency: Pilność zgłoszenia
+          name_asc: Nazwa urządzenia (A–Z)
+          name_desc: Nazwa urządzenia (Z–A)
+          battery_asc: Czas pracy baterii (od najkrótszego)
+          battery_desc: Czas pracy baterii (od najdłuższego)
+          apply: Sortuj
       alerts:
         title: Alerty zgłoszeń
         description: Jedna wiadomość e-mail na flotę z listą wszystkich spóźnionych urządzeń. Urządzenie jest zgłaszane raz na każdą awarię, a następnie ponownie po tym, jak się zgłosi i znów przestanie odpowiadać.
@@ -1679,6 +1755,15 @@ pl:
       playlist_item_title: Nowy element playlisty
     create:
       full_layout_error: Wybierz plugin, który chcesz dodać do playlisty.
+    presets:
+      1x1: Pełny ekran
+      1Lx1R: Dwie kolumny
+      1Lx2R: Duża sekcja po lewej, dwie po prawej
+      2Lx1R: Dwie sekcje po lewej, duża po prawej
+      1Tx1B: Dwa wiersze
+      1Tx2B: Duża sekcja u góry, dwie na dole
+      2Tx1B: Dwie sekcje u góry, duża na dole
+      2x2: Cztery sekcje
   playlist_coverage:
     title: Pokrycie playlisty
     your_timezone: Twoja strefa czasowa
@@ -1848,6 +1933,10 @@ pl:
       submit: Połącz
       wrong_account: Niewłaściwe konto?
       secrets_warning: Zsynchronizowany plik settings.yml zawiera adres URL odpytywania, nagłówki i treść tego pluginu w postaci jawnego tekstu. Użyj prywatnego repozytorium albo najpierw przenieś dane uwierzytelniające do pola niestandardowego.
+    accounts:
+      label: Wybierz konto GitHub
+      not_listed: Nie ma konta na liście?
+      install: Zainstaluj na nim TRMNL Sync
   user_themes:
     index:
       title: Motywy
@@ -2242,3 +2331,414 @@ pl:
     plugin_settings_added_today: Konto może dodać najwyżej %{count} pluginów dziennie. Spróbuj ponownie jutro.
     mashups_held: Konto może zawierać najwyżej %{count} mashupów. Usuń jeden przed dodaniem kolejnego.
     playlist_items_held: Urządzenie może zawierać najwyżej %{count} elementów playlisty. Usuń jeden przed dodaniem kolejnego.
+  catalog_installations:
+    choices:
+      install: Zainstaluj
+      mirror: Zainstaluj udostępniony wyświetlacz
+      fork_own_config: Użyj własnej konfiguracji
+      fork_shared_config: Użyj udostępnionej konfiguracji autora
+    requirements:
+      register_provider_app: Przed połączeniem zarejestruj własną aplikację dostawcy.
+  ai_allowance:
+    label: Bezpłatny limit użycia
+    used: "%{percent}% wykorzystano"
+    used_up: Wykorzystano cały limit użycia. __Doładuj go lub dodaj klucz__, aby kontynuować.
+    topup_label: Kredyty z doładowania
+    topup_left: "Pozostało %{amount}"
+  integration_overviews:
+    alias: |-
+      Twój własny obraz na wyświetlaczu ePapierowym TRMNL. Alias jest przeznaczony dla osób, które przygotowują ekrany gdzie indziej, np. skryptem na domowym serwerze. Wklej pełny adres URL obrazu, a urządzenie pobierze go bezpośrednio spod tego adresu, więc zadziała również lokalny URL, np. http://localhost:4567/image.png.
+
+      Obraz musi być już przygotowany dla ePapieru: BMP 1-bitowy albo PNG 1- lub 2-bitowy, dokładnie w rozdzielczości urządzenia. TRMNL go nie konwertuje (do tego służy Image Display). Nadpisujesz wciąż ten sam plik? Wyłącz pamięć podręczną, a urządzenie odrysuje go za każdym razem, nawet jeśli nazwa pliku się nie zmieniła.
+    apple_calendar: |-
+      Twój Kalendarz Apple na wyświetlaczu ePapierowym TRMNL. Są 3 sposoby połączenia: wklej link do kalendarza udostępnionego publicznie w iCloud, zsynchronizuj kalendarze z iPhone'a lub iPada aplikacją TRMNL Companion albo zaloguj się przy użyciu Apple ID i hasła aplikacji, a następnie wybierz kalendarze iCloud do wyświetlenia.
+
+      Następnie wybierz układ: agenda na dziś, kilka najbliższych dni, tydzień lub tydzień roboczy, siatka miesiąca albo minimalistyczny harmonogram. Możesz pokazywać godziny i opisy wydarzeń, używać formatu 12- lub 24-godzinnego, ukrywać wydarzenia zawierające wybrane słowa i ustawić dowolny pierwszy dzień tygodnia. Linia bieżącej godziny i wyróżnienie dzisiejszego dnia ułatwiają orientację.
+    apple_photos: |-
+      Zdjęcia z udostępnionego albumu Apple Photos na wyświetlaczu ePapierowym TRMNL. W aplikacji Zdjęcia włącz dla albumu udostępnionego opcję Publiczna witryna, a następnie wklej link do albumu w pluginie. Przy każdym odświeżeniu wybierane jest losowe zdjęcie.
+
+      Wybierz Cover, aby wypełnić cały ekran (krawędzie mogą zostać przycięte), albo Contain, aby pokazać całe zdjęcie z wolnym miejscem wokół. Zdjęcia dodane później do albumu automatycznie dołączają do rotacji. TRMNL odczytuje tylko ten jeden udostępniony album, nic więcej z Twojej biblioteki.
+    asana: |-
+      Twoje zadania z Asany na wyświetlaczu ePapierowym TRMNL. Połącz konto Asana, wybierz obszar roboczy, a potem sekcje z My Tasks do pokazania, np. „Do today” lub „Do later”. Na pełnym ekranie mieszczą się 3 sekcje obok siebie, a w mniejszych układach 2.
+
+      Każde zadanie pokazuje nazwę i termin. Możesz sortować według terminu, alfabetycznie albo zgodnie z kolejnością Asany oraz wyświetlać terminy jako „Dzisiaj”, „Jutro” i nazwy dni tygodnia lub jako krótkie daty. Można też pokazać projekt, do którego należy zadanie, oraz zadania ukończone. Widoki projektów, współdzielone listy zespołów i podzadania nie są obsługiwane — tylko My Tasks.
+    basecamp: |-
+      Twoje zadania z Basecamp na wyświetlaczu ePapierowym TRMNL. Połącz konto Basecamp, wybierz konto i projekt, a ekran zbierze w jednym miejscu zadania ze wszystkich list zadań tego projektu.
+
+      Zadania są sortowane według terminu, od najbliższego, więc to, co trzeba zrobić jako następne, znajduje się na górze. Chcesz obserwować więcej niż 1 projekt? Dodaj plugin osobno dla każdego projektu i umieść je obok siebie na jednym ekranie w mashupie.
+    beehiiv: |-
+      Statystyki najnowszego newslettera beehiiv na wyświetlaczu ePapierowym TRMNL. Zobaczysz temat, liczbę odbiorców, otwarcia i współczynnik otwarć, kliknięcia i współczynnik kliknięć oraz wypisania i zgłoszenia spamu.
+
+      Konfiguracja zajmuje chwilę i nie wymaga kodowania. W beehiiv przejdź do Settings → Integrations → API, utwórz klucz API i skopiuj identyfikator publikacji. Wklej oba do pluginu i zapisz. Prowadzisz więcej niż 1 newsletter? Dodaj plugin osobno dla każdej publikacji.
+    bible_verses: |-
+      Losowy werset z Biblii na wyświetlaczu ePapierowym TRMNL — nowy przy każdym odświeżeniu. Werset jest wyświetlany na środku pod nagłówkiem „Daily Scripture”, a poniżej pojawia się księga, rozdział i numer wersetu.
+
+      Wybierz przekład: American Standard, King James albo World English Bible. To jedyne ustawienie. Dodaj plugin do playlisty i pozwól mu pojawiać się pomiędzy kalendarzem a pogodą.
+    bitcoin_wallet_balance: |-
+      Saldo portfela Bitcoin na wyświetlaczu ePapierowym TRMNL. Wklej publiczny adres portfela, a ekran pokaże saldo w BTC i dolarach amerykańskich oraz wykres świecowy ceny Bitcoina z ostatnich 90 dni.
+
+      Zobaczysz też zmianę ceny z 7 i 90 dni, więc od razu wiadomo, czy tydzień był dobry. TRMNL potrzebuje wyłącznie publicznego adresu — nigdy kluczy. Masz więcej niż 1 portfel? Dodaj plugin osobno dla każdego adresu.
+    caldav: |-
+      Wydarzenia z niemal dowolnej usługi kalendarza na wyświetlaczu ePapierowym TRMNL. Wklej 1 lub więcej opublikowanych linków do kalendarzy .ics i, jeśli serwer tego wymaga, dodaj nagłówki HTTP. Wolisz telefon? Zsynchronizuj kalendarze z iPhone'a lub iPada aplikacją TRMNL Companion.
+
+      Następnie wybierz układ: agenda na dziś, kilka najbliższych dni, tydzień lub tydzień roboczy, siatka miesiąca albo minimalistyczny harmonogram. Możesz pokazywać godziny i opisy wydarzeń, używać formatu 12- lub 24-godzinnego, ukrywać wydarzenia zawierające wybrane słowa i pokazywać kolory kalendarzy na blokach wydarzeń. Widoki tygodnia i miesiąca mogą cieniować weekendy, wyróżniać dzisiejszy dzień, pokazywać numery tygodni i linię bieżącej godziny.
+    changelog: |-
+      Wiadomości od zespołu TRMNL na Twoim wyświetlaczu ePapierowym. Ekran pokazuje najnowsze ogłoszenia od najświeższych, każde z datą i tytułem. Na pełnym ekranie pod każdym pojawia się także krótki opis.
+
+      Nie ma nic do konfigurowania. Dodaj plugin do playlisty, a o nowych pluginach i funkcjach dowiesz się bezpośrednio z urządzenia, bez sprawdzania poczty ani mediów społecznościowych.
+    chatgpt: |-
+      Odpowiedzi ChatGPT na wyświetlaczu ePapierowym TRMNL. Napisz prompt raz, a będzie wysyłany ponownie przy każdym odświeżeniu, dzięki czemu za każdym razem otrzymasz nową odpowiedź — np. ciekawostkę, słowo dnia albo codzienny pomysł do pisania.
+
+      Utwórz klucz API na koncie OpenAI i wklej go wraz z promptem. Wybierz model i włącz wyszukiwanie w sieci dla odpowiedzi wymagających aktualnych informacji; źródła zostaną pokazane na dole. Plugin działa na Twoim kluczu API, więc użycie obciąża Twoje konto OpenAI, a po osiągnięciu limitów OpenAI ekran pokaże zwrócony błąd.
+    clicky: |-
+      Analityka Twojej witryny z Clicky na wyświetlaczu ePapierowym TRMNL. Ekran pokazuje odsłony, odwiedzających i średni czas na stronie, a poniżej wykres dziennych odsłon.
+
+      Wprowadź identyfikator witryny i klucz witryny z Clicky, a następnie wybierz zakres: 1, 7, 14 lub 30 dni. Masz więcej niż 1 witrynę? Dodaj plugin osobno dla każdej i połącz je na jednym ekranie w mashupie.
+    clock: |-
+      Zegar na wyświetlaczu ePapierowym TRMNL. Wybierz analogową tarczę ze wskazówkami albo cyfrowe, siedmiosegmentowe cyfry jak w klasycznym zegarze LCD i ustaw wyświetlaną strefę czasową. Zegar może zajmować cały ekran, połowę albo ćwiartkę.
+
+      Wersja cyfrowa pokazuje czas w formacie 24-godzinnym. Masz współpracowników lub rodzinę w innych miastach? Dodaj po 1 zegarze dla każdej strefy czasowej. Następnie umieść zegary w mashupie obok kalendarza lub pogody, żeby czas był dokładnie tam, gdzie i tak patrzysz.
+    close: |-
+      Twój pipeline Close CRM na wyświetlaczu ePapierowym TRMNL. Połącz konto Close, a następnie wybierz do 3 statusów pipeline'u do obserwowania, np. „Active” lub „Won”. Każdy status otrzymuje własną kolumnę szans sprzedaży.
+
+      Każda szansa pokazuje nazwę leada, wartość i osobę z zespołu, która jest jej właścicielem. Wybierz zakres: szanse aktualizowane w ciągu ostatnich 7, 14 lub 30 dni. Powieś ekran obok zespołu sprzedaży, a wszyscy będą widzieli bieżący stan transakcji.
+    coinmarketcap: |-
+      Aktualne ceny kryptowalut z CoinMarketCap na wyświetlaczu ePapierowym TRMNL. Każda moneta pokazuje symbol, nazwę, bieżącą cenę i zmianę z ostatnich 24 godzin.
+
+      Dodaj klucz API CoinMarketCap, a następnie wpisz symbole do obserwowania, np. BTC lub ETH. Możesz pokazać 1 monetę dużą czcionką albo do 12 w siatce. Domyślnie ceny są w dolarach amerykańskich, ale możesz wybrać inną walutę, np. EUR, GBP, JPY lub ZAR; przeliczenie używa kursu nie starszego niż 1 dzień.
+    convertkit_analytics: |-
+      Statystyki newslettera ConvertKit na wyświetlaczu ePapierowym TRMNL. Jedna strona pokazuje dane konta: liczbę subskrybentów i sprzedanych produktów. Druga pokazuje wyniki wysyłki: odbiorców, współczynnik otwarć, współczynnik kliknięć, kliknięcia, wypisania i status.
+
+      Wklej klucz API i sekret API ConvertKit, a następnie wybierz zakres 7, 30 lub 90 dni.
+    custom_text: |-
+      Twój własny tekst na wyświetlaczu ePapierowym TRMNL. Cytat, cel, przypomnienie o piciu wody. Wpisz 1 frazę albo kilka oddzielonych średnikami, a przy każdym odświeżeniu zostanie wybrana losowa.
+
+      Obsługiwany jest Markdown, więc możesz używać pogrubienia, kursywy lub list, albo go wyłączyć i pokazać tekst dokładnie tak, jak wpisano. Automatyczne skalowanie czcionki dopasuje tekst do dostępnego miejsca, co sprawdza się przy dłuższych fragmentach, lub możesz ustawić stały rozmiar. Wyrównaj tekst do lewej, środka lub prawej i dodaj własny tekst do paska tytułu na dole.
+    days_left_retirement: |-
+      Jak blisko jesteś emerytury — na wyświetlaczu ePapierowym TRMNL. Podaj datę urodzenia i wiek, w którym planujesz przejść na emeryturę, a ekran pokaże procent przebytej drogi, liczbę pozostałych tygodni i pasek postępu wypełniający się wraz z upływem lat.
+
+      Liczenie w tygodniach sprawia, że czas staje się bardziej namacalny — o to właśnie chodzi. Dodaj plugin do playlisty jako delikatne przypomnienie, by przeznaczać dostępne tygodnie na to, co naprawdę ważne.
+    days_left_until: |-
+      Odliczanie do dowolnej daty na wyświetlaczu ePapierowym TRMNL: premiera, podróż, termin, ślub. Ustaw datę rozpoczęcia i końca, a ekran pokaże liczbę dni, które minęły, liczbę dni pozostałych oraz pasek postępu.
+
+      Interesuje Cię tylko 1 liczba? Ukryj dni minione albo pozostałe. Odliczasz do więcej niż 1 wydarzenia? Dodaj plugin osobno dla każdej daty.
+    days_left_year: |-
+      Cały rok na pierwszy rzut oka na wyświetlaczu ePapierowym TRMNL. Każdy dzień to mały kwadrat ułożony tydzień po tygodniu. Minione dni są zacieniowane, dzisiejszy jest całkowicie czarny, a pozostałe jeszcze przed Tobą. Nad siatką znajdują się 2 liczby: dni minione i dni pozostałe.
+
+      Nie ma nic do konfigurowania. Dodaj plugin i zapisz. Korzysta z daty w strefie czasowej konta i zaczyna od nowa 1 stycznia.
+    days_since: |-
+      Licznik dni od czegoś, co jest dla Ciebie ważne, na wyświetlaczu ePapierowym TRMNL: porzucenia nawyku, rozpoczęcia działalności czy ostatniego zepsucia buildu. Ekran pokazuje datę początkową i liczbę dni, które od niej upłynęły.
+
+      Wybierz datę rozpoczęcia i sposób jej zapisu — od „26 listopada 2024” po 2024-11-26 lub 11/26/2024. Śledzisz więcej niż 1 rzecz? Dodaj plugin osobno dla każdej daty i umieść je razem na jednym ekranie w mashupie.
+    dropbox_photo_album: |-
+      Zamień wyświetlacz ePapierowy TRMNL w cyfrową ramkę na zdjęcia z Dropboxa. Połącz konto Dropbox, a utworzymy folder aplikacji TRMNL wewnątrz folderu Apps. Umieszczaj tam zdjęcia, a przy każdym odświeżeniu pojawi się losowe, dopasowane do ekranu.
+
+      TRMNL może czytać i udostępniać pliki tylko z tego jednego folderu — nigdy z reszty Dropboxa. Używasz ekranu pionowo? Wgraj zdjęcia pionowe; do ekranów poziomych najlepiej pasują poziome. Dodawaj lub usuwaj zdjęcia w dowolnym momencie, a rotacja automatycznie się dostosuje.
+    eight_sleep: |-
+      Twoje dane Eight Sleep na wyświetlaczu ePapierowym TRMNL. Po przebudzeniu wystarczy spojrzeć, aby zobaczyć, jak wyglądał tydzień: wskaźnik wyniku snu dla każdego z ostatnich 7 dni oraz wynik tygodniowy z prostą oceną od Low do Good.
+
+      Obok znajdziesz tygodniowe średnie jakości snu, chrapania, snu głębokiego, REM, czasu zasypiania i łącznego czasu snu. Konfiguracja wymaga tylko adresu e-mail i hasła używanych w aplikacji Eight Sleep. Eight Sleep nie ma oficjalnego API, więc logujemy się tak samo jak aplikacja i odczytujemy te same dane. Ten plugin zajmuje cały ekran, więc nie można go użyć w mashupie.
+    email_meter: |-
+      Analityka skrzynki Gmail z Email Meter na wyświetlaczu ePapierowym TRMNL. Zobacz liczbę wysłanych wiadomości i odbiorców, liczbę odebranych wiadomości i nadawców oraz średni czas odpowiedzi.
+
+      Wybierz zakres ostatnich 1, 7 lub 30 dni. Konfiguracja wymaga małego triku: zaloguj się do Email Meter, otwórz konsolę przeglądarki i skopiuj token sesji za pomocą polecenia podanego w formularzu ustawień — bez pisania kodu. Email Meter unieważnia token po zakończeniu sesji. Gdy ekran zgłosi jego odrzucenie, pobierz nowy i wklej go ponownie.
+    enphase: |-
+      Twój system fotowoltaiczny Enphase na wyświetlaczu ePapierowym TRMNL. Połącz konto Enphase, wybierz instalację, a ekran pokaże dzisiejszy wykres produkcji, dużą wartość główną oraz godzinę ostatniego zgłoszenia systemu.
+
+      To Ty wybierasz wartość główną: dzisiejsza produkcja, zużycie, import lub eksport, bilans importu/eksportu, moc szczytowa, bieżąca produkcja, pokrycie energią słoneczną, zależność od sieci, produkcja całkowita albo bateria. Następnie wybierz dodatkowe wartości obok. Mniejsze układy pokażą pierwsze, które się zmieszczą. Jeśli nie masz licznika zużycia, wartości niedostępne dla instalacji są pomijane zamiast pokazywać zero.
+    ethereum_wallet_balance: |-
+      Saldo portfela Ethereum na wyświetlaczu ePapierowym TRMNL. Wklej publiczny adres portfela, a ekran pokaże jego wartość w dolarach amerykańskich, ilość ETH oraz zmianę ceny ETH z ostatnich 7 i 90 dni wraz z 90-dniowym wykresem.
+
+      Podajesz wyłącznie publiczny adres. Bez kluczy, logowania i bez możliwości przesunięcia środków. Obserwujesz więcej niż 1 portfel? Dodaj plugin osobno dla każdego adresu.
+    etsy: |-
+      Sprzedaż Twojego sklepu Etsy na wyświetlaczu ePapierowym TRMNL. Połącz konto Etsy, wybierz sklep i zobacz łączną sprzedaż, średnią wartość zamówienia oraz liczbę zamówień oczekujących i zrealizowanych.
+
+      Wykres porównuje dzienną sprzedaż z poprzednim okresem, więc od razu widać, czy ten tydzień jest lepszy od poprzedniego. Wybierz ostatnie 7, 30 lub 90 dni albo bieżący miesiąc. Anulowane zamówienia są pomijane, a nieopłacone nie wliczają się do sprzedaży.
+    fastmail_calendar: |-
+      Twój kalendarz Fastmail na wyświetlaczu ePapierowym TRMNL. W Fastmail opublikuj kalendarz w ustawieniach Edit & Share — z pełnymi szczegółami wydarzeń albo tylko informacją wolny/zajęty — i wklej link do pluginu (zamień „webcal” na „https”). Masz więcej niż 1 kalendarz? Dodaj po 1 linku w każdym wierszu. Możesz też synchronizować z iPhone'a lub iPada przez aplikację TRMNL Companion.
+
+      Następnie wybierz układ: agenda na dziś, kilka najbliższych dni, tydzień lub tydzień roboczy, siatka miesiąca albo minimalistyczny harmonogram. Możesz pokazywać godziny i opisy wydarzeń, używać czasu 12- lub 24-godzinnego, ukrywać wydarzenia zawierające wybrane słowa i pokazywać kolory kalendarzy. Widoki tygodnia i miesiąca mogą cieniować weekendy, wyróżniać dzisiejszy dzień i pokazywać numery tygodni.
+    fera: |-
+      Twoje opinie z Fera na wyświetlaczu ePapierowym TRMNL. U góry: średnia ocena, łączna liczba opinii, udział zweryfikowanych oraz liczba produktów z opiniami. Poniżej znajdują się najnowsze opinie z oceną gwiazdkową, nagłówkiem i treścią.
+
+      Połącz konto Fera i wybierz opinie do wyświetlenia: zatwierdzone (domyślnie), oczekujące na zatwierdzenie, oczekujące na aktualizację, odrzucone albo oczekujące. TRMNL ma tylko dostęp do odczytu i nie może niczego edytować. Połączenie możesz w każdej chwili rozłączyć po stronie Fera.
+    gaffa: |-
+      Twoja własna pierwsza strona wiadomości na wyświetlaczu ePapierowym TRMNL, tworzona przez AI Gaffa. Podaj adres dowolnego serwisu informacyjnego, a Gaffa odczyta stronę, wybierze najważniejsze materiały i napisze krótkie podsumowanie każdego. Otrzymasz numerowaną listę nagłówków z 1–2 liniami kontekstu.
+
+      Możesz sterować podsumowaniami własnym promptem, np. „skup się na wydarzeniach światowych i pomijaj clickbait”, oraz ustawić własny tekst paska tytułu. Bezpłatny okres próbny Gaffa obejmuje pierwsze 6 miesięcy. Potem wklej własny klucz API Gaffa, aby korzystać dalej.
+    github_commit_graph: |-
+      Wykres aktywności GitHub na wyświetlaczu ePapierowym TRMNL. Wpisz nazwę użytkownika GitHub (bez @), a ekran narysuje ostatni rok aktywności jako siatkę kwadratów — ciemniejszych w dniach z większą liczbą działań.
+
+      Obok zobaczysz łączną liczbę aktywności z ostatniego roku, najdłuższą i bieżącą serię, najbardziej aktywny dzień oraz średnią dzienną. Nie trzeba niczego łączyć ani podawać tokenu — wystarczy nazwa użytkownika. Chcesz wykres kolegi z zespołu? Dodaj plugin ponownie z jego nazwą.
+    github_commits: |-
+      Najnowsze commity z dowolnego repozytorium GitHub na wyświetlaczu ePapierowym TRMNL. Każdy wiersz pokazuje komunikat commita, autora, datę i godzinę oraz skrócony hash.
+
+      Podaj repozytorium jako org/repo albo po prostu wklej jego link z GitHuba. Pozostaw nazwę gałęzi pustą, aby śledzić gałąź domyślną, lub wskaż konkretną. Publiczne repozytoria nie wymagają niczego więcej. Dla prywatnego repozytorium ustaw widoczność na prywatną i dodaj token fine-grained z prawem odczytu zawartości. Jeśli GitHub chwilowo nie odpowiada, na ekranie pozostanie ostatnia poprawna lista.
+    github_contributor_summary: |-
+      Kto commituję do Twojego repozytorium GitHub — na wyświetlaczu ePapierowym TRMNL. Tabela pokazuje nazwę każdego autora, liczbę commitów z ostatniego tygodnia oraz łączną liczbę commitów, dzięki czemu szybko widać aktywność.
+
+      Podaj repozytorium jako username/repository i dodaj token dostępu fine-grained z ustawień GitHub. Wystarczy odczyt metadanych repozytorium. GitHub pokazuje token tylko raz, więc od razu skopiuj go do TRMNL. Śledzisz więcej niż 1 repozytorium? Dodaj plugin osobno dla każdego.
+    google_analytics: |-
+      Dane Google Analytics na wyświetlaczu ePapierowym TRMNL. Zobacz odsłony, sesje, użytkowników i średni czas sesji oraz wykres dziennych odsłon poniżej.
+
+      Połącz konto Google, wpisz Property ID witryny i wybierz zakres 7, 30 lub 90 dni. Dane mogą kończyć się na dzisiaj albo na wczoraj. Jeśli wybierzesz wczoraj, wykres nie spadnie na końcu tylko dlatego, że dzisiejszy dzień jeszcze trwa. Masz więcej niż 1 witrynę? Dodaj plugin osobno dla każdej usługi.
+    google_calendar: |-
+      Twój Kalendarz Google na wyświetlaczu ePapierowym TRMNL. Zaloguj się przez Google, wybierz interesujące Cię kalendarze i gotowe. Masz konto służbowe i prywatne? Połącz więcej niż 1 konto Google i pokaż ich kalendarze na jednym ekranie.
+
+      Następnie wybierz układ pasujący do sposobu planowania: agenda na dziś, kilka najbliższych dni, tydzień lub tydzień roboczy, siatka miesiąca albo minimalistyczny harmonogram. Możesz pokazywać godziny i opisy wydarzeń, używać czasu 12- lub 24-godzinnego, ukrywać wydarzenia zawierające wybrane słowa albo pokazywać tylko zaakceptowane. Możesz też dodać linię bieżącej godziny, a widoki tygodnia i miesiąca mogą cieniować weekendy, wyróżniać dzisiejszy dzień i pokazywać numery tygodni.
+    google_drive_photos: |-
+      Zamień folder Google Drive w ramkę na zdjęcia dla wyświetlacza ePapierowegoierowego TRMNL. Przy każdym odświeżeniu wybierany jest losowy obraz z folderu: JPEG, PNG, GIF, BMP, WebP lub TIFF.
+
+      Logowanie do Google nie jest potrzebne. Udostępnij folder adresowi e-mail TRMNL widocznemu w ustawieniach z uprawnieniem Viewer, a następnie wklej link do folderu. TRMNL widzi tylko to, co udostępnisz. Do rotacji trafiają zdjęcia znajdujące się bezpośrednio w tym folderze; podfoldery są pomijane. Wybierz Cover, aby wypełnić ekran (krawędzie mogą zostać przycięte), albo Contain, aby pokazać cały obraz z wolnym miejscem wokół.
+    google_photos: |-
+      Zdjęcia z biblioteki Google Photos na wyświetlaczu ePapierowym TRMNL. Połącz konto Google, a następnie ręcznie wybierz zdjęcia w selektorze Google. Przy każdym odświeżeniu pojawi się losowe z wybranych zdjęć.
+
+      TRMNL widzi tylko wskazane zdjęcia, nic więcej z biblioteki. Wybierz Cover, aby wypełnić ekran (krawędzie mogą zostać przycięte), albo Contain, aby pokazać całe zdjęcie z wolnym miejscem wokół. Google kończy ten dostęp po 7 dniach, więc co jakiś czas trzeba wybrać zdjęcia ponownie. Strona ustawień pokazuje, kiedy dostęp wygaśnie.
+    google_tasks: |-
+      Twoje Zadania Google na wyświetlaczu ePapierowym TRMNL. Połącz konto Google, wybierz listę zadań, a ekran pokaże wszystkie nieukończone zadania wraz z terminami. Ukończone zadania nie są wyświetlane.
+
+      Sortuj według terminu albo zachowaj kolejność ustawioną w aplikacji. Podzadania są wyświetlane bezpośrednio pod zadaniem nadrzędnym z wcięciem. Listę można wyrównać do góry, środka lub dołu dostępnego miejsca. Masz listę służbową i prywatną? Dodaj plugin osobno dla każdej i umieść je obok siebie w mashupie.
+    gumroad_analytics: |-
+      Twoja sprzedaż z Gumroad na wyświetlaczu ePapierowym TRMNL. Dwie duże liczby pokazują, ile sprzedaży udało się zrealizować i jaka była jej wartość.
+
+      Połącz konto Gumroad i wybierz zakres 7, 30 lub 90 dni. To cała konfiguracja. Chcesz widzieć obok siebie ten tydzień i kwartał? Dodaj plugin dwa razy — raz z zakresem 7 dni, drugi z 90 dni. Umieść ekran w miejscu, na które patrzysz podczas pracy, i pozwól liczbom przypominać o wyniku.
+    hacker_news: |-
+      To, co aktualnie czyta społeczność technologiczna, na wyświetlaczu ePapierowym TRMNL. Ekran pokazuje wpisy Hacker News w kolejności, każdy z tytułem, liczbą głosów i autorem. Na pełnym ekranie lista układa się w 2 kolumny.
+
+      Konfiguracja to 1 wybór. Top Stories pokazuje najwyżej oceniane obecnie wpisy, a Show HN rzeczy stworzone przez użytkowników i przeznaczone do wypróbowania (prefiks „Show HN:” jest usuwany z tytułów). W mashupie plugin może zajmować połowę lub ćwiartkę ekranu.
+    home_assistant_screenshot: |-
+      Twoje pulpity Home Assistant na wyświetlaczu ePapierowym TRMNL. Plugin współpracuje z dodatkiem TRMNL HA, który wykonuje zrzuty ekranów pulpitów wewnątrz Twojej sieci, przygotowuje je i wysyła pod prywatny adres webhooka otrzymany z pluginu. Nic z zewnątrz nie łączy się bezpośrednio z Twoją siecią.
+
+      Zainstaluj dodatek ze sklepu dodatków Home Assistant albo uruchom go jako osobny kontener, jeśli używasz Home Assistant w Dockerze. Utwórz harmonogram w dodatku, wybierz profil urządzenia i wklej adres webhooka. W TRMNL wybierz, czy obraz ma wypełniać dostępne miejsce czy być pokazywany w całości, gdy dzieli ekran z innymi pluginami, oraz kolor wypełnienia pustych obszarów.
+    homey: |-
+      Twój inteligentny dom Homey na wyświetlaczu ePapierowym TRMNL. Widok Overview zaczyna się od odczytów takich jak moc, temperatura i wilgotność, pokazuje aktywne alarmy, a następnie urządzenia. Batteries wyświetla wszystkie urządzenia bateryjne od najbardziej rozładowanych. Insights rysuje wykres jednego zarejestrowanego pomiaru z ostatniej godziny, dnia, tygodnia lub miesiąca.
+
+      Dane można przekazać na 2 sposoby. Zainstaluj aplikację TRMNL dla Homey (albo HomeyScript) i wklej adres Push URL pluginu. Możesz też połączyć konto Homey, aby TRMNL odczytywał dane z chmury Homey, a następnie wybrać urządzenie Homey. Pokaż wszystkie strefy albo tylko jedno pomieszczenie. Ten plugin zasila również receptury Homey w katalogu TRMNL.
+    hubspot: |-
+      Twoje transakcje HubSpot na wyświetlaczu ePapierowym TRMNL. Połącz konto HubSpot, wybierz pipeline sprzedażowy, a następnie do 3 etapów transakcji do obserwowania.
+
+      Każdy etap otrzymuje własną kolumnę z listą transakcji, ich nazwami, kwotą i właścicielem. To szybki podgląd stanu pipeline'u bez otwierania CRM. Potrzebujesz więcej etapów albo drugiego pipeline'u? Dodaj plugin ponownie i połącz widoki na jednym ekranie w mashupie.
+    huckleberry: |-
+      Dzień Twojego dziecka z Huckleberry na wyświetlaczu ePapierowym TRMNL. Ekran pokazuje imię i wiek dziecka, czy śpi czy nie i od kiedy, oraz kolejny SweetSpot na drzemkę lub sen nocny. Poniżej znajdziesz ostatnią butelkę, karmienie piersią, posiłek stały i zmianę pieluchy oraz plan dnia.
+
+      Zaloguj się tym samym adresem e-mail i hasłem co w aplikacji Huckleberry, zapisz i wybierz dziecko do wyświetlenia. Huckleberry nie ma oficjalnego API, więc logujemy się tak samo jak aplikacja i odczytujemy te same dane. Śledzisz 2 dzieci? Dodaj plugin osobno dla każdego i umieść je obok siebie w mashupie.
+    image_display: |-
+      Dowolny obraz z sieci na wyświetlaczu ePapierowym TRMNL. Wprowadź adres obrazu, a TRMNL przeskaluje i przekonwertuje go do ekranu. Dodaj więcej adresów, po 1 w wierszu, aby przy każdym odświeżeniu wybierany był losowy. Linki udostępniania Google Drive działają bez zmian, więc Drive może służyć jako hosting obrazów.
+
+      Użyj zdjęcia, wykresu lub dashboardu generowanego przez inny system albo obrazu z kamery. Możesz wypełnić ekran, dopasować obraz z tłem wokół albo rozciągnąć go do dostępnego miejsca. Hosting na domowym serwerze z certyfikatem self-signed? TRMNL może pobierać także stamtąd. Jeśli serwer wysyła nagłówki ETag lub Last-Modified, ekran zostanie odrysowany tylko wtedy, gdy obraz faktycznie się zmieni.
+    kickstarter: |-
+      Projekty crowdfundingowe warte uwagi na wyświetlaczu ePapierowym TRMNL. Każdy projekt na liście pokazuje nazwę, krótki opis, procent realizacji celu, kwotę zebraną w dolarach amerykańskich i kraj pochodzenia.
+
+      Wybierz Top, aby zobaczyć aktywne projekty z największą zebraną kwotą, albo Ending Soon dla kampanii, które zaraz się kończą. To jedyne ustawienie.
+    language_learning: |-
+      Słowo w języku, którego się uczysz, na wyświetlaczu ePapierowym TRMNL. Ekran pokazuje słowo w wybranym języku, jego znaczenie po angielsku i przykładowe zdanie z użyciem tego słowa.
+
+      Wybierz jeden z 13 języków: portugalski brazylijski, duński, niderlandzki, angielski, francuski, grecki, włoski, japoński, koreański, norweski, hiszpański, szwedzki lub turecki. Każde odświeżenie przechodzi do kolejnego słowa z listy tysięcy codziennych słów, a TRMNL zapamiętuje pozycję. Chcesz dłużej pozostać przy jednym słowie? Ustaw wolniejsze odświeżanie.
+    letterboxd: |-
+      Twój dziennik Letterboxd na wyświetlaczu ePapierowym TRMNL. Zaloguj się do Letterboxd, a ekran pokaże ostatnio zapisane filmy wraz z datą oglądania, rokiem premiery, Twoją oceną gwiazdkową, sercem dla polubionych i oznaczeniem ponownego seansu. Większe układy dodają plakat najnowszego filmu.
+
+      Ciekawi Cię, co oglądają inni? Przełącz na tryb Friends, aby zobaczyć najnowsze wpisy i recenzje osób, które obserwujesz — z autorem wpisu, jego oceną i, jeśli jest miejsce, plakatem.
+    lunar_calendar: |-
+      Pozycja Księżyca w cyklu na wyświetlaczu ePapierowym TRMNL. Ekran zaczyna się od bieżącej fazy, procentu oświetlenia i wieku Księżyca w dniach. Poniżej znajduje się oś faz wokół dzisiejszej daty, a następnie kolejna faza, kolejna pełnia i kolejny nów.
+
+      Jest tylko 1 ustawienie: Detailed rysuje realistyczne obrazy Księżyca, a Simple używa prostych ikon. Lokalizacja nie jest potrzebna. Daty korzystają ze strefy czasowej konta.
+    lunch_money: |-
+      Twoje finanse Lunch Money na wyświetlaczu ePapierowym TRMNL. Utwórz token dostępu w ustawieniach deweloperskich Lunch Money, wklej go i wybierz widok.
+
+      Budgets pokazuje wydatki bieżącego miesiąca według kategorii, od największych, wraz z wykresem wydatków względem budżetu. Wybierz kategorie nadrzędne lub podrzędne, aby wydatki grupowane nie były liczone podwójnie. Accounts pokazuje salda połączonych kont i aktywów, wraz ze zobowiązaniami. Net Worth pokazuje bieżącą wartość netto, jej zmianę oraz wykres aktywów i zobowiązań z ostatnich 3, 6, 9 lub 12 miesięcy. Kwoty są wyświetlane w podstawowej walucie Lunch Money.
+    mailchimp_analytics: |-
+      Statystyki odbiorców Mailchimp na wyświetlaczu ePapierowym TRMNL. Połącz konto Mailchimp i wybierz listę odbiorców do obserwowania.
+
+      Recent Activity pokazuje u góry liczbę wysłanych wiadomości i współczynnik otwarć, a niżej unikalne otwarcia, kliknięcia, twarde i miękkie odbicia, nowych subskrybentów i wypisania. Growth History zachowuje wysłane wiadomości i współczynnik otwarć, a resztę zastępuje wykresem liczby subskrybentów miesiąc po miesiącu. Prowadzisz więcej niż 1 newsletter? Dodaj plugin osobno dla każdej listy odbiorców.
+    mazevo: |-
+      Zamień wyświetlacz ePapierowy TRMNL w tabliczkę przy dowolnym pomieszczeniu rezerwowanym w Mazévo. Na pierwszy rzut oka widać, czy sala jest zajęta — wraz z nazwą i godziną bieżącej rezerwacji — czy dostępna i do kiedy. Poniżej znajduje się reszta dzisiejszych rezerwacji.
+
+      Połącz się za pomocą klucza API i adresu API Mazévo, co obsługuje rezerwacje organizacji i prywatne, albo kanału iCal kalendarza Mazévo, który pokazuje tylko nazwy i godziny wydarzeń. Wybierz salę, przed którą znajduje się ekran. Następnie dostosuj widok: zastąp nazwę sali własnym nagłówkiem, zmień etykietę „Available”, dodaj jednoliniową notatkę na dole, pokaż lub ukryj zakończone rezerwacje i wybierz czas 12- lub 24-godzinny. Rezerwacje prywatne są oznaczone jako prywatne — bez nazw.
+    microsoft_todo: |-
+      Twoje zadania Microsoft To Do na wyświetlaczu ePapierowym TRMNL. Zaloguj się kontem Microsoft i wybierz listę do pokazania.
+
+      Ekran wyświetla wszystkie nieukończone zadania z terminem i krótkim podglądem notatek. Ukończone zadania znikają, więc widzisz tylko to, co pozostało. Listę można wyrównać do góry, środka lub dołu. Masz listę służbową i zakupową? Dodaj plugin osobno dla każdej i pokaż obie w mashupie.
+    mondrian: |-
+      Sztuka generatywna w stylu Pieta Mondriana na wyświetlaczu ePapierowym TRMNL. Przy każdym renderowaniu ekran dzieli się na losową siatkę grubych czarnych linii i wypełnionych pól, więc żadne 2 renderowania nie wyglądają tak samo.
+
+      Nie ma nic do konfigurowania. Dodaj plugin do playlisty jako przerwę między ekranami z danymi albo umieść go w mashupie jako mały element graficzny obok kalendarza czy pogody.
+    motivational_quote: |-
+      Motywacyjny cytat dnia na wyświetlaczu ePapierowym TRMNL. Ekran pokazuje cytat dużą czcionką, a pod nim nazwisko autora. Cytaty pochodzą z cytatu dnia ZenQuotes, więc zmieniają się codziennie i wszyscy widzą ten sam.
+
+      Nie ma nic do konfigurowania. Dodaj plugin do playlisty albo umieść go w mashupie obok kalendarza, aby mieć o czym pomyśleć między spotkaniami.
+    nano_banana_dashboard: |-
+      Twoje dane TRMNL przerysowane jako obraz przez modele graficzne Gemini Google, nazywane Nano Banana. Wybierz do 3 innych pluginów jako źródła danych, a Gemini zamieni ich dane w scenę: pierwszą stronę gazety, tablicowe menu kawiarni, centrum kontroli misji i wiele innych.
+
+      Używasz własnego klucza API Gemini z Google AI Studio z włączonym rozliczaniem i wybierasz Flash, Flash 2.5 albo Pro. Potem dopasuj rezultat: dodaj własny tekst, wskaż dane do wyróżnienia, wybierz scenę lub Random, dodaj wskazówki stylistyczne i ustaw proporcje obrazu. Zaawansowani użytkownicy mogą napisać cały prompt. Nowy obraz jest tworzony tylko wtedy, gdy zmienią się ustawienia lub dane.
+    netatmo_weather_station: |-
+      Odczyty ze stacji pogodowej Netatmo na wyświetlaczu ePapierowym TRMNL. Zaloguj się do Netatmo, aby przyznać TRMNL dostęp tylko do odczytu, wybierz stację i opcjonalnie moduł odpowiedzialny za odczyty wewnętrzne.
+
+      Tryb Basic zaczyna od temperatury zewnętrznej i jej wykresu, a następnie pokazuje temperaturę wewnątrz, wilgotność i CO2 oraz wilgotność na zewnątrz, ciśnienie, hałas i dzienne minimum i maksimum. Masz deszczomierz albo wiatromierz? Te odczyty też się pojawią. Tryb Graph wypełnia ekran jednym parametrem: temperaturą, wilgotnością, CO2, hałasem, ciśnieniem, deszczem lub wiatrem. Wybierz Fahrenheit lub Celsjusz, a dla wiatru opcjonalnie węzły.
+    nextcloud_calendar: |-
+      Twój kalendarz Nextcloud na wyświetlaczu ePapierowym TRMNL. Udostępnij kalendarz jako link w Nextcloud i wklej go do pluginu (więcej kalendarzy dodaj po 1 w wierszu) albo synchronizuj z iPhone'a lub iPada przez aplikację TRMNL Companion.
+
+      Następnie wybierz układ: agenda na dziś, kilka najbliższych dni, tydzień, tydzień kroczący, tydzień roboczy lub 3-dniowy, miesiąc lub miesiąc kroczący albo minimalistyczny harmonogram. Możesz pokazywać godziny i opisy wydarzeń, używać czasu 12- lub 24-godzinnego, pokazywać kolory kalendarzy i ukrywać wydarzenia zawierające wybrane słowa. Widoki tygodnia i miesiąca mogą cieniować weekendy, wyróżniać dzisiejszy dzień, pokazywać numery tygodni i linię bieżącej godziny.
+    notion: |-
+      Twoje bazy danych i strony Notion na wyświetlaczu ePapierowym TRMNL. Połącz Notion z dostępem tylko do odczytu, wybierz treści widoczne dla TRMNL, a następnie 1 bazę danych albo 1 stronę do pokazania.
+
+      Dla bazy wybierz właściwość używaną jako tytuł, tę wyświetlaną jako duża plakietka statusu oraz właściwości pokazywane jako mniejsze etykiety lub zwykłe szczegóły. Sortuj według dowolnej właściwości, filtruj składnią filtrów Notion (działają też dynamiczne daty, np. „today plus 7”), ustaw liczbę elementów i wybierz 1 lub 2 kolumny. Dla strony ekran pokazuje jej zawartość kolejno: tekst, nagłówki, listy, obrazy i inne elementy.
+    outlook_calendar: |-
+      Twój kalendarz Outlook na wyświetlaczu ePapierowym TRMNL. Zaloguj się kontem Microsoft i wybierz kalendarze do pokazania. Jeśli niczego nie wybierzesz, użyty zostanie kalendarz domyślny.
+
+      Wybierz układ: agenda na dziś, kilka najbliższych dni, tydzień lub tydzień roboczy, siatka miesiąca albo minimalistyczny harmonogram. Możesz pokazywać godziny i opisy wydarzeń, używać czasu 12- lub 24-godzinnego, ukrywać wydarzenia zawierające wybrane słowa i pokazywać tylko zaakceptowane wydarzenia. Widoki tygodnia i miesiąca mogą cieniować weekendy, wyróżniać dzisiejszy dzień i pokazywać numery tygodni. Jeśli planujesz dzień godzina po godzinie, linia bieżącej godziny pokaże, gdzie jesteś.
+    parcel: |-
+      Twoje przesyłki z aplikacji Parcel na wyświetlaczu ePapierowym TRMNL. Każda dostawa pokazuje status, np. w drodze lub w doręczeniu, nazwę, najnowsze zdarzenie śledzenia i przewidywany termin: dziś, jutro, dzień tygodnia albo konkretną datę.
+
+      Wymagana jest płatna subskrypcja Parcel. Zaloguj się na web.parcelapp.net, utwórz klucz API i wklej go. Pokaż aktywne albo ostatnie przesyłki, wybierz styl Detailed lub Compact bez zdarzenia śledzenia i zdecyduj, co robić, gdy nic nie jest w drodze: pokazać pusty ekran czy go pominąć.
+    place_of_the_day: |-
+      Codziennie nowe miejsce na wyświetlaczu ePapierowym TRMNL: miasto albo cud świata. Każdy ekran pokazuje nazwę miejsca, region i kraj, mapę ulic oraz krótki opis, zwykle z Wikipedii. Jeśli dane są dostępne, zobaczysz też fakty takie jak liczba ludności, rok założenia, wysokość, powierzchnia, czas lokalny i współrzędne.
+
+      Nie ma nic do konfigurowania. Wszyscy użytkownicy pluginu widzą danego dnia to samo miejsce, a wybór rotuje między Europą, Amerykami i resztą świata.
+    poetry_today: |-
+      Wiersz na wyświetlaczu ePapierowym TRMNL, z tytułem u góry i nazwiskiem autora w rogu. Przy każdym odświeżeniu losowany jest nowy utwór z PoetryDB, publicznej kolekcji klasycznej poezji.
+
+      Nie ma nic do konfigurowania. Dodaj plugin i gotowe. Wybierane są tylko wiersze wystarczająco krótkie, by zmieściły się na ekranie — maksymalnie 24 linie — więc sonet nie zostanie ucięty w połowie. Dobrze pasuje obok zegara lub kalendarza w mashupie, gdy chcesz przeczytać coś spokojniejszego niż skrzynka odbiorcza.
+    polymarket: |-
+      Rynki predykcyjne Polymarket na wyświetlaczu ePapierowym TRMNL. Wybierz temat, a ekran pokaże do 12 otwartych rynków z pytaniem, liczbą komentarzy i kwotą zaangażowanego kapitału.
+
+      Tematy obejmują biznes, popkulturę, sport, kryptowaluty, naukę i politykę. Konto Polymarket nie jest potrzebne. Pokazywane są tylko aktywne rynki zamykające się w ciągu najbliższych 2 tygodni, więc widzisz zakłady rozstrzygane wkrótce, a nie za rok. Chcesz temat spoza listy? Wyślij do supportu identyfikator tagu Polymarket, a zostanie dodany do Twojego konta.
+    postmark_analytics: |-
+      Statystyki poczty Postmark na wyświetlaczu ePapierowym TRMNL. Wklej Server API Token ze swojego serwera Postmark i wybierz zakres 7, 30 lub 90 dni.
+
+      Największe wartości to liczba wysłanych wiadomości i współczynnik otwarć. Poniżej zobaczysz unikalne otwarcia, kliknięcia, odbicia, błędy, zgłoszenia spamu i współczynnik odbić. To przydatny widok na biurku zespołu operacyjnego lub supportu — wzrost odbić albo spamu można zauważyć, zanim klient zapyta, dlaczego nie dostał wiadomości do resetu hasła.
+    private_plugin: |-
+      Zbuduj własny ekran dla wyświetlacza ePapierowego TRMNL. Napisz go w HTML z szablonami Liquid i frameworkiem projektowym TRMNL, a następnie zdecyduj, jak trafiają do niego dane: TRMNL odpytuje URL zwracający JSON, XML lub zwykły tekst, Twój kod wysyła dane do webhooka, wpisujesz statyczny JSON albo korzystasz ponownie z danych innych pluginów TRMNL.
+
+      Polling obsługuje GET lub POST, własne nagłówki, treść żądania oraz OAuth dla usług wymagających logowania. Dodaj własne pola formularza, aby inni mogli konfigurować plugin bez dotykania kodu, przekształcaj dane skryptem w Node, PHP, Pythonie lub Ruby, a po ukończeniu udostępnij plugin jako recepturę.
+    product_hunt: |-
+      Wyróżnione premiery z Product Hunt na wyświetlaczu ePapierowym TRMNL. Każda pozycja pokazuje nazwę, krótki opis i liczbę głosów w numerowanej liście.
+
+      Nie trzeba niczego łączyć ani mieć konta. Dodaj plugin, a lista będzie aktualizować się sama. Tworzysz coś własnego? Obserwuj, co właśnie startuje i ile głosów potrzeba, by zostać zauważonym, bez otwierania kolejnej karty. Plugin mieści się na pełnym ekranie, połowie lub ćwiartce obok innych pluginów.
+    profit_well: |-
+      Dane przychodowe ProfitWell na wyświetlaczu ePapierowym TRMNL. Wklej token API ProfitWell, a ekran pokaże dzisiejsze wartości z Twojego konta.
+
+      U góry: nowy przychód cykliczny i łączny przychód cykliczny. Poniżej: utracony przychód, aktywni klienci, nowi klienci i utraceni klienci. Prowadzisz SaaS? Umieść ekran tam, gdzie spojrzysz na niego każdego ranka, aby zły dzień churnu nie schował się w zapomnianym dashboardzie.
+    proton_calendar: |-
+      Twój Proton Calendar na wyświetlaczu ePapierowym TRMNL. Są 2 sposoby połączenia: udostępnij kalendarz Proton jako link i wklej adres .ics do pluginu albo synchronizuj z iPhone'a lub iPada aplikacją TRMNL Companion. Zależy Ci na prywatności? Proton pozwala udostępnić link pokazujący wyłącznie zajętość, bez treści wydarzeń.
+
+      Następnie wybierz układ: agenda na dziś, kilka najbliższych dni, tydzień, tydzień kroczący, tydzień roboczy lub 3-dniowy, siatka miesiąca albo minimalistyczny harmonogram. Możesz pokazywać godziny i opisy wydarzeń, używać czasu 12- lub 24-godzinnego, ukrywać wydarzenia zawierające wybrane słowa i ustawić dowolny pierwszy dzień tygodnia. Widoki tygodnia i miesiąca mogą cieniować weekendy, wyróżniać dzisiejszy dzień i pokazywać numery tygodni.
+    purpleair: |-
+      Odczyty z czujnika PurpleAir na wyświetlaczu ePapierowym TRMNL. Użyj własnego czujnika albo dowolnego publicznego z mapy PurpleAir. Wpisz jego Sensor ID i klucz API PurpleAir, a jeśli czujnik jest prywatny — również klucz odczytu.
+
+      Wybierz wyświetlane dane. Air quality pokazuje bieżące PM2.5 i PM10 oraz wykres z ostatnich 24 godzin na tle poziomów jakości powietrza EPA, od Good do Very Unhealthy. Temperature and humidity zamiast tego pokazuje temperaturę i wilgotność, w Fahrenheitach lub Celsjuszach. PurpleAir jest pytany tylko o dane zmienione od ostatniego odświeżenia, dzięki czemu bezpłatne kredyty API wystarczają na długo.
+    readwise: |-
+      Twoje podkreślenia z Readwise na wyświetlaczu ePapierowym TRMNL. Pobierz token dostępu z Readwise, wklej go do pluginu i gotowe.
+
+      Przy każdym odświeżeniu wyświetlane jest 1 podkreślenie z codziennego przeglądu Readwise wraz z tytułem książki lub artykułu i autorem. Kolejne odświeżenie przechodzi do następnego. To spokojny sposób na faktyczny powrót do zapisanych fragmentów zamiast pozwalać im gromadzić się w aplikacji, której nigdy nie otwierasz.
+    reddit: |-
+      Najpopularniejsze posty z ulubionych subredditów na wyświetlaczu ePapierowym TRMNL. Połącz konto Reddit, a następnie podaj do 3 subredditów. Każdy otrzymuje własną kolumnę.
+
+      Sortuj według Hot, New lub Top i wybierz zakres czasu — od ostatniej godziny po cały okres. Przypięte posty są pomijane, bo rzadko się zmieniają. Pod każdym tytułem możesz pokazywać liczbę głosów i nazwę autora albo je ukryć. Skróć długie tytuły do 1 wiersza, aby zmieścić więcej postów.
+    redirect: |-
+      Narzędzie dla deweloperów tworzących własne obrazy. Gdy wyświetlacz ePapierowy TRMNL się zgłasza, wywołujemy URL na Twoim serwerze i przekazujemy odpowiedź bezpośrednio do urządzenia: skąd pobrać obraz, jaką ma nazwę pliku i jak długo urządzenie ma spać przed kolejnym zgłoszeniem.
+
+      To oznacza, że przy każdym zgłoszeniu Twój serwer decyduje, co i kiedy ma się pojawić. Adres obrazu może zmieniać się przy każdym żądaniu i może prowadzić nawet do zasobu w sieci lokalnej. Jeśli dwa razy wyślesz tę samą nazwę pliku, ekran nie zostanie odrysowany, co ogranicza migotanie i oszczędza baterię. Czas uśpienia zależy od Ciebie, nawet do 1 minuty. Używasz już Alias i potrzebujesz większej kontroli? To kolejny poziom.
+    rss_feed: |-
+      Dowolny kanał RSS lub Atom na wyświetlaczu ePapierowym TRMNL. Wklej adres kanału i wybierz układ.
+
+      Featured pokazuje najnowszy wpis wraz z tytułem, tekstem i obrazami. List pokazuje do 8 najnowszych wpisów, każdy z tytułem i krótkim podsumowaniem zwykłym tekstem. Obserwujesz blog, serwis informacyjny, podcast albo forum, które nadal ma kanał? Umieść go na ekranie. Kanał działa na domowym serwerze z certyfikatem self-signed? Możesz pozwolić TRMNL pobierać go mimo to.
+    screen_wiper: |-
+      Usuwa ghosting z wyświetlacza ePapierowego TRMNL. Ghosting to delikatne pozostałości starych obrazów, które z czasem mogą gromadzić się na ekranie ePapierowym. Gdy urządzenie dotrze do Screen Wiper na playliście, wykona specjalną sekwencję przełączeń między czernią i bielą, a następnie przejdzie do kolejnej pozycji.
+
+      Dodaj plugin i zapisz — to wszystko. W zależności od urządzenia czyszczenie miga przez 30–60 sekund albo nawet do 5 minut. Użyj harmonogramu, aby uruchamiać je raz dziennie lub raz w tygodniu, najlepiej tuż po wybudzeniu urządzenia. Wymagany jest firmware 1.8.14 lub nowszy.
+    screensaver: |-
+      Grafika na wyświetlaczu ePapierowym TRMNL. Przy każdym odświeżeniu wybierany jest losowy obraz z niewielkiej biblioteki wygaszaczy: m.in. Mona Lisa, Rzym, misje Apollo i stacja kosmiczna — wszystkie przygotowane tak, by dobrze wyglądały na ePapierowego.
+
+      Nie ma nic do konfigurowania. Dodaj plugin do playlisty, gdy chcesz, aby ekran wyglądał estetycznie zamiast informacyjnie, np. między spotkaniami lub w nocy. Kolekcja jest niewielka, ale rośnie i przyjmujemy propozycje. Masz obraz, który chciałbyś w niej zobaczyć? Napisz na support@trmnl.com.
+    screenshot: |-
+      Dowolna publiczna strona WWW na wyświetlaczu ePapierowym TRMNL. Wklej adres, a pobierzemy stronę i wykonamy jej zrzut jako obraz. Wyniki sportowe, tablica statusu czy jadłospis dziecka — wszystko się nadaje.
+
+      Strona wymaga tokenu logowania? Dodaj nagłówki HTTP. Poprawiamy względne linki do arkuszy stylów, skryptów i obrazów, aby strona wyglądała jak w przeglądarce — możesz to wyłączyć. Jeśli HTML strony się nie zmienił, pomijamy odrysowanie. Dla dashboardów ładujących dane JavaScriptem włącz always refresh, aby za każdym razem wykonywać nowy zrzut. Wskazówka: ustaw najpierw przeglądarkę na 800x480, żeby zobaczyć to, co zobaczy TRMNL.
+    shopify: |-
+      Sprzedaż Shopify na wyświetlaczu ePapierowym TRMNL. Utwórz niestandardową aplikację w panelu Shopify z dostępem tylko do odczytu zamówień, a następnie wklej jej token dostępu i adres sklepu do pluginu. Artykuł pomocy prowadzi przez ten proces krok po kroku.
+
+      Wybierz zakres: ostatnie 7 dni, ostatnie 30 dni albo bieżący miesiąc. Ekran pokazuje łączną sprzedaż i porównanie z poprzednim okresem, zamówienia oczekujące i zrealizowane, średnią wartość zamówienia oraz wykres dziennej sprzedaży względem poprzedniego okresu. Kwoty są wyświetlane w walucie sklepu. TRMNL odczytuje wyłącznie zamówienia, nic więcej ze sklepu.
+    shopping_list: |-
+      Twoja lista zakupów na wyświetlaczu ePapierowym TRMNL. Wpisz produkty w pluginie, po 1 w wierszu, a na ekranie pojawią się jako numerowana lista.
+
+      Postaw ekran na lodówce albo przy drzwiach, a następnym razem przy wychodzeniu przypomnisz sobie o paście do zębów. Dodawaj lub usuwaj produkty z panelu TRMNL w dowolnym momencie, a lista na ekranie będzie się aktualizować. Lista jest przechowywana w postaci zaszyfrowanej.
+    simple_analytics: |-
+      Statystyki Simple Analytics na wyświetlaczu ePapierowym TRMNL. U góry ekran pokazuje odsłony, odwiedzających i minuty spędzone na stronie, a poniżej wykres dziennych odsłon.
+
+      Utwórz klucz API w ustawieniach konta Simple Analytics, wklej go i dodaj domenę witryny (bez „http”). Następnie wybierz zakres 1, 7, 14 lub 30 dni. Chcesz, aby wykres kończył się na wczoraj zamiast na dziś? Ustaw to, aby niedokończony dzień nie wyglądał jak nagły spadek ruchu.
+    square_pos: |-
+      Sprzedaż Square na wyświetlaczu ePapierowym TRMNL. Połącz konto Square i wybierz do 3 lokalizacji. Każda otrzymuje własną kolumnę z łączną wartością płatności u góry i numerowaną listą wszystkich zakończonych płatności poniżej, wraz z kwotą i metodą płatności.
+
+      Wybierz zakres: dzisiaj, ostatnie 24 godziny albo ostatnie 7 dni. Prowadzisz kilka punktów? Zobacz wszystkie obok siebie na jednym ekranie.
+    statuspage: |-
+      Strony statusu usług, od których zależysz, na wyświetlaczu ePapierowym TRMNL. Wklej adresy stron statusu, po 1 w wierszu, a znajdziemy ich kanały RSS lub Atom. Działa to ze Statuspage, AWS, Slack, Google Cloud i większością innych usług.
+
+      Ekran dzieli się na 2 listy. Incidents pokazuje najnowszy incydent każdej usługi i czas, jaki od niego upłynął, z ikoną wyróżniającą zdarzenia z ostatnich 24 godzin. Scheduled pokazuje nadchodzące prace serwisowe i ich daty. Jeśli strony nie da się pobrać albo nie ma kanału, ekran wyraźnie to pokaże zamiast milczeć.
+    stock_price: |-
+      Ceny akcji, metali i walut na wyświetlaczu ePapierowym TRMNL. Wpisz do 12 tickerów, a każdy pokaże cenę, nazwę i dzienną zmianę w procentach lub punktach. Układ automatycznie dopasowuje się do liczby pozycji.
+
+      Tickery amerykańskie działają bez dodatków. Dla Kanady, Niemiec, Londynu lub Indii dodaj oznaczenie giełdy, np. SHOP.TSE albo INFY.NSE; dla par walutowych użyj sufiksu .FX, np. EURUSD.FX; możesz też śledzić złoto, srebro, platynę, pallad i miedź — XAUUSD dla złota. Indeksy giełdowe nie są obsługiwane, więc dla S&P 500 użyj ETF-u, np. SPY (jeśli wpiszesz SPX, podpowiemy go). Potrzebujesz więcej niż 12? Dodaj plugin dwa razy i połącz w mashupie.
+    tempest_weather_station: |-
+      Odczyty z własnej stacji pogodowej Tempest na wyświetlaczu ePapierowym TRMNL. Zaloguj się do konta Tempest, aby dać TRMNL dostęp tylko do odczytu — możemy patrzeć, ale niczego zmieniać — a następnie wybierz stację.
+
+      Pełny ekran pokazuje bieżącą temperaturę, temperaturę odczuwalną i warunki, a także wilgotność, wiatr, opady, UV, wschód i zachód słońca oraz dzisiejsze i jutrzejsze minimum i maksimum. Wybierz Fahrenheit lub Celsjusz, jednostki wiatru takie jak mph, km/h, węzły lub skala Beauforta oraz opady w calach, centymetrach lub milimetrach. Masz więcej niż 1 stację? Dodaj plugin osobno dla każdej i połącz je w mashupie.
+    the_office: |-
+      Losowy cytat z serialu The Office na wyświetlaczu ePapierowym TRMNL, obok rysunku postaci, która go wypowiedziała. Michael, Dwight, Jim i reszta Dunder Mifflin na zmianę trochę urozmaicają dzień pracy.
+
+      Nie ma nic do konfigurowania. Dodaj plugin, opcjonalnie nadaj mu nazwę i zapisz. Cytaty pochodzą z Office API Akasha Rajpurohita.
+    ticktick: |-
+      Twoje zadania TickTick na wyświetlaczu ePapierowym TRMNL. Połącz konto TickTick, a następnie wybierz listę do pokazania albo Inbox. Zadania są wyświetlane z terminami i sortowane według najbliższego terminu, a podzadania pojawiają się z wcięciem pod zadaniem nadrzędnym.
+
+      Wybierz wyrównanie listy do góry, środka lub dołu dostępnego miejsca. TickTick udostępnia innym aplikacjom tylko listy zadań, więc kalendarz, nawyki, Pomodoro i macierz Eisenhowera pozostają w TickTick.
+    todo_list: |-
+      Prosta lista zadań na wyświetlaczu ePapierowym TRMNL. Bez żadnego konta do połączenia. Wpisz to, nad czym pracujesz, w sekcji W trakcie — po 1 pozycji w wierszu — a ukończone elementy możesz dodawać do Zrobione.
+
+      W miarę pracy przenoś pozycje z W trakcie do Zrobione, a ekran będzie pokazywał obie listy: co zostało i co już zrobiono. W każdej pozycji działa Markdown, więc możesz używać pogrubienia, kursywy i podobnego formatowania albo wyłączyć go dla zwykłego tekstu. Obie listy są przechowywane w postaci zaszyfrowanej.
+    todoist: |-
+      Twoje zadania Todoist na wyświetlaczu ePapierowym TRMNL. Połącz konto Todoist, wybierz projekt albo widok Today lub Upcoming, a ekran pokaże zadania wraz z terminami.
+
+      Grupuj zadania według daty, deadline'u, priorytetu lub etykiety i sortuj według nazwy, daty, deadline'u, priorytetu albo własnej kolejności. Filtry mogą ograniczać listę według daty lub deadline'u — od dzisiaj do kolejnych 30 dni — priorytetu, etykiety lub osoby przypisanej do zadania. Znasz zapytania filtrujące Todoist? Włącz tryb niestandardowego zapytania i wpisz własne.
+    unsplash: |-
+      Losowe zdjęcie z Unsplash na wyświetlaczu ePapierowym TRMNL. Wpisz hasło wyszukiwania, np. „space” albo „moon”, a przy każdym odświeżeniu zostanie pobrane nowe pasujące zdjęcie w orientacji poziomej, zditherowane dla ePapierowego i pokazane na całym ekranie.
+
+      To jedyne ustawienie. Wybierz temat, na który lubisz patrzeć, albo dodaj plugin kilka razy z różnymi wyszukiwaniami i pozwól playliście przełączać się między nimi.
+    upcoming_movies: |-
+      Film, na który można czekać, na wyświetlaczu ePapierowym TRMNL. Przy każdym odświeżeniu wybierany jest film i wyświetlany jego tytuł, plakat, data premiery oraz krótkie podsumowanie. Dane filmowe pochodzą z The Movie Database (TMDB).
+
+      Wybierz kraj, aby zobaczyć premiery w swojej okolicy. Następnie wybierz Upcoming dla filmów mających premierę dzisiaj lub później albo Now Playing dla tych już dostępnych. Dobre rozwiązanie, aby rozstrzygnąć „co oglądamy w ten weekend?” zanim zacznie się dyskusja.
+    weather: |-
+      Sprawdź, co dzieje się na zewnątrz, zanim wyjdziesz — bez własnej stacji pogodowej. Wyszukaj miasto lub kod pocztowy albo podaj współrzędne, a wyświetlacz ePapierowy TRMNL pokaże bieżącą temperaturę i warunki, temperaturę odczuwalną, wilgotność oraz dzisiejsze i jutrzejsze maksimum, minimum i UV.
+
+      Wybierasz źródło danych. Tempest korzysta z najbliższej stacji Tempest albo stacji wskazanej na mapie Tempest i na pełnym ekranie dodaje wiatr, opady, wschód i zachód słońca. WeatherAPI jest rozwiązaniem zapasowym tam, gdzie w pobliżu nie ma stacji. Ustaw Fahrenheit lub Celsjusz, wybierz jednostki wiatru i opadów oraz zdecyduj, czy prognozy mają być opisane jako „dziś” i „jutro”, czy rzeczywistymi datami.
+    webhook_image: |-
+      Wysyłaj własne obrazy bezpośrednio na wyświetlacz ePapierowy TRMNL. Dodaj plugin, a otrzymasz prywatny adres webhooka. Wyślij do niego metodą POST plik PNG, JPEG lub WebP ze skryptu, zadania cron albo Home Assistant, a obraz pojawi się na ekranie. Traktuj ten URL jak hasło — każdy, kto go zna, może zmienić zawartość wyświetlacza.
+
+      TRMNL nie przetwarza obrazu, więc wcześniej przygotuj go w rozmiarze urządzenia. Wgrywane pliki są sprawdzane względem rozdzielczości i głębi kolorów Twojego urządzenia albo wybranego modelu; kontrolę można pominąć, jeśli wiesz, że urządzenie sobie poradzi. W mashupie obraz może wypełniać obszar albo być pokazany w całości z kolorem tła wokół. Limit to do 12 przesłań na godzinę.
+    wiki_random_article: |-
+      Wyróżniony artykuł dnia z Wikipedii na wyświetlaczu ePapierowym TRMNL. Otrzymujesz tytuł artykułu i krótkie podsumowanie — każdego dnia nowe. Jednego dnia może to być bitwa, innego chrząszcz.
+
+      Nie ma nic do konfigurowania. Dodaj plugin do playlisty i poznaj coś ciekawego podczas parzenia kawy. Artykuły pochodzą z codziennego kanału wyróżnionych artykułów angielskiej Wikipedii, więc wszyscy widzą tego samego dnia ten sam materiał.
+    withings: |-
+      Twoje dane zdrowotne Withings na wyświetlaczu ePapierowym TRMNL. Zaloguj się przez Withings, aby przyznać TRMNL dostęp tylko do odczytu, a następnie wybierz tryb pasujący do urządzenia. Weight dla wag pokazuje bieżącą masę, procent tkanki tłuszczowej i mięśni oraz zmianę w wybranym okresie wraz z wykresem. Sleep dla Sleep Analyzer pokazuje wynik snu, czas snu i efektywność wraz z wykresem snu głębokiego, REM i lekkiego każdej nocy. Activity dla urządzeń noszonych pokazuje dzisiejszą liczbę kroków względem celu oraz wykres kroków i snu.
+
+      Wybierz zakres 7, 30 lub 90 dni i jednostkę masy: funty, kilogramy albo stone. Pomiary wpisane ręcznie są pomijane.
+    workflowy: |-
+      Twoja lista Workflowy na wyświetlaczu ePapierowym TRMNL. Każdy element jest pokazany wraz z notatką poniżej, w tej samej kolejności co w Workflowy.
+
+      Wklej token API Workflowy, aby się połączyć. Domyślnie zobaczysz listę główną. Chcesz tylko 1 projekt? Dodaj identyfikator jego elementu, a plugin potraktuje go jako poziom główny. Pokaż do 25 elementów i zdecyduj, czy mają być wyświetlane także ukończone — otrzymują znacznik wyboru i przekreślenie.
+    youtube_analytics: |-
+      Statystyki Twojego kanału YouTube na wyświetlaczu ePapierowym TRMNL. Na pierwszym planie znajdują się wyświetlenia i godziny oglądania, a dalej średni czas oglądania, pozyskani subskrybenci, view through rate, polubienia, komentarze i udostępnienia.
+
+      Połącz konto Google będące właścicielem kanału — menedżerowie współdzielonego kanału nie mogą go połączyć — a następnie wybierz zakres 7, 28, 90 lub 365 dni. Prowadzisz więcej niż 1 kanał? Dodaj plugin osobno dla każdego i nazwij je tak, aby łatwo je odróżnić.
+  ai_credit_topups:
+    buy: Dodaj %{amount}
+    hint: Kredyty są ważne przez 3 miesiące. Do płatności doliczana jest opłata serwisowa pokrywająca koszty karty i dostawcy.
+    credit_line_item: Kredyt TRMNL AI
+    fee_line_item: Opłata serwisowa
+    create:
+      unknown_amount: Wybierz jedną z kwot doładowania.
+    new:
+      success: Limit użycia został dodany do Twojego konta.
+      unpaid: Płatność nie została zakończona, więc limit użycia nie został dodany.
+  banners:
+    got_it: Rozumiem
