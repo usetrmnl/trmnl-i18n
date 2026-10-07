@@ -5,8 +5,6 @@ pl:
   actions: Akcje
   add: Dodaj
   add_new: Dodaj nowy
-  ai_assistant: Agent
-  ai_assistant_hint: Włącz obsługę edycji znaczników przez agenta w edytorze wtyczek.
   already_have_account: Mam już konto
   are_you_sure: Czy na pewno?
   back: Wstecz
@@ -186,7 +184,6 @@ pl:
       explore_apps_hint: TRMNL Booking (rezerwacje sal spotkań na miejscu), zarządzanie flotą i więcej.
       manage_themes: Zarządzaj motywami
       plus_subscription_lifetime: Masz dożywotni dostęp do TRMNL+. Dziękujemy za wsparcie!
-      ai_agent_configure: Skonfiguruj model, klucze i użycie
       delete_account: Usuń konto
       delete_account_button: Usuń moje konto i dane
       delete_account_confirm: Spowoduje to trwałe usunięcie wszystkiego i zwrot 1 USD. Kontynuować?
@@ -211,10 +208,10 @@ pl:
           hint: Klucze API, aplikacje deweloperskie, motywy i połączeni agenci
           api_keys:
             one: 1 klucz API
-            other: "Liczba kluczy API: %{count}"
+            other: 'Liczba kluczy API: %{count}'
           connected_agents:
             one: 1 połączony agent
-            other: "Liczba połączonych agentów: %{count}"
+            other: 'Liczba połączonych agentów: %{count}'
         sharing:
           title: Udostępnianie
           hint: Zaproś osoby do zarządzania Twoimi urządzeniami
@@ -291,10 +288,10 @@ pl:
       whole_account: Ma dostęp do całego Twojego konta
       devices:
         one: 1 urządzenie
-        other: "Liczba urządzeń: %{count}"
+        other: 'Liczba urządzeń: %{count}'
       plugin_settings:
         one: 1 ustawienie pluginu
-        other: "Liczba ustawień pluginu: %{count}"
+        other: 'Liczba ustawień pluginu: %{count}'
       edit_access: Edytuj dostęp
       capabilities_fixed: Aby zmienić jego możliwości, cofnij dostęp i połącz go ponownie.
       access_saved: Dostęp agenta został zapisany.
@@ -578,7 +575,7 @@ pl:
       copy_playlist_non_destructive: Żadne istniejące elementy playlisty nie zostaną usunięte.
       target_device: Urządzenie docelowe
     clear_playlist:
-      success: "Playlista urządzenia %{device} została wyczyszczona."
+      success: Playlista urządzenia %{device} została wyczyszczona.
     copy_playlist:
       error_same_device: Urządzenie źródłowe i docelowe muszą być różne.
       success: Playlista została skopiowana z %{source} do %{target}.
@@ -691,8 +688,6 @@ pl:
       click_to_copy: Kliknij, aby skopiować
       close: Zamknij
       code: Kod
-      code_agent: Agent kodu
-      code_agent_disabled_hint: Włącz AI w Ustawieniach konta, aby korzystać z Agenta kodu.
       code_agent_panel: Panel Agenta kodu
       components: Komponenty
       develop_on_github: Rozwijaj na GitHubie
@@ -942,7 +937,6 @@ pl:
     connections:
       one: Połączenie
       other: Połączenia
-    forked: Receptura sforkowana
     new:
       error: Nie znaleziono receptury
     show:
@@ -1304,8 +1298,8 @@ pl:
           none: Brak
           sync_errors: Błędy synchronizacji
           toggle_values:
-            disabled: 'Wyłączone'
-            enabled: 'Włączone'
+            disabled: Wyłączone
+            enabled: Włączone
           unmapped_devices: Urządzenia, które jeszcze niczego nie wyświetlają
           virtual_device: Wirtualne
           undisplayed_calendars: Kalendarze, które nie są jeszcze wyświetlane na żadnym urządzeniu
@@ -1350,7 +1344,7 @@ pl:
           edit_room: Edytuj
           edit_calendar: Edytuj kalendarz
           edited_name: Edytowana nazwa
-          edited_name_yes: 'Tak'
+          edited_name_yes: Tak
           externally_managed: Zarządzane zewnętrznie
           externally_managed_hint: Rezerwacjami steruje połączony kanał iCal. Dodawaj lub zmieniaj wydarzenia w zewnętrznym kalendarzu.
           features: Funkcje
@@ -2120,8 +2114,8 @@ pl:
         next_screen_change: Sprawdzono czas następnej zmiany ekranu
         extended_refresh_rate: Wybrano następny interwał wybudzenia
       values:
-        'yes': 'tak'
-        'no': 'nie'
+        'yes': tak
+        'no': nie
       units:
         days: d
         hours: h
@@ -2319,7 +2313,7 @@ pl:
     connections:
       zero: brak połączeń
       one: 1 połączenie
-      other: "Liczba połączeń: %{count}"
+      other: 'Liczba połączeń: %{count}'
     created: Aplikacja została zarejestrowana.
     deleted: Aplikacja została usunięta. Wszystkie jej połączenia zostały unieważnione.
     delete: Usuń aplikację
@@ -2344,7 +2338,7 @@ pl:
     used: "%{percent}% wykorzystano"
     used_up: Wykorzystano cały limit użycia. __Doładuj go lub dodaj klucz__, aby kontynuować.
     topup_label: Kredyty z doładowania
-    topup_left: "Pozostało %{amount}"
+    topup_left: Pozostało %{amount}
   integration_overviews:
     alias: |-
       Twój własny obraz na wyświetlaczu ePapierowym TRMNL. Alias jest przeznaczony dla osób, które przygotowują ekrany gdzie indziej, np. skryptem na domowym serwerze. Wklej pełny adres URL obrazu, a urządzenie pobierze go bezpośrednio spod tego adresu, więc zadziała również lokalny URL, np. http://localhost:4567/image.png.
