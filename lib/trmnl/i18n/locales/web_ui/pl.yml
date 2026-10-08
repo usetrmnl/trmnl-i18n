@@ -211,10 +211,10 @@ pl:
           hint: Klucze API, aplikacje deweloperskie, motywy i połączeni agenci
           api_keys:
             one: 1 klucz API
-            other: "Liczba kluczy API: %{count}"
+            other: 'Liczba kluczy API: %{count}'
           connected_agents:
             one: 1 połączony agent
-            other: "Liczba połączonych agentów: %{count}"
+            other: 'Liczba połączonych agentów: %{count}'
         sharing:
           title: Udostępnianie
           hint: Zaproś osoby do zarządzania Twoimi urządzeniami
@@ -291,10 +291,10 @@ pl:
       whole_account: Ma dostęp do całego Twojego konta
       devices:
         one: 1 urządzenie
-        other: "Liczba urządzeń: %{count}"
+        other: 'Liczba urządzeń: %{count}'
       plugin_settings:
         one: 1 ustawienie pluginu
-        other: "Liczba ustawień pluginu: %{count}"
+        other: 'Liczba ustawień pluginu: %{count}'
       edit_access: Edytuj dostęp
       capabilities_fixed: Aby zmienić jego możliwości, cofnij dostęp i połącz go ponownie.
       access_saved: Dostęp agenta został zapisany.
@@ -558,6 +558,7 @@ pl:
       sleep_until: Uśpij jednorazowo
       sleep_until_hint: Przy następnym zgłoszeniu urządzenie przejdzie w stan uśpienia do wskazanego czasu. Naciśnij jego przycisk, aby wybudzić je wcześniej. Jeśli jeszcze nie śpi, wyczyść to pole, aby anulować.
       font_set_by_theme: Ustawione przez %{theme}
+      developer_perks_mac_address_needed: Set the real MAC address for this device here
     discover_persona:
       label: Persona i Odkrywaj
       disabled_hint: Wyłączone dla urządzeń TRMNL będących kopiami lustrzanymi. Zamiast tego zarządzaj rekomendacjami na urządzeniu nadrzędnym.
@@ -578,7 +579,7 @@ pl:
       copy_playlist_non_destructive: Żadne istniejące elementy playlisty nie zostaną usunięte.
       target_device: Urządzenie docelowe
     clear_playlist:
-      success: "Playlista urządzenia %{device} została wyczyszczona."
+      success: Playlista urządzenia %{device} została wyczyszczona.
     copy_playlist:
       error_same_device: Urządzenie źródłowe i docelowe muszą być różne.
       success: Playlista została skopiowana z %{source} do %{target}.
@@ -793,6 +794,8 @@ pl:
           heading: Ta playlista jest pusta
           description: Wybierz powyżej Dodaj plugin, aby dodać jeden ze swoich pluginów.
           cta: Szukasz czegoś nowego? Przeglądaj pluginy
+      hold_screen: Hold screen
+      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
     playlist_item:
       adjust_schedule: Dostosuj harmonogram
       delete: Czy na pewno chcesz usunąć ten element? Plugin pozostanie połączony, ale nie będzie wyświetlany na Twoim urządzeniu.
@@ -857,6 +860,11 @@ pl:
       always: Zawsze
       important_title: Ważne
       important_description: Wyświetlane tylko obok innych ważnych ekranów w czasie określonym harmonogramem.
+      date_range:
+        between: "%{start} to %{end}"
+        from: From %{start}
+        until: Until %{end}
+        yearly: Every year, %{start} to %{end}
     bulk_actions:
       hide: Ukryj
       show: Pokaż
@@ -896,9 +904,12 @@ pl:
       recipes_hint: Prywatne pluginy stworzone przez społeczność, które mogą być zainstalowane jednym kliknięciem. __Więcej informacji__.
       view:
         label: Widok pluginów
-        cards: Karty
-        list: Lista
+        cards: View as Cards
+        list: View as List
       third_party_plugin: Plugin zewnętrzny
+      collapse: Collapse
+      categories: Categories
+      discover: Discover
     search:
       placeholder: Szukaj pluginów
     my:
@@ -952,6 +963,7 @@ pl:
       install_again: Zainstaluj ponownie
       installed: Zainstalowano
       open_settings: Otwórz ustawienia
+      fork_this_recipe: Fork this recipe
     added_to_playlist: Dodano do playlisty. Sprawdź ustawienia poniżej.
     check_settings: Zainstalowano. Sprawdź ustawienia poniżej.
   plugin_settings:
@@ -1135,10 +1147,19 @@ pl:
       client_config: Konfiguracja klienta MCP
       client_config_hint_html: Dodaj %{env_var} do pliku %{dotenv_file}. Skopiuj pełny klucz przyciskiem powyżej.
       generate: Wygeneruj klucz MCP
+      whole_account_html: Connect %{url} and sign in. %{guide}.
+      whole_account_guide: How to connect
+      whole_account_summary: Manage your whole account instead
     linked_google_account:
       connected: Połączono konto %{name}. Zdarzenia będą teraz wyświetlane tutaj.
       default_name: Inne konto Google
     preview_updated_just_now: Podgląd zaktualizowano przed chwilą.
+    icon_generation:
+      summary: Draw an icon with AI
+      hint: Describe the icon, or keep the description we wrote from your plugin. Free, and it replaces your current icon.
+      submit: Draw icon
+      generating: Drawing your icon
+      failed: We could not draw an icon. Try again, or change the description.
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -1154,6 +1175,11 @@ pl:
       to: do
       copy_prompt: Kopiuj harmonogram z…
       no_days_error: Wybierz proszę minimum jeden dzień.
+      dates: Dates
+      dates_description: Only show this screen between these dates. Leave a date blank for no start or no end.
+      repeats_yearly: Every year
+      add: Set a custom schedule
+      some_schedule: Show this screen during…
   upgrade:
     index:
       title: 'Aktualizowanie urządzenia:'
@@ -1304,8 +1330,8 @@ pl:
           none: Brak
           sync_errors: Błędy synchronizacji
           toggle_values:
-            disabled: 'Wyłączone'
-            enabled: 'Włączone'
+            disabled: Wyłączone
+            enabled: Włączone
           unmapped_devices: Urządzenia, które jeszcze niczego nie wyświetlają
           virtual_device: Wirtualne
           undisplayed_calendars: Kalendarze, które nie są jeszcze wyświetlane na żadnym urządzeniu
@@ -1328,6 +1354,7 @@ pl:
           show_booking_qr: Pokaż kod QR rezerwacji
           timezone: Strefa czasowa
           timezone_hint: Używana na ekranie urządzenia oraz dla godzin rezerwacji.
+          show_company_logo: Show company logo
         new:
           title: Nowy kalendarz
           description: Dodaj kalendarz do %{app}.
@@ -1350,7 +1377,7 @@ pl:
           edit_room: Edytuj
           edit_calendar: Edytuj kalendarz
           edited_name: Edytowana nazwa
-          edited_name_yes: 'Tak'
+          edited_name_yes: Tak
           externally_managed: Zarządzane zewnętrznie
           externally_managed_hint: Rezerwacjami steruje połączony kanał iCal. Dodawaj lub zmieniaj wydarzenia w zewnętrznym kalendarzu.
           features: Funkcje
@@ -1371,6 +1398,10 @@ pl:
           upcoming: Nadchodzące
           read_only: Tylko do odczytu
           read_only_hint: Połączone konto Google może tylko wyświetlać ten kalendarz. Nadaj mu uprawnienia do zmiany wydarzeń, aby można było przyjmować tutaj rezerwacje.
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
       collections:
         edit:
           back_to_collection: Wróć do kolekcji
@@ -1390,6 +1421,7 @@ pl:
           select_none: Odznacz wszystko
           show_booking_qr: Pokaż kod QR rezerwacji
           type: Typ
+          show_company_logo: Show company logo
         display_layouts:
           grid: Siatka
           list: Lista
@@ -1425,6 +1457,10 @@ pl:
             enabled: Włączone
           type: Typ
           edit_collection: Edytuj kolekcję
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
         screens:
           empty: Skonfiguruj kalendarze do wyświetlania w "Aplikacje > Rezerwacje > Kolekcje" na trmnl.com.
         types:
@@ -1597,7 +1633,7 @@ pl:
           dark_mode_hint: Renderuj ekrany urządzeń w trybie ciemnym — ciemne tło z jasnym tekstem.
           invalid_booking_window: Okno rezerwacji jest nieprawidłowe.
           invalid_time_format: Format czasu jest nieprawidłowy.
-          public_bookings: Rezerwacja z TRMNL
+          public_bookings: Allow booking on the spot
           public_bookings_hint: Pozwól każdemu zarezerwować salę przez zeskanowanie kodu QR. Wymaga kalendarza Google lub Microsoft.
           qr_code_security: Bezpieczeństwo kodu QR
           qr_code_security_hint: Codziennie zmieniaj publiczne adresy URL rezerwacji, aby wygaszać dostęp do kalendarza dla zewnętrznych gości.
@@ -2120,8 +2156,8 @@ pl:
         next_screen_change: Sprawdzono czas następnej zmiany ekranu
         extended_refresh_rate: Wybrano następny interwał wybudzenia
       values:
-        'yes': 'tak'
-        'no': 'nie'
+        'yes': tak
+        'no': nie
       units:
         days: d
         hours: h
@@ -2319,7 +2355,7 @@ pl:
     connections:
       zero: brak połączeń
       one: 1 połączenie
-      other: "Liczba połączeń: %{count}"
+      other: 'Liczba połączeń: %{count}'
     created: Aplikacja została zarejestrowana.
     deleted: Aplikacja została usunięta. Wszystkie jej połączenia zostały unieważnione.
     delete: Usuń aplikację
@@ -2344,7 +2380,7 @@ pl:
     used: "%{percent}% wykorzystano"
     used_up: Wykorzystano cały limit użycia. __Doładuj go lub dodaj klucz__, aby kontynuować.
     topup_label: Kredyty z doładowania
-    topup_left: "Pozostało %{amount}"
+    topup_left: Pozostało %{amount}
   integration_overviews:
     alias: |-
       Twój własny obraz na wyświetlaczu ePapierowym TRMNL. Alias jest przeznaczony dla osób, które przygotowują ekrany gdzie indziej, np. skryptem na domowym serwerze. Wklej pełny adres URL obrazu, a urządzenie pobierze go bezpośrednio spod tego adresu, więc zadziała również lokalny URL, np. http://localhost:4567/image.png.
@@ -2742,3 +2778,6 @@ pl:
       unpaid: Płatność nie została zakończona, więc limit użycia nie został dodany.
   banners:
     got_it: Rozumiem
+  byod_mac_address_banner_component:
+    message: Your TRMNL device needs its real MAC address before it can connect.
+    action: Add MAC address
