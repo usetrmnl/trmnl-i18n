@@ -559,6 +559,7 @@ sl:
       sleep_until: Sleep once
       sleep_until_hint: At its next check-in the device goes to sleep until this time. Press its button to wake it sooner. If it is not asleep yet, clear the field to cancel.
       font_set_by_theme: Set by %{theme}
+      developer_perks_mac_address_needed: Set the real MAC address for this device here
     discover_persona:
       label: Persona in Odkrij
       disabled_hint: Onemogočeno za zrcaljene naprave TRMNL. Priporočila namesto tega upravljajte na glavni napravi.
@@ -793,6 +794,8 @@ sl:
           heading: Ta seznam predvajanja je prazen
           description: Zgoraj izberite Dodaj vtičnik, da dodate enega od svojih vtičnikov.
           cta: Iščete kaj novega? Prebrskaj vtičnike
+      hold_screen: Hold screen
+      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
     playlist_item:
       adjust_schedule: Prilagodi urnik
       delete: Ali ste prepričani, da želite odstraniti ta predmet? Vtičnik bo ostal povezan, le prikazan ne bo več na vaši napravi.
@@ -857,6 +860,11 @@ sl:
       always: Vedno
       important_title: Pomembno
       important_description: Prikazano samo ob drugih pomembnih zaslonih med njegovim urnikom.
+      date_range:
+        between: "%{start} to %{end}"
+        from: From %{start}
+        until: Until %{end}
+        yearly: Every year, %{start} to %{end}
       custom:
         two: Po meri (%{count} okni)
         few: Po meri (%{count} okna)
@@ -899,9 +907,12 @@ sl:
       recipes_hint: Zasebni vtičniki članov skupnosti, ki jih lahko namestite z enim klikom. __Preberite več__.
       view:
         label: Plugin view
-        cards: Cards
-        list: List
+        cards: View as Cards
+        list: View as List
       third_party_plugin: Third Party Plugin
+      collapse: Collapse
+      categories: Categories
+      discover: Discover
     search:
       placeholder: Iskanje vtičnikov
     my:
@@ -956,6 +967,7 @@ sl:
       install_again: Install again
       installed: Installed
       open_settings: Open settings
+      fork_this_recipe: Fork this recipe
     added_to_playlist: Added to your playlist. Check the settings below.
     check_settings: Installed. Check the settings below.
   plugin_settings:
@@ -1141,10 +1153,19 @@ sl:
       client_config: MCP client config
       client_config_hint_html: Add %{env_var} to your %{dotenv_file} file. Copy full key with the button above.
       generate: Generate MCP Key
+      whole_account_html: Connect %{url} and sign in. %{guide}.
+      whole_account_guide: How to connect
+      whole_account_summary: Manage your whole account instead
     linked_google_account:
       connected: Connected %{name}. Its events now show here.
       default_name: Another Google account
     preview_updated_just_now: Updated just now.
+    icon_generation:
+      summary: Draw an icon with AI
+      hint: Describe the icon, or keep the description we wrote from your plugin. Free, and it replaces your current icon.
+      submit: Draw icon
+      generating: Drawing your icon
+      failed: We could not draw an icon. Try again, or change the description.
   recipes:
     index:
       newest_to_oldest: Od najnovejših do najstarejših
@@ -1160,6 +1181,11 @@ sl:
       to: do
       copy_prompt: Kopiraj urnik iz …
       no_days_error: Izberite vsaj en dan.
+      dates: Dates
+      dates_description: Only show this screen between these dates. Leave a date blank for no start or no end.
+      repeats_yearly: Every year
+      add: Set a custom schedule
+      some_schedule: Show this screen during…
   upgrade:
     index:
       title: 'Nadgradnja naprave:'
@@ -1342,6 +1368,7 @@ sl:
           show_booking_qr: Prikaži QR kodo za rezervacijo
           timezone: Časovni pas
           timezone_hint: Uporablja se za zaslon naprave in čase rezervacij.
+          show_company_logo: Show company logo
         new:
           title: Nov koledar
           description: Dodaj koledar v %{app}.
@@ -1385,6 +1412,10 @@ sl:
           upcoming: Prihajajoče
           read_only: Read only
           read_only_hint: The connected Google account can only view this calendar. Give it permission to make changes to events to take bookings here.
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
       collections:
         edit:
           back_to_collection: Nazaj na zbirko
@@ -1404,6 +1435,7 @@ sl:
           select_none: Ne izberi ničesar
           show_booking_qr: Prikaži QR kodo za rezervacijo
           type: Vrsta
+          show_company_logo: Show company logo
         display_layouts:
           grid: Mreža
           list: Seznam
@@ -1441,6 +1473,10 @@ sl:
             enabled: Omogočeno
           type: Vrsta
           edit_collection: Uredi zbirko
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
         screens:
           empty: Nastavite, kateri koledarji naj se prikažejo pod »Aplikacije > Rezervacije > Zbirke« na trmnl.com.
         types:
@@ -1613,7 +1649,7 @@ sl:
           dark_mode_hint: Izriši zaslone naprave v temnem načinu — temno ozadje s svetlim besedilom.
           invalid_booking_window: Okno rezervacij ni veljavno.
           invalid_time_format: Oblika časa ni veljavna.
-          public_bookings: Booking with TRMNL
+          public_bookings: Allow booking on the spot
           public_bookings_hint: Omogočite komur koli rezervacijo sobe s skeniranjem QR kode. Zahteva koledar Google ali Microsoft.
           qr_code_security: Varnost QR kode
           qr_code_security_hint: Dnevno zamenjajte javne URL-je za rezervacije, da poteče dostop do koledarja za zunanje obiskovalce.
@@ -2766,6 +2802,9 @@ sl:
       unpaid: The payment did not complete, so we added no usage credits.
   banners:
     got_it: Got it
+  byod_mac_address_banner_component:
+    message: Your TRMNL device needs its real MAC address before it can connect.
+    action: Add MAC address
   activity_logs:
     index:
       day_events:

@@ -533,6 +533,7 @@ raw:
       sleep_until: devices.edit.sleep_until
       sleep_until_hint: devices.edit.sleep_until_hint
       font_set_by_theme: devices.edit.font_set_by_theme
+      developer_perks_mac_address_needed: devices.edit.developer_perks_mac_address_needed
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -766,6 +767,8 @@ raw:
           heading: playlist_items.index.empty.no_items.heading
           description: playlist_items.index.empty.no_items.description
           cta: playlist_items.index.empty.no_items.cta
+      hold_screen: playlist_items.index.hold_screen
+      hold_screen_hint: playlist_items.index.hold_screen_hint
     playlist_item:
       adjust_schedule: playlist_items.playlist_item.adjust_schedule
       delete: playlists.playlist.delete
@@ -830,6 +833,11 @@ raw:
       always: playlist_items.schedule.always
       important_title: playlist_items.schedule.important_title
       important_description: playlist_items.schedule.important_description
+      date_range:
+        between: playlist_items.schedule.date_range.between
+        from: playlist_items.schedule.date_range.from
+        until: playlist_items.schedule.date_range.until
+        yearly: playlist_items.schedule.date_range.yearly
     bulk_actions:
       hide: playlist_items.bulk_actions.hide
       show: playlist_items.bulk_actions.show
@@ -872,6 +880,9 @@ raw:
         cards: plugins.index.view.cards
         list: plugins.index.view.list
       third_party_plugin: plugins.index.third_party_plugin
+      collapse: plugins.index.collapse
+      categories: plugins.index.categories
+      discover: plugins.index.discover
     search:
       placeholder: plugins.search.placeholder
     my:
@@ -924,6 +935,7 @@ raw:
       install_again: plugin_recipes.show.install_again
       installed: plugin_recipes.show.installed
       open_settings: plugin_recipes.show.open_settings
+      fork_this_recipe: plugin_recipes.show.fork_this_recipe
     added_to_playlist: plugin_recipes.added_to_playlist
     check_settings: plugin_recipes.check_settings
   plugin_settings:
@@ -1107,10 +1119,19 @@ raw:
       client_config: plugin_settings.mcp_key.client_config
       client_config_hint_html: plugin_settings.mcp_key.client_config_hint_html
       generate: plugin_settings.mcp_key.generate
+      whole_account_html: plugin_settings.mcp_key.whole_account_html
+      whole_account_guide: plugin_settings.mcp_key.whole_account_guide
+      whole_account_summary: plugin_settings.mcp_key.whole_account_summary
     linked_google_account:
       connected: plugin_settings.linked_google_account.connected
       default_name: plugin_settings.linked_google_account.default_name
     preview_updated_just_now: plugin_settings.preview_updated_just_now
+    icon_generation:
+      summary: plugin_settings.icon_generation.summary
+      hint: plugin_settings.icon_generation.hint
+      submit: plugin_settings.icon_generation.submit
+      generating: plugin_settings.icon_generation.generating
+      failed: plugin_settings.icon_generation.failed
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -1126,6 +1147,11 @@ raw:
       to: schedules.form.to
       copy_prompt: schedules.form.copy_prompt
       no_days_error: schedules.form.no_days_error
+      dates: schedules.form.dates
+      dates_description: schedules.form.dates_description
+      repeats_yearly: schedules.form.repeats_yearly
+      add: schedules.form.add
+      some_schedule: schedules.form.some_schedule
   upgrade:
     index:
       title: upgrade.index.title
@@ -1300,6 +1326,7 @@ raw:
           show_booking_qr: apps.room_booking.calendars.form.show_booking_qr
           timezone: apps.room_booking.calendars.form.timezone
           timezone_hint: apps.room_booking.calendars.form.timezone_hint
+          show_company_logo: apps.room_booking.calendars.form.show_company_logo
         new:
           title: apps.room_booking.calendars.new.title
           description: apps.room_booking.calendars.new.description
@@ -1343,6 +1370,10 @@ raw:
           upcoming: apps.room_booking.calendars.show.upcoming
           read_only: apps.room_booking.calendars.show.read_only
           read_only_hint: apps.room_booking.calendars.show.read_only_hint
+          company_logo: apps.room_booking.calendars.show.company_logo
+          company_logo_values:
+            disabled: apps.room_booking.calendars.show.company_logo_values.disabled
+            enabled: apps.room_booking.calendars.show.company_logo_values.enabled
       collections:
         edit:
           back_to_collection: apps.room_booking.collections.edit.back_to_collection
@@ -1362,6 +1393,7 @@ raw:
           select_none: apps.room_booking.collections.form.select_none
           show_booking_qr: apps.room_booking.collections.form.show_booking_qr
           type: apps.room_booking.collections.form.type
+          show_company_logo: apps.room_booking.collections.form.show_company_logo
         display_layouts:
           grid: apps.room_booking.collections.display_layouts.grid
           list: apps.room_booking.collections.display_layouts.list
@@ -1397,6 +1429,10 @@ raw:
             enabled: apps.room_booking.collections.show.show_booking_qr_values.enabled
           type: apps.room_booking.collections.show.type
           edit_collection: apps.room_booking.collections.show.edit_collection
+          company_logo: apps.room_booking.collections.show.company_logo
+          company_logo_values:
+            disabled: apps.room_booking.collections.show.company_logo_values.disabled
+            enabled: apps.room_booking.collections.show.company_logo_values.enabled
         screens:
           empty: apps.room_booking.collections.screens.empty
         types:
@@ -2424,3 +2460,6 @@ raw:
       unpaid: ai_credit_topups.new.unpaid
   banners:
     got_it: banners.got_it
+  byod_mac_address_banner_component:
+    message: byod_mac_address_banner_component.message
+    action: byod_mac_address_banner_component.action

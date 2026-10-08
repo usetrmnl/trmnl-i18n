@@ -533,6 +533,7 @@ de:
       sleep_until: Sleep once
       sleep_until_hint: At its next check-in the device goes to sleep until this time. Press its button to wake it sooner. If it is not asleep yet, clear the field to cancel.
       font_set_by_theme: Set by %{theme}
+      developer_perks_mac_address_needed: Set the real MAC address for this device here
     discover_persona:
       label: Persona & Discover
       disabled_hint: Deaktiviert für gespiegelte TRMNLs. Verwalte Empfehlungen stattdessen auf dem Hauptgerät.
@@ -765,6 +766,8 @@ de:
           heading: Diese Wiedergabeliste ist leer
           description: Wähle oben "Erweiterung hinzufügen", um eine deiner Erweiterungen hinzuzufügen.
           cta: Auf der Suche nach etwas Neuem? Erweiterungen durchsuchen
+      hold_screen: Hold screen
+      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
     playlist_item:
       adjust_schedule: Zeitplan anpassen
       delete: Soll dieser Eintrag wirklich entfernt werden? Die Erweiterung bleibt weiterhin verbunden, wird lediglich nicht auf dem Gerät angezeigt.
@@ -829,6 +832,11 @@ de:
       always: Immer
       important_title: Wichtig
       important_description: Wird während seines Zeitplans nur zusammen mit anderen wichtigen Bildschirmen gezeigt.
+      date_range:
+        between: "%{start} to %{end}"
+        from: From %{start}
+        until: Until %{end}
+        yearly: Every year, %{start} to %{end}
     bulk_actions:
       hide: Ausblenden
       show: Anzeigen
@@ -868,9 +876,12 @@ de:
       recipes_hint: Private Erweiterungen aus der Community können mit einem Klick installiert werden. __Mehr erfahren__
       view:
         label: Plugin view
-        cards: Cards
-        list: List
+        cards: View as Cards
+        list: View as List
       third_party_plugin: Third Party Plugin
+      collapse: Collapse
+      categories: Categories
+      discover: Discover
     search:
       placeholder: Erweiterungen suchen
     my:
@@ -923,6 +934,7 @@ de:
       install_again: Install again
       installed: Installed
       open_settings: Open settings
+      fork_this_recipe: Fork this recipe
     added_to_playlist: Added to your playlist. Check the settings below.
     check_settings: Installed. Check the settings below.
   plugin_settings:
@@ -1106,10 +1118,19 @@ de:
       client_config: MCP-Client-Konfiguration
       client_config_hint_html: Füge %{env_var} zu deiner %{dotenv_file}-Datei hinzu. Kopiere den vollständigen Schlüssel über die Schaltfläche oben.
       generate: MCP-Schlüssel generieren
+      whole_account_html: Connect %{url} and sign in. %{guide}.
+      whole_account_guide: How to connect
+      whole_account_summary: Manage your whole account instead
     linked_google_account:
       connected: Connected %{name}. Its events now show here.
       default_name: Another Google account
     preview_updated_just_now: Updated just now.
+    icon_generation:
+      summary: Draw an icon with AI
+      hint: Describe the icon, or keep the description we wrote from your plugin. Free, and it replaces your current icon.
+      submit: Draw icon
+      generating: Drawing your icon
+      failed: We could not draw an icon. Try again, or change the description.
   recipes:
     index:
       newest_to_oldest: Neueste zuerst
@@ -1125,6 +1146,11 @@ de:
       to: bis
       copy_prompt: Zeitplan kopieren von …
       no_days_error: Bitte mindestens einen Wochentag auswählen.
+      dates: Dates
+      dates_description: Only show this screen between these dates. Leave a date blank for no start or no end.
+      repeats_yearly: Every year
+      add: Set a custom schedule
+      some_schedule: Show this screen during…
   upgrade:
     index:
       title: 'Gerät wird aktualisiert:'
@@ -1299,6 +1325,7 @@ de:
           show_booking_qr: Buchungs-QR-Code anzeigen
           timezone: Zeitzone
           timezone_hint: Wird für den Gerätebildschirm und die Buchungszeiten verwendet.
+          show_company_logo: Show company logo
         new:
           title: Neuer Kalender
           description: Füge %{app} einen Kalender hinzu.
@@ -1342,6 +1369,10 @@ de:
           upcoming: Anstehend
           read_only: Read only
           read_only_hint: The connected Google account can only view this calendar. Give it permission to make changes to events to take bookings here.
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
       collections:
         edit:
           back_to_collection: Zurück zur Sammlung
@@ -1361,6 +1392,7 @@ de:
           select_none: Auswahl aufheben
           show_booking_qr: Buchungs-QR-Code anzeigen
           type: Typ
+          show_company_logo: Show company logo
         display_layouts:
           grid: Raster
           list: Liste
@@ -1396,6 +1428,10 @@ de:
             enabled: Aktiviert
           type: Typ
           edit_collection: Sammlung bearbeiten
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
         screens:
           empty: Lege unter "Apps > Buchungen > Sammlungen" auf trmnl.com fest, welche Kalender angezeigt werden.
         types:
@@ -1568,7 +1604,7 @@ de:
           dark_mode_hint: Rendert Gerätebildschirme im Dunkelmodus — dunkler Hintergrund mit heller Schrift.
           invalid_booking_window: Buchungszeitraum ist ungültig.
           invalid_time_format: Zeitformat ist ungültig.
-          public_bookings: Booking with TRMNL
+          public_bookings: Allow booking on the spot
           public_bookings_hint: Lass jeden per QR-Code-Scan einen Raum buchen. Erfordert einen Google- oder Microsoft-Kalender.
           qr_code_security: QR-Code-Sicherheit
           qr_code_security_hint: Wechsle öffentliche Buchungs-URLs täglich, damit der Kalenderzugriff für externe Besucher abläuft.
@@ -2713,3 +2749,6 @@ de:
       unpaid: The payment did not complete, so we added no usage credits.
   banners:
     got_it: Got it
+  byod_mac_address_banner_component:
+    message: Your TRMNL device needs its real MAC address before it can connect.
+    action: Add MAC address

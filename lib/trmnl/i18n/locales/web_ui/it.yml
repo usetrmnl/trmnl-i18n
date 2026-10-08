@@ -533,6 +533,7 @@ it:
       sleep_until: Sleep once
       sleep_until_hint: At its next check-in the device goes to sleep until this time. Press its button to wake it sooner. If it is not asleep yet, clear the field to cancel.
       font_set_by_theme: Set by %{theme}
+      developer_perks_mac_address_needed: Set the real MAC address for this device here
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -766,6 +767,8 @@ it:
           heading: This playlist is empty
           description: Select Add Plugin above to add one of your plugins.
           cta: Looking for something new? Browse Plugins
+      hold_screen: Hold screen
+      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
     playlist_item:
       adjust_schedule: Gestisci programmazione
       delete: Vuoi davvero rimuovere questo elemento? Il plugin resterà connesso, ma non sarà visibile sul tuo dispositivo.
@@ -830,6 +833,11 @@ it:
       always: Always
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
+      date_range:
+        between: "%{start} to %{end}"
+        from: From %{start}
+        until: Until %{end}
+        yearly: Every year, %{start} to %{end}
     bulk_actions:
       hide: Hide
       show: Show
@@ -869,9 +877,12 @@ it:
       recipes_hint: Plugin privati dai membri della comunità possono essere installati in 1 click. __Scopri di più__.
       view:
         label: Plugin view
-        cards: Cards
-        list: List
+        cards: View as Cards
+        list: View as List
       third_party_plugin: Third Party Plugin
+      collapse: Collapse
+      categories: Categories
+      discover: Discover
     search:
       placeholder: Cerca Plugin
     my:
@@ -924,6 +935,7 @@ it:
       install_again: Install again
       installed: Installed
       open_settings: Open settings
+      fork_this_recipe: Fork this recipe
     added_to_playlist: Added to your playlist. Check the settings below.
     check_settings: Installed. Check the settings below.
   plugin_settings:
@@ -1107,10 +1119,19 @@ it:
       client_config: MCP client config
       client_config_hint_html: Add %{env_var} to your %{dotenv_file} file. Copy full key with the button above.
       generate: Generate MCP Key
+      whole_account_html: Connect %{url} and sign in. %{guide}.
+      whole_account_guide: How to connect
+      whole_account_summary: Manage your whole account instead
     linked_google_account:
       connected: Connected %{name}. Its events now show here.
       default_name: Another Google account
     preview_updated_just_now: Updated just now.
+    icon_generation:
+      summary: Draw an icon with AI
+      hint: Describe the icon, or keep the description we wrote from your plugin. Free, and it replaces your current icon.
+      submit: Draw icon
+      generating: Drawing your icon
+      failed: We could not draw an icon. Try again, or change the description.
   recipes:
     index:
       newest_to_oldest: Dal più recente
@@ -1126,6 +1147,11 @@ it:
       to: alle
       copy_prompt: Copia programmazione da…
       no_days_error: Please select at least one day.
+      dates: Dates
+      dates_description: Only show this screen between these dates. Leave a date blank for no start or no end.
+      repeats_yearly: Every year
+      add: Set a custom schedule
+      some_schedule: Show this screen during…
   upgrade:
     index:
       title: 'Aggiorna dispositivo:'
@@ -1300,6 +1326,7 @@ it:
           show_booking_qr: Show booking QR code
           timezone: Time Zone
           timezone_hint: Used for the device screen and booking times.
+          show_company_logo: Show company logo
         new:
           title: New Calendar
           description: Add a calendar to %{app}.
@@ -1343,6 +1370,10 @@ it:
           upcoming: Upcoming
           read_only: Read only
           read_only_hint: The connected Google account can only view this calendar. Give it permission to make changes to events to take bookings here.
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
       collections:
         edit:
           back_to_collection: Back to Collection
@@ -1362,6 +1393,7 @@ it:
           select_none: Select none
           show_booking_qr: Show booking QR code
           type: Type
+          show_company_logo: Show company logo
         display_layouts:
           grid: Grid
           list: List
@@ -1397,6 +1429,10 @@ it:
             enabled: Enabled
           type: Type
           edit_collection: Edit Collection
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
         screens:
           empty: Configure which calendars to display under "Apps > Booking > Collections" on trmnl.com.
         types:
@@ -1569,7 +1605,7 @@ it:
           dark_mode_hint: Render device screens in dark mode — a dark canvas with light text.
           invalid_booking_window: Booking window is invalid.
           invalid_time_format: Time format is invalid.
-          public_bookings: Booking with TRMNL
+          public_bookings: Allow booking on the spot
           public_bookings_hint: Let anyone book a room by scanning a QR code. Requires Google or Microsoft calendar.
           qr_code_security: QR Code Security
           qr_code_security_hint: Rotate public booking URLs daily to expire calendar access for outside visitors.
@@ -2714,3 +2750,6 @@ it:
       unpaid: The payment did not complete, so we added no usage credits.
   banners:
     got_it: Got it
+  byod_mac_address_banner_component:
+    message: Your TRMNL device needs its real MAC address before it can connect.
+    action: Add MAC address
