@@ -5,8 +5,6 @@ raw:
   actions: actions
   add: add
   add_new: add_new
-  ai_assistant: ai_assistant
-  ai_assistant_hint: ai_assistant_hint
   already_have_account: already_have_account
   are_you_sure: are_you_sure
   back: back
@@ -164,7 +162,6 @@ raw:
       explore_apps_hint: account.index.explore_apps_hint
       manage_themes: account.index.manage_themes
       plus_subscription_lifetime: account.index.plus_subscription_lifetime
-      ai_agent_configure: account.index.ai_agent_configure
       delete_account: account.index.delete_account
       delete_account_button: account.index.delete_account_button
       delete_account_confirm: account.index.delete_account_confirm
@@ -669,8 +666,6 @@ raw:
       click_to_copy: markups.visual_editor.click_to_copy
       close: markups.visual_editor.close
       code: markups.visual_editor.code
-      code_agent: markups.visual_editor.code_agent
-      code_agent_disabled_hint: markups.visual_editor.code_agent_disabled_hint
       code_agent_panel: markups.visual_editor.code_agent_panel
       components: markups.visual_editor.components
       develop_on_github: markups.visual_editor.develop_on_github
@@ -920,7 +915,6 @@ raw:
     connections:
       one: plugin_recipes.connections.one
       other: plugin_recipes.connections.many
-    forked: plugin_recipes.forked
     new:
       error: plugin_recipes.new.error
     show:
