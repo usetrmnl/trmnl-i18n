@@ -268,6 +268,7 @@ pl:
       credit_plus_hint: __Subskrybuj TRMNL+__, aby co miesiąc otrzymywać bezpłatne limity użycia.
       byok_title: Użyj własnego klucza
       byok_hint: Dodaj własny klucz, aby wybrać dowolny model. Agent będzie wtedy używał Twojego klucza zamiast limitu użycia.
+      model_hosted: Add an OpenRouter or Anthropic key above to choose another model.
     shared_accounts:
       title: Konta udostępnione Tobie
       hint: Wybierz konto, aby zarządzać jego urządzeniami, playlistami i pluginami, albo je opuść.
@@ -1152,6 +1153,10 @@ pl:
       submit: Draw icon
       generating: Drawing your icon
       failed: We could not draw an icon. Try again, or change the description.
+    remixes:
+      name: "%{name} Remix"
+      create:
+        success: Your %{plugin} data is under {{ %{keyname} }}.
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -1792,6 +1797,7 @@ pl:
       1Tx2B: Duża sekcja u góry, dwie na dole
       2Tx1B: Dwie sekcje u góry, duża na dole
       2x2: Cztery sekcje
+      3x3: Custom grid
   playlist_coverage:
     title: Pokrycie playlisty
     your_timezone: Twoja strefa czasowa
@@ -2312,6 +2318,8 @@ pl:
         prompt: "%{client_name} chce używać Twojego konta TRMNL."
         able_to: 'Będzie mogła:'
         returns_to: Po dokonaniu wyboru wrócisz do %{host}.
+        document_prompt: "“%{client_name}” from %{host} wants to use your TRMNL account."
+        unverified_prompt: An app that calls itself “%{client_name}” wants to use your TRMNL account. TRMNL has not verified this app.
       buttons:
         authorize: Zezwól
         deny: Nie zezwalaj
@@ -2771,3 +2779,5 @@ pl:
   byod_mac_address_banner_component:
     message: Your TRMNL device needs its real MAC address before it can connect.
     action: Add MAC address
+  integration_page:
+    use_recipe: Use the community recipe

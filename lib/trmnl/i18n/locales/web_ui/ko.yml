@@ -246,6 +246,7 @@ ko:
       credit_plus_hint: __Subscribe to TRMNL+__ for free usage credits every month.
       byok_title: Bring your own key
       byok_hint: Add a key of your own to pick any model. The Agent then uses your key, not usage credits.
+      model_hosted: Add an OpenRouter or Anthropic key above to choose another model.
     shared_accounts:
       title: Accounts shared with you
       hint: Pick an account to manage its devices, playlists and plugins, or leave it.
@@ -1130,6 +1131,10 @@ ko:
       submit: Draw icon
       generating: Drawing your icon
       failed: We could not draw an icon. Try again, or change the description.
+    remixes:
+      name: "%{name} Remix"
+      create:
+        success: Your %{plugin} data is under {{ %{keyname} }}.
   recipes:
     index:
       newest_to_oldest: 최신순
@@ -1770,6 +1775,7 @@ ko:
       1Tx2B: Large top, two bottom
       2Tx1B: Two top, large bottom
       2x2: Four sections
+      3x3: Custom grid
   playlist_coverage:
     title: Playlist coverage
     your_timezone: your timezone
@@ -2290,6 +2296,8 @@ ko:
         prompt: "%{client_name} wants to use your TRMNL account."
         able_to: 'It will be able to:'
         returns_to: You return to %{host} after you choose.
+        document_prompt: "“%{client_name}” from %{host} wants to use your TRMNL account."
+        unverified_prompt: An app that calls itself “%{client_name}” wants to use your TRMNL account. TRMNL has not verified this app.
       buttons:
         authorize: Allow
         deny: Don't allow
@@ -2749,3 +2757,5 @@ ko:
   byod_mac_address_banner_component:
     message: Your TRMNL device needs its real MAC address before it can connect.
     action: Add MAC address
+  integration_page:
+    use_recipe: Use the community recipe
