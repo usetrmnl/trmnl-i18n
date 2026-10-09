@@ -246,6 +246,7 @@ raw:
       credit_plus_hint: account.ai_agent_settings.credit_plus_hint
       byok_title: account.ai_agent_settings.byok_title
       byok_hint: account.ai_agent_settings.byok_hint
+      model_hosted: account.ai_agent_settings.model_hosted
     shared_accounts:
       title: account.shared_accounts.title
       hint: account.shared_accounts.hint
@@ -1130,6 +1131,10 @@ raw:
       submit: plugin_settings.icon_generation.submit
       generating: plugin_settings.icon_generation.generating
       failed: plugin_settings.icon_generation.failed
+    remixes:
+      name: plugin_settings.remixes.name
+      create:
+        success: plugin_settings.remixes.create.success
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -1768,6 +1773,7 @@ raw:
       1Tx2B: mashups.presets.1Tx2B
       2Tx1B: mashups.presets.2Tx1B
       2x2: mashups.presets.2x2
+      3x3: mashups.presets.3x3
   playlist_coverage:
     title: playlist_coverage.title
     your_timezone: playlist_coverage.your_timezone
@@ -2288,6 +2294,8 @@ raw:
         prompt: doorkeeper.authorizations.new.prompt
         able_to: doorkeeper.authorizations.new.able_to
         returns_to: doorkeeper.authorizations.new.returns_to
+        document_prompt: doorkeeper.authorizations.new.document_prompt
+        unverified_prompt: doorkeeper.authorizations.new.unverified_prompt
       buttons:
         authorize: doorkeeper.authorizations.buttons.authorize
         deny: doorkeeper.authorizations.buttons.deny
@@ -2459,3 +2467,5 @@ raw:
   byod_mac_address_banner_component:
     message: byod_mac_address_banner_component.message
     action: byod_mac_address_banner_component.action
+  integration_page:
+    use_recipe: integration_page.use_recipe
