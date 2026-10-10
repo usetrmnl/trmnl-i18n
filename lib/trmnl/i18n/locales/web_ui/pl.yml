@@ -609,6 +609,9 @@ pl:
       error: Błąd podczas aktualizacji urządzenia
       success: Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane
     add_device_first: Najpierw dodaj urządzenie
+    image_too_big:
+      message: Your device rejected a %{size} image; this model accepts up to %{limit}.
+      message_without_limit: Your device rejected a %{size} image as too big.
   discovery:
     dashboard_action:
       saved:
@@ -1156,7 +1159,7 @@ pl:
     remixes:
       name: "%{name} Remix"
       create:
-        success: Your %{plugin} data is under {{ %{keyname} }}.
+        success: "%{plugin} data is now {{ %{keyname} }}."
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -2250,6 +2253,7 @@ pl:
         not_jit_schedulable: Odświeża się według własnego harmonogramu
         violates_minimum: Oczekiwanie na upłynięcie minimalnego interwału odświeżania
         external_image: Pominięto — obraz jest do niego wysyłany, nic go nie renderuje
+        before_daily_slot: Waiting — the daily refresh renders before its first display after 00:15
       render_statuses:
         ok: Wyrenderowano
         error: Renderowanie nie powiodło się
