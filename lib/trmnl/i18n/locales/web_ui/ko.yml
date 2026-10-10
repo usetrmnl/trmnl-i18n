@@ -587,6 +587,9 @@ ko:
       error: 기기 업데이트 오류
       success: "%{device} 기기 설정을 업데이트했어요"
     add_device_first: Add a device first
+    image_too_big:
+      message: Your device rejected a %{size} image; this model accepts up to %{limit}.
+      message_without_limit: Your device rejected a %{size} image as too big.
   discovery:
     dashboard_action:
       saved:
@@ -1134,7 +1137,7 @@ ko:
     remixes:
       name: "%{name} Remix"
       create:
-        success: Your %{plugin} data is under {{ %{keyname} }}.
+        success: "%{plugin} data is now {{ %{keyname} }}."
   recipes:
     index:
       newest_to_oldest: 최신순
@@ -2228,6 +2231,7 @@ ko:
         not_jit_schedulable: Refreshes on its own schedule
         violates_minimum: Waiting out its minimum refresh interval
         external_image: Skipped — the image is sent to it, nothing renders it
+        before_daily_slot: Waiting — the daily refresh renders before its first display after 00:15
       render_statuses:
         ok: Rendered
         error: Render failed

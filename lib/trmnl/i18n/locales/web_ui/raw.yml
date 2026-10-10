@@ -587,6 +587,9 @@ raw:
       error: devices.update.error
       success: devices.update.success
     add_device_first: devices.add_device_first
+    image_too_big:
+      message: devices.image_too_big.message
+      message_without_limit: devices.image_too_big.message_without_limit
   discovery:
     dashboard_action:
       saved:
@@ -2226,6 +2229,7 @@ raw:
         not_jit_schedulable: timelines.activity.schedule_reasons.not_jit_schedulable
         violates_minimum: timelines.activity.schedule_reasons.violates_minimum
         external_image: timelines.activity.schedule_reasons.external_image
+        before_daily_slot: timelines.activity.schedule_reasons.before_daily_slot
       render_statuses:
         ok: timelines.activity.render_statuses.ok
         error: timelines.activity.render_statuses.error
