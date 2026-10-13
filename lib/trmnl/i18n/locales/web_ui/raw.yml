@@ -586,7 +586,11 @@ raw:
     update:
       error: devices.update.error
       success: devices.update.success
+      choose_palette: devices.update.choose_palette
     add_device_first: devices.add_device_first
+    image_too_big:
+      message: devices.image_too_big.message
+      message_without_limit: devices.image_too_big.message_without_limit
   discovery:
     dashboard_action:
       saved:
@@ -1170,6 +1174,8 @@ raw:
       plugin_uninstall_feedback:
         one: activerecord.models.plugin_uninstall_feedback.one
         other: activerecord.models.plugin_uninstall_feedback.other
+      apps/chess/app: activerecord.models.apps/chess/app
+      apps/preload/app: activerecord.models.apps/preload/app
     attributes:
       plugin_setting:
         ai_coauthored: activerecord.attributes.plugin_setting.ai_coauthored
@@ -1738,6 +1744,163 @@ raw:
         footer: apps.fleet.digest.footer
     bookings:
       read_only_booking_error: apps.bookings.read_only_booking_error
+    chess:
+      tagline: apps.chess.tagline
+      back_to_matches: apps.chess.back_to_matches
+      back_to_apps: apps.chess.back_to_apps
+      open_link: apps.chess.open_link
+      seat_name: apps.chess.seat_name
+      status:
+        lobby:
+          one: apps.chess.status.lobby.one
+          other: apps.chess.status.lobby.other
+        to_move: apps.chess.status.to_move
+      result:
+        win: apps.chess.result.win
+        draw: apps.chess.result.draw
+      reasons:
+        checkmate: apps.chess.reasons.checkmate
+        resignation: apps.chess.reasons.resignation
+        stalemate: apps.chess.reasons.stalemate
+        threefold_repetition: apps.chess.reasons.threefold_repetition
+        insufficient_material: apps.chess.reasons.insufficient_material
+        fifty_move_rule: apps.chess.reasons.fifty_move_rule
+        ended: apps.chess.reasons.ended
+      uninstall:
+        heading: apps.chess.uninstall.heading
+        explainer: apps.chess.uninstall.explainer
+        confirm: apps.chess.uninstall.confirm
+      matches:
+        index:
+          new: apps.chess.matches.index.new
+          empty: apps.chess.matches.index.empty
+          your_move: apps.chess.matches.index.your_move
+        title:
+          open_seat: apps.chess.matches.title.open_seat
+          no_players: apps.chess.matches.title.no_players
+        new:
+          title: apps.chess.matches.new.title
+          side: apps.chess.matches.new.side
+          opponent: apps.chess.matches.new.opponent
+          level: apps.chess.matches.new.level
+          opponents:
+            friend: apps.chess.matches.new.opponents.friend
+            computer: apps.chess.matches.new.opponents.computer
+          submit: apps.chess.matches.new.submit
+          sides:
+            white: apps.chess.matches.new.sides.white
+            black: apps.chess.matches.new.sides.black
+            host: apps.chess.matches.new.sides.host
+          hints:
+            white: apps.chess.matches.new.hints.white
+            black: apps.chess.matches.new.hints.black
+            host: apps.chess.matches.new.hints.host
+        show:
+          open_board: apps.chess.matches.show.open_board
+          invite: apps.chess.matches.show.invite
+          invite_hint: apps.chess.matches.show.invite_hint
+          players: apps.chess.matches.show.players
+          open_seat: apps.chess.matches.show.open_seat
+          reissue: apps.chess.matches.show.reissue
+          reissue_confirm: apps.chess.matches.show.reissue_confirm
+          guest_link: apps.chess.matches.show.guest_link
+          guest_link_hint: apps.chess.matches.show.guest_link_hint
+          end: apps.chess.matches.show.end
+          end_confirm: apps.chess.matches.show.end_confirm
+      endings:
+        create:
+          success: apps.chess.endings.create.success
+      bot_levels:
+        easy: apps.chess.bot_levels.easy
+        medium: apps.chess.bot_levels.medium
+        hard: apps.chess.bot_levels.hard
+        max: apps.chess.bot_levels.max
+      styles:
+        board: apps.chess.styles.board
+        crawl: apps.chess.styles.crawl
+      plays:
+        show:
+          waiting: apps.chess.plays.show.waiting
+          your_name: apps.chess.plays.show.your_name
+          sit: apps.chess.plays.show.sit
+          promote: apps.chess.plays.show.promote
+          resign: apps.chess.plays.show.resign
+          resign_confirm: apps.chess.plays.show.resign_confirm
+          play_again: apps.chess.plays.show.play_again
+          go_to_rematch: apps.chess.plays.show.go_to_rematch
+          moves: apps.chess.plays.show.moves
+          screens: apps.chess.plays.show.screens
+          add_screen: apps.chess.plays.show.add_screen
+          remove_screen: apps.chess.plays.show.remove_screen
+          sign_in_to_show: apps.chess.plays.show.sign_in_to_show
+          remove_screen_confirm: apps.chess.plays.show.remove_screen_confirm
+          stale_link: apps.chess.plays.show.stale_link
+      seats:
+        computer: apps.chess.seats.computer
+        create:
+          taken: apps.chess.seats.create.taken
+          already_seated: apps.chess.seats.create.already_seated
+      moves:
+        create:
+          refused: apps.chess.moves.create.refused
+      displays:
+        create:
+          success: apps.chess.displays.create.success
+          already_shown: apps.chess.displays.create.already_shown
+      screens:
+        scan_to_play: apps.chess.screens.scan_to_play
+        scan_hint: apps.chess.screens.scan_hint
+        open_seat: apps.chess.screens.open_seat
+        last_move: apps.chess.screens.last_move
+        episode: apps.chess.screens.episode
+        play_again: apps.chess.screens.play_again
+    preload:
+      tagline: apps.preload.tagline
+      title: apps.preload.title
+      back: apps.preload.back
+      plugins:
+        heading: apps.preload.plugins.heading
+        explainer: apps.preload.plugins.explainer
+        input_label: apps.preload.plugins.input_label
+        add: apps.preload.plugins.add
+        remove: apps.preload.plugins.remove
+        empty: apps.preload.plugins.empty
+        fields: apps.preload.plugins.fields
+        no_fields: apps.preload.plugins.no_fields
+        set_up_on_claim: apps.preload.plugins.set_up_on_claim
+        unavailable_recipe: apps.preload.plugins.unavailable_recipe
+        unavailable_plugin: apps.preload.plugins.unavailable_plugin
+        added: apps.preload.plugins.added
+        removed: apps.preload.plugins.removed
+        not_found: apps.preload.plugins.not_found
+      uninstall:
+        heading: apps.preload.uninstall.heading
+        explainer: apps.preload.uninstall.explainer
+        confirm: apps.preload.uninstall.confirm
+      orders:
+        heading: apps.preload.orders.heading
+        explainer: apps.preload.orders.explainer
+        order_number: apps.preload.orders.order_number
+        email: apps.preload.orders.email
+        import: apps.preload.orders.import
+        empty: apps.preload.orders.empty
+        shipped: apps.preload.orders.shipped
+        claimed: apps.preload.orders.claimed
+        waiting: apps.preload.orders.waiting
+        remove: apps.preload.orders.remove
+        remove_confirm: apps.preload.orders.remove_confirm
+        none_shipped: apps.preload.orders.none_shipped
+        imported:
+          zero: apps.preload.orders.imported.zero
+          one: apps.preload.orders.imported.one
+          other: apps.preload.orders.imported.other
+        already_imported: apps.preload.orders.already_imported
+        no_match: apps.preload.orders.no_match
+        taken: apps.preload.orders.taken
+        paused: apps.preload.orders.paused
+        store_unavailable: apps.preload.orders.store_unavailable
+        throttled: apps.preload.orders.throttled
+        removed: apps.preload.orders.removed
   mashups:
     mashup:
       add_to_playlist: mashups.mashup.add_to_playlist
@@ -2065,6 +2228,7 @@ raw:
         panel_inks: user_themes.form.picker.panel_inks
         grayscale: user_themes.form.picker.grayscale
       export_bundle: user_themes.form.export_bundle
+      fit_to_screen: user_themes.form.fit_to_screen
   timelines:
     trace:
       outcomes:
@@ -2226,6 +2390,11 @@ raw:
         not_jit_schedulable: timelines.activity.schedule_reasons.not_jit_schedulable
         violates_minimum: timelines.activity.schedule_reasons.violates_minimum
         external_image: timelines.activity.schedule_reasons.external_image
+        before_daily_slot: timelines.activity.schedule_reasons.before_daily_slot
+        daily_catch_up_started: timelines.activity.schedule_reasons.daily_catch_up_started
+        daily_catch_up_declined: timelines.activity.schedule_reasons.daily_catch_up_declined
+        daily_catch_up_fresh_screen: timelines.activity.schedule_reasons.daily_catch_up_fresh_screen
+        daily_catch_up_kept_screen: timelines.activity.schedule_reasons.daily_catch_up_kept_screen
       render_statuses:
         ok: timelines.activity.render_statuses.ok
         error: timelines.activity.render_statuses.error
