@@ -608,7 +608,11 @@ pl:
     update:
       error: Błąd podczas aktualizacji urządzenia
       success: Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane
+      choose_palette: "%{device} device model updated. Choose the palette your screen can show."
     add_device_first: Najpierw dodaj urządzenie
+    image_too_big:
+      message: Your device rejected a %{size} image; this model accepts up to %{limit}.
+      message_without_limit: Your device rejected a %{size} image as too big.
   discovery:
     dashboard_action:
       saved:
@@ -1156,7 +1160,7 @@ pl:
     remixes:
       name: "%{name} Remix"
       create:
-        success: Your %{plugin} data is under {{ %{keyname} }}.
+        success: "%{plugin} data is now {{ %{keyname} }}."
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -1192,6 +1196,8 @@ pl:
       plugin_uninstall_feedback:
         one: Informacja zwrotna
         other: Informacje zwrotne
+      apps/chess/app: Chess
+      apps/preload/app: Preload
     attributes:
       plugin_setting:
         ai_coauthored: Współtworzone przez AI
@@ -1762,6 +1768,163 @@ pl:
         footer: Otrzymujesz tę wiadomość, ponieważ alerty zgłoszeń są włączone dla tej floty. Wyłącz je w Flota › Ustawienia.
     bookings:
       read_only_booking_error: Ten kalendarz jest tylko do odczytu. Połączone konto Google wymaga uprawnień do zmiany wydarzeń, zanim będzie mogło przyjmować rezerwacje.
+    chess:
+      tagline: Play correspondence chess on your TRMNL, with a friend across town or at the kitchen table.
+      back_to_matches: Back to matches
+      back_to_apps: Back to Apps
+      open_link: Open
+      seat_name: "%{name} (%{side})"
+      status:
+        lobby:
+          one: Waiting for 1 more player
+          other: Waiting for %{count} players
+        to_move: "%{name} to move"
+      result:
+        win: "%{name} wins by %{reason}"
+        draw: Draw by %{reason}
+      reasons:
+        checkmate: checkmate
+        resignation: resignation
+        stalemate: stalemate
+        threefold_repetition: threefold repetition
+        insufficient_material: insufficient material
+        fifty_move_rule: the fifty-move rule
+        ended: the host ending the match
+      uninstall:
+        heading: Uninstall
+        explainer: Removes the app, closes the links you sent players, and takes your boards off every device.
+        confirm: Uninstall %{app}?
+      matches:
+        index:
+          new: New match
+          empty: No matches yet. Start one and send the link to a friend.
+          your_move: Your move
+        title:
+          open_seat: open seat
+          no_players: Open match
+        new:
+          title: New match
+          side: Your seat
+          opponent: Opponent
+          level: Computer level
+          opponents:
+            friend: A friend
+            computer: The computer
+          submit: Create match
+          sides:
+            white: I'll play White
+            black: I'll play Black
+            host: Just host
+          hints:
+            white: White moves first.
+            black: Your opponent moves first.
+            host: Both seats stay open. Good for a shared screen in the kitchen or office.
+        show:
+          open_board: Open the board
+          invite: Invite players
+          invite_hint: Send this link, or show the QR code. Whoever opens it first takes an open seat.
+          players: Players
+          open_seat: "%{side}: open"
+          reissue: New link
+          reissue_confirm: Send %{name} a new link? Their old link stops working.
+          guest_link: New link for %{name}
+          guest_link_hint: Send this to them. It only shows here once, and their old link no longer works.
+          end: End match
+          end_confirm: End this match with no winner?
+      endings:
+        create:
+          success: Match ended.
+      bot_levels:
+        easy: Easy
+        medium: Medium
+        hard: Hard
+        max: Max
+      styles:
+        board: Board
+        crawl: Star Crawl
+      plays:
+        show:
+          waiting: You are %{side}. Waiting for an opponent.
+          your_name: Your name
+          sit: Play as %{side}
+          promote: Promote to
+          resign: Resign
+          resign_confirm: Resign this game?
+          play_again: Play again
+          go_to_rematch: Go to the rematch
+          moves: Moves
+          screens: Show on my TRMNL
+          add_screen: Add to device
+          remove_screen: Remove
+          sign_in_to_show: Have a TRMNL? Sign in to show this match on it.
+          remove_screen_confirm: Take this match off %{device}?
+          stale_link: This link no longer works. Ask the host for a new one.
+      seats:
+        computer: Computer
+        create:
+          taken: Someone took that seat first.
+          already_seated: You already have a seat in this game.
+      moves:
+        create:
+          refused: That move is not available any more. The board has been refreshed.
+      displays:
+        create:
+          success: Added to %{device}. It shows up at the device's next refresh.
+          already_shown: "%{device} already shows this match. Remove it first to change the style."
+      screens:
+        scan_to_play: Scan to play
+        scan_hint: Point a phone camera at the code. Whoever scans first takes an open seat.
+        open_seat: Open seat
+        last_move: Last move
+        episode: Episode %{number}
+        play_again: Scan to play again
+    preload:
+      tagline: Add plugins to a batch of devices before end users claim them.
+      title: Preload
+      back: Back to Apps
+      plugins:
+        heading: Plugins to preload
+        explainer: Each device from your orders gets these plugins when someone claims it. That person finishes any setup.
+        input_label: Plugin link or ID
+        add: Add plugin
+        remove: Remove
+        empty: No plugins yet.
+        fields: 'Fields to fill in: %{fields}'
+        no_fields: No fields to fill in.
+        set_up_on_claim: Set up by the person who claims the device.
+        unavailable_recipe: Recipe %{id} is not available. It is not published or unlisted.
+        unavailable_plugin: Plugin %{id} is not available. It is not published.
+        added: "%{name} will preload."
+        removed: Plugin removed.
+        not_found: We couldn't find a published plugin or recipe with that link.
+      uninstall:
+        heading: Uninstall
+        explainer: Removes the app, frees your orders, and stops preloading devices nobody has claimed yet.
+        confirm: Uninstall %{app}?
+      orders:
+        heading: Orders
+        explainer: Import a store order by its number and order email. Devices will preload whatever plugins you specify once claimed for the first time.
+        order_number: Order number
+        email: Order email
+        import: Import order
+        empty: No orders yet.
+        shipped: Shipped
+        claimed: Claimed
+        waiting: Waiting
+        remove: Remove
+        remove_confirm: 'Remove order #%{order}? Its unclaimed devices will not preload your plugins.'
+        none_shipped: No devices from this order have shipped yet. If we merged it with another of your orders, import that order instead, or contact support.
+        imported:
+          zero: 'Order #%{order} imported. Its devices will preload as they ship.'
+          one: 'Order #%{order} imported. 1 device will preload.'
+          other: 'Order #%{order} imported. %{count} devices will preload.'
+        already_imported: 'Order #%{order} is already imported.'
+        no_match: We couldn't match that order number and email.
+        taken: This order is linked to another account. Contact support.
+        paused: Preloading is paused for this account. Contact support.
+        store_unavailable: We couldn't reach our store. Try again shortly.
+        throttled: Too many attempts. Try again later.
+        removed: 'Order #%{order} removed.'
   mashups:
     mashup:
       add_to_playlist: Dodaj do playlisty
@@ -2089,6 +2252,7 @@ pl:
         panel_inks: Kolory panelu
         grayscale: Skala szarości
       export_bundle: Pobierz motyw
+      fit_to_screen: Fit to screen
   timelines:
     trace:
       outcomes:
@@ -2250,6 +2414,11 @@ pl:
         not_jit_schedulable: Odświeża się według własnego harmonogramu
         violates_minimum: Oczekiwanie na upłynięcie minimalnego interwału odświeżania
         external_image: Pominięto — obraz jest do niego wysyłany, nic go nie renderuje
+        before_daily_slot: Waiting — the daily refresh renders before its first display after 00:15
+        daily_catch_up_started: Catching up — the daily screen was rendered before today's 00:15 refresh
+        daily_catch_up_declined: Catch-up skipped — the device got no waiting screen, so it kept its screen while the render ran
+        daily_catch_up_fresh_screen: Caught up — the fresh daily screen arrived
+        daily_catch_up_kept_screen: Catch-up ended — the render did not arrive in time, so the previous screen stayed
       render_statuses:
         ok: Wyrenderowano
         error: Renderowanie nie powiodło się
