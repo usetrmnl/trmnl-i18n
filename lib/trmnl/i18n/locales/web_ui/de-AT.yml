@@ -1138,6 +1138,33 @@ de-AT:
       name: "%{name} Remix"
       create:
         success: "%{plugin} data is now {{ %{keyname} }}."
+    live_preview:
+      live: Live preview
+      image: Rendered image
+      invitation: Live preview shows unsaved changes as you edit.
+      explanation: Live preview renders in the browser. The rendered image is the last screen generated for the device and can differ slightly.
+      sample: Sample data
+      sample_hint: Examples show how these settings look.
+      cached: Your data
+      cached_hint: Fetched
+      partial: Your data
+      partial_hint: Some dates may be missing until you save and refresh.
+      invalid: Not updated
+      invalid_hint: Check the settings and the selected device.
+      error: Not updated
+      error_hint: The last successful preview is still shown.
+      retry: Retry
+      sizes: Sizes
+      full: Full
+      half_horizontal: Half H
+      half_vertical: Half V
+      quadrant: Quadrant
+    test_request:
+      button: Test request
+      missing_url: Add a Polling URL first.
+      rate_limited: Too many test requests. Try again in a minute.
+      sent: 'Sent:'
+      received: 'Received:'
   recipes:
     index:
       newest_to_oldest: Neueste zuerst
@@ -1659,8 +1686,8 @@ de-AT:
           one: Dies fügt deinem Plan 1 Ressource hinzu (%{amount}). Fortfahren?
           other: Dies fügt deinem Plan %{count} Ressourcen hinzu (%{amount}). Fortfahren?
         screen_title: Abonnement erforderlich
-        screen_body: Füge eine Zahlungsmethode hinzu, um diese Ressource wieder anzuzeigen.
-        locked: Füge eine Zahlungsmethode hinzu, damit deine Ressourcen weiter angezeigt werden.
+        screen_body: Set up billing to show this resource again.
+        locked: Set up billing to keep your resources on screen.
         past_due: Deine letzte Zahlung ist fehlgeschlagen. Aktualisiere deine Karte, um Unterbrechungen zu vermeiden.
         grace:
           one: Booking wird am %{date} kostenpflichtig. Deine %{count} Ressource kostet dann %{total} pro Monat.
@@ -1689,6 +1716,42 @@ de-AT:
         syncing: Syncing
         stale: Calendar data is delayed. Retrying…
         unavailable: This display is no longer available.
+      pricing:
+        billing_period: Billing period
+        annual_saving: Save %{amount} / room with annual billing
+        included: Included
+        calendars: Your calendars
+        calendars_hint: Every calendar works the same and costs the same. Mix them as you like.
+        existing_screens: Screens you already own cost nothing. Booking also runs on tablets and TVs.
+        add_devices:
+          one: Add %{count} device
+          other: Add %{count} devices
+        comparison_links:
+          joan: Joan vs. TRMNL
+          robin: Robin vs. TRMNL
+          envoy: Envoy vs. TRMNL
+          tablets: Tablets vs. TRMNL
+        features:
+          room_status: Live room status that changes when a meeting starts or ends
+          walk_up_booking: Walk-up booking with a QR code, from any phone
+          branding: Your logo and your room names on every screen
+          collections: Hallway screens that show many rooms at once
+          virtual_displays: Virtual displays on the tablets and TVs you already own
+          monitoring: Battery levels, and an email when a calendar stops syncing
+          setup: Set it up yourself, in minutes
+          support: Email support from real people
+          updates: New features as we ship them
+          room_changes: Add or remove rooms at any time
+        comparison_period: 10 rooms over 3 years, with annual billing
+        saves: Save %{amount} with TRMNL
+        saves_at_least: Save at least %{amount} with TRMNL
+        platform_fee: "%{amount} + platform fee"
+        quote_required: Quote required
+        tablet_total: "%{name} + Booking: %{amount}"
+        joan_assumptions: Entry plan, display licenses and Joan 6 RE devices. Active user fees excluded.
+        envoy_assumptions: Room licenses, Android tablets and locking enclosures. Platform fee excluded.
+        tablet_assumptions: Tablets, locking enclosures and Booking. Existing outlets assumed.
+        comparison_exclusions: US prices before tax and shipping. Power installation and device management excluded. See each comparison for sources and assumptions.
     fleet:
       tagline: Spiegle Bildschirm und Einstellungen eines Geräts auf viele Displays.
       check_ins:
@@ -2936,3 +2999,6 @@ de-AT:
     action: Add MAC address
   integration_page:
     use_recipe: Use the community recipe
+  byod_trials:
+    ended:
+      claim_license: Already bought a BYOD license? Claim it with your order number.

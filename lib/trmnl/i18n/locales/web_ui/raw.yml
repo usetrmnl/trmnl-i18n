@@ -1139,6 +1139,33 @@ raw:
       name: plugin_settings.remixes.name
       create:
         success: plugin_settings.remixes.create.success
+    live_preview:
+      live: plugin_settings.live_preview.live
+      image: plugin_settings.live_preview.image
+      invitation: plugin_settings.live_preview.invitation
+      explanation: plugin_settings.live_preview.explanation
+      sample: plugin_settings.live_preview.sample
+      sample_hint: plugin_settings.live_preview.sample_hint
+      cached: plugin_settings.live_preview.cached
+      cached_hint: plugin_settings.live_preview.cached_hint
+      partial: plugin_settings.live_preview.partial
+      partial_hint: plugin_settings.live_preview.partial_hint
+      invalid: plugin_settings.live_preview.invalid
+      invalid_hint: plugin_settings.live_preview.invalid_hint
+      error: plugin_settings.live_preview.error
+      error_hint: plugin_settings.live_preview.error_hint
+      retry: plugin_settings.live_preview.retry
+      sizes: plugin_settings.live_preview.sizes
+      full: plugin_settings.live_preview.full
+      half_horizontal: plugin_settings.live_preview.half_horizontal
+      half_vertical: plugin_settings.live_preview.half_vertical
+      quadrant: plugin_settings.live_preview.quadrant
+    test_request:
+      button: plugin_settings.test_request.button
+      missing_url: plugin_settings.test_request.missing_url
+      rate_limited: plugin_settings.test_request.rate_limited
+      sent: plugin_settings.test_request.sent
+      received: plugin_settings.test_request.received
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -1688,6 +1715,42 @@ raw:
         syncing: apps.room_booking.url_displays.syncing
         stale: apps.room_booking.url_displays.stale
         unavailable: apps.room_booking.url_displays.unavailable
+      pricing:
+        billing_period: apps.room_booking.pricing.billing_period
+        annual_saving: apps.room_booking.pricing.annual_saving
+        included: apps.room_booking.pricing.included
+        calendars: apps.room_booking.pricing.calendars
+        calendars_hint: apps.room_booking.pricing.calendars_hint
+        existing_screens: apps.room_booking.pricing.existing_screens
+        add_devices:
+          one: apps.room_booking.pricing.add_devices.one
+          other: apps.room_booking.pricing.add_devices.other
+        comparison_links:
+          joan: apps.room_booking.pricing.comparison_links.joan
+          robin: apps.room_booking.pricing.comparison_links.robin
+          envoy: apps.room_booking.pricing.comparison_links.envoy
+          tablets: apps.room_booking.pricing.comparison_links.tablets
+        features:
+          room_status: apps.room_booking.pricing.features.room_status
+          walk_up_booking: apps.room_booking.pricing.features.walk_up_booking
+          branding: apps.room_booking.pricing.features.branding
+          collections: apps.room_booking.pricing.features.collections
+          virtual_displays: apps.room_booking.pricing.features.virtual_displays
+          monitoring: apps.room_booking.pricing.features.monitoring
+          setup: apps.room_booking.pricing.features.setup
+          support: apps.room_booking.pricing.features.support
+          updates: apps.room_booking.pricing.features.updates
+          room_changes: apps.room_booking.pricing.features.room_changes
+        comparison_period: apps.room_booking.pricing.comparison_period
+        saves: apps.room_booking.pricing.saves
+        saves_at_least: apps.room_booking.pricing.saves_at_least
+        platform_fee: apps.room_booking.pricing.platform_fee
+        quote_required: apps.room_booking.pricing.quote_required
+        tablet_total: apps.room_booking.pricing.tablet_total
+        joan_assumptions: apps.room_booking.pricing.joan_assumptions
+        envoy_assumptions: apps.room_booking.pricing.envoy_assumptions
+        tablet_assumptions: apps.room_booking.pricing.tablet_assumptions
+        comparison_exclusions: apps.room_booking.pricing.comparison_exclusions
     fleet:
       tagline: apps.fleet.tagline
       check_ins:
@@ -2647,3 +2710,6 @@ raw:
     action: byod_mac_address_banner_component.action
   integration_page:
     use_recipe: integration_page.use_recipe
+  byod_trials:
+    ended:
+      claim_license: byod_trials.ended.claim_license
