@@ -557,6 +557,10 @@ pl:
       sleep_until_hint: Przy następnym zgłoszeniu urządzenie przejdzie w stan uśpienia do wskazanego czasu. Naciśnij jego przycisk, aby wybudzić je wcześniej. Jeśli jeszcze nie śpi, wyczyść to pole, aby anulować.
       font_set_by_theme: Ustawione przez %{theme}
       developer_perks_mac_address_needed: Set the real MAC address for this device here
+      vestaboard_credentials: Vestaboard API token
+      vestaboard_token_saved: Saved
+      vestaboard_token_missing: Not set yet, so nothing is sent to the board
+      vestaboard_credentials_hint: In the Vestaboard app, open Settings, then Advanced Settings, then API. Create a token with Write access and paste it here.
     discover_persona:
       label: Persona i Odkrywaj
       disabled_hint: Wyłączone dla urządzeń TRMNL będących kopiami lustrzanymi. Zamiast tego zarządzaj rekomendacjami na urządzeniu nadrzędnym.
@@ -1161,6 +1165,35 @@ pl:
       name: "%{name} Remix"
       create:
         success: "%{plugin} data is now {{ %{keyname} }}."
+    live_preview:
+      live: Live preview
+      image: Rendered image
+      invitation: Live preview shows unsaved changes as you edit.
+      explanation: Live preview renders in the browser. The rendered image is the last screen generated for the device and can differ slightly.
+      sample: Sample data
+      sample_hint: Examples show how these settings look.
+      cached: Your data
+      cached_hint: Fetched
+      partial: Your data
+      partial_hint: Some dates may be missing until you save and refresh.
+      invalid: Not updated
+      invalid_hint: Check the settings and the selected device.
+      error: Not updated
+      error_hint: The last successful preview is still shown.
+      retry: Retry
+      sizes: Sizes
+      full: Full
+      half_horizontal: Half H
+      half_vertical: Half V
+      quadrant: Quadrant
+    test_request:
+      button: Test request
+      missing_url: Add a Polling URL first.
+      rate_limited: Too many test requests. Try again in a minute.
+      sent: 'Sent:'
+      received: 'Received:'
+    missing_composition:
+      message: No composition yet — this plugin won't display on this device until you add one.
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -1169,6 +1202,7 @@ pl:
       install: Instaluj
       fork: Forkuj
       search_placeholder: 'Szukaj, np.: Komiks'
+      filtered_for_device: Showing recipes with a %{device} layout.
   schedules:
     form:
       append: Oraz…
@@ -1682,8 +1716,8 @@ pl:
           one: Spowoduje to dodanie 1 zasobu do Twojego planu (%{amount}). Kontynuować?
           other: Spowoduje to dodanie %{count} zasobów do Twojego planu (%{amount}). Kontynuować?
         screen_title: Wymagana subskrypcja
-        screen_body: Dodaj metodę płatności, aby ponownie wyświetlać ten zasób.
-        locked: Dodaj metodę płatności, aby nadal wyświetlać swoje zasoby.
+        screen_body: Set up billing to show this resource again.
+        locked: Set up billing to keep your resources on screen.
         past_due: Ostatnia płatność nie powiodła się. Zaktualizuj kartę, aby uniknąć przerwy.
         grace:
           one: Rezerwacje staną się płatną aplikacją %{date}. Twój %{count} zasób będzie kosztował %{total} miesięcznie.
@@ -1712,6 +1746,42 @@ pl:
         syncing: Synchronizowanie
         stale: Dane kalendarza są opóźnione. Ponawianie…
         unavailable: Ten wyświetlacz nie jest już dostępny.
+      pricing:
+        billing_period: Billing period
+        annual_saving: Save %{amount} / room with annual billing
+        included: Included
+        calendars: Your calendars
+        calendars_hint: Every calendar works the same and costs the same. Mix them as you like.
+        existing_screens: Screens you already own cost nothing. Booking also runs on tablets and TVs.
+        add_devices:
+          one: Add %{count} device
+          other: Add %{count} devices
+        comparison_links:
+          joan: Joan vs. TRMNL
+          robin: Robin vs. TRMNL
+          envoy: Envoy vs. TRMNL
+          tablets: Tablets vs. TRMNL
+        features:
+          room_status: Live room status that changes when a meeting starts or ends
+          walk_up_booking: Walk-up booking with a QR code, from any phone
+          branding: Your logo and your room names on every screen
+          collections: Hallway screens that show many rooms at once
+          virtual_displays: Virtual displays on the tablets and TVs you already own
+          monitoring: Battery levels, and an email when a calendar stops syncing
+          setup: Set it up yourself, in minutes
+          support: Email support from real people
+          updates: New features as we ship them
+          room_changes: Add or remove rooms at any time
+        comparison_period: 10 rooms over 3 years, with annual billing
+        saves: Save %{amount} with TRMNL
+        saves_at_least: Save at least %{amount} with TRMNL
+        platform_fee: "%{amount} + platform fee"
+        quote_required: Quote required
+        tablet_total: "%{name} + Booking: %{amount}"
+        joan_assumptions: Entry plan, display licenses and Joan 6 RE devices. Active user fees excluded.
+        envoy_assumptions: Room licenses, Android tablets and locking enclosures. Platform fee excluded.
+        tablet_assumptions: Tablets, locking enclosures and Booking. Existing outlets assumed.
+        comparison_exclusions: US prices before tax and shipping. Power installation and device management excluded. See each comparison for sources and assumptions.
     fleet:
       tagline: Odzwierciedlaj ekran i ustawienia jednego urządzenia na wielu wyświetlaczach.
       check_ins:
@@ -2031,6 +2101,21 @@ pl:
       variables: Zmienne
       visible_if: Widoczne, jeśli...
       width: Szerokość
+      recolor_flaps: Recolor every flap on this layer
+      board_characters: Board characters
+      board_characters_hint: Click a character to insert it. A color inserts as {63} to {69} and fills one flap.
+      unsupported_characters: 'Not on the board: %{characters}. Like spaces, they show the layer below or the background (marked ? in this preview).'
+      box_width_hint: Width is in cells. The board is %{columns} cells wide.
+      flap_colors:
+        label: Flap colors
+        red: Red
+        orange: Orange
+        yellow: Yellow
+        green: Green
+        blue: Blue
+        violet: Violet
+        white: White
+        black: Black (blank)
   shared:
     impersonator:
       managing: Zarządzanie %{name}
@@ -2959,3 +3044,8 @@ pl:
     action: Add MAC address
   integration_page:
     use_recipe: Use the community recipe
+  byod_trials:
+    ended:
+      claim_license: Already bought a BYOD license? Claim it with your order number.
+  screen_picker:
+    single_palette_hint: This device has only one palette.

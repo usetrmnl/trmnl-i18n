@@ -535,6 +535,10 @@ raw:
       sleep_until_hint: devices.edit.sleep_until_hint
       font_set_by_theme: devices.edit.font_set_by_theme
       developer_perks_mac_address_needed: devices.edit.developer_perks_mac_address_needed
+      vestaboard_credentials: devices.edit.vestaboard_credentials
+      vestaboard_token_saved: devices.edit.vestaboard_token_saved
+      vestaboard_token_missing: devices.edit.vestaboard_token_missing
+      vestaboard_credentials_hint: devices.edit.vestaboard_credentials_hint
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -1139,6 +1143,35 @@ raw:
       name: plugin_settings.remixes.name
       create:
         success: plugin_settings.remixes.create.success
+    live_preview:
+      live: plugin_settings.live_preview.live
+      image: plugin_settings.live_preview.image
+      invitation: plugin_settings.live_preview.invitation
+      explanation: plugin_settings.live_preview.explanation
+      sample: plugin_settings.live_preview.sample
+      sample_hint: plugin_settings.live_preview.sample_hint
+      cached: plugin_settings.live_preview.cached
+      cached_hint: plugin_settings.live_preview.cached_hint
+      partial: plugin_settings.live_preview.partial
+      partial_hint: plugin_settings.live_preview.partial_hint
+      invalid: plugin_settings.live_preview.invalid
+      invalid_hint: plugin_settings.live_preview.invalid_hint
+      error: plugin_settings.live_preview.error
+      error_hint: plugin_settings.live_preview.error_hint
+      retry: plugin_settings.live_preview.retry
+      sizes: plugin_settings.live_preview.sizes
+      full: plugin_settings.live_preview.full
+      half_horizontal: plugin_settings.live_preview.half_horizontal
+      half_vertical: plugin_settings.live_preview.half_vertical
+      quadrant: plugin_settings.live_preview.quadrant
+    test_request:
+      button: plugin_settings.test_request.button
+      missing_url: plugin_settings.test_request.missing_url
+      rate_limited: plugin_settings.test_request.rate_limited
+      sent: plugin_settings.test_request.sent
+      received: plugin_settings.test_request.received
+    missing_composition:
+      message: plugin_settings.missing_composition.message
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -1147,6 +1180,7 @@ raw:
       install: recipes.index.install
       fork: recipes.index.fork
       search_placeholder: recipes.index.search_placeholder
+      filtered_for_device: recipes.index.filtered_for_device
   schedules:
     form:
       append: schedules.form.append
@@ -1688,6 +1722,42 @@ raw:
         syncing: apps.room_booking.url_displays.syncing
         stale: apps.room_booking.url_displays.stale
         unavailable: apps.room_booking.url_displays.unavailable
+      pricing:
+        billing_period: apps.room_booking.pricing.billing_period
+        annual_saving: apps.room_booking.pricing.annual_saving
+        included: apps.room_booking.pricing.included
+        calendars: apps.room_booking.pricing.calendars
+        calendars_hint: apps.room_booking.pricing.calendars_hint
+        existing_screens: apps.room_booking.pricing.existing_screens
+        add_devices:
+          one: apps.room_booking.pricing.add_devices.one
+          other: apps.room_booking.pricing.add_devices.other
+        comparison_links:
+          joan: apps.room_booking.pricing.comparison_links.joan
+          robin: apps.room_booking.pricing.comparison_links.robin
+          envoy: apps.room_booking.pricing.comparison_links.envoy
+          tablets: apps.room_booking.pricing.comparison_links.tablets
+        features:
+          room_status: apps.room_booking.pricing.features.room_status
+          walk_up_booking: apps.room_booking.pricing.features.walk_up_booking
+          branding: apps.room_booking.pricing.features.branding
+          collections: apps.room_booking.pricing.features.collections
+          virtual_displays: apps.room_booking.pricing.features.virtual_displays
+          monitoring: apps.room_booking.pricing.features.monitoring
+          setup: apps.room_booking.pricing.features.setup
+          support: apps.room_booking.pricing.features.support
+          updates: apps.room_booking.pricing.features.updates
+          room_changes: apps.room_booking.pricing.features.room_changes
+        comparison_period: apps.room_booking.pricing.comparison_period
+        saves: apps.room_booking.pricing.saves
+        saves_at_least: apps.room_booking.pricing.saves_at_least
+        platform_fee: apps.room_booking.pricing.platform_fee
+        quote_required: apps.room_booking.pricing.quote_required
+        tablet_total: apps.room_booking.pricing.tablet_total
+        joan_assumptions: apps.room_booking.pricing.joan_assumptions
+        envoy_assumptions: apps.room_booking.pricing.envoy_assumptions
+        tablet_assumptions: apps.room_booking.pricing.tablet_assumptions
+        comparison_exclusions: apps.room_booking.pricing.comparison_exclusions
     fleet:
       tagline: apps.fleet.tagline
       check_ins:
@@ -2007,6 +2077,21 @@ raw:
       variables: compositions.form.variables
       visible_if: compositions.form.visible_if
       width: compositions.form.width
+      recolor_flaps: compositions.form.recolor_flaps
+      board_characters: compositions.form.board_characters
+      board_characters_hint: compositions.form.board_characters_hint
+      unsupported_characters: compositions.form.unsupported_characters
+      box_width_hint: compositions.form.box_width_hint
+      flap_colors:
+        label: compositions.form.flap_colors.label
+        red: compositions.form.flap_colors.red
+        orange: compositions.form.flap_colors.orange
+        yellow: compositions.form.flap_colors.yellow
+        green: compositions.form.flap_colors.green
+        blue: compositions.form.flap_colors.blue
+        violet: compositions.form.flap_colors.violet
+        white: compositions.form.flap_colors.white
+        black: compositions.form.flap_colors.black
   shared:
     impersonator:
       managing: shared.impersonator.managing
@@ -2647,3 +2732,8 @@ raw:
     action: byod_mac_address_banner_component.action
   integration_page:
     use_recipe: integration_page.use_recipe
+  byod_trials:
+    ended:
+      claim_license: byod_trials.ended.claim_license
+  screen_picker:
+    single_palette_hint: screen_picker.single_palette_hint

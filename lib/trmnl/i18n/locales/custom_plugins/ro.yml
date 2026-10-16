@@ -227,14 +227,11 @@ ro:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{Nicio conexiune}} one {{{$value :number} conexiune}} few {{{$value\
-        \ :number} conexiuni}} * {{{$value :number} de conexiuni}}"
-      forks: ".input {$value :number} .match $value zero {{Niciun fork}} one {{{$value :number} fork}} few {{{$value :number}\
-        \ fork-uri}} * {{{$value :number} de fork-uri}}"
-      installs: ".input {$value :number} .match $value zero {{Nicio instalare}} one {{{$value :number} instalare}} few {{{$value\
-        \ :number} instalări}} * {{{$value :number} de instalări}}"
+      connections: ".input {$value :number} .match $value zero {{Nicio conexiune}} one {{{$value :number} conexiune}} few {{{$value :number} conexiuni}} * {{{$value :number} de conexiuni}}"
+      forks: ".input {$value :number} .match $value zero {{Niciun fork}} one {{{$value :number} fork}} few {{{$value :number} fork-uri}} * {{{$value :number} de fork-uri}}"
+      installs: ".input {$value :number} .match $value zero {{Nicio instalare}} one {{{$value :number} instalare}} few {{{$value :number} instalări}} * {{{$value :number} de instalări}}"
       and_more: și încă {$value :number}
-      error_keyword_title: '„{$keyword}” nu a corespuns niciunui rezultat.'
+      error_keyword_title: "„{$keyword}” nu a corespuns niciunui rezultat."
       error_keyword_subtitle: Încearcă să cauți altceva.
       error_new_title: Nu a fost găsită nicio rețetă nouă.
       error_new_subtitle: Asta nu ar trebui să se întâmple.
@@ -250,15 +247,8 @@ ro:
       from_to: "{$from :langName} în {$to :langNameList}"
     custom_next_holiday:
       next_holiday: Următoarea sărbătoare
-      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Mâine\
-        \ este {$nextName}.{/subLabel} }} few {{ {#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Următoarea\
-        \ sărbătoare este {$nextName}, peste {$nextDays} zile.{/subLabel} }} * {{ {#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Următoarea\
-        \ sărbătoare este {$nextName}, peste {$nextDays} de zile.{/subLabel} }}"
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Mâine este {$nextName}.{/subLabel} }} few {{ {#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Următoarea sărbătoare este {$nextName}, peste {$nextDays} zile.{/subLabel} }} * {{ {#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Următoarea sărbătoare este {$nextName}, peste {$nextDays} de zile.{/subLabel} }}"
       today_only: "{#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
-      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Mâine este{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue}\
-        \ }} few {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} zile până la{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue}\
-        \ }} * {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} de zile până la{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue}\
-        \ }}"
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Mâine este{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }} few {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} zile până la{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }} * {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} de zile până la{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
       no_holidays: "{#subLabel}Nu mai există sărbători adăugate.{/subLabel}"
     sun_chart: Grafic solar
-
