@@ -83,12 +83,12 @@ ro:
       filter_modes:
         active:
           one: Livrare activă
-          few: Livrări active
           other: Livrări active
+          few: Livrări active
         recent:
           one: Livrare recentă
-          few: Livrări recente
           other: Livrări recente
+          few: Livrări recente
       status:
         delivered: Livrat
         delivery_exception: Excepție la livrare
@@ -304,22 +304,22 @@ ro:
       greeting: Bună, %{name}
       greeting_blank: Bună
     homey:
-      'on': "Pornit"
-      'off': "Oprit"
+      'on': Pornit
+      'off': Oprit
       offline: Deconectat
       all_offline: Toate dispozitivele sunt deconectate
       all_offline_hint:
         one: Un dispozitiv nu poate fi accesat
-        few: Niciunul dintre cele %{count} dispozitive nu poate fi accesat
         other: Niciunul dintre cele %{count} de dispozitive nu poate fi accesat
+        few: Niciunul dintre cele %{count} dispozitive nu poate fi accesat
       batteries_healthy:
         one: Baterie
-        few: Baterii
         other: Baterii
+        few: Baterii
       batteries_low:
-        one: "De înlocuit"
-        few: "De înlocuit"
-        other: "De înlocuit"
+        one: De înlocuit
+        other: De înlocuit
+        few: De înlocuit
       no_batteries: Nicio baterie de urmărit
       no_batteries_hint: Niciun dispozitiv nu raportează nivelul bateriei
       insights: Statistici
@@ -345,4 +345,3 @@ ro:
       out_of_credit:
         title: Credit AI epuizat
         description: Abonează-te la TRMNL+ pentru credite AI sau reîncarcă contul pentru a folosi acest plugin.
-

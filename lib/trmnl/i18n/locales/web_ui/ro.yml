@@ -79,54 +79,54 @@ ro:
     start_of_week: 1
   datetime:
     relative:
-      past: "acum %{time}"
+      past: acum %{time}
       future: în %{time}
       distance_in_words:
         half_a_minute: jumătate de minut
         less_than_x_seconds:
           one: mai puțin de %{count} secundă
-          few: mai puțin de %{count} secunde
           other: mai puțin de %{count} de secunde
+          few: mai puțin de %{count} secunde
         less_than_x_minutes:
           one: mai puțin de un minut
-          few: mai puțin de %{count} minute
           other: mai puțin de %{count} de minute
+          few: mai puțin de %{count} minute
         x_seconds:
-          one: '%{count} secundă'
-          few: "%{count} secunde"
+          one: "%{count} secundă"
           other: "%{count} de secunde"
+          few: "%{count} secunde"
         x_minutes:
-          one: '%{count} minut'
-          few: "%{count} minute"
+          one: "%{count} minut"
           other: "%{count} de minute"
+          few: "%{count} minute"
         about_x_hours:
           one: aproximativ %{count} oră
-          few: aproximativ %{count} ore
           other: aproximativ %{count} de ore
+          few: aproximativ %{count} ore
         x_days:
-          one: '%{count} zi'
-          few: "%{count} zile"
+          one: "%{count} zi"
           other: "%{count} de zile"
+          few: "%{count} zile"
         about_x_months:
           one: aproximativ %{count} lună
-          few: aproximativ %{count} luni
           other: aproximativ %{count} de luni
+          few: aproximativ %{count} luni
         x_months:
-          one: '%{count} lună'
-          few: "%{count} luni"
+          one: "%{count} lună"
           other: "%{count} de luni"
+          few: "%{count} luni"
         about_x_years:
           one: aproximativ %{count} an
-          few: aproximativ %{count} ani
           other: aproximativ %{count} de ani
+          few: aproximativ %{count} ani
         over_x_years:
           one: peste %{count} an
-          few: peste %{count} ani
           other: peste %{count} de ani
+          few: peste %{count} ani
         almost_x_years:
           one: aproape %{count} an
-          few: aproape %{count} ani
           other: aproape %{count} de ani
+          few: aproape %{count} ani
   account:
     index:
       title: Cont
@@ -161,16 +161,14 @@ ro:
       session: Sesiune
       session_hint: Ești autentificat ca %{user}
       show_title_bar: Afișează bara de titlu
-      show_title_bar_hint: Dacă este dezactivată, pluginurile native care nu sunt globale și cele de la terți vor avea un aspect mai
-        simplu.
+      show_title_bar_hint: Dacă este dezactivată, pluginurile native care nu sunt globale și cele de la terți vor avea un aspect mai simplu.
       theme_hint: Personalizează interfața TRMNL setând o temă sau sincronizând cu dispozitivul tău.
       time_zone: Fus orar
       time_zone_hint: Determină intervalele de reîmprospătare și orele de repaus ale dispozitivului.
       locale: Limbă
       locale_hint: Ce limbă și localizare preferi? __Mergi aici__.
       low_battery_notification_email: Adresă de e-mail pentru notificările de baterie descărcată
-      low_battery_notification_email_hint: Trimite aici notificările de baterie descărcată pentru toate dispozitivele, în locul adresei contului. Lasă
-        câmpul gol pentru a folosi adresa contului.
+      low_battery_notification_email_hint: Trimite aici notificările de baterie descărcată pentru toate dispozitivele, în locul adresei contului. Lasă câmpul gol pentru a folosi adresa contului.
       explore_apps: Explorează aplicațiile
       explore_apps_hint: TRMNL Booking (rezervă săli pe loc), administrarea flotei și multe altele.
       manage_themes: Gestionează temele
@@ -180,8 +178,7 @@ ro:
       delete_account_confirm: Această acțiune șterge definitiv totul și îți rambursează 1 $. Continui?
       delete_account_hint: Șterge definitiv contul, dispozitivul de probă și toate datele. Taxa de probă de 1 $ îți este rambursată.
       delete_trial_device: Șterge dispozitivul de probă
-      delete_trial_device_confirm: Această acțiune șterge dispozitivul de probă și îți rambursează 1 $. Contul și celelalte dispozitive rămân
-        intacte. Continui?
+      delete_trial_device_confirm: Această acțiune șterge dispozitivul de probă și îți rambursează 1 $. Contul și celelalte dispozitive rămân intacte. Continui?
       delete_trial_device_hint: Șterge dispozitivul de probă și datele sale; îți rambursează 1 $. Contul și celelalte dispozitive rămân intacte.
       discord_after_license: Disponibil după achiziționarea unei licențe
       discord_join: Alătură-te serverului nostru dedicat dezvoltatorilor
@@ -200,26 +197,26 @@ ro:
           hint: Chei API, aplicații pentru dezvoltatori, teme și agenți
           api_keys:
             one: 1 cheie API
-            few: "%{count} chei API"
             other: "%{count} de chei API"
+            few: "%{count} chei API"
           connected_agents:
             one: 1 agent conectat
-            few: "%{count} agenți conectați"
             other: "%{count} de agenți conectați"
+            few: "%{count} agenți conectați"
         sharing:
           title: Partajare
           hint: Invită alte persoane să îți gestioneze dispozitivele
           shared_with:
             one: Partajat cu 1 persoană
-            few: Partajat cu %{count} persoane
             other: Partajat cu %{count} de persoane
+            few: Partajat cu %{count} persoane
         profile:
           title: Profil
           hint: Nume, e-mail, GitHub și Discord
         security:
           title: Securitate
-          two_factor_off: "2FA dezactivată"
-          two_factor_on: "2FA activată"
+          two_factor_off: 2FA dezactivată
+          two_factor_on: 2FA activată
           hint: Parolă și autentificare în doi pași
         agent:
           title: Agent AI
@@ -239,12 +236,10 @@ ro:
       model_hint: Alege un model predefinit sau introdu orice __ID de model OpenRouter__.
       openrouter_key: Cheie API OpenRouter
       openrouter_recommended: "(recomandat)"
-      openrouter_hint: Funcționează cu toate modelele. Fără probleme legate de limitele de cereri. Dacă sunt configurate ambele chei,
-        se folosește OpenRouter.
+      openrouter_hint: Funcționează cu toate modelele. Fără probleme legate de limitele de cereri. Dacă sunt configurate ambele chei, se folosește OpenRouter.
       anthropic_key: Cheie API Anthropic
       anthropic_direct: "(direct)"
-      anthropic_hint: Necesită nivelul de utilizare Tier 2 sau superior în contul Anthropic. Conturile noi vor atinge limitele de
-        cereri.
+      anthropic_hint: Necesită nivelul de utilizare Tier 2 sau superior în contul Anthropic. Conturile noi vor atinge limitele de cereri.
       tavily_key: Cheie API Tavily
       tavily_optional: "(opțional)"
       tavily_hint: Permite căutarea pe web în agent.
@@ -273,12 +268,10 @@ ro:
       leave: Renunță la acces
     sharing:
       name: Numele contului
-      name_hint: Numele afișat persoanelor cu care partajezi contul, de exemplu Acasă sau Sediul Acme. Lasă câmpul gol pentru
-        a folosi numele tău.
+      name_hint: Numele afișat persoanelor cu care partajezi contul, de exemplu Acasă sau Sediul Acme. Lasă câmpul gol pentru a folosi numele tău.
       save_name: Redenumește
       title: Partajare
-      hint: Invită pe cineva să îți gestioneze dispozitivele, listele de redare și pluginurile. Persoana invitată se conectează
-        cu propriul cont TRMNL.
+      hint: Invită pe cineva să îți gestioneze dispozitivele, listele de redare și pluginurile. Persoana invitată se conectează cu propriul cont TRMNL.
       email_placeholder: nume@example.com
       invite: Invită
       pending: În așteptare
@@ -288,12 +281,12 @@ ro:
       whole_account: Are acces la întregul cont
       devices:
         one: 1 dispozitiv
-        few: "%{count} dispozitive"
         other: "%{count} de dispozitive"
+        few: "%{count} dispozitive"
       plugin_settings:
         one: 1 configurare de plugin
-        few: "%{count} configurări de pluginuri"
         other: "%{count} de configurări de pluginuri"
+        few: "%{count} configurări de pluginuri"
       edit_access: Modifică accesul
       capabilities_fixed: Pentru a-i schimba permisiunile, revocă accesul și conectează-l din nou.
       access_saved: Accesul agentului a fost salvat.
@@ -328,8 +321,7 @@ ro:
       revoke_confirm: Revoci %{name}? Tot ce folosește această cheie va înceta să funcționeze.
       name: Nume
       create: Creează o cheie API pentru cont
-      legacy_hint: Cheie veche. Are acces doar la endpointurile inițiale. Pentru funcțiile mai noi, creează mai sus o cheie API
-        pentru cont.
+      legacy_hint: Cheie veche. Are acces doar la endpointurile inițiale. Pentru funcțiile mai noi, creează mai sus o cheie API pentru cont.
       older_key: Cheie veche
     destroy:
       account_deleted: Contul și toate datele tale au fost șterse.
@@ -361,7 +353,7 @@ ro:
     time_saved:
       title: Timp economisit
     discover_callout:
-      manage_persona: "Gestionează profilul"
+      manage_persona: Gestionează profilul
     welcome_message:
       morning_salutation: Bună dimineața
       afternoon_salutation: Bună ziua
@@ -379,12 +371,11 @@ ro:
       battery_learn_more: Află mai multe despre încărcarea bateriei __aici__.
       battery_refresh: Reîmprospătează
       click: Apăsare scurtă
-      click_action: "Următorul ecran"
+      click_action: Următorul ecran
       controls: Comenzi
       developer_perks: Beneficii pentru dezvoltatori
-      developer_perks_hint: Dezvoltare de pluginuri personalizate, adresă MAC editabilă (doar BYOD), acces anticipat la firmware și acces
-        API
-      device_credentials: "Date de autentificare"
+      developer_perks_hint: Dezvoltare de pluginuri personalizate, adresă MAC editabilă (doar BYOD), acces anticipat la firmware și acces API
+      device_credentials: Date de autentificare
       device_credentials_hint: Vezi ce poți face cu aceste date de autentificare __aici__
       device_api_key: Cheie API a dispozitivului
       mac_address: Adresă MAC
@@ -411,8 +402,7 @@ ro:
       firmware_updates_enabled: Actualizări activate
       firmware_updates_disabled: Actualizări dezactivate
       font_family: Familie de fonturi
-      font_family_hint: Familia de fonturi TRMNL a fost concepută pentru performanță optimă pe ecranele ePaper. Disponibilă pentru
-        pluginurile care folosesc UI Framework v%{min_version}+.
+      font_family_hint: Familia de fonturi TRMNL a fost concepută pentru performanță optimă pe ecranele ePaper. Disponibilă pentru pluginurile care folosesc UI Framework v%{min_version}+.
       guest_mode: Mod oaspete
       guest_mode_hint: Alege ce să afișezi (și pentru cât timp) ori de câte ori modul oaspete este activat.
       guest_mode_item_placeholder: Alege un element
@@ -441,11 +431,9 @@ ro:
       mirror_sync: Sincronizează ecranele
       ota_enabled: Actualizări OTA activate
       ota_enabled_hint: Instalează automat firmware nou. Dezactivează pentru a folosi propriul firmware.
-      ota_byod_not_supported: Actualizările OTA nu sunt disponibile pentru dispozitivele BYOD. Instalează direct o versiune compatibilă
-        de pe trmnl.com/flash
+      ota_byod_not_supported: Actualizările OTA nu sunt disponibile pentru dispozitivele BYOD. Instalează direct o versiune compatibilă de pe trmnl.com/flash
       maximum_compatibility: Activează compatibilitatea maximă
-      maximum_compatibility_hint: Rezolvă problemele de afișare cauzate de anumite circuite de control ePaper. Dezactivează reîmprospătarea
-        rapidă. Necesită firmware 1.6.0+.
+      maximum_compatibility_hint: Rezolvă problemele de afișare cauzate de anumite circuite de control ePaper. Dezactivează reîmprospătarea rapidă. Necesită firmware 1.6.0+.
       image_rotation: Rotirea imaginii
       screen_rotation: Rotirea ecranului
       screen_rotation_not_supported: Rotirea ecranului nu este disponibilă momentan pe dispozitivul tău.
@@ -469,8 +457,7 @@ ro:
       tidbyt_api_key: Cheie API Tidbyt
       tidbyt_device_id: ID dispozitiv
       unlink: Dezasociază
-      unlink_confirm: Ești sigur? Continuă doar dacă dai acest dispozitiv altcuiva sau treci la BYOS. Dezasocierea șterge toate
-        setările pluginurilor și elementele din listă. Dacă depanezi, contactează asistența la help.trmnl.com.
+      unlink_confirm: Ești sigur? Continuă doar dacă dai acest dispozitiv altcuiva sau treci la BYOS. Dezasocierea șterge toate setările pluginurilor și elementele din listă. Dacă depanezi, contactează asistența la help.trmnl.com.
       unlink_device: Dezasociază dispozitivul
       unlink_device_hint: Dezasocierea unui TRMNL îl face sigur pentru revânzare sau transfer altcuiva.
       unlink_device_learn_more: Urmează ghidul complet __aici__.
@@ -481,8 +468,7 @@ ro:
         sharable: Partajabil
       upgrade_og:
         title: Este disponibilă trecerea la afișare pe 2 biți
-        sub_title: Dispozitivul poate fi actualizat pentru o afișare îmbunătățită în tonuri de gri, cu 4 niveluri în loc de
-          2.
+        sub_title: Dispozitivul poate fi actualizat pentru o afișare îmbunătățită în tonuri de gri, cu 4 niveluri în loc de 2.
         warning_1: Înțeleg că această actualizare este <strong>ireversibilă</strong> și nu poate fi anulată.
         warning_2: Înțeleg că aceasta este o acțiune <strong>periculoasă</strong> și poate face dispozitivul inutilizabil.
         cta: Actualizează la TRMNL OG (2-bit)
@@ -493,57 +479,47 @@ ro:
         persona: Profil de utilizare
         persona_hint: Profilul de utilizare al dispozitivului influențează recomandările din Descoperă
         provisioned_by_html: Acest dispozitiv a fost configurat folosind profilul de utilizare <strong>%{name}</strong>.
-        mirror_disabled_hint: Profilul de utilizare nu poate fi gestionat pentru dispozitivele TRMNL oglindite. Gestionează recomandările
-          pe dispozitivul principal.
-        save_persona: "Salvează profilul"
-        reset_persona: "Resetează profilul"
+        mirror_disabled_hint: Profilul de utilizare nu poate fi gestionat pentru dispozitivele TRMNL oglindite. Gestionează recomandările pe dispozitivul principal.
+        save_persona: Salvează profilul
+        reset_persona: Resetează profilul
         reset_persona_hint: Resetarea profilului de utilizare nu va afecta setările și lista de redare ale dispozitivului
         reset_persona_confirm: Resetezi acest profil de utilizare și ștergi recomandările salvate?
       low_battery_notification_email: Trimite notificările acestui dispozitiv la
-      low_battery_notification_email_hint: Înlocuiește adresa contului, astfel încât notificările unui ecran să ajungă la persoana care îl gestionează.
-        Lasă câmpul gol pentru a folosi adresa contului.
+      low_battery_notification_email_hint: Înlocuiește adresa contului, astfel încât notificările unui ecran să ajungă la persoana care îl gestionează. Lasă câmpul gol pentru a folosi adresa contului.
       custom_width: Lățime (px)
       custom_height: Înălțime (px)
       custom_format: Formatul imaginii
       framework_size: Dimensiune în framework
-      maximum_image_bytes: "Limită imagine (octeți)"
+      maximum_image_bytes: Limită imagine (octeți)
       dither_pixel_ratio: Raportul pixelilor pentru dithering
       text_scale: Scara textului
       text_scale_hint: Ajustează dimensiunea textului de pe ecranele pluginurilor.
-      text_scale_version_note: Necesită Framework 3.1.5 sau o versiune ulterioară. Pluginurile private fixate la o versiune mai veche nu
-        vor fi afectate.
+      text_scale_version_note: Necesită Framework 3.1.5 sau o versiune ulterioară. Pluginurile private fixate la o versiune mai veche nu vor fi afectate.
       theme: Temă
       theme_hint: Aplică o temă de culori pe ecranele pluginurilor.
-      theme_version_note: Necesită Framework 3.2 sau o versiune ulterioară. Pluginurile private fixate la o versiune mai veche nu vor
-        fi afectate.
+      theme_version_note: Necesită Framework 3.2 sau o versiune ulterioară. Pluginurile private fixate la o versiune mai veche nu vor fi afectate.
       waits_for_next_render: Așteaptă următoarea actualizare
-      waits_for_next_render_hint: Dacă acum poate fi afișat un singur element, dispozitivul așteaptă următoarea lui actualizare în loc să se
-        conecteze la intervalul de mai sus. Poate fi un singur plugin, o compoziție sau o listă în care programările
-        lasă un singur element afișat. Dezactivează opțiunea pentru a respecta intervalul de reîmprospătare indiferent
-        de situație.
+      waits_for_next_render_hint: Dacă acum poate fi afișat un singur element, dispozitivul așteaptă următoarea lui actualizare în loc să se conecteze la intervalul de mai sus. Poate fi un singur plugin, o compoziție sau o listă în care programările lasă un singur element afișat. Dezactivează opțiunea pentru a respecta intervalul de reîmprospătare indiferent de situație.
       battery_advice:
         title: Sfaturi pentru baterie
         days_per_charge:
           one: În acest ritm, o încărcare durează aproximativ o zi.
-          few: În acest ritm, o încărcare durează aproximativ %{count} zile.
           other: În acest ritm, o încărcare durează aproximativ %{count} de zile.
+          few: În acest ritm, o încărcare durează aproximativ %{count} zile.
         gain:
           zero: ''
           one: "(prelungește autonomia cu aproximativ o zi)"
-          few: "(prelungește autonomia cu aproximativ %{count} zile)"
           other: "(prelungește autonomia cu aproximativ %{count} de zile)"
-        nothing_to_change: Nu trebuie să schimbi nimic aici. Dispozitivul se activează deja cel mult la fel de des cum se actualizează
-          pluginurile sale.
+          few: "(prelungește autonomia cu aproximativ %{count} zile)"
+        nothing_to_change: Nu trebuie să schimbi nimic aici. Dispozitivul se activează deja cel mult la fel de des cum se actualizează pluginurile sale.
         suggestions:
-          enable_wait: Reactivează „Așteaptă următoarea actualizare”, ca dispozitivul să rămână în repaus când nu există conținut
-            nou.
-          match_plugin_interval: Setează intervalul de reîmprospătare la %{minutes} minute, cel mai scurt interval de actualizare dintre
-            pluginurile sale.
+          enable_wait: Reactivează „Așteaptă următoarea actualizare”, ca dispozitivul să rămână în repaus când nu există conținut nou.
+          match_plugin_interval: Setează intervalul de reîmprospătare la %{minutes} minute, cel mai scurt interval de actualizare dintre pluginurile sale.
           enable_sleep_mode: Activează modul de repaus în orele în care nimeni nu privește ecranul.
         wakes_per_day_measured:
           one: În ultimele 7 zile, dispozitivul s-a activat aproximativ o dată pe zi.
-          few: În ultimele 7 zile, dispozitivul s-a activat de aproximativ %{count} ori pe zi.
           other: În ultimele 7 zile, dispozitivul s-a activat de aproximativ %{count} de ori pe zi.
+          few: În ultimele 7 zile, dispozitivul s-a activat de aproximativ %{count} ori pe zi.
         stale: Salvează modificările pentru a recalcula aceste valori cu noua setare.
       check_in_preview:
         next_check_in: 'Următoarea conectare: %{when}.'
@@ -573,13 +549,15 @@ ro:
         next_check_in_due: Dispozitivul se va conecta în orice moment.
       battery_estimate: 'Autonomie estimată cu această setare: %{days} zile'
       refreshing_screen_disabled: Ascunde ecranul de reîmprospătare
-      refreshing_screen_disabled_hint: Păstrează ecranul curent în timpul generării noului ecran, în loc să afișezi „Te punem la curent”. După apăsarea
-        butonului de reîmprospătare, nimic nu se schimbă până când noul ecran este gata.
+      refreshing_screen_disabled_hint: Păstrează ecranul curent în timpul generării noului ecran, în loc să afișezi „Te punem la curent”. După apăsarea butonului de reîmprospătare, nimic nu se schimbă până când noul ecran este gata.
       sleep_until: Repaus temporar
-      sleep_until_hint: La următoarea conectare, dispozitivul intră în repaus până la această oră. Apasă butonul pentru a-l activa
-        mai devreme. Dacă nu a intrat încă în repaus, golește câmpul pentru a anula.
+      sleep_until_hint: La următoarea conectare, dispozitivul intră în repaus până la această oră. Apasă butonul pentru a-l activa mai devreme. Dacă nu a intrat încă în repaus, golește câmpul pentru a anula.
       font_set_by_theme: Stabilit de %{theme}
       developer_perks_mac_address_needed: Introdu aici adresa MAC reală a dispozitivului
+      vestaboard_credentials: Vestaboard API token
+      vestaboard_token_saved: Saved
+      vestaboard_token_missing: Not set yet, so nothing is sent to the board
+      vestaboard_credentials_hint: In the Vestaboard app, open Settings, then Advanced Settings, then API. Create a token with Write access and paste it here.
     discover_persona:
       label: Profil de utilizare și Descoperă
       disabled_hint: Dezactivat pentru dispozitivele TRMNL oglindite. Gestionează recomandările pe dispozitivul principal.
@@ -600,7 +578,7 @@ ro:
       copy_playlist_non_destructive: Elementele existente în lista de redare nu vor fi șterse.
       target_device: Dispozitiv destinație
     clear_playlist:
-      success: "Lista de redare a dispozitivului %{device} a fost golită."
+      success: Lista de redare a dispozitivului %{device} a fost golită.
     copy_playlist:
       error_same_device: Dispozitivul sursă și cel destinație trebuie să fie diferite.
       success: Lista de redare a fost copiată de pe %{source} pe %{target}.
@@ -631,7 +609,7 @@ ro:
     update:
       error: Eroare la actualizarea dispozitivului
       success: Setările dispozitivului %{device} actualizate cu succes
-      choose_palette: "Modelul dispozitivului %{device} a fost actualizat. Alege paleta pe care o poate afișa ecranul."
+      choose_palette: Modelul dispozitivului %{device} a fost actualizat. Alege paleta pe care o poate afișa ecranul.
     add_device_first: Adaugă mai întâi un dispozitiv
     image_too_big:
       message: Dispozitivul a respins o imagine de %{size}; acest model acceptă cel mult %{limit}.
@@ -657,7 +635,7 @@ ro:
       setup:
         title: Configurează un profil de utilizare pentru %{device_label}
         subtext: Răspunde la câteva întrebări pentru a primi recomandări potrivite rolului acestui TRMNL.
-        primary_label: "Configurează profilul"
+        primary_label: Configurează profilul
     app_card:
       tag: Aplicație
       hint: Păstrează-l pentru a-l adăuga în rotația ecranelor.
@@ -679,7 +657,7 @@ ro:
       temporarily_unavailable: Jurnalele sunt temporar indisponibile. Încearcă din nou mai târziu.
       empty: Nu există încă jurnale.
       expiry_notice: Jurnalele se păstrează două săptămâni și expiră automat — nu pot fi șterse manual aici.
-      load_older: "Mai vechi"
+      load_older: Mai vechi
       level: Nivel
   markups:
     console_logs:
@@ -699,8 +677,8 @@ ro:
       go_to_preview: Mergi la previzualizare
       live_preview: Previzualizare în timp real
       no_changes_to_save: Nicio modificare de salvat
-      pop_out_preview: "Previzualizare separată"
-      revert: "Revino"
+      pop_out_preview: Previzualizare separată
+      revert: Revino
       revert_confirm: Revii la versiunea salvată? Toate modificările nesalvate vor fi pierdute.
       save_changes: Salvează modificările (⌘﹢S)
       separate_preview: Previzualizarea este deschisă într-o fereastră separată
@@ -765,39 +743,37 @@ ro:
       model_locked: Modelul AI este stabilit de TRMNL
   mfa:
     disable_otp:
-      success: "2FA dezactivată"
+      success: 2FA dezactivată
       invalid_otp: OTP invalid
       invalid_password: Parolă invalidă
       invalid_otp_and_password: OTP și parolă invalide
     enable_otp:
       input_otp: Introdu codul OTP
       submit: Verifică și activează
-      already_enabled: "2FA deja activată"
+      already_enabled: 2FA deja activată
     enable_otp_verify:
-      success: "2FA activată"
+      success: 2FA activată
       error: Cod OTP invalid
     verify_otp:
       verify: Verifică
       reset: Resetează MFA
       reset_instructions: Apasă butonul din spatele TRMNL-ului tău pentru a genera un cod de resetare
-      success: "2FA reușită"
+      success: 2FA reușită
       error: Cod OTP invalid
       reset_hint: Ai pierdut aplicația de autentificare? Putem afișa în schimb un cod de unică folosință pe TRMNL.
-      reset_pending: Un cod de unică folosință a fost trimis către TRMNL și va apărea la următoarea conectare. Între timp, aplicația
-        de autentificare funcționează în continuare.
-      no_device: Niciun dispozitiv TRMNL nu s-a conectat recent, deci nu avem unde să afișăm codul de resetare. Contactează
-        echipa de asistență.
+      reset_pending: Un cod de unică folosință a fost trimis către TRMNL și va apărea la următoarea conectare. Între timp, aplicația de autentificare funcționează în continuare.
+      no_device: Niciun dispozitiv TRMNL nu s-a conectat recent, deci nu avem unde să afișăm codul de resetare. Contactează echipa de asistență.
   playlist_items:
     index:
       title: Listă de redare
       add_to_playlist: Adaugă în lista de redare
       custom: Personalizat
-      device_default: "Implicit pe dispozitiv"
+      device_default: Implicit pe dispozitiv
       never_skip: Nu omite niciodată ecranele
       skip_after:
         one: Omite ecranele neactualizate după 1 zi
-        few: Omite ecranele neactualizate după %{count} zile
         other: Omite ecranele neactualizate după %{count} de zile
+        few: Omite ecranele neactualizate după %{count} zile
       add_plugin: Adaugă un plugin
       select: Selectează
       exit_select: Ieși din modul de selecție
@@ -821,12 +797,10 @@ ro:
           description: Selectează „Adaugă un plugin” de mai sus pentru a adăuga unul dintre pluginurile tale.
           cta: Cauți ceva nou? Explorează pluginurile
       hold_screen: Păstrează ecranul
-      hold_screen_hint: Păstrează ecranul curent până când apeși butonul. O activare programată îl reîmprospătează, dar nu trece la
-        următorul ecran.
+      hold_screen_hint: Păstrează ecranul curent până când apeși butonul. O activare programată îl reîmprospătează, dar nu trece la următorul ecran.
     playlist_item:
       adjust_schedule: Modifică programarea
-      delete: Ești sigur că vrei să elimini acest element? Pluginul va rămâne conectat, doar că nu va fi afișat pe dispozitivul
-        tău.
+      delete: Ești sigur că vrei să elimini acest element? Pluginul va rămâne conectat, doar că nu va fi afișat pe dispozitivul tău.
       displayed_now: Afișat acum
       not_displayed_yet: Neafișat încă
       remove_from_playlist: Elimină din lista de redare
@@ -912,8 +886,8 @@ ro:
       title: Ziua care urmează
       times:
         one: o dată
-        few: "%{count}×"
         other: "%{count}×"
+        few: "%{count}×"
       nothing: Nimic de afișat %{duration}
       asleep_segment: În repaus
       nothing_segment: Nimic de afișat
@@ -965,9 +939,9 @@ ro:
       knowledge_base_url: URL bază de cunoștințe
       management_url: URL gestionare plugin
       management_url_hint: Află mai multe despre fluxul de gestionare __aici__.
-      markup_url: "URL cod de afișare"
+      markup_url: URL cod de afișare
       markup_url_hint: Află mai multe despre generarea ecranelor __aici__.
-      no_screen_padding: "Fără spațiu la margini"
+      no_screen_padding: Fără spațiu la margini
       no_screen_padding_hint: Elimină spațiul interior de la marginea ecranului în modul ecran complet.
       uninstallation_webhook_url: URL webhook dezinstalare
     edit:
@@ -979,8 +953,8 @@ ro:
     connected: Rețetă conectată
     connections:
       one: Conexiune
-      few: Conexiuni
       other: Conexiuni
+      few: Conexiuni
     new:
       error: Rețeta nu a fost găsită
     show:
@@ -996,8 +970,7 @@ ro:
   plugin_settings:
     copy_are_you_sure: Ești sigur că vrei să copiezi această setare?
     delete_are_you_sure: Ești sigur că vrei să ștergi această setare?
-    delete: Aceasta va elimina complet setările pluginului. Pentru a ascunde pur și simplu acest plugin de pe dispozitivul
-      tău, șterge-l din lista de redare.
+    delete: Aceasta va elimina complet setările pluginului. Pentru a ascunde pur și simplu acest plugin de pe dispozitivul tău, șterge-l din lista de redare.
     no_matches_found: Niciun plugin nu corespunde filtrelor tale.
     not_supported: Indisponibil pe dispozitivul curent
     refreshing_now_please_wait: Se reîmprospătează.
@@ -1021,9 +994,7 @@ ro:
       force_refresh_click_here_hint: pentru a genera acum un ecran nou
       force_refresh_not_possible: Acest plugin nu poate fi reîmprospătat forțat deoarece serverul TRMNL nu efectuează procesarea imaginilor. Află cum să testezi instanța ta __aici__.
       health_notifications: Notificări privind funcționarea
-      health_notifications_hint: Primește un e-mail când starea acestui plugin se schimbă în degradată sau cu erori. Vei primi cel mult un
-        e-mail pentru fiecare stare, la fiecare incident; alertele se reactivează după ce pluginul revine la funcționarea
-        normală.
+      health_notifications_hint: Primește un e-mail când starea acestui plugin se schimbă în degradată sau cu erori. Vei primi cel mult un e-mail pentru fiecare stare, la fiecare incident; alertele se reactivează după ce pluginul revine la funcționarea normală.
       health_notifications_checkbox: Trimite-mi un e-mail când acest plugin nu mai funcționează normal
       learn_more: Află despre acest plugin în baza noastră de cunoștințe
       learn_more_recipe_author: Ai nevoie de ajutor? Contactează %{recipe_author} pe Discord.
@@ -1065,8 +1036,7 @@ ro:
       synced: Sincronizat
       refresh_paused: Reîmprospătare suspendată
       refresh_paused_hint: Reîmprospătarea automată este suspendată. Adaugă pluginul în lista de redare pentru a o reporni.
-      refresh_paused_hidden_hint: Reîmprospătarea automată este suspendată deoarece acest plugin este ascuns. Pentru a-i menține datele actualizate
-        pentru alte pluginuri, folosește strategia Plugin Merge.
+      refresh_paused_hidden_hint: Reîmprospătarea automată este suspendată deoarece acest plugin este ascuns. Pentru a-i menține datele actualizate pentru alte pluginuri, folosește strategia Plugin Merge.
       refresh_paused_mashup: Se reîmprospătează compozițiile
       refresh_paused_mashup_hint: Reîmprospătarea automată este suspendată pentru ecranul complet. Compozițiile se actualizează.
       refresh_stopped: Reîmprospătarea automată oprită. Rezolvă eroarea pluginului pentru a continua.
@@ -1074,20 +1044,17 @@ ro:
       visit_docs: Consultă documentația
       preview_from_device: Previzualizare de pe %{device}
       refresh_paused_merge: Reîmprospătare prin Plugin Merge
-      refresh_paused_merge_hint: Reîmprospătarea automată este suspendată deoarece acest plugin este ascuns. Datele sale sunt actualizate de
-        %{names} prin Plugin Merge.
+      refresh_paused_merge_hint: Reîmprospătarea automată este suspendată deoarece acest plugin este ascuns. Datele sale sunt actualizate de %{names} prin Plugin Merge.
       clear_state: Șterge starea salvată
       virtual_device_short_heading: Dispozitiv virtual? Apasă mai jos pentru a genera ecrane.
       virtual_device_long_heading: Dispozitiv virtual? Folosește această opțiune pentru a genera ecrane la cerere.
       description_hint: O descriere scurtă a pluginului. Apare în rezultatele căutării dacă este publicat ca rețetă.
       description_placeholder: Următoarele plecări de trenuri
       max_refresh_rate: Interval minim de reîmprospătare
-      max_refresh_rate_hint: Se reîmprospătează la cerere, când dispozitivul se conectează — cel mult o dată la intervalul de mai jos.
-        __Află mai multe__.
+      max_refresh_rate_hint: Se reîmprospătează la cerere, când dispozitivul se conectează — cel mult o dată la intervalul de mai jos. __Află mai multe__.
       recipe_step_acknowledge: Confirmă respectarea recomandărilor
       recipe_step_choose_visibility: Alege vizibilitatea
-      recipe_best_practices_acknowledgement: Am citit și aplicat __recomandările__ pentru publicarea pluginurilor. Un membru al echipei TRMNL va analiza
-        cu atenție contribuția mea și îmi va oferi feedback detaliat.
+      recipe_best_practices_acknowledgement: Am citit și aplicat __recomandările__ pentru publicarea pluginurilor. Un membru al echipei TRMNL va analiza cu atenție contribuția mea și îmi va oferi feedback detaliat.
       recipe_licensing_note_label: Notă
       recipe_licensing_notice: Pluginurile publice se supun regulilor de __licențiere a pluginurilor__.
       upload_image: Încarcă o imagine
@@ -1104,12 +1071,10 @@ ro:
       learn_more_recipe_long: Acest plugin este o rețetă a comunității și nu este întreținut de TRMNL.
       learn_more_third_party_short: 'Notă: acest plugin aparține unei terțe părți.'
       learn_more_third_party_long: Acest plugin aparține unei terțe părți și nu este întreținut de TRMNL.
-      polling_inherited_hint: 'Câmp gol: se folosește valoarea autorului rețetei. Completează-l pentru a folosi propria valoare; dacă setezi
-        propriul URL, antetele și corpul cererii definite de autor nu se mai aplică.'
+      polling_inherited_hint: 'Câmp gol: se folosește valoarea autorului rețetei. Completează-l pentru a folosi propria valoare; dacă setezi propriul URL, antetele și corpul cererii definite de autor nu se mai aplică.'
       refresh_rate_floor_by_author: Autorul rețetei limitează instalările la %{refresh_rate}.
       refresh_rate_floor_by_owner: Limitat la %{refresh_rate} de setarea „Interval minim de reîmprospătare” de mai jos.
-      parse_empty: Nu s-a generat nimic. Verifică dacă condițiile Liquid corespund valorilor salvate. Un câmp de selecție își
-        salvează opțiunea cu litere mici.
+      parse_empty: Nu s-a generat nimic. Verifică dacă condițiile Liquid corespund valorilor salvate. Un câmp de selecție își salvează opțiunea cu litere mici.
       use_existing_connection: Sau folosește un cont deja conectat
       use_connection_from: Folosește conexiunea de la %{name}
       uses_connection_from: Folosește conexiunea de la %{name}.
@@ -1146,14 +1111,12 @@ ro:
       unavailable: Opțiunile nu s-au încărcat — consultă jurnalele pluginului pentru detalii.
       credentials_rejected: Datele de autentificare au fost respinse — verifică-le și reîncarcă pagina.
       no_homey: Nu s-a găsit niciun Homey în acest cont Athom — adaugă unul în aplicația Homey, apoi reîncarcă pagina.
-      mazevo_rooms_forbidden: Această cheie API nu poate lista sălile. Activează pentru ea grupul Building and Rooms Calls în Mazévo sau
-        introdu mai jos ID-ul sălii.
-      outlook_mailbox_unavailable: Microsoft nu poate deschide căsuța poștală a acestui cont. Poate fi inactivă, ștearsă sau găzduită pe serverul
-        Exchange al organizației. Întreabă echipa IT sau conectează alt cont Microsoft.
+      mazevo_rooms_forbidden: Această cheie API nu poate lista sălile. Activează pentru ea grupul Building and Rooms Calls în Mazévo sau introdu mai jos ID-ul sălii.
+      outlook_mailbox_unavailable: Microsoft nu poate deschide căsuța poștală a acestui cont. Poate fi inactivă, ștearsă sau găzduită pe serverul Exchange al organizației. Întreabă echipa IT sau conectează alt cont Microsoft.
     delete_mashup_warning:
       one: Acest plugin ocupă un spațiu într-o compoziție. Eliminarea lui lasă spațiul gol.
-      few: Acest plugin ocupă %{count} spații în compoziții. Eliminarea lui lasă acele spații goale.
       other: Acest plugin ocupă %{count} de spații în compoziții. Eliminarea lui lasă acele spații goale.
+      few: Acest plugin ocupă %{count} spații în compoziții. Eliminarea lui lasă acele spații goale.
     state_cleared: Starea salvată a fost ștearsă. Următoarea reîmprospătare va porni de la zero.
     index:
       no_plugin_settings_found: Nu ai configurat încă acest plugin.
@@ -1164,7 +1127,7 @@ ro:
       degraded_long: Pluginul funcționează în stare degradată. Remediază problema pentru a evita oprirea reîmprospătării.
       erroring_short: Acest plugin întâmpină o eroare.
       erroring_long: Pluginul întâmpină o eroare. Remediază problema pentru a reporni reîmprospătarea.
-      reset_health: "Resetează starea"
+      reset_health: Resetează starea
     inactive_references_banner:
       short: Pluginurile referențiate nu se sincronizează.
       long: 'Acest plugin folosește date de la pluginuri care nu apar în nicio listă de redare:'
@@ -1179,8 +1142,7 @@ ro:
       confirm: Dezinstalează
     mcp_key:
       title: Cheie API MCP
-      description: Folosește această cheie pentru a conecta agenți AI (Claude Desktop etc.) care să gestioneze codul de afișare
-        al pluginului.
+      description: Folosește această cheie pentru a conecta agenți AI (Claude Desktop etc.) care să gestioneze codul de afișare al pluginului.
       copy_title: Copiază cheia completă în clipboard
       revoke: Revocă cheia
       revoke_confirm: Revoci această cheie MCP? Toți agenții conectați vor pierde accesul.
@@ -1191,20 +1153,48 @@ ro:
       whole_account_guide: Cum te conectezi
       whole_account_summary: Gestionează în schimb întregul cont
     linked_google_account:
-      connected: '%{name} a fost conectat. Evenimentele sale apar acum aici.'
+      connected: "%{name} a fost conectat. Evenimentele sale apar acum aici."
       default_name: Alt cont Google
     preview_updated_just_now: Actualizat chiar acum.
     icon_generation:
       summary: Desenează o pictogramă cu AI
-      hint: Descrie pictograma sau păstrează descrierea generată din pluginul tău. Este gratuit și înlocuiește pictograma
-        curentă.
+      hint: Descrie pictograma sau păstrează descrierea generată din pluginul tău. Este gratuit și înlocuiește pictograma curentă.
       submit: Desenează pictograma
       generating: Se desenează pictograma
       failed: Nu am putut desena pictograma. Încearcă din nou sau schimbă descrierea.
     remixes:
-      name: "Remix %{name}"
+      name: Remix %{name}
       create:
-        success: "Datele %{plugin} sunt acum {{ %{keyname} }}."
+        success: Datele %{plugin} sunt acum {{ %{keyname} }}.
+    live_preview:
+      live: Live preview
+      image: Rendered image
+      invitation: Live preview shows unsaved changes as you edit.
+      explanation: Live preview renders in the browser. The rendered image is the last screen generated for the device and can differ slightly.
+      sample: Sample data
+      sample_hint: Examples show how these settings look.
+      cached: Your data
+      cached_hint: Fetched
+      partial: Your data
+      partial_hint: Some dates may be missing until you save and refresh.
+      invalid: Not updated
+      invalid_hint: Check the settings and the selected device.
+      error: Not updated
+      error_hint: The last successful preview is still shown.
+      retry: Retry
+      sizes: Sizes
+      full: Full
+      half_horizontal: Half H
+      half_vertical: Half V
+      quadrant: Quadrant
+    test_request:
+      button: Test request
+      missing_url: Add a Polling URL first.
+      rate_limited: Too many test requests. Try again in a minute.
+      sent: 'Sent:'
+      received: 'Received:'
+    missing_composition:
+      message: No composition yet — this plugin won't display on this device until you add one.
   recipes:
     index:
       newest_to_oldest: De la cel mai nou la cel mai vechi
@@ -1213,6 +1203,7 @@ ro:
       install: Instalează
       fork: Creează un fork
       search_placeholder: 'Caută, de ex.: benzi desenate'
+      filtered_for_device: Showing recipes with a %{device} layout.
   schedules:
     form:
       append: Și în timpul…
@@ -1239,8 +1230,8 @@ ro:
       apps/fleet/app: Flotă
       plugin_uninstall_feedback:
         one: Feedback
-        few: Feedback
         other: Feedback
+        few: Feedback
       apps/chess/app: Șah
       apps/preload/app: Preîncarcă
     attributes:
@@ -1297,14 +1288,14 @@ ro:
       summary:
         rooms:
           one: 1 sală
-          few: "%{count} săli"
           other: "%{count} de săli"
+          few: "%{count} săli"
       common:
         unavailable: Indisponibil
         units_available:
           one: 1 disponibil
-          few: "%{count} disponibile"
           other: "%{count} disponibile"
+          few: "%{count} disponibile"
         add_to_device: Adaugă pe dispozitiv
         available: Disponibil
         booked: Rezervat
@@ -1321,8 +1312,8 @@ ro:
         disconnect: Deconectează
         device_count:
           one: "%{count} dispozitiv"
-          few: "%{count} dispozitive"
           other: "%{count} de dispozitive"
+          few: "%{count} dispozitive"
         edit: Editează
         visit_docs: Consultă documentația
         end: Încheie
@@ -1337,12 +1328,12 @@ ro:
         update_changes: Actualizează modificările
         seats:
           one: 1 loc
-          few: "%{count} locuri"
           other: "%{count} de locuri"
+          few: "%{count} locuri"
         features:
           one: 1 dotare
-          few: "%{count} dotări"
           other: "%{count} de dotări"
+          few: "%{count} dotări"
         settings: Setări
         show_more: Afișează încă %{count}
         sync_error: 'Eroare de sincronizare:'
@@ -1379,8 +1370,8 @@ ro:
           all_day: Toată ziua
           more_attendees:
             one: încă 1
-            few: "încă %{count}"
-            other: "încă %{count}"
+            other: încă %{count}
+            few: încă %{count}
       room_screens:
         until: Până la %{time}
       home:
@@ -1391,8 +1382,8 @@ ro:
           none: Niciunul
           sync_errors: Erori de sincronizare
           toggle_values:
-            disabled: 'Dezactivat'
-            enabled: 'Activat'
+            disabled: Dezactivat
+            enabled: Activat
           unmapped_devices: Dispozitive care nu afișează încă nimic
           virtual_device: Virtual
           undisplayed_calendars: Calendare care nu sunt afișate încă pe niciun dispozitiv
@@ -1438,7 +1429,7 @@ ro:
           edit_room: Editează
           edit_calendar: Editează calendarul
           edited_name: Nume modificat
-          edited_name_yes: 'Da'
+          edited_name_yes: Da
           externally_managed: Gestionat extern
           externally_managed_hint: Rezervările sunt controlate de fluxul iCal conectat. Adaugă sau modifică evenimentele în calendarul extern.
           features: Dotări
@@ -1458,8 +1449,7 @@ ro:
             enabled: Activat
           upcoming: În curând
           read_only: Doar citire
-          read_only_hint: Contul Google conectat poate doar să vizualizeze acest calendar. Acordă-i permisiunea de a modifica evenimentele
-            pentru a accepta rezervări aici.
+          read_only_hint: Contul Google conectat poate doar să vizualizeze acest calendar. Acordă-i permisiunea de a modifica evenimentele pentru a accepta rezervări aici.
           company_logo: Sigla companiei
           company_logo_values:
             disabled: Dezactivat
@@ -1492,8 +1482,8 @@ ro:
           empty: Nu există încă colecții.
           resource_count:
             one: 1 resursă
-            few: "%{count} resurse"
             other: "%{count} de resurse"
+            few: "%{count} resurse"
           title: Colecții de resurse
         new:
           back_to_collections: Înapoi la colecții
@@ -1541,8 +1531,7 @@ ro:
         edit:
           back_to_integrations: Înapoi la integrări
           microsoft_exchange_docs: Căsuță poștală partajată pentru organizator și grupuri de resurse personalizate în Exchange
-          microsoft_verification_failed: Microsoft nu a putut verifica aceste setări. Verifică permisiunile Full Access și Send As, ID-ul grupului
-            și consimțământul.
+          microsoft_verification_failed: Microsoft nu a putut verifica aceste setări. Verifică permisiunile Full Access și Send As, ID-ul grupului și consimțământul.
           no_calendars: Sincronizează această integrare pentru a descoperi calendarele.
           synchronized_calendars: Calendare sincronizate
           synchronized_calendars_hint: Alege calendarele care apar în Rezervări și sincronizează evenimentele.
@@ -1550,18 +1539,16 @@ ro:
           sync_error_title: Eroare de sincronizare
           sync_error_summary:
             one: Un calendar nu s-a putut sincroniza. Verifică setările furnizorului, apoi sincronizează.
-            few: "%{count} calendare nu s-au putut sincroniza. Verifică setările furnizorilor, apoi sincronizează."
             other: "%{count} de calendare nu s-au putut sincroniza. Verifică setările furnizorilor, apoi sincronizează."
+            few: "%{count} calendare nu s-au putut sincroniza. Verifică setările furnizorilor, apoi sincronizează."
           sync_error_detail: "%{calendar}: %{error}"
         index:
           add_account: Adaugă un cont
           add_calendar: Adaugă un calendar
           add_company: Adaugă o companie
           connected_accounts: Conturi conectate
-          disconnect_account_confirm: Deconectezi %{account}? Sălile sincronizate vor fi eliminate din toate instalările care folosesc acest
-            cont.
-          disconnect_workspace_confirm: Deconectezi %{workspace}? Sălile sincronizate vor fi eliminate din toate instalările care folosesc acest
-            spațiu de lucru.
+          disconnect_account_confirm: Deconectezi %{account}? Sălile sincronizate vor fi eliminate din toate instalările care folosesc acest cont.
+          disconnect_workspace_confirm: Deconectezi %{workspace}? Sălile sincronizate vor fi eliminate din toate instalările care folosesc acest spațiu de lucru.
           google_account: Cont Google
           google_account_hint: Calendarele tale personale, inclusiv sălile de ședințe la care te-ai abonat.
           google_workspace: Google Workspace
@@ -1711,12 +1698,12 @@ ro:
           time_format_12_hour: Format AM/PM
           time_format_24_hour: Format de 24 de ore
           time_format_detect: Detectează din fusul orar
-          time_format_hint: Alege dacă orele rezervărilor apar în format de 24 de ore sau AM/PM în panourile de control, paginile
-            publice de rezervare și pe ecranele dispozitivelor.
+          time_format_hint: Alege dacă orele rezervărilor apar în format de 24 de ore sau AM/PM în panourile de control, paginile publice de rezervare și pe ecranele dispozitivelor.
           time_settings: Fus orar și format
           timezone: Fus orar
-          timezone_hint: "Setează un singur fus orar pentru toate calendarele sau lasă aplicația să îl determine: se preferă fusul\
-            \ orar al calendarului, dacă este disponibil; altfel, se folosește cel ales în setările contului.\n"
+          timezone_hint: 'Setează un singur fus orar pentru toate calendarele sau lasă aplicația să îl determine: se preferă fusul orar al calendarului, dacă este disponibil; altfel, se folosește cel ales în setările contului.
+
+            '
           timezone_calendar: Fusul orar al calendarului sau al contului
           uninstall: Dezinstalează
           uninstall_confirm: Dezinstalezi %{app}?
@@ -1728,28 +1715,26 @@ ro:
         title: Facturare
         summary:
           one: "%{count} resursă pe ecrane — %{total} pe lună"
-          few: "%{count} resurse pe ecrane — %{total} pe lună"
           other: "%{count} de resurse pe ecrane — %{total} pe lună"
+          few: "%{count} resurse pe ecrane — %{total} pe lună"
         incomplete: Plata nu a fost finalizată.
         active: Abonamentul Rezervări este activ.
         manage: Gestionează facturarea
         checkout_error: Pagina de plată nu s-a încărcat. Reîmprospătează pentru a încerca din nou.
         trial_active: Perioada de probă gratuită este în curs. Vei fi facturat la încheierea ei.
-        nothing_to_bill: Nu este încă afișată nicio resursă, deci nu există nimic de facturat. Adaugă o resursă pe un dispozitiv
-          pentru a începe.
+        nothing_to_bill: Nu este încă afișată nicio resursă, deci nu există nimic de facturat. Adaugă o resursă pe un dispozitiv pentru a începe.
         bind_confirm:
           one: Această acțiune adaugă 1 resursă la planul tău (%{amount}). Continui?
-          few: Această acțiune adaugă %{count} resurse la planul tău (%{amount}). Continui?
           other: Această acțiune adaugă %{count} de resurse la planul tău (%{amount}). Continui?
+          few: Această acțiune adaugă %{count} resurse la planul tău (%{amount}). Continui?
         screen_title: Este necesar un abonament
-        screen_body: Adaugă o metodă de plată pentru a afișa din nou această resursă.
-        locked: Adaugă o metodă de plată pentru a păstra resursele pe ecran.
+        screen_body: Set up billing to show this resource again.
+        locked: Set up billing to keep your resources on screen.
         past_due: Ultima plată a eșuat. Actualizează cardul pentru a evita întreruperea.
         grace:
           one: Rezervări devine o aplicație cu plată la %{date}. Costul pentru %{count} resursă va fi %{total} pe lună.
+          other: Rezervări devine o aplicație cu plată la %{date}. Costul pentru %{count} de resurse va fi %{total} pe lună.
           few: Rezervări devine o aplicație cu plată la %{date}. Costul pentru %{count} resurse va fi %{total} pe lună.
-          other: Rezervări devine o aplicație cu plată la %{date}. Costul pentru %{count} de resurse va fi %{total} pe
-            lună.
         manage_calendars: Gestionează calendarele
       tagline: Programele sălilor pe ecranele tale, cu rezervări prin cod QR folosind TRMNL.
       sync_failure_email:
@@ -1757,12 +1742,8 @@ ro:
         intro: Rezervări nu a putut sincroniza „%{name}” de la %{provider} după %{count} încercări consecutive eșuate.
         last_synced: 'Ultima sincronizare reușită: %{time}.'
         never_synced: Acest calendar nu s-a sincronizat niciodată cu succes.
-        warning: Rezervările afișate pe ecrane pot fi învechite. Reîncercările programate au fost oprite până când o sincronizare
-          reușește.
-        instructions: Verifică setările conexiunii calendarului. Pentru calendarele Google sau Microsoft, reconectează contul
-          dacă accesul a expirat. Pentru calendarele iCal, verifică dacă URL-ul fluxului mai funcționează. După
-          remediere, deschide din nou pagina calendarului pentru a reîncerca. O sincronizare reușită reactivează
-          reîncercările programate.
+        warning: Rezervările afișate pe ecrane pot fi învechite. Reîncercările programate au fost oprite până când o sincronizare reușește.
+        instructions: Verifică setările conexiunii calendarului. Pentru calendarele Google sau Microsoft, reconectează contul dacă accesul a expirat. Pentru calendarele iCal, verifică dacă URL-ul fluxului mai funcționează. După remediere, deschide din nou pagina calendarului pentru a reîncerca. O sincronizare reușită reactivează reîncercările programate.
         open_calendar: Deschide calendarul
         providers:
           ical: iCal
@@ -1778,6 +1759,42 @@ ro:
         syncing: Se sincronizează
         stale: Datele calendarului întârzie. Se reîncearcă…
         unavailable: Acest ecran nu mai este disponibil.
+      pricing:
+        billing_period: Billing period
+        annual_saving: Save %{amount} / room with annual billing
+        included: Included
+        calendars: Your calendars
+        calendars_hint: Every calendar works the same and costs the same. Mix them as you like.
+        existing_screens: Screens you already own cost nothing. Booking also runs on tablets and TVs.
+        add_devices:
+          one: Add %{count} device
+          other: Add %{count} devices
+        comparison_links:
+          joan: Joan vs. TRMNL
+          robin: Robin vs. TRMNL
+          envoy: Envoy vs. TRMNL
+          tablets: Tablets vs. TRMNL
+        features:
+          room_status: Live room status that changes when a meeting starts or ends
+          walk_up_booking: Walk-up booking with a QR code, from any phone
+          branding: Your logo and your room names on every screen
+          collections: Hallway screens that show many rooms at once
+          virtual_displays: Virtual displays on the tablets and TVs you already own
+          monitoring: Battery levels, and an email when a calendar stops syncing
+          setup: Set it up yourself, in minutes
+          support: Email support from real people
+          updates: New features as we ship them
+          room_changes: Add or remove rooms at any time
+        comparison_period: 10 rooms over 3 years, with annual billing
+        saves: Save %{amount} with TRMNL
+        saves_at_least: Save at least %{amount} with TRMNL
+        platform_fee: "%{amount} + platform fee"
+        quote_required: Quote required
+        tablet_total: "%{name} + Booking: %{amount}"
+        joan_assumptions: Entry plan, display licenses and Joan 6 RE devices. Active user fees excluded.
+        envoy_assumptions: Room licenses, Android tablets and locking enclosures. Platform fee excluded.
+        tablet_assumptions: Tablets, locking enclosures and Booking. Existing outlets assumed.
+        comparison_exclusions: US prices before tax and shipping. Power installation and device management excluded. See each comparison for sources and assumptions.
     fleet:
       tagline: Oglindește ecranul și setările unui dispozitiv pe mai multe ecrane.
       check_ins:
@@ -1793,8 +1810,7 @@ ro:
         on_time: La timp
         asleep: În repaus
         lowest_battery: Bateria cea mai descărcată
-        overdue_explainer: Un dispozitiv este întârziat când ratează ora de conectare pe care a anunțat-o. Dispozitivele în repaus
-          nu sunt luate în calcul.
+        overdue_explainer: Un dispozitiv este întârziat când ratează ora de conectare pe care a anunțat-o. Dispozitivele în repaus nu sunt luate în calcul.
         needs_attention: Necesită atenție
         all_on_time: Toate dispozitivele s-au conectat la timp.
         manage_devices: Gestionează dispozitivele
@@ -1808,8 +1824,8 @@ ro:
         add_to_fleet: Adaugă la flotă
         added:
           one: 1 dispozitiv a fost adăugat la flotă.
-          few: "%{count} dispozitive au fost adăugate la flotă."
           other: "%{count} de dispozitive au fost adăugate la flotă."
+          few: "%{count} dispozitive au fost adăugate la flotă."
         not_added: 'Nu s-au putut adăuga %{names}: sunt deja într-o flotă sau folosesc oglindirea veche.'
         none_selected: Bifează cel puțin un dispozitiv de adăugat.
         sort:
@@ -1821,8 +1837,7 @@ ro:
           apply: Sortează
       alerts:
         title: Alerte de conectare
-        description: Un e-mail pentru fiecare flotă, cu toate dispozitivele întârziate. Un dispozitiv este raportat o dată la
-          fiecare întrerupere și din nou dacă se conectează, apoi nu mai comunică.
+        description: Un e-mail pentru fiecare flotă, cu toate dispozitivele întârziate. Un dispozitiv este raportat o dată la fiecare întrerupere și din nou dacă se conectează, apoi nu mai comunică.
         enabled: Trimite-mi un e-mail când conectarea unui dispozitiv întârzie
         threshold: Întârziere mai mare de
         threshold_help: Peste ora de conectare anunțată de fiecare dispozitiv.
@@ -1837,18 +1852,14 @@ ro:
       digest:
         subject:
           one: Conectarea unui dispozitiv din flotă întârzie
-          few: "Conectarea a %{count} dispozitive din flotă întârzie"
-          other: "Conectarea a %{count} de dispozitive din flotă întârzie"
-        intro: Aceste dispozitive au depășit cu mai mult de %{threshold} ora de conectare anunțată. Cele mai frecvente
-          cauze sunt bateria descărcată și semnalul Wi-Fi slab. Merită să verifici fizic un dispozitiv care nu mai
-          comunică, deși are bateria încărcată.
+          other: Conectarea a %{count} de dispozitive din flotă întârzie
+          few: Conectarea a %{count} dispozitive din flotă întârzie
+        intro: Aceste dispozitive au depășit cu mai mult de %{threshold} ora de conectare anunțată. Cele mai frecvente cauze sunt bateria descărcată și semnalul Wi-Fi slab. Merită să verifici fizic un dispozitiv care nu mai comunică, deși are bateria încărcată.
         row: "%{name}: așteptat la %{expected}, ultimul ping %{last_ping}, baterie %{battery}, Wi-Fi %{wifi}."
         open_fleet: Deschide flota
-        footer: Primești acest mesaj deoarece alertele de conectare sunt activate pentru această flotă. Dezactivează-le
-          din Flotă › Setări.
+        footer: Primești acest mesaj deoarece alertele de conectare sunt activate pentru această flotă. Dezactivează-le din Flotă › Setări.
     bookings:
-      read_only_booking_error: Acest calendar permite doar citirea. Contul Google conectat trebuie să aibă permisiunea de a modifica evenimentele
-        pentru a accepta rezervări.
+      read_only_booking_error: Acest calendar permite doar citirea. Contul Google conectat trebuie să aibă permisiunea de a modifica evenimentele pentru a accepta rezervări.
     chess:
       tagline: Joacă șah prin corespondență pe TRMNL, cu un prieten de la distanță sau la masa din bucătărie.
       back_to_matches: Înapoi la partide
@@ -1858,8 +1869,8 @@ ro:
       status:
         lobby:
           one: Se așteaptă încă 1 jucător
-          few: Se așteaptă %{count} jucători
           other: Se așteaptă %{count} de jucători
+          few: Se așteaptă %{count} jucători
         to_move: "%{name} este la mutare"
       result:
         win: "%{name} câștigă prin %{reason}"
@@ -1968,8 +1979,7 @@ ro:
       back: Înapoi la aplicații
       plugins:
         heading: Pluginuri de preîncărcat
-        explainer: Fiecare dispozitiv din comenzile tale primește aceste pluginuri când este revendicat. Persoana respectivă
-          finalizează configurarea.
+        explainer: Fiecare dispozitiv din comenzile tale primește aceste pluginuri când este revendicat. Persoana respectivă finalizează configurarea.
         input_label: Link sau ID de plugin
         add: Adaugă un plugin
         remove: Elimină
@@ -1984,13 +1994,11 @@ ro:
         not_found: Nu am găsit niciun plugin publicat sau nicio rețetă publicată la acel link.
       uninstall:
         heading: Dezinstalează
-        explainer: Elimină aplicația, eliberează comenzile și oprește preîncărcarea dispozitivelor care nu au fost revendicate
-          încă.
+        explainer: Elimină aplicația, eliberează comenzile și oprește preîncărcarea dispozitivelor care nu au fost revendicate încă.
         confirm: Dezinstalezi %{app}?
       orders:
         heading: Comenzi
-        explainer: Importă o comandă din magazin folosind numărul ei și adresa de e-mail. La prima revendicare, dispozitivele
-          vor preîncărca pluginurile pe care le alegi.
+        explainer: Importă o comandă din magazin folosind numărul ei și adresa de e-mail. La prima revendicare, dispozitivele vor preîncărca pluginurile pe care le alegi.
         order_number: Numărul comenzii
         email: Adresa de e-mail a comenzii
         import: Importă comanda
@@ -2000,13 +2008,12 @@ ro:
         waiting: În așteptare
         remove: Elimină
         remove_confirm: 'Elimini comanda #%{order}? Dispozitivele nerevendicate nu vor preîncărca pluginurile tale.'
-        none_shipped: Nu a fost expediat încă niciun dispozitiv din această comandă. Dacă am combinat-o cu altă comandă a ta,
-          importă acea comandă sau contactează asistența.
+        none_shipped: Nu a fost expediat încă niciun dispozitiv din această comandă. Dacă am combinat-o cu altă comandă a ta, importă acea comandă sau contactează asistența.
         imported:
           zero: 'Comanda #%{order} a fost importată. Dispozitivele sale vor fi preîncărcate pe măsură ce sunt expediate.'
           one: 'Comanda #%{order} a fost importată. 1 dispozitiv va fi preîncărcat.'
-          few: 'Comanda #%{order} a fost importată. %{count} dispozitive vor fi preîncărcate.'
           other: 'Comanda #%{order} a fost importată. %{count} de dispozitive vor fi preîncărcate.'
+          few: 'Comanda #%{order} a fost importată. %{count} dispozitive vor fi preîncărcate.'
         already_imported: 'Comanda #%{order} este deja importată.'
         no_match: Nu am găsit o comandă care să corespundă numărului și adresei de e-mail introduse.
         taken: Această comandă este asociată altui cont. Contactează asistența.
@@ -2024,16 +2031,13 @@ ro:
       degraded_short: Această compoziție funcționează în stare degradată.
       degraded_long: Generarea ecranelor compoziției eșuează. Verifică pluginurile pentru a evita oprirea reîmprospătării.
       erroring_short: Această compoziție nu se mai reîmprospătează.
-      erroring_long: Generarea ecranelor compoziției a eșuat repetat, deci reîmprospătarea s-a oprit. Remediază pluginurile și
-        resetează starea de funcționare.
-      reset_health: "Resetează starea"
+      erroring_long: Generarea ecranelor compoziției a eșuat repetat, deci reîmprospătarea s-a oprit. Remediază pluginurile și resetează starea de funcționare.
+      reset_health: Resetează starea
     edit:
       title: Configurează compoziția %{name}
       back_to_playlist: Înapoi la lista de redare
-      description: "Compoziție %{layout}"
-      health_notifications_hint: Primește un e-mail când generarea ecranelor acestei compoziții începe să eșueze sau se oprește. Cel mult un
-        e-mail pentru fiecare stare, la fiecare incident; alertele se reactivează după revenirea la funcționarea
-        normală.
+      description: Compoziție %{layout}
+      health_notifications_hint: Primește un e-mail când generarea ecranelor acestei compoziții începe să eșueze sau se oprește. Cel mult un e-mail pentru fiecare stare, la fiecare incident; alertele se reactivează după revenirea la funcționarea normală.
       health_notifications_checkbox: Trimite-mi un e-mail când această compoziție nu mai funcționează normal
       refresh_rate_hint: Generează ecrane la %{refresh_rate}, interval stabilit de cel mai rapid dintre pluginurile sale.
       remove: Elimină compoziția
@@ -2057,12 +2061,11 @@ ro:
     title: Acoperirea listei de redare
     your_timezone: fusul tău orar
     timezone_hint: Orele sunt afișate în %{zone}.
-    explanation: Dispozitivul afișează ecranul „Ești la zi!” în aceste intervale deoarece nu este programat niciun element din
-      lista de redare.
+    explanation: Dispozitivul afișează ecranul „Ești la zi!” în aceste intervale deoarece nu este programat niciun element din lista de redare.
     notice:
       one: Lista de redare are 1 interval neacoperit.
-      few: Lista de redare are %{count} intervale neacoperite.
       other: Lista de redare are %{count} de intervale neacoperite.
+      few: Lista de redare are %{count} intervale neacoperite.
     view: Vezi când
   compositions:
     form:
@@ -2116,6 +2119,21 @@ ro:
       variables: Variabile
       visible_if: Vizibil dacă...
       width: Lățime
+      recolor_flaps: Recolor every flap on this layer
+      board_characters: Board characters
+      board_characters_hint: Click a character to insert it. A color inserts as {63} to {69} and fills one flap.
+      unsupported_characters: 'Not on the board: %{characters}. Like spaces, they show the layer below or the background (marked ? in this preview).'
+      box_width_hint: Width is in cells. The board is %{columns} cells wide.
+      flap_colors:
+        label: Flap colors
+        red: Red
+        orange: Orange
+        yellow: Yellow
+        green: Green
+        blue: Blue
+        violet: Violet
+        white: White
+        black: Black (blank)
   shared:
     impersonator:
       managing: Gestionezi %{name}
@@ -2169,19 +2187,14 @@ ro:
       subscribe_link: Abonează-te
       subscribe_price: "%{monthly} $/dispozitiv/lună sau %{annual} $/dispozitiv/an (2 luni gratuite)."
       subscribe_title: Abonează-te
-      trial_ends_html: 'Perioada de probă TRMNL+ se încheie la <strong>%{date}</strong>. Ai două opțiuni pentru a păstra beneficiile
-        Plus:'
+      trial_ends_html: 'Perioada de probă TRMNL+ se încheie la <strong>%{date}</strong>. Ai două opțiuni pentru a păstra beneficiile Plus:'
   pages:
     flash_firmware:
-      linux_warning: Instalarea firmware-ului din Linux eșuează adesea deoarece Chrome nu poate deschide portul serial. Adaugă
-        utilizatorul în grupul dialout (sudo usermod -aG dialout $USER), deconectează-te și conectează-te din nou,
-        apoi reîncearcă. Dacă problema persistă, folosește Chrome sau Edge pe un Mac ori un PC cu Windows.
+      linux_warning: Instalarea firmware-ului din Linux eșuează adesea deoarece Chrome nu poate deschide portul serial. Adaugă utilizatorul în grupul dialout (sudo usermod -aG dialout $USER), deconectează-te și conectează-te din nou, apoi reîncearcă. Dacă problema persistă, folosește Chrome sau Edge pe un Mac ori un PC cu Windows.
       serial_failure:
         guide_link: Consultă ghidul modului de instalare a firmware-ului
-        port_unavailable: Portul serial nu a putut fi deschis. Cablul USB-C poate permite doar încărcarea sau dispozitivul nu este
-          în modul de instalare a firmware-ului.
-        reset_refused: Dispozitivul nu a intrat în modul de instalare a firmware-ului, deci resetarea a eșuat. Repetă pasul 3 și
-          încearcă din nou.
+        port_unavailable: Portul serial nu a putut fi deschis. Cablul USB-C poate permite doar încărcarea sau dispozitivul nu este în modul de instalare a firmware-ului.
+        reset_refused: Dispozitivul nu a intrat în modul de instalare a firmware-ului, deci resetarea a eșuat. Repetă pasul 3 și încearcă din nou.
   github_syncs:
     alerts:
       connection_failed: 'Conexiunea GitHub a eșuat: %{detail}'
@@ -2215,13 +2228,10 @@ ro:
       disconnected: Sincronizarea GitHub a fost deconectată.
       imported: Cele mai recente modificări au fost importate din GitHub.
     setup:
-      after_create: apoi reîncarcă această pagină pentru a-l selecta. Dacă instalarea acoperă doar anumite repository-uri, adaugă
-        mai întâi noul repository în setările GitHub.
+      after_create: apoi reîncarcă această pagină pentru a-l selecta. Dacă instalarea acoperă doar anumite repository-uri, adaugă mai întâi noul repository în setările GitHub.
       connect_different: Conectează altul
       create_repository: Creează unul pe GitHub
-      folder_hint_html: Lasă câmpul gol dacă repository-ul conține un singur plugin. Indică un folder pentru a păstra mai multe pluginuri
-        în același repository — acest plugin va scrie în <code>&lt;folder&gt;/src/</code>, iar <code>trmnlp serve</code>
-        funcționează din interiorul folderului.
+      folder_hint_html: Lasă câmpul gol dacă repository-ul conține un singur plugin. Indică un folder pentru a păstra mai multe pluginuri în același repository — acest plugin va scrie în <code>&lt;folder&gt;/src/</code>, iar <code>trmnlp serve</code> funcționează din interiorul folderului.
       folder_label: Folder în repository
       folder_optional: "(opțional)"
       heading: Conectează „%{plugin}” la GitHub
@@ -2231,8 +2241,7 @@ ro:
       repository_placeholder: Selectează...
       submit: Conectează
       wrong_account: Cont greșit?
-      secrets_warning: Fișierul settings.yml sincronizat conține URL-ul de interogare, antetele și corpul cererii acestui plugin
-        în text simplu. Folosește un repository privat sau mută mai întâi datele de autentificare într-un câmp personalizat.
+      secrets_warning: Fișierul settings.yml sincronizat conține URL-ul de interogare, antetele și corpul cererii acestui plugin în text simplu. Folosește un repository privat sau mută mai întâi datele de autentificare într-un câmp personalizat.
     accounts:
       label: Alege un cont GitHub
       not_listed: Contul nu apare în listă?
@@ -2421,8 +2430,8 @@ ro:
         next_screen_change: Următoarea schimbare a ecranului a fost verificată
         extended_refresh_rate: Următorul interval de activare a fost selectat
       values:
-        'yes': 'da'
-        'no': 'nu'
+        'yes': da
+        'no': nu
       units:
         days: z
         hours: h
@@ -2431,10 +2440,8 @@ ro:
     show:
       title: Cronologie
       link_title: Cronologie
-      hint: Ce a afișat acest dispozitiv și de ce, precum și ce va afișa în continuare. Activitatea înregistrată se păstrează
-        %{days} zile.
-      source_hint: Unde a fost afișat acest ecran și de ce, precum și unde va fi afișat în continuare, pe toate dispozitivele.
-        Activitatea înregistrată se păstrează %{days} zile.
+      hint: Ce a afișat acest dispozitiv și de ce, precum și ce va afișa în continuare. Activitatea înregistrată se păstrează %{days} zile.
+      source_hint: Unde a fost afișat acest ecran și de ce, precum și unde va fi afișat în continuare, pe toate dispozitivele. Activitatea înregistrată se păstrează %{days} zile.
       logs: Jurnalele dispozitivului
       filtered: Se afișează activitatea pentru %{name}
       show_all: afișează tot
@@ -2469,8 +2476,7 @@ ro:
     next_check_in: 'Următoarea conectare: %{when}.'
     next_check_in_unknown: 'Următoarea conectare: necunoscută până la următoarea comunicare cu dispozitivul.'
     next_check_in_overdue: Conectarea așteptată la %{when} întârzie.
-    longer_than_refresh_rate: Mai mult decât intervalul de reîmprospătare de %{rate}. Dezactivează „%{setting}” în %{section} pentru a respecta
-      intervalul de reîmprospătare.
+    longer_than_refresh_rate: Mai mult decât intervalul de reîmprospătare de %{rate}. Dezactivează „%{setting}” în %{section} pentru a respecta intervalul de reîmprospătare.
     render:
       next_render: 'Generează din nou ecranul: %{time}'
       no_next_render: 'Ecranul nu va fi generat înainte de acel moment: %{reason}'
@@ -2486,8 +2492,8 @@ ro:
         next_day: Mai noi
         day_events:
           one: "%{day}: 1 eveniment"
-          few: "%{day}: %{count} evenimente"
           other: "%{day}: %{count} de evenimente"
+          few: "%{day}: %{count} evenimente"
       link:
         device_hint: Când s-a conectat acest dispozitiv, ce a programat și ce ecrane a primit.
         source_hint: Când s-a reîmprospătat acest ecran, de ce a fost omis și ce dispozitive l-au primit.
@@ -2523,8 +2529,7 @@ ro:
         external_image: Omis — imaginea îi este trimisă, nu este generată
         before_daily_slot: În așteptare — reîmprospătarea zilnică generează ecranul înainte de prima afișare după 00:15
         daily_catch_up_started: Se aduce la zi — ecranul zilnic a fost generat înainte de reîmprospătarea de astăzi de la 00:15
-        daily_catch_up_declined: Aducere la zi omisă — dispozitivul nu a primit un ecran de așteptare, deci a păstrat ecranul curent în timpul
-          generării
+        daily_catch_up_declined: Aducere la zi omisă — dispozitivul nu a primit un ecran de așteptare, deci a păstrat ecranul curent în timpul generării
         daily_catch_up_fresh_screen: Adus la zi — noul ecran zilnic a sosit
         daily_catch_up_kept_screen: Aducerea la zi s-a încheiat — ecranul nu a sosit la timp, deci a rămas cel anterior
       render_statuses:
@@ -2574,23 +2579,19 @@ ro:
         alias: Imagine Alias trimisă dispozitivului
         redirect: Redirecționare trimisă dispozitivului
         empty_state: Ecran „Ești la zi!” trimis — nimic nou de afișat
-        no_content: Ecran „Ești la zi!” trimis — încă nu este nimic de afișat, deci dispozitivul se va conecta mai rar pentru
-          a economisi bateria
+        no_content: Ecran „Ești la zi!” trimis — încă nu este nimic de afișat, deci dispozitivul se va conecta mai rar pentru a economisi bateria
     next_check_in_due: Dispozitivul se va conecta în orice moment.
   doorkeeper:
     scopes:
-      read: Citește dispozitivele și jurnalele lor, listele de redare, setările pluginurilor și fișierele pluginurilor
-        private
+      read: Citește dispozitivele și jurnalele lor, listele de redare, setările pluginurilor și fișierele pluginurilor private
       write: Modifică dispozitivele, listele de redare, setările pluginurilor și codul de afișare
-      content: Modifică codul de afișare, setările pluginurilor, listele de redare și compozițiile, instalează rețete și
-        trimite imagini
+      content: Modifică codul de afișare, setările pluginurilor, listele de redare și compozițiile, instalează rețete și trimite imagini
       devices: Modifică setările dispozitivelor și identifică un dispozitiv
       delete: Șterge configurări de pluginuri și elemente din listele de redare și golește lista de redare a unui dispozitiv
       openid: Te autentifică
       email: Vede adresa ta de e-mail
       profile: Vede și modifică numele, fusul orar și setările de afișare
-      apps: Instalează și gestionează aplicații, inclusiv trimiteri către flotă și rezervări de săli; eliminarea unei
-        instalări, a unui calendar, a unei colecții sau a unei integrări necesită permisiunea de ștergere
+      apps: Instalează și gestionează aplicații, inclusiv trimiteri către flotă și rezervări de săli; eliminarea unei instalări, a unui calendar, a unei colecții sau a unei integrări necesită permisiunea de ștergere
     authorizations:
       new:
         can_reach: 'Are acces la:'
@@ -2600,8 +2601,7 @@ ro:
         able_to: 'Va putea să:'
         returns_to: Vei reveni la %{host} după ce alegi.
         document_prompt: "„%{client_name}” de la %{host} dorește să folosească contul tău TRMNL."
-        unverified_prompt: O aplicație care se numește „%{client_name}” dorește să folosească contul tău TRMNL. TRMNL nu a verificat
-          această aplicație.
+        unverified_prompt: O aplicație care se numește „%{client_name}” dorește să folosească contul tău TRMNL. TRMNL nu a verificat această aplicație.
       buttons:
         authorize: Permite
         deny: Nu permite
@@ -2614,7 +2614,7 @@ ro:
       none_picked: Alege cel puțin un dispozitiv sau o configurare de plugin ori selectează întregul cont.
   connected_agents:
     edit:
-      title: "Acces pentru %{name}"
+      title: Acces pentru %{name}
       can_do: Ce poate face
       can_reach: Controlul accesului
       save: Salvează
@@ -2631,13 +2631,12 @@ ro:
     public_client: O aplicație mobilă, desktop sau cu o singură pagină care nu poate păstra un secret
     client_id: ID client
     client_secret: Secret client
-    how_to_connect_html: Folosește fluxul cu cod de autorizare și PKCE, apoi apelează API-ul cu tokenul de acces. <a href="%{docs_url}"
-      class="underline" target="_blank">Consultă documentația</a>.
+    how_to_connect_html: Folosește fluxul cu cod de autorizare și PKCE, apoi apelează API-ul cu tokenul de acces. <a href="%{docs_url}" class="underline" target="_blank">Consultă documentația</a>.
     connections:
       zero: nu există încă conexiuni
       one: 1 conexiune
-      few: "%{count} conexiuni"
       other: "%{count} de conexiuni"
+      few: "%{count} conexiuni"
     created: Aplicația a fost înregistrată.
     deleted: Aplicația a fost ștearsă. Toate conexiunile sale au fost revocate.
     delete: Șterge aplicația
@@ -2664,840 +2663,390 @@ ro:
     topup_label: Credite cumpărate
     topup_left: "%{amount} rămase"
   integration_overviews:
-    alias: >-
-      Propria imagine, pe un ecran TRMNL ePaper. Alias este pentru cei care își generează deja ecranele în altă
-      parte, de exemplu printr-un script pe un server de acasă. Lipește URL-ul complet al imaginii, iar dispozitivul
-      o preia direct de la acea adresă; funcționează și un URL local precum http://localhost:4567/image.png.
+    alias: |-
+      Propria imagine, pe un ecran TRMNL ePaper. Alias este pentru cei care își generează deja ecranele în altă parte, de exemplu printr-un script pe un server de acasă. Lipește URL-ul complet al imaginii, iar dispozitivul o preia direct de la acea adresă; funcționează și un URL local precum http://localhost:4567/image.png.
 
+      Imaginea trebuie pregătită pentru ePaper: BMP pe 1 bit sau PNG pe 1 ori 2 biți, cu dimensiunea exactă a dispozitivului. Nu o convertim pentru tine (pentru asta există Image Display). Suprascrii mereu același fișier? Dezactivează cache-ul, iar dispozitivul va redesena ecranul de fiecare dată, chiar dacă numele fișierului nu s-a schimbat.
+    apple_calendar: |-
+      Calendarul tău Apple, pe un ecran TRMNL ePaper. Ai 3 opțiuni: lipești linkul unui calendar făcut public în iCloud, sincronizezi de pe iPhone sau iPad cu aplicația TRMNL Companion ori te conectezi cu Apple ID și o parolă specifică aplicației, apoi alegi calendarele iCloud de afișat.
 
-      Imaginea trebuie pregătită pentru ePaper: BMP pe 1 bit sau PNG pe 1 ori 2 biți, cu dimensiunea exactă a dispozitivului.
-      Nu o convertim pentru tine (pentru asta există Image Display). Suprascrii mereu același fișier? Dezactivează
-      cache-ul, iar dispozitivul va redesena ecranul de fiecare dată, chiar dacă numele fișierului nu s-a schimbat.
-    apple_calendar: >-
-      Calendarul tău Apple, pe un ecran TRMNL ePaper. Ai 3 opțiuni: lipești linkul unui calendar făcut public în
-      iCloud, sincronizezi de pe iPhone sau iPad cu aplicația TRMNL Companion ori te conectezi cu Apple ID și o
-      parolă specifică aplicației, apoi alegi calendarele iCloud de afișat.
+      Alege apoi o aranjare: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă lunară ori un program minimal. Afișează orele și descrierile evenimentelor, folosește formatul de 12 sau 24 de ore, ascunde evenimentele care conțin anumite cuvinte și începe săptămâna în ziua dorită. O linie pentru ora curentă și evidențierea zilei de astăzi îți arată unde te afli în program.
+    apple_photos: |-
+      Fotografii dintr-un album partajat Apple Photos, pe un ecran TRMNL ePaper. În aplicația Poze, activează Public Website pentru un album partajat, apoi lipește linkul albumului în plugin. La fiecare reîmprospătare se alege aleatoriu o fotografie.
 
+      Alege Acoperire pentru a umple ecranul (marginile pot fi decupate) sau Încadrare pentru a afișa fotografia completă, cu spațiu în jur. Fotografiile adăugate ulterior intră în rotație. TRMNL citește doar acel album partajat, nimic altceva din biblioteca ta.
+    asana: |-
+      Sarcinile tale Asana, pe un ecran TRMNL ePaper. Conectează contul Asana, alege un spațiu de lucru, apoi secțiunile My Tasks de afișat, precum „Do today” sau „Do later”. Pe ecranul complet încap 3 secțiuni alăturate; în aranjările mai mici încap 2.
 
-      Alege apoi o aranjare: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă lunară
-      ori un program minimal. Afișează orele și descrierile evenimentelor, folosește formatul de 12 sau 24 de ore,
-      ascunde evenimentele care conțin anumite cuvinte și începe săptămâna în ziua dorită. O linie pentru ora curentă
-      și evidențierea zilei de astăzi îți arată unde te afli în program.
-    apple_photos: >-
-      Fotografii dintr-un album partajat Apple Photos, pe un ecran TRMNL ePaper. În aplicația Poze, activează Public
-      Website pentru un album partajat, apoi lipește linkul albumului în plugin. La fiecare reîmprospătare se alege
-      aleatoriu o fotografie.
+      Fiecare sarcină afișează numele și data scadentă. Sortează după scadență, alfabetic sau în ordinea Asana și afișează scadențele ca „Astăzi”, „Mâine” și nume de zile ori ca date scurte. Poți afișa și proiectul fiecărei sarcini și include sarcinile finalizate. Sunt acceptate doar My Tasks, nu și vederile de proiect, listele comune ale echipei sau subsarcinile.
+    basecamp: |-
+      Sarcinile tale Basecamp, pe un ecran TRMNL ePaper. Conectează contul Basecamp, alege contul și proiectul, iar ecranul reunește sarcinile din listele proiectului.
 
+      Sarcinile sunt ordonate după scadență, cele mai apropiate primele, astfel încât următorul lucru de făcut apare sus. Vrei să urmărești mai multe proiecte? Adaugă pluginul pentru fiecare proiect și afișează-le alăturat într-o compoziție.
+    beehiiv: |-
+      Statisticile ultimului tău newsletter beehiiv, pe un ecran TRMNL ePaper. Vezi subiectul, numărul de destinatari, deschiderile și rata de deschidere, clicurile și rata de clic, precum și dezabonările și reclamațiile de spam.
 
-      Alege Acoperire pentru a umple ecranul (marginile pot fi decupate) sau Încadrare pentru a afișa fotografia
-      completă, cu spațiu în jur. Fotografiile adăugate ulterior intră în rotație. TRMNL citește doar acel album
-      partajat, nimic altceva din biblioteca ta.
-    asana: >-
-      Sarcinile tale Asana, pe un ecran TRMNL ePaper. Conectează contul Asana, alege un spațiu de lucru, apoi secțiunile
-      My Tasks de afișat, precum „Do today” sau „Do later”. Pe ecranul complet încap 3 secțiuni alăturate; în aranjările
-      mai mici încap 2.
+      Configurarea durează un minut și nu necesită cod. În beehiiv, mergi la Settings, apoi Integrations și API, creează o cheie API și copiază ID-ul publicației. Lipește-le pe amândouă în plugin și salvează. Ai mai multe newslettere? Adaugă pluginul pentru fiecare publicație.
+    bible_verses: |-
+      Un verset biblic aleatoriu pe ecranul TRMNL ePaper, unul nou la fiecare reîmprospătare. Versetul apare în mijlocul ecranului sub titlul „Versetul zilei”, cu cartea, capitolul și versetul dedesubt.
 
+      Alege traducerea: American Standard, King James sau World English Bible. Aceasta este singura setare. Adaugă pluginul în lista de redare și lasă-l să apară între calendar și vreme.
+    bitcoin_wallet_balance: |-
+      Soldul unui portofel Bitcoin, pe un ecran TRMNL ePaper. Lipește adresa publică a portofelului, iar ecranul afișează soldul în BTC și dolari SUA, plus un grafic cu lumânări al prețului Bitcoin din ultimele 90 de zile.
 
-      Fiecare sarcină afișează numele și data scadentă. Sortează după scadență, alfabetic sau în ordinea Asana și
-      afișează scadențele ca „Astăzi”, „Mâine” și nume de zile ori ca date scurte. Poți afișa și proiectul fiecărei
-      sarcini și include sarcinile finalizate. Sunt acceptate doar My Tasks, nu și vederile de proiect, listele
-      comune ale echipei sau subsarcinile.
-    basecamp: >-
-      Sarcinile tale Basecamp, pe un ecran TRMNL ePaper. Conectează contul Basecamp, alege contul și proiectul,
-      iar ecranul reunește sarcinile din listele proiectului.
+      Vezi și variația prețului în 7 și 90 de zile, pentru a evalua dintr-o privire cum a fost săptămâna. TRMNL are nevoie doar de adresa publică, niciodată de cheile tale. Ai mai multe portofele? Adaugă pluginul pentru fiecare adresă.
+    caldav: |-
+      Evenimente din aproape orice serviciu de calendar, pe un ecran TRMNL ePaper. Lipește unul sau mai multe linkuri publicate de calendar .ics și adaugă antete HTTP dacă serverul le cere pentru acces. Preferi telefonul? Sincronizează calendarele de pe iPhone sau iPad cu aplicația TRMNL Companion.
 
+      Alege apoi o aranjare: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă lunară ori un program minimal. Afișează orele și descrierile evenimentelor, folosește formatul de 12 sau 24 de ore, ascunde evenimentele cu anumite cuvinte și afișează culorile calendarelor pe blocurile de evenimente. Vederile săptămânale și lunare pot umbri weekendurile, evidenția ziua curentă, afișa numerele săptămânilor și trasa o linie la ora curentă.
+    changelog: |-
+      Noutăți de la echipa TRMNL, pe ecranul tău TRMNL ePaper. Ecranul listează cele mai recente anunțuri, începând cu cele mai noi, fiecare cu data și titlul său. Pe ecranul complet apare și o descriere scurtă sub fiecare anunț.
 
-      Sarcinile sunt ordonate după scadență, cele mai apropiate primele, astfel încât următorul lucru de făcut apare
-      sus. Vrei să urmărești mai multe proiecte? Adaugă pluginul pentru fiecare proiect și afișează-le alăturat
-      într-o compoziție.
-    beehiiv: >-
-      Statisticile ultimului tău newsletter beehiiv, pe un ecran TRMNL ePaper. Vezi subiectul, numărul de destinatari,
-      deschiderile și rata de deschidere, clicurile și rata de clic, precum și dezabonările și reclamațiile de spam.
+      Nu trebuie să configurezi nimic. Adaugă-l într-o listă de redare și vei afla despre pluginuri și funcții noi chiar de pe dispozitiv, fără să verifici e-mailul sau rețelele sociale.
+    chatgpt: |-
+      Răspunsuri ChatGPT, pe un ecran TRMNL ePaper. Scrie o instrucțiune o singură dată; este trimisă din nou la fiecare reîmprospătare, astfel încât primești mereu un răspuns nou. Poate fi o curiozitate, cuvântul zilei sau o idee zilnică de scriere.
 
+      Creează o cheie API în contul OpenAI și lipește-o împreună cu instrucțiunea. Alege un model și activează căutarea pe web pentru răspunsuri care necesită informații actuale; sursele apar în partea de jos. Pluginul folosește propria ta cheie API, deci utilizarea este înregistrată în contul OpenAI. Dacă atingi limitele de cereri OpenAI, ecranul afișează eroarea lor.
+    clicky: |-
+      Statisticile site-ului tău din Clicky, pe un ecran TRMNL ePaper. Ecranul afișează vizualizările de pagină, vizitatorii și timpul mediu pe pagină, cu un grafic al vizualizărilor zilnice dedesubt.
 
-      Configurarea durează un minut și nu necesită cod. În beehiiv, mergi la Settings, apoi Integrations și API,
-      creează o cheie API și copiază ID-ul publicației. Lipește-le pe amândouă în plugin și salvează. Ai mai multe
-      newslettere? Adaugă pluginul pentru fiecare publicație.
-    bible_verses: >-
-      Un verset biblic aleatoriu pe ecranul TRMNL ePaper, unul nou la fiecare reîmprospătare. Versetul apare în
-      mijlocul ecranului sub titlul „Versetul zilei”, cu cartea, capitolul și versetul dedesubt.
+      Introdu ID-ul site-ului și cheia site-ului din Clicky, apoi alege perioada: 1, 7, 14 sau 30 de zile. Ai mai multe site-uri? Adaugă pluginul pentru fiecare site și combină-le pe un singur ecran într-o compoziție.
+    clock: |-
+      Un ceas pentru ecranul TRMNL ePaper. Alege un ceas analogic cu cadran și ace sau unul digital cu cifre cu șapte segmente, ca la un ceas LCD clasic, și setează fusul orar. Poate ocupa tot ecranul, jumătate sau un sfert.
 
+      Ceasul digital afișează ora în format de 24 de ore. Ai colegi sau familie în alte orașe? Adaugă câte un ceas pentru fiecare fus orar. Include-le apoi într-o compoziție lângă calendar sau vreme, ca să vezi ora chiar acolo unde privești deja.
+    close: |-
+      Fluxul de oportunități Close CRM, pe un ecran TRMNL ePaper. Conectează contul Close, apoi alege până la 3 stări de urmărit, precum „Active” sau „Won”. Fiecare stare are propria coloană de oportunități.
 
-      Alege traducerea: American Standard, King James sau World English Bible. Aceasta este singura setare. Adaugă
-      pluginul în lista de redare și lasă-l să apară între calendar și vreme.
-    bitcoin_wallet_balance: >-
-      Soldul unui portofel Bitcoin, pe un ecran TRMNL ePaper. Lipește adresa publică a portofelului, iar ecranul
-      afișează soldul în BTC și dolari SUA, plus un grafic cu lumânări al prețului Bitcoin din ultimele 90 de zile.
+      Fiecare oportunitate afișează numele clientului potențial, valoarea și persoana responsabilă din echipă. Alege perioada: oportunități actualizate în ultimele 7, 14 sau 30 de zile. Pune ecranul pe perete lângă echipa de vânzări și toată lumea va vedea situația tranzacțiilor.
+    coinmarketcap: |-
+      Prețuri cripto în timp real de la CoinMarketCap, pe un ecran TRMNL ePaper. Fiecare monedă afișează simbolul, numele, prețul curent și variația din ultimele 24 de ore.
 
-
-      Vezi și variația prețului în 7 și 90 de zile, pentru a evalua dintr-o privire cum a fost săptămâna. TRMNL
-      are nevoie doar de adresa publică, niciodată de cheile tale. Ai mai multe portofele? Adaugă pluginul pentru
-      fiecare adresă.
-    caldav: >-
-      Evenimente din aproape orice serviciu de calendar, pe un ecran TRMNL ePaper. Lipește unul sau mai multe linkuri
-      publicate de calendar .ics și adaugă antete HTTP dacă serverul le cere pentru acces. Preferi telefonul? Sincronizează
-      calendarele de pe iPhone sau iPad cu aplicația TRMNL Companion.
-
-
-      Alege apoi o aranjare: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă lunară
-      ori un program minimal. Afișează orele și descrierile evenimentelor, folosește formatul de 12 sau 24 de ore,
-      ascunde evenimentele cu anumite cuvinte și afișează culorile calendarelor pe blocurile de evenimente. Vederile
-      săptămânale și lunare pot umbri weekendurile, evidenția ziua curentă, afișa numerele săptămânilor și trasa
-      o linie la ora curentă.
-    changelog: >-
-      Noutăți de la echipa TRMNL, pe ecranul tău TRMNL ePaper. Ecranul listează cele mai recente anunțuri, începând
-      cu cele mai noi, fiecare cu data și titlul său. Pe ecranul complet apare și o descriere scurtă sub fiecare
-      anunț.
-
-
-      Nu trebuie să configurezi nimic. Adaugă-l într-o listă de redare și vei afla despre pluginuri și funcții noi
-      chiar de pe dispozitiv, fără să verifici e-mailul sau rețelele sociale.
-    chatgpt: >-
-      Răspunsuri ChatGPT, pe un ecran TRMNL ePaper. Scrie o instrucțiune o singură dată; este trimisă din nou la
-      fiecare reîmprospătare, astfel încât primești mereu un răspuns nou. Poate fi o curiozitate, cuvântul zilei
-      sau o idee zilnică de scriere.
-
-
-      Creează o cheie API în contul OpenAI și lipește-o împreună cu instrucțiunea. Alege un model și activează căutarea
-      pe web pentru răspunsuri care necesită informații actuale; sursele apar în partea de jos. Pluginul folosește
-      propria ta cheie API, deci utilizarea este înregistrată în contul OpenAI. Dacă atingi limitele de cereri OpenAI,
-      ecranul afișează eroarea lor.
-    clicky: >-
-      Statisticile site-ului tău din Clicky, pe un ecran TRMNL ePaper. Ecranul afișează vizualizările de pagină,
-      vizitatorii și timpul mediu pe pagină, cu un grafic al vizualizărilor zilnice dedesubt.
-
-
-      Introdu ID-ul site-ului și cheia site-ului din Clicky, apoi alege perioada: 1, 7, 14 sau 30 de zile. Ai mai
-      multe site-uri? Adaugă pluginul pentru fiecare site și combină-le pe un singur ecran într-o compoziție.
-    clock: >-
-      Un ceas pentru ecranul TRMNL ePaper. Alege un ceas analogic cu cadran și ace sau unul digital cu cifre cu
-      șapte segmente, ca la un ceas LCD clasic, și setează fusul orar. Poate ocupa tot ecranul, jumătate sau un
-      sfert.
-
-
-      Ceasul digital afișează ora în format de 24 de ore. Ai colegi sau familie în alte orașe? Adaugă câte un ceas
-      pentru fiecare fus orar. Include-le apoi într-o compoziție lângă calendar sau vreme, ca să vezi ora chiar
-      acolo unde privești deja.
-    close: >-
-      Fluxul de oportunități Close CRM, pe un ecran TRMNL ePaper. Conectează contul Close, apoi alege până la 3
-      stări de urmărit, precum „Active” sau „Won”. Fiecare stare are propria coloană de oportunități.
-
-
-      Fiecare oportunitate afișează numele clientului potențial, valoarea și persoana responsabilă din echipă. Alege
-      perioada: oportunități actualizate în ultimele 7, 14 sau 30 de zile. Pune ecranul pe perete lângă echipa de
-      vânzări și toată lumea va vedea situația tranzacțiilor.
-    coinmarketcap: >-
-      Prețuri cripto în timp real de la CoinMarketCap, pe un ecran TRMNL ePaper. Fiecare monedă afișează simbolul,
-      numele, prețul curent și variația din ultimele 24 de ore.
-
-
-      Adaugă cheia API CoinMarketCap, apoi simbolurile urmărite, precum BTC sau ETH. Afișează o singură monedă cu
-      caractere mari sau până la 12 într-o grilă. Prețurile sunt implicit în dolari SUA; poți alege altă monedă,
-      precum EUR, GBP, JPY sau ZAR, cu conversie la un curs vechi de cel mult o zi.
-    convertkit_analytics: >-
-      Statisticile newsletterului ConvertKit, pe un ecran TRMNL ePaper. O parte afișează contul: numărul de abonați
-      și produsele vândute. Cealaltă afișează rezultatele unei trimiteri: destinatari, rata de deschidere, rata
-      de clic, clicuri, dezabonări și stare.
-
+      Adaugă cheia API CoinMarketCap, apoi simbolurile urmărite, precum BTC sau ETH. Afișează o singură monedă cu caractere mari sau până la 12 într-o grilă. Prețurile sunt implicit în dolari SUA; poți alege altă monedă, precum EUR, GBP, JPY sau ZAR, cu conversie la un curs vechi de cel mult o zi.
+    convertkit_analytics: |-
+      Statisticile newsletterului ConvertKit, pe un ecran TRMNL ePaper. O parte afișează contul: numărul de abonați și produsele vândute. Cealaltă afișează rezultatele unei trimiteri: destinatari, rata de deschidere, rata de clic, clicuri, dezabonări și stare.
 
       Lipește cheia API și secretul API ConvertKit, apoi alege o perioadă de 7, 30 sau 90 de zile.
-    custom_text: >-
-      Propriile cuvinte, pe un ecran TRMNL ePaper. Un citat, un obiectiv, un memento să bei apă. Introdu o frază
-      sau mai multe separate prin punct și virgulă, iar la fiecare reîmprospătare se alege una aleatoriu.
+    custom_text: |-
+      Propriile cuvinte, pe un ecran TRMNL ePaper. Un citat, un obiectiv, un memento să bei apă. Introdu o frază sau mai multe separate prin punct și virgulă, iar la fiecare reîmprospătare se alege una aleatoriu.
 
+      Poți folosi Markdown pentru text îngroșat, cursiv sau liste ori îl poți dezactiva pentru a afișa textul exact cum l-ai scris. Scalarea automată a fontului adaptează textul la spațiu, potrivit pentru pasaje mai lungi; poți păstra și o dimensiune fixă. Aliniază textul la stânga, centru sau dreapta și adaugă propria linie în bara de titlu de jos.
+    days_left_retirement: |-
+      Cât de aproape ești de pensionare, pe un ecran TRMNL ePaper. Introdu data nașterii și vârsta la care intenționezi să te pensionezi. Ecranul afișează progresul procentual, săptămânile rămase și o bară care se umple odată cu trecerea anilor.
 
-      Poți folosi Markdown pentru text îngroșat, cursiv sau liste ori îl poți dezactiva pentru a afișa textul exact
-      cum l-ai scris. Scalarea automată a fontului adaptează textul la spațiu, potrivit pentru pasaje mai lungi;
-      poți păstra și o dimensiune fixă. Aliniază textul la stânga, centru sau dreapta și adaugă propria linie în
-      bara de titlu de jos.
-    days_left_retirement: >-
-      Cât de aproape ești de pensionare, pe un ecran TRMNL ePaper. Introdu data nașterii și vârsta la care intenționezi
-      să te pensionezi. Ecranul afișează progresul procentual, săptămânile rămase și o bară care se umple odată
-      cu trecerea anilor.
+      Numărarea în săptămâni face timpul mai concret — acesta este scopul. Adaugă-l în lista de redare ca un memento discret să dedici săptămânile disponibile lucrurilor care contează.
+    days_left_until: |-
+      Numărătoare inversă până la orice dată, pe un ecran TRMNL ePaper. O lansare, o călătorie, un termen-limită, o nuntă. Setează data de început și de sfârșit, iar ecranul afișează zilele trecute, zilele rămase și o bară de progres.
 
+      Te interesează un singur număr? Ascunde zilele trecute sau cele rămase. Numeri până la mai multe evenimente? Adaugă pluginul pentru fiecare dată.
+    days_left_year: |-
+      Întregul an dintr-o privire, pe un ecran TRMNL ePaper. Fiecare zi este un pătrat mic, aranjat săptămână cu săptămână. Zilele trecute sunt umbrite, ziua de astăzi este neagră, iar celelalte urmează. Deasupra grilei apar două numere: zilele trecute și zilele rămase.
 
-      Numărarea în săptămâni face timpul mai concret — acesta este scopul. Adaugă-l în lista de redare ca un memento
-      discret să dedici săptămânile disponibile lucrurilor care contează.
-    days_left_until: >-
-      Numărătoare inversă până la orice dată, pe un ecran TRMNL ePaper. O lansare, o călătorie, un termen-limită,
-      o nuntă. Setează data de început și de sfârșit, iar ecranul afișează zilele trecute, zilele rămase și o bară
-      de progres.
+      Nu trebuie să configurezi nimic. Adaugă-l și salvează. Folosește data din fusul orar al contului și începe din nou la 1 ianuarie.
+    days_since: |-
+      Numărul de zile de la un moment important pentru tine, pe un ecran TRMNL ePaper. Un obicei la care ai renunțat, ziua în care ai început o afacere, ultima dată când cineva a stricat compilarea. Ecranul afișează data de început și zilele trecute.
 
+      Alege data de început și formatul ei, de la „26 noiembrie 2024” la 2024-11-26 sau 11/26/2024. Urmărești mai multe lucruri? Adaugă pluginul pentru fiecare dată și combină-le într-o compoziție.
+    dropbox_photo_album: |-
+      Transformă ecranul TRMNL ePaper într-o ramă foto digitală alimentată din Dropbox. Conectează contul Dropbox și creăm un folder de aplicație TRMNL în folderul Apps. Adaugă fotografii acolo, iar fiecare reîmprospătare afișează una aleatoriu, adaptată ecranului.
 
-      Te interesează un singur număr? Ascunde zilele trecute sau cele rămase. Numeri până la mai multe evenimente?
-      Adaugă pluginul pentru fiecare dată.
-    days_left_year: >-
-      Întregul an dintr-o privire, pe un ecran TRMNL ePaper. Fiecare zi este un pătrat mic, aranjat săptămână cu
-      săptămână. Zilele trecute sunt umbrite, ziua de astăzi este neagră, iar celelalte urmează. Deasupra grilei
-      apar două numere: zilele trecute și zilele rămase.
+      TRMNL poate citi și partaja fișiere doar din acel folder, niciodată din restul contului Dropbox. Folosești orientarea portret? Încarcă fotografii portret și folosește fotografii peisaj pentru ecranele orizontale. Adaugă sau elimină fotografii oricând, iar rotația se adaptează.
+    eight_sleep: |-
+      Datele tale Eight Sleep, pe un ecran TRMNL ePaper. După trezire, vezi dintr-o privire cum a fost săptămâna: câte un indicator al scorului de somn pentru ultimele 7 zile și scorul săptămânal, cu o evaluare simplă de la Scăzut la Bun.
 
+      Alături apar mediile săptămânale pentru calitatea somnului, sforăit, somn profund, REM, timpul până la adormire și durata totală a somnului. Configurarea cere doar adresa de e-mail și parola aplicației Eight Sleep. Eight Sleep nu are un API oficial, deci ne conectăm la fel ca aplicația și citim aceleași valori. Pluginul ocupă tot ecranul și nu poate fi inclus într-o compoziție.
+    email_meter: |-
+      Statisticile Gmail din Email Meter, pe un ecran TRMNL ePaper. Vezi câte mesaje ai trimis și către câți destinatari, câte ai primit și de la câți expeditori, precum și timpul mediu de răspuns.
 
-      Nu trebuie să configurezi nimic. Adaugă-l și salvează. Folosește data din fusul orar al contului și începe
-      din nou la 1 ianuarie.
-    days_since: >-
-      Numărul de zile de la un moment important pentru tine, pe un ecran TRMNL ePaper. Un obicei la care ai renunțat,
-      ziua în care ai început o afacere, ultima dată când cineva a stricat compilarea. Ecranul afișează data de
-      început și zilele trecute.
+      Alege ultimele 1, 7 sau 30 de zile. Configurarea cere un mic pas suplimentar: conectează-te la Email Meter, deschide consola browserului și copiază tokenul sesiunii folosind linia oferită în formularul de setări (nu sunt necesare cunoștințe de programare). Tokenul expiră la încheierea sesiunii. Când ecranul indică respingerea lui, obține unul nou și lipește-l.
+    enphase: |-
+      Sistemul tău fotovoltaic Enphase, pe un ecran TRMNL ePaper. Conectează contul Enphase, alege sistemul, iar ecranul afișează curba producției de astăzi, o valoare principală și ora ultimei raportări.
 
+      Tu alegi valoarea principală: energia produsă, consumată, importată sau exportată astăzi, importul ori exportul net, puterea maximă, producția curentă, acoperirea solară, dependența de rețea, producția totală sau bateria. Alege apoi celelalte valori afișate alături. Aranjările mai mici afișează primele valori care încap. Nu ai contor de consum? Valorile pe care sistemul nu le poate raporta sunt omise, nu afișate ca zero.
+    ethereum_wallet_balance: |-
+      Soldul portofelului Ethereum, pe un ecran TRMNL ePaper. Lipește adresa publică, iar ecranul afișează valoarea în dolari SUA, cantitatea de ETH și variația prețului în ultimele 7 și 90 de zile, cu un grafic al prețului pe 90 de zile.
 
-      Alege data de început și formatul ei, de la „26 noiembrie 2024” la 2024-11-26 sau 11/26/2024. Urmărești mai
-      multe lucruri? Adaugă pluginul pentru fiecare dată și combină-le într-o compoziție.
-    dropbox_photo_album: >-
-      Transformă ecranul TRMNL ePaper într-o ramă foto digitală alimentată din Dropbox. Conectează contul Dropbox
-      și creăm un folder de aplicație TRMNL în folderul Apps. Adaugă fotografii acolo, iar fiecare reîmprospătare
-      afișează una aleatoriu, adaptată ecranului.
+      Se introduce doar adresa publică. Fără chei, fără autentificare și fără nimic care să poată transfera fondurile. Urmărești mai multe portofele? Adaugă pluginul pentru fiecare adresă.
+    etsy: |-
+      Vânzările magazinului Etsy, pe un ecran TRMNL ePaper. Conectează contul Etsy, alege magazinul și vezi vânzările totale, valoarea medie a comenzilor și numărul comenzilor în așteptare sau onorate.
 
+      Un grafic compară vânzările zilnice cu perioada precedentă, ca să vezi imediat dacă săptămâna aceasta o depășește pe cea trecută. Alege ultimele 7, 30 sau 90 de zile ori luna curentă până astăzi. Comenzile anulate sunt excluse, iar cele neplătite nu sunt incluse în vânzări.
+    fastmail_calendar: |-
+      Calendarul Fastmail, pe un ecran TRMNL ePaper. Publică calendarul din setările Edit & Share din Fastmail, cu toate detaliile evenimentelor sau doar disponibilitatea, apoi lipește linkul în plugin (înlocuiește „webcal” cu „https”). Ai mai multe calendare? Adaugă câte un link pe linie. Preferi telefonul? Sincronizează de pe iPhone sau iPad cu aplicația TRMNL Companion.
 
-      TRMNL poate citi și partaja fișiere doar din acel folder, niciodată din restul contului Dropbox. Folosești
-      orientarea portret? Încarcă fotografii portret și folosește fotografii peisaj pentru ecranele orizontale.
-      Adaugă sau elimină fotografii oricând, iar rotația se adaptează.
-    eight_sleep: >-
-      Datele tale Eight Sleep, pe un ecran TRMNL ePaper. După trezire, vezi dintr-o privire cum a fost săptămâna:
-      câte un indicator al scorului de somn pentru ultimele 7 zile și scorul săptămânal, cu o evaluare simplă de
-      la Scăzut la Bun.
+      Alege o aranjare: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă lunară ori un program minimal. Afișează orele și descrierile, folosește formatul de 12 sau 24 de ore, ascunde evenimentele cu anumite cuvinte și afișează culorile calendarelor. Vederile săptămânale și lunare pot umbri weekendurile, evidenția ziua curentă și afișa numerele săptămânilor.
+    fera: |-
+      Recenziile tale Fera, pe un ecran TRMNL ePaper. Sus: nota medie, numărul total de recenzii, proporția celor verificate și numărul produselor cu recenzii. Dedesubt: cele mai recente recenzii, cu stele, titluri și text.
 
+      Conectează contul Fera și alege recenziile de afișat: aprobate (implicit), în așteptarea aprobării, în așteptarea actualizării, respinse sau în așteptare. TRMNL doar citește recenziile și nu poate modifica nimic. Îl poți deconecta oricând din Fera.
+    gaffa: |-
+      Propria pagină de știri, pe un ecran TRMNL ePaper, creată de AI-ul Gaffa. Oferă adresa unui site de știri, iar Gaffa citește pagina, alege subiectele principale și scrie un scurt rezumat pentru fiecare. Primești o listă numerotată de titluri cu un rând sau două de context.
 
-      Alături apar mediile săptămânale pentru calitatea somnului, sforăit, somn profund, REM, timpul până la adormire
-      și durata totală a somnului. Configurarea cere doar adresa de e-mail și parola aplicației Eight Sleep. Eight
-      Sleep nu are un API oficial, deci ne conectăm la fel ca aplicația și citim aceleași valori. Pluginul ocupă
-      tot ecranul și nu poate fi inclus într-o compoziție.
-    email_meter: >-
-      Statisticile Gmail din Email Meter, pe un ecran TRMNL ePaper. Vezi câte mesaje ai trimis și către câți destinatari,
-      câte ai primit și de la câți expeditori, precum și timpul mediu de răspuns.
+      Ghidează rezumatele cu propria instrucțiune, precum „concentrează-te pe evenimente globale și evită titlurile înșelătoare”, și personalizează eticheta barei de titlu. Perioada de probă gratuită Gaffa acoperă primele 6 luni. După aceea, introdu propria cheie API Gaffa pentru a continua.
+    github_commit_graph: |-
+      Graficul contribuțiilor tale GitHub, pe un ecran TRMNL ePaper. Introdu numele de utilizator GitHub (fără @), iar ecranul desenează activitatea ultimului an ca o grilă de pătrate, mai întunecate în zilele cu mai multă activitate.
 
+      Alături apar totalul contribuțiilor din ultimul an, cea mai lungă serie și seria curentă de zile consecutive, ziua cea mai activă și media zilnică. Nu trebuie să conectezi nimic și nu ai nevoie de token, doar de numele de utilizator. Vrei și graficul unui coleg? Adaugă din nou pluginul cu numele lui de utilizator.
+    github_commits: |-
+      Cele mai recente commituri din orice repository GitHub, pe un ecran TRMNL ePaper. Fiecare rând afișează mesajul commitului, autorul, data și ora și hashul scurt.
 
-      Alege ultimele 1, 7 sau 30 de zile. Configurarea cere un mic pas suplimentar: conectează-te la Email Meter,
-      deschide consola browserului și copiază tokenul sesiunii folosind linia oferită în formularul de setări (nu
-      sunt necesare cunoștințe de programare). Tokenul expiră la încheierea sesiunii. Când ecranul indică respingerea
-      lui, obține unul nou și lipește-l.
-    enphase: >-
-      Sistemul tău fotovoltaic Enphase, pe un ecran TRMNL ePaper. Conectează contul Enphase, alege sistemul, iar
-      ecranul afișează curba producției de astăzi, o valoare principală și ora ultimei raportări.
+      Introdu repository-ul ca organizație/repository sau lipește linkul GitHub. Lasă ramura necompletată pentru a urmări ramura implicită ori indică ramura dorită. Repository-urile open source nu cer altceva. Pentru unul privat, schimbă vizibilitatea în privat și adaugă un token cu permisiuni detaliate și acces de citire la conținutul repository-ului. Dacă GitHub întâmpină probleme, ultima listă validă rămâne pe ecran.
+    github_contributor_summary: |-
+      Cine contribuie la repository-ul tău GitHub, pe un ecran TRMNL ePaper. Un tabel listează numele fiecărui contributor, commiturile din săptămâna trecută și totalul commiturilor, ca să vezi imediat cine este activ.
 
+      Introdu repository-ul ca utilizator/repository și adaugă din setările GitHub un token de acces cu permisiuni detaliate. Este suficient accesul de citire la metadatele repository-ului. GitHub afișează tokenul o singură dată, deci copiază-l direct în TRMNL. Urmărești mai multe repository-uri? Adaugă pluginul pentru fiecare.
+    google_analytics: |-
+      Statisticile Google Analytics, pe un ecran TRMNL ePaper. Vezi vizualizările de pagină, sesiunile, vizitatorii și durata medie a sesiunii, cu un grafic al vizualizărilor zilnice dedesubt.
 
-      Tu alegi valoarea principală: energia produsă, consumată, importată sau exportată astăzi, importul ori exportul
-      net, puterea maximă, producția curentă, acoperirea solară, dependența de rețea, producția totală sau bateria.
-      Alege apoi celelalte valori afișate alături. Aranjările mai mici afișează primele valori care încap. Nu ai
-      contor de consum? Valorile pe care sistemul nu le poate raporta sunt omise, nu afișate ca zero.
-    ethereum_wallet_balance: >-
-      Soldul portofelului Ethereum, pe un ecran TRMNL ePaper. Lipește adresa publică, iar ecranul afișează valoarea
-      în dolari SUA, cantitatea de ETH și variația prețului în ultimele 7 și 90 de zile, cu un grafic al prețului
-      pe 90 de zile.
+      Conectează contul Google, introdu ID-ul proprietății site-ului urmărit și alege o perioadă de 7, 30 sau 90 de zile. Datele pot include ziua de astăzi sau se pot opri la ieri. Alegând ieri, graficul nu scade la final doar pentru că ziua curentă nu s-a încheiat. Ai mai multe site-uri? Adaugă pluginul pentru fiecare proprietate.
+    google_calendar: |-
+      Calendarul Google, pe un ecran TRMNL ePaper. Conectează-te cu Google, alege calendarele dorite și ai terminat. Ai un cont de serviciu și unul personal? Conectează mai multe conturi Google și afișează calendarele lor pe același ecran.
 
+      Alege aranjarea potrivită: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă lunară ori un program minimal. Afișează orele și descrierile, folosește formatul de 12 sau 24 de ore, ascunde evenimentele cu anumite cuvinte ori afișează doar evenimentele acceptate. Poți adăuga o linie pentru ora curentă, iar vederile săptămânale și lunare pot umbri weekendurile, evidenția ziua curentă și afișa numerele săptămânilor.
+    google_drive_photos: |-
+      Transformă un folder Google Drive într-o ramă foto pentru ecranul TRMNL ePaper. Fiecare reîmprospătare alege aleatoriu o imagine din folder: JPEG, PNG, GIF, BMP, WebP sau TIFF.
 
-      Se introduce doar adresa publică. Fără chei, fără autentificare și fără nimic care să poată transfera fondurile.
-      Urmărești mai multe portofele? Adaugă pluginul pentru fiecare adresă.
-    etsy: >-
-      Vânzările magazinului Etsy, pe un ecran TRMNL ePaper. Conectează contul Etsy, alege magazinul și vezi vânzările
-      totale, valoarea medie a comenzilor și numărul comenzilor în așteptare sau onorate.
+      Nu trebuie să te conectezi cu Google. Partajează folderul cu adresa de e-mail TRMNL afișată în setări, cu rolul Viewer, apoi lipește linkul folderului. TRMNL vede doar ce partajezi. Intră în rotație doar fotografiile aflate direct în folder, nu și subfolderele. Alege Acoperire pentru a umple ecranul (marginile pot fi decupate) sau Încadrare pentru imaginea completă, cu spațiu în jur.
+    google_photos: |-
+      Fotografii din biblioteca Google Photos, pe un ecran TRMNL ePaper. Conectează contul Google, apoi alege manual fotografiile în selectorul Google. Fiecare reîmprospătare afișează aleatoriu una dintre ele.
 
+      TRMNL vede doar fotografiile selectate, nimic altceva din bibliotecă. Alege Acoperire pentru a umple ecranul (marginile pot fi decupate) sau Încadrare pentru fotografia completă, cu spațiu în jur. Google încheie accesul după 7 zile, deci va trebui să alegi din nou periodic. Pagina de setări arată când expiră.
+    google_tasks: |-
+      Sarcinile Google Tasks, pe un ecran TRMNL ePaper. Conectează contul Google, alege o listă, iar ecranul afișează sarcinile nefinalizate și scadențele. Sarcinile finalizate nu apar.
 
-      Un grafic compară vânzările zilnice cu perioada precedentă, ca să vezi imediat dacă săptămâna aceasta o depășește
-      pe cea trecută. Alege ultimele 7, 30 sau 90 de zile ori luna curentă până astăzi. Comenzile anulate sunt excluse,
-      iar cele neplătite nu sunt incluse în vânzări.
-    fastmail_calendar: >-
-      Calendarul Fastmail, pe un ecran TRMNL ePaper. Publică calendarul din setările Edit & Share din Fastmail,
-      cu toate detaliile evenimentelor sau doar disponibilitatea, apoi lipește linkul în plugin (înlocuiește „webcal”
-      cu „https”). Ai mai multe calendare? Adaugă câte un link pe linie. Preferi telefonul? Sincronizează de pe
-      iPhone sau iPad cu aplicația TRMNL Companion.
-
-
-      Alege o aranjare: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă lunară ori
-      un program minimal. Afișează orele și descrierile, folosește formatul de 12 sau 24 de ore, ascunde evenimentele
-      cu anumite cuvinte și afișează culorile calendarelor. Vederile săptămânale și lunare pot umbri weekendurile,
-      evidenția ziua curentă și afișa numerele săptămânilor.
-    fera: >-
-      Recenziile tale Fera, pe un ecran TRMNL ePaper. Sus: nota medie, numărul total de recenzii, proporția celor
-      verificate și numărul produselor cu recenzii. Dedesubt: cele mai recente recenzii, cu stele, titluri și text.
-
-
-      Conectează contul Fera și alege recenziile de afișat: aprobate (implicit), în așteptarea aprobării, în așteptarea
-      actualizării, respinse sau în așteptare. TRMNL doar citește recenziile și nu poate modifica nimic. Îl poți
-      deconecta oricând din Fera.
-    gaffa: >-
-      Propria pagină de știri, pe un ecran TRMNL ePaper, creată de AI-ul Gaffa. Oferă adresa unui site de știri,
-      iar Gaffa citește pagina, alege subiectele principale și scrie un scurt rezumat pentru fiecare. Primești o
-      listă numerotată de titluri cu un rând sau două de context.
-
-
-      Ghidează rezumatele cu propria instrucțiune, precum „concentrează-te pe evenimente globale și evită titlurile
-      înșelătoare”, și personalizează eticheta barei de titlu. Perioada de probă gratuită Gaffa acoperă primele
-      6 luni. După aceea, introdu propria cheie API Gaffa pentru a continua.
-    github_commit_graph: >-
-      Graficul contribuțiilor tale GitHub, pe un ecran TRMNL ePaper. Introdu numele de utilizator GitHub (fără @),
-      iar ecranul desenează activitatea ultimului an ca o grilă de pătrate, mai întunecate în zilele cu mai multă
-      activitate.
-
-
-      Alături apar totalul contribuțiilor din ultimul an, cea mai lungă serie și seria curentă de zile consecutive,
-      ziua cea mai activă și media zilnică. Nu trebuie să conectezi nimic și nu ai nevoie de token, doar de numele
-      de utilizator. Vrei și graficul unui coleg? Adaugă din nou pluginul cu numele lui de utilizator.
-    github_commits: >-
-      Cele mai recente commituri din orice repository GitHub, pe un ecran TRMNL ePaper. Fiecare rând afișează mesajul
-      commitului, autorul, data și ora și hashul scurt.
-
-
-      Introdu repository-ul ca organizație/repository sau lipește linkul GitHub. Lasă ramura necompletată pentru
-      a urmări ramura implicită ori indică ramura dorită. Repository-urile open source nu cer altceva. Pentru unul
-      privat, schimbă vizibilitatea în privat și adaugă un token cu permisiuni detaliate și acces de citire la conținutul
-      repository-ului. Dacă GitHub întâmpină probleme, ultima listă validă rămâne pe ecran.
-    github_contributor_summary: >-
-      Cine contribuie la repository-ul tău GitHub, pe un ecran TRMNL ePaper. Un tabel listează numele fiecărui contributor,
-      commiturile din săptămâna trecută și totalul commiturilor, ca să vezi imediat cine este activ.
-
-
-      Introdu repository-ul ca utilizator/repository și adaugă din setările GitHub un token de acces cu permisiuni
-      detaliate. Este suficient accesul de citire la metadatele repository-ului. GitHub afișează tokenul o singură
-      dată, deci copiază-l direct în TRMNL. Urmărești mai multe repository-uri? Adaugă pluginul pentru fiecare.
-    google_analytics: >-
-      Statisticile Google Analytics, pe un ecran TRMNL ePaper. Vezi vizualizările de pagină, sesiunile, vizitatorii
-      și durata medie a sesiunii, cu un grafic al vizualizărilor zilnice dedesubt.
-
-
-      Conectează contul Google, introdu ID-ul proprietății site-ului urmărit și alege o perioadă de 7, 30 sau 90
-      de zile. Datele pot include ziua de astăzi sau se pot opri la ieri. Alegând ieri, graficul nu scade la final
-      doar pentru că ziua curentă nu s-a încheiat. Ai mai multe site-uri? Adaugă pluginul pentru fiecare proprietate.
-    google_calendar: >-
-      Calendarul Google, pe un ecran TRMNL ePaper. Conectează-te cu Google, alege calendarele dorite și ai terminat.
-      Ai un cont de serviciu și unul personal? Conectează mai multe conturi Google și afișează calendarele lor pe
-      același ecran.
-
-
-      Alege aranjarea potrivită: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă
-      lunară ori un program minimal. Afișează orele și descrierile, folosește formatul de 12 sau 24 de ore, ascunde
-      evenimentele cu anumite cuvinte ori afișează doar evenimentele acceptate. Poți adăuga o linie pentru ora curentă,
-      iar vederile săptămânale și lunare pot umbri weekendurile, evidenția ziua curentă și afișa numerele săptămânilor.
-    google_drive_photos: >-
-      Transformă un folder Google Drive într-o ramă foto pentru ecranul TRMNL ePaper. Fiecare reîmprospătare alege
-      aleatoriu o imagine din folder: JPEG, PNG, GIF, BMP, WebP sau TIFF.
-
-
-      Nu trebuie să te conectezi cu Google. Partajează folderul cu adresa de e-mail TRMNL afișată în setări, cu
-      rolul Viewer, apoi lipește linkul folderului. TRMNL vede doar ce partajezi. Intră în rotație doar fotografiile
-      aflate direct în folder, nu și subfolderele. Alege Acoperire pentru a umple ecranul (marginile pot fi decupate)
-      sau Încadrare pentru imaginea completă, cu spațiu în jur.
-    google_photos: >-
-      Fotografii din biblioteca Google Photos, pe un ecran TRMNL ePaper. Conectează contul Google, apoi alege manual
-      fotografiile în selectorul Google. Fiecare reîmprospătare afișează aleatoriu una dintre ele.
-
-
-      TRMNL vede doar fotografiile selectate, nimic altceva din bibliotecă. Alege Acoperire pentru a umple ecranul
-      (marginile pot fi decupate) sau Încadrare pentru fotografia completă, cu spațiu în jur. Google încheie accesul
-      după 7 zile, deci va trebui să alegi din nou periodic. Pagina de setări arată când expiră.
-    google_tasks: >-
-      Sarcinile Google Tasks, pe un ecran TRMNL ePaper. Conectează contul Google, alege o listă, iar ecranul afișează
-      sarcinile nefinalizate și scadențele. Sarcinile finalizate nu apar.
-
-
-      Sortează după scadență sau păstrează ordinea stabilită în aplicație. Subsarcinile apar imediat sub sarcina
-      principală, indentate, pentru a le distinge. Poți alinia lista sus, la centru sau jos. Ai o listă de serviciu
-      și una personală? Adaugă pluginul pentru fiecare și afișează-le alăturat într-o compoziție.
-    gumroad_analytics: >-
+      Sortează după scadență sau păstrează ordinea stabilită în aplicație. Subsarcinile apar imediat sub sarcina principală, indentate, pentru a le distinge. Poți alinia lista sus, la centru sau jos. Ai o listă de serviciu și una personală? Adaugă pluginul pentru fiecare și afișează-le alăturat într-o compoziție.
+    gumroad_analytics: |-
       Vânzările Gumroad, pe un ecran TRMNL ePaper. Două numere mari: câte vânzări ai făcut și valoarea lor.
 
+      Conectează contul Gumroad și alege o perioadă de 7, 30 sau 90 de zile. Aceasta este întreaga configurare. Vrei să compari săptămâna cu trimestrul? Adaugă pluginul de două ori, o dată pentru 7 zile și o dată pentru 90. Pune-l la vedere în timp ce lucrezi și urmărește rezultatele.
+    hacker_news: |-
+      Ce citește acum comunitatea tehnică, pe un ecran TRMNL ePaper. Ecranul listează articolele Hacker News în ordine, cu titlul, numărul de voturi și autorul postării. Pe ecranul complet sunt aranjate în două coloane.
 
-      Conectează contul Gumroad și alege o perioadă de 7, 30 sau 90 de zile. Aceasta este întreaga configurare.
-      Vrei să compari săptămâna cu trimestrul? Adaugă pluginul de două ori, o dată pentru 7 zile și o dată pentru
-      90. Pune-l la vedere în timp ce lucrezi și urmărește rezultatele.
-    hacker_news: >-
-      Ce citește acum comunitatea tehnică, pe un ecran TRMNL ePaper. Ecranul listează articolele Hacker News în
-      ordine, cu titlul, numărul de voturi și autorul postării. Pe ecranul complet sunt aranjate în două coloane.
+      Configurarea cere o singură alegere. Top Stories afișează articolele cu cel mai bun clasament actual. Show HN afișează proiecte realizate de utilizatori pentru a le încerca (eliminăm prefixul „Show HN:” din titluri). Într-o compoziție ocupă jumătate sau un sfert din ecran.
+    home_assistant_screenshot: |-
+      Panourile Home Assistant, pe un ecran TRMNL ePaper. Pluginul funcționează împreună cu extensia TRMNL HA, care face capturi ale panourilor în propria rețea, le pregătește pentru ePaper și le trimite la URL-ul webhook privat oferit de plugin. Nimic nu accesează rețeaua ta din exterior.
 
+      Instalează extensia din magazinul Home Assistant sau ruleaz-o într-un container separat dacă folosești Home Assistant în Docker. Creează un program în extensie, alege presetarea dispozitivului și lipește URL-ul webhook. În TRMNL, alege dacă imaginea umple spațiul sau se afișează integral când împarte ecranul cu alte pluginuri și ce culoare umple spațiul liber din jur.
+    homey: |-
+      Casa inteligentă Homey, pe un ecran TRMNL ePaper. Prezentarea generală începe cu valori precum puterea, temperatura și umiditatea, listează alarmele active, apoi dispozitivele. Baterii listează dispozitivele pe baterii, începând cu cele mai descărcate. Statistici afișează graficul unei valori înregistrate în ultima oră, zi, săptămână sau lună.
 
-      Configurarea cere o singură alegere. Top Stories afișează articolele cu cel mai bun clasament actual. Show
-      HN afișează proiecte realizate de utilizatori pentru a le încerca (eliminăm prefixul „Show HN:” din titluri).
-      Într-o compoziție ocupă jumătate sau un sfert din ecran.
-    home_assistant_screenshot: >-
-      Panourile Home Assistant, pe un ecran TRMNL ePaper. Pluginul funcționează împreună cu extensia TRMNL HA, care
-      face capturi ale panourilor în propria rețea, le pregătește pentru ePaper și le trimite la URL-ul webhook
-      privat oferit de plugin. Nimic nu accesează rețeaua ta din exterior.
+      Ai două moduri de a transmite datele. Instalează aplicația TRMNL pentru Homey (sau un HomeyScript) și lipește URL-ul de trimitere al pluginului. Sau conectează contul Homey pentru ca TRMNL să citească datele din cloud, apoi alege dispozitivul Homey de afișat. Afișează toate zonele sau o singură cameră. Pluginul stă și la baza rețetelor Homey din catalogul TRMNL.
+    hubspot: |-
+      Tranzacțiile HubSpot, pe un ecran TRMNL ePaper. Conectează contul HubSpot, alege un flux de vânzări, apoi până la 3 etape ale tranzacțiilor de urmărit.
 
+      Fiecare etapă are propria coloană, cu numele tranzacțiilor, valoarea și persoana responsabilă. Vezi rapid situația fluxului fără să deschizi CRM-ul. Vrei mai multe etape sau un al doilea flux? Adaugă din nou pluginul și combină-le într-o compoziție.
+    huckleberry: |-
+      Ziua bebelușului din Huckleberry, pe un ecran TRMNL ePaper. Ecranul afișează numele și vârsta copilului, dacă doarme sau este treaz și de când, apoi următorul somn SweetSpot sau ora de culcare. Dedesubt apar ultimul biberon, alăptarea, masa solidă și schimbarea scutecului, plus programul planificat al zilei.
 
-      Instalează extensia din magazinul Home Assistant sau ruleaz-o într-un container separat dacă folosești Home
-      Assistant în Docker. Creează un program în extensie, alege presetarea dispozitivului și lipește URL-ul webhook.
-      În TRMNL, alege dacă imaginea umple spațiul sau se afișează integral când împarte ecranul cu alte pluginuri
-      și ce culoare umple spațiul liber din jur.
-    homey: >-
-      Casa inteligentă Homey, pe un ecran TRMNL ePaper. Prezentarea generală începe cu valori precum puterea, temperatura
-      și umiditatea, listează alarmele active, apoi dispozitivele. Baterii listează dispozitivele pe baterii, începând
-      cu cele mai descărcate. Statistici afișează graficul unei valori înregistrate în ultima oră, zi, săptămână
-      sau lună.
+      Conectează-te cu adresa de e-mail și parola folosite în Huckleberry, salvează, apoi alege copilul. Huckleberry nu are un API oficial, deci ne conectăm la fel ca aplicația și citim aceleași date. Urmărești doi copii? Adaugă pluginul pentru fiecare și afișează-le alăturat într-o compoziție.
+    image_display: |-
+      Orice imagine de pe web, pe un ecran TRMNL ePaper. Introdu adresa imaginii, iar TRMNL o convertește pentru ecran. Adaugă mai multe adrese, câte una pe linie, și primești o imagine aleatorie la fiecare reîmprospătare. Linkurile de partajare Google Drive funcționează direct, deci Drive poate găzdui imaginile.
 
+      Folosește o fotografie, un grafic sau un panou generat de alt sistem ori o captură de cameră. Acoperă ecranul, încadrează imaginea cu o culoare de fundal în jur sau întinde-o pentru a umple spațiul. Găzduiești pe un server de acasă cu certificat autosemnat? Permite totuși preluarea de către TRMNL. Dacă serverul trimite antete ETag sau Last-Modified, TRMNL redesenează doar când imaginea se schimbă.
+    kickstarter: |-
+      Proiecte de finanțare participativă care merită văzute, pe un ecran TRMNL ePaper. Fiecare proiect afișează numele, o descriere scurtă, procentul finanțat din obiectiv, suma promisă în dolari SUA și țara de origine.
 
-      Ai două moduri de a transmite datele. Instalează aplicația TRMNL pentru Homey (sau un HomeyScript) și lipește
-      URL-ul de trimitere al pluginului. Sau conectează contul Homey pentru ca TRMNL să citească datele din cloud,
-      apoi alege dispozitivul Homey de afișat. Afișează toate zonele sau o singură cameră. Pluginul stă și la baza
-      rețetelor Homey din catalogul TRMNL.
-    hubspot: >-
-      Tranzacțiile HubSpot, pe un ecran TRMNL ePaper. Conectează contul HubSpot, alege un flux de vânzări, apoi
-      până la 3 etape ale tranzacțiilor de urmărit.
+      Alege Top pentru proiectele active cu cele mai mari sume strânse sau Ending Soon pentru campaniile care se încheie în curând, dacă vrei să contribui înainte de expirare. Aceasta este singura setare.
+    language_learning: |-
+      Un cuvânt în limba pe care o înveți, pe un ecran TRMNL ePaper. Ecranul afișează cuvântul în acea limbă, sensul în engleză și o propoziție care îl folosește.
 
+      Alege dintre 13 limbi: portugheză braziliană, daneză, neerlandeză, engleză, franceză, greacă, italiană, japoneză, coreeană, norvegiană, spaniolă, suedeză sau turcă. Fiecare reîmprospătare trece la următorul cuvânt dintr-o listă de mii de cuvinte uzuale, iar TRMNL îți păstrează locul. Vrei mai mult timp pentru un cuvânt? Setează un interval de reîmprospătare mai lung.
+    letterboxd: |-
+      Jurnalul Letterboxd, pe un ecran TRMNL ePaper. Conectează-te cu Letterboxd, iar ecranul listează filmele înregistrate cel mai recent, cu data vizionării, anul lansării, nota în stele, o inimă dacă ți-au plăcut și o etichetă pentru revizionare. Aranjările mai mari includ afișul ultimului film.
 
-      Fiecare etapă are propria coloană, cu numele tranzacțiilor, valoarea și persoana responsabilă. Vezi rapid
-      situația fluxului fără să deschizi CRM-ul. Vrei mai multe etape sau un al doilea flux? Adaugă din nou pluginul
-      și combină-le într-o compoziție.
-    huckleberry: >-
-      Ziua bebelușului din Huckleberry, pe un ecran TRMNL ePaper. Ecranul afișează numele și vârsta copilului, dacă
-      doarme sau este treaz și de când, apoi următorul somn SweetSpot sau ora de culcare. Dedesubt apar ultimul
-      biberon, alăptarea, masa solidă și schimbarea scutecului, plus programul planificat al zilei.
+      Vrei să vezi ce urmăresc ceilalți? Treci la modul Prieteni pentru înregistrări și recenzii recente ale persoanelor urmărite, cu autorul, nota și afișul unde există loc.
+    lunar_calendar: |-
+      Poziția Lunii în ciclul său, pe un ecran TRMNL ePaper. Ecranul începe cu faza curentă, proporția iluminată și vârsta Lunii în zile. Dedesubt apare cronologia fazelor din jurul zilei curente, cu datele lor, apoi următoarea fază, următoarea lună plină și următoarea lună nouă.
 
+      Există o singură setare: Detaliat folosește imagini realiste ale Lunii, iar Simplu folosește pictograme clare. Nu este necesară locația. Datele urmează fusul orar al contului.
+    lunch_money: |-
+      Finanțele Lunch Money, pe un ecran TRMNL ePaper. Creează un token de acces în setările pentru dezvoltatori Lunch Money, lipește-l și alege ce vrei să vezi.
 
-      Conectează-te cu adresa de e-mail și parola folosite în Huckleberry, salvează, apoi alege copilul. Huckleberry
-      nu are un API oficial, deci ne conectăm la fel ca aplicația și citim aceleași date. Urmărești doi copii? Adaugă
-      pluginul pentru fiecare și afișează-le alăturat într-o compoziție.
-    image_display: >-
-      Orice imagine de pe web, pe un ecran TRMNL ePaper. Introdu adresa imaginii, iar TRMNL o convertește pentru
-      ecran. Adaugă mai multe adrese, câte una pe linie, și primești o imagine aleatorie la fiecare reîmprospătare.
-      Linkurile de partajare Google Drive funcționează direct, deci Drive poate găzdui imaginile.
+      Bugete afișează cheltuielile lunii curente pe categorii, în ordine descrescătoare, cu un grafic comparativ față de buget. Alege categoriile principale sau subcategoriile pentru a evita dubla numărare. Conturi afișează soldurile conturilor și activelor conectate, inclusiv datoriile. Avere netă afișează situația de astăzi, variația și un grafic al activelor și datoriilor din ultimele 3, 6, 9 sau 12 luni. Sumele folosesc moneda principală din Lunch Money.
+    mailchimp_analytics: |-
+      Statisticile audienței Mailchimp, pe un ecran TRMNL ePaper. Conectează contul Mailchimp și alege audiența urmărită.
 
+      Activitate recentă afișează sus mesajele trimise și rata de deschidere, apoi deschiderile unice, clicurile, respingerile permanente și temporare, abonații noi și dezabonările. Istoricul creșterii păstrează mesajele trimise și rata de deschidere, dar înlocuiește restul cu un grafic lunar al numărului de abonați. Ai mai multe newslettere? Adaugă pluginul pentru fiecare audiență.
+    mazevo: |-
+      Transformă ecranul TRMNL ePaper într-un indicator de sală pentru orice spațiu rezervat în Mazévo. Vezi imediat dacă sala este ocupată, cu numele și intervalul rezervării curente, sau dacă este disponibilă și până când. Rezervările rămase ale zilei apar dedesubt.
 
-      Folosește o fotografie, un grafic sau un panou generat de alt sistem ori o captură de cameră. Acoperă ecranul,
-      încadrează imaginea cu o culoare de fundal în jur sau întinde-o pentru a umple spațiul. Găzduiești pe un server
-      de acasă cu certificat autosemnat? Permite totuși preluarea de către TRMNL. Dacă serverul trimite antete ETag
-      sau Last-Modified, TRMNL redesenează doar când imaginea se schimbă.
-    kickstarter: >-
-      Proiecte de finanțare participativă care merită văzute, pe un ecran TRMNL ePaper. Fiecare proiect afișează
-      numele, o descriere scurtă, procentul finanțat din obiectiv, suma promisă în dolari SUA și țara de origine.
-
-
-      Alege Top pentru proiectele active cu cele mai mari sume strânse sau Ending Soon pentru campaniile care se
-      încheie în curând, dacă vrei să contribui înainte de expirare. Aceasta este singura setare.
-    language_learning: >-
-      Un cuvânt în limba pe care o înveți, pe un ecran TRMNL ePaper. Ecranul afișează cuvântul în acea limbă, sensul
-      în engleză și o propoziție care îl folosește.
-
-
-      Alege dintre 13 limbi: portugheză braziliană, daneză, neerlandeză, engleză, franceză, greacă, italiană, japoneză,
-      coreeană, norvegiană, spaniolă, suedeză sau turcă. Fiecare reîmprospătare trece la următorul cuvânt dintr-o
-      listă de mii de cuvinte uzuale, iar TRMNL îți păstrează locul. Vrei mai mult timp pentru un cuvânt? Setează
-      un interval de reîmprospătare mai lung.
-    letterboxd: >-
-      Jurnalul Letterboxd, pe un ecran TRMNL ePaper. Conectează-te cu Letterboxd, iar ecranul listează filmele înregistrate
-      cel mai recent, cu data vizionării, anul lansării, nota în stele, o inimă dacă ți-au plăcut și o etichetă
-      pentru revizionare. Aranjările mai mari includ afișul ultimului film.
-
-
-      Vrei să vezi ce urmăresc ceilalți? Treci la modul Prieteni pentru înregistrări și recenzii recente ale persoanelor
-      urmărite, cu autorul, nota și afișul unde există loc.
-    lunar_calendar: >-
-      Poziția Lunii în ciclul său, pe un ecran TRMNL ePaper. Ecranul începe cu faza curentă, proporția iluminată
-      și vârsta Lunii în zile. Dedesubt apare cronologia fazelor din jurul zilei curente, cu datele lor, apoi următoarea
-      fază, următoarea lună plină și următoarea lună nouă.
-
-
-      Există o singură setare: Detaliat folosește imagini realiste ale Lunii, iar Simplu folosește pictograme clare.
-      Nu este necesară locația. Datele urmează fusul orar al contului.
-    lunch_money: >-
-      Finanțele Lunch Money, pe un ecran TRMNL ePaper. Creează un token de acces în setările pentru dezvoltatori
-      Lunch Money, lipește-l și alege ce vrei să vezi.
-
-
-      Bugete afișează cheltuielile lunii curente pe categorii, în ordine descrescătoare, cu un grafic comparativ
-      față de buget. Alege categoriile principale sau subcategoriile pentru a evita dubla numărare. Conturi afișează
-      soldurile conturilor și activelor conectate, inclusiv datoriile. Avere netă afișează situația de astăzi, variația
-      și un grafic al activelor și datoriilor din ultimele 3, 6, 9 sau 12 luni. Sumele folosesc moneda principală
-      din Lunch Money.
-    mailchimp_analytics: >-
-      Statisticile audienței Mailchimp, pe un ecran TRMNL ePaper. Conectează contul Mailchimp și alege audiența
-      urmărită.
-
-
-      Activitate recentă afișează sus mesajele trimise și rata de deschidere, apoi deschiderile unice, clicurile,
-      respingerile permanente și temporare, abonații noi și dezabonările. Istoricul creșterii păstrează mesajele
-      trimise și rata de deschidere, dar înlocuiește restul cu un grafic lunar al numărului de abonați. Ai mai multe
-      newslettere? Adaugă pluginul pentru fiecare audiență.
-    mazevo: >-
-      Transformă ecranul TRMNL ePaper într-un indicator de sală pentru orice spațiu rezervat în Mazévo. Vezi imediat
-      dacă sala este ocupată, cu numele și intervalul rezervării curente, sau dacă este disponibilă și până când.
-      Rezervările rămase ale zilei apar dedesubt.
-
-
-      Conectează-te cu o cheie API și un URL API Mazévo, care permit rezervări de organizație și private, sau cu
-      fluxul iCal al unui calendar Mazévo, care afișează doar numele și orele evenimentelor. Alege sala în fața
-      căreia este ecranul. Personalizează-l: înlocuiește numele sălii cu propriul titlu, schimbă eticheta „Disponibil”,
-      adaugă o notă de un rând jos, afișează sau ascunde rezervările încheiate și folosește formatul de 12 sau 24
-      de ore. Rezervările private apar ca private, fără nume.
-    microsoft_todo: >-
+      Conectează-te cu o cheie API și un URL API Mazévo, care permit rezervări de organizație și private, sau cu fluxul iCal al unui calendar Mazévo, care afișează doar numele și orele evenimentelor. Alege sala în fața căreia este ecranul. Personalizează-l: înlocuiește numele sălii cu propriul titlu, schimbă eticheta „Disponibil”, adaugă o notă de un rând jos, afișează sau ascunde rezervările încheiate și folosește formatul de 12 sau 24 de ore. Rezervările private apar ca private, fără nume.
+    microsoft_todo: |-
       Sarcinile Microsoft To Do, pe un ecran TRMNL ePaper. Conectează-te cu contul Microsoft și alege lista de afișat.
 
+      Ecranul listează toate sarcinile nefinalizate, cu scadența și o scurtă previzualizare a notelor. Sarcinile finalizate dispar, deci vezi doar ce a rămas. Poți alinia sarcinile sus, la centru sau jos. Ai o listă de serviciu și una de cumpărături? Adaugă pluginul pentru fiecare și afișează-le într-o compoziție.
+    mondrian: |-
+      Artă generativă în stilul lui Piet Mondrian, pe un ecran TRMNL ePaper. La fiecare generare, ecranul se împarte într-o grilă aleatorie de linii negre groase și blocuri umplute, astfel încât două ecrane nu arată la fel.
 
-      Ecranul listează toate sarcinile nefinalizate, cu scadența și o scurtă previzualizare a notelor. Sarcinile
-      finalizate dispar, deci vezi doar ce a rămas. Poți alinia sarcinile sus, la centru sau jos. Ai o listă de
-      serviciu și una de cumpărături? Adaugă pluginul pentru fiecare și afișează-le într-o compoziție.
-    mondrian: >-
-      Artă generativă în stilul lui Piet Mondrian, pe un ecran TRMNL ePaper. La fiecare generare, ecranul se împarte
-      într-o grilă aleatorie de linii negre groase și blocuri umplute, astfel încât două ecrane nu arată la fel.
+      Nu trebuie să configurezi nimic. Adaugă-l într-o listă de redare pentru o pauză între ecranele cu date sau într-o compoziție, ca o mică operă de artă lângă calendar ori vreme.
+    motivational_quote: |-
+      Un citat motivațional al zilei, pe un ecran TRMNL ePaper. Ecranul afișează citatul cu caractere mari și numele autorului dedesubt. Citatele provin din citatul zilei ZenQuotes, deci se schimbă zilnic și toată lumea vede același citat.
 
+      Nu trebuie să configurezi nimic. Adaugă-l într-o listă de redare sau într-o compoziție lângă calendar, pentru un gând între ședințe.
+    nano_banana_dashboard: |-
+      Datele tale TRMNL, transformate în imagine de modelele de generare Gemini de la Google (poreclite Nano Banana). Alege până la 3 pluginuri drept surse de date, iar Gemini transformă datele într-o scenă: prima pagină a unui ziar, un meniu de cafenea pe tablă, o sală de control și altele.
 
-      Nu trebuie să configurezi nimic. Adaugă-l într-o listă de redare pentru o pauză între ecranele cu date sau
-      într-o compoziție, ca o mică operă de artă lângă calendar ori vreme.
-    motivational_quote: >-
-      Un citat motivațional al zilei, pe un ecran TRMNL ePaper. Ecranul afișează citatul cu caractere mari și numele
-      autorului dedesubt. Citatele provin din citatul zilei ZenQuotes, deci se schimbă zilnic și toată lumea vede
-      același citat.
+      Folosești propria cheie API Gemini din Google AI Studio, cu facturarea configurată, și alegi Flash, Flash 2.5 sau Pro. Personalizează apoi imaginea: adaugă textul tău, precizează datele de evidențiat, alege o scenă sau Aleatoriu, adaugă indicații de stil și setează raportul de aspect. Utilizatorii avansați pot scrie întreaga instrucțiune. O imagine nouă este creată doar când setările sau datele se schimbă.
+    netatmo_weather_station: |-
+      Măsurătorile stației meteo Netatmo, pe un ecran TRMNL ePaper. Conectează-te la Netatmo pentru a acorda TRMNL acces doar pentru citire, apoi alege stația și, opțional, modulul pentru măsurătorile de interior.
 
+      Modul de bază începe cu temperatura exterioară și un grafic, apoi temperatura, umiditatea și CO2 din interior, plus umiditatea exterioară, presiunea, zgomotul și minimele și maximele zilei. Ai pluviometru sau anemometru? Apar și măsurătorile lor. Modul Grafic umple spațiul cu o singură mărime: temperatură, umiditate, CO2, zgomot, presiune, ploaie sau vânt. Alege Fahrenheit ori Celsius și, dacă preferi, noduri pentru vânt.
+    nextcloud_calendar: |-
+      Calendarul Nextcloud, pe un ecran TRMNL ePaper. Partajează calendarul ca link în Nextcloud și lipește-l (poți adăuga mai multe, câte unul pe linie) sau sincronizează de pe iPhone ori iPad cu aplicația TRMNL Companion.
 
-      Nu trebuie să configurezi nimic. Adaugă-l într-o listă de redare sau într-o compoziție lângă calendar, pentru
-      un gând între ședințe.
-    nano_banana_dashboard: >-
-      Datele tale TRMNL, transformate în imagine de modelele de generare Gemini de la Google (poreclite Nano Banana).
-      Alege până la 3 pluginuri drept surse de date, iar Gemini transformă datele într-o scenă: prima pagină a unui
-      ziar, un meniu de cafenea pe tablă, o sală de control și altele.
+      Alege o aranjare: agenda de astăzi, următoarele zile, o săptămână, o săptămână mobilă, săptămâna de lucru sau una de 3 zile, o grilă lunară ori lunară mobilă sau un program minimal. Afișează orele, descrierile și culorile calendarelor, folosește formatul de 12 sau 24 de ore și ascunde evenimentele cu anumite cuvinte. Vederile săptămânale și lunare pot umbri weekendurile, evidenția ziua curentă, afișa numerele săptămânilor și trasa o linie la ora curentă.
+    notion: |-
+      Bazele de date și paginile Notion, pe un ecran TRMNL ePaper. Conectează Notion cu acces doar pentru citire, alege conținutul vizibil pentru TRMNL, apoi o bază de date sau o pagină de afișat.
 
+      Pentru o bază de date, alege proprietatea folosită ca titlu, cea afișată ca insignă mare de stare și cele afișate ca etichete mici ori detalii dedesubt. Sortează după orice proprietate, filtrează cu sintaxa Notion (funcționează și date dinamice precum „astăzi plus 7”), setează numărul elementelor și folosește una sau două coloane. Pentru o pagină, ecranul afișează conținutul în ordine: text, titluri, liste, imagini și altele.
+    outlook_calendar: |-
+      Calendarul Outlook, pe un ecran TRMNL ePaper. Conectează-te cu contul Microsoft și alege calendarele de afișat. Dacă nu alegi nimic, se folosește calendarul implicit.
 
-      Folosești propria cheie API Gemini din Google AI Studio, cu facturarea configurată, și alegi Flash, Flash
-      2.5 sau Pro. Personalizează apoi imaginea: adaugă textul tău, precizează datele de evidențiat, alege o scenă
-      sau Aleatoriu, adaugă indicații de stil și setează raportul de aspect. Utilizatorii avansați pot scrie întreaga
-      instrucțiune. O imagine nouă este creată doar când setările sau datele se schimbă.
-    netatmo_weather_station: >-
-      Măsurătorile stației meteo Netatmo, pe un ecran TRMNL ePaper. Conectează-te la Netatmo pentru a acorda TRMNL
-      acces doar pentru citire, apoi alege stația și, opțional, modulul pentru măsurătorile de interior.
+      Alege o aranjare: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă lunară ori un program minimal. Afișează orele și descrierile, folosește formatul de 12 sau 24 de ore, ascunde evenimentele cu anumite cuvinte și afișează doar evenimentele acceptate. Vederile săptămânale și lunare pot umbri weekendurile, evidenția ziua curentă și afișa numerele săptămânilor. Dacă îți planifici ziua oră cu oră, linia orei curente te ajută să urmărești programul.
+    parcel: |-
+      Livrările tale din aplicația Parcel, pe un ecran TRMNL ePaper. Fiecare livrare afișează starea, precum în tranzit sau în curs de livrare, numele, ultimul eveniment de urmărire și momentul estimat: astăzi, mâine, o zi a săptămânii sau o dată.
 
+      Ai nevoie de un abonament Parcel plătit. Conectează-te la web.parcelapp.net, creează o cheie API și lipește-o. Afișează livrările active sau recente, alege stilul Detaliat ori Compact, care omite evenimentul de urmărire, și decide ce se întâmplă când nu ai livrări: afișează ecranul gol sau omite-l.
+    place_of_the_day: |-
+      Un loc nou în fiecare zi pe ecranul TRMNL ePaper: un oraș sau o minune a lumii. Fiecare ecran afișează numele locului, regiunea și țara, o hartă a străzilor și o descriere scurtă, de obicei din Wikipedia. Când sunt disponibile, apar și populația, anul fondării, altitudinea, suprafața, ora locală și coordonatele.
 
-      Modul de bază începe cu temperatura exterioară și un grafic, apoi temperatura, umiditatea și CO2 din interior,
-      plus umiditatea exterioară, presiunea, zgomotul și minimele și maximele zilei. Ai pluviometru sau anemometru?
-      Apar și măsurătorile lor. Modul Grafic umple spațiul cu o singură mărime: temperatură, umiditate, CO2, zgomot,
-      presiune, ploaie sau vânt. Alege Fahrenheit ori Celsius și, dacă preferi, noduri pentru vânt.
-    nextcloud_calendar: >-
-      Calendarul Nextcloud, pe un ecran TRMNL ePaper. Partajează calendarul ca link în Nextcloud și lipește-l (poți
-      adăuga mai multe, câte unul pe linie) sau sincronizează de pe iPhone ori iPad cu aplicația TRMNL Companion.
+      Nu trebuie să configurezi nimic. Toți utilizatorii pluginului văd același loc într-o anumită zi, iar selecțiile alternează între Europa, Americi și restul lumii.
+    poetry_today: |-
+      O poezie pe ecranul TRMNL ePaper, cu titlul sus și numele poetului în colț. Fiecare reîmprospătare alege aleatoriu una nouă din PoetryDB, o colecție publică de poezii clasice.
 
+      Nu trebuie să configurezi nimic. Adaugă pluginul și ai terminat. Alegem doar poezii suficient de scurte pentru ecran (cel mult 24 de versuri), ca să nu primești un sonet tăiat la jumătate. Se potrivește lângă un ceas sau calendar într-o compoziție, când vrei ceva de citit mai pe îndelete decât e-mailurile.
+    polymarket: |-
+      Piețele de predicții Polymarket, pe un ecran TRMNL ePaper. Alege un subiect, iar ecranul listează până la 12 piețe deschise, fiecare cu întrebarea, numărul de comentarii și suma investită.
 
-      Alege o aranjare: agenda de astăzi, următoarele zile, o săptămână, o săptămână mobilă, săptămâna de lucru
-      sau una de 3 zile, o grilă lunară ori lunară mobilă sau un program minimal. Afișează orele, descrierile și
-      culorile calendarelor, folosește formatul de 12 sau 24 de ore și ascunde evenimentele cu anumite cuvinte.
-      Vederile săptămânale și lunare pot umbri weekendurile, evidenția ziua curentă, afișa numerele săptămânilor
-      și trasa o linie la ora curentă.
-    notion: >-
-      Bazele de date și paginile Notion, pe un ecran TRMNL ePaper. Conectează Notion cu acces doar pentru citire,
-      alege conținutul vizibil pentru TRMNL, apoi o bază de date sau o pagină de afișat.
+      Subiectele includ afaceri, cultură pop, sport, cripto, știință și politică. Nu ai nevoie de cont Polymarket. Afișăm doar piețe active care se încheie în următoarele două săptămâni, deci vezi pariuri care se rezolvă curând. Vrei un subiect absent din listă? Trimite asistenței ID-ul etichetei Polymarket și îl adăugăm în cont.
+    postmark_analytics: |-
+      Statisticile e-mailurilor Postmark, pe un ecran TRMNL ePaper. Lipește un Server API Token din serverul Postmark și alege perioada: 7, 30 sau 90 de zile.
 
+      Valorile principale sunt mesajele trimise și rata de deschidere. Dedesubt apar deschiderile unice, clicurile, respingerile, erorile, reclamațiile de spam și rata de respingere. Util pe biroul unei echipe de operațiuni sau asistență, pentru a observa creșterea respingerilor ori a reclamațiilor înainte ca un client să întrebe de ce nu a primit resetarea parolei.
+    private_plugin: |-
+      Creează propriul ecran pentru un dispozitiv TRMNL ePaper. Scrie-l în HTML cu șabloane Liquid și frameworkul de design TRMNL, apoi alege sursa datelor: TRMNL interoghează un URL care returnează JSON, XML sau text simplu, codul tău trimite date la un webhook, introduci JSON static sau reutilizezi datele altor pluginuri TRMNL.
 
-      Pentru o bază de date, alege proprietatea folosită ca titlu, cea afișată ca insignă mare de stare și cele
-      afișate ca etichete mici ori detalii dedesubt. Sortează după orice proprietate, filtrează cu sintaxa Notion
-      (funcționează și date dinamice precum „astăzi plus 7”), setează numărul elementelor și folosește una sau două
-      coloane. Pentru o pagină, ecranul afișează conținutul în ordine: text, titluri, liste, imagini și altele.
-    outlook_calendar: >-
-      Calendarul Outlook, pe un ecran TRMNL ePaper. Conectează-te cu contul Microsoft și alege calendarele de afișat.
-      Dacă nu alegi nimic, se folosește calendarul implicit.
+      Interogarea permite GET sau POST, antete personalizate, corp de cerere și OAuth pentru servicii care necesită autentificare. Adaugă câmpuri de formular pentru ca alții să configureze pluginul fără să modifice codul, transformă datele cu un script Node, PHP, Python sau Ruby și, când este gata, partajează-l ca rețetă.
+    product_hunt: |-
+      Lansările promovate de Product Hunt, pe un ecran TRMNL ePaper. Fiecare afișează numele, o descriere scurtă și numărul de voturi, într-o listă numerotată.
 
+      Nu trebuie să conectezi nimic și nu ai nevoie de cont. Adaugă pluginul, iar lista se actualizează singură. Construiești ceva? Urmărește lansările și voturile necesare pentru a ieși în evidență fără să deschizi altă filă. Ocupă tot ecranul, jumătate sau un sfert lângă alte pluginuri.
+    profit_well: |-
+      Veniturile ProfitWell, pe un ecran TRMNL ePaper. Lipește tokenul API ProfitWell, iar ecranul afișează valorile de astăzi din cont.
 
-      Alege o aranjare: agenda de astăzi, următoarele zile, o săptămână sau săptămâna de lucru, o grilă lunară ori
-      un program minimal. Afișează orele și descrierile, folosește formatul de 12 sau 24 de ore, ascunde evenimentele
-      cu anumite cuvinte și afișează doar evenimentele acceptate. Vederile săptămânale și lunare pot umbri weekendurile,
-      evidenția ziua curentă și afișa numerele săptămânilor. Dacă îți planifici ziua oră cu oră, linia orei curente
-      te ajută să urmărești programul.
-    parcel: >-
-      Livrările tale din aplicația Parcel, pe un ecran TRMNL ePaper. Fiecare livrare afișează starea, precum în
-      tranzit sau în curs de livrare, numele, ultimul eveniment de urmărire și momentul estimat: astăzi, mâine,
-      o zi a săptămânii sau o dată.
+      Sus: venitul recurent nou și venitul recurent total. Dedesubt: venitul pierdut, clienții activi, clienții noi și cei pierduți. Ai o afacere SaaS? Pune-l unde îl vezi în fiecare dimineață, ca o zi cu multe pierderi de clienți să nu rămână ascunsă într-un panou uitat.
+    proton_calendar: |-
+      Calendarul Proton, pe un ecran TRMNL ePaper. Ai două opțiuni: partajezi calendarul Proton ca link și lipești adresa .ics în plugin sau sincronizezi de pe iPhone ori iPad cu aplicația TRMNL Companion. Te preocupă confidențialitatea? Proton permite un link care arată doar când ești ocupat, fără detaliile evenimentelor.
 
+      Alege apoi o aranjare: agenda de astăzi, următoarele zile, o săptămână, o săptămână mobilă, săptămâna de lucru sau una de 3 zile, o grilă lunară ori un program minimal. Afișează orele și descrierile, folosește formatul de 12 sau 24 de ore, ascunde evenimentele cu anumite cuvinte și începe săptămâna în orice zi. Vederile săptămânale și lunare pot umbri weekendurile, evidenția ziua curentă și afișa numerele săptămânilor.
+    purpleair: |-
+      Măsurătorile unui senzor PurpleAir, pe un ecran TRMNL ePaper. Folosește propriul senzor sau unul public de pe harta PurpleAir. Introdu ID-ul senzorului și o cheie API PurpleAir, plus o cheie de citire dacă senzorul este privat.
 
-      Ai nevoie de un abonament Parcel plătit. Conectează-te la web.parcelapp.net, creează o cheie API și lipește-o.
-      Afișează livrările active sau recente, alege stilul Detaliat ori Compact, care omite evenimentul de urmărire,
-      și decide ce se întâmplă când nu ai livrări: afișează ecranul gol sau omite-l.
-    place_of_the_day: >-
-      Un loc nou în fiecare zi pe ecranul TRMNL ePaper: un oraș sau o minune a lumii. Fiecare ecran afișează numele
-      locului, regiunea și țara, o hartă a străzilor și o descriere scurtă, de obicei din Wikipedia. Când sunt disponibile,
-      apar și populația, anul fondării, altitudinea, suprafața, ora locală și coordonatele.
+      Alege ce afișezi. Calitatea aerului arată valorile curente PM2.5 și PM10, cu un grafic pe 24 de ore raportat la nivelurile EPA, de la Bun la Foarte nesănătos. Temperatură și umiditate afișează în schimb aceste două valori, în Fahrenheit sau Celsius. Cerem PurpleAir doar ce s-a schimbat de la ultima reîmprospătare, deci creditele API gratuite durează mai mult.
+    readwise: |-
+      Pasajele evidențiate în Readwise, pe un ecran TRMNL ePaper. Obține un token de acces Readwise, lipește-l în plugin și ai terminat.
 
+      Fiecare reîmprospătare afișează un pasaj din recapitularea zilnică Readwise, cu titlul cărții sau articolului și autorul. Următoarea reîmprospătare trece la următorul pasaj. Este o modalitate discretă de a reciti ce ai salvat, în loc să lași pasajele să se adune într-o aplicație pe care nu o deschizi.
+    reddit: |-
+      Postările populare din subreddit-urile preferate, pe un ecran TRMNL ePaper. Conectează contul Reddit, apoi indică până la 3 subreddit-uri. Fiecare are propria coloană.
 
-      Nu trebuie să configurezi nimic. Toți utilizatorii pluginului văd același loc într-o anumită zi, iar selecțiile
-      alternează între Europa, Americi și restul lumii.
-    poetry_today: >-
-      O poezie pe ecranul TRMNL ePaper, cu titlul sus și numele poetului în colț. Fiecare reîmprospătare alege aleatoriu
-      una nouă din PoetryDB, o colecție publică de poezii clasice.
+      Sortează după Hot, New sau Top și alege intervalul, de la ultima oră la toate timpurile. Postările fixate sunt omise, deoarece se schimbă rar. Afișează sau ascunde numărul de voturi și numele autorului sub fiecare titlu. Scurtează titlurile lungi la un rând pentru a încăpea mai multe postări.
+    redirect: |-
+      Un instrument pentru dezvoltatorii care își generează propriile imagini. Când ecranul TRMNL ePaper se conectează, apelăm un URL de pe serverul tău și trimitem răspunsul direct dispozitivului: adresa imaginii, numele fișierului și durata repausului până la următoarea conectare.
 
-
-      Nu trebuie să configurezi nimic. Adaugă pluginul și ai terminat. Alegem doar poezii suficient de scurte pentru
-      ecran (cel mult 24 de versuri), ca să nu primești un sonet tăiat la jumătate. Se potrivește lângă un ceas
-      sau calendar într-o compoziție, când vrei ceva de citit mai pe îndelete decât e-mailurile.
-    polymarket: >-
-      Piețele de predicții Polymarket, pe un ecran TRMNL ePaper. Alege un subiect, iar ecranul listează până la
-      12 piețe deschise, fiecare cu întrebarea, numărul de comentarii și suma investită.
-
-
-      Subiectele includ afaceri, cultură pop, sport, cripto, știință și politică. Nu ai nevoie de cont Polymarket.
-      Afișăm doar piețe active care se încheie în următoarele două săptămâni, deci vezi pariuri care se rezolvă
-      curând. Vrei un subiect absent din listă? Trimite asistenței ID-ul etichetei Polymarket și îl adăugăm în cont.
-    postmark_analytics: >-
-      Statisticile e-mailurilor Postmark, pe un ecran TRMNL ePaper. Lipește un Server API Token din serverul Postmark
-      și alege perioada: 7, 30 sau 90 de zile.
-
-
-      Valorile principale sunt mesajele trimise și rata de deschidere. Dedesubt apar deschiderile unice, clicurile,
-      respingerile, erorile, reclamațiile de spam și rata de respingere. Util pe biroul unei echipe de operațiuni
-      sau asistență, pentru a observa creșterea respingerilor ori a reclamațiilor înainte ca un client să întrebe
-      de ce nu a primit resetarea parolei.
-    private_plugin: >-
-      Creează propriul ecran pentru un dispozitiv TRMNL ePaper. Scrie-l în HTML cu șabloane Liquid și frameworkul
-      de design TRMNL, apoi alege sursa datelor: TRMNL interoghează un URL care returnează JSON, XML sau text simplu,
-      codul tău trimite date la un webhook, introduci JSON static sau reutilizezi datele altor pluginuri TRMNL.
-
-
-      Interogarea permite GET sau POST, antete personalizate, corp de cerere și OAuth pentru servicii care necesită
-      autentificare. Adaugă câmpuri de formular pentru ca alții să configureze pluginul fără să modifice codul,
-      transformă datele cu un script Node, PHP, Python sau Ruby și, când este gata, partajează-l ca rețetă.
-    product_hunt: >-
-      Lansările promovate de Product Hunt, pe un ecran TRMNL ePaper. Fiecare afișează numele, o descriere scurtă
-      și numărul de voturi, într-o listă numerotată.
-
-
-      Nu trebuie să conectezi nimic și nu ai nevoie de cont. Adaugă pluginul, iar lista se actualizează singură.
-      Construiești ceva? Urmărește lansările și voturile necesare pentru a ieși în evidență fără să deschizi altă
-      filă. Ocupă tot ecranul, jumătate sau un sfert lângă alte pluginuri.
-    profit_well: >-
-      Veniturile ProfitWell, pe un ecran TRMNL ePaper. Lipește tokenul API ProfitWell, iar ecranul afișează valorile
-      de astăzi din cont.
-
-
-      Sus: venitul recurent nou și venitul recurent total. Dedesubt: venitul pierdut, clienții activi, clienții
-      noi și cei pierduți. Ai o afacere SaaS? Pune-l unde îl vezi în fiecare dimineață, ca o zi cu multe pierderi
-      de clienți să nu rămână ascunsă într-un panou uitat.
-    proton_calendar: >-
-      Calendarul Proton, pe un ecran TRMNL ePaper. Ai două opțiuni: partajezi calendarul Proton ca link și lipești
-      adresa .ics în plugin sau sincronizezi de pe iPhone ori iPad cu aplicația TRMNL Companion. Te preocupă confidențialitatea?
-      Proton permite un link care arată doar când ești ocupat, fără detaliile evenimentelor.
-
-
-      Alege apoi o aranjare: agenda de astăzi, următoarele zile, o săptămână, o săptămână mobilă, săptămâna de lucru
-      sau una de 3 zile, o grilă lunară ori un program minimal. Afișează orele și descrierile, folosește formatul
-      de 12 sau 24 de ore, ascunde evenimentele cu anumite cuvinte și începe săptămâna în orice zi. Vederile săptămânale
-      și lunare pot umbri weekendurile, evidenția ziua curentă și afișa numerele săptămânilor.
-    purpleair: >-
-      Măsurătorile unui senzor PurpleAir, pe un ecran TRMNL ePaper. Folosește propriul senzor sau unul public de
-      pe harta PurpleAir. Introdu ID-ul senzorului și o cheie API PurpleAir, plus o cheie de citire dacă senzorul
-      este privat.
-
-
-      Alege ce afișezi. Calitatea aerului arată valorile curente PM2.5 și PM10, cu un grafic pe 24 de ore raportat
-      la nivelurile EPA, de la Bun la Foarte nesănătos. Temperatură și umiditate afișează în schimb aceste două
-      valori, în Fahrenheit sau Celsius. Cerem PurpleAir doar ce s-a schimbat de la ultima reîmprospătare, deci
-      creditele API gratuite durează mai mult.
-    readwise: >-
-      Pasajele evidențiate în Readwise, pe un ecran TRMNL ePaper. Obține un token de acces Readwise, lipește-l în
-      plugin și ai terminat.
-
-
-      Fiecare reîmprospătare afișează un pasaj din recapitularea zilnică Readwise, cu titlul cărții sau articolului
-      și autorul. Următoarea reîmprospătare trece la următorul pasaj. Este o modalitate discretă de a reciti ce
-      ai salvat, în loc să lași pasajele să se adune într-o aplicație pe care nu o deschizi.
-    reddit: >-
-      Postările populare din subreddit-urile preferate, pe un ecran TRMNL ePaper. Conectează contul Reddit, apoi
-      indică până la 3 subreddit-uri. Fiecare are propria coloană.
-
-
-      Sortează după Hot, New sau Top și alege intervalul, de la ultima oră la toate timpurile. Postările fixate
-      sunt omise, deoarece se schimbă rar. Afișează sau ascunde numărul de voturi și numele autorului sub fiecare
-      titlu. Scurtează titlurile lungi la un rând pentru a încăpea mai multe postări.
-    redirect: >-
-      Un instrument pentru dezvoltatorii care își generează propriile imagini. Când ecranul TRMNL ePaper se conectează,
-      apelăm un URL de pe serverul tău și trimitem răspunsul direct dispozitivului: adresa imaginii, numele fișierului
-      și durata repausului până la următoarea conectare.
-
-
-      Serverul tău decide astfel ce se afișează și când, la fiecare conectare. Adresa imaginii poate varia la fiecare
-      cerere și poate fi chiar în rețeaua locală. Trimite același nume de fișier de două ori, iar ecranul nu se
-      redesenează, reducând pâlpâirea și consumul bateriei. Tu alegi durata repausului, până la un minim de 1 minut.
-      Folosești Alias și vrei mai mult control? Acesta este următorul pas.
-    rss_feed: >-
+      Serverul tău decide astfel ce se afișează și când, la fiecare conectare. Adresa imaginii poate varia la fiecare cerere și poate fi chiar în rețeaua locală. Trimite același nume de fișier de două ori, iar ecranul nu se redesenează, reducând pâlpâirea și consumul bateriei. Tu alegi durata repausului, până la un minim de 1 minut. Folosești Alias și vrei mai mult control? Acesta este următorul pas.
+    rss_feed: |-
       Orice flux RSS sau Atom, pe un ecran TRMNL ePaper. Lipește adresa fluxului și alege aranjarea.
 
+      Articol principal afișează cea mai nouă postare, cu titlul, textul și imaginile. Listă afișează până la 8 postări recente, fiecare cu titlu și rezumat scurt în text simplu. Urmărești un blog, un site de știri, un podcast sau un forum care are flux? Pune-l pe perete. Găzduiești fluxul pe un server de acasă cu certificat autosemnat? Permite totuși preluarea de către TRMNL.
+    screen_wiper: |-
+      Elimină urmele imaginilor vechi de pe ecranul TRMNL ePaper. Aceste urme palide se pot acumula în timp pe ePaper. Când dispozitivul ajunge la Screen Wiper în lista de redare, execută cicluri speciale care alternează ecranul între negru și alb, apoi trece la următorul element.
 
-      Articol principal afișează cea mai nouă postare, cu titlul, textul și imaginile. Listă afișează până la 8
-      postări recente, fiecare cu titlu și rezumat scurt în text simplu. Urmărești un blog, un site de știri, un
-      podcast sau un forum care are flux? Pune-l pe perete. Găzduiești fluxul pe un server de acasă cu certificat
-      autosemnat? Permite totuși preluarea de către TRMNL.
-    screen_wiper: >-
-      Elimină urmele imaginilor vechi de pe ecranul TRMNL ePaper. Aceste urme palide se pot acumula în timp pe ePaper.
-      Când dispozitivul ajunge la Screen Wiper în lista de redare, execută cicluri speciale care alternează ecranul
-      între negru și alb, apoi trece la următorul element.
+      Adaugă pluginul și salvează. Atât. În funcție de dispozitiv, curățarea produce pâlpâiri timp de 30–60 de secunde sau până la 5 minute. Programeaz-o o dată pe zi ori pe săptămână, ideal imediat după ieșirea dispozitivului din repaus. Necesită firmware 1.8.14 sau mai nou.
+    screensaver: |-
+      Artă pentru ecranul TRMNL ePaper. Fiecare reîmprospătare alege aleatoriu o imagine din mica noastră colecție: Mona Lisa, Roma, misiunile Apollo sau o stație spațială, toate pregătite pentru un aspect clar pe ePaper.
 
+      Nu trebuie să configurezi nimic. Adaugă-l în lista de redare când vrei un ecran plăcut, precum între întâlniri sau peste noapte. Colecția este mică, dar crește, și acceptăm contribuții. Ai o imagine pe care ai vrea să o vezi aici? Scrie la support@trmnl.com.
+    screenshot: |-
+      Orice pagină web publică, pe un ecran TRMNL ePaper. Lipește adresa și preluăm pagina ca imagine. Poate fi o pagină cu scoruri sportive, un panou de stare sau meniul de prânz al copilului.
 
-      Adaugă pluginul și salvează. Atât. În funcție de dispozitiv, curățarea produce pâlpâiri timp de 30–60 de secunde
-      sau până la 5 minute. Programeaz-o o dată pe zi ori pe săptămână, ideal imediat după ieșirea dispozitivului
-      din repaus. Necesită firmware 1.8.14 sau mai nou.
-    screensaver: >-
-      Artă pentru ecranul TRMNL ePaper. Fiecare reîmprospătare alege aleatoriu o imagine din mica noastră colecție:
-      Mona Lisa, Roma, misiunile Apollo sau o stație spațială, toate pregătite pentru un aspect clar pe ePaper.
+      Pagina cere un token de autentificare? Adaugă antete HTTP. Corectăm linkurile relative către stiluri, scripturi și imagini, astfel încât pagina să arate ca în browser (poți dezactiva această opțiune). Dacă HTML-ul nu s-a schimbat, omitem redesenarea. Pentru panouri care încarcă datele prin JavaScript, activează reîmprospătarea permanentă pentru o captură nouă de fiecare dată. Sfat: setează mai întâi browserul la 800x480 pentru a vedea ce vede TRMNL.
+    shopify: |-
+      Vânzările Shopify, pe un ecran TRMNL ePaper. Creează în administrarea Shopify o aplicație personalizată cu acces doar pentru citirea comenzilor, apoi lipește tokenul de acces și adresa magazinului în plugin. Articolul nostru de ajutor explică pașii.
 
+      Alege perioada: ultimele 7 zile, ultimele 30 de zile sau luna curentă până astăzi. Ecranul afișează vânzările totale și comparația cu perioada precedentă, comenzile în așteptare și onorate, valoarea medie a comenzilor și un grafic comparativ al vânzărilor zilnice. Sumele folosesc moneda magazinului. TRMNL citește doar comenzile, nimic altceva din magazin.
+    shopping_list: |-
+      Lista de cumpărături, pe un ecran TRMNL ePaper. Introdu produsele în plugin, câte unul pe linie, iar acestea apar într-o listă numerotată.
 
-      Nu trebuie să configurezi nimic. Adaugă-l în lista de redare când vrei un ecran plăcut, precum între întâlniri
-      sau peste noapte. Colecția este mică, dar crește, și acceptăm contribuții. Ai o imagine pe care ai vrea să
-      o vezi aici? Scrie la support@trmnl.com.
-    screenshot: >-
-      Orice pagină web publică, pe un ecran TRMNL ePaper. Lipește adresa și preluăm pagina ca imagine. Poate fi
-      o pagină cu scoruri sportive, un panou de stare sau meniul de prânz al copilului.
+      Pune ecranul pe frigider sau lângă ușă și îți vei aminti de pasta de dinți când iei cheile. Adaugă sau elimină produse oricând din panoul TRMNL, iar lista de pe ecran se actualizează. Stocăm lista criptat.
+    simple_analytics: |-
+      Statisticile Simple Analytics, pe un ecran TRMNL ePaper. Sus apar vizualizările de pagină, vizitatorii și minutele petrecute pe pagină, cu un grafic al vizualizărilor zilnice dedesubt.
 
+      Creează o cheie API în setările contului Simple Analytics, lipește-o și adaugă domeniul site-ului (fără „http”). Alege apoi 1, 7, 14 sau 30 de zile. Vrei ca graficul să se încheie ieri? Setează și asta, ca o zi neterminată să nu pară o prăbușire a traficului.
+    square_pos: |-
+      Vânzările Square, pe un ecran TRMNL ePaper. Conectează contul Square și alege până la 3 locații. Fiecare are propria coloană, cu totalul plăților sus și o listă numerotată a plăților finalizate dedesubt, cu suma și metoda de plată.
 
-      Pagina cere un token de autentificare? Adaugă antete HTTP. Corectăm linkurile relative către stiluri, scripturi
-      și imagini, astfel încât pagina să arate ca în browser (poți dezactiva această opțiune). Dacă HTML-ul nu s-a
-      schimbat, omitem redesenarea. Pentru panouri care încarcă datele prin JavaScript, activează reîmprospătarea
-      permanentă pentru o captură nouă de fiecare dată. Sfat: setează mai întâi browserul la 800x480 pentru a vedea
-      ce vede TRMNL.
-    shopify: >-
-      Vânzările Shopify, pe un ecran TRMNL ePaper. Creează în administrarea Shopify o aplicație personalizată cu
-      acces doar pentru citirea comenzilor, apoi lipește tokenul de acces și adresa magazinului în plugin. Articolul
-      nostru de ajutor explică pașii.
+      Alege perioada: astăzi, ultimele 24 de ore sau ultimele 7 zile. Ai mai multe magazine? Vezi-le alăturat pe un singur ecran.
+    statuspage: |-
+      Paginile de stare ale serviciilor de care depinzi, pe un ecran TRMNL ePaper. Lipește adresele paginilor, câte una pe linie, iar noi găsim fluxul RSS sau Atom al fiecăreia. Funcționează cu Statuspage, AWS, Slack, Google Cloud și majoritatea celorlalte servicii.
 
+      Ecranul are două liste. Incidente afișează cel mai recent incident al fiecărui serviciu și timpul trecut, cu o pictogramă pentru incidentele din ultimele 24 de ore. Programate afișează mentenanța viitoare și data ei. Dacă o pagină nu poate fi accesată sau nu are flux, acest lucru apare pe ecran.
+    stock_price: |-
+      Prețuri de acțiuni, metale și valute, pe un ecran TRMNL ePaper. Introdu până la 12 simboluri bursiere; fiecare afișează prețul, numele și variația zilnică, procentuală sau în puncte. Aranjarea se adaptează la numărul adăugat.
 
-      Alege perioada: ultimele 7 zile, ultimele 30 de zile sau luna curentă până astăzi. Ecranul afișează vânzările
-      totale și comparația cu perioada precedentă, comenzile în așteptare și onorate, valoarea medie a comenzilor
-      și un grafic comparativ al vânzărilor zilnice. Sumele folosesc moneda magazinului. TRMNL citește doar comenzile,
-      nimic altceva din magazin.
-    shopping_list: >-
-      Lista de cumpărături, pe un ecran TRMNL ePaper. Introdu produsele în plugin, câte unul pe linie, iar acestea
-      apar într-o listă numerotată.
+      Simbolurile americane funcționează direct. Adaugă bursa pentru Canada, Germania, Londra sau India (precum SHOP.TSE ori INFY.NSE), folosește sufixul .FX pentru perechi valutare (EURUSD.FX) sau urmărește aur, argint, platină, paladiu și cupru (XAUUSD pentru aur). Indicii bursieri nu sunt acceptați; folosește un ETF precum SPY pentru S&P 500 (introdu SPX și îl vom sugera). Ai nevoie de mai mult de 12? Adaugă pluginul de două ori și combină-le într-o compoziție.
+    tempest_weather_station: |-
+      Măsurătorile propriei stații meteo Tempest, pe un ecran TRMNL ePaper. Conectează-te la contul Tempest pentru a acorda TRMNL acces doar pentru citire, apoi alege stația.
 
+      Ecranul complet afișează temperatura curentă și cea resimțită, condițiile meteo, umiditatea, vântul, precipitațiile, UV, răsăritul și apusul, plus minimele și maximele de astăzi și mâine. Alege Fahrenheit ori Celsius, unități pentru vânt precum mph, km/h, noduri sau Beaufort și precipitații în inci, centimetri ori milimetri. Ai mai multe stații? Adaugă pluginul pentru fiecare și combină-le într-o compoziție.
+    the_office: |-
+      Un citat aleatoriu din The Office, pe un ecran TRMNL ePaper, lângă un desen al personajului care l-a spus. Michael, Dwight, Jim și ceilalți de la Dunder Mifflin îți fac pe rând ziua de lucru mai ușoară.
 
-      Pune ecranul pe frigider sau lângă ușă și îți vei aminti de pasta de dinți când iei cheile. Adaugă sau elimină
-      produse oricând din panoul TRMNL, iar lista de pe ecran se actualizează. Stocăm lista criptat.
-    simple_analytics: >-
-      Statisticile Simple Analytics, pe un ecran TRMNL ePaper. Sus apar vizualizările de pagină, vizitatorii și
-      minutele petrecute pe pagină, cu un grafic al vizualizărilor zilnice dedesubt.
+      Nu trebuie să configurezi nimic. Adaugă pluginul, dă-i un nume dacă vrei și salvează. Citatele provin din Office API al lui Akash Rajpurohit.
+    ticktick: |-
+      Sarcinile TickTick, pe un ecran TRMNL ePaper. Conectează contul TickTick, apoi alege lista sau Inbox. Sarcinile apar cu scadențele, cele mai apropiate primele, iar subsarcinile apar indentate sub sarcina principală.
 
+      Alege alinierea listei sus, la centru sau jos. TickTick partajează cu alte aplicații doar listele de sarcini, deci calendarul, obiceiurile, Pomodoro și Matricea Eisenhower rămân în TickTick.
+    todo_list: |-
+      O listă simplă de sarcini, pe un ecran TRMNL ePaper. Nu trebuie să conectezi un cont. Introdu lucrurile la care lucrezi în „În lucru”, câte unul pe linie, și adaugă-le pe cele terminate în „Finalizate”, dacă dorești.
 
-      Creează o cheie API în setările contului Simple Analytics, lipește-o și adaugă domeniul site-ului (fără „http”).
-      Alege apoi 1, 7, 14 sau 30 de zile. Vrei ca graficul să se încheie ieri? Setează și asta, ca o zi neterminată
-      să nu pară o prăbușire a traficului.
-    square_pos: >-
-      Vânzările Square, pe un ecran TRMNL ePaper. Conectează contul Square și alege până la 3 locații. Fiecare are
-      propria coloană, cu totalul plăților sus și o listă numerotată a plăților finalizate dedesubt, cu suma și
-      metoda de plată.
+      Revino și mută elementele din „În lucru” în „Finalizate” pe măsură ce avansezi. Ecranul păstrează ambele liste: ce a rămas și ce ai făcut deja. Fiecare element permite Markdown pentru text îngroșat, cursiv și altele; îl poți dezactiva pentru text simplu. Ambele liste sunt stocate criptat.
+    todoist: |-
+      Sarcinile Todoist, pe un ecran TRMNL ePaper. Conectează contul Todoist, alege un proiect sau vederea Astăzi ori În curând, iar ecranul listează sarcinile și scadențele.
 
+      Grupează sarcinile după dată, termen-limită, prioritate sau etichetă și sortează după nume, dată, termen-limită, prioritate ori ordinea manuală. Filtrează după scadență sau termen-limită (de astăzi până în următoarele 30 de zile), prioritate, etichetă ori persoana responsabilă. Cunoști interogările de filtrare Todoist? Activează modul de interogare personalizată și scrie propria interogare.
+    unsplash: |-
+      O fotografie aleatorie din Unsplash, pe un ecran TRMNL ePaper. Introdu un termen de căutare precum „space” sau „moon”, iar fiecare reîmprospătare preia o fotografie peisaj nouă, adaptată prin dithering pentru ePaper și afișată pe tot ecranul.
 
-      Alege perioada: astăzi, ultimele 24 de ore sau ultimele 7 zile. Ai mai multe magazine? Vezi-le alăturat pe
-      un singur ecran.
-    statuspage: >-
-      Paginile de stare ale serviciilor de care depinzi, pe un ecran TRMNL ePaper. Lipește adresele paginilor, câte
-      una pe linie, iar noi găsim fluxul RSS sau Atom al fiecăreia. Funcționează cu Statuspage, AWS, Slack, Google
-      Cloud și majoritatea celorlalte servicii.
+      Aceasta este singura setare. Alege o temă care îți place sau adaugă pluginul de mai multe ori cu căutări diferite și lasă lista de redare să le alterneze.
+    upcoming_movies: |-
+      Un film de așteptat cu interes, pe un ecran TRMNL ePaper. Fiecare reîmprospătare alege un film și afișează titlul, afișul, data lansării și un scurt rezumat. Datele provin din The Movie Database (TMDB).
 
+      Alege țara pentru a vedea lansările din apropiere. Apoi selectează În curând pentru filmele lansate astăzi sau ulterior ori În cinematografe pentru cele deja lansate. Te ajută să hotărăști ce vedeți în weekend înainte să înceapă discuția.
+    weather: |-
+      Află cum este vremea înainte să ieși, fără stație meteo. Caută un oraș sau un cod poștal ori introdu coordonatele, iar ecranul TRMNL ePaper afișează temperatura și condițiile curente, temperatura resimțită, umiditatea și minimele, maximele și UV de astăzi și mâine.
 
-      Ecranul are două liste. Incidente afișează cel mai recent incident al fiecărui serviciu și timpul trecut,
-      cu o pictogramă pentru incidentele din ultimele 24 de ore. Programate afișează mentenanța viitoare și data
-      ei. Dacă o pagină nu poate fi accesată sau nu are flux, acest lucru apare pe ecran.
-    stock_price: >-
-      Prețuri de acțiuni, metale și valute, pe un ecran TRMNL ePaper. Introdu până la 12 simboluri bursiere; fiecare
-      afișează prețul, numele și variația zilnică, procentuală sau în puncte. Aranjarea se adaptează la numărul
-      adăugat.
+      Tu alegi furnizorul de date. Tempest folosește cea mai apropiată stație sau una aleasă pe harta Tempest și adaugă vântul, precipitațiile, răsăritul și apusul pe ecranul complet. WeatherAPI este alternativa pentru locuri fără stație apropiată. Setează Fahrenheit ori Celsius, alege unitățile pentru vânt și precipitații și etichetează prognozele „astăzi” și „mâine” sau cu datele reale.
+    webhook_image: |-
+      Trimite propriile imagini direct pe un ecran TRMNL ePaper. Adaugă pluginul și primești un URL webhook privat. Trimite prin POST un PNG, JPEG sau WebP dintr-un script, o sarcină cron sau Home Assistant, iar imaginea apare pe ecran. Tratează URL-ul ca pe o parolă: oricine îl are poate modifica ecranul.
 
+      TRMNL nu prelucrează imaginea, deci dimensioneaz-o mai întâi pentru dispozitiv. Încărcările sunt verificate în raport cu dimensiunea și adâncimea de culoare a dispozitivului ori ale unui model ales; poți omite verificarea dacă știi că dispozitivul acceptă imaginea. Într-o compoziție, umple spațiul sau afișează imaginea completă cu o culoare de fundal în jur. Ai până la 12 încărcări pe oră.
+    wiki_random_article: |-
+      Articolul zilei de pe Wikipedia, pe un ecran TRMNL ePaper. Primești titlul și un rezumat scurt, unul nou în fiecare zi. Într-o zi poate fi o bătălie, în alta un gândac.
 
-      Simbolurile americane funcționează direct. Adaugă bursa pentru Canada, Germania, Londra sau India (precum
-      SHOP.TSE ori INFY.NSE), folosește sufixul .FX pentru perechi valutare (EURUSD.FX) sau urmărește aur, argint,
-      platină, paladiu și cupru (XAUUSD pentru aur). Indicii bursieri nu sunt acceptați; folosește un ETF precum
-      SPY pentru S&P 500 (introdu SPX și îl vom sugera). Ai nevoie de mai mult de 12? Adaugă pluginul de două ori
-      și combină-le într-o compoziție.
-    tempest_weather_station: >-
-      Măsurătorile propriei stații meteo Tempest, pe un ecran TRMNL ePaper. Conectează-te la contul Tempest pentru
-      a acorda TRMNL acces doar pentru citire, apoi alege stația.
+      Nu trebuie să configurezi nimic. Adaugă-l în lista de redare și află ceva interesant cât se prepară cafeaua. Articolele provin din fluxul zilnic al Wikipedia în engleză, deci toți văd același articol.
+    withings: |-
+      Datele de sănătate Withings, pe un ecran TRMNL ePaper. Conectează-te cu Withings pentru a acorda TRMNL acces doar pentru citire, apoi alege modul potrivit dispozitivului. Greutate, pentru cântare, afișează greutatea curentă, procentele de grăsime și masă musculară și variația pe perioada aleasă, cu un grafic. Somn, pentru Sleep Analyzer, afișează scorul, orele dormite și eficiența, cu un grafic al somnului profund, REM și ușor în fiecare noapte. Activitate, pentru dispozitive purtabile, afișează pașii de astăzi față de obiectiv, cu un grafic al pașilor și somnului.
 
+      Alege 7, 30 sau 90 de zile și afișează greutatea în livre, kilograme sau stone. Măsurătorile introduse manual sunt excluse.
+    workflowy: |-
+      Lista Workflowy, pe un ecran TRMNL ePaper. Fiecare element apare cu nota dedesubt, în ordinea păstrată în Workflowy.
 
-      Ecranul complet afișează temperatura curentă și cea resimțită, condițiile meteo, umiditatea, vântul, precipitațiile,
-      UV, răsăritul și apusul, plus minimele și maximele de astăzi și mâine. Alege Fahrenheit ori Celsius, unități
-      pentru vânt precum mph, km/h, noduri sau Beaufort și precipitații în inci, centimetri ori milimetri. Ai mai
-      multe stații? Adaugă pluginul pentru fiecare și combină-le într-o compoziție.
-    the_office: >-
-      Un citat aleatoriu din The Office, pe un ecran TRMNL ePaper, lângă un desen al personajului care l-a spus.
-      Michael, Dwight, Jim și ceilalți de la Dunder Mifflin îți fac pe rând ziua de lucru mai ușoară.
+      Lipește tokenul API Workflowy pentru a te conecta. Implicit vezi lista principală. Vrei un singur proiect? Adaugă ID-ul elementului, iar pluginul îl tratează ca nivel superior. Afișează până la 25 de elemente și alege dacă apar și cele finalizate (cu bifă și text tăiat).
+    youtube_analytics: |-
+      Statisticile canalului YouTube, pe un ecran TRMNL ePaper. Vizualizările și orele urmărite apar primele, apoi durata medie de vizionare, abonații câștigați, rata de vizionare, aprecierile, comentariile și distribuirile.
 
-
-      Nu trebuie să configurezi nimic. Adaugă pluginul, dă-i un nume dacă vrei și salvează. Citatele provin din
-      Office API al lui Akash Rajpurohit.
-    ticktick: >-
-      Sarcinile TickTick, pe un ecran TRMNL ePaper. Conectează contul TickTick, apoi alege lista sau Inbox. Sarcinile
-      apar cu scadențele, cele mai apropiate primele, iar subsarcinile apar indentate sub sarcina principală.
-
-
-      Alege alinierea listei sus, la centru sau jos. TickTick partajează cu alte aplicații doar listele de sarcini,
-      deci calendarul, obiceiurile, Pomodoro și Matricea Eisenhower rămân în TickTick.
-    todo_list: >-
-      O listă simplă de sarcini, pe un ecran TRMNL ePaper. Nu trebuie să conectezi un cont. Introdu lucrurile la
-      care lucrezi în „În lucru”, câte unul pe linie, și adaugă-le pe cele terminate în „Finalizate”, dacă dorești.
-
-
-      Revino și mută elementele din „În lucru” în „Finalizate” pe măsură ce avansezi. Ecranul păstrează ambele liste:
-      ce a rămas și ce ai făcut deja. Fiecare element permite Markdown pentru text îngroșat, cursiv și altele; îl
-      poți dezactiva pentru text simplu. Ambele liste sunt stocate criptat.
-    todoist: >-
-      Sarcinile Todoist, pe un ecran TRMNL ePaper. Conectează contul Todoist, alege un proiect sau vederea Astăzi
-      ori În curând, iar ecranul listează sarcinile și scadențele.
-
-
-      Grupează sarcinile după dată, termen-limită, prioritate sau etichetă și sortează după nume, dată, termen-limită,
-      prioritate ori ordinea manuală. Filtrează după scadență sau termen-limită (de astăzi până în următoarele 30
-      de zile), prioritate, etichetă ori persoana responsabilă. Cunoști interogările de filtrare Todoist? Activează
-      modul de interogare personalizată și scrie propria interogare.
-    unsplash: >-
-      O fotografie aleatorie din Unsplash, pe un ecran TRMNL ePaper. Introdu un termen de căutare precum „space”
-      sau „moon”, iar fiecare reîmprospătare preia o fotografie peisaj nouă, adaptată prin dithering pentru ePaper
-      și afișată pe tot ecranul.
-
-
-      Aceasta este singura setare. Alege o temă care îți place sau adaugă pluginul de mai multe ori cu căutări diferite
-      și lasă lista de redare să le alterneze.
-    upcoming_movies: >-
-      Un film de așteptat cu interes, pe un ecran TRMNL ePaper. Fiecare reîmprospătare alege un film și afișează
-      titlul, afișul, data lansării și un scurt rezumat. Datele provin din The Movie Database (TMDB).
-
-
-      Alege țara pentru a vedea lansările din apropiere. Apoi selectează În curând pentru filmele lansate astăzi
-      sau ulterior ori În cinematografe pentru cele deja lansate. Te ajută să hotărăști ce vedeți în weekend înainte
-      să înceapă discuția.
-    weather: >-
-      Află cum este vremea înainte să ieși, fără stație meteo. Caută un oraș sau un cod poștal ori introdu coordonatele,
-      iar ecranul TRMNL ePaper afișează temperatura și condițiile curente, temperatura resimțită, umiditatea și
-      minimele, maximele și UV de astăzi și mâine.
-
-
-      Tu alegi furnizorul de date. Tempest folosește cea mai apropiată stație sau una aleasă pe harta Tempest și
-      adaugă vântul, precipitațiile, răsăritul și apusul pe ecranul complet. WeatherAPI este alternativa pentru
-      locuri fără stație apropiată. Setează Fahrenheit ori Celsius, alege unitățile pentru vânt și precipitații
-      și etichetează prognozele „astăzi” și „mâine” sau cu datele reale.
-    webhook_image: >-
-      Trimite propriile imagini direct pe un ecran TRMNL ePaper. Adaugă pluginul și primești un URL webhook privat.
-      Trimite prin POST un PNG, JPEG sau WebP dintr-un script, o sarcină cron sau Home Assistant, iar imaginea apare
-      pe ecran. Tratează URL-ul ca pe o parolă: oricine îl are poate modifica ecranul.
-
-
-      TRMNL nu prelucrează imaginea, deci dimensioneaz-o mai întâi pentru dispozitiv. Încărcările sunt verificate
-      în raport cu dimensiunea și adâncimea de culoare a dispozitivului ori ale unui model ales; poți omite verificarea
-      dacă știi că dispozitivul acceptă imaginea. Într-o compoziție, umple spațiul sau afișează imaginea completă
-      cu o culoare de fundal în jur. Ai până la 12 încărcări pe oră.
-    wiki_random_article: >-
-      Articolul zilei de pe Wikipedia, pe un ecran TRMNL ePaper. Primești titlul și un rezumat scurt, unul nou în
-      fiecare zi. Într-o zi poate fi o bătălie, în alta un gândac.
-
-
-      Nu trebuie să configurezi nimic. Adaugă-l în lista de redare și află ceva interesant cât se prepară cafeaua.
-      Articolele provin din fluxul zilnic al Wikipedia în engleză, deci toți văd același articol.
-    withings: >-
-      Datele de sănătate Withings, pe un ecran TRMNL ePaper. Conectează-te cu Withings pentru a acorda TRMNL acces
-      doar pentru citire, apoi alege modul potrivit dispozitivului. Greutate, pentru cântare, afișează greutatea
-      curentă, procentele de grăsime și masă musculară și variația pe perioada aleasă, cu un grafic. Somn, pentru
-      Sleep Analyzer, afișează scorul, orele dormite și eficiența, cu un grafic al somnului profund, REM și ușor
-      în fiecare noapte. Activitate, pentru dispozitive purtabile, afișează pașii de astăzi față de obiectiv, cu
-      un grafic al pașilor și somnului.
-
-
-      Alege 7, 30 sau 90 de zile și afișează greutatea în livre, kilograme sau stone. Măsurătorile introduse manual
-      sunt excluse.
-    workflowy: >-
-      Lista Workflowy, pe un ecran TRMNL ePaper. Fiecare element apare cu nota dedesubt, în ordinea păstrată în
-      Workflowy.
-
-
-      Lipește tokenul API Workflowy pentru a te conecta. Implicit vezi lista principală. Vrei un singur proiect?
-      Adaugă ID-ul elementului, iar pluginul îl tratează ca nivel superior. Afișează până la 25 de elemente și alege
-      dacă apar și cele finalizate (cu bifă și text tăiat).
-    youtube_analytics: >-
-      Statisticile canalului YouTube, pe un ecran TRMNL ePaper. Vizualizările și orele urmărite apar primele, apoi
-      durata medie de vizionare, abonații câștigați, rata de vizionare, aprecierile, comentariile și distribuirile.
-
-
-      Conectează-te cu contul Google care deține canalul (administratorii unui canal partajat nu îl pot conecta),
-      apoi alege 7, 28, 90 sau 365 de zile. Ai mai multe canale? Adaugă pluginul pentru fiecare și denumește-le
-      pentru a le deosebi.
+      Conectează-te cu contul Google care deține canalul (administratorii unui canal partajat nu îl pot conecta), apoi alege 7, 28, 90 sau 365 de zile. Ai mai multe canale? Adaugă pluginul pentru fiecare și denumește-le pentru a le deosebi.
   ai_credit_topups:
     buy: Adaugă %{amount}
     hint: Creditele sunt valabile 3 luni. La plată se adaugă un comision pentru costurile cardului și ale furnizorului.
@@ -3515,4 +3064,8 @@ ro:
     action: Adaugă adresa MAC
   integration_page:
     use_recipe: Folosește rețeta comunității
-
+  byod_trials:
+    ended:
+      claim_license: Already bought a BYOD license? Claim it with your order number.
+  screen_picker:
+    single_palette_hint: This device has only one palette.
