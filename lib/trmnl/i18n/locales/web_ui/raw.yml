@@ -5,8 +5,6 @@ raw:
   actions: actions
   add: add
   add_new: add_new
-  ai_assistant: ai_assistant
-  ai_assistant_hint: ai_assistant_hint
   already_have_account: already_have_account
   are_you_sure: are_you_sure
   back: back
@@ -164,7 +162,6 @@ raw:
       explore_apps_hint: account.index.explore_apps_hint
       manage_themes: account.index.manage_themes
       plus_subscription_lifetime: account.index.plus_subscription_lifetime
-      ai_agent_configure: account.index.ai_agent_configure
       delete_account: account.index.delete_account
       delete_account_button: account.index.delete_account_button
       delete_account_confirm: account.index.delete_account_confirm
@@ -249,6 +246,7 @@ raw:
       credit_plus_hint: account.ai_agent_settings.credit_plus_hint
       byok_title: account.ai_agent_settings.byok_title
       byok_hint: account.ai_agent_settings.byok_hint
+      model_hosted: account.ai_agent_settings.model_hosted
     shared_accounts:
       title: account.shared_accounts.title
       hint: account.shared_accounts.hint
@@ -536,6 +534,11 @@ raw:
       sleep_until: devices.edit.sleep_until
       sleep_until_hint: devices.edit.sleep_until_hint
       font_set_by_theme: devices.edit.font_set_by_theme
+      developer_perks_mac_address_needed: devices.edit.developer_perks_mac_address_needed
+      vestaboard_credentials: devices.edit.vestaboard_credentials
+      vestaboard_token_saved: devices.edit.vestaboard_token_saved
+      vestaboard_token_missing: devices.edit.vestaboard_token_missing
+      vestaboard_credentials_hint: devices.edit.vestaboard_credentials_hint
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -587,7 +590,11 @@ raw:
     update:
       error: devices.update.error
       success: devices.update.success
+      choose_palette: devices.update.choose_palette
     add_device_first: devices.add_device_first
+    image_too_big:
+      message: devices.image_too_big.message
+      message_without_limit: devices.image_too_big.message_without_limit
   discovery:
     dashboard_action:
       saved:
@@ -669,8 +676,6 @@ raw:
       click_to_copy: markups.visual_editor.click_to_copy
       close: markups.visual_editor.close
       code: markups.visual_editor.code
-      code_agent: markups.visual_editor.code_agent
-      code_agent_disabled_hint: markups.visual_editor.code_agent_disabled_hint
       code_agent_panel: markups.visual_editor.code_agent_panel
       components: markups.visual_editor.components
       develop_on_github: markups.visual_editor.develop_on_github
@@ -771,6 +776,8 @@ raw:
           heading: playlist_items.index.empty.no_items.heading
           description: playlist_items.index.empty.no_items.description
           cta: playlist_items.index.empty.no_items.cta
+      hold_screen: playlist_items.index.hold_screen
+      hold_screen_hint: playlist_items.index.hold_screen_hint
     playlist_item:
       adjust_schedule: playlist_items.playlist_item.adjust_schedule
       delete: playlists.playlist.delete
@@ -835,6 +842,11 @@ raw:
       always: playlist_items.schedule.always
       important_title: playlist_items.schedule.important_title
       important_description: playlist_items.schedule.important_description
+      date_range:
+        between: playlist_items.schedule.date_range.between
+        from: playlist_items.schedule.date_range.from
+        until: playlist_items.schedule.date_range.until
+        yearly: playlist_items.schedule.date_range.yearly
     bulk_actions:
       hide: playlist_items.bulk_actions.hide
       show: playlist_items.bulk_actions.show
@@ -870,13 +882,14 @@ raw:
       tagline: plugins.index.tagline
       connected: plugins.index.connected
       supported_by_this_device: plugins.index.supported_by_this_device
-      recipes: recipes
-      recipes_hint: recipes_hint. __Learn more__.
       view:
         label: plugins.index.view.label
         cards: plugins.index.view.cards
         list: plugins.index.view.list
       third_party_plugin: plugins.index.third_party_plugin
+      collapse: plugins.index.collapse
+      categories: plugins.index.categories
+      discover: plugins.index.discover
     search:
       placeholder: plugins.search.placeholder
     my:
@@ -920,7 +933,6 @@ raw:
     connections:
       one: plugin_recipes.connections.one
       other: plugin_recipes.connections.many
-    forked: plugin_recipes.forked
     new:
       error: plugin_recipes.new.error
     show:
@@ -930,6 +942,7 @@ raw:
       install_again: plugin_recipes.show.install_again
       installed: plugin_recipes.show.installed
       open_settings: plugin_recipes.show.open_settings
+      fork_this_recipe: plugin_recipes.show.fork_this_recipe
     added_to_playlist: plugin_recipes.added_to_playlist
     check_settings: plugin_recipes.check_settings
   plugin_settings:
@@ -1113,10 +1126,52 @@ raw:
       client_config: plugin_settings.mcp_key.client_config
       client_config_hint_html: plugin_settings.mcp_key.client_config_hint_html
       generate: plugin_settings.mcp_key.generate
+      whole_account_html: plugin_settings.mcp_key.whole_account_html
+      whole_account_guide: plugin_settings.mcp_key.whole_account_guide
+      whole_account_summary: plugin_settings.mcp_key.whole_account_summary
     linked_google_account:
       connected: plugin_settings.linked_google_account.connected
       default_name: plugin_settings.linked_google_account.default_name
     preview_updated_just_now: plugin_settings.preview_updated_just_now
+    icon_generation:
+      summary: plugin_settings.icon_generation.summary
+      hint: plugin_settings.icon_generation.hint
+      submit: plugin_settings.icon_generation.submit
+      generating: plugin_settings.icon_generation.generating
+      failed: plugin_settings.icon_generation.failed
+    remixes:
+      name: plugin_settings.remixes.name
+      create:
+        success: plugin_settings.remixes.create.success
+    live_preview:
+      live: plugin_settings.live_preview.live
+      image: plugin_settings.live_preview.image
+      invitation: plugin_settings.live_preview.invitation
+      explanation: plugin_settings.live_preview.explanation
+      sample: plugin_settings.live_preview.sample
+      sample_hint: plugin_settings.live_preview.sample_hint
+      cached: plugin_settings.live_preview.cached
+      cached_hint: plugin_settings.live_preview.cached_hint
+      partial: plugin_settings.live_preview.partial
+      partial_hint: plugin_settings.live_preview.partial_hint
+      invalid: plugin_settings.live_preview.invalid
+      invalid_hint: plugin_settings.live_preview.invalid_hint
+      error: plugin_settings.live_preview.error
+      error_hint: plugin_settings.live_preview.error_hint
+      retry: plugin_settings.live_preview.retry
+      sizes: plugin_settings.live_preview.sizes
+      full: plugin_settings.live_preview.full
+      half_horizontal: plugin_settings.live_preview.half_horizontal
+      half_vertical: plugin_settings.live_preview.half_vertical
+      quadrant: plugin_settings.live_preview.quadrant
+    test_request:
+      button: plugin_settings.test_request.button
+      missing_url: plugin_settings.test_request.missing_url
+      rate_limited: plugin_settings.test_request.rate_limited
+      sent: plugin_settings.test_request.sent
+      received: plugin_settings.test_request.received
+    missing_composition:
+      message: plugin_settings.missing_composition.message
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -1125,6 +1180,7 @@ raw:
       install: recipes.index.install
       fork: recipes.index.fork
       search_placeholder: recipes.index.search_placeholder
+      filtered_for_device: recipes.index.filtered_for_device
   schedules:
     form:
       append: schedules.form.append
@@ -1132,6 +1188,11 @@ raw:
       to: schedules.form.to
       copy_prompt: schedules.form.copy_prompt
       no_days_error: schedules.form.no_days_error
+      dates: schedules.form.dates
+      dates_description: schedules.form.dates_description
+      repeats_yearly: schedules.form.repeats_yearly
+      add: schedules.form.add
+      some_schedule: schedules.form.some_schedule
   upgrade:
     index:
       title: upgrade.index.title
@@ -1147,6 +1208,8 @@ raw:
       plugin_uninstall_feedback:
         one: activerecord.models.plugin_uninstall_feedback.one
         other: activerecord.models.plugin_uninstall_feedback.other
+      apps/chess/app: activerecord.models.apps/chess/app
+      apps/preload/app: activerecord.models.apps/preload/app
     attributes:
       plugin_setting:
         ai_coauthored: activerecord.attributes.plugin_setting.ai_coauthored
@@ -1180,6 +1243,13 @@ raw:
           body: apps.core.public.expired.body
       discovery:
         billing_cancel_failed: apps.core.discovery.billing_cancel_failed
+      app_page:
+        title: apps.core.app_page.title
+        eyebrow: apps.core.app_page.eyebrow
+        log_in: apps.core.app_page.log_in
+        new_to_trmnl: apps.core.app_page.new_to_trmnl
+        sign_up: apps.core.app_page.sign_up
+        image_alt: apps.core.app_page.image_alt
     room_booking:
       resource_kinds:
         room: apps.room_booking.resource_kinds.room
@@ -1306,6 +1376,7 @@ raw:
           show_booking_qr: apps.room_booking.calendars.form.show_booking_qr
           timezone: apps.room_booking.calendars.form.timezone
           timezone_hint: apps.room_booking.calendars.form.timezone_hint
+          show_company_logo: apps.room_booking.calendars.form.show_company_logo
         new:
           title: apps.room_booking.calendars.new.title
           description: apps.room_booking.calendars.new.description
@@ -1349,6 +1420,10 @@ raw:
           upcoming: apps.room_booking.calendars.show.upcoming
           read_only: apps.room_booking.calendars.show.read_only
           read_only_hint: apps.room_booking.calendars.show.read_only_hint
+          company_logo: apps.room_booking.calendars.show.company_logo
+          company_logo_values:
+            disabled: apps.room_booking.calendars.show.company_logo_values.disabled
+            enabled: apps.room_booking.calendars.show.company_logo_values.enabled
       collections:
         edit:
           back_to_collection: apps.room_booking.collections.edit.back_to_collection
@@ -1368,6 +1443,7 @@ raw:
           select_none: apps.room_booking.collections.form.select_none
           show_booking_qr: apps.room_booking.collections.form.show_booking_qr
           type: apps.room_booking.collections.form.type
+          show_company_logo: apps.room_booking.collections.form.show_company_logo
         display_layouts:
           grid: apps.room_booking.collections.display_layouts.grid
           list: apps.room_booking.collections.display_layouts.list
@@ -1403,6 +1479,10 @@ raw:
             enabled: apps.room_booking.collections.show.show_booking_qr_values.enabled
           type: apps.room_booking.collections.show.type
           edit_collection: apps.room_booking.collections.show.edit_collection
+          company_logo: apps.room_booking.collections.show.company_logo
+          company_logo_values:
+            disabled: apps.room_booking.collections.show.company_logo_values.disabled
+            enabled: apps.room_booking.collections.show.company_logo_values.enabled
         screens:
           empty: apps.room_booking.collections.screens.empty
         types:
@@ -1642,6 +1722,42 @@ raw:
         syncing: apps.room_booking.url_displays.syncing
         stale: apps.room_booking.url_displays.stale
         unavailable: apps.room_booking.url_displays.unavailable
+      pricing:
+        billing_period: apps.room_booking.pricing.billing_period
+        annual_saving: apps.room_booking.pricing.annual_saving
+        included: apps.room_booking.pricing.included
+        calendars: apps.room_booking.pricing.calendars
+        calendars_hint: apps.room_booking.pricing.calendars_hint
+        existing_screens: apps.room_booking.pricing.existing_screens
+        add_devices:
+          one: apps.room_booking.pricing.add_devices.one
+          other: apps.room_booking.pricing.add_devices.other
+        comparison_links:
+          joan: apps.room_booking.pricing.comparison_links.joan
+          robin: apps.room_booking.pricing.comparison_links.robin
+          envoy: apps.room_booking.pricing.comparison_links.envoy
+          tablets: apps.room_booking.pricing.comparison_links.tablets
+        features:
+          room_status: apps.room_booking.pricing.features.room_status
+          walk_up_booking: apps.room_booking.pricing.features.walk_up_booking
+          branding: apps.room_booking.pricing.features.branding
+          collections: apps.room_booking.pricing.features.collections
+          virtual_displays: apps.room_booking.pricing.features.virtual_displays
+          monitoring: apps.room_booking.pricing.features.monitoring
+          setup: apps.room_booking.pricing.features.setup
+          support: apps.room_booking.pricing.features.support
+          updates: apps.room_booking.pricing.features.updates
+          room_changes: apps.room_booking.pricing.features.room_changes
+        comparison_period: apps.room_booking.pricing.comparison_period
+        saves: apps.room_booking.pricing.saves
+        saves_at_least: apps.room_booking.pricing.saves_at_least
+        platform_fee: apps.room_booking.pricing.platform_fee
+        quote_required: apps.room_booking.pricing.quote_required
+        tablet_total: apps.room_booking.pricing.tablet_total
+        joan_assumptions: apps.room_booking.pricing.joan_assumptions
+        envoy_assumptions: apps.room_booking.pricing.envoy_assumptions
+        tablet_assumptions: apps.room_booking.pricing.tablet_assumptions
+        comparison_exclusions: apps.room_booking.pricing.comparison_exclusions
     fleet:
       tagline: apps.fleet.tagline
       check_ins:
@@ -1705,6 +1821,165 @@ raw:
         footer: apps.fleet.digest.footer
     bookings:
       read_only_booking_error: apps.bookings.read_only_booking_error
+    chess:
+      tagline: apps.chess.tagline
+      back_to_matches: apps.chess.back_to_matches
+      back_to_apps: apps.chess.back_to_apps
+      open_link: apps.chess.open_link
+      seat_name: apps.chess.seat_name
+      status:
+        lobby:
+          one: apps.chess.status.lobby.one
+          other: apps.chess.status.lobby.other
+        to_move: apps.chess.status.to_move
+      result:
+        win: apps.chess.result.win
+        draw: apps.chess.result.draw
+      reasons:
+        checkmate: apps.chess.reasons.checkmate
+        resignation: apps.chess.reasons.resignation
+        stalemate: apps.chess.reasons.stalemate
+        threefold_repetition: apps.chess.reasons.threefold_repetition
+        insufficient_material: apps.chess.reasons.insufficient_material
+        fifty_move_rule: apps.chess.reasons.fifty_move_rule
+        ended: apps.chess.reasons.ended
+      uninstall:
+        heading: apps.chess.uninstall.heading
+        explainer: apps.chess.uninstall.explainer
+        confirm: apps.chess.uninstall.confirm
+      matches:
+        index:
+          new: apps.chess.matches.index.new
+          empty: apps.chess.matches.index.empty
+          your_move: apps.chess.matches.index.your_move
+        title:
+          open_seat: apps.chess.matches.title.open_seat
+          no_players: apps.chess.matches.title.no_players
+        new:
+          title: apps.chess.matches.new.title
+          side: apps.chess.matches.new.side
+          opponent: apps.chess.matches.new.opponent
+          level: apps.chess.matches.new.level
+          opponents:
+            friend: apps.chess.matches.new.opponents.friend
+            computer: apps.chess.matches.new.opponents.computer
+          submit: apps.chess.matches.new.submit
+          sides:
+            white: apps.chess.matches.new.sides.white
+            black: apps.chess.matches.new.sides.black
+            host: apps.chess.matches.new.sides.host
+          hints:
+            white: apps.chess.matches.new.hints.white
+            black: apps.chess.matches.new.hints.black
+            host: apps.chess.matches.new.hints.host
+        show:
+          open_board: apps.chess.matches.show.open_board
+          invite: apps.chess.matches.show.invite
+          invite_hint: apps.chess.matches.show.invite_hint
+          players: apps.chess.matches.show.players
+          open_seat: apps.chess.matches.show.open_seat
+          reissue: apps.chess.matches.show.reissue
+          reissue_confirm: apps.chess.matches.show.reissue_confirm
+          guest_link: apps.chess.matches.show.guest_link
+          guest_link_hint: apps.chess.matches.show.guest_link_hint
+          end: apps.chess.matches.show.end
+          end_confirm: apps.chess.matches.show.end_confirm
+      endings:
+        create:
+          success: apps.chess.endings.create.success
+      bot_levels:
+        easy: apps.chess.bot_levels.easy
+        medium: apps.chess.bot_levels.medium
+        hard: apps.chess.bot_levels.hard
+        max: apps.chess.bot_levels.max
+      styles:
+        board: apps.chess.styles.board
+        crawl: apps.chess.styles.crawl
+      plays:
+        show:
+          waiting: apps.chess.plays.show.waiting
+          your_name: apps.chess.plays.show.your_name
+          sit: apps.chess.plays.show.sit
+          promote: apps.chess.plays.show.promote
+          resign: apps.chess.plays.show.resign
+          resign_confirm: apps.chess.plays.show.resign_confirm
+          play_again: apps.chess.plays.show.play_again
+          go_to_rematch: apps.chess.plays.show.go_to_rematch
+          moves: apps.chess.plays.show.moves
+          screens: apps.chess.plays.show.screens
+          add_screen: apps.chess.plays.show.add_screen
+          remove_screen: apps.chess.plays.show.remove_screen
+          sign_in_to_show: apps.chess.plays.show.sign_in_to_show
+          remove_screen_confirm: apps.chess.plays.show.remove_screen_confirm
+          stale_link: apps.chess.plays.show.stale_link
+          thinking: apps.chess.plays.show.thinking
+          played: apps.chess.plays.show.played
+      seats:
+        computer: apps.chess.seats.computer
+        create:
+          taken: apps.chess.seats.create.taken
+          already_seated: apps.chess.seats.create.already_seated
+      moves:
+        create:
+          refused: apps.chess.moves.create.refused
+      displays:
+        create:
+          success: apps.chess.displays.create.success
+          already_shown: apps.chess.displays.create.already_shown
+      screens:
+        scan_to_play: apps.chess.screens.scan_to_play
+        scan_hint: apps.chess.screens.scan_hint
+        open_seat: apps.chess.screens.open_seat
+        last_move: apps.chess.screens.last_move
+        episode: apps.chess.screens.episode
+        play_again: apps.chess.screens.play_again
+    preload:
+      tagline: apps.preload.tagline
+      title: apps.preload.title
+      back: apps.preload.back
+      plugins:
+        heading: apps.preload.plugins.heading
+        explainer: apps.preload.plugins.explainer
+        input_label: apps.preload.plugins.input_label
+        add: apps.preload.plugins.add
+        remove: apps.preload.plugins.remove
+        empty: apps.preload.plugins.empty
+        fields: apps.preload.plugins.fields
+        no_fields: apps.preload.plugins.no_fields
+        set_up_on_claim: apps.preload.plugins.set_up_on_claim
+        unavailable_recipe: apps.preload.plugins.unavailable_recipe
+        unavailable_plugin: apps.preload.plugins.unavailable_plugin
+        added: apps.preload.plugins.added
+        removed: apps.preload.plugins.removed
+        not_found: apps.preload.plugins.not_found
+      uninstall:
+        heading: apps.preload.uninstall.heading
+        explainer: apps.preload.uninstall.explainer
+        confirm: apps.preload.uninstall.confirm
+      orders:
+        heading: apps.preload.orders.heading
+        explainer: apps.preload.orders.explainer
+        order_number: apps.preload.orders.order_number
+        email: apps.preload.orders.email
+        import: apps.preload.orders.import
+        empty: apps.preload.orders.empty
+        shipped: apps.preload.orders.shipped
+        claimed: apps.preload.orders.claimed
+        waiting: apps.preload.orders.waiting
+        remove: apps.preload.orders.remove
+        remove_confirm: apps.preload.orders.remove_confirm
+        none_shipped: apps.preload.orders.none_shipped
+        imported:
+          zero: apps.preload.orders.imported.zero
+          one: apps.preload.orders.imported.one
+          other: apps.preload.orders.imported.other
+        already_imported: apps.preload.orders.already_imported
+        no_match: apps.preload.orders.no_match
+        taken: apps.preload.orders.taken
+        paused: apps.preload.orders.paused
+        store_unavailable: apps.preload.orders.store_unavailable
+        throttled: apps.preload.orders.throttled
+        removed: apps.preload.orders.removed
   mashups:
     mashup:
       add_to_playlist: mashups.mashup.add_to_playlist
@@ -1740,6 +2015,7 @@ raw:
       1Tx2B: mashups.presets.1Tx2B
       2Tx1B: mashups.presets.2Tx1B
       2x2: mashups.presets.2x2
+      3x3: mashups.presets.3x3
   playlist_coverage:
     title: playlist_coverage.title
     your_timezone: playlist_coverage.your_timezone
@@ -1801,6 +2077,21 @@ raw:
       variables: compositions.form.variables
       visible_if: compositions.form.visible_if
       width: compositions.form.width
+      recolor_flaps: compositions.form.recolor_flaps
+      board_characters: compositions.form.board_characters
+      board_characters_hint: compositions.form.board_characters_hint
+      unsupported_characters: compositions.form.unsupported_characters
+      box_width_hint: compositions.form.box_width_hint
+      flap_colors:
+        label: compositions.form.flap_colors.label
+        red: compositions.form.flap_colors.red
+        orange: compositions.form.flap_colors.orange
+        yellow: compositions.form.flap_colors.yellow
+        green: compositions.form.flap_colors.green
+        blue: compositions.form.flap_colors.blue
+        violet: compositions.form.flap_colors.violet
+        white: compositions.form.flap_colors.white
+        black: compositions.form.flap_colors.black
   shared:
     impersonator:
       managing: shared.impersonator.managing
@@ -2031,6 +2322,7 @@ raw:
         panel_inks: user_themes.form.picker.panel_inks
         grayscale: user_themes.form.picker.grayscale
       export_bundle: user_themes.form.export_bundle
+      fit_to_screen: user_themes.form.fit_to_screen
   timelines:
     trace:
       outcomes:
@@ -2192,6 +2484,11 @@ raw:
         not_jit_schedulable: timelines.activity.schedule_reasons.not_jit_schedulable
         violates_minimum: timelines.activity.schedule_reasons.violates_minimum
         external_image: timelines.activity.schedule_reasons.external_image
+        before_daily_slot: timelines.activity.schedule_reasons.before_daily_slot
+        daily_catch_up_started: timelines.activity.schedule_reasons.daily_catch_up_started
+        daily_catch_up_declined: timelines.activity.schedule_reasons.daily_catch_up_declined
+        daily_catch_up_fresh_screen: timelines.activity.schedule_reasons.daily_catch_up_fresh_screen
+        daily_catch_up_kept_screen: timelines.activity.schedule_reasons.daily_catch_up_kept_screen
       render_statuses:
         ok: timelines.activity.render_statuses.ok
         error: timelines.activity.render_statuses.error
@@ -2241,8 +2538,6 @@ raw:
         empty_state: timelines.activity.serve_statuses.empty_state
         no_content: timelines.activity.serve_statuses.no_content
     next_check_in_due: timelines.next_check_in_due
-  mcp_oauth:
-    account_feature_off: mcp_oauth.account_feature_off
   doorkeeper:
     scopes:
       read: doorkeeper.scopes.read
@@ -2262,6 +2557,8 @@ raw:
         prompt: doorkeeper.authorizations.new.prompt
         able_to: doorkeeper.authorizations.new.able_to
         returns_to: doorkeeper.authorizations.new.returns_to
+        document_prompt: doorkeeper.authorizations.new.document_prompt
+        unverified_prompt: doorkeeper.authorizations.new.unverified_prompt
       buttons:
         authorize: doorkeeper.authorizations.buttons.authorize
         deny: doorkeeper.authorizations.buttons.deny
@@ -2430,3 +2727,13 @@ raw:
       unpaid: ai_credit_topups.new.unpaid
   banners:
     got_it: banners.got_it
+  byod_mac_address_banner_component:
+    message: byod_mac_address_banner_component.message
+    action: byod_mac_address_banner_component.action
+  integration_page:
+    use_recipe: integration_page.use_recipe
+  byod_trials:
+    ended:
+      claim_license: byod_trials.ended.claim_license
+  screen_picker:
+    single_palette_hint: screen_picker.single_palette_hint

@@ -5,8 +5,6 @@ es-ES:
   actions: Actions
   add: Crear
   add_new: Crear nueva
-  ai_assistant: Agent
-  ai_assistant_hint: Enable the Agent for markup editing in the plugin editor.
   already_have_account: Ya tengo una cuenta
   are_you_sure: "¿Estás seguro?"
   back: Atrás
@@ -164,7 +162,6 @@ es-ES:
       explore_apps_hint: TRMNL Booking (book rooms on the spot), fleet management, and more.
       manage_themes: Manage themes
       plus_subscription_lifetime: You have lifetime TRMNL+. Thanks for your support!
-      ai_agent_configure: Configure model, keys & usage
       delete_account: Delete account
       delete_account_button: Delete my account & data
       delete_account_confirm: This permanently deletes everything and refunds your $1. Continue?
@@ -249,6 +246,7 @@ es-ES:
       credit_plus_hint: __Subscribe to TRMNL+__ for free usage credits every month.
       byok_title: Bring your own key
       byok_hint: Add a key of your own to pick any model. The Agent then uses your key, not usage credits.
+      model_hosted: Add an OpenRouter or Anthropic key above to choose another model.
     shared_accounts:
       title: Accounts shared with you
       hint: Pick an account to manage its devices, playlists and plugins, or leave it.
@@ -536,6 +534,11 @@ es-ES:
       sleep_until: Sleep once
       sleep_until_hint: At its next check-in the device goes to sleep until this time. Press its button to wake it sooner. If it is not asleep yet, clear the field to cancel.
       font_set_by_theme: Set by %{theme}
+      developer_perks_mac_address_needed: Set the real MAC address for this device here
+      vestaboard_credentials: Vestaboard API token
+      vestaboard_token_saved: Saved
+      vestaboard_token_missing: Not set yet, so nothing is sent to the board
+      vestaboard_credentials_hint: In the Vestaboard app, open Settings, then Advanced Settings, then API. Create a token with Write access and paste it here.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -587,7 +590,11 @@ es-ES:
     update:
       error: Error al actualizar el dispositivo
       success: Configuración del dispositivo %{device} actualizada con éxito
+      choose_palette: "%{device} device model updated. Choose the palette your screen can show."
     add_device_first: Add a device first
+    image_too_big:
+      message: Your device rejected a %{size} image; this model accepts up to %{limit}.
+      message_without_limit: Your device rejected a %{size} image as too big.
   discovery:
     dashboard_action:
       saved:
@@ -669,8 +676,6 @@ es-ES:
       click_to_copy: Click to copy
       close: Close
       code: Code
-      code_agent: Code Agent
-      code_agent_disabled_hint: Enable AI from Account Settings to use Code Agent.
       code_agent_panel: Code Agent panel
       components: Components
       develop_on_github: Develop on GitHub
@@ -771,6 +776,8 @@ es-ES:
           heading: This playlist is empty
           description: Select Add Plugin above to add one of your plugins.
           cta: Looking for something new? Browse Plugins
+      hold_screen: Hold screen
+      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
     playlist_item:
       adjust_schedule: Ajustar programación
       delete: "¿Seguro que quieres eliminar este elemento? El plugin permanecerá conectado, pero no se mostrará en tu dispositivo."
@@ -835,6 +842,11 @@ es-ES:
       always: Always
       important_title: Important
       important_description: Only shown alongside other important screens during its schedule.
+      date_range:
+        between: "%{start} to %{end}"
+        from: From %{start}
+        until: Until %{end}
+        yearly: Every year, %{start} to %{end}
     bulk_actions:
       hide: Hide
       show: Show
@@ -870,13 +882,14 @@ es-ES:
       tagline: "¿Qué pondrás en tu TRMNL?"
       connected: Conectado
       supported_by_this_device: Supported by this device
-      recipes: Recetas
-      recipes_hint: Plugins privados creados por miembros de la comunidad que se pueden instalar en 1 click. __Aprende más__.
       view:
         label: Plugin view
-        cards: Cards
-        list: List
+        cards: View as Cards
+        list: View as List
       third_party_plugin: Third Party Plugin
+      collapse: Collapse
+      categories: Categories
+      discover: Discover
     search:
       placeholder: Buscar plugins
     my:
@@ -920,7 +933,6 @@ es-ES:
     connections:
       one: Conexión
       other: Conexiones
-    forked: Recipe forked
     new:
       error: Receta no encontrada
     show:
@@ -930,6 +942,7 @@ es-ES:
       install_again: Install again
       installed: Installed
       open_settings: Open settings
+      fork_this_recipe: Fork this recipe
     added_to_playlist: Added to your playlist. Check the settings below.
     check_settings: Installed. Check the settings below.
   plugin_settings:
@@ -1113,10 +1126,52 @@ es-ES:
       client_config: MCP client config
       client_config_hint_html: Add %{env_var} to your %{dotenv_file} file. Copy full key with the button above.
       generate: Generate MCP Key
+      whole_account_html: Connect %{url} and sign in. %{guide}.
+      whole_account_guide: How to connect
+      whole_account_summary: Manage your whole account instead
     linked_google_account:
       connected: Connected %{name}. Its events now show here.
       default_name: Another Google account
     preview_updated_just_now: Updated just now.
+    icon_generation:
+      summary: Draw an icon with AI
+      hint: Describe the icon, or keep the description we wrote from your plugin. Free, and it replaces your current icon.
+      submit: Draw icon
+      generating: Drawing your icon
+      failed: We could not draw an icon. Try again, or change the description.
+    remixes:
+      name: "%{name} Remix"
+      create:
+        success: "%{plugin} data is now {{ %{keyname} }}."
+    live_preview:
+      live: Live preview
+      image: Rendered image
+      invitation: Live preview shows unsaved changes as you edit.
+      explanation: Live preview renders in the browser. The rendered image is the last screen generated for the device and can differ slightly.
+      sample: Sample data
+      sample_hint: Examples show how these settings look.
+      cached: Your data
+      cached_hint: Fetched
+      partial: Your data
+      partial_hint: Some dates may be missing until you save and refresh.
+      invalid: Not updated
+      invalid_hint: Check the settings and the selected device.
+      error: Not updated
+      error_hint: The last successful preview is still shown.
+      retry: Retry
+      sizes: Sizes
+      full: Full
+      half_horizontal: Half H
+      half_vertical: Half V
+      quadrant: Quadrant
+    test_request:
+      button: Test request
+      missing_url: Add a Polling URL first.
+      rate_limited: Too many test requests. Try again in a minute.
+      sent: 'Sent:'
+      received: 'Received:'
+    missing_composition:
+      message: No composition yet — this plugin won't display on this device until you add one.
   recipes:
     index:
       newest_to_oldest: más nuevas a más antiguas
@@ -1125,6 +1180,7 @@ es-ES:
       install: Instalar
       fork: Fork
       search_placeholder: 'Search eg: Comic'
+      filtered_for_device: Showing recipes with a %{device} layout.
   schedules:
     form:
       append: Y durante…
@@ -1132,6 +1188,11 @@ es-ES:
       to: a
       copy_prompt: Copiar programación de…
       no_days_error: Please select at least one day.
+      dates: Dates
+      dates_description: Only show this screen between these dates. Leave a date blank for no start or no end.
+      repeats_yearly: Every year
+      add: Set a custom schedule
+      some_schedule: Show this screen during…
   upgrade:
     index:
       title: 'Actualizando dispositivo:'
@@ -1147,6 +1208,8 @@ es-ES:
       plugin_uninstall_feedback:
         one: Feedback
         other: Feedback
+      apps/chess/app: Chess
+      apps/preload/app: Preload
     attributes:
       plugin_setting:
         ai_coauthored: AI Coauthored
@@ -1180,6 +1243,13 @@ es-ES:
           body: Scan the code on the display again to pick up where you left off.
       discovery:
         billing_cancel_failed: Billing could not be canceled, so nothing was uninstalled. Please try again.
+      app_page:
+        title: "%{app} for TRMNL"
+        eyebrow: TRMNL app
+        log_in: Log in to add %{app}
+        new_to_trmnl: New to TRMNL?
+        sign_up: Create an account
+        image_alt: "%{app} on a TRMNL"
     room_booking:
       resource_kinds:
         room: Room
@@ -1306,6 +1376,7 @@ es-ES:
           show_booking_qr: Show booking QR code
           timezone: Time Zone
           timezone_hint: Used for the device screen and booking times.
+          show_company_logo: Show company logo
         new:
           title: New Calendar
           description: Add a calendar to %{app}.
@@ -1349,6 +1420,10 @@ es-ES:
           upcoming: Upcoming
           read_only: Read only
           read_only_hint: The connected Google account can only view this calendar. Give it permission to make changes to events to take bookings here.
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
       collections:
         edit:
           back_to_collection: Back to Collection
@@ -1368,6 +1443,7 @@ es-ES:
           select_none: Select none
           show_booking_qr: Show booking QR code
           type: Type
+          show_company_logo: Show company logo
         display_layouts:
           grid: Grid
           list: List
@@ -1403,6 +1479,10 @@ es-ES:
             enabled: Enabled
           type: Type
           edit_collection: Edit Collection
+          company_logo: Company logo
+          company_logo_values:
+            disabled: Disabled
+            enabled: Enabled
         screens:
           empty: Configure which calendars to display under "Apps > Booking > Collections" on trmnl.com.
         types:
@@ -1575,7 +1655,7 @@ es-ES:
           dark_mode_hint: Render device screens in dark mode — a dark canvas with light text.
           invalid_booking_window: Booking window is invalid.
           invalid_time_format: Time format is invalid.
-          public_bookings: Booking with TRMNL
+          public_bookings: Allow booking on the spot
           public_bookings_hint: Let anyone book a room by scanning a QR code. Requires Google or Microsoft calendar.
           qr_code_security: QR Code Security
           qr_code_security_hint: Rotate public booking URLs daily to expire calendar access for outside visitors.
@@ -1614,8 +1694,8 @@ es-ES:
           one: This adds 1 resource to your plan (%{amount}). Continue?
           other: This adds %{count} resources to your plan (%{amount}). Continue?
         screen_title: Subscription needed
-        screen_body: Add a payment method to show this resource again.
-        locked: Add a payment method to keep your resources on screen.
+        screen_body: Set up billing to show this resource again.
+        locked: Set up billing to keep your resources on screen.
         past_due: Your last payment failed. Update your card to avoid interruption.
         grace:
           one: Booking becomes a paid app on %{date}. Your %{count} resource will be %{total} per month.
@@ -1644,6 +1724,42 @@ es-ES:
         syncing: Syncing
         stale: Calendar data is delayed. Retrying…
         unavailable: This display is no longer available.
+      pricing:
+        billing_period: Billing period
+        annual_saving: Save %{amount} / room with annual billing
+        included: Included
+        calendars: Your calendars
+        calendars_hint: Every calendar works the same and costs the same. Mix them as you like.
+        existing_screens: Screens you already own cost nothing. Booking also runs on tablets and TVs.
+        add_devices:
+          one: Add %{count} device
+          other: Add %{count} devices
+        comparison_links:
+          joan: Joan vs. TRMNL
+          robin: Robin vs. TRMNL
+          envoy: Envoy vs. TRMNL
+          tablets: Tablets vs. TRMNL
+        features:
+          room_status: Live room status that changes when a meeting starts or ends
+          walk_up_booking: Walk-up booking with a QR code, from any phone
+          branding: Your logo and your room names on every screen
+          collections: Hallway screens that show many rooms at once
+          virtual_displays: Virtual displays on the tablets and TVs you already own
+          monitoring: Battery levels, and an email when a calendar stops syncing
+          setup: Set it up yourself, in minutes
+          support: Email support from real people
+          updates: New features as we ship them
+          room_changes: Add or remove rooms at any time
+        comparison_period: 10 rooms over 3 years, with annual billing
+        saves: Save %{amount} with TRMNL
+        saves_at_least: Save at least %{amount} with TRMNL
+        platform_fee: "%{amount} + platform fee"
+        quote_required: Quote required
+        tablet_total: "%{name} + Booking: %{amount}"
+        joan_assumptions: Entry plan, display licenses and Joan 6 RE devices. Active user fees excluded.
+        envoy_assumptions: Room licenses, Android tablets and locking enclosures. Platform fee excluded.
+        tablet_assumptions: Tablets, locking enclosures and Booking. Existing outlets assumed.
+        comparison_exclusions: US prices before tax and shipping. Power installation and device management excluded. See each comparison for sources and assumptions.
     fleet:
       tagline: Mirror one device's screen and settings across many displays.
       check_ins:
@@ -1707,6 +1823,165 @@ es-ES:
         footer: You get this because check-in alerts are on for this fleet. Turn them off in Fleet › Settings.
     bookings:
       read_only_booking_error: This calendar is read only. The connected Google account needs permission to make changes to events before it can take bookings.
+    chess:
+      tagline: Play correspondence chess on your TRMNL, with a friend across town or at the kitchen table.
+      back_to_matches: Back to matches
+      back_to_apps: Back to Apps
+      open_link: Open
+      seat_name: "%{name} (%{side})"
+      status:
+        lobby:
+          one: Waiting for 1 more player
+          other: Waiting for %{count} players
+        to_move: "%{name} to move"
+      result:
+        win: "%{name} wins by %{reason}"
+        draw: Draw by %{reason}
+      reasons:
+        checkmate: checkmate
+        resignation: resignation
+        stalemate: stalemate
+        threefold_repetition: threefold repetition
+        insufficient_material: insufficient material
+        fifty_move_rule: the fifty-move rule
+        ended: the host ending the match
+      uninstall:
+        heading: Uninstall
+        explainer: Removes the app, closes the links you sent players, and takes your boards off every device.
+        confirm: Uninstall %{app}?
+      matches:
+        index:
+          new: New match
+          empty: No matches yet. Start one and send the link to a friend.
+          your_move: Your move
+        title:
+          open_seat: open seat
+          no_players: Open match
+        new:
+          title: New match
+          side: Your seat
+          opponent: Opponent
+          level: Computer level
+          opponents:
+            friend: A friend
+            computer: The computer
+          submit: Create match
+          sides:
+            white: I'll play White
+            black: I'll play Black
+            host: Just host
+          hints:
+            white: White moves first.
+            black: Your opponent moves first.
+            host: Both seats stay open. Good for a shared screen in the kitchen or office.
+        show:
+          open_board: Open the board
+          invite: Invite players
+          invite_hint: Send this link, or show the QR code. Whoever opens it first takes an open seat.
+          players: Players
+          open_seat: "%{side}: open"
+          reissue: New link
+          reissue_confirm: Send %{name} a new link? Their old link stops working.
+          guest_link: New link for %{name}
+          guest_link_hint: Send this to them. It only shows here once, and their old link no longer works.
+          end: End match
+          end_confirm: End this match with no winner?
+      endings:
+        create:
+          success: Match ended.
+      bot_levels:
+        easy: Easy
+        medium: Medium
+        hard: Hard
+        max: Max
+      styles:
+        board: Board
+        crawl: Star Crawl
+      plays:
+        show:
+          waiting: You are %{side}. Waiting for an opponent.
+          your_name: Your name
+          sit: Play as %{side}
+          promote: Promote to
+          resign: Resign
+          resign_confirm: Resign this game?
+          play_again: Play again
+          go_to_rematch: Go to the rematch
+          moves: Moves
+          screens: Show on my TRMNL
+          add_screen: Add to device
+          remove_screen: Remove
+          sign_in_to_show: Have a TRMNL? Sign in to show this match on it.
+          remove_screen_confirm: Take this match off %{device}?
+          stale_link: This link no longer works. Ask the host for a new one.
+          thinking: "%{name} is thinking"
+          played: "%{name} played %{move}"
+      seats:
+        computer: Computer
+        create:
+          taken: Someone took that seat first.
+          already_seated: You already have a seat in this game.
+      moves:
+        create:
+          refused: That move is not available any more. The board has been refreshed.
+      displays:
+        create:
+          success: Added to %{device}. It shows up at the device's next refresh.
+          already_shown: "%{device} already shows this match. Remove it first to change the style."
+      screens:
+        scan_to_play: Scan to play
+        scan_hint: Point a phone camera at the code. Whoever scans first takes an open seat.
+        open_seat: Open seat
+        last_move: Last move
+        episode: Episode %{number}
+        play_again: Scan to play again
+    preload:
+      tagline: Add plugins to a batch of devices before end users claim them.
+      title: Preload
+      back: Back to Apps
+      plugins:
+        heading: Plugins to preload
+        explainer: Each device from your orders gets these plugins when someone claims it. That person finishes any setup.
+        input_label: Plugin link or ID
+        add: Add plugin
+        remove: Remove
+        empty: No plugins yet.
+        fields: 'Fields to fill in: %{fields}'
+        no_fields: No fields to fill in.
+        set_up_on_claim: Set up by the person who claims the device.
+        unavailable_recipe: Recipe %{id} is not available. It is not published or unlisted.
+        unavailable_plugin: Plugin %{id} is not available. It is not published.
+        added: "%{name} will preload."
+        removed: Plugin removed.
+        not_found: We couldn't find a published plugin or recipe with that link.
+      uninstall:
+        heading: Uninstall
+        explainer: Removes the app, frees your orders, and stops preloading devices nobody has claimed yet.
+        confirm: Uninstall %{app}?
+      orders:
+        heading: Orders
+        explainer: Import a store order by its number and order email. Devices will preload whatever plugins you specify once claimed for the first time.
+        order_number: Order number
+        email: Order email
+        import: Import order
+        empty: No orders yet.
+        shipped: Shipped
+        claimed: Claimed
+        waiting: Waiting
+        remove: Remove
+        remove_confirm: 'Remove order #%{order}? Its unclaimed devices will not preload your plugins.'
+        none_shipped: No devices from this order have shipped yet. If we merged it with another of your orders, import that order instead, or contact support.
+        imported:
+          zero: 'Order #%{order} imported. Its devices will preload as they ship.'
+          one: 'Order #%{order} imported. 1 device will preload.'
+          other: 'Order #%{order} imported. %{count} devices will preload.'
+        already_imported: 'Order #%{order} is already imported.'
+        no_match: We couldn't match that order number and email.
+        taken: This order is linked to another account. Contact support.
+        paused: Preloading is paused for this account. Contact support.
+        store_unavailable: We couldn't reach our store. Try again shortly.
+        throttled: Too many attempts. Try again later.
+        removed: 'Order #%{order} removed.'
   mashups:
     mashup:
       add_to_playlist: Add to playlist
@@ -1742,6 +2017,7 @@ es-ES:
       1Tx2B: Large top, two bottom
       2Tx1B: Two top, large bottom
       2x2: Four sections
+      3x3: Custom grid
   playlist_coverage:
     title: Playlist coverage
     your_timezone: your timezone
@@ -1803,6 +2079,21 @@ es-ES:
       variables: Variables
       visible_if: Visible if...
       width: Width
+      recolor_flaps: Recolor every flap on this layer
+      board_characters: Board characters
+      board_characters_hint: Click a character to insert it. A color inserts as {63} to {69} and fills one flap.
+      unsupported_characters: 'Not on the board: %{characters}. Like spaces, they show the layer below or the background (marked ? in this preview).'
+      box_width_hint: Width is in cells. The board is %{columns} cells wide.
+      flap_colors:
+        label: Flap colors
+        red: Red
+        orange: Orange
+        yellow: Yellow
+        green: Green
+        blue: Blue
+        violet: Violet
+        white: White
+        black: Black (blank)
   shared:
     impersonator:
       managing: Managing %{name}
@@ -2033,6 +2324,7 @@ es-ES:
         panel_inks: Panel inks
         grayscale: Grayscale
       export_bundle: Download theme
+      fit_to_screen: Fit to screen
   timelines:
     trace:
       outcomes:
@@ -2194,6 +2486,11 @@ es-ES:
         not_jit_schedulable: Refreshes on its own schedule
         violates_minimum: Waiting out its minimum refresh interval
         external_image: Skipped — the image is sent to it, nothing renders it
+        before_daily_slot: Waiting — the daily refresh renders before its first display after 00:15
+        daily_catch_up_started: Catching up — the daily screen was rendered before today's 00:15 refresh
+        daily_catch_up_declined: Catch-up skipped — the device got no waiting screen, so it kept its screen while the render ran
+        daily_catch_up_fresh_screen: Caught up — the fresh daily screen arrived
+        daily_catch_up_kept_screen: Catch-up ended — the render did not arrive in time, so the previous screen stayed
       render_statuses:
         ok: Rendered
         error: Render failed
@@ -2243,8 +2540,6 @@ es-ES:
         empty_state: Caught-up screen sent — nothing new to show
         no_content: Caught-up screen sent — still nothing to show, so the device will check back less often to save battery
     next_check_in_due: Check-in due any moment.
-  mcp_oauth:
-    account_feature_off: Connecting an app to your whole account is not open on your account yet.
   doorkeeper:
     scopes:
       read: Read your devices and their logs, playlists, plugin settings and private plugin files
@@ -2264,6 +2559,8 @@ es-ES:
         prompt: "%{client_name} wants to use your TRMNL account."
         able_to: 'It will be able to:'
         returns_to: You return to %{host} after you choose.
+        document_prompt: "“%{client_name}” from %{host} wants to use your TRMNL account."
+        unverified_prompt: An app that calls itself “%{client_name}” wants to use your TRMNL account. TRMNL has not verified this app.
       buttons:
         authorize: Allow
         deny: Don't allow
@@ -2720,3 +3017,13 @@ es-ES:
       unpaid: The payment did not complete, so we added no usage credits.
   banners:
     got_it: Got it
+  byod_mac_address_banner_component:
+    message: Your TRMNL device needs its real MAC address before it can connect.
+    action: Add MAC address
+  integration_page:
+    use_recipe: Use the community recipe
+  byod_trials:
+    ended:
+      claim_license: Already bought a BYOD license? Claim it with your order number.
+  screen_picker:
+    single_palette_hint: This device has only one palette.

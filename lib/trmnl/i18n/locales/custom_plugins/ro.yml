@@ -23,8 +23,8 @@ ro:
       title: Calendar
       ym_format: "%B %Y"
       chinese_korean:
-        leap_format: Bisect %{month_label}
-        leap_format_short: LB%{alt_month}
+        leap_format: Lună intercalară %{month_label}
+        leap_format_short: LI%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
         -
@@ -97,43 +97,43 @@ ro:
         - Câine
         - Porc
         zodiac_animals:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
+        - Șobolan
+        - Bou
+        - Tigru
+        - Iepure
         - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
+        - Șarpe
+        - Cal
+        - Capră
+        - Maimuță
+        - Cocoș
+        - Câine
+        - Porc
         solar_terms:
-        - Minor Cold
-        - Major Cold
-        - Start of Spring
-        - Rain Water
-        - Awakening of Insects
-        - Spring Equinox
-        - Pure Brightness
-        - Grain Rain
-        - Start of Summer
-        - Grain Buds
-        - Grain in Ear
-        - Summer Solstice
-        - Minor Heat
-        - Major Heat
-        - Start of Autumn
-        - End of Heat
-        - White Dew
-        - Autumn Equinox
-        - Cold Dew
-        - Frost's Descent
-        - Start of Winter
-        - Minor Snow
-        - Major Snow
-        - Winter Solstice
+        - Frig ușor
+        - Frig puternic
+        - Începutul primăverii
+        - Apa ploilor
+        - Trezirea insectelor
+        - Echinocțiul de primăvară
+        - Luminozitate pură
+        - Ploaia pentru cereale
+        - Începutul verii
+        - Mugurii cerealelor
+        - Cereale în spic
+        - Solstițiul de vară
+        - Căldură moderată
+        - Căldură puternică
+        - Începutul toamnei
+        - Sfârșitul căldurii
+        - Rouă albă
+        - Echinocțiul de toamnă
+        - Rouă rece
+        - Coborârea brumei
+        - Începutul iernii
+        - Ninsoare ușoară
+        - Ninsoare abundentă
+        - Solstițiul de iarnă
       japanese:
         rokuyo_terms:
         - 先勝
@@ -227,28 +227,28 @@ ro:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{Nicio conexiune}} one {{{$value :number} conexiune}} * {{{$value :number} conexiuni}}"
-      forks: ".input {$value :number} .match $value zero {{Niciun fork}} one {{{$value :number} fork}} * {{{$value :number} fork-uri}}"
-      installs: ".input {$value :number} .match $value zero {{Nicio instalare}} one {{{$value :number} instalare}} * {{{$value :number} instalări}}"
-      and_more: și {$value :number} mai mult
-      error_keyword_title: '"{$keyword}" nu a corespuns niciunui rezultat.'
+      connections: ".input {$value :number} .match $value zero {{Nicio conexiune}} one {{{$value :number} conexiune}} few {{{$value :number} conexiuni}} * {{{$value :number} de conexiuni}}"
+      forks: ".input {$value :number} .match $value zero {{Niciun fork}} one {{{$value :number} fork}} few {{{$value :number} fork-uri}} * {{{$value :number} de fork-uri}}"
+      installs: ".input {$value :number} .match $value zero {{Nicio instalare}} one {{{$value :number} instalare}} few {{{$value :number} instalări}} * {{{$value :number} de instalări}}"
+      and_more: și încă {$value :number}
+      error_keyword_title: "„{$keyword}” nu a corespuns niciunui rezultat."
       error_keyword_subtitle: Încearcă să cauți altceva.
-      error_new_title: Nu a fost găsit niciun rețetar nou.
+      error_new_title: Nu a fost găsită nicio rețetă nouă.
       error_new_subtitle: Asta nu ar trebui să se întâmple.
-      error_self_title: Nu ai publicat niciun rețetar.
-      error_self_subtitle: Află cum să publici primul tău rețetar la https://help.trmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'Utilizatorul #{$authorId} nu a publicat niciun rețetar.'
-      error_author_id_subtitle: Nu a fost găsit niciun rețetar asociat cu acest ID.
-      error_recipe_ids_title: Nu a fost găsit niciun ID de rețetar.
-      error_recipe_ids_subtitle: Adaugă un ID de rețetar pentru a începe.
+      error_self_title: Nu ai publicat nicio rețetă.
+      error_self_subtitle: Află cum să publici prima rețetă la https://help.trmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'Utilizatorul #{$authorId} nu a publicat nicio rețetă.'
+      error_author_id_subtitle: Nu a fost găsită nicio rețetă asociată cu acest ID.
+      error_recipe_ids_title: Nu a fost găsit niciun ID de rețetă.
+      error_recipe_ids_subtitle: Adaugă un ID de rețetă pentru a începe.
     horizontal_world_clock:
       name: Ceas mondial
     language_learning_sentences:
       from_to: "{$from :langName} în {$to :langNameList}"
     custom_next_holiday:
-      next_holiday: Next holiday
-      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
-      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
-      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
-      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
-    sun_chart: Sun Chart
+      next_holiday: Următoarea sărbătoare
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Mâine este {$nextName}.{/subLabel} }} few {{ {#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Următoarea sărbătoare este {$nextName}, peste {$nextDays} zile.{/subLabel} }} * {{ {#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Următoarea sărbătoare este {$nextName}, peste {$nextDays} de zile.{/subLabel} }}"
+      today_only: "{#mainLabel}Astăzi este{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Mâine este{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }} few {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} zile până la{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }} * {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} de zile până la{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      no_holidays: "{#subLabel}Nu mai există sărbători adăugate.{/subLabel}"
+    sun_chart: Grafic solar

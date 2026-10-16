@@ -2,40 +2,40 @@
 ro:
   renders:
     and_x_more_prefix: Și
-    and_x_more_suffix: mai mult
+    and_x_more_suffix: în plus
     calendars:
-      no_upcoming_events: No upcoming events
-      no_events_today: No events today
+      no_upcoming_events: Nu există evenimente viitoare
+      no_events_today: Nu există evenimente astăzi
     days_left_year:
-      title: Zile rămase în an
+      title: Zile rămase în acest an
       days_passed: Zile trecute
       days_left: Zile rămase
     lunar_calendar:
       title: Calendar lunar
-      age: Vârsta lunii
+      age: Vârsta Lunii
       current_phase: Faza curentă
-      illumination: Iluminarea lunii
+      illumination: Iluminarea Lunii
       next_full_moon: Următoarea lună plină
       next_new_moon: Următoarea lună nouă
       next_phase: Faza următoare
-      next_phase_short: Următor
+      next_phase_short: Urmează
       moon_phases:
         new_moon: Lună nouă
         waxing_crescent: Semilună în creștere
         first_quarter: Primul pătrar
-        waxing_gibbous: Gibboasă în creștere
+        waxing_gibbous: Lună în creștere
         full_moon: Lună plină
-        waning_gibbous: Gibboasă în descreștere
+        waning_gibbous: Lună în descreștere
         third_quarter: Ultimul pătrar
         waning_crescent: Semilună în descreștere
     netatmo_weather_station:
       title: Meteo Netatmo
       title_short: Netatmo
-      indoor_temp: Temp. interior
+      indoor_temp: Temp. interioară
       indoor_temp_short: Interior
-      indoor_humidity: Umiditate interior
+      indoor_humidity: Umiditate interioară
       indoor_humidity_short: Um. int.
-      outdoor_humidity: Umiditate exterior
+      outdoor_humidity: Umiditate exterioară
       outdoor_humidity_short: Um. ext.
       co2: CO₂
       co2_ppm: CO₂ ppm
@@ -47,12 +47,12 @@ ro:
       wind: Vânt
       gust: Rafală
       default_station_name: Stație Netatmo
-      default_outdoor_module: Temp. exterior
+      default_outdoor_module: Temp. exterioară
       default_indoor_module: Interior
       trends_title: Tendințe %{metric}
       trends_title_short: Tendințe
-      temperature_trends: Tendințe temperatură
-      temperature_trends_short: Tend. temp.
+      temperature_trends: Evoluția temperaturii
+      temperature_trends_short: Evol. temp.
       outdoor_now: Exterior acum
       indoor_now: Interior acum
       now: Acum
@@ -69,12 +69,12 @@ ro:
       errors:
         missing_access_token: Token de acces lipsă. Reconectează-ți contul Netatmo.
         no_station_selected: Nicio stație meteo selectată. Alege o stație în setări.
-        connection_failed: Imposibil de conectat la stația Netatmo. Verifică conexiunea la internet.
-        data_retrieval_failed: Imposibil de preluat datele meteo. Încearcă din nou mai târziu.
+        connection_failed: Nu ne putem conecta la stația Netatmo. Verifică conexiunea la internet.
+        data_retrieval_failed: Datele meteo nu pot fi preluate. Încearcă din nou mai târziu.
         session_expired: Sesiunea a expirat. Reconectează-ți contul Netatmo în setări.
-        indoor_module_missing: Selected indoor module not found. Please reconfigure in settings.
+        indoor_module_missing: Modulul de interior selectat nu a fost găsit. Reconfigurează-l în setări.
     parcel:
-      delivery_by: Livrare de
+      delivery_by: Livrare până la
       empty: Nu există livrări
       errors:
         api: Eroare API Parcel
@@ -84,18 +84,20 @@ ro:
         active:
           one: Livrare activă
           other: Livrări active
+          few: Livrări active
         recent:
           one: Livrare recentă
           other: Livrări recente
+          few: Livrări recente
       status:
         delivered: Livrat
         delivery_exception: Excepție la livrare
-        expecting_pickup: Așteptare ridicare
+        expecting_pickup: În așteptarea ridicării
         failed_delivery_attempt: Tentativă de livrare eșuată
-        frozen: Înghețat
+        frozen: Suspendat
         in_transit: În tranzit
         information_received: Informații primite
-        not_found: Negăsit
+        not_found: Nu a fost găsit
         out_for_delivery: În curs de livrare
         unknown: Necunoscut
       today: Astăzi
@@ -103,7 +105,7 @@ ro:
     weather:
       title: Meteo
       temperature: Temperatură
-      feels_like: Resimțit ca
+      feels_like: Temperatură resimțită
       humidity: Umiditate
       low: Min
       high: Max
@@ -113,12 +115,12 @@ ro:
       tomorrow: Mâine
       low_high_short: Min/Max
       uv_short: UV
-      max: Max
+      max: Maxim
       tempest:
         conditions:
           clear: Senin
           cloudy: Noros
-          foggy: Cețos
+          foggy: Ceață
           partly_cloudy: Parțial noros
           rain_likely: Ploaie probabilă
           rain_possible: Ploaie posibilă
@@ -127,7 +129,7 @@ ro:
           thunderstorms_likely: Furtuni probabile
           thunderstorms_possible: Furtuni posibile
           very_light_rain: Ploaie foarte ușoară
-          windy: Vântos
+          windy: Vânt puternic
           wintry_mix_likely: Precipitații mixte probabile
           wintry_mix_possible: Precipitații mixte posibile
       weatherapi:
@@ -163,11 +165,11 @@ ro:
           day: Lapoviță
           night: Lapoviță
         - code: 1072
-          day: Burniță înghețată
-          night: Burniță înghețată
+          day: Burniță care îngheață
+          night: Burniță care îngheață
         - code: 1087
-          day: Tunet
-          night: Tunet
+          day: Descărcări electrice
+          night: Descărcări electrice
         - code: 1114
           day: Ninsoare viscolită
           night: Ninsoare viscolită
@@ -178,8 +180,8 @@ ro:
           day: Ceață
           night: Ceață
         - code: 1147
-          day: Ceață înghețată
-          night: Ceață înghețată
+          day: Ceață care îngheață
+          night: Ceață care îngheață
         - code: 1150
           day: Burniță ușoară
           night: Burniță ușoară
@@ -187,8 +189,8 @@ ro:
           day: Burniță
           night: Burniță
         - code: 1168
-          day: Burniță înghețată
-          night: Burniță înghețată
+          day: Burniță care îngheață
+          night: Burniță care îngheață
         - code: 1171
           day: Îngheț puternic
           night: Îngheț puternic
@@ -265,74 +267,81 @@ ro:
           day: Ninsoare puternică
           night: Ninsoare puternică
         - code: 1261
-          day: Gheață ușoară
-          night: Gheață ușoară
+          day: Averse slabe de granule de gheață
+          night: Averse slabe de granule de gheață
         - code: 1264
-          day: Gheață puternică
-          night: Gheață puternică
+          day: Averse abundente de granule de gheață
+          night: Averse abundente de granule de gheață
         - code: 1273
-          day: Tunet și ploaie
-          night: Tunet și ploaie
+          day: Ploaie cu descărcări electrice
+          night: Ploaie cu descărcări electrice
         - code: 1276
-          day: Tunet și ploaie
-          night: Tunet și ploaie
+          day: Ploaie cu descărcări electrice
+          night: Ploaie cu descărcări electrice
         - code: 1279
-          day: Tunet și ninsoare
-          night: Tunet și ninsoare
+          day: Ninsoare cu descărcări electrice
+          night: Ninsoare cu descărcări electrice
         - code: 1282
-          day: Tunet și ninsoare
-          night: Tunet și ninsoare
+          day: Ninsoare cu descărcări electrice
+          night: Ninsoare cu descărcări electrice
     place_of_the_day:
-      title: Place of the Day
+      title: Locul zilei
       wikipedia_credit: Wikipedia CC BY-SA
-      type: Type
-      population: Population
-      coordinates: Coordinates
-      founded: Founded
-      elevation: Elevation
-      area: Area
-      local_time: Local time
-      year_bc: "%{count} BC"
+      type: Tip
+      population: Populație
+      coordinates: Coordonate
+      founded: Fondat
+      elevation: Altitudine
+      area: Zonă
+      local_time: Ora locală
+      year_bc: "%{count} î.Hr."
       metres: "%{count} m"
       square_km: "%{count} km²"
-      city: City
-      wonder: Wonder
+      city: Oraș
+      wonder: Minune
     welcome:
       title: Bun venit
       greeting: Bună, %{name}
       greeting_blank: Bună
     homey:
-      'on': 'On'
-      'off': 'Off'
-      offline: Offline
-      all_offline: Every device is offline
+      'on': Pornit
+      'off': Oprit
+      offline: Deconectat
+      all_offline: Toate dispozitivele sunt deconectate
       all_offline_hint:
-        one: One device is unreachable
-        other: All %{count} devices are unreachable
+        one: Un dispozitiv nu poate fi accesat
+        other: Niciunul dintre cele %{count} de dispozitive nu poate fi accesat
+        few: Niciunul dintre cele %{count} dispozitive nu poate fi accesat
       batteries_healthy:
-        one: Battery
-        other: Batteries
+        one: Baterie
+        other: Baterii
+        few: Baterii
       batteries_low:
-        one: Needs a cell
-        other: Need a cell
-      no_batteries: No batteries to watch
-      no_batteries_hint: Nothing here reports a battery level
-      insights: Insights
-      no_chart: No chart
-      no_insights: No series pushed yet
-      no_insights_hint: A Homey app can push an Insights log to chart here
-      no_devices: Waiting for your first devices
-      no_devices_hint: They appear after the first push or cloud sync
+        one: De înlocuit
+        other: De înlocuit
+        few: De înlocuit
+      no_batteries: Nicio baterie de urmărit
+      no_batteries_hint: Niciun dispozitiv nu raportează nivelul bateriei
+      insights: Statistici
+      no_chart: Fără grafic
+      no_insights: Nu s-a trimis încă nicio serie de date
+      no_insights_hint: O aplicație Homey poate trimite un jurnal Insights pentru a afișa graficul aici
+      no_devices: Se așteaptă primele dispozitive
+      no_devices_hint: Apar după prima trimitere sau sincronizare cu cloudul
     mazevo:
-      in_use: In use
-      available: Available
-      available_until: Available until %{time}
-      available_all_day: Available for the rest of the day
-      coming_up: Coming up
-      later_today: Later today
-      nothing_later: Nothing else today
-      earlier_today: Earlier today
-      no_bookings: No bookings today
-      private_booking: Private booking
+      in_use: În utilizare
+      available: Disponibil
+      available_until: Disponibil până la %{time}
+      available_all_day: Disponibil pentru restul zilei
+      coming_up: Urmează
+      later_today: Mai târziu astăzi
+      nothing_later: Nimic altceva astăzi
+      earlier_today: Mai devreme astăzi
+      no_bookings: Nu există rezervări astăzi
+      private_booking: Rezervare privată
       time_range: "%{start} – %{end}"
-      updated_at: Updated %{time}
+      updated_at: Actualizat %{time}
+    ai_dashboard:
+      out_of_credit:
+        title: Credit AI epuizat
+        description: Abonează-te la TRMNL+ pentru credite AI sau reîncarcă contul pentru a folosi acest plugin.
