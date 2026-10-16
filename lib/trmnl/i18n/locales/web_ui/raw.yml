@@ -722,6 +722,9 @@ raw:
       zoom_out: markups.visual_editor.zoom_out
     ai_assistant_inline:
       model_locked: markups.ai_assistant_inline.model_locked
+      composition_prefill: markups.ai_assistant_inline.composition_prefill
+      composition_empty_state: markups.ai_assistant_inline.composition_empty_state
+      composition_placeholder: markups.ai_assistant_inline.composition_placeholder
   mfa:
     disable_otp:
       success: mfa.disable_otp.success
@@ -2092,6 +2095,9 @@ raw:
         violet: compositions.form.flap_colors.violet
         white: compositions.form.flap_colors.white
         black: compositions.form.flap_colors.black
+      agent_panel: compositions.form.agent_panel
+      toggle_agent: compositions.form.toggle_agent
+      resize_agent_panel: compositions.form.resize_agent_panel
   shared:
     impersonator:
       managing: shared.impersonator.managing
