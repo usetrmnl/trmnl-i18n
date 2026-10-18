@@ -1,0 +1,303 @@
+---
+'no':
+  custom_plugins:
+    today: I dag
+    tomorrow: I morgen
+    updated: Oppdatert
+    activity: Aktivitet
+    done: Ferdig
+    due: Forfall
+    weather: Været
+    temperature: Temperatur
+    air_temperature: Lufttemperatur
+    feels_like: Føles som
+    wet_bulb_temperature:
+    wet_bulb_temperature_short: WBT
+    wet_bulb_globe_temperature:
+    wet_bulb_globe_temperature_short: WBGT
+    dew_point: Duggpunkt
+    delta_t: Delta T
+    humidity: Fuktighet
+    air_density: Lufttetthet
+    pressure: Trykk
+    station_pressure: Stasjonstrykk
+    sea_level_pressure: Havnivåtrykk
+    pressure_trend:
+    pressure_rising:
+    pressure_steady:
+    pressure_falling:
+    wind: Vind
+    wind_average: Gjennomsnittlig vind
+    wind_gust: Vindkast
+    wind_direction: Vindretning
+    precipitation: Nedbør
+    precipitation_probability: Sannsynlighet for nedbør
+    precipitation_today: Nedbør i dag
+    precipitation_yesterday: Nedbør i går
+    precipitation_duration_today: Varighet for nedbør i dag
+    precipitation_duration_yesterday: Varighet med nedbør i går
+    uv: UV indeks
+    uv_short: UV
+    solar_radiation: Solstråling
+    brightness: Lysstyrke
+    solar_radiation_and_brightness: Solstråling og lysstyrke
+    lightning: Lyn
+    lightning_activity: Lynaktivitet
+    last_lightning_strike: Siste lynnedslag
+    lightning_distance: Lynavstand
+    lightning_strikes_1h: Lynnedslag (1 time)
+    lightning_strikes_3h: Lynnedslag (3 timer)
+    conditions: Forhold
+    right_now: Akkurat nå
+    sunrise: Soloppgang
+    sunset: Solnedgang
+    low: Lav
+    high: Høy
+    min: Min.
+    max: Maks.
+    refreshed: Oppdatert
+    deutsche_bahn_departures:
+      departures:
+      time:
+      line:
+      destination:
+      platform:
+      delay:
+      train:
+      on_time:
+      cancelled:
+      minutes:
+      refreshed:
+    simple_calendar:
+      title: Kalender
+      ym_format: "%B %Y"
+      chinese_korean:
+        leap_format: Leap %{month_label}
+        leap_format_short: LM%{alt_month}
+        ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
+        month_labels:
+          -
+          - M1
+          - M2
+          - M3
+          - M4
+          - M5
+          - M6
+          - M7
+          - M8
+          - M9
+          - M10
+          - M11
+          - M12
+        date_labels:
+          -
+          - "1"
+          - "2"
+          - "3"
+          - "4"
+          - "5"
+          - "6"
+          - "7"
+          - "8"
+          - "9"
+          - "10"
+          - "11"
+          - "12"
+          - "13"
+          - "14"
+          - "15"
+          - "16"
+          - "17"
+          - "18"
+          - "19"
+          - "20"
+          - "21"
+          - "22"
+          - "23"
+          - "24"
+          - "25"
+          - "26"
+          - "27"
+          - "28"
+          - "29"
+          - "30"
+        heavenly_stems:
+          - Wood
+          - Wood
+          - Fire
+          - Fire
+          - Earth
+          - Earth
+          - Metal
+          - Metal
+          - Water
+          - Water
+        earthly_branches:
+          - Rat
+          - Ox
+          - Tiger
+          - Rabbit
+          - Dragon
+          - Snake
+          - Horse
+          - Goat
+          - Monkey
+          - Rooster
+          - Dog
+          - Pig
+        zodiac_animals:
+          - Rat
+          - Ox
+          - Tiger
+          - Rabbit
+          - Dragon
+          - Snake
+          - Horse
+          - Goat
+          - Monkey
+          - Rooster
+          - Dog
+          - Pig
+        solar_terms:
+          - Minor Cold
+          - Major Cold
+          - Start of Spring
+          - Rain Water
+          - Awakening of Insects
+          - Spring Equinox
+          - Pure Brightness
+          - Grain Rain
+          - Start of Summer
+          - Grain Buds
+          - Grain in Ear
+          - Summer Solstice
+          - Minor Heat
+          - Major Heat
+          - Start of Autumn
+          - End of Heat
+          - White Dew
+          - Autumn Equinox
+          - Cold Dew
+          - Frost's Descent
+          - Start of Winter
+          - Minor Snow
+          - Major Snow
+          - Winter Solstice
+      japanese:
+        rokuyo_terms:
+          - 先勝
+          - 友引
+          - 先負
+          - 仏滅
+          - 大安
+          - 赤口
+        nengo:
+          reiwa: Reiwa
+        ym_format: "%B %Y (%{nengo} %{alt_year})"
+        year_1: "1"
+      hebrew:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+          - Nisan
+          - Iyar
+          - Sivan
+          - Tamuz
+          - Av
+          - Elul
+          - Tishri
+          - Heshvan
+          - Kislev
+          - Tevet
+          - Shevat
+          - Adar
+          - Adar I
+          - Adar II
+        month_labels_abbr:
+          - Nis
+          - Iya
+          - Siv
+          - Tam
+          - Av
+          - Elu
+          - Tis
+          - Hes
+          - Kis
+          - Tev
+          - Shv
+          - Ada
+          - Ad1
+          - Ad2
+      hijri:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+          -
+          - Muharram
+          - Safar
+          - Rabiʻ I
+          - Rabiʻ II
+          - Jumada I
+          - Jumada II
+          - Rajab
+          - Shaʻban
+          - Ramadan
+          - Shawwal
+          - Dhuʻl-Qiʻdah
+          - Dhuʻl-Hijjah
+      bengali:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+          -
+          - Boishakh
+          - Joishtho
+          - Asharh
+          - Srabon
+          - Bhadro
+          - Ashwin
+          - Kartika
+          - Ogrohayon
+          - Poush
+          - Magh
+          - Falgun
+          - Choitro
+      indian:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+          -
+          - Chaitra
+          - Vaisakha
+          - Jyaistha
+          - Asadha
+          - Sravana
+          - Bhadra
+          - Asvina
+          - Kartika
+          - Agrahayana
+          - Pausa
+          - Magha
+          - Phalguna
+    public_recipe_stats:
+      connections:
+      forks:
+      installs:
+      and_more:
+      error_keyword_title:
+      error_keyword_subtitle:
+      error_new_title:
+      error_new_subtitle:
+      error_self_title:
+      error_self_subtitle:
+      error_author_id_title:
+      error_author_id_subtitle:
+      error_recipe_ids_title:
+      error_recipe_ids_subtitle:
+    horizontal_world_clock:
+      name: Verdensuret
+    language_learning_sentences:
+      from_to: "{$from :langName} til {$to :langNameList}"
+    custom_next_holiday:
+      next_holiday: Neste høytid
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}I dag{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}I morgen er {$nextName}.{/subLabel} }}* {{ {#mainLabel}I dag{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Neste høytid er {$nextName} om {$nextDays} dager.{/subLabel} }}"
+      today_only: "{#mainLabel}I dag{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}I morgen er det{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} dager til{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      no_holidays: "{#subLabel}Slutt på høytider.{/subLabel}"
+    sun_chart: Solkart
