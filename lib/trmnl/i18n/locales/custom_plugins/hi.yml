@@ -1,0 +1,303 @@
+---
+hi:
+  custom_plugins:
+    today: today
+    tomorrow: tomorrow
+    updated: Updated
+    activity: Activity
+    done: Done
+    due: Due
+    weather: Weather
+    temperature: Temperature
+    air_temperature: Air Temperature
+    feels_like: Feels Like
+    wet_bulb_temperature: Wet-Bulb Temperature
+    wet_bulb_temperature_short: WBT
+    wet_bulb_globe_temperature: Wet-Bulb Globe Temperature
+    wet_bulb_globe_temperature_short: WBGT
+    dew_point: Dew Point
+    delta_t: Delta T
+    humidity: Humidity
+    air_density: Air Density
+    pressure: Pressure
+    station_pressure: Station Pressure
+    sea_level_pressure: Sea-Level Pressure
+    pressure_trend: Pressure Trend
+    pressure_rising: Pressure Rising
+    pressure_steady: Pressure Steady
+    pressure_falling: Pressure Falling
+    wind: Wind
+    wind_average: Average Wind
+    wind_gust: Wind Gust
+    wind_direction: Wind Direction
+    precipitation: Precipitation
+    precipitation_probability: Precipitation Probability
+    precipitation_today: Precipitation Today
+    precipitation_yesterday: Precipitation Yesterday
+    precipitation_duration_today: Precipitation Duration Today
+    precipitation_duration_yesterday: Precipitation Duration Yesterday
+    uv: UV Index
+    uv_short: UV
+    solar_radiation: Solar Radiation
+    brightness: Brightness
+    solar_radiation_and_brightness: Solar Radiation & Brightness
+    lightning: Lightning
+    lightning_activity: Lightning Activity
+    last_lightning_strike: Last Lightning Strike
+    lightning_distance: Lightning Distance
+    lightning_strikes_1h: Lightning Strikes (1 h)
+    lightning_strikes_3h: Lightning Strikes (3 h)
+    conditions: Conditions
+    right_now: Right Now
+    sunrise: Sunrise
+    sunset: Sunset
+    low: Low
+    high: High
+    min: Min.
+    max: Max.
+    refreshed: Refreshed
+    deutsche_bahn_departures:
+      departures: Departures
+      time: Time
+      line: Line
+      destination: Destination
+      platform: Platform
+      delay: Delay
+      train: Train
+      on_time: On time
+      cancelled: Cancelled
+      minutes: m
+      refreshed: Refreshed
+    simple_calendar:
+      title: कैलेंडर
+      ym_format: "%B %Y"
+      chinese_korean:
+        leap_format: अधिक %{month_label}
+        leap_format_short: अधिक %{month_label}
+        ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
+        month_labels:
+        -
+        - M1
+        - M2
+        - M3
+        - M4
+        - M5
+        - M6
+        - M7
+        - M8
+        - M9
+        - M10
+        - M11
+        - M12
+        date_labels:
+        -
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+        - '14'
+        - '15'
+        - '16'
+        - '17'
+        - '18'
+        - '19'
+        - '20'
+        - '21'
+        - '22'
+        - '23'
+        - '24'
+        - '25'
+        - '26'
+        - '27'
+        - '28'
+        - '29'
+        - '30'
+        heavenly_stems:
+        - काष्ठ
+        - काष्ठ
+        - अग्नि
+        - अग्नि
+        - पृथ्वी
+        - पृथ्वी
+        - धातु
+        - धातु
+        - जल
+        - जल
+        earthly_branches:
+        - चूहा
+        - बैल
+        - बाघ
+        - खरगोश
+        - ड्रैगन
+        - साँप
+        - घोड़ा
+        - बकरी
+        - बंदर
+        - मुर्गा
+        - कुत्ता
+        - सुअर
+        zodiac_animals:
+        - चूहा
+        - बैल
+        - बाघ
+        - खरगोश
+        - ड्रैगन
+        - साँप
+        - घोड़ा
+        - बकरी
+        - बंदर
+        - मुर्गा
+        - कुत्ता
+        - सुअर
+        solar_terms:
+        - छोटी ठंड
+        - बड़ी ठंड
+        - वसंत का आरंभ
+        - वर्षा जल
+        - कीटों का जागरण
+        - वसंत विषुव
+        - स्वच्छ और उज्ज्वल
+        - धान्य वर्षा
+        - ग्रीष्म का आरंभ
+        - धान्य अंकुरण
+        - धान्य में बालियाँ
+        - ग्रीष्म संक्रांति
+        - छोटी गर्मी
+        - बड़ी गर्मी
+        - शरद का आरंभ
+        - गर्मी का अंत
+        - श्वेत ओस
+        - शरद विषुव
+        - शीतल ओस
+        - पाले का आगमन
+        - शीतकाल का आरंभ
+        - हल्का हिमपात
+        - भारी हिमपात
+        - शीतकालीन संक्रांति
+      japanese:
+        rokuyo_terms:
+        - 先勝
+        - 友引
+        - 先負
+        - 仏滅
+        - 大安
+        - 赤口
+        nengo:
+          reiwa: रीवा
+        ym_format: "%B %Y (%{nengo} %{alt_year})"
+        year_1: '1'
+      hebrew:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        - निसान
+        - इयार
+        - सिवान
+        - तम्मूज़
+        - आव
+        - एलुल
+        - तिश्री
+        - हेशवान
+        - किसलेव
+        - तेवेत
+        - शेवात
+        - अदार
+        - अदार I
+        - अदार II
+        month_labels_abbr:
+        - निसान
+        - इयार
+        - सिवान
+        - तम्मूज़
+        - आव
+        - एलुल
+        - तिश्री
+        - हेशवान
+        - किसलेव
+        - तेवेत
+        - शेवात
+        - अदार
+        - अदार I
+        - अदार II
+      hijri:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - मुहर्रम
+        - सफ़र
+        - रबी उल-अव्वल
+        - रबी उस-सानी
+        - जुमादा अल-अव्वल
+        - जुमादा अल-सानी
+        - रजब
+        - शाबान
+        - रमज़ान
+        - शव्वाल
+        - ज़ुल क़ादा
+        - ज़ुल हिज्जा
+      bengali:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - बोइशाख
+        - ज्यैष्ठ
+        - आषाढ़
+        - श्रावण
+        - भाद्र
+        - आश्विन
+        - कार्तिक
+        - अग्रहायण
+        - पौष
+        - माघ
+        - फाल्गुन
+        - चैत्र
+      indian:
+        ym_format: ", %{month_label} %{alt_year}"
+        month_labels:
+        -
+        - चैत्र
+        - वैशाख
+        - ज्येष्ठ
+        - आषाढ़
+        - श्रावण
+        - भाद्रपद
+        - आश्विन
+        - कार्तिक
+        - अग्रहायण
+        - पौष
+        - माघ
+        - फाल्गुन
+    public_recipe_stats:
+      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
+      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
+      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      and_more: and {$value :number} more
+      error_keyword_title: "“{$keyword}” did not match any result."
+      error_keyword_subtitle: Try searching for something else.
+      error_new_title: No new recipe is found.
+      error_new_subtitle: This shouldn’t happen.
+      error_self_title: You did not publish any recipe.
+      error_self_subtitle: Learn how to publish your first one at https://help.trmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
+      error_author_id_subtitle: No recipe is found associated with this ID.
+      error_recipe_ids_title: No recipe ID is found.
+      error_recipe_ids_subtitle: Add a recipe ID to get started.
+    horizontal_world_clock:
+      name: World clock
+    language_learning_sentences:
+      from_to: "{$from :langName} to {$to :langNameList}"
+    custom_next_holiday:
+      next_holiday: Next holiday
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
+      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
+    sun_chart: Sun Chart
