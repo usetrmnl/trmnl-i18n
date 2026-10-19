@@ -4,9 +4,9 @@ zh-HK:
     and_x_more_prefix: 還有
     and_x_more_suffix: 個
     calendars:
-      no_upcoming_events: No upcoming events
-      no_events_today: No events today
-      all_day: all-day
+      no_upcoming_events: 沒有即將到來的活動
+      no_events_today: 今日沒有活動
+      all_day: 全日
     days_left_year:
       title: 今年剩餘日數
       days_passed: 經過日數
@@ -73,7 +73,7 @@ zh-HK:
         connection_failed: 無法連線至Netatmo氣象站，請檢查網絡連線。
         data_retrieval_failed: 無法取得天氣數據，請稍後再試。
         session_expired: 登入時效已過，請在設定中重新連接Netatmo帳戶。
-        indoor_module_missing: Selected indoor module not found. Please reconfigure in settings.
+        indoor_module_missing: 未找到選定的室內模組，請在設定中重新配置。
     parcel:
       delivery_by: 預計送達時間
       empty: 沒有任何包裹
@@ -102,58 +102,58 @@ zh-HK:
       today: 今日
       tomorrow: 明日
     tempest:
-      title: Tempest Weather Station
-      weather: Weather
-      temperature: Temperature
-      air_temperature: Air Temperature
-      feels_like: Feels Like
-      wet_bulb_temperature: Wet-Bulb Temperature
-      wet_bulb_temperature_short: WBT
-      wet_bulb_globe_temperature: Wet-Bulb Globe Temperature
-      wet_bulb_globe_temperature_short: WBGT
-      dew_point: Dew Point
-      delta_t: Delta T
-      humidity: Humidity
-      air_density: Air Density
-      pressure: Pressure
-      station_pressure: Station Pressure
-      sea_level_pressure: Sea-Level Pressure
-      pressure_trend: Pressure Trend
-      pressure_rising: Pressure Rising
-      pressure_steady: Pressure Steady
-      pressure_falling: Pressure Falling
-      wind: Wind
-      wind_average: Average Wind
-      wind_gust: Wind Gust
-      wind_direction: Wind Direction
-      precipitation: Precipitation
-      precipitation_probability: Precipitation Probability
-      precipitation_today: Precipitation Today
-      precipitation_yesterday: Precipitation Yesterday
-      precipitation_duration_today: Precipitation Duration Today
-      precipitation_duration_yesterday: Precipitation Duration Yesterday
-      uv: UV Index
-      uv_short: UV
-      solar_radiation: Solar Radiation
-      brightness: Brightness
-      solar_radiation_and_brightness: Solar Radiation & Brightness
-      lightning: Lightning
-      lightning_activity: Lightning Activity
-      last_lightning_strike: Last Lightning Strike
-      lightning_distance: Lightning Distance
-      lightning_strikes_1h: Lightning Strikes (1 h)
-      lightning_strikes_3h: Lightning Strikes (3 h)
-      conditions: Conditions
-      right_now: Right Now
-      today: Today
-      tomorrow: Tomorrow
-      sunrise: Sunrise
-      sunset: Sunset
-      low: Low
-      high: High
-      min: Min.
-      max: Max.
-      refreshed: Refreshed
+      title: Tempest 氣象站
+      weather: 天氣
+      temperature: 溫度
+      air_temperature: 氣溫
+      feels_like: 體感溫度
+      wet_bulb_temperature: 濕球溫度
+      wet_bulb_temperature_short: 濕球
+      wet_bulb_globe_temperature: 濕球黑球溫度
+      wet_bulb_globe_temperature_short: 濕球黑球
+      dew_point: 露點
+      delta_t: 溫差
+      humidity: 濕度
+      air_density: 空氣密度
+      pressure: 氣壓
+      station_pressure: 測站氣壓
+      sea_level_pressure: 海平面氣壓
+      pressure_trend: 氣壓趨勢
+      pressure_rising: 氣壓上升
+      pressure_steady: 氣壓穩定
+      pressure_falling: 氣壓下降
+      wind: 風
+      wind_average: 平均風速
+      wind_gust: 陣風
+      wind_direction: 風向
+      precipitation: 降雨
+      precipitation_probability: 降雨概率
+      precipitation_today: 今日雨量
+      precipitation_yesterday: 昨日雨量
+      precipitation_duration_today: 今日降雨時間
+      precipitation_duration_yesterday: 昨日降雨時間
+      uv: 紫外線指數
+      uv_short: 紫外線
+      solar_radiation: 太陽輻射
+      brightness: 照度
+      solar_radiation_and_brightness: 太陽輻射與照度
+      lightning: 閃電
+      lightning_activity: 閃電活動
+      last_lightning_strike: 上次閃電
+      lightning_distance: 閃電距離
+      lightning_strikes_1h: 閃電次數 (1小時)
+      lightning_strikes_3h: 閃電次數 (3小時)
+      conditions: 天氣狀況
+      right_now: 現時
+      today: 今日
+      tomorrow: 明日
+      sunrise: 日出時間
+      sunset: 日落時間
+      low: 最低
+      high: 最高
+      min: 最低
+      max: 最高
+      refreshed: 更新時間：
     weather:
       title: 天氣
       temperature: 氣溫
@@ -337,60 +337,60 @@ zh-HK:
           day: 雷雪
           night: 雷雪
     place_of_the_day:
-      title: Place of the Day
+      title: 每日一地
       wikipedia_credit: Wikipedia CC BY-SA
-      type: Type
-      population: Population
-      coordinates: Coordinates
-      founded: Founded
-      elevation: Elevation
-      area: Area
-      local_time: Local time
-      year_bc: "%{count} BC"
-      metres: "%{count} m"
-      square_km: "%{count} km²"
-      city: City
-      wonder: Wonder
+      type: 類型
+      population: 人口
+      coordinates: 座標
+      founded: 建立於
+      elevation: 海拔
+      area: 面積
+      local_time: 當地時間
+      year_bc: "公元前 %{count} 年"
+      metres: "%{count} 米"
+      square_km: "%{count} 平方公里"
+      city: 城市
+      wonder: 名勝
     welcome:
       title: 歡迎
       greeting: 你好，%{name}
       greeting_blank: 你好
     homey:
-      'on': 'On'
-      'off': 'Off'
-      offline: Offline
-      all_offline: Every device is offline
+      'on': 開啟
+      'off': 關閉
+      offline: 離線
+      all_offline: 所有裝置已離線
       all_offline_hint:
-        one: One device is unreachable
-        other: All %{count} devices are unreachable
+        one: 有 1 個裝置無法連線
+        other: 所有 %{count} 個裝置均無法連線
       batteries_healthy:
-        one: Battery
-        other: Batteries
+        one: 電池
+        other: 電池
       batteries_low:
-        one: Needs a cell
-        other: Need a cell
-      no_batteries: No batteries to watch
-      no_batteries_hint: Nothing here reports a battery level
-      insights: Insights
-      no_chart: No chart
-      no_insights: No series pushed yet
-      no_insights_hint: A Homey app can push an Insights log to chart here
-      no_devices: Waiting for your first devices
-      no_devices_hint: They appear after the first push or cloud sync
+        one: 需要更換電池
+        other: 需要更換電池
+      no_batteries: 沒有需要監測的電池
+      no_batteries_hint: 此處沒有報告電池電量的裝置
+      insights: 分析數據
+      no_chart: 沒有圖表
+      no_insights: 尚未推送任何數據集
+      no_insights_hint: Homey 應用程式可推送 Insights 日誌至此處繪製圖表
+      no_devices: 等待新增第一個裝置
+      no_devices_hint: 裝置將於首次推送或雲端同步後顯示
     mazevo:
-      in_use: In use
-      available: Available
-      available_until: Available until %{time}
-      available_all_day: Available for the rest of the day
-      coming_up: Coming up
-      later_today: Later today
-      nothing_later: Nothing else today
-      earlier_today: Earlier today
-      no_bookings: No bookings today
-      private_booking: Private booking
+      in_use: 使用中
+      available: 空置
+      available_until: 空置至 %{time}
+      available_all_day: 今日餘下時間均可使用
+      coming_up: 即將開始
+      later_today: 今日稍後
+      nothing_later: 今日暫無其他預約
+      earlier_today: 今日較早前
+      no_bookings: 今日沒有預約
+      private_booking: 私人預約
       time_range: "%{start} – %{end}"
-      updated_at: Updated %{time}
+      updated_at: 更新時間：%{time}
     ai_dashboard:
       out_of_credit:
-        title: Out of AI credit
-        description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+        title: AI 點數已用完
+        description: 訂閱 TRMNL+ 以獲取 AI 點數，或為你的帳戶增值以繼續使用此外掛。
