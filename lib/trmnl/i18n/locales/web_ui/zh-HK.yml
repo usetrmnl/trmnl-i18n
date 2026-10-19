@@ -168,7 +168,7 @@ zh-HK:
       delete_account_hint: 永久刪除你的帳戶、試用裝置及所有資料。你的1美元試用費將獲退還。
       delete_trial_device: 刪除試用裝置
       delete_trial_device_confirm: 這將刪除你的試用裝置並退還1美元。你的帳戶和其他裝置將不受影響。是否繼續？
-      delete_trial_device_hint: 刪除試用裝置及其資料；你的 1 美元將獲退還。你的帳戶和其他裝置將不受影響。
+      delete_trial_device_hint: 刪除試用裝置及其資料；你的1美元將獲退還。你的帳戶和其他裝置將不受影響。
       discord_after_license: 購買授權後即可加入
       discord_join: 加入我們的開發者專用伺服器
       github_username: GitHub用戶名稱
@@ -180,7 +180,7 @@ zh-HK:
       sections:
         preferences:
           title: 偏好設定
-          hint: 時區、語言、主題與 Beta 功能
+          hint: 時區、語言、主題與Beta功能
         developer:
           title: 開發者
           hint: API金鑰、開發者應用程式、主題與Agent
@@ -213,7 +213,7 @@ zh-HK:
       success: 成功重新生成API金鑰
     ai_agent_settings:
       title: AI Agent
-      tagline: 設定你的 AI Agent。針對 Claude Sonnet 5.5 構建，但也適用於其他模型。
+      tagline: 設定你的AI Agent。針對Claude Sonnet 5.5構建，但也適用於其他模型。
       model: 模型
       model_group_claude: Claude (Anthropic或OpenRouter金鑰)
       model_group_other: 其他模型 (需要OpenRouter金鑰)
@@ -238,7 +238,7 @@ zh-HK:
       input_tokens: 輸入Token數
       output_tokens: 輸出Token數
       avg_cost_per_plugin: 平均每個外掛成本
-      cache: 快取：已讀取 %{read} / 已建立 %{created}
+      cache: 快取：已讀取%{read} / 已建立%{created}
       cost_by_model: 按模型成本
       model_locked: 你的AI模型由TRMNL設定為：%{model}。
       router_locked: 適用於所有模型。TRMNL會透過%{router}為你的帳戶傳送Claude模型。
@@ -337,7 +337,7 @@ zh-HK:
     time_saved:
       title: 已節省時間
     discover_callout:
-      manage_persona: 管理個人檔案
+      manage_persona: 管理人格設定
     welcome_message:
       morning_salutation: 早晨
       afternoon_salutation: 午安
@@ -376,7 +376,7 @@ zh-HK:
       last_ping: 硬件最後Ping時間
       wifi_band: Wi-Fi頻段
       display_calibration: 螢幕校準
-      display_calibration_hint: 為你的螢幕微調顯示設定，留空則使用型號預設值。
+      display_calibration_hint: 為你的螢幕微調繪製設定，留空則使用型號預設值。
       display_calibration_pixel_ratio: 像素比例
       display_calibration_pixel_ratio_hint: 影像縮放等級 (0.5–3.0)。預設值：
       display_calibration_ui_scale: UI縮放
@@ -483,7 +483,7 @@ zh-HK:
       theme_hint: 為你的外掛畫面套用色彩主題。
       theme_version_note: 需要Framework 3.2或以上版本。固定使用舊版本的私有外掛不受影響。
       waits_for_next_render: 等候下次更新
-      waits_for_next_render_hint: 當此裝置僅顯示單一外掛或組合畫面時，會等候該外掛的下一次預定更新，而不是按上方的重新整理頻率定期檢查。停用此功能則會照常按頻率定期檢查。
+      waits_for_next_render_hint: 當此裝置只顯示單一外掛或混搭畫面時，會等候該外掛的下一次預定更新，而不是按上方的重新整理頻率定期檢查。停用此功能則會照常按頻率定期檢查。
       battery_advice:
         title: 電池使用建議
         days_per_charge:
@@ -631,7 +631,7 @@ zh-HK:
       activity: 查看動態
       device: 裝置
       plugins: 外掛功能
-      mashups: 組合畫面
+      mashups: 混搭畫面
       errors_only: 只顯示錯誤
       auto_refresh: 自動重新整理
       not_available: 此環境尚未啟用ClickHouse日誌記錄功能。
@@ -648,7 +648,7 @@ zh-HK:
       design_system: 活用我們的原生設計系統
       design_system_docs: 設計系統文件
       dirty_confirm: 你有未儲存的變更。確定要離開此頁面嗎？
-      edit_composition: Edit Composition
+      edit_composition: 編輯組合畫面
       edit_markup: 編輯標記碼
       edit_markup_for_plugin: 編輯「%{plugin_setting_name}」的標記碼
       edit_markup_please_save_first: 編輯標記碼前請先儲存
@@ -663,7 +663,7 @@ zh-HK:
       revert_confirm: 確定要還原嗎？所有未儲存的變更將會遺失。
       save_changes: 儲存變更 (⌘﹢S)
       separate_preview: 預覽已在獨立視窗開啟
-      preview_layout: Preview layout
+      preview_layout: 預覽佈局
     merge_variables:
       your_variables: 變數
     no_merge_variables:
@@ -744,9 +744,9 @@ zh-HK:
       reset_instructions: 按下TRMNL背面的按鈕以生成重設碼
       success: 雙重驗證成功
       error: OTP代碼無效
-      reset_hint: Lost your authenticator? We can show a one-time code on your TRMNL instead.
-      reset_pending: A one-time code is on its way to your TRMNL and appears at its next check-in. Your authenticator app still works in the meantime.
-      no_device: None of your TRMNLs have checked in recently, so there is nowhere to show you a reset code. Please contact support.
+      reset_hint: 遺失了驗證器App？我們可以改為在你的TRMNL畫面上顯示單次驗證碼。
+      reset_pending: 已傳送單次驗證碼到你的TRMNL，將於下次簽到時顯示。期間仍可正常使用你原有的驗證器App。
+      no_device: 你的TRMNL裝置最近均沒有簽到記錄，因此無法顯示重設碼。請聯絡支援團隊。
   playlist_items:
     index:
       title: 播放清單
@@ -757,30 +757,30 @@ zh-HK:
       skip_after:
         one: 1日未更新後跳過畫面
         other: "%{count}日未更新後跳過畫面"
-      add_plugin: Add Plugin
-      select: Select
-      exit_select: Exit select mode
-      time_travel: Time Travel
-      smart_skip: Smart Skip
-      smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
-      view: View
-      list_density: List density
-      regular: Regular
-      compact: Compact
-      schedule: Schedule
-      show: Show
-      hide: Hide
+      add_plugin: 新增外掛
+      select: 選擇
+      exit_select: 退出選擇模式
+      time_travel: 時光機
+      smart_skip: 智能跳過
+      smart_skip_hint: 自動跳過內容在一段時間內沒有變化的畫面。
+      view: 檢視
+      list_density: 列表密度
+      regular: 標準
+      compact: 緊密
+      schedule: 時間表
+      show: 顯示
+      hide: 隱藏
       empty:
         no_plugins:
-          heading: This playlist is empty
-          description: Connect your first plugin and come back here.
-          cta: Browse %{plugin_count} available Plugins
+          heading: 此播放清單為空
+          description: 請先連接你的第一個外掛，然後返回此處。
+          cta: 瀏覽%{plugin_count}個可用的外掛
         no_items:
-          heading: This playlist is empty
-          description: Select Add Plugin above to add one of your plugins.
-          cta: Looking for something new? Browse Plugins
-      hold_screen: Hold screen
-      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
+          heading: 此播放清單為空
+          description: 點擊上方的「新增外掛」以加入你的其中一個外掛。
+          cta: 尋找新功能？瀏覽外掛列表
+      hold_screen: 固定畫面
+      hold_screen_hint: 保持顯示目前畫面，直至按下按鈕為止。定時喚醒會重新整理內容，但不會切換至下一個畫面。
     playlist_item:
       adjust_schedule: 調整時間表
       delete: 確定要移除此項目嗎？外掛會保持連接，只是不會在裝置上顯示。
@@ -789,19 +789,19 @@ zh-HK:
       remove_from_playlist: 從播放清單中移除
       hide_playlist: 隱藏此項目
       show_playlist: 顯示此項目
-      duplicate: Duplicate
-      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
-      presentation: Presentation
-      mashup: Mashup
-      last_shown: Last shown %{time}
+      duplicate: 建立副本
+      duplicate_confirm: 這將建立此項目的副本並加入至播放清單底部。是否繼續？
+      presentation: 外觀呈現
+      mashup: 混搭畫面
+      last_shown: 上次顯示於%{time}
       title_tooltip:
-        source_plugin: Source plugin
-      force_refresh: Refresh now
-      next_shown: Next shown %{time}
-      next_shown_overdue: Next shown as soon as it checks in; it is overdue
-      next_render: Renders again %{time}
-      render_overdue: A render has been overdue since %{time}
-      no_next_render: No render before then, %{reason}
+        source_plugin: 來源外掛
+      force_refresh: 立即重新整理
+      next_shown: 下次顯示於%{time}
+      next_shown_overdue: 已逾期，將於裝置簽到時顯示
+      next_render: 將於%{time}再次繪製
+      render_overdue: 繪製任務自%{time}起已逾期
+      no_next_render: 在此之前不會繪製，%{reason}
     create:
       success: 已更新播放清單
       error: 更新播放清單時發生錯誤
@@ -814,85 +814,85 @@ zh-HK:
       success: 已複製播放清單
     sort:
       success: 已更新播放清單順序
-      error: Playlist order could not be saved
+      error: 無法儲存播放清單順序
     set_preferences:
       success: 已更新智能播放清單偏好設定
     refresh:
-      success: Refreshing now — the preview updates when the render finishes
-      placeholder: Configure this playlist item before refreshing it
-      global: A global plugin renders on its own schedule for everyone.
+      success: 正在重新整理 — 預覽將於繪製完成時更新
+      placeholder: 請先設定此播放清單項目，然後再進行重新整理
+      global: 全域外掛會按照自身的排程為所有人進行繪製。
     status:
-      error: Not refreshing
-      setup: Needs setup
-      now: Displayed now
-      hidden: Hidden
-      skipped: Skipped by plugin
-      out_of_schedule: Out of schedule
-      important_active: Important active
-      stale: Stale
-      pending: Not rendered yet
+      error: 未有重新整理
+      setup: 需要設定
+      now: 正在顯示
+      hidden: 已隱藏
+      skipped: 外掛已跳過
+      out_of_schedule: 不在排程時間內
+      important_active: 重要項目播放中
+      stale: 內容過期
+      pending: 尚未繪製
     status_description:
-      error: Refreshes stopped after repeated failures. Open its settings to fix it.
-      setup: Finish configuring this item before it can appear on the device.
-      now: This is the screen on the device right now.
-      hidden: You hid this item, so it stays out of the rotation.
-      skipped: The plugin asked to be skipped.
-      out_of_schedule: Outside the schedule you set for this item.
-      important_active: An Important item has this slot right now.
-      stale: Smart Skip is skipping this — its screen hasn't updated in a while.
-      pending: Its first render starts at the next device check-in.
+      error: 經過多次失敗後已停止重新整理。請開啟其設定以進行修復。
+      setup: 請先完成此項目的設定，方可在裝置上顯示。
+      now: 這是目前裝置上顯示的畫面。
+      hidden: 你隱藏了此項目，因此它不會加入輪播。
+      skipped: 外掛要求跳過此項目。
+      out_of_schedule: 不在你為此項目設定的排程時間內。
+      important_active: 目前由一個「重要」項目佔用了此時段。
+      stale: 智能跳過功能已跳過此項目 — 其畫面已有一段時間未有更新。
+      pending: 其首次繪製將於裝置下一次簽到時開始。
     schedule:
-      always: Always
-      important_title: Important
-      important_description: Only shown alongside other important screens during its schedule.
+      always: 總是顯示
+      important_title: 重要
+      important_description: 在其排程時間內，只會與其他重要畫面一同顯示。
       date_range:
-        between: "%{start} to %{end}"
-        from: From %{start}
-        until: Until %{end}
-        yearly: Every year, %{start} to %{end}
+        between: "%{start} 至 %{end}"
+        from: 從 %{start}
+        until: 直至 %{end}
+        yearly: 每年 %{start} 至 %{end}
     bulk_actions:
-      hide: Hide
-      show: Show
-      delete: Delete
-      destroy_confirm: Remove the selected items from this playlist?
+      hide: 隱藏
+      show: 顯示
+      delete: 刪除
+      destroy_confirm: 確定要從此播放清單中移除選取的項目嗎？
       success:
-        hide: Items hidden
-        show: Items shown
-        destroy: Items removed from playlist
-      error: Bulk action failed
+        hide: 已隱藏項目
+        show: 已顯示項目
+        destroy: 已從播放清單移除項目
+      error: 批量操作失敗
     smart_skip_modal:
-      title: Smart Skip
-      apply: Done
+      title: 智能跳過
+      apply: 完成
     playlist_item_schedule:
-      adjust_schedule: Adjust schedule
+      adjust_schedule: 調整時間表
     day_ahead:
-      title: The day ahead
+      title: 未來24小時預覽
       times:
-        one: once
-        other: "%{count}×"
-      nothing: Nothing to show %{duration}
-      asleep_segment: Asleep
-      nothing_segment: Nothing to show
-      segment: "%{item} for %{duration}"
-      window_hours: next %{count} hours
-      window_label: How far ahead to look
-      window_option: "%{count}h"
-      render_marker: Renders
-      asleep_window: Asleep %{from} → %{to} (%{duration})
+        one: 1次
+        other: "%{count}次"
+      nothing: "%{duration}內沒有內容可顯示"
+      asleep_segment: 睡眠中
+      nothing_segment: 沒有內容可顯示
+      segment: "%{item} (%{duration})"
+      window_hours: 未來%{count}小時
+      window_label: 預覽時間範圍
+      window_option: "%{count}小時"
+      render_marker: 繪製
+      asleep_window: 睡眠中 %{from} → %{to} (%{duration})
   plugins:
     index:
       title: 外掛功能
       tagline: 你會在TRMNL上顯示什麼？
       connected: 已連接
-      supported_by_this_device: Supported by this device
+      supported_by_this_device: 此裝置支援
       view:
-        label: Plugin view
-        cards: View as Cards
-        list: View as List
-      third_party_plugin: Third Party Plugin
-      collapse: Collapse
-      categories: Categories
-      discover: Discover
+        label: 外掛檢視方式
+        cards: 卡片檢視
+        list: 列表檢視
+      third_party_plugin: 第三方外掛
+      collapse: 折疊
+      categories: 類別
+      discover: 探索
     search:
       placeholder: 搜尋外掛
     my:
@@ -930,7 +930,7 @@ zh-HK:
       title: 編輯外掛
       tagline: 更新你的外掛詳情。
     settings_preview:
-      show_all: Show all %{count} options
+      show_all: 顯示所有%{count}個選項
   plugin_recipes:
     connected: 已連接模板
     connections:
@@ -939,15 +939,15 @@ zh-HK:
     new:
       error: 找不到模板
     show:
-      more_by_author: More by this Author
-      view_all: View all
-      install: Install
-      install_again: Install again
-      installed: Installed
-      open_settings: Open settings
-      fork_this_recipe: Fork this recipe
-    added_to_playlist: Added to your playlist. Check the settings below.
-    check_settings: Installed. Check the settings below.
+      more_by_author: 此作者的更多作品
+      view_all: 查看全部
+      install: 安裝
+      install_again: 再次安裝
+      installed: 已安裝
+      open_settings: 開啟設定
+      fork_this_recipe: 分叉此模板
+    added_to_playlist: 已加入至你的播放清單。請檢查下方設定。
+    check_settings: 已安裝。請檢查下方設定。
   plugin_settings:
     copy_are_you_sure: 確定要複製此設定嗎？
     delete_are_you_sure: 確定要刪除此設定嗎？
@@ -1182,20 +1182,20 @@ zh-HK:
       most_popular: 最受歡迎
       install: 安裝
       fork: 分叉
-      search_placeholder: 'Search eg: Comic'
-      filtered_for_device: Showing recipes with a %{device} layout.
+      search_placeholder: 搜尋關鍵字 (例如：Comic)
+      filtered_for_device: 正在顯示支援「%{device}」版面配置的模板。
   schedules:
     form:
       append: 以及⋯
       no_schedule: 此畫面將一直顯示。
       to: 至
       copy_prompt: 複製時間表⋯
-      no_days_error: Please select at least one day.
-      dates: Dates
-      dates_description: Only show this screen between these dates. Leave a date blank for no start or no end.
-      repeats_yearly: Every year
-      add: Set a custom schedule
-      some_schedule: Show this screen during…
+      no_days_error: 請最少選擇一日。
+      dates: 日期範圍
+      dates_description: 只在此等日期之間顯示此畫面。日期留空表示不設開始或結束限制。
+      repeats_yearly: 每年重複
+      add: 設定自訂時間表
+      some_schedule: 於以下時段顯示此畫面⋯
   upgrade:
     index:
       title: 正在升級裝置：
