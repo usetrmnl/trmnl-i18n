@@ -1,13 +1,13 @@
 ---
 hi:
   custom_plugins:
-    today: today
-    tomorrow: tomorrow
+    today: आज
+    tomorrow: कल
     updated: Updated
     activity: Activity
     done: Done
     due: Due
-    weather: Weather
+    weather: मौसम
     temperature: Temperature
     air_temperature: Air Temperature
     feels_like: Feels Like
@@ -57,16 +57,16 @@ hi:
     max: Max.
     refreshed: Refreshed
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
-      minutes: m
+      departures: प्रस्थान
+      time: समय
+      line: पंक्ति
+      destination: गंतव्य
+      platform: प्लैटफ़ॉर्म
+      delay: देरी
+      train: रेलगाड़ी
+      on_time: समय पर
+      cancelled: रद्द
+      minutes: मिनट
       refreshed: Refreshed
     simple_calendar:
       title: कैलेंडर
@@ -77,18 +77,18 @@ hi:
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
         -
-        - M1
-        - M2
-        - M3
-        - M4
-        - M5
-        - M6
-        - M7
-        - M8
-        - M9
-        - M10
-        - M11
-        - M12
+        - जनवरी
+        - फ़रवरी
+        - मार्च
+        - अप्रैल
+        - मई
+        - जून
+        - जुलाई
+        - अगस्त
+        - सितम्बर
+        - अक्टूबर
+        - नवंबर
+        - दिसंबर
         date_labels:
         -
         - '1'
@@ -134,55 +134,55 @@ hi:
         - जल
         earthly_branches:
         - चूहा
-        - बैल
+        - वृषभ
         - बाघ
         - खरगोश
         - ड्रैगन
         - साँप
         - घोड़ा
         - बकरी
-        - बंदर
+        - वानर
         - मुर्गा
-        - कुत्ता
+        - श्वाना
         - सुअर
         zodiac_animals:
         - चूहा
-        - बैल
+        - वृषभ
         - बाघ
         - खरगोश
         - ड्रैगन
         - साँप
         - घोड़ा
         - बकरी
-        - बंदर
+        - वानर
         - मुर्गा
-        - कुत्ता
+        - श्वाना
         - सुअर
         solar_terms:
-        - छोटी ठंड
-        - बड़ी ठंड
-        - वसंत का आरंभ
-        - वर्षा जल
-        - कीटों का जागरण
-        - वसंत विषुव
-        - स्वच्छ और उज्ज्वल
-        - धान्य वर्षा
-        - ग्रीष्म का आरंभ
-        - धान्य अंकुरण
-        - धान्य में बालियाँ
-        - ग्रीष्म संक्रांति
-        - छोटी गर्मी
-        - बड़ी गर्मी
-        - शरद का आरंभ
-        - गर्मी का अंत
-        - श्वेत ओस
-        - शरद विषुव
-        - शीतल ओस
-        - पाले का आगमन
-        - शीतकाल का आरंभ
-        - हल्का हिमपात
-        - भारी हिमपात
-        - शीतकालीन संक्रांति
+        - Minor Cold
+        - Major Cold
+        - Start of Spring
+        - Rain Water
+        - Awakening of Insects
+        - Spring Equinox
+        - Pure Brightness
+        - Grain Rain
+        - Start of Summer
+        - Grain Buds
+        - Grain in Ear
+        - Summer Solstice
+        - Minor Heat
+        - Major Heat
+        - Start of Autumn
+        - End of Heat
+        - White Dew
+        - Autumn Equinox
+        - Cold Dew
+        - Frost's Descent
+        - Start of Winter
+        - Minor Snow
+        - Major Snow
+        - Winter Solsticeि
       japanese:
         rokuyo_terms:
         - 先勝
@@ -247,18 +247,18 @@ hi:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
-        - बोइशाख
-        - ज्यैष्ठ
-        - आषाढ़
-        - श्रावण
-        - भाद्र
-        - आश्विन
-        - कार्तिक
-        - अग्रहायण
-        - पौष
-        - माघ
-        - फाल्गुन
-        - चैत्र
+        - Boishakh
+        - Joishtho
+        - Asharh
+        - Srabon
+        - Bhadro
+        - Ashwin
+        - Kartika
+        - Ogrohayon
+        - Poush
+        - Magh
+        - Falgun
+        - Choitro
       indian:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
@@ -271,7 +271,7 @@ hi:
         - भाद्रपद
         - आश्विन
         - कार्तिक
-        - अग्रहायण
+        - मार्गशीर्ष
         - पौष
         - माघ
         - फाल्गुन
