@@ -1131,6 +1131,7 @@ ro:
       erroring_short: Acest plugin întâmpină o eroare.
       erroring_long: Pluginul întâmpină o eroare. Remediază problema pentru a reporni reîmprospătarea.
       reset_health: Resetează starea
+      async_pending: An async polling request is pending. Changing the strategy cancels it.
     inactive_references_banner:
       short: Pluginurile referențiate nu se sincronizează.
       long: 'Acest plugin folosește date de la pluginuri care nu apar în nicio listă de redare:'
@@ -1194,8 +1195,8 @@ ro:
       button: Testează cererea
       missing_url: Adaugă mai întâi un URL de interogare.
       rate_limited: Prea multe cereri de test. Încearcă din nou peste un minut.
-      sent: "Trimis:"
-      received: "Primit:"
+      sent: 'Trimis:'
+      received: 'Primit:'
     missing_composition:
       message: Nu există încă o compoziție. Adaugă una pentru ca acest plugin să apară pe dispozitiv.
   recipes:
@@ -1262,6 +1263,7 @@ ro:
           attributes:
             recipe_overview:
               too_few_words: trebuie să conțină cel puțin %{count} cuvinte sau să rămână gol
+          async_polling_callback_url_missing: Async Polling needs {{ callback_url }} in the Polling URL, so your server knows where to send the data.
   apps:
     core:
       public:
@@ -2126,7 +2128,7 @@ ro:
       recolor_flaps: Schimbă culoarea tuturor clapetelor din acest strat
       board_characters: Caracterele panoului
       board_characters_hint: Apasă pe un caracter pentru a-l insera. Culorile se inserează prin codurile {63} până la {69} și ocupă câte o clapetă.
-      unsupported_characters: "Lipsesc de pe panou: %{characters}. La fel ca spațiile, lasă să se vadă stratul de dedesubt sau fundalul (marcate cu ? în această previzualizare)."
+      unsupported_characters: 'Lipsesc de pe panou: %{characters}. La fel ca spațiile, lasă să se vadă stratul de dedesubt sau fundalul (marcate cu ? în această previzualizare).'
       box_width_hint: Lățimea este măsurată în celule. Panoul are %{columns} celule pe lățime.
       flap_colors:
         label: Culorile clapetelor

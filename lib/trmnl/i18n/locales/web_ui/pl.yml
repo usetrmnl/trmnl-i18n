@@ -1130,6 +1130,7 @@ pl:
       erroring_short: W tym pluginie występuje obecnie błąd.
       erroring_long: W pluginie występuje błąd. Napraw problem, aby wznowić odświeżanie.
       reset_health: Zresetuj stan
+      async_pending: An async polling request is pending. Changing the strategy cancels it.
     inactive_references_banner:
       short: Pluginy, do których istnieją odwołania, nie są synchronizowane.
       long: 'Ten plugin odwołuje się do danych z pluginów, których nie ma na żadnej Playliście:'
@@ -1260,6 +1261,7 @@ pl:
           attributes:
             recipe_overview:
               too_few_words: musi zawierać co najmniej %{count} słów albo pozostać puste
+          async_polling_callback_url_missing: Async Polling needs {{ callback_url }} in the Polling URL, so your server knows where to send the data.
   apps:
     core:
       public:

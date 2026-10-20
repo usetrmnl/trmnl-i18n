@@ -1108,6 +1108,7 @@ raw:
       erroring_short: plugin_settings.health_status_banner.erroring_short
       erroring_long: plugin_settings.health_status_banner.erroring_long
       reset_health: plugin_settings.health_status_banner.reset_health
+      async_pending: plugin_settings.health_status_banner.async_pending
     inactive_references_banner:
       short: plugin_settings.inactive_references_banner.short
       long: plugin_settings.inactive_references_banner.long
@@ -1238,6 +1239,7 @@ raw:
           attributes:
             recipe_overview:
               too_few_words: activerecord.errors.models.plugin_setting.attributes.recipe_overview.too_few_words
+          async_polling_callback_url_missing: activerecord.errors.models.plugin_setting.async_polling_callback_url_missing
   apps:
     core:
       public:
