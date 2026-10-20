@@ -2,7 +2,7 @@
 zh-HK:
   locale_name: 繁體中文（香港）
   about: 簡介
-  actions: Actions
+  actions: 動作
   add: 加入
   add_new: 新增
   already_have_account: 我已經有帳戶
@@ -67,7 +67,7 @@ zh-HK:
   something_went_wrong: 發生錯誤
   status: 狀態
   help_center: 支援
-  unsaved_changes: You have unsaved changes
+  unsaved_changes: 你有未儲存的更改
   view: 查看
   collaboration_request: 想合作嗎？
   collaboration_request_hint: 合作伙伴、團體銷售、特別項目，由你話事。
@@ -124,7 +124,7 @@ zh-HK:
       api_key_hint: 查看__文件__以了解如何設定本地環境。
       api_key_not_generated: "（尚未生成）"
       api_key_reset: 重新生成
-      api_key: Legacy account API key
+      api_key: 舊版帳戶API金鑰
       beta_features: Beta功能
       beta_features_hint: 在此試用新功能。選項可能會隨時移除。
       discord_community: Discord社群
@@ -137,7 +137,7 @@ zh-HK:
       email_address_hint: 用於登入TRMNL及接收系統訊息。
       first_name_hint: 我們使用你的名字讓TRMNL介面更具親切感。
       last_name_hint: 我們使用你的名字讓TRMNL介面更具親切感。
-      github_username_hint: Used to attribute open source contributions to the Creator Fund.
+      github_username_hint: 用於將開源貢獻歸屬至創作者基金 (Creator Fund)。
       password_hint: 用於保護你的TRMNL帳戶。
       enable_2fa: 啟用雙重驗證(2FA)？
       enable_2fa_hint: __按此__啟用OTP。
@@ -151,169 +151,169 @@ zh-HK:
       session_hint: 你已登入為：%{user}
       show_title_bar: 顯示標題列
       show_title_bar_hint: 如停用此功能，原生（非全域）及第三方外掛功能會顯得更簡約。
-      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
+      theme_hint: 透過設定主題或與你的裝置同步，個人化TRMNL介面。
       time_zone: 時區
       time_zone_hint: 決定重新整理頻率及裝置睡眠時間。
       locale: 地區語言
       locale_hint: 你偏好哪種語言及地區設定？ __按此了解更多__。
-      low_battery_notification_email: Low Battery Notification Email
-      low_battery_notification_email_hint: Send every device's low battery email here instead of to your account address. Leave blank to use your account address.
-      explore_apps: Explore Apps
-      explore_apps_hint: TRMNL Booking (book rooms on the spot), fleet management, and more.
-      manage_themes: Manage themes
-      plus_subscription_lifetime: You have lifetime TRMNL+. Thanks for your support!
-      delete_account: Delete account
-      delete_account_button: Delete my account & data
-      delete_account_confirm: This permanently deletes everything and refunds your $1. Continue?
-      delete_account_hint: Permanently delete your account, trial device, and all data. Your $1 trial fee is refunded.
-      delete_trial_device: Delete trial device
-      delete_trial_device_confirm: This deletes your trial device and refunds your $1. Your account and other devices are untouched. Continue?
-      delete_trial_device_hint: Deletes your trial device and its data; your $1 is refunded. Your account and other devices are untouched.
-      discord_after_license: Available after you purchase a license
-      discord_join: Join our developer-only server
-      github_username: GitHub Username
-      plus_claim: Claim for $0
-      plus_extend: Extend for $0
-      plus_offer_html: "%{offer} or %{subscribe}"
-      plus_subscribe: Subscribe
-      theme_preference: Theme preference
+      low_battery_notification_email: 低電量通知電郵
+      low_battery_notification_email_hint: 將裝置的低電量電郵傳送到此處，而不是你的帳戶地址。留空則使用你的帳戶地址。
+      explore_apps: 探索應用程式
+      explore_apps_hint: TRMNL預約房間、車隊管理等等。
+      manage_themes: 管理主題
+      plus_subscription_lifetime: 你已擁有永久 TRMNL+ 訂閱。感謝你的支援！
+      delete_account: 刪除帳戶
+      delete_account_button: 刪除我的帳戶與資料
+      delete_account_confirm: 這將永久刪除所有內容並退還1美元。是否繼續？
+      delete_account_hint: 永久刪除你的帳戶、試用裝置及所有資料。你的1美元試用費將獲退還。
+      delete_trial_device: 刪除試用裝置
+      delete_trial_device_confirm: 這將刪除你的試用裝置並退還1美元。你的帳戶和其他裝置將不受影響。是否繼續？
+      delete_trial_device_hint: 刪除試用裝置及其資料；你的1美元將獲退還。你的帳戶和其他裝置將不受影響。
+      discord_after_license: 購買授權後即可加入
+      discord_join: 加入我們的開發者專用伺服器
+      github_username: GitHub用戶名稱
+      plus_claim: 免費領取
+      plus_extend: 免費延長
+      plus_offer_html: "%{offer} 或 %{subscribe}"
+      plus_subscribe: 訂閱
+      theme_preference: 主題偏好
       sections:
         preferences:
-          title: Preferences
-          hint: Time zone, language, theme and beta features
+          title: 偏好設定
+          hint: 時區、語言、主題與Beta功能
         developer:
-          title: Developer
-          hint: API keys, developer apps, themes and agents
+          title: 開發者
+          hint: API金鑰、開發者應用程式、主題與Agent
           api_keys:
-            one: 1 API key
-            other: "%{count} API keys"
+            one: 1個API金鑰
+            other: "%{count}個API金鑰"
           connected_agents:
-            one: 1 connected agent
-            other: "%{count} connected agents"
+            one: 1個已連接的Agent
+            other: "%{count}個已連接的Agent"
         sharing:
-          title: Sharing
-          hint: Invite people to manage your devices
+          title: 共用
+          hint: 邀請他人管理你的裝置
           shared_with:
-            one: Shared with 1 person
-            other: Shared with %{count} people
+            one: 已與1人共用
+            other: 已與%{count}人共用
         profile:
-          title: Profile
-          hint: Name, email, GitHub and Discord
+          title: 個人檔案
+          hint: 姓名、電郵、GitHub及Discord
         security:
-          title: Security
-          two_factor_off: 2FA is off
-          two_factor_on: Two-factor authentication is on
-          hint: Password and two-factor authentication
+          title: 安全性
+          two_factor_off: 雙重驗證 (2FA) 未啟用
+          two_factor_on: 雙重驗證 (2FA) 已啟用
+          hint: 密碼與雙重驗證
         agent:
           title: AI Agent
-          hint: Usage credits, model selection and bring your own keys
+          hint: 用量點數、模型選擇與自備金鑰 (BYOK)
     update:
       success: 成功更新個人資料
     reset_api_key:
       success: 成功重新生成API金鑰
     ai_agent_settings:
       title: AI Agent
-      tagline: Configure your AI agent. Built for Claude Sonnet 5.5, but other models work well too.
-      model: Model
-      model_group_claude: Claude (Anthropic or OpenRouter key)
-      model_group_other: Other models (OpenRouter key required)
-      model_custom: Custom model...
-      model_custom_placeholder: e.g. meta-llama/llama-4-scout
-      model_hint: Pick a preset or enter any __OpenRouter model ID__.
-      openrouter_key: OpenRouter API Key
-      openrouter_recommended: "(recommended)"
-      openrouter_hint: Works with all models. No rate limit issues. If both keys are set, OpenRouter is used.
-      anthropic_key: Anthropic API Key
-      anthropic_direct: "(direct)"
-      anthropic_hint: Requires Tier 2+ usage on your Anthropic account. New accounts will hit rate limits.
-      tavily_key: Tavily API Key
-      tavily_optional: "(optional)"
-      tavily_hint: Enables web search in the Agent.
-      remove_key: Remove
-      key_set: "(key is set)"
-      key_removed_on_save: Key will be removed on save.
-      usage: Usage
-      total_cost: Total Cost
-      api_calls: API Calls
-      input_tokens: Input Tokens
-      output_tokens: Output Tokens
-      avg_cost_per_plugin: Avg Cost / Plugin
-      cache: 'Cache: %{read} read / %{created} created'
-      cost_by_model: Cost by Model
-      model_locked: 'Your AI model is set by TRMNL: %{model}.'
-      router_locked: Works with all models. TRMNL sends Claude models through %{router} for your account.
-      credit_title: Usage credits
-      credit_plus_hint: __Subscribe to TRMNL+__ for free usage credits every month.
-      byok_title: Bring your own key
-      byok_hint: Add a key of your own to pick any model. The Agent then uses your key, not usage credits.
-      model_hosted: Add an OpenRouter or Anthropic key above to choose another model.
+      tagline: 設定你的AI Agent。針對Claude Sonnet 5.5構建，但也適用於其他模型。
+      model: 模型
+      model_group_claude: Claude (Anthropic或OpenRouter金鑰)
+      model_group_other: 其他模型 (需要OpenRouter金鑰)
+      model_custom: 自訂模型...
+      model_custom_placeholder: 例如 meta-llama/llama-4-scout
+      model_hint: 選擇預設設定或輸入任何__OpenRouter模型ID__。
+      openrouter_key: OpenRouter API金鑰
+      openrouter_recommended: "(推薦)"
+      openrouter_hint: 適用於所有模型。沒有頻率限制問題。如果同時設定了兩把金鑰，將優先使用OpenRouter。
+      anthropic_key: Anthropic API金鑰
+      anthropic_direct: "(直接)"
+      anthropic_hint: 需要你的Anthropic帳戶達到2級或以上用量。新帳戶將會觸發頻率限制。
+      tavily_key: Tavily API金鑰
+      tavily_optional: "(選填)"
+      tavily_hint: 在Agent中啟用網頁搜尋功能。
+      remove_key: 移除
+      key_set: "(已設定金鑰)"
+      key_removed_on_save: 金鑰將會在儲存時被移除。
+      usage: 用量
+      total_cost: 總成本
+      api_calls: API呼叫次數
+      input_tokens: 輸入Token數
+      output_tokens: 輸出Token數
+      avg_cost_per_plugin: 平均每個外掛成本
+      cache: 快取：已讀取%{read} / 已建立%{created}
+      cost_by_model: 按模型成本
+      model_locked: 你的AI模型由TRMNL設定為：%{model}。
+      router_locked: 適用於所有模型。TRMNL會透過%{router}為你的帳戶傳送Claude模型。
+      credit_title: 用量點數
+      credit_plus_hint: __訂閱 TRMNL+__ 以獲得每月免費用量點數。
+      byok_title: 自備金鑰 (BYOK)
+      byok_hint: 新增你自己的金鑰以選擇任何模型。此時Agent將會使用你的金鑰，而非用量點數。
+      model_hosted: 在上方新增OpenRouter或Anthropic金鑰以選擇其他模型。
     shared_accounts:
-      title: Accounts shared with you
-      hint: Pick an account to manage its devices, playlists and plugins, or leave it.
-      switch: Manage
-      leave: Leave
+      title: 與你共用的帳戶
+      hint: 選擇一個帳戶以管理其裝置、播放清單與外掛，或選擇離開。
+      switch: 管理
+      leave: 離開
     sharing:
-      name: Account name
-      name_hint: What the people you share with see, such as Home or Acme HQ. Leave blank to use your name.
-      save_name: Rename
-      title: Sharing
-      hint: Invite someone to manage your devices, playlists and plugins. They use their own TRMNL login.
+      name: 帳戶名稱
+      name_hint: 你共用對象所看到的名稱，例如「屋企」或「總部」。留空則使用你的名字。
+      save_name: 重新命名
+      title: 共用
+      hint: 邀請他人管理你的裝置、播放清單與外掛。他們會使用自己的TRMNL登入。
       email_placeholder: name@example.com
-      invite: Invite
-      pending: Pending
-      expired: Expired
-      remove: Remove
+      invite: 邀請
+      pending: 待處理
+      expired: 已過期
+      remove: 移除
     connected_agents:
-      whole_account: Reaches your whole account
+      whole_account: 可存取你整個帳戶
       devices:
-        one: 1 device
-        other: "%{count} devices"
+        one: 1個裝置
+        other: "%{count}個裝置"
       plugin_settings:
-        one: 1 plugin setting
-        other: "%{count} plugin settings"
-      edit_access: Edit access
-      capabilities_fixed: To change what it can do, revoke it and connect it again.
-      access_saved: The agent's access is saved.
-      title: Connected agents
-      hint: Apps signed in to your account. Revoke one to sign it out.
-      last_active: Last active %{time} ago
-      revoke: Revoke
-      revoke_confirm: "%{name} loses access to your account now. Continue?"
-      revoked: The agent no longer has access to your account.
-      reaches_nothing: Reaches nothing; the devices and plugin settings it was given are gone
+        one: 1個外掛設定
+        other: "%{count}個外掛設定"
+      edit_access: 編輯存取權限
+      capabilities_fixed: 如需更改其權限，請先撤銷並重新連接。
+      access_saved: 已儲存Agent的存取權限。
+      title: 已連接的Agents
+      hint: 已登入你帳戶的應用程式。撤銷其中一個即可將其登出。
+      last_active: 最後活躍於%{time}前
+      revoke: 撤銷
+      revoke_confirm: "%{name}將失去你帳戶的存取權限。是否繼續？"
+      revoked: 該Agent已無權存取你的帳戶。
+      reaches_nothing: 無法存取任何內容；先前授予的裝置和外掛設定已全部移除
     capability_names:
-      read: Read
-      write: Write
-      content: Content
-      devices: Devices
-      delete: Delete
-      profile: Profile
-      apps: Apps
-      openid: Sign in
-      email: Email
+      read: 讀取
+      write: 寫入
+      content: 內容
+      devices: 裝置
+      delete: 刪除
+      profile: 個人檔案
+      apps: 應用程式
+      openid: 登入
+      email: 電郵
     api_keys:
-      title: Account API keys
-      hint: One key per script, so you can revoke it alone.
-      new: New account API key
-      copy_now: Copy this key now. You cannot see it again.
-      created: Account API key created.
-      revoked: Account API key revoked.
-      last_used: last used %{time} ago
-      never_used: not used yet
-      access_saved: The key's access is saved.
-      revoke: Revoke
-      revoke_confirm: Revoke %{name}? Anything that uses this key stops working.
-      name: Name
-      create: Create account API key
-      legacy_hint: Legacy key. It reaches only its original endpoints. For anything newer, create an account API key above.
-      older_key: Older key
+      title: 帳戶API金鑰
+      hint: 每個指令碼使用一個金鑰，方便單獨撤銷。
+      new: 新增帳戶API金鑰
+      copy_now: 請立即複製此金鑰，之後將無法再次查看。
+      created: 帳戶API金鑰已建立。
+      revoked: 帳戶API金鑰已撤銷。
+      last_used: 最後使用於%{time}前
+      never_used: 尚未使用
+      access_saved: 已儲存金鑰存取權限。
+      revoke: 撤銷
+      revoke_confirm: 確定要撤銷「%{name}」嗎？所有使用此金鑰的服務將會停止運作。
+      name: 名稱
+      create: 建立帳戶API金鑰
+      legacy_hint: 舊版金鑰。只能存取其原始端點。如需使用較新功能，請在上方建立帳戶API金鑰。
+      older_key: 較舊的金鑰
     destroy:
-      account_deleted: Your account and all data were deleted.
-      account_deleted_refunded: Your account and all data were deleted. Your $1 was refunded.
-      not_eligible: Self-serve deletion is only available during a BYOD trial. Contact support@trmnl.com.
-      trial_device_deleted: Trial device deleted.
-      trial_device_deleted_refunded: Trial device deleted. Your $1 was refunded.
-    cli_hint: Work from a terminal with the __TRMNL CLI__.
+      account_deleted: 你的帳戶及所有資料已被刪除。
+      account_deleted_refunded: 你的帳戶及所有資料已被刪除，並已向你退還1美元。
+      not_eligible: 自助刪除僅適用於BYOD試用期間。請聯絡 support@trmnl.com。
+      trial_device_deleted: 已刪除試用裝置。
+      trial_device_deleted_refunded: 已刪除試用裝置，並已向你退還1美元。
+    cli_hint: 使用 __TRMNL CLI__ 從終端機進行操作。
   dashboard:
     index:
       title: 儀表板
@@ -337,14 +337,14 @@ zh-HK:
     time_saved:
       title: 已節省時間
     discover_callout:
-      manage_persona: Manage persona
+      manage_persona: 管理人格設定
     welcome_message:
       morning_salutation: 早晨
       afternoon_salutation: 午安
       evening_salutation: 晚安
   date:
     formats:
-      day_month_long: "%A, %B %-d"
+      day_month_long: "%-m月%-d日 (%A)"
   devices:
     edit:
       accepts_beta_firmware: 韌體搶先體驗
@@ -354,15 +354,15 @@ zh-HK:
       battery_consumption_hint: 啟用「睡眠模式」可節省電量，並延長電池續航時間。
       battery_learn_more: __按此__了解更多關於電池充電的資訊。
       battery_refresh: 重新整理
-      click: Click
-      click_action: Advance playlist
-      controls: Controls
+      click: 短按
+      click_action: 播放下一個項目
+      controls: 按鈕控制
       developer_perks: 開發者福利
       developer_perks_hint: 開發自訂外掛、可編輯MAC地址（只限BYOD）、韌體搶先體驗及API訪問。
       device_credentials: 裝置憑證
       device_credentials_hint: __按此__了解如何使用這些憑證。
-      device_api_key: Device API Key
-      mac_address: MAC Address
+      device_api_key: 裝置API金鑰
+      mac_address: MAC地址
       device_name: 裝置名稱
       device_name_hint: 我們使用此名稱讓TRMNL介面更具親切感。
       device_model: 裝置型號
@@ -370,13 +370,13 @@ zh-HK:
       device_model_switch_warning: 這是危險操作，請__按此__了解更多。
       device_info: 裝置資訊
       current_firmware: 現時韌體版本
-      pinned_firmware: Pinned firmware
+      pinned_firmware: 固定韌體版本
       unknown: 未知
       never: 從未
-      last_ping: Hardware last ping
-      wifi_band: Wi-Fi band
+      last_ping: 硬件最後Ping時間
+      wifi_band: Wi-Fi頻段
       display_calibration: 螢幕校準
-      display_calibration_hint: 為你的螢幕微調顯示設定，留空則使用型號預設值。
+      display_calibration_hint: 為你的螢幕微調繪製設定，留空則使用型號預設值。
       display_calibration_pixel_ratio: 像素比例
       display_calibration_pixel_ratio_hint: 影像縮放等級 (0.5–3.0)。預設值：
       display_calibration_ui_scale: UI縮放
@@ -385,8 +385,8 @@ zh-HK:
       firmware: 韌體
       firmware_updates_enabled: 已啟用更新
       firmware_updates_disabled: 已停用更新
-      font_family: Font Family
-      font_family_hint: The TRMNL font family was designed for optimal performance on ePaper screens. Supported on plugins with UI Framework v%{min_version}+.
+      font_family: 字型系列
+      font_family_hint: TRMNL字型系列專為電子墨水螢幕最佳化而設計。支援UI框架版本%{min_version}或以上的外掛。
       guest_mode: 訪客模式
       guest_mode_hint: 選擇啟用訪客模式時顯示的內容（以及顯示多久）。
       guest_mode_item_placeholder: 選擇項目
@@ -396,16 +396,16 @@ zh-HK:
       identify_device_hint: 按下按鈕以在裝置上生成一個幫助識別它的畫面。
       logs: 記錄檔
       logs_hint: 即時串流原始錯誤記錄，以偵錯你的裝置及外掛。
-      long_press: Long press (6–7s)
-      long_press_action: Reset Wi-Fi credentials
-      longest_press: Longest press (16–18s)
-      longest_press_action: Soft reset
+      long_press: 長按 (6–7秒)
+      long_press_action: 重設Wi-Fi憑證
+      longest_press: 超長按 (16–18秒)
+      longest_press_action: 軟重設
       low_battery_email_notification: 低電量電郵通知
       low_battery_email_notification_hint: 當裝置電量不足時，透過電郵接收通知。
-      low_battery_screen_disabled: Hide Low Battery Screen
-      low_battery_screen_disabled_hint: Stop the low battery warning screen from showing on this device. Useful if it is always plugged in.
-      medium_press: Medium press (1–2s)
-      medium_press_action: Special Function (above)
+      low_battery_screen_disabled: 隱藏低電量警告畫面
+      low_battery_screen_disabled_hint: 停止在此裝置上顯示低電量警告畫面。如裝置一直連接電源，此設定非常實用。
+      medium_press: 中按 (1–2秒)
+      medium_press_action: 特殊功能（見上方）
       mirror: 鏡像共享
       mirror_device: 鏡像共享另一部裝置
       mirror_device_hint: 輸入可共享(shareable)裝置的ID，以鏡像共享其播放清單。你的播放清單仍會顯示。
@@ -418,12 +418,12 @@ zh-HK:
       ota_byod_not_supported: 自攜裝置 (BYOD) 不支援自動更新。請直接從 trmnl.com/flash 下載並刷寫兼容版本。
       maximum_compatibility: 啟用最大兼容性
       maximum_compatibility_hint: 解決由某些電子墨水驅動晶片引起的顯示問題。會停用快速重新整理。需要韌體版本1.6.0或以上。
-      image_rotation: Image Rotation
+      image_rotation: 影像旋轉
       screen_rotation: 屏幕旋轉
       screen_rotation_not_supported: 屏幕旋轉目前不支援你的裝置。
       palette: 色彩模式
       palette_hint: 選擇此裝置生成畫面時使用的色彩模式。色彩層次越多視覺效果越佳，但層次越少則電子墨水螢幕的繪製速度越快。個別播放清單項目可以覆寫此設定。
-      presentation: Presentation
+      presentation: 外觀呈現
       sleep_mode: 睡眠模式
       sleep_mode_hint: 調整重新整理頻率，以提升專注度及電池續航時間。
       sleep_screen: 睡眠畫面
@@ -434,22 +434,22 @@ zh-HK:
       special_function_learn_more: __按此__了解更多特別功能。
       temperature_profile: 色溫設定檔
       temperature_profile_hint: 除非獲得指示，否則請勿更改。適用於影像顯示褪色的螢幕。
-      touchbar_mode: Touchbar Mode
-      touchbar_mode_hint: What type of gestures should your device respond to?
+      touchbar_mode: 觸控條模式
+      touchbar_mode_hint: 你的裝置應該對哪種手勢作出反應？
       tidbyt_credentials: Tidbyt憑證
       tidbyt_credentials_hint: 在Tidbyt應用程式前往「Settings → Developer → Get API Key」尋找你的Tidbyt裝置API憑證。
-      tidbyt_api_key: Tidbyt API Key
+      tidbyt_api_key: Tidbyt API金鑰
       tidbyt_device_id: 裝置ID
       unlink: 取消連結
-      unlink_confirm: Are you sure? Only proceed if you are giving this device to someone else or switching to BYOS. Unpairing deletes all plugin settings and playlist items. If troubleshooting, contact support at help.trmnl.com.
+      unlink_confirm: 確定要繼續嗎？只有在你打算將此裝置轉讓給他人，或切換至 BYOS 時才需繼續。取消配對將會刪除所有外掛設定及播放清單項目。如需進行故障排除，請透過 help.trmnl.com 聯絡支援團隊。
       unlink_device: 取消連結裝置
       unlink_device_hint: 取消連結TRMNL後，可安全地轉售或贈送他人。
       unlink_device_learn_more: __按此__查看完整指南。
       visibility: 共享狀態
       visibility_hint: 調整下方設定使你的TRMNL裝置可被鏡像共享。
       visibility_options:
-        standalone: Standalone
-        sharable: Sharable
+        standalone: 獨立裝置
+        sharable: 可共享
       upgrade_og:
         title: 可升級至 2-bit 顯示
         sub_title: 你的裝置可升級以支援增強的灰階顯示，從2個顏色級別升級至4個。
@@ -457,117 +457,117 @@ zh-HK:
         warning_2: 我明白這是<strong>危險</strong>操作，可能會導致我的裝置變磚。
         cta: 升級至 TRMNL OG (2-bit)
       persona:
-        discover: Discover
-        discover_hint: Discover suggests plugins and recipes tailored to this device
-        discover_banner_toggle: Show the Discover banner on the dashboard for this device
-        persona: Persona
-        persona_hint: A device persona shapes Discover recommendations
-        provisioned_by_html: This device was provisioned by the <strong>%{name}</strong> persona.
-        mirror_disabled_hint: Persona management is disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-        save_persona: Save persona
-        reset_persona: Reset persona
-        reset_persona_hint: Resetting this device's persona will not affect its settings and playlist
-        reset_persona_confirm: Reset this persona and delete its saved recommendations?
-      low_battery_notification_email: Send This Device's Notification To
-      low_battery_notification_email_hint: Overrides the address on your account, so one display can alert whoever looks after it. Leave blank to use the account address.
-      custom_width: Width (px)
-      custom_height: Height (px)
-      custom_format: Image format
-      framework_size: Framework size
-      maximum_image_bytes: Maximum image bytes
-      dither_pixel_ratio: Dither pixel ratio
-      text_scale: Text Scale
-      text_scale_hint: Adjust the size of text across your plugin screens.
-      text_scale_version_note: Requires Framework 3.1.5 or later. Private plugins pinned to an older version will not be affected.
-      theme: Theme
-      theme_hint: Apply a color theme across your plugin screens.
-      theme_version_note: Requires Framework 3.2 or later. Private plugins pinned to an older version will not be affected.
-      waits_for_next_render: Wait for the next update
-      waits_for_next_render_hint: When this device shows a single plugin or mashup, it waits for that plugin's next scheduled update instead of checking in at the refresh rate above. Turn this off to check in at the refresh rate regardless.
+        discover: 探索
+        discover_hint: 為此裝置推薦適合的外掛及整合方案
+        discover_banner_toggle: 在儀表板上顯示此裝置的「探索」橫幅
+        persona: 人格設定
+        persona_hint: 裝置人格設定會影響「探索」的推薦內容
+        provisioned_by_html: 此裝置是由「<strong>%{name}</strong>」人格設定所設定。
+        mirror_disabled_hint: 鏡像TRMNL裝置無法管理人格設定。請改為在主裝置上管理推薦項目。
+        save_persona: 儲存人格設定
+        reset_persona: 重設人格設定
+        reset_persona_hint: 重設此裝置的人格設定不會影響其設定值及播放清單
+        reset_persona_confirm: 確定要重設所有人格設定並刪除已儲存的推薦項目嗎？
+      low_battery_notification_email: 此裝置的通知傳送至
+      low_battery_notification_email_hint: 將覆寫你帳戶中的預設地址，以便負責維護該顯示器的人員接收通知。留空則使用帳戶地址。
+      custom_width: 寬度 (像素)
+      custom_height: 高度 (像素)
+      custom_format: 影像格式
+      framework_size: 框架尺寸
+      maximum_image_bytes: 影像容量上限
+      dither_pixel_ratio: 混色像素比率
+      text_scale: 文字縮放
+      text_scale_hint: 調整外掛畫面的文字大小。
+      text_scale_version_note: 需要Framework 3.1.5或以上版本。固定使用舊版本的私有外掛不受影響。
+      theme: 主題
+      theme_hint: 為你的外掛畫面套用色彩主題。
+      theme_version_note: 需要Framework 3.2或以上版本。固定使用舊版本的私有外掛不受影響。
+      waits_for_next_render: 等候下次更新
+      waits_for_next_render_hint: 當此裝置只顯示單一外掛或混搭畫面時，會等候該外掛的下一次預定更新，而不是按上方的重新整理頻率定期檢查。停用此功能則會照常按頻率定期檢查。
       battery_advice:
-        title: Battery advice
+        title: 電池使用建議
         days_per_charge:
-          one: At that rate a charge lasts about a day.
-          other: At that rate a charge lasts about %{count} days.
+          one: 按此頻率，充一次電大約可用1日。
+          other: 按此頻率，充一次電大約可用%{count}日。
         gain:
           zero: ''
-          one: "(adds about a day to a charge)"
-          other: "(adds about %{count} days to a charge)"
-        nothing_to_change: Nothing to change here. It already wakes no more often than its plugins update.
+          one: "(充一次電可額外增加約1日續航)"
+          other: "(充一次電可額外增加約%{count}日續航)"
+        nothing_to_change: 無需變更此處設定。裝置喚醒的頻率已經與外掛更新的頻率一致。
         suggestions:
-          enable_wait: Turn "Wait for the next update" back on, so it sleeps through updates that cannot have changed.
-          match_plugin_interval: Set the refresh rate to %{minutes} minutes, the fastest any of its plugins updates.
-          enable_sleep_mode: Turn on Sleep Mode for the hours nobody is looking.
+          enable_wait: 重新啟用「等候下次更新」，讓裝置在沒有內容變更的更新期間保持睡眠狀態。
+          match_plugin_interval: 將重新整理頻率設為%{minutes}分鐘（即更新最快的外掛之頻率）。
+          enable_sleep_mode: 開啟「睡眠模式」，在無人觀看的時段節省電量。
         wakes_per_day_measured:
-          one: Over the last 7 days this device woke about once a day.
-          other: Over the last 7 days this device woke about %{count} times a day.
-        stale: Save your changes to work these figures out again for the new setting.
+          one: 過去7天內，此裝置每天大約喚醒1次。
+          other: 過去7天內，此裝置每天大約喚醒%{count}次。
+        stale: 請儲存變更，以便根據新設定重新計算這些數據。
       check_in_preview:
-        next_check_in: Next check-in %{when}.
-        next_check_in_unknown: 'Next check-in: unknown until it has checked in.'
-        next_check_in_overdue: Check-in overdue since %{when}.
-        why: Why?
+        next_check_in: 下次簽到時間為%{when}。
+        next_check_in_unknown: 下次簽到時間：須完成一次簽到後方可獲取。
+        next_check_in_overdue: 自%{when}起已逾期簽到。
+        why: 原因？
         reasons:
-          waiting_for_render: once its plugin has updated
-          sleep_window: when its sleep window starts
-          maximum_wait: the longest a device waits
-          next_screen_change: when the room's next meeting starts or ends
-          asleep: when its sleep window ends
-          rotation: to show the next playlist item
-          render_before_next_poll: after its plugin's next update
-          nothing_served: because its playlist is empty
-          wait_disabled: because waiting for updates is off for this device
-          setup_day: during its first day
-          push_driven: because its plugin updates when data arrives
-          clock_driven: because its screen changes with the clock
-          renders_elsewhere: because a shared master renders its plugin
-          scheduled: because it only shows inside a schedule window
-          feature_off: because waiting for updates is off for everyone
-          no_render_scheduled: because no render is scheduled for its plugin
-          render_running: because its plugin is rendering now
-          schedule_boundary: when a schedule window opens or closes
-          sibling_render: when another playlist item updates
-        next_check_in_due: Check-in due any moment.
-      battery_estimate: 'Estimated battery life at this setting: %{days} days'
-      refreshing_screen_disabled: Hide Refreshing Screen
-      refreshing_screen_disabled_hint: Keep the current screen while a refresh renders instead of showing the "Catching you up" screen. After a refresh press nothing changes until the new screen is ready.
-      sleep_until: Sleep once
-      sleep_until_hint: At its next check-in the device goes to sleep until this time. Press its button to wake it sooner. If it is not asleep yet, clear the field to cancel.
-      font_set_by_theme: Set by %{theme}
-      developer_perks_mac_address_needed: Set the real MAC address for this device here
-      vestaboard_credentials: Vestaboard API token
-      vestaboard_token_saved: Saved
-      vestaboard_token_missing: Not set yet, so nothing is sent to the board
-      vestaboard_credentials_hint: In the Vestaboard app, open Settings, then Advanced Settings, then API. Create a token with Write access and paste it here.
+          waiting_for_render: 當外掛完成更新時
+          sleep_window: 當睡眠時段開始時
+          maximum_wait: 裝置的最長等候時間
+          next_screen_change: 當房間的下一次會議開始或結束時
+          asleep: 當睡眠時段結束時
+          rotation: 輪播並顯示播放清單的下一個項目時
+          render_before_next_poll: 在外掛下一次更新之後
+          nothing_served: 因為播放清單為空
+          wait_disabled: 因為此裝置已停用「等候更新」功能
+          setup_day: 在首日設定期間
+          push_driven: 因為外掛會在收到數據時即時更新
+          clock_driven: 因為畫面隨時鐘同步更新
+          renders_elsewhere: 因為由共用的主裝置負責繪製外掛畫面
+          scheduled: 因為僅在排程時段內顯示
+          feature_off: 因為系統對所有人停用了「等候更新」功能
+          no_render_scheduled: 因為沒有為此外掛排程任何繪製任務
+          render_running: 因為外掛正在繪製畫面
+          schedule_boundary: 當排程時段開啟或關閉時
+          sibling_render: 當播放清單中的其他項目更新時
+        next_check_in_due: 隨時準備進行簽到。
+      battery_estimate: 此設定下的預計電池續航時間：%{days}日
+      refreshing_screen_disabled: 隱藏重新整理畫面
+      refreshing_screen_disabled_hint: 在重新整理並繪製畫面時保持現有畫面，而不顯示「正在為你更新」畫面。按下重新整理後，新畫面準備就緒前內容將保持不變。
+      sleep_until: 單次睡眠
+      sleep_until_hint: 裝置將在下一次簽到時進入睡眠狀態，直至此時間。按下按鈕可隨時提前喚醒。如裝置尚未進入睡眠，清空此欄位即可取消。
+      font_set_by_theme: 由「%{theme}」套用
+      developer_perks_mac_address_needed: 請在此處為此裝置設定真實的MAC地址
+      vestaboard_credentials: Vestaboard API Token
+      vestaboard_token_saved: 已儲存
+      vestaboard_token_missing: 尚未設定，因此不會傳送任何內容至看板
+      vestaboard_credentials_hint: 在 Vestaboard 應用程式中，前往「Settings → Advanced Settings → API」。建立一個具備寫入 (Write) 權限的權杖並貼在此處。
     discover_persona:
-      label: Persona & Discover
-      disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
-      completed_hint: Persona is set up for this device
-      setup_hint: Set up a persona for this device
+      label: 人格設定與探索
+      disabled_hint: 鏡像TRMNL裝置無法使用此功能。請改為在主裝置上管理推薦項目。
+      completed_hint: 此裝置已完成人格設定
+      setup_hint: 為此裝置設定人格
     index:
       title: 裝置
       tagline: 你的TRMNL裝置
-      virtual: Virtual
+      virtual: 虛擬裝置
       add_first_device: 請先新增你的第一部裝置！
-      go_to_settings: Go to settings
-      clear_playlist: Clear playlist
-      clear_playlist_confirm: Remove all playlist items from %{device}? This cannot be undone.
-      copy_playlist_to_device: Copy playlist to device
-      copy_playlist_submit: Copy playlist
-      copy_playlist_from_device: From
-      copy_playlist_to_device_label: To
-      copy_playlist_non_destructive: No existing playlist items will be cleared.
-      target_device: Target device
+      go_to_settings: 前往設定
+      clear_playlist: 清空播放清單
+      clear_playlist_confirm: 確定要從「%{device}」移除所有播放清單項目？此操作無法復原。
+      copy_playlist_to_device: 複製播放清單至裝置
+      copy_playlist_submit: 複製播放清單
+      copy_playlist_from_device: 來源
+      copy_playlist_to_device_label: 目標
+      copy_playlist_non_destructive: 現有的播放清單項目將不會被清除。
+      target_device: 目標裝置
     clear_playlist:
-      success: "%{device}'s playlist has been cleared."
+      success: 「%{device}」的播放清單已清空。
     copy_playlist:
-      error_same_device: Source and target device must be different.
-      success: Playlist copied from %{source} to %{target}.
+      error_same_device: 來源裝置與目標裝置必須不同。
+      success: 已成功將播放清單由「%{source}」複製至「%{target}」。
     new:
       title: 新增裝置
       description: 輸入Friendly ID以新增裝置到你的帳戶。
       add_device: 新增裝置
-      friendly_id_hint: The 6 characters shown on your TRMNL's screen during setup.
+      friendly_id_hint: 設定期間在你的TRMNL螢幕上顯示的6個字元。
     associate:
       error: 連結裝置時發生錯誤
       success: 成功連結裝置
@@ -586,60 +586,60 @@ zh-HK:
     switch:
       error: 切換裝置時發生錯誤
       success: 成功切換裝置
-      title: Switch to device
+      title: 切換至裝置
     update:
       error: 更新裝置時發生錯誤
       success: 成功更新「%{device}」的裝置設定
-      choose_palette: "%{device} device model updated. Choose the palette your screen can show."
-    add_device_first: Add a device first
+      choose_palette: 「%{device}」裝置型號已更新。請選擇你的螢幕能夠顯示的色彩模式。
+    add_device_first: 請先新增一部裝置
     image_too_big:
-      message: Your device rejected a %{size} image; this model accepts up to %{limit}.
-      message_without_limit: Your device rejected a %{size} image as too big.
+      message: 你的裝置拒絕了容量為%{size}的影像；此型號最多支援%{limit}。
+      message_without_limit: 你的裝置因影像容量過大 (%{size}) 而拒絕接收。
   discovery:
     dashboard_action:
       saved:
-        title: Recommendations saved for %{device_label}
-        subtext: Review your saved picks, or update the persona that shaped them.
-        primary_label: Review saved recommendations
+        title: 已為「%{device_label}」儲存推薦內容
+        subtext: 查看你已儲存的精選項目，或更新對應的人格設定。
+        primary_label: 查看已儲存的推薦項目
       fresh:
-        title: New recommendations ready for %{device_label}
-        subtext: Review the latest picks for this persona.
-        primary_label: Review new recommendations
+        title: 已為「%{device_label}」準備好全新的推薦內容
+        subtext: 查看針對此人格設定的最新精選項目。
+        primary_label: 查看全新推薦項目
       persona:
-        title: Persona set for %{device_label}
-        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
-        primary_label: Get new recommendations
+        title: 已為「%{device_label}」完成人格設定
+        subtext: 當此TRMNL的用途有變時，可獲取另一批推薦內容或更新其人格設定。
+        primary_label: 獲取全新推薦項目
       rerun:
-        title: Ready for another Discover round for %{device_label}
-        subtext: Go through another round when you want fresh recommendations for this TRMNL.
-        primary_label: Get more recommendations
+        title: 已準備好為「%{device_label}」進行新一輪探索
+        subtext: 當你想為此TRMNL尋找新鮮的推薦內容時，可隨時進行新一輪探索。
+        primary_label: 獲取更多推薦項目
       setup:
-        title: Set up a persona for %{device_label}
-        subtext: Answer a few questions so recommendations fit this TRMNL's role.
-        primary_label: Set up persona
+        title: 為「%{device_label}」設定人格
+        subtext: 回答幾個簡單問題，讓推薦內容更貼合此TRMNL的使用角色。
+        primary_label: 設定人格
     app_card:
-      tag: App
-      hint: Keep it to add it to your rotation.
+      tag: 應用程式
+      hint: 保留此項目以加入至你的輪播清單。
   logs:
     index:
       title: 記錄檔
       all: 所有
-      dump: Message
+      dump: 訊息
       private_plugins: 客製外掛
       source: 來源
-      time: Time (UTC)
-      activity: View activity
-      device: Device
-      plugins: Plugins
-      mashups: Mashups
-      errors_only: Errors only
-      auto_refresh: Auto-refresh
-      not_available: ClickHouse logging isn't enabled in this environment yet.
-      temporarily_unavailable: Logs are temporarily unavailable. Please try again later.
-      empty: No logs yet.
-      expiry_notice: Logs are kept for two weeks and expire automatically — there's no manual delete here.
-      load_older: Load older
-      level: Level
+      time: 時間 (UTC)
+      activity: 查看動態
+      device: 裝置
+      plugins: 外掛功能
+      mashups: 混搭畫面
+      errors_only: 只顯示錯誤
+      auto_refresh: 自動重新整理
+      not_available: 此環境尚未啟用ClickHouse日誌記錄功能。
+      temporarily_unavailable: 記錄檔暫時無法使用，請稍後再試。
+      empty: 暫無任何記錄檔。
+      expiry_notice: 記錄檔會保留兩週並自動過期刪除，無法在此手動刪除。
+      load_older: 載入較舊的記錄
+      level: 層級
   markups:
     console_logs:
       js_logs: JS記錄檔
@@ -648,7 +648,7 @@ zh-HK:
       design_system: 活用我們的原生設計系統
       design_system_docs: 設計系統文件
       dirty_confirm: 你有未儲存的變更。確定要離開此頁面嗎？
-      edit_composition: Edit Composition
+      edit_composition: 編輯組合畫面
       edit_markup: 編輯標記碼
       edit_markup_for_plugin: 編輯「%{plugin_setting_name}」的標記碼
       edit_markup_please_save_first: 編輯標記碼前請先儲存
@@ -663,7 +663,7 @@ zh-HK:
       revert_confirm: 確定要還原嗎？所有未儲存的變更將會遺失。
       save_changes: 儲存變更 (⌘﹢S)
       separate_preview: 預覽已在獨立視窗開啟
-      preview_layout: Preview layout
+      preview_layout: 預覽佈局
     merge_variables:
       your_variables: 變數
     no_merge_variables:
@@ -744,9 +744,9 @@ zh-HK:
       reset_instructions: 按下TRMNL背面的按鈕以生成重設碼
       success: 雙重驗證成功
       error: OTP代碼無效
-      reset_hint: Lost your authenticator? We can show a one-time code on your TRMNL instead.
-      reset_pending: A one-time code is on its way to your TRMNL and appears at its next check-in. Your authenticator app still works in the meantime.
-      no_device: None of your TRMNLs have checked in recently, so there is nowhere to show you a reset code. Please contact support.
+      reset_hint: 遺失了驗證器App？我們可以改為在你的TRMNL畫面上顯示單次驗證碼。
+      reset_pending: 已傳送單次驗證碼到你的TRMNL，將於下次簽到時顯示。期間仍可正常使用你原有的驗證器App。
+      no_device: 你的TRMNL裝置最近均沒有簽到記錄，因此無法顯示重設碼。請聯絡支援團隊。
   playlist_items:
     index:
       title: 播放清單
@@ -757,30 +757,30 @@ zh-HK:
       skip_after:
         one: 1日未更新後跳過畫面
         other: "%{count}日未更新後跳過畫面"
-      add_plugin: Add Plugin
-      select: Select
-      exit_select: Exit select mode
-      time_travel: Time Travel
-      smart_skip: Smart Skip
-      smart_skip_hint: Automatically skip screens whose contents haven't changed in a while.
-      view: View
-      list_density: List density
-      regular: Regular
-      compact: Compact
-      schedule: Schedule
-      show: Show
-      hide: Hide
+      add_plugin: 新增外掛
+      select: 選擇
+      exit_select: 退出選擇模式
+      time_travel: 時光機
+      smart_skip: 智能跳過
+      smart_skip_hint: 自動跳過內容在一段時間內沒有變化的畫面。
+      view: 檢視
+      list_density: 列表密度
+      regular: 標準
+      compact: 緊密
+      schedule: 時間表
+      show: 顯示
+      hide: 隱藏
       empty:
         no_plugins:
-          heading: This playlist is empty
-          description: Connect your first plugin and come back here.
-          cta: Browse %{plugin_count} available Plugins
+          heading: 此播放清單為空
+          description: 請先連接你的第一個外掛，然後返回此處。
+          cta: 瀏覽%{plugin_count}個可用的外掛
         no_items:
-          heading: This playlist is empty
-          description: Select Add Plugin above to add one of your plugins.
-          cta: Looking for something new? Browse Plugins
-      hold_screen: Hold screen
-      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
+          heading: 此播放清單為空
+          description: 點擊上方的「新增外掛」以加入你的其中一個外掛。
+          cta: 尋找新功能？瀏覽外掛列表
+      hold_screen: 固定畫面
+      hold_screen_hint: 保持顯示目前畫面，直至按下按鈕為止。定時喚醒會重新整理內容，但不會切換至下一個畫面。
     playlist_item:
       adjust_schedule: 調整時間表
       delete: 確定要移除此項目嗎？外掛會保持連接，只是不會在裝置上顯示。
@@ -789,19 +789,19 @@ zh-HK:
       remove_from_playlist: 從播放清單中移除
       hide_playlist: 隱藏此項目
       show_playlist: 顯示此項目
-      duplicate: Duplicate
-      duplicate_confirm: This will create a copy of this item and add it to the bottom of your playlist. Continue?
-      presentation: Presentation
-      mashup: Mashup
-      last_shown: Last shown %{time}
+      duplicate: 建立副本
+      duplicate_confirm: 這將建立此項目的副本並加入至播放清單底部。是否繼續？
+      presentation: 外觀呈現
+      mashup: 混搭畫面
+      last_shown: 上次顯示於%{time}
       title_tooltip:
-        source_plugin: Source plugin
-      force_refresh: Refresh now
-      next_shown: Next shown %{time}
-      next_shown_overdue: Next shown as soon as it checks in; it is overdue
-      next_render: Renders again %{time}
-      render_overdue: A render has been overdue since %{time}
-      no_next_render: No render before then, %{reason}
+        source_plugin: 來源外掛
+      force_refresh: 立即重新整理
+      next_shown: 下次顯示於%{time}
+      next_shown_overdue: 已逾期，將於裝置簽到時顯示
+      next_render: 將於%{time}再次繪製
+      render_overdue: 繪製任務自%{time}起已逾期
+      no_next_render: 在此之前不會繪製，%{reason}
     create:
       success: 已更新播放清單
       error: 更新播放清單時發生錯誤
@@ -814,85 +814,85 @@ zh-HK:
       success: 已複製播放清單
     sort:
       success: 已更新播放清單順序
-      error: Playlist order could not be saved
+      error: 無法儲存播放清單順序
     set_preferences:
       success: 已更新智能播放清單偏好設定
     refresh:
-      success: Refreshing now — the preview updates when the render finishes
-      placeholder: Configure this playlist item before refreshing it
-      global: A global plugin renders on its own schedule for everyone.
+      success: 正在重新整理 — 預覽將於繪製完成時更新
+      placeholder: 請先設定此播放清單項目，然後再進行重新整理
+      global: 全域外掛會按照自身的排程為所有人進行繪製。
     status:
-      error: Not refreshing
-      setup: Needs setup
-      now: Displayed now
-      hidden: Hidden
-      skipped: Skipped by plugin
-      out_of_schedule: Out of schedule
-      important_active: Important active
-      stale: Stale
-      pending: Not rendered yet
+      error: 未有重新整理
+      setup: 需要設定
+      now: 正在顯示
+      hidden: 已隱藏
+      skipped: 外掛已跳過
+      out_of_schedule: 不在排程時間內
+      important_active: 重要項目播放中
+      stale: 內容過期
+      pending: 尚未繪製
     status_description:
-      error: Refreshes stopped after repeated failures. Open its settings to fix it.
-      setup: Finish configuring this item before it can appear on the device.
-      now: This is the screen on the device right now.
-      hidden: You hid this item, so it stays out of the rotation.
-      skipped: The plugin asked to be skipped.
-      out_of_schedule: Outside the schedule you set for this item.
-      important_active: An Important item has this slot right now.
-      stale: Smart Skip is skipping this — its screen hasn't updated in a while.
-      pending: Its first render starts at the next device check-in.
+      error: 經過多次失敗後已停止重新整理。請開啟其設定以進行修復。
+      setup: 請先完成此項目的設定，方可在裝置上顯示。
+      now: 這是目前裝置上顯示的畫面。
+      hidden: 你隱藏了此項目，因此它不會加入輪播。
+      skipped: 外掛要求跳過此項目。
+      out_of_schedule: 不在你為此項目設定的排程時間內。
+      important_active: 目前由一個「重要」項目佔用了此時段。
+      stale: 智能跳過功能已跳過此項目 — 其畫面已有一段時間未有更新。
+      pending: 其首次繪製將於裝置下一次簽到時開始。
     schedule:
-      always: Always
-      important_title: Important
-      important_description: Only shown alongside other important screens during its schedule.
+      always: 總是顯示
+      important_title: 重要
+      important_description: 在其排程時間內，只會與其他重要畫面一同顯示。
       date_range:
-        between: "%{start} to %{end}"
-        from: From %{start}
-        until: Until %{end}
-        yearly: Every year, %{start} to %{end}
+        between: "%{start} 至 %{end}"
+        from: 從 %{start}
+        until: 直至 %{end}
+        yearly: 每年 %{start} 至 %{end}
     bulk_actions:
-      hide: Hide
-      show: Show
-      delete: Delete
-      destroy_confirm: Remove the selected items from this playlist?
+      hide: 隱藏
+      show: 顯示
+      delete: 刪除
+      destroy_confirm: 確定要從此播放清單中移除選取的項目嗎？
       success:
-        hide: Items hidden
-        show: Items shown
-        destroy: Items removed from playlist
-      error: Bulk action failed
+        hide: 已隱藏項目
+        show: 已顯示項目
+        destroy: 已從播放清單移除項目
+      error: 批量操作失敗
     smart_skip_modal:
-      title: Smart Skip
-      apply: Done
+      title: 智能跳過
+      apply: 完成
     playlist_item_schedule:
-      adjust_schedule: Adjust schedule
+      adjust_schedule: 調整時間表
     day_ahead:
-      title: The day ahead
+      title: 未來24小時預覽
       times:
-        one: once
-        other: "%{count}×"
-      nothing: Nothing to show %{duration}
-      asleep_segment: Asleep
-      nothing_segment: Nothing to show
-      segment: "%{item} for %{duration}"
-      window_hours: next %{count} hours
-      window_label: How far ahead to look
-      window_option: "%{count}h"
-      render_marker: Renders
-      asleep_window: Asleep %{from} → %{to} (%{duration})
+        one: 1次
+        other: "%{count}次"
+      nothing: "%{duration}內沒有內容可顯示"
+      asleep_segment: 睡眠中
+      nothing_segment: 沒有內容可顯示
+      segment: "%{item} (%{duration})"
+      window_hours: 未來%{count}小時
+      window_label: 預覽時間範圍
+      window_option: "%{count}小時"
+      render_marker: 繪製
+      asleep_window: 睡眠中 %{from} → %{to} (%{duration})
   plugins:
     index:
       title: 外掛功能
       tagline: 你會在TRMNL上顯示什麼？
       connected: 已連接
-      supported_by_this_device: Supported by this device
+      supported_by_this_device: 此裝置支援
       view:
-        label: Plugin view
-        cards: View as Cards
-        list: View as List
-      third_party_plugin: Third Party Plugin
-      collapse: Collapse
-      categories: Categories
-      discover: Discover
+        label: 外掛檢視方式
+        cards: 卡片檢視
+        list: 列表檢視
+      third_party_plugin: 第三方外掛
+      collapse: 折疊
+      categories: 類別
+      discover: 探索
     search:
       placeholder: 搜尋外掛
     my:
@@ -930,7 +930,7 @@ zh-HK:
       title: 編輯外掛
       tagline: 更新你的外掛詳情。
     settings_preview:
-      show_all: Show all %{count} options
+      show_all: 顯示所有%{count}個選項
   plugin_recipes:
     connected: 已連接模板
     connections:
@@ -939,15 +939,15 @@ zh-HK:
     new:
       error: 找不到模板
     show:
-      more_by_author: More by this Author
-      view_all: View all
-      install: Install
-      install_again: Install again
-      installed: Installed
-      open_settings: Open settings
-      fork_this_recipe: Fork this recipe
-    added_to_playlist: Added to your playlist. Check the settings below.
-    check_settings: Installed. Check the settings below.
+      more_by_author: 此作者的更多作品
+      view_all: 查看全部
+      install: 安裝
+      install_again: 再次安裝
+      installed: 已安裝
+      open_settings: 開啟設定
+      fork_this_recipe: 分叉此模板
+    added_to_playlist: 已加入至你的播放清單。請檢查下方設定。
+    check_settings: 已安裝。請檢查下方設定。
   plugin_settings:
     copy_are_you_sure: 確定要複製此設定嗎？
     delete_are_you_sure: 確定要刪除此設定嗎？
@@ -1182,20 +1182,20 @@ zh-HK:
       most_popular: 最受歡迎
       install: 安裝
       fork: 分叉
-      search_placeholder: 'Search eg: Comic'
-      filtered_for_device: Showing recipes with a %{device} layout.
+      search_placeholder: 搜尋關鍵字 (例如：Comic)
+      filtered_for_device: 正在顯示支援「%{device}」版面配置的模板。
   schedules:
     form:
       append: 以及⋯
       no_schedule: 此畫面將一直顯示。
       to: 至
       copy_prompt: 複製時間表⋯
-      no_days_error: Please select at least one day.
-      dates: Dates
-      dates_description: Only show this screen between these dates. Leave a date blank for no start or no end.
-      repeats_yearly: Every year
-      add: Set a custom schedule
-      some_schedule: Show this screen during…
+      no_days_error: 請最少選擇一日。
+      dates: 日期範圍
+      dates_description: 只在此等日期之間顯示此畫面。日期留空表示不設開始或結束限制。
+      repeats_yearly: 每年重複
+      add: 設定自訂時間表
+      some_schedule: 於以下時段顯示此畫面⋯
   upgrade:
     index:
       title: 正在升級裝置：
