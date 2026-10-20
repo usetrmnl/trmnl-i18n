@@ -554,10 +554,10 @@ ro:
       sleep_until_hint: La următoarea conectare, dispozitivul intră în repaus până la această oră. Apasă butonul pentru a-l activa mai devreme. Dacă nu a intrat încă în repaus, golește câmpul pentru a anula.
       font_set_by_theme: Stabilit de %{theme}
       developer_perks_mac_address_needed: Introdu aici adresa MAC reală a dispozitivului
-      vestaboard_credentials: Vestaboard API token
-      vestaboard_token_saved: Saved
-      vestaboard_token_missing: Not set yet, so nothing is sent to the board
-      vestaboard_credentials_hint: In the Vestaboard app, open Settings, then Advanced Settings, then API. Create a token with Write access and paste it here.
+      vestaboard_credentials: Token API Vestaboard
+      vestaboard_token_saved: Salvat
+      vestaboard_token_missing: Tokenul nu este încă setat, deci nu se trimite nimic pe panou
+      vestaboard_credentials_hint: În aplicația Vestaboard, deschide Settings, apoi Advanced Settings și API. Creează un token cu drept de scriere (Write) și lipește-l aici.
     discover_persona:
       label: Profil de utilizare și Descoperă
       disabled_hint: Dezactivat pentru dispozitivele TRMNL oglindite. Gestionează recomandările pe dispozitivul principal.
@@ -741,9 +741,9 @@ ro:
       zoom_out: Micșorează
     ai_assistant_inline:
       model_locked: Modelul AI este stabilit de TRMNL
-      composition_prefill: Make this plugin Vestaboard friendly
-      composition_empty_state: Builds a Vestaboard board from your markup and live data.
-      composition_placeholder: Ask for a change to the board…
+      composition_prefill: Adaptează acest plugin pentru Vestaboard
+      composition_empty_state: Creează un panou Vestaboard din codul și datele tale în timp real.
+      composition_placeholder: Cere o modificare a panoului…
   mfa:
     disable_otp:
       success: 2FA dezactivată
@@ -1170,34 +1170,34 @@ ro:
       create:
         success: Datele %{plugin} sunt acum {{ %{keyname} }}.
     live_preview:
-      live: Live preview
-      image: Rendered image
-      invitation: Live preview shows unsaved changes as you edit.
-      explanation: Live preview renders in the browser. The rendered image is the last screen generated for the device and can differ slightly.
-      sample: Sample data
-      sample_hint: Examples show how these settings look.
-      cached: Your data
-      cached_hint: Fetched
-      partial: Your data
-      partial_hint: Some dates may be missing until you save and refresh.
-      invalid: Not updated
-      invalid_hint: Check the settings and the selected device.
-      error: Not updated
-      error_hint: The last successful preview is still shown.
-      retry: Retry
-      sizes: Sizes
-      full: Full
-      half_horizontal: Half H
-      half_vertical: Half V
-      quadrant: Quadrant
+      live: Previzualizare live
+      image: Imagine generată
+      invitation: Previzualizarea live arată modificările pe măsură ce editezi, înainte de salvare.
+      explanation: Previzualizarea live este generată în browser. Imaginea generată este ultimul ecran creat pentru dispozitiv și poate fi ușor diferită.
+      sample: Date de exemplu
+      sample_hint: Exemplele arată cum se văd aceste setări.
+      cached: Datele tale
+      cached_hint: Preluate
+      partial: Datele tale
+      partial_hint: Unele date calendaristice pot lipsi până salvezi și reîmprospătezi.
+      invalid: Neactualizat
+      invalid_hint: Verifică setările și dispozitivul selectat.
+      error: Neactualizat
+      error_hint: Este afișată în continuare ultima previzualizare reușită.
+      retry: Reîncearcă
+      sizes: Dimensiuni
+      full: Complet
+      half_horizontal: Jumătate H
+      half_vertical: Jumătate V
+      quadrant: Sfert
     test_request:
-      button: Test request
-      missing_url: Add a Polling URL first.
-      rate_limited: Too many test requests. Try again in a minute.
-      sent: 'Sent:'
-      received: 'Received:'
+      button: Testează cererea
+      missing_url: Adaugă mai întâi un URL de interogare.
+      rate_limited: Prea multe cereri de test. Încearcă din nou peste un minut.
+      sent: "Trimis:"
+      received: "Primit:"
     missing_composition:
-      message: No composition yet — this plugin won't display on this device until you add one.
+      message: Nu există încă o compoziție. Adaugă una pentru ca acest plugin să apară pe dispozitiv.
   recipes:
     index:
       newest_to_oldest: De la cel mai nou la cel mai vechi
@@ -1206,7 +1206,7 @@ ro:
       install: Instalează
       fork: Creează un fork
       search_placeholder: 'Caută, de ex.: benzi desenate'
-      filtered_for_device: Showing recipes with a %{device} layout.
+      filtered_for_device: Sunt afișate rețetele cu un format pentru %{device}.
   schedules:
     form:
       append: Și în timpul…
@@ -1731,8 +1731,8 @@ ro:
           other: Această acțiune adaugă %{count} de resurse la planul tău (%{amount}). Continui?
           few: Această acțiune adaugă %{count} resurse la planul tău (%{amount}). Continui?
         screen_title: Este necesar un abonament
-        screen_body: Set up billing to show this resource again.
-        locked: Set up billing to keep your resources on screen.
+        screen_body: Configurează facturarea pentru a afișa din nou această resursă.
+        locked: Configurează facturarea pentru a păstra resursele pe ecran.
         past_due: Ultima plată a eșuat. Actualizează cardul pentru a evita întreruperea.
         grace:
           one: Rezervări devine o aplicație cu plată la %{date}. Costul pentru %{count} resursă va fi %{total} pe lună.
@@ -1763,41 +1763,42 @@ ro:
         stale: Datele calendarului întârzie. Se reîncearcă…
         unavailable: Acest ecran nu mai este disponibil.
       pricing:
-        billing_period: Billing period
-        annual_saving: Save %{amount} / room with annual billing
-        included: Included
-        calendars: Your calendars
-        calendars_hint: Every calendar works the same and costs the same. Mix them as you like.
-        existing_screens: Screens you already own cost nothing. Booking also runs on tablets and TVs.
+        billing_period: Perioadă de facturare
+        annual_saving: Economisește %{amount} / sală cu facturare anuală
+        included: Inclus
+        calendars: Calendarele tale
+        calendars_hint: Toate calendarele funcționează la fel și au același cost. Combină-le cum dorești.
+        existing_screens: Ecranele pe care le ai deja nu costă nimic în plus. Rezervări funcționează și pe tablete și televizoare.
         add_devices:
-          one: Add %{count} device
-          other: Add %{count} devices
+          one: Adaugă %{count} dispozitiv
+          other: Adaugă %{count} de dispozitive
+          few: Adaugă %{count} dispozitive
         comparison_links:
           joan: Joan vs. TRMNL
           robin: Robin vs. TRMNL
           envoy: Envoy vs. TRMNL
-          tablets: Tablets vs. TRMNL
+          tablets: Tablete vs. TRMNL
         features:
-          room_status: Live room status that changes when a meeting starts or ends
-          walk_up_booking: Walk-up booking with a QR code, from any phone
-          branding: Your logo and your room names on every screen
-          collections: Hallway screens that show many rooms at once
-          virtual_displays: Virtual displays on the tablets and TVs you already own
-          monitoring: Battery levels, and an email when a calendar stops syncing
-          setup: Set it up yourself, in minutes
-          support: Email support from real people
-          updates: New features as we ship them
-          room_changes: Add or remove rooms at any time
-        comparison_period: 10 rooms over 3 years, with annual billing
-        saves: Save %{amount} with TRMNL
-        saves_at_least: Save at least %{amount} with TRMNL
-        platform_fee: "%{amount} + platform fee"
-        quote_required: Quote required
-        tablet_total: "%{name} + Booking: %{amount}"
-        joan_assumptions: Entry plan, display licenses and Joan 6 RE devices. Active user fees excluded.
-        envoy_assumptions: Room licenses, Android tablets and locking enclosures. Platform fee excluded.
-        tablet_assumptions: Tablets, locking enclosures and Booking. Existing outlets assumed.
-        comparison_exclusions: US prices before tax and shipping. Power installation and device management excluded. See each comparison for sources and assumptions.
+          room_status: Starea sălii se actualizează când începe sau se termină o întâlnire
+          walk_up_booking: Rezervare pe loc prin cod QR, de pe orice telefon
+          branding: Sigla ta și numele sălilor tale pe fiecare ecran
+          collections: Ecrane pe hol care afișează mai multe săli simultan
+          virtual_displays: Ecrane virtuale pe tabletele și televizoarele pe care le ai deja
+          monitoring: Nivelul bateriilor și un e-mail când un calendar nu se mai sincronizează
+          setup: Configurează totul singur, în câteva minute
+          support: Asistență prin e-mail de la oameni reali
+          updates: Funcții noi pe măsură ce le lansăm
+          room_changes: Adaugă sau elimină săli oricând
+        comparison_period: 10 săli pe 3 ani, cu facturare anuală
+        saves: Economisește %{amount} cu TRMNL
+        saves_at_least: Economisește cel puțin %{amount} cu TRMNL
+        platform_fee: "%{amount} + taxa de platformă"
+        quote_required: Ofertă la cerere
+        tablet_total: "%{name} + Rezervări: %{amount}"
+        joan_assumptions: Planul de bază, licențele pentru ecrane și dispozitivele Joan 6 RE. Taxele pentru utilizatorii activi nu sunt incluse.
+        envoy_assumptions: Licențe pentru săli, tablete Android și carcase cu încuietoare. Taxa de platformă nu este inclusă.
+        tablet_assumptions: Tablete, carcase cu încuietoare și Rezervări. Se presupune că există deja prize.
+        comparison_exclusions: Prețuri din SUA, fără taxe și transport. Instalarea alimentării electrice și administrarea dispozitivelor nu sunt incluse. Vezi sursele și ipotezele din fiecare comparație.
     fleet:
       tagline: Oglindește ecranul și setările unui dispozitiv pe mai multe ecrane.
       check_ins:
@@ -2122,24 +2123,24 @@ ro:
       variables: Variabile
       visible_if: Vizibil dacă...
       width: Lățime
-      recolor_flaps: Recolor every flap on this layer
-      board_characters: Board characters
-      board_characters_hint: Click a character to insert it. A color inserts as {63} to {69} and fills one flap.
-      unsupported_characters: 'Not on the board: %{characters}. Like spaces, they show the layer below or the background (marked ? in this preview).'
-      box_width_hint: Width is in cells. The board is %{columns} cells wide.
+      recolor_flaps: Schimbă culoarea tuturor clapetelor din acest strat
+      board_characters: Caracterele panoului
+      board_characters_hint: Apasă pe un caracter pentru a-l insera. Culorile se inserează prin codurile {63} până la {69} și ocupă câte o clapetă.
+      unsupported_characters: "Lipsesc de pe panou: %{characters}. La fel ca spațiile, lasă să se vadă stratul de dedesubt sau fundalul (marcate cu ? în această previzualizare)."
+      box_width_hint: Lățimea este măsurată în celule. Panoul are %{columns} celule pe lățime.
       flap_colors:
-        label: Flap colors
-        red: Red
-        orange: Orange
-        yellow: Yellow
-        green: Green
-        blue: Blue
+        label: Culorile clapetelor
+        red: Roșu
+        orange: Portocaliu
+        yellow: Galben
+        green: Verde
+        blue: Albastru
         violet: Violet
-        white: White
-        black: Black (blank)
+        white: Alb
+        black: Negru (gol)
       agent_panel: Agent
-      toggle_agent: Show or hide the Agent
-      resize_agent_panel: Resize the Agent panel
+      toggle_agent: Afișează sau ascunde agentul
+      resize_agent_panel: Redimensionează panoul agentului
   shared:
     impersonator:
       managing: Gestionezi %{name}
@@ -3072,6 +3073,6 @@ ro:
     use_recipe: Folosește rețeta comunității
   byod_trials:
     ended:
-      claim_license: Already bought a BYOD license? Claim it with your order number.
+      claim_license: Ai cumpărat deja o licență BYOD? Activeaz-o cu numărul comenzii.
   screen_picker:
-    single_palette_hint: This device has only one palette.
+    single_palette_hint: Acest dispozitiv are o singură paletă.
