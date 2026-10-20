@@ -1107,6 +1107,7 @@ de-AT:
       erroring_short: Bei dieser Erweiterung liegt derzeit ein Fehler vor.
       erroring_long: Bei der Erweiterung liegt ein Fehler vor. Behebe das Problem, um die Aktualisierung fortzusetzen.
       reset_health: Status zurücksetzen
+      async_pending: An async polling request is pending. Changing the strategy cancels it.
     inactive_references_banner:
       short: Referenzierte Erweiterungen synchronisieren nicht.
       long: 'Diese Erweiterung verweist auf Daten von Erweiterungen, die sich in keiner Wiedergabeliste befinden:'
@@ -1237,6 +1238,7 @@ de-AT:
           attributes:
             recipe_overview:
               too_few_words: needs at least %{count} words, or leave it blank
+          async_polling_callback_url_missing: Async Polling needs {{ callback_url }} in the Polling URL, so your server knows where to send the data.
   apps:
     core:
       public:
