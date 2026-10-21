@@ -1,343 +1,353 @@
 ---
 uk:
   renders:
-    and_x_more_prefix: And
-    and_x_more_suffix: more
+    and_x_more_prefix: "І ще"
+    and_x_more_suffix: ""
     calendars:
-      no_upcoming_events: No upcoming events
-      no_events_today: No events today
-      all_day: all-day
+      no_upcoming_events: "Немає майбутніх подій"
+      no_events_today: "Сьогодні немає подій"
+      all_day: "увесь день"
     days_left_year:
-      title: Days Left This Year
-      days_passed: Days Passed
-      days_left: Days Left
+      title: "Днів до кінця року"
+      days_passed: "Днів минуло"
+      days_left: "Днів залишилося"
     lunar_calendar:
-      title: Lunar Calendar
-      age: Lunar Age
-      current_phase: Current Phase
-      illumination: Moon Illumination
-      next_full_moon: Next Full Moon
-      next_new_moon: Next New Moon
-      next_phase: Next Phase
-      next_phase_short: Next
+      title: "Місячний календар"
+      age: "Вік Місяця"
+      current_phase: "Поточна фаза"
+      illumination: "Освітленість Місяця"
+      next_full_moon: "Наступна повня"
+      next_new_moon: "Наступний молодик"
+      next_phase: "Наступна фаза"
+      next_phase_short: "Далі"
       moon_phases:
-        new_moon: New Moon
-        waxing_crescent: Waxing Crescent
-        first_quarter: First Quarter
-        waxing_gibbous: Waxing Gibbous
-        full_moon: Full Moon
-        waning_gibbous: Waning Gibbous
-        third_quarter: Third Quarter
-        waning_crescent: Waning Crescent
+        new_moon: "Молодик"
+        waxing_crescent: "Зростаючий серп"
+        first_quarter: "Перша чверть"
+        waxing_gibbous: "Зростаючий Місяць"
+        full_moon: "Повня"
+        waning_gibbous: "Спадний Місяць"
+        third_quarter: "Остання чверть"
+        waning_crescent: "Спадний серп"
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: "Погода Netatmo"
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: "Темп. у приміщенні"
+      indoor_temp_short: "У приміщенні"
+      indoor_humidity: "Вологість у приміщенні"
+      indoor_humidity_short: "Волог. у приміщ."
+      outdoor_humidity: "Вологість надворі"
+      outdoor_humidity_short: "Волог. надворі"
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
-      default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      pressure: "Тиск"
+      noise: "Шум"
+      min_max: "Мін/Макс"
+      feels: "Відчувається"
+      rain: "Дощ"
+      wind: "Вітер"
+      gust: "Пориви"
+      default_station_name: "Станція Netatmo"
+      default_outdoor_module: "Темп. надворі"
+      default_indoor_module: "У приміщенні"
+      trends_title: "Динаміка: %{metric}"
+      trends_title_short: "Динаміка"
+      temperature_trends: "Динаміка температури"
+      temperature_trends_short: "Динаміка темп."
+      outdoor_now: "Надворі зараз"
+      indoor_now: "У приміщенні зараз"
+      now: "Зараз"
+      low_high_24h: "Мін. / макс. за 24 год"
+      average_24h: "Середнє за 24 год"
+      outdoor: "Надворі"
+      indoor: "У приміщенні"
+      rain_gauge_not_connected: "Дощомір не підключено"
+      wind_gauge_not_connected: "Анемометр не підключено"
+      no_rain_gauge: "Немає дощоміра"
+      no_wind_gauge: "Немає анемометра"
+      add_module_hint: "Додайте додатковий модуль %{module}, щоб бачити ці дані"
+      range_24h: "Діапазон за 24 год"
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
-        indoor_module_missing: Selected indoor module not found. Please reconfigure in settings.
+        missing_access_token: "Відсутній токен доступу. Підключіть акаунт Netatmo повторно."
+        no_station_selected: "Метеостанцію не вибрано. Виберіть станцію в налаштуваннях."
+        connection_failed: "Не вдалося підключитися до станції Netatmo. Перевірте з’єднання з інтернетом."
+        data_retrieval_failed: "Не вдалося отримати дані про погоду. Спробуйте пізніше."
+        session_expired: "Сеанс завершився. Підключіть акаунт Netatmo повторно в налаштуваннях."
+        indoor_module_missing: "Вибраний внутрішній модуль не знайдено. Налаштуйте його повторно."
     parcel:
-      delivery_by: Delivery by
-      empty: There are no deliveries
+      delivery_by: "Доставка до"
+      empty: "Немає відправлень"
       errors:
-        api: Parcel API error
-        http: HTTP error %{code}
-        internal: Internal error
+        api: "Помилка API Parcel"
+        http: "Помилка HTTP %{code}"
+        internal: "Внутрішня помилка"
       filter_modes:
         active:
-          one: Active Delivery
-          other: Active Deliveries
+          one: "Активне відправлення"
+          other: "Активні відправлення"
+          few: "Активні відправлення"
+          many: "Активні відправлення"
         recent:
-          one: Recent Delivery
-          other: Recent Deliveries
+          one: "Нещодавнє відправлення"
+          other: "Нещодавні відправлення"
+          few: "Нещодавні відправлення"
+          many: "Нещодавні відправлення"
       status:
-        delivered: Delivered
-        delivery_exception: Delivery Exception
-        expecting_pickup: Expecting Pickup
-        failed_delivery_attempt: Failed Delivery Attempt
-        frozen: Frozen
-        in_transit: In Transit
-        information_received: Information Received
-        not_found: Not Found
-        out_for_delivery: Out For Delivery
-        unknown: Unknown
-      today: Today
-      tomorrow: Tomorrow
+        delivered: "Доставлено"
+        delivery_exception: "Проблема з доставкою"
+        expecting_pickup: "Очікує отримання"
+        failed_delivery_attempt: "Невдала спроба доставки"
+        frozen: "Призупинено"
+        in_transit: "У дорозі"
+        information_received: "Інформацію отримано"
+        not_found: "Не знайдено"
+        out_for_delivery: "Передано кур’єру"
+        unknown: "Невідомо"
+      today: "Сьогодні"
+      tomorrow: "Завтра"
     weather:
-      title: Weather
-      temperature: Temperature
-      feels_like: Feels Like
-      humidity: Humidity
-      low: Low
-      high: High
-      uv: UV
-      right_now: Right Now
-      today: Today
-      tomorrow: Tomorrow
-      low_high_short: L/H
-      uv_short: UV
-      max: Max
+      title: "Погода"
+      temperature: "Температура"
+      feels_like: "Відчувається як"
+      humidity: "Вологість"
+      low: "Мінімум"
+      high: "Максимум"
+      uv: "УФ"
+      right_now: "Просто зараз"
+      today: "Сьогодні"
+      tomorrow: "Завтра"
+      low_high_short: "Мін/Макс"
+      uv_short: "УФ"
+      max: "Макс"
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          foggy: Foggy
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: "Ясно"
+          cloudy: "Хмарно"
+          foggy: "Туманно"
+          partly_cloudy: "Мінлива хмарність"
+          rain_likely: "Ймовірний дощ"
+          rain_possible: "Можливий дощ"
+          snow: "Сніг"
+          snow_possible: "Можливий сніг"
+          thunderstorms_likely: "Ймовірні грози"
+          thunderstorms_possible: "Можливі грози"
+          very_light_rain: "Дуже слабкий дощ"
+          windy: "Вітряно"
+          wintry_mix_likely: "Ймовірні змішані опади"
+          wintry_mix_possible: "Можливі змішані опади"
       weatherapi:
         uv:
-          low: Low
-          moderate: Moderate
-          high: High
-          very_high: Very High
-          extreme: Extreme
+          low: "Низький"
+          moderate: "Помірний"
+          high: "Високий"
+          very_high: "Дуже високий"
+          extreme: "Надзвичайно високий"
         conditions:
         - code: 1000
-          day: Sunny
-          night: Clear
+          day: "Сонячно"
+          night: "Ясно"
         - code: 1003
-          day: Partly Cloudy
-          night: Partly Cloudy
+          day: "Мінлива хмарність"
+          night: "Мінлива хмарність"
         - code: 1006
-          day: Cloudy
-          night: Cloudy
+          day: "Хмарно"
+          night: "Хмарно"
         - code: 1009
-          day: Overcast
-          night: Overcast
+          day: "Суцільна хмарність"
+          night: "Суцільна хмарність"
         - code: 1030
-          day: Mist
-          night: Mist
+          day: "Серпанок"
+          night: "Серпанок"
         - code: 1063
-          day: Light Rain
-          night: Light Rain
+          day: "Слабкий дощ"
+          night: "Слабкий дощ"
         - code: 1066
-          day: Light Snow
-          night: Light Snow
+          day: "Слабкий сніг"
+          night: "Слабкий сніг"
         - code: 1069
-          day: Sleet
-          night: Sleet
+          day: "Мокрий сніг"
+          night: "Мокрий сніг"
         - code: 1072
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: "Переохолоджена мряка"
+          night: "Переохолоджена мряка"
         - code: 1087
-          day: Thunder
-          night: Thunder
+          day: "Грім"
+          night: "Грім"
         - code: 1114
-          day: Blowing Snow
-          night: Blowing Snow
+          day: "Поземок"
+          night: "Поземок"
         - code: 1117
-          day: Blizzard
-          night: Blizzard
+          day: "Хуртовина"
+          night: "Хуртовина"
         - code: 1135
-          day: Fog
-          night: Fog
+          day: "Туман"
+          night: "Туман"
         - code: 1147
-          day: Freezing Fog
-          night: Freezing Fog
+          day: "Переохолоджений туман"
+          night: "Переохолоджений туман"
         - code: 1150
-          day: Light Drizzle
-          night: Light Drizzle
+          day: "Слабка мряка"
+          night: "Слабка мряка"
         - code: 1153
-          day: Drizzle
-          night: Drizzle
+          day: "Мряка"
+          night: "Мряка"
         - code: 1168
-          day: Freeze Drizzle
-          night: Freeze Drizzle
+          day: "Переохолоджена мряка"
+          night: "Переохолоджена мряка"
         - code: 1171
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: "Сильна переохолоджена мряка"
+          night: "Сильна переохолоджена мряка"
         - code: 1180
-          day: Light Rain
-          night: Light Rain
+          day: "Слабкий дощ"
+          night: "Слабкий дощ"
         - code: 1183
-          day: Light Rain
-          night: Light Rain
+          day: "Слабкий дощ"
+          night: "Слабкий дощ"
         - code: 1186
-          day: Moderate Rain
-          night: Moderate Rain
+          day: "Помірний дощ"
+          night: "Помірний дощ"
         - code: 1189
-          day: Moderate Rain
-          night: Moderate Rain
+          day: "Помірний дощ"
+          night: "Помірний дощ"
         - code: 1192
-          day: Heavy Rain
-          night: Heavy Rain
+          day: "Сильний дощ"
+          night: "Сильний дощ"
         - code: 1195
-          day: Heavy Rain
-          night: Heavy Rain
+          day: "Сильний дощ"
+          night: "Сильний дощ"
         - code: 1198
-          day: Light Freeze
-          night: Light Freeze
+          day: "Слабкий переохолоджений дощ"
+          night: "Слабкий переохолоджений дощ"
         - code: 1201
-          day: Heavy Freeze
-          night: Heavy Freeze
+          day: "Сильний переохолоджений дощ"
+          night: "Сильний переохолоджений дощ"
         - code: 1204
-          day: Light Sleet
-          night: Light Sleet
+          day: "Слабкий мокрий сніг"
+          night: "Слабкий мокрий сніг"
         - code: 1207
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: "Сильний мокрий сніг"
+          night: "Сильний мокрий сніг"
         - code: 1210
-          day: Light Snow
-          night: Light Snow
+          day: "Слабкий сніг"
+          night: "Слабкий сніг"
         - code: 1213
-          day: Light Snow
-          night: Light Snow
+          day: "Слабкий сніг"
+          night: "Слабкий сніг"
         - code: 1216
-          day: Moderate Snow
-          night: Moderate Snow
+          day: "Помірний сніг"
+          night: "Помірний сніг"
         - code: 1219
-          day: Moderate Snow
-          night: Moderate Snow
+          day: "Помірний сніг"
+          night: "Помірний сніг"
         - code: 1222
-          day: Heavy Snow
-          night: Heavy Snow
+          day: "Сильний сніг"
+          night: "Сильний сніг"
         - code: 1225
-          day: Heavy Snow
-          night: Heavy Snow
+          day: "Сильний сніг"
+          night: "Сильний сніг"
         - code: 1237
-          day: Ice Pellets
-          night: Ice Pellets
+          day: "Льодяна крупа"
+          night: "Льодяна крупа"
         - code: 1240
-          day: Light Rain
-          night: Light Rain
+          day: "Слабкий дощ"
+          night: "Слабкий дощ"
         - code: 1243
-          day: Heavy Rain
-          night: Heavy Rain
+          day: "Сильний дощ"
+          night: "Сильний дощ"
         - code: 1246
-          day: Torrential Rain
-          night: Torrential Rain
+          day: "Злива"
+          night: "Злива"
         - code: 1249
-          day: Light Sleet
-          night: Light Sleet
+          day: "Слабкий мокрий сніг"
+          night: "Слабкий мокрий сніг"
         - code: 1252
-          day: Heavy Sleet
-          night: Heavy Sleet
+          day: "Сильний мокрий сніг"
+          night: "Сильний мокрий сніг"
         - code: 1255
-          day: Light Snow
-          night: Light Snow
+          day: "Слабкий сніг"
+          night: "Слабкий сніг"
         - code: 1258
-          day: Heavy Snow
-          night: Heavy Snow
+          day: "Сильний сніг"
+          night: "Сильний сніг"
         - code: 1261
-          day: Light Ice
-          night: Light Ice
+          day: "Слабка льодяна крупа"
+          night: "Слабка льодяна крупа"
         - code: 1264
-          day: Heavy Ice
-          night: Heavy Ice
+          day: "Сильна льодяна крупа"
+          night: "Сильна льодяна крупа"
         - code: 1273
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: "Гроза з дощем"
+          night: "Гроза з дощем"
         - code: 1276
-          day: Thunder & Rain
-          night: Thunder & Rain
+          day: "Гроза з дощем"
+          night: "Гроза з дощем"
         - code: 1279
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: "Гроза зі снігом"
+          night: "Гроза зі снігом"
         - code: 1282
-          day: Thunder & Snow
-          night: Thunder & Snow
+          day: "Гроза зі снігом"
+          night: "Гроза зі снігом"
     place_of_the_day:
-      title: Place of the Day
-      wikipedia_credit: Wikipedia CC BY-SA
-      type: Type
-      population: Population
-      coordinates: Coordinates
-      founded: Founded
-      elevation: Elevation
-      area: Area
-      local_time: Local time
-      year_bc: "%{count} BC"
-      metres: "%{count} m"
-      square_km: "%{count} km²"
-      city: City
-      wonder: Wonder
+      title: "Місце дня"
+      wikipedia_credit: "Вікіпедія CC BY-SA"
+      type: "Тип"
+      population: "Населення"
+      coordinates: "Координати"
+      founded: "Засновано"
+      elevation: "Висота над рівнем моря"
+      area: "Площа"
+      local_time: "Місцевий час"
+      year_bc: "%{count} до н. е."
+      metres: "%{count} м"
+      square_km: "%{count} км²"
+      city: "Місто"
+      wonder: "Диво"
     welcome:
       title: Ласкаво просимо
       greeting: Привіт, %{name}
       greeting_blank: Привіт
     homey:
-      'on': 'On'
-      'off': 'Off'
-      offline: Offline
-      all_offline: Every device is offline
+      'on': "Увімкнено"
+      'off': "Вимкнено"
+      offline: "Не в мережі"
+      all_offline: "Усі пристрої не в мережі"
       all_offline_hint:
-        one: One device is unreachable
-        other: All %{count} devices are unreachable
+        one: "Усі пристрої (%{count}) недоступні"
+        other: "Усі пристрої (%{count}) недоступні"
+        few: "Усі пристрої (%{count}) недоступні"
+        many: "Усі пристрої (%{count}) недоступні"
       batteries_healthy:
-        one: Battery
-        other: Batteries
+        one: "Батарея"
+        other: "Батареї"
+        few: "Батареї"
+        many: "Батареї"
       batteries_low:
-        one: Needs a cell
-        other: Need a cell
-      no_batteries: No batteries to watch
-      no_batteries_hint: Nothing here reports a battery level
-      insights: Insights
-      no_chart: No chart
-      no_insights: No series pushed yet
-      no_insights_hint: A Homey app can push an Insights log to chart here
-      no_devices: Waiting for your first devices
-      no_devices_hint: They appear after the first push or cloud sync
+        one: "Потрібна заміна батареї"
+        other: "Потрібна заміна батарей"
+        few: "Потрібна заміна батарей"
+        many: "Потрібна заміна батарей"
+      no_batteries: "Немає батарей для відстеження"
+      no_batteries_hint: "Жоден пристрій не повідомляє рівень заряду"
+      insights: "Аналітика"
+      no_chart: "Немає графіка"
+      no_insights: "Ряди даних ще не надіслано"
+      no_insights_hint: "Застосунок Homey може надіслати журнал Insights для побудови графіка тут"
+      no_devices: "Очікуємо на перші пристрої"
+      no_devices_hint: "Вони з’являться після першого надсилання даних або синхронізації з хмарою"
     mazevo:
-      in_use: In use
-      available: Available
-      available_until: Available until %{time}
-      available_all_day: Available for the rest of the day
-      coming_up: Coming up
-      later_today: Later today
-      nothing_later: Nothing else today
-      earlier_today: Earlier today
-      no_bookings: No bookings today
-      private_booking: Private booking
+      in_use: "Зайнято"
+      available: "Доступно"
+      available_until: "Вільно до %{time}"
+      available_all_day: "Вільно до кінця дня"
+      coming_up: "Незабаром"
+      later_today: "Пізніше сьогодні"
+      nothing_later: "На сьогодні більше нічого"
+      earlier_today: "Раніше сьогодні"
+      no_bookings: "Сьогодні немає бронювань"
+      private_booking: "Приватне бронювання"
       time_range: "%{start} – %{end}"
-      updated_at: Updated %{time}
+      updated_at: "Оновлено %{time}"
     ai_dashboard:
       out_of_credit:
-        title: Out of AI credit
-        description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+        title: "Кредити ШІ закінчилися"
+        description: "Оформіть TRMNL+, щоб отримати кредити ШІ, або поповніть рахунок для використання цього плагіна."

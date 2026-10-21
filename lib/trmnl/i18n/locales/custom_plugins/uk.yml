@@ -1,94 +1,94 @@
 ---
 uk:
   custom_plugins:
-    today: today
-    tomorrow: tomorrow
-    updated: Updated
-    activity: Activity
-    done: Done
-    due: Due
-    weather: Weather
-    temperature: Temperature
-    air_temperature: Air Temperature
-    feels_like: Feels Like
-    wet_bulb_temperature: Wet-Bulb Temperature
+    today: "сьогодні"
+    tomorrow: "завтра"
+    updated: "Оновлено"
+    activity: "Активність"
+    done: "Готово"
+    due: "Термін"
+    weather: "Погода"
+    temperature: "Температура"
+    air_temperature: "Температура повітря"
+    feels_like: "Відчувається як"
+    wet_bulb_temperature: "Температура змоченого термометра"
     wet_bulb_temperature_short: WBT
-    wet_bulb_globe_temperature: Wet-Bulb Globe Temperature
+    wet_bulb_globe_temperature: "Індекс температури вологого термометра та чорної кулі"
     wet_bulb_globe_temperature_short: WBGT
-    dew_point: Dew Point
-    delta_t: Delta T
-    humidity: Humidity
-    air_density: Air Density
-    pressure: Pressure
-    station_pressure: Station Pressure
-    sea_level_pressure: Sea-Level Pressure
-    pressure_trend: Pressure Trend
-    pressure_rising: Pressure Rising
-    pressure_steady: Pressure Steady
-    pressure_falling: Pressure Falling
-    wind: Wind
-    wind_average: Average Wind
-    wind_gust: Wind Gust
-    wind_direction: Wind Direction
-    precipitation: Precipitation
-    precipitation_probability: Precipitation Probability
-    precipitation_today: Precipitation Today
-    precipitation_yesterday: Precipitation Yesterday
-    precipitation_duration_today: Precipitation Duration Today
-    precipitation_duration_yesterday: Precipitation Duration Yesterday
-    uv: UV Index
-    uv_short: UV
-    solar_radiation: Solar Radiation
-    brightness: Brightness
-    solar_radiation_and_brightness: Solar Radiation & Brightness
-    lightning: Lightning
-    lightning_activity: Lightning Activity
-    last_lightning_strike: Last Lightning Strike
-    lightning_distance: Lightning Distance
-    lightning_strikes_1h: Lightning Strikes (1 h)
-    lightning_strikes_3h: Lightning Strikes (3 h)
-    conditions: Conditions
-    right_now: Right Now
-    sunrise: Sunrise
-    sunset: Sunset
-    low: Low
-    high: High
-    min: Min.
-    max: Max.
-    refreshed: Refreshed
+    dew_point: "Точка роси"
+    delta_t: "Дельта T"
+    humidity: "Вологість"
+    air_density: "Густина повітря"
+    pressure: "Тиск"
+    station_pressure: "Тиск на станції"
+    sea_level_pressure: "Тиск на рівні моря"
+    pressure_trend: "Тенденція тиску"
+    pressure_rising: "Тиск зростає"
+    pressure_steady: "Тиск сталий"
+    pressure_falling: "Тиск падає"
+    wind: "Вітер"
+    wind_average: "Середня швидкість вітру"
+    wind_gust: "Порив вітру"
+    wind_direction: "Напрямок вітру"
+    precipitation: "Опади"
+    precipitation_probability: "Ймовірність опадів"
+    precipitation_today: "Опади сьогодні"
+    precipitation_yesterday: "Опади вчора"
+    precipitation_duration_today: "Тривалість опадів сьогодні"
+    precipitation_duration_yesterday: "Тривалість опадів учора"
+    uv: "УФ-індекс"
+    uv_short: "УФ"
+    solar_radiation: "Сонячне випромінювання"
+    brightness: "Яскравість"
+    solar_radiation_and_brightness: "Сонячне випромінювання та яскравість"
+    lightning: "Блискавки"
+    lightning_activity: "Грозова активність"
+    last_lightning_strike: "Останній удар блискавки"
+    lightning_distance: "Відстань до блискавки"
+    lightning_strikes_1h: "Удари блискавки (1 год)"
+    lightning_strikes_3h: "Удари блискавки (3 год)"
+    conditions: "Погодні умови"
+    right_now: "Просто зараз"
+    sunrise: "Схід сонця"
+    sunset: "Захід сонця"
+    low: "Мінімум"
+    high: "Максимум"
+    min: "Мін."
+    max: "Макс."
+    refreshed: "Оновлено"
     deutsche_bahn_departures:
-      departures: Departures
-      time: Time
-      line: Line
-      destination: Destination
-      platform: Platform
-      delay: Delay
-      train: Train
-      on_time: On time
-      cancelled: Cancelled
-      minutes: m
-      refreshed: Refreshed
+      departures: "Відправлення"
+      time: "Час"
+      line: "Лінія"
+      destination: "Пункт призначення"
+      platform: "Платформа"
+      delay: "Затримка"
+      train: "Потяг"
+      on_time: "За розкладом"
+      cancelled: "Скасовано"
+      minutes: "хв"
+      refreshed: "Оновлено"
     simple_calendar:
       title: Календар
       ym_format: "%b %Y р."
       chinese_korean:
-        leap_format: Leap %{month_label}
-        leap_format_short: LM%{alt_month}
+        leap_format: "Вставний %{month_label}"
+        leap_format_short: "ВМ%{alt_month}"
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
         -
-        - M1
-        - M2
-        - M3
-        - M4
-        - M5
-        - M6
-        - M7
-        - M8
-        - M9
-        - M10
-        - M11
-        - M12
+        - "М1"
+        - "М2"
+        - "М3"
+        - "М4"
+        - "М5"
+        - "М6"
+        - "М7"
+        - "М8"
+        - "М9"
+        - "М10"
+        - "М11"
+        - "М12"
         date_labels:
         -
         - '1'
@@ -122,67 +122,67 @@ uk:
         - '29'
         - '30'
         heavenly_stems:
-        - Wood
-        - Wood
-        - Fire
-        - Fire
-        - Earth
-        - Earth
-        - Metal
-        - Metal
-        - Water
-        - Water
+        - "Дерево"
+        - "Дерево"
+        - "Вогонь"
+        - "Вогонь"
+        - "Земля"
+        - "Земля"
+        - "Метал"
+        - "Метал"
+        - "Вода"
+        - "Вода"
         earthly_branches:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
+        - "Щур"
+        - "Бик"
+        - "Тигр"
+        - "Кролик"
+        - "Дракон"
+        - "Змія"
+        - "Кінь"
+        - "Коза"
+        - "Мавпа"
+        - "Півень"
+        - "Собака"
+        - "Свиня"
         zodiac_animals:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
+        - "Щур"
+        - "Бик"
+        - "Тигр"
+        - "Кролик"
+        - "Дракон"
+        - "Змія"
+        - "Кінь"
+        - "Коза"
+        - "Мавпа"
+        - "Півень"
+        - "Собака"
+        - "Свиня"
         solar_terms:
-        - Minor Cold
-        - Major Cold
-        - Start of Spring
-        - Rain Water
-        - Awakening of Insects
-        - Spring Equinox
-        - Pure Brightness
-        - Grain Rain
-        - Start of Summer
-        - Grain Buds
-        - Grain in Ear
-        - Summer Solstice
-        - Minor Heat
-        - Major Heat
-        - Start of Autumn
-        - End of Heat
-        - White Dew
-        - Autumn Equinox
-        - Cold Dew
-        - Frost's Descent
-        - Start of Winter
-        - Minor Snow
-        - Major Snow
-        - Winter Solstice
+        - "Малі холоди"
+        - "Великі холоди"
+        - "Початок весни"
+        - "Дощова вода"
+        - "Пробудження комах"
+        - "Весняне рівнодення"
+        - "Ясність і чистота"
+        - "Хлібні дощі"
+        - "Початок літа"
+        - "Мале наповнення зерна"
+        - "Колосіння"
+        - "Літнє сонцестояння"
+        - "Мала спека"
+        - "Велика спека"
+        - "Початок осені"
+        - "Кінець спеки"
+        - "Біла роса"
+        - "Осіннє рівнодення"
+        - "Холодна роса"
+        - "Випадання інею"
+        - "Початок зими"
+        - "Малий сніг"
+        - "Великий сніг"
+        - "Зимове сонцестояння"
       japanese:
         rokuyo_terms:
         - 先勝
@@ -240,25 +240,25 @@ uk:
         - раджаб
         - шаабан
         - рамадан
-        - даввал
+        - "шавваль"
         - зу-ль-каада
         - зу-ль-хіджа
       bengali:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
         -
-        - Boishakh
-        - Joishtho
-        - Asharh
-        - Srabon
-        - Bhadro
-        - Ashwin
-        - Kartika
-        - Ogrohayon
-        - Poush
-        - Magh
-        - Falgun
-        - Choitro
+        - "Бойшакх"
+        - "Джойштхо"
+        - "Ашарх"
+        - "Срабон"
+        - "Бхадро"
+        - "Ашвін"
+        - "Картік"
+        - "Огрохайон"
+        - "Поуш"
+        - "Магх"
+        - "Фалґун"
+        - "Чойтро"
       indian:
         ym_format: ", %{month_label} %{alt_year}"
         month_labels:
@@ -276,28 +276,28 @@ uk:
         - магха
         - фальгуна
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value zero {{No connection}} one {{{$value :number} connection}} * {{{$value :number} connections}}"
-      forks: ".input {$value :number} .match $value zero {{No fork}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
-      and_more: and {$value :number} more
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.trmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      connections: ".input {$value :number} .match $value 0 {{Немає підключень}} one {{Підключень: {$value :number}}} * {{Підключень: {$value :number}}}"
+      forks: ".input {$value :number} .match $value 0 {{Немає форків}} one {{Форків: {$value :number}}} * {{Форків: {$value :number}}}"
+      installs: ".input {$value :number} .match $value 0 {{Немає встановлень}} one {{Встановлень: {$value :number}}} * {{Встановлень: {$value :number}}}"
+      and_more: "і ще {$value :number}"
+      error_keyword_title: "За запитом «{$keyword}» нічого не знайдено."
+      error_keyword_subtitle: "Спробуйте пошукати щось інше."
+      error_new_title: "Нових рецептів не знайдено."
+      error_new_subtitle: "Такого не мало статися."
+      error_self_title: "Ви ще не опублікували жодного рецепта."
+      error_self_subtitle: "Дізнайтеся, як опублікувати перший рецепт: https://help.trmnl.com/en/articles/9510536-private-plugins"
+      error_author_id_title: "Користувач #{$authorId} не опублікував жодного рецепта."
+      error_author_id_subtitle: "Рецептів із цим ID не знайдено."
+      error_recipe_ids_title: "ID рецепта не знайдено."
+      error_recipe_ids_subtitle: "Додайте ID рецепта, щоб почати."
     horizontal_world_clock:
-      name: World clock
+      name: "Світовий годинник"
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} → {$to :langNameList}"
     custom_next_holiday:
-      next_holiday: Next holiday
-      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
-      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
-      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
-      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
-    sun_chart: Sun Chart
+      next_holiday: "Наступне свято"
+      today_and_next: ".input {$nextDays :number} .match $nextDays 1 {{ {#mainLabel}Сьогодні{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Завтра — {$nextName}.{/subLabel} }}* {{ {#mainLabel}Сьогодні{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Наступне свято — {$nextName}. Днів до нього: {$nextDays}.{/subLabel} }}"
+      today_only: "{#mainLabel}Сьогодні{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays 1 {{ {#mainLabel}Завтра{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} дн. до свята{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      no_holidays: "{#subLabel}Додані свята закінчилися.{/subLabel}"
+    sun_chart: "Сонячний графік"
