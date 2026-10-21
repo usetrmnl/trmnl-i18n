@@ -1222,6 +1222,16 @@ uk:
       received: "Отримано:"
     missing_composition:
       message: "Композиції ще немає — плагін не відображатиметься на цьому пристрої, доки ви її не додасте."
+    outlook_meeting_rooms:
+      prompt: Looking for a meeting room?
+      request: Request access
+      approval_note: "(needs approval from a Microsoft 365 admin)"
+      pending_title: Waiting for meeting room approval
+      pending_body: A Microsoft 365 admin needs to approve access to your company's rooms. Send them this link.
+      copy_admin_link: Copy link for my admin
+      check_again: Check again
+      granted: Meeting room access granted
+      admin_approved: Meeting room access approved. You can close this tab.
   recipes:
     index:
       newest_to_oldest: "Спочатку найновіші"
@@ -1266,6 +1276,10 @@ uk:
       plugin_setting:
         ai_coauthored: "Співавторство ШІ"
         recipe_overview: "Опис для індексації пошуковими системами"
+      user:
+        anthropic_api_key: Anthropic API key
+        openrouter_api_key: OpenRouter API key
+        tavily_api_key: Tavily API key
     errors:
       models:
         account_membership:
@@ -1288,6 +1302,8 @@ uk:
             recipe_overview:
               too_few_words: "має містити щонайменше %{count} слів або бути порожнім"
           async_polling_callback_url_missing: "Для асинхронного опитування додайте {{ callback_url }} до URL опитування, щоб ваш сервер знав, куди надсилати дані."
+        user:
+          api_key_prefix: must start with %{prefix}. Clear the field if your browser filled it in.
   apps:
     core:
       public:

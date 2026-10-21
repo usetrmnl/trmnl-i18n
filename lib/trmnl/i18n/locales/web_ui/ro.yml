@@ -1199,6 +1199,16 @@ ro:
       received: 'Primit:'
     missing_composition:
       message: Nu există încă o compoziție. Adaugă una pentru ca acest plugin să apară pe dispozitiv.
+    outlook_meeting_rooms:
+      prompt: Looking for a meeting room?
+      request: Request access
+      approval_note: "(needs approval from a Microsoft 365 admin)"
+      pending_title: Waiting for meeting room approval
+      pending_body: A Microsoft 365 admin needs to approve access to your company's rooms. Send them this link.
+      copy_admin_link: Copy link for my admin
+      check_again: Check again
+      granted: Meeting room access granted
+      admin_approved: Meeting room access approved. You can close this tab.
   recipes:
     index:
       newest_to_oldest: De la cel mai nou la cel mai vechi
@@ -1242,6 +1252,10 @@ ro:
       plugin_setting:
         ai_coauthored: Realizat cu ajutorul AI
         recipe_overview: Descriere pentru motoarele de căutare
+      user:
+        anthropic_api_key: Anthropic API key
+        openrouter_api_key: OpenRouter API key
+        tavily_api_key: Tavily API key
     errors:
       models:
         account_membership:
@@ -1264,6 +1278,8 @@ ro:
             recipe_overview:
               too_few_words: trebuie să conțină cel puțin %{count} cuvinte sau să rămână gol
           async_polling_callback_url_missing: Async Polling needs {{ callback_url }} in the Polling URL, so your server knows where to send the data.
+        user:
+          api_key_prefix: must start with %{prefix}. Clear the field if your browser filled it in.
   apps:
     core:
       public:

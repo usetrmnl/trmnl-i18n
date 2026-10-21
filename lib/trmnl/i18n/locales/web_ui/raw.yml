@@ -1176,6 +1176,16 @@ raw:
       received: plugin_settings.test_request.received
     missing_composition:
       message: plugin_settings.missing_composition.message
+    outlook_meeting_rooms:
+      prompt: plugin_settings.outlook_meeting_rooms.prompt
+      request: plugin_settings.outlook_meeting_rooms.request
+      approval_note: plugin_settings.outlook_meeting_rooms.approval_note
+      pending_title: plugin_settings.outlook_meeting_rooms.pending_title
+      pending_body: plugin_settings.outlook_meeting_rooms.pending_body
+      copy_admin_link: plugin_settings.outlook_meeting_rooms.copy_admin_link
+      check_again: plugin_settings.outlook_meeting_rooms.check_again
+      granted: plugin_settings.outlook_meeting_rooms.granted
+      admin_approved: plugin_settings.outlook_meeting_rooms.admin_approved
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -1218,6 +1228,10 @@ raw:
       plugin_setting:
         ai_coauthored: activerecord.attributes.plugin_setting.ai_coauthored
         recipe_overview: activerecord.attributes.plugin_setting.recipe_overview
+      user:
+        anthropic_api_key: activerecord.attributes.user.anthropic_api_key
+        openrouter_api_key: activerecord.attributes.user.openrouter_api_key
+        tavily_api_key: activerecord.attributes.user.tavily_api_key
     errors:
       models:
         account_membership:
@@ -1240,6 +1254,8 @@ raw:
             recipe_overview:
               too_few_words: activerecord.errors.models.plugin_setting.attributes.recipe_overview.too_few_words
           async_polling_callback_url_missing: activerecord.errors.models.plugin_setting.async_polling_callback_url_missing
+        user:
+          api_key_prefix: activerecord.errors.models.user.api_key_prefix
   apps:
     core:
       public:
