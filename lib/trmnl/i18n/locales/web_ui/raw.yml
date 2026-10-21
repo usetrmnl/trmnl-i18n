@@ -247,6 +247,9 @@ raw:
       byok_title: account.ai_agent_settings.byok_title
       byok_hint: account.ai_agent_settings.byok_hint
       model_hosted: account.ai_agent_settings.model_hosted
+      earn_credits_title: account.ai_agent_settings.earn_credits_title
+      earn_credits_hint: account.ai_agent_settings.earn_credits_hint
+      earn_credits_link: account.ai_agent_settings.earn_credits_link
     shared_accounts:
       title: account.shared_accounts.title
       hint: account.shared_accounts.hint
@@ -1186,6 +1189,25 @@ raw:
       check_again: plugin_settings.outlook_meeting_rooms.check_again
       granted: plugin_settings.outlook_meeting_rooms.granted
       admin_approved: plugin_settings.outlook_meeting_rooms.admin_approved
+    recipe_review:
+      title: plugin_settings.recipe_review.title
+      modal_title: plugin_settings.recipe_review.modal_title
+      modal_intro: plugin_settings.recipe_review.modal_intro
+      page_intro: plugin_settings.recipe_review.page_intro
+      how_it_works: plugin_settings.recipe_review.how_it_works
+      ask: plugin_settings.recipe_review.ask
+      ask_again: plugin_settings.recipe_review.ask_again
+      note_label: plugin_settings.recipe_review.note_label
+      note_placeholder: plugin_settings.recipe_review.note_placeholder
+      open: plugin_settings.recipe_review.open
+      answered: plugin_settings.recipe_review.answered
+      read: plugin_settings.recipe_review.read
+      your_note: plugin_settings.recipe_review.your_note
+      trmy: plugin_settings.recipe_review.trmy
+      failed: plugin_settings.recipe_review.failed
+      empty: plugin_settings.recipe_review.empty
+      rate_limited: plugin_settings.recipe_review.rate_limited
+      back: plugin_settings.recipe_review.back
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -2170,6 +2192,12 @@ raw:
       subscribe_price: user_mailer.plus_trial_ending.subscribe_price
       subscribe_title: user_mailer.plus_trial_ending.subscribe_title
       trial_ends_html: user_mailer.plus_trial_ending.trial_ends_html
+    recipe_review_answered:
+      subject: user_mailer.recipe_review_answered.subject
+      greeting: user_mailer.recipe_review_answered.greeting
+      ready: user_mailer.recipe_review_answered.ready
+      read: user_mailer.recipe_review_answered.read
+      next: user_mailer.recipe_review_answered.next
   pages:
     flash_firmware:
       linux_warning: pages.flash_firmware.linux_warning
@@ -2642,6 +2670,7 @@ raw:
     used_up: ai_allowance.used_up
     topup_label: ai_allowance.topup_label
     topup_left: ai_allowance.topup_left
+    topup_credits_left: ai_allowance.topup_credits_left
   integration_overviews:
     alias: integration_overviews.alias
     apple_calendar: integration_overviews.apple_calendar
@@ -2749,6 +2778,9 @@ raw:
     new:
       success: ai_credit_topups.new.success
       unpaid: ai_credit_topups.new.unpaid
+    buy_credits: ai_credit_topups.buy_credits
+    credits_hint: ai_credit_topups.credits_hint
+    credits_line_item: ai_credit_topups.credits_line_item
   banners:
     got_it: banners.got_it
   byod_mac_address_banner_component:

@@ -269,6 +269,9 @@ pl:
       byok_title: Użyj własnego klucza
       byok_hint: Dodaj własny klucz, aby wybrać dowolny model. Agent będzie wtedy używał Twojego klucza zamiast limitu użycia.
       model_hosted: Add an OpenRouter or Anthropic key above to choose another model.
+      earn_credits_title: Earn up to %{credits} credits, free
+      earn_credits_hint: Share a photo, a review or a video of your TRMNL. We check it and add the credits.
+      earn_credits_link: Ways to earn
     shared_accounts:
       title: Konta udostępnione Tobie
       hint: Wybierz konto, aby zarządzać jego urządzeniami, playlistami i pluginami, albo je opuść.
@@ -1208,6 +1211,25 @@ pl:
       check_again: Check again
       granted: Meeting room access granted
       admin_approved: Meeting room access approved. You can close this tab.
+    recipe_review:
+      title: trmy's review
+      modal_title: Want a quick check before you submit?
+      modal_intro: Ultimately, the review is done by humans on our support team. To raise your chances of a quick and easy approval, we share our internal review agent, trmy. It runs your plugin through the trmnlp tests on TRMNL OG and TRMNL X, in landscape and portrait and with each option, to make sure it gives people a good experience. trmy replies on a page here, and we email you the link, usually within an hour.
+      page_intro: Ultimately, the review is done by humans on our support team. trmy, our internal review agent, runs your plugin through the trmnlp tests and points out what our reviewers usually ask about, so your approval goes quickly. When you're happy, submit, and a person on our team takes it from there.
+      how_it_works: How it works
+      ask: Ask trmy
+      ask_again: Ask trmy again
+      note_label: Anything trmy should look at? (optional)
+      note_placeholder: I made the X text bigger and fixed portrait.
+      open: trmy is checking your recipe. We'll email you when it's done.
+      answered: trmy has replied.
+      read: Read trmy's review
+      your_note: You asked
+      trmy: trmy
+      failed: trmy couldn't review this one. You can ask again, or submit when you're ready and a person on our team will look at it.
+      empty: You haven't asked trmy yet.
+      rate_limited: That's a lot of reviews for one day. Try again tomorrow.
+      back: Back to your plugin
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -2194,6 +2216,12 @@ pl:
       subscribe_price: "$%{monthly}/urządzenie/miesiąc lub $%{annual}/urządzenie/rok (2 miesiące gratis)."
       subscribe_title: Subskrybuj
       trial_ends_html: 'Uwaga — Twój okres próbny TRMNL+ kończy się <strong>%{date}</strong>. Aby nadal korzystać z funkcji Plus, masz dwie opcje:'
+    recipe_review_answered:
+      subject: trmy has reviewed %{name}
+      greeting: Hi,
+      ready: trmy, our internal review agent, finished checking %{name}.
+      read: Read its notes
+      next: When you're happy, submit it, and a person on our team will review it.
   pages:
     flash_firmware:
       linux_warning: Flashowanie z Linuksa często kończy się niepowodzeniem, ponieważ Chrome nie może otworzyć portu szeregowego. Dodaj użytkownika do grupy dialout (sudo usermod -aG dialout $USER), wyloguj się i zaloguj ponownie, a następnie spróbuj jeszcze raz. Jeśli to nie pomoże, użyj Chrome lub Edge na komputerze Mac albo z Windows.
@@ -2666,6 +2694,7 @@ pl:
     used_up: Wykorzystano cały limit użycia. __Doładuj go lub dodaj klucz__, aby kontynuować.
     topup_label: Kredyty z doładowania
     topup_left: Pozostało %{amount}
+    topup_credits_left: "%{credits} credits left"
   integration_overviews:
     alias: |-
       Twój własny obraz na wyświetlaczu ePapierowym TRMNL. Alias jest przeznaczony dla osób, które przygotowują ekrany gdzie indziej, np. skryptem na domowym serwerze. Wklej pełny adres URL obrazu, a urządzenie pobierze go bezpośrednio spod tego adresu, więc zadziała również lokalny URL, np. http://localhost:4567/image.png.
@@ -3061,6 +3090,9 @@ pl:
     new:
       success: Limit użycia został dodany do Twojego konta.
       unpaid: Płatność nie została zakończona, więc limit użycia nie został dodany.
+    buy_credits: "%{credits} credits · %{price}"
+    credits_hint: A plugin takes about 5 credits. Bought credits last 3 months. Checkout adds a service fee for card and provider costs.
+    credits_line_item: "%{credits} TRMNL AI credits"
   banners:
     got_it: Rozumiem
   byod_mac_address_banner_component:
