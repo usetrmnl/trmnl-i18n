@@ -2671,7 +2671,6 @@ it:
     used: "%{percent}% used"
     used_up: You used all of your usage credits. __Top up or add a key__ to continue.
     topup_label: Top-up credits
-    topup_left: "%{amount} left"
     topup_credits_left: "%{credits} credits left"
   integration_overviews:
     alias: |-
@@ -3059,9 +3058,6 @@ it:
 
       Connect with the Google account that owns your channel (managers of a shared channel can't connect it), then choose a lookback of 7, 28, 90 or 365 days. Run more than 1 channel? Add the plugin once per channel and name each one so you can tell them apart.
   ai_credit_topups:
-    buy: Add %{amount}
-    hint: Credits last 3 months. Checkout adds a service fee for card and provider costs.
-    credit_line_item: TRMNL AI credit
     fee_line_item: Service fee
     create:
       unknown_amount: Pick one of the top-up amounts.
