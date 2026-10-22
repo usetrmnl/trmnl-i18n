@@ -261,6 +261,9 @@ ro:
       byok_title: Folosește propria cheie
       byok_hint: Adaugă propria cheie pentru a alege orice model. Agentul va folosi cheia ta în locul creditelor de utilizare.
       model_hosted: Adaugă mai sus o cheie OpenRouter sau Anthropic pentru a alege alt model.
+      earn_credits_title: Earn up to %{credits} credits, free
+      earn_credits_hint: Share a photo, a review or a video of your TRMNL. We check it and add the credits.
+      earn_credits_link: Ways to earn
     shared_accounts:
       title: Conturi partajate cu tine
       hint: Alege un cont pentru a-i gestiona dispozitivele, listele de redare și pluginurile sau renunță la acces.
@@ -1209,6 +1212,25 @@ ro:
       check_again: Check again
       granted: Meeting room access granted
       admin_approved: Meeting room access approved. You can close this tab.
+    recipe_review:
+      title: trmy's review
+      modal_title: Want a quick check before you submit?
+      modal_intro: Ultimately, the review is done by humans on our support team. To raise your chances of a quick and easy approval, we share our internal review agent, trmy. It runs your plugin through the trmnlp tests on TRMNL OG and TRMNL X, in landscape and portrait and with each option, to make sure it gives people a good experience. trmy replies on a page here, and we email you the link, usually within an hour.
+      page_intro: Ultimately, the review is done by humans on our support team. trmy, our internal review agent, runs your plugin through the trmnlp tests and points out what our reviewers usually ask about, so your approval goes quickly. When you're happy, submit, and a person on our team takes it from there.
+      how_it_works: How it works
+      ask: Ask trmy
+      ask_again: Ask trmy again
+      note_label: Anything trmy should look at? (optional)
+      note_placeholder: I made the X text bigger and fixed portrait.
+      open: trmy is checking your recipe. We'll email you when it's done.
+      answered: trmy has replied.
+      read: Read trmy's review
+      your_note: You asked
+      trmy: trmy
+      failed: trmy couldn't review this one. You can ask again, or submit when you're ready and a person on our team will look at it.
+      empty: You haven't asked trmy yet.
+      rate_limited: That's a lot of reviews for one day. Try again tomorrow.
+      back: Back to your plugin
   recipes:
     index:
       newest_to_oldest: De la cel mai nou la cel mai vechi
@@ -2213,6 +2235,12 @@ ro:
       subscribe_price: "%{monthly} $/dispozitiv/lună sau %{annual} $/dispozitiv/an (2 luni gratuite)."
       subscribe_title: Abonează-te
       trial_ends_html: 'Perioada de probă TRMNL+ se încheie la <strong>%{date}</strong>. Ai două opțiuni pentru a păstra beneficiile Plus:'
+    recipe_review_answered:
+      subject: trmy has reviewed %{name}
+      greeting: Hi,
+      ready: trmy, our internal review agent, finished checking %{name}.
+      read: Read its notes
+      next: When you're happy, submit it, and a person on our team will review it.
   pages:
     flash_firmware:
       linux_warning: Instalarea firmware-ului din Linux eșuează adesea deoarece Chrome nu poate deschide portul serial. Adaugă utilizatorul în grupul dialout (sudo usermod -aG dialout $USER), deconectează-te și conectează-te din nou, apoi reîncearcă. Dacă problema persistă, folosește Chrome sau Edge pe un Mac ori un PC cu Windows.
@@ -2687,6 +2715,7 @@ ro:
     used_up: Ai consumat toate creditele de utilizare. __Reîncarcă sau adaugă o cheie__ pentru a continua.
     topup_label: Credite cumpărate
     topup_left: "%{amount} rămase"
+    topup_credits_left: "%{credits} credits left"
   integration_overviews:
     alias: |-
       Propria imagine, pe un ecran TRMNL ePaper. Alias este pentru cei care își generează deja ecranele în altă parte, de exemplu printr-un script pe un server de acasă. Lipește URL-ul complet al imaginii, iar dispozitivul o preia direct de la acea adresă; funcționează și un URL local precum http://localhost:4567/image.png.
@@ -3082,6 +3111,9 @@ ro:
     new:
       success: Am adăugat creditele de utilizare în cont.
       unpaid: Plata nu a fost finalizată, deci nu am adăugat credite de utilizare.
+    buy_credits: "%{credits} credits · %{price}"
+    credits_hint: A plugin takes about 5 credits. Bought credits last 3 months. Checkout adds a service fee for card and provider costs.
+    credits_line_item: "%{credits} TRMNL AI credits"
   banners:
     got_it: Am înțeles
   byod_mac_address_banner_component:
