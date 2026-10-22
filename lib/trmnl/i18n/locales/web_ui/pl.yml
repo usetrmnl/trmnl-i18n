@@ -2693,7 +2693,6 @@ pl:
     used: "%{percent}% wykorzystano"
     used_up: Wykorzystano cały limit użycia. __Doładuj go lub dodaj klucz__, aby kontynuować.
     topup_label: Kredyty z doładowania
-    topup_left: Pozostało %{amount}
     topup_credits_left: "%{credits} credits left"
   integration_overviews:
     alias: |-
@@ -3081,9 +3080,6 @@ pl:
 
       Połącz konto Google będące właścicielem kanału — menedżerowie współdzielonego kanału nie mogą go połączyć — a następnie wybierz zakres 7, 28, 90 lub 365 dni. Prowadzisz więcej niż 1 kanał? Dodaj plugin osobno dla każdego i nazwij je tak, aby łatwo je odróżnić.
   ai_credit_topups:
-    buy: Dodaj %{amount}
-    hint: Kredyty są ważne przez 3 miesiące. Do płatności doliczana jest opłata serwisowa pokrywająca koszty karty i dostawcy.
-    credit_line_item: Kredyt TRMNL AI
     fee_line_item: Opłata serwisowa
     create:
       unknown_amount: Wybierz jedną z kwot doładowania.
