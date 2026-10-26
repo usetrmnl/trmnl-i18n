@@ -748,6 +748,15 @@ sl:
       workspace_ready: Vaš delovni prostor je nastavljen po vaših željah.
       zoom_in: Približaj
       zoom_out: Oddalji
+      script_run:
+        running: Running script…
+        ran:
+          one: Script ran · %{count} variable
+          other: Script ran · %{count} variables
+        failed: Script failed. See JS Logs.
+        waits_for_webhook: Saved. Runs on your next webhook.
+        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
+        expired: Script still running. Reload to see new variables.
     ai_assistant_inline:
       model_locked: Your AI model is set by TRMNL
       composition_prefill: Make this plugin Vestaboard friendly
@@ -832,6 +841,7 @@ sl:
       next_render: Znova se izriše %{time}
       render_overdue: Izris zamuja od %{time}
       no_next_render: Do takrat ni izrisa, %{reason}
+      hold_screen: Hold this screen
     create:
       success: Seznam predvajanja posodobljen
       error: Posodobitev seznama predvajanja ni uspela
@@ -912,6 +922,9 @@ sl:
       window_option: "%{count}h"
       render_marker: Renders
       asleep_window: Asleep %{from} → %{to} (%{duration})
+    hold:
+      success: Held. Your device shows this screen at its next refresh.
+      unavailable: This screen cannot be held.
   plugins:
     index:
       title: Vtičniki
