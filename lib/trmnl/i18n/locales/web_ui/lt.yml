@@ -723,6 +723,15 @@ lt:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
+      script_run:
+        running: Running script…
+        ran:
+          one: Script ran · %{count} variable
+          other: Script ran · %{count} variables
+        failed: Script failed. See JS Logs.
+        waits_for_webhook: Saved. Runs on your next webhook.
+        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
+        expired: Script still running. Reload to see new variables.
     ai_assistant_inline:
       model_locked: Your AI model is set by TRMNL
       composition_prefill: Make this plugin Vestaboard friendly
@@ -805,6 +814,7 @@ lt:
       next_render: Renders again %{time}
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
+      hold_screen: Hold this screen
     create:
       success: Grojaraštis atnaujintas
       error: Nepavyko atnaujinti grojaraščio
@@ -882,6 +892,9 @@ lt:
       window_option: "%{count}h"
       render_marker: Renders
       asleep_window: Asleep %{from} → %{to} (%{duration})
+    hold:
+      success: Held. Your device shows this screen at its next refresh.
+      unavailable: This screen cannot be held.
   plugins:
     index:
       title: Įskiepiai

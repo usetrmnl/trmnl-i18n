@@ -723,6 +723,15 @@ raw:
       workspace_ready: markups.visual_editor.workspace_ready
       zoom_in: markups.visual_editor.zoom_in
       zoom_out: markups.visual_editor.zoom_out
+      script_run:
+        running: markups.visual_editor.script_run.running
+        ran:
+          one: markups.visual_editor.script_run.ran.one
+          other: markups.visual_editor.script_run.ran.other
+        failed: markups.visual_editor.script_run.failed
+        waits_for_webhook: markups.visual_editor.script_run.waits_for_webhook
+        limited: markups.visual_editor.script_run.limited
+        expired: markups.visual_editor.script_run.expired
     ai_assistant_inline:
       model_locked: markups.ai_assistant_inline.model_locked
       composition_prefill: markups.ai_assistant_inline.composition_prefill
@@ -805,6 +814,7 @@ raw:
       next_render: playlist_items.playlist_item.next_render
       render_overdue: playlist_items.playlist_item.render_overdue
       no_next_render: playlist_items.playlist_item.no_next_render
+      hold_screen: playlist_items.playlist_item.hold_screen
     create:
       success: playlists.create.success
       error: playlists.create.error
@@ -882,6 +892,9 @@ raw:
       window_option: playlist_items.day_ahead.window_option
       render_marker: playlist_items.day_ahead.render_marker
       asleep_window: playlist_items.day_ahead.asleep_window
+    hold:
+      success: playlist_items.hold.success
+      unavailable: playlist_items.hold.unavailable
   plugins:
     index:
       title: plugins.index.title

@@ -722,6 +722,15 @@ de:
       workspace_ready: Dein Arbeitsbereich ist so eingerichtet, wie du es magst.
       zoom_in: Vergrößern
       zoom_out: Verkleinern
+      script_run:
+        running: Running script…
+        ran:
+          one: Script ran · %{count} variable
+          other: Script ran · %{count} variables
+        failed: Script failed. See JS Logs.
+        waits_for_webhook: Saved. Runs on your next webhook.
+        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
+        expired: Script still running. Reload to see new variables.
     ai_assistant_inline:
       model_locked: Dein KI-Modell wird von TRMNL festgelegt
       composition_prefill: Make this plugin Vestaboard friendly
@@ -804,6 +813,7 @@ de:
       next_render: Rendert erneut %{time}
       render_overdue: Ein Rendering ist seit %{time} überfällig
       no_next_render: Kein Rendering davor, %{reason}
+      hold_screen: Hold this screen
     create:
       success: Wiedergabeliste aktualisiert
       error: Fehler beim Aktualisieren der Wiedergabeliste
@@ -881,6 +891,9 @@ de:
       window_option: "%{count}h"
       render_marker: Rendere gerade
       asleep_window: Schläft %{from} → %{to} (%{duration})
+    hold:
+      success: Held. Your device shows this screen at its next refresh.
+      unavailable: This screen cannot be held.
   plugins:
     index:
       title: Erweiterungen

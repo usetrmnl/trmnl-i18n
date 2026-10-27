@@ -761,6 +761,15 @@ uk:
       workspace_ready: Робочий простір налаштовано на ваш смак.
       zoom_in: Збільшити
       zoom_out: Зменшити
+      script_run:
+        running: Running script…
+        ran:
+          one: Script ran · %{count} variable
+          other: Script ran · %{count} variables
+        failed: Script failed. See JS Logs.
+        waits_for_webhook: Saved. Runs on your next webhook.
+        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
+        expired: Script still running. Reload to see new variables.
     ai_assistant_inline:
       model_locked: Вашу модель ШІ встановлено TRMNL
       composition_prefill: Адаптуй цей плагін для Vestaboard
@@ -845,6 +854,7 @@ uk:
       next_render: Наступний рендеринг %{time}
       render_overdue: Рендеринг прострочено з %{time}
       no_next_render: До того часу рендерингу не буде, %{reason}
+      hold_screen: Hold this screen
     create:
       success: Плейлист оновлено
       error: Не вдалося оновити плейлист
@@ -924,6 +934,9 @@ uk:
       window_option: "%{count} год"
       render_marker: Рендеринг
       asleep_window: Сон %{from} → %{to} (%{duration})
+    hold:
+      success: Held. Your device shows this screen at its next refresh.
+      unavailable: This screen cannot be held.
   plugins:
     index:
       title: Плагіни

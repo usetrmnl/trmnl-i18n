@@ -742,6 +742,15 @@ ro:
       workspace_ready: Spațiul de lucru este configurat așa cum îți place.
       zoom_in: Mărește
       zoom_out: Micșorează
+      script_run:
+        running: Running script…
+        ran:
+          one: Script ran · %{count} variable
+          other: Script ran · %{count} variables
+        failed: Script failed. See JS Logs.
+        waits_for_webhook: Saved. Runs on your next webhook.
+        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
+        expired: Script still running. Reload to see new variables.
     ai_assistant_inline:
       model_locked: Modelul AI este stabilit de TRMNL
       composition_prefill: Adaptează acest plugin pentru Vestaboard
@@ -825,6 +834,7 @@ ro:
       next_render: 'Generează din nou ecranul: %{time}'
       render_overdue: Generarea ecranului întârzie din %{time}
       no_next_render: Ecranul nu va fi generat înainte de acel moment, %{reason}
+      hold_screen: Hold this screen
     create:
       success: Listă de redare actualizată
       error: Actualizarea listei de redare a eșuat
@@ -903,6 +913,9 @@ ro:
       window_option: "%{count} h"
       render_marker: Ecrane generate
       asleep_window: În repaus %{from} → %{to} (%{duration})
+    hold:
+      success: Held. Your device shows this screen at its next refresh.
+      unavailable: This screen cannot be held.
   plugins:
     index:
       title: Pluginuri

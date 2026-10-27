@@ -723,6 +723,15 @@ zh-HK:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
+      script_run:
+        running: Running script…
+        ran:
+          one: Script ran · %{count} variable
+          other: Script ran · %{count} variables
+        failed: Script failed. See JS Logs.
+        waits_for_webhook: Saved. Runs on your next webhook.
+        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
+        expired: Script still running. Reload to see new variables.
     ai_assistant_inline:
       model_locked: Your AI model is set by TRMNL
       composition_prefill: Make this plugin Vestaboard friendly
@@ -805,6 +814,7 @@ zh-HK:
       next_render: 將於%{time}再次繪製
       render_overdue: 繪製任務自%{time}起已逾期
       no_next_render: 在此之前不會繪製，%{reason}
+      hold_screen: Hold this screen
     create:
       success: 已更新播放清單
       error: 更新播放清單時發生錯誤
@@ -882,6 +892,9 @@ zh-HK:
       window_option: "%{count}小時"
       render_marker: 繪製
       asleep_window: 睡眠中 %{from} → %{to} (%{duration})
+    hold:
+      success: Held. Your device shows this screen at its next refresh.
+      unavailable: This screen cannot be held.
   plugins:
     index:
       title: 外掛功能
