@@ -70,7 +70,7 @@ ro:
   unsaved_changes: Ai modificări nesalvate
   view: Vizualizează
   collaboration_request: Vrei să colaborezi?
-  collaboration_request_hint: Parteneriate, vânzări pentru grupuri, proiecte speciale — tu alegi.
+  collaboration_request_hint: Parteneriate, vânzări pentru grupuri sau proiecte speciale. Tu alegi.
   collaboration_request_cta: Să vorbim
   welcome: Bun venit
   time:
@@ -261,9 +261,9 @@ ro:
       byok_title: Folosește propria cheie
       byok_hint: Adaugă propria cheie pentru a alege orice model. Agentul va folosi cheia ta în locul creditelor de utilizare.
       model_hosted: Adaugă mai sus o cheie OpenRouter sau Anthropic pentru a alege alt model.
-      earn_credits_title: Earn up to %{credits} credits, free
-      earn_credits_hint: Share a photo, a review or a video of your TRMNL. We check it and add the credits.
-      earn_credits_link: Ways to earn
+      earn_credits_title: Primește gratuit până la %{credits} credite
+      earn_credits_hint: Distribuie o fotografie, o recenzie sau un videoclip cu TRMNL-ul tău. Le verificăm și îți adăugăm creditele.
+      earn_credits_link: Cum primești credite
     shared_accounts:
       title: Conturi partajate cu tine
       hint: Alege un cont pentru a-i gestiona dispozitivele, listele de redare și pluginurile sau renunță la acces.
@@ -659,7 +659,7 @@ ro:
       not_available: Înregistrarea jurnalelor în ClickHouse nu este încă activată în acest mediu.
       temporarily_unavailable: Jurnalele sunt temporar indisponibile. Încearcă din nou mai târziu.
       empty: Nu există încă jurnale.
-      expiry_notice: Jurnalele se păstrează două săptămâni și expiră automat — nu pot fi șterse manual aici.
+      expiry_notice: Jurnalele se șterg automat după două săptămâni. Nu le poți șterge manual aici.
       load_older: Mai vechi
       level: Nivel
   markups:
@@ -851,7 +851,7 @@ ro:
     set_preferences:
       success: Preferința listei de redare inteligente a fost actualizată
     refresh:
-      success: Se reîmprospătează — previzualizarea se actualizează la finalul generării ecranului
+      success: Se reîmprospătează. Previzualizarea se actualizează când ecranul este gata.
       placeholder: Configurează acest element din lista de redare înainte de a-l reîmprospăta
       global: Un plugin global își generează ecranul după un program comun pentru toți.
     status:
@@ -872,7 +872,7 @@ ro:
       skipped: Pluginul a cerut să fie omis.
       out_of_schedule: În afara programului stabilit pentru acest element.
       important_active: Un element important ocupă acum acest interval.
-      stale: Omiterea inteligentă sare peste acest element — ecranul său nu s-a actualizat de ceva timp.
+      stale: Omiterea inteligentă sare peste acest element deoarece ecranul nu s-a actualizat de ceva timp.
       pending: Primul ecran va fi generat la următoarea conectare a dispozitivului.
     schedule:
       always: Întotdeauna
@@ -1070,7 +1070,7 @@ ro:
       description_hint: O descriere scurtă a pluginului. Apare în rezultatele căutării dacă este publicat ca rețetă.
       description_placeholder: Următoarele plecări de trenuri
       max_refresh_rate: Interval minim de reîmprospătare
-      max_refresh_rate_hint: Se reîmprospătează la cerere, când dispozitivul se conectează — cel mult o dată la intervalul de mai jos. __Află mai multe__.
+      max_refresh_rate_hint: Se reîmprospătează când dispozitivul se conectează, respectând intervalul minim de mai jos. __Află mai multe__.
       recipe_step_acknowledge: Confirmă respectarea recomandărilor
       recipe_step_choose_visibility: Alege vizibilitatea
       recipe_best_practices_acknowledgement: Am citit și aplicat __recomandările__ pentru publicarea pluginurilor. Un membru al echipei TRMNL va analiza cu atenție contribuția mea și îmi va oferi feedback detaliat.
@@ -1103,7 +1103,7 @@ ro:
       use_different_account: Folosește alt cont
       error_summary_title: 'Corectează aceste câmpuri pentru a salva:'
       lat_lon_pick_place: Alege un loc din listă
-      lat_lon_no_matches: Niciun rezultat — încearcă un oraș sau un cod poștal ori lipește coordonate precum 33.74,-84.38
+      lat_lon_no_matches: Niciun rezultat. Încearcă un oraș, un cod poștal sau coordonate precum 33.74,-84.38
       lat_lon_placeholder: Caută un oraș sau un cod poștal ori introdu latitudine,longitudine
       new_title: Adaugă %{plugin}
       edit_title: "%{plugin} · %{name}"
@@ -1123,13 +1123,13 @@ ro:
       required_fields_missing: Completează %{fields} pentru a finaliza configurarea pluginului.
     add_to_playlist:
       success: Plugin adăugat în lista de redare
-    refresh_already_in_progress: O reîmprospătare este deja în curs — ecranul se va actualiza în curând.
+    refresh_already_in_progress: Se reîmprospătează deja. Ecranul se va actualiza în curând.
     remote_select:
       awaiting_connection: Conectează contul în secțiunea OAuth de mai sus, apoi reîncarcă pagina.
-      connection_broken: Conexiunea OAuth nu funcționează — reconecteaz-o în secțiunea OAuth, apoi reîncarcă pagina.
-      unavailable: Opțiunile nu s-au încărcat — consultă jurnalele pluginului pentru detalii.
-      credentials_rejected: Datele de autentificare au fost respinse — verifică-le și reîncarcă pagina.
-      no_homey: Nu s-a găsit niciun Homey în acest cont Athom — adaugă unul în aplicația Homey, apoi reîncarcă pagina.
+      connection_broken: Conexiunea OAuth nu funcționează. Reconectează contul în secțiunea OAuth, apoi reîncarcă pagina.
+      unavailable: Opțiunile nu s-au încărcat. Consultă jurnalele pluginului pentru detalii.
+      credentials_rejected: Datele de autentificare au fost respinse. Verifică-le și reîncarcă pagina.
+      no_homey: Nu s-a găsit niciun Homey în acest cont Athom. Adaugă unul în aplicația Homey, apoi reîncarcă pagina.
       mazevo_rooms_forbidden: Această cheie API nu poate lista sălile. Activează pentru ea grupul Building and Rooms Calls în Mazévo sau introdu mai jos ID-ul sălii.
       outlook_mailbox_unavailable: Microsoft nu poate deschide căsuța poștală a acestui cont. Poate fi inactivă, ștearsă sau găzduită pe serverul Exchange al organizației. Întreabă echipa IT sau conectează alt cont Microsoft.
     delete_mashup_warning:
@@ -1147,7 +1147,7 @@ ro:
       erroring_short: Acest plugin întâmpină o eroare.
       erroring_long: Pluginul întâmpină o eroare. Remediază problema pentru a reporni reîmprospătarea.
       reset_health: Resetează starea
-      async_pending: An async polling request is pending. Changing the strategy cancels it.
+      async_pending: O cerere de interogare asincronă este în așteptare. Schimbarea strategiei o anulează.
     inactive_references_banner:
       short: Pluginurile referențiate nu se sincronizează.
       long: 'Acest plugin folosește date de la pluginuri care nu apar în nicio listă de redare:'
@@ -1216,34 +1216,34 @@ ro:
     missing_composition:
       message: Nu există încă o compoziție. Adaugă una pentru ca acest plugin să apară pe dispozitiv.
     outlook_meeting_rooms:
-      prompt: Looking for a meeting room?
-      request: Request access
-      approval_note: "(needs approval from a Microsoft 365 admin)"
-      pending_title: Waiting for meeting room approval
-      pending_body: A Microsoft 365 admin needs to approve access to your company's rooms. Send them this link.
-      copy_admin_link: Copy link for my admin
-      check_again: Check again
-      granted: Meeting room access granted
-      admin_approved: Meeting room access approved. You can close this tab.
+      prompt: Cauți o sală de ședințe?
+      request: Solicită acces
+      approval_note: "(necesită aprobarea unui administrator Microsoft 365)"
+      pending_title: Se așteaptă aprobarea accesului la săli
+      pending_body: Un administrator Microsoft 365 trebuie să aprobe accesul la sălile companiei. Trimite-i acest link.
+      copy_admin_link: Copiază linkul pentru administrator
+      check_again: Verifică din nou
+      granted: Ai primit acces la sălile de ședințe
+      admin_approved: Accesul la sălile de ședințe a fost aprobat. Poți închide această filă.
     recipe_review:
-      title: trmy's review
-      modal_title: Want a quick check before you submit?
-      modal_intro: Ultimately, the review is done by humans on our support team. To raise your chances of a quick and easy approval, we share our internal review agent, trmy. It runs your plugin through the trmnlp tests on TRMNL OG and TRMNL X, in landscape and portrait and with each option, to make sure it gives people a good experience. trmy replies on a page here, and we email you the link, usually within an hour.
-      page_intro: Ultimately, the review is done by humans on our support team. trmy, our internal review agent, runs your plugin through the trmnlp tests and points out what our reviewers usually ask about, so your approval goes quickly. When you're happy, submit, and a person on our team takes it from there.
-      how_it_works: How it works
-      ask: Ask trmy
-      ask_again: Ask trmy again
-      note_label: Anything trmy should look at? (optional)
-      note_placeholder: I made the X text bigger and fixed portrait.
-      open: trmy is checking your recipe. We'll email you when it's done.
-      answered: trmy has replied.
-      read: Read trmy's review
-      your_note: You asked
+      title: Evaluarea lui trmy
+      modal_title: Vrei o verificare rapidă înainte de trimitere?
+      modal_intro: Pentru o aprobare mai rapidă, poți cere o verificare agentului nostru intern, trmy. Acesta rulează testele trmnlp pe TRMNL OG și TRMNL X, în orientările peisaj și portret, cu fiecare opțiune. Raportul apare aici, iar linkul îl primești prin e-mail, de obicei într-o oră. Evaluarea finală este făcută de echipa de asistență.
+      page_intro: trmy, agentul nostru intern, rulează testele trmnlp și semnalează problemele urmărite de obicei de evaluatori, pentru o aprobare mai rapidă. Când ești mulțumit de rezultat, trimite rețeta. Evaluarea finală este făcută de un membru al echipei de asistență.
+      how_it_works: Cum funcționează
+      ask: Cere evaluarea lui trmy
+      ask_again: Cere o nouă evaluare de la trmy
+      note_label: Ce ar trebui să verifice trmy? (opțional)
+      note_placeholder: Am mărit textul pentru TRMNL X și am corectat afișarea în orientarea portret.
+      open: trmy îți verifică rețeta. Te anunțăm prin e-mail când este gata.
+      answered: trmy a răspuns.
+      read: Citește evaluarea lui trmy
+      your_note: Ce ai cerut
       trmy: trmy
-      failed: trmy couldn't review this one. You can ask again, or submit when you're ready and a person on our team will look at it.
-      empty: You haven't asked trmy yet.
-      rate_limited: That's a lot of reviews for one day. Try again tomorrow.
-      back: Back to your plugin
+      failed: trmy nu a putut evalua rețeta. Încearcă din nou sau trimite-o când este gata, iar un membru al echipei o va verifica.
+      empty: Nu ai cerut încă o evaluare de la trmy.
+      rate_limited: Ai cerut prea multe evaluări astăzi. Încearcă din nou mâine.
+      back: Înapoi la pluginul tău
   recipes:
     index:
       newest_to_oldest: De la cel mai nou la cel mai vechi
@@ -1288,9 +1288,9 @@ ro:
         ai_coauthored: Realizat cu ajutorul AI
         recipe_overview: Descriere pentru motoarele de căutare
       user:
-        anthropic_api_key: Anthropic API key
-        openrouter_api_key: OpenRouter API key
-        tavily_api_key: Tavily API key
+        anthropic_api_key: Cheie API Anthropic
+        openrouter_api_key: Cheie API OpenRouter
+        tavily_api_key: Cheie API Tavily
     errors:
       models:
         account_membership:
@@ -1312,9 +1312,9 @@ ro:
           attributes:
             recipe_overview:
               too_few_words: trebuie să conțină cel puțin %{count} cuvinte sau să rămână gol
-          async_polling_callback_url_missing: Async Polling needs {{ callback_url }} in the Polling URL, so your server knows where to send the data.
+          async_polling_callback_url_missing: Interogarea asincronă necesită {{ callback_url }} în URL-ul de interogare, pentru ca serverul tău să știe unde să trimită datele.
         user:
-          api_key_prefix: must start with %{prefix}. Clear the field if your browser filled it in.
+          api_key_prefix: trebuie să înceapă cu %{prefix}. Golește câmpul dacă browserul l-a completat automat.
   apps:
     core:
       public:
@@ -1651,22 +1651,22 @@ ro:
           crosses_midnight: Rezervările nu pot continua după miezul nopții.
           copy:
             desk:
-              reserve_hint: Rezervă acest birou — nu ai nevoie de cont.
+              reserve_hint: Rezervă acest birou fără cont.
               submit: Rezervă acest birou
             equipment:
-              reserve_hint: Rezervă acest echipament — nu ai nevoie de cont.
+              reserve_hint: Rezervă acest echipament fără cont.
               submit: Rezervă acest echipament
             other:
-              reserve_hint: Creează o rezervare — nu ai nevoie de cont.
+              reserve_hint: Creează o rezervare fără cont.
               submit: Rezervă acum
             people:
-              reserve_hint: Creează o programare — nu ai nevoie de cont.
+              reserve_hint: Creează o programare fără cont.
               submit: Programează această întâlnire
             space:
-              reserve_hint: Rezervă acest spațiu — nu ai nevoie de cont.
+              reserve_hint: Rezervă acest spațiu fără cont.
               submit: Rezervă acest spațiu
             vehicle:
-              reserve_hint: Rezervă acest vehicul — nu ai nevoie de cont.
+              reserve_hint: Rezervă acest vehicul fără cont.
               submit: Rezervă acest vehicul
           create_booking: Creează o rezervare
           duration: Durată
@@ -1679,7 +1679,7 @@ ro:
           overlap_time_only: Se suprapune cu o rezervare existentă, %{starts_at} - %{ends_at}.
           on_demand_notice: Disponibil acum, dar rezervarea în avans este restricționată.
           outside_booking_window: Alege o dată din intervalul de rezervare.
-          reserve_hint: Rezervă această sală — nu ai nevoie de cont.
+          reserve_hint: Rezervă această sală fără cont.
           title: Titlu
           today: Astăzi
           tomorrow: Mâine
@@ -1740,7 +1740,7 @@ ro:
           branding_docs: Cum să optimizezi fișierele și configurarea dispozitivului pentru cele mai bune rezultate.
           danger_zone: Acțiuni ireversibile
           dark_mode: Mod întunecat
-          dark_mode_hint: Generează ecranele dispozitivului în modul întunecat — fundal închis și text deschis.
+          dark_mode_hint: Generează ecrane cu fundal închis și text deschis.
           invalid_booking_window: Intervalul de rezervare nu este valid.
           invalid_time_format: Formatul orei nu este valid.
           public_bookings: Permite rezervarea pe loc
@@ -1770,9 +1770,9 @@ ro:
       billing:
         title: Facturare
         summary:
-          one: "%{count} resursă pe ecrane — %{total} pe lună"
-          other: "%{count} de resurse pe ecrane — %{total} pe lună"
-          few: "%{count} resurse pe ecrane — %{total} pe lună"
+          one: "%{count} resursă pe ecrane, %{total} pe lună"
+          other: "%{count} de resurse pe ecrane, %{total} pe lună"
+          few: "%{count} resurse pe ecrane, %{total} pe lună"
         incomplete: Plata nu a fost finalizată.
         active: Abonamentul Rezervări este activ.
         manage: Gestionează facturarea
@@ -2083,7 +2083,7 @@ ro:
       add_to_playlist: Adaugă în lista de redare
     update:
       success: Compoziția a fost actualizată
-      error: Fiecare secțiune necesită un plugin — alege unul pentru fiecare și salvează din nou.
+      error: Alege un plugin pentru fiecare secțiune și salvează din nou.
     health_status_banner:
       degraded_short: Această compoziție funcționează în stare degradată.
       degraded_long: Generarea ecranelor compoziției eșuează. Verifică pluginurile pentru a evita oprirea reîmprospătării.
@@ -2249,11 +2249,11 @@ ro:
       subscribe_title: Abonează-te
       trial_ends_html: 'Perioada de probă TRMNL+ se încheie la <strong>%{date}</strong>. Ai două opțiuni pentru a păstra beneficiile Plus:'
     recipe_review_answered:
-      subject: trmy has reviewed %{name}
-      greeting: Hi,
-      ready: trmy, our internal review agent, finished checking %{name}.
-      read: Read its notes
-      next: When you're happy, submit it, and a person on our team will review it.
+      subject: trmy a evaluat %{name}
+      greeting: Salut,
+      ready: trmy, agentul nostru intern, a terminat verificarea rețetei %{name}.
+      read: Citește observațiile
+      next: Când ești mulțumit de rezultat, trimite rețeta. Un membru al echipei o va evalua.
   pages:
     flash_firmware:
       linux_warning: Instalarea firmware-ului din Linux eșuează adesea deoarece Chrome nu poate deschide portul serial. Adaugă utilizatorul în grupul dialout (sudo usermod -aG dialout $USER), deconectează-te și conectează-te din nou, apoi reîncearcă. Dacă problema persistă, folosește Chrome sau Edge pe un Mac ori un PC cu Windows.
@@ -2297,7 +2297,7 @@ ro:
       after_create: apoi reîncarcă această pagină pentru a-l selecta. Dacă instalarea acoperă doar anumite repository-uri, adaugă mai întâi noul repository în setările GitHub.
       connect_different: Conectează altul
       create_repository: Creează unul pe GitHub
-      folder_hint_html: Lasă câmpul gol dacă repository-ul conține un singur plugin. Indică un folder pentru a păstra mai multe pluginuri în același repository — acest plugin va scrie în <code>&lt;folder&gt;/src/</code>, iar <code>trmnlp serve</code> funcționează din interiorul folderului.
+      folder_hint_html: Lasă câmpul gol dacă repository-ul conține un singur plugin. Pentru mai multe pluginuri, indică un folder. Acest plugin va scrie în <code>&lt;folder&gt;/src/</code>. Rulează <code>trmnlp serve</code> din acel folder.
       folder_label: Folder în repository
       folder_optional: "(opțional)"
       heading: Conectează „%{plugin}” la GitHub
@@ -2553,7 +2553,7 @@ ro:
         not_available: Urmărirea activității nu este încă activată în acest mediu.
         temporarily_unavailable: Urmărirea activității este temporar indisponibilă. Încearcă din nou mai târziu.
         empty_day: Nu s-a înregistrat activitate în această zi.
-        truncated: Zi aglomerată — se afișează primele %{limit} evenimente.
+        truncated: Zi aglomerată. Se afișează primele %{limit} evenimente.
         previous_day: Mai vechi
         next_day: Mai noi
         day_events:
@@ -2580,24 +2580,24 @@ ro:
         wrote: Reîmprospătare programată
         wrote_screen: Reîmprospătare programată pentru această dimensiune de ecran
         not_predicted: Nimic viitor de programat
-        source_missing: Omis — sursa ecranului a fost ștearsă
+        source_missing: Omis. Sursa ecranului a fost ștearsă
         mirror: Reîmprospătarea a fost delegată rețetei oglindite
         mirror_scheduled: Reîmprospătare programată pentru rețeta oglindită
-        mirror_throttled: În așteptare — rețeta oglindită s-a reîmprospătat cu câteva momente în urmă
+        mirror_throttled: În așteptare. Rețeta oglindită tocmai s-a reîmprospătat
         mirror_cold: S-a cerut rețetei oglindite să genereze ecranul la această dimensiune
         global_bootstrap: Se solicită primul ecran al acestui plugin partajat la această dimensiune
-        owner_mismatch: Omis — sursa aparține altui utilizator
+        owner_mismatch: Omis. Sursa aparține altui utilizator
         unhealthy: Suspendat după reîmprospătări eșuate repetat
         never_later: Deja programat mai devreme
-        refresh_overdue: În așteptare — o reîmprospătare din coadă întârzie
+        refresh_overdue: În așteptare. O reîmprospătare din coadă întârzie
         not_jit_schedulable: Se reîmprospătează după propriul program
         violates_minimum: Așteaptă expirarea intervalului minim de reîmprospătare
-        external_image: Omis — imaginea îi este trimisă, nu este generată
-        before_daily_slot: În așteptare — reîmprospătarea zilnică generează ecranul înainte de prima afișare după 00:15
-        daily_catch_up_started: Se aduce la zi — ecranul zilnic a fost generat înainte de reîmprospătarea de astăzi de la 00:15
-        daily_catch_up_declined: Aducere la zi omisă — dispozitivul nu a primit un ecran de așteptare, deci a păstrat ecranul curent în timpul generării
-        daily_catch_up_fresh_screen: Adus la zi — noul ecran zilnic a sosit
-        daily_catch_up_kept_screen: Aducerea la zi s-a încheiat — ecranul nu a sosit la timp, deci a rămas cel anterior
+        external_image: Omis. Imaginea este trimisă direct, fără generare
+        before_daily_slot: În așteptare. Ecranul se generează zilnic înainte de prima afișare după 00:15
+        daily_catch_up_started: Se actualizează. Ecranul zilnic a fost generat înainte de reîmprospătarea de astăzi de la 00:15
+        daily_catch_up_declined: Actualizare omisă. Dispozitivul nu a primit un ecran de așteptare și l-a păstrat pe cel curent în timpul generării
+        daily_catch_up_fresh_screen: Actualizat. Noul ecran zilnic a sosit
+        daily_catch_up_kept_screen: Actualizare încheiată. Noul ecran nu a sosit la timp, așa că a fost păstrat cel anterior
       render_statuses:
         ok: Ecran generat
         error: Generarea ecranului a eșuat
@@ -2623,7 +2623,7 @@ ro:
         data_fetch_error: datele nu au putut fi preluate de la sursă
         network_connect_error: conectarea la sursă a eșuat
         invalid_url: URL-ul sursei nu este valid
-        access_token_expired: tokenul de acces a expirat — reconectează pluginul
+        access_token_expired: tokenul de acces a expirat. Reconectează pluginul
         transform_error: transformarea datelor a eșuat
         liquid_syntax_error: codul de afișare conține o eroare de sintaxă
         size_too_large: răspunsul a fost prea mare
@@ -2644,8 +2644,8 @@ ro:
         served: Ecran trimis dispozitivului
         alias: Imagine Alias trimisă dispozitivului
         redirect: Redirecționare trimisă dispozitivului
-        empty_state: Ecran „Ești la zi!” trimis — nimic nou de afișat
-        no_content: Ecran „Ești la zi!” trimis — încă nu este nimic de afișat, deci dispozitivul se va conecta mai rar pentru a economisi bateria
+        empty_state: Ecran „Ești la zi!” trimis. Nimic nou de afișat
+        no_content: Ecran „Ești la zi!” trimis. Nu este nimic de afișat. Dispozitivul se va conecta mai rar pentru a economisi bateria
     next_check_in_due: Dispozitivul se va conecta în orice moment.
   doorkeeper:
     scopes:
@@ -2727,7 +2727,7 @@ ro:
     used: "%{percent}% utilizate"
     used_up: Ai consumat toate creditele de utilizare. __Reîncarcă sau adaugă o cheie__ pentru a continua.
     topup_label: Credite cumpărate
-    topup_credits_left: "%{credits} credits left"
+    topup_credits_left: "%{credits} credite rămase"
   integration_overviews:
     alias: |-
       Propria imagine, pe un ecran TRMNL ePaper. Alias este pentru cei care își generează deja ecranele în altă parte, de exemplu printr-un script pe un server de acasă. Lipește URL-ul complet al imaginii, iar dispozitivul o preia direct de la acea adresă; funcționează și un URL local precum http://localhost:4567/image.png.
@@ -2800,7 +2800,7 @@ ro:
     days_left_retirement: |-
       Cât de aproape ești de pensionare, pe un ecran TRMNL ePaper. Introdu data nașterii și vârsta la care intenționezi să te pensionezi. Ecranul afișează progresul procentual, săptămânile rămase și o bară care se umple odată cu trecerea anilor.
 
-      Numărarea în săptămâni face timpul mai concret — acesta este scopul. Adaugă-l în lista de redare ca un memento discret să dedici săptămânile disponibile lucrurilor care contează.
+      Vezi mai clar timpul rămas când îl numeri în săptămâni. Adaugă-l în lista de redare ca să îți amintești să dedici timp lucrurilor care contează.
     days_left_until: |-
       Numărătoare inversă până la orice dată, pe un ecran TRMNL ePaper. O lansare, o călătorie, un termen-limită, o nuntă. Setează data de început și de sfârșit, iar ecranul afișează zilele trecute, zilele rămase și o bară de progres.
 
@@ -3120,9 +3120,9 @@ ro:
     new:
       success: Am adăugat creditele de utilizare în cont.
       unpaid: Plata nu a fost finalizată, deci nu am adăugat credite de utilizare.
-    buy_credits: "%{credits} credits · %{price}"
-    credits_hint: A plugin takes about 5 credits. Bought credits last 3 months. Checkout adds a service fee for card and provider costs.
-    credits_line_item: "%{credits} TRMNL AI credits"
+    buy_credits: "%{credits} credite · %{price}"
+    credits_hint: Un plugin consumă aproximativ 5 credite. Creditele cumpărate sunt valabile 3 luni. La plată se adaugă un comision pentru costurile cardului și ale furnizorului.
+    credits_line_item: "%{credits} credite AI TRMNL"
   banners:
     got_it: Am înțeles
   byod_mac_address_banner_component:
