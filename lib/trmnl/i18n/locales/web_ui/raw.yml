@@ -310,6 +310,10 @@ raw:
       create: account.api_keys.create
       legacy_hint: account.api_keys.legacy_hint
       older_key: account.api_keys.older_key
+      device_key_hint: account.api_keys.device_key_hint
+      developer_edition_needed: account.api_keys.developer_edition_needed
+      upgrade: account.api_keys.upgrade
+      home_assistant_hint: account.api_keys.home_assistant_hint
     destroy:
       account_deleted: account.destroy.account_deleted
       account_deleted_refunded: account.destroy.account_deleted_refunded
@@ -542,6 +546,8 @@ raw:
       vestaboard_token_saved: devices.edit.vestaboard_token_saved
       vestaboard_token_missing: devices.edit.vestaboard_token_missing
       vestaboard_credentials_hint: devices.edit.vestaboard_credentials_hint
+      guest_mode_not_set: devices.edit.guest_mode_not_set
+      guest_mode_summary: devices.edit.guest_mode_summary
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -643,6 +649,8 @@ raw:
       expiry_notice: logs.index.expiry_notice
       load_older: logs.index.load_older
       level: logs.index.level
+      only_plugin: logs.index.only_plugin
+      show_all: logs.index.show_all
   markups:
     console_logs:
       js_logs: markups.console_logs.js_logs

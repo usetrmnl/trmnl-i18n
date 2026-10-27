@@ -341,7 +341,11 @@ uk:
       name: Назва
       create: Створити ключ API акаунта
       legacy_hint: Застарілий ключ. Має доступ лише до початкових кінцевих точок. Для нових можливостей створіть вище ключ API акаунта.
-      older_key: Старий ключ
+      older_key: Older key, used by the Home Assistant integration
+      device_key_hint: 'BYOD devices and mirror apps use the device API key, not an account key. Each device shows its own under Developer Perks:'
+      developer_edition_needed: API keys, also the one the Home Assistant integration needs, come with __Developer Edition__.
+      upgrade: Upgrade
+      home_assistant_hint: A Home Assistant dashboard needs no key. Use the Webhook URL from the __Home Assistant Screenshot__ plugin.
     destroy:
       account_deleted: Ваш акаунт і всі дані видалено.
       account_deleted_refunded: Ваш акаунт і всі дані видалено. Ваш $1 повернуто.
@@ -580,6 +584,8 @@ uk:
       vestaboard_token_saved: Збережено
       vestaboard_token_missing: Ще не задано, тому на табло нічого не надсилається
       vestaboard_credentials_hint: У застосунку Vestaboard відкрийте Settings, потім Advanced Settings, потім API. Створіть токен із дозволом Write і вставте його тут.
+      guest_mode_not_set: Not set
+      guest_mode_summary: "%{screen} for %{duration}"
     discover_persona:
       label: Персона й рекомендації
       disabled_hint: Вимкнено для TRMNL із дублюванням. Керуйте рекомендаціями на головному пристрої.
@@ -681,6 +687,8 @@ uk:
       expiry_notice: Журнали зберігаються два тижні й видаляються автоматично — ручного видалення тут немає.
       load_older: Завантажити старіші
       level: Рівень
+      only_plugin: Only logs from %{name}.
+      show_all: Show all logs
   markups:
     console_logs:
       js_logs: Журнали JS

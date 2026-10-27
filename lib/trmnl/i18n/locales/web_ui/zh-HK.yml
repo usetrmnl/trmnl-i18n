@@ -309,7 +309,11 @@ zh-HK:
       name: 名稱
       create: 建立帳戶API金鑰
       legacy_hint: 舊版金鑰。只能存取其原始端點。如需使用較新功能，請在上方建立帳戶API金鑰。
-      older_key: 較舊的金鑰
+      older_key: Older key, used by the Home Assistant integration
+      device_key_hint: 'BYOD devices and mirror apps use the device API key, not an account key. Each device shows its own under Developer Perks:'
+      developer_edition_needed: API keys, also the one the Home Assistant integration needs, come with __Developer Edition__.
+      upgrade: Upgrade
+      home_assistant_hint: A Home Assistant dashboard needs no key. Use the Webhook URL from the __Home Assistant Screenshot__ plugin.
     destroy:
       account_deleted: 你的帳戶及所有資料已被刪除。
       account_deleted_refunded: 你的帳戶及所有資料已被刪除，並已向你退還1美元。
@@ -542,6 +546,8 @@ zh-HK:
       vestaboard_token_saved: 已儲存
       vestaboard_token_missing: 尚未設定，因此不會傳送任何內容至看板
       vestaboard_credentials_hint: 在 Vestaboard 應用程式中，前往「Settings → Advanced Settings → API」。建立一個具備寫入 (Write) 權限的權杖並貼在此處。
+      guest_mode_not_set: Not set
+      guest_mode_summary: "%{screen} for %{duration}"
     discover_persona:
       label: 人格設定與探索
       disabled_hint: 鏡像TRMNL裝置無法使用此功能。請改為在主裝置上管理推薦項目。
@@ -643,6 +649,8 @@ zh-HK:
       expiry_notice: 記錄檔會保留兩週並自動過期刪除，無法在此手動刪除。
       load_older: 載入較舊的記錄
       level: 層級
+      only_plugin: Only logs from %{name}.
+      show_all: Show all logs
   markups:
     console_logs:
       js_logs: JS記錄檔
