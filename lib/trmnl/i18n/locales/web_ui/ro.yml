@@ -325,7 +325,11 @@ ro:
       name: Nume
       create: Creează o cheie API pentru cont
       legacy_hint: Cheie veche. Are acces doar la endpointurile inițiale. Pentru funcțiile mai noi, creează mai sus o cheie API pentru cont.
-      older_key: Cheie veche
+      older_key: Older key, used by the Home Assistant integration
+      device_key_hint: 'BYOD devices and mirror apps use the device API key, not an account key. Each device shows its own under Developer Perks:'
+      developer_edition_needed: API keys, also the one the Home Assistant integration needs, come with __Developer Edition__.
+      upgrade: Upgrade
+      home_assistant_hint: A Home Assistant dashboard needs no key. Use the Webhook URL from the __Home Assistant Screenshot__ plugin.
     destroy:
       account_deleted: Contul și toate datele tale au fost șterse.
       account_deleted_refunded: Contul și toate datele tale au fost șterse. Ți s-a rambursat 1 $.
@@ -561,6 +565,8 @@ ro:
       vestaboard_token_saved: Salvat
       vestaboard_token_missing: Tokenul nu este încă setat, deci nu se trimite nimic pe panou
       vestaboard_credentials_hint: În aplicația Vestaboard, deschide Settings, apoi Advanced Settings și API. Creează un token cu drept de scriere (Write) și lipește-l aici.
+      guest_mode_not_set: Not set
+      guest_mode_summary: "%{screen} for %{duration}"
     discover_persona:
       label: Profil de utilizare și Descoperă
       disabled_hint: Dezactivat pentru dispozitivele TRMNL oglindite. Gestionează recomandările pe dispozitivul principal.
@@ -662,6 +668,8 @@ ro:
       expiry_notice: Jurnalele se șterg automat după două săptămâni. Nu le poți șterge manual aici.
       load_older: Mai vechi
       level: Nivel
+      only_plugin: Only logs from %{name}.
+      show_all: Show all logs
   markups:
     console_logs:
       js_logs: Jurnale JS

@@ -309,7 +309,11 @@ cs:
       name: Name
       create: Create account API key
       legacy_hint: Legacy key. It reaches only its original endpoints. For anything newer, create an account API key above.
-      older_key: Older key
+      older_key: Older key, used by the Home Assistant integration
+      device_key_hint: 'BYOD devices and mirror apps use the device API key, not an account key. Each device shows its own under Developer Perks:'
+      developer_edition_needed: API keys, also the one the Home Assistant integration needs, come with __Developer Edition__.
+      upgrade: Upgrade
+      home_assistant_hint: A Home Assistant dashboard needs no key. Use the Webhook URL from the __Home Assistant Screenshot__ plugin.
     destroy:
       account_deleted: Your account and all data were deleted.
       account_deleted_refunded: Your account and all data were deleted. Your $1 was refunded.
@@ -542,6 +546,8 @@ cs:
       vestaboard_token_saved: Saved
       vestaboard_token_missing: Not set yet, so nothing is sent to the board
       vestaboard_credentials_hint: In the Vestaboard app, open Settings, then Advanced Settings, then API. Create a token with Write access and paste it here.
+      guest_mode_not_set: Not set
+      guest_mode_summary: "%{screen} for %{duration}"
     discover_persona:
       label: Persona & Objevovat
       disabled_hint: Zakázáno pro zrcadlené TRMNL. Doporučení spravujte na hlavním zařízení.
@@ -642,6 +648,8 @@ cs:
       expiry_notice: Logs are kept for two weeks and expire automatically — there's no manual delete here.
       load_older: Load older
       level: Level
+      only_plugin: Only logs from %{name}.
+      show_all: Show all logs
   markups:
     console_logs:
       js_logs: JS Protokoly
