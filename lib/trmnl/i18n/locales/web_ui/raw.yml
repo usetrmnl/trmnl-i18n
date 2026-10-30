@@ -880,7 +880,9 @@ raw:
         hide: playlist_items.bulk_actions.success.hide
         show: playlist_items.bulk_actions.success.show
         destroy: playlist_items.bulk_actions.success.destroy
+        refresh_interval: playlist_items.bulk_actions.success.refresh_interval
       error: playlist_items.bulk_actions.error
+      refresh_rate: playlist_items.bulk_actions.refresh_rate
     smart_skip_modal:
       title: playlist_items.smart_skip_modal.title
       apply: playlist_items.smart_skip_modal.apply
@@ -917,6 +919,7 @@ raw:
       collapse: plugins.index.collapse
       categories: plugins.index.categories
       discover: plugins.index.discover
+      you_may_also_like: plugins.index.you_may_also_like
     search:
       placeholder: plugins.search.placeholder
     my:
