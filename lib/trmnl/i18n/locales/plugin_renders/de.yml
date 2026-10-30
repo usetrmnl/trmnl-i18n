@@ -6,7 +6,7 @@ de:
     calendars:
       no_upcoming_events: Keine bevorstehenden Ereignisse
       no_events_today: Heute keine Ereignisse
-      all_day: all-day
+      all_day: ganztägig
     days_left_year:
       title: Verbleibende Tage dieses Jahr
       days_passed: Vergangene Tage
@@ -119,20 +119,20 @@ de:
         conditions:
           clear: Klar
           cloudy: Bewölkt
-          extreme_rain: Extreme Rain
+          extreme_rain: Extremer Regen
           foggy: Neblig
-          heavy_rain: Heavy Rain
-          light_rain: Light Rain
-          moderate_rain: Moderate Rain
+          heavy_rain: Starker Regen
+          light_rain: Leichter Regen
+          moderate_rain: Mäßiger Regen
           partly_cloudy: Teilweise bewölkt
           rain_likely: Regen wahrscheinlich
           rain_possible: Regen möglich
           snow: Schnee
-          snow_likely: Snow Likely
+          snow_likely: Schnee wahrscheinlich
           snow_possible: Schnee möglich
           thunderstorms_likely: Gewitter wahrscheinlich
           thunderstorms_possible: Gewitter möglich
-          very_heavy_rain: Very Heavy Rain
+          very_heavy_rain: Sehr starker Regen
           very_light_rain: Sehr leichter Regen
           windy: Windig
           wintry_mix_likely: Winterlicher Mix wahrscheinlich
@@ -289,8 +289,8 @@ de:
         - code: 1282
           day: Gewitter mit Schnee
           night: Gewitter mit Schnee
-      dew_point: Dew Point
-      dew_point_short: Dew Pt
+      dew_point: Taupunkt
+      dew_point_short: Taup.
     place_of_the_day:
       title: Ort des Tages
       wikipedia_credit: Wikipedia CC BY-SA
@@ -347,8 +347,8 @@ de:
       updated_at: Aktualisiert %{time}
     ai_dashboard:
       out_of_credit:
-        title: Out of AI credit
-        description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+        title: AI-Guthaben aufgebraucht
+        description: Abonniere TRMNL+ für AI-Guthaben, oder lade dein Konto auf, um dieses Plugin zu nutzen.
     days_left_until:
-      today: 'Today: %{date}'
-      target: 'Target: %{date}'
+      today: 'Heute: %{date}'
+      target: 'Ziel: %{date}'
