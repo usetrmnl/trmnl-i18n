@@ -207,6 +207,18 @@ raw:
         agent:
           title: account.index.sections.agent.title
           hint: account.index.sections.agent.hint
+        emails:
+          title: account.index.sections.emails.title
+          hint: account.index.sections.emails.hint
+      author_digest: account.index.author_digest
+      author_digest_hint: account.index.author_digest_hint
+      community_emails: account.index.community_emails
+      community_emails_hint: account.index.community_emails_hint
+      emails_on_for: account.index.emails_on_for
+      low_battery_emails: account.index.low_battery_emails
+      low_battery_emails_off: account.index.low_battery_emails_off
+      health_alerts: account.index.health_alerts
+      health_alerts_off: account.index.health_alerts_off
     update:
       success: account.update.success
     reset_api_key:
@@ -2222,6 +2234,57 @@ raw:
       ready: user_mailer.recipe_review_answered.ready
       read: user_mailer.recipe_review_answered.read
       next: user_mailer.recipe_review_answered.next
+    author_digest:
+      subject_prefix: user_mailer.author_digest.subject_prefix
+      greeting: user_mailer.author_digest.greeting
+      greeting_without_name: user_mailer.author_digest.greeting_without_name
+      intro: user_mailer.author_digest.intro
+      needs_a_fix: user_mailer.author_digest.needs_a_fix
+      failing:
+        one: user_mailer.author_digest.failing.one
+        other: user_mailer.author_digest.failing.other
+      open_plugin: user_mailer.author_digest.open_plugin
+      others_failing:
+        one: user_mailer.author_digest.others_failing.one
+        other: user_mailer.author_digest.others_failing.other
+      uninstalls: user_mailer.author_digest.uninstalls
+      reasons:
+        one: user_mailer.author_digest.reasons.one
+        other: user_mailer.author_digest.reasons.other
+      creator_fund: user_mailer.author_digest.creator_fund
+      qualified: user_mailer.author_digest.qualified
+      near_miss_intro: user_mailer.author_digest.near_miss_intro
+      near_miss_counts: user_mailer.author_digest.near_miss_counts
+      share_text: user_mailer.author_digest.share_text
+      post_on_x: user_mailer.author_digest.post_on_x
+      post_on_bluesky: user_mailer.author_digest.post_on_bluesky
+      post_on_reddit: user_mailer.author_digest.post_on_reddit
+      numbers: user_mailer.author_digest.numbers
+      installs_line:
+        one: user_mailer.author_digest.installs_line.one
+        other: user_mailer.author_digest.installs_line.other
+      top_growers: user_mailer.author_digest.top_growers
+      top_layouts: user_mailer.author_digest.top_layouts
+      see_analytics: user_mailer.author_digest.see_analytics
+      sign_off: user_mailer.author_digest.sign_off
+      footer: user_mailer.author_digest.footer
+      headlines:
+        qualified: user_mailer.author_digest.headlines.qualified
+        nearest_goal:
+          one: user_mailer.author_digest.headlines.nearest_goal.one
+          other: user_mailer.author_digest.headlines.nearest_goal.other
+        failing:
+          one: user_mailer.author_digest.headlines.failing.one
+          other: user_mailer.author_digest.headlines.failing.other
+        new_installs:
+          one: user_mailer.author_digest.headlines.new_installs.one
+          other: user_mailer.author_digest.headlines.new_installs.other
+        plugins_to_fix:
+          one: user_mailer.author_digest.headlines.plugins_to_fix.one
+          other: user_mailer.author_digest.headlines.plugins_to_fix.other
+        uninstall_reasons:
+          one: user_mailer.author_digest.headlines.uninstall_reasons.one
+          other: user_mailer.author_digest.headlines.uninstall_reasons.other
   pages:
     flash_firmware:
       linux_warning: pages.flash_firmware.linux_warning
@@ -2824,3 +2887,15 @@ raw:
   virtual_devices:
     create:
       byod_trial_converted: virtual_devices.create.byod_trial_converted
+  email_unsubscribes:
+    switches:
+      author_digest_enabled: email_unsubscribes.switches.author_digest_enabled
+      community_emails_enabled: email_unsubscribes.switches.community_emails_enabled
+      low_battery_notification_enabled: email_unsubscribes.switches.low_battery_notification_enabled
+      health_notification_enabled: email_unsubscribes.switches.health_notification_enabled
+    footer_link: email_unsubscribes.footer_link
+    show:
+      title: email_unsubscribes.show.title
+      confirm: email_unsubscribes.show.confirm
+      unsubscribe: email_unsubscribes.show.unsubscribe
+      done: email_unsubscribes.show.done
