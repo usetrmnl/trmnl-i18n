@@ -369,6 +369,7 @@ ro:
       new_and_popular: Noi și populare
     shop:
       title: Magazin
+      another_trmnl: Need another TRMNL?
     time_saved:
       title: Timp economisit
     discover_callout:
@@ -635,6 +636,8 @@ ro:
     image_too_big:
       message: Dispozitivul a respins o imagine de %{size}; acest model acceptă cel mult %{limit}.
       message_without_limit: Dispozitivul a respins o imagine de %{size} deoarece este prea mare.
+    update_discover_banner:
+      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
   discovery:
     dashboard_action:
       saved:
@@ -915,6 +918,7 @@ ro:
         refresh_interval: Refresh rate updated
       error: Acțiunea în masă a eșuat
       refresh_rate: Refresh rate
+      selected: selected
     smart_skip_modal:
       title: Omitere inteligentă
       apply: Gata
@@ -1346,6 +1350,14 @@ ro:
           body: Scanează din nou codul de pe ecran pentru a continua de unde ai rămas.
       discovery:
         billing_cancel_failed: Facturarea nu a putut fi anulată, deci nu s-a dezinstalat nimic. Încearcă din nou.
+        index:
+          title: Apps
+          description: Turn your TRMNL devices into purpose-built displays.
+          installed_heading: Your Installed Apps
+          available_heading: Available To Install
+          install_heading: Install an App
+          install: Install
+          installing: Installing...
       app_page:
         title: "%{app} pentru TRMNL"
         eyebrow: Aplicație TRMNL
@@ -1938,6 +1950,10 @@ ro:
         row: "%{name}: așteptat la %{expected}, ultimul ping %{last_ping}, baterie %{battery}, Wi-Fi %{wifi}."
         open_fleet: Deschide flota
         footer: Primești acest mesaj deoarece alertele de conectare sunt activate pentru această flotă. Dezactivează-le din Flotă › Setări.
+      summary:
+        mirrors:
+          one: "%{count} mirror"
+          other: "%{count} mirrors"
     bookings:
       read_only_booking_error: Acest calendar permite doar citirea. Contul Google conectat trebuie să aibă permisiunea de a modifica evenimentele pentru a accepta rezervări.
     chess:
