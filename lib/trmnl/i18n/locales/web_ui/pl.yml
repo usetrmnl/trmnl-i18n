@@ -229,6 +229,18 @@ pl:
         agent:
           title: Agent AI
           hint: Limity użycia, wybór modelu i własne klucze
+        emails:
+          title: Emails
+          hint: Choose which optional emails TRMNL sends you
+      author_digest: Author digest
+      author_digest_hint: A weekly email about your published plugins, sent only when there is something new.
+      community_emails: Community emails
+      community_emails_hint: Review requests and referral rewards.
+      emails_on_for: 'On for:'
+      low_battery_emails: Low battery emails
+      low_battery_emails_off: Off for every device. Turn them on in a device's battery settings under __Devices__.
+      health_alerts: Plugin health alerts
+      health_alerts_off: Off for every plugin. Turn them on in a plugin's settings under __Plugins__.
     update:
       success: Pomyślnie zaktualizowano profil
     reset_api_key:
@@ -2246,6 +2258,57 @@ pl:
       ready: trmy, our internal review agent, finished checking %{name}.
       read: Read its notes
       next: When you're happy, submit it, and a person on our team will review it.
+    author_digest:
+      subject_prefix: TRMNL author digest
+      greeting: Hi %{name} –
+      greeting_without_name: Hi there –
+      intro: Here's your week on TRMNL, %{from} – %{to}.
+      needs_a_fix: Needs a fix
+      failing:
+        one: "%{name} is failing on 1 screen, last on %{date}."
+        other: "%{name} is failing on %{count} screens, last on %{date}."
+      open_plugin: Open %{name}
+      others_failing:
+        one: 1 more screen shows errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about it.
+        other: "%{count} more screens show errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about those."
+      uninstalls: What people said when they uninstalled
+      reasons:
+        one: '1 uninstall this week: %{reasons}.'
+        other: "%{count} uninstalls this week: %{reasons}."
+      creator_fund: Close to the Creator Fund
+      qualified: "%{name} passed %{minimum} connections this week and joins the next Creator Fund payout."
+      near_miss_intro: 'Plugins earn from %{threshold} connections. A few people sharing these would get them there:'
+      near_miss_counts: "%{connections} connections · %{needed} to go"
+      share_text: Check out %{name} for TRMNL
+      post_on_x: Post on X
+      post_on_bluesky: Bluesky
+      post_on_reddit: Reddit
+      numbers: Your week in numbers
+      installs_line:
+        one: "+1 install · %{total} connections in total"
+        other: "+%{count} installs · %{total} connections in total"
+      top_growers: 'Grew most: %{list}'
+      top_layouts: Screens show your plugins mostly %{list}.
+      see_analytics: See full analytics
+      sign_off: Stay focused,
+      footer: You get this email once a week because you publish plugins on TRMNL. It skips any week with nothing new.
+      headlines:
+        qualified: "%{name} now qualifies for the Creator Fund"
+        nearest_goal:
+          one: "%{name} is 1 install from earning"
+          other: "%{name} is %{count} installs from earning"
+        failing:
+          one: "%{name} is failing on 1 screen"
+          other: "%{name} is failing on %{count} screens"
+        new_installs:
+          one: 1 new install
+          other: "%{count} new installs"
+        plugins_to_fix:
+          one: 1 plugin to fix
+          other: "%{count} plugins to fix"
+        uninstall_reasons:
+          one: 1 person said why they uninstalled
+          other: "%{count} people said why they uninstalled"
   pages:
     flash_firmware:
       linux_warning: Flashowanie z Linuksa często kończy się niepowodzeniem, ponieważ Chrome nie może otworzyć portu szeregowego. Dodaj użytkownika do grupy dialout (sudo usermod -aG dialout $USER), wyloguj się i zaloguj ponownie, a następnie spróbuj jeszcze raz. Jeśli to nie pomoże, użyj Chrome lub Edge na komputerze Mac albo z Windows.
@@ -3139,3 +3202,15 @@ pl:
   virtual_devices:
     create:
       byod_trial_converted: Your BYOD license is now on your trial device. It keeps its playlist and settings.
+  email_unsubscribes:
+    switches:
+      author_digest_enabled: the weekly author digest
+      community_emails_enabled: community emails
+      low_battery_notification_enabled: low battery emails for %{name}
+      health_notification_enabled: health alerts for %{name}
+    footer_link: Unsubscribe from these emails
+    show:
+      title: Unsubscribe
+      confirm: Stop sending %{emails}?
+      unsubscribe: Unsubscribe
+      done: Done. We will no longer send %{emails}.
