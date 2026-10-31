@@ -375,6 +375,7 @@ pl:
       new_and_popular: Nowe i popularne
     shop:
       title: Sklep
+      another_trmnl: Need another TRMNL?
     time_saved:
       title: Zaoszczędzony czas
     discover_callout:
@@ -638,6 +639,8 @@ pl:
     image_too_big:
       message: Your device rejected a %{size} image; this model accepts up to %{limit}.
       message_without_limit: Your device rejected a %{size} image as too big.
+    update_discover_banner:
+      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
   discovery:
     dashboard_action:
       saved:
@@ -917,6 +920,7 @@ pl:
         refresh_interval: Refresh rate updated
       error: Operacja zbiorcza nie powiodła się
       refresh_rate: Refresh rate
+      selected: selected
     smart_skip_modal:
       title: Inteligentne pomijanie
       apply: Gotowe
@@ -1344,6 +1348,14 @@ pl:
           body: Zeskanuj ponownie kod na wyświetlaczu, aby kontynuować od miejsca, w którym przerwano.
       discovery:
         billing_cancel_failed: Nie udało się anulować rozliczeń, więc niczego nie odinstalowano. Spróbuj ponownie.
+        index:
+          title: Apps
+          description: Turn your TRMNL devices into purpose-built displays.
+          installed_heading: Your Installed Apps
+          available_heading: Available To Install
+          install_heading: Install an App
+          install: Install
+          installing: Installing...
       app_page:
         title: "%{app} for TRMNL"
         eyebrow: TRMNL app
@@ -1922,6 +1934,10 @@ pl:
         row: "%{name}: oczekiwano %{expected}, ostatni ping %{last_ping}, bateria %{battery}, Wi-Fi %{wifi}."
         open_fleet: Otwórz flotę
         footer: Otrzymujesz tę wiadomość, ponieważ alerty zgłoszeń są włączone dla tej floty. Wyłącz je w Flota › Ustawienia.
+      summary:
+        mirrors:
+          one: "%{count} mirror"
+          other: "%{count} mirrors"
     bookings:
       read_only_booking_error: Ten kalendarz jest tylko do odczytu. Połączone konto Google wymaga uprawnień do zmiany wydarzeń, zanim będzie mogło przyjmować rezerwacje.
     chess:

@@ -353,6 +353,7 @@ de-AT:
       new_and_popular: Neu und beliebt
     shop:
       title: Shop
+      another_trmnl: Need another TRMNL?
     time_saved:
       title: Eingesparte Zeit
     discover_callout:
@@ -615,6 +616,8 @@ de-AT:
     image_too_big:
       message: Dein Gerät hat ein %{size}-Bild abgelehnt; dieses Modell akzeptiert bis zu %{limit}.
       message_without_limit: Dein Gerät hat ein %{size}-Bild als zu groß abgelehnt.
+    update_discover_banner:
+      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
   discovery:
     dashboard_action:
       saved:
@@ -894,6 +897,7 @@ de-AT:
         refresh_interval: Aktualisierungsrate aktualisiert
       error: Sammelaktion fehlgeschlagen
       refresh_rate: Aktualisierungsrate
+      selected: selected
     smart_skip_modal:
       title: Smartes Überspringen
       apply: Fertig
@@ -1321,6 +1325,14 @@ de-AT:
           body: Scanne den Code auf dem Display erneut, um dort weiterzumachen, wo du aufgehört hast.
       discovery:
         billing_cancel_failed: Die Abrechnung konnte nicht gekündigt werden, daher wurde nichts deinstalliert. Bitte versuche es erneut.
+        index:
+          title: Apps
+          description: Turn your TRMNL devices into purpose-built displays.
+          installed_heading: Your Installed Apps
+          available_heading: Available To Install
+          install_heading: Install an App
+          install: Install
+          installing: Installing...
       app_page:
         title: "%{app} für TRMNL"
         eyebrow: TRMNL-App
@@ -1899,6 +1911,10 @@ de-AT:
         row: "%{name}: erwartet %{expected}, letzter Ping %{last_ping}, Akku %{battery}, WLAN %{wifi}."
         open_fleet: Flotte öffnen
         footer: Du erhältst diese E-Mail, weil Check-in-Benachrichtigungen für diese Flotte aktiviert sind. Du kannst sie unter Flotte › Einstellungen deaktivieren.
+      summary:
+        mirrors:
+          one: "%{count} mirror"
+          other: "%{count} mirrors"
     bookings:
       read_only_booking_error: Dieser Kalender hat nur Lesezugriff. Das verbundene Google-Konto braucht die Berechtigung, Termine zu ändern, bevor hier Buchungen stattfinden können.
     chess:

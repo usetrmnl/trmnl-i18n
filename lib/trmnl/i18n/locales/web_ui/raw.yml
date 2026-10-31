@@ -353,6 +353,7 @@ raw:
       new_and_popular: dashboard.plugins.new_and_popular
     shop:
       title: dashboard.shop.title
+      another_trmnl: dashboard.shop.another_trmnl
     time_saved:
       title: dashboard.time_saved.title
     discover_callout:
@@ -616,6 +617,8 @@ raw:
     image_too_big:
       message: devices.image_too_big.message
       message_without_limit: devices.image_too_big.message_without_limit
+    update_discover_banner:
+      hidden_notice: devices.update_discover_banner.hidden_notice
   discovery:
     dashboard_action:
       saved:
@@ -895,6 +898,7 @@ raw:
         refresh_interval: playlist_items.bulk_actions.success.refresh_interval
       error: playlist_items.bulk_actions.error
       refresh_rate: playlist_items.bulk_actions.refresh_rate
+      selected: playlist_items.bulk_actions.selected
     smart_skip_modal:
       title: playlist_items.smart_skip_modal.title
       apply: playlist_items.smart_skip_modal.apply
@@ -1322,6 +1326,14 @@ raw:
           body: apps.core.public.expired.body
       discovery:
         billing_cancel_failed: apps.core.discovery.billing_cancel_failed
+        index:
+          title: apps.core.discovery.index.title
+          description: apps.core.discovery.index.description
+          installed_heading: apps.core.discovery.index.installed_heading
+          available_heading: apps.core.discovery.index.available_heading
+          install_heading: apps.core.discovery.index.install_heading
+          install: apps.core.discovery.index.install
+          installing: apps.core.discovery.index.installing
       app_page:
         title: apps.core.app_page.title
         eyebrow: apps.core.app_page.eyebrow
@@ -1898,6 +1910,10 @@ raw:
         row: apps.fleet.digest.row
         open_fleet: apps.fleet.digest.open_fleet
         footer: apps.fleet.digest.footer
+      summary:
+        mirrors:
+          one: apps.fleet.summary.mirrors.one
+          other: apps.fleet.summary.mirrors.other
     bookings:
       read_only_booking_error: apps.bookings.read_only_booking_error
     chess:

@@ -385,6 +385,7 @@ uk:
       new_and_popular: Нові та популярні
     shop:
       title: Магазин
+      another_trmnl: Need another TRMNL?
     time_saved:
       title: Зекономлений час
     discover_callout:
@@ -654,6 +655,8 @@ uk:
     image_too_big:
       message: Пристрій відхилив зображення розміром %{size}; ця модель підтримує до %{limit}.
       message_without_limit: Пристрій відхилив зображення розміром %{size} як завелике.
+    update_discover_banner:
+      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
   discovery:
     dashboard_action:
       saved:
@@ -935,6 +938,7 @@ uk:
         refresh_interval: Refresh rate updated
       error: Масова дія не вдалася
       refresh_rate: Refresh rate
+      selected: selected
     smart_skip_modal:
       title: Розумний пропуск
       apply: Готово
@@ -1370,6 +1374,14 @@ uk:
           body: Відскануйте код на дисплеї знову, щоб продовжити з того місця, де зупинилися.
       discovery:
         billing_cancel_failed: Не вдалося скасувати оплату, тому нічого не видалено. Спробуйте ще раз.
+        index:
+          title: Apps
+          description: Turn your TRMNL devices into purpose-built displays.
+          installed_heading: Your Installed Apps
+          available_heading: Available To Install
+          install_heading: Install an App
+          install: Install
+          installing: Installing...
       app_page:
         title: "%{app} для TRMNL"
         eyebrow: Застосунок TRMNL
@@ -1976,6 +1988,10 @@ uk:
         row: "%{name}: очікуваний час %{expected}, останній сигнал %{last_ping}, заряд %{battery}, Wi-Fi %{wifi}."
         open_fleet: Відкрити парк пристроїв
         footer: Ви отримали цей лист, бо для цього парку ввімкнено сповіщення про вихід на зв’язок. Вимкнути їх можна в розділі «Парк пристроїв › Налаштування».
+      summary:
+        mirrors:
+          one: "%{count} mirror"
+          other: "%{count} mirrors"
     bookings:
       read_only_booking_error: Цей календар доступний лише для читання. Підключеному акаунту Google потрібен дозвіл змінювати події, перш ніж він зможе приймати бронювання.
     chess:
