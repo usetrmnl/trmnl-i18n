@@ -34,6 +34,8 @@ zh-HK:
       title_short: Netatmo
       indoor_temp: 室內氣溫
       indoor_temp_short: 室內
+      outdoor_temp: Outdoor Temp.
+      outdoor_temp_short: Outdoor
       indoor_humidity: 室內濕度
       indoor_humidity_short: 室內濕度
       outdoor_humidity: 室外濕度
@@ -67,6 +69,14 @@ zh-HK:
       no_wind_gauge: 無風速計
       add_module_hint: 新增選配的%{module}模組即可查看數據
       range_24h: 24小時範圍
+      conditions:
+        hot_humid: Hot & Humid
+        hot_dry: Hot & Dry
+        mild_humid: Mild & Humid
+        pleasant: Pleasant
+        cool_humid: Cool & Humid
+        cool_dry: Cool & Dry
+        no_data: No data
       errors:
         missing_access_token: 未有帳戶授權，請重新連接Netatmo帳戶。
         no_station_selected: 未選擇氣象站，請在設定中選擇一個氣象站。

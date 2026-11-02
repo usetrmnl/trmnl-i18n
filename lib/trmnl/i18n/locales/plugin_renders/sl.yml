@@ -34,6 +34,8 @@ sl:
       title_short: Netatmo
       indoor_temp: Temp. v notranjosti
       indoor_temp_short: Notranja
+      outdoor_temp: Outdoor Temp.
+      outdoor_temp_short: Outdoor
       indoor_humidity: Vlažnost v notranjosti
       indoor_humidity_short: Vlaž. znotraj
       outdoor_humidity: Vlažnost zunaj
@@ -67,6 +69,14 @@ sl:
       no_wind_gauge: Ni merilnika vetra
       add_module_hint: Dodajte dodatni modul %{module}, da vidite te podatke
       range_24h: 24h razpon
+      conditions:
+        hot_humid: Hot & Humid
+        hot_dry: Hot & Dry
+        mild_humid: Mild & Humid
+        pleasant: Pleasant
+        cool_humid: Cool & Humid
+        cool_dry: Cool & Dry
+        no_data: No data
       errors:
         missing_access_token: Manjka dostopni žeton. Znova povežite svoj račun Netatmo.
         no_station_selected: Nobena vremenska postaja ni izbrana. Izberite postajo v nastavitvah.
