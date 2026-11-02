@@ -693,6 +693,9 @@ is:
       preview_layout: Preview layout
       prompt_language: Prompt (AI)
       prompt_help: 'The installer''s model turns the input into this plugin''s merge variables, paid with their API key or AI credit. Liquid sees the same input a script would, and the model is asked again whenever the rendered prompt changes, so pass only the fields the prompt needs. Front matter between two --- lines may set schema (a JSON schema the reply must match, where the model supports it), max_tokens (up to 4096, which a reasoning model spends partly on thinking) and format: text.'
+      serverless_help: Clean up the data with a script, or hand it to an AI model with a prompt.
+      serverless_learn_more: Learn more about scripts
+      prompt_learn_more: Read the prompt guide
     merge_variables:
       your_variables: Þínar breytur
     no_merge_variables:
