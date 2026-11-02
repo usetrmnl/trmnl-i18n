@@ -34,6 +34,8 @@ de:
       title_short: Netatmo
       indoor_temp: Innen-Temp.
       indoor_temp_short: Innen
+      outdoor_temp: Außen-Temp.
+      outdoor_temp_short: Außen
       indoor_humidity: Innen-Feuchtigkeit
       indoor_humidity_short: Innen-Feucht.
       outdoor_humidity: Außen-Feuchtigkeit
@@ -67,6 +69,14 @@ de:
       no_wind_gauge: Kein Windmesser
       add_module_hint: Füge das optionale %{module}-Modul hinzu, um diese Daten zu sehen
       range_24h: 24h Spanne
+      conditions:
+        hot_humid: Heiß & schwül
+        hot_dry: Heiß & trocken
+        mild_humid: Mild & feucht
+        pleasant: Angenehm
+        cool_humid: Kühl & feucht
+        cool_dry: Kühl & trocken
+        no_data: Keine Daten
       errors:
         missing_access_token: Zugriffstoken fehlt. Bitte verbinde dein Netatmo-Konto erneut.
         no_station_selected: Keine Wetterstation ausgewählt. Bitte wähle eine Station in den Einstellungen.
