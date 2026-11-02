@@ -693,6 +693,8 @@ he:
       save_changes: Save Changes (⌘﹢S)
       separate_preview: Preview is open in a separate window
       preview_layout: Preview layout
+      prompt_language: Prompt (AI)
+      prompt_help: 'The installer''s model turns the input into this plugin''s merge variables, paid with their API key or AI credit. Liquid sees the same input a script would, and the model is asked again whenever the rendered prompt changes, so pass only the fields the prompt needs. Front matter between two --- lines may set schema (a JSON schema the reply must match, where the model supports it), max_tokens (up to 4096, which a reasoning model spends partly on thinking) and format: text.'
     merge_variables:
       your_variables: Your variables
     no_merge_variables:
@@ -1251,6 +1253,21 @@ he:
       empty: You haven't asked trmy yet.
       rate_limited: That's a lot of reviews for one day. Try again tomorrow.
       back: Back to your plugin
+    data_flow:
+      title: Data flow
+      markup: Markup
+    ai_transform:
+      no_route: Add an API key in Account → Agent, or connect a TRMNL device, to run this plugin's prompt.
+      api_key_refused: "%{provider} refused your API key. Check it in Account → Agent."
+      out_of_credit: Out of AI credit. Your device shows a reminder until you reload credit.
+      empty_reply: The model sent an empty reply. This plugin kept its last screen.
+      truncated: The reply ran past %{max_tokens} tokens and was cut off. This plugin kept its last screen.
+      front_matter_not_a_map: The prompt's front matter must be a list of options, one per line.
+      front_matter_not_yaml: 'The prompt''s front matter is not valid YAML: %{error}'
+      unknown_option: 'The prompt''s front matter has an option this plugin does not know: %{options}. It knows schema, max_tokens and format.'
+      unknown_format: The prompt's format must be json or text, not %{value}.
+      credit_left: 'AI credit: %{amount} left'
+      reload: Reload
   recipes:
     index:
       newest_to_oldest: Newest to Oldest
@@ -3211,3 +3228,7 @@ he:
       confirm: Stop sending %{emails}?
       unsubscribe: Unsubscribe
       done: Done. We will no longer send %{emails}.
+  system_screens:
+    out_of_ai_credit:
+      title: Out of AI credit
+      message: Reload credit at trmnl.com to update %{name}
