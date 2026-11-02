@@ -691,6 +691,8 @@ raw:
       save_changes: markups.form.save_changes
       separate_preview: markups.form.separate_preview
       preview_layout: markups.form.preview_layout
+      prompt_language: markups.form.prompt_language
+      prompt_help: markups.form.prompt_help
     merge_variables:
       your_variables: markups.merge_variables.your_variables
     no_merge_variables:
@@ -1249,6 +1251,21 @@ raw:
       empty: plugin_settings.recipe_review.empty
       rate_limited: plugin_settings.recipe_review.rate_limited
       back: plugin_settings.recipe_review.back
+    data_flow:
+      title: plugin_settings.data_flow.title
+      markup: plugin_settings.data_flow.markup
+    ai_transform:
+      no_route: plugin_settings.ai_transform.no_route
+      api_key_refused: plugin_settings.ai_transform.api_key_refused
+      out_of_credit: plugin_settings.ai_transform.out_of_credit
+      empty_reply: plugin_settings.ai_transform.empty_reply
+      truncated: plugin_settings.ai_transform.truncated
+      front_matter_not_a_map: plugin_settings.ai_transform.front_matter_not_a_map
+      front_matter_not_yaml: plugin_settings.ai_transform.front_matter_not_yaml
+      unknown_option: plugin_settings.ai_transform.unknown_option
+      unknown_format: plugin_settings.ai_transform.unknown_format
+      credit_left: plugin_settings.ai_transform.credit_left
+      reload: plugin_settings.ai_transform.reload
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -2916,3 +2933,7 @@ raw:
       confirm: email_unsubscribes.show.confirm
       unsubscribe: email_unsubscribes.show.unsubscribe
       done: email_unsubscribes.show.done
+  system_screens:
+    out_of_ai_credit:
+      title: system_screens.out_of_ai_credit.title
+      message: system_screens.out_of_ai_credit.message
