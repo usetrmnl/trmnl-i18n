@@ -364,6 +364,7 @@ raw:
   date:
     formats:
       day_month_long: date.formats.day_month_long
+      month_year: date.formats.month_year
   devices:
     edit:
       accepts_beta_firmware: devices.edit.accepts_beta_firmware
@@ -562,6 +563,15 @@ raw:
       guest_mode_summary: devices.edit.guest_mode_summary
       full_refresh_on_screen_change: devices.edit.full_refresh_on_screen_change
       full_refresh_on_screen_change_hint: devices.edit.full_refresh_on_screen_change_hint
+      charge_forecast:
+        now: devices.edit.charge_forecast.now
+        days:
+          one: devices.edit.charge_forecast.days.one
+          other: devices.edit.charge_forecast.days.other
+        weeks:
+          one: devices.edit.charge_forecast.weeks.one
+          other: devices.edit.charge_forecast.weeks.other
+        month: devices.edit.charge_forecast.month
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint

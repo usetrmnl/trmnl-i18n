@@ -364,6 +364,7 @@ zh-HK:
   date:
     formats:
       day_month_long: "%-m月%-d日 (%A)"
+      month_year: "%B %Y"
   devices:
     edit:
       accepts_beta_firmware: 韌體搶先體驗
@@ -562,6 +563,15 @@ zh-HK:
       guest_mode_summary: "%{screen} for %{duration}"
       full_refresh_on_screen_change: Full Refresh When the Screen Changes
       full_refresh_on_screen_change_hint: Clears any outline of the previous screen. The screen goes black and white for a moment whenever a new image arrives; a screen that did not change stays partial.
+      charge_forecast:
+        now: Needs a charge now.
+        days:
+          one: Needs a charge in about 1 day.
+          other: Needs a charge in about %{count} days.
+        weeks:
+          one: Needs a charge in about 1 week.
+          other: Needs a charge in about %{count} weeks.
+        month: Needs a charge around %{month}.
     discover_persona:
       label: 人格設定與探索
       disabled_hint: 鏡像TRMNL裝置無法使用此功能。請改為在主裝置上管理推薦項目。
