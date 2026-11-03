@@ -364,6 +364,7 @@ es-ES:
   date:
     formats:
       day_month_long: "%A, %B %-d"
+      month_year: "%B %Y"
   devices:
     edit:
       accepts_beta_firmware: Firmware de versión de pruebas
@@ -562,6 +563,15 @@ es-ES:
       guest_mode_summary: "%{screen} for %{duration}"
       full_refresh_on_screen_change: Full Refresh When the Screen Changes
       full_refresh_on_screen_change_hint: Clears any outline of the previous screen. The screen goes black and white for a moment whenever a new image arrives; a screen that did not change stays partial.
+      charge_forecast:
+        now: Needs a charge now.
+        days:
+          one: Needs a charge in about 1 day.
+          other: Needs a charge in about %{count} days.
+        weeks:
+          one: Needs a charge in about 1 week.
+          other: Needs a charge in about %{count} weeks.
+        month: Needs a charge around %{month}.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.

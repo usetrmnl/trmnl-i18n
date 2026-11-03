@@ -380,6 +380,7 @@ ro:
   date:
     formats:
       day_month_long: "%A, %-d %B"
+      month_year: "%B %Y"
   devices:
     edit:
       accepts_beta_firmware: Acces anticipat la firmware
@@ -581,6 +582,15 @@ ro:
       guest_mode_summary: "%{screen} for %{duration}"
       full_refresh_on_screen_change: Full Refresh When the Screen Changes
       full_refresh_on_screen_change_hint: Clears any outline of the previous screen. The screen goes black and white for a moment whenever a new image arrives; a screen that did not change stays partial.
+      charge_forecast:
+        now: Needs a charge now.
+        days:
+          one: Needs a charge in about 1 day.
+          other: Needs a charge in about %{count} days.
+        weeks:
+          one: Needs a charge in about 1 week.
+          other: Needs a charge in about %{count} weeks.
+        month: Needs a charge around %{month}.
     discover_persona:
       label: Profil de utilizare și Descoperă
       disabled_hint: Dezactivat pentru dispozitivele TRMNL oglindite. Gestionează recomandările pe dispozitivul principal.
