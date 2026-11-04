@@ -1128,6 +1128,10 @@ raw:
       lat_lon_placeholder: plugin_settings.form.lat_lon_placeholder
       new_title: plugin_settings.form.new_title
       edit_title: plugin_settings.form.edit_title
+      linked_accounts_hint: plugin_settings.form.linked_accounts_hint
+      remove_account: plugin_settings.form.remove_account
+      remove_account_confirm: plugin_settings.form.remove_account_confirm
+      account_removed: plugin_settings.form.account_removed
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -1466,6 +1470,9 @@ raw:
             other: apps.room_booking.screens.occupied.more_attendees.other
       room_screens:
         until: apps.room_booking.room_screens.until
+        up_next: apps.room_booking.room_screens.up_next
+        up_next_untitled: apps.room_booking.room_screens.up_next_untitled
+        free_after: apps.room_booking.room_screens.free_after
       home:
         index:
           calendars_on_display: apps.room_booking.home.index.calendars_on_display
@@ -1799,6 +1806,9 @@ raw:
           walk_up_booking: apps.room_booking.settings.show.walk_up_booking
           walk_up_calendar: apps.room_booking.settings.show.walk_up_calendar
           walk_up_calendar_hint: apps.room_booking.settings.show.walk_up_calendar_hint
+          room_screens: apps.room_booking.settings.show.room_screens
+          show_next_meeting: apps.room_booking.settings.show.show_next_meeting
+          show_next_meeting_hint: apps.room_booking.settings.show.show_next_meeting_hint
       billing:
         title: apps.room_booking.billing.title
         summary:

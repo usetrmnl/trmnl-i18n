@@ -1128,6 +1128,10 @@ en-GB:
       lat_lon_placeholder: Search a city or postal code, or enter lat,long
       new_title: Add %{plugin}
       edit_title: "%{plugin} · %{name}"
+      linked_accounts_hint: This plugin reads from these accounts.
+      remove_account: Remove
+      remove_account_confirm: Remove %{account} from this plugin?
+      account_removed: Account removed.
     import:
       archive_too_large: ZIP file is too large (%{max_mb} MB maximum)
       missing_entry: The ZIP file does not contain %{filename}
@@ -1466,6 +1470,9 @@ en-GB:
             other: "%{count} more"
       room_screens:
         until: Until %{time}
+        up_next: 'Up next: %{title} at %{time}'
+        up_next_untitled: Up next at %{time}
+        free_after: Free after %{time}
       home:
         index:
           calendars_on_display: Calendars on a display
@@ -1801,6 +1808,9 @@ en-GB:
           walk_up_booking: Booking with TRMNL
           walk_up_calendar: Show Calendar
           walk_up_calendar_hint: Show upcoming bookings on the public booking page.
+          room_screens: Room screens
+          show_next_meeting: Show next meeting
+          show_next_meeting_hint: While a room is busy, show the next meeting instead of the organizer.
       billing:
         title: Billing
         summary:

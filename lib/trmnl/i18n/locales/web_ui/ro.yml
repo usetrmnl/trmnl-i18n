@@ -1150,6 +1150,10 @@ ro:
       lat_lon_placeholder: Caută un oraș sau un cod poștal ori introdu latitudine,longitudine
       new_title: Adaugă %{plugin}
       edit_title: "%{plugin} · %{name}"
+      linked_accounts_hint: This plugin reads from these accounts.
+      remove_account: Remove
+      remove_account_confirm: Remove %{account} from this plugin?
+      account_removed: Account removed.
     import:
       archive_too_large: Fișierul ZIP este prea mare (%{max_mb} MB maxim)
       missing_entry: Fișierul ZIP nu conține %{filename}
@@ -1496,6 +1500,9 @@ ro:
             few: încă %{count}
       room_screens:
         until: Până la %{time}
+        up_next: 'Up next: %{title} at %{time}'
+        up_next_untitled: Up next at %{time}
+        free_after: Free after %{time}
       home:
         index:
           calendars_on_display: Calendare pe ecran
@@ -1833,6 +1840,9 @@ ro:
           walk_up_booking: Rezervări cu TRMNL
           walk_up_calendar: Afișează calendarul
           walk_up_calendar_hint: Afișează rezervările viitoare pe pagina publică de rezervare.
+          room_screens: Room screens
+          show_next_meeting: Show next meeting
+          show_next_meeting_hint: While a room is busy, show the next meeting instead of the organizer.
       billing:
         title: Facturare
         summary:

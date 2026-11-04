@@ -1172,6 +1172,10 @@ uk:
       lat_lon_placeholder: Знайдіть місто чи поштовий індекс або введіть широту,довготу
       new_title: Додати %{plugin}
       edit_title: "%{plugin} · %{name}"
+      linked_accounts_hint: This plugin reads from these accounts.
+      remove_account: Remove
+      remove_account_confirm: Remove %{account} from this plugin?
+      account_removed: Account removed.
     import:
       archive_too_large: ZIP-файл завеликий (максимум %{max_mb} МБ)
       missing_entry: ZIP-файл не містить %{filename}
@@ -1526,6 +1530,9 @@ uk:
             many: ще %{count}
       room_screens:
         until: До %{time}
+        up_next: 'Up next: %{title} at %{time}'
+        up_next_untitled: Up next at %{time}
+        free_after: Free after %{time}
       home:
         index:
           calendars_on_display: Календарі на дисплеї
@@ -1865,6 +1872,9 @@ uk:
           walk_up_booking: Бронювання з TRMNL
           walk_up_calendar: Показувати календар
           walk_up_calendar_hint: Показувати майбутні бронювання на загальнодоступній сторінці бронювання.
+          room_screens: Room screens
+          show_next_meeting: Show next meeting
+          show_next_meeting_hint: While a room is busy, show the next meeting instead of the organizer.
       billing:
         title: Оплата
         summary:
