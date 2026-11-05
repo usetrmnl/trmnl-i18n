@@ -6,6 +6,7 @@ es-ES:
     calendars:
       no_upcoming_events: No upcoming events
       no_events_today: No events today
+      all_day: all-day
     days_left_year:
       title: Días Restantes Este Año
       days_passed: Días Pasados
@@ -33,6 +34,8 @@ es-ES:
       title_short: Netatmo
       indoor_temp: Temp. Interior
       indoor_temp_short: Interior
+      outdoor_temp: Outdoor Temp.
+      outdoor_temp_short: Outdoor
       indoor_humidity: Humedad Interior
       indoor_humidity_short: Hum. Int.
       outdoor_humidity: Humedad Exterior
@@ -66,6 +69,14 @@ es-ES:
       no_wind_gauge: Sin anemómetro
       add_module_hint: Añade el módulo opcional %{module} para ver estos datos
       range_24h: Rango 24h
+      conditions:
+        hot_humid: Hot & Humid
+        hot_dry: Hot & Dry
+        mild_humid: Mild & Humid
+        pleasant: Pleasant
+        cool_humid: Cool & Humid
+        cool_dry: Cool & Dry
+        no_data: No data
       errors:
         missing_access_token: Falta token de acceso. Por favor, reconecta tu cuenta Netatmo.
         no_station_selected: No hay estación seleccionada. Elige una en ajustes.
@@ -118,14 +129,20 @@ es-ES:
         conditions:
           clear: Despejado
           cloudy: Nublado
+          extreme_rain: Extreme Rain
           foggy: Con Niebla
+          heavy_rain: Heavy Rain
+          light_rain: Light Rain
+          moderate_rain: Moderate Rain
           partly_cloudy: Parcialmente Nublado
           rain_likely: Probabilidad de Lluvia
           rain_possible: Posible Lluvia
           snow: Nieve
+          snow_likely: Snow Likely
           snow_possible: Posible Nieve
           thunderstorms_likely: Probabilidad de Tormenta
           thunderstorms_possible: Posible Tormenta
+          very_heavy_rain: Very Heavy Rain
           very_light_rain: Lluvia Muy Ligera
           windy: Ventoso
           wintry_mix_likely: Probabilidad de Aguanieve
@@ -282,6 +299,8 @@ es-ES:
         - code: 1282
           day: Tormenta con Nieve
           night: Tormenta con Nieve
+      dew_point: Dew Point
+      dew_point_short: Dew Pt
     place_of_the_day:
       title: Place of the Day
       wikipedia_credit: Wikipedia CC BY-SA
@@ -340,3 +359,6 @@ es-ES:
       out_of_credit:
         title: Out of AI credit
         description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+    days_left_until:
+      today: 'Today: %{date}'
+      target: 'Target: %{date}'

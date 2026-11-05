@@ -6,6 +6,7 @@ fr:
     calendars:
       no_upcoming_events: No upcoming events
       no_events_today: No events today
+      all_day: all-day
     days_left_year:
       title: Jours restants cette année
       days_passed: Jours passés
@@ -33,6 +34,8 @@ fr:
       title_short: Netatmo
       indoor_temp: Température intérieure
       indoor_temp_short: Temp. intér.
+      outdoor_temp: Température extérieure
+      outdoor_temp_short: Temp. extér.
       indoor_humidity: Humidité intérieure
       indoor_humidity_short: Hum. intér.
       outdoor_humidity: Humidité extérieure
@@ -66,6 +69,14 @@ fr:
       no_wind_gauge: Aucun anémomètre
       add_module_hint: Ajoutez le module optionnel %{module} pour afficher ces données
       range_24h: Plage sur 24h
+      conditions:
+        hot_humid: Chaud et humide
+        hot_dry: Chaud et sec
+        mild_humid: Doux et humide
+        pleasant: Agréable
+        cool_humid: Frais et humide
+        cool_dry: Frais et sec
+        no_data: Aucune donnée
       errors:
         missing_access_token: Jeton d'accès manquant. Veuillez reconnecter votre compte Netatmo.
         no_station_selected: Aucune station météo sélectionnée. Veuillez en choisir une dans les paramètres.
@@ -118,14 +129,20 @@ fr:
         conditions:
           clear: Clair
           cloudy: Nuageux
+          extreme_rain: Extreme Rain
           foggy: Brumeux
+          heavy_rain: Heavy Rain
+          light_rain: Light Rain
+          moderate_rain: Moderate Rain
           partly_cloudy: Partiellement nuageux
           rain_likely: Pluie probable
           rain_possible: Pluie possible
           snow: Neige
+          snow_likely: Snow Likely
           snow_possible: Neige possible
           thunderstorms_likely: Orages probables
           thunderstorms_possible: Orages possibles
+          very_heavy_rain: Very Heavy Rain
           very_light_rain: Pluie très légère
           windy: Venteux
           wintry_mix_likely: Mélange hivernal probable
@@ -282,6 +299,8 @@ fr:
         - code: 1282
           day: Orage et neige
           night: Orage et neige
+      dew_point: Dew Point
+      dew_point_short: Dew Pt
     place_of_the_day:
       title: Place of the Day
       wikipedia_credit: Wikipedia CC BY-SA
@@ -340,3 +359,6 @@ fr:
       out_of_credit:
         title: Out of AI credit
         description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+    days_left_until:
+      today: 'Today: %{date}'
+      target: 'Target: %{date}'

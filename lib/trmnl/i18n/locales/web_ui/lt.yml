@@ -16,7 +16,6 @@ lt:
   charge_level: Įkrovos lygis
   charged: įkrauta
   charging: Įkraunama
-  claim_plus_trial: Atsiimti 6 mėnesius nemokamai
   close: Uždaryti
   confirm_change_password: Pakeisti mano slaptažodį
   confirm_password: Patvirtinti naują slaptažodį
@@ -207,6 +206,18 @@ lt:
         agent:
           title: AI Agent
           hint: Usage credits, model selection and bring your own keys
+        emails:
+          title: Emails
+          hint: Choose which optional emails TRMNL sends you
+      author_digest: Author digest
+      author_digest_hint: A weekly email about your published plugins, sent only when there is something new.
+      community_emails: Community emails
+      community_emails_hint: Review requests and referral rewards.
+      emails_on_for: 'On for:'
+      low_battery_emails: Low battery emails
+      low_battery_emails_off: Off for every device. Turn them on in a device's battery settings under __Devices__.
+      health_alerts: Plugin health alerts
+      health_alerts_off: Off for every plugin. Turn them on in a plugin's settings under __Plugins__.
     update:
       success: Profilis sėkmingai atnaujintas
     reset_api_key:
@@ -247,6 +258,9 @@ lt:
       byok_title: Bring your own key
       byok_hint: Add a key of your own to pick any model. The Agent then uses your key, not usage credits.
       model_hosted: Add an OpenRouter or Anthropic key above to choose another model.
+      earn_credits_title: Earn up to %{credits} credits, free
+      earn_credits_hint: Share a photo, a review or a video of your TRMNL. We check it and add the credits.
+      earn_credits_link: Ways to earn
     shared_accounts:
       title: Accounts shared with you
       hint: Pick an account to manage its devices, playlists and plugins, or leave it.
@@ -306,7 +320,11 @@ lt:
       name: Name
       create: Create account API key
       legacy_hint: Legacy key. It reaches only its original endpoints. For anything newer, create an account API key above.
-      older_key: Older key
+      older_key: Older key, used by the Home Assistant integration
+      device_key_hint: 'BYOD devices and mirror apps use the device API key, not an account key. Each device shows its own under Developer Perks:'
+      developer_edition_needed: API keys, also the one the Home Assistant integration needs, come with __Developer Edition__.
+      upgrade: Upgrade
+      home_assistant_hint: A Home Assistant dashboard needs no key. Use the Webhook URL from the __Home Assistant Screenshot__ plugin.
     destroy:
       account_deleted: Your account and all data were deleted.
       account_deleted_refunded: Your account and all data were deleted. Your $1 was refunded.
@@ -334,6 +352,7 @@ lt:
       new_and_popular: Nauji ir populiarūs
     shop:
       title: Parduotuvė
+      another_trmnl: Need another TRMNL?
     time_saved:
       title: Sutaupytas laikas
     discover_callout:
@@ -345,6 +364,7 @@ lt:
   date:
     formats:
       day_month_long: "%A, %B %-d"
+      month_year: "%B %Y"
   devices:
     edit:
       accepts_beta_firmware: Ankstyvoji programinės įrangos versija
@@ -539,6 +559,19 @@ lt:
       vestaboard_token_saved: Saved
       vestaboard_token_missing: Not set yet, so nothing is sent to the board
       vestaboard_credentials_hint: In the Vestaboard app, open Settings, then Advanced Settings, then API. Create a token with Write access and paste it here.
+      guest_mode_not_set: Not set
+      guest_mode_summary: "%{screen} for %{duration}"
+      full_refresh_on_screen_change: Full Refresh When the Screen Changes
+      full_refresh_on_screen_change_hint: Clears any outline of the previous screen. The screen goes black and white for a moment whenever a new image arrives; a screen that did not change stays partial.
+      charge_forecast:
+        now: Needs a charge now.
+        days:
+          one: Needs a charge in about 1 day.
+          other: Needs a charge in about %{count} days.
+        weeks:
+          one: Needs a charge in about 1 week.
+          other: Needs a charge in about %{count} weeks.
+        month: Needs a charge around %{month}.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -595,6 +628,8 @@ lt:
     image_too_big:
       message: Your device rejected a %{size} image; this model accepts up to %{limit}.
       message_without_limit: Your device rejected a %{size} image as too big.
+    update_discover_banner:
+      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
   discovery:
     dashboard_action:
       saved:
@@ -640,6 +675,10 @@ lt:
       expiry_notice: Logs are kept for two weeks and expire automatically — there's no manual delete here.
       load_older: Load older
       level: Level
+      only_plugin: Only logs from %{name}.
+      show_all: Show all logs
+    log:
+      expand: Expand
   markups:
     console_logs:
       js_logs: JS Žurnalai
@@ -664,6 +703,11 @@ lt:
       save_changes: Išsaugoti pakeitimus (⌘﹢S)
       separate_preview: Peržiūra atidaryta atskirame lange
       preview_layout: Preview layout
+      prompt_language: Prompt (AI)
+      prompt_help: 'The installer''s model turns the input into this plugin''s merge variables, paid with their API key or AI credit. Liquid sees the same input a script would, and the model is asked again whenever the rendered prompt changes, so pass only the fields the prompt needs. Front matter between two --- lines may set schema (a JSON schema the reply must match, where the model supports it), max_tokens (up to 4096, which a reasoning model spends partly on thinking) and format: text.'
+      serverless_help: Clean up the data with a script, or hand it to an AI model with a prompt.
+      serverless_learn_more: Learn more about scripts
+      prompt_learn_more: Read the prompt guide
     merge_variables:
       your_variables: Jūsų kintamieji
     no_merge_variables:
@@ -720,8 +764,20 @@ lt:
       workspace_ready: Your workspace is set how you like.
       zoom_in: Zoom in
       zoom_out: Zoom out
+      script_run:
+        running: Running script…
+        ran:
+          one: Script ran · %{count} variable
+          other: Script ran · %{count} variables
+        failed: Script failed. See JS Logs.
+        waits_for_webhook: Saved. Runs on your next webhook.
+        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
+        expired: Script still running. Reload to see new variables.
     ai_assistant_inline:
       model_locked: Your AI model is set by TRMNL
+      composition_prefill: Make this plugin Vestaboard friendly
+      composition_empty_state: Builds a Vestaboard board from your markup and live data.
+      composition_placeholder: Ask for a change to the board…
   mfa:
     disable_otp:
       success: 2FA išjungta
@@ -799,6 +855,7 @@ lt:
       next_render: Renders again %{time}
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
+      hold_screen: Hold this screen
     create:
       success: Grojaraštis atnaujintas
       error: Nepavyko atnaujinti grojaraščio
@@ -856,7 +913,10 @@ lt:
         hide: Items hidden
         show: Items shown
         destroy: Items removed from playlist
+        refresh_interval: Refresh rate updated
       error: Bulk action failed
+      refresh_rate: Refresh rate
+      selected: selected
     smart_skip_modal:
       title: Smart Skip
       apply: Done
@@ -876,6 +936,9 @@ lt:
       window_option: "%{count}h"
       render_marker: Renders
       asleep_window: Asleep %{from} → %{to} (%{duration})
+    hold:
+      success: Held. Your device shows this screen at its next refresh.
+      unavailable: This screen cannot be held.
   plugins:
     index:
       title: Įskiepiai
@@ -890,6 +953,7 @@ lt:
       collapse: Collapse
       categories: Categories
       discover: Discover
+      you_may_also_like: You may also like
     search:
       placeholder: Ieškoti įskiepių
     my:
@@ -1066,6 +1130,10 @@ lt:
       lat_lon_placeholder: Search a city or postal code, or enter lat,long
       new_title: Add %{plugin}
       edit_title: "%{plugin} · %{name}"
+      linked_accounts_hint: This plugin reads from these accounts.
+      remove_account: Remove
+      remove_account_confirm: Remove %{account} from this plugin?
+      account_removed: Account removed.
     import:
       archive_too_large: ZIP failas yra per didelis (maksimaliai %{max_mb} MB)
       missing_entry: ZIP faile nėra %{filename}
@@ -1105,6 +1173,7 @@ lt:
       erroring_short: This plugin is currently experiencing an error.
       erroring_long: Plugin experiencing an error. Please fix the issue to restart refresh.
       reset_health: Reset Health
+      async_pending: An async polling request is pending. Changing the strategy cancels it.
     inactive_references_banner:
       short: Referenced plugins not syncing.
       long: 'This plugin references data from plugins that aren''t in any Playlist:'
@@ -1172,15 +1241,58 @@ lt:
       received: 'Received:'
     missing_composition:
       message: No composition yet — this plugin won't display on this device until you add one.
+    outlook_meeting_rooms:
+      prompt: Looking for a meeting room?
+      request: Request access
+      approval_note: "(needs approval from a Microsoft 365 admin)"
+      pending_title: Waiting for meeting room approval
+      pending_body: A Microsoft 365 admin needs to approve access to your company's rooms. Send them this link.
+      copy_admin_link: Copy link for my admin
+      check_again: Check again
+      granted: Meeting room access granted
+      admin_approved: Meeting room access approved. You can close this tab.
+    recipe_review:
+      title: trmy's review
+      modal_title: Want a quick check before you submit?
+      modal_intro: Ultimately, the review is done by humans on our support team. To raise your chances of a quick and easy approval, we share our internal review agent, trmy. It runs your plugin through the trmnlp tests on TRMNL OG and TRMNL X, in landscape and portrait and with each option, to make sure it gives people a good experience. trmy replies on a page here, and we email you the link, usually within an hour.
+      page_intro: Ultimately, the review is done by humans on our support team. trmy, our internal review agent, runs your plugin through the trmnlp tests and points out what our reviewers usually ask about, so your approval goes quickly. When you're happy, submit, and a person on our team takes it from there.
+      how_it_works: How it works
+      ask: Ask trmy
+      ask_again: Ask trmy again
+      note_label: Anything trmy should look at? (optional)
+      note_placeholder: I made the X text bigger and fixed portrait.
+      open: trmy is checking your recipe. We'll email you when it's done.
+      answered: trmy has replied.
+      read: Read trmy's review
+      your_note: You asked
+      trmy: trmy
+      failed: trmy couldn't review this one. You can ask again, or submit when you're ready and a person on our team will look at it.
+      empty: You haven't asked trmy yet.
+      rate_limited: That's a lot of reviews for one day. Try again tomorrow.
+      back: Back to your plugin
+    data_flow:
+      title: Data flow
+      markup: Markup
+    ai_transform:
+      no_route: Add an API key in Account → Agent, or connect a TRMNL device, to run this plugin's prompt.
+      api_key_refused: "%{provider} refused your API key. Check it in Account → Agent."
+      out_of_credit: Out of AI credit. Your device shows a reminder until you reload credit.
+      empty_reply: The model sent an empty reply. This plugin kept its last screen.
+      truncated: The reply ran past %{max_tokens} tokens and was cut off. This plugin kept its last screen.
+      front_matter_not_a_map: The prompt's front matter must be a list of options, one per line.
+      front_matter_not_yaml: 'The prompt''s front matter is not valid YAML: %{error}'
+      unknown_option: 'The prompt''s front matter has an option this plugin does not know: %{options}. It knows schema, max_tokens and format.'
+      unknown_format: The prompt's format must be json or text, not %{value}.
+      credit_left: 'AI credit: %{amount} left'
+      reload: Reload
   recipes:
     index:
       newest_to_oldest: Nuo naujausių iki seniausių
       oldest_to_newest: Nuo seniausių iki naujausių
       most_popular: Populiariausi
-      install: Įdiegti
-      fork: Atšakoti (Fork)
       search_placeholder: 'Search eg: Comic'
       filtered_for_device: Showing recipes with a %{device} layout.
+      trending: Trending this week
   schedules:
     form:
       append: Ir šiuo metu…
@@ -1214,6 +1326,10 @@ lt:
       plugin_setting:
         ai_coauthored: AI Coauthored
         recipe_overview: Search engine index description
+      user:
+        anthropic_api_key: Anthropic API key
+        openrouter_api_key: OpenRouter API key
+        tavily_api_key: Tavily API key
     errors:
       models:
         account_membership:
@@ -1227,6 +1343,7 @@ lt:
             directory:
               invalid_folder: must be a folder path like plugins/clock
               taken_by_another_plugin: is already synced to another plugin in this repository
+              is_a_file: is a file in this repository. Pick a folder name that no file uses
         device:
           attributes:
             sleep_end_time:
@@ -1235,6 +1352,9 @@ lt:
           attributes:
             recipe_overview:
               too_few_words: needs at least %{count} words, or leave it blank
+          async_polling_callback_url_missing: Async Polling needs {{ callback_url }} in the Polling URL, so your server knows where to send the data.
+        user:
+          api_key_prefix: must start with %{prefix}. Clear the field if your browser filled it in.
   apps:
     core:
       public:
@@ -1243,6 +1363,14 @@ lt:
           body: Scan the code on the display again to pick up where you left off.
       discovery:
         billing_cancel_failed: Billing could not be canceled, so nothing was uninstalled. Please try again.
+        index:
+          title: Apps
+          description: Turn your TRMNL devices into purpose-built displays.
+          installed_heading: Your Installed Apps
+          available_heading: Available To Install
+          install_heading: Install an App
+          install: Install
+          installing: Installing...
       app_page:
         title: "%{app} for TRMNL"
         eyebrow: TRMNL app
@@ -1344,6 +1472,9 @@ lt:
             other: "%{count} more"
       room_screens:
         until: Until %{time}
+        up_next: 'Up next: %{title} at %{time}'
+        up_next_untitled: Up next at %{time}
+        free_after: Free after %{time}
       home:
         index:
           calendars_on_display: Calendars on a display
@@ -1679,6 +1810,9 @@ lt:
           walk_up_booking: Booking with TRMNL
           walk_up_calendar: Show Calendar
           walk_up_calendar_hint: Show upcoming bookings on the public booking page.
+          room_screens: Room screens
+          show_next_meeting: Show next meeting
+          show_next_meeting_hint: While a room is busy, show the next meeting instead of the organizer.
       billing:
         title: Billing
         summary:
@@ -1821,6 +1955,10 @@ lt:
         row: "%{name}: expected %{expected}, last ping %{last_ping}, %{battery} battery, Wi-Fi %{wifi}."
         open_fleet: Open fleet
         footer: You get this because check-in alerts are on for this fleet. Turn them off in Fleet › Settings.
+      summary:
+        mirrors:
+          one: "%{count} mirror"
+          other: "%{count} mirrors"
     bookings:
       read_only_booking_error: This calendar is read only. The connected Google account needs permission to make changes to events before it can take bookings.
     chess:
@@ -2094,6 +2232,9 @@ lt:
         violet: Violet
         white: White
         black: Black (blank)
+      agent_panel: Agent
+      toggle_agent: Show or hide the Agent
+      resize_agent_panel: Resize the Agent panel
   shared:
     impersonator:
       managing: Managing %{name}
@@ -2148,6 +2289,63 @@ lt:
       subscribe_price: "$%{monthly}/device/month, or $%{annual}/device/year (2 months free)."
       subscribe_title: Subscribe
       trial_ends_html: 'Heads up — your TRMNL+ trial ends on <strong>%{date}</strong>. To keep your Plus perks running, you''ve got two options:'
+    recipe_review_answered:
+      subject: trmy has reviewed %{name}
+      greeting: Hi,
+      ready: trmy, our internal review agent, finished checking %{name}.
+      read: Read its notes
+      next: When you're happy, submit it, and a person on our team will review it.
+    author_digest:
+      subject_prefix: TRMNL author digest
+      greeting: Hi %{name} –
+      greeting_without_name: Hi there –
+      intro: Here's your week on TRMNL, %{from} – %{to}.
+      needs_a_fix: Needs a fix
+      failing:
+        one: "%{name} is failing on 1 screen, last on %{date}."
+        other: "%{name} is failing on %{count} screens, last on %{date}."
+      open_plugin: Open %{name}
+      others_failing:
+        one: 1 more screen shows errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about it.
+        other: "%{count} more screens show errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about those."
+      uninstalls: What people said when they uninstalled
+      reasons:
+        one: '1 uninstall this week: %{reasons}.'
+        other: "%{count} uninstalls this week: %{reasons}."
+      creator_fund: Close to the Creator Fund
+      qualified: "%{name} passed %{minimum} connections this week and joins the next Creator Fund payout."
+      near_miss_intro: 'Plugins earn from %{threshold} connections. A few people sharing these would get them there:'
+      near_miss_counts: "%{connections} connections · %{needed} to go"
+      share_text: Check out %{name} for TRMNL
+      post_on_x: Post on X
+      post_on_bluesky: Bluesky
+      post_on_reddit: Reddit
+      numbers: Your week in numbers
+      installs_line:
+        one: "+1 install · %{total} connections in total"
+        other: "+%{count} installs · %{total} connections in total"
+      top_growers: 'Grew most: %{list}'
+      top_layouts: Screens show your plugins mostly %{list}.
+      see_analytics: See full analytics
+      sign_off: Stay focused,
+      footer: You get this email once a week because you publish plugins on TRMNL. It skips any week with nothing new.
+      headlines:
+        qualified: "%{name} now qualifies for the Creator Fund"
+        nearest_goal:
+          one: "%{name} is 1 install from earning"
+          other: "%{name} is %{count} installs from earning"
+        failing:
+          one: "%{name} is failing on 1 screen"
+          other: "%{name} is failing on %{count} screens"
+        new_installs:
+          one: 1 new install
+          other: "%{count} new installs"
+        plugins_to_fix:
+          one: 1 plugin to fix
+          other: "%{count} plugins to fix"
+        uninstall_reasons:
+          one: 1 person said why they uninstalled
+          other: "%{count} people said why they uninstalled"
   pages:
     flash_firmware:
       linux_warning: Flashing from Linux often fails because Chrome can't open the serial port. Add your user to the dialout group (sudo usermod -aG dialout $USER), log out and back in, then retry. If that doesn't help, use Chrome or Edge on a Mac or Windows PC.
@@ -2619,7 +2817,7 @@ lt:
     used: "%{percent}% used"
     used_up: You used all of your usage credits. __Top up or add a key__ to continue.
     topup_label: Top-up credits
-    topup_left: "%{amount} left"
+    topup_credits_left: "%{credits} credits left"
   integration_overviews:
     alias: |-
       Your own image, on a TRMNL ePaper display. Alias is for people who already make their screens somewhere else, like a script on a home server. Paste the image's full URL and your device fetches it straight from that address, so a local URL like http://localhost:4567/image.png works too.
@@ -3005,16 +3203,21 @@ lt:
       Your YouTube channel stats, on a TRMNL ePaper display. Views and hours watched lead the screen, followed by average view duration, subscribers gained, view through rate, likes, comments and shares.
 
       Connect with the Google account that owns your channel (managers of a shared channel can't connect it), then choose a lookback of 7, 28, 90 or 365 days. Run more than 1 channel? Add the plugin once per channel and name each one so you can tell them apart.
+    linkedin_page: |-
+      Your LinkedIn Company Page stats, on a TRMNL ePaper display. See followers, new followers, impressions, clicks, engagement rate, reactions, comments and shares, with a daily chart of the metric you choose.
+
+      Connect the LinkedIn account that is an admin of your Page, pick the Page, then choose a lookback of 7, 30 or 90 days. LinkedIn reports these numbers with a 2 day delay, so the screen ends 2 days ago. Run more than 1 Page? Add the plugin once per Page.
   ai_credit_topups:
-    buy: Add %{amount}
-    hint: Credits last 3 months. Checkout adds a service fee for card and provider costs.
-    credit_line_item: TRMNL AI credit
     fee_line_item: Service fee
     create:
       unknown_amount: Pick one of the top-up amounts.
     new:
       success: We added the usage credits to your account.
       unpaid: The payment did not complete, so we added no usage credits.
+      processing: Your bank payment is processing. We add the usage credits when it clears, which can take up to 4 business days.
+    buy_credits: "%{credits} credits · %{price}"
+    credits_hint: A plugin takes about 5 credits. Bought credits last 3 months. Checkout adds a service fee for card and provider costs.
+    credits_line_item: "%{credits} TRMNL AI credits"
   banners:
     got_it: Got it
   byod_mac_address_banner_component:
@@ -3025,5 +3228,30 @@ lt:
   byod_trials:
     ended:
       claim_license: Already bought a BYOD license? Claim it with your order number.
+      no_trial_device: Your account has no BYOD trial to convert.
+    convert:
+      no_trial_device: Your account has no BYOD trial to convert, so we did not charge you.
   screen_picker:
     single_palette_hint: This device has only one palette.
+  active_admin:
+    batch_actions:
+      action_label: "%{title}"
+  virtual_devices:
+    create:
+      byod_trial_converted: Your BYOD license is now on your trial device. It keeps its playlist and settings.
+  email_unsubscribes:
+    switches:
+      author_digest_enabled: the weekly author digest
+      community_emails_enabled: community emails
+      low_battery_notification_enabled: low battery emails for %{name}
+      health_notification_enabled: health alerts for %{name}
+    footer_link: Unsubscribe from these emails
+    show:
+      title: Unsubscribe
+      confirm: Stop sending %{emails}?
+      unsubscribe: Unsubscribe
+      done: Done. We will no longer send %{emails}.
+  system_screens:
+    out_of_ai_credit:
+      title: Out of AI credit
+      message: Reload credit at trmnl.com to update %{name}

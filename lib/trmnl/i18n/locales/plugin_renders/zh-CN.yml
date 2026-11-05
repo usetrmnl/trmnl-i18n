@@ -6,6 +6,7 @@ zh-CN:
     calendars:
       no_upcoming_events: No upcoming events
       no_events_today: No events today
+      all_day: all-day
     days_left_year:
       title: 今年还剩多少天
       days_passed: 已过天数
@@ -33,6 +34,8 @@ zh-CN:
       title_short: Netatmo
       indoor_temp: 室内温度
       indoor_temp_short: 室内
+      outdoor_temp: Outdoor Temp.
+      outdoor_temp_short: Outdoor
       indoor_humidity: 室内湿度
       indoor_humidity_short: 室内湿度
       outdoor_humidity: 室外湿度
@@ -66,6 +69,14 @@ zh-CN:
       no_wind_gauge: 无风速计
       add_module_hint: 添加可选的%{module}模块以查看此数据
       range_24h: 24 小时范围
+      conditions:
+        hot_humid: Hot & Humid
+        hot_dry: Hot & Dry
+        mild_humid: Mild & Humid
+        pleasant: Pleasant
+        cool_humid: Cool & Humid
+        cool_dry: Cool & Dry
+        no_data: No data
       errors:
         missing_access_token: 缺少访问令牌。请重新连接您的 Netatmo 账户。
         no_station_selected: 未选择天气站。请在设置中选择一个站点。
@@ -118,14 +129,20 @@ zh-CN:
         conditions:
           clear: 晴
           cloudy: 多云
+          extreme_rain: Extreme Rain
           foggy: 雾
+          heavy_rain: Heavy Rain
+          light_rain: Light Rain
+          moderate_rain: Moderate Rain
           partly_cloudy: 局部多云
           rain_likely: 可能下雨
           rain_possible: 或下雨
           snow: 下雪
+          snow_likely: Snow Likely
           snow_possible: 可能下雪
           thunderstorms_likely: 可能有雷阵雨
           thunderstorms_possible: 或有雷阵雨
+          very_heavy_rain: Very Heavy Rain
           very_light_rain: 小雨
           windy: 有风
           wintry_mix_likely: 可能有雨夹雪
@@ -282,6 +299,8 @@ zh-CN:
         - code: 1282
           day: 雷雪
           night: 雷雪
+      dew_point: Dew Point
+      dew_point_short: Dew Pt
     place_of_the_day:
       title: Place of the Day
       wikipedia_credit: Wikipedia CC BY-SA
@@ -340,3 +359,6 @@ zh-CN:
       out_of_credit:
         title: Out of AI credit
         description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+    days_left_until:
+      today: 'Today: %{date}'
+      target: 'Target: %{date}'

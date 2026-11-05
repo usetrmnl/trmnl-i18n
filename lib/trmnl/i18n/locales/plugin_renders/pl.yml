@@ -6,6 +6,7 @@ pl:
     calendars:
       no_upcoming_events: Brak nadchodzących wydarzeń
       no_events_today: Brak wydarzeń na dziś
+      all_day: all-day
     days_left_year:
       title: Dni do końca roku
       days_passed: Minęło dni
@@ -33,6 +34,8 @@ pl:
       title_short: Netatmo
       indoor_temp: Temperatura wew.
       indoor_temp_short: Wewnątrz
+      outdoor_temp: Outdoor Temp.
+      outdoor_temp_short: Outdoor
       indoor_humidity: Wilgotność wewnętrzna
       indoor_humidity_short: Wilg. wew.
       outdoor_humidity: Wilgotność zewnętrzna
@@ -66,6 +69,14 @@ pl:
       no_wind_gauge: Brak czujnika wiatru
       add_module_hint: Dodaj opcjonalny moduł %{module}, aby zobaczyć te dane
       range_24h: Zakres 24h
+      conditions:
+        hot_humid: Hot & Humid
+        hot_dry: Hot & Dry
+        mild_humid: Mild & Humid
+        pleasant: Pleasant
+        cool_humid: Cool & Humid
+        cool_dry: Cool & Dry
+        no_data: No data
       errors:
         missing_access_token: Brakuje tokena dostępowego. Ponownie połącz swoje konto Netatmo.
         no_station_selected: Nie wybrano żadnej stacji pogody. Wybierz stację w ustawieniach.
@@ -119,15 +130,21 @@ pl:
         conditions:
           clear: Bezchmurnie
           cloudy: Pochmurno
+          extreme_rain: Ekstremalne opady deszczu
           foggy: Mgliście
+          heavy_rain: Intensywne opady deszczu
+          light_rain: Słabe opady deszczu
+          moderate_rain: Umiarkowane opady deszczu
           partly_cloudy: Częściowe zachmurzenie
           rain_likely: Spodziewane opady deszczu
           rain_possible: Możliwe opady deszczu
           snow: Opady śniegu
+          snow_likely: Spodziewane opady śniegu
           snow_possible: Możliwe opady śniegu
           thunderstorms_likely: Spodziewane burze
           thunderstorms_possible: Możliwe burze
-          very_light_rain: Słabe opady deszczu
+          very_heavy_rain: Bardzo intensywne opady deszczu
+          very_light_rain: Bardzo słabe opady deszczu
           windy: Wietrznie
           wintry_mix_likely: Spodziewany deszcz ze śniegiem
           wintry_mix_possible: Możliwy deszcz ze śniegiem
@@ -283,6 +300,8 @@ pl:
         - code: 1282
           day: Burza z intensywnymi opadami śniegu
           night: Burza z intensywnymi opadami śniegu
+      dew_point: Dew Point
+      dew_point_short: Dew Pt
     place_of_the_day:
       title: Miejsce dnia
       wikipedia_credit: Wikipedia CC BY-SA
@@ -341,3 +360,6 @@ pl:
       out_of_credit:
         title: Out of AI credit
         description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+    days_left_until:
+      today: 'Today: %{date}'
+      target: 'Target: %{date}'

@@ -6,6 +6,7 @@ ro:
     calendars:
       no_upcoming_events: Nu există evenimente viitoare
       no_events_today: Nu există evenimente astăzi
+      all_day: toată ziua
     days_left_year:
       title: Zile rămase în acest an
       days_passed: Zile trecute
@@ -33,6 +34,8 @@ ro:
       title_short: Netatmo
       indoor_temp: Temp. interioară
       indoor_temp_short: Interior
+      outdoor_temp: Outdoor Temp.
+      outdoor_temp_short: Outdoor
       indoor_humidity: Umiditate interioară
       indoor_humidity_short: Um. int.
       outdoor_humidity: Umiditate exterioară
@@ -66,6 +69,14 @@ ro:
       no_wind_gauge: Fără anemometru
       add_module_hint: Adaugă modulul opțional %{module} pentru a vedea aceste date
       range_24h: Interval 24h
+      conditions:
+        hot_humid: Hot & Humid
+        hot_dry: Hot & Dry
+        mild_humid: Mild & Humid
+        pleasant: Pleasant
+        cool_humid: Cool & Humid
+        cool_dry: Cool & Dry
+        no_data: No data
       errors:
         missing_access_token: Token de acces lipsă. Reconectează-ți contul Netatmo.
         no_station_selected: Nicio stație meteo selectată. Alege o stație în setări.
@@ -120,14 +131,20 @@ ro:
         conditions:
           clear: Senin
           cloudy: Noros
+          extreme_rain: Extreme Rain
           foggy: Ceață
+          heavy_rain: Heavy Rain
+          light_rain: Light Rain
+          moderate_rain: Moderate Rain
           partly_cloudy: Parțial noros
           rain_likely: Ploaie probabilă
           rain_possible: Ploaie posibilă
           snow: Ninsoare
+          snow_likely: Snow Likely
           snow_possible: Ninsoare posibilă
           thunderstorms_likely: Furtuni probabile
           thunderstorms_possible: Furtuni posibile
+          very_heavy_rain: Very Heavy Rain
           very_light_rain: Ploaie foarte ușoară
           windy: Vânt puternic
           wintry_mix_likely: Precipitații mixte probabile
@@ -284,6 +301,8 @@ ro:
         - code: 1282
           day: Ninsoare cu descărcări electrice
           night: Ninsoare cu descărcări electrice
+      dew_point: Punct de rouă
+      dew_point_short: Pct. rouă
     place_of_the_day:
       title: Locul zilei
       wikipedia_credit: Wikipedia CC BY-SA
@@ -345,3 +364,6 @@ ro:
       out_of_credit:
         title: Credit AI epuizat
         description: Abonează-te la TRMNL+ pentru credite AI sau reîncarcă contul pentru a folosi acest plugin.
+    days_left_until:
+      today: 'Astăzi: %{date}'
+      target: 'Țintă: %{date}'

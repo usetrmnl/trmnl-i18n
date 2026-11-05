@@ -6,6 +6,7 @@ raw:
     calendars:
       no_upcoming_events: renders.calendars.no_upcoming_events
       no_events_today: renders.calendars.no_events_today
+      all_day: renders.calendars.all_day
     days_left_year:
       title: days_left_year.title
       days_passed: days_left_year.title
@@ -33,6 +34,8 @@ raw:
       title_short: renders.netatmo_weather_station.title_short
       indoor_temp: renders.netatmo_weather_station.indoor_temp
       indoor_temp_short: renders.netatmo_weather_station.indoor_temp_short
+      outdoor_temp: renders.netatmo_weather_station.outdoor_temp
+      outdoor_temp_short: renders.netatmo_weather_station.outdoor_temp_short
       indoor_humidity: renders.netatmo_weather_station.indoor_humidity
       indoor_humidity_short: renders.netatmo_weather_station.indoor_humidity_short
       outdoor_humidity: renders.netatmo_weather_station.outdoor_humidity
@@ -66,6 +69,14 @@ raw:
       no_wind_gauge: renders.netatmo_weather_station.no_wind_gauge
       add_module_hint: renders.netatmo_weather_station.add_module_hint
       range_24h: renders.netatmo_weather_station.range_24h
+      conditions:
+        hot_humid: renders.netatmo_weather_station.conditions.hot_humid
+        hot_dry: renders.netatmo_weather_station.conditions.hot_dry
+        mild_humid: renders.netatmo_weather_station.conditions.mild_humid
+        pleasant: renders.netatmo_weather_station.conditions.pleasant
+        cool_humid: renders.netatmo_weather_station.conditions.cool_humid
+        cool_dry: renders.netatmo_weather_station.conditions.cool_dry
+        no_data: renders.netatmo_weather_station.conditions.no_data
       errors:
         missing_access_token: renders.netatmo_weather_station.errors.missing_access_token
         no_station_selected: renders.netatmo_weather_station.errors.no_station_selected
@@ -118,14 +129,20 @@ raw:
         conditions:
           clear: renders.weather.tempest.conditions.clear
           cloudy: renders.weather.tempest.conditions.cloudy
+          extreme_rain: renders.weather.tempest.conditions.extreme_rain
           foggy: renders.weather.tempest.conditions.foggy
+          heavy_rain: renders.weather.tempest.conditions.heavy_rain
+          light_rain: renders.weather.tempest.conditions.light_rain
+          moderate_rain: renders.weather.tempest.conditions.moderate_rain
           partly_cloudy: renders.weather.tempest.conditions.partly_cloudy
           rain_likely: renders.weather.tempest.conditions.rain_likely
           rain_possible: renders.weather.tempest.conditions.rain_possible
           snow: renders.weather.tempest.conditions.snow
+          snow_likely: renders.weather.tempest.conditions.snow_likely
           snow_possible: renders.weather.tempest.conditions.snow_possible
           thunderstorms_likely: renders.weather.tempest.conditions.thunderstorms_likely
           thunderstorms_possible: renders.weather.tempest.conditions.thunderstorms_possible
+          very_heavy_rain: renders.weather.tempest.conditions.very_heavy_rain
           very_light_rain: renders.weather.tempest.conditions.very_light_rain
           windy: renders.weather.tempest.conditions.windy
           wintry_mix_likely: renders.weather.tempest.conditions.wintry_mix_likely
@@ -282,6 +299,8 @@ raw:
         - code: renders.weather.weatherapi.conditions[47].code
           day: renders.weather.weatherapi.conditions[47].day
           night: renders.weather.weatherapi.conditions[47].night
+      dew_point: renders.weather.dew_point
+      dew_point_short: renders.weather.dew_point_short
     place_of_the_day:
       title: renders.place_of_the_day.title
       wikipedia_credit: renders.place_of_the_day.wikipedia_credit
@@ -340,3 +359,6 @@ raw:
       out_of_credit:
         title: renders.ai_dashboard.out_of_credit.title
         description: renders.ai_dashboard.out_of_credit.description
+    days_left_until:
+      today: renders.days_left_until.today
+      target: renders.days_left_until.target

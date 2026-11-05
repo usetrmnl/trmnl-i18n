@@ -6,6 +6,7 @@ ko:
     calendars:
       no_upcoming_events: No upcoming events
       no_events_today: No events today
+      all_day: all-day
     days_left_year:
       title: 올해 남은 날
       days_passed: 지난 날
@@ -33,6 +34,8 @@ ko:
       title_short: Netatmo
       indoor_temp: 실내 온도
       indoor_temp_short: 실내
+      outdoor_temp: Outdoor Temp.
+      outdoor_temp_short: Outdoor
       indoor_humidity: 실내 습도
       indoor_humidity_short: 실내 습도
       outdoor_humidity: 실외 습도
@@ -66,6 +69,14 @@ ko:
       no_wind_gauge: 풍속계 없음
       add_module_hint: 이 데이터를 보려면 %{module} 모듈을 추가하세요
       range_24h: 24시간 범위
+      conditions:
+        hot_humid: Hot & Humid
+        hot_dry: Hot & Dry
+        mild_humid: Mild & Humid
+        pleasant: Pleasant
+        cool_humid: Cool & Humid
+        cool_dry: Cool & Dry
+        no_data: No data
       errors:
         missing_access_token: 액세스 토큰이 없어요. Netatmo 계정을 다시 연결하세요.
         no_station_selected: 기상 관측소가 선택되지 않았어요. 설정에서 관측소를 선택하세요.
@@ -118,14 +129,20 @@ ko:
         conditions:
           clear: 맑음
           cloudy: 흐림
+          extreme_rain: Extreme Rain
           foggy: 안개
+          heavy_rain: Heavy Rain
+          light_rain: Light Rain
+          moderate_rain: Moderate Rain
           partly_cloudy: 구름 많음
           rain_likely: 비 예상
           rain_possible: 비 가능성
           snow: 눈
+          snow_likely: Snow Likely
           snow_possible: 눈 가능성
           thunderstorms_likely: 뇌우 예상
           thunderstorms_possible: 뇌우 가능성
+          very_heavy_rain: Very Heavy Rain
           very_light_rain: 약한 비
           windy: 바람
           wintry_mix_likely: 눈비 예상
@@ -282,6 +299,8 @@ ko:
         - code: 1282
           day: 천둥 동반 강한 눈
           night: 천둥 동반 강한 눈
+      dew_point: Dew Point
+      dew_point_short: Dew Pt
     place_of_the_day:
       title: Place of the Day
       wikipedia_credit: Wikipedia CC BY-SA
@@ -340,3 +359,6 @@ ko:
       out_of_credit:
         title: Out of AI credit
         description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+    days_left_until:
+      today: 'Today: %{date}'
+      target: 'Target: %{date}'

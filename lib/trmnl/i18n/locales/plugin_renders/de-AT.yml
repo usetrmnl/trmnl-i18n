@@ -6,6 +6,7 @@ de-AT:
     calendars:
       no_upcoming_events: Keine bevorstehenden Ereignisse
       no_events_today: Heute keine Ereignisse
+      all_day: ganztägig
     days_left_year:
       title: Verbleibende Tage dieses Jahr
       days_passed: Vergangene Tage
@@ -33,6 +34,8 @@ de-AT:
       title_short: Netatmo
       indoor_temp: Innen-Temp.
       indoor_temp_short: Innen
+      outdoor_temp: Außen-Temp.
+      outdoor_temp_short: Außen
       indoor_humidity: Innen-Feuchtigkeit
       indoor_humidity_short: Innen-Feucht.
       outdoor_humidity: Außen-Feuchtigkeit
@@ -66,6 +69,14 @@ de-AT:
       no_wind_gauge: Kein Windmesser
       add_module_hint: Füge das optionale %{module}-Modul hinzu, um diese Daten zu sehen
       range_24h: 24h Spanne
+      conditions:
+        hot_humid: Heiß & schwül
+        hot_dry: Heiß & trocken
+        mild_humid: Mild & feucht
+        pleasant: Angenehm
+        cool_humid: Kühl & feucht
+        cool_dry: Kühl & trocken
+        no_data: Keine Daten
       errors:
         missing_access_token: Zugriffstoken fehlt. Bitte verbinde dein Netatmo-Konto erneut.
         no_station_selected: Keine Wetterstation ausgewählt. Bitte wähle eine Station in den Einstellungen.
@@ -118,14 +129,20 @@ de-AT:
         conditions:
           clear: Klar
           cloudy: Bewölkt
+          extreme_rain: Extremer Regen
           foggy: Neblig
+          heavy_rain: Starker Regen
+          light_rain: Leichter Regen
+          moderate_rain: Mäßiger Regen
           partly_cloudy: Teilweise bewölkt
           rain_likely: Regen wahrscheinlich
           rain_possible: Regen möglich
           snow: Schnee
+          snow_likely: Schnee wahrscheinlich
           snow_possible: Schnee möglich
           thunderstorms_likely: Gewitter wahrscheinlich
           thunderstorms_possible: Gewitter möglich
+          very_heavy_rain: Sehr starker Regen
           very_light_rain: Sehr leichter Regen
           windy: Windig
           wintry_mix_likely: Winterlicher Mix wahrscheinlich
@@ -282,6 +299,8 @@ de-AT:
         - code: 1282
           day: Gewitter mit Schnee
           night: Gewitter mit Schnee
+      dew_point: Taupunkt
+      dew_point_short: Taup.
     place_of_the_day:
       title: Ort des Tages
       wikipedia_credit: Wikipedia CC BY-SA
@@ -324,19 +343,22 @@ de-AT:
       no_devices: Warte auf deine ersten Geräte
       no_devices_hint: Sie erscheinen nach der ersten Übertragung oder Cloud-Synchronisierung
     mazevo:
-      in_use: In use
-      available: Available
-      available_until: Available until %{time}
-      available_all_day: Available for the rest of the day
-      coming_up: Coming up
-      later_today: Later today
-      nothing_later: Nothing else today
-      earlier_today: Earlier today
-      no_bookings: No bookings today
-      private_booking: Private booking
+      in_use: Belegt
+      available: Verfügbar
+      available_until: Verfügbar bis %{time}
+      available_all_day: Für den Rest des Tages verfügbar
+      coming_up: Demnächst
+      later_today: Später
+      nothing_later: Nichts Weiteres
+      earlier_today: Früher
+      no_bookings: Keine Buchungen heute
+      private_booking: Private Buchung
       time_range: "%{start} – %{end}"
-      updated_at: Updated %{time}
+      updated_at: Aktualisiert %{time}
     ai_dashboard:
       out_of_credit:
-        title: Out of AI credit
-        description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+        title: AI-Guthaben aufgebraucht
+        description: Abonniere TRMNL+ für AI-Guthaben, oder lade dein Konto auf, um dieses Plugin zu nutzen.
+    days_left_until:
+      today: 'Heute: %{date}'
+      target: 'Ziel: %{date}'

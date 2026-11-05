@@ -16,7 +16,6 @@ raw:
   charge_level: charge_level
   charged: charged
   charging: charging
-  claim_plus_trial: claim_plus_trial
   close: close
   confirm_change_password: confirm_change_password
   confirm_password: confirm_password
@@ -207,6 +206,18 @@ raw:
         agent:
           title: account.index.sections.agent.title
           hint: account.index.sections.agent.hint
+        emails:
+          title: account.index.sections.emails.title
+          hint: account.index.sections.emails.hint
+      author_digest: account.index.author_digest
+      author_digest_hint: account.index.author_digest_hint
+      community_emails: account.index.community_emails
+      community_emails_hint: account.index.community_emails_hint
+      emails_on_for: account.index.emails_on_for
+      low_battery_emails: account.index.low_battery_emails
+      low_battery_emails_off: account.index.low_battery_emails_off
+      health_alerts: account.index.health_alerts
+      health_alerts_off: account.index.health_alerts_off
     update:
       success: account.update.success
     reset_api_key:
@@ -247,6 +258,9 @@ raw:
       byok_title: account.ai_agent_settings.byok_title
       byok_hint: account.ai_agent_settings.byok_hint
       model_hosted: account.ai_agent_settings.model_hosted
+      earn_credits_title: account.ai_agent_settings.earn_credits_title
+      earn_credits_hint: account.ai_agent_settings.earn_credits_hint
+      earn_credits_link: account.ai_agent_settings.earn_credits_link
     shared_accounts:
       title: account.shared_accounts.title
       hint: account.shared_accounts.hint
@@ -307,6 +321,10 @@ raw:
       create: account.api_keys.create
       legacy_hint: account.api_keys.legacy_hint
       older_key: account.api_keys.older_key
+      device_key_hint: account.api_keys.device_key_hint
+      developer_edition_needed: account.api_keys.developer_edition_needed
+      upgrade: account.api_keys.upgrade
+      home_assistant_hint: account.api_keys.home_assistant_hint
     destroy:
       account_deleted: account.destroy.account_deleted
       account_deleted_refunded: account.destroy.account_deleted_refunded
@@ -334,6 +352,7 @@ raw:
       new_and_popular: dashboard.plugins.new_and_popular
     shop:
       title: dashboard.shop.title
+      another_trmnl: dashboard.shop.another_trmnl
     time_saved:
       title: dashboard.time_saved.title
     discover_callout:
@@ -345,6 +364,7 @@ raw:
   date:
     formats:
       day_month_long: date.formats.day_month_long
+      month_year: date.formats.month_year
   devices:
     edit:
       accepts_beta_firmware: devices.edit.accepts_beta_firmware
@@ -539,6 +559,19 @@ raw:
       vestaboard_token_saved: devices.edit.vestaboard_token_saved
       vestaboard_token_missing: devices.edit.vestaboard_token_missing
       vestaboard_credentials_hint: devices.edit.vestaboard_credentials_hint
+      guest_mode_not_set: devices.edit.guest_mode_not_set
+      guest_mode_summary: devices.edit.guest_mode_summary
+      full_refresh_on_screen_change: devices.edit.full_refresh_on_screen_change
+      full_refresh_on_screen_change_hint: devices.edit.full_refresh_on_screen_change_hint
+      charge_forecast:
+        now: devices.edit.charge_forecast.now
+        days:
+          one: devices.edit.charge_forecast.days.one
+          other: devices.edit.charge_forecast.days.other
+        weeks:
+          one: devices.edit.charge_forecast.weeks.one
+          other: devices.edit.charge_forecast.weeks.other
+        month: devices.edit.charge_forecast.month
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -595,6 +628,8 @@ raw:
     image_too_big:
       message: devices.image_too_big.message
       message_without_limit: devices.image_too_big.message_without_limit
+    update_discover_banner:
+      hidden_notice: devices.update_discover_banner.hidden_notice
   discovery:
     dashboard_action:
       saved:
@@ -640,6 +675,10 @@ raw:
       expiry_notice: logs.index.expiry_notice
       load_older: logs.index.load_older
       level: logs.index.level
+      only_plugin: logs.index.only_plugin
+      show_all: logs.index.show_all
+    log:
+      expand: logs.log.expand
   markups:
     console_logs:
       js_logs: markups.console_logs.js_logs
@@ -664,6 +703,11 @@ raw:
       save_changes: markups.form.save_changes
       separate_preview: markups.form.separate_preview
       preview_layout: markups.form.preview_layout
+      prompt_language: markups.form.prompt_language
+      prompt_help: markups.form.prompt_help
+      serverless_help: markups.form.serverless_help
+      serverless_learn_more: markups.form.serverless_learn_more
+      prompt_learn_more: markups.form.prompt_learn_more
     merge_variables:
       your_variables: markups.merge_variables.your_variables
     no_merge_variables:
@@ -720,8 +764,20 @@ raw:
       workspace_ready: markups.visual_editor.workspace_ready
       zoom_in: markups.visual_editor.zoom_in
       zoom_out: markups.visual_editor.zoom_out
+      script_run:
+        running: markups.visual_editor.script_run.running
+        ran:
+          one: markups.visual_editor.script_run.ran.one
+          other: markups.visual_editor.script_run.ran.other
+        failed: markups.visual_editor.script_run.failed
+        waits_for_webhook: markups.visual_editor.script_run.waits_for_webhook
+        limited: markups.visual_editor.script_run.limited
+        expired: markups.visual_editor.script_run.expired
     ai_assistant_inline:
       model_locked: markups.ai_assistant_inline.model_locked
+      composition_prefill: markups.ai_assistant_inline.composition_prefill
+      composition_empty_state: markups.ai_assistant_inline.composition_empty_state
+      composition_placeholder: markups.ai_assistant_inline.composition_placeholder
   mfa:
     disable_otp:
       success: mfa.disable_otp.success
@@ -799,6 +855,7 @@ raw:
       next_render: playlist_items.playlist_item.next_render
       render_overdue: playlist_items.playlist_item.render_overdue
       no_next_render: playlist_items.playlist_item.no_next_render
+      hold_screen: playlist_items.playlist_item.hold_screen
     create:
       success: playlists.create.success
       error: playlists.create.error
@@ -856,7 +913,10 @@ raw:
         hide: playlist_items.bulk_actions.success.hide
         show: playlist_items.bulk_actions.success.show
         destroy: playlist_items.bulk_actions.success.destroy
+        refresh_interval: playlist_items.bulk_actions.success.refresh_interval
       error: playlist_items.bulk_actions.error
+      refresh_rate: playlist_items.bulk_actions.refresh_rate
+      selected: playlist_items.bulk_actions.selected
     smart_skip_modal:
       title: playlist_items.smart_skip_modal.title
       apply: playlist_items.smart_skip_modal.apply
@@ -876,6 +936,9 @@ raw:
       window_option: playlist_items.day_ahead.window_option
       render_marker: playlist_items.day_ahead.render_marker
       asleep_window: playlist_items.day_ahead.asleep_window
+    hold:
+      success: playlist_items.hold.success
+      unavailable: playlist_items.hold.unavailable
   plugins:
     index:
       title: plugins.index.title
@@ -890,6 +953,7 @@ raw:
       collapse: plugins.index.collapse
       categories: plugins.index.categories
       discover: plugins.index.discover
+      you_may_also_like: plugins.index.you_may_also_like
     search:
       placeholder: plugins.search.placeholder
     my:
@@ -1066,6 +1130,10 @@ raw:
       lat_lon_placeholder: plugin_settings.form.lat_lon_placeholder
       new_title: plugin_settings.form.new_title
       edit_title: plugin_settings.form.edit_title
+      linked_accounts_hint: plugin_settings.form.linked_accounts_hint
+      remove_account: plugin_settings.form.remove_account
+      remove_account_confirm: plugin_settings.form.remove_account_confirm
+      account_removed: plugin_settings.form.account_removed
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -1105,6 +1173,7 @@ raw:
       erroring_short: plugin_settings.health_status_banner.erroring_short
       erroring_long: plugin_settings.health_status_banner.erroring_long
       reset_health: plugin_settings.health_status_banner.reset_health
+      async_pending: plugin_settings.health_status_banner.async_pending
     inactive_references_banner:
       short: plugin_settings.inactive_references_banner.short
       long: plugin_settings.inactive_references_banner.long
@@ -1172,15 +1241,58 @@ raw:
       received: plugin_settings.test_request.received
     missing_composition:
       message: plugin_settings.missing_composition.message
+    outlook_meeting_rooms:
+      prompt: plugin_settings.outlook_meeting_rooms.prompt
+      request: plugin_settings.outlook_meeting_rooms.request
+      approval_note: plugin_settings.outlook_meeting_rooms.approval_note
+      pending_title: plugin_settings.outlook_meeting_rooms.pending_title
+      pending_body: plugin_settings.outlook_meeting_rooms.pending_body
+      copy_admin_link: plugin_settings.outlook_meeting_rooms.copy_admin_link
+      check_again: plugin_settings.outlook_meeting_rooms.check_again
+      granted: plugin_settings.outlook_meeting_rooms.granted
+      admin_approved: plugin_settings.outlook_meeting_rooms.admin_approved
+    recipe_review:
+      title: plugin_settings.recipe_review.title
+      modal_title: plugin_settings.recipe_review.modal_title
+      modal_intro: plugin_settings.recipe_review.modal_intro
+      page_intro: plugin_settings.recipe_review.page_intro
+      how_it_works: plugin_settings.recipe_review.how_it_works
+      ask: plugin_settings.recipe_review.ask
+      ask_again: plugin_settings.recipe_review.ask_again
+      note_label: plugin_settings.recipe_review.note_label
+      note_placeholder: plugin_settings.recipe_review.note_placeholder
+      open: plugin_settings.recipe_review.open
+      answered: plugin_settings.recipe_review.answered
+      read: plugin_settings.recipe_review.read
+      your_note: plugin_settings.recipe_review.your_note
+      trmy: plugin_settings.recipe_review.trmy
+      failed: plugin_settings.recipe_review.failed
+      empty: plugin_settings.recipe_review.empty
+      rate_limited: plugin_settings.recipe_review.rate_limited
+      back: plugin_settings.recipe_review.back
+    data_flow:
+      title: plugin_settings.data_flow.title
+      markup: plugin_settings.data_flow.markup
+    ai_transform:
+      no_route: plugin_settings.ai_transform.no_route
+      api_key_refused: plugin_settings.ai_transform.api_key_refused
+      out_of_credit: plugin_settings.ai_transform.out_of_credit
+      empty_reply: plugin_settings.ai_transform.empty_reply
+      truncated: plugin_settings.ai_transform.truncated
+      front_matter_not_a_map: plugin_settings.ai_transform.front_matter_not_a_map
+      front_matter_not_yaml: plugin_settings.ai_transform.front_matter_not_yaml
+      unknown_option: plugin_settings.ai_transform.unknown_option
+      unknown_format: plugin_settings.ai_transform.unknown_format
+      credit_left: plugin_settings.ai_transform.credit_left
+      reload: plugin_settings.ai_transform.reload
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
       oldest_to_newest: recipes.index.oldest_to_newest
       most_popular: recipes.index.most_popular
-      install: recipes.index.install
-      fork: recipes.index.fork
       search_placeholder: recipes.index.search_placeholder
       filtered_for_device: recipes.index.filtered_for_device
+      trending: recipes.index.trending
   schedules:
     form:
       append: schedules.form.append
@@ -1214,6 +1326,10 @@ raw:
       plugin_setting:
         ai_coauthored: activerecord.attributes.plugin_setting.ai_coauthored
         recipe_overview: activerecord.attributes.plugin_setting.recipe_overview
+      user:
+        anthropic_api_key: activerecord.attributes.user.anthropic_api_key
+        openrouter_api_key: activerecord.attributes.user.openrouter_api_key
+        tavily_api_key: activerecord.attributes.user.tavily_api_key
     errors:
       models:
         account_membership:
@@ -1227,6 +1343,7 @@ raw:
             directory:
               invalid_folder: activerecord.errors.models.github_sync.attributes.directory.invalid_folder
               taken_by_another_plugin: activerecord.errors.models.github_sync.attributes.directory.taken_by_another_plugin
+              is_a_file: activerecord.errors.models.github_sync.attributes.directory.is_a_file
         device:
           attributes:
             sleep_end_time:
@@ -1235,6 +1352,9 @@ raw:
           attributes:
             recipe_overview:
               too_few_words: activerecord.errors.models.plugin_setting.attributes.recipe_overview.too_few_words
+          async_polling_callback_url_missing: activerecord.errors.models.plugin_setting.async_polling_callback_url_missing
+        user:
+          api_key_prefix: activerecord.errors.models.user.api_key_prefix
   apps:
     core:
       public:
@@ -1243,6 +1363,14 @@ raw:
           body: apps.core.public.expired.body
       discovery:
         billing_cancel_failed: apps.core.discovery.billing_cancel_failed
+        index:
+          title: apps.core.discovery.index.title
+          description: apps.core.discovery.index.description
+          installed_heading: apps.core.discovery.index.installed_heading
+          available_heading: apps.core.discovery.index.available_heading
+          install_heading: apps.core.discovery.index.install_heading
+          install: apps.core.discovery.index.install
+          installing: apps.core.discovery.index.installing
       app_page:
         title: apps.core.app_page.title
         eyebrow: apps.core.app_page.eyebrow
@@ -1344,6 +1472,9 @@ raw:
             other: apps.room_booking.screens.occupied.more_attendees.other
       room_screens:
         until: apps.room_booking.room_screens.until
+        up_next: apps.room_booking.room_screens.up_next
+        up_next_untitled: apps.room_booking.room_screens.up_next_untitled
+        free_after: apps.room_booking.room_screens.free_after
       home:
         index:
           calendars_on_display: apps.room_booking.home.index.calendars_on_display
@@ -1677,6 +1808,9 @@ raw:
           walk_up_booking: apps.room_booking.settings.show.walk_up_booking
           walk_up_calendar: apps.room_booking.settings.show.walk_up_calendar
           walk_up_calendar_hint: apps.room_booking.settings.show.walk_up_calendar_hint
+          room_screens: apps.room_booking.settings.show.room_screens
+          show_next_meeting: apps.room_booking.settings.show.show_next_meeting
+          show_next_meeting_hint: apps.room_booking.settings.show.show_next_meeting_hint
       billing:
         title: apps.room_booking.billing.title
         summary:
@@ -1819,6 +1953,10 @@ raw:
         row: apps.fleet.digest.row
         open_fleet: apps.fleet.digest.open_fleet
         footer: apps.fleet.digest.footer
+      summary:
+        mirrors:
+          one: apps.fleet.summary.mirrors.one
+          other: apps.fleet.summary.mirrors.other
     bookings:
       read_only_booking_error: apps.bookings.read_only_booking_error
     chess:
@@ -2092,6 +2230,9 @@ raw:
         violet: compositions.form.flap_colors.violet
         white: compositions.form.flap_colors.white
         black: compositions.form.flap_colors.black
+      agent_panel: compositions.form.agent_panel
+      toggle_agent: compositions.form.toggle_agent
+      resize_agent_panel: compositions.form.resize_agent_panel
   shared:
     impersonator:
       managing: shared.impersonator.managing
@@ -2146,6 +2287,63 @@ raw:
       subscribe_price: user_mailer.plus_trial_ending.subscribe_price
       subscribe_title: user_mailer.plus_trial_ending.subscribe_title
       trial_ends_html: user_mailer.plus_trial_ending.trial_ends_html
+    recipe_review_answered:
+      subject: user_mailer.recipe_review_answered.subject
+      greeting: user_mailer.recipe_review_answered.greeting
+      ready: user_mailer.recipe_review_answered.ready
+      read: user_mailer.recipe_review_answered.read
+      next: user_mailer.recipe_review_answered.next
+    author_digest:
+      subject_prefix: user_mailer.author_digest.subject_prefix
+      greeting: user_mailer.author_digest.greeting
+      greeting_without_name: user_mailer.author_digest.greeting_without_name
+      intro: user_mailer.author_digest.intro
+      needs_a_fix: user_mailer.author_digest.needs_a_fix
+      failing:
+        one: user_mailer.author_digest.failing.one
+        other: user_mailer.author_digest.failing.other
+      open_plugin: user_mailer.author_digest.open_plugin
+      others_failing:
+        one: user_mailer.author_digest.others_failing.one
+        other: user_mailer.author_digest.others_failing.other
+      uninstalls: user_mailer.author_digest.uninstalls
+      reasons:
+        one: user_mailer.author_digest.reasons.one
+        other: user_mailer.author_digest.reasons.other
+      creator_fund: user_mailer.author_digest.creator_fund
+      qualified: user_mailer.author_digest.qualified
+      near_miss_intro: user_mailer.author_digest.near_miss_intro
+      near_miss_counts: user_mailer.author_digest.near_miss_counts
+      share_text: user_mailer.author_digest.share_text
+      post_on_x: user_mailer.author_digest.post_on_x
+      post_on_bluesky: user_mailer.author_digest.post_on_bluesky
+      post_on_reddit: user_mailer.author_digest.post_on_reddit
+      numbers: user_mailer.author_digest.numbers
+      installs_line:
+        one: user_mailer.author_digest.installs_line.one
+        other: user_mailer.author_digest.installs_line.other
+      top_growers: user_mailer.author_digest.top_growers
+      top_layouts: user_mailer.author_digest.top_layouts
+      see_analytics: user_mailer.author_digest.see_analytics
+      sign_off: user_mailer.author_digest.sign_off
+      footer: user_mailer.author_digest.footer
+      headlines:
+        qualified: user_mailer.author_digest.headlines.qualified
+        nearest_goal:
+          one: user_mailer.author_digest.headlines.nearest_goal.one
+          other: user_mailer.author_digest.headlines.nearest_goal.other
+        failing:
+          one: user_mailer.author_digest.headlines.failing.one
+          other: user_mailer.author_digest.headlines.failing.other
+        new_installs:
+          one: user_mailer.author_digest.headlines.new_installs.one
+          other: user_mailer.author_digest.headlines.new_installs.other
+        plugins_to_fix:
+          one: user_mailer.author_digest.headlines.plugins_to_fix.one
+          other: user_mailer.author_digest.headlines.plugins_to_fix.other
+        uninstall_reasons:
+          one: user_mailer.author_digest.headlines.uninstall_reasons.one
+          other: user_mailer.author_digest.headlines.uninstall_reasons.other
   pages:
     flash_firmware:
       linux_warning: pages.flash_firmware.linux_warning
@@ -2617,7 +2815,7 @@ raw:
     used: ai_allowance.used
     used_up: ai_allowance.used_up
     topup_label: ai_allowance.topup_label
-    topup_left: ai_allowance.topup_left
+    topup_credits_left: ai_allowance.topup_credits_left
   integration_overviews:
     alias: integration_overviews.alias
     apple_calendar: integration_overviews.apple_calendar
@@ -2715,16 +2913,18 @@ raw:
     withings: integration_overviews.withings
     workflowy: integration_overviews.workflowy
     youtube_analytics: integration_overviews.youtube_analytics
+    linkedin_page: integration_overviews.linkedin_page
   ai_credit_topups:
-    buy: ai_credit_topups.buy
-    hint: ai_credit_topups.hint
-    credit_line_item: ai_credit_topups.credit_line_item
     fee_line_item: ai_credit_topups.fee_line_item
     create:
       unknown_amount: ai_credit_topups.create.unknown_amount
     new:
       success: ai_credit_topups.new.success
       unpaid: ai_credit_topups.new.unpaid
+      processing: ai_credit_topups.new.processing
+    buy_credits: ai_credit_topups.buy_credits
+    credits_hint: ai_credit_topups.credits_hint
+    credits_line_item: ai_credit_topups.credits_line_item
   banners:
     got_it: banners.got_it
   byod_mac_address_banner_component:
@@ -2735,5 +2935,30 @@ raw:
   byod_trials:
     ended:
       claim_license: byod_trials.ended.claim_license
+      no_trial_device: byod_trials.ended.no_trial_device
+    convert:
+      no_trial_device: byod_trials.convert.no_trial_device
   screen_picker:
     single_palette_hint: screen_picker.single_palette_hint
+  active_admin:
+    batch_actions:
+      action_label: active_admin.batch_actions.action_label
+  virtual_devices:
+    create:
+      byod_trial_converted: virtual_devices.create.byod_trial_converted
+  email_unsubscribes:
+    switches:
+      author_digest_enabled: email_unsubscribes.switches.author_digest_enabled
+      community_emails_enabled: email_unsubscribes.switches.community_emails_enabled
+      low_battery_notification_enabled: email_unsubscribes.switches.low_battery_notification_enabled
+      health_notification_enabled: email_unsubscribes.switches.health_notification_enabled
+    footer_link: email_unsubscribes.footer_link
+    show:
+      title: email_unsubscribes.show.title
+      confirm: email_unsubscribes.show.confirm
+      unsubscribe: email_unsubscribes.show.unsubscribe
+      done: email_unsubscribes.show.done
+  system_screens:
+    out_of_ai_credit:
+      title: system_screens.out_of_ai_credit.title
+      message: system_screens.out_of_ai_credit.message

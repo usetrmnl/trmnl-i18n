@@ -6,6 +6,7 @@ sv:
     calendars:
       no_upcoming_events: No upcoming events
       no_events_today: No events today
+      all_day: all-day
     days_left_year:
       title: Days Left This Year
       days_passed: Days Passed
@@ -33,6 +34,8 @@ sv:
       title_short: Netatmo
       indoor_temp: Indoor Temp.
       indoor_temp_short: Indoor
+      outdoor_temp: Outdoor Temp.
+      outdoor_temp_short: Outdoor
       indoor_humidity: Indoor Humidity
       indoor_humidity_short: Indoor Hum.
       outdoor_humidity: Outdoor Humidity
@@ -66,6 +69,14 @@ sv:
       no_wind_gauge: No wind gauge
       add_module_hint: Add the optional %{module} module to see this data
       range_24h: 24h Range
+      conditions:
+        hot_humid: Hot & Humid
+        hot_dry: Hot & Dry
+        mild_humid: Mild & Humid
+        pleasant: Pleasant
+        cool_humid: Cool & Humid
+        cool_dry: Cool & Dry
+        no_data: No data
       errors:
         missing_access_token: Missing access token. Please reconnect your Netatmo account.
         no_station_selected: No weather station selected. Please choose a station in settings.
@@ -118,14 +129,20 @@ sv:
         conditions:
           clear: Clear
           cloudy: Cloudy
+          extreme_rain: Extreme Rain
           foggy: Foggy
+          heavy_rain: Heavy Rain
+          light_rain: Light Rain
+          moderate_rain: Moderate Rain
           partly_cloudy: Partly Cloudy
           rain_likely: Rain Likely
           rain_possible: Rain Possible
           snow: Snow
+          snow_likely: Snow Likely
           snow_possible: Snow Possible
           thunderstorms_likely: Thunderstorms Likely
           thunderstorms_possible: Thunderstorms Possible
+          very_heavy_rain: Very Heavy Rain
           very_light_rain: Very Light Rain
           windy: Windy
           wintry_mix_likely: Wintry Mix Likely
@@ -282,6 +299,8 @@ sv:
         - code: 1282
           day: Thunder & Snow
           night: Thunder & Snow
+      dew_point: Dew Point
+      dew_point_short: Dew Pt
     place_of_the_day:
       title: Place of the Day
       wikipedia_credit: Wikipedia CC BY-SA
@@ -340,3 +359,6 @@ sv:
       out_of_credit:
         title: Out of AI credit
         description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+    days_left_until:
+      today: 'Today: %{date}'
+      target: 'Target: %{date}'
