@@ -677,6 +677,8 @@ raw:
       level: logs.index.level
       only_plugin: logs.index.only_plugin
       show_all: logs.index.show_all
+    log:
+      expand: logs.log.expand
   markups:
     console_logs:
       js_logs: markups.console_logs.js_logs
