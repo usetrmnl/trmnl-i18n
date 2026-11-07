@@ -1284,6 +1284,11 @@ de:
       unknown_format: The prompt's format must be json or text, not %{value}.
       credit_left: 'AI credit: %{amount} left'
       reload: Reload
+    row:
+      degraded: Degraded
+      erroring: Stopped
+      recipe_degraded: Recipe degraded
+      recipe_erroring: Recipe stopped
   recipes:
     index:
       newest_to_oldest: Neueste zuerst
@@ -2155,6 +2160,8 @@ de:
       2Tx1B: Zwei oben, groß unten
       2x2: Vier Abschnitte
       3x3: Eigenes Raster
+    sections:
+      default_text_scale: Default (%{text_scale})
   playlist_coverage:
     title: Wiedergabelisten-Abdeckung
     your_timezone: deine Zeitzone
@@ -3254,3 +3261,4 @@ de:
     out_of_ai_credit:
       title: Out of AI credit
       message: Reload credit at trmnl.com to update %{name}
+  saving: Saving…

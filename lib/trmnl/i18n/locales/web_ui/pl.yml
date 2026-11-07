@@ -645,7 +645,7 @@ pl:
     update:
       error: Błąd podczas aktualizacji urządzenia
       success: Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane
-      choose_palette: "Zaktualizowano model urządzenia %{device}. Wybierz paletę kolorów obsługiwaną przez jego ekran."
+      choose_palette: Zaktualizowano model urządzenia %{device}. Wybierz paletę kolorów obsługiwaną przez jego ekran.
     add_device_first: Najpierw dodaj urządzenie
     image_too_big:
       message: Urządzenie odrzuciło obraz o rozmiarze %{size}. Ten model obsługuje obrazy o rozmiarze do %{limit}.
@@ -922,7 +922,7 @@ pl:
       important_title: Ważne
       important_description: Wyświetlane tylko obok innych ważnych ekranów w czasie określonym harmonogramem.
       date_range:
-        between: "Od %{start} do %{end}"
+        between: Od %{start} do %{end}
         from: Od %{start}
         until: Do %{end}
         yearly: Co roku, od %{start} do %{end}
@@ -1231,9 +1231,9 @@ pl:
       generating: Generowanie ikony
       failed: Nie udało się wygenerować ikony. Spróbuj ponownie lub zmień opis.
     remixes:
-      name: "Remiks: %{name}"
+      name: 'Remiks: %{name}'
       create:
-        success: "Dane pluginu %{plugin} są teraz dostępne jako {{ %{keyname} }}."
+        success: Dane pluginu %{plugin} są teraz dostępne jako {{ %{keyname} }}.
     live_preview:
       live: Podgląd na żywo
       image: Wygenerowany obraz
@@ -1297,7 +1297,7 @@ pl:
       markup: Kod szablonu
     ai_transform:
       no_route: Dodaj klucz API w sekcji Konto → Agent albo połącz urządzenie TRMNL, aby uruchamiać prompt tego pluginu.
-      api_key_refused: "Dostawca %{provider} odrzucił Twój klucz API. Sprawdź go w sekcji Konto → Agent."
+      api_key_refused: Dostawca %{provider} odrzucił Twój klucz API. Sprawdź go w sekcji Konto → Agent.
       out_of_credit: Wyczerpano kredyty AI. Do czasu ich doładowania urządzenie będzie wyświetlać przypomnienie.
       empty_reply: Model zwrócił pustą odpowiedź. Plugin zachował ostatni ekran.
       truncated: Odpowiedź przekroczyła limit %{max_tokens} tokenów i została ucięta. Plugin zachował ostatni ekran.
@@ -1307,6 +1307,11 @@ pl:
       unknown_format: Format promptu musi mieć wartość json lub text, a nie %{value}.
       credit_left: 'Pozostałe kredyty AI: %{amount}'
       reload: Doładuj
+    row:
+      degraded: Degraded
+      erroring: Stopped
+      recipe_degraded: Recipe degraded
+      recipe_erroring: Recipe stopped
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -1993,7 +1998,7 @@ pl:
         lobby:
           one: Oczekiwanie na jeszcze 1 gracza
           other: Oczekiwanie na %{count} graczy
-        to_move: "Ruch gracza %{name}"
+        to_move: Ruch gracza %{name}
       result:
         win: "%{name} wygrywa — powód: %{reason}"
         draw: 'Remis — powód: %{reason}'
@@ -2087,7 +2092,7 @@ pl:
       displays:
         create:
           success: Dodano do urządzenia %{device}. Partia pojawi się przy jego następnym odświeżeniu.
-          already_shown: "Urządzenie %{device} już wyświetla tę partię. Aby zmienić styl, najpierw ją usuń."
+          already_shown: Urządzenie %{device} już wyświetla tę partię. Aby zmienić styl, najpierw ją usuń.
       screens:
         scan_to_play: Zeskanuj, aby zagrać
         scan_hint: Skieruj aparat telefonu na kod. Pierwsza osoba, która go zeskanuje, zajmie wolne miejsce.
@@ -2111,7 +2116,7 @@ pl:
         set_up_on_claim: Konfiguruje osoba przypisująca urządzenie do swojego konta.
         unavailable_recipe: Receptura %{id} jest niedostępna. Nie została opublikowana lub jest ukryta na liście.
         unavailable_plugin: Plugin %{id} jest niedostępny. Nie został opublikowany.
-        added: "Plugin %{name} zostanie dodany podczas wstępnej konfiguracji."
+        added: Plugin %{name} zostanie dodany podczas wstępnej konfiguracji.
         removed: Usunięto plugin.
         not_found: Nie znaleźliśmy opublikowanego pluginu ani receptury pod tym linkiem.
       uninstall:
@@ -2129,19 +2134,19 @@ pl:
         claimed: Przypisano do konta
         waiting: Oczekiwanie
         remove: Usuń
-        remove_confirm: 'Usunąć zamówienie nr %{order}? Urządzenia, które nie zostały jeszcze przypisane do kont, nie otrzymają Twoich pluginów.'
+        remove_confirm: Usunąć zamówienie nr %{order}? Urządzenia, które nie zostały jeszcze przypisane do kont, nie otrzymają Twoich pluginów.
         none_shipped: Żadne urządzenie z tego zamówienia nie zostało jeszcze wysłane. Jeśli połączyliśmy je z innym Twoim zamówieniem, zaimportuj tamto zamówienie lub skontaktuj się ze wsparciem.
         imported:
-          zero: 'Zaimportowano zamówienie nr %{order}. Urządzenia będą konfigurowane wstępnie w miarę wysyłki.'
-          one: 'Zaimportowano zamówienie nr %{order}. Wstępna konfiguracja obejmie 1 urządzenie.'
-          other: 'Zaimportowano zamówienie nr %{order}. Wstępna konfiguracja obejmie %{count} urządzeń.'
-        already_imported: 'Zamówienie nr %{order} zostało już zaimportowane.'
+          zero: Zaimportowano zamówienie nr %{order}. Urządzenia będą konfigurowane wstępnie w miarę wysyłki.
+          one: Zaimportowano zamówienie nr %{order}. Wstępna konfiguracja obejmie 1 urządzenie.
+          other: Zaimportowano zamówienie nr %{order}. Wstępna konfiguracja obejmie %{count} urządzeń.
+        already_imported: Zamówienie nr %{order} zostało już zaimportowane.
         no_match: Nie udało się dopasować numeru zamówienia i adresu e-mail.
         taken: To zamówienie jest powiązane z innym kontem. Skontaktuj się ze wsparciem.
         paused: Wstępna konfiguracja urządzeń została wstrzymana dla tego konta. Skontaktuj się ze wsparciem.
         store_unavailable: Nie udało się połączyć z naszym sklepem. Spróbuj ponownie za chwilę.
         throttled: Zbyt wiele prób. Spróbuj ponownie później.
-        removed: 'Usunięto zamówienie nr %{order}.'
+        removed: Usunięto zamówienie nr %{order}.
   mashups:
     mashup:
       add_to_playlist: Dodaj do playlisty
@@ -2157,7 +2162,7 @@ pl:
     edit:
       title: Skonfiguruj mashup %{name}
       back_to_playlist: Wróć do playlisty
-      description: "Składanka — %{layout}"
+      description: Składanka — %{layout}
       health_notifications_hint: Otrzymaj e-mail, gdy renderowanie tego mashupu zacznie kończyć się błędami lub całkowicie się zatrzyma. Maksymalnie jedna wiadomość e-mail dla każdego stanu w ramach incydentu; alerty uzbrajają się ponownie, gdy mashup wróci do prawidłowego stanu.
       health_notifications_checkbox: Wyślij mi e-mail, gdy ten mashup będzie działał nieprawidłowo
       refresh_rate_hint: Renderuje %{refresh_rate}; częstotliwość jest ustawiana przez najszybszy z jego pluginów.
@@ -2178,6 +2183,8 @@ pl:
       2Tx1B: Dwie sekcje u góry, duża na dole
       2x2: Cztery sekcje
       3x3: Siatka niestandardowa
+    sections:
+      default_text_scale: Default (%{text_scale})
   playlist_coverage:
     title: Pokrycie playlisty
     your_timezone: Twoja strefa czasowa
@@ -2324,20 +2331,20 @@ pl:
       intro: 'Oto podsumowanie Twojego tygodnia w TRMNL: %{from} – %{to}.'
       needs_a_fix: Wymaga poprawy
       failing:
-        one: "Plugin %{name} nie działa na 1 ekranie. Ostatni błąd: %{date}."
-        other: "Plugin %{name} nie działa na %{count} ekranach. Ostatni błąd: %{date}."
+        one: 'Plugin %{name} nie działa na 1 ekranie. Ostatni błąd: %{date}.'
+        other: 'Plugin %{name} nie działa na %{count} ekranach. Ostatni błąd: %{date}.'
       open_plugin: Otwórz %{name}
       others_failing:
         one: Na 1 kolejnym ekranie występują błędy usługi zewnętrznej lub użytkownik nie ukończył konfiguracji. Nie musisz nic z tym robić.
-        other: "Na %{count} kolejnych ekranach występują błędy usług zewnętrznych lub użytkownicy nie ukończyli konfiguracji. Nie musisz nic z tym robić."
+        other: Na %{count} kolejnych ekranach występują błędy usług zewnętrznych lub użytkownicy nie ukończyli konfiguracji. Nie musisz nic z tym robić.
       uninstalls: Co użytkownicy napisali podczas odinstalowywania
       reasons:
         one: 'W tym tygodniu odinstalowano 1 raz. Powody: %{reasons}.'
-        other: "W tym tygodniu odinstalowano %{count} razy. Powody: %{reasons}."
+        other: 'W tym tygodniu odinstalowano %{count} razy. Powody: %{reasons}.'
       creator_fund: Blisko kwalifikacji do Funduszu Twórców
-      qualified: "Plugin %{name} przekroczył w tym tygodniu próg %{minimum} połączeń i zostanie uwzględniony w kolejnej wypłacie z Funduszu Twórców."
+      qualified: Plugin %{name} przekroczył w tym tygodniu próg %{minimum} połączeń i zostanie uwzględniony w kolejnej wypłacie z Funduszu Twórców.
       near_miss_intro: 'Pluginy zaczynają zarabiać od %{threshold} połączeń. Wystarczy, że jeszcze kilka osób udostępni te pluginy, aby osiągnęły próg:'
-      near_miss_counts: "Połączenia: %{connections} · brakuje %{needed}"
+      near_miss_counts: 'Połączenia: %{connections} · brakuje %{needed}'
       share_text: Sprawdź %{name} dla TRMNL
       post_on_x: Opublikuj na X
       post_on_bluesky: Bluesky
@@ -2352,13 +2359,13 @@ pl:
       sign_off: Skup się na tym, co ważne,
       footer: Otrzymujesz tę wiadomość raz w tygodniu, ponieważ publikujesz pluginy na TRMNL. Jeśli nie ma żadnych nowości, wiadomość nie jest wysyłana.
       headlines:
-        qualified: "Plugin %{name} kwalifikuje się teraz do Funduszu Twórców"
+        qualified: Plugin %{name} kwalifikuje się teraz do Funduszu Twórców
         nearest_goal:
-          one: "Pluginowi %{name} brakuje 1 instalacji do rozpoczęcia zarabiania"
-          other: "Pluginowi %{name} brakuje %{count} instalacji do rozpoczęcia zarabiania"
+          one: Pluginowi %{name} brakuje 1 instalacji do rozpoczęcia zarabiania
+          other: Pluginowi %{name} brakuje %{count} instalacji do rozpoczęcia zarabiania
         failing:
-          one: "Plugin %{name} nie działa na 1 ekranie"
-          other: "Plugin %{name} nie działa na %{count} ekranach"
+          one: Plugin %{name} nie działa na 1 ekranie
+          other: Plugin %{name} nie działa na %{count} ekranach
         new_installs:
           one: 1 nowa instalacja
           other: "%{count} nowych instalacji"
@@ -2839,7 +2846,7 @@ pl:
     used: "%{percent}% wykorzystano"
     used_up: Wykorzystano cały limit użycia. __Doładuj go lub dodaj klucz__, aby kontynuować.
     topup_label: Kredyty z doładowania
-    topup_credits_left: "Pozostałe kredyty: %{credits}"
+    topup_credits_left: 'Pozostałe kredyty: %{credits}'
   integration_overviews:
     alias: |-
       Twój własny obraz na wyświetlaczu ePapierowym TRMNL. Alias jest przeznaczony dla osób, które przygotowują ekrany gdzie indziej, np. skryptem na domowym serwerze. Wklej pełny adres URL obrazu, a urządzenie pobierze go bezpośrednio spod tego adresu, więc zadziała również lokalny URL, np. http://localhost:4567/image.png.
@@ -3277,3 +3284,4 @@ pl:
     out_of_ai_credit:
       title: Wyczerpano kredyty AI
       message: Doładuj kredyty na trmnl.com, aby zaktualizować %{name}
+  saving: Saving…
