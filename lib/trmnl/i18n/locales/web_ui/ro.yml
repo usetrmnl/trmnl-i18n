@@ -587,11 +587,11 @@ ro:
         days:
           one: Necesită încărcare în aproximativ o zi.
           other: Necesită încărcare în aproximativ %{count} de zile.
-          few: "Necesită încărcare în aproximativ %{count} zile."
+          few: Necesită încărcare în aproximativ %{count} zile.
         weeks:
           one: Necesită încărcare în aproximativ o săptămână.
           other: Necesită încărcare în aproximativ %{count} de săptămâni.
-          few: "Necesită încărcare în aproximativ %{count} săptămâni."
+          few: Necesită încărcare în aproximativ %{count} săptămâni.
         month: Necesită încărcare în jurul lunii %{month}.
     discover_persona:
       label: Profil de utilizare și Descoperă
@@ -790,10 +790,10 @@ ro:
         ran:
           one: Script rulat · %{count} variabilă
           other: Script rulat · %{count} de variabile
-          few: "Script rulat · %{count} variabile"
+          few: Script rulat · %{count} variabile
         failed: Scriptul a eșuat. Vezi jurnalele JS.
         waits_for_webhook: Salvat. Se va rula la următorul webhook.
-        limited: 'Salvat. Limita de rulări la salvare este de %{count} pe oră. Acest script se va rula la următoarea reîmprospătare.'
+        limited: Salvat. Limita de rulări la salvare este de %{count} pe oră. Acest script se va rula la următoarea reîmprospătare.
         expired: Scriptul încă rulează. Reîncarcă pagina pentru a vedea noile variabile.
     ai_assistant_inline:
       model_locked: Modelul AI este stabilit de TRMNL
@@ -1311,6 +1311,11 @@ ro:
       unknown_format: Formatul instrucțiunii trebuie să fie json sau text, nu %{value}.
       credit_left: 'Credite AI rămase: %{amount}'
       reload: Reîncarcă
+    row:
+      degraded: Degraded
+      erroring: Stopped
+      recipe_degraded: Recipe degraded
+      recipe_erroring: Recipe stopped
   recipes:
     index:
       newest_to_oldest: De la cel mai nou la cel mai vechi
@@ -2200,6 +2205,8 @@ ro:
       2Tx1B: Două sus, mare jos
       2x2: Patru secțiuni
       3x3: Grilă personalizată
+    sections:
+      default_text_scale: Default (%{text_scale})
   playlist_coverage:
     title: Acoperirea listei de redare
     your_timezone: fusul tău orar
@@ -2353,8 +2360,8 @@ ro:
       open_plugin: Deschide %{name}
       others_failing:
         one: Încă un ecran afișează erori cauzate de un serviciu extern sau de o configurare nefinalizată de utilizator. Nu trebuie să intervii.
-        other: "Încă %{count} de ecrane afișează erori cauzate de un serviciu extern sau de o configurare nefinalizată de utilizator. Nu trebuie să intervii."
-        few: "Încă %{count} ecrane afișează erori cauzate de un serviciu extern sau de o configurare nefinalizată de utilizator. Nu trebuie să intervii."
+        other: Încă %{count} de ecrane afișează erori cauzate de un serviciu extern sau de o configurare nefinalizată de utilizator. Nu trebuie să intervii.
+        few: Încă %{count} ecrane afișează erori cauzate de un serviciu extern sau de o configurare nefinalizată de utilizator. Nu trebuie să intervii.
       uninstalls: Ce au spus utilizatorii la dezinstalare
       reasons:
         one: 'O dezinstalare săptămâna aceasta: %{reasons}.'
@@ -2363,7 +2370,7 @@ ro:
       creator_fund: Aproape de Creator Fund
       qualified: "%{name} a depășit săptămâna aceasta pragul de conexiuni (%{minimum}) și va fi inclus la următoarea plată Creator Fund."
       near_miss_intro: 'Pragul de conexiuni pentru venituri este %{threshold}. Câteva distribuiri le-ar ajuta pe aceste pluginuri să îl atingă:'
-      near_miss_counts: "Conexiuni: %{connections} · Mai sunt necesare: %{needed}"
+      near_miss_counts: 'Conexiuni: %{connections} · Mai sunt necesare: %{needed}'
       share_text: Descoperă %{name} pentru TRMNL
       post_on_x: Publică pe X
       post_on_bluesky: Bluesky
@@ -3311,3 +3318,4 @@ ro:
     out_of_ai_credit:
       title: Credite AI epuizate
       message: Reîncarcă creditele pe trmnl.com pentru a actualiza %{name}
+  saving: Saving…

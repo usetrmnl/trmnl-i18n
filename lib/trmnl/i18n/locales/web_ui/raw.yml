@@ -1285,6 +1285,11 @@ raw:
       unknown_format: plugin_settings.ai_transform.unknown_format
       credit_left: plugin_settings.ai_transform.credit_left
       reload: plugin_settings.ai_transform.reload
+    row:
+      degraded: plugin_settings.row.degraded
+      erroring: plugin_settings.row.erroring
+      recipe_degraded: plugin_settings.row.recipe_degraded
+      recipe_erroring: plugin_settings.row.recipe_erroring
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -2154,6 +2159,8 @@ raw:
       2Tx1B: mashups.presets.2Tx1B
       2x2: mashups.presets.2x2
       3x3: mashups.presets.3x3
+    sections:
+      default_text_scale: mashups.sections.default_text_scale
   playlist_coverage:
     title: playlist_coverage.title
     your_timezone: playlist_coverage.your_timezone
@@ -2962,3 +2969,4 @@ raw:
     out_of_ai_credit:
       title: system_screens.out_of_ai_credit.title
       message: system_screens.out_of_ai_credit.message
+  saving: saving

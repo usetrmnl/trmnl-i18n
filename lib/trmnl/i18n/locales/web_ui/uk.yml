@@ -1331,6 +1331,11 @@ uk:
       unknown_format: The prompt's format must be json or text, not %{value}.
       credit_left: 'AI credit: %{amount} left'
       reload: Reload
+    row:
+      degraded: Degraded
+      erroring: Stopped
+      recipe_degraded: Recipe degraded
+      recipe_erroring: Recipe stopped
   recipes:
     index:
       newest_to_oldest: Спочатку найновіші
@@ -2236,6 +2241,8 @@ uk:
       2Tx1B: Дві зверху, велика знизу
       2x2: Чотири секції
       3x3: Власна сітка
+    sections:
+      default_text_scale: Default (%{text_scale})
   playlist_coverage:
     title: Покриття списку відтворення
     your_timezone: ваш часовий пояс
@@ -3341,3 +3348,4 @@ uk:
     out_of_ai_credit:
       title: Out of AI credit
       message: Reload credit at trmnl.com to update %{name}
+  saving: Saving…
