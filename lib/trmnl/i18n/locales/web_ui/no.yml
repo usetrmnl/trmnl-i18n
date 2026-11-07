@@ -2397,6 +2397,17 @@
         uninstall_reasons:
           one: 1 person said why they uninstalled
           other: "%{count} people said why they uninstalled"
+    bank_payment_failed:
+      subject: Your bank payment to TRMNL did not go through
+      greeting: Hi %{name},
+      greeting_without_name: Hi,
+      byod_license: The bank payment for your BYOD license did not go through, so your device is back on its trial.
+      byod_trial: The $1 bank payment for your BYOD trial did not go through, so we ended the trial.
+      developer_edition: The bank payment for Developer Edition did not go through, so we turned it off on your device.
+      plus: The bank payment for TRMNL+ did not go through, so we turned it off.
+      pay_again: You can pay again with a card or another account here.
+      sign_off: cheers,
+      team: the TRMNL team
   pages:
     flash_firmware:
       linux_warning: Flashing from Linux often fails because Chrome can't open the serial port. Add your user to the dialout group (sudo usermod -aG dialout $USER), log out and back in, then retry. If that doesn't help, use Chrome or Edge on a Mac or Windows PC.
