@@ -2351,6 +2351,17 @@ raw:
         uninstall_reasons:
           one: user_mailer.author_digest.headlines.uninstall_reasons.one
           other: user_mailer.author_digest.headlines.uninstall_reasons.other
+    bank_payment_failed:
+      subject: user_mailer.bank_payment_failed.subject
+      greeting: user_mailer.bank_payment_failed.greeting
+      greeting_without_name: user_mailer.bank_payment_failed.greeting_without_name
+      byod_license: user_mailer.bank_payment_failed.byod_license
+      byod_trial: user_mailer.bank_payment_failed.byod_trial
+      developer_edition: user_mailer.bank_payment_failed.developer_edition
+      plus: user_mailer.bank_payment_failed.plus
+      pay_again: user_mailer.bank_payment_failed.pay_again
+      sign_off: user_mailer.bank_payment_failed.sign_off
+      team: user_mailer.bank_payment_failed.team
   pages:
     flash_firmware:
       linux_warning: pages.flash_firmware.linux_warning

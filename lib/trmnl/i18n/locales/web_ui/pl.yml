@@ -2375,6 +2375,17 @@ pl:
         uninstall_reasons:
           one: 1 osoba podała powód odinstalowania
           other: "%{count} osób podało powód odinstalowania"
+    bank_payment_failed:
+      subject: Your bank payment to TRMNL did not go through
+      greeting: Hi %{name},
+      greeting_without_name: Hi,
+      byod_license: The bank payment for your BYOD license did not go through, so your device is back on its trial.
+      byod_trial: The $1 bank payment for your BYOD trial did not go through, so we ended the trial.
+      developer_edition: The bank payment for Developer Edition did not go through, so we turned it off on your device.
+      plus: The bank payment for TRMNL+ did not go through, so we turned it off.
+      pay_again: You can pay again with a card or another account here.
+      sign_off: cheers,
+      team: the TRMNL team
   pages:
     flash_firmware:
       linux_warning: Flashowanie z Linuksa często kończy się niepowodzeniem, ponieważ Chrome nie może otworzyć portu szeregowego. Dodaj użytkownika do grupy dialout (sudo usermod -aG dialout $USER), wyloguj się i zaloguj ponownie, a następnie spróbuj jeszcze raz. Jeśli to nie pomoże, użyj Chrome lub Edge na komputerze Mac albo z Windows.
