@@ -1042,8 +1042,8 @@ it:
       force_refresh_click_here_hint: to make a new screen now
       force_refresh_not_possible: Questo plugin non può essere aggiornato forzatamante perchè il server TRMNL non genera l'immagine. Scopri come provare la tua istanza __qui__.
       health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications_hint: Get an email when this plugin stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this plugin starts failing
       learn_more: Maggiori informazioni su questo plugin sono nella nostra knowledge base
       learn_more_recipe_author: Hai bisogno di aiuto? Contatta %{recipe_author} su Discord.
       linked_account: Account Connesso
@@ -1140,6 +1140,7 @@ it:
       remove_account: Remove
       remove_account_confirm: Remove %{account} from this plugin?
       account_removed: Account removed.
+      stopped_notifications_checkbox: Email me when this plugin stops refreshing
     import:
       archive_too_large: File ZIP troppo grande (%{max_mb} MB massimi)
       missing_entry: Il file ZIP non contiene %{filename}
@@ -2147,12 +2148,13 @@ it:
       title: Configure %{name} Mashup
       back_to_playlist: Back to Playlist
       description: "%{layout} mashup"
-      health_notifications_hint: Get an email when this mashup's renders start failing or stop. At most one email per state per incident; alerts re-arm once the mashup is healthy again.
-      health_notifications_checkbox: Email me when this mashup becomes unhealthy
+      health_notifications_hint: Get an email when this mashup stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this mashup starts failing
       refresh_rate_hint: Renders %{refresh_rate}, set by the fastest of its plugins.
       remove: Remove mashup
       remove_hint: Removing a mashup takes it off your playlist. Its plugins stay installed.
       name_hint: Give it a name for easy reference, or leave it empty to show the names of its plugins.
+      stopped_notifications_checkbox: Email me when this mashup stops refreshing
     new:
       playlist_item_title: New playlist item
     create:
@@ -3282,6 +3284,7 @@ it:
     toggle_color_preview: Toggle color preview (Raw / Preview)
     toggle_dark_mode: Toggle dark mode
     toggle_orientation: Toggle orientation
+    dark_mode: Dark Mode
   active_admin:
     batch_actions:
       action_label: "%{title}"
@@ -3305,3 +3308,33 @@ it:
       title: Out of AI credit
       message: Reload credit at trmnl.com to update %{name}
   saving: Saving…
+  missing_devices:
+    finish_setup: This TRMNL has not finished Wi-Fi setup. Connect it to Wi-Fi and it shows its Friendly ID on screen. If it does not connect, contact support.
+    byod_license_html: A DIY kit or another BYOD device needs a %{link} before it can be found.
+    byod_license_link: BYOD license
+  appearance:
+    default_theme: Default
+    orientations:
+      landscape: Landscape
+      portrait: Portrait
+    palettes:
+      bw: Black & White (1-bit)
+      gray-4: 4 Grays (2-bit)
+      gray-16: 16 Grays (4-bit)
+      gray-256: 256 Grays (8-bit)
+      color-3bwr: 'Color (3 colors: black, red, white)'
+      color-3bwy: 'Color (3 colors: black, yellow, white)'
+      color-4bwry: 'Color (4 colors: black, red, white, yellow)'
+      color-6a: Color (6 colors)
+      color-7a: Color (7 colors)
+      color-12bit: Color (4096 colors)
+      color-24bit: Color (16777216 colors)
+    summary:
+      font_family: "%{value} font family"
+      text_scale: "%{value} text scale"
+      theme: "%{value} theme"
+    text_scales:
+      small: Small
+      regular: Regular
+      large: Large
+      xlarge: X-Large
