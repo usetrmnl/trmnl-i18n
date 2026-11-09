@@ -6,7 +6,7 @@ pl:
     calendars:
       no_upcoming_events: Brak nadchodzących wydarzeń
       no_events_today: Brak wydarzeń na dziś
-      all_day: all-day
+      all_day: Całodzienne
     days_left_year:
       title: Dni do końca roku
       days_passed: Minęło dni
@@ -30,10 +30,12 @@ pl:
         third_quarter: Trzecia kwadra
         waning_crescent: Znikający sierp
     netatmo_weather_station:
-      title: Netatmo Weather
+      title: Pogoda Netatmo
       title_short: Netatmo
       indoor_temp: Temperatura wew.
-      indoor_temp_short: Wewnątrz
+      indoor_temp_short: Temp. wew.
+      outdoor_temp: Temperatura zew.
+      outdoor_temp_short: Temp. zew.
       indoor_humidity: Wilgotność wewnętrzna
       indoor_humidity_short: Wilg. wew.
       outdoor_humidity: Wilgotność zewnętrzna
@@ -50,30 +52,38 @@ pl:
       default_station_name: Stacja Netatmo
       default_outdoor_module: Temp. zew.
       default_indoor_module: Wewnątrz
-      trends_title: Trendy %{metric}
+      trends_title: Trend %{metric}
       trends_title_short: Trendy
-      temperature_trends: Trendy temperatury
-      temperature_trends_short: Trendy temp.
+      temperature_trends: Trend temperatury
+      temperature_trends_short: Trend temp.
       outdoor_now: Na zew. teraz
       indoor_now: Wew. teraz
       now: Teraz
-      low_high_24h: Maks / Min 24h
+      low_high_24h: Min / Maks 24h
       average_24h: Średnia 24h
       outdoor: Na zewnątrz
       indoor: Wewnątrz
-      rain_gauge_not_connected: Nie podpięty czujnika deszczu
-      wind_gauge_not_connected: Nie podpięty czujnika wiatru
+      rain_gauge_not_connected: Nie podpięto czujnika deszczu
+      wind_gauge_not_connected: Nie podpięto czujnika wiatru
       no_rain_gauge: Brak czujnika deszczu
       no_wind_gauge: Brak czujnika wiatru
       add_module_hint: Dodaj opcjonalny moduł %{module}, aby zobaczyć te dane
       range_24h: Zakres 24h
+      conditions:
+        hot_humid: Gorąco i wilgotno
+        hot_dry: Gorąco i sucho
+        mild_humid: Umiarkowanie i wilgotno
+        pleasant: Przyjemnie
+        cool_humid: Zimno i wilgotno
+        cool_dry: Zimno i sucho
+        no_data: Brak danych
       errors:
         missing_access_token: Brakuje tokena dostępowego. Ponownie połącz swoje konto Netatmo.
         no_station_selected: Nie wybrano żadnej stacji pogody. Wybierz stację w ustawieniach.
         connection_failed: Połączenie ze stacją Netatmo nie powiodło się. Sprawdź swoje połączenie z Internetem.
         data_retrieval_failed: Nie można pobrać danych o pogodzie. Spróbuj ponownie później.
         session_expired: Sesja wygasła. Proszę podłączyć swoje konto Netatmo w ustawieniach.
-        indoor_module_missing: Selected indoor module not found. Please reconfigure in settings.
+        indoor_module_missing: Nie znaleziono wybranego modułu wewnętrznego. Zmień konfigurację w ustawieniach.
       feels_like: Odczuwalna
     parcel:
       delivery_by: Dostawa do
@@ -290,8 +300,8 @@ pl:
         - code: 1282
           day: Burza z intensywnymi opadami śniegu
           night: Burza z intensywnymi opadami śniegu
-      dew_point: Dew Point
-      dew_point_short: Dew Pt
+      dew_point: Punkt rosy
+      dew_point_short: Pkt rosy
     place_of_the_day:
       title: Miejsce dnia
       wikipedia_credit: Wikipedia CC BY-SA
@@ -348,8 +358,11 @@ pl:
       updated_at: Zaktualizowano %{time}
     ai_dashboard:
       out_of_credit:
-        title: Out of AI credit
-        description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
+        title: Wykorzystano kredyty AI
+        description: Dołącz do TRMNL+ aby uzyskać kredyty AI lub zakup je, aby korzystać z tego pluginu.
+        own_api_key_off: Or turn on "Use my own AI key" in this dashboard's settings.
+      ai_key_refused:
+        title: Your AI provider refused your key
     days_left_until:
-      today: 'Today: %{date}'
-      target: 'Target: %{date}'
+      today: 'Dziś: %{date}'
+      target: 'Cel: %{date}'

@@ -1,0 +1,32 @@
+name: Translation status
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: translation-status
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - run: bin/status tmp/translation-status
+      - name: Publish to the translation-status branch
+        working-directory: tmp/translation-status
+        run: |
+          cp -R ../../.circleci .
+          git init --quiet --initial-branch translation-status
+          git add --all
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit --quiet --message "Updated translation status for ${GITHUB_SHA::8}"
+          git push --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" translation-status

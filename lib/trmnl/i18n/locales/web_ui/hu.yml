@@ -16,7 +16,6 @@ hu:
   charge_level: Töltöttségi szint
   charged: Feltöltve
   charging: Töltés alatt
-  claim_plus_trial: Claim 6 Months Free
   close: Bezárás
   confirm_change_password: Jelszó megváltoztatása
   confirm_password: Új jelszó megerősítése
@@ -207,6 +206,21 @@ hu:
         agent:
           title: AI Agent
           hint: Usage credits, model selection and bring your own keys
+        emails:
+          title: Emails
+          hint: Choose which optional emails TRMNL sends you
+      author_digest: Author digest
+      author_digest_hint: A weekly email about your published plugins, sent only when there is something new.
+      community_emails: Community emails
+      community_emails_hint: Review requests and referral rewards.
+      emails_on_for: 'On for:'
+      low_battery_emails: Low battery emails
+      low_battery_emails_off: Off for every device. Turn them on in a device's battery settings under __Devices__.
+      health_alerts: Plugin health alerts
+      health_alerts_off: Off for every plugin. Turn them on in a plugin's settings under __Plugins__.
+      stopped_emails: Stopped plugin emails
+      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
+      stopped_emails_off_for: 'On for every plugin and mashup except:'
     update:
       success: A profil sikeresen frissült
     reset_api_key:
@@ -341,6 +355,7 @@ hu:
       new_and_popular: Új és népszerű
     shop:
       title: Áruház
+      another_trmnl: Need another TRMNL?
     time_saved:
       title: Megtakarított idő
     discover_callout:
@@ -352,6 +367,7 @@ hu:
   date:
     formats:
       day_month_long: "%A, %B %-d"
+      month_year: "%B %Y"
   devices:
     edit:
       accepts_beta_firmware: Korai firmware kiadás
@@ -548,6 +564,17 @@ hu:
       vestaboard_credentials_hint: In the Vestaboard app, open Settings, then Advanced Settings, then API. Create a token with Write access and paste it here.
       guest_mode_not_set: Not set
       guest_mode_summary: "%{screen} for %{duration}"
+      full_refresh_on_screen_change: Full Refresh When the Screen Changes
+      full_refresh_on_screen_change_hint: Clears any outline of the previous screen. The screen goes black and white for a moment whenever a new image arrives; a screen that did not change stays partial.
+      charge_forecast:
+        now: Needs a charge now.
+        days:
+          one: Needs a charge in about 1 day.
+          other: Needs a charge in about %{count} days.
+        weeks:
+          one: Needs a charge in about 1 week.
+          other: Needs a charge in about %{count} weeks.
+        month: Needs a charge around %{month}.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -604,6 +631,8 @@ hu:
     image_too_big:
       message: Your device rejected a %{size} image; this model accepts up to %{limit}.
       message_without_limit: Your device rejected a %{size} image as too big.
+    update_discover_banner:
+      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
   discovery:
     dashboard_action:
       saved:
@@ -651,6 +680,8 @@ hu:
       level: Level
       only_plugin: Only logs from %{name}.
       show_all: Show all logs
+    log:
+      expand: Expand
   markups:
     console_logs:
       js_logs: JavaScript naplók
@@ -675,6 +706,11 @@ hu:
       save_changes: Módosítások mentése (⌘﹢S)
       separate_preview: Az előnézet külön ablakban van megnyitva
       preview_layout: Preview layout
+      prompt_language: Prompt (AI)
+      prompt_help: 'The installer''s model turns the input into this plugin''s merge variables, paid with their API key or AI credit. Liquid sees the same input a script would, and the model is asked again whenever the rendered prompt changes, so pass only the fields the prompt needs. Front matter between two --- lines may set schema (a JSON schema the reply must match, where the model supports it), max_tokens (up to 4096, which a reasoning model spends partly on thinking) and format: text.'
+      serverless_help: Clean up the data with a script, or hand it to an AI model with a prompt.
+      serverless_learn_more: Learn more about scripts
+      prompt_learn_more: Read the prompt guide
     merge_variables:
       your_variables: Saját változóid
     no_merge_variables:
@@ -801,6 +837,10 @@ hu:
           cta: Looking for something new? Browse Plugins
       hold_screen: Hold screen
       hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
+      unused_plugin_setting:
+        message: "%{name} is not on any playlist now. Delete the plugin too?"
+        delete: Delete plugin
+        keep: Keep plugin
     playlist_item:
       adjust_schedule: Ütemezés módosítása
       delete: Biztosan el szeretnéd távolítani ezt az elemet? A bővítmény megmarad, csak nem fog megjelenni az eszközön.
@@ -852,6 +892,7 @@ hu:
       important_active: Important active
       stale: Stale
       pending: Not rendered yet
+      held: Held
     status_description:
       error: Refreshes stopped after repeated failures. Open its settings to fix it.
       setup: Finish configuring this item before it can appear on the device.
@@ -862,6 +903,7 @@ hu:
       important_active: An Important item has this slot right now.
       stale: Smart Skip is skipping this — its screen hasn't updated in a while.
       pending: Its first render starts at the next device check-in.
+      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
     schedule:
       always: Always
       important_title: Important
@@ -883,6 +925,7 @@ hu:
         refresh_interval: Refresh rate updated
       error: Bulk action failed
       refresh_rate: Refresh rate
+      selected: selected
     smart_skip_modal:
       title: Smart Skip
       apply: Done
@@ -1002,8 +1045,8 @@ hu:
       force_refresh_click_here_hint: to make a new screen now
       force_refresh_not_possible: This plugin cannot be force-refreshed because the TRMNL server does not perform image processing. Learn how to test your instance __here__.
       health_notifications: Health notifications
-      health_notifications_hint: Get an email when this plugin's state changes to degraded or erroring. You'll receive at most one email per state per incident; alerts re-arm once the plugin returns to healthy.
-      health_notifications_checkbox: Email me when this plugin becomes unhealthy
+      health_notifications_hint: Get an email when this plugin stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this plugin starts failing
       learn_more: Tudj meg többet erről a bővítményről a tudásbázisunkban
       learn_more_recipe_author: Segítségre van szükséged? Lépj kapcsolatba %{recipe_author}-ral Discordon.
       linked_account: Összekapcsolt fiók
@@ -1096,6 +1139,11 @@ hu:
       lat_lon_placeholder: Search a city or postal code, or enter lat,long
       new_title: Add %{plugin}
       edit_title: "%{plugin} · %{name}"
+      linked_accounts_hint: This plugin reads from these accounts.
+      remove_account: Remove
+      remove_account_confirm: Remove %{account} from this plugin?
+      account_removed: Account removed.
+      stopped_notifications_checkbox: Email me when this plugin stops refreshing
     import:
       archive_too_large: A ZIP fájl túl nagy (%{max_mb} MB a maximális méret)
       missing_entry: A ZIP fájl nem tartalmazza a(z) %{filename} fájlt
@@ -1232,6 +1280,26 @@ hu:
       empty: You haven't asked trmy yet.
       rate_limited: That's a lot of reviews for one day. Try again tomorrow.
       back: Back to your plugin
+    data_flow:
+      title: Data flow
+      markup: Markup
+    ai_transform:
+      no_route: Add an API key in Account → Agent, or connect a TRMNL device, to run this plugin's prompt.
+      api_key_refused: "%{provider} refused your API key. Check it in Account → Agent."
+      out_of_credit: Out of AI credit. Your device shows a reminder until you reload credit.
+      empty_reply: The model sent an empty reply. This plugin kept its last screen.
+      truncated: The reply ran past %{max_tokens} tokens and was cut off. This plugin kept its last screen.
+      front_matter_not_a_map: The prompt's front matter must be a list of options, one per line.
+      front_matter_not_yaml: 'The prompt''s front matter is not valid YAML: %{error}'
+      unknown_option: 'The prompt''s front matter has an option this plugin does not know: %{options}. It knows schema, max_tokens and format.'
+      unknown_format: The prompt's format must be json or text, not %{value}.
+      credit_left: 'AI credit: %{amount} left'
+      reload: Reload
+    row:
+      degraded: Degraded
+      erroring: Stopped
+      recipe_degraded: Recipe degraded
+      recipe_erroring: Recipe stopped
   recipes:
     index:
       newest_to_oldest: Legújabbtól a legrégebbiig
@@ -1310,6 +1378,14 @@ hu:
           body: Scan the code on the display again to pick up where you left off.
       discovery:
         billing_cancel_failed: Billing could not be canceled, so nothing was uninstalled. Please try again.
+        index:
+          title: Apps
+          description: Turn your TRMNL devices into purpose-built displays.
+          installed_heading: Your Installed Apps
+          available_heading: Available To Install
+          install_heading: Install an App
+          install: Install
+          installing: Installing...
       app_page:
         title: "%{app} for TRMNL"
         eyebrow: TRMNL app
@@ -1411,6 +1487,9 @@ hu:
             other: "%{count} more"
       room_screens:
         until: Until %{time}
+        up_next: 'Up next: %{title} at %{time}'
+        up_next_untitled: Up next at %{time}
+        free_after: Free after %{time}
       home:
         index:
           calendars_on_display: Calendars on a display
@@ -1746,6 +1825,9 @@ hu:
           walk_up_booking: Booking with TRMNL
           walk_up_calendar: Show Calendar
           walk_up_calendar_hint: Show upcoming bookings on the public booking page.
+          room_screens: Room screens
+          show_next_meeting: Show next meeting
+          show_next_meeting_hint: While a room is busy, show the next meeting instead of the organizer.
       billing:
         title: Billing
         summary:
@@ -1888,6 +1970,10 @@ hu:
         row: "%{name}: expected %{expected}, last ping %{last_ping}, %{battery} battery, Wi-Fi %{wifi}."
         open_fleet: Open fleet
         footer: You get this because check-in alerts are on for this fleet. Turn them off in Fleet › Settings.
+      summary:
+        mirrors:
+          one: "%{count} mirror"
+          other: "%{count} mirrors"
     bookings:
       read_only_booking_error: This calendar is read only. The connected Google account needs permission to make changes to events before it can take bookings.
     chess:
@@ -2065,12 +2151,13 @@ hu:
       title: Configure %{name} Mashup
       back_to_playlist: Back to Playlist
       description: "%{layout} mashup"
-      health_notifications_hint: Get an email when this mashup's renders start failing or stop. At most one email per state per incident; alerts re-arm once the mashup is healthy again.
-      health_notifications_checkbox: Email me when this mashup becomes unhealthy
+      health_notifications_hint: Get an email when this mashup stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this mashup starts failing
       refresh_rate_hint: Renders %{refresh_rate}, set by the fastest of its plugins.
       remove: Remove mashup
       remove_hint: Removing a mashup takes it off your playlist. Its plugins stay installed.
       name_hint: Give it a name for easy reference, or leave it empty to show the names of its plugins.
+      stopped_notifications_checkbox: Email me when this mashup stops refreshing
     new:
       playlist_item_title: New playlist item
     create:
@@ -2085,6 +2172,8 @@ hu:
       2Tx1B: Two top, large bottom
       2x2: Four sections
       3x3: Custom grid
+    sections:
+      default_text_scale: Default (%{text_scale})
   playlist_coverage:
     title: Playlist coverage
     your_timezone: your timezone
@@ -2224,6 +2313,68 @@ hu:
       ready: trmy, our internal review agent, finished checking %{name}.
       read: Read its notes
       next: When you're happy, submit it, and a person on our team will review it.
+    author_digest:
+      subject_prefix: TRMNL author digest
+      greeting: Hi %{name} –
+      greeting_without_name: Hi there –
+      intro: Here's your week on TRMNL, %{from} – %{to}.
+      needs_a_fix: Needs a fix
+      failing:
+        one: "%{name} is failing on 1 screen, last on %{date}."
+        other: "%{name} is failing on %{count} screens, last on %{date}."
+      open_plugin: Open %{name}
+      others_failing:
+        one: 1 more screen shows errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about it.
+        other: "%{count} more screens show errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about those."
+      uninstalls: What people said when they uninstalled
+      reasons:
+        one: '1 uninstall this week: %{reasons}.'
+        other: "%{count} uninstalls this week: %{reasons}."
+      creator_fund: Close to the Creator Fund
+      qualified: "%{name} passed %{minimum} connections this week and joins the next Creator Fund payout."
+      near_miss_intro: 'Plugins earn from %{threshold} connections. A few people sharing these would get them there:'
+      near_miss_counts: "%{connections} connections · %{needed} to go"
+      share_text: Check out %{name} for TRMNL
+      post_on_x: Post on X
+      post_on_bluesky: Bluesky
+      post_on_reddit: Reddit
+      numbers: Your week in numbers
+      installs_line:
+        one: "+1 install · %{total} connections in total"
+        other: "+%{count} installs · %{total} connections in total"
+      top_growers: 'Grew most: %{list}'
+      top_layouts: Screens show your plugins mostly %{list}.
+      see_analytics: See full analytics
+      sign_off: Stay focused,
+      footer: You get this email once a week because you publish plugins on TRMNL. It skips any week with nothing new.
+      headlines:
+        qualified: "%{name} now qualifies for the Creator Fund"
+        nearest_goal:
+          one: "%{name} is 1 install from earning"
+          other: "%{name} is %{count} installs from earning"
+        failing:
+          one: "%{name} is failing on 1 screen"
+          other: "%{name} is failing on %{count} screens"
+        new_installs:
+          one: 1 new install
+          other: "%{count} new installs"
+        plugins_to_fix:
+          one: 1 plugin to fix
+          other: "%{count} plugins to fix"
+        uninstall_reasons:
+          one: 1 person said why they uninstalled
+          other: "%{count} people said why they uninstalled"
+    bank_payment_failed:
+      subject: Your bank payment to TRMNL did not go through
+      greeting: Hi %{name},
+      greeting_without_name: Hi,
+      byod_license: The bank payment for your BYOD license did not go through, so your device is back on its trial.
+      byod_trial: The $1 bank payment for your BYOD trial did not go through, so we ended the trial.
+      developer_edition: The bank payment for Developer Edition did not go through, so we turned it off on your device.
+      plus: The bank payment for TRMNL+ did not go through, so we turned it off.
+      pay_again: You can pay again with a card or another account here.
+      sign_off: cheers,
+      team: the TRMNL team
   pages:
     flash_firmware:
       linux_warning: Flashing from Linux often fails because Chrome can't open the serial port. Add your user to the dialout group (sudo usermod -aG dialout $USER), log out and back in, then retry. If that doesn't help, use Chrome or Edge on a Mac or Windows PC.
@@ -3111,9 +3262,88 @@ hu:
       no_trial_device: Your account has no BYOD trial to convert, so we did not charge you.
   screen_picker:
     single_palette_hint: This device has only one palette.
+    classic: Classic
+    color_mode: Color Mode
+    color_preview: Color preview
+    color_preview_state: 'Color preview: %{state}'
+    dark: Dark
+    default: Default
+    device: Device
+    font_family: Font Family
+    landscape: Landscape
+    light: Light
+    light_mode: Light Mode
+    orientation: Orientation
+    palette: Palette
+    portrait: Portrait
+    preview: Preview
+    raw: Raw
+    reset: Reset
+    reset_to_defaults: Reset to Defaults
+    reset_to_device_defaults: Reset to device defaults
+    style: Style
+    text_scale: Text Scale
+    theme: Theme
+    toggle_color_preview: Toggle color preview (Raw / Preview)
+    toggle_dark_mode: Toggle dark mode
+    toggle_orientation: Toggle orientation
+    dark_mode: Dark Mode
   active_admin:
     batch_actions:
       action_label: "%{title}"
   virtual_devices:
     create:
       byod_trial_converted: Your BYOD license is now on your trial device. It keeps its playlist and settings.
+  email_unsubscribes:
+    switches:
+      author_digest_enabled: the weekly author digest
+      community_emails_enabled: community emails
+      low_battery_notification_enabled: low battery emails for %{name}
+      health_notification_enabled: health alerts for %{name}
+    footer_link: Unsubscribe from these emails
+    show:
+      title: Unsubscribe
+      confirm: Stop sending %{emails}?
+      unsubscribe: Unsubscribe
+      done: Done. We will no longer send %{emails}.
+  system_screens:
+    out_of_ai_credit:
+      title: Out of AI credit
+      message: Reload credit at trmnl.com to update %{name}
+  saving: Saving…
+  missing_devices:
+    finish_setup: This TRMNL has not finished Wi-Fi setup. Connect it to Wi-Fi and it shows its Friendly ID on screen. If it does not connect, contact support.
+    byod_license_html: A DIY kit or another BYOD device needs a %{link} before it can be found.
+    byod_license_link: BYOD license
+  appearance:
+    default_theme: Default
+    orientations:
+      landscape: Landscape
+      portrait: Portrait
+    palettes:
+      bw: Black & White (1-bit)
+      gray-4: 4 Grays (2-bit)
+      gray-16: 16 Grays (4-bit)
+      gray-256: 256 Grays (8-bit)
+      color-3bwr: 'Color (3 colors: black, red, white)'
+      color-3bwy: 'Color (3 colors: black, yellow, white)'
+      color-4bwry: 'Color (4 colors: black, red, white, yellow)'
+      color-6a: Color (6 colors)
+      color-7a: Color (7 colors)
+      color-12bit: Color (4096 colors)
+      color-24bit: Color (16777216 colors)
+    summary:
+      font_family: "%{value} font family"
+      text_scale: "%{value} text scale"
+      theme: "%{value} theme"
+    text_scales:
+      small: Small
+      regular: Regular
+      large: Large
+      xlarge: X-Large
+  health_status_banner:
+    next_steps:
+      reconnect: The service it reads from no longer accepts its connection. Reconnect your account in its settings.
+      missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
+      dead_link: The link it reads from no longer works. Paste a current link in its settings.
+      unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.

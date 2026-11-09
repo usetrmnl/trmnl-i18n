@@ -16,7 +16,6 @@ uk:
   charge_level: Рівень заряду
   charged: заряджено
   charging: Заряджається
-  claim_plus_trial: Отримати 6 місяців безкоштовно
   close: Закрити
   confirm_change_password: Змінити мій пароль
   confirm_password: Новий пароль (повторно)
@@ -235,6 +234,21 @@ uk:
         agent:
           title: ШІ-агент
           hint: Кредити використання, вибір моделі та власні ключі
+        emails:
+          title: Emails
+          hint: Choose which optional emails TRMNL sends you
+      author_digest: Author digest
+      author_digest_hint: A weekly email about your published plugins, sent only when there is something new.
+      community_emails: Community emails
+      community_emails_hint: Review requests and referral rewards.
+      emails_on_for: 'On for:'
+      low_battery_emails: Low battery emails
+      low_battery_emails_off: Off for every device. Turn them on in a device's battery settings under __Devices__.
+      health_alerts: Plugin health alerts
+      health_alerts_off: Off for every plugin. Turn them on in a plugin's settings under __Plugins__.
+      stopped_emails: Stopped plugin emails
+      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
+      stopped_emails_off_for: 'On for every plugin and mashup except:'
     update:
       success: Профіль успішно оновлено
     reset_api_key:
@@ -373,6 +387,7 @@ uk:
       new_and_popular: Нові та популярні
     shop:
       title: Магазин
+      another_trmnl: Need another TRMNL?
     time_saved:
       title: Зекономлений час
     discover_callout:
@@ -384,6 +399,7 @@ uk:
   date:
     formats:
       day_month_long: "%A, %-d %B"
+      month_year: "%B %Y"
   devices:
     edit:
       accepts_beta_firmware: Ранній доступ до прошивки
@@ -586,6 +602,17 @@ uk:
       vestaboard_credentials_hint: У застосунку Vestaboard відкрийте Settings, потім Advanced Settings, потім API. Створіть токен із дозволом Write і вставте його тут.
       guest_mode_not_set: Not set
       guest_mode_summary: "%{screen} for %{duration}"
+      full_refresh_on_screen_change: Full Refresh When the Screen Changes
+      full_refresh_on_screen_change_hint: Clears any outline of the previous screen. The screen goes black and white for a moment whenever a new image arrives; a screen that did not change stays partial.
+      charge_forecast:
+        now: Needs a charge now.
+        days:
+          one: Needs a charge in about 1 day.
+          other: Needs a charge in about %{count} days.
+        weeks:
+          one: Needs a charge in about 1 week.
+          other: Needs a charge in about %{count} weeks.
+        month: Needs a charge around %{month}.
     discover_persona:
       label: Персона й рекомендації
       disabled_hint: Вимкнено для TRMNL із дублюванням. Керуйте рекомендаціями на головному пристрої.
@@ -642,6 +669,8 @@ uk:
     image_too_big:
       message: Пристрій відхилив зображення розміром %{size}; ця модель підтримує до %{limit}.
       message_without_limit: Пристрій відхилив зображення розміром %{size} як завелике.
+    update_discover_banner:
+      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
   discovery:
     dashboard_action:
       saved:
@@ -689,6 +718,8 @@ uk:
       level: Рівень
       only_plugin: Only logs from %{name}.
       show_all: Show all logs
+    log:
+      expand: Expand
   markups:
     console_logs:
       js_logs: Журнали JS
@@ -713,6 +744,11 @@ uk:
       save_changes: Зберегти зміни (⌘﹢S)
       separate_preview: Попередній перегляд відкрито в окремому вікні
       preview_layout: Переглянути макет
+      prompt_language: Prompt (AI)
+      prompt_help: 'The installer''s model turns the input into this plugin''s merge variables, paid with their API key or AI credit. Liquid sees the same input a script would, and the model is asked again whenever the rendered prompt changes, so pass only the fields the prompt needs. Front matter between two --- lines may set schema (a JSON schema the reply must match, where the model supports it), max_tokens (up to 4096, which a reasoning model spends partly on thinking) and format: text.'
+      serverless_help: Clean up the data with a script, or hand it to an AI model with a prompt.
+      serverless_learn_more: Learn more about scripts
+      prompt_learn_more: Read the prompt guide
     merge_variables:
       your_variables: Ваші змінні
     no_merge_variables:
@@ -841,6 +877,10 @@ uk:
           cta: Шукаєте щось нове? Перегляньте плагіни
       hold_screen: Утримувати екран
       hold_screen_hint: Залишати поточний екран до натискання кнопки. Пробудження за таймером оновлює його, але не перемикає далі.
+      unused_plugin_setting:
+        message: "%{name} is not on any playlist now. Delete the plugin too?"
+        delete: Delete plugin
+        keep: Keep plugin
     playlist_item:
       adjust_schedule: Змінити розклад
       delete: Ви впевнені, що хочете видалити цей елемент? Плагін залишиться підключеним, але не відображатиметься на вашому пристрої.
@@ -892,6 +932,7 @@ uk:
       important_active: Активний важливий елемент
       stale: Застаріло
       pending: Ще не відрендерено
+      held: Held
     status_description:
       error: Оновлення припинено після повторних помилок. Відкрийте налаштування, щоб виправити проблему.
       setup: Завершіть налаштування елемента, щоб він міг з’явитися на пристрої.
@@ -902,6 +943,7 @@ uk:
       important_active: Зараз це місце займає важливий елемент.
       stale: Розумний пропуск пропускає цей елемент — його екран давно не оновлювався.
       pending: Перший рендеринг почнеться під час наступного виходу пристрою на зв’язок.
+      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
     schedule:
       always: Завжди
       important_title: Важливе
@@ -923,6 +965,7 @@ uk:
         refresh_interval: Refresh rate updated
       error: Масова дія не вдалася
       refresh_rate: Refresh rate
+      selected: selected
     smart_skip_modal:
       title: Розумний пропуск
       apply: Готово
@@ -1046,8 +1089,8 @@ uk:
       force_refresh_click_here_hint: щоб створити новий екран зараз
       force_refresh_not_possible: Цей плагін не можна оновити примусово, оскільки сервер TRMNL не обробляє його зображення. Як перевірити свій екземпляр, читайте __тут__.
       health_notifications: Сповіщення про стан
-      health_notifications_hint: Отримуйте лист, коли стан плагіна погіршується або виникає помилка. Для кожного стану в межах інциденту надходить не більше одного листа; сповіщення активуються знову після відновлення нормальної роботи.
-      health_notifications_checkbox: Сповіщати поштою про збої цього плагіна
+      health_notifications_hint: Get an email when this plugin stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this plugin starts failing
       learn_more: Дізнайтеся більше про цей плагін у нашій базі знань
       learn_more_recipe_author: Потрібна допомога? Зв’яжіться з %{recipe_author} у Discord.
       linked_account: Пов’язаний акаунт
@@ -1140,6 +1183,11 @@ uk:
       lat_lon_placeholder: Знайдіть місто чи поштовий індекс або введіть широту,довготу
       new_title: Додати %{plugin}
       edit_title: "%{plugin} · %{name}"
+      linked_accounts_hint: This plugin reads from these accounts.
+      remove_account: Remove
+      remove_account_confirm: Remove %{account} from this plugin?
+      account_removed: Account removed.
+      stopped_notifications_checkbox: Email me when this plugin stops refreshing
     import:
       archive_too_large: ZIP-файл завеликий (максимум %{max_mb} МБ)
       missing_entry: ZIP-файл не містить %{filename}
@@ -1278,6 +1326,26 @@ uk:
       empty: You haven't asked trmy yet.
       rate_limited: That's a lot of reviews for one day. Try again tomorrow.
       back: Back to your plugin
+    data_flow:
+      title: Data flow
+      markup: Markup
+    ai_transform:
+      no_route: Add an API key in Account → Agent, or connect a TRMNL device, to run this plugin's prompt.
+      api_key_refused: "%{provider} refused your API key. Check it in Account → Agent."
+      out_of_credit: Out of AI credit. Your device shows a reminder until you reload credit.
+      empty_reply: The model sent an empty reply. This plugin kept its last screen.
+      truncated: The reply ran past %{max_tokens} tokens and was cut off. This plugin kept its last screen.
+      front_matter_not_a_map: The prompt's front matter must be a list of options, one per line.
+      front_matter_not_yaml: 'The prompt''s front matter is not valid YAML: %{error}'
+      unknown_option: 'The prompt''s front matter has an option this plugin does not know: %{options}. It knows schema, max_tokens and format.'
+      unknown_format: The prompt's format must be json or text, not %{value}.
+      credit_left: 'AI credit: %{amount} left'
+      reload: Reload
+    row:
+      degraded: Degraded
+      erroring: Stopped
+      recipe_degraded: Recipe degraded
+      recipe_erroring: Recipe stopped
   recipes:
     index:
       newest_to_oldest: Спочатку найновіші
@@ -1358,6 +1426,14 @@ uk:
           body: Відскануйте код на дисплеї знову, щоб продовжити з того місця, де зупинилися.
       discovery:
         billing_cancel_failed: Не вдалося скасувати оплату, тому нічого не видалено. Спробуйте ще раз.
+        index:
+          title: Apps
+          description: Turn your TRMNL devices into purpose-built displays.
+          installed_heading: Your Installed Apps
+          available_heading: Available To Install
+          install_heading: Install an App
+          install: Install
+          installing: Installing...
       app_page:
         title: "%{app} для TRMNL"
         eyebrow: Застосунок TRMNL
@@ -1471,6 +1547,9 @@ uk:
             many: ще %{count}
       room_screens:
         until: До %{time}
+        up_next: 'Up next: %{title} at %{time}'
+        up_next_untitled: Up next at %{time}
+        free_after: Free after %{time}
       home:
         index:
           calendars_on_display: Календарі на дисплеї
@@ -1810,6 +1889,9 @@ uk:
           walk_up_booking: Бронювання з TRMNL
           walk_up_calendar: Показувати календар
           walk_up_calendar_hint: Показувати майбутні бронювання на загальнодоступній сторінці бронювання.
+          room_screens: Room screens
+          show_next_meeting: Show next meeting
+          show_next_meeting_hint: While a room is busy, show the next meeting instead of the organizer.
       billing:
         title: Оплата
         summary:
@@ -1964,6 +2046,10 @@ uk:
         row: "%{name}: очікуваний час %{expected}, останній сигнал %{last_ping}, заряд %{battery}, Wi-Fi %{wifi}."
         open_fleet: Відкрити парк пристроїв
         footer: Ви отримали цей лист, бо для цього парку ввімкнено сповіщення про вихід на зв’язок. Вимкнути їх можна в розділі «Парк пристроїв › Налаштування».
+      summary:
+        mirrors:
+          one: "%{count} mirror"
+          other: "%{count} mirrors"
     bookings:
       read_only_booking_error: Цей календар доступний лише для читання. Підключеному акаунту Google потрібен дозвіл змінювати події, перш ніж він зможе приймати бронювання.
     chess:
@@ -2145,12 +2231,13 @@ uk:
       title: Налаштувати комбінацію %{name}
       back_to_playlist: До списку відтворення
       description: Комбінація %{layout}
-      health_notifications_hint: Отримуйте лист, коли рендеринг комбінації починає давати помилки або зупиняється. Не більше одного листа на стан за інцидент; сповіщення знову активуються після відновлення нормальної роботи.
-      health_notifications_checkbox: Сповіщати поштою про збої цієї комбінації
+      health_notifications_hint: Get an email when this mashup stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this mashup starts failing
       refresh_rate_hint: 'Рендеринг: %{refresh_rate}, відповідно до найчастішого оновлення серед її плагінів.'
       remove: Видалити комбінацію
       remove_hint: Видалення комбінації прибирає її зі списку відтворення. Плагіни залишаються встановленими.
       name_hint: Задайте зручну назву або залиште порожнім, щоб показувати назви плагінів.
+      stopped_notifications_checkbox: Email me when this mashup stops refreshing
     new:
       playlist_item_title: Новий елемент списку відтворення
     create:
@@ -2165,6 +2252,8 @@ uk:
       2Tx1B: Дві зверху, велика знизу
       2x2: Чотири секції
       3x3: Власна сітка
+    sections:
+      default_text_scale: Default (%{text_scale})
   playlist_coverage:
     title: Покриття списку відтворення
     your_timezone: ваш часовий пояс
@@ -2306,6 +2395,68 @@ uk:
       ready: trmy, our internal review agent, finished checking %{name}.
       read: Read its notes
       next: When you're happy, submit it, and a person on our team will review it.
+    author_digest:
+      subject_prefix: TRMNL author digest
+      greeting: Hi %{name} –
+      greeting_without_name: Hi there –
+      intro: Here's your week on TRMNL, %{from} – %{to}.
+      needs_a_fix: Needs a fix
+      failing:
+        one: "%{name} is failing on 1 screen, last on %{date}."
+        other: "%{name} is failing on %{count} screens, last on %{date}."
+      open_plugin: Open %{name}
+      others_failing:
+        one: 1 more screen shows errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about it.
+        other: "%{count} more screens show errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about those."
+      uninstalls: What people said when they uninstalled
+      reasons:
+        one: '1 uninstall this week: %{reasons}.'
+        other: "%{count} uninstalls this week: %{reasons}."
+      creator_fund: Close to the Creator Fund
+      qualified: "%{name} passed %{minimum} connections this week and joins the next Creator Fund payout."
+      near_miss_intro: 'Plugins earn from %{threshold} connections. A few people sharing these would get them there:'
+      near_miss_counts: "%{connections} connections · %{needed} to go"
+      share_text: Check out %{name} for TRMNL
+      post_on_x: Post on X
+      post_on_bluesky: Bluesky
+      post_on_reddit: Reddit
+      numbers: Your week in numbers
+      installs_line:
+        one: "+1 install · %{total} connections in total"
+        other: "+%{count} installs · %{total} connections in total"
+      top_growers: 'Grew most: %{list}'
+      top_layouts: Screens show your plugins mostly %{list}.
+      see_analytics: See full analytics
+      sign_off: Stay focused,
+      footer: You get this email once a week because you publish plugins on TRMNL. It skips any week with nothing new.
+      headlines:
+        qualified: "%{name} now qualifies for the Creator Fund"
+        nearest_goal:
+          one: "%{name} is 1 install from earning"
+          other: "%{name} is %{count} installs from earning"
+        failing:
+          one: "%{name} is failing on 1 screen"
+          other: "%{name} is failing on %{count} screens"
+        new_installs:
+          one: 1 new install
+          other: "%{count} new installs"
+        plugins_to_fix:
+          one: 1 plugin to fix
+          other: "%{count} plugins to fix"
+        uninstall_reasons:
+          one: 1 person said why they uninstalled
+          other: "%{count} people said why they uninstalled"
+    bank_payment_failed:
+      subject: Your bank payment to TRMNL did not go through
+      greeting: Hi %{name},
+      greeting_without_name: Hi,
+      byod_license: The bank payment for your BYOD license did not go through, so your device is back on its trial.
+      byod_trial: The $1 bank payment for your BYOD trial did not go through, so we ended the trial.
+      developer_edition: The bank payment for Developer Edition did not go through, so we turned it off on your device.
+      plus: The bank payment for TRMNL+ did not go through, so we turned it off.
+      pay_again: You can pay again with a card or another account here.
+      sign_off: cheers,
+      team: the TRMNL team
   pages:
     flash_firmware:
       linux_warning: Прошивання з Linux часто не вдається, оскільки Chrome не може відкрити послідовний порт. Додайте користувача до групи dialout (sudo usermod -aG dialout $USER), вийдіть із сеансу та увійдіть знову, а потім повторіть спробу. Якщо це не допоможе, скористайтеся Chrome або Edge на Mac чи ПК з Windows.
@@ -3197,9 +3348,88 @@ uk:
       no_trial_device: Your account has no BYOD trial to convert, so we did not charge you.
   screen_picker:
     single_palette_hint: Цей пристрій має лише одну палітру.
+    classic: Classic
+    color_mode: Color Mode
+    color_preview: Color preview
+    color_preview_state: 'Color preview: %{state}'
+    dark: Dark
+    default: Default
+    device: Device
+    font_family: Font Family
+    landscape: Landscape
+    light: Light
+    light_mode: Light Mode
+    orientation: Orientation
+    palette: Palette
+    portrait: Portrait
+    preview: Preview
+    raw: Raw
+    reset: Reset
+    reset_to_defaults: Reset to Defaults
+    reset_to_device_defaults: Reset to device defaults
+    style: Style
+    text_scale: Text Scale
+    theme: Theme
+    toggle_color_preview: Toggle color preview (Raw / Preview)
+    toggle_dark_mode: Toggle dark mode
+    toggle_orientation: Toggle orientation
+    dark_mode: Dark Mode
   active_admin:
     batch_actions:
       action_label: "%{title}"
   virtual_devices:
     create:
       byod_trial_converted: Your BYOD license is now on your trial device. It keeps its playlist and settings.
+  email_unsubscribes:
+    switches:
+      author_digest_enabled: the weekly author digest
+      community_emails_enabled: community emails
+      low_battery_notification_enabled: low battery emails for %{name}
+      health_notification_enabled: health alerts for %{name}
+    footer_link: Unsubscribe from these emails
+    show:
+      title: Unsubscribe
+      confirm: Stop sending %{emails}?
+      unsubscribe: Unsubscribe
+      done: Done. We will no longer send %{emails}.
+  system_screens:
+    out_of_ai_credit:
+      title: Out of AI credit
+      message: Reload credit at trmnl.com to update %{name}
+  saving: Saving…
+  missing_devices:
+    finish_setup: This TRMNL has not finished Wi-Fi setup. Connect it to Wi-Fi and it shows its Friendly ID on screen. If it does not connect, contact support.
+    byod_license_html: A DIY kit or another BYOD device needs a %{link} before it can be found.
+    byod_license_link: BYOD license
+  appearance:
+    default_theme: Default
+    orientations:
+      landscape: Landscape
+      portrait: Portrait
+    palettes:
+      bw: Black & White (1-bit)
+      gray-4: 4 Grays (2-bit)
+      gray-16: 16 Grays (4-bit)
+      gray-256: 256 Grays (8-bit)
+      color-3bwr: 'Color (3 colors: black, red, white)'
+      color-3bwy: 'Color (3 colors: black, yellow, white)'
+      color-4bwry: 'Color (4 colors: black, red, white, yellow)'
+      color-6a: Color (6 colors)
+      color-7a: Color (7 colors)
+      color-12bit: Color (4096 colors)
+      color-24bit: Color (16777216 colors)
+    summary:
+      font_family: "%{value} font family"
+      text_scale: "%{value} text scale"
+      theme: "%{value} theme"
+    text_scales:
+      small: Small
+      regular: Regular
+      large: Large
+      xlarge: X-Large
+  health_status_banner:
+    next_steps:
+      reconnect: The service it reads from no longer accepts its connection. Reconnect your account in its settings.
+      missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
+      dead_link: The link it reads from no longer works. Paste a current link in its settings.
+      unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.

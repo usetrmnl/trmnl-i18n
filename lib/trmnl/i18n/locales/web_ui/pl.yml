@@ -16,7 +16,6 @@ pl:
   charge_level: Poziom naładowania
   charged: Naładowany
   charging: Ładowanie
-  claim_plus_trial: Skorzystaj przez 6 miesięcy za darmo
   close: Zamknij
   confirm_change_password: Zmień hasło
   confirm_password: Potwierdź nowe hasło
@@ -229,6 +228,21 @@ pl:
         agent:
           title: Agent AI
           hint: Limity użycia, wybór modelu i własne klucze
+        emails:
+          title: Wiadomości e-mail
+          hint: Wybierz, które opcjonalne wiadomości e-mail chcesz otrzymywać od TRMNL
+      author_digest: Tygodniowe podsumowanie dla twórców
+      author_digest_hint: Cotygodniowa wiadomość o opublikowanych przez Ciebie pluginach, wysyłana tylko wtedy, gdy pojawi się coś nowego.
+      community_emails: Wiadomości od społeczności
+      community_emails_hint: Prośby o recenzje i nagrody za polecenia.
+      emails_on_for: 'Włączone dla:'
+      low_battery_emails: Powiadomienia e-mail o niskim poziomie baterii
+      low_battery_emails_off: Wyłączone dla wszystkich urządzeń. Włącz je w ustawieniach baterii danego urządzenia w sekcji __Urządzenia__.
+      health_alerts: Powiadomienia o problemach z pluginami
+      health_alerts_off: Wyłączone dla wszystkich pluginów. Włącz je w ustawieniach danego pluginu w sekcji __Pluginy__.
+      stopped_emails: Stopped plugin emails
+      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
+      stopped_emails_off_for: 'On for every plugin and mashup except:'
     update:
       success: Pomyślnie zaktualizowano profil
     reset_api_key:
@@ -268,10 +282,10 @@ pl:
       credit_plus_hint: __Subskrybuj TRMNL+__, aby co miesiąc otrzymywać bezpłatne limity użycia.
       byok_title: Użyj własnego klucza
       byok_hint: Dodaj własny klucz, aby wybrać dowolny model. Agent będzie wtedy używał Twojego klucza zamiast limitu użycia.
-      model_hosted: Add an OpenRouter or Anthropic key above to choose another model.
-      earn_credits_title: Earn up to %{credits} credits, free
-      earn_credits_hint: Share a photo, a review or a video of your TRMNL. We check it and add the credits.
-      earn_credits_link: Ways to earn
+      model_hosted: Dodaj powyżej klucz OpenRouter lub Anthropic, aby wybrać inny model.
+      earn_credits_title: Zdobądź bezpłatnie nawet %{credits} kredytów
+      earn_credits_hint: Udostępnij zdjęcie, recenzję lub film przedstawiający Twój TRMNL. Sprawdzimy materiał i przyznamy kredyty.
+      earn_credits_link: Sposoby zdobywania kredytów
     shared_accounts:
       title: Konta udostępnione Tobie
       hint: Wybierz konto, aby zarządzać jego urządzeniami, playlistami i pluginami, albo je opuść.
@@ -331,11 +345,11 @@ pl:
       name: Nazwa
       create: Utwórz klucz API konta
       legacy_hint: Klucz starszego typu. Ma dostęp tylko do swoich pierwotnych endpointów; do nowszych funkcji utwórz poniżej klucz API konta.
-      older_key: Older key, used by the Home Assistant integration
-      device_key_hint: 'BYOD devices and mirror apps use the device API key, not an account key. Each device shows its own under Developer Perks:'
-      developer_edition_needed: API keys, also the one the Home Assistant integration needs, come with __Developer Edition__.
-      upgrade: Upgrade
-      home_assistant_hint: A Home Assistant dashboard needs no key. Use the Webhook URL from the __Home Assistant Screenshot__ plugin.
+      older_key: Starszy klucz używany przez integrację z Home Assistant
+      device_key_hint: 'Urządzenia BYOD i aplikacje do odzwierciedlania obrazu korzystają z klucza API urządzenia, a nie konta. Klucz każdego urządzenia znajdziesz w jego opcjach dla programistów:'
+      developer_edition_needed: Klucze API, w tym klucz wymagany przez integrację z Home Assistant, są dostępne w __Edycji deweloperskiej__.
+      upgrade: Ulepsz
+      home_assistant_hint: Panel Home Assistant nie wymaga klucza. Użyj adresu Webhook URL z pluginu __Home Assistant Screenshot__.
     destroy:
       account_deleted: Twoje konto i wszystkie dane zostały usunięte.
       account_deleted_refunded: Twoje konto i wszystkie dane zostały usunięte. Zwrócono 1 USD.
@@ -363,6 +377,7 @@ pl:
       new_and_popular: Nowe i popularne
     shop:
       title: Sklep
+      another_trmnl: Potrzebujesz kolejnego urządzenia TRMNL?
     time_saved:
       title: Zaoszczędzony czas
     discover_callout:
@@ -373,7 +388,8 @@ pl:
       evening_salutation: Dobry wieczór
   date:
     formats:
-      day_month_long: "%A, %B %-d"
+      day_month_long: "%A, %-d %B"
+      month_year: "%B %Y"
   devices:
     edit:
       accepts_beta_firmware: Firmware - wczesny dostęp
@@ -563,13 +579,24 @@ pl:
       sleep_until: Uśpij jednorazowo
       sleep_until_hint: Przy następnym zgłoszeniu urządzenie przejdzie w stan uśpienia do wskazanego czasu. Naciśnij jego przycisk, aby wybudzić je wcześniej. Jeśli jeszcze nie śpi, wyczyść to pole, aby anulować.
       font_set_by_theme: Ustawione przez %{theme}
-      developer_perks_mac_address_needed: Set the real MAC address for this device here
-      vestaboard_credentials: Vestaboard API token
-      vestaboard_token_saved: Saved
-      vestaboard_token_missing: Not set yet, so nothing is sent to the board
-      vestaboard_credentials_hint: In the Vestaboard app, open Settings, then Advanced Settings, then API. Create a token with Write access and paste it here.
-      guest_mode_not_set: Not set
-      guest_mode_summary: "%{screen} for %{duration}"
+      developer_perks_mac_address_needed: Wpisz tutaj rzeczywisty adres MAC tego urządzenia
+      vestaboard_credentials: Token API Vestaboard
+      vestaboard_token_saved: Zapisano
+      vestaboard_token_missing: Nie ustawiono jeszcze tokenu, więc nic nie jest wysyłane na tablicę
+      vestaboard_credentials_hint: W aplikacji Vestaboard otwórz Ustawienia → Ustawienia zaawansowane → API. Utwórz token z uprawnieniami do zapisu i wklej go tutaj.
+      guest_mode_not_set: Nie ustawiono
+      guest_mode_summary: "%{screen} przez %{duration}"
+      full_refresh_on_screen_change: Pełne odświeżanie przy zmianie ekranu
+      full_refresh_on_screen_change_hint: Usuwa ślady poprzedniego obrazu. Po otrzymaniu nowego obrazu ekran na chwilę staje się czarny i biały. Jeśli obraz się nie zmienił, odświeżanie pozostaje częściowe.
+      charge_forecast:
+        now: Naładuj urządzenie teraz.
+        days:
+          one: Ładowanie będzie potrzebne za około 1 dzień.
+          other: Ładowanie będzie potrzebne za około %{count} dni.
+        weeks:
+          one: Ładowanie będzie potrzebne za około 1 tydzień.
+          other: Ładowanie będzie potrzebne za około %{count} tygodni.
+        month: 'Przewidywany termin ładowania: %{month}.'
     discover_persona:
       label: Persona i Odkrywaj
       disabled_hint: Wyłączone dla urządzeń TRMNL będących kopiami lustrzanymi. Zamiast tego zarządzaj rekomendacjami na urządzeniu nadrzędnym.
@@ -621,11 +648,13 @@ pl:
     update:
       error: Błąd podczas aktualizacji urządzenia
       success: Ustawienia urządzenia %{device} zostały pomyślnie zaktualizowane
-      choose_palette: "%{device} device model updated. Choose the palette your screen can show."
+      choose_palette: Zaktualizowano model urządzenia %{device}. Wybierz paletę kolorów obsługiwaną przez jego ekran.
     add_device_first: Najpierw dodaj urządzenie
     image_too_big:
-      message: Your device rejected a %{size} image; this model accepts up to %{limit}.
-      message_without_limit: Your device rejected a %{size} image as too big.
+      message: Urządzenie odrzuciło obraz o rozmiarze %{size}. Ten model obsługuje obrazy o rozmiarze do %{limit}.
+      message_without_limit: Urządzenie odrzuciło zbyt duży obraz o rozmiarze %{size}.
+    update_discover_banner:
+      hidden_notice: Ukryto baner Odkrywaj. Możesz ponownie włączyć go w dowolnej chwili w ustawieniach urządzenia.
   discovery:
     dashboard_action:
       saved:
@@ -671,8 +700,10 @@ pl:
       expiry_notice: Logi są przechowywane przez dwa tygodnie i wygasają automatycznie — nie ma tu ręcznego usuwania.
       load_older: Wczytaj starsze
       level: Poziom
-      only_plugin: Only logs from %{name}.
-      show_all: Show all logs
+      only_plugin: Tylko logi pluginu %{name}.
+      show_all: Pokaż wszystkie logi
+    log:
+      expand: Rozwiń
   markups:
     console_logs:
       js_logs: Logi JS
@@ -697,6 +728,11 @@ pl:
       save_changes: Zapisz zmiany (⌘﹢S / Ctrl + S)
       separate_preview: Podgląd wyświetla się w osobnym oknie
       preview_layout: Układ podglądu
+      prompt_language: Prompt (AI)
+      prompt_help: 'Model wybrany przez instalującego przekształca dane wejściowe w zmienne tego pluginu, wykorzystując jego klucz API lub kredyty AI. Liquid otrzymuje takie same dane wejściowe jak skrypt, a model jest wywoływany ponownie za każdym razem, gdy zmieni się wyrenderowany prompt. Przekazuj więc tylko pola potrzebne w prompcie. Sekcja nagłówkowa między dwiema liniami --- może określać schema (schemat JSON, z którym odpowiedź musi być zgodna, jeśli model to obsługuje), max_tokens (maksymalnie 4096; model rozumujący zużywa część tokenów na rozumowanie) oraz format: text.'
+      serverless_help: Przetwórz dane za pomocą skryptu albo przekaż je modelowi AI wraz z promptem.
+      serverless_learn_more: Dowiedz się więcej o skryptach
+      prompt_learn_more: Przeczytaj poradnik dotyczący promptów
     merge_variables:
       your_variables: Twoje zmienne
     no_merge_variables:
@@ -754,19 +790,19 @@ pl:
       zoom_in: Powiększ
       zoom_out: Pomniejsz
       script_run:
-        running: Running script…
+        running: Uruchamianie skryptu…
         ran:
-          one: Script ran · %{count} variable
-          other: Script ran · %{count} variables
-        failed: Script failed. See JS Logs.
-        waits_for_webhook: Saved. Runs on your next webhook.
-        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
-        expired: Script still running. Reload to see new variables.
+          one: Wykonano skrypt · %{count} zmienna
+          other: Wykonano skrypt · %{count} zmiennych
+        failed: Błąd skryptu. Sprawdź logi JS.
+        waits_for_webhook: Zapisano. Skrypt zostanie uruchomiony po następnym wywołaniu webhooka.
+        limited: Zapisano. Skrypty mogą być uruchamiane podczas zapisu %{count} razy na godzinę, więc ten zostanie wykonany przy następnym odświeżeniu.
+        expired: Skrypt nadal działa. Odśwież stronę, aby zobaczyć nowe zmienne.
     ai_assistant_inline:
       model_locked: Twój model AI jest ustawiany przez TRMNL
-      composition_prefill: Make this plugin Vestaboard friendly
-      composition_empty_state: Builds a Vestaboard board from your markup and live data.
-      composition_placeholder: Ask for a change to the board…
+      composition_prefill: Dostosuj ten plugin do Vestaboard
+      composition_empty_state: Tworzy układ tablicy Vestaboard na podstawie Twojego kodu i bieżących danych.
+      composition_placeholder: Poproś o zmianę na tablicy…
   mfa:
     disable_otp:
       success: Uwierzytelnianie dwuskładnikowe (2FA) wyłączone
@@ -821,8 +857,12 @@ pl:
           heading: Ta playlista jest pusta
           description: Wybierz powyżej Dodaj plugin, aby dodać jeden ze swoich pluginów.
           cta: Szukasz czegoś nowego? Przeglądaj pluginy
-      hold_screen: Hold screen
-      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
+      hold_screen: Zatrzymaj na tym ekranie
+      hold_screen_hint: Pozostaw bieżący ekran do naciśnięcia przycisku. Zaplanowane wybudzenie odświeża obraz, ale nie przełącza na kolejny element.
+      unused_plugin_setting:
+        message: "%{name} is not on any playlist now. Delete the plugin too?"
+        delete: Delete plugin
+        keep: Keep plugin
     playlist_item:
       adjust_schedule: Dostosuj harmonogram
       delete: Czy na pewno chcesz usunąć ten element? Plugin pozostanie połączony, ale nie będzie wyświetlany na Twoim urządzeniu.
@@ -833,7 +873,7 @@ pl:
       show_playlist: Pokaż ten element
       duplicate: Duplikuj
       duplicate_confirm: Funkcja ta zduplikuje obiekt i umieści go na końcu playlisty. Kontynować?
-      presentation: Prezentacja
+      presentation: Wygląd
       mashup: Mashup
       last_shown: Ostatnio wyświetlono %{time}
       title_tooltip:
@@ -844,7 +884,7 @@ pl:
       next_render: Ponowne renderowanie %{time}
       render_overdue: Renderowanie jest spóźnione od %{time}
       no_next_render: Brak renderowania przed tym czasem, %{reason}
-      hold_screen: Hold this screen
+      hold_screen: Zatrzymaj na tym ekranie
     create:
       success: Playlista zaktualizowana
       error: Aktualizacja playlisty nie powiodła się
@@ -874,6 +914,7 @@ pl:
       important_active: Aktywny ważny element
       stale: Nieaktualne
       pending: Jeszcze niewyrenderowane
+      held: Held
     status_description:
       error: Odświeżanie zatrzymano po powtarzających się błędach. Otwórz ustawienia, aby rozwiązać problem.
       setup: Dokończ konfigurację tego elementu, zanim będzie mógł pojawić się na urządzeniu.
@@ -884,15 +925,16 @@ pl:
       important_active: Ważny element zajmuje teraz ten slot.
       stale: Inteligentne pomijanie pomija ten element — jego ekran od dłuższego czasu nie był aktualizowany.
       pending: Pierwsze renderowanie rozpocznie się przy następnym zgłoszeniu urządzenia.
+      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
     schedule:
       always: Zawsze
       important_title: Ważne
       important_description: Wyświetlane tylko obok innych ważnych ekranów w czasie określonym harmonogramem.
       date_range:
-        between: "%{start} to %{end}"
-        from: From %{start}
-        until: Until %{end}
-        yearly: Every year, %{start} to %{end}
+        between: Od %{start} do %{end}
+        from: Od %{start}
+        until: Do %{end}
+        yearly: Co roku, od %{start} do %{end}
     bulk_actions:
       hide: Ukryj
       show: Pokaż
@@ -902,9 +944,10 @@ pl:
         hide: Elementy ukryte
         show: Elementy pokazane
         destroy: Elementy usunięte z playlisty
-        refresh_interval: Refresh rate updated
+        refresh_interval: Zaktualizowano częstotliwość odświeżania
       error: Operacja zbiorcza nie powiodła się
-      refresh_rate: Refresh rate
+      refresh_rate: Częstotliwość odświeżania
+      selected: zaznaczono
     smart_skip_modal:
       title: Inteligentne pomijanie
       apply: Gotowe
@@ -925,8 +968,8 @@ pl:
       render_marker: Renderuje
       asleep_window: Uśpione %{from} → %{to} (%{duration})
     hold:
-      success: Held. Your device shows this screen at its next refresh.
-      unavailable: This screen cannot be held.
+      success: Zatrzymano. Urządzenie wyświetli ten ekran przy następnym odświeżeniu.
+      unavailable: Nie można zatrzymać wyświetlania tego ekranu.
   plugins:
     index:
       title: Pluginy
@@ -935,13 +978,13 @@ pl:
       supported_by_this_device: Obsługiwane przez to urządzenie
       view:
         label: Widok pluginów
-        cards: View as Cards
-        list: View as List
+        cards: Widok kafelkowy
+        list: Widok listy
       third_party_plugin: Plugin zewnętrzny
-      collapse: Collapse
-      categories: Categories
-      discover: Discover
-      you_may_also_like: You may also like
+      collapse: Zwiń
+      categories: Kategorie
+      discover: Odkrywaj
+      you_may_also_like: Może Ci się również spodobać
     search:
       placeholder: Szukaj pluginów
     my:
@@ -994,7 +1037,7 @@ pl:
       install_again: Zainstaluj ponownie
       installed: Zainstalowano
       open_settings: Otwórz ustawienia
-      fork_this_recipe: Fork this recipe
+      fork_this_recipe: Utwórz własną wersję tej receptury
     added_to_playlist: Dodano do playlisty. Sprawdź ustawienia poniżej.
     check_settings: Zainstalowano. Sprawdź ustawienia poniżej.
   plugin_settings:
@@ -1024,8 +1067,8 @@ pl:
       force_refresh_click_here_hint: aby utworzyć nowy ekran teraz
       force_refresh_not_possible: Nie można wymusić odświeżenia tego pluginu, ponieważ serwer TRMNL nie wspiera przetwarzania obrazów. __Tutaj__ dowiesz się, jak przetestować swoją instancję.
       health_notifications: Powiadomienia o stanie
-      health_notifications_hint: Otrzymaj e-maila, jeśli stan tego pluginu wskaże problem (zdegradowany / błąd). Otrzymasz najwyżej jeden e-mail na zmianę stanu na incydent. Alerty uzbrajają się ponownie po powrocie pluginu do stanu "zdrowy".
-      health_notifications_checkbox: Wyślij mi e-mail, jeśli plugin będzie miał problem z działaniem
+      health_notifications_hint: Get an email when this plugin stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this plugin starts failing
       learn_more: Dowiedz się więcej o tym pluginie z naszej bazy wiedzy
       learn_more_recipe_author: Potrzebujesz pomocy? Skontaktuj się z %{recipe_author} na Discordzie.
       linked_account: Konto połączone
@@ -1118,6 +1161,11 @@ pl:
       lat_lon_placeholder: Wyszukaj miasto lub kod pocztowy albo wpisz szerokość,długość
       new_title: Dodaj %{plugin}
       edit_title: "%{plugin} · %{name}"
+      linked_accounts_hint: Ten plugin pobiera dane z tych kont.
+      remove_account: Usuń
+      remove_account_confirm: Usunąć konto %{account} z tego pluginu?
+      account_removed: Usunięto konto.
+      stopped_notifications_checkbox: Email me when this plugin stops refreshing
     import:
       archive_too_large: Archiwum ZIP jest zbyt duże (maksimum %{max_mb} MB)
       missing_entry: Archiwum ZIP nie zawiera %{filename}
@@ -1157,7 +1205,7 @@ pl:
       erroring_short: W tym pluginie występuje obecnie błąd.
       erroring_long: W pluginie występuje błąd. Napraw problem, aby wznowić odświeżanie.
       reset_health: Zresetuj stan
-      async_pending: An async polling request is pending. Changing the strategy cancels it.
+      async_pending: Oczekuje żądanie asynchronicznego odpytywania. Zmiana strategii je anuluje.
     inactive_references_banner:
       short: Pluginy, do których istnieją odwołania, nie są synchronizowane.
       long: 'Ten plugin odwołuje się do danych z pluginów, których nie ma na żadnej Playliście:'
@@ -1179,89 +1227,109 @@ pl:
       client_config: Konfiguracja klienta MCP
       client_config_hint_html: Dodaj %{env_var} do pliku %{dotenv_file}. Skopiuj pełny klucz przyciskiem powyżej.
       generate: Wygeneruj klucz MCP
-      whole_account_html: Connect %{url} and sign in. %{guide}.
-      whole_account_guide: How to connect
-      whole_account_summary: Manage your whole account instead
+      whole_account_html: Połącz %{url} i zaloguj się. %{guide}.
+      whole_account_guide: Jak się połączyć
+      whole_account_summary: Zamiast tego zarządzaj całym kontem
     linked_google_account:
       connected: Połączono konto %{name}. Zdarzenia będą teraz wyświetlane tutaj.
       default_name: Inne konto Google
     preview_updated_just_now: Podgląd zaktualizowano przed chwilą.
     icon_generation:
-      summary: Draw an icon with AI
-      hint: Describe the icon, or keep the description we wrote from your plugin. Free, and it replaces your current icon.
-      submit: Draw icon
-      generating: Drawing your icon
-      failed: We could not draw an icon. Try again, or change the description.
+      summary: Wygeneruj ikonę za pomocą AI
+      hint: Opisz ikonę lub pozostaw opis przygotowany na podstawie Twojego pluginu. Generowanie jest bezpłatne i zastąpi obecną ikonę.
+      submit: Wygeneruj ikonę
+      generating: Generowanie ikony
+      failed: Nie udało się wygenerować ikony. Spróbuj ponownie lub zmień opis.
     remixes:
-      name: "%{name} Remix"
+      name: 'Remiks: %{name}'
       create:
-        success: "%{plugin} data is now {{ %{keyname} }}."
+        success: Dane pluginu %{plugin} są teraz dostępne jako {{ %{keyname} }}.
     live_preview:
-      live: Live preview
-      image: Rendered image
-      invitation: Live preview shows unsaved changes as you edit.
-      explanation: Live preview renders in the browser. The rendered image is the last screen generated for the device and can differ slightly.
-      sample: Sample data
-      sample_hint: Examples show how these settings look.
-      cached: Your data
-      cached_hint: Fetched
-      partial: Your data
-      partial_hint: Some dates may be missing until you save and refresh.
-      invalid: Not updated
-      invalid_hint: Check the settings and the selected device.
-      error: Not updated
-      error_hint: The last successful preview is still shown.
-      retry: Retry
-      sizes: Sizes
-      full: Full
-      half_horizontal: Half H
-      half_vertical: Half V
-      quadrant: Quadrant
+      live: Podgląd na żywo
+      image: Wygenerowany obraz
+      invitation: Podgląd na żywo pokazuje niezapisane zmiany podczas edycji.
+      explanation: Podgląd na żywo jest generowany w przeglądarce. Wygenerowany obraz to ostatni ekran przygotowany dla urządzenia i może się nieznacznie różnić.
+      sample: Przykładowe dane
+      sample_hint: Przykłady pokazują, jak wyglądają te ustawienia.
+      cached: Twoje dane
+      cached_hint: Pobrano
+      partial: Twoje dane
+      partial_hint: Niektóre daty mogą być niedostępne do czasu zapisania i odświeżenia.
+      invalid: Nie zaktualizowano
+      invalid_hint: Sprawdź ustawienia i wybrane urządzenie.
+      error: Nie zaktualizowano
+      error_hint: Nadal wyświetlany jest ostatni prawidłowo wygenerowany podgląd.
+      retry: Spróbuj ponownie
+      sizes: Rozmiary
+      full: Pełny ekran
+      half_horizontal: Połowa pozioma
+      half_vertical: Połowa pionowa
+      quadrant: Ćwiartka
     test_request:
-      button: Test request
-      missing_url: Add a Polling URL first.
-      rate_limited: Too many test requests. Try again in a minute.
-      sent: 'Sent:'
-      received: 'Received:'
+      button: Przetestuj żądanie
+      missing_url: Najpierw dodaj adres URL odpytywania.
+      rate_limited: Zbyt wiele żądań testowych. Spróbuj ponownie za minutę.
+      sent: 'Wysłano:'
+      received: 'Odebrano:'
     missing_composition:
-      message: No composition yet — this plugin won't display on this device until you add one.
+      message: Brak kompozycji. Plugin nie będzie wyświetlany na tym urządzeniu, dopóki jej nie dodasz.
     outlook_meeting_rooms:
-      prompt: Looking for a meeting room?
-      request: Request access
-      approval_note: "(needs approval from a Microsoft 365 admin)"
-      pending_title: Waiting for meeting room approval
-      pending_body: A Microsoft 365 admin needs to approve access to your company's rooms. Send them this link.
-      copy_admin_link: Copy link for my admin
-      check_again: Check again
-      granted: Meeting room access granted
-      admin_approved: Meeting room access approved. You can close this tab.
+      prompt: Szukasz sali spotkań?
+      request: Poproś o dostęp
+      approval_note: "(wymaga zatwierdzenia przez administratora Microsoft 365)"
+      pending_title: Oczekiwanie na zatwierdzenie dostępu do sal spotkań
+      pending_body: Administrator Microsoft 365 musi zatwierdzić dostęp do sal spotkań w Twojej firmie. Wyślij mu ten link.
+      copy_admin_link: Skopiuj link dla administratora
+      check_again: Sprawdź ponownie
+      granted: Przyznano dostęp do sali spotkań
+      admin_approved: Zatwierdzono dostęp do sal spotkań. Możesz zamknąć tę kartę.
     recipe_review:
-      title: trmy's review
-      modal_title: Want a quick check before you submit?
-      modal_intro: Ultimately, the review is done by humans on our support team. To raise your chances of a quick and easy approval, we share our internal review agent, trmy. It runs your plugin through the trmnlp tests on TRMNL OG and TRMNL X, in landscape and portrait and with each option, to make sure it gives people a good experience. trmy replies on a page here, and we email you the link, usually within an hour.
-      page_intro: Ultimately, the review is done by humans on our support team. trmy, our internal review agent, runs your plugin through the trmnlp tests and points out what our reviewers usually ask about, so your approval goes quickly. When you're happy, submit, and a person on our team takes it from there.
-      how_it_works: How it works
-      ask: Ask trmy
-      ask_again: Ask trmy again
-      note_label: Anything trmy should look at? (optional)
-      note_placeholder: I made the X text bigger and fixed portrait.
-      open: trmy is checking your recipe. We'll email you when it's done.
-      answered: trmy has replied.
-      read: Read trmy's review
-      your_note: You asked
+      title: Recenzja trmy
+      modal_title: Chcesz szybko sprawdzić plugin przed wysłaniem?
+      modal_intro: Ostateczną ocenę przeprowadzają pracownicy naszego zespołu wsparcia. Aby zwiększyć szansę na szybkie i sprawne zatwierdzenie, udostępniamy naszego wewnętrznego agenta recenzującego, trmy. Testuje on Twój plugin za pomocą trmnlp na TRMNL OG i TRMNL X, w orientacji poziomej i pionowej oraz z każdą dostępną opcją, aby zapewnić użytkownikom dobre wrażenia. Odpowiedź trmy pojawi się na stronie, a link wyślemy Ci e-mailem, zazwyczaj w ciągu godziny.
+      page_intro: Ostateczną ocenę przeprowadzają pracownicy naszego zespołu wsparcia. trmy, nasz wewnętrzny agent recenzujący, sprawdza plugin za pomocą testów trmnlp i wskazuje typowe uwagi recenzentów, aby przyspieszyć zatwierdzenie. Gdy wszystko będzie gotowe, wyślij plugin, a resztą zajmie się członek naszego zespołu.
+      how_it_works: Jak to działa
+      ask: Zapytaj trmy
+      ask_again: Zapytaj trmy ponownie
+      note_label: Czy trmy powinnna zwrócić na coś uwagę? (opcjonalnie)
+      note_placeholder: Powiększyłam tekst na X i poprawiłam układ pionowy.
+      open: trmy sprawdza Twoją recepturę. Wyślemy Ci e-mail po zakończeniu.
+      answered: trmy odpowiedziała.
+      read: Przeczytaj recenzję trmy
+      your_note: Twoja wiadomość
       trmy: trmy
-      failed: trmy couldn't review this one. You can ask again, or submit when you're ready and a person on our team will look at it.
-      empty: You haven't asked trmy yet.
-      rate_limited: That's a lot of reviews for one day. Try again tomorrow.
-      back: Back to your plugin
+      failed: trmy nie mogła sprawdzić tej receptury. Możesz spróbować ponownie albo wysłać ją do oceny przez członka naszego zespołu.
+      empty: Nie poproszono jeszcze trmy o recenzję.
+      rate_limited: To sporo recenzji jak na jeden dzień. Spróbuj ponownie jutro.
+      back: Powrót do pluginu
+    data_flow:
+      title: Przepływ danych
+      markup: Kod szablonu
+    ai_transform:
+      no_route: Dodaj klucz API w sekcji Konto → Agent albo połącz urządzenie TRMNL, aby uruchamiać prompt tego pluginu.
+      api_key_refused: Dostawca %{provider} odrzucił Twój klucz API. Sprawdź go w sekcji Konto → Agent.
+      out_of_credit: Wyczerpano kredyty AI. Do czasu ich doładowania urządzenie będzie wyświetlać przypomnienie.
+      empty_reply: Model zwrócił pustą odpowiedź. Plugin zachował ostatni ekran.
+      truncated: Odpowiedź przekroczyła limit %{max_tokens} tokenów i została ucięta. Plugin zachował ostatni ekran.
+      front_matter_not_a_map: Sekcja nagłówkowa promptu musi zawierać listę opcji, po jednej w każdym wierszu.
+      front_matter_not_yaml: 'Sekcja nagłówkowa promptu zawiera nieprawidłowy YAML: %{error}'
+      unknown_option: 'Sekcja nagłówkowa promptu zawiera nieznaną opcję: %{options}. Obsługiwane opcje to schema, max_tokens i format.'
+      unknown_format: Format promptu musi mieć wartość json lub text, a nie %{value}.
+      credit_left: 'Pozostałe kredyty AI: %{amount}'
+      reload: Doładuj
+    row:
+      degraded: Degraded
+      erroring: Stopped
+      recipe_degraded: Recipe degraded
+      recipe_erroring: Recipe stopped
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
       oldest_to_newest: Od najstarszych do najnowszych
       most_popular: Najpopularniejsze
       search_placeholder: 'Szukaj, np.: Komiks'
-      filtered_for_device: Showing recipes with a %{device} layout.
-      trending: Trending this week
+      filtered_for_device: Wyświetlanie receptur z układem dla urządzenia %{device}.
+      trending: Popularne w tym tygodniu
   schedules:
     form:
       append: Oraz…
@@ -1269,11 +1337,11 @@ pl:
       to: do
       copy_prompt: Kopiuj harmonogram z…
       no_days_error: Wybierz proszę minimum jeden dzień.
-      dates: Dates
-      dates_description: Only show this screen between these dates. Leave a date blank for no start or no end.
-      repeats_yearly: Every year
-      add: Set a custom schedule
-      some_schedule: Show this screen during…
+      dates: Daty
+      dates_description: Wyświetlaj ten ekran tylko między podanymi datami. Pozostaw datę pustą, aby nie ograniczać początku lub końca okresu.
+      repeats_yearly: Co roku
+      add: Ustaw własny harmonogram
+      some_schedule: Wyświetlaj ten ekran w okresie…
   upgrade:
     index:
       title: 'Aktualizowanie urządzenia:'
@@ -1289,16 +1357,16 @@ pl:
       plugin_uninstall_feedback:
         one: Informacja zwrotna
         other: Informacje zwrotne
-      apps/chess/app: Chess
-      apps/preload/app: Preload
+      apps/chess/app: Szachy
+      apps/preload/app: Wstępna konfiguracja
     attributes:
       plugin_setting:
         ai_coauthored: Współtworzone przez AI
         recipe_overview: Opis indeksowany przez wyszukiwarki
       user:
-        anthropic_api_key: Anthropic API key
-        openrouter_api_key: OpenRouter API key
-        tavily_api_key: Tavily API key
+        anthropic_api_key: Klucz API Anthropic
+        openrouter_api_key: Klucz API OpenRouter
+        tavily_api_key: Klucz API Tavily
     errors:
       models:
         account_membership:
@@ -1312,7 +1380,7 @@ pl:
             directory:
               invalid_folder: musi być ścieżką folderu, np. plugins/clock
               taken_by_another_plugin: jest już synchronizowane z innym pluginem w tym repozytorium
-              is_a_file: is a file in this repository. Pick a folder name that no file uses
+              is_a_file: jest plikiem w tym repozytorium. Wybierz nazwę folderu, której nie używa żaden plik
         device:
           attributes:
             sleep_end_time:
@@ -1321,9 +1389,9 @@ pl:
           attributes:
             recipe_overview:
               too_few_words: musi zawierać co najmniej %{count} słów albo pozostać puste
-          async_polling_callback_url_missing: Async Polling needs {{ callback_url }} in the Polling URL, so your server knows where to send the data.
+          async_polling_callback_url_missing: Asynchroniczne odpytywanie wymaga umieszczenia {{ callback_url }} w adresie URL odpytywania, aby serwer wiedział, dokąd wysłać dane.
         user:
-          api_key_prefix: must start with %{prefix}. Clear the field if your browser filled it in.
+          api_key_prefix: musi zaczynać się od %{prefix}. Wyczyść pole, jeśli przeglądarka uzupełniła je automatycznie.
   apps:
     core:
       public:
@@ -1332,13 +1400,21 @@ pl:
           body: Zeskanuj ponownie kod na wyświetlaczu, aby kontynuować od miejsca, w którym przerwano.
       discovery:
         billing_cancel_failed: Nie udało się anulować rozliczeń, więc niczego nie odinstalowano. Spróbuj ponownie.
+        index:
+          title: Aplikacje
+          description: Zamień swoje urządzenia TRMNL w wyświetlacze do konkretnych zastosowań.
+          installed_heading: Zainstalowane aplikacje
+          available_heading: Aplikacje dostępne do instalacji
+          install_heading: Zainstaluj aplikację
+          install: Zainstaluj
+          installing: Instalowanie…
       app_page:
-        title: "%{app} for TRMNL"
-        eyebrow: TRMNL app
-        log_in: Log in to add %{app}
-        new_to_trmnl: New to TRMNL?
-        sign_up: Create an account
-        image_alt: "%{app} on a TRMNL"
+        title: "%{app} dla TRMNL"
+        eyebrow: Aplikacja TRMNL
+        log_in: Zaloguj się, aby dodać %{app}
+        new_to_trmnl: Nie masz jeszcze konta TRMNL?
+        sign_up: Utwórz konto
+        image_alt: "%{app} na urządzeniu TRMNL"
     room_booking:
       resource_kinds:
         room: Sala
@@ -1433,6 +1509,9 @@ pl:
             other: "%{count} ludzi więcej"
       room_screens:
         until: Do %{time}
+        up_next: 'Następne: %{title} o %{time}'
+        up_next_untitled: Następne wydarzenie o %{time}
+        free_after: Wolna od %{time}
       home:
         index:
           calendars_on_display: Kalendarze na wyświetlaczu
@@ -1465,7 +1544,7 @@ pl:
           show_booking_qr: Pokaż kod QR rezerwacji
           timezone: Strefa czasowa
           timezone_hint: Używana na ekranie urządzenia oraz dla godzin rezerwacji.
-          show_company_logo: Show company logo
+          show_company_logo: Pokaż logo firmy
         new:
           title: Nowy kalendarz
           description: Dodaj kalendarz do %{app}.
@@ -1509,10 +1588,10 @@ pl:
           upcoming: Nadchodzące
           read_only: Tylko do odczytu
           read_only_hint: Połączone konto Google może tylko wyświetlać ten kalendarz. Nadaj mu uprawnienia do zmiany wydarzeń, aby można było przyjmować tutaj rezerwacje.
-          company_logo: Company logo
+          company_logo: Logo firmy
           company_logo_values:
-            disabled: Disabled
-            enabled: Enabled
+            disabled: Wyłączone
+            enabled: Włączone
       collections:
         edit:
           back_to_collection: Wróć do kolekcji
@@ -1532,7 +1611,7 @@ pl:
           select_none: Odznacz wszystko
           show_booking_qr: Pokaż kod QR rezerwacji
           type: Typ
-          show_company_logo: Show company logo
+          show_company_logo: Pokaż logo firmy
         display_layouts:
           grid: Siatka
           list: Lista
@@ -1568,10 +1647,10 @@ pl:
             enabled: Włączone
           type: Typ
           edit_collection: Edytuj kolekcję
-          company_logo: Company logo
+          company_logo: Logo firmy
           company_logo_values:
-            disabled: Disabled
-            enabled: Enabled
+            disabled: Wyłączone
+            enabled: Włączone
         screens:
           empty: Skonfiguruj kalendarze do wyświetlania w "Aplikacje > Rezerwacje > Kolekcje" na trmnl.com.
         types:
@@ -1698,26 +1777,26 @@ pl:
             two: "."
             few: "."
           weekdays:
-          - Sunday
-          - Monday
-          - Tuesday
-          - Wednesday
-          - Thursday
-          - Friday
-          - Saturday
+          - Niedziela
+          - Poniedziałek
+          - Wtorek
+          - Środa
+          - Czwartek
+          - Piątek
+          - Sobota
           months:
-          - Jan
-          - Feb
+          - Sty
+          - Lut
           - Mar
-          - Apr
-          - May
-          - Jun
-          - Jul
-          - Aug
-          - Sep
-          - Oct
-          - Nov
-          - Dec
+          - Kwi
+          - Maj
+          - Cze
+          - Lip
+          - Sie
+          - Wrz
+          - Paź
+          - Lis
+          - Gru
       settings:
         show:
           branding: Identyfikacja wizualna
@@ -1744,7 +1823,7 @@ pl:
           dark_mode_hint: Renderuj ekrany urządzeń w trybie ciemnym — ciemne tło z jasnym tekstem.
           invalid_booking_window: Okno rezerwacji jest nieprawidłowe.
           invalid_time_format: Format czasu jest nieprawidłowy.
-          public_bookings: Allow booking on the spot
+          public_bookings: Zezwalaj na rezerwację na miejscu
           public_bookings_hint: Pozwól każdemu zarezerwować salę przez zeskanowanie kodu QR. Wymaga kalendarza Google lub Microsoft.
           qr_code_security: Bezpieczeństwo kodu QR
           qr_code_security_hint: Codziennie zmieniaj publiczne adresy URL rezerwacji, aby wygaszać dostęp do kalendarza dla zewnętrznych gości.
@@ -1768,6 +1847,9 @@ pl:
           walk_up_booking: Rezerwacja z TRMNL
           walk_up_calendar: Pokaż kalendarz
           walk_up_calendar_hint: Pokaż nadchodzące rezerwacje na publicznej stronie rezerwacji.
+          room_screens: Ekrany sal
+          show_next_meeting: Pokaż następne spotkanie
+          show_next_meeting_hint: Gdy sala jest zajęta, pokazuj następne spotkanie zamiast organizatora.
       billing:
         title: Rozliczenia
         summary:
@@ -1783,8 +1865,8 @@ pl:
           one: Spowoduje to dodanie 1 zasobu do Twojego planu (%{amount}). Kontynuować?
           other: Spowoduje to dodanie %{count} zasobów do Twojego planu (%{amount}). Kontynuować?
         screen_title: Wymagana subskrypcja
-        screen_body: Set up billing to show this resource again.
-        locked: Set up billing to keep your resources on screen.
+        screen_body: Skonfiguruj płatności, aby ponownie wyświetlać ten zasób.
+        locked: Skonfiguruj płatności, aby nadal wyświetlać swoje zasoby.
         past_due: Ostatnia płatność nie powiodła się. Zaktualizuj kartę, aby uniknąć przerwy.
         grace:
           one: Rezerwacje staną się płatną aplikacją %{date}. Twój %{count} zasób będzie kosztował %{total} miesięcznie.
@@ -1814,41 +1896,41 @@ pl:
         stale: Dane kalendarza są opóźnione. Ponawianie…
         unavailable: Ten wyświetlacz nie jest już dostępny.
       pricing:
-        billing_period: Billing period
-        annual_saving: Save %{amount} / room with annual billing
-        included: Included
-        calendars: Your calendars
-        calendars_hint: Every calendar works the same and costs the same. Mix them as you like.
-        existing_screens: Screens you already own cost nothing. Booking also runs on tablets and TVs.
+        billing_period: Okres rozliczeniowy
+        annual_saving: Oszczędź %{amount} na salę przy rozliczeniu rocznym
+        included: Wliczone w cenę
+        calendars: Twoje kalendarze
+        calendars_hint: Każdy kalendarz działa tak samo i kosztuje tyle samo. Możesz dowolnie je łączyć.
+        existing_screens: Ekrany, które już posiadasz, nie generują dodatkowych kosztów. System rezerwacji działa również na tabletach i telewizorach.
         add_devices:
-          one: Add %{count} device
-          other: Add %{count} devices
+          one: Dodaj %{count} urządzenie
+          other: Dodaj %{count} urządzeń
         comparison_links:
-          joan: Joan vs. TRMNL
-          robin: Robin vs. TRMNL
-          envoy: Envoy vs. TRMNL
-          tablets: Tablets vs. TRMNL
+          joan: Joan a TRMNL
+          robin: Robin a TRMNL
+          envoy: Envoy a TRMNL
+          tablets: Tablety a TRMNL
         features:
-          room_status: Live room status that changes when a meeting starts or ends
-          walk_up_booking: Walk-up booking with a QR code, from any phone
-          branding: Your logo and your room names on every screen
-          collections: Hallway screens that show many rooms at once
-          virtual_displays: Virtual displays on the tablets and TVs you already own
-          monitoring: Battery levels, and an email when a calendar stops syncing
-          setup: Set it up yourself, in minutes
-          support: Email support from real people
-          updates: New features as we ship them
-          room_changes: Add or remove rooms at any time
-        comparison_period: 10 rooms over 3 years, with annual billing
-        saves: Save %{amount} with TRMNL
-        saves_at_least: Save at least %{amount} with TRMNL
-        platform_fee: "%{amount} + platform fee"
-        quote_required: Quote required
+          room_status: Aktualny status sali, zmieniający się na początku i końcu spotkania
+          walk_up_booking: Rezerwacja na miejscu za pomocą kodu QR z dowolnego telefonu
+          branding: Twoje logo i nazwy sal na każdym ekranie
+          collections: Ekrany na korytarzach wyświetlające wiele sal jednocześnie
+          virtual_displays: Wirtualne wyświetlacze na posiadanych już tabletach i telewizorach
+          monitoring: Poziom baterii i powiadomienia e-mail w razie problemów z synchronizacją kalendarza
+          setup: Samodzielna konfiguracja w kilka minut
+          support: Wsparcie e-mail od prawdziwych ludzi
+          updates: Nowe funkcje udostępniane na bieżąco
+          room_changes: Dodawaj i usuwaj sale w dowolnym momencie
+        comparison_period: 10 sal przez 3 lata, przy rozliczeniu rocznym
+        saves: Oszczędź %{amount} z TRMNL
+        saves_at_least: Oszczędź co najmniej %{amount} z TRMNL
+        platform_fee: "%{amount} + opłata za platformę"
+        quote_required: Wymagana wycena
         tablet_total: "%{name} + Booking: %{amount}"
-        joan_assumptions: Entry plan, display licenses and Joan 6 RE devices. Active user fees excluded.
-        envoy_assumptions: Room licenses, Android tablets and locking enclosures. Platform fee excluded.
-        tablet_assumptions: Tablets, locking enclosures and Booking. Existing outlets assumed.
-        comparison_exclusions: US prices before tax and shipping. Power installation and device management excluded. See each comparison for sources and assumptions.
+        joan_assumptions: Plan podstawowy, licencje na wyświetlacze i urządzenia Joan 6 RE. Bez opłat za aktywnych użytkowników.
+        envoy_assumptions: Licencje na sale, tablety z Androidem i zamykane obudowy. Bez opłaty za platformę.
+        tablet_assumptions: Tablety, zamykane obudowy i Booking. Założono dostępność gniazdek zasilania.
+        comparison_exclusions: Ceny w USA bez podatków i kosztów wysyłki. Nie uwzględniono instalacji zasilania ani zarządzania urządzeniami. Źródła i założenia znajdziesz w poszczególnych porównaniach.
     fleet:
       tagline: Odzwierciedlaj ekran i ustawienia jednego urządzenia na wielu wyświetlaczach.
       check_ins:
@@ -1910,167 +1992,171 @@ pl:
         row: "%{name}: oczekiwano %{expected}, ostatni ping %{last_ping}, bateria %{battery}, Wi-Fi %{wifi}."
         open_fleet: Otwórz flotę
         footer: Otrzymujesz tę wiadomość, ponieważ alerty zgłoszeń są włączone dla tej floty. Wyłącz je w Flota › Ustawienia.
+      summary:
+        mirrors:
+          one: "%{count} urządzenie odzwierciedlające"
+          other: "%{count} urządzeń odzwierciedlających"
     bookings:
       read_only_booking_error: Ten kalendarz jest tylko do odczytu. Połączone konto Google wymaga uprawnień do zmiany wydarzeń, zanim będzie mogło przyjmować rezerwacje.
     chess:
-      tagline: Play correspondence chess on your TRMNL, with a friend across town or at the kitchen table.
-      back_to_matches: Back to matches
-      back_to_apps: Back to Apps
-      open_link: Open
+      tagline: Graj w szachy korespondencyjne na swoim TRMNL — ze znajomym z drugiego końca miasta albo przy kuchennym stole.
+      back_to_matches: Powrót do rozgrywek
+      back_to_apps: Powrót do aplikacji
+      open_link: Otwórz
       seat_name: "%{name} (%{side})"
       status:
         lobby:
-          one: Waiting for 1 more player
-          other: Waiting for %{count} players
-        to_move: "%{name} to move"
+          one: Oczekiwanie na jeszcze 1 gracza
+          other: Oczekiwanie na %{count} graczy
+        to_move: Ruch gracza %{name}
       result:
-        win: "%{name} wins by %{reason}"
-        draw: Draw by %{reason}
+        win: "%{name} wygrywa — powód: %{reason}"
+        draw: 'Remis — powód: %{reason}'
       reasons:
-        checkmate: checkmate
-        resignation: resignation
-        stalemate: stalemate
-        threefold_repetition: threefold repetition
-        insufficient_material: insufficient material
-        fifty_move_rule: the fifty-move rule
-        ended: the host ending the match
+        checkmate: mat
+        resignation: poddanie partii
+        stalemate: pat
+        threefold_repetition: trzykrotne powtórzenie pozycji
+        insufficient_material: niewystarczający materiał
+        fifty_move_rule: reguła pięćdziesięciu posunięć
+        ended: zakończenie partii przez gospodarza
       uninstall:
-        heading: Uninstall
-        explainer: Removes the app, closes the links you sent players, and takes your boards off every device.
-        confirm: Uninstall %{app}?
+        heading: Odinstaluj
+        explainer: Usuwa aplikację, unieważnia linki wysłane graczom i usuwa szachownice ze wszystkich urządzeń.
+        confirm: Odinstalować %{app}?
       matches:
         index:
-          new: New match
-          empty: No matches yet. Start one and send the link to a friend.
-          your_move: Your move
+          new: Nowa partia
+          empty: Nie masz jeszcze żadnych partii. Rozpocznij nową i wyślij link znajomemu.
+          your_move: Twój ruch
         title:
-          open_seat: open seat
-          no_players: Open match
+          open_seat: wolne miejsce
+          no_players: Otwarta partia
         new:
-          title: New match
-          side: Your seat
-          opponent: Opponent
-          level: Computer level
+          title: Nowa partia
+          side: Twoje miejsce
+          opponent: Przeciwnik
+          level: Poziom komputera
           opponents:
-            friend: A friend
-            computer: The computer
-          submit: Create match
+            friend: Znajomy
+            computer: Komputer
+          submit: Utwórz partię
           sides:
-            white: I'll play White
-            black: I'll play Black
-            host: Just host
+            white: Gram białymi
+            black: Gram czarnymi
+            host: Tylko organizuję
           hints:
-            white: White moves first.
-            black: Your opponent moves first.
-            host: Both seats stay open. Good for a shared screen in the kitchen or office.
+            white: Białe rozpoczynają partię.
+            black: Przeciwnik wykonuje pierwszy ruch.
+            host: Oba miejsca pozostaną wolne. Przydatne przy wspólnym ekranie w kuchni lub biurze.
         show:
-          open_board: Open the board
-          invite: Invite players
-          invite_hint: Send this link, or show the QR code. Whoever opens it first takes an open seat.
-          players: Players
-          open_seat: "%{side}: open"
-          reissue: New link
-          reissue_confirm: Send %{name} a new link? Their old link stops working.
-          guest_link: New link for %{name}
-          guest_link_hint: Send this to them. It only shows here once, and their old link no longer works.
-          end: End match
-          end_confirm: End this match with no winner?
+          open_board: Otwórz szachownicę
+          invite: Zaproś graczy
+          invite_hint: Wyślij ten link lub pokaż kod QR. Pierwsza osoba, która go otworzy, zajmie wolne miejsce.
+          players: Gracze
+          open_seat: "%{side}: wolne"
+          reissue: Nowy link
+          reissue_confirm: Wysłać nowy link graczowi %{name}? Stary link przestanie działać.
+          guest_link: Nowy link dla gracza %{name}
+          guest_link_hint: Wyślij mu ten link. Zostanie pokazany tylko raz, a poprzedni przestanie działać.
+          end: Zakończ partię
+          end_confirm: Zakończyć tę partię bez wyłaniania zwycięzcy?
       endings:
         create:
-          success: Match ended.
+          success: Partia została zakończona.
       bot_levels:
-        easy: Easy
-        medium: Medium
-        hard: Hard
-        max: Max
+        easy: Łatwy
+        medium: Średni
+        hard: Trudny
+        max: Najwyższy
       styles:
-        board: Board
-        crawl: Star Crawl
+        board: Widok 2D
+        crawl: Widok 3D
       plays:
         show:
-          waiting: You are %{side}. Waiting for an opponent.
-          your_name: Your name
-          sit: Play as %{side}
-          promote: Promote to
-          resign: Resign
-          resign_confirm: Resign this game?
-          play_again: Play again
-          go_to_rematch: Go to the rematch
-          moves: Moves
-          screens: Show on my TRMNL
-          add_screen: Add to device
-          remove_screen: Remove
-          sign_in_to_show: Have a TRMNL? Sign in to show this match on it.
-          remove_screen_confirm: Take this match off %{device}?
-          stale_link: This link no longer works. Ask the host for a new one.
-          thinking: "%{name} is thinking"
-          played: "%{name} played %{move}"
+          waiting: Grasz jako %{side}. Oczekiwanie na przeciwnika.
+          your_name: Twoje imię
+          sit: Graj jako %{side}
+          promote: Promuj na
+          resign: Poddaj partię
+          resign_confirm: Poddać tę partię?
+          play_again: Zagraj ponownie
+          go_to_rematch: Przejdź do rewanżu
+          moves: Ruchy
+          screens: Pokaż na moim TRMNL
+          add_screen: Dodaj do urządzenia
+          remove_screen: Usuń
+          sign_in_to_show: Masz TRMNL? Zaloguj się, aby wyświetlić na nim tę partię.
+          remove_screen_confirm: Usunąć tę partię z urządzenia %{device}?
+          stale_link: Ten link już nie działa. Poproś gospodarza o nowy.
+          thinking: "%{name} zastanawia się nad ruchem"
+          played: "%{name} wykonał ruch %{move}"
       seats:
-        computer: Computer
+        computer: Komputer
         create:
-          taken: Someone took that seat first.
-          already_seated: You already have a seat in this game.
+          taken: Ktoś wcześniej zajął to miejsce.
+          already_seated: Masz już miejsce w tej partii.
       moves:
         create:
-          refused: That move is not available any more. The board has been refreshed.
+          refused: Ten ruch nie jest już dostępny. Szachownica została odświeżona.
       displays:
         create:
-          success: Added to %{device}. It shows up at the device's next refresh.
-          already_shown: "%{device} already shows this match. Remove it first to change the style."
+          success: Dodano do urządzenia %{device}. Partia pojawi się przy jego następnym odświeżeniu.
+          already_shown: Urządzenie %{device} już wyświetla tę partię. Aby zmienić styl, najpierw ją usuń.
       screens:
-        scan_to_play: Scan to play
-        scan_hint: Point a phone camera at the code. Whoever scans first takes an open seat.
-        open_seat: Open seat
-        last_move: Last move
-        episode: Episode %{number}
-        play_again: Scan to play again
+        scan_to_play: Zeskanuj, aby zagrać
+        scan_hint: Skieruj aparat telefonu na kod. Pierwsza osoba, która go zeskanuje, zajmie wolne miejsce.
+        open_seat: Wolne miejsce
+        last_move: Ostatni ruch
+        episode: Epizod %{number}
+        play_again: Zeskanuj, aby zagrać ponownie
     preload:
-      tagline: Add plugins to a batch of devices before end users claim them.
-      title: Preload
-      back: Back to Apps
+      tagline: Dodaj pluginy do grupy urządzeń, zanim zostaną przypisane do kont użytkowników.
+      title: Wstępna konfiguracja
+      back: Powrót do aplikacji
       plugins:
-        heading: Plugins to preload
-        explainer: Each device from your orders gets these plugins when someone claims it. That person finishes any setup.
-        input_label: Plugin link or ID
-        add: Add plugin
-        remove: Remove
-        empty: No plugins yet.
-        fields: 'Fields to fill in: %{fields}'
-        no_fields: No fields to fill in.
-        set_up_on_claim: Set up by the person who claims the device.
-        unavailable_recipe: Recipe %{id} is not available. It is not published or unlisted.
-        unavailable_plugin: Plugin %{id} is not available. It is not published.
-        added: "%{name} will preload."
-        removed: Plugin removed.
-        not_found: We couldn't find a published plugin or recipe with that link.
+        heading: Pluginy do wstępnej konfiguracji
+        explainer: Każde urządzenie z Twoich zamówień otrzyma te pluginy, gdy ktoś przypisze je do swojego konta. Ta osoba dokończy konfigurację.
+        input_label: Link lub ID pluginu
+        add: Dodaj plugin
+        remove: Usuń
+        empty: Nie dodano jeszcze żadnych pluginów.
+        fields: 'Pola do uzupełnienia: %{fields}'
+        no_fields: Nie ma pól do uzupełnienia.
+        set_up_on_claim: Konfiguruje osoba przypisująca urządzenie do swojego konta.
+        unavailable_recipe: Receptura %{id} jest niedostępna. Nie została opublikowana lub jest ukryta na liście.
+        unavailable_plugin: Plugin %{id} jest niedostępny. Nie został opublikowany.
+        added: Plugin %{name} zostanie dodany podczas wstępnej konfiguracji.
+        removed: Usunięto plugin.
+        not_found: Nie znaleźliśmy opublikowanego pluginu ani receptury pod tym linkiem.
       uninstall:
-        heading: Uninstall
-        explainer: Removes the app, frees your orders, and stops preloading devices nobody has claimed yet.
-        confirm: Uninstall %{app}?
+        heading: Odinstaluj
+        explainer: Usuwa aplikację, zwalnia powiązane zamówienia i zatrzymuje wstępną konfigurację urządzeń, których jeszcze nie przypisano do kont użytkowników.
+        confirm: Odinstalować %{app}?
       orders:
-        heading: Orders
-        explainer: Import a store order by its number and order email. Devices will preload whatever plugins you specify once claimed for the first time.
-        order_number: Order number
-        email: Order email
-        import: Import order
-        empty: No orders yet.
-        shipped: Shipped
-        claimed: Claimed
-        waiting: Waiting
-        remove: Remove
-        remove_confirm: 'Remove order #%{order}? Its unclaimed devices will not preload your plugins.'
-        none_shipped: No devices from this order have shipped yet. If we merged it with another of your orders, import that order instead, or contact support.
+        heading: Zamówienia
+        explainer: Zaimportuj zamówienie ze sklepu, podając jego numer i adres e-mail z zamówienia. Gdy urządzenia zostaną po raz pierwszy przypisane do kont użytkowników, otrzymają wskazane przez Ciebie pluginy.
+        order_number: Numer zamówienia
+        email: Adres e-mail z zamówienia
+        import: Importuj zamówienie
+        empty: Nie ma jeszcze żadnych zamówień.
+        shipped: Wysłano
+        claimed: Przypisano do konta
+        waiting: Oczekiwanie
+        remove: Usuń
+        remove_confirm: Usunąć zamówienie nr %{order}? Urządzenia, które nie zostały jeszcze przypisane do kont, nie otrzymają Twoich pluginów.
+        none_shipped: Żadne urządzenie z tego zamówienia nie zostało jeszcze wysłane. Jeśli połączyliśmy je z innym Twoim zamówieniem, zaimportuj tamto zamówienie lub skontaktuj się ze wsparciem.
         imported:
-          zero: 'Order #%{order} imported. Its devices will preload as they ship.'
-          one: 'Order #%{order} imported. 1 device will preload.'
-          other: 'Order #%{order} imported. %{count} devices will preload.'
-        already_imported: 'Order #%{order} is already imported.'
-        no_match: We couldn't match that order number and email.
-        taken: This order is linked to another account. Contact support.
-        paused: Preloading is paused for this account. Contact support.
-        store_unavailable: We couldn't reach our store. Try again shortly.
-        throttled: Too many attempts. Try again later.
-        removed: 'Order #%{order} removed.'
+          zero: Zaimportowano zamówienie nr %{order}. Urządzenia będą konfigurowane wstępnie w miarę wysyłki.
+          one: Zaimportowano zamówienie nr %{order}. Wstępna konfiguracja obejmie 1 urządzenie.
+          other: Zaimportowano zamówienie nr %{order}. Wstępna konfiguracja obejmie %{count} urządzeń.
+        already_imported: Zamówienie nr %{order} zostało już zaimportowane.
+        no_match: Nie udało się dopasować numeru zamówienia i adresu e-mail.
+        taken: To zamówienie jest powiązane z innym kontem. Skontaktuj się ze wsparciem.
+        paused: Wstępna konfiguracja urządzeń została wstrzymana dla tego konta. Skontaktuj się ze wsparciem.
+        store_unavailable: Nie udało się połączyć z naszym sklepem. Spróbuj ponownie za chwilę.
+        throttled: Zbyt wiele prób. Spróbuj ponownie później.
+        removed: Usunięto zamówienie nr %{order}.
   mashups:
     mashup:
       add_to_playlist: Dodaj do playlisty
@@ -2086,13 +2172,14 @@ pl:
     edit:
       title: Skonfiguruj mashup %{name}
       back_to_playlist: Wróć do playlisty
-      description: "%{layout} mashup"
-      health_notifications_hint: Otrzymaj e-mail, gdy renderowanie tego mashupu zacznie kończyć się błędami lub całkowicie się zatrzyma. Maksymalnie jedna wiadomość e-mail dla każdego stanu w ramach incydentu; alerty uzbrajają się ponownie, gdy mashup wróci do prawidłowego stanu.
-      health_notifications_checkbox: Wyślij mi e-mail, gdy ten mashup będzie działał nieprawidłowo
+      description: Składanka — %{layout}
+      health_notifications_hint: Get an email when this mashup stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this mashup starts failing
       refresh_rate_hint: Renderuje %{refresh_rate}; częstotliwość jest ustawiana przez najszybszy z jego pluginów.
       remove: Usuń mashup
       remove_hint: Usunięcie mashupu usuwa go z playlisty. Jego pluginy pozostają zainstalowane.
       name_hint: Nadaj mu nazwę, aby łatwo go rozpoznać, albo pozostaw pole puste, aby wyświetlać nazwy jego pluginów.
+      stopped_notifications_checkbox: Email me when this mashup stops refreshing
     new:
       playlist_item_title: Nowy element playlisty
     create:
@@ -2106,7 +2193,9 @@ pl:
       1Tx2B: Duża sekcja u góry, dwie na dole
       2Tx1B: Dwie sekcje u góry, duża na dole
       2x2: Cztery sekcje
-      3x3: Custom grid
+      3x3: Siatka niestandardowa
+    sections:
+      default_text_scale: Default (%{text_scale})
   playlist_coverage:
     title: Pokrycie playlisty
     your_timezone: Twoja strefa czasowa
@@ -2168,24 +2257,24 @@ pl:
       variables: Zmienne
       visible_if: Widoczne, jeśli...
       width: Szerokość
-      recolor_flaps: Recolor every flap on this layer
-      board_characters: Board characters
-      board_characters_hint: Click a character to insert it. A color inserts as {63} to {69} and fills one flap.
-      unsupported_characters: 'Not on the board: %{characters}. Like spaces, they show the layer below or the background (marked ? in this preview).'
-      box_width_hint: Width is in cells. The board is %{columns} cells wide.
+      recolor_flaps: Zmień kolory wszystkich klapek w tej warstwie
+      board_characters: Znaki tablicy
+      board_characters_hint: Kliknij znak, aby go wstawić. Wybranie koloru wstawia kod od {63} do {69}, który wypełnia jedną klapkę.
+      unsupported_characters: 'Znaki niedostępne na tablicy: %{characters}. Podobnie jak spacje, odsłaniają warstwę pod spodem lub tło (oznaczone w podglądzie znakiem ?).'
+      box_width_hint: Szerokość podawana jest w komórkach. Tablica ma szerokość %{columns} komórek.
       flap_colors:
-        label: Flap colors
-        red: Red
-        orange: Orange
-        yellow: Yellow
-        green: Green
-        blue: Blue
-        violet: Violet
-        white: White
-        black: Black (blank)
+        label: Kolory klapek
+        red: Czerwony
+        orange: Pomarańczowy
+        yellow: Żółty
+        green: Zielony
+        blue: Niebieski
+        violet: Fioletowy
+        white: Biały
+        black: Czarny (pusty)
       agent_panel: Agent
-      toggle_agent: Show or hide the Agent
-      resize_agent_panel: Resize the Agent panel
+      toggle_agent: Pokaż lub ukryj Agenta
+      resize_agent_panel: Zmień rozmiar panelu Agenta
   shared:
     impersonator:
       managing: Zarządzanie %{name}
@@ -2241,11 +2330,73 @@ pl:
       subscribe_title: Subskrybuj
       trial_ends_html: 'Uwaga — Twój okres próbny TRMNL+ kończy się <strong>%{date}</strong>. Aby nadal korzystać z funkcji Plus, masz dwie opcje:'
     recipe_review_answered:
-      subject: trmy has reviewed %{name}
-      greeting: Hi,
-      ready: trmy, our internal review agent, finished checking %{name}.
-      read: Read its notes
-      next: When you're happy, submit it, and a person on our team will review it.
+      subject: trmy sprawdziła %{name}
+      greeting: Cześć,
+      ready: trmy, nasz wewnętrzny agent recenzujący, zakończył sprawdzanie %{name}.
+      read: Przeczytaj jej uwagi
+      next: Gdy wszystko będzie gotowe, wyślij plugin, a członek naszego zespołu go oceni.
+    author_digest:
+      subject_prefix: Podsumowanie TRMNL dla twórców
+      greeting: Cześć %{name} –
+      greeting_without_name: Cześć –
+      intro: 'Oto podsumowanie Twojego tygodnia w TRMNL: %{from} – %{to}.'
+      needs_a_fix: Wymaga poprawy
+      failing:
+        one: 'Plugin %{name} nie działa na 1 ekranie. Ostatni błąd: %{date}.'
+        other: 'Plugin %{name} nie działa na %{count} ekranach. Ostatni błąd: %{date}.'
+      open_plugin: Otwórz %{name}
+      others_failing:
+        one: Na 1 kolejnym ekranie występują błędy usługi zewnętrznej lub użytkownik nie ukończył konfiguracji. Nie musisz nic z tym robić.
+        other: Na %{count} kolejnych ekranach występują błędy usług zewnętrznych lub użytkownicy nie ukończyli konfiguracji. Nie musisz nic z tym robić.
+      uninstalls: Co użytkownicy napisali podczas odinstalowywania
+      reasons:
+        one: 'W tym tygodniu odinstalowano 1 raz. Powody: %{reasons}.'
+        other: 'W tym tygodniu odinstalowano %{count} razy. Powody: %{reasons}.'
+      creator_fund: Blisko kwalifikacji do Funduszu Twórców
+      qualified: Plugin %{name} przekroczył w tym tygodniu próg %{minimum} połączeń i zostanie uwzględniony w kolejnej wypłacie z Funduszu Twórców.
+      near_miss_intro: 'Pluginy zaczynają zarabiać od %{threshold} połączeń. Wystarczy, że jeszcze kilka osób udostępni te pluginy, aby osiągnęły próg:'
+      near_miss_counts: 'Połączenia: %{connections} · brakuje %{needed}'
+      share_text: Sprawdź %{name} dla TRMNL
+      post_on_x: Opublikuj na X
+      post_on_bluesky: Bluesky
+      post_on_reddit: Reddit
+      numbers: Twój tydzień w liczbach
+      installs_line:
+        one: "+1 instalacja · łącznie %{total} połączeń"
+        other: "+%{count} instalacji · łącznie %{total} połączeń"
+      top_growers: 'Największy wzrost: %{list}'
+      top_layouts: 'Twoje pluginy są najczęściej wyświetlane w układach: %{list}.'
+      see_analytics: Zobacz pełną analitykę
+      sign_off: Skup się na tym, co ważne,
+      footer: Otrzymujesz tę wiadomość raz w tygodniu, ponieważ publikujesz pluginy na TRMNL. Jeśli nie ma żadnych nowości, wiadomość nie jest wysyłana.
+      headlines:
+        qualified: Plugin %{name} kwalifikuje się teraz do Funduszu Twórców
+        nearest_goal:
+          one: Pluginowi %{name} brakuje 1 instalacji do rozpoczęcia zarabiania
+          other: Pluginowi %{name} brakuje %{count} instalacji do rozpoczęcia zarabiania
+        failing:
+          one: Plugin %{name} nie działa na 1 ekranie
+          other: Plugin %{name} nie działa na %{count} ekranach
+        new_installs:
+          one: 1 nowa instalacja
+          other: "%{count} nowych instalacji"
+        plugins_to_fix:
+          one: 1 plugin do naprawienia
+          other: "%{count} pluginów do naprawienia"
+        uninstall_reasons:
+          one: 1 osoba podała powód odinstalowania
+          other: "%{count} osób podało powód odinstalowania"
+    bank_payment_failed:
+      subject: Your bank payment to TRMNL did not go through
+      greeting: Hi %{name},
+      greeting_without_name: Hi,
+      byod_license: The bank payment for your BYOD license did not go through, so your device is back on its trial.
+      byod_trial: The $1 bank payment for your BYOD trial did not go through, so we ended the trial.
+      developer_edition: The bank payment for Developer Edition did not go through, so we turned it off on your device.
+      plus: The bank payment for TRMNL+ did not go through, so we turned it off.
+      pay_again: You can pay again with a card or another account here.
+      sign_off: cheers,
+      team: the TRMNL team
   pages:
     flash_firmware:
       linux_warning: Flashowanie z Linuksa często kończy się niepowodzeniem, ponieważ Chrome nie może otworzyć portu szeregowego. Dodaj użytkownika do grupy dialout (sudo usermod -aG dialout $USER), wyloguj się i zaloguj ponownie, a następnie spróbuj jeszcze raz. Jeśli to nie pomoże, użyj Chrome lub Edge na komputerze Mac albo z Windows.
@@ -2422,7 +2573,7 @@ pl:
         panel_inks: Kolory panelu
         grayscale: Skala szarości
       export_bundle: Pobierz motyw
-      fit_to_screen: Fit to screen
+      fit_to_screen: Dopasuj do ekranu
   timelines:
     trace:
       outcomes:
@@ -2584,11 +2735,11 @@ pl:
         not_jit_schedulable: Odświeża się według własnego harmonogramu
         violates_minimum: Oczekiwanie na upłynięcie minimalnego interwału odświeżania
         external_image: Pominięto — obraz jest do niego wysyłany, nic go nie renderuje
-        before_daily_slot: Waiting — the daily refresh renders before its first display after 00:15
-        daily_catch_up_started: Catching up — the daily screen was rendered before today's 00:15 refresh
-        daily_catch_up_declined: Catch-up skipped — the device got no waiting screen, so it kept its screen while the render ran
-        daily_catch_up_fresh_screen: Caught up — the fresh daily screen arrived
-        daily_catch_up_kept_screen: Catch-up ended — the render did not arrive in time, so the previous screen stayed
+        before_daily_slot: Oczekiwanie — dzienny ekran zostanie wygenerowany przed pierwszym wyświetleniem po 00:15
+        daily_catch_up_started: Uzupełnianie — dzienny ekran został wygenerowany przed dzisiejszym odświeżeniem o 00:15
+        daily_catch_up_declined: Pominięto uzupełnianie — urządzenie nie otrzymało ekranu oczekiwania, więc zachowało poprzedni obraz podczas generowania
+        daily_catch_up_fresh_screen: Uzupełniono — dotarł nowy dzienny ekran
+        daily_catch_up_kept_screen: Zakończono uzupełnianie — obraz nie dotarł na czas, więc pozostał poprzedni ekran
       render_statuses:
         ok: Wyrenderowano
         error: Renderowanie nie powiodło się
@@ -2657,8 +2808,8 @@ pl:
         prompt: "%{client_name} chce używać Twojego konta TRMNL."
         able_to: 'Będzie mogła:'
         returns_to: Po dokonaniu wyboru wrócisz do %{host}.
-        document_prompt: "“%{client_name}” from %{host} wants to use your TRMNL account."
-        unverified_prompt: An app that calls itself “%{client_name}” wants to use your TRMNL account. TRMNL has not verified this app.
+        document_prompt: "„%{client_name}” z %{host} chce uzyskać dostęp do Twojego konta TRMNL."
+        unverified_prompt: Aplikacja podająca się za „%{client_name}” chce uzyskać dostęp do Twojego konta TRMNL. TRMNL nie zweryfikował tej aplikacji.
       buttons:
         authorize: Zezwól
         deny: Nie zezwalaj
@@ -2717,7 +2868,7 @@ pl:
     used: "%{percent}% wykorzystano"
     used_up: Wykorzystano cały limit użycia. __Doładuj go lub dodaj klucz__, aby kontynuować.
     topup_label: Kredyty z doładowania
-    topup_credits_left: "%{credits} credits left"
+    topup_credits_left: 'Pozostałe kredyty: %{credits}'
   integration_overviews:
     alias: |-
       Twój własny obraz na wyświetlaczu ePapierowym TRMNL. Alias jest przeznaczony dla osób, które przygotowują ekrany gdzie indziej, np. skryptem na domowym serwerze. Wklej pełny adres URL obrazu, a urządzenie pobierze go bezpośrednio spod tego adresu, więc zadziała również lokalny URL, np. http://localhost:4567/image.png.
@@ -3104,9 +3255,9 @@ pl:
 
       Połącz konto Google będące właścicielem kanału — menedżerowie współdzielonego kanału nie mogą go połączyć — a następnie wybierz zakres 7, 28, 90 lub 365 dni. Prowadzisz więcej niż 1 kanał? Dodaj plugin osobno dla każdego i nazwij je tak, aby łatwo je odróżnić.
     linkedin_page: |-
-      Your LinkedIn Company Page stats, on a TRMNL ePaper display. See followers, new followers, impressions, clicks, engagement rate, reactions, comments and shares, with a daily chart of the metric you choose.
+      Statystyki firmowej strony LinkedIn na wyświetlaczu e-papierowym TRMNL. Sprawdzaj liczbę obserwujących, nowych obserwujących, wyświetleń, kliknięć, współczynnik zaangażowania, reakcje, komentarze i udostępnienia, a także wykres dzienny wybranego wskaźnika.
 
-      Connect the LinkedIn account that is an admin of your Page, pick the Page, then choose a lookback of 7, 30 or 90 days. LinkedIn reports these numbers with a 2 day delay, so the screen ends 2 days ago. Run more than 1 Page? Add the plugin once per Page.
+      Połącz konto LinkedIn z uprawnieniami administratora strony firmowej, wybierz stronę, a następnie okres ostatnich 7, 30 lub 90 dni. LinkedIn udostępnia te dane z dwudniowym opóźnieniem, więc wykres kończy się na danych sprzed dwóch dni. Zarządzasz więcej niż jedną stroną? Dodaj plugin osobno dla każdej z nich.
   ai_credit_topups:
     fee_line_item: Opłata serwisowa
     create:
@@ -3114,28 +3265,107 @@ pl:
     new:
       success: Limit użycia został dodany do Twojego konta.
       unpaid: Płatność nie została zakończona, więc limit użycia nie został dodany.
-      processing: Your bank payment is processing. We add the usage credits when it clears, which can take up to 4 business days.
-    buy_credits: "%{credits} credits · %{price}"
-    credits_hint: A plugin takes about 5 credits. Bought credits last 3 months. Checkout adds a service fee for card and provider costs.
-    credits_line_item: "%{credits} TRMNL AI credits"
+      processing: Twoja płatność bankowa jest przetwarzana. Kredyty zostaną przyznane po zaksięgowaniu płatności, co może zająć do 4 dni roboczych.
+    buy_credits: "%{credits} kredytów · %{price}"
+    credits_hint: Jeden plugin zużywa około 5 kredytów. Kupione kredyty są ważne przez 3 miesiące. Do zamówienia doliczana jest opłata za obsługę płatności kartą i dostawcy płatności.
+    credits_line_item: "%{credits} kredytów AI TRMNL"
   banners:
     got_it: Rozumiem
   byod_mac_address_banner_component:
-    message: Your TRMNL device needs its real MAC address before it can connect.
-    action: Add MAC address
+    message: Przed połączeniem urządzenia TRMNL musisz ustawić jego rzeczywisty adres MAC.
+    action: Dodaj adres MAC
   integration_page:
-    use_recipe: Use the community recipe
+    use_recipe: Użyj receptury społeczności
   byod_trials:
     ended:
-      claim_license: Already bought a BYOD license? Claim it with your order number.
-      no_trial_device: Your account has no BYOD trial to convert.
+      claim_license: Masz już licencję BYOD? Aktywuj ją, podając numer zamówienia.
+      no_trial_device: Na Twoim koncie nie ma urządzenia próbnego BYOD do konwersji.
     convert:
-      no_trial_device: Your account has no BYOD trial to convert, so we did not charge you.
+      no_trial_device: Na Twoim koncie nie ma urządzenia próbnego BYOD do konwersji, więc nie pobraliśmy opłaty.
   screen_picker:
-    single_palette_hint: This device has only one palette.
+    single_palette_hint: To urządzenie obsługuje tylko jedną paletę kolorów.
+    classic: Classic
+    color_mode: Color Mode
+    color_preview: Color preview
+    color_preview_state: 'Color preview: %{state}'
+    dark: Dark
+    default: Default
+    device: Device
+    font_family: Font Family
+    landscape: Landscape
+    light: Light
+    light_mode: Light Mode
+    orientation: Orientation
+    palette: Palette
+    portrait: Portrait
+    preview: Preview
+    raw: Raw
+    reset: Reset
+    reset_to_defaults: Reset to Defaults
+    reset_to_device_defaults: Reset to device defaults
+    style: Style
+    text_scale: Text Scale
+    theme: Theme
+    toggle_color_preview: Toggle color preview (Raw / Preview)
+    toggle_dark_mode: Toggle dark mode
+    toggle_orientation: Toggle orientation
+    dark_mode: Dark Mode
   active_admin:
     batch_actions:
       action_label: "%{title}"
   virtual_devices:
     create:
-      byod_trial_converted: Your BYOD license is now on your trial device. It keeps its playlist and settings.
+      byod_trial_converted: Licencja BYOD została przypisana do urządzenia próbnego. Jego playlista i ustawienia zostają zachowane.
+  email_unsubscribes:
+    switches:
+      author_digest_enabled: cotygodniowe podsumowanie dla twórców
+      community_emails_enabled: wiadomości od społeczności
+      low_battery_notification_enabled: powiadomienia e-mail o niskim poziomie baterii urządzenia %{name}
+      health_notification_enabled: powiadomienia o problemach z pluginem %{name}
+    footer_link: Zrezygnuj z tych wiadomości e-mail
+    show:
+      title: Anuluj subskrypcję
+      confirm: Przestać wysyłać %{emails}?
+      unsubscribe: Anuluj subskrypcję
+      done: Gotowe. Nie będziemy już wysyłać %{emails}.
+  system_screens:
+    out_of_ai_credit:
+      title: Wyczerpano kredyty AI
+      message: Doładuj kredyty na trmnl.com, aby zaktualizować %{name}
+  saving: Saving…
+  missing_devices:
+    finish_setup: This TRMNL has not finished Wi-Fi setup. Connect it to Wi-Fi and it shows its Friendly ID on screen. If it does not connect, contact support.
+    byod_license_html: A DIY kit or another BYOD device needs a %{link} before it can be found.
+    byod_license_link: BYOD license
+  appearance:
+    default_theme: Default
+    orientations:
+      landscape: Landscape
+      portrait: Portrait
+    palettes:
+      bw: Black & White (1-bit)
+      gray-4: 4 Grays (2-bit)
+      gray-16: 16 Grays (4-bit)
+      gray-256: 256 Grays (8-bit)
+      color-3bwr: 'Color (3 colors: black, red, white)'
+      color-3bwy: 'Color (3 colors: black, yellow, white)'
+      color-4bwry: 'Color (4 colors: black, red, white, yellow)'
+      color-6a: Color (6 colors)
+      color-7a: Color (7 colors)
+      color-12bit: Color (4096 colors)
+      color-24bit: Color (16777216 colors)
+    summary:
+      font_family: "%{value} font family"
+      text_scale: "%{value} text scale"
+      theme: "%{value} theme"
+    text_scales:
+      small: Small
+      regular: Regular
+      large: Large
+      xlarge: X-Large
+  health_status_banner:
+    next_steps:
+      reconnect: The service it reads from no longer accepts its connection. Reconnect your account in its settings.
+      missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
+      dead_link: The link it reads from no longer works. Paste a current link in its settings.
+      unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.

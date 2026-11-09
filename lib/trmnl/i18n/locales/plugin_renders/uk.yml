@@ -34,6 +34,8 @@ uk:
       title_short: Netatmo
       indoor_temp: Темп. у приміщенні
       indoor_temp_short: У приміщенні
+      outdoor_temp: Outdoor Temp.
+      outdoor_temp_short: Outdoor
       indoor_humidity: Вологість у приміщенні
       indoor_humidity_short: Волог. у приміщ.
       outdoor_humidity: Вологість надворі
@@ -67,6 +69,14 @@ uk:
       no_wind_gauge: Немає анемометра
       add_module_hint: Додайте додатковий модуль %{module}, щоб бачити ці дані
       range_24h: Діапазон за 24 год
+      conditions:
+        hot_humid: Hot & Humid
+        hot_dry: Hot & Dry
+        mild_humid: Mild & Humid
+        pleasant: Pleasant
+        cool_humid: Cool & Humid
+        cool_dry: Cool & Dry
+        no_data: No data
       errors:
         missing_access_token: Відсутній токен доступу. Підключіть акаунт Netatmo повторно.
         no_station_selected: Метеостанцію не вибрано. Виберіть станцію в налаштуваннях.
@@ -359,6 +369,9 @@ uk:
       out_of_credit:
         title: Кредити ШІ закінчилися
         description: Оформіть TRMNL+, щоб отримати кредити ШІ, або поповніть рахунок для використання цього плагіна.
+        own_api_key_off: Or turn on "Use my own AI key" in this dashboard's settings.
+      ai_key_refused:
+        title: Your AI provider refused your key
     days_left_until:
       today: 'Today: %{date}'
       target: 'Target: %{date}'

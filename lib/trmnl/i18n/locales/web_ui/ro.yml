@@ -6,7 +6,7 @@ ro:
   add: Adaugă
   add_new: Adaugă nou
   already_have_account: Am deja un cont
-  are_you_sure: Ești sigur?
+  are_you_sure: Confirmi?
   back: Înapoi
   back_to_all_blog_posts: Înapoi la toate postările
   blog: Blog
@@ -16,9 +16,8 @@ ro:
   charge_level: Nivel de încărcare
   charged: încărcat
   charging: Se încarcă
-  claim_plus_trial: Activează 6 luni gratuite
   close: Închide
-  confirm_change_password: Schimbă parola mea
+  confirm_change_password: Schimbă parola
   confirm_password: Confirmă noua parolă
   copy: Copiază
   copied_to_clipboard: Copiat!
@@ -56,7 +55,7 @@ ro:
   plugin_not_found: Pluginul nu a fost găsit
   preview: Previzualizare
   refresh_rates_hint: Află cum funcționează intervalele de reîmprospătare __aici__.
-  reset_password: Resetează parola mea
+  reset_password: Resetează parola
   reset_to_defaults: Resetează la valori implicite
   required: Obligatoriu
   save: Salvează
@@ -131,7 +130,7 @@ ro:
     index:
       title: Cont
       tagline: Gestionează setările contului tău
-      api_key_confirm: Ești sigur că vrei să regenerezi cheia API? Cheia veche va fi invalidată.
+      api_key_confirm: Regenerezi cheia API? Cheia veche va fi invalidată.
       api_key_hint: Consultă __documentația__ pentru a afla cum să configurezi mediul local.
       api_key_not_generated: "(nicio cheie încă)"
       api_key_reset: Regenerează
@@ -145,7 +144,7 @@ ro:
       refer_and_earn: Recomandă și câștigă
       refer_and_earn_hint: Oferă TRMNL cadou cu un cupon personalizat. Câștigi la fiecare utilizare, cu plată lunară.
       refer_and_earn_redemptions: Utilizări
-      email_address_hint: Folosit pentru autentificarea în TRMNL și primirea mesajelor de sistem.
+      email_address_hint: Folosită pentru autentificarea în TRMNL și primirea mesajelor de sistem.
       first_name_hint: Folosim numele tău pentru a personaliza interfața TRMNL.
       last_name_hint: Folosim numele tău pentru a personaliza interfața TRMNL.
       github_username_hint: Folosit pentru atribuirea contribuțiilor open source în cadrul Creator Fund.
@@ -221,6 +220,21 @@ ro:
         agent:
           title: Agent AI
           hint: Credite de utilizare, alegerea modelului și cheile tale API
+        emails:
+          title: E-mailuri
+          hint: Alege ce e-mailuri opționale primești de la TRMNL
+      author_digest: Rezumat pentru autori
+      author_digest_hint: Un e-mail săptămânal despre pluginurile tale publicate, trimis doar când apar noutăți.
+      community_emails: E-mailuri din comunitate
+      community_emails_hint: Cereri de evaluare și recompense pentru recomandări.
+      emails_on_for: 'Activate pentru:'
+      low_battery_emails: E-mailuri pentru baterie descărcată
+      low_battery_emails_off: Dezactivate pentru toate dispozitivele. Le poți activa din setările bateriei fiecărui dispozitiv, în __Dispozitive__.
+      health_alerts: Alerte de funcționare a pluginurilor
+      health_alerts_off: Dezactivate pentru toate pluginurile. Le poți activa din setările fiecărui plugin, în __Pluginuri__.
+      stopped_emails: Stopped plugin emails
+      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
+      stopped_emails_off_for: 'On for every plugin and mashup except:'
     update:
       success: Profil actualizat cu succes
     reset_api_key:
@@ -325,11 +339,11 @@ ro:
       name: Nume
       create: Creează o cheie API pentru cont
       legacy_hint: Cheie veche. Are acces doar la endpointurile inițiale. Pentru funcțiile mai noi, creează mai sus o cheie API pentru cont.
-      older_key: Older key, used by the Home Assistant integration
-      device_key_hint: 'BYOD devices and mirror apps use the device API key, not an account key. Each device shows its own under Developer Perks:'
-      developer_edition_needed: API keys, also the one the Home Assistant integration needs, come with __Developer Edition__.
-      upgrade: Upgrade
-      home_assistant_hint: A Home Assistant dashboard needs no key. Use the Webhook URL from the __Home Assistant Screenshot__ plugin.
+      older_key: Cheie veche, folosită de integrarea Home Assistant
+      device_key_hint: 'Dispozitivele BYOD și aplicațiile de oglindire folosesc cheia API a dispozitivului, nu cheia contului. O găsești la fiecare dispozitiv, în Beneficii pentru dezvoltatori:'
+      developer_edition_needed: Cheile API, inclusiv cea necesară integrării Home Assistant, sunt incluse în __Ediția pentru dezvoltatori__.
+      upgrade: Activează ediția
+      home_assistant_hint: Un panou Home Assistant nu are nevoie de cheie. Folosește URL-ul webhook din pluginul __Home Assistant Screenshot__.
     destroy:
       account_deleted: Contul și toate datele tale au fost șterse.
       account_deleted_refunded: Contul și toate datele tale au fost șterse. Ți s-a rambursat 1 $.
@@ -357,6 +371,7 @@ ro:
       new_and_popular: Noi și populare
     shop:
       title: Magazin
+      another_trmnl: Mai ai nevoie de un TRMNL?
     time_saved:
       title: Timp economisit
     discover_callout:
@@ -368,6 +383,7 @@ ro:
   date:
     formats:
       day_month_long: "%A, %-d %B"
+      month_year: "%B %Y"
   devices:
     edit:
       accepts_beta_firmware: Acces anticipat la firmware
@@ -464,7 +480,7 @@ ro:
       tidbyt_api_key: Cheie API Tidbyt
       tidbyt_device_id: ID dispozitiv
       unlink: Dezasociază
-      unlink_confirm: Ești sigur? Continuă doar dacă dai acest dispozitiv altcuiva sau treci la BYOS. Dezasocierea șterge toate setările pluginurilor și elementele din listă. Dacă depanezi, contactează asistența la help.trmnl.com.
+      unlink_confirm: Continui? Fă asta doar dacă dai dispozitivul altcuiva sau treci la BYOS. Dezasocierea șterge toate setările pluginurilor și elementele din listă. Pentru depanare, contactează asistența la help.trmnl.com.
       unlink_device: Dezasociază dispozitivul
       unlink_device_hint: Dezasocierea unui TRMNL îl face sigur pentru revânzare sau transfer altcuiva.
       unlink_device_learn_more: Urmează ghidul complet __aici__.
@@ -565,8 +581,21 @@ ro:
       vestaboard_token_saved: Salvat
       vestaboard_token_missing: Tokenul nu este încă setat, deci nu se trimite nimic pe panou
       vestaboard_credentials_hint: În aplicația Vestaboard, deschide Settings, apoi Advanced Settings și API. Creează un token cu drept de scriere (Write) și lipește-l aici.
-      guest_mode_not_set: Not set
-      guest_mode_summary: "%{screen} for %{duration}"
+      guest_mode_not_set: Neconfigurat
+      guest_mode_summary: "%{screen} timp de %{duration}"
+      full_refresh_on_screen_change: Reîmprospătare completă la schimbarea ecranului
+      full_refresh_on_screen_change_hint: Șterge urmele imaginii anterioare. La fiecare imagine nouă, ecranul devine pentru o clipă alb și negru. Dacă imaginea nu se schimbă, reîmprospătarea rămâne parțială.
+      charge_forecast:
+        now: Necesită încărcare acum.
+        days:
+          one: Necesită încărcare în aproximativ o zi.
+          other: Necesită încărcare în aproximativ %{count} de zile.
+          few: Necesită încărcare în aproximativ %{count} zile.
+        weeks:
+          one: Necesită încărcare în aproximativ o săptămână.
+          other: Necesită încărcare în aproximativ %{count} de săptămâni.
+          few: Necesită încărcare în aproximativ %{count} săptămâni.
+        month: Necesită încărcare în jurul lunii %{month}.
     discover_persona:
       label: Profil de utilizare și Descoperă
       disabled_hint: Dezactivat pentru dispozitivele TRMNL oglindite. Gestionează recomandările pe dispozitivul principal.
@@ -623,6 +652,8 @@ ro:
     image_too_big:
       message: Dispozitivul a respins o imagine de %{size}; acest model acceptă cel mult %{limit}.
       message_without_limit: Dispozitivul a respins o imagine de %{size} deoarece este prea mare.
+    update_discover_banner:
+      hidden_notice: Bannerul Descoperă a fost ascuns. Îl poți reactiva oricând din setările dispozitivului.
   discovery:
     dashboard_action:
       saved:
@@ -668,8 +699,10 @@ ro:
       expiry_notice: Jurnalele se șterg automat după două săptămâni. Nu le poți șterge manual aici.
       load_older: Mai vechi
       level: Nivel
-      only_plugin: Only logs from %{name}.
-      show_all: Show all logs
+      only_plugin: Doar jurnalele de la %{name}.
+      show_all: Afișează toate jurnalele
+    log:
+      expand: Extinde
   markups:
     console_logs:
       js_logs: Jurnale JS
@@ -677,7 +710,7 @@ ro:
       back_to_plugin_settings: Înapoi la setările pluginului
       design_system: Folosește sistemul nostru nativ de design
       design_system_docs: Documentația sistemului de design
-      dirty_confirm: Ai modificări nesalvate. Ești sigur că vrei să părăsești această pagină?
+      dirty_confirm: Ai modificări nesalvate. Părăsești pagina?
       edit_composition: Editează compoziția
       edit_markup: Editează codul de afișare
       edit_markup_for_plugin: Editează codul de afișare pentru %{plugin_setting_name}
@@ -694,6 +727,11 @@ ro:
       save_changes: Salvează modificările (⌘﹢S)
       separate_preview: Previzualizarea este deschisă într-o fereastră separată
       preview_layout: Previzualizează aranjarea
+      prompt_language: Instrucțiune (AI)
+      prompt_help: 'Modelul ales de persoana care instalează pluginul transformă datele de intrare în variabilele pluginului. Costul este acoperit prin cheia sa API sau din creditele AI. Liquid primește aceleași date ca un script, iar modelul este apelat din nou când se schimbă instrucțiunea generată. Transmite doar câmpurile necesare instrucțiunii. Antetul dintre două linii --- poate defini schema (o schemă JSON pe care răspunsul trebuie să o respecte, dacă modelul permite), max_tokens (cel mult 4096 de tokenuri, dintre care modelele de raționament folosesc o parte pentru gândire) și format: text.'
+      serverless_help: Prelucrează datele cu un script sau trimite-le unui model AI cu o instrucțiune.
+      serverless_learn_more: Află mai multe despre scripturi
+      prompt_learn_more: Citește ghidul de instrucțiuni AI
     merge_variables:
       your_variables: Variabilele tale
     no_merge_variables:
@@ -751,14 +789,15 @@ ro:
       zoom_in: Mărește
       zoom_out: Micșorează
       script_run:
-        running: Running script…
+        running: Se rulează scriptul…
         ran:
-          one: Script ran · %{count} variable
-          other: Script ran · %{count} variables
-        failed: Script failed. See JS Logs.
-        waits_for_webhook: Saved. Runs on your next webhook.
-        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
-        expired: Script still running. Reload to see new variables.
+          one: Script rulat · %{count} variabilă
+          other: Script rulat · %{count} de variabile
+          few: Script rulat · %{count} variabile
+        failed: Scriptul a eșuat. Vezi jurnalele JS.
+        waits_for_webhook: Salvat. Se va rula la următorul webhook.
+        limited: Salvat. Limita de rulări la salvare este de %{count} pe oră. Acest script se va rula la următoarea reîmprospătare.
+        expired: Scriptul încă rulează. Reîncarcă pagina pentru a vedea noile variabile.
     ai_assistant_inline:
       model_locked: Modelul AI este stabilit de TRMNL
       composition_prefill: Adaptează acest plugin pentru Vestaboard
@@ -821,9 +860,13 @@ ro:
           cta: Cauți ceva nou? Explorează pluginurile
       hold_screen: Păstrează ecranul
       hold_screen_hint: Păstrează ecranul curent până când apeși butonul. O activare programată îl reîmprospătează, dar nu trece la următorul ecran.
+      unused_plugin_setting:
+        message: "%{name} is not on any playlist now. Delete the plugin too?"
+        delete: Delete plugin
+        keep: Keep plugin
     playlist_item:
       adjust_schedule: Modifică programarea
-      delete: Ești sigur că vrei să elimini acest element? Pluginul va rămâne conectat, doar că nu va fi afișat pe dispozitivul tău.
+      delete: Elimini acest element? Pluginul va rămâne conectat, dar nu va mai fi afișat pe dispozitiv.
       displayed_now: Afișat acum
       not_displayed_yet: Neafișat încă
       remove_from_playlist: Elimină din lista de redare
@@ -842,7 +885,7 @@ ro:
       next_render: 'Generează din nou ecranul: %{time}'
       render_overdue: Generarea ecranului întârzie din %{time}
       no_next_render: Ecranul nu va fi generat înainte de acel moment, %{reason}
-      hold_screen: Hold this screen
+      hold_screen: Păstrează acest ecran
     create:
       success: Listă de redare actualizată
       error: Actualizarea listei de redare a eșuat
@@ -872,6 +915,7 @@ ro:
       important_active: Element important activ
       stale: Neactualizat
       pending: Ecran negenerat încă
+      held: Held
     status_description:
       error: Reîmprospătările au fost oprite după erori repetate. Deschide setările pentru a remedia problema.
       setup: Finalizează configurarea acestui element pentru a-l putea afișa pe dispozitiv.
@@ -882,6 +926,7 @@ ro:
       important_active: Un element important ocupă acum acest interval.
       stale: Omiterea inteligentă sare peste acest element deoarece ecranul nu s-a actualizat de ceva timp.
       pending: Primul ecran va fi generat la următoarea conectare a dispozitivului.
+      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
     schedule:
       always: Întotdeauna
       important_title: Important
@@ -900,9 +945,10 @@ ro:
         hide: Elementele au fost ascunse
         show: Elementele au fost afișate
         destroy: Elementele au fost eliminate din lista de redare
-        refresh_interval: Refresh rate updated
+        refresh_interval: Interval de reîmprospătare actualizat
       error: Acțiunea în masă a eșuat
-      refresh_rate: Refresh rate
+      refresh_rate: Interval de reîmprospătare
+      selected: selectate
     smart_skip_modal:
       title: Omitere inteligentă
       apply: Gata
@@ -924,8 +970,8 @@ ro:
       render_marker: Ecrane generate
       asleep_window: În repaus %{from} → %{to} (%{duration})
     hold:
-      success: Held. Your device shows this screen at its next refresh.
-      unavailable: This screen cannot be held.
+      success: Ecran păstrat. Dispozitivul îl va afișa la următoarea reîmprospătare.
+      unavailable: Acest ecran nu poate fi păstrat.
   plugins:
     index:
       title: Pluginuri
@@ -940,7 +986,7 @@ ro:
       collapse: Restrânge
       categories: Categorii
       discover: Descoperă
-      you_may_also_like: You may also like
+      you_may_also_like: Ți-ar putea plăcea și
     search:
       placeholder: Caută pluginuri
     my:
@@ -998,8 +1044,8 @@ ro:
     added_to_playlist: Adăugat în lista de redare. Verifică setările de mai jos.
     check_settings: Instalat. Verifică setările de mai jos.
   plugin_settings:
-    copy_are_you_sure: Ești sigur că vrei să copiezi această setare?
-    delete_are_you_sure: Ești sigur că vrei să ștergi această setare?
+    copy_are_you_sure: Copiezi această setare?
+    delete_are_you_sure: Ștergi această setare?
     delete: Aceasta va elimina complet setările pluginului. Pentru a ascunde pur și simplu acest plugin de pe dispozitivul tău, șterge-l din lista de redare.
     no_matches_found: Niciun plugin nu corespunde filtrelor tale.
     not_supported: Indisponibil pe dispozitivul curent
@@ -1024,8 +1070,8 @@ ro:
       force_refresh_click_here_hint: pentru a genera acum un ecran nou
       force_refresh_not_possible: Acest plugin nu poate fi reîmprospătat forțat deoarece serverul TRMNL nu efectuează procesarea imaginilor. Află cum să testezi instanța ta __aici__.
       health_notifications: Notificări privind funcționarea
-      health_notifications_hint: Primește un e-mail când starea acestui plugin se schimbă în degradată sau cu erori. Vei primi cel mult un e-mail pentru fiecare stare, la fiecare incident; alertele se reactivează după ce pluginul revine la funcționarea normală.
-      health_notifications_checkbox: Trimite-mi un e-mail când acest plugin nu mai funcționează normal
+      health_notifications_hint: Get an email when this plugin stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this plugin starts failing
       learn_more: Află despre acest plugin în baza noastră de cunoștințe
       learn_more_recipe_author: Ai nevoie de ajutor? Contactează %{recipe_author} pe Discord.
       linked_account: Cont asociat
@@ -1118,6 +1164,11 @@ ro:
       lat_lon_placeholder: Caută un oraș sau un cod poștal ori introdu latitudine,longitudine
       new_title: Adaugă %{plugin}
       edit_title: "%{plugin} · %{name}"
+      linked_accounts_hint: Pluginul preia date din aceste conturi.
+      remove_account: Elimină
+      remove_account_confirm: Elimini %{account} din acest plugin?
+      account_removed: Cont eliminat.
+      stopped_notifications_checkbox: Email me when this plugin stops refreshing
     import:
       archive_too_large: Fișierul ZIP este prea mare (%{max_mb} MB maxim)
       missing_entry: Fișierul ZIP nu conține %{filename}
@@ -1128,7 +1179,7 @@ ro:
       playlist: lista de redare
     destroy:
       success: Plugin șters
-    handle_canceled_consent: Consimțământ anulat, te rugăm să încerci din nou
+    handle_canceled_consent: Consimțământ anulat. Încearcă din nou.
     update:
       success: Configurația pluginului actualizată cu succes
       required_fields_missing: Completează %{fields} pentru a finaliza configurarea pluginului.
@@ -1255,6 +1306,26 @@ ro:
       empty: Nu ai cerut încă o evaluare de la trmy.
       rate_limited: Ai cerut prea multe evaluări astăzi. Încearcă din nou mâine.
       back: Înapoi la pluginul tău
+    data_flow:
+      title: Flux de date
+      markup: Cod de afișare
+    ai_transform:
+      no_route: Adaugă o cheie API în Cont → Agent AI sau conectează un dispozitiv TRMNL pentru a rula instrucțiunea acestui plugin.
+      api_key_refused: "%{provider} a refuzat cheia API. Verific-o în Cont → Agent AI."
+      out_of_credit: Creditele AI s-au epuizat. Dispozitivul afișează un mesaj până când reîncarci creditele.
+      empty_reply: Modelul a trimis un răspuns gol. Pluginul a păstrat ultimul ecran.
+      truncated: Răspunsul a depășit %{max_tokens} tokenuri și a fost trunchiat. Pluginul a păstrat ultimul ecran.
+      front_matter_not_a_map: Antetul instrucțiunii trebuie să conțină o listă de opțiuni, câte una pe linie.
+      front_matter_not_yaml: 'Antetul instrucțiunii nu este YAML valid: %{error}'
+      unknown_option: 'Antetul instrucțiunii conține o opțiune necunoscută: %{options}. Pluginul acceptă schema, max_tokens și format.'
+      unknown_format: Formatul instrucțiunii trebuie să fie json sau text, nu %{value}.
+      credit_left: 'Credite AI rămase: %{amount}'
+      reload: Reîncarcă
+    row:
+      degraded: Degraded
+      erroring: Stopped
+      recipe_degraded: Recipe degraded
+      recipe_erroring: Recipe stopped
   recipes:
     index:
       newest_to_oldest: De la cel mai nou la cel mai vechi
@@ -1262,7 +1333,7 @@ ro:
       most_popular: Cele mai populare
       search_placeholder: 'Caută, de ex.: benzi desenate'
       filtered_for_device: Sunt afișate rețetele cu un format pentru %{device}.
-      trending: Trending this week
+      trending: Populare săptămâna aceasta
   schedules:
     form:
       append: Și în timpul…
@@ -1314,7 +1385,7 @@ ro:
             directory:
               invalid_folder: trebuie să fie o cale de folder, precum plugins/clock
               taken_by_another_plugin: este deja sincronizat cu alt plugin din acest repository
-              is_a_file: is a file in this repository. Pick a folder name that no file uses
+              is_a_file: este un fișier în acest repository. Alege un nume de folder care nu este folosit de niciun fișier
         device:
           attributes:
             sleep_end_time:
@@ -1334,6 +1405,14 @@ ro:
           body: Scanează din nou codul de pe ecran pentru a continua de unde ai rămas.
       discovery:
         billing_cancel_failed: Facturarea nu a putut fi anulată, deci nu s-a dezinstalat nimic. Încearcă din nou.
+        index:
+          title: Aplicații
+          description: Transformă dispozitivele TRMNL în ecrane dedicate activităților tale.
+          installed_heading: Aplicațiile tale instalate
+          available_heading: Disponibile pentru instalare
+          install_heading: Instalează o aplicație
+          install: Instalează
+          installing: Se instalează...
       app_page:
         title: "%{app} pentru TRMNL"
         eyebrow: Aplicație TRMNL
@@ -1441,6 +1520,9 @@ ro:
             few: încă %{count}
       room_screens:
         until: Până la %{time}
+        up_next: 'Urmează: %{title} la %{time}'
+        up_next_untitled: Urmează la %{time}
+        free_after: Liberă după %{time}
       home:
         index:
           calendars_on_display: Calendare pe ecran
@@ -1778,6 +1860,9 @@ ro:
           walk_up_booking: Rezervări cu TRMNL
           walk_up_calendar: Afișează calendarul
           walk_up_calendar_hint: Afișează rezervările viitoare pe pagina publică de rezervare.
+          room_screens: Ecranele sălilor
+          show_next_meeting: Afișează următoarea întâlnire
+          show_next_meeting_hint: Când sala este ocupată, afișează următoarea întâlnire în locul organizatorului.
       billing:
         title: Facturare
         summary:
@@ -1926,6 +2011,11 @@ ro:
         row: "%{name}: așteptat la %{expected}, ultimul ping %{last_ping}, baterie %{battery}, Wi-Fi %{wifi}."
         open_fleet: Deschide flota
         footer: Primești acest mesaj deoarece alertele de conectare sunt activate pentru această flotă. Dezactivează-le din Flotă › Setări.
+      summary:
+        mirrors:
+          one: "%{count} dispozitiv oglindit"
+          other: "%{count} de dispozitive oglindite"
+          few: "%{count} dispozitive oglindite"
     bookings:
       read_only_booking_error: Acest calendar permite doar citirea. Contul Google conectat trebuie să aibă permisiunea de a modifica evenimentele pentru a accepta rezervări.
     chess:
@@ -2105,12 +2195,13 @@ ro:
       title: Configurează compoziția %{name}
       back_to_playlist: Înapoi la lista de redare
       description: Compoziție %{layout}
-      health_notifications_hint: Primește un e-mail când generarea ecranelor acestei compoziții începe să eșueze sau se oprește. Cel mult un e-mail pentru fiecare stare, la fiecare incident; alertele se reactivează după revenirea la funcționarea normală.
-      health_notifications_checkbox: Trimite-mi un e-mail când această compoziție nu mai funcționează normal
+      health_notifications_hint: Get an email when this mashup stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
+      health_notifications_checkbox: Email me when this mashup starts failing
       refresh_rate_hint: Generează ecrane la %{refresh_rate}, interval stabilit de cel mai rapid dintre pluginurile sale.
       remove: Elimină compoziția
       remove_hint: Eliminarea unei compoziții o scoate din lista de redare. Pluginurile sale rămân instalate.
       name_hint: Dă-i un nume ușor de recunoscut sau lasă câmpul gol pentru a afișa numele pluginurilor sale.
+      stopped_notifications_checkbox: Email me when this mashup stops refreshing
     new:
       playlist_item_title: Element nou în lista de redare
     create:
@@ -2125,6 +2216,8 @@ ro:
       2Tx1B: Două sus, mare jos
       2x2: Patru secțiuni
       3x3: Grilă personalizată
+    sections:
+      default_text_scale: Default (%{text_scale})
   playlist_coverage:
     title: Acoperirea listei de redare
     your_timezone: fusul tău orar
@@ -2265,6 +2358,77 @@ ro:
       ready: trmy, agentul nostru intern, a terminat verificarea rețetei %{name}.
       read: Citește observațiile
       next: Când ești mulțumit de rezultat, trimite rețeta. Un membru al echipei o va evalua.
+    author_digest:
+      subject_prefix: Rezumat TRMNL pentru autori
+      greeting: Salut, %{name}!
+      greeting_without_name: Salut!
+      intro: Iată cum a fost săptămâna ta pe TRMNL, de la %{from} până la %{to}.
+      needs_a_fix: De remediat
+      failing:
+        one: "%{name} are erori pe un ecran, ultima dată la %{date}."
+        other: "%{name} are erori pe %{count} de ecrane, ultima dată la %{date}."
+        few: "%{name} are erori pe %{count} ecrane, ultima dată la %{date}."
+      open_plugin: Deschide %{name}
+      others_failing:
+        one: Încă un ecran afișează erori cauzate de un serviciu extern sau de o configurare nefinalizată de utilizator. Nu trebuie să intervii.
+        other: Încă %{count} de ecrane afișează erori cauzate de un serviciu extern sau de o configurare nefinalizată de utilizator. Nu trebuie să intervii.
+        few: Încă %{count} ecrane afișează erori cauzate de un serviciu extern sau de o configurare nefinalizată de utilizator. Nu trebuie să intervii.
+      uninstalls: Ce au spus utilizatorii la dezinstalare
+      reasons:
+        one: 'O dezinstalare săptămâna aceasta: %{reasons}.'
+        other: "%{count} de dezinstalări săptămâna aceasta: %{reasons}."
+        few: "%{count} dezinstalări săptămâna aceasta: %{reasons}."
+      creator_fund: Aproape de Creator Fund
+      qualified: "%{name} a depășit săptămâna aceasta pragul de conexiuni (%{minimum}) și va fi inclus la următoarea plată Creator Fund."
+      near_miss_intro: 'Pragul de conexiuni pentru venituri este %{threshold}. Câteva distribuiri le-ar ajuta pe aceste pluginuri să îl atingă:'
+      near_miss_counts: 'Conexiuni: %{connections} · Mai sunt necesare: %{needed}'
+      share_text: Descoperă %{name} pentru TRMNL
+      post_on_x: Publică pe X
+      post_on_bluesky: Bluesky
+      post_on_reddit: Reddit
+      numbers: Săptămâna ta în cifre
+      installs_line:
+        one: "+1 instalare · Total conexiuni: %{total}"
+        other: "+%{count} de instalări · Total conexiuni: %{total}"
+        few: "+%{count} instalări · Total conexiuni: %{total}"
+      top_growers: 'Cea mai mare creștere: %{list}'
+      top_layouts: Pluginurile tale sunt afișate cel mai des %{list}.
+      see_analytics: Vezi toate statisticile
+      sign_off: Concentrează-te pe ce contează,
+      footer: Primești acest e-mail săptămânal pentru că publici pluginuri pe TRMNL. Îl trimitem doar când apar noutăți.
+      headlines:
+        qualified: "%{name} se califică acum pentru Creator Fund"
+        nearest_goal:
+          one: "%{name} mai are nevoie de o instalare pentru a genera venituri"
+          other: "%{name} mai are nevoie de %{count} de instalări pentru a genera venituri"
+          few: "%{name} mai are nevoie de %{count} instalări pentru a genera venituri"
+        failing:
+          one: "%{name} are erori pe un ecran"
+          other: "%{name} are erori pe %{count} de ecrane"
+          few: "%{name} are erori pe %{count} ecrane"
+        new_installs:
+          one: O instalare nouă
+          other: "%{count} de instalări noi"
+          few: "%{count} instalări noi"
+        plugins_to_fix:
+          one: Un plugin de remediat
+          other: "%{count} de pluginuri de remediat"
+          few: "%{count} pluginuri de remediat"
+        uninstall_reasons:
+          one: O persoană a explicat motivul dezinstalării
+          other: "%{count} de persoane au explicat motivul dezinstalării"
+          few: "%{count} persoane au explicat motivul dezinstalării"
+    bank_payment_failed:
+      subject: Your bank payment to TRMNL did not go through
+      greeting: Hi %{name},
+      greeting_without_name: Hi,
+      byod_license: The bank payment for your BYOD license did not go through, so your device is back on its trial.
+      byod_trial: The $1 bank payment for your BYOD trial did not go through, so we ended the trial.
+      developer_edition: The bank payment for Developer Edition did not go through, so we turned it off on your device.
+      plus: The bank payment for TRMNL+ did not go through, so we turned it off.
+      pay_again: You can pay again with a card or another account here.
+      sign_off: cheers,
+      team: the TRMNL team
   pages:
     flash_firmware:
       linux_warning: Instalarea firmware-ului din Linux eșuează adesea deoarece Chrome nu poate deschide portul serial. Adaugă utilizatorul în grupul dialout (sudo usermod -aG dialout $USER), deconectează-te și conectează-te din nou, apoi reîncearcă. Dacă problema persistă, folosește Chrome sau Edge pe un Mac ori un PC cu Windows.
@@ -3125,9 +3289,9 @@ ro:
 
       Conectează-te cu contul Google care deține canalul (administratorii unui canal partajat nu îl pot conecta), apoi alege 7, 28, 90 sau 365 de zile. Ai mai multe canale? Adaugă pluginul pentru fiecare și denumește-le pentru a le deosebi.
     linkedin_page: |-
-      Your LinkedIn Company Page stats, on a TRMNL ePaper display. See followers, new followers, impressions, clicks, engagement rate, reactions, comments and shares, with a daily chart of the metric you choose.
+      Statisticile paginii tale de companie LinkedIn, pe un ecran TRMNL ePaper. Vezi urmăritorii, urmăritorii noi, afișările, clicurile, rata de interacțiune, reacțiile, comentariile și distribuirile, cu un grafic zilnic pentru indicatorul ales.
 
-      Connect the LinkedIn account that is an admin of your Page, pick the Page, then choose a lookback of 7, 30 or 90 days. LinkedIn reports these numbers with a 2 day delay, so the screen ends 2 days ago. Run more than 1 Page? Add the plugin once per Page.
+      Conectează contul LinkedIn care administrează pagina, selectează pagina și alege o perioadă de 7, 30 sau 90 de zile. LinkedIn raportează datele cu o întârziere de 2 zile, așa că cele mai recente date afișate sunt de acum 2 zile. Administrezi mai multe pagini? Adaugă pluginul pentru fiecare pagină.
   ai_credit_topups:
     fee_line_item: Comision de serviciu
     create:
@@ -3135,7 +3299,7 @@ ro:
     new:
       success: Am adăugat creditele de utilizare în cont.
       unpaid: Plata nu a fost finalizată, deci nu am adăugat credite de utilizare.
-      processing: Your bank payment is processing. We add the usage credits when it clears, which can take up to 4 business days.
+      processing: Plata bancară este în curs de procesare. Creditele de utilizare vor fi adăugate când plata se confirmă, în cel mult 4 zile lucrătoare.
     buy_credits: "%{credits} credite · %{price}"
     credits_hint: Un plugin consumă aproximativ 5 credite. Creditele cumpărate sunt valabile 3 luni. La plată se adaugă un comision pentru costurile cardului și ale furnizorului.
     credits_line_item: "%{credits} credite AI TRMNL"
@@ -3149,14 +3313,93 @@ ro:
   byod_trials:
     ended:
       claim_license: Ai cumpărat deja o licență BYOD? Activeaz-o cu numărul comenzii.
-      no_trial_device: Your account has no BYOD trial to convert.
+      no_trial_device: Nu ai în cont un dispozitiv BYOD de probă pe care să activezi licența.
     convert:
-      no_trial_device: Your account has no BYOD trial to convert, so we did not charge you.
+      no_trial_device: Nu ai în cont un dispozitiv BYOD de probă pe care să activezi licența, așa că nu s-a perceput nicio taxă.
   screen_picker:
     single_palette_hint: Acest dispozitiv are o singură paletă.
+    classic: Classic
+    color_mode: Color Mode
+    color_preview: Color preview
+    color_preview_state: 'Color preview: %{state}'
+    dark: Dark
+    default: Default
+    device: Device
+    font_family: Font Family
+    landscape: Landscape
+    light: Light
+    light_mode: Light Mode
+    orientation: Orientation
+    palette: Palette
+    portrait: Portrait
+    preview: Preview
+    raw: Raw
+    reset: Reset
+    reset_to_defaults: Reset to Defaults
+    reset_to_device_defaults: Reset to device defaults
+    style: Style
+    text_scale: Text Scale
+    theme: Theme
+    toggle_color_preview: Toggle color preview (Raw / Preview)
+    toggle_dark_mode: Toggle dark mode
+    toggle_orientation: Toggle orientation
+    dark_mode: Dark Mode
   active_admin:
     batch_actions:
       action_label: "%{title}"
   virtual_devices:
     create:
-      byod_trial_converted: Your BYOD license is now on your trial device. It keeps its playlist and settings.
+      byod_trial_converted: Licența BYOD a fost activată pe dispozitivul de probă. Lista de redare și setările au fost păstrate.
+  email_unsubscribes:
+    switches:
+      author_digest_enabled: rezumatul săptămânal pentru autori
+      community_emails_enabled: e-mailurile din comunitate
+      low_battery_notification_enabled: e-mailurile pentru bateria descărcată a dispozitivului %{name}
+      health_notification_enabled: alertele de funcționare pentru %{name}
+    footer_link: Dezabonează-te de la aceste e-mailuri
+    show:
+      title: Dezabonare
+      confirm: Nu mai vrei să primești %{emails}?
+      unsubscribe: Dezabonează-te
+      done: Gata. Nu vei mai primi %{emails}.
+  system_screens:
+    out_of_ai_credit:
+      title: Credite AI epuizate
+      message: Reîncarcă creditele pe trmnl.com pentru a actualiza %{name}
+  saving: Saving…
+  missing_devices:
+    finish_setup: This TRMNL has not finished Wi-Fi setup. Connect it to Wi-Fi and it shows its Friendly ID on screen. If it does not connect, contact support.
+    byod_license_html: A DIY kit or another BYOD device needs a %{link} before it can be found.
+    byod_license_link: BYOD license
+  appearance:
+    default_theme: Default
+    orientations:
+      landscape: Landscape
+      portrait: Portrait
+    palettes:
+      bw: Black & White (1-bit)
+      gray-4: 4 Grays (2-bit)
+      gray-16: 16 Grays (4-bit)
+      gray-256: 256 Grays (8-bit)
+      color-3bwr: 'Color (3 colors: black, red, white)'
+      color-3bwy: 'Color (3 colors: black, yellow, white)'
+      color-4bwry: 'Color (4 colors: black, red, white, yellow)'
+      color-6a: Color (6 colors)
+      color-7a: Color (7 colors)
+      color-12bit: Color (4096 colors)
+      color-24bit: Color (16777216 colors)
+    summary:
+      font_family: "%{value} font family"
+      text_scale: "%{value} text scale"
+      theme: "%{value} theme"
+    text_scales:
+      small: Small
+      regular: Regular
+      large: Large
+      xlarge: X-Large
+  health_status_banner:
+    next_steps:
+      reconnect: The service it reads from no longer accepts its connection. Reconnect your account in its settings.
+      missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
+      dead_link: The link it reads from no longer works. Paste a current link in its settings.
+      unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.
