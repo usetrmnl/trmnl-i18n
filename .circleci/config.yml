@@ -34,3 +34,11 @@ jobs:
           name: SimpleCov Archive
           path: ~/project/coverage
           destination: coverage
+
+workflows:
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: translation-status
