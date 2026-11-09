@@ -1,0 +1,10 @@
+<%- rows = progress.sort_by { |locale, total| [-total.percent, locale] } -%>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="<%= rows.size * 22 %>" font-family="-apple-system, Segoe UI, sans-serif" font-size="13" fill="#8b949e">
+<%- rows.each_with_index do |(locale, total), index| -%>
+<%- top = index * 22 -%>
+<text x="0" y="<%= top + 15 %>"><%= locale %></text>
+<rect x="60" y="<%= top + 5 %>" width="300" height="12" rx="3" fill="#8b949e" fill-opacity="0.25"/>
+<rect x="60" y="<%= top + 5 %>" width="<%= (3 * total.percent).round %>" height="12" rx="3" fill="#2da44e"/>
+<text x="370" y="<%= top + 15 %>"><%= total.label %></text>
+<%- end -%>
+</svg>

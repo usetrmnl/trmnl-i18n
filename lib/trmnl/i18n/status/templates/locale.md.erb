@@ -1,0 +1,10 @@
+# `<%= locale %>`: <%= total.label %> translated
+
+[All locales](../README.md) · <%= total.left %> of <%= total.total %> strings left
+
+| Area | Section | Translated | Left |
+|---|---|---|--:|
+<%- sections.sort_by { |section| [-section.left.size, section.area, section.name] }.each do |section| -%>
+<%- progress = section.progress -%>
+| <%= section.area %> | <%= progress.left.zero? ? "`#{section.name}`" : "[`#{section.name}`](#{section.path})" %> | <%= progress.bar %> <%= progress.label %> | <%= progress.left %> |
+<%- end -%>

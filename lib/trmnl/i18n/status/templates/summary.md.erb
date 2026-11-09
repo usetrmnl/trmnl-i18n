@@ -1,0 +1,11 @@
+# Translation status
+
+A string counts as translated once it differs from English. Strings made only of the words in
+[kept_words.yml](<%= blob_url %>/status/kept_words.yml), placeholders and codes count as translated as they are.
+
+<%- areas = report.values.first.keys -%>
+| Locale | Translated | Left | <%= areas.join(" | ") %> |
+|---|---|--:|<%= "--:|" * areas.size %>
+<%- progress.sort_by { |locale, total| [total.left, locale] }.each do |locale, total| -%>
+| [`<%= locale %>`](<%= locale %>/README.md) | <%= total.bar %> <%= total.label %> | <%= total.left %> | <%= report[locale].values.map { |entries| TRMNL::I18n::Status::Progress.for(entries).label }.join(" | ") %> |
+<%- end -%>

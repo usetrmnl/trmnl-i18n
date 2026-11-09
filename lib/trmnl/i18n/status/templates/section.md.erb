@@ -1,0 +1,12 @@
+<%- left = section.left -%>
+# `<%= locale %>` · <%= section.area %> · `<%= section.name %>`
+
+[`<%= locale %>`](../README.md) · [All locales](../../README.md) · <%= left.size %> of <%= section.entries.size %> left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+<%- left.each do |entry| -%>
+<%- english = entry.english.to_s.gsub("|", "\\|").gsub(/\s+/, " ") -%>
+<%- line = entry.line -%>
+| `<%= entry.key %>` | <%= english.size > 90 ? "#{english[0, 89]}…" : english %> | <%= entry.missing? ? "empty" : "English" %> | <%= line ? "[line #{line}](#{blob_url}/locales/#{section.area}/#{locale}.yml#L#{line})" : "not in file" %> |
+<%- end -%>
