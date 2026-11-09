@@ -1,7 +1,8 @@
 # Translation status
 
 A string counts as translated once it differs from English. Strings made only of the words in
-[kept_words.yml](<%= blob_url %>/status/kept_words.yml), placeholders and codes count as translated as they are.
+[kept_words.yml](<%= blob_url %>/status/kept_words.yml), placeholders and codes count as translated as they are,
+and so do the keys a locale lists in `lib/trmnl/i18n/status/kept_keys/<locale>.yml`.
 
 <%- areas = report.values.first.keys -%>
 | Locale | Translated | Left | <%= areas.join(" | ") %> |

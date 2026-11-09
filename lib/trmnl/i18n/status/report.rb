@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "entry"
-require_relative "kept_words"
+require_relative "kept"
 require_relative "leaf_reader"
 
 module TRMNL
@@ -12,10 +12,10 @@ module TRMNL
         ROOT = Pathname(__dir__).join("../locales").freeze
         ENGLISH_OR_DEBUG_LOCALE = /\A(en(-\w+)?|raw)\z/
 
-        def initialize root: ROOT, reader: LeafReader.new, kept_words: KeptWords.new
+        def initialize root: ROOT, reader: LeafReader.new, kept: Kept.new
           @root = Pathname root
           @reader = reader
-          @kept_words = kept_words
+          @kept = kept
         end
 
         # :reek:NestedIterators
@@ -27,7 +27,7 @@ module TRMNL
 
         private
 
-        attr_reader :root, :reader, :kept_words
+        attr_reader :root, :reader, :kept
 
         def areas = root.children.select(&:directory?).sort
 
@@ -49,7 +49,7 @@ module TRMNL
                   english: text,
                   value: current.value,
                   line: current.line,
-                  kept: kept_words.cover?(locale, text.to_s)]
+                  kept: kept.cover?(locale, key, text.to_s)]
           end
         end
 

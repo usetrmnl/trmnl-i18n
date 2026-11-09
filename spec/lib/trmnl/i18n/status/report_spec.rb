@@ -5,10 +5,11 @@ require "trmnl/i18n/status/report"
 
 RSpec.describe TRMNL::I18n::Status::Report do
   subject :report do
-    described_class.new(root: SPEC_ROOT.join("fixtures/status"), kept_words:).call
+    described_class.new(root: SPEC_ROOT.join("fixtures/status"), kept:).call
   end
 
   let(:kept_words) { TRMNL::I18n::Status::KeptWords.new path: SPEC_ROOT.join("fixtures/status/kept_words.yml") }
+  let(:kept) { TRMNL::I18n::Status::Kept.new words: kept_words, root: SPEC_ROOT.join("fixtures/kept_keys") }
   let(:web_ui) { report.dig("fr", "web_ui").to_h { |entry| [entry.key, entry] } }
 
   describe "#call" do
@@ -36,13 +37,12 @@ RSpec.describe TRMNL::I18n::Status::Report do
       expect(web_ui.values_at("brand", "stems.1").map(&:kept)).to eq([true, true])
     end
 
+    it "marks keys the locale keeps" do
+      expect(web_ui["devices.edit.presentation"].kept).to be(true)
+    end
+
     it "counts English copies and empty values as untranslated" do
-      expect(web_ui.values.reject(&:translated?).map(&:key)).to eq(
-        %w[
-          devices.edit.presentation
-          devices.edit.theme
-        ]
-      )
+      expect(web_ui.values.reject(&:translated?).map(&:key)).to eq(%w[devices.edit.theme])
     end
 
     it "reads the shipped locales by default" do
