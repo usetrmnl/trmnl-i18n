@@ -218,6 +218,9 @@ raw:
       low_battery_emails_off: account.index.low_battery_emails_off
       health_alerts: account.index.health_alerts
       health_alerts_off: account.index.health_alerts_off
+      stopped_emails: account.index.stopped_emails
+      stopped_emails_on: account.index.stopped_emails_on
+      stopped_emails_off_for: account.index.stopped_emails_off_for
     update:
       success: account.update.success
     reset_api_key:
@@ -3045,3 +3048,9 @@ raw:
       regular: appearance.text_scales.regular
       large: appearance.text_scales.large
       xlarge: appearance.text_scales.xlarge
+  health_status_banner:
+    next_steps:
+      reconnect: health_status_banner.next_steps.reconnect
+      missing_calendar: health_status_banner.next_steps.missing_calendar
+      dead_link: health_status_banner.next_steps.dead_link
+      unreachable: health_status_banner.next_steps.unreachable

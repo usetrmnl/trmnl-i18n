@@ -240,6 +240,9 @@ pl:
       low_battery_emails_off: Wyłączone dla wszystkich urządzeń. Włącz je w ustawieniach baterii danego urządzenia w sekcji __Urządzenia__.
       health_alerts: Powiadomienia o problemach z pluginami
       health_alerts_off: Wyłączone dla wszystkich pluginów. Włącz je w ustawieniach danego pluginu w sekcji __Pluginy__.
+      stopped_emails: Stopped plugin emails
+      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
+      stopped_emails_off_for: 'On for every plugin and mashup except:'
     update:
       success: Pomyślnie zaktualizowano profil
     reset_api_key:
@@ -3360,3 +3363,9 @@ pl:
       regular: Regular
       large: Large
       xlarge: X-Large
+  health_status_banner:
+    next_steps:
+      reconnect: The service it reads from no longer accepts its connection. Reconnect your account in these settings.
+      missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in these settings.
+      dead_link: The link it reads from no longer works. Paste a current link in these settings.
+      unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.

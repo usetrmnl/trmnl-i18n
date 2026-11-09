@@ -232,6 +232,9 @@ ro:
       low_battery_emails_off: Dezactivate pentru toate dispozitivele. Le poți activa din setările bateriei fiecărui dispozitiv, în __Dispozitive__.
       health_alerts: Alerte de funcționare a pluginurilor
       health_alerts_off: Dezactivate pentru toate pluginurile. Le poți activa din setările fiecărui plugin, în __Pluginuri__.
+      stopped_emails: Stopped plugin emails
+      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
+      stopped_emails_off_for: 'On for every plugin and mashup except:'
     update:
       success: Profil actualizat cu succes
     reset_api_key:
@@ -3394,3 +3397,9 @@ ro:
       regular: Regular
       large: Large
       xlarge: X-Large
+  health_status_banner:
+    next_steps:
+      reconnect: The service it reads from no longer accepts its connection. Reconnect your account in these settings.
+      missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in these settings.
+      dead_link: The link it reads from no longer works. Paste a current link in these settings.
+      unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.
