@@ -1140,6 +1140,7 @@ raw:
       remove_account: plugin_settings.form.remove_account
       remove_account_confirm: plugin_settings.form.remove_account_confirm
       account_removed: plugin_settings.form.account_removed
+      stopped_notifications_checkbox: plugin_settings.form.stopped_notifications_checkbox
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -2151,6 +2152,7 @@ raw:
       remove: mashups.edit.remove
       remove_hint: mashups.edit.remove_hint
       name_hint: mashups.edit.name_hint
+      stopped_notifications_checkbox: mashups.edit.stopped_notifications_checkbox
     new:
       playlist_item_title: mashups.new.playlist_item_title
     create:
@@ -2989,6 +2991,7 @@ raw:
     toggle_color_preview: screen_picker.toggle_color_preview
     toggle_dark_mode: screen_picker.toggle_dark_mode
     toggle_orientation: screen_picker.toggle_orientation
+    dark_mode: screen_picker.dark_mode
   active_admin:
     batch_actions:
       action_label: active_admin.batch_actions.action_label
@@ -3012,3 +3015,33 @@ raw:
       title: system_screens.out_of_ai_credit.title
       message: system_screens.out_of_ai_credit.message
   saving: saving
+  missing_devices:
+    finish_setup: missing_devices.finish_setup
+    byod_license_html: missing_devices.byod_license_html
+    byod_license_link: missing_devices.byod_license_link
+  appearance:
+    default_theme: appearance.default_theme
+    orientations:
+      landscape: appearance.orientations.landscape
+      portrait: appearance.orientations.portrait
+    palettes:
+      bw: appearance.palettes.bw
+      gray-4: appearance.palettes.gray-4
+      gray-16: appearance.palettes.gray-16
+      gray-256: appearance.palettes.gray-256
+      color-3bwr: appearance.palettes.color-3bwr
+      color-3bwy: appearance.palettes.color-3bwy
+      color-4bwry: appearance.palettes.color-4bwry
+      color-6a: appearance.palettes.color-6a
+      color-7a: appearance.palettes.color-7a
+      color-12bit: appearance.palettes.color-12bit
+      color-24bit: appearance.palettes.color-24bit
+    summary:
+      font_family: appearance.summary.font_family
+      text_scale: appearance.summary.text_scale
+      theme: appearance.summary.theme
+    text_scales:
+      small: appearance.text_scales.small
+      regular: appearance.text_scales.regular
+      large: appearance.text_scales.large
+      xlarge: appearance.text_scales.xlarge
