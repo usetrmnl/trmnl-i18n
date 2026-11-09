@@ -24,6 +24,7 @@ jobs:
       - name: Publish to the translation-status branch
         working-directory: tmp/translation-status
         run: |
+          cp -R ../../.circleci .
           git init --quiet --initial-branch translation-status
           git add --all
           git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \

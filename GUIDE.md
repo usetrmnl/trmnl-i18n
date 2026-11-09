@@ -72,7 +72,7 @@ localization files live inside `lib/trmnl/i18n/locales`. from within that direct
 
 copy `en.yml`, not `raw.yml`. the two look alike, but `raw.yml` opens with `raw:` and every spec reads that first line to know which locale the file holds. change it to your own code, so `it.yml` starts with `it:`.
 
-leave a string you have not translated yet empty rather than copying the English. an empty value falls back to English on screen and counts as outstanding work, where a copy of the English counts as finished and nobody comes back to it.
+a string you have not translated yet stays in English, and shows in English on screen until you replace it. the [translation status](https://github.com/usetrmnl/trmnl-i18n/tree/translation-status) lists every string still in English for your language, with a link to its line. if your language keeps a word in English on purpose, such as a product name or a unit, add it to `lib/trmnl/i18n/status/kept_words.yml` so it stops showing as left.
 
 ## general tips
 
