@@ -207,20 +207,20 @@ de:
           title: KI-Agent
           hint: Guthaben, Modellauswahl und eigene Schlüssel
         emails:
-          title: Emails
-          hint: Choose which optional emails TRMNL sends you
-      author_digest: Author digest
-      author_digest_hint: A weekly email about your published plugins, sent only when there is something new.
-      community_emails: Community emails
-      community_emails_hint: Review requests and referral rewards.
-      emails_on_for: 'On for:'
-      low_battery_emails: Low battery emails
-      low_battery_emails_off: Off for every device. Turn them on in a device's battery settings under __Devices__.
-      health_alerts: Plugin health alerts
-      health_alerts_off: Off for every plugin. Turn them on in a plugin's settings under __Plugins__.
-      stopped_emails: Stopped plugin emails
-      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
-      stopped_emails_off_for: 'On for every plugin and mashup except:'
+          title: E-Mails
+          hint: Wähle, welche optionalen E-Mails TRMNL dir schickt.
+      author_digest: Autoren-Digest
+      author_digest_hint: Eine wöchentliche E-Mail über deine veröffentlichten Erweiterungen, nur wenn es etwas Neues gibt.
+      community_emails: Community-E-Mails
+      community_emails_hint: Review-Anfragen und Empfehlungsprämien.
+      emails_on_for: 'Aktiv für:'
+      low_battery_emails: E-Mails bei niedrigem Akkustand
+      low_battery_emails_off: Für alle Geräte deaktiviert. Aktiviere sie in den Akku-Einstellungen eines Geräts unter __Geräte__.
+      health_alerts: Status-Warnungen für Erweiterungen
+      health_alerts_off: Für alle Erweiterungen deaktiviert. Aktiviere sie in den Einstellungen einer Erweiterung unter __Erweiterungen__.
+      stopped_emails: E-Mails bei gestoppten Erweiterungen
+      stopped_emails_on: Für alle Erweiterungen und Mashups aktiv. Jede E-Mail enthält einen Link, um sie für dieses eine abzuschalten.
+      stopped_emails_off_for: 'Aktiv für alle Erweiterungen und Mashups, außer:'
     update:
       success: Konto erfolgreich aktualisiert
     reset_api_key:
@@ -355,7 +355,7 @@ de:
       new_and_popular: Neu und beliebt
     shop:
       title: Shop
-      another_trmnl: Need another TRMNL?
+      another_trmnl: Brauchst du noch ein TRMNL?
     time_saved:
       title: Eingesparte Zeit
     discover_callout:
@@ -564,17 +564,17 @@ de:
       vestaboard_credentials_hint: Öffne in der Vestaboard-App Einstellungen, dann Erweiterte Einstellungen, dann API. Erstelle einen Token mit Schreibzugriff und füge ihn hier ein.
       guest_mode_not_set: Nicht festgelegt
       guest_mode_summary: "%{screen} für %{duration}"
-      full_refresh_on_screen_change: Full Refresh When the Screen Changes
-      full_refresh_on_screen_change_hint: Clears any outline of the previous screen. The screen goes black and white for a moment whenever a new image arrives; a screen that did not change stays partial.
+      full_refresh_on_screen_change: Vollständige Aktualisierung bei Bildschirmwechsel
+      full_refresh_on_screen_change_hint: Entfernt Geisterbilder des vorherigen Bildschirms. Der Bildschirm wird für einen Moment schwarz-weiß, sobald ein neues Bild ankommt; bleibt der Bildschirm unverändert, erfolgt weiterhin nur eine Teilaktualisierung.
       charge_forecast:
-        now: Needs a charge now.
+        now: Muss jetzt geladen werden.
         days:
-          one: Needs a charge in about 1 day.
-          other: Needs a charge in about %{count} days.
+          one: Muss in etwa 1 Tag geladen werden.
+          other: Muss in etwa %{count} Tagen geladen werden.
         weeks:
-          one: Needs a charge in about 1 week.
-          other: Needs a charge in about %{count} weeks.
-        month: Needs a charge around %{month}.
+          one: Muss in etwa 1 Woche geladen werden.
+          other: Muss in etwa %{count} Wochen geladen werden.
+        month: Muss etwa im %{month} geladen werden.
     discover_persona:
       label: Persona & Entdecken
       disabled_hint: Deaktiviert für gespiegelte TRMNLs. Verwalte Empfehlungen stattdessen auf dem Hauptgerät.
@@ -631,7 +631,7 @@ de:
       message: Dein Gerät hat ein %{size}-Bild abgelehnt; dieses Modell akzeptiert bis zu %{limit}.
       message_without_limit: Dein Gerät hat ein %{size}-Bild als zu groß abgelehnt.
     update_discover_banner:
-      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
+      hidden_notice: Discover-Banner ausgeblendet. Du kannst es jederzeit in den Geräteeinstellungen wieder einschalten.
   discovery:
     dashboard_action:
       saved:
@@ -680,7 +680,7 @@ de:
       only_plugin: Nur Protokolle von %{name}.
       show_all: Alle Protokolle anzeigen
     log:
-      expand: Expand
+      expand: Ausklappen
   markups:
     console_logs:
       js_logs: JS-Protokolle
@@ -705,11 +705,11 @@ de:
       save_changes: Speichern (⌘﹢S)
       separate_preview: Vorschau wird in separatem Fenster angezeigt
       preview_layout: Layout-Vorschau
-      prompt_language: Prompt (AI)
-      prompt_help: 'The installer''s model turns the input into this plugin''s merge variables, paid with their API key or AI credit. Liquid sees the same input a script would, and the model is asked again whenever the rendered prompt changes, so pass only the fields the prompt needs. Front matter between two --- lines may set schema (a JSON schema the reply must match, where the model supports it), max_tokens (up to 4096, which a reasoning model spends partly on thinking) and format: text.'
-      serverless_help: Clean up the data with a script, or hand it to an AI model with a prompt.
-      serverless_learn_more: Learn more about scripts
-      prompt_learn_more: Read the prompt guide
+      prompt_language: Prompt (KI)
+      prompt_help: 'Das Modell der Installierenden wandelt die Eingabe in die Variablen dieser Erweiterung um, bezahlt mit deren API-Schlüssel oder KI-Guthaben. Liquid sieht dieselbe Eingabe wie ein Skript, und das Modell wird erneut gefragt, sobald sich der gerenderte Prompt ändert — übergib daher nur die Felder, die der Prompt braucht. Im Front Matter zwischen zwei --- Zeilen lassen sich schema (ein JSON-Schema, dem die Antwort entsprechen muss, soweit das Modell es unterstützt), max_tokens (bis zu 4096, von denen ein Reasoning-Modell einen Teil fürs Denken verbraucht) und format: text festlegen.'
+      serverless_help: Bereinige die Daten mit einem Skript, oder gib sie mit einem Prompt an ein KI-Modell weiter.
+      serverless_learn_more: Mehr über Skripte erfahren
+      prompt_learn_more: Prompt-Leitfaden lesen
     merge_variables:
       your_variables: Variablen
     no_merge_variables:
@@ -837,9 +837,9 @@ de:
       hold_screen: Bildschirm halten
       hold_screen_hint: Behält den aktuellen Bildschirm, bis du den Knopf drückst. Ein geplantes Aufwachen aktualisiert ihn, geht aber nicht weiter.
       unused_plugin_setting:
-        message: "%{name} is not on any playlist now. Delete the plugin too?"
-        delete: Delete plugin
-        keep: Keep plugin
+        message: "%{name} ist jetzt auf keiner Wiedergabeliste mehr. Auch die Erweiterung löschen?"
+        delete: Erweiterung löschen
+        keep: Erweiterung behalten
     playlist_item:
       adjust_schedule: Zeitplan anpassen
       delete: Soll dieser Eintrag wirklich entfernt werden? Die Erweiterung bleibt weiterhin verbunden, wird lediglich nicht auf dem Gerät angezeigt.
@@ -891,7 +891,7 @@ de:
       important_active: Wichtig aktiv
       stale: Veraltet
       pending: Noch nicht gerendert
-      held: Held
+      held: Gehalten
     status_description:
       error: Aktualisierungen wurden nach wiederholten Fehlschlägen gestoppt. Öffne die Einstellungen, um das Problem zu beheben.
       setup: Schließe die Konfiguration dieses Eintrags ab, bevor er auf dem Gerät erscheinen kann.
@@ -902,7 +902,7 @@ de:
       important_active: Ein wichtiger Eintrag belegt diesen Slot gerade.
       stale: Smartes Überspringen überspringt dies — der Bildschirm hat sich eine Weile nicht aktualisiert.
       pending: Sein erstes Render startet beim nächsten Check-in des Geräts.
-      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
+      held: Bildschirm halten ist aktiviert, daher bleibt das Gerät auf diesem Bildschirm. Schalte Bildschirm halten oben auf der Seite aus, um wieder zu rotieren.
     schedule:
       always: Immer
       important_title: Wichtig
@@ -924,7 +924,7 @@ de:
         refresh_interval: Aktualisierungsrate aktualisiert
       error: Sammelaktion fehlgeschlagen
       refresh_rate: Aktualisierungsrate
-      selected: selected
+      selected: ausgewählt
     smart_skip_modal:
       title: Smartes Überspringen
       apply: Fertig
@@ -1044,8 +1044,8 @@ de:
       force_refresh_click_here_hint: um jetzt einen neuen Bildschirm zu erzeugen
       force_refresh_not_possible: Die Anzeige kann nicht aktualisiert werden, weil der TRMNL-Server keine Bildverarbeitung durchführt. Erfahre __hier__, wie du deine Instanz testen kannst.
       health_notifications: Statusbenachrichtigungen
-      health_notifications_hint: Get an email when this plugin stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
-      health_notifications_checkbox: Email me when this plugin starts failing
+      health_notifications_hint: Erhalte eine E-Mail, wenn diese Erweiterung nach wiederholten Fehlschlägen nicht mehr aktualisiert, oder sobald sie zu scheitern beginnt. Höchstens eine E-Mail pro Zustand und Vorfall.
+      health_notifications_checkbox: Per E-Mail benachrichtigen, wenn diese Erweiterung zu scheitern beginnt
       learn_more: Mehr Informationen zur Erweiterung in unserer Wissensdatenbank
       learn_more_recipe_author: Hilfe benötigt? Kontaktiere %{recipe_author} auf Discord.
       linked_account: Verbundener Account
@@ -1138,11 +1138,11 @@ de:
       lat_lon_placeholder: Stadt oder Postleitzahl suchen, oder Breite,Länge eingeben
       new_title: "%{plugin} hinzufügen"
       edit_title: "%{plugin} · %{name}"
-      linked_accounts_hint: This plugin reads from these accounts.
-      remove_account: Remove
-      remove_account_confirm: Remove %{account} from this plugin?
-      account_removed: Account removed.
-      stopped_notifications_checkbox: Email me when this plugin stops refreshing
+      linked_accounts_hint: Diese Erweiterung liest von diesen Konten.
+      remove_account: Entfernen
+      remove_account_confirm: "%{account} von dieser Erweiterung entfernen?"
+      account_removed: Konto entfernt.
+      stopped_notifications_checkbox: Per E-Mail benachrichtigen, wenn diese Erweiterung nicht mehr aktualisiert
     import:
       archive_too_large: ZIP-Datei ist zu groß (maximal %{max_mb} MB)
       missing_entry: Die ZIP-Datei enthält nicht %{filename}
@@ -1280,25 +1280,25 @@ de:
       rate_limited: Das sind viele Prüfungen für einen Tag. Versuch es morgen erneut.
       back: Zurück zu deiner Erweiterung
     data_flow:
-      title: Data flow
+      title: Datenfluss
       markup: Markup
     ai_transform:
-      no_route: Add an API key in Account → Agent, or connect a TRMNL device, to run this plugin's prompt.
-      api_key_refused: "%{provider} refused your API key. Check it in Account → Agent."
-      out_of_credit: Out of AI credit. Your device shows a reminder until you reload credit.
-      empty_reply: The model sent an empty reply. This plugin kept its last screen.
-      truncated: The reply ran past %{max_tokens} tokens and was cut off. This plugin kept its last screen.
-      front_matter_not_a_map: The prompt's front matter must be a list of options, one per line.
-      front_matter_not_yaml: 'The prompt''s front matter is not valid YAML: %{error}'
-      unknown_option: 'The prompt''s front matter has an option this plugin does not know: %{options}. It knows schema, max_tokens and format.'
-      unknown_format: The prompt's format must be json or text, not %{value}.
-      credit_left: 'AI credit: %{amount} left'
-      reload: Reload
+      no_route: Füge einen API-Schlüssel unter Konto → Agent hinzu, oder verbinde ein TRMNL-Gerät, um den Prompt dieser Erweiterung auszuführen.
+      api_key_refused: "%{provider} hat deinen API-Schlüssel abgelehnt. Prüfe ihn unter Konto → Agent."
+      out_of_credit: KI-Guthaben aufgebraucht. Dein Gerät zeigt eine Erinnerung, bis du Guthaben nachlädst.
+      empty_reply: Das Modell hat eine leere Antwort gesendet. Diese Erweiterung hat ihren letzten Bildschirm beibehalten.
+      truncated: Die Antwort hat %{max_tokens} Tokens überschritten und wurde abgeschnitten. Diese Erweiterung hat ihren letzten Bildschirm beibehalten.
+      front_matter_not_a_map: Das Front Matter des Prompts muss eine Liste von Optionen sein, eine pro Zeile.
+      front_matter_not_yaml: 'Das Front Matter des Prompts ist kein gültiges YAML: %{error}'
+      unknown_option: 'Das Front Matter des Prompts enthält eine Option, die diese Erweiterung nicht kennt: %{options}. Sie kennt schema, max_tokens und format.'
+      unknown_format: Das Format des Prompts muss json oder Text sein, nicht %{value}.
+      credit_left: 'KI-Guthaben: noch %{amount}'
+      reload: Nachladen
     row:
-      degraded: Degraded
-      erroring: Stopped
-      recipe_degraded: Recipe degraded
-      recipe_erroring: Recipe stopped
+      degraded: Beeinträchtigt
+      erroring: Gestoppt
+      recipe_degraded: Blaupause beeinträchtigt
+      recipe_erroring: Blaupause gestoppt
   recipes:
     index:
       newest_to_oldest: Neueste zuerst
@@ -1379,12 +1379,12 @@ de:
         billing_cancel_failed: Die Abrechnung konnte nicht gekündigt werden, daher wurde nichts deinstalliert. Bitte versuche es erneut.
         index:
           title: Apps
-          description: Turn your TRMNL devices into purpose-built displays.
-          installed_heading: Your Installed Apps
-          available_heading: Available To Install
-          install_heading: Install an App
-          install: Install
-          installing: Installing...
+          description: Verwandle deine TRMNL-Geräte in Displays für einen ganz speziellen Zweck.
+          installed_heading: Deine installierten Apps
+          available_heading: Verfügbar zum Installieren
+          install_heading: Eine App installieren
+          install: Installieren
+          installing: Wird installiert …
       app_page:
         title: "%{app} für TRMNL"
         eyebrow: TRMNL-App
@@ -1486,9 +1486,9 @@ de:
             other: "%{count} weitere"
       room_screens:
         until: Bis %{time}
-        up_next: 'Up next: %{title} at %{time}'
-        up_next_untitled: Up next at %{time}
-        free_after: Free after %{time}
+        up_next: 'Als Nächstes: %{title} um %{time}'
+        up_next_untitled: Als Nächstes um %{time}
+        free_after: Frei ab %{time}
       home:
         index:
           calendars_on_display: Kalender auf einer Anzeige
@@ -1824,9 +1824,9 @@ de:
           walk_up_booking: Buchung mit TRMNL
           walk_up_calendar: Kalender anzeigen
           walk_up_calendar_hint: Zeigt anstehende Buchungen auf der öffentlichen Buchungsseite.
-          room_screens: Room screens
-          show_next_meeting: Show next meeting
-          show_next_meeting_hint: While a room is busy, show the next meeting instead of the organizer.
+          room_screens: Raumbildschirme
+          show_next_meeting: Nächsten Termin anzeigen
+          show_next_meeting_hint: Zeige, solange ein Raum belegt ist, den nächsten Termin anstelle des Organisators.
       billing:
         title: Abrechnung
         summary:
@@ -1971,8 +1971,8 @@ de:
         footer: Du erhältst diese E-Mail, weil Check-in-Benachrichtigungen für diese Flotte aktiviert sind. Du kannst sie unter Flotte › Einstellungen deaktivieren.
       summary:
         mirrors:
-          one: "%{count} mirror"
-          other: "%{count} mirrors"
+          one: "%{count} Spiegelung"
+          other: "%{count} Spiegelungen"
     bookings:
       read_only_booking_error: Dieser Kalender hat nur Lesezugriff. Das verbundene Google-Konto braucht die Berechtigung, Termine zu ändern, bevor hier Buchungen stattfinden können.
     chess:
@@ -2150,13 +2150,13 @@ de:
       title: "%{name}-Mashup konfigurieren"
       back_to_playlist: Zurück zur Wiedergabeliste
       description: "%{layout}-Mashup"
-      health_notifications_hint: Get an email when this mashup stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
-      health_notifications_checkbox: Email me when this mashup starts failing
+      health_notifications_hint: Erhalte eine E-Mail, wenn dieses Mashup nach wiederholten Fehlern nicht mehr aktualisiert, oder sobald es zu scheitern beginnt. Höchstens eine E-Mail pro Zustand und Vorfall.
+      health_notifications_checkbox: Per E-Mail benachrichtigen, wenn dieses Mashup Probleme hat
       refresh_rate_hint: Rendert %{refresh_rate}, festgelegt durch die schnellste seiner Erweiterungen.
       remove: Mashup entfernen
       remove_hint: Das Entfernen eines Mashups nimmt es von deiner Wiedergabeliste. Seine Erweiterungen bleiben installiert.
       name_hint: Gib ihm einen Namen zur einfachen Wiedererkennung, oder lass es leer, um die Namen seiner Erweiterungen zu zeigen.
-      stopped_notifications_checkbox: Email me when this mashup stops refreshing
+      stopped_notifications_checkbox: Per E-Mail benachrichtigen, wenn dieses Mashup nicht mehr aktualisiert
     new:
       playlist_item_title: Neuer Wiedergabelisten-Eintrag
     create:
@@ -2172,7 +2172,7 @@ de:
       2x2: Vier Abschnitte
       3x3: Eigenes Raster
     sections:
-      default_text_scale: Default (%{text_scale})
+      default_text_scale: Standard (%{text_scale})
   playlist_coverage:
     title: Wiedergabelisten-Abdeckung
     your_timezone: deine Zeitzone
@@ -2313,67 +2313,67 @@ de:
       read: Notizen lesen
       next: Wenn du zufrieden bist, reiche es ein, und jemand aus unserem Team prüft es.
     author_digest:
-      subject_prefix: TRMNL author digest
-      greeting: Hi %{name} –
-      greeting_without_name: Hi there –
-      intro: Here's your week on TRMNL, %{from} – %{to}.
-      needs_a_fix: Needs a fix
+      subject_prefix: TRMNL-Autoren-Digest
+      greeting: Hallo %{name} –
+      greeting_without_name: Hallo –
+      intro: Hier ist deine Woche auf TRMNL, %{from} – %{to}.
+      needs_a_fix: Muss behoben werden
       failing:
-        one: "%{name} is failing on 1 screen, last on %{date}."
-        other: "%{name} is failing on %{count} screens, last on %{date}."
-      open_plugin: Open %{name}
+        one: "%{name} schlägt auf 1 Bildschirm fehl, zuletzt am %{date}."
+        other: "%{name} schlägt auf %{count} Bildschirmen fehl, zuletzt am %{date}."
+      open_plugin: "%{name} öffnen"
       others_failing:
-        one: 1 more screen shows errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about it.
-        other: "%{count} more screens show errors from an upstream service or an installer who hasn't finished setup. You don't need to do anything about those."
-      uninstalls: What people said when they uninstalled
+        one: 1 weiterer Bildschirm zeigt Fehler eines vorgeschalteten Dienstes oder einer Person, die die Einrichtung noch nicht abgeschlossen hat. Du musst nichts weiter tun.
+        other: "%{count} weitere Bildschirme zeigen Fehler eines vorgeschalteten Dienstes oder einer Person, die die Einrichtung noch nicht abgeschlossen hat. Du musst nichts weiter tun."
+      uninstalls: Was Leute bei der Deinstallation gesagt haben
       reasons:
-        one: '1 uninstall this week: %{reasons}.'
-        other: "%{count} uninstalls this week: %{reasons}."
-      creator_fund: Close to the Creator Fund
-      qualified: "%{name} passed %{minimum} connections this week and joins the next Creator Fund payout."
-      near_miss_intro: 'Plugins earn from %{threshold} connections. A few people sharing these would get them there:'
-      near_miss_counts: "%{connections} connections · %{needed} to go"
-      share_text: Check out %{name} for TRMNL
-      post_on_x: Post on X
-      post_on_bluesky: Bluesky
-      post_on_reddit: Reddit
-      numbers: Your week in numbers
+        one: '1 Deinstallation diese Woche: %{reasons}.'
+        other: "%{count} Deinstallationen diese Woche: %{reasons}."
+      creator_fund: Nah am Creator Fund
+      qualified: "%{name} hat diese Woche %{minimum} Verbindungen überschritten und ist bei der nächsten Creator-Fund-Auszahlung dabei."
+      near_miss_intro: 'Erweiterungen verdienen ab %{threshold} Verbindungen. Ein paar Leute, die diese teilen, würden sie dorthin bringen:'
+      near_miss_counts: "%{connections} Verbindungen · noch %{needed}"
+      share_text: Schau dir %{name} für TRMNL an
+      post_on_x: Auf X posten
+      post_on_bluesky: Auf Bluesky posten
+      post_on_reddit: Auf Reddit posten
+      numbers: Deine Woche in Zahlen
       installs_line:
-        one: "+1 install · %{total} connections in total"
-        other: "+%{count} installs · %{total} connections in total"
-      top_growers: 'Grew most: %{list}'
-      top_layouts: Screens show your plugins mostly %{list}.
-      see_analytics: See full analytics
-      sign_off: Stay focused,
-      footer: You get this email once a week because you publish plugins on TRMNL. It skips any week with nothing new.
+        one: "+1 Installation · %{total} Verbindungen insgesamt"
+        other: "+%{count} Installationen · %{total} Verbindungen insgesamt"
+      top_growers: 'Am meisten gewachsen: %{list}'
+      top_layouts: Bildschirme zeigen deine Erweiterungen meist %{list}.
+      see_analytics: Vollständige Analysen ansehen
+      sign_off: Bleib fokussiert,
+      footer: Du erhältst diese E-Mail einmal pro Woche, weil du Erweiterungen auf TRMNL veröffentlichst. Wochen ohne Neuigkeiten werden ausgelassen.
       headlines:
-        qualified: "%{name} now qualifies for the Creator Fund"
+        qualified: "%{name} qualifiziert sich jetzt für den Creator Fund"
         nearest_goal:
-          one: "%{name} is 1 install from earning"
-          other: "%{name} is %{count} installs from earning"
+          one: "%{name} ist 1 Installation vom Verdienen entfernt"
+          other: "%{name} ist %{count} Installationen vom Verdienen entfernt"
         failing:
-          one: "%{name} is failing on 1 screen"
-          other: "%{name} is failing on %{count} screens"
+          one: "%{name} schlägt auf 1 Bildschirm fehl"
+          other: "%{name} schlägt auf %{count} Bildschirmen fehl"
         new_installs:
-          one: 1 new install
-          other: "%{count} new installs"
+          one: 1 neue Installation
+          other: "%{count} neue Installationen"
         plugins_to_fix:
-          one: 1 plugin to fix
-          other: "%{count} plugins to fix"
+          one: 1 Erweiterung zu beheben
+          other: "%{count} Erweiterungen zu beheben"
         uninstall_reasons:
-          one: 1 person said why they uninstalled
-          other: "%{count} people said why they uninstalled"
+          one: 1 Person hat gesagt, warum sie deinstalliert hat
+          other: "%{count} Personen haben gesagt, warum sie deinstalliert haben"
     bank_payment_failed:
-      subject: Your bank payment to TRMNL did not go through
-      greeting: Hi %{name},
-      greeting_without_name: Hi,
-      byod_license: The bank payment for your BYOD license did not go through, so your device is back on its trial.
-      byod_trial: The $1 bank payment for your BYOD trial did not go through, so we ended the trial.
-      developer_edition: The bank payment for Developer Edition did not go through, so we turned it off on your device.
-      plus: The bank payment for TRMNL+ did not go through, so we turned it off.
-      pay_again: You can pay again with a card or another account here.
-      sign_off: cheers,
-      team: the TRMNL team
+      subject: Deine Banküberweisung an TRMNL ist nicht durchgegangen
+      greeting: Hallo %{name},
+      greeting_without_name: Hallo,
+      byod_license: Die Banküberweisung für deine BYOD-Lizenz ist nicht durchgegangen, daher ist dein Gerät wieder in der Testphase.
+      byod_trial: Die Banküberweisung von $1 für deine BYOD-Testphase ist nicht durchgegangen, daher haben wir die Testphase beendet.
+      developer_edition: Die Banküberweisung für Developer Edition ist nicht durchgegangen, daher haben wir sie auf deinem Gerät deaktiviert.
+      plus: Die Banküberweisung für TRMNL+ ist nicht durchgegangen, daher haben wir es deaktiviert.
+      pay_again: Du kannst hier erneut mit einer Karte oder einem anderen Konto bezahlen.
+      sign_off: Viele Grüße,
+      team: das TRMNL-Team
   pages:
     flash_firmware:
       linux_warning: Das Flashen von Linux aus schlägt oft fehl, weil Chrome den seriellen Port nicht öffnen kann. Füge deinen Benutzer zur dialout-Gruppe hinzu (sudo usermod -aG dialout $USER), melde dich ab und wieder an und versuche es erneut. Falls das nicht hilft, verwende Chrome oder Edge auf einem Mac oder Windows-PC.
@@ -3261,32 +3261,32 @@ de:
       no_trial_device: Dein Konto hat keine BYOD-Testphase zum Umwandeln, daher haben wir dich nicht belastet.
   screen_picker:
     single_palette_hint: Dieses Gerät hat nur eine Palette.
-    classic: Classic
-    color_mode: Color Mode
-    color_preview: Color preview
-    color_preview_state: 'Color preview: %{state}'
-    dark: Dark
-    default: Default
-    device: Device
-    font_family: Font Family
-    landscape: Landscape
-    light: Light
-    light_mode: Light Mode
-    orientation: Orientation
+    classic: Klassisch
+    color_mode: Farbmodus
+    color_preview: Farbvorschau
+    color_preview_state: 'Farbvorschau: %{state}'
+    dark: Dunkel
+    default: Standard
+    device: Gerät
+    font_family: Schriftfamilie
+    landscape: Querformat
+    light: Hell
+    light_mode: Hellmodus
+    orientation: Ausrichtung
     palette: Palette
-    portrait: Portrait
-    preview: Preview
-    raw: Raw
-    reset: Reset
-    reset_to_defaults: Reset to Defaults
-    reset_to_device_defaults: Reset to device defaults
-    style: Style
-    text_scale: Text Scale
-    theme: Theme
-    toggle_color_preview: Toggle color preview (Raw / Preview)
-    toggle_dark_mode: Toggle dark mode
-    toggle_orientation: Toggle orientation
-    dark_mode: Dark Mode
+    portrait: Hochformat
+    preview: Vorschau
+    raw: Original
+    reset: Zurücksetzen
+    reset_to_defaults: Auf Standard zurücksetzen
+    reset_to_device_defaults: Auf Gerätestandard zurücksetzen
+    style: Stil
+    text_scale: Textgröße
+    theme: Thema
+    toggle_color_preview: Farbvorschau umschalten (Original / Vorschau)
+    toggle_dark_mode: Dunkelmodus umschalten
+    toggle_orientation: Ausrichtung umschalten
+    dark_mode: Dunkelmodus
   active_admin:
     batch_actions:
       action_label: "%{title}"
@@ -3295,54 +3295,54 @@ de:
       byod_trial_converted: Deine BYOD-Lizenz ist jetzt auf deinem Testgerät. Es behält seine Wiedergabeliste und Einstellungen.
   email_unsubscribes:
     switches:
-      author_digest_enabled: the weekly author digest
-      community_emails_enabled: community emails
-      low_battery_notification_enabled: low battery emails for %{name}
-      health_notification_enabled: health alerts for %{name}
-    footer_link: Unsubscribe from these emails
+      author_digest_enabled: den wöchentlichen Autoren-Digest
+      community_emails_enabled: Community-E-Mails
+      low_battery_notification_enabled: E-Mails bei niedrigem Akkustand für %{name}
+      health_notification_enabled: Status-Warnungen für %{name}
+    footer_link: Diese E-Mails abbestellen
     show:
-      title: Unsubscribe
-      confirm: Stop sending %{emails}?
-      unsubscribe: Unsubscribe
-      done: Done. We will no longer send %{emails}.
+      title: Abbestellen
+      confirm: "%{emails} nicht mehr senden?"
+      unsubscribe: Abbestellen
+      done: Fertig. Wir senden %{emails} nicht mehr.
   system_screens:
     out_of_ai_credit:
-      title: Out of AI credit
-      message: Reload credit at trmnl.com to update %{name}
-  saving: Saving…
+      title: KI-Guthaben aufgebraucht
+      message: Lade Guthaben auf trmnl.com nach, um %{name} zu aktualisieren
+  saving: Wird gespeichert …
   missing_devices:
-    finish_setup: This TRMNL has not finished Wi-Fi setup. Connect it to Wi-Fi and it shows its Friendly ID on screen. If it does not connect, contact support.
-    byod_license_html: A DIY kit or another BYOD device needs a %{link} before it can be found.
-    byod_license_link: BYOD license
+    finish_setup: Dieses TRMNL hat die WLAN-Einrichtung noch nicht abgeschlossen. Verbinde es mit WLAN, dann zeigt es seine Friendly ID auf dem Bildschirm an. Wende dich an den Support, falls es sich nicht verbindet.
+    byod_license_html: Ein DIY-Kit oder ein anderes BYOD-Gerät braucht einen %{link}, bevor es gefunden werden kann.
+    byod_license_link: BYOD-Lizenz
   appearance:
-    default_theme: Default
+    default_theme: Standard
     orientations:
-      landscape: Landscape
-      portrait: Portrait
+      landscape: Querformat
+      portrait: Hochformat
     palettes:
-      bw: Black & White (1-bit)
-      gray-4: 4 Grays (2-bit)
-      gray-16: 16 Grays (4-bit)
-      gray-256: 256 Grays (8-bit)
-      color-3bwr: 'Color (3 colors: black, red, white)'
-      color-3bwy: 'Color (3 colors: black, yellow, white)'
-      color-4bwry: 'Color (4 colors: black, red, white, yellow)'
-      color-6a: Color (6 colors)
-      color-7a: Color (7 colors)
-      color-12bit: Color (4096 colors)
-      color-24bit: Color (16777216 colors)
+      bw: Schwarz-Weiß (1-Bit)
+      gray-4: 4 Graustufen (2-Bit)
+      gray-16: 16 Graustufen (4-Bit)
+      gray-256: 256 Graustufen (8-Bit)
+      color-3bwr: 'Farbe (3 Farben: Schwarz, Rot, Weiß)'
+      color-3bwy: 'Farbe (3 Farben: Schwarz, Gelb, Weiß)'
+      color-4bwry: 'Farbe (4 Farben: Schwarz, Rot, Weiß, Gelb)'
+      color-6a: Farbe (6 Farben)
+      color-7a: Farbe (7 Farben)
+      color-12bit: Farbe (4096 Farben)
+      color-24bit: Farbe (16.777.216 Farben)
     summary:
-      font_family: "%{value} font family"
-      text_scale: "%{value} text scale"
-      theme: "%{value} theme"
+      font_family: Schriftfamilie %{value}
+      text_scale: Textgröße %{value}
+      theme: Thema %{value}
     text_scales:
-      small: Small
-      regular: Regular
-      large: Large
-      xlarge: X-Large
+      small: Klein
+      regular: Normal
+      large: Groß
+      xlarge: Sehr groß
   health_status_banner:
     next_steps:
-      reconnect: The service it reads from no longer accepts its connection. Reconnect your account in its settings.
-      missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
-      dead_link: The link it reads from no longer works. Paste a current link in its settings.
-      unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.
+      reconnect: Der Dienst, von dem sie liest, akzeptiert ihre Verbindung nicht mehr. Verbinde dein Konto in ihren Einstellungen erneut.
+      missing_calendar: Einer ihrer Kalender wurde gelöscht oder wird nicht mehr mit dir geteilt. Wähle deine Kalender in ihren Einstellungen erneut aus.
+      dead_link: Der Link, von dem sie liest, funktioniert nicht mehr. Füge einen aktuellen Link in ihren Einstellungen ein.
+      unreachable: Sie konnte den Dienst, von dem sie liest, nicht erreichen. Wir versuchen es einmal täglich erneut, und sie aktualisiert sich automatisch wieder, sobald der Dienst antwortet.
