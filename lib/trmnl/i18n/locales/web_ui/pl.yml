@@ -240,9 +240,9 @@ pl:
       low_battery_emails_off: Wyłączone dla wszystkich urządzeń. Włącz je w ustawieniach baterii danego urządzenia w sekcji __Urządzenia__.
       health_alerts: Powiadomienia o problemach z pluginami
       health_alerts_off: Wyłączone dla wszystkich pluginów. Włącz je w ustawieniach danego pluginu w sekcji __Pluginy__.
-      stopped_emails: Stopped plugin emails
-      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
-      stopped_emails_off_for: 'On for every plugin and mashup except:'
+      stopped_emails: Powiadomienia e-mail o zatrzymaniu pluginów
+      stopped_emails_on: Włączone dla wszystkich pluginów i mashupów. Każda wiadomość zawiera link pozwalający wyłączyć powiadomienia dla danego elementu.
+      stopped_emails_off_for: 'Włączone dla wszystkich pluginów i mashupów z wyjątkiem:'
     update:
       success: Pomyślnie zaktualizowano profil
     reset_api_key:
@@ -862,9 +862,9 @@ pl:
       hold_screen: Zatrzymaj na tym ekranie
       hold_screen_hint: Pozostaw bieżący ekran do naciśnięcia przycisku. Zaplanowane wybudzenie odświeża obraz, ale nie przełącza na kolejny element.
       unused_plugin_setting:
-        message: "%{name} is not on any playlist now. Delete the plugin too?"
-        delete: Delete plugin
-        keep: Keep plugin
+        message: "%{name} nie znajduje się już na żadnej playliście. Usunąć również plugin?"
+        delete: Usuń plugin
+        keep: Zachowaj plugin
     playlist_item:
       adjust_schedule: Dostosuj harmonogram
       delete: Czy na pewno chcesz usunąć ten element? Plugin pozostanie połączony, ale nie będzie wyświetlany na Twoim urządzeniu.
@@ -916,7 +916,7 @@ pl:
       important_active: Aktywny ważny element
       stale: Nieaktualne
       pending: Jeszcze niewyrenderowane
-      held: Held
+      held: Zatrzymane na ekranie
     status_description:
       error: Odświeżanie zatrzymano po powtarzających się błędach. Otwórz ustawienia, aby rozwiązać problem.
       setup: Dokończ konfigurację tego elementu, zanim będzie mógł pojawić się na urządzeniu.
@@ -927,7 +927,7 @@ pl:
       important_active: Ważny element zajmuje teraz ten slot.
       stale: Inteligentne pomijanie pomija ten element — jego ekran od dłuższego czasu nie był aktualizowany.
       pending: Pierwsze renderowanie rozpocznie się przy następnym zgłoszeniu urządzenia.
-      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
+      held: Włączono opcję „Zatrzymaj na tym ekranie”, dlatego urządzenie pozostaje na bieżącym ekranie. Wyłącz tę opcję u góry strony, aby wznowić rotację.
     schedule:
       always: Zawsze
       important_title: Ważne
@@ -1069,8 +1069,8 @@ pl:
       force_refresh_click_here_hint: aby utworzyć nowy ekran teraz
       force_refresh_not_possible: Nie można wymusić odświeżenia tego pluginu, ponieważ serwer TRMNL nie wspiera przetwarzania obrazów. __Tutaj__ dowiesz się, jak przetestować swoją instancję.
       health_notifications: Powiadomienia o stanie
-      health_notifications_hint: Get an email when this plugin stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
-      health_notifications_checkbox: Email me when this plugin starts failing
+      health_notifications_hint: Otrzymuj powiadomienia e-mail, gdy plugin przestanie się odświeżać po powtarzających się błędach lub gdy tylko zacznie zgłaszać błędy. Maksymalnie jedna wiadomość na każdy stan w ramach jednego incydentu.
+      health_notifications_checkbox: Powiadom mnie e-mailem, gdy plugin zacznie zgłaszać błędy
       learn_more: Dowiedz się więcej o tym pluginie z naszej bazy wiedzy
       learn_more_recipe_author: Potrzebujesz pomocy? Skontaktuj się z %{recipe_author} na Discordzie.
       linked_account: Konto połączone
@@ -1167,7 +1167,7 @@ pl:
       remove_account: Usuń
       remove_account_confirm: Usunąć konto %{account} z tego pluginu?
       account_removed: Usunięto konto.
-      stopped_notifications_checkbox: Email me when this plugin stops refreshing
+      stopped_notifications_checkbox: Powiadom mnie e-mailem, gdy plugin przestanie się odświeżać
     import:
       archive_too_large: Archiwum ZIP jest zbyt duże (maksimum %{max_mb} MB)
       missing_entry: Archiwum ZIP nie zawiera %{filename}
@@ -1320,10 +1320,10 @@ pl:
       credit_left: 'Pozostałe kredyty AI: %{amount}'
       reload: Doładuj
     row:
-      degraded: Degraded
-      erroring: Stopped
-      recipe_degraded: Recipe degraded
-      recipe_erroring: Recipe stopped
+      degraded: Stan zdegradowany
+      erroring: Odświeżanie zatrzymane
+      recipe_degraded: Problemy z recepturą
+      recipe_erroring: Odświeżanie receptury zatrzymane
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -2175,13 +2175,13 @@ pl:
       title: Skonfiguruj mashup %{name}
       back_to_playlist: Wróć do playlisty
       description: Składanka — %{layout}
-      health_notifications_hint: Get an email when this mashup stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
-      health_notifications_checkbox: Email me when this mashup starts failing
+      health_notifications_hint: Otrzymuj powiadomienia e-mail, gdy mashup przestanie się odświeżać po powtarzających się błędach lub gdy tylko zacznie zgłaszać błędy. Maksymalnie jedna wiadomość na każdy stan w ramach jednego incydentu.
+      health_notifications_checkbox: Powiadom mnie e-mailem, gdy mashup zacznie zgłaszać błędy
       refresh_rate_hint: Renderuje %{refresh_rate}; częstotliwość jest ustawiana przez najszybszy z jego pluginów.
       remove: Usuń mashup
       remove_hint: Usunięcie mashupu usuwa go z playlisty. Jego pluginy pozostają zainstalowane.
       name_hint: Nadaj mu nazwę, aby łatwo go rozpoznać, albo pozostaw pole puste, aby wyświetlać nazwy jego pluginów.
-      stopped_notifications_checkbox: Email me when this mashup stops refreshing
+      stopped_notifications_checkbox: Powiadom mnie e-mailem, gdy mashup przestanie się odświeżać
     new:
       playlist_item_title: Nowy element playlisty
     create:
@@ -2197,7 +2197,7 @@ pl:
       2x2: Cztery sekcje
       3x3: Siatka niestandardowa
     sections:
-      default_text_scale: Default (%{text_scale})
+      default_text_scale: Domyślna (%{text_scale})
   playlist_coverage:
     title: Pokrycie playlisty
     your_timezone: Twoja strefa czasowa
@@ -2389,16 +2389,16 @@ pl:
           one: 1 osoba podała powód odinstalowania
           other: "%{count} osób podało powód odinstalowania"
     bank_payment_failed:
-      subject: Your bank payment to TRMNL did not go through
-      greeting: Hi %{name},
-      greeting_without_name: Hi,
-      byod_license: The bank payment for your BYOD license did not go through, so your device is back on its trial.
-      byod_trial: The $1 bank payment for your BYOD trial did not go through, so we ended the trial.
-      developer_edition: The bank payment for Developer Edition did not go through, so we turned it off on your device.
-      plus: The bank payment for TRMNL+ did not go through, so we turned it off.
-      pay_again: You can pay again with a card or another account here.
-      sign_off: cheers,
-      team: the TRMNL team
+      subject: Płatność bankowa za TRMNL nie powiodła się
+      greeting: Cześć %{name},
+      greeting_without_name: Cześć,
+      byod_license: Płatność bankowa za licencję BYOD nie powiodła się, dlatego Twoje urządzenie wróciło do okresu próbnego.
+      byod_trial: Płatność bankowa w wysokości 1 USD za okres próbny BYOD nie powiodła się, dlatego zakończyliśmy okres próbny.
+      developer_edition: Płatność bankowa za Edycję deweloperską nie powiodła się, dlatego wyłączyliśmy ją na Twoim urządzeniu.
+      plus: Płatność bankowa za TRMNL+ nie powiodła się, dlatego wyłączyliśmy tę usługę.
+      pay_again: Możesz ponowić płatność kartą lub z innego konta tutaj.
+      sign_off: Pozdrawiamy,
+      team: zespół TRMNL
   pages:
     flash_firmware:
       linux_warning: Flashowanie z Linuksa często kończy się niepowodzeniem, ponieważ Chrome nie może otworzyć portu szeregowego. Dodaj użytkownika do grupy dialout (sudo usermod -aG dialout $USER), wyloguj się i zaloguj ponownie, a następnie spróbuj jeszcze raz. Jeśli to nie pomoże, użyj Chrome lub Edge na komputerze Mac albo z Windows.
@@ -3286,32 +3286,32 @@ pl:
       no_trial_device: Na Twoim koncie nie ma urządzenia próbnego BYOD do konwersji, więc nie pobraliśmy opłaty.
   screen_picker:
     single_palette_hint: To urządzenie obsługuje tylko jedną paletę kolorów.
-    classic: Classic
-    color_mode: Color Mode
-    color_preview: Color preview
-    color_preview_state: 'Color preview: %{state}'
-    dark: Dark
-    default: Default
-    device: Device
-    font_family: Font Family
-    landscape: Landscape
-    light: Light
-    light_mode: Light Mode
-    orientation: Orientation
-    palette: Palette
-    portrait: Portrait
-    preview: Preview
-    raw: Raw
-    reset: Reset
-    reset_to_defaults: Reset to Defaults
-    reset_to_device_defaults: Reset to device defaults
-    style: Style
-    text_scale: Text Scale
-    theme: Theme
-    toggle_color_preview: Toggle color preview (Raw / Preview)
-    toggle_dark_mode: Toggle dark mode
-    toggle_orientation: Toggle orientation
-    dark_mode: Dark Mode
+    classic: Klasyczny
+    color_mode: Tryb kolorów
+    color_preview: Podgląd kolorów
+    color_preview_state: 'Podgląd kolorów: %{state}'
+    dark: Ciemny
+    default: Domyślne
+    device: Urządzenie
+    font_family: Rodzina czcionek
+    landscape: Poziomy
+    light: Jasny
+    light_mode: Tryb jasny
+    orientation: Orientacja
+    palette: Paleta kolorów
+    portrait: Pionowy
+    preview: Podgląd
+    raw: Obraz źródłowy
+    reset: Resetuj
+    reset_to_defaults: Przywróć ustawienia domyślne
+    reset_to_device_defaults: Przywróć ustawienia domyślne urządzenia
+    style: Styl
+    text_scale: Skala tekstu
+    theme: Motyw
+    toggle_color_preview: Przełącz podgląd kolorów (obraz źródłowy / podgląd)
+    toggle_dark_mode: Przełącz tryb ciemny
+    toggle_orientation: Zmień orientację
+    dark_mode: Tryb ciemny
   active_admin:
     batch_actions:
       action_label: "%{title}"
@@ -3334,40 +3334,40 @@ pl:
     out_of_ai_credit:
       title: Wyczerpano kredyty AI
       message: Doładuj kredyty na trmnl.com, aby zaktualizować %{name}
-  saving: Saving…
+  saving: Zapisywanie…
   missing_devices:
-    finish_setup: This TRMNL has not finished Wi-Fi setup. Connect it to Wi-Fi and it shows its Friendly ID on screen. If it does not connect, contact support.
-    byod_license_html: A DIY kit or another BYOD device needs a %{link} before it can be found.
-    byod_license_link: BYOD license
+    finish_setup: Ten TRMNL nie ma jeszcze skonfigurowanego Wi-Fi. Podłącz go do Wi-Fi, aby zobaczyć Przyjazne ID. Jeśli masz kłopoty z podłączeniem, skontaktuj się z pomocą techniczną.
+    byod_license_html: Aby wykryć zestaw DIY lub inne urządzenie BYOD, wymagana jest %{link}.
+    byod_license_link: Licencja BYOD
   appearance:
-    default_theme: Default
+    default_theme: Domyślny
     orientations:
-      landscape: Landscape
-      portrait: Portrait
+      landscape: Poziomy
+      portrait: Pionowy
     palettes:
-      bw: Black & White (1-bit)
-      gray-4: 4 Grays (2-bit)
-      gray-16: 16 Grays (4-bit)
-      gray-256: 256 Grays (8-bit)
-      color-3bwr: 'Color (3 colors: black, red, white)'
-      color-3bwy: 'Color (3 colors: black, yellow, white)'
-      color-4bwry: 'Color (4 colors: black, red, white, yellow)'
-      color-6a: Color (6 colors)
-      color-7a: Color (7 colors)
-      color-12bit: Color (4096 colors)
-      color-24bit: Color (16777216 colors)
+      bw: Czarno-biała (1-bit)
+      gray-4: 4 odcienie szarości (2-bit)
+      gray-16: 16 odcieni szarości (4-bit)
+      gray-256: 256 odcieni szarości (8-bit)
+      color-3bwr: 'Kolorowa (3 kolory: czarny, czerwony, biały)'
+      color-3bwy: 'Kolorowa (3 kolory: czarny, żółty, biały)'
+      color-4bwry: 'Kolorowa (4 kolory: czarny, czerwony, biały, żółty)'
+      color-6a: Kolorowa (6 kolorów)
+      color-7a: Kolorowa (7 kolorów)
+      color-12bit: Kolorowa (4096 kolorów)
+      color-24bit: Kolorowa (16777216 kolorów)
     summary:
-      font_family: "%{value} font family"
-      text_scale: "%{value} text scale"
-      theme: "%{value} theme"
+      font_family: "Rodzina czcionek: %{value}"
+      text_scale: "Skala tekstu: %{value}"
+      theme: "Motyw: %{value}"
     text_scales:
-      small: Small
-      regular: Regular
-      large: Large
-      xlarge: X-Large
+      small: Mała
+      regular: Standardowa
+      large: Duża
+      xlarge: Bardzo duża
   health_status_banner:
     next_steps:
-      reconnect: The service it reads from no longer accepts its connection. Reconnect your account in its settings.
-      missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
-      dead_link: The link it reads from no longer works. Paste a current link in its settings.
-      unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.
+      reconnect: Usługa, z której pobierane są dane, przestała akceptować połączenie. Połącz konto ponownie w ustawieniach pluginu.
+      missing_calendar: Jeden z używanych kalendarzy został usunięty lub przestał być Ci udostępniany. Wybierz ponownie kalendarze w ustawieniach pluginu.
+      dead_link: Link, z którego pobierane są dane, przestał działać. Wklej aktualny link w ustawieniach pluginu.
+      unreachable: Nie udało się połączyć z usługą, z której pobierane są dane. Ponowimy próbę raz dziennie, a gdy usługa zacznie odpowiadać, odświeżanie wznowi się automatycznie.
