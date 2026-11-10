@@ -945,6 +945,9 @@ ro:
         show: Elementele au fost afișate
         destroy: Elementele au fost eliminate din lista de redare
         refresh_interval: Interval de reîmprospătare actualizat
+        refresh_interval_skipped:
+          one: Refresh rate updated, except for 1 item that has no refresh rate. For an Alias, set its duration in the item's schedule.
+          other: Refresh rate updated, except for %{count} items that have no refresh rate. For an Alias, set its duration in the item's schedule.
       error: Acțiunea în masă a eșuat
       refresh_rate: Interval de reîmprospătare
       selected: selectate
