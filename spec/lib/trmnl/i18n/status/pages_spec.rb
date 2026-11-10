@@ -11,7 +11,8 @@ RSpec.describe TRMNL::I18n::Status::Pages do
 
   let(:fixtures) { SPEC_ROOT.join "fixtures/status" }
   let(:kept_words) { TRMNL::I18n::Status::KeptWords.new path: fixtures.join("kept_words.yml") }
-  let(:report) { TRMNL::I18n::Status::Report.new(root: fixtures, kept_words:).call }
+  let(:kept) { TRMNL::I18n::Status::Kept.new words: kept_words, root: fixtures.join("no_kept_keys") }
+  let(:report) { TRMNL::I18n::Status::Report.new(root: fixtures, kept:).call }
 
   def written(path) = temp_dir.join(path).read
 
