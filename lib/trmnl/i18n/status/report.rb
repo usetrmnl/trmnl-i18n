@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative "../synchronization/repo"
 require_relative "entry"
 require_relative "kept"
 require_relative "leaf_reader"
@@ -10,7 +11,7 @@ module TRMNL
       # Pairs every English string with each locale's value, per area (web_ui, plugin_renders...).
       class Report
         ROOT = Pathname(__dir__).join("../locales").freeze
-        ENGLISH_OR_DEBUG_LOCALE = /\A(en(-\w+)?|raw)\z/
+        SOURCE_OR_DEBUG_LOCALE = /\A(en|raw)\z/
 
         def initialize root: ROOT, reader: LeafReader.new, kept: Kept.new
           @root = Pathname root
@@ -31,11 +32,10 @@ module TRMNL
 
         def areas = root.children.select(&:directory?).sort
 
-        # :reek:NestedIterators
         def locales
-          areas.flat_map { |area| area.glob("*.yml").map { |path| path.basename(".yml").to_s } }
+          areas.flat_map { |area| Synchronization::Repo.new(area).full_locales }
                .uniq
-               .grep_v(ENGLISH_OR_DEBUG_LOCALE)
+               .grep_v(SOURCE_OR_DEBUG_LOCALE)
                .sort
         end
 

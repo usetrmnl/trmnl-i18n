@@ -72,6 +72,8 @@ localization files live inside `lib/trmnl/i18n/locales`. from within that direct
 
 copy `en.yml`, not `raw.yml`. the two look alike, but `raw.yml` opens with `raw:` and every spec reads that first line to know which locale the file holds. change it to your own code, so `it.yml` starts with `it:`.
 
+for a regional variant of a language that already has a file, such as `de-AT` or `en-GB`, do not copy anything. the file holds only `locale_name` and the strings that differ, and every other string comes from the base language (`de`, `en`).
+
 a string you have not translated yet stays in English, and shows in English on screen until you replace it. the [translation status](https://github.com/usetrmnl/trmnl-i18n/tree/translation-status) lists every string still in English for your language, with a link to its line. if your language keeps a word in English on purpose, such as a product name or a unit, add it to `lib/trmnl/i18n/status/kept_words.yml` so it stops showing as left. if your language keeps a whole string in English on purpose, such as the month names of a calendar it does not use, list its key in `lib/trmnl/i18n/status/kept_keys/<locale>.yml`, one per line as the status page shows it (`- custom_plugins.simple_calendar.hebrew.*`). a `*` covers every key below it.
 
 ## general tips
