@@ -373,8 +373,6 @@ sl:
     plugins:
       title: Vtičniki
       cta: Pojdi na vtičnike
-      connected: Povezano
-      new_and_popular: Novo in priljubljeno
       recently_published: Recently Published
       connected_count: "%{count} connected"
     shop:
@@ -942,9 +940,6 @@ sl:
         from: From %{start}
         until: Until %{end}
         yearly: Every year, %{start} to %{end}
-      custom:
-        two: Po meri (%{count} okni)
-        few: Po meri (%{count} okna)
     bulk_actions:
       hide: Skrij
       show: Prikaži
@@ -3401,8 +3396,3 @@ sl:
       missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
       dead_link: The link it reads from no longer works. Paste a current link in its settings.
       unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.
-  activity_logs:
-    index:
-      day_events:
-        two: "%{day}: %{count} dogodka"
-        few: "%{day}: %{count} dogodki"

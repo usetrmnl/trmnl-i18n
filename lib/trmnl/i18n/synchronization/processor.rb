@@ -3,6 +3,7 @@
 require "cogger"
 require "yaml"
 
+require_relative "pruner"
 require_relative "value_reducer"
 
 module TRMNL
@@ -17,7 +18,7 @@ module TRMNL
         end
 
         def call source_locale = "en"
-          repository.locales.each do |destination_locale|
+          repository.full_locales.each do |destination_locale|
             log_info "Syncing #{repository.name}/#{destination_locale}..."
 
             destination_root = repository.load destination_locale
@@ -37,8 +38,8 @@ module TRMNL
         def add_missing_contents source_locale, destination_locale, destination_root
           destination_contents = destination_root[destination_locale]
           contents_to_merge = reduce source_locale, destination_locale
-          destination_root[destination_locale] =
-            merge_missing contents_to_merge, destination_contents
+          merged = merge_missing contents_to_merge, destination_contents
+          destination_root[destination_locale] = Pruner.new.call merged, contents_to_merge
           destination_root
         end
 

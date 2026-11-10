@@ -13,7 +13,7 @@ RSpec.describe TRMNL::I18n::Status::Report do
   let(:web_ui) { report.dig("fr", "web_ui").to_h { |entry| [entry.key, entry] } }
 
   describe "#call" do
-    it "leaves out English variants and the debug locale" do
+    it "leaves out regional locales and the debug locale" do
       expect(report.keys).to eq(%w[fr])
     end
 

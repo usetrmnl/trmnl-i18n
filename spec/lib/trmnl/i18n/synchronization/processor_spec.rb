@@ -48,6 +48,14 @@ RSpec.describe TRMNL::I18n::Synchronization::Processor do
       expect(repo.load("fr").fetch("fr").fetch("stems")).to eq(%w[Bois Bois])
     end
 
+    it "drops keys the source locale no longer has" do
+      expect(repo.load("fr").fetch("fr")).not_to have_key("gone")
+    end
+
+    it "leaves a regional locale to fall back to its base language" do
+      expect(repo.load("fr-CA")).to eq("fr-CA" => {"hello" => "Allô"})
+    end
+
     it "leaves the source locale alone" do
       expect(repo.load("en")).to eq(
         {
