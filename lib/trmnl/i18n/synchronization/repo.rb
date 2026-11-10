@@ -32,6 +32,9 @@ module TRMNL
 
         def locales = directory.files("*.yml").map { |path| path.name.to_s }
 
+        # A regional locale (de-AT) holds only what differs and falls back to its base (de).
+        def full_locales = locales.reject { |locale| locales.include? locale[/\A(\w+)-/, 1] }
+
         private
 
         attr_reader :directory

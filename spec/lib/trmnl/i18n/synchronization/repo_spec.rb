@@ -29,7 +29,13 @@ RSpec.describe TRMNL::I18n::Synchronization::Repo do
 
   describe "#locales" do
     it "returns every locale in the repo" do
-      expect(repo.locales).to eq(%w[en fr raw])
+      expect(repo.locales).to eq(%w[en fr-CA fr raw])
+    end
+  end
+
+  describe "#full_locales" do
+    it "leaves out a regional locale whose base language has a file" do
+      expect(repo.full_locales).to eq(%w[en fr raw])
     end
   end
 

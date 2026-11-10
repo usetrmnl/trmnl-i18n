@@ -11,9 +11,12 @@ RSpec.describe "Web UI", type: :feature do
   let(:locales) { root.files "*.yml" }
 
   Bundler.root.join("lib/trmnl/i18n/locales/web_ui").files("*.yml").each do |path|
-    it "verifies #{path.name} has key parity with default locale" do
-      current = YAML.safe_load(path.read).fetch(path.name.to_s).flatten_keys.keys
-      expect(default - current).to eq([])
+    it "verifies #{path.name} has the keys English has, or only those when regional" do
+      locale = path.name.to_s
+      current = YAML.safe_load(path.read).fetch(locale).flatten_keys.keys
+      regional = path.parent.join("#{locale[/\A(\w+)-/, 1]}.yml").exist?
+
+      expect(regional ? current - default : default - current).to eq([])
     end
   end
 

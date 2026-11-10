@@ -17,7 +17,7 @@ module TRMNL
         end
 
         def call source_locale = "en"
-          repository.locales.each do |destination_locale|
+          repository.full_locales.each do |destination_locale|
             log_info "Syncing #{repository.name}/#{destination_locale}..."
 
             destination_root = repository.load destination_locale
