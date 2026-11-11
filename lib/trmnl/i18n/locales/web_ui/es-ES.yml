@@ -922,6 +922,9 @@ es-ES:
         show: Items shown
         destroy: Items removed from playlist
         refresh_interval: Refresh rate updated
+        refresh_interval_skipped:
+          one: Refresh rate updated, except for 1 item that has no refresh rate. For an Alias, set its duration in the item's schedule.
+          other: Refresh rate updated, except for %{count} items that have no refresh rate. For an Alias, set its duration in the item's schedule.
       error: Bulk action failed
       refresh_rate: Refresh rate
       selected: selected
