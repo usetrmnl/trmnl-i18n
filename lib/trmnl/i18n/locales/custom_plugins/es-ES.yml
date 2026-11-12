@@ -7,55 +7,55 @@ es-ES:
     activity: Actividad
     done: Completado
     due: Vence
-    weather: Weather
-    temperature: Temperature
-    air_temperature: Air Temperature
-    feels_like: Feels Like
-    wet_bulb_temperature: Wet-Bulb Temperature
+    weather: "Tiempo"
+    temperature: "Temperatura"
+    air_temperature: "Temperatura del aire"
+    feels_like: "Sensación térmica"
+    wet_bulb_temperature: "Temperatura de bulbo húmedo"
     wet_bulb_temperature_short: WBT
-    wet_bulb_globe_temperature: Wet-Bulb Globe Temperature
+    wet_bulb_globe_temperature: "Temperatura de globo y bulbo húmedo"
     wet_bulb_globe_temperature_short: WBGT
-    dew_point: Dew Point
-    delta_t: Delta T
-    humidity: Humidity
-    air_density: Air Density
-    pressure: Pressure
-    station_pressure: Station Pressure
-    sea_level_pressure: Sea-Level Pressure
-    pressure_trend: Pressure Trend
-    pressure_rising: Pressure Rising
-    pressure_steady: Pressure Steady
-    pressure_falling: Pressure Falling
-    wind: Wind
-    wind_average: Average Wind
-    wind_gust: Wind Gust
-    wind_direction: Wind Direction
-    precipitation: Precipitation
-    precipitation_probability: Precipitation Probability
-    precipitation_today: Precipitation Today
-    precipitation_yesterday: Precipitation Yesterday
-    precipitation_duration_today: Precipitation Duration Today
-    precipitation_duration_yesterday: Precipitation Duration Yesterday
-    uv: UV Index
+    dew_point: "Punto de rocío"
+    delta_t: "Diferencia térmica"
+    humidity: "Humedad"
+    air_density: "Densidad del aire"
+    pressure: "Presión"
+    station_pressure: "Presión en la estación"
+    sea_level_pressure: "Presión a nivel del mar"
+    pressure_trend: "Tendencia de la presión"
+    pressure_rising: "Presión en aumento"
+    pressure_steady: "Presión estable"
+    pressure_falling: "Presión en descenso"
+    wind: "Viento"
+    wind_average: "Viento medio"
+    wind_gust: "Racha de viento"
+    wind_direction: "Dirección del viento"
+    precipitation: "Precipitación"
+    precipitation_probability: "Probabilidad de precipitación"
+    precipitation_today: "Precipitación de hoy"
+    precipitation_yesterday: "Precipitación de ayer"
+    precipitation_duration_today: "Duración de la precipitación de hoy"
+    precipitation_duration_yesterday: "Duración de la precipitación de ayer"
+    uv: "Índice UV"
     uv_short: UV
-    solar_radiation: Solar Radiation
-    brightness: Brightness
-    solar_radiation_and_brightness: Solar Radiation & Brightness
-    lightning: Lightning
-    lightning_activity: Lightning Activity
-    last_lightning_strike: Last Lightning Strike
-    lightning_distance: Lightning Distance
-    lightning_strikes_1h: Lightning Strikes (1 h)
-    lightning_strikes_3h: Lightning Strikes (3 h)
-    conditions: Conditions
-    right_now: Right Now
-    sunrise: Sunrise
-    sunset: Sunset
-    low: Low
-    high: High
-    min: Min.
-    max: Max.
-    refreshed: Refreshed
+    solar_radiation: "Radiación solar"
+    brightness: "Luminosidad"
+    solar_radiation_and_brightness: "Radiación solar y luminosidad"
+    lightning: "Rayos"
+    lightning_activity: "Actividad eléctrica"
+    last_lightning_strike: "Último rayo"
+    lightning_distance: "Distancia del rayo"
+    lightning_strikes_1h: "Rayos (1 h)"
+    lightning_strikes_3h: "Rayos (3 h)"
+    conditions: "Condiciones"
+    right_now: "Ahora mismo"
+    sunrise: "Amanecer"
+    sunset: "Atardecer"
+    low: "Baja"
+    high: "Alta"
+    min: "Mín."
+    max: "Máx."
+    refreshed: "Actualizado"
     deutsche_bahn_departures:
       departures: Salidas
       time: Hora
@@ -146,43 +146,43 @@ es-ES:
         - Perro
         - Cerdo
         zodiac_animals:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
+        - "Rata"
+        - "Buey"
+        - "Tigre"
+        - "Conejo"
+        - "Dragón"
+        - "Serpiente"
+        - "Caballo"
+        - "Cabra"
+        - "Mono"
+        - "Gallo"
+        - "Perro"
+        - "Cerdo"
         solar_terms:
-        - Minor Cold
-        - Major Cold
-        - Start of Spring
-        - Rain Water
-        - Awakening of Insects
-        - Spring Equinox
-        - Pure Brightness
-        - Grain Rain
-        - Start of Summer
-        - Grain Buds
-        - Grain in Ear
-        - Summer Solstice
-        - Minor Heat
-        - Major Heat
-        - Start of Autumn
-        - End of Heat
-        - White Dew
-        - Autumn Equinox
-        - Cold Dew
-        - Frost's Descent
-        - Start of Winter
-        - Minor Snow
-        - Major Snow
-        - Winter Solstice
+        - "Frío menor"
+        - "Frío mayor"
+        - "Inicio de la primavera"
+        - "Agua de lluvia"
+        - "Despertar de los insectos"
+        - "Equinoccio de primavera"
+        - "Claridad pura"
+        - "Lluvia de grano"
+        - "Inicio del verano"
+        - "Granos en formación"
+        - "Grano en espiga"
+        - "Solsticio de verano"
+        - "Calor menor"
+        - "Calor mayor"
+        - "Inicio del otoño"
+        - "Fin del calor"
+        - "Rocío blanco"
+        - "Equinoccio de otoño"
+        - "Rocío frío"
+        - "Llegada de las heladas"
+        - "Inicio del invierno"
+        - "Nieve ligera"
+        - "Nieve intensa"
+        - "Solsticio de invierno"
       japanese:
         rokuyo_terms:
         - 先勝
@@ -276,8 +276,8 @@ es-ES:
         - Magha
         - Phalguna
     public_recipe_stats:
-      connections: ".input {$value :number} .match $value one {{{$value :number} conexión}} many {{{$value :number} conexiones}} * {{{$value :number} conexiones}}"
-      forks: ".input {$value :number} .match $value one {{{$value :number} fork}} many {{{$value :number} forks}} * {{{$value :number} forks}}"
+      connections: ".input {$value :number} .match $value zero {{Sin conexiones}} one {{{$value :number} conexión}} * {{{$value :number} conexiones}}"
+      forks: ".input {$value :number} .match $value zero {{Sin forks}} one {{{$value :number} fork}} * {{{$value :number} forks}}"
       installs: ".input {$value :number} .match $value zero {{Sin instalaciones}} one {{{$value :number} instalación}} * {{{$value :number} instalaciones}}"
       and_more: y {$value :number} más
       error_keyword_title: "“{$keyword}” no ha dado resultados."
@@ -295,9 +295,9 @@ es-ES:
     language_learning_sentences:
       from_to: "{$from :langName} a {$to :langNameList}"
     custom_next_holiday:
-      next_holiday: Next holiday
-      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
-      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
-      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
-      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
-    sun_chart: Sun Chart
+      next_holiday: "Próxima festividad"
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Hoy es{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Mañana es {$nextName}.{/subLabel} }}* {{ {#mainLabel}Hoy es{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}La próxima festividad es {$nextName} dentro de {$nextDays} días.{/subLabel} }}"
+      today_only: "{#mainLabel}Hoy es{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Mañana es{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} días para{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      no_holidays: "{#subLabel}No quedan más festividades añadidas.{/subLabel}"
+    sun_chart: "Gráfico solar"
