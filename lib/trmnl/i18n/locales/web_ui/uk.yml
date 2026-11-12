@@ -376,6 +376,7 @@ uk:
     news:
       title: Новини
       cta: Переглянути все
+      feed_link: RSS feed for TRMNL news
     playlist_items:
       title: Плейлисти
       cta: Перейти до плейлистів
@@ -385,6 +386,7 @@ uk:
       cta: Перейти до плагінів
       recently_published: Recently Published
       connected_count: "%{count} connected"
+      feed_link: RSS feed for new plugins
     shop:
       title: Магазин
       another_trmnl: Need another TRMNL?
@@ -670,6 +672,15 @@ uk:
       message_without_limit: Пристрій відхилив зображення розміром %{size} як завелике.
     update_discover_banner:
       hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
+    live_mode:
+      title: Live mode
+      hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
+      duration: Live mode duration
+      start: Start live mode
+      ends_at_html: Live until %{time}. The device sleeps again after that.
+      end_now: End now
+      started: Live mode starts at the next check-in.
+      ended: Live mode ended.
   discovery:
     dashboard_action:
       saved:
@@ -1190,6 +1201,8 @@ uk:
       remove_account_confirm: Remove %{account} from this plugin?
       account_removed: Account removed.
       stopped_notifications_checkbox: Email me when this plugin stops refreshing
+      reconnect_account: Reconnect
+      account_disconnected: No longer connected
     import:
       archive_too_large: ZIP-файл завеликий (максимум %{max_mb} МБ)
       missing_entry: ZIP-файл не містить %{filename}
@@ -1223,6 +1236,7 @@ uk:
     state_cleared: Збережений стан очищено. Наступне оновлення почнеться з нуля.
     index:
       no_plugin_settings_found: Ви ще не налаштували цей плагін.
+      analytics: Analytics
     health_status_banner:
       short_heading: Аналітика плагіна
       long_heading: Відстежуйте аналітику та стан усіх установлень плагіна
@@ -1244,6 +1258,7 @@ uk:
       detail_placeholder: Розкажіть докладніше (необов’язково)
       cancel: Скасувати
       confirm: Видалити
+      not_working_placeholder: Tell the author what didn't work so they can improve it.
     mcp_key:
       title: Ключ API MCP
       description: Використовуйте цей ключ, щоб підключити ШІ-агентів (Claude Desktop тощо) для керування розміткою плагіна.
@@ -1984,6 +1999,10 @@ uk:
         envoy_assumptions: Ліцензії кімнат, планшети Android і корпуси із замками. Плату за платформу не враховано.
         tablet_assumptions: Планшети, корпуси із замками та Бронювання. Припускається наявність розеток.
         comparison_exclusions: Ціни для США без податків і доставки. Монтаж живлення та керування пристроями не враховано. Джерела й припущення наведено в кожному порівнянні.
+      dashboard_setup:
+        title: Finish setting up Booking
+        description: Show a calendar on your TRMNL to see room availability and upcoming bookings.
+        continue: Continue setup
     fleet:
       tagline: Дублюйте екран і налаштування одного пристрою на багатьох дисплеях.
       check_ins:
@@ -3436,3 +3455,4 @@ uk:
       missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
       dead_link: The link it reads from no longer works. Paste a current link in its settings.
       unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.
+      reselect: Its photo selection expired. Choose your photos again in its settings.

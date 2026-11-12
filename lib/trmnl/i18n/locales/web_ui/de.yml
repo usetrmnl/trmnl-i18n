@@ -344,6 +344,7 @@ de:
     news:
       title: Neuigkeiten
       cta: Alle anzeigen
+      feed_link: RSS feed for TRMNL news
     playlist_items:
       title: Wiedergabelisten
       cta: Wiedergabelisten anzeigen
@@ -353,6 +354,7 @@ de:
       cta: Erweiterungen anzeigen
       recently_published: Recently Published
       connected_count: "%{count} connected"
+      feed_link: RSS feed for new plugins
     shop:
       title: Shop
       another_trmnl: Brauchst du noch ein TRMNL?
@@ -632,6 +634,15 @@ de:
       message_without_limit: Dein Gerät hat ein %{size}-Bild als zu groß abgelehnt.
     update_discover_banner:
       hidden_notice: Discover-Banner ausgeblendet. Du kannst es jederzeit in den Geräteeinstellungen wieder einschalten.
+    live_mode:
+      title: Live mode
+      hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
+      duration: Live mode duration
+      start: Start live mode
+      ends_at_html: Live until %{time}. The device sleeps again after that.
+      end_now: End now
+      started: Live mode starts at the next check-in.
+      ended: Live mode ended.
   discovery:
     dashboard_action:
       saved:
@@ -1146,6 +1157,8 @@ de:
       remove_account_confirm: "%{account} von dieser Erweiterung entfernen?"
       account_removed: Konto entfernt.
       stopped_notifications_checkbox: Per E-Mail benachrichtigen, wenn diese Erweiterung nicht mehr aktualisiert
+      reconnect_account: Reconnect
+      account_disconnected: No longer connected
     import:
       archive_too_large: ZIP-Datei ist zu groß (maximal %{max_mb} MB)
       missing_entry: Die ZIP-Datei enthält nicht %{filename}
@@ -1177,6 +1190,7 @@ de:
     state_cleared: Gespeicherter Status gelöscht. Die nächste Aktualisierung beginnt von vorn.
     index:
       no_plugin_settings_found: Du hast diese Erweiterung noch nicht eingerichtet.
+      analytics: Analytics
     health_status_banner:
       short_heading: Erweiterung-Analyse
       long_heading: Überwache Erweiterungs-Analyse und -Zustände über alle Installationen hinweg
@@ -1198,6 +1212,7 @@ de:
       detail_placeholder: Erzähl uns mehr (optional)
       cancel: Abbrechen
       confirm: Deinstallieren
+      not_working_placeholder: Tell the author what didn't work so they can improve it.
     mcp_key:
       title: MCP-API-Schlüssel
       description: Verwende diesen Schlüssel, um KI-Agenten (z. B. Claude Desktop) mit dem Markup dieser Erweiterung zu verbinden.
@@ -1912,6 +1927,10 @@ de:
         envoy_assumptions: Raumlizenzen, Android-Tablets und abschließbare Gehäuse. Plattformgebühr ausgeschlossen.
         tablet_assumptions: Tablets, abschließbare Gehäuse und Booking. Vorhandene Steckdosen vorausgesetzt.
         comparison_exclusions: US-Preise vor Steuern und Versand. Stromanschluss und Geräteverwaltung ausgeschlossen. Quellen und Annahmen siehe jeweiliger Vergleich.
+      dashboard_setup:
+        title: Finish setting up Booking
+        description: Show a calendar on your TRMNL to see room availability and upcoming bookings.
+        continue: Continue setup
     fleet:
       tagline: Spiegle Bildschirm und Einstellungen eines Geräts auf viele Displays.
       check_ins:
@@ -3350,3 +3369,4 @@ de:
       missing_calendar: Einer ihrer Kalender wurde gelöscht oder wird nicht mehr mit dir geteilt. Wähle deine Kalender in ihren Einstellungen erneut aus.
       dead_link: Der Link, von dem sie liest, funktioniert nicht mehr. Füge einen aktuellen Link in ihren Einstellungen ein.
       unreachable: Sie konnte den Dienst, von dem sie liest, nicht erreichen. Wir versuchen es einmal täglich erneut, und sie aktualisiert sich automatisch wieder, sobald der Dienst antwortet.
+      reselect: Its photo selection expired. Choose your photos again in its settings.

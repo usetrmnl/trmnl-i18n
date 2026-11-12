@@ -344,6 +344,7 @@ raw:
     news:
       title: dashboard.news.title
       cta: dashboard.news.cta
+      feed_link: dashboard.news.feed_link
     playlist_items:
       title: dashboard.playlists.title
       cta: dashboard.playlists.cta
@@ -353,6 +354,7 @@ raw:
       cta: dashboard.plugins.cta
       recently_published: dashboard.plugins.recently_published
       connected_count: dashboard.plugins.connected_count
+      feed_link: dashboard.plugins.feed_link
     shop:
       title: dashboard.shop.title
       another_trmnl: dashboard.shop.another_trmnl
@@ -632,6 +634,15 @@ raw:
       message_without_limit: devices.image_too_big.message_without_limit
     update_discover_banner:
       hidden_notice: devices.update_discover_banner.hidden_notice
+    live_mode:
+      title: devices.live_mode.title
+      hint: devices.live_mode.hint
+      duration: devices.live_mode.duration
+      start: devices.live_mode.start
+      ends_at_html: devices.live_mode.ends_at_html
+      end_now: devices.live_mode.end_now
+      started: devices.live_mode.started
+      ended: devices.live_mode.ended
   discovery:
     dashboard_action:
       saved:
@@ -1146,6 +1157,8 @@ raw:
       remove_account_confirm: plugin_settings.form.remove_account_confirm
       account_removed: plugin_settings.form.account_removed
       stopped_notifications_checkbox: plugin_settings.form.stopped_notifications_checkbox
+      reconnect_account: plugin_settings.form.reconnect_account
+      account_disconnected: plugin_settings.form.account_disconnected
     import:
       archive_too_large: plugin_settings.import.archive_too_large
       missing_entry: plugin_settings.import.missing_entry
@@ -1177,6 +1190,7 @@ raw:
     state_cleared: plugin_settings.state_cleared
     index:
       no_plugin_settings_found: plugin_settings.index.no_plugin_settings_found
+      analytics: plugin_settings.index.analytics
     health_status_banner:
       short_heading: plugin_settings.health_status_banner.short_heading
       long_heading: plugin_settings.health_status_banner.long_heading
@@ -1198,6 +1212,7 @@ raw:
       detail_placeholder: plugin_settings.uninstall_modal.detail_placeholder
       cancel: plugin_settings.uninstall_modal.cancel
       confirm: plugin_settings.uninstall_modal.confirm
+      not_working_placeholder: plugin_settings.uninstall_modal.not_working_placeholder
     mcp_key:
       title: plugin_settings.mcp_key.title
       description: plugin_settings.mcp_key.description
@@ -1910,6 +1925,10 @@ raw:
         envoy_assumptions: apps.room_booking.pricing.envoy_assumptions
         tablet_assumptions: apps.room_booking.pricing.tablet_assumptions
         comparison_exclusions: apps.room_booking.pricing.comparison_exclusions
+      dashboard_setup:
+        title: apps.room_booking.dashboard_setup.title
+        description: apps.room_booking.dashboard_setup.description
+        continue: apps.room_booking.dashboard_setup.continue
     fleet:
       tagline: apps.fleet.tagline
       check_ins:
@@ -3057,3 +3076,4 @@ raw:
       missing_calendar: health_status_banner.next_steps.missing_calendar
       dead_link: health_status_banner.next_steps.dead_link
       unreachable: health_status_banner.next_steps.unreachable
+      reselect: health_status_banner.next_steps.reselect

@@ -344,6 +344,7 @@ lt:
     news:
       title: Naujienos
       cta: Žiūrėti viską
+      feed_link: RSS feed for TRMNL news
     playlist_items:
       title: Grojaraštis
       cta: Redaguoti grojaraštį
@@ -353,6 +354,7 @@ lt:
       cta: Eiti į įskiepius
       recently_published: Recently Published
       connected_count: "%{count} connected"
+      feed_link: RSS feed for new plugins
     shop:
       title: Parduotuvė
       another_trmnl: Need another TRMNL?
@@ -632,6 +634,15 @@ lt:
       message_without_limit: Your device rejected a %{size} image as too big.
     update_discover_banner:
       hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
+    live_mode:
+      title: Live mode
+      hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
+      duration: Live mode duration
+      start: Start live mode
+      ends_at_html: Live until %{time}. The device sleeps again after that.
+      end_now: End now
+      started: Live mode starts at the next check-in.
+      ended: Live mode ended.
   discovery:
     dashboard_action:
       saved:
@@ -1146,6 +1157,8 @@ lt:
       remove_account_confirm: Remove %{account} from this plugin?
       account_removed: Account removed.
       stopped_notifications_checkbox: Email me when this plugin stops refreshing
+      reconnect_account: Reconnect
+      account_disconnected: No longer connected
     import:
       archive_too_large: ZIP failas yra per didelis (maksimaliai %{max_mb} MB)
       missing_entry: ZIP faile nėra %{filename}
@@ -1177,6 +1190,7 @@ lt:
     state_cleared: Saved state cleared. The next refresh starts from scratch.
     index:
       no_plugin_settings_found: You have not set up this plugin yet.
+      analytics: Analytics
     health_status_banner:
       short_heading: Plugin analytics
       long_heading: Monitor plugin analytics and health across installs
@@ -1198,6 +1212,7 @@ lt:
       detail_placeholder: Tell us more (optional)
       cancel: Cancel
       confirm: Uninstall
+      not_working_placeholder: Tell the author what didn't work so they can improve it.
     mcp_key:
       title: MCP API Key
       description: Use this key to connect AI agents (Claude Desktop, etc.) to manage this plugin's markup.
@@ -1912,6 +1927,10 @@ lt:
         envoy_assumptions: Room licenses, Android tablets and locking enclosures. Platform fee excluded.
         tablet_assumptions: Tablets, locking enclosures and Booking. Existing outlets assumed.
         comparison_exclusions: US prices before tax and shipping. Power installation and device management excluded. See each comparison for sources and assumptions.
+      dashboard_setup:
+        title: Finish setting up Booking
+        description: Show a calendar on your TRMNL to see room availability and upcoming bookings.
+        continue: Continue setup
     fleet:
       tagline: Mirror one device's screen and settings across many displays.
       check_ins:
@@ -3350,3 +3369,4 @@ lt:
       missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
       dead_link: The link it reads from no longer works. Paste a current link in its settings.
       unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.
+      reselect: Its photo selection expired. Choose your photos again in its settings.

@@ -4,9 +4,9 @@ es-ES:
     and_x_more_prefix: "y"
     and_x_more_suffix: más
     calendars:
-      no_upcoming_events: "No hay próximos eventos"
-      no_events_today: "No hay eventos hoy"
-      all_day: "Todo el día"
+      no_upcoming_events: No hay próximos eventos
+      no_events_today: No hay eventos hoy
+      all_day: Todo el día
     days_left_year:
       title: Días Restantes Este Año
       days_passed: Días Pasados
@@ -34,8 +34,8 @@ es-ES:
       title_short: Netatmo
       indoor_temp: Temp. Interior
       indoor_temp_short: Interior
-      outdoor_temp: "Temp. exterior"
-      outdoor_temp_short: "Exterior"
+      outdoor_temp: Temp. exterior
+      outdoor_temp_short: Exterior
       indoor_humidity: Humedad Interior
       indoor_humidity_short: Hum. Int.
       outdoor_humidity: Humedad Exterior
@@ -70,20 +70,20 @@ es-ES:
       add_module_hint: Añade el módulo opcional %{module} para ver estos datos
       range_24h: Rango 24h
       conditions:
-        hot_humid: "Caluroso y húmedo"
-        hot_dry: "Caluroso y seco"
-        mild_humid: "Templado y húmedo"
-        pleasant: "Agradable"
-        cool_humid: "Fresco y húmedo"
-        cool_dry: "Fresco y seco"
-        no_data: "Sin datos"
+        hot_humid: Caluroso y húmedo
+        hot_dry: Caluroso y seco
+        mild_humid: Templado y húmedo
+        pleasant: Agradable
+        cool_humid: Fresco y húmedo
+        cool_dry: Fresco y seco
+        no_data: Sin datos
       errors:
         missing_access_token: Falta token de acceso. Por favor, reconecta tu cuenta Netatmo.
         no_station_selected: No hay estación seleccionada. Elige una en ajustes.
         connection_failed: No se puede conectar con la Estación Netatmo. Revisa tu conexión.
         data_retrieval_failed: Error al obtener datos. Inténtalo más tarde.
         session_expired: Sesión caducada. Por favor, reconecta tu cuenta Netatmo en ajustes.
-        indoor_module_missing: "No se ha encontrado el módulo interior seleccionado. Vuelve a configurarlo en los ajustes."
+        indoor_module_missing: No se ha encontrado el módulo interior seleccionado. Vuelve a configurarlo en los ajustes.
     parcel:
       delivery_by: Entrega Prevista
       empty: No hay envíos
@@ -129,20 +129,20 @@ es-ES:
         conditions:
           clear: Despejado
           cloudy: Nublado
-          extreme_rain: "Lluvia extrema"
+          extreme_rain: Lluvia extrema
           foggy: Con Niebla
-          heavy_rain: "Lluvia intensa"
-          light_rain: "Lluvia débil"
-          moderate_rain: "Lluvia moderada"
+          heavy_rain: Lluvia intensa
+          light_rain: Lluvia débil
+          moderate_rain: Lluvia moderada
           partly_cloudy: Parcialmente Nublado
           rain_likely: Lluvia probable
           rain_possible: Posible Lluvia
           snow: Nieve
-          snow_likely: "Probabilidad de nieve"
+          snow_likely: Probabilidad de nieve
           snow_possible: Posible Nieve
           thunderstorms_likely: Probabilidad de Tormenta
           thunderstorms_possible: Posible Tormenta
-          very_heavy_rain: "Lluvia muy intensa"
+          very_heavy_rain: Lluvia muy intensa
           very_light_rain: Lluvia Muy Ligera
           windy: Ventoso
           wintry_mix_likely: Aguanieve probable
@@ -299,69 +299,74 @@ es-ES:
         - code: 1282
           day: Tormenta con Nieve
           night: Tormenta con Nieve
-      dew_point: "Punto de rocío"
-      dew_point_short: "P. de rocío"
+      dew_point: Punto de rocío
+      dew_point_short: P. de rocío
     place_of_the_day:
-      title: "Lugar del día"
+      title: Lugar del día
       wikipedia_credit: Wikipedia CC BY-SA
-      type: "Tipo"
-      population: "Población"
-      coordinates: "Coordenadas"
-      founded: "Fundación"
-      elevation: "Altitud"
-      area: "Superficie"
-      local_time: "Hora local"
+      type: Tipo
+      population: Población
+      coordinates: Coordenadas
+      founded: Fundación
+      elevation: Altitud
+      area: Superficie
+      local_time: Hora local
       year_bc: "%{count} a. C."
       metres: "%{count} m"
       square_km: "%{count} km²"
-      city: "Ciudad"
-      wonder: "Maravilla"
+      city: Ciudad
+      wonder: Maravilla
     welcome:
       title: Bienvenido
       greeting: Hola, %{name}
       greeting_blank: Hola
     homey:
-      'on': "Encendido"
-      'off': "Apagado"
-      offline: "Sin conexión"
-      all_offline: "Todos sin conexión"
+      'on': Encendido
+      'off': Apagado
+      offline: Sin conexión
+      all_offline: Todos sin conexión
       all_offline_hint:
-        one: "No se puede acceder a un dispositivo"
-        other: "No se puede acceder a ninguno de los %{count} dispositivos"
+        one: No se puede acceder a un dispositivo
+        other: No se puede acceder a ninguno de los %{count} dispositivos
       batteries_healthy:
-        one: "Pila"
-        other: "Pilas"
+        one: Pila
+        other: Pilas
       batteries_low:
-        one: "Necesita una pila"
-        other: "Necesitan pilas"
-      no_batteries: "No hay pilas que supervisar"
-      no_batteries_hint: "Aquí no se muestra el nivel de ninguna pila"
-      insights: "Estadísticas"
-      no_chart: "Sin gráfico"
-      no_insights: "Todavía no hay series de datos"
-      no_insights_hint: "Una aplicación de Homey puede enviar datos de Insights para mostrarlos aquí"
-      no_devices: "Esperando a tus primeros dispositivos"
-      no_devices_hint: "Aparecerán tras el primer envío de datos o la sincronización con la nube"
+        one: Necesita una pila
+        other: Necesitan pilas
+      no_batteries: No hay pilas que supervisar
+      no_batteries_hint: Aquí no se muestra el nivel de ninguna pila
+      insights: Estadísticas
+      no_chart: Sin gráfico
+      no_insights: Todavía no hay series de datos
+      no_insights_hint: Una aplicación de Homey puede enviar datos de Insights para mostrarlos aquí
+      no_devices: Esperando a tus primeros dispositivos
+      no_devices_hint: Aparecerán tras el primer envío de datos o la sincronización con la nube
+      state: State
+      closed: Closed
+      open: Open
+      locked: Locked
+      unlocked: Unlocked
     mazevo:
-      in_use: "En uso"
-      available: "Disponible"
-      available_until: "Disponible hasta las %{time}"
-      available_all_day: "Disponible durante el resto del día"
-      coming_up: "Próximamente"
-      later_today: "Más tarde hoy"
-      nothing_later: "No hay nada más para hoy"
-      earlier_today: "Hoy, anteriormente"
-      no_bookings: "No hay reservas para hoy"
-      private_booking: "Reserva privada"
+      in_use: En uso
+      available: Disponible
+      available_until: Disponible hasta las %{time}
+      available_all_day: Disponible durante el resto del día
+      coming_up: Próximamente
+      later_today: Más tarde hoy
+      nothing_later: No hay nada más para hoy
+      earlier_today: Hoy, anteriormente
+      no_bookings: No hay reservas para hoy
+      private_booking: Reserva privada
       time_range: "%{start} – %{end}"
-      updated_at: "Actualizado: %{time}"
+      updated_at: 'Actualizado: %{time}'
     ai_dashboard:
       out_of_credit:
-        title: "Sin créditos de IA"
-        description: "Suscríbete a TRMNL+ para obtener créditos de IA o recarga tu cuenta para usar este plugin."
-        own_api_key_off: "También puedes activar «Usar mi propia clave de IA» en los ajustes de este panel."
+        title: Sin créditos de IA
+        description: Suscríbete a TRMNL+ para obtener créditos de IA o recarga tu cuenta para usar este plugin.
+        own_api_key_off: También puedes activar «Usar mi propia clave de IA» en los ajustes de este panel.
       ai_key_refused:
-        title: "Tu proveedor de IA ha rechazado la clave"
+        title: Tu proveedor de IA ha rechazado la clave
     days_left_until:
-      today: "Hoy: %{date}"
-      target: "Objetivo: %{date}"
+      today: 'Hoy: %{date}'
+      target: 'Objetivo: %{date}'

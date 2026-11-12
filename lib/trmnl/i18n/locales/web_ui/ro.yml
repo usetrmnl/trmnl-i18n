@@ -360,6 +360,7 @@ ro:
     news:
       title: Știri
       cta: Vezi toate
+      feed_link: RSS feed for TRMNL news
     playlist_items:
       title: Listă de redare
       cta: Editează lista de redare
@@ -369,6 +370,7 @@ ro:
       cta: Mergi la pluginuri
       recently_published: Recently Published
       connected_count: "%{count} connected"
+      feed_link: RSS feed for new plugins
     shop:
       title: Magazin
       another_trmnl: Mai ai nevoie de un TRMNL?
@@ -653,6 +655,15 @@ ro:
       message_without_limit: Dispozitivul a respins o imagine de %{size} deoarece este prea mare.
     update_discover_banner:
       hidden_notice: Bannerul Descoperă a fost ascuns. Îl poți reactiva oricând din setările dispozitivului.
+    live_mode:
+      title: Live mode
+      hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
+      duration: Live mode duration
+      start: Start live mode
+      ends_at_html: Live until %{time}. The device sleeps again after that.
+      end_now: End now
+      started: Live mode starts at the next check-in.
+      ended: Live mode ended.
   discovery:
     dashboard_action:
       saved:
@@ -1171,6 +1182,8 @@ ro:
       remove_account_confirm: Elimini %{account} din acest plugin?
       account_removed: Cont eliminat.
       stopped_notifications_checkbox: Email me when this plugin stops refreshing
+      reconnect_account: Reconnect
+      account_disconnected: No longer connected
     import:
       archive_too_large: Fișierul ZIP este prea mare (%{max_mb} MB maxim)
       missing_entry: Fișierul ZIP nu conține %{filename}
@@ -1203,6 +1216,7 @@ ro:
     state_cleared: Starea salvată a fost ștearsă. Următoarea reîmprospătare va porni de la zero.
     index:
       no_plugin_settings_found: Nu ai configurat încă acest plugin.
+      analytics: Analytics
     health_status_banner:
       short_heading: Statistici ale pluginului
       long_heading: Urmărește statisticile și funcționarea pluginului în toate instalările
@@ -1224,6 +1238,7 @@ ro:
       detail_placeholder: Spune-ne mai multe (opțional)
       cancel: Anulează
       confirm: Dezinstalează
+      not_working_placeholder: Tell the author what didn't work so they can improve it.
     mcp_key:
       title: Cheie API MCP
       description: Folosește această cheie pentru a conecta agenți AI (Claude Desktop etc.) care să gestioneze codul de afișare al pluginului.
@@ -1951,6 +1966,10 @@ ro:
         envoy_assumptions: Licențe pentru săli, tablete Android și carcase cu încuietoare. Taxa de platformă nu este inclusă.
         tablet_assumptions: Tablete, carcase cu încuietoare și Rezervări. Se presupune că există deja prize.
         comparison_exclusions: Prețuri din SUA, fără taxe și transport. Instalarea alimentării electrice și administrarea dispozitivelor nu sunt incluse. Vezi sursele și ipotezele din fiecare comparație.
+      dashboard_setup:
+        title: Finish setting up Booking
+        description: Show a calendar on your TRMNL to see room availability and upcoming bookings.
+        continue: Continue setup
     fleet:
       tagline: Oglindește ecranul și setările unui dispozitiv pe mai multe ecrane.
       check_ins:
@@ -3406,3 +3425,4 @@ ro:
       missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
       dead_link: The link it reads from no longer works. Paste a current link in its settings.
       unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.
+      reselect: Its photo selection expired. Choose your photos again in its settings.
