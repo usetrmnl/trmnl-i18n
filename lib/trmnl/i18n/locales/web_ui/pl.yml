@@ -366,6 +366,7 @@ pl:
     news:
       title: Wiadomości
       cta: Zobacz wszystkie
+      feed_link: RSS feed for TRMNL news
     playlist_items:
       title: Playlista
       cta: Edytuj Playlistę
@@ -375,6 +376,7 @@ pl:
       cta: Przejdź do pluginów
       recently_published: Ostatnio opublikowane
       connected_count: 'Połączonych: %{count}'
+      feed_link: RSS feed for new plugins
     shop:
       title: Sklep
       another_trmnl: Potrzebujesz kolejnego urządzenia TRMNL?
@@ -654,6 +656,15 @@ pl:
       message_without_limit: Urządzenie odrzuciło zbyt duży obraz o rozmiarze %{size}.
     update_discover_banner:
       hidden_notice: Ukryto baner Odkrywaj. Możesz ponownie włączyć go w dowolnej chwili w ustawieniach urządzenia.
+    live_mode:
+      title: Live mode
+      hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
+      duration: Live mode duration
+      start: Start live mode
+      ends_at_html: Live until %{time}. The device sleeps again after that.
+      end_now: End now
+      started: Live mode starts at the next check-in.
+      ended: Live mode ended.
   discovery:
     dashboard_action:
       saved:
@@ -1168,6 +1179,8 @@ pl:
       remove_account_confirm: Usunąć konto %{account} z tego pluginu?
       account_removed: Usunięto konto.
       stopped_notifications_checkbox: Powiadom mnie e-mailem, gdy plugin przestanie się odświeżać
+      reconnect_account: Reconnect
+      account_disconnected: No longer connected
     import:
       archive_too_large: Archiwum ZIP jest zbyt duże (maksimum %{max_mb} MB)
       missing_entry: Archiwum ZIP nie zawiera %{filename}
@@ -1199,6 +1212,7 @@ pl:
     state_cleared: Zapisany stan został wyczyszczony. Następne odświeżenie rozpocznie się od początku.
     index:
       no_plugin_settings_found: Ten plugin nie został jeszcze skonfigurowany.
+      analytics: Analytics
     health_status_banner:
       short_heading: Analityka pluginu
       long_heading: Monitoruj analitykę i stan pluginu we wszystkich instalacjach
@@ -1220,6 +1234,7 @@ pl:
       detail_placeholder: Napisz więcej (opcjonalnie)
       cancel: Anuluj
       confirm: Odinstaluj
+      not_working_placeholder: Tell the author what didn't work so they can improve it.
     mcp_key:
       title: Klucz API MCP
       description: Użyj tego klucza, aby połączyć agentów AI (Claude Desktop itp.) i umożliwić im zarządzanie kodem szablonu tego pluginu.
@@ -1934,6 +1949,10 @@ pl:
         envoy_assumptions: Licencje na sale, tablety z Androidem i zamykane obudowy. Bez opłaty za platformę.
         tablet_assumptions: Tablety, zamykane obudowy i Booking. Założono dostępność gniazdek zasilania.
         comparison_exclusions: Ceny w USA bez podatków i kosztów wysyłki. Nie uwzględniono instalacji zasilania ani zarządzania urządzeniami. Źródła i założenia znajdziesz w poszczególnych porównaniach.
+      dashboard_setup:
+        title: Finish setting up Booking
+        description: Show a calendar on your TRMNL to see room availability and upcoming bookings.
+        continue: Continue setup
     fleet:
       tagline: Odzwierciedlaj ekran i ustawienia jednego urządzenia na wielu wyświetlaczach.
       check_ins:
@@ -3372,3 +3391,4 @@ pl:
       missing_calendar: Jeden z używanych kalendarzy został usunięty lub przestał być Ci udostępniany. Wybierz ponownie kalendarze w ustawieniach pluginu.
       dead_link: Link, z którego pobierane są dane, przestał działać. Wklej aktualny link w ustawieniach pluginu.
       unreachable: Nie udało się połączyć z usługą, z której pobierane są dane. Ponowimy próbę raz dziennie, a gdy usługa zacznie odpowiadać, odświeżanie wznowi się automatycznie.
+      reselect: Its photo selection expired. Choose your photos again in its settings.
