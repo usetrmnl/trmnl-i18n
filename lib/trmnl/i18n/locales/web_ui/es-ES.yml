@@ -221,6 +221,7 @@ es-ES:
       stopped_emails: Correos de plugins detenidos
       stopped_emails_on: Activados para todos los plugins y mashups. Cada correo incluye un enlace para desactivar los avisos de ese elemento.
       stopped_emails_off_for: 'Activados para todos los plugins y mashups excepto:'
+      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
     update:
       success: Perfil actualizado correctamente
     reset_api_key:
@@ -335,6 +336,8 @@ es-ES:
       trial_device_deleted: Dispositivo de prueba eliminado.
       trial_device_deleted_refunded: Dispositivo de prueba eliminado. Se te ha devuelto 1 $.
     cli_hint: Trabaja desde la terminal con la __CLI de TRMNL__.
+    revoke_api_key:
+      success: API key was revoked
   dashboard:
     index:
       title: Panel de control
@@ -577,6 +580,8 @@ es-ES:
           one: Needs a charge in about 1 week.
           other: Needs a charge in about %{count} weeks.
         month: Needs a charge around %{month}.
+      auto_orientation: Follow device orientation
+      auto_orientation_hint: The device sets portrait or landscape when you turn it.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -976,6 +981,7 @@ es-ES:
       categories: Categorías
       discover: Descubrir
       you_may_also_like: También te puede gustar
+      browse_all_recipes: Browse all recipes
     search:
       placeholder: Buscar plugins
     my:
@@ -1029,6 +1035,13 @@ es-ES:
       installed: Instalada
       open_settings: Abrir ajustes
       fork_this_recipe: Crear una copia de esta receta
+      strategies:
+        async_polling: Async Polling
+        none: None
+        plugin_merge: Plugin Merge
+        polling: Polling
+        static: Static
+        webhook: Webhook
     added_to_playlist: Añadido a tu lista de reproducción. Revisa los ajustes de abajo.
     check_settings: Instalado. Revisa los ajustes de abajo.
   plugin_settings:

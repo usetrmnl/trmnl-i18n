@@ -221,6 +221,7 @@ raw:
       stopped_emails: account.index.stopped_emails
       stopped_emails_on: account.index.stopped_emails_on
       stopped_emails_off_for: account.index.stopped_emails_off_for
+      api_key_revoke_confirm: account.index.api_key_revoke_confirm
     update:
       success: account.update.success
     reset_api_key:
@@ -335,6 +336,8 @@ raw:
       trial_device_deleted: account.destroy.trial_device_deleted
       trial_device_deleted_refunded: account.destroy.trial_device_deleted_refunded
     cli_hint: account.cli_hint
+    revoke_api_key:
+      success: account.revoke_api_key.success
   dashboard:
     index:
       title: dashboard.index.title
@@ -577,6 +580,8 @@ raw:
           one: devices.edit.charge_forecast.weeks.one
           other: devices.edit.charge_forecast.weeks.other
         month: devices.edit.charge_forecast.month
+      auto_orientation: devices.edit.auto_orientation
+      auto_orientation_hint: devices.edit.auto_orientation_hint
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -976,6 +981,7 @@ raw:
       categories: plugins.index.categories
       discover: plugins.index.discover
       you_may_also_like: plugins.index.you_may_also_like
+      browse_all_recipes: plugins.index.browse_all_recipes
     search:
       placeholder: plugins.search.placeholder
     my:
@@ -1029,6 +1035,13 @@ raw:
       installed: plugin_recipes.show.installed
       open_settings: plugin_recipes.show.open_settings
       fork_this_recipe: plugin_recipes.show.fork_this_recipe
+      strategies:
+        async_polling: plugin_recipes.show.strategies.async_polling
+        none: plugin_recipes.show.strategies.none
+        plugin_merge: plugin_recipes.show.strategies.plugin_merge
+        polling: plugin_recipes.show.strategies.polling
+        static: plugin_recipes.show.strategies.static
+        webhook: plugin_recipes.show.strategies.webhook
     added_to_playlist: plugin_recipes.added_to_playlist
     check_settings: plugin_recipes.check_settings
   plugin_settings:

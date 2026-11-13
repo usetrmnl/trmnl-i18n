@@ -221,6 +221,7 @@ de:
       stopped_emails: E-Mails bei gestoppten Erweiterungen
       stopped_emails_on: Für alle Erweiterungen und Mashups aktiv. Jede E-Mail enthält einen Link, um sie für dieses eine abzuschalten.
       stopped_emails_off_for: 'Aktiv für alle Erweiterungen und Mashups, außer:'
+      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
     update:
       success: Konto erfolgreich aktualisiert
     reset_api_key:
@@ -335,6 +336,8 @@ de:
       trial_device_deleted: Testgerät gelöscht.
       trial_device_deleted_refunded: Testgerät gelöscht. Deine $1 wurden erstattet.
     cli_hint: Arbeite über ein Terminal mit der __TRMNL CLI__.
+    revoke_api_key:
+      success: API key was revoked
   dashboard:
     index:
       title: Übersicht
@@ -577,6 +580,8 @@ de:
           one: Muss in etwa 1 Woche geladen werden.
           other: Muss in etwa %{count} Wochen geladen werden.
         month: Muss etwa im %{month} geladen werden.
+      auto_orientation: Follow device orientation
+      auto_orientation_hint: The device sets portrait or landscape when you turn it.
     discover_persona:
       label: Persona & Entdecken
       disabled_hint: Deaktiviert für gespiegelte TRMNLs. Verwalte Empfehlungen stattdessen auf dem Hauptgerät.
@@ -976,6 +981,7 @@ de:
       categories: Kategorien
       discover: Entdecken
       you_may_also_like: Das könnte dir auch gefallen
+      browse_all_recipes: Browse all recipes
     search:
       placeholder: Erweiterungen suchen
     my:
@@ -1029,6 +1035,13 @@ de:
       installed: Installiert
       open_settings: Einstellungen öffnen
       fork_this_recipe: Diese Blaupause forken
+      strategies:
+        async_polling: Async Polling
+        none: None
+        plugin_merge: Plugin Merge
+        polling: Polling
+        static: Static
+        webhook: Webhook
     added_to_playlist: Zu deiner Wiedergabeliste hinzugefügt. Prüfe die Einstellungen unten.
     check_settings: Installiert. Prüfe die Einstellungen unten.
   plugin_settings:

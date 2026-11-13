@@ -243,6 +243,7 @@ pl:
       stopped_emails: Powiadomienia e-mail o zatrzymaniu pluginów
       stopped_emails_on: Włączone dla wszystkich pluginów i mashupów. Każda wiadomość zawiera link pozwalający wyłączyć powiadomienia dla danego elementu.
       stopped_emails_off_for: 'Włączone dla wszystkich pluginów i mashupów z wyjątkiem:'
+      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
     update:
       success: Pomyślnie zaktualizowano profil
     reset_api_key:
@@ -357,6 +358,8 @@ pl:
       trial_device_deleted: Urządzenie próbne zostało usunięte.
       trial_device_deleted_refunded: Urządzenie próbne zostało usunięte. Zwrócono 1 USD.
     cli_hint: Pracuj z terminala za pomocą __TRMNL CLI__.
+    revoke_api_key:
+      success: API key was revoked
   dashboard:
     index:
       title: Pulpit
@@ -599,6 +602,8 @@ pl:
           one: Ładowanie będzie potrzebne za około 1 tydzień.
           other: Ładowanie będzie potrzebne za około %{count} tygodni.
         month: 'Przewidywany termin ładowania: %{month}.'
+      auto_orientation: Follow device orientation
+      auto_orientation_hint: The device sets portrait or landscape when you turn it.
     discover_persona:
       label: Persona i Odkrywaj
       disabled_hint: Wyłączone dla urządzeń TRMNL będących kopiami lustrzanymi. Zamiast tego zarządzaj rekomendacjami na urządzeniu nadrzędnym.
@@ -998,6 +1003,7 @@ pl:
       categories: Kategorie
       discover: Odkrywaj
       you_may_also_like: Może Ci się również spodobać
+      browse_all_recipes: Browse all recipes
     search:
       placeholder: Szukaj pluginów
     my:
@@ -1051,6 +1057,13 @@ pl:
       installed: Zainstalowano
       open_settings: Otwórz ustawienia
       fork_this_recipe: Utwórz własną wersję tej receptury
+      strategies:
+        async_polling: Async Polling
+        none: None
+        plugin_merge: Plugin Merge
+        polling: Polling
+        static: Static
+        webhook: Webhook
     added_to_playlist: Dodano do playlisty. Sprawdź ustawienia poniżej.
     check_settings: Zainstalowano. Sprawdź ustawienia poniżej.
   plugin_settings:
