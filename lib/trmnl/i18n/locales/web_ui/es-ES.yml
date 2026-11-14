@@ -371,8 +371,8 @@ es-ES:
       evening_salutation: "¡Buenas noches,"
   date:
     formats:
-      day_month_long: "%A, %B %-d"
-      month_year: "%B %Y"
+      day_month_long: "%A, %-d de %B"
+      month_year: "%B de %Y"
   devices:
     edit:
       accepts_beta_firmware: Firmware de versión de pruebas
@@ -1586,7 +1586,7 @@ es-ES:
           create_calendar: Crear calendario
           delete_calendar: Eliminar calendario
           delete_calendar_confirm: "¿Eliminar %{calendar}?"
-          ical_url: iCal URL
+          ical_url: URL de iCal
           ical_url_hint: Opcional. Si se configura, este feed será la fuente de referencia para futuras reservas.
           managed_fields_disclaimer: La integración gestiona algunos campos
           override_name: Cambiar nombre
