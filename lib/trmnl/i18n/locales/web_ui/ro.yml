@@ -232,9 +232,9 @@ ro:
       low_battery_emails_off: Dezactivate pentru toate dispozitivele. Le poți activa din setările bateriei fiecărui dispozitiv, în __Dispozitive__.
       health_alerts: Alerte de funcționare a pluginurilor
       health_alerts_off: Dezactivate pentru toate pluginurile. Le poți activa din setările fiecărui plugin, în __Pluginuri__.
-      stopped_emails: Stopped plugin emails
-      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
-      stopped_emails_off_for: 'On for every plugin and mashup except:'
+      stopped_emails: E-mailuri pentru pluginuri oprite
+      stopped_emails_on: Activate pentru toate pluginurile și compozițiile. Fiecare e-mail are un link pentru a dezactiva notificările pentru acel plugin sau acea compoziție.
+      stopped_emails_off_for: "Activate pentru toate pluginurile și compozițiile, cu excepția:"
     update:
       success: Profil actualizat cu succes
     reset_api_key:
@@ -368,8 +368,8 @@ ro:
     plugins:
       title: Pluginuri
       cta: Mergi la pluginuri
-      recently_published: Recently Published
-      connected_count: "%{count} connected"
+      recently_published: Publicate recent
+      connected_count: "Conectate: %{count}"
       feed_link: RSS feed for new plugins
     shop:
       title: Magazin
@@ -871,9 +871,9 @@ ro:
       hold_screen: Păstrează ecranul
       hold_screen_hint: Păstrează ecranul curent până când apeși butonul. O activare programată îl reîmprospătează, dar nu trece la următorul ecran.
       unused_plugin_setting:
-        message: "%{name} is not on any playlist now. Delete the plugin too?"
-        delete: Delete plugin
-        keep: Keep plugin
+        message: "%{name} nu mai este în nicio listă de redare. Ștergi și pluginul?"
+        delete: Șterge pluginul
+        keep: Păstrează pluginul
     playlist_item:
       adjust_schedule: Modifică programarea
       delete: Elimini acest element? Pluginul va rămâne conectat, dar nu va mai fi afișat pe dispozitiv.
@@ -925,7 +925,7 @@ ro:
       important_active: Element important activ
       stale: Neactualizat
       pending: Ecran negenerat încă
-      held: Held
+      held: Ecran păstrat
     status_description:
       error: Reîmprospătările au fost oprite după erori repetate. Deschide setările pentru a remedia problema.
       setup: Finalizează configurarea acestui element pentru a-l putea afișa pe dispozitiv.
@@ -936,7 +936,7 @@ ro:
       important_active: Un element important ocupă acum acest interval.
       stale: Omiterea inteligentă sare peste acest element deoarece ecranul nu s-a actualizat de ceva timp.
       pending: Primul ecran va fi generat la următoarea conectare a dispozitivului.
-      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
+      held: Opțiunea „Păstrează ecranul” este activată, așa că dispozitivul rămâne pe acest ecran. Dezactiveaz-o din partea de sus a paginii pentru a relua redarea listei.
     schedule:
       always: Întotdeauna
       important_title: Important
@@ -957,8 +957,9 @@ ro:
         destroy: Elementele au fost eliminate din lista de redare
         refresh_interval: Interval de reîmprospătare actualizat
         refresh_interval_skipped:
-          one: Refresh rate updated, except for 1 item that has no refresh rate. For an Alias, set its duration in the item's schedule.
-          other: Refresh rate updated, except for %{count} items that have no refresh rate. For an Alias, set its duration in the item's schedule.
+          one: Interval de reîmprospătare actualizat, cu excepția unui element care nu are un astfel de interval. Pentru Alias, setează durata în programarea elementului.
+          other: Interval de reîmprospătare actualizat, cu excepția a %{count} de elemente care nu au un astfel de interval. Pentru Alias, setează durata în programarea elementului.
+          few: "Interval de reîmprospătare actualizat, cu excepția a %{count} elemente care nu au un astfel de interval. Pentru Alias, setează durata în programarea elementului."
       error: Acțiunea în masă a eșuat
       refresh_rate: Interval de reîmprospătare
       selected: selectate
@@ -1083,8 +1084,8 @@ ro:
       force_refresh_click_here_hint: pentru a genera acum un ecran nou
       force_refresh_not_possible: Acest plugin nu poate fi reîmprospătat forțat deoarece serverul TRMNL nu efectuează procesarea imaginilor. Află cum să testezi instanța ta __aici__.
       health_notifications: Notificări privind funcționarea
-      health_notifications_hint: Get an email when this plugin stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
-      health_notifications_checkbox: Email me when this plugin starts failing
+      health_notifications_hint: Primește un e-mail când acest plugin nu se mai reîmprospătează după erori repetate sau chiar de la primele erori. Cel mult un e-mail pentru fiecare stare, la fiecare incident.
+      health_notifications_checkbox: Trimite-mi un e-mail când apar erori la acest plugin
       learn_more: Află despre acest plugin în baza noastră de cunoștințe
       learn_more_recipe_author: Ai nevoie de ajutor? Contactează %{recipe_author} pe Discord.
       linked_account: Cont asociat
@@ -1181,7 +1182,7 @@ ro:
       remove_account: Elimină
       remove_account_confirm: Elimini %{account} din acest plugin?
       account_removed: Cont eliminat.
-      stopped_notifications_checkbox: Email me when this plugin stops refreshing
+      stopped_notifications_checkbox: Trimite-mi un e-mail când acest plugin nu se mai reîmprospătează
       reconnect_account: Reconnect
       account_disconnected: No longer connected
     import:
@@ -1339,10 +1340,10 @@ ro:
       credit_left: 'Credite AI rămase: %{amount}'
       reload: Reîncarcă
     row:
-      degraded: Degraded
-      erroring: Stopped
-      recipe_degraded: Recipe degraded
-      recipe_erroring: Recipe stopped
+      degraded: Cu erori
+      erroring: Oprit
+      recipe_degraded: Rețetă cu erori
+      recipe_erroring: Rețetă oprită
   recipes:
     index:
       newest_to_oldest: De la cel mai nou la cel mai vechi
@@ -1363,7 +1364,7 @@ ro:
       repeats_yearly: În fiecare an
       add: Stabilește un program personalizat
       some_schedule: Afișează acest ecran în timpul…
-      alias_one_minute_needs_cache_off: To show this for 1 minute, set "Enable cache?" to No in this Alias's settings. With the cache on, the image only changes once a day.
+      alias_one_minute_needs_cache_off: Pentru o afișare de 1 minut, setează „Activează cache-ul?” la Nu în setările acestui Alias. Cu cache-ul activat, imaginea se schimbă doar o dată pe zi.
   upgrade:
     index:
       title: 'Actualizare dispozitiv:'
@@ -2217,13 +2218,13 @@ ro:
       title: Configurează compoziția %{name}
       back_to_playlist: Înapoi la lista de redare
       description: Compoziție %{layout}
-      health_notifications_hint: Get an email when this mashup stops refreshing after repeated failures, or as soon as it starts failing. At most one email per state per incident.
-      health_notifications_checkbox: Email me when this mashup starts failing
+      health_notifications_hint: Primește un e-mail când această compoziție nu se mai reîmprospătează după erori repetate sau chiar de la primele erori. Cel mult un e-mail pentru fiecare stare, la fiecare incident.
+      health_notifications_checkbox: Trimite-mi un e-mail când apar erori la această compoziție
       refresh_rate_hint: Generează ecrane la %{refresh_rate}, interval stabilit de cel mai rapid dintre pluginurile sale.
       remove: Elimină compoziția
       remove_hint: Eliminarea unei compoziții o scoate din lista de redare. Pluginurile sale rămân instalate.
       name_hint: Dă-i un nume ușor de recunoscut sau lasă câmpul gol pentru a afișa numele pluginurilor sale.
-      stopped_notifications_checkbox: Email me when this mashup stops refreshing
+      stopped_notifications_checkbox: Trimite-mi un e-mail când această compoziție nu se mai reîmprospătează
     new:
       playlist_item_title: Element nou în lista de redare
     create:
@@ -2239,7 +2240,7 @@ ro:
       2x2: Patru secțiuni
       3x3: Grilă personalizată
     sections:
-      default_text_scale: Default (%{text_scale})
+      default_text_scale: Implicită (%{text_scale})
   playlist_coverage:
     title: Acoperirea listei de redare
     your_timezone: fusul tău orar
@@ -2441,16 +2442,16 @@ ro:
           other: "%{count} de persoane au explicat motivul dezinstalării"
           few: "%{count} persoane au explicat motivul dezinstalării"
     bank_payment_failed:
-      subject: Your bank payment to TRMNL did not go through
-      greeting: Hi %{name},
-      greeting_without_name: Hi,
-      byod_license: The bank payment for your BYOD license did not go through, so your device is back on its trial.
-      byod_trial: The $1 bank payment for your BYOD trial did not go through, so we ended the trial.
-      developer_edition: The bank payment for Developer Edition did not go through, so we turned it off on your device.
-      plus: The bank payment for TRMNL+ did not go through, so we turned it off.
-      pay_again: You can pay again with a card or another account here.
-      sign_off: cheers,
-      team: the TRMNL team
+      subject: Plata ta bancară către TRMNL nu a fost finalizată
+      greeting: Salut, %{name},
+      greeting_without_name: Salut,
+      byod_license: Plata bancară pentru licența BYOD nu a fost finalizată, așa că dispozitivul a revenit la perioada de probă.
+      byod_trial: Plata bancară de 1 $ pentru perioada de probă BYOD nu a fost finalizată, așa că perioada de probă s-a încheiat.
+      developer_edition: Plata bancară pentru Ediția pentru dezvoltatori nu a fost finalizată, așa că aceasta a fost dezactivată pe dispozitiv.
+      plus: Plata bancară pentru TRMNL+ nu a fost finalizată, așa că abonamentul a fost dezactivat.
+      pay_again: Poți plăti din nou aici, cu un card sau din alt cont.
+      sign_off: Toate cele bune,
+      team: echipa TRMNL
   pages:
     flash_firmware:
       linux_warning: Instalarea firmware-ului din Linux eșuează adesea deoarece Chrome nu poate deschide portul serial. Adaugă utilizatorul în grupul dialout (sudo usermod -aG dialout $USER), deconectează-te și conectează-te din nou, apoi reîncearcă. Dacă problema persistă, folosește Chrome sau Edge pe un Mac ori un PC cu Windows.
@@ -3340,32 +3341,32 @@ ro:
       no_trial_device: Nu ai în cont un dispozitiv BYOD de probă pe care să activezi licența, așa că nu s-a perceput nicio taxă.
   screen_picker:
     single_palette_hint: Acest dispozitiv are o singură paletă.
-    classic: Classic
-    color_mode: Color Mode
-    color_preview: Color preview
-    color_preview_state: 'Color preview: %{state}'
-    dark: Dark
-    default: Default
-    device: Device
-    font_family: Font Family
-    landscape: Landscape
-    light: Light
-    light_mode: Light Mode
-    orientation: Orientation
-    palette: Palette
-    portrait: Portrait
-    preview: Preview
-    raw: Raw
-    reset: Reset
-    reset_to_defaults: Reset to Defaults
-    reset_to_device_defaults: Reset to device defaults
-    style: Style
-    text_scale: Text Scale
-    theme: Theme
-    toggle_color_preview: Toggle color preview (Raw / Preview)
-    toggle_dark_mode: Toggle dark mode
-    toggle_orientation: Toggle orientation
-    dark_mode: Dark Mode
+    classic: Clasic
+    color_mode: Mod color
+    color_preview: Previzualizare culori
+    color_preview_state: "Previzualizare culori: %{state}"
+    dark: Întunecat
+    default: Implicit
+    device: Dispozitiv
+    font_family: Familie de fonturi
+    landscape: Peisaj
+    light: Luminos
+    light_mode: Mod luminos
+    orientation: Orientare
+    palette: Paletă de culori
+    portrait: Portret
+    preview: Previzualizare
+    raw: Original
+    reset: Resetează
+    reset_to_defaults: Resetează la valori implicite
+    reset_to_device_defaults: Resetează la valorile implicite ale dispozitivului
+    style: Stil
+    text_scale: Scara textului
+    theme: Temă
+    toggle_color_preview: Comută previzualizarea culorilor (Original / Previzualizare)
+    toggle_dark_mode: Comută modul întunecat
+    toggle_orientation: Schimbă orientarea
+    dark_mode: Mod întunecat
   active_admin:
     batch_actions:
       action_label: "%{title}"
@@ -3388,41 +3389,41 @@ ro:
     out_of_ai_credit:
       title: Credite AI epuizate
       message: Reîncarcă creditele pe trmnl.com pentru a actualiza %{name}
-  saving: Saving…
+  saving: Se salvează…
   missing_devices:
-    finish_setup: This TRMNL has not finished Wi-Fi setup. Connect it to Wi-Fi and it shows its Friendly ID on screen. If it does not connect, contact support.
-    byod_license_html: A DIY kit or another BYOD device needs a %{link} before it can be found.
-    byod_license_link: BYOD license
+    finish_setup: Configurarea Wi-Fi a acestui TRMNL nu este finalizată. Conectează-l la Wi-Fi pentru a afișa ID-ul de asociere pe ecran. Dacă nu se conectează, contactează asistența.
+    byod_license_html: Un kit DIY sau alt dispozitiv BYOD are nevoie de o %{link} pentru a putea fi găsit.
+    byod_license_link: licență BYOD
   appearance:
-    default_theme: Default
+    default_theme: Implicită
     orientations:
-      landscape: Landscape
-      portrait: Portrait
+      landscape: Peisaj
+      portrait: Portret
     palettes:
-      bw: Black & White (1-bit)
-      gray-4: 4 Grays (2-bit)
-      gray-16: 16 Grays (4-bit)
-      gray-256: 256 Grays (8-bit)
-      color-3bwr: 'Color (3 colors: black, red, white)'
-      color-3bwy: 'Color (3 colors: black, yellow, white)'
-      color-4bwry: 'Color (4 colors: black, red, white, yellow)'
-      color-6a: Color (6 colors)
-      color-7a: Color (7 colors)
-      color-12bit: Color (4096 colors)
-      color-24bit: Color (16777216 colors)
+      bw: Alb-negru (1 bit)
+      gray-4: 4 tonuri de gri (2 biți)
+      gray-16: 16 tonuri de gri (4 biți)
+      gray-256: 256 de tonuri de gri (8 biți)
+      color-3bwr: "Color (3 culori: negru, roșu, alb)"
+      color-3bwy: "Color (3 culori: negru, galben, alb)"
+      color-4bwry: "Color (4 culori: negru, roșu, alb, galben)"
+      color-6a: Color (6 culori)
+      color-7a: Color (7 culori)
+      color-12bit: Color (4096 de culori)
+      color-24bit: Color (16777216 culori)
     summary:
-      font_family: "%{value} font family"
-      text_scale: "%{value} text scale"
-      theme: "%{value} theme"
+      font_family: "Familie de fonturi: %{value}"
+      text_scale: "Scara textului: %{value}"
+      theme: "Temă: %{value}"
     text_scales:
-      small: Small
-      regular: Regular
-      large: Large
-      xlarge: X-Large
+      small: Mică
+      regular: Normală
+      large: Mare
+      xlarge: Foarte mare
   health_status_banner:
     next_steps:
-      reconnect: The service it reads from no longer accepts its connection. Reconnect your account in its settings.
-      missing_calendar: One of its calendars was deleted or is no longer shared with you. Choose your calendars again in its settings.
-      dead_link: The link it reads from no longer works. Paste a current link in its settings.
-      unreachable: It could not reach the service it reads from. We try it again once a day, and it starts refreshing again on its own once the service answers.
+      reconnect: Serviciul sursă nu mai acceptă conexiunea. Reconectează contul din setări.
+      missing_calendar: Unul dintre calendare a fost șters sau nu mai este partajat cu tine. Alege din nou calendarele din setări.
+      dead_link: Linkul sursă nu mai funcționează. Lipește un link actual în setări.
+      unreachable: Serviciul sursă nu a putut fi contactat. Conexiunea este reîncercată zilnic. Reîmprospătarea se reia automat când serviciul răspunde.
       reselect: Its photo selection expired. Choose your photos again in its settings.
