@@ -486,13 +486,13 @@ es-ES:
         discover_hint: "Descubrir recomienda plugins y recetas adaptados a este dispositivo"
         discover_banner_toggle: "Mostrar en el panel de control el aviso de Descubrir para este dispositivo"
         persona: Persona
-        persona_hint: "La persona del dispositivo determina las recomendaciones de Descubrir"
-        provisioned_by_html: "Este dispositivo se configuró con la persona <strong>%{name}</strong>."
-        mirror_disabled_hint: "La gestión de personas está desactivada en los TRMNL duplicados. Gestiona las recomendaciones desde el dispositivo principal."
+        persona_hint: "El perfil de uso del dispositivo influye en las recomendaciones de Descubrir"
+        provisioned_by_html: "Este dispositivo se configuró con el perfil de uso <strong>%{name}</strong>."
+        mirror_disabled_hint: "La gestión de perfiles de uso no está disponible en los TRMNL en modo espejo. Gestiona las recomendaciones desde el dispositivo principal."
         save_persona: "Guardar persona"
         reset_persona: "Restablecer persona"
-        reset_persona_hint: "Restablecer la persona del dispositivo no afectará a sus ajustes ni a su lista de reproducción"
-        reset_persona_confirm: "¿Restablecer esta persona y eliminar sus recomendaciones guardadas?"
+        reset_persona_hint: "Restablecer el perfil de uso de este dispositivo no afectará a sus ajustes ni a su lista de reproducción"
+        reset_persona_confirm: "¿Restablecer este perfil de uso y eliminar sus recomendaciones guardadas?"
       low_battery_notification_email: "Enviar los avisos de este dispositivo a"
       low_battery_notification_email_hint: "Sustituye la dirección de tu cuenta para que cada pantalla pueda avisar a quien se encargue de ella. Déjalo vacío para utilizar la dirección de tu cuenta."
       custom_width: "Anchura (px)"
@@ -579,9 +579,9 @@ es-ES:
         month: "Necesitará cargarse hacia %{month}."
     discover_persona:
       label: "Persona y Descubrir"
-      disabled_hint: "Desactivado en los TRMNL duplicados. Gestiona las recomendaciones desde el dispositivo principal."
-      completed_hint: "Ya se ha configurado una persona para este dispositivo"
-      setup_hint: "Configurar una persona para este dispositivo"
+      disabled_hint: "No disponible en los TRMNL en modo espejo. Gestiona las recomendaciones desde el dispositivo principal."
+      completed_hint: "Este dispositivo ya tiene un perfil de uso configurado"
+      setup_hint: "Configura un perfil de uso para este dispositivo"
     index:
       title: Dispositivos
       tagline: Tus dispositivos TRMNL
@@ -647,22 +647,22 @@ es-ES:
     dashboard_action:
       saved:
         title: "Recomendaciones guardadas para %{device_label}"
-        subtext: "Revisa las recomendaciones guardadas o actualiza la persona en la que se basan."
+        subtext: "Revisa las recomendaciones guardadas o actualiza el perfil de uso en el que se basan."
         primary_label: "Revisar recomendaciones guardadas"
       fresh:
         title: "Nuevas recomendaciones para %{device_label}"
-        subtext: "Revisa las últimas recomendaciones para esta persona."
+        subtext: "Revisa las últimas recomendaciones para este perfil de uso."
         primary_label: "Revisar nuevas recomendaciones"
       persona:
         title: "Persona configurada para %{device_label}"
-        subtext: "Obtén otras recomendaciones o actualiza la persona cuando cambie el uso de este TRMNL."
+        subtext: "Obtén otras recomendaciones o actualiza el perfil de uso cuando cambie la función de este TRMNL."
         primary_label: "Obtener nuevas recomendaciones"
       rerun:
         title: "Otra ronda de Descubrir disponible para %{device_label}"
         subtext: "Inicia otra ronda cuando quieras nuevas recomendaciones para este TRMNL."
         primary_label: "Obtener más recomendaciones"
       setup:
-        title: "Configurar una persona para %{device_label}"
+        title: "Configurar Persona para %{device_label}"
         subtext: "Responde a unas preguntas para adaptar las recomendaciones al uso de este TRMNL."
         primary_label: "Configurar persona"
     app_card:
