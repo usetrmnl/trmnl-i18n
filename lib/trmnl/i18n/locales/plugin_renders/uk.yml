@@ -34,8 +34,8 @@ uk:
       title_short: Netatmo
       indoor_temp: Темп. у приміщенні
       indoor_temp_short: У приміщенні
-      outdoor_temp: Outdoor Temp.
-      outdoor_temp_short: Outdoor
+      outdoor_temp: "Темп. надворі"
+      outdoor_temp_short: "Надворі"
       indoor_humidity: Вологість у приміщенні
       indoor_humidity_short: Волог. у приміщ.
       outdoor_humidity: Вологість надворі
@@ -70,13 +70,13 @@ uk:
       add_module_hint: Додайте додатковий модуль %{module}, щоб бачити ці дані
       range_24h: Діапазон за 24 год
       conditions:
-        hot_humid: Hot & Humid
-        hot_dry: Hot & Dry
-        mild_humid: Mild & Humid
-        pleasant: Pleasant
-        cool_humid: Cool & Humid
-        cool_dry: Cool & Dry
-        no_data: No data
+        hot_humid: "Спекотно й волого"
+        hot_dry: "Спекотно й сухо"
+        mild_humid: "Тепло й волого"
+        pleasant: "Комфортно"
+        cool_humid: "Прохолодно й волого"
+        cool_dry: "Прохолодно й сухо"
+        no_data: "Немає даних"
       errors:
         missing_access_token: Відсутній токен доступу. Підключіть акаунт Netatmo повторно.
         no_station_selected: Метеостанцію не вибрано. Виберіть станцію в налаштуваннях.
@@ -133,20 +133,20 @@ uk:
         conditions:
           clear: Ясно
           cloudy: Хмарно
-          extreme_rain: Extreme Rain
+          extreme_rain: "Надзвичайно сильний дощ"
           foggy: Туманно
-          heavy_rain: Heavy Rain
-          light_rain: Light Rain
-          moderate_rain: Moderate Rain
+          heavy_rain: "Сильний дощ"
+          light_rain: "Слабкий дощ"
+          moderate_rain: "Помірний дощ"
           partly_cloudy: Мінлива хмарність
           rain_likely: Ймовірний дощ
           rain_possible: Можливий дощ
           snow: Сніг
-          snow_likely: Snow Likely
+          snow_likely: "Можливий сніг"
           snow_possible: Можливий сніг
           thunderstorms_likely: Ймовірні грози
           thunderstorms_possible: Можливі грози
-          very_heavy_rain: Very Heavy Rain
+          very_heavy_rain: "Дуже сильний дощ"
           very_light_rain: Дуже слабкий дощ
           windy: Вітряно
           wintry_mix_likely: Ймовірні змішані опади
@@ -303,8 +303,8 @@ uk:
         - code: 1282
           day: Гроза зі снігом
           night: Гроза зі снігом
-      dew_point: Dew Point
-      dew_point_short: Dew Pt
+      dew_point: "Точка роси"
+      dew_point_short: "Т. роси"
     place_of_the_day:
       title: Місце дня
       wikipedia_credit: Вікіпедія CC BY-SA
@@ -352,11 +352,11 @@ uk:
       no_insights_hint: Застосунок Homey може надіслати журнал Insights для побудови графіка тут
       no_devices: Очікуємо на перші пристрої
       no_devices_hint: Вони з’являться після першого надсилання даних або синхронізації з хмарою
-      state: State
-      closed: Closed
-      open: Open
-      locked: Locked
-      unlocked: Unlocked
+      state: "Стан"
+      closed: "Зачинено"
+      open: "Відчинено"
+      locked: "Замкнено"
+      unlocked: "Відімкнено"
     mazevo:
       in_use: Зайнято
       available: Доступно
@@ -374,9 +374,9 @@ uk:
       out_of_credit:
         title: Кредити ШІ закінчилися
         description: Оформіть TRMNL+, щоб отримати кредити ШІ, або поповніть рахунок для використання цього плагіна.
-        own_api_key_off: Or turn on "Use my own AI key" in this dashboard's settings.
+        own_api_key_off: "Або ввімкніть «Використовувати власний ключ ШІ» в налаштуваннях цієї панелі."
       ai_key_refused:
-        title: Your AI provider refused your key
+        title: "Ваш постачальник ШІ відхилив ключ"
     days_left_until:
-      today: 'Today: %{date}'
-      target: 'Target: %{date}'
+      today: "Сьогодні: %{date}"
+      target: "Цільова дата: %{date}"
