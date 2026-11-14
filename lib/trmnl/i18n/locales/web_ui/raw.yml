@@ -1020,6 +1020,8 @@ raw:
       tagline: plugins.edit.tagline
     settings_preview:
       show_all: plugins.settings_preview.show_all
+    local_art:
+      empty: plugins.local_art.empty
   plugin_recipes:
     connected: plugin_recipes.connected
     connections:
@@ -1376,6 +1378,17 @@ raw:
         anthropic_api_key: activerecord.attributes.user.anthropic_api_key
         openrouter_api_key: activerecord.attributes.user.openrouter_api_key
         tavily_api_key: activerecord.attributes.user.tavily_api_key
+      artwork:
+        artist_name: activerecord.attributes.artwork.artist_name
+        artist_email: activerecord.attributes.artwork.artist_email
+        image: activerecord.attributes.artwork.image
+        link_kind: activerecord.attributes.artwork.link_kind
+        link_url: activerecord.attributes.artwork.link_url
+        medium: activerecord.attributes.artwork.medium
+        region: activerecord.attributes.artwork.region
+        requested_city: activerecord.attributes.artwork.requested_city
+        rights_confirmed_at: activerecord.attributes.artwork.rights_confirmed_at
+        title: activerecord.attributes.artwork.title
     errors:
       models:
         account_membership:
@@ -1401,6 +1414,16 @@ raw:
           async_polling_callback_url_missing: activerecord.errors.models.plugin_setting.async_polling_callback_url_missing
         user:
           api_key_prefix: activerecord.errors.models.user.api_key_prefix
+        artwork:
+          attributes:
+            image:
+              invalid: activerecord.errors.models.artwork.attributes.image.invalid
+              too_large: activerecord.errors.models.artwork.attributes.image.too_large
+              too_small: activerecord.errors.models.artwork.attributes.image.too_small
+            region:
+              blank: activerecord.errors.models.artwork.attributes.region.blank
+            rights_confirmed_at:
+              blank: activerecord.errors.models.artwork.attributes.rights_confirmed_at.blank
   apps:
     core:
       public:
@@ -3042,6 +3065,7 @@ raw:
       community_emails_enabled: email_unsubscribes.switches.community_emails_enabled
       low_battery_notification_enabled: email_unsubscribes.switches.low_battery_notification_enabled
       health_notification_enabled: email_unsubscribes.switches.health_notification_enabled
+      digest_enabled: email_unsubscribes.switches.digest_enabled
     footer_link: email_unsubscribes.footer_link
     show:
       title: email_unsubscribes.show.title
@@ -3090,3 +3114,76 @@ raw:
       dead_link: health_status_banner.next_steps.dead_link
       unreachable: health_status_banner.next_steps.unreachable
       reselect: health_status_banner.next_steps.reselect
+  local_art:
+    mediums:
+      drawing: local_art.mediums.drawing
+      mixed_media: local_art.mediums.mixed_media
+      painting: local_art.mediums.painting
+      photography: local_art.mediums.photography
+      print: local_art.mediums.print
+      watercolor: local_art.mediums.watercolor
+    link_kinds:
+      portfolio: local_art.link_kinds.portfolio
+      purchase: local_art.link_kinds.purchase
+    placard_link_kinds:
+      portfolio: local_art.placard_link_kinds.portfolio
+      purchase: local_art.placard_link_kinds.purchase
+  local_art_submissions:
+    new:
+      title: local_art_submissions.new.title
+      eyebrow: local_art_submissions.new.eyebrow
+      heading: local_art_submissions.new.heading
+      intro: local_art_submissions.new.intro
+      artist_name: local_art_submissions.new.artist_name
+      email: local_art_submissions.new.email
+      email_hint: local_art_submissions.new.email_hint
+      artwork_title: local_art_submissions.new.artwork_title
+      medium: local_art_submissions.new.medium
+      choose: local_art_submissions.new.choose
+      region: local_art_submissions.new.region
+      region_not_listed: local_art_submissions.new.region_not_listed
+      requested_city: local_art_submissions.new.requested_city
+      requested_city_placeholder: local_art_submissions.new.requested_city_placeholder
+      image: local_art_submissions.new.image
+      image_hint: local_art_submissions.new.image_hint
+      link_url: local_art_submissions.new.link_url
+      link_url_hint: local_art_submissions.new.link_url_hint
+      link_kind: local_art_submissions.new.link_kind
+      rights: local_art_submissions.new.rights
+      submit: local_art_submissions.new.submit
+      submitting: local_art_submissions.new.submitting
+      too_many: local_art_submissions.new.too_many
+    thanks:
+      title: local_art_submissions.thanks.title
+      heading: local_art_submissions.thanks.heading
+      body: local_art_submissions.thanks.body
+      another: local_art_submissions.thanks.another
+  artist_mailer:
+    greeting: artist_mailer.greeting
+    approved:
+      subject: artist_mailer.approved.subject
+      body: artist_mailer.approved.body
+      digest_note: artist_mailer.approved.digest_note
+    rejected:
+      subject: artist_mailer.rejected.subject
+      body: artist_mailer.rejected.body
+      resubmit: artist_mailer.rejected.resubmit
+    monthly_digest:
+      subject: artist_mailer.monthly_digest.subject
+      intro: artist_mailer.monthly_digest.intro
+      headline: artist_mailer.monthly_digest.headline
+      show_count:
+        one: artist_mailer.monthly_digest.show_count.one
+        other: artist_mailer.monthly_digest.show_count.other
+      device_count:
+        one: artist_mailer.monthly_digest.device_count.one
+        other: artist_mailer.monthly_digest.device_count.other
+      country_count:
+        one: artist_mailer.monthly_digest.country_count.one
+        other: artist_mailer.monthly_digest.country_count.other
+      piece: artist_mailer.monthly_digest.piece
+      shows: artist_mailer.monthly_digest.shows
+      devices: artist_mailer.monthly_digest.devices
+      countries: artist_mailer.monthly_digest.countries
+      scans: artist_mailer.monthly_digest.scans
+      submit_more: artist_mailer.monthly_digest.submit_more

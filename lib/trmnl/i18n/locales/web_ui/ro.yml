@@ -234,7 +234,7 @@ ro:
       health_alerts_off: Dezactivate pentru toate pluginurile. Le poți activa din setările fiecărui plugin, în __Pluginuri__.
       stopped_emails: E-mailuri pentru pluginuri oprite
       stopped_emails_on: Activate pentru toate pluginurile și compozițiile. Fiecare e-mail are un link pentru a dezactiva notificările pentru acel plugin sau acea compoziție.
-      stopped_emails_off_for: "Activate pentru toate pluginurile și compozițiile, cu excepția:"
+      stopped_emails_off_for: 'Activate pentru toate pluginurile și compozițiile, cu excepția:'
       api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
     update:
       success: Profil actualizat cu succes
@@ -372,7 +372,7 @@ ro:
       title: Pluginuri
       cta: Mergi la pluginuri
       recently_published: Publicate recent
-      connected_count: "Conectate: %{count}"
+      connected_count: 'Conectate: %{count}'
       feed_link: RSS feed for new plugins
     shop:
       title: Magazin
@@ -964,7 +964,7 @@ ro:
         refresh_interval_skipped:
           one: Interval de reîmprospătare actualizat, cu excepția unui element care nu are un astfel de interval. Pentru Alias, setează durata în programarea elementului.
           other: Interval de reîmprospătare actualizat, cu excepția a %{count} de elemente care nu au un astfel de interval. Pentru Alias, setează durata în programarea elementului.
-          few: "Interval de reîmprospătare actualizat, cu excepția a %{count} elemente care nu au un astfel de interval. Pentru Alias, setează durata în programarea elementului."
+          few: Interval de reîmprospătare actualizat, cu excepția a %{count} elemente care nu au un astfel de interval. Pentru Alias, setează durata în programarea elementului.
       error: Acțiunea în masă a eșuat
       refresh_rate: Interval de reîmprospătare
       selected: selectate
@@ -1045,6 +1045,8 @@ ro:
       tagline: Actualizează detaliile pluginului tău.
     settings_preview:
       show_all: Afișează toate cele %{count} opțiuni
+    local_art:
+      empty: No art matches these settings yet. Try more cities or mediums.
   plugin_recipes:
     connected: Rețetă conectată
     connections:
@@ -1404,6 +1406,17 @@ ro:
         anthropic_api_key: Cheie API Anthropic
         openrouter_api_key: Cheie API OpenRouter
         tavily_api_key: Cheie API Tavily
+      artwork:
+        artist_name: Your name
+        artist_email: Email
+        image: Image
+        link_kind: Link type
+        link_url: Link
+        medium: Medium
+        region: City
+        requested_city: City
+        rights_confirmed_at: Confirmation
+        title: Title
     errors:
       models:
         account_membership:
@@ -1429,6 +1442,16 @@ ro:
           async_polling_callback_url_missing: Interogarea asincronă necesită {{ callback_url }} în URL-ul de interogare, pentru ca serverul tău să știe unde să trimită datele.
         user:
           api_key_prefix: trebuie să înceapă cu %{prefix}. Golește câmpul dacă browserul l-a completat automat.
+        artwork:
+          attributes:
+            image:
+              invalid: must be a JPEG or PNG image
+              too_large: must be 25 MB or smaller
+              too_small: must be at least 1440 pixels on its shortest side
+            region:
+              blank: must be chosen, or type your city
+            rights_confirmed_at:
+              blank: is needed before we can show your work
   apps:
     core:
       public:
@@ -3357,7 +3380,7 @@ ro:
     classic: Clasic
     color_mode: Mod color
     color_preview: Previzualizare culori
-    color_preview_state: "Previzualizare culori: %{state}"
+    color_preview_state: 'Previzualizare culori: %{state}'
     dark: Întunecat
     default: Implicit
     device: Dispozitiv
@@ -3392,6 +3415,7 @@ ro:
       community_emails_enabled: e-mailurile din comunitate
       low_battery_notification_enabled: e-mailurile pentru bateria descărcată a dispozitivului %{name}
       health_notification_enabled: alertele de funcționare pentru %{name}
+      digest_enabled: Local Art monthly digests
     footer_link: Dezabonează-te de la aceste e-mailuri
     show:
       title: Dezabonare
@@ -3417,17 +3441,17 @@ ro:
       gray-4: 4 tonuri de gri (2 biți)
       gray-16: 16 tonuri de gri (4 biți)
       gray-256: 256 de tonuri de gri (8 biți)
-      color-3bwr: "Color (3 culori: negru, roșu, alb)"
-      color-3bwy: "Color (3 culori: negru, galben, alb)"
-      color-4bwry: "Color (4 culori: negru, roșu, alb, galben)"
+      color-3bwr: 'Color (3 culori: negru, roșu, alb)'
+      color-3bwy: 'Color (3 culori: negru, galben, alb)'
+      color-4bwry: 'Color (4 culori: negru, roșu, alb, galben)'
       color-6a: Color (6 culori)
       color-7a: Color (7 culori)
       color-12bit: Color (4096 de culori)
       color-24bit: Color (16777216 culori)
     summary:
-      font_family: "Familie de fonturi: %{value}"
-      text_scale: "Scara textului: %{value}"
-      theme: "Temă: %{value}"
+      font_family: 'Familie de fonturi: %{value}'
+      text_scale: 'Scara textului: %{value}'
+      theme: 'Temă: %{value}'
     text_scales:
       small: Mică
       regular: Normală
@@ -3440,3 +3464,76 @@ ro:
       dead_link: Linkul sursă nu mai funcționează. Lipește un link actual în setări.
       unreachable: Serviciul sursă nu a putut fi contactat. Conexiunea este reîncercată zilnic. Reîmprospătarea se reia automat când serviciul răspunde.
       reselect: Its photo selection expired. Choose your photos again in its settings.
+  local_art:
+    mediums:
+      drawing: Drawing
+      mixed_media: Mixed media
+      painting: Painting
+      photography: Photography
+      print: Print
+      watercolor: Watercolor
+    link_kinds:
+      portfolio: See my portfolio
+      purchase: Buy this work
+    placard_link_kinds:
+      portfolio: See the artist's portfolio
+      purchase: Buy this work
+  local_art_submissions:
+    new:
+      title: Submit your art to TRMNL Local Art
+      eyebrow: TRMNL Local Art
+      heading: Show your art on walls near you
+      intro: TRMNL owners choose a city, and your work rotates on their ePaper displays with your details beside it. We review every piece by hand.
+      artist_name: Your name
+      email: Email
+      email_hint: We email you when we review your work, and once a month with how often it was shown.
+      artwork_title: Title of the work
+      medium: Medium
+      choose: Choose one
+      region: Where you live
+      region_not_listed: My city is not listed
+      requested_city: Your city
+      requested_city_placeholder: Atlanta, Georgia
+      image: Image
+      image_hint: JPEG or PNG, up to 25 MB, at least 1440 pixels on the shortest side.
+      link_url: Link (optional)
+      link_url_hint: Without a link, the screen shows no QR code.
+      link_kind: What the link is for
+      rights: I made this work and own the rights to it. TRMNL may show it on TRMNL devices and use it in previews and marketing.
+      submit: Submit my art
+      submitting: Sending…
+      too_many: That is a lot of submissions from one network. Please wait an hour and try again.
+    thanks:
+      title: Thanks for your submission
+      heading: Thank you!
+      body: We review every piece by hand and will email you when we have looked at yours.
+      another: Submit another piece
+  artist_mailer:
+    greeting: Hi %{name},
+    approved:
+      subject: "%{title} is now in TRMNL Local Art"
+      body: Your work "%{title}" is approved. It now rotates on TRMNL screens set to %{region}, with your name beside it.
+      digest_note: On the first of each month we will email you how often it was shown.
+    rejected:
+      subject: About your Local Art submission "%{title}"
+      body: 'Thank you for sending "%{title}". We cannot add it to the gallery. The reason:'
+      resubmit: You are welcome to submit again.
+    monthly_digest:
+      subject: Your TRMNL Local Art numbers for %{month}
+      intro: Here is how your art did on TRMNL screens in %{month}.
+      headline: Your art was shown %{shows} on %{devices} in %{countries}.
+      show_count:
+        one: "%{number} time"
+        other: "%{number} times"
+      device_count:
+        one: "%{number} device"
+        other: "%{number} devices"
+      country_count:
+        one: "%{number} country"
+        other: "%{number} countries"
+      piece: Piece
+      shows: Shows
+      devices: Devices
+      countries: Countries
+      scans: QR scans
+      submit_more: Have new work? Submit it here.

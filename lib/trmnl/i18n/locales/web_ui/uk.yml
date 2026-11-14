@@ -241,14 +241,14 @@ uk:
       author_digest_hint: Щотижневий лист про ваші опубліковані плагіни — лише коли є новини.
       community_emails: Листи спільноти
       community_emails_hint: Запити на перевірку та винагороди за рекомендації.
-      emails_on_for: "Увімкнено для:"
+      emails_on_for: 'Увімкнено для:'
       low_battery_emails: Листи про низький заряд
       low_battery_emails_off: Вимкнено для всіх пристроїв. Увімкніть у налаштуваннях батареї потрібного пристрою в розділі __Пристрої__.
       health_alerts: Сповіщення про збої плагінів
       health_alerts_off: Вимкнено для всіх плагінів. Увімкніть у налаштуваннях потрібного плагіна в розділі __Плагіни__.
       stopped_emails: Листи про зупинку плагінів
       stopped_emails_on: Увімкнено для всіх плагінів і міксів. Кожен лист містить посилання, щоб вимкнути їх для відповідного плагіна чи міксу.
-      stopped_emails_off_for: "Увімкнено для всіх плагінів і міксів, окрім:"
+      stopped_emails_off_for: 'Увімкнено для всіх плагінів і міксів, окрім:'
       api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
     update:
       success: Профіль успішно оновлено
@@ -621,7 +621,7 @@ uk:
           other: Потрібно зарядити приблизно через %{count} тижня.
           few: Потрібно зарядити приблизно через %{count} тижні.
           many: Потрібно зарядити приблизно через %{count} тижнів.
-        month: "Орієнтовний місяць наступного заряджання: %{month}."
+        month: 'Орієнтовний місяць наступного заряджання: %{month}.'
       auto_orientation: Follow device orientation
       auto_orientation_hint: The device sets portrait or landscape when you turn it.
     discover_persona:
@@ -1066,6 +1066,8 @@ uk:
       tagline: Оновіть відомості про плагін.
     settings_preview:
       show_all: Показати всі варіанти (%{count})
+    local_art:
+      empty: No art matches these settings yet. Try more cities or mediums.
   plugin_recipes:
     connected: Рецепт підключено
     connections:
@@ -1428,6 +1430,17 @@ uk:
         anthropic_api_key: Anthropic API key
         openrouter_api_key: OpenRouter API key
         tavily_api_key: Tavily API key
+      artwork:
+        artist_name: Your name
+        artist_email: Email
+        image: Image
+        link_kind: Link type
+        link_url: Link
+        medium: Medium
+        region: City
+        requested_city: City
+        rights_confirmed_at: Confirmation
+        title: Title
     errors:
       models:
         account_membership:
@@ -1453,6 +1466,16 @@ uk:
           async_polling_callback_url_missing: Для асинхронного опитування додайте {{ callback_url }} до URL опитування, щоб ваш сервер знав, куди надсилати дані.
         user:
           api_key_prefix: must start with %{prefix}. Clear the field if your browser filled it in.
+        artwork:
+          attributes:
+            image:
+              invalid: must be a JPEG or PNG image
+              too_large: must be 25 MB or smaller
+              too_small: must be at least 1440 pixels on its shortest side
+            region:
+              blank: must be chosen, or type your city
+            rights_confirmed_at:
+              blank: is needed before we can show your work
   apps:
     core:
       public:
@@ -3390,7 +3413,7 @@ uk:
     classic: Класичний
     color_mode: Колірний режим
     color_preview: Перегляд кольорів
-    color_preview_state: "Перегляд кольорів: %{state}"
+    color_preview_state: 'Перегляд кольорів: %{state}'
     dark: Темний
     default: Типовий
     device: Пристрій
@@ -3425,6 +3448,7 @@ uk:
       community_emails_enabled: community emails
       low_battery_notification_enabled: low battery emails for %{name}
       health_notification_enabled: health alerts for %{name}
+      digest_enabled: Local Art monthly digests
     footer_link: Unsubscribe from these emails
     show:
       title: Unsubscribe
@@ -3450,17 +3474,17 @@ uk:
       gray-4: 4 відтінки сірого (2 біти)
       gray-16: 16 відтінків сірого (4 біти)
       gray-256: 256 відтінків сірого (8 біт)
-      color-3bwr: "Кольорова (3 кольори: чорний, червоний, білий)"
-      color-3bwy: "Кольорова (3 кольори: чорний, жовтий, білий)"
-      color-4bwry: "Кольорова (4 кольори: чорний, червоний, білий, жовтий)"
+      color-3bwr: 'Кольорова (3 кольори: чорний, червоний, білий)'
+      color-3bwy: 'Кольорова (3 кольори: чорний, жовтий, білий)'
+      color-4bwry: 'Кольорова (4 кольори: чорний, червоний, білий, жовтий)'
       color-6a: Кольорова (6 кольорів)
       color-7a: Кольорова (7 кольорів)
       color-12bit: Кольорова (4096 кольорів)
       color-24bit: Кольорова (16777216 кольорів)
     summary:
-      font_family: "Гарнітура шрифту: %{value}"
-      text_scale: "Масштаб тексту: %{value}"
-      theme: "Тема: %{value}"
+      font_family: 'Гарнітура шрифту: %{value}'
+      text_scale: 'Масштаб тексту: %{value}'
+      theme: 'Тема: %{value}'
     text_scales:
       small: Малий
       regular: Звичайний
@@ -3473,3 +3497,76 @@ uk:
       dead_link: Посилання на джерело даних більше не працює. Вставте актуальне посилання в налаштуваннях.
       unreachable: Не вдалося зв’язатися із сервісом — джерелом даних. Ми повторюємо спробу раз на день. Коли сервіс відповість, оновлення відновляться автоматично.
       reselect: Термін дії вибору фотографій минув. Знову виберіть фотографії в налаштуваннях.
+  local_art:
+    mediums:
+      drawing: Drawing
+      mixed_media: Mixed media
+      painting: Painting
+      photography: Photography
+      print: Print
+      watercolor: Watercolor
+    link_kinds:
+      portfolio: See my portfolio
+      purchase: Buy this work
+    placard_link_kinds:
+      portfolio: See the artist's portfolio
+      purchase: Buy this work
+  local_art_submissions:
+    new:
+      title: Submit your art to TRMNL Local Art
+      eyebrow: TRMNL Local Art
+      heading: Show your art on walls near you
+      intro: TRMNL owners choose a city, and your work rotates on their ePaper displays with your details beside it. We review every piece by hand.
+      artist_name: Your name
+      email: Email
+      email_hint: We email you when we review your work, and once a month with how often it was shown.
+      artwork_title: Title of the work
+      medium: Medium
+      choose: Choose one
+      region: Where you live
+      region_not_listed: My city is not listed
+      requested_city: Your city
+      requested_city_placeholder: Atlanta, Georgia
+      image: Image
+      image_hint: JPEG or PNG, up to 25 MB, at least 1440 pixels on the shortest side.
+      link_url: Link (optional)
+      link_url_hint: Without a link, the screen shows no QR code.
+      link_kind: What the link is for
+      rights: I made this work and own the rights to it. TRMNL may show it on TRMNL devices and use it in previews and marketing.
+      submit: Submit my art
+      submitting: Sending…
+      too_many: That is a lot of submissions from one network. Please wait an hour and try again.
+    thanks:
+      title: Thanks for your submission
+      heading: Thank you!
+      body: We review every piece by hand and will email you when we have looked at yours.
+      another: Submit another piece
+  artist_mailer:
+    greeting: Hi %{name},
+    approved:
+      subject: "%{title} is now in TRMNL Local Art"
+      body: Your work "%{title}" is approved. It now rotates on TRMNL screens set to %{region}, with your name beside it.
+      digest_note: On the first of each month we will email you how often it was shown.
+    rejected:
+      subject: About your Local Art submission "%{title}"
+      body: 'Thank you for sending "%{title}". We cannot add it to the gallery. The reason:'
+      resubmit: You are welcome to submit again.
+    monthly_digest:
+      subject: Your TRMNL Local Art numbers for %{month}
+      intro: Here is how your art did on TRMNL screens in %{month}.
+      headline: Your art was shown %{shows} on %{devices} in %{countries}.
+      show_count:
+        one: "%{number} time"
+        other: "%{number} times"
+      device_count:
+        one: "%{number} device"
+        other: "%{number} devices"
+      country_count:
+        one: "%{number} country"
+        other: "%{number} countries"
+      piece: Piece
+      shows: Shows
+      devices: Devices
+      countries: Countries
+      scans: QR scans
+      submit_more: Have new work? Submit it here.
