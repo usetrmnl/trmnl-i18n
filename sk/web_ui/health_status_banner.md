@@ -1,0 +1,11 @@
+# `sk` · web_ui · `health_status_banner`
+
+[`sk`](../README.md) · [All locales](../../README.md) · 5 of 5 left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+| `health_status_banner.next_steps.reconnect` | The service it reads from no longer accepts its connection. Reconnect your account in its… | English | [line 3392](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L3392) |
+| `health_status_banner.next_steps.missing_calendar` | One of its calendars was deleted or is no longer shared with you. Choose your calendars a… | English | [line 3393](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L3393) |
+| `health_status_banner.next_steps.dead_link` | The link it reads from no longer works. Paste a current link in its settings. | English | [line 3394](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L3394) |
+| `health_status_banner.next_steps.unreachable` | It could not reach the service it reads from. We try it again once a day, and it starts r… | English | [line 3395](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L3395) |
+| `health_status_banner.next_steps.reselect` | Its photo selection expired. Choose your photos again in its settings. | English | [line 3396](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L3396) |
