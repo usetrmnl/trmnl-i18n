@@ -235,6 +235,7 @@ ro:
       stopped_emails: E-mailuri pentru pluginuri oprite
       stopped_emails_on: Activate pentru toate pluginurile și compozițiile. Fiecare e-mail are un link pentru a dezactiva notificările pentru acel plugin sau acea compoziție.
       stopped_emails_off_for: "Activate pentru toate pluginurile și compozițiile, cu excepția:"
+      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
     update:
       success: Profil actualizat cu succes
     reset_api_key:
@@ -351,6 +352,8 @@ ro:
       trial_device_deleted: Dispozitivul de probă a fost șters.
       trial_device_deleted_refunded: Dispozitivul de probă a fost șters. Ți s-a rambursat 1 $.
     cli_hint: Lucrează din terminal cu __TRMNL CLI__.
+    revoke_api_key:
+      success: API key was revoked
   dashboard:
     index:
       title: Panou de control
@@ -598,6 +601,8 @@ ro:
           other: Necesită încărcare în aproximativ %{count} de săptămâni.
           few: Necesită încărcare în aproximativ %{count} săptămâni.
         month: Necesită încărcare în jurul lunii %{month}.
+      auto_orientation: Follow device orientation
+      auto_orientation_hint: The device sets portrait or landscape when you turn it.
     discover_persona:
       label: Profil de utilizare și Descoperă
       disabled_hint: Dezactivat pentru dispozitivele TRMNL oglindite. Gestionează recomandările pe dispozitivul principal.
@@ -1001,6 +1006,7 @@ ro:
       categories: Categorii
       discover: Descoperă
       you_may_also_like: Ți-ar putea plăcea și
+      browse_all_recipes: Browse all recipes
     search:
       placeholder: Caută pluginuri
     my:
@@ -1055,6 +1061,13 @@ ro:
       installed: Instalat
       open_settings: Deschide setările
       fork_this_recipe: Creează un fork al acestei rețete
+      strategies:
+        async_polling: Async Polling
+        none: None
+        plugin_merge: Plugin Merge
+        polling: Polling
+        static: Static
+        webhook: Webhook
     added_to_playlist: Adăugat în lista de redare. Verifică setările de mai jos.
     check_settings: Instalat. Verifică setările de mai jos.
   plugin_settings:

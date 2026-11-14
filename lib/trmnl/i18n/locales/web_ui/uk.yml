@@ -249,6 +249,7 @@ uk:
       stopped_emails: Stopped plugin emails
       stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
       stopped_emails_off_for: 'On for every plugin and mashup except:'
+      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
     update:
       success: Профіль успішно оновлено
     reset_api_key:
@@ -367,6 +368,8 @@ uk:
       trial_device_deleted: Пробний пристрій видалено.
       trial_device_deleted_refunded: Пробний пристрій видалено. Ваш $1 повернуто.
     cli_hint: Працюйте з термінала за допомогою __TRMNL CLI__.
+    revoke_api_key:
+      success: API key was revoked
   dashboard:
     index:
       title: Панель управління
@@ -615,6 +618,8 @@ uk:
           one: Needs a charge in about 1 week.
           other: Needs a charge in about %{count} weeks.
         month: Needs a charge around %{month}.
+      auto_orientation: Follow device orientation
+      auto_orientation_hint: The device sets portrait or landscape when you turn it.
     discover_persona:
       label: Персона й рекомендації
       disabled_hint: Вимкнено для TRMNL із дублюванням. Керуйте рекомендаціями на головному пристрої.
@@ -1018,6 +1023,7 @@ uk:
       categories: Категорії
       discover: Рекомендації
       you_may_also_like: You may also like
+      browse_all_recipes: Browse all recipes
     search:
       placeholder: Знайти плагіни
     my:
@@ -1073,6 +1079,13 @@ uk:
       installed: Установлено
       open_settings: Відкрити налаштування
       fork_this_recipe: Створити форк рецепта
+      strategies:
+        async_polling: Async Polling
+        none: None
+        plugin_merge: Plugin Merge
+        polling: Polling
+        static: Static
+        webhook: Webhook
     added_to_playlist: Додано до списку відтворення. Перевірте налаштування нижче.
     check_settings: Установлено. Перевірте налаштування нижче.
   plugin_settings:
