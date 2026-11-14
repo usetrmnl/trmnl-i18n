@@ -342,11 +342,11 @@ es-ES:
       no_insights_hint: Una aplicación de Homey puede enviar datos de Insights para mostrarlos aquí
       no_devices: Esperando a tus primeros dispositivos
       no_devices_hint: Aparecerán tras el primer envío de datos o la sincronización con la nube
-      state: State
-      closed: Closed
-      open: Open
-      locked: Locked
-      unlocked: Unlocked
+      state: "Estado"
+      closed: "Cerrado"
+      open: "Abierto"
+      locked: "Bloqueado"
+      unlocked: "Desbloqueado"
     mazevo:
       in_use: En uso
       available: Disponible
@@ -371,28 +371,28 @@ es-ES:
       today: 'Hoy: %{date}'
       target: 'Objetivo: %{date}'
     home_assistant:
-      no_area: No area
-      lights_on: Lights on
-      unlocked: Unlocked
-      open: Open
-      no_entities: Nothing to show yet
-      no_entities_hint: Pick entities in Home Assistant to show them here
-      no_message: No messages yet
-      no_message_hint: Messages from Home Assistant show here
+      no_area: "Sin área"
+      lights_on: "Luces encendidas"
+      unlocked: "Desbloqueado"
+      open: "Abierto"
+      no_entities: "Todavía no hay nada que mostrar"
+      no_entities_hint: "Selecciona entidades de Home Assistant para mostrarlas aquí"
+      no_message: "Todavía no hay mensajes"
+      no_message_hint: "Los mensajes de Home Assistant aparecerán aquí"
       states:
-        'on': 'On'
-        'off': 'Off'
-        open: Open
-        closed: Closed
-        locked: Locked
-        unlocked: Unlocked
-        detected: Detected
-        clear: Clear
-        home: Home
-        away: Away
-        wet: Wet
-        dry: Dry
-        playing: Playing
-        paused: Paused
-        idle: Idle
-        unavailable: Unavailable
+        'on': "Encendido"
+        'off': "Apagado"
+        open: "Abierto"
+        closed: "Cerrado"
+        locked: "Bloqueado"
+        unlocked: "Desbloqueado"
+        detected: "Detectado"
+        clear: "Despejado"
+        home: "En casa"
+        away: "Fuera de casa"
+        wet: "Mojado"
+        dry: "Seco"
+        playing: "Reproduciendo"
+        paused: "En pausa"
+        idle: "Inactivo"
+        unavailable: "No disponible"
