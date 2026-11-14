@@ -1020,6 +1020,8 @@ de:
       tagline: Aktualisiere Details deiner Erweiterung.
     settings_preview:
       show_all: Alle %{count} Optionen anzeigen
+    local_art:
+      empty: No art matches these settings yet. Try more cities or mediums.
   plugin_recipes:
     connected: Blaupause verbunden
     connections:
@@ -1376,6 +1378,17 @@ de:
         anthropic_api_key: Anthropic-API-Schlüssel
         openrouter_api_key: OpenRouter-API-Schlüssel
         tavily_api_key: Tavily-API-Schlüssel
+      artwork:
+        artist_name: Your name
+        artist_email: Email
+        image: Image
+        link_kind: Link type
+        link_url: Link
+        medium: Medium
+        region: City
+        requested_city: City
+        rights_confirmed_at: Confirmation
+        title: Title
     errors:
       models:
         account_membership:
@@ -1401,6 +1414,16 @@ de:
           async_polling_callback_url_missing: Async Polling braucht {{ callback_url }} in der Polling-URL, damit dein Server weiß, wohin er die Daten senden soll.
         user:
           api_key_prefix: muss mit %{prefix} beginnen. Leere das Feld, falls dein Browser es automatisch ausgefüllt hat.
+        artwork:
+          attributes:
+            image:
+              invalid: must be a JPEG or PNG image
+              too_large: must be 25 MB or smaller
+              too_small: must be at least 1440 pixels on its shortest side
+            region:
+              blank: must be chosen, or type your city
+            rights_confirmed_at:
+              blank: is needed before we can show your work
   apps:
     core:
       public:
@@ -3335,6 +3358,7 @@ de:
       community_emails_enabled: Community-E-Mails
       low_battery_notification_enabled: E-Mails bei niedrigem Akkustand für %{name}
       health_notification_enabled: Status-Warnungen für %{name}
+      digest_enabled: Local Art monthly digests
     footer_link: Diese E-Mails abbestellen
     show:
       title: Abbestellen
@@ -3383,3 +3407,76 @@ de:
       dead_link: Der Link, von dem sie liest, funktioniert nicht mehr. Füge einen aktuellen Link in ihren Einstellungen ein.
       unreachable: Sie konnte den Dienst, von dem sie liest, nicht erreichen. Wir versuchen es einmal täglich erneut, und sie aktualisiert sich automatisch wieder, sobald der Dienst antwortet.
       reselect: Its photo selection expired. Choose your photos again in its settings.
+  local_art:
+    mediums:
+      drawing: Drawing
+      mixed_media: Mixed media
+      painting: Painting
+      photography: Photography
+      print: Print
+      watercolor: Watercolor
+    link_kinds:
+      portfolio: See my portfolio
+      purchase: Buy this work
+    placard_link_kinds:
+      portfolio: See the artist's portfolio
+      purchase: Buy this work
+  local_art_submissions:
+    new:
+      title: Submit your art to TRMNL Local Art
+      eyebrow: TRMNL Local Art
+      heading: Show your art on walls near you
+      intro: TRMNL owners choose a city, and your work rotates on their ePaper displays with your details beside it. We review every piece by hand.
+      artist_name: Your name
+      email: Email
+      email_hint: We email you when we review your work, and once a month with how often it was shown.
+      artwork_title: Title of the work
+      medium: Medium
+      choose: Choose one
+      region: Where you live
+      region_not_listed: My city is not listed
+      requested_city: Your city
+      requested_city_placeholder: Atlanta, Georgia
+      image: Image
+      image_hint: JPEG or PNG, up to 25 MB, at least 1440 pixels on the shortest side.
+      link_url: Link (optional)
+      link_url_hint: Without a link, the screen shows no QR code.
+      link_kind: What the link is for
+      rights: I made this work and own the rights to it. TRMNL may show it on TRMNL devices and use it in previews and marketing.
+      submit: Submit my art
+      submitting: Sending…
+      too_many: That is a lot of submissions from one network. Please wait an hour and try again.
+    thanks:
+      title: Thanks for your submission
+      heading: Thank you!
+      body: We review every piece by hand and will email you when we have looked at yours.
+      another: Submit another piece
+  artist_mailer:
+    greeting: Hi %{name},
+    approved:
+      subject: "%{title} is now in TRMNL Local Art"
+      body: Your work "%{title}" is approved. It now rotates on TRMNL screens set to %{region}, with your name beside it.
+      digest_note: On the first of each month we will email you how often it was shown.
+    rejected:
+      subject: About your Local Art submission "%{title}"
+      body: 'Thank you for sending "%{title}". We cannot add it to the gallery. The reason:'
+      resubmit: You are welcome to submit again.
+    monthly_digest:
+      subject: Your TRMNL Local Art numbers for %{month}
+      intro: Here is how your art did on TRMNL screens in %{month}.
+      headline: Your art was shown %{shows} on %{devices} in %{countries}.
+      show_count:
+        one: "%{number} time"
+        other: "%{number} times"
+      device_count:
+        one: "%{number} device"
+        other: "%{number} devices"
+      country_count:
+        one: "%{number} country"
+        other: "%{number} countries"
+      piece: Piece
+      shows: Shows
+      devices: Devices
+      countries: Countries
+      scans: QR scans
+      submit_more: Have new work? Submit it here.
