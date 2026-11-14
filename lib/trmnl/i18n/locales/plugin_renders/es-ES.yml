@@ -370,3 +370,29 @@ es-ES:
     days_left_until:
       today: 'Hoy: %{date}'
       target: 'Objetivo: %{date}'
+    home_assistant:
+      no_area: "Sin área"
+      lights_on: "Luces encendidas"
+      unlocked: "Desbloqueado"
+      open: "Abierto"
+      no_entities: "Todavía no hay nada que mostrar"
+      no_entities_hint: "Selecciona entidades de Home Assistant para mostrarlas aquí"
+      no_message: "Todavía no hay mensajes"
+      no_message_hint: "Los mensajes de Home Assistant aparecerán aquí"
+      states:
+        'on': "Encendido"
+        'off': "Apagado"
+        open: "Abierto"
+        closed: "Cerrado"
+        locked: "Bloqueado"
+        unlocked: "Desbloqueado"
+        detected: "Detectado"
+        clear: "Despejado"
+        home: "En casa"
+        away: "Fuera de casa"
+        wet: "Mojado"
+        dry: "Seco"
+        playing: "Reproduciendo"
+        paused: "En pausa"
+        idle: "Inactivo"
+        unavailable: "No disponible"

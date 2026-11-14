@@ -221,6 +221,7 @@ da:
       stopped_emails: Stopped plugin emails
       stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
       stopped_emails_off_for: 'On for every plugin and mashup except:'
+      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
     update:
       success: Profil opdateret med succes
     reset_api_key:
@@ -335,6 +336,8 @@ da:
       trial_device_deleted: Trial device deleted.
       trial_device_deleted_refunded: Trial device deleted. Your $1 was refunded.
     cli_hint: Work from a terminal with the __TRMNL CLI__.
+    revoke_api_key:
+      success: API key was revoked
   dashboard:
     index:
       title: Dashboard
@@ -577,6 +580,8 @@ da:
           one: Needs a charge in about 1 week.
           other: Needs a charge in about %{count} weeks.
         month: Needs a charge around %{month}.
+      auto_orientation: Follow device orientation
+      auto_orientation_hint: The device sets portrait or landscape when you turn it.
     discover_persona:
       label: Persona & Discover
       disabled_hint: Disabled for mirrored TRMNLs. Manage recommendations on the master device instead.
@@ -976,6 +981,7 @@ da:
       categories: Categories
       discover: Discover
       you_may_also_like: You may also like
+      browse_all_recipes: Browse all recipes
     search:
       placeholder: Søg Plugins
     my:
@@ -1029,6 +1035,13 @@ da:
       installed: Installed
       open_settings: Open settings
       fork_this_recipe: Fork this recipe
+      strategies:
+        async_polling: Async Polling
+        none: None
+        plugin_merge: Plugin Merge
+        polling: Polling
+        static: Static
+        webhook: Webhook
     added_to_playlist: Added to your playlist. Check the settings below.
     check_settings: Installed. Check the settings below.
   plugin_settings:

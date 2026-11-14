@@ -221,6 +221,7 @@ zh-HK:
       stopped_emails: Stopped plugin emails
       stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
       stopped_emails_off_for: 'On for every plugin and mashup except:'
+      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
     update:
       success: 成功更新個人資料
     reset_api_key:
@@ -335,6 +336,8 @@ zh-HK:
       trial_device_deleted: 已刪除試用裝置。
       trial_device_deleted_refunded: 已刪除試用裝置，並已向你退還1美元。
     cli_hint: 使用 __TRMNL CLI__ 從終端機進行操作。
+    revoke_api_key:
+      success: API key was revoked
   dashboard:
     index:
       title: 儀表板
@@ -577,6 +580,8 @@ zh-HK:
           one: Needs a charge in about 1 week.
           other: Needs a charge in about %{count} weeks.
         month: Needs a charge around %{month}.
+      auto_orientation: Follow device orientation
+      auto_orientation_hint: The device sets portrait or landscape when you turn it.
     discover_persona:
       label: 人格設定與探索
       disabled_hint: 鏡像TRMNL裝置無法使用此功能。請改為在主裝置上管理推薦項目。
@@ -976,6 +981,7 @@ zh-HK:
       categories: 類別
       discover: 探索
       you_may_also_like: You may also like
+      browse_all_recipes: Browse all recipes
     search:
       placeholder: 搜尋外掛
     my:
@@ -1029,6 +1035,13 @@ zh-HK:
       installed: 已安裝
       open_settings: 開啟設定
       fork_this_recipe: 分叉此模板
+      strategies:
+        async_polling: Async Polling
+        none: None
+        plugin_merge: Plugin Merge
+        polling: Polling
+        static: Static
+        webhook: Webhook
     added_to_playlist: 已加入至你的播放清單。請檢查下方設定。
     check_settings: 已安裝。請檢查下方設定。
   plugin_settings:

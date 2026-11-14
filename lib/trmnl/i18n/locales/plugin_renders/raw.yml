@@ -370,3 +370,29 @@ raw:
     days_left_until:
       today: renders.days_left_until.today
       target: renders.days_left_until.target
+    home_assistant:
+      no_area: renders.home_assistant.no_area
+      lights_on: renders.home_assistant.lights_on
+      unlocked: renders.home_assistant.unlocked
+      open: renders.home_assistant.open
+      no_entities: renders.home_assistant.no_entities
+      no_entities_hint: renders.home_assistant.no_entities_hint
+      no_message: renders.home_assistant.no_message
+      no_message_hint: renders.home_assistant.no_message_hint
+      states:
+        'on': renders.home_assistant.states.on
+        'off': renders.home_assistant.states.off
+        open: renders.home_assistant.states.open
+        closed: renders.home_assistant.states.closed
+        locked: renders.home_assistant.states.locked
+        unlocked: renders.home_assistant.states.unlocked
+        detected: renders.home_assistant.states.detected
+        clear: renders.home_assistant.states.clear
+        home: renders.home_assistant.states.home
+        away: renders.home_assistant.states.away
+        wet: renders.home_assistant.states.wet
+        dry: renders.home_assistant.states.dry
+        playing: renders.home_assistant.states.playing
+        paused: renders.home_assistant.states.paused
+        idle: renders.home_assistant.states.idle
+        unavailable: renders.home_assistant.states.unavailable

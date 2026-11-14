@@ -221,6 +221,7 @@ es-ES:
       stopped_emails: Correos de plugins detenidos
       stopped_emails_on: Activados para todos los plugins y mashups. Cada correo incluye un enlace para desactivar los avisos de ese elemento.
       stopped_emails_off_for: 'Activados para todos los plugins y mashups excepto:'
+      api_key_revoke_confirm: "¿Revocar esta clave? Todo lo que dependa de ella dejará de funcionar."
     update:
       success: Perfil actualizado correctamente
     reset_api_key:
@@ -335,6 +336,8 @@ es-ES:
       trial_device_deleted: Dispositivo de prueba eliminado.
       trial_device_deleted_refunded: Dispositivo de prueba eliminado. Se te ha devuelto 1 $.
     cli_hint: Trabaja desde la terminal con la __CLI de TRMNL__.
+    revoke_api_key:
+      success: "Clave de API revocada."
   dashboard:
     index:
       title: Panel de control
@@ -577,6 +580,8 @@ es-ES:
           one: "Necesita cargarse dentro de aproximadamente 1 semana."
           other: "Necesita cargarse dentro de aproximadamente %{count} semanas."
         month: "Necesitará cargarse hacia %{month}."
+      auto_orientation: "Seguir la orientación del dispositivo"
+      auto_orientation_hint: "El dispositivo cambia entre orientación vertical y horizontal al girarlo."
     discover_persona:
       label: "Persona y Descubrir"
       disabled_hint: "No disponible en los TRMNL en modo espejo. Gestiona las recomendaciones desde el dispositivo principal."
@@ -976,6 +981,7 @@ es-ES:
       categories: Categorías
       discover: Descubrir
       you_may_also_like: También te puede gustar
+      browse_all_recipes: "Explorar todas las recetas"
     search:
       placeholder: Buscar plugins
     my:
@@ -1029,6 +1035,13 @@ es-ES:
       installed: Instalada
       open_settings: Abrir ajustes
       fork_this_recipe: Crear una copia de esta receta
+      strategies:
+        async_polling: "Consulta periódica asíncrona"
+        none: "Ninguna"
+        plugin_merge: "Combinación de plugins"
+        polling: "Consulta periódica"
+        static: "Estática"
+        webhook: "Webhook"
     added_to_playlist: Añadido a tu lista de reproducción. Revisa los ajustes de abajo.
     check_settings: Instalado. Revisa los ajustes de abajo.
   plugin_settings:
