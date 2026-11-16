@@ -332,7 +332,7 @@ es-ES:
     destroy:
       account_deleted: Se han eliminado tu cuenta y todos sus datos.
       account_deleted_refunded: Se han eliminado tu cuenta y todos sus datos. Se te ha devuelto 1 $.
-      not_eligible: Solo puedes eliminar tu cuenta por tu cuenta durante una prueba BYOD. Contacta con support@trmnl.com.
+      not_eligible: Solo puedes eliminar tu cuenta sin ayuda de soporte durante una prueba BYOD. Contacta con support@trmnl.com.
       trial_device_deleted: Dispositivo de prueba eliminado.
       trial_device_deleted_refunded: Dispositivo de prueba eliminado. Se te ha devuelto 1 $.
     cli_hint: Trabaja desde la terminal con la __CLI de TRMNL__.
@@ -371,8 +371,8 @@ es-ES:
       evening_salutation: "¡Buenas noches,"
   date:
     formats:
-      day_month_long: "%A, %B %-d"
-      month_year: "%B %Y"
+      day_month_long: "%A, %-d de %B"
+      month_year: "%B de %Y"
   devices:
     edit:
       accepts_beta_firmware: Firmware de versión de pruebas
@@ -649,12 +649,12 @@ es-ES:
       started: El modo en tiempo real se activará en la próxima conexión.
       ended: El modo en tiempo real ha terminado.
     clock_sync:
-      title: Clock Sync
-      hint: Change the picture only at the times set in the Scheduler. Your Frame sleeps between them to save battery. Press Skip on your Frame to see a change right away.
-      changes_at: Your Frame changes at
-      every_day: Every day
-      no_changes: No times are set in the Scheduler, so your Frame changes only when you press Skip.
-      edit_schedule: Edit times in the Scheduler
+      title: "Sincronización horaria"
+      hint: "Cambia la imagen solo a las horas definidas en la programación. Tu Frame permanece en reposo entre esos momentos para ahorrar batería. Pulsa el botón para avanzar en tu Frame y cambiarla al instante."
+      changes_at: "Tu Frame cambia de imagen a las"
+      every_day: "Todos los días"
+      no_changes: "No hay horas programadas, así que tu Frame solo cambia de imagen cuando pulsas el botón para avanzar."
+      edit_schedule: "Editar horas de la programación"
   discovery:
     dashboard_action:
       saved:
@@ -1028,7 +1028,7 @@ es-ES:
     settings_preview:
       show_all: Mostrar todas las opciones (%{count})
     local_art:
-      empty: No art matches these settings yet. Try more cities or mediums.
+      empty: "Todavía no hay obras que coincidan con estos ajustes. Prueba con otras ciudades o técnicas."
   plugin_recipes:
     connected: Receta conectada
     connections:
@@ -1361,13 +1361,13 @@ es-ES:
       some_schedule: Mostrar esta pantalla durante…
       alias_one_minute_needs_cache_off: Para mostrar esto durante 1 minuto, configura «¿Activar caché?» como No en los ajustes de este alias. Con la caché activada, la imagen solo cambia una vez al día.
     show_at:
-      title: Schedule
-      clock_sync_on: Clock Sync is on for %{device}. It changes only at the times you set here, or when you press Skip.
-      label: Show at
-      hint: This screen stays up until another screen's time comes.
-      add: Add a time
-      append: And at…
-      remove: Remove this time
+      title: "Programación"
+      clock_sync_on: "La sincronización horaria está activada en %{device}. Solo cambia de imagen a las horas que establezcas aquí o cuando pulses el botón para avanzar."
+      label: "Mostrar a las"
+      hint: "Esta pantalla se mantendrá hasta la hora programada para otra pantalla."
+      add: "Añadir hora"
+      append: "Y a las…"
+      remove: "Eliminar esta hora"
   upgrade:
     index:
       title: 'Actualizando dispositivo:'
@@ -1394,16 +1394,16 @@ es-ES:
         openrouter_api_key: Clave de API de OpenRouter
         tavily_api_key: Clave de API de Tavily
       artwork:
-        artist_name: Your name
-        artist_email: Email
-        image: Image
-        link_kind: Link type
-        link_url: Link
-        medium: Medium
-        region: City
-        requested_city: City
-        rights_confirmed_at: Confirmation
-        title: Title
+        artist_name: "Tu nombre"
+        artist_email: "Correo electrónico"
+        image: "Imagen"
+        link_kind: "Tipo de enlace"
+        link_url: "Enlace"
+        medium: "Técnica"
+        region: "Ciudad"
+        requested_city: "Ciudad"
+        rights_confirmed_at: "Confirmación de derechos"
+        title: "Título"
     errors:
       models:
         account_membership:
@@ -1432,17 +1432,17 @@ es-ES:
         artwork:
           attributes:
             image:
-              invalid: must be a JPEG or PNG image
-              too_large: must be 25 MB or smaller
-              too_small: must be at least 1440 pixels on its shortest side
+              invalid: "debe ser una imagen JPEG o PNG"
+              too_large: "no debe superar los 25 MB"
+              too_small: "debe tener al menos 1440 píxeles en su lado más corto"
             region:
-              blank: must be chosen, or type your city
+              blank: "debe elegirse de la lista o escribirse manualmente"
             rights_confirmed_at:
-              blank: is needed before we can show your work
+              blank: "es obligatoria para poder mostrar tu obra"
         playlist_item:
           attributes:
             schedule:
-              show_time_taken: already has another screen at %{time} on %{day}
+              show_time_taken: "ya tiene otra pantalla programada a las %{time} del %{day}"
   apps:
     core:
       public:
@@ -1586,7 +1586,7 @@ es-ES:
           create_calendar: Crear calendario
           delete_calendar: Eliminar calendario
           delete_calendar_confirm: "¿Eliminar %{calendar}?"
-          ical_url: iCal URL
+          ical_url: URL de iCal
           ical_url_hint: Opcional. Si se configura, este feed será la fuente de referencia para futuras reservas.
           managed_fields_disclaimer: La integración gestiona algunos campos
           override_name: Cambiar nombre
@@ -1719,7 +1719,7 @@ es-ES:
         edit:
           back_to_integrations: Volver a Integraciones
           microsoft_exchange_docs: Buzón compartido del organizador y grupos personalizados de recursos en Exchange
-          microsoft_verification_failed: Microsoft no ha podido verificar estos ajustes. Comprueba Acceso completo, Enviar como, el ID del grupo y la configuración antes de volver a intentarlo.
+          microsoft_verification_failed: Microsoft no ha podido verificar estos ajustes. Comprueba Acceso completo, Enviar como, el ID del grupo y el consentimiento.
           no_calendars: Sincroniza esta integración para detectar los calendarios.
           synchronized_calendars: Calendarios sincronizados
           synchronized_calendars_hint: Elige qué calendarios aparecen en Reservas y sincroniza sus eventos.
@@ -3375,7 +3375,7 @@ es-ES:
       community_emails_enabled: correos de la comunidad
       low_battery_notification_enabled: correos de batería baja de %{name}
       health_notification_enabled: avisos de estado de %{name}
-      digest_enabled: Local Art monthly digests
+      digest_enabled: "resúmenes mensuales de TRMNL Local Art"
     footer_link: Darme de baja de estos correos
     show:
       title: Darse de baja
@@ -3426,74 +3426,74 @@ es-ES:
       reselect: La selección de fotos ha caducado. Vuelve a elegirlas en los ajustes.
   local_art:
     mediums:
-      drawing: Drawing
-      mixed_media: Mixed media
-      painting: Painting
-      photography: Photography
-      print: Print
-      watercolor: Watercolor
+      drawing: "Dibujo"
+      mixed_media: "Técnica mixta"
+      painting: "Pintura"
+      photography: "Fotografía"
+      print: "Obra impresa"
+      watercolor: "Acuarela"
     link_kinds:
-      portfolio: See my portfolio
-      purchase: Buy this work
+      portfolio: "Ver mi porfolio"
+      purchase: "Comprar esta obra"
     placard_link_kinds:
-      portfolio: See the artist's portfolio
-      purchase: Buy this work
+      portfolio: "Ver el porfolio del artista"
+      purchase: "Comprar esta obra"
   local_art_submissions:
     new:
-      title: Submit your art to TRMNL Local Art
+      title: "Envía tu obra a TRMNL Local Art"
       eyebrow: TRMNL Local Art
-      heading: Show your art on walls near you
-      intro: TRMNL owners choose a city, and your work rotates on their ePaper displays with your details beside it. We review every piece by hand.
-      artist_name: Your name
-      email: Email
-      email_hint: We email you when we review your work, and once a month with how often it was shown.
-      artwork_title: Title of the work
-      medium: Medium
-      choose: Choose one
-      region: Where you live
-      region_not_listed: My city is not listed
-      requested_city: Your city
-      requested_city_placeholder: Atlanta, Georgia
-      image: Image
-      image_hint: JPEG or PNG, up to 25 MB, at least 1440 pixels on the shortest side.
-      link_url: Link (optional)
-      link_url_hint: Without a link, the screen shows no QR code.
-      link_kind: What the link is for
-      rights: I made this work and own the rights to it. TRMNL may show it on TRMNL devices and use it in previews and marketing.
-      submit: Submit my art
-      submitting: Sending…
-      too_many: That is a lot of submissions from one network. Please wait an hour and try again.
+      heading: "Muestra tu arte en paredes cerca de ti"
+      intro: "Los propietarios de TRMNL eligen una ciudad y tus obras se muestran por turnos en sus pantallas de tinta electrónica, junto a tus datos. Revisamos cada obra personalmente."
+      artist_name: "Tu nombre"
+      email: "Correo electrónico"
+      email_hint: "Te escribiremos cuando revisemos tu obra y, una vez al mes, para informarte de cuántas veces se ha mostrado."
+      artwork_title: "Título de la obra"
+      medium: "Técnica"
+      choose: "Elige una opción"
+      region: "Dónde vives"
+      region_not_listed: "Mi ciudad no aparece en la lista"
+      requested_city: "Tu ciudad"
+      requested_city_placeholder: "Madrid, España"
+      image: "Imagen"
+      image_hint: "JPEG o PNG, hasta 25 MB y al menos 1440 píxeles en el lado más corto."
+      link_url: "Enlace (opcional)"
+      link_url_hint: "Sin enlace, la pantalla no mostrará ningún código QR."
+      link_kind: "Para qué sirve el enlace"
+      rights: "He creado esta obra y soy titular de sus derechos. TRMNL puede mostrarla en dispositivos TRMNL y utilizarla en vistas previas y material promocional."
+      submit: "Enviar mi obra"
+      submitting: "Enviando…"
+      too_many: "Se han enviado demasiadas obras desde esta red. Espera una hora y vuelve a intentarlo."
     thanks:
-      title: Thanks for your submission
-      heading: Thank you!
-      body: We review every piece by hand and will email you when we have looked at yours.
-      another: Submit another piece
+      title: "Gracias por enviar tu obra"
+      heading: "¡Gracias!"
+      body: "Revisamos cada obra personalmente y te escribiremos cuando hayamos revisado la tuya."
+      another: "Enviar otra obra"
   artist_mailer:
-    greeting: Hi %{name},
+    greeting: "Hola, %{name}:"
     approved:
-      subject: "%{title} is now in TRMNL Local Art"
-      body: Your work "%{title}" is approved. It now rotates on TRMNL screens set to %{region}, with your name beside it.
-      digest_note: On the first of each month we will email you how often it was shown.
+      subject: "«%{title}» ya forma parte de TRMNL Local Art"
+      body: "Tu obra «%{title}» ha sido aprobada. Ya se muestra por turnos en las pantallas TRMNL configuradas para %{region}, con tu nombre al lado."
+      digest_note: "El primer día de cada mes te escribiremos para contarte cuántas veces se ha mostrado."
     rejected:
-      subject: About your Local Art submission "%{title}"
-      body: 'Thank you for sending "%{title}". We cannot add it to the gallery. The reason:'
-      resubmit: You are welcome to submit again.
+      subject: "Sobre tu envío a TRMNL Local Art: «%{title}»"
+      body: "Gracias por enviarnos «%{title}». No podemos añadirla a la galería. Motivo:"
+      resubmit: "Puedes volver a enviar una obra cuando quieras."
     monthly_digest:
-      subject: Your TRMNL Local Art numbers for %{month}
-      intro: Here is how your art did on TRMNL screens in %{month}.
-      headline: Your art was shown %{shows} on %{devices} in %{countries}.
+      subject: "Tus estadísticas de TRMNL Local Art de %{month}"
+      intro: "Así se han mostrado tus obras en las pantallas TRMNL durante %{month}."
+      headline: "Tu arte se ha mostrado %{shows} en %{devices} de %{countries}."
       show_count:
-        one: "%{number} time"
-        other: "%{number} times"
+        one: "%{number} vez"
+        other: "%{number} veces"
       device_count:
-        one: "%{number} device"
-        other: "%{number} devices"
+        one: "%{number} dispositivo"
+        other: "%{number} dispositivos"
       country_count:
-        one: "%{number} country"
-        other: "%{number} countries"
-      piece: Piece
-      shows: Shows
-      devices: Devices
-      countries: Countries
-      scans: QR scans
-      submit_more: Have new work? Submit it here.
+        one: "%{number} país"
+        other: "%{number} países"
+      piece: "Obra"
+      shows: "Apariciones"
+      devices: "Dispositivos"
+      countries: "Países"
+      scans: "Escaneos de QR"
+      submit_more: "¿Tienes una nueva obra? Envíala aquí."
