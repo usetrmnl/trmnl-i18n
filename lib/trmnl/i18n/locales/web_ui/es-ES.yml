@@ -649,12 +649,12 @@ es-ES:
       started: El modo en tiempo real se activará en la próxima conexión.
       ended: El modo en tiempo real ha terminado.
     clock_sync:
-      title: "Sincronización horaria"
-      hint: "Cambia la imagen solo a las horas definidas en la programación. Tu Frame permanece en reposo entre esos momentos para ahorrar batería. Pulsa el botón para avanzar en tu Frame y cambiarla al instante."
-      changes_at: "Tu Frame cambia de imagen a las"
-      every_day: "Todos los días"
-      no_changes: "No hay horas programadas, así que tu Frame solo cambia de imagen cuando pulsas el botón para avanzar."
-      edit_schedule: "Editar horas de la programación"
+      title: Sincronización horaria
+      hint: Cambia la imagen solo a las horas definidas en la programación. Tu Frame permanece en reposo entre esos momentos para ahorrar batería. Pulsa el botón para avanzar en tu Frame y cambiarla al instante.
+      changes_at: Tu Frame cambia de imagen a las
+      every_day: Todos los días
+      no_changes: No hay horas programadas, así que tu Frame solo cambia de imagen cuando pulsas el botón para avanzar.
+      edit_schedule: Editar horas de la programación
   discovery:
     dashboard_action:
       saved:
@@ -1028,7 +1028,7 @@ es-ES:
     settings_preview:
       show_all: Mostrar todas las opciones (%{count})
     local_art:
-      empty: "Todavía no hay obras que coincidan con estos ajustes. Prueba con otras ciudades o técnicas."
+      empty: Todavía no hay obras que coincidan con estos ajustes. Prueba con otras ciudades o técnicas.
   plugin_recipes:
     connected: Receta conectada
     connections:
@@ -1363,13 +1363,13 @@ es-ES:
       some_schedule: Mostrar esta pantalla durante…
       alias_one_minute_needs_cache_off: Para mostrar esto durante 1 minuto, configura «¿Activar caché?» como No en los ajustes de este alias. Con la caché activada, la imagen solo cambia una vez al día.
     show_at:
-      title: "Programación"
-      clock_sync_on: "La sincronización horaria está activada en %{device}. Solo cambia de imagen a las horas que establezcas aquí o cuando pulses el botón para avanzar."
-      label: "Mostrar a las"
-      hint: "Esta pantalla se mantendrá hasta la hora programada para otra pantalla."
-      add: "Añadir hora"
-      append: "Y a las…"
-      remove: "Eliminar esta hora"
+      title: Programación
+      clock_sync_on: La sincronización horaria está activada en %{device}. Solo cambia de imagen a las horas que establezcas aquí o cuando pulses el botón para avanzar.
+      label: Mostrar a las
+      hint: Esta pantalla se mantendrá hasta la hora programada para otra pantalla.
+      add: Añadir hora
+      append: Y a las…
+      remove: Eliminar esta hora
   upgrade:
     index:
       title: 'Actualizando dispositivo:'
@@ -1396,16 +1396,16 @@ es-ES:
         openrouter_api_key: Clave de API de OpenRouter
         tavily_api_key: Clave de API de Tavily
       artwork:
-        artist_name: "Tu nombre"
-        artist_email: "Correo electrónico"
-        image: "Imagen"
-        link_kind: "Tipo de enlace"
-        link_url: "Enlace"
-        medium: "Técnica"
-        region: "Ciudad"
-        requested_city: "Ciudad"
-        rights_confirmed_at: "Confirmación de derechos"
-        title: "Título"
+        artist_name: Tu nombre
+        artist_email: Correo electrónico
+        image: Imagen
+        link_kind: Tipo de enlace
+        link_url: Enlace
+        medium: Técnica
+        region: Ciudad
+        requested_city: Ciudad
+        rights_confirmed_at: Confirmación de derechos
+        title: Título
     errors:
       models:
         account_membership:
@@ -1434,17 +1434,17 @@ es-ES:
         artwork:
           attributes:
             image:
-              invalid: "debe ser una imagen JPEG o PNG"
-              too_large: "no debe superar los 25 MB"
-              too_small: "debe tener al menos 1440 píxeles en su lado más corto"
+              invalid: debe ser una imagen JPEG o PNG
+              too_large: no debe superar los 25 MB
+              too_small: debe tener al menos 1440 píxeles en su lado más corto
             region:
-              blank: "debe elegirse de la lista o escribirse manualmente"
+              blank: debe elegirse de la lista o escribirse manualmente
             rights_confirmed_at:
-              blank: "es obligatoria para poder mostrar tu obra"
+              blank: es obligatoria para poder mostrar tu obra
         playlist_item:
           attributes:
             schedule:
-              show_time_taken: "ya tiene otra pantalla programada a las %{time} del %{day}"
+              show_time_taken: ya tiene otra pantalla programada a las %{time} del %{day}
   apps:
     core:
       public:
@@ -3377,7 +3377,7 @@ es-ES:
       community_emails_enabled: correos de la comunidad
       low_battery_notification_enabled: correos de batería baja de %{name}
       health_notification_enabled: avisos de estado de %{name}
-      digest_enabled: "resúmenes mensuales de TRMNL Local Art"
+      digest_enabled: resúmenes mensuales de TRMNL Local Art
     footer_link: Darme de baja de estos correos
     show:
       title: Darse de baja
@@ -3428,62 +3428,62 @@ es-ES:
       reselect: La selección de fotos ha caducado. Vuelve a elegirlas en los ajustes.
   local_art:
     mediums:
-      drawing: "Dibujo"
-      mixed_media: "Técnica mixta"
-      painting: "Pintura"
-      photography: "Fotografía"
-      print: "Obra impresa"
-      watercolor: "Acuarela"
+      drawing: Dibujo
+      mixed_media: Técnica mixta
+      painting: Pintura
+      photography: Fotografía
+      print: Obra impresa
+      watercolor: Acuarela
     link_kinds:
-      portfolio: "Ver mi porfolio"
-      purchase: "Comprar esta obra"
+      portfolio: Ver mi porfolio
+      purchase: Comprar esta obra
     placard_link_kinds:
-      portfolio: "Ver el porfolio del artista"
-      purchase: "Comprar esta obra"
+      portfolio: Ver el porfolio del artista
+      purchase: Comprar esta obra
   local_art_submissions:
     new:
-      title: "Envía tu obra a TRMNL Local Art"
+      title: Envía tu obra a TRMNL Local Art
       eyebrow: TRMNL Local Art
-      heading: "Muestra tu arte en paredes cerca de ti"
-      intro: "Los propietarios de TRMNL eligen una ciudad y tus obras se muestran por turnos en sus pantallas de tinta electrónica, junto a tus datos. Revisamos cada obra personalmente."
-      artist_name: "Tu nombre"
-      email: "Correo electrónico"
-      email_hint: "Te escribiremos cuando revisemos tu obra y, una vez al mes, para informarte de cuántas veces se ha mostrado."
-      artwork_title: "Título de la obra"
-      medium: "Técnica"
-      choose: "Elige una opción"
-      region: "Dónde vives"
-      region_not_listed: "Mi ciudad no aparece en la lista"
-      requested_city: "Tu ciudad"
-      requested_city_placeholder: "Madrid, España"
-      image: "Imagen"
-      image_hint: "JPEG o PNG, hasta 25 MB y al menos 1440 píxeles en el lado más corto."
-      link_url: "Enlace (opcional)"
-      link_url_hint: "Sin enlace, la pantalla no mostrará ningún código QR."
-      link_kind: "Para qué sirve el enlace"
-      rights: "He creado esta obra y soy titular de sus derechos. TRMNL puede mostrarla en dispositivos TRMNL y utilizarla en vistas previas y material promocional."
-      submit: "Enviar mi obra"
-      submitting: "Enviando…"
-      too_many: "Se han enviado demasiadas obras desde esta red. Espera una hora y vuelve a intentarlo."
+      heading: Muestra tu arte en paredes cerca de ti
+      intro: Los propietarios de TRMNL eligen una ciudad y tus obras se muestran por turnos en sus pantallas de tinta electrónica, junto a tus datos. Revisamos cada obra personalmente.
+      artist_name: Tu nombre
+      email: Correo electrónico
+      email_hint: Te escribiremos cuando revisemos tu obra y, una vez al mes, para informarte de cuántas veces se ha mostrado.
+      artwork_title: Título de la obra
+      medium: Técnica
+      choose: Elige una opción
+      region: Dónde vives
+      region_not_listed: Mi ciudad no aparece en la lista
+      requested_city: Tu ciudad
+      requested_city_placeholder: Madrid, España
+      image: Imagen
+      image_hint: JPEG o PNG, hasta 25 MB y al menos 1440 píxeles en el lado más corto.
+      link_url: Enlace (opcional)
+      link_url_hint: Sin enlace, la pantalla no mostrará ningún código QR.
+      link_kind: Para qué sirve el enlace
+      rights: He creado esta obra y soy titular de sus derechos. TRMNL puede mostrarla en dispositivos TRMNL y utilizarla en vistas previas y material promocional.
+      submit: Enviar mi obra
+      submitting: Enviando…
+      too_many: Se han enviado demasiadas obras desde esta red. Espera una hora y vuelve a intentarlo.
     thanks:
-      title: "Gracias por enviar tu obra"
+      title: Gracias por enviar tu obra
       heading: "¡Gracias!"
-      body: "Revisamos cada obra personalmente y te escribiremos cuando hayamos revisado la tuya."
-      another: "Enviar otra obra"
+      body: Revisamos cada obra personalmente y te escribiremos cuando hayamos revisado la tuya.
+      another: Enviar otra obra
   artist_mailer:
-    greeting: "Hola, %{name}:"
+    greeting: 'Hola, %{name}:'
     approved:
       subject: "«%{title}» ya forma parte de TRMNL Local Art"
-      body: "Tu obra «%{title}» ha sido aprobada. Ya se muestra por turnos en las pantallas TRMNL configuradas para %{region}, con tu nombre al lado."
-      digest_note: "El primer día de cada mes te escribiremos para contarte cuántas veces se ha mostrado."
+      body: Tu obra «%{title}» ha sido aprobada. Ya se muestra por turnos en las pantallas TRMNL configuradas para %{region}, con tu nombre al lado.
+      digest_note: El primer día de cada mes te escribiremos para contarte cuántas veces se ha mostrado.
     rejected:
-      subject: "Sobre tu envío a TRMNL Local Art: «%{title}»"
-      body: "Gracias por enviarnos «%{title}». No podemos añadirla a la galería. Motivo:"
-      resubmit: "Puedes volver a enviar una obra cuando quieras."
+      subject: 'Sobre tu envío a TRMNL Local Art: «%{title}»'
+      body: 'Gracias por enviarnos «%{title}». No podemos añadirla a la galería. Motivo:'
+      resubmit: Puedes volver a enviar una obra cuando quieras.
     monthly_digest:
-      subject: "Tus estadísticas de TRMNL Local Art de %{month}"
-      intro: "Así se han mostrado tus obras en las pantallas TRMNL durante %{month}."
-      headline: "Tu arte se ha mostrado %{shows} en %{devices} de %{countries}."
+      subject: Tus estadísticas de TRMNL Local Art de %{month}
+      intro: Así se han mostrado tus obras en las pantallas TRMNL durante %{month}.
+      headline: Tu arte se ha mostrado %{shows} en %{devices} de %{countries}.
       show_count:
         one: "%{number} vez"
         other: "%{number} veces"
@@ -3493,9 +3493,9 @@ es-ES:
       country_count:
         one: "%{number} país"
         other: "%{number} países"
-      piece: "Obra"
-      shows: "Apariciones"
-      devices: "Dispositivos"
-      countries: "Países"
-      scans: "Escaneos de QR"
+      piece: Obra
+      shows: Apariciones
+      devices: Dispositivos
+      countries: Países
+      scans: Escaneos de QR
       submit_more: "¿Tienes una nueva obra? Envíala aquí."
