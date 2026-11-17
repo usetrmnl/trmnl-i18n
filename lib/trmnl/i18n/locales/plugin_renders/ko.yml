@@ -7,10 +7,14 @@ ko:
       no_upcoming_events: No upcoming events
       no_events_today: No events today
       all_day: all-day
+      upcoming_events: Upcoming Events
     days_left_year:
       title: 올해 남은 날
       days_passed: 지난 날
       days_left: 남은 날
+      board:
+        days_gone: days gone
+        to_go: to go
     lunar_calendar:
       title: 음력
       age: 월령
@@ -111,6 +115,9 @@ ko:
         unknown: 알 수 없음
       today: 오늘
       tomorrow: 내일
+      board:
+        delivering: delivering
+        in_transit: in transit
     weather:
       title: 날씨
       temperature: 온도
@@ -348,6 +355,11 @@ ko:
       open: Open
       locked: Locked
       unlocked: Unlocked
+      errors:
+        choose_homey: Choose which Homey to display in plugin settings.
+        connect: Connect your Homey account, or push a snapshot from a Homey app — in plugin settings.
+        session_expired: Your Homey session expired. Please reconnect in plugin settings.
+        unreachable: Unable to reach Homey right now. Please try again shortly.
     mazevo:
       in_use: In use
       available: Available
@@ -371,6 +383,7 @@ ko:
     days_left_until:
       today: 'Today: %{date}'
       target: 'Target: %{date}'
+      title: Days Left Until...
     home_assistant:
       no_area: No area
       lights_on: Lights on
@@ -397,3 +410,422 @@ ko:
         paused: Paused
         idle: Idle
         unavailable: Unavailable
+    mashup:
+      empty_slot_message: Please add a plugin to this mashup.
+      empty_slot_title: Empty Slot
+      failed_message: Something went wrong with the %{plugin} plugin. Please check your plugin settings or contact support for help.
+      failed_title: Mashup Generation Failed
+      paused_message: The %{plugin} plugin was paused after repeated render errors. Fix its settings and reset its health to resume.
+      paused_title: Plugin Paused
+    notion:
+      untitled: Untitled
+      database_view: Database view
+      empty_description: Check your Notion configuration and try again
+      empty_description_short: Check your Notion configuration
+      empty_description_xshort: Check config
+      empty_title: No Content Available
+      empty_title_short: No Content
+      error_title: Notion Error
+      error_title_short: Error
+      image: Image
+      image_placeholder: Image placeholder
+    rss_feed:
+      no_content: No Content
+      parse_error_message: 'Message: %{message}'
+      parse_error_title: Error while parsing RSS content
+      response_code: 'Response Code: %{code}'
+      title: RSS Feed
+    statuspage:
+      invalid_url: Invalid URL
+      unreachable: Could not be reached
+      last_incident: 'Last Incident: %{time}'
+      scheduled: 'Scheduled: %{date}'
+      title: Status Pages
+    todoist:
+      groups:
+        no_date: No date
+        no_deadline: No deadline
+        no_label: No label
+        overdue: Overdue
+        priority: Priority %{priority}
+    apple_photos:
+      setup_album: Please set up your album.
+    asana:
+      due: due %{date}
+    beehiiv:
+      click_rate: Click Rate
+      clicks: Clicks
+      open: Open
+      open_rate: Open Rate
+      recipients: Recipients
+      spam_complaints: Spam Complaints
+      subject: Subject
+      unsubscribes: Unsubscribes
+    bible_verses:
+      daily_scripture: Daily Scripture
+      word_of_god: Word of God
+    bitcoin_wallet_balance:
+      change_7_days: 7 day change
+      change_90_days: 90 day change
+      title: Bitcoin Wallet
+    changelog:
+      title: TRMNL News
+    clicky:
+      metrics:
+        mins_on_page: Mins On Page
+        pageviews: Pageviews
+        visitors: Visitors
+    close:
+      via: via %{user}
+    coinmarketcap:
+      daily_change: Daily Change
+    convertkit_analytics:
+      account_dashboard: Account dashboard
+      click_rate: Click rate
+      clicks: Clicks
+      metric: Metric
+      open_rate: Open rate
+      products_sold: Products Sold
+      recipients: Recipients
+      status: Status
+      subscribers: Subscribers
+      unsubscribes: Unsubscribes
+      value: Value
+    days_left_retirement:
+      progress: Progress
+      title: Progress To Retirement
+      weeks_left: Weeks left
+    days_since:
+      start_date: Start Date
+      title: Days Since...
+    dropbox_photo_album:
+      add_images: Please add images to your Dropbox account under /Apps/usetrmnl.com
+    eight_sleep:
+      deep_sleep: Deep Sleep
+      quality: Quality
+      ratings:
+        fair: Fair
+        good: Good
+        low: Low
+        pay_attention: Pay Attention
+      rem_sleep: REM Sleep
+      sleep_duration: Sleep Duration
+      snoring: Snoring
+      time_to_sleep: Time to Sleep
+    email_meter:
+      average_response_time: Avg Response Time
+      messages_received: Messages Received
+      messages_sent: Messages Sent
+      recipients: Recipients
+      senders: Senders
+    enphase:
+      instance_updated: "%{instance} (updated %{time})"
+      no_production_today: No production data yet today
+      labels:
+        battery: Battery
+        battery_charge: Battery · %{percent}%
+        consumed: Consumed
+        current_power: Producing now
+        exported: Exported
+        grid_dependence: Grid dependence
+        imported: Imported
+        lifetime: Lifetime
+        net_export: Net export
+        net_import: Net import
+        peak_power: Peak today
+        produced: Produced
+        solar_offset: Solar offset
+    ethereum_wallet_balance:
+      change_7_days: 7 day change
+      change_90_days: 90 day change
+      title: Ethereum Wallet
+    etsy:
+      average_order_value_short: AOV
+      data_unavailable: Etsy data unavailable
+      fulfilled_orders: Fulfilled Orders
+      pending_orders: Pending Orders
+      periods:
+        comparison: Comparison
+        current: Current
+      total_sales: Total Sales
+    fera:
+      average_rating: Avg. Rating
+      products: Products
+      reviews: Reviews
+      verified: Verified
+    gaffa:
+      no_articles: No articles yet
+      waiting_for_feed: Waiting for Gaffa to process your news feed...
+    github_commit_graph:
+      average_per_day: Average per day
+      contributions: Contributions
+      contributions_last_year: Contributions in last year
+      current_streak: Current streak
+      longest_streak: Longest streak
+      most_in_a_day: Most in a day
+      board:
+        per_day: "/ day"
+        per_year: "/ year"
+    github_commits:
+      title: Recent Commits
+    github_contributor_summary:
+      commits_last_week: Commits Last Week
+      last_week: Last Week
+      lifetime: Lifetime
+      lifetime_commits: Lifetime Commits
+      title: Contributors Summary
+      user: User
+    google_photos:
+      expired:
+        message: Google access expired. Reselect your photos in plugin settings.
+        title: Photos Need Reselecting
+      not_connected:
+        message: Pick photos in plugin settings to get started.
+        title: No Photos Selected
+      reconnect:
+        message: Your Google account needs reconnecting in plugin settings.
+        title: Reconnect Google
+    gumroad_analytics:
+      sales_count: Sales Count
+      sales_value: Sales Value
+    hacker_news:
+      by: by %{author}
+      votes:
+        one: "%{score} vote"
+        other: "%{score} votes"
+    home_assistant_screenshot:
+      no_image: No Image
+      upload_screenshot: Upload a screenshot from Home Assistant.
+    hubspot:
+      via: via %{user}
+    huckleberry:
+      awake: Awake
+      since: since %{time}
+      sleeping: Sleeping
+    kickstarter:
+      from_country: from %{country}
+      funded: "%{amount} funded"
+    letterboxd:
+      empty:
+        diary: No diary entries yet. Log a film on Letterboxd to see it here.
+        friends: No recent activity from people you follow.
+      rewatch: rewatch
+    linkedin_page:
+      metrics:
+        clicks: Clicks
+        comments: Comments
+        engagement_rate: Engagement Rate
+        followers: Followers
+        impressions: Impressions
+        new_followers: New Followers
+        reactions: Reactions
+        shares: Shares
+      chart_labels:
+        clicks: Clicks
+        engagement_rate: Engagement Rate
+        impressions: Impressions
+        new_followers: New Followers
+    lunch_money:
+      assets: Assets
+      liabilities: Liabilities
+      month_change:
+        one: "%{count}-Month Change"
+        other: "%{count}-Month Change"
+      net_worth: Net Worth
+    mailchimp_analytics:
+      clicks: Clicks
+      emails_sent: Emails Sent
+      growth_history: Mailchimp Growth History
+      hard_bounce: Hard Bounce
+      open_rate: Open Rate
+      soft_bounce: Soft Bounce
+      subscribers: Subscribers
+      unique_opens: Unique Opens
+      unsubscribers: Unsubscribers
+    managed_display:
+      needs_setup:
+        description: Assign this device to a room in your TRMNL apps.
+        title: Set up this display
+    motivational_quote:
+      title: Motivational Quote
+      title_short: Quote of the day!
+    nano_banana_dashboard:
+      generation_failed: Generation Failed
+    poetry_today:
+      by_author: by %{author}
+      title: Poem of the Day
+    polymarket:
+      comments:
+        one: "%{comments} comment"
+        other: "%{comments} comments"
+      volume_bet: "%{volume} bet"
+    postmark_analytics:
+      bounce_rate: Bounce Rate
+      bounced: Bounced
+      clicks: Clicks
+      emails_sent: Emails Sent
+      errors: Errors
+      open_rate: Open Rate
+      spam_complaints: Spam Complaints
+      unique_opens: Unique Opens
+    private_plugin:
+      view_not_available: "%{view} view not available."
+    product_hunt:
+      votes:
+        one: "%{votes} vote"
+        other: "%{votes} votes"
+    profit_well:
+      active_customers: Active Customers
+      churned_customers: Churned Customers
+      new_churned_revenue: New Churned Revenue
+      new_customers: New Customers
+      new_recurring_revenue: New Recurring Revenue
+      recurring_revenue: Recurring Revenue
+    purpleair:
+      current_humidity: Current Humidity
+      current_temperature: Current Temperature
+    readwise:
+      by_author: by %{author}
+    reddit:
+      only_posts_available:
+        one: Only %{count} post available for this time period
+        other: Only %{count} posts available for this time period
+      sorted_posts: "%{sort} posts"
+      via_author: via u/%{author}
+      votes:
+        one: "%{votes} vote"
+        other: "%{votes} votes"
+    salesforce:
+      via_user: via %{user}
+    shopify:
+      aov: AOV
+      comparison: Comparison
+      current: Current
+      fulfilled_orders: Fulfilled Orders
+      pending_orders: Pending Orders
+      total_sales: Total Sales
+      versus: "(vs %{amount})"
+    shopping_list:
+      title: Shopping List
+    square_pos:
+      total_payments: Total Payments
+    stock_price:
+      daily_change: Daily Change
+      title: Stock Prices
+    theme_sample:
+      all_components: All components
+      color_art: Color art
+      first_row: First row
+      gray_art: Gray art
+      gray_text: Gray text
+      item_description: Secondary description text sits here.
+      item_with_meta: Item with meta rail
+      labels:
+        filled: Filled
+        gray: Gray
+        inverted: Inverted
+        outline: Outline
+        underlined: Underlined
+      progress_bar: Progress bar
+      progress_bar_small: Small, emphasis 2
+      progress_dots: Progress dots
+      red_text: Red text
+      second_row: Second row
+      table: Table
+      title: Theme Sample
+      value: Value
+    todo_list:
+      title: Todo List
+    todolist:
+      due: due %{date}
+      no_tasks: No tasks to show
+      tasks: Tasks
+    upcoming_movies:
+      release_date: 'Release Date: %{date}'
+      title: Movies
+    webhook_image:
+      no_image: No Image
+      no_image_hint: Upload an image to display it here.
+      title: Webhook Image
+    wiki_random_article:
+      article_of_the_day: Article of the day
+    withings:
+      average_suffix: " (%{value} avg)"
+      body_fat: Body-fat %
+      current_weight: Current Weight
+      daily_sleep_goal: Daily Sleep Goal
+      daily_step_goal: Daily Step Goal
+      hours: "%{hours} hrs"
+      hours_slept: Hours Slept
+      last_measurement: Last Measurement
+      muscle: Muscle %
+      sleep_efficiency: Sleep Efficiency
+      sleep_goal: Sleep Goal
+      sleep_score: Sleep Score
+      step_goal: Step Goal
+      steps_today: Steps Today
+      this_period: This Period
+    workflowy:
+      no_items: No items to display
+    youtube_analytics:
+      average_view_duration: Average View Duration
+      comments: Comments
+      hours: Hours
+      likes: Likes
+      minutes: Minutes
+      shares: Shares
+      subscribers_gained: Subscribers Gained
+      view_through_rate: View Through Rate
+      views: Views
+      watched: "%{unit} Watched"
+    system_screens:
+      byod_error:
+        title: License needed
+        message_html: To use this feature, you need a physical device<br>or a BYOD (Bring Your Own Device) license.
+      byod_trial_expired:
+        title: BYOD trial ended
+        message: Visit trmnl.com to convert your license and reactivate this device.
+      empty_state:
+        title: You're caught up!
+        message: Add more plugins to your playlist, or go enjoy the outdoors
+      identify:
+        message: Your Friendly ID
+      low_battery:
+        title: Low battery
+        message: Please charge your TRMNL
+      mac_not_found:
+        title: MAC Address not registered
+        message: Visit trmnl.com/go/byod for next steps
+      mfa_reset:
+        title: New MFA code
+      rate_limit:
+        title: Rate limit exceeded (429)
+        message: Please refresh your device less often
+      needs_setup:
+        title: Finish setting up %{name}
+        message: Fill in %{fields} at trmnl.com
+      redirect_erroring:
+        title: Redirect plugin error
+        message: Please fix the plugin settings to resume
+      refresh_failed:
+        title: Couldn't get an update
+        message: Showing your last screen while we try again
+      refreshing:
+        title: Catching you up
+        message: Your screen will update automatically
+      setup:
+        message: Add this Device ID at trmnl.com/start
+      technical_difficulties:
+        title: We're having technical difficulties
+        message: Our team is investigating. Scan the QR code for details
+    google_analytics:
+      chart_label: "%{stat}, last %{days} days"
+      event_option: 'Event: %{name}'
+      metrics:
+        engaged_sessions: Engaged Sessions
+        mins_on_page: Mins Per Session
+        new_users: New Users
+        pageviews: Pageviews
+        sessions: Sessions
+        visitors: Visitors
+      visitors_option: Visitors (Active Users)
