@@ -310,7 +310,7 @@ ro:
           night: Ninsoare cu descărcări electrice
       dew_point: Punct de rouă
       dew_point_short: Pct. rouă
-      precip_chance: Chance
+      precip_chance: Prob. precip.
     place_of_the_day:
       title: Locul zilei
       wikipedia_credit: Wikipedia CC BY-SA
@@ -355,11 +355,11 @@ ro:
       no_insights_hint: O aplicație Homey poate trimite un jurnal Insights pentru a afișa graficul aici
       no_devices: Se așteaptă primele dispozitive
       no_devices_hint: Apar după prima trimitere sau sincronizare cu cloudul
-      state: State
-      closed: Closed
-      open: Open
-      locked: Locked
-      unlocked: Unlocked
+      state: Stare
+      closed: Închis
+      open: Deschis
+      locked: Încuiat
+      unlocked: Descuiat
       errors:
         choose_homey: Choose which Homey to display in plugin settings.
         connect: Connect your Homey account, or push a snapshot from a Homey app — in plugin settings.
@@ -390,31 +390,31 @@ ro:
       target: 'Țintă: %{date}'
       title: Days Left Until...
     home_assistant:
-      no_area: No area
-      lights_on: Lights on
-      unlocked: Unlocked
-      open: Open
-      no_entities: Nothing to show yet
-      no_entities_hint: Pick entities in Home Assistant to show them here
-      no_message: No messages yet
-      no_message_hint: Messages from Home Assistant show here
+      no_area: Fără zonă
+      lights_on: Lumini aprinse
+      unlocked: Descuiate
+      open: Deschise
+      no_entities: Nimic de afișat încă
+      no_entities_hint: Alege în Home Assistant ce entități vrei să vezi aici
+      no_message: Niciun mesaj încă
+      no_message_hint: Aici apar mesajele din Home Assistant
       states:
-        'on': 'On'
-        'off': 'Off'
-        open: Open
-        closed: Closed
-        locked: Locked
-        unlocked: Unlocked
-        detected: Detected
-        clear: Clear
-        home: Home
-        away: Away
-        wet: Wet
-        dry: Dry
-        playing: Playing
-        paused: Paused
-        idle: Idle
-        unavailable: Unavailable
+        'on': 'Pornit'
+        'off': 'Oprit'
+        open: Deschis
+        closed: Închis
+        locked: Încuiat
+        unlocked: Descuiat
+        detected: Detectat
+        clear: Nedetectat
+        home: Acasă
+        away: Plecat
+        wet: Umed
+        dry: Uscat
+        playing: În redare
+        paused: În pauză
+        idle: În repaus
+        unavailable: Indisponibil
     mashup:
       empty_slot_message: Please add a plugin to this mashup.
       empty_slot_title: Empty Slot

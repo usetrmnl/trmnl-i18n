@@ -236,7 +236,7 @@ ro:
       stopped_emails: E-mailuri pentru pluginuri oprite
       stopped_emails_on: Activate pentru toate pluginurile și compozițiile. Fiecare e-mail are un link pentru a dezactiva notificările pentru acel plugin sau acea compoziție.
       stopped_emails_off_for: 'Activate pentru toate pluginurile și compozițiile, cu excepția:'
-      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
+      api_key_revoke_confirm: Revoci cheia? Tot ce o folosește nu va mai funcționa.
     update:
       success: Profil actualizat cu succes
     reset_api_key:
@@ -354,7 +354,7 @@ ro:
       trial_device_deleted_refunded: Dispozitivul de probă a fost șters. Ți s-a rambursat 1 $.
     cli_hint: Lucrează din terminal cu __TRMNL CLI__.
     revoke_api_key:
-      success: API key was revoked
+      success: Cheia API a fost revocată
     stripe_callback:
       success: Subscription updated successfully
   dashboard:
@@ -366,7 +366,7 @@ ro:
     news:
       title: Știri
       cta: Vezi toate
-      feed_link: RSS feed for TRMNL news
+      feed_link: Flux RSS pentru știrile TRMNL
     playlist_items:
       title: Listă de redare
       cta: Editează lista de redare
@@ -377,7 +377,7 @@ ro:
       cta: Mergi la pluginuri
       recently_published: Publicate recent
       connected_count: 'Conectate: %{count}'
-      feed_link: RSS feed for new plugins
+      feed_link: Flux RSS pentru pluginurile noi
     shop:
       title: Magazin
       another_trmnl: Mai ai nevoie de un TRMNL?
@@ -619,8 +619,8 @@ ro:
           other: Necesită încărcare în aproximativ %{count} de săptămâni.
           few: Necesită încărcare în aproximativ %{count} săptămâni.
         month: Necesită încărcare în jurul lunii %{month}.
-      auto_orientation: Follow device orientation
-      auto_orientation_hint: The device sets portrait or landscape when you turn it.
+      auto_orientation: Urmează orientarea dispozitivului
+      auto_orientation_hint: Dispozitivul comută între portret și peisaj când îl rotești.
       change_firmware_settings: Change firmware settings
       firmware_channel: Firmware Channel
       firmware_channel_pinned: This device is pinned to a firmware channel by an administrator.
@@ -699,21 +699,21 @@ ro:
     update_discover_banner:
       hidden_notice: Bannerul Descoperă a fost ascuns. Îl poți reactiva oricând din setările dispozitivului.
     live_mode:
-      title: Live mode
-      hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
-      duration: Live mode duration
-      start: Start live mode
-      ends_at_html: Live until %{time}. The device sleeps again after that.
-      end_now: End now
-      started: Live mode starts at the next check-in.
-      ended: Live mode ended.
+      title: Mod live
+      hint: Ține dispozitivul activ ca să vezi imediat ecranele noi. Pornește la următoarea conectare. Wi-Fi rămâne activ și consumă rapid bateria. Pentru sesiuni lungi, conectează dispozitivul la alimentare.
+      duration: Durata modului live
+      start: Pornește modul live
+      ends_at_html: Mod live până la %{time}. Apoi dispozitivul revine în repaus.
+      end_now: Oprește acum
+      started: Modul live pornește la următoarea conectare.
+      ended: Modul live s-a încheiat.
     clock_sync:
-      title: Clock Sync
-      hint: Change the picture only at the times set in the Scheduler. Your Frame sleeps between them to save battery. Press Skip on your Frame to see a change right away.
-      changes_at: Your Frame changes at
-      every_day: Every day
-      no_changes: No times are set in the Scheduler, so your Frame changes only when you press Skip.
-      edit_schedule: Edit times in the Scheduler
+      title: Schimbare la ore fixe
+      hint: Imaginea se schimbă doar la orele din program. Între ele, dispozitivul rămâne în repaus ca să economisească bateria. Apasă „Skip” pe dispozitiv dacă vrei să schimbi imaginea imediat.
+      changes_at: Imaginea se schimbă la
+      every_day: În fiecare zi
+      no_changes: Nu ai setat nicio oră în program. Imaginea se schimbă doar când apeși „Skip”.
+      edit_schedule: Modifică orele din program
     kindle:
       forbidden: You don't have permission to access this device.
       generate_zip:
@@ -1830,7 +1830,7 @@ ro:
       categories: Categorii
       discover: Descoperă
       you_may_also_like: Ți-ar putea plăcea și
-      browse_all_recipes: Browse all recipes
+      browse_all_recipes: Vezi toate rețetele
       build_for_other_users: Build for other users
     search:
       placeholder: Caută pluginuri
@@ -1876,7 +1876,7 @@ ro:
     settings_preview:
       show_all: Afișează toate cele %{count} opțiuni
     local_art:
-      empty: No art matches these settings yet. Try more cities or mediums.
+      empty: Nu există încă lucrări care să corespundă acestor setări. Încearcă și alte orașe sau tehnici.
     plugin:
       preview: preview
     recipes:
@@ -1921,16 +1921,16 @@ ro:
       open_settings: Deschide setările
       fork_this_recipe: Creează un fork al acestei rețete
       strategies:
-        async_polling: Async Polling
-        none: None
-        plugin_merge: Plugin Merge
-        polling: Polling
-        static: Static
+        async_polling: Interogare asincronă
+        none: Nicio strategie
+        plugin_merge: Combinare de pluginuri
+        polling: Interogare
+        static: Date statice
         webhook: Webhook
     added_to_playlist: Adăugat în lista de redare. Verifică setările de mai jos.
     check_settings: Instalat. Verifică setările de mai jos.
     demo:
-      preparing: Preparing preview…
+      preparing: Se pregătește previzualizarea…
   plugin_settings:
     copy_are_you_sure: Copiezi această setare?
     delete_are_you_sure: Ștergi această setare?
@@ -2057,8 +2057,8 @@ ro:
       remove_account_confirm: Elimini %{account} din acest plugin?
       account_removed: Cont eliminat.
       stopped_notifications_checkbox: Trimite-mi un e-mail când acest plugin nu se mai reîmprospătează
-      reconnect_account: Reconnect
-      account_disconnected: No longer connected
+      reconnect_account: Reconectează contul
+      account_disconnected: Cont deconectat
     import:
       archive_too_large: Fișierul ZIP este prea mare (%{max_mb} MB maxim)
       missing_entry: Fișierul ZIP nu conține %{filename}
@@ -2093,7 +2093,7 @@ ro:
     state_cleared: Starea salvată a fost ștearsă. Următoarea reîmprospătare va porni de la zero.
     index:
       no_plugin_settings_found: Nu ai configurat încă acest plugin.
-      analytics: Analytics
+      analytics: Statistici
       meta_title: "%{plugin} Plugin Settings"
       page_title: Plugins | %{company}
     health_status_banner:
@@ -2117,7 +2117,7 @@ ro:
       detail_placeholder: Spune-ne mai multe (opțional)
       cancel: Anulează
       confirm: Dezinstalează
-      not_working_placeholder: Tell the author what didn't work so they can improve it.
+      not_working_placeholder: Spune-i autorului ce nu a funcționat, ca să poată îmbunătăți pluginul.
     mcp_key:
       title: Cheie API MCP
       description: Folosește această cheie pentru a conecta agenți AI (Claude Desktop etc.) care să gestioneze codul de afișare al pluginului.
@@ -2355,13 +2355,13 @@ ro:
       duration_description: How long this screen should appear before progressing playlist
       important_description: Only show this screen and other important screens during this schedule
     show_at:
-      title: Schedule
-      clock_sync_on: Clock Sync is on for %{device}. It changes only at the times you set here, or when you press Skip.
-      label: Show at
-      hint: This screen stays up until another screen's time comes.
-      add: Add a time
-      append: And at…
-      remove: Remove this time
+      title: Programare
+      clock_sync_on: Schimbarea la ore fixe este activă pe %{device}. Imaginea se schimbă doar la orele stabilite aici sau când apeși „Skip”.
+      label: Afișează la
+      hint: Ecranul rămâne afișat până la ora programată pentru următorul ecran.
+      add: Adaugă o oră
+      append: Și la…
+      remove: Elimină ora
   upgrade:
     index:
       title: 'Actualizare dispozitiv:'
@@ -2389,16 +2389,16 @@ ro:
         openrouter_api_key: Cheie API OpenRouter
         tavily_api_key: Cheie API Tavily
       artwork:
-        artist_name: Your name
-        artist_email: Email
-        image: Image
-        link_kind: Link type
-        link_url: Link
-        medium: Medium
-        region: City
-        requested_city: City
-        rights_confirmed_at: Confirmation
-        title: Title
+        artist_name: Numele tău
+        artist_email: E-mail
+        image: Imagine
+        link_kind: Tipul linkului
+        link_url: Adresa linkului
+        medium: Tehnică
+        region: Oraș
+        requested_city: Oraș
+        rights_confirmed_at: Confirmare
+        title: Titlu
     errors:
       models:
         account_membership:
@@ -2442,17 +2442,17 @@ ro:
         artwork:
           attributes:
             image:
-              invalid: must be a JPEG or PNG image
-              too_large: must be 25 MB or smaller
-              too_small: must be at least 1440 pixels on its shortest side
+              invalid: trebuie să fie în format JPEG sau PNG
+              too_large: trebuie să aibă cel mult 25 MB
+              too_small: trebuie să aibă cel puțin 1.440 de pixeli pe latura cea mai scurtă
             region:
-              blank: must be chosen, or type your city
+              blank: trebuie ales din listă sau completat cu numele orașului tău
             rights_confirmed_at:
-              blank: is needed before we can show your work
+              blank: este necesară ca să putem afișa lucrarea
         playlist_item:
           attributes:
             schedule:
-              show_time_taken: already has another screen at %{time} on %{day}
+              show_time_taken: are deja un alt ecran la ora %{time}, în ziua de %{day}
         apps/fleet/membership:
           attributes:
             device:
@@ -3034,9 +3034,9 @@ ro:
         tablet_assumptions: Tablete, carcase cu încuietoare și Rezervări. Se presupune că există deja prize.
         comparison_exclusions: Prețuri din SUA, fără taxe și transport. Instalarea alimentării electrice și administrarea dispozitivelor nu sunt incluse. Vezi sursele și ipotezele din fiecare comparație.
       dashboard_setup:
-        title: Finish setting up Booking
-        description: Show a calendar on your TRMNL to see room availability and upcoming bookings.
-        continue: Continue setup
+        title: Finalizează configurarea aplicației Rezervări
+        description: Afișează un calendar pe TRMNL ca să vezi când sunt libere sălile și ce rezervări urmează.
+        continue: Continuă configurarea
       flash:
         already_showing: "%{name} is already showing on %{device}."
         already_subscribed: Already subscribed
@@ -4770,8 +4770,8 @@ ro:
       og_description: Update your device firmware in 1 click.
     home:
       hero:
-        title: Checking one thing on your phone never costs just one thing
-        description: Glance at it on your way past. Technology that knows its place.
+        title: Când verifici ceva pe telefon, rareori te oprești acolo
+        description: Îi arunci o privire din mers. Tehnologie care își știe locul.
       meta_title: ePaper dashboard to stay focused
     asset_colors:
       title: Colors
@@ -7257,7 +7257,7 @@ ro:
       community_emails_enabled: e-mailurile din comunitate
       low_battery_notification_enabled: e-mailurile pentru bateria descărcată a dispozitivului %{name}
       health_notification_enabled: alertele de funcționare pentru %{name}
-      digest_enabled: Local Art monthly digests
+      digest_enabled: Rezumatele lunare Local Art
     footer_link: Dezabonează-te de la aceste e-mailuri
     show:
       title: Dezabonare
@@ -7305,87 +7305,90 @@ ro:
       missing_calendar: Unul dintre calendare a fost șters sau nu mai este partajat cu tine. Alege din nou calendarele din setări.
       dead_link: Linkul sursă nu mai funcționează. Lipește un link actual în setări.
       unreachable: Serviciul sursă nu a putut fi contactat. Conexiunea este reîncercată zilnic. Reîmprospătarea se reia automat când serviciul răspunde.
-      reselect: Its photo selection expired. Choose your photos again in its settings.
+      reselect: Selecția de fotografii a expirat. Alege din nou fotografiile din setările pluginului.
       workspace_blocked: Your Google Workspace admin has not allowed TRMNL. Ask them to allow it, then reconnect your account in its settings.
     ask_support: ask support
     error_label: Error
     retry_count: 'Retry Count: %{count}'
   local_art:
     mediums:
-      drawing: Drawing
-      mixed_media: Mixed media
-      painting: Painting
-      photography: Photography
-      print: Print
-      watercolor: Watercolor
+      drawing: Desen
+      mixed_media: Tehnică mixtă
+      painting: Pictură
+      photography: Fotografie
+      print: Imprimare artistică
+      watercolor: Acuarelă
     link_kinds:
-      portfolio: See my portfolio
-      purchase: Buy this work
+      portfolio: Vezi portofoliul meu
+      purchase: Cumpără lucrarea
     placard_link_kinds:
-      portfolio: See the artist's portfolio
-      purchase: Buy this work
+      portfolio: Vezi portofoliul artistului
+      purchase: Cumpără lucrarea
   local_art_submissions:
     new:
-      title: Submit your art to TRMNL Local Art
+      title: Trimite o lucrare la TRMNL Local Art
       eyebrow: TRMNL Local Art
-      heading: Show your art on walls near you
-      intro: TRMNL owners choose a city, and your work rotates on their ePaper displays with your details beside it. We review every piece by hand.
-      artist_name: Your name
-      email: Email
-      email_hint: We email you when we review your work, and once a month with how often it was shown.
-      artwork_title: Title of the work
-      medium: Medium
-      choose: Choose one
-      region: Where you live
-      region_not_listed: My city is not listed
-      requested_city: Your city
+      heading: Arată-ți lucrările în orașul tău
+      intro: Cei care au un TRMNL aleg un oraș, iar lucrarea ta apare prin rotație pe ecranele lor ePaper, alături de informațiile despre tine. Verificăm fiecare lucrare în parte.
+      artist_name: Numele tău
+      email: E-mail
+      email_hint: Îți trimitem un e-mail după ce verificăm lucrarea. Apoi îți spunem lunar de câte ori a fost afișată.
+      artwork_title: Titlul lucrării
+      medium: Tehnică
+      choose: Alege o opțiune
+      region: Unde locuiești
+      region_not_listed: Orașul meu nu este în listă
+      requested_city: Orașul tău
       requested_city_placeholder: Atlanta, Georgia
-      image: Image
-      image_hint: JPEG or PNG, up to 25 MB, at least 1440 pixels on the shortest side.
-      link_url: Link (optional)
-      link_url_hint: Without a link, the screen shows no QR code.
-      link_kind: What the link is for
-      rights: I made this work and own the rights to it. TRMNL may show it on TRMNL devices and use it in previews and marketing.
-      submit: Submit my art
-      submitting: Sending…
-      too_many: That is a lot of submissions from one network. Please wait an hour and try again.
+      image: Imagine
+      image_hint: JPEG sau PNG, maximum 25 MB și cel puțin 1.440 de pixeli pe latura cea mai scurtă.
+      link_url: Link (opțional)
+      link_url_hint: Fără link, ecranul nu afișează niciun cod QR.
+      link_kind: Unde duce linkul
+      rights: Am realizat această lucrare și dețin drepturile asupra ei. TRMNL o poate afișa pe dispozitivele sale și o poate folosi în previzualizări și în materiale de promovare.
+      submit: Trimite lucrarea
+      submitting: Se trimite…
+      too_many: S-au trimis prea multe lucrări din aceeași rețea. Așteaptă o oră și încearcă din nou.
     thanks:
-      title: Thanks for your submission
-      heading: Thank you!
-      body: We review every piece by hand and will email you when we have looked at yours.
-      another: Submit another piece
+      title: Mulțumim că ai trimis lucrarea
+      heading: Mulțumim!
+      body: Verificăm fiecare lucrare în parte. Îți trimitem un e-mail după ce o verificăm pe a ta.
+      another: Trimite altă lucrare
   artist_mailer:
-    greeting: Hi %{name},
+    greeting: Salut, %{name}!
     approved:
-      subject: "%{title} is now in TRMNL Local Art"
-      body: Your work "%{title}" is approved. It now rotates on TRMNL screens set to %{region}, with your name beside it.
-      digest_note: On the first of each month we will email you how often it was shown.
+      subject: "„%{title}” este acum în TRMNL Local Art"
+      body: Lucrarea ta „%{title}” a fost aprobată. De acum apare prin rotație pe ecranele TRMNL setate pentru %{region}, alături de numele tău.
+      digest_note: În prima zi a fiecărei luni îți trimitem un e-mail cu numărul de afișări.
     rejected:
-      subject: About your Local Art submission "%{title}"
-      body: 'Thank you for sending "%{title}". We cannot add it to the gallery. The reason:'
-      resubmit: You are welcome to submit again.
+      subject: Despre lucrarea „%{title}” trimisă la Local Art
+      body: 'Mulțumim că ai trimis „%{title}”. Nu o putem adăuga în galerie. Iată motivul:'
+      resubmit: Poți trimite din nou o lucrare.
     monthly_digest:
-      subject: Your TRMNL Local Art numbers for %{month}
-      intro: Here is how your art did on TRMNL screens in %{month}.
-      headline: Your art was shown %{shows} on %{devices} in %{countries}.
+      subject: Statisticile tale TRMNL Local Art pentru %{month}
+      intro: Iată de câte ori au fost afișate lucrările tale pe ecranele TRMNL în %{month}.
+      headline: Lucrarea ta a fost afișată de %{shows} pe %{devices} din %{countries}.
       show_count:
-        one: "%{number} time"
-        other: "%{number} times"
+        one: "%{number} dată"
+        other: "%{number} de ori"
+        few: "%{number} ori"
       device_count:
-        one: "%{number} device"
-        other: "%{number} devices"
+        one: "%{number} dispozitiv"
+        other: "%{number} de dispozitive"
+        few: "%{number} dispozitive"
       country_count:
-        one: "%{number} country"
-        other: "%{number} countries"
-      piece: Piece
-      shows: Shows
-      devices: Devices
-      countries: Countries
-      scans: QR scans
-      submit_more: Have new work? Submit it here.
+        one: "%{number} țară"
+        other: "%{number} de țări"
+        few: "%{number} țări"
+      piece: Lucrare
+      shows: Afișări
+      devices: Dispozitive
+      countries: Țări
+      scans: Scanări ale codului QR
+      submit_more: Ai o lucrare nouă? Trimite-o aici.
   blog_posts:
     youtube_embed:
-      title: YouTube video
+      title: Videoclip YouTube
     edit:
       meta_title: Edit blog post
       title: Edit Post
