@@ -1647,12 +1647,12 @@ gu:
           heading: This playlist is empty
           description: Select Add Plugin above to add one of your plugins.
           cta: Looking for something new? Browse Plugins
-      hold_screen: Hold screen
-      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
       unused_plugin_setting:
         message: "%{name} is not on any playlist now. Delete the plugin too?"
         delete: Delete plugin
         keep: Keep plugin
+      repeat_screen: Repeat screen
+      repeat_screen_hint: Show the current screen again at each wake, with fresh data, until you press the button.
     playlist_item:
       adjust_schedule: Adjust schedule
       delete: Are you sure you want to remove this item? The plugin will remain connected, just not shown on your device.
@@ -1674,11 +1674,11 @@ gu:
       next_render: Renders again %{time}
       render_overdue: A render has been overdue since %{time}
       no_next_render: No render before then, %{reason}
-      hold_screen: Hold this screen
       configure: Configure
       more_options: More options
       select_item: Select %{title}
       preview_item: Preview %{name}
+      repeat_screen: Repeat this screen
     create:
       success: Playlist updated
       error: Failed to update Playlist
@@ -1709,8 +1709,8 @@ gu:
       important_active: Important active
       stale: Stale
       pending: Not rendered yet
-      held: Held
       hidden_by_important: Hidden by Important
+      repeated: Repeated
     status_description:
       error: Refreshes stopped after repeated failures. Open its settings to fix it.
       setup: Finish configuring this item before it can appear on the device.
@@ -1721,8 +1721,8 @@ gu:
       important_active: An Important item has this slot right now.
       stale: Smart Skip is skipping this — its screen hasn't updated in a while.
       pending: Its first render starts at the next device check-in.
-      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
       hidden_by_important: Important items are scheduled for every hour this device is awake, so this item never shows.
+      repeated: Repeat screen is on, so the device shows this screen again at each wake. Turn off Repeat screen at the top of the page to rotate again.
     schedule:
       always: Always
       important_title: Important
@@ -1767,9 +1767,6 @@ gu:
       window_option: "%{count}h"
       render_marker: Renders
       asleep_window: Asleep %{from} → %{to} (%{duration})
-    hold:
-      success: Held. Your device shows this screen at its next refresh.
-      unavailable: This screen cannot be held.
     action_items:
       no_plugins_available: No plugins available
     appearance:
@@ -1790,6 +1787,9 @@ gu:
       title: Compose 3×3 layout
     presentation_options:
       device_default: Device Default
+    repeat:
+      success: Your device repeats this screen from its next refresh.
+      unavailable: This screen cannot be repeated.
   plugins:
     index:
       title: Plugins

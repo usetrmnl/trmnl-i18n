@@ -1647,12 +1647,12 @@ zh-HK:
           heading: 此播放清單為空
           description: 點擊上方的「新增外掛」以加入你的其中一個外掛。
           cta: 尋找新功能？瀏覽外掛列表
-      hold_screen: 固定畫面
-      hold_screen_hint: 保持顯示目前畫面，直至按下按鈕為止。定時喚醒會重新整理內容，但不會切換至下一個畫面。
       unused_plugin_setting:
         message: "%{name} is not on any playlist now. Delete the plugin too?"
         delete: Delete plugin
         keep: Keep plugin
+      repeat_screen: Repeat screen
+      repeat_screen_hint: Show the current screen again at each wake, with fresh data, until you press the button.
     playlist_item:
       adjust_schedule: 調整時間表
       delete: 確定要移除此項目嗎？外掛會保持連接，只是不會在裝置上顯示。
@@ -1674,11 +1674,11 @@ zh-HK:
       next_render: 將於%{time}再次繪製
       render_overdue: 繪製任務自%{time}起已逾期
       no_next_render: 在此之前不會繪製，%{reason}
-      hold_screen: Hold this screen
       configure: Configure
       more_options: More options
       select_item: Select %{title}
       preview_item: Preview %{name}
+      repeat_screen: Repeat this screen
     create:
       success: 已更新播放清單
       error: 更新播放清單時發生錯誤
@@ -1709,8 +1709,8 @@ zh-HK:
       important_active: 重要項目播放中
       stale: 內容過期
       pending: 尚未繪製
-      held: Held
       hidden_by_important: Hidden by Important
+      repeated: Repeated
     status_description:
       error: 經過多次失敗後已停止重新整理。請開啟其設定以進行修復。
       setup: 請先完成此項目的設定，方可在裝置上顯示。
@@ -1721,8 +1721,8 @@ zh-HK:
       important_active: 目前由一個「重要」項目佔用了此時段。
       stale: 智能跳過功能已跳過此項目 — 其畫面已有一段時間未有更新。
       pending: 其首次繪製將於裝置下一次簽到時開始。
-      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
       hidden_by_important: Important items are scheduled for every hour this device is awake, so this item never shows.
+      repeated: Repeat screen is on, so the device shows this screen again at each wake. Turn off Repeat screen at the top of the page to rotate again.
     schedule:
       always: 總是顯示
       important_title: 重要
@@ -1767,9 +1767,6 @@ zh-HK:
       window_option: "%{count}小時"
       render_marker: 繪製
       asleep_window: 睡眠中 %{from} → %{to} (%{duration})
-    hold:
-      success: Held. Your device shows this screen at its next refresh.
-      unavailable: This screen cannot be held.
     action_items:
       no_plugins_available: No plugins available
     appearance:
@@ -1790,6 +1787,9 @@ zh-HK:
       title: Compose 3×3 layout
     presentation_options:
       device_default: Device Default
+    repeat:
+      success: Your device repeats this screen from its next refresh.
+      unavailable: This screen cannot be repeated.
   plugins:
     index:
       title: 外掛功能

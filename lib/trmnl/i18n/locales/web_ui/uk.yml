@@ -1691,12 +1691,12 @@ uk:
           heading: Цей список відтворення порожній
           description: Натисніть «Додати плагін» вище, щоб додати один зі своїх плагінів.
           cta: Шукаєте щось нове? Перегляньте плагіни
-      hold_screen: Утримувати екран
-      hold_screen_hint: Залишати поточний екран до натискання кнопки. Пробудження за таймером оновлює його, але не перемикає далі.
       unused_plugin_setting:
         message: "%{name} is not on any playlist now. Delete the plugin too?"
         delete: Delete plugin
         keep: Keep plugin
+      repeat_screen: Repeat screen
+      repeat_screen_hint: Show the current screen again at each wake, with fresh data, until you press the button.
     playlist_item:
       adjust_schedule: Змінити розклад
       delete: Ви впевнені, що хочете видалити цей елемент? Плагін залишиться підключеним, але не відображатиметься на вашому пристрої.
@@ -1718,11 +1718,11 @@ uk:
       next_render: Наступний рендеринг %{time}
       render_overdue: Рендеринг прострочено з %{time}
       no_next_render: До того часу рендерингу не буде, %{reason}
-      hold_screen: Hold this screen
       configure: Configure
       more_options: More options
       select_item: Select %{title}
       preview_item: Preview %{name}
+      repeat_screen: Repeat this screen
     create:
       success: Плейлист оновлено
       error: Не вдалося оновити плейлист
@@ -1753,8 +1753,8 @@ uk:
       important_active: Активний важливий елемент
       stale: Застаріло
       pending: Ще не відрендерено
-      held: Held
       hidden_by_important: Hidden by Important
+      repeated: Repeated
     status_description:
       error: Оновлення припинено після повторних помилок. Відкрийте налаштування, щоб виправити проблему.
       setup: Завершіть налаштування елемента, щоб він міг з’явитися на пристрої.
@@ -1765,8 +1765,8 @@ uk:
       important_active: Зараз це місце займає важливий елемент.
       stale: Розумний пропуск пропускає цей елемент — його екран давно не оновлювався.
       pending: Перший рендеринг почнеться під час наступного виходу пристрою на зв’язок.
-      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
       hidden_by_important: Important items are scheduled for every hour this device is awake, so this item never shows.
+      repeated: Repeat screen is on, so the device shows this screen again at each wake. Turn off Repeat screen at the top of the page to rotate again.
     schedule:
       always: Завжди
       important_title: Важливе
@@ -1813,9 +1813,6 @@ uk:
       window_option: "%{count} год"
       render_marker: Рендеринг
       asleep_window: Сон %{from} → %{to} (%{duration})
-    hold:
-      success: Held. Your device shows this screen at its next refresh.
-      unavailable: This screen cannot be held.
     action_items:
       no_plugins_available: No plugins available
     appearance:
@@ -1836,6 +1833,9 @@ uk:
       title: Compose 3×3 layout
     presentation_options:
       device_default: Device Default
+    repeat:
+      success: Your device repeats this screen from its next refresh.
+      unavailable: This screen cannot be repeated.
   plugins:
     index:
       title: Плагіни

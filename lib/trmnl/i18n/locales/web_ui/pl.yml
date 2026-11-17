@@ -1669,12 +1669,12 @@ pl:
           heading: Ta playlista jest pusta
           description: Wybierz powyżej Dodaj plugin, aby dodać jeden ze swoich pluginów.
           cta: Szukasz czegoś nowego? Przeglądaj pluginy
-      hold_screen: Zatrzymaj na tym ekranie
-      hold_screen_hint: Pozostaw bieżący ekran do naciśnięcia przycisku. Zaplanowane wybudzenie odświeża obraz, ale nie przełącza na kolejny element.
       unused_plugin_setting:
         message: "%{name} nie znajduje się już na żadnej playliście. Usunąć również plugin?"
         delete: Usuń plugin
         keep: Zachowaj plugin
+      repeat_screen: Repeat screen
+      repeat_screen_hint: Show the current screen again at each wake, with fresh data, until you press the button.
     playlist_item:
       adjust_schedule: Dostosuj harmonogram
       delete: Czy na pewno chcesz usunąć ten element? Plugin pozostanie połączony, ale nie będzie wyświetlany na Twoim urządzeniu.
@@ -1696,11 +1696,11 @@ pl:
       next_render: Ponowne renderowanie %{time}
       render_overdue: Renderowanie jest spóźnione od %{time}
       no_next_render: Brak renderowania przed tym czasem, %{reason}
-      hold_screen: Zatrzymaj na tym ekranie
       configure: Configure
       more_options: More options
       select_item: Select %{title}
       preview_item: Preview %{name}
+      repeat_screen: Repeat this screen
     create:
       success: Playlista zaktualizowana
       error: Aktualizacja playlisty nie powiodła się
@@ -1731,8 +1731,8 @@ pl:
       important_active: Aktywny ważny element
       stale: Nieaktualne
       pending: Jeszcze niewyrenderowane
-      held: Zatrzymane na ekranie
       hidden_by_important: Hidden by Important
+      repeated: Repeated
     status_description:
       error: Odświeżanie zatrzymano po powtarzających się błędach. Otwórz ustawienia, aby rozwiązać problem.
       setup: Dokończ konfigurację tego elementu, zanim będzie mógł pojawić się na urządzeniu.
@@ -1743,8 +1743,8 @@ pl:
       important_active: Ważny element zajmuje teraz ten slot.
       stale: Inteligentne pomijanie pomija ten element — jego ekran od dłuższego czasu nie był aktualizowany.
       pending: Pierwsze renderowanie rozpocznie się przy następnym zgłoszeniu urządzenia.
-      held: Włączono opcję „Zatrzymaj na tym ekranie”, dlatego urządzenie pozostaje na bieżącym ekranie. Wyłącz tę opcję u góry strony, aby wznowić rotację.
       hidden_by_important: Important items are scheduled for every hour this device is awake, so this item never shows.
+      repeated: Repeat screen is on, so the device shows this screen again at each wake. Turn off Repeat screen at the top of the page to rotate again.
     schedule:
       always: Zawsze
       important_title: Ważne
@@ -1789,9 +1789,6 @@ pl:
       window_option: "%{count}h"
       render_marker: Renderuje
       asleep_window: Uśpione %{from} → %{to} (%{duration})
-    hold:
-      success: Zatrzymano. Urządzenie wyświetli ten ekran przy następnym odświeżeniu.
-      unavailable: Nie można zatrzymać wyświetlania tego ekranu.
     action_items:
       no_plugins_available: No plugins available
     appearance:
@@ -1812,6 +1809,9 @@ pl:
       title: Compose 3×3 layout
     presentation_options:
       device_default: Device Default
+    repeat:
+      success: Your device repeats this screen from its next refresh.
+      unavailable: This screen cannot be repeated.
   plugins:
     index:
       title: Pluginy
