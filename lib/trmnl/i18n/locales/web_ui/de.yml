@@ -1647,12 +1647,12 @@ de:
           heading: Diese Wiedergabeliste ist leer
           description: Wähle oben "Erweiterung hinzufügen", um eine deiner Erweiterungen hinzuzufügen.
           cta: Auf der Suche nach etwas Neuem? Erweiterungen durchsuchen
-      hold_screen: Bildschirm halten
-      hold_screen_hint: Behält den aktuellen Bildschirm, bis du den Knopf drückst. Ein geplantes Aufwachen aktualisiert ihn, geht aber nicht weiter.
       unused_plugin_setting:
         message: "%{name} ist jetzt auf keiner Wiedergabeliste mehr. Auch die Erweiterung löschen?"
         delete: Erweiterung löschen
         keep: Erweiterung behalten
+      repeat_screen: Repeat screen
+      repeat_screen_hint: Show the current screen again at each wake, with fresh data, until you press the button.
     playlist_item:
       adjust_schedule: Zeitplan anpassen
       delete: Soll dieser Eintrag wirklich entfernt werden? Die Erweiterung bleibt weiterhin verbunden, wird lediglich nicht auf dem Gerät angezeigt.
@@ -1674,11 +1674,11 @@ de:
       next_render: Rendert erneut %{time}
       render_overdue: Ein Rendering ist seit %{time} überfällig
       no_next_render: Kein Rendering davor, %{reason}
-      hold_screen: Diesen Bildschirm halten
       configure: Configure
       more_options: More options
       select_item: Select %{title}
       preview_item: Preview %{name}
+      repeat_screen: Repeat this screen
     create:
       success: Wiedergabeliste aktualisiert
       error: Fehler beim Aktualisieren der Wiedergabeliste
@@ -1709,8 +1709,8 @@ de:
       important_active: Wichtig aktiv
       stale: Veraltet
       pending: Noch nicht gerendert
-      held: Gehalten
       hidden_by_important: Hidden by Important
+      repeated: Repeated
     status_description:
       error: Aktualisierungen wurden nach wiederholten Fehlschlägen gestoppt. Öffne die Einstellungen, um das Problem zu beheben.
       setup: Schließe die Konfiguration dieses Eintrags ab, bevor er auf dem Gerät erscheinen kann.
@@ -1721,8 +1721,8 @@ de:
       important_active: Ein wichtiger Eintrag belegt diesen Slot gerade.
       stale: Smartes Überspringen überspringt dies — der Bildschirm hat sich eine Weile nicht aktualisiert.
       pending: Sein erstes Render startet beim nächsten Check-in des Geräts.
-      held: Bildschirm halten ist aktiviert, daher bleibt das Gerät auf diesem Bildschirm. Schalte Bildschirm halten oben auf der Seite aus, um wieder zu rotieren.
       hidden_by_important: Important items are scheduled for every hour this device is awake, so this item never shows.
+      repeated: Repeat screen is on, so the device shows this screen again at each wake. Turn off Repeat screen at the top of the page to rotate again.
     schedule:
       always: Immer
       important_title: Wichtig
@@ -1767,9 +1767,6 @@ de:
       window_option: "%{count}h"
       render_marker: Anzeige wird gerendert
       asleep_window: Schläft %{from} → %{to} (%{duration})
-    hold:
-      success: Gehalten. Dein Gerät zeigt diesen Bildschirm bei der nächsten Aktualisierung.
-      unavailable: Dieser Bildschirm kann nicht gehalten werden.
     action_items:
       no_plugins_available: No plugins available
     appearance:
@@ -1790,6 +1787,9 @@ de:
       title: Compose 3×3 layout
     presentation_options:
       device_default: Device Default
+    repeat:
+      success: Your device repeats this screen from its next refresh.
+      unavailable: This screen cannot be repeated.
   plugins:
     index:
       title: Erweiterungen

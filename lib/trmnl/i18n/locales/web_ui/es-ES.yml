@@ -1647,12 +1647,12 @@ es-ES:
           heading: Esta lista de reproducción está vacía
           description: Selecciona «Añadir plugin» arriba para añadir uno de tus plugins.
           cta: "¿Buscas algo nuevo? Explora los plugins"
-      hold_screen: Fijar pantalla
-      hold_screen_hint: Mantén la pantalla actual hasta que pulses el botón. Una actualización programada la renovará, pero no pasará a la siguiente.
       unused_plugin_setting:
         message: "«%{name}» ya no está en ninguna lista de reproducción. ¿Quieres eliminar también el plugin?"
         delete: Eliminar plugin
         keep: Conservar plugin
+      repeat_screen: Repeat screen
+      repeat_screen_hint: Show the current screen again at each wake, with fresh data, until you press the button.
     playlist_item:
       adjust_schedule: Ajustar programación
       delete: "¿Seguro que quieres eliminar este elemento? El plugin permanecerá conectado, pero no se mostrará en tu dispositivo."
@@ -1674,11 +1674,11 @@ es-ES:
       next_render: Se generará de nuevo %{time}
       render_overdue: La generación lleva retraso desde %{time}
       no_next_render: 'No habrá una nueva generación antes de entonces: %{reason}'
-      hold_screen: Fijar esta pantalla
       configure: Configure
       more_options: More options
       select_item: Select %{title}
       preview_item: Preview %{name}
+      repeat_screen: Repeat this screen
     create:
       success: Lista actualizada
       error: Falló la actualización de la lista
@@ -1709,8 +1709,8 @@ es-ES:
       important_active: Importante activo
       stale: Desactualizado
       pending: Todavía sin generar
-      held: Fijado
       hidden_by_important: Hidden by Important
+      repeated: Repeated
     status_description:
       error: La actualización se ha detenido tras varios fallos. Abre los ajustes para solucionarlo.
       setup: Termina de configurar este elemento antes de que pueda aparecer en el dispositivo.
@@ -1721,8 +1721,8 @@ es-ES:
       important_active: Un elemento importante ocupa este turno.
       stale: La omisión inteligente está saltándose esta pantalla porque lleva tiempo sin actualizarse.
       pending: La primera generación comenzará cuando el dispositivo vuelva a conectarse.
-      held: La pantalla está fijada, así que el dispositivo permanecerá en ella. Desactiva «Fijar pantalla» en la parte superior para reanudar la rotación.
       hidden_by_important: Important items are scheduled for every hour this device is awake, so this item never shows.
+      repeated: Repeat screen is on, so the device shows this screen again at each wake. Turn off Repeat screen at the top of the page to rotate again.
     schedule:
       always: Siempre
       important_title: Importante
@@ -1767,9 +1767,6 @@ es-ES:
       window_option: "%{count}h"
       render_marker: Generaciones
       asleep_window: En reposo de %{from} a %{to} (%{duration})
-    hold:
-      success: Pantalla fijada. El dispositivo la mostrará en su próxima actualización.
-      unavailable: No se puede fijar esta pantalla.
     action_items:
       no_plugins_available: No plugins available
     appearance:
@@ -1790,6 +1787,9 @@ es-ES:
       title: Compose 3×3 layout
     presentation_options:
       device_default: Device Default
+    repeat:
+      success: Your device repeats this screen from its next refresh.
+      unavailable: This screen cannot be repeated.
   plugins:
     index:
       title: Plugins

@@ -1675,12 +1675,12 @@ sl:
           heading: Ta seznam predvajanja je prazen
           description: Zgoraj izberite Dodaj vtičnik, da dodate enega od svojih vtičnikov.
           cta: Iščete kaj novega? Prebrskaj vtičnike
-      hold_screen: Hold screen
-      hold_screen_hint: Keep the current screen until you press the button. A timed wake refreshes it but does not move on.
       unused_plugin_setting:
         message: "%{name} is not on any playlist now. Delete the plugin too?"
         delete: Delete plugin
         keep: Keep plugin
+      repeat_screen: Repeat screen
+      repeat_screen_hint: Show the current screen again at each wake, with fresh data, until you press the button.
     playlist_item:
       adjust_schedule: Prilagodi urnik
       delete: Ali ste prepričani, da želite odstraniti ta predmet? Vtičnik bo ostal povezan, le prikazan ne bo več na vaši napravi.
@@ -1702,11 +1702,11 @@ sl:
       next_render: Znova se izriše %{time}
       render_overdue: Izris zamuja od %{time}
       no_next_render: Do takrat ni izrisa, %{reason}
-      hold_screen: Hold this screen
       configure: Configure
       more_options: More options
       select_item: Select %{title}
       preview_item: Preview %{name}
+      repeat_screen: Repeat this screen
     create:
       success: Seznam predvajanja posodobljen
       error: Posodobitev seznama predvajanja ni uspela
@@ -1737,8 +1737,8 @@ sl:
       important_active: Aktivno pomembno
       stale: Zastarelo
       pending: Še ni izrisano
-      held: Held
       hidden_by_important: Hidden by Important
+      repeated: Repeated
     status_description:
       error: Osveževanje se je ustavilo po ponavljajočih se napakah. Odprite njegove nastavitve, da to odpravite.
       setup: Dokončajte nastavitev tega predmeta, preden se lahko prikaže na napravi.
@@ -1749,8 +1749,8 @@ sl:
       important_active: Ta prostor trenutno zaseda pomemben predmet.
       stale: Pametno preskakovanje preskoči tega — njegov zaslon se nekaj časa ni posodobil.
       pending: Njegov prvi izris se začne ob naslednji prijavi naprave.
-      held: Hold screen is on, so the device stays on this screen. Turn off Hold screen at the top of the page to rotate again.
       hidden_by_important: Important items are scheduled for every hour this device is awake, so this item never shows.
+      repeated: Repeat screen is on, so the device shows this screen again at each wake. Turn off Repeat screen at the top of the page to rotate again.
     schedule:
       always: Vedno
       important_title: Pomembno
@@ -1795,9 +1795,6 @@ sl:
       window_option: "%{count}h"
       render_marker: Renders
       asleep_window: Asleep %{from} → %{to} (%{duration})
-    hold:
-      success: Held. Your device shows this screen at its next refresh.
-      unavailable: This screen cannot be held.
     action_items:
       no_plugins_available: No plugins available
     appearance:
@@ -1818,6 +1815,9 @@ sl:
       title: Compose 3×3 layout
     presentation_options:
       device_default: Device Default
+    repeat:
+      success: Your device repeats this screen from its next refresh.
+      unavailable: This screen cannot be repeated.
   plugins:
     index:
       title: Vtičniki
