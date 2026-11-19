@@ -67,7 +67,6 @@ ro:
   status: Stare
   help_center: Asistență
   unsaved_changes: Ai modificări nesalvate
-  view: Vizualizează
   collaboration_request: Vrei să colaborezi?
   collaboration_request_hint: Parteneriate, vânzări pentru grupuri sau proiecte speciale. Tu alegi.
   collaboration_request_cta: Să vorbim
@@ -1035,29 +1034,17 @@ ro:
     log:
       expand: Extinde
   markups:
-    console_logs:
-      js_logs: Jurnale JS
     form:
-      back_to_plugin_settings: Înapoi la setările pluginului
-      design_system: Folosește sistemul nostru nativ de design
-      design_system_docs: Documentația sistemului de design
       dirty_confirm: Ai modificări nesalvate. Părăsești pagina?
       edit_composition: Editează compoziția
       edit_markup: Editează codul de afișare
       edit_markup_for_plugin: Editează codul de afișare pentru %{plugin_setting_name}
       edit_markup_please_save_first: Salvează înainte de a edita codul de afișare
       edit_markup_without_preview: Editează codul de afișare (fără previzualizare)
-      error_rendering_markup: Eroare la generarea ecranului din acest cod
       fix_indentation: Corectează indentarea
-      go_to_preview: Mergi la previzualizare
-      live_preview: Previzualizare în timp real
-      no_changes_to_save: Nicio modificare de salvat
       pop_out_preview: Previzualizare separată
       revert: Revino
       revert_confirm: Revii la versiunea salvată? Toate modificările nesalvate vor fi pierdute.
-      save_changes: Salvează modificările (⌘﹢S)
-      separate_preview: Previzualizarea este deschisă într-o fereastră separată
-      preview_layout: Previzualizează aranjarea
       prompt_language: Instrucțiune (AI)
       prompt_help: 'Modelul ales de persoana care instalează pluginul transformă datele de intrare în variabilele pluginului. Costul este acoperit prin cheia sa API sau din creditele AI. Liquid primește aceleași date ca un script, iar modelul este apelat din nou când se schimbă instrucțiunea generată. Transmite doar câmpurile necesare instrucțiunii. Antetul dintre două linii --- poate defini schema (o schemă JSON pe care răspunsul trebuie să o respecte, dacă modelul permite), max_tokens (cel mult 4096 de tokenuri, dintre care modelele de raționament folosesc o parte pentru gândire) și format: text.'
       serverless_help: Prelucrează datele cu un script sau trimite-le unui model AI cu o instrucțiune.
@@ -1065,28 +1052,13 @@ ro:
       prompt_learn_more: Citește ghidul de instrucțiuni AI
       beta: Beta
       clear: Clear
-      design_system_short: TRMNL Design System
-      half_horizontal: Half horizontal
-      half_vertical: Half vertical
-      history: History
-      language: Language
-      markup_code_preview: Markup code preview
-      none: None
-      quickstart_examples: Quickstart Examples
-      remove_transform_confirm: Permanently delete the transform script from the server? This cannot be undone.
-      remove_transform_script: Remove transform script
       visual_editor: Visual Editor
     merge_variables:
-      your_variables: Variabilele tale
-      key_count:
-        one: "%{count} key"
-        other: "%{count} keys"
       not_in_playlist:
         one: This plugin isn't in any Playlist. Mark it as hidden after adding to keep the data fresh.
         other: These plugins aren't in any Playlist. Mark them as hidden after adding to keep the data fresh.
       stale_data: 'Stale data:'
     no_merge_variables:
-      force_refresh: Dacă ai furnizat variabile dar nu sunt detectate, încearcă o __reîmprospătare forțată__.
       no_variables_detected: Nicio variabilă detectată.
     visual_editor:
       back: Înapoi
@@ -1150,10 +1122,8 @@ ro:
         limited: Salvat. Limita de rulări la salvare este de %{count} pe oră. Acest script se va rula la următoarea reîmprospătare.
         expired: Scriptul încă rulează. Reîncarcă pagina pentru a vedea noile variabile.
       beta_notice_html: The Visual Editor is currently in <strong class="font-semibold">beta</strong> and has known issues, particularly with more complex, Liquid-heavy plugins. If you run into trouble, you can always fall back to the code editor. Runs on top of <strong class="font-semibold">Framework v3.x</strong>.
-      card_preview_title: "%{view} visual editor preview"
       clear_saved_plugin_state: Clear saved plugin state
       code_panels: Code panels
-      design_system: design system
       docs_descriptions:
         chart: Visualize data optimized for 1-bit rendering
         clamp: Manage text overflow with single and multi-line truncation
@@ -1179,7 +1149,6 @@ ro:
         title_bar: Standardized title bar with plugin information and instance details
         value: Display data values with consistent formatting
       edit_plugin_settings: Edit plugin settings
-      empty_preview_hint_html: Start by writing markup in the code editor, or browse the %{link} for components and layouts.
       feature_agent_description: Describe what you want. AI writes and edits your markup.
       feature_agent_title: Code Agent
       feature_grid_description: All your markup layouts at once. Pan and zoom, switch context instantly.
@@ -1199,8 +1168,6 @@ ro:
       force_refresh_plugin_data: Force refresh plugin data
       half_horizontal: Half Horizontal
       half_vertical: Half Vertical
-      hidden: hidden
-      hidden_preview: hidden preview
       history_and_save: History and save
       instance_fallback: Instance %{id}
       labels:
@@ -1531,8 +1498,6 @@ ro:
         xlarge: XLarge
         xsmall: Xsmall
         zoom_preview: Zoom preview
-      layout_mode: Layout mode
-      no_plugins_match: No plugins match
       page_title: Visual Editor - %{name}
       plugin_documentation: Plugin documentation
       pop_out_preview_label: Pop out preview
@@ -1541,14 +1506,8 @@ ro:
       preset_mixed_description: Every panel open. The complete environment, all at once.
       resources: Resources
       side_panels: Side panels
-      start_from_templates: Start from pre-made templates
       starting_with: Starting with
-      tell_code_agent: Tell the Code Agent about your idea
       time_ago: "%{time} ago"
-      use_starter_template: Use starter template for this layout
-      view_size: View size
-      view_tabs: View tabs
-      write_markup_in_code_panel: Write markup in the Code panel
     ai_assistant_inline:
       model_locked: Modelul AI este stabilit de TRMNL
       composition_prefill: Adaptează acest plugin pentru Vestaboard
@@ -1565,9 +1524,6 @@ ro:
       send_message: Send message
       stop: Stop
       stop_response: Stop response
-    ai_assistant:
-      new_chat: New Chat
-      toggle_position: Toggle position
     ai_screenshot_targets:
       devices: Devices
       screenshot_targets: Screenshot targets
@@ -1587,15 +1543,11 @@ ro:
       secret_title: 4. Add your API key as a secret
       trmnlp_readme: trmnlp README
       view_api_key: View your API key
-    edit:
-      page_title: Edit markup for %{name}
     preview:
       get_started_html: Get started with %{link}. Or select a quick-start example above.
       placeholder: Your live preview will appear here.
       the_design_system: the design system
       variables_below: The template variables can be found below.
-    previewer:
-      markup_preview: Markup preview
     visual_editor_shortcuts:
       keyboard_and_pointer_shortcuts: Keyboard and pointer shortcuts
       shortcuts: Shortcuts
@@ -7744,8 +7696,6 @@ ro:
       tool_unknown_active: Using %{tool}
       tool_unknown_past: Used %{tool}
       waiting_for_response: Waiting for response...
-    tool_call:
-      using: Using %{name}...
     tools:
       ask_user:
         active: Asking you

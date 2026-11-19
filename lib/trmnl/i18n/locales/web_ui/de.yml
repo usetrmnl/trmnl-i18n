@@ -67,7 +67,6 @@ de:
   status: Status
   help_center: Hilfe
   unsaved_changes: Du hast ungespeicherte Änderungen
-  view: Ansicht
   collaboration_request: Lust zusammenzuarbeiten?
   collaboration_request_hint: Partnerschaften, Großabnahme, Sonderprojekte – ganz nach Bedarf.
   collaboration_request_cta: Sprich uns an
@@ -1014,29 +1013,17 @@ de:
     log:
       expand: Ausklappen
   markups:
-    console_logs:
-      js_logs: JS-Protokolle
     form:
-      back_to_plugin_settings: Zurück zu den Erweiterungs-Einstellungen
-      design_system: Nutze unser natives Design-System
-      design_system_docs: Dokumentation anzeigen
       dirty_confirm: Es gibt ungespeicherte Änderungen. Möchtest Du diese Seite wirklich verlassen?
       edit_composition: Komposition bearbeiten
       edit_markup: Markup bearbeiten
       edit_markup_for_plugin: Markup von %{plugin_setting_name} bearbeiten
       edit_markup_please_save_first: Bitte vor dem Bearbeiten des Markups speichern
       edit_markup_without_preview: Markup bearbeiten (ohne Vorschau)
-      error_rendering_markup: Fehler beim Rendern dieses Markups
       fix_indentation: Code einrücken
-      go_to_preview: Zur Vorschau gehen
-      live_preview: Live-Vorschau
-      no_changes_to_save: Keine Änderungen zum Speichern
       pop_out_preview: Vorschau in eigenem Fenster
       revert: Rückgängig
       revert_confirm: Wirklich rückgängig machen? Alle nicht gespeicherten Änderungen gehen verloren.
-      save_changes: Speichern (⌘﹢S)
-      separate_preview: Vorschau wird in separatem Fenster angezeigt
-      preview_layout: Layout-Vorschau
       prompt_language: Prompt (KI)
       prompt_help: 'Das Modell der Installierenden wandelt die Eingabe in die Variablen dieser Erweiterung um, bezahlt mit deren API-Schlüssel oder KI-Guthaben. Liquid sieht dieselbe Eingabe wie ein Skript, und das Modell wird erneut gefragt, sobald sich der gerenderte Prompt ändert — übergib daher nur die Felder, die der Prompt braucht. Im Front Matter zwischen zwei --- Zeilen lassen sich schema (ein JSON-Schema, dem die Antwort entsprechen muss, soweit das Modell es unterstützt), max_tokens (bis zu 4096, von denen ein Reasoning-Modell einen Teil fürs Denken verbraucht) und format: text festlegen.'
       serverless_help: Bereinige die Daten mit einem Skript, oder gib sie mit einem Prompt an ein KI-Modell weiter.
@@ -1044,28 +1031,13 @@ de:
       prompt_learn_more: Prompt-Leitfaden lesen
       beta: Beta
       clear: Clear
-      design_system_short: TRMNL Design System
-      half_horizontal: Half horizontal
-      half_vertical: Half vertical
-      history: History
-      language: Language
-      markup_code_preview: Markup code preview
-      none: None
-      quickstart_examples: Quickstart Examples
-      remove_transform_confirm: Permanently delete the transform script from the server? This cannot be undone.
-      remove_transform_script: Remove transform script
       visual_editor: Visual Editor
     merge_variables:
-      your_variables: Variablen
-      key_count:
-        one: "%{count} key"
-        other: "%{count} keys"
       not_in_playlist:
         one: This plugin isn't in any Playlist. Mark it as hidden after adding to keep the data fresh.
         other: These plugins aren't in any Playlist. Mark them as hidden after adding to keep the data fresh.
       stale_data: 'Stale data:'
     no_merge_variables:
-      force_refresh: __Aktualisierung erzwingen__, wenn Variablen fehlen.
       no_variables_detected: Keine Variablen gefunden.
     visual_editor:
       back: Zurück
@@ -1128,10 +1100,8 @@ de:
         limited: Gespeichert. Skripte laufen beim Speichern %{count} Mal pro Stunde, dieses läuft also bei der nächsten Aktualisierung.
         expired: Skript läuft noch. Neu laden, um neue Variablen zu sehen.
       beta_notice_html: The Visual Editor is currently in <strong class="font-semibold">beta</strong> and has known issues, particularly with more complex, Liquid-heavy plugins. If you run into trouble, you can always fall back to the code editor. Runs on top of <strong class="font-semibold">Framework v3.x</strong>.
-      card_preview_title: "%{view} visual editor preview"
       clear_saved_plugin_state: Clear saved plugin state
       code_panels: Code panels
-      design_system: design system
       docs_descriptions:
         chart: Visualize data optimized for 1-bit rendering
         clamp: Manage text overflow with single and multi-line truncation
@@ -1157,7 +1127,6 @@ de:
         title_bar: Standardized title bar with plugin information and instance details
         value: Display data values with consistent formatting
       edit_plugin_settings: Edit plugin settings
-      empty_preview_hint_html: Start by writing markup in the code editor, or browse the %{link} for components and layouts.
       feature_agent_description: Describe what you want. AI writes and edits your markup.
       feature_agent_title: Code Agent
       feature_grid_description: All your markup layouts at once. Pan and zoom, switch context instantly.
@@ -1177,8 +1146,6 @@ de:
       force_refresh_plugin_data: Force refresh plugin data
       half_horizontal: Half Horizontal
       half_vertical: Half Vertical
-      hidden: hidden
-      hidden_preview: hidden preview
       history_and_save: History and save
       instance_fallback: Instance %{id}
       labels:
@@ -1509,8 +1476,6 @@ de:
         xlarge: XLarge
         xsmall: Xsmall
         zoom_preview: Zoom preview
-      layout_mode: Layout mode
-      no_plugins_match: No plugins match
       page_title: Visual Editor - %{name}
       plugin_documentation: Plugin documentation
       pop_out_preview_label: Pop out preview
@@ -1519,14 +1484,8 @@ de:
       preset_mixed_description: Every panel open. The complete environment, all at once.
       resources: Resources
       side_panels: Side panels
-      start_from_templates: Start from pre-made templates
       starting_with: Starting with
-      tell_code_agent: Tell the Code Agent about your idea
       time_ago: "%{time} ago"
-      use_starter_template: Use starter template for this layout
-      view_size: View size
-      view_tabs: View tabs
-      write_markup_in_code_panel: Write markup in the Code panel
     ai_assistant_inline:
       model_locked: Dein KI-Modell wird von TRMNL festgelegt
       composition_prefill: Mache diese Erweiterung Vestaboard-freundlich
@@ -1543,9 +1502,6 @@ de:
       send_message: Send message
       stop: Stop
       stop_response: Stop response
-    ai_assistant:
-      new_chat: New Chat
-      toggle_position: Toggle position
     ai_screenshot_targets:
       devices: Devices
       screenshot_targets: Screenshot targets
@@ -1565,15 +1521,11 @@ de:
       secret_title: 4. Add your API key as a secret
       trmnlp_readme: trmnlp README
       view_api_key: View your API key
-    edit:
-      page_title: Edit markup for %{name}
     preview:
       get_started_html: Get started with %{link}. Or select a quick-start example above.
       placeholder: Your live preview will appear here.
       the_design_system: the design system
       variables_below: The template variables can be found below.
-    previewer:
-      markup_preview: Markup preview
     visual_editor_shortcuts:
       keyboard_and_pointer_shortcuts: Keyboard and pointer shortcuts
       shortcuts: Shortcuts
@@ -7684,8 +7636,6 @@ de:
       tool_unknown_active: Using %{tool}
       tool_unknown_past: Used %{tool}
       waiting_for_response: Waiting for response...
-    tool_call:
-      using: Using %{name}...
     tools:
       ask_user:
         active: Asking you

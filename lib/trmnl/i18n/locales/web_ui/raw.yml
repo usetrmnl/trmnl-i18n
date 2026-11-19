@@ -67,7 +67,6 @@ raw:
   status: status
   help_center: support
   unsaved_changes: unsaved_changes
-  view: view
   collaboration_request: collaboration_request
   collaboration_request_hint: collaboration_request_hint
   collaboration_request_cta: collaboration_request_cta
@@ -1014,29 +1013,17 @@ raw:
     log:
       expand: logs.log.expand
   markups:
-    console_logs:
-      js_logs: markups.console_logs.js_logs
     form:
-      back_to_plugin_settings: markups.form.back_to_plugin_settings
-      design_system: markups.form.design_system
-      design_system_docs: markups.form.design_system_docs
       dirty_confirm: markups.form.dirty_confirm
       edit_composition: markups.form.edit_composition
       edit_markup: markups.form.edit_markup
       edit_markup_for_plugin: markups.form.edit_markup_for_plugin
       edit_markup_please_save_first: markups.form.edit_markup_please_save_first
       edit_markup_without_preview: markups.form.edit_markup_without_preview
-      error_rendering_markup: markups.form.error_rendering_markup
       fix_indentation: markups.form.fix_indentation
-      go_to_preview: markups.form.go_to_preview
-      live_preview: markups.form.live_preview
-      no_changes_to_save: markups.form.no_changes_to_save
       pop_out_preview: markups.form.pop_out_preview
       revert: markups.form.revert
       revert_confirm: markups.form.revert_confirm
-      save_changes: markups.form.save_changes
-      separate_preview: markups.form.separate_preview
-      preview_layout: markups.form.preview_layout
       prompt_language: markups.form.prompt_language
       prompt_help: markups.form.prompt_help
       serverless_help: markups.form.serverless_help
@@ -1044,28 +1031,13 @@ raw:
       prompt_learn_more: markups.form.prompt_learn_more
       beta: markups.form.beta
       clear: markups.form.clear
-      design_system_short: markups.form.design_system_short
-      half_horizontal: markups.form.half_horizontal
-      half_vertical: markups.form.half_vertical
-      history: markups.form.history
-      language: markups.form.language
-      markup_code_preview: markups.form.markup_code_preview
-      none: markups.form.none
-      quickstart_examples: markups.form.quickstart_examples
-      remove_transform_confirm: markups.form.remove_transform_confirm
-      remove_transform_script: markups.form.remove_transform_script
       visual_editor: markups.form.visual_editor
     merge_variables:
-      your_variables: markups.merge_variables.your_variables
-      key_count:
-        one: markups.merge_variables.key_count.one
-        other: markups.merge_variables.key_count.other
       not_in_playlist:
         one: markups.merge_variables.not_in_playlist.one
         other: markups.merge_variables.not_in_playlist.other
       stale_data: markups.merge_variables.stale_data
     no_merge_variables:
-      force_refresh: markups.no_merge_variables.force_refresh
       no_variables_detected: markups.no_merge_variables.no_variables_detected __force refresh__.
     visual_editor:
       back: markups.visual_editor.back
@@ -1128,10 +1100,8 @@ raw:
         limited: markups.visual_editor.script_run.limited
         expired: markups.visual_editor.script_run.expired
       beta_notice_html: markups.visual_editor.beta_notice_html
-      card_preview_title: markups.visual_editor.card_preview_title
       clear_saved_plugin_state: markups.visual_editor.clear_saved_plugin_state
       code_panels: markups.visual_editor.code_panels
-      design_system: markups.visual_editor.design_system
       docs_descriptions:
         chart: markups.visual_editor.docs_descriptions.chart
         clamp: markups.visual_editor.docs_descriptions.clamp
@@ -1157,7 +1127,6 @@ raw:
         title_bar: markups.visual_editor.docs_descriptions.title_bar
         value: markups.visual_editor.docs_descriptions.value
       edit_plugin_settings: markups.visual_editor.edit_plugin_settings
-      empty_preview_hint_html: markups.visual_editor.empty_preview_hint_html
       feature_agent_description: markups.visual_editor.feature_agent_description
       feature_agent_title: markups.visual_editor.feature_agent_title
       feature_grid_description: markups.visual_editor.feature_grid_description
@@ -1177,8 +1146,6 @@ raw:
       force_refresh_plugin_data: markups.visual_editor.force_refresh_plugin_data
       half_horizontal: markups.visual_editor.half_horizontal
       half_vertical: markups.visual_editor.half_vertical
-      hidden: markups.visual_editor.hidden
-      hidden_preview: markups.visual_editor.hidden_preview
       history_and_save: markups.visual_editor.history_and_save
       instance_fallback: markups.visual_editor.instance_fallback
       labels:
@@ -1509,8 +1476,6 @@ raw:
         xlarge: markups.visual_editor.labels.xlarge
         xsmall: markups.visual_editor.labels.xsmall
         zoom_preview: markups.visual_editor.labels.zoom_preview
-      layout_mode: markups.visual_editor.layout_mode
-      no_plugins_match: markups.visual_editor.no_plugins_match
       page_title: markups.visual_editor.page_title
       plugin_documentation: markups.visual_editor.plugin_documentation
       pop_out_preview_label: markups.visual_editor.pop_out_preview_label
@@ -1519,14 +1484,8 @@ raw:
       preset_mixed_description: markups.visual_editor.preset_mixed_description
       resources: markups.visual_editor.resources
       side_panels: markups.visual_editor.side_panels
-      start_from_templates: markups.visual_editor.start_from_templates
       starting_with: markups.visual_editor.starting_with
-      tell_code_agent: markups.visual_editor.tell_code_agent
       time_ago: markups.visual_editor.time_ago
-      use_starter_template: markups.visual_editor.use_starter_template
-      view_size: markups.visual_editor.view_size
-      view_tabs: markups.visual_editor.view_tabs
-      write_markup_in_code_panel: markups.visual_editor.write_markup_in_code_panel
     ai_assistant_inline:
       model_locked: markups.ai_assistant_inline.model_locked
       composition_prefill: markups.ai_assistant_inline.composition_prefill
@@ -1543,9 +1502,6 @@ raw:
       send_message: markups.ai_assistant_inline.send_message
       stop: markups.ai_assistant_inline.stop
       stop_response: markups.ai_assistant_inline.stop_response
-    ai_assistant:
-      new_chat: markups.ai_assistant.new_chat
-      toggle_position: markups.ai_assistant.toggle_position
     ai_screenshot_targets:
       devices: markups.ai_screenshot_targets.devices
       screenshot_targets: markups.ai_screenshot_targets.screenshot_targets
@@ -1565,15 +1521,11 @@ raw:
       secret_title: markups.develop_on_github_modal.secret_title
       trmnlp_readme: markups.develop_on_github_modal.trmnlp_readme
       view_api_key: markups.develop_on_github_modal.view_api_key
-    edit:
-      page_title: markups.edit.page_title
     preview:
       get_started_html: markups.preview.get_started_html
       placeholder: markups.preview.placeholder
       the_design_system: markups.preview.the_design_system
       variables_below: markups.preview.variables_below
-    previewer:
-      markup_preview: markups.previewer.markup_preview
     visual_editor_shortcuts:
       keyboard_and_pointer_shortcuts: markups.visual_editor_shortcuts.keyboard_and_pointer_shortcuts
       shortcuts: markups.visual_editor_shortcuts.shortcuts
@@ -7372,8 +7324,6 @@ raw:
       tool_unknown_active: ai_assistant.labels.tool_unknown_active
       tool_unknown_past: ai_assistant.labels.tool_unknown_past
       waiting_for_response: ai_assistant.labels.waiting_for_response
-    tool_call:
-      using: ai_assistant.tool_call.using
     tools:
       ask_user:
         active: ai_assistant.tools.ask_user.active
