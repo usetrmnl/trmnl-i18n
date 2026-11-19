@@ -1594,6 +1594,46 @@ zh-CN:
     welcome_tag:
       layers: Layers
       preview: Preview
+    markup_editor:
+      apply_example_hint: Apply a quickstart from the Examples menu
+      code_panels: Code panels
+      design_system: Design system
+      device_logs: Device logs
+      docs: Docs
+      docs_and_tools: Docs and tools
+      code_agent_hint: Tell the Code Agent about your idea
+      design_system_link: design system
+      insert_variable: Insert
+      empty_state_hint_html: Start by writing markup in the code editor, or browse the %{design_system} for components and layouts.
+      examples: Examples
+      full: Full
+      half_horizontal: Half Horizontal
+      half_horizontal_short: Half H
+      half_vertical: Half Vertical
+      half_vertical_short: Half V
+      layout_mode: Layout mode
+      no_examples: No examples for this tab.
+      no_plugins_match: No plugins match
+      plugin_docs: Plugin docs
+      premade_templates_hint: Start from pre-made templates
+      preview_title: "%{layout} markup editor preview"
+      quadrant: Quadrant
+      remove_transform: Remove transform script
+      remove_transform_confirm: Permanently delete the transform script from the server? This cannot be undone.
+      replace_with_example: Replace the active editor with this example
+      reset_zoom: Fit the preview
+      resize_code_agent: Resize Code Agent panel
+      resources: Resources
+      save_and_revert: Save and revert
+      serverless_language_none: None
+      show_all: Show all
+      show_all_layouts: Show all layouts in the preview
+      starter_template_hint: Use starter template for this layout
+      view_size: View size
+      view_tabs: View tabs
+      visual_preview_title: "%{layout} visual editor preview"
+      write_markup_hint: Write markup in the Code panel
+      zoom_in_hint: Zoom in to get started
   mfa:
     disable_otp:
       success: 已禁用双重认证
@@ -8074,6 +8114,8 @@ zh-CN:
       archived:
         one: 1 archived chat
         other: "%{count} archived chats"
+      today: Today
+      earlier: Earlier
     composer:
       label: Message
       placeholder: Ask about your devices, playlists or plugins
@@ -8088,6 +8130,7 @@ zh-CN:
       add_credit: Add AI credit
       full: This chat is long now. Start a new chat to keep replies fast and cheap.
       privacy: trmy runs through OpenRouter, routed only to providers that keep no data and never train on it.
+      hint: Enter sends. Shift+Enter adds a line.
     device_card:
       seen: Seen %{time} ago
       never_seen: Never seen
@@ -8134,6 +8177,43 @@ zh-CN:
       - Which device has the lowest battery?
       - What's on my playlist right now?
       - Show me what my TRMNL shows now
+    chat_actions:
+      menu: Chat actions
+      rename: Rename
+      name: Chat name
+    device_list:
+      title:
+        one: 1 device
+        other: "%{count} devices"
+      more:
+        one: 1 more device
+        other: "%{count} more devices"
+    playlist_card:
+      items:
+        one: 1 item
+        other: "%{count} items"
+      now: Showing now
+      hidden: Hidden
+      open: Open playlist
+      empty: This playlist is empty.
+    plugin_analytics_card:
+      title: Your published plugins
+      installs: installs
+      connections: connections
+      growth: Installs, last %{count} days
+      open: Open analytics
+    plugin_setting_card:
+      refreshed: Refreshed %{time} ago
+      never_refreshed: Not refreshed yet
+      playlists:
+        one: On 1 playlist
+        other: On %{count} playlists
+      open: Open settings
+    plugin_list:
+      add: Add
+    plugin_logs_card:
+      title: "%{name}: latest logs"
+      empty: No logs yet.
   signup:
     find_friendly_id_html: Need this? %{link}.
     friendly_id_example: "%{friendly_id}, ex: 2D319E"
