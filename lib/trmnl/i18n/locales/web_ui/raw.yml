@@ -1594,6 +1594,46 @@ raw:
     welcome_tag:
       layers: markups.welcome_tag.layers
       preview: markups.welcome_tag.preview
+    markup_editor:
+      apply_example_hint: markups.markup_editor.apply_example_hint
+      code_panels: markups.markup_editor.code_panels
+      design_system: markups.markup_editor.design_system
+      device_logs: markups.markup_editor.device_logs
+      docs: markups.markup_editor.docs
+      docs_and_tools: markups.markup_editor.docs_and_tools
+      code_agent_hint: markups.markup_editor.code_agent_hint
+      design_system_link: markups.markup_editor.design_system_link
+      insert_variable: markups.markup_editor.insert_variable
+      empty_state_hint_html: markups.markup_editor.empty_state_hint_html
+      examples: markups.markup_editor.examples
+      full: markups.markup_editor.full
+      half_horizontal: markups.markup_editor.half_horizontal
+      half_horizontal_short: markups.markup_editor.half_horizontal_short
+      half_vertical: markups.markup_editor.half_vertical
+      half_vertical_short: markups.markup_editor.half_vertical_short
+      layout_mode: markups.markup_editor.layout_mode
+      no_examples: markups.markup_editor.no_examples
+      no_plugins_match: markups.markup_editor.no_plugins_match
+      plugin_docs: markups.markup_editor.plugin_docs
+      premade_templates_hint: markups.markup_editor.premade_templates_hint
+      preview_title: markups.markup_editor.preview_title
+      quadrant: markups.markup_editor.quadrant
+      remove_transform: markups.markup_editor.remove_transform
+      remove_transform_confirm: markups.markup_editor.remove_transform_confirm
+      replace_with_example: markups.markup_editor.replace_with_example
+      reset_zoom: markups.markup_editor.reset_zoom
+      resize_code_agent: markups.markup_editor.resize_code_agent
+      resources: markups.markup_editor.resources
+      save_and_revert: markups.markup_editor.save_and_revert
+      serverless_language_none: markups.markup_editor.serverless_language_none
+      show_all: markups.markup_editor.show_all
+      show_all_layouts: markups.markup_editor.show_all_layouts
+      starter_template_hint: markups.markup_editor.starter_template_hint
+      view_size: markups.markup_editor.view_size
+      view_tabs: markups.markup_editor.view_tabs
+      visual_preview_title: markups.markup_editor.visual_preview_title
+      write_markup_hint: markups.markup_editor.write_markup_hint
+      zoom_in_hint: markups.markup_editor.zoom_in_hint
   mfa:
     disable_otp:
       success: mfa.disable_otp.success
@@ -7762,6 +7802,8 @@ raw:
       archived:
         one: assistants.chat_list.archived.one
         other: assistants.chat_list.archived.other
+      today: assistants.chat_list.today
+      earlier: assistants.chat_list.earlier
     composer:
       label: assistants.composer.label
       placeholder: assistants.composer.placeholder
@@ -7776,6 +7818,7 @@ raw:
       add_credit: assistants.composer.add_credit
       full: assistants.composer.full
       privacy: assistants.composer.privacy
+      hint: assistants.composer.hint
     device_card:
       seen: assistants.device_card.seen
       never_seen: assistants.device_card.never_seen
@@ -7822,6 +7865,43 @@ raw:
       - assistants.show.examples[0]
       - assistants.show.examples[1]
       - assistants.show.examples[2]
+    chat_actions:
+      menu: assistants.chat_actions.menu
+      rename: assistants.chat_actions.rename
+      name: assistants.chat_actions.name
+    device_list:
+      title:
+        one: assistants.device_list.title.one
+        other: assistants.device_list.title.other
+      more:
+        one: assistants.device_list.more.one
+        other: assistants.device_list.more.other
+    playlist_card:
+      items:
+        one: assistants.playlist_card.items.one
+        other: assistants.playlist_card.items.other
+      now: assistants.playlist_card.now
+      hidden: assistants.playlist_card.hidden
+      open: assistants.playlist_card.open
+      empty: assistants.playlist_card.empty
+    plugin_analytics_card:
+      title: assistants.plugin_analytics_card.title
+      installs: assistants.plugin_analytics_card.installs
+      connections: assistants.plugin_analytics_card.connections
+      growth: assistants.plugin_analytics_card.growth
+      open: assistants.plugin_analytics_card.open
+    plugin_setting_card:
+      refreshed: assistants.plugin_setting_card.refreshed
+      never_refreshed: assistants.plugin_setting_card.never_refreshed
+      playlists:
+        one: assistants.plugin_setting_card.playlists.one
+        other: assistants.plugin_setting_card.playlists.other
+      open: assistants.plugin_setting_card.open
+    plugin_list:
+      add: assistants.plugin_list.add
+    plugin_logs_card:
+      title: assistants.plugin_logs_card.title
+      empty: assistants.plugin_logs_card.empty
   signup:
     find_friendly_id_html: signup.find_friendly_id_html
     friendly_id_example: signup.friendly_id_example
