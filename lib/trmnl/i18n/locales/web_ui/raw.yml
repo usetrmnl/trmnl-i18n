@@ -7836,6 +7836,9 @@ raw:
       hidden: assistants.playlist_card.hidden
       open: assistants.playlist_card.open
       empty: assistants.playlist_card.empty
+      more:
+        one: assistants.playlist_card.more.one
+        other: assistants.playlist_card.more.other
     plugin_analytics_card:
       title: assistants.plugin_analytics_card.title
       installs: assistants.plugin_analytics_card.installs
@@ -7854,6 +7857,17 @@ raw:
     plugin_logs_card:
       title: assistants.plugin_logs_card.title
       empty: assistants.plugin_logs_card.empty
+    home:
+      title: assistants.home.title
+      keep: assistants.home.keep
+      kept: assistants.home.kept
+      remove: assistants.home.remove
+      dismiss: assistants.home.dismiss
+      starter_hint: assistants.home.starter_hint
+      low_battery: assistants.home.low_battery
+      plugin_error: assistants.home.plugin_error
+      device_offline: assistants.home.device_offline
+      empty_playlist: assistants.home.empty_playlist
   signup:
     find_friendly_id_html: signup.find_friendly_id_html
     friendly_id_example: signup.friendly_id_example

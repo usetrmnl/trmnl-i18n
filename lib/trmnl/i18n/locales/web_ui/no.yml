@@ -8192,6 +8192,9 @@
       hidden: Hidden
       open: Open playlist
       empty: This playlist is empty.
+      more:
+        one: 1 more item
+        other: "%{count} more items"
     plugin_analytics_card:
       title: Your published plugins
       installs: installs
@@ -8210,6 +8213,17 @@
     plugin_logs_card:
       title: "%{name}: latest logs"
       empty: No logs yet.
+    home:
+      title: Home
+      keep: Keep on home
+      kept: On your home
+      remove: Remove from home
+      dismiss: Dismiss
+      starter_hint: Keep a card from any chat to build your own home.
+      low_battery: "%{device} battery is at %{percent}%"
+      plugin_error: "%{plugin} stopped with an error"
+      device_offline: "%{device} was last seen %{time} ago"
+      empty_playlist: "%{device} has an empty playlist"
   signup:
     find_friendly_id_html: Need this? %{link}.
     friendly_id_example: "%{friendly_id}, ex: 2D319E"
