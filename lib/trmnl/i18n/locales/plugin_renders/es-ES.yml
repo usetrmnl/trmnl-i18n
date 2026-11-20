@@ -7,13 +7,13 @@ es-ES:
       no_upcoming_events: No hay próximos eventos
       no_events_today: No hay eventos hoy
       all_day: Todo el día
-      upcoming_events: Upcoming Events
+      upcoming_events: Próximos eventos
     days_left_year:
       title: Días Restantes Este Año
       days_passed: Días Pasados
       days_left: Días Restantes
       board:
-        days_gone: days gone
+        days_gone: días transcurridos
         to_go: to go
     lunar_calendar:
       title: Calendario Lunar
@@ -116,8 +116,8 @@ es-ES:
       today: Hoy
       tomorrow: Mañana
       board:
-        delivering: delivering
-        in_transit: in transit
+        delivering: en reparto
+        in_transit: en tránsito
     weather:
       title: El Tiempo
       temperature: Temperatura
@@ -356,10 +356,10 @@ es-ES:
       locked: Bloqueado
       unlocked: Desbloqueado
       errors:
-        choose_homey: Choose which Homey to display in plugin settings.
-        connect: Connect your Homey account, or push a snapshot from a Homey app — in plugin settings.
-        session_expired: Your Homey session expired. Please reconnect in plugin settings.
-        unreachable: Unable to reach Homey right now. Please try again shortly.
+        choose_homey: Elige qué Homey mostrar en los ajustes del plugin.
+        connect: Conecta tu cuenta de Homey, o envía una instantánea desde una app de Homey, en los ajustes del plugin.
+        session_expired: Tu sesión de Homey ha caducado. Vuelve a conectarla en los ajustes del plugin.
+        unreachable: No se puede conectar con Homey en este momento. Inténtalo de nuevo en breve.
     mazevo:
       in_use: En uso
       available: Disponible
@@ -383,7 +383,7 @@ es-ES:
     days_left_until:
       today: 'Hoy: %{date}'
       target: 'Objetivo: %{date}'
-      title: Days Left Until...
+      title: Días que faltan para...
     home_assistant:
       no_area: Sin área
       lights_on: Luces encendidas
@@ -411,421 +411,421 @@ es-ES:
         idle: Inactivo
         unavailable: No disponible
     mashup:
-      empty_slot_message: Please add a plugin to this mashup.
-      empty_slot_title: Empty Slot
-      failed_message: Something went wrong with the %{plugin} plugin. Please check your plugin settings or contact support for help.
-      failed_title: Mashup Generation Failed
-      paused_message: The %{plugin} plugin was paused after repeated render errors. Fix its settings and reset its health to resume.
-      paused_title: Plugin Paused
+      empty_slot_message: Añade un plugin a este mashup.
+      empty_slot_title: Espacio vacío
+      failed_message: Algo ha fallado con el plugin %{plugin}. Revisa los ajustes del plugin o contacta con soporte para obtener ayuda.
+      failed_title: Error al generar el mashup
+      paused_message: El plugin %{plugin} se ha pausado tras varios errores de renderizado. Corrige sus ajustes y restablece su estado para reanudarlo.
+      paused_title: Plugin en pausa
     notion:
-      untitled: Untitled
-      database_view: Database view
-      empty_description: Check your Notion configuration and try again
-      empty_description_short: Check your Notion configuration
-      empty_description_xshort: Check config
-      empty_title: No Content Available
-      empty_title_short: No Content
-      error_title: Notion Error
+      untitled: Sin título
+      database_view: Vista de base de datos
+      empty_description: Revisa tu configuración de Notion e inténtalo de nuevo
+      empty_description_short: Revisa tu configuración de Notion
+      empty_description_xshort: Revisa la config.
+      empty_title: No hay contenido disponible
+      empty_title_short: Sin contenido
+      error_title: Error de Notion
       error_title_short: Error
-      image: Image
-      image_placeholder: Image placeholder
+      image: Imagen
+      image_placeholder: Marcador de imagen
     rss_feed:
-      no_content: No Content
-      parse_error_message: 'Message: %{message}'
-      parse_error_title: Error while parsing RSS content
-      response_code: 'Response Code: %{code}'
-      title: RSS Feed
+      no_content: Sin contenido
+      parse_error_message: 'Mensaje: %{message}'
+      parse_error_title: Error al analizar el contenido RSS
+      response_code: 'Código de respuesta: %{code}'
+      title: Feed RSS
     statuspage:
-      invalid_url: Invalid URL
-      unreachable: Could not be reached
-      last_incident: 'Last Incident: %{time}'
-      scheduled: 'Scheduled: %{date}'
-      title: Status Pages
+      invalid_url: URL no válida
+      unreachable: No se ha podido acceder
+      last_incident: 'Última incidencia: %{time}'
+      scheduled: 'Programado: %{date}'
+      title: Páginas de estado
     todoist:
       groups:
-        no_date: No date
-        no_deadline: No deadline
-        no_label: No label
-        overdue: Overdue
-        priority: Priority %{priority}
+        no_date: Sin fecha
+        no_deadline: Sin fecha límite
+        no_label: Sin etiqueta
+        overdue: Vencidas
+        priority: Prioridad %{priority}
     apple_photos:
-      setup_album: Please set up your album.
+      setup_album: Configura tu álbum.
     asana:
-      due: due %{date}
+      due: vence %{date}
     beehiiv:
-      click_rate: Click Rate
-      clicks: Clicks
-      open: Open
-      open_rate: Open Rate
-      recipients: Recipients
-      spam_complaints: Spam Complaints
-      subject: Subject
-      unsubscribes: Unsubscribes
+      click_rate: Tasa de clics
+      clicks: Clics
+      open: Aperturas
+      open_rate: Tasa de apertura
+      recipients: Destinatarios
+      spam_complaints: Quejas de spam
+      subject: Asunto
+      unsubscribes: Bajas
     bible_verses:
-      daily_scripture: Daily Scripture
-      word_of_god: Word of God
+      daily_scripture: Escritura diaria
+      word_of_god: Palabra de Dios
     bitcoin_wallet_balance:
-      change_7_days: 7 day change
-      change_90_days: 90 day change
-      title: Bitcoin Wallet
+      change_7_days: Variación en 7 días
+      change_90_days: Variación en 90 días
+      title: Monedero de Bitcoin
     changelog:
-      title: TRMNL News
+      title: Noticias de TRMNL
     clicky:
       metrics:
-        mins_on_page: Mins On Page
-        pageviews: Pageviews
-        visitors: Visitors
+        mins_on_page: Min. en página
+        pageviews: Páginas vistas
+        visitors: Visitantes
     close:
-      via: via %{user}
+      via: vía %{user}
     coinmarketcap:
-      daily_change: Daily Change
+      daily_change: Variación diaria
     convertkit_analytics:
-      account_dashboard: Account dashboard
-      click_rate: Click rate
-      clicks: Clicks
-      metric: Metric
-      open_rate: Open rate
-      products_sold: Products Sold
-      recipients: Recipients
-      status: Status
-      subscribers: Subscribers
-      unsubscribes: Unsubscribes
+      account_dashboard: Panel de la cuenta
+      click_rate: Tasa de clics
+      clicks: Clics
+      metric: Métrica
+      open_rate: Tasa de apertura
+      products_sold: Productos vendidos
+      recipients: Destinatarios
+      status: Estado
+      subscribers: Suscriptores
+      unsubscribes: Bajas
       value: Value
     days_left_retirement:
-      progress: Progress
-      title: Progress To Retirement
-      weeks_left: Weeks left
+      progress: Progreso
+      title: Progreso hacia la jubilación
+      weeks_left: Semanas restantes
     days_since:
-      start_date: Start Date
-      title: Days Since...
+      start_date: Fecha de inicio
+      title: Días desde...
     dropbox_photo_album:
-      add_images: Please add images to your Dropbox account under /Apps/usetrmnl.com
+      add_images: Añade imágenes a tu cuenta de Dropbox en /Apps/usetrmnl.com
     eight_sleep:
-      deep_sleep: Deep Sleep
-      quality: Quality
+      deep_sleep: Sueño profundo
+      quality: Calidad
       ratings:
-        fair: Fair
-        good: Good
-        low: Low
-        pay_attention: Pay Attention
-      rem_sleep: REM Sleep
-      sleep_duration: Sleep Duration
-      snoring: Snoring
-      time_to_sleep: Time to Sleep
+        fair: Regular
+        good: Bueno
+        low: Bajo
+        pay_attention: Presta atención
+      rem_sleep: Sueño REM
+      sleep_duration: Duración del sueño
+      snoring: Ronquidos
+      time_to_sleep: Tiempo hasta dormirse
     email_meter:
-      average_response_time: Avg Response Time
-      messages_received: Messages Received
-      messages_sent: Messages Sent
-      recipients: Recipients
-      senders: Senders
+      average_response_time: Tiempo medio de respuesta
+      messages_received: Mensajes recibidos
+      messages_sent: Mensajes enviados
+      recipients: Destinatarios
+      senders: Remitentes
     enphase:
-      instance_updated: "%{instance} (updated %{time})"
-      no_production_today: No production data yet today
+      instance_updated: "%{instance} (actualizado %{time})"
+      no_production_today: Aún no hay datos de producción hoy
       labels:
-        battery: Battery
-        battery_charge: Battery · %{percent}%
-        consumed: Consumed
-        current_power: Producing now
-        exported: Exported
-        grid_dependence: Grid dependence
-        imported: Imported
-        lifetime: Lifetime
-        net_export: Net export
-        net_import: Net import
-        peak_power: Peak today
-        produced: Produced
-        solar_offset: Solar offset
+        battery: Batería
+        battery_charge: Batería · %{percent}%
+        consumed: Consumido
+        current_power: Produciendo ahora
+        exported: Exportado
+        grid_dependence: Dependencia de la red
+        imported: Importado
+        lifetime: Total histórico
+        net_export: Exportación neta
+        net_import: Importación neta
+        peak_power: Pico de hoy
+        produced: Producido
+        solar_offset: Compensación solar
     ethereum_wallet_balance:
-      change_7_days: 7 day change
-      change_90_days: 90 day change
-      title: Ethereum Wallet
+      change_7_days: Variación en 7 días
+      change_90_days: Variación en 90 días
+      title: Monedero de Ethereum
     etsy:
       average_order_value_short: AOV
-      data_unavailable: Etsy data unavailable
-      fulfilled_orders: Fulfilled Orders
-      pending_orders: Pending Orders
+      data_unavailable: Datos de Etsy no disponibles
+      fulfilled_orders: Pedidos completados
+      pending_orders: Pedidos pendientes
       periods:
         comparison: Comparison
-        current: Current
-      total_sales: Total Sales
+        current: Actual
+      total_sales: Ventas totales
     fera:
-      average_rating: Avg. Rating
-      products: Products
-      reviews: Reviews
-      verified: Verified
+      average_rating: Valoración media
+      products: Productos
+      reviews: Reseñas
+      verified: Verificadas
     gaffa:
-      no_articles: No articles yet
-      waiting_for_feed: Waiting for Gaffa to process your news feed...
+      no_articles: Aún no hay artículos
+      waiting_for_feed: Esperando a que Gaffa procese tu feed de noticias...
     github_commit_graph:
-      average_per_day: Average per day
-      contributions: Contributions
-      contributions_last_year: Contributions in last year
-      current_streak: Current streak
-      longest_streak: Longest streak
-      most_in_a_day: Most in a day
+      average_per_day: Media por día
+      contributions: Contribuciones
+      contributions_last_year: Contribuciones en el último año
+      current_streak: Racha actual
+      longest_streak: Racha más larga
+      most_in_a_day: Máximo en un día
       board:
-        per_day: "/ day"
-        per_year: "/ year"
+        per_day: "/ día"
+        per_year: "/ año"
     github_commits:
-      title: Recent Commits
+      title: Commits recientes
     github_contributor_summary:
-      commits_last_week: Commits Last Week
-      last_week: Last Week
-      lifetime: Lifetime
-      lifetime_commits: Lifetime Commits
-      title: Contributors Summary
-      user: User
+      commits_last_week: Commits de la última semana
+      last_week: Última semana
+      lifetime: Total histórico
+      lifetime_commits: Commits totales
+      title: Resumen de colaboradores
+      user: Usuario
     google_photos:
       expired:
-        message: Google access expired. Reselect your photos in plugin settings.
-        title: Photos Need Reselecting
+        message: El acceso a Google ha caducado. Vuelve a seleccionar tus fotos en los ajustes del plugin.
+        title: Hay que volver a seleccionar las fotos
       not_connected:
-        message: Pick photos in plugin settings to get started.
-        title: No Photos Selected
+        message: Elige fotos en los ajustes del plugin para empezar.
+        title: No hay fotos seleccionadas
       reconnect:
-        message: Your Google account needs reconnecting in plugin settings.
-        title: Reconnect Google
+        message: Tienes que volver a conectar tu cuenta de Google en los ajustes del plugin.
+        title: Vuelve a conectar Google
     gumroad_analytics:
-      sales_count: Sales Count
-      sales_value: Sales Value
+      sales_count: Número de ventas
+      sales_value: Importe de ventas
     hacker_news:
-      by: by %{author}
+      by: por %{author}
       votes:
-        one: "%{score} vote"
-        other: "%{score} votes"
+        one: "%{score} voto"
+        other: "%{score} votos"
     home_assistant_screenshot:
-      no_image: No Image
-      upload_screenshot: Upload a screenshot from Home Assistant.
+      no_image: Sin imagen
+      upload_screenshot: Sube una captura de pantalla desde Home Assistant.
     hubspot:
-      via: via %{user}
+      via: vía %{user}
     huckleberry:
-      awake: Awake
-      since: since %{time}
-      sleeping: Sleeping
+      awake: Despierto
+      since: desde %{time}
+      sleeping: Durmiendo
     kickstarter:
-      from_country: from %{country}
-      funded: "%{amount} funded"
+      from_country: de %{country}
+      funded: "%{amount} financiado"
     letterboxd:
       empty:
-        diary: No diary entries yet. Log a film on Letterboxd to see it here.
-        friends: No recent activity from people you follow.
-      rewatch: rewatch
+        diary: Aún no hay entradas en el diario. Registra una película en Letterboxd para verla aquí.
+        friends: No hay actividad reciente de las personas que sigues.
+      rewatch: revisionado
     linkedin_page:
       metrics:
-        clicks: Clicks
-        comments: Comments
-        engagement_rate: Engagement Rate
-        followers: Followers
-        impressions: Impressions
-        new_followers: New Followers
-        reactions: Reactions
-        shares: Shares
+        clicks: Clics
+        comments: Comentarios
+        engagement_rate: Tasa de interacción
+        followers: Seguidores
+        impressions: Impresiones
+        new_followers: Nuevos seguidores
+        reactions: Reacciones
+        shares: Compartidos
       chart_labels:
-        clicks: Clicks
-        engagement_rate: Engagement Rate
-        impressions: Impressions
-        new_followers: New Followers
+        clicks: Clics
+        engagement_rate: Tasa de interacción
+        impressions: Impresiones
+        new_followers: Nuevos seguidores
     lunch_money:
-      assets: Assets
-      liabilities: Liabilities
+      assets: Activos
+      liabilities: Pasivos
       month_change:
-        one: "%{count}-Month Change"
-        other: "%{count}-Month Change"
-      net_worth: Net Worth
+        one: "Variación en %{count} mes"
+        other: "Variación en %{count} meses"
+      net_worth: Patrimonio neto
     mailchimp_analytics:
-      clicks: Clicks
-      emails_sent: Emails Sent
-      growth_history: Mailchimp Growth History
-      hard_bounce: Hard Bounce
-      open_rate: Open Rate
-      soft_bounce: Soft Bounce
-      subscribers: Subscribers
-      unique_opens: Unique Opens
-      unsubscribers: Unsubscribers
+      clicks: Clics
+      emails_sent: Correos enviados
+      growth_history: Historial de crecimiento de Mailchimp
+      hard_bounce: Rebote duro
+      open_rate: Tasa de apertura
+      soft_bounce: Rebote blando
+      subscribers: Suscriptores
+      unique_opens: Aperturas únicas
+      unsubscribers: Bajas
     managed_display:
       needs_setup:
-        description: Assign this device to a room in your TRMNL apps.
-        title: Set up this display
+        description: Asigna este dispositivo a una sala en tus apps de TRMNL.
+        title: Configura esta pantalla
     motivational_quote:
-      title: Motivational Quote
-      title_short: Quote of the day!
+      title: Cita motivadora
+      title_short: "¡Cita del día!"
     nano_banana_dashboard:
-      generation_failed: Generation Failed
+      generation_failed: Error al generar
     poetry_today:
-      by_author: by %{author}
-      title: Poem of the Day
+      by_author: por %{author}
+      title: Poema del día
     polymarket:
       comments:
-        one: "%{comments} comment"
-        other: "%{comments} comments"
-      volume_bet: "%{volume} bet"
+        one: "%{comments} comentario"
+        other: "%{comments} comentarios"
+      volume_bet: "%{volume} apostado"
     postmark_analytics:
-      bounce_rate: Bounce Rate
-      bounced: Bounced
-      clicks: Clicks
-      emails_sent: Emails Sent
-      errors: Errors
-      open_rate: Open Rate
-      spam_complaints: Spam Complaints
-      unique_opens: Unique Opens
+      bounce_rate: Tasa de rebote
+      bounced: Rebotados
+      clicks: Clics
+      emails_sent: Correos enviados
+      errors: Errores
+      open_rate: Tasa de apertura
+      spam_complaints: Quejas de spam
+      unique_opens: Aperturas únicas
     private_plugin:
-      view_not_available: "%{view} view not available."
+      view_not_available: "Vista %{view} no disponible."
     product_hunt:
       votes:
-        one: "%{votes} vote"
-        other: "%{votes} votes"
+        one: "%{votes} voto"
+        other: "%{votes} votos"
     profit_well:
-      active_customers: Active Customers
-      churned_customers: Churned Customers
-      new_churned_revenue: New Churned Revenue
-      new_customers: New Customers
-      new_recurring_revenue: New Recurring Revenue
-      recurring_revenue: Recurring Revenue
+      active_customers: Clientes activos
+      churned_customers: Clientes perdidos
+      new_churned_revenue: Nuevos ingresos perdidos
+      new_customers: Nuevos clientes
+      new_recurring_revenue: Nuevos ingresos recurrentes
+      recurring_revenue: Ingresos recurrentes
     purpleair:
-      current_humidity: Current Humidity
-      current_temperature: Current Temperature
+      current_humidity: Humedad actual
+      current_temperature: Temperatura actual
     readwise:
-      by_author: by %{author}
+      by_author: por %{author}
     reddit:
       only_posts_available:
-        one: Only %{count} post available for this time period
-        other: Only %{count} posts available for this time period
-      sorted_posts: "%{sort} posts"
-      via_author: via u/%{author}
+        one: Solo hay %{count} publicación disponible para este periodo
+        other: Solo hay %{count} publicaciones disponibles para este periodo
+      sorted_posts: "Publicaciones %{sort}"
+      via_author: vía u/%{author}
       votes:
-        one: "%{votes} vote"
-        other: "%{votes} votes"
+        one: "%{votes} voto"
+        other: "%{votes} votos"
     salesforce:
-      via_user: via %{user}
+      via_user: vía %{user}
     shopify:
       aov: AOV
       comparison: Comparison
-      current: Current
-      fulfilled_orders: Fulfilled Orders
-      pending_orders: Pending Orders
-      total_sales: Total Sales
-      versus: "(vs %{amount})"
+      current: Actual
+      fulfilled_orders: Pedidos completados
+      pending_orders: Pedidos pendientes
+      total_sales: Ventas totales
+      versus: "(frente a %{amount})"
     shopping_list:
-      title: Shopping List
+      title: Lista de la compra
     square_pos:
-      total_payments: Total Payments
+      total_payments: Pagos totales
     stock_price:
-      daily_change: Daily Change
-      title: Stock Prices
+      daily_change: Variación diaria
+      title: Cotizaciones
     theme_sample:
-      all_components: All components
-      color_art: Color art
-      first_row: First row
-      gray_art: Gray art
-      gray_text: Gray text
-      item_description: Secondary description text sits here.
-      item_with_meta: Item with meta rail
+      all_components: Todos los componentes
+      color_art: Arte en color
+      first_row: Primera fila
+      gray_art: Arte en gris
+      gray_text: Texto gris
+      item_description: Aquí va el texto de descripción secundaria.
+      item_with_meta: Elemento con barra de metadatos
       labels:
-        filled: Filled
-        gray: Gray
-        inverted: Inverted
-        outline: Outline
-        underlined: Underlined
-      progress_bar: Progress bar
-      progress_bar_small: Small, emphasis 2
-      progress_dots: Progress dots
-      red_text: Red text
-      second_row: Second row
-      table: Table
-      title: Theme Sample
+        filled: Relleno
+        gray: Gris
+        inverted: Invertido
+        outline: Contorno
+        underlined: Subrayado
+      progress_bar: Barra de progreso
+      progress_bar_small: Pequeña, énfasis 2
+      progress_dots: Puntos de progreso
+      red_text: Texto rojo
+      second_row: Segunda fila
+      table: Tabla
+      title: Muestra de tema
       value: Value
     todo_list:
-      title: Todo List
+      title: Lista de tareas
     todolist:
-      due: due %{date}
-      no_tasks: No tasks to show
-      tasks: Tasks
+      due: vence %{date}
+      no_tasks: No hay tareas que mostrar
+      tasks: Tareas
     upcoming_movies:
-      release_date: 'Release Date: %{date}'
-      title: Movies
+      release_date: 'Fecha de estreno: %{date}'
+      title: Películas
     webhook_image:
-      no_image: No Image
-      no_image_hint: Upload an image to display it here.
-      title: Webhook Image
+      no_image: Sin imagen
+      no_image_hint: Sube una imagen para mostrarla aquí.
+      title: Imagen de webhook
     wiki_random_article:
-      article_of_the_day: Article of the day
+      article_of_the_day: Artículo del día
     withings:
-      average_suffix: " (%{value} avg)"
-      body_fat: Body-fat %
-      current_weight: Current Weight
-      daily_sleep_goal: Daily Sleep Goal
-      daily_step_goal: Daily Step Goal
-      hours: "%{hours} hrs"
-      hours_slept: Hours Slept
-      last_measurement: Last Measurement
-      muscle: Muscle %
-      sleep_efficiency: Sleep Efficiency
-      sleep_goal: Sleep Goal
-      sleep_score: Sleep Score
-      step_goal: Step Goal
-      steps_today: Steps Today
-      this_period: This Period
+      average_suffix: " (media %{value})"
+      body_fat: "% de grasa corporal"
+      current_weight: Peso actual
+      daily_sleep_goal: Objetivo diario de sueño
+      daily_step_goal: Objetivo diario de pasos
+      hours: "%{hours} h"
+      hours_slept: Horas dormidas
+      last_measurement: Última medición
+      muscle: "% de músculo"
+      sleep_efficiency: Eficiencia del sueño
+      sleep_goal: Objetivo de sueño
+      sleep_score: Puntuación de sueño
+      step_goal: Objetivo de pasos
+      steps_today: Pasos de hoy
+      this_period: Este periodo
     workflowy:
-      no_items: No items to display
+      no_items: No hay elementos que mostrar
     youtube_analytics:
-      average_view_duration: Average View Duration
-      comments: Comments
-      hours: Hours
-      likes: Likes
+      average_view_duration: Duración media de visualización
+      comments: Comentarios
+      hours: Horas
+      likes: Me gusta
       minutes: Minutes
-      shares: Shares
-      subscribers_gained: Subscribers Gained
-      view_through_rate: View Through Rate
-      views: Views
-      watched: "%{unit} Watched"
+      shares: Compartidos
+      subscribers_gained: Suscriptores ganados
+      view_through_rate: Porcentaje de visualización
+      views: Visualizaciones
+      watched: "%{unit} de visualización"
     system_screens:
       byod_error:
-        title: License needed
-        message_html: To use this feature, you need a physical device<br>or a BYOD (Bring Your Own Device) license.
+        title: Se necesita una licencia
+        message_html: Para usar esta función necesitas un dispositivo físico<br>o una licencia BYOD (Bring Your Own Device).
       byod_trial_expired:
-        title: BYOD trial ended
-        message: Visit trmnl.com to convert your license and reactivate this device.
+        title: La prueba de BYOD ha terminado
+        message: Visita trmnl.com para convertir tu licencia y reactivar este dispositivo.
       empty_state:
-        title: You're caught up!
-        message: Add more plugins to your playlist, or go enjoy the outdoors
+        title: "¡Estás al día!"
+        message: Añade más plugins a tu lista de reproducción o sal a disfrutar del aire libre
       identify:
-        message: Your Friendly ID
+        message: Tu ID amigable
       low_battery:
-        title: Low battery
-        message: Please charge your TRMNL
+        title: Batería baja
+        message: Carga tu TRMNL
       mac_not_found:
-        title: MAC Address not registered
-        message: Visit trmnl.com/go/byod for next steps
+        title: Dirección MAC no registrada
+        message: Visita trmnl.com/go/byod para ver los siguientes pasos
       mfa_reset:
-        title: New MFA code
+        title: Nuevo código MFA
       rate_limit:
-        title: Rate limit exceeded (429)
-        message: Please refresh your device less often
+        title: Límite de peticiones superado (429)
+        message: Actualiza tu dispositivo con menos frecuencia
       needs_setup:
-        title: Finish setting up %{name}
-        message: Fill in %{fields} at trmnl.com
+        title: Termina de configurar %{name}
+        message: Completa %{fields} en trmnl.com
       redirect_erroring:
-        title: Redirect plugin error
-        message: Please fix the plugin settings to resume
+        title: Error del plugin Redirect
+        message: Corrige los ajustes del plugin para continuar
       refresh_failed:
-        title: Couldn't get an update
-        message: Showing your last screen while we try again
+        title: No se ha podido actualizar
+        message: Mostramos tu última pantalla mientras volvemos a intentarlo
       refreshing:
-        title: Catching you up
-        message: Your screen will update automatically
+        title: Poniéndote al día
+        message: Tu pantalla se actualizará automáticamente
       setup:
-        message: Add this Device ID at trmnl.com/start
+        message: Añade este ID de dispositivo en trmnl.com/start
       technical_difficulties:
-        title: We're having technical difficulties
-        message: Our team is investigating. Scan the QR code for details
+        title: Tenemos dificultades técnicas
+        message: Nuestro equipo lo está investigando. Escanea el código QR para ver los detalles
     google_analytics:
-      chart_label: "%{stat}, last %{days} days"
-      event_option: 'Event: %{name}'
+      chart_label: "%{stat}, últimos %{days} días"
+      event_option: 'Evento: %{name}'
       metrics:
-        engaged_sessions: Engaged Sessions
-        mins_on_page: Mins Per Session
-        new_users: New Users
-        pageviews: Pageviews
-        sessions: Sessions
-        visitors: Visitors
-      visitors_option: Visitors (Active Users)
+        engaged_sessions: Sesiones con interacción
+        mins_on_page: Min. por sesión
+        new_users: Usuarios nuevos
+        pageviews: Páginas vistas
+        sessions: Sesiones
+        visitors: Visitantes
+      visitors_option: Visitantes (usuarios activos)
