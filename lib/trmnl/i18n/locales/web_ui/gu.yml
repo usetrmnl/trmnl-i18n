@@ -7176,6 +7176,14 @@ gu:
     toggle_dark_mode: Toggle dark mode
     toggle_orientation: Toggle orientation
     dark_mode: Dark Mode
+    hotkeys_hint: |-
+      Shortcuts (Option+Shift on Mac, Alt+Shift on Windows):
+      O  TRMNL OG (2-bit)
+      B  TRMNL OG (B/W/R/Y)
+      X  TRMNL X
+      F  TRMNL Frame
+      R  Switch landscape and portrait
+      1, 2, 4  1-bit, 2-bit or 4-bit palette, when the device has it
   active_admin:
     batch_actions:
       action_label: "%{title}"
@@ -8169,17 +8177,56 @@ gu:
     plugin_logs_card:
       title: "%{name}: latest logs"
       empty: No logs yet.
+      title_with_levels: "%{name}: latest %{levels} logs"
     home:
       title: Home
-      keep: Keep on home
-      kept: On your home
+      keep: Pin to home
+      kept: Pinned to home
       remove: Remove from home
       dismiss: Dismiss
-      starter_hint: Keep a card from any chat to build your own home.
+      starter_hint: Pin a card from any chat to build your own home.
       low_battery: "%{device} battery is at %{percent}%"
       plugin_error: "%{plugin} stopped with an error"
       device_offline: "%{device} was last seen %{time} ago"
       empty_playlist: "%{device} has an empty playlist"
+      edit: Edit
+      done: Done
+      move: Move this card. Drag it, or use the arrow keys.
+      nothing_to_show: This card has nothing to show right now.
+      add_card: Add a card
+    chart_card:
+      titles:
+        plugin_installs: Plugin installs
+        ai_tokens: AI agent tokens
+        ai_spend: AI agent spend
+        plugin_errors: Plugin errors
+      total:
+        one: total, last day
+        other: total, last %{count} days
+      latest: today
+      per_day:
+        one: Per day, last day
+        other: Per day, last %{count} days
+      peak: Peak %{value}
+    home_card_gallery:
+      metric_label: Number
+      cards:
+        chart: One of your numbers, day by day, over the last 30 days.
+        device: Battery, Wi-Fi and last check-in of one device.
+        devices: Every device, with battery and last check-in.
+        playlist: What a device shows, in order.
+        screen: The screen a device shows now.
+        plugin_setting: When a plugin last refreshed, and any error.
+        plugin_logs: The latest logs of a plugin, to see why it is blank.
+        plugin_analytics: Installs and growth of the plugins you published.
+      title: Add a card
+      intro: Each card shows current data every time you open your home.
+      back: Back to home
+      device_label: Device
+      plugin_label: Plugin
+    starter_prompts:
+      add_plugin: Add the %{name} plugin
+      add_recipe: Add the %{name} recipe
   signup:
     find_friendly_id_html: Need this? %{link}.
     friendly_id_example: "%{friendly_id}, ex: 2D319E"

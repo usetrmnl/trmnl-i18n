@@ -6864,6 +6864,7 @@ raw:
     toggle_dark_mode: screen_picker.toggle_dark_mode
     toggle_orientation: screen_picker.toggle_orientation
     dark_mode: screen_picker.dark_mode
+    hotkeys_hint: screen_picker.hotkeys_hint
   active_admin:
     batch_actions:
       action_label: active_admin.batch_actions.action_label
@@ -7857,6 +7858,7 @@ raw:
     plugin_logs_card:
       title: assistants.plugin_logs_card.title
       empty: assistants.plugin_logs_card.empty
+      title_with_levels: assistants.plugin_logs_card.title_with_levels
     home:
       title: assistants.home.title
       keep: assistants.home.keep
@@ -7868,6 +7870,44 @@ raw:
       plugin_error: assistants.home.plugin_error
       device_offline: assistants.home.device_offline
       empty_playlist: assistants.home.empty_playlist
+      edit: assistants.home.edit
+      done: assistants.home.done
+      move: assistants.home.move
+      nothing_to_show: assistants.home.nothing_to_show
+      add_card: assistants.home.add_card
+    chart_card:
+      titles:
+        plugin_installs: assistants.chart_card.titles.plugin_installs
+        ai_tokens: assistants.chart_card.titles.ai_tokens
+        ai_spend: assistants.chart_card.titles.ai_spend
+        plugin_errors: assistants.chart_card.titles.plugin_errors
+      total:
+        one: assistants.chart_card.total.one
+        other: assistants.chart_card.total.other
+      latest: assistants.chart_card.latest
+      per_day:
+        one: assistants.chart_card.per_day.one
+        other: assistants.chart_card.per_day.other
+      peak: assistants.chart_card.peak
+    home_card_gallery:
+      metric_label: assistants.home_card_gallery.metric_label
+      cards:
+        chart: assistants.home_card_gallery.cards.chart
+        device: assistants.home_card_gallery.cards.device
+        devices: assistants.home_card_gallery.cards.devices
+        playlist: assistants.home_card_gallery.cards.playlist
+        screen: assistants.home_card_gallery.cards.screen
+        plugin_setting: assistants.home_card_gallery.cards.plugin_setting
+        plugin_logs: assistants.home_card_gallery.cards.plugin_logs
+        plugin_analytics: assistants.home_card_gallery.cards.plugin_analytics
+      title: assistants.home_card_gallery.title
+      intro: assistants.home_card_gallery.intro
+      back: assistants.home_card_gallery.back
+      device_label: assistants.home_card_gallery.device_label
+      plugin_label: assistants.home_card_gallery.plugin_label
+    starter_prompts:
+      add_plugin: assistants.starter_prompts.add_plugin
+      add_recipe: assistants.starter_prompts.add_recipe
   signup:
     find_friendly_id_html: signup.find_friendly_id_html
     friendly_id_example: signup.friendly_id_example
