@@ -621,6 +621,23 @@ raw:
       refresh_interval_seconds: devices.edit.refresh_interval_seconds
       spike_firmware: devices.edit.spike_firmware
       spike_firmware_hint: devices.edit.spike_firmware_hint
+      screen_transitions: devices.edit.screen_transitions
+      reveal_transition: devices.edit.reveal_transition
+      reveal_transition_hint: devices.edit.reveal_transition_hint
+      reveal_transitions:
+        'off': devices.edit.reveal_transitions.off
+        gentle: devices.edit.reveal_transitions.gentle
+        lively: devices.edit.reveal_transitions.lively
+      reveal_refresh: devices.edit.reveal_refresh
+      reveal_refresh_hint: devices.edit.reveal_refresh_hint
+      reveal_refreshes:
+        smooth: devices.edit.reveal_refreshes.smooth
+        per_region: devices.edit.reveal_refreshes.per_region
+      reveal_preview: devices.edit.reveal_preview
+      reveal_preview_hint: devices.edit.reveal_preview_hint
+      reveal_preview_replay: devices.edit.reveal_preview_replay
+      reveal_preview_image_alt: devices.edit.reveal_preview_image_alt
+      reveal_preview_empty: devices.edit.reveal_preview_empty
     discover_persona:
       label: devices.discover_persona.label
       disabled_hint: devices.discover_persona.disabled_hint
@@ -1478,6 +1495,10 @@ raw:
         xlarge: markups.visual_editor.labels.xlarge
         xsmall: markups.visual_editor.labels.xsmall
         zoom_preview: markups.visual_editor.labels.zoom_preview
+        version_copied_from_recipe: markups.visual_editor.labels.version_copied_from_recipe
+        version_loading: markups.visual_editor.labels.version_loading
+        version_load_failed: markups.visual_editor.labels.version_load_failed
+        version_no_changes: markups.visual_editor.labels.version_no_changes
       page_title: markups.visual_editor.page_title
       plugin_documentation: markups.visual_editor.plugin_documentation
       pop_out_preview_label: markups.visual_editor.pop_out_preview_label
@@ -1542,6 +1563,8 @@ raw:
       snapshots: markups.visual_editor_status_bar.snapshots
       snapshots_for_this_tab: markups.visual_editor_status_bar.snapshots_for_this_tab
       status_bar: markups.visual_editor_status_bar.status_bar
+      back_to_versions: markups.visual_editor_status_bar.back_to_versions
+      load_version: markups.visual_editor_status_bar.load_version
     visual_previewer:
       page_title: markups.visual_previewer.page_title
       visual_editor_preview: markups.visual_previewer.visual_editor_preview
@@ -1900,6 +1923,7 @@ raw:
     check_settings: plugin_recipes.check_settings
     demo:
       preparing: plugin_recipes.demo.preparing
+    install_device_label: plugin_recipes.install_device_label
   plugin_settings:
     copy_are_you_sure: plugin_settings.copy_are_you_sure
     delete_are_you_sure: plugin_settings.delete_are_you_sure
@@ -2046,6 +2070,7 @@ raw:
       oauth_disconnected: plugin_settings.update.oauth_disconnected
     add_to_playlist:
       success: plugin_settings.add_to_playlist.success
+      added_to_device: plugin_settings.add_to_playlist.added_to_device
     refresh_already_in_progress: plugin_settings.refresh_already_in_progress
     remote_select:
       awaiting_connection: plugin_settings.remote_select.awaiting_connection
@@ -2170,6 +2195,16 @@ raw:
       empty: plugin_settings.recipe_review.empty
       rate_limited: plugin_settings.recipe_review.rate_limited
       back: plugin_settings.recipe_review.back
+      modal_title_required: plugin_settings.recipe_review.modal_title_required
+      modal_intro_required: plugin_settings.recipe_review.modal_intro_required
+      gate_closed: plugin_settings.recipe_review.gate_closed
+      changed_since: plugin_settings.recipe_review.changed_since
+      passed: plugin_settings.recipe_review.passed
+      held: plugin_settings.recipe_review.held
+      justification_label: plugin_settings.recipe_review.justification_label
+      justification_placeholder: plugin_settings.recipe_review.justification_placeholder
+      justification_submit: plugin_settings.recipe_review.justification_submit
+      your_reason: plugin_settings.recipe_review.your_reason
     data_flow:
       title: plugin_settings.data_flow.title
       markup: plugin_settings.data_flow.markup
@@ -2298,6 +2333,45 @@ raw:
       enable: plugin_settings.setting_field.enable
       loading: plugin_settings.setting_field.loading
       yaml_valid: plugin_settings.setting_field.yaml_valid
+      source_plugin_missing_html: plugin_settings.setting_field.source_plugin_missing_html
+    recipe_source:
+      changed_since_copy: plugin_settings.recipe_source.changed_since_copy
+      differs_from_recipe: plugin_settings.recipe_source.differs_from_recipe
+      see_changes: plugin_settings.recipe_source.see_changes
+    recipe_update:
+      title: plugin_settings.recipe_update.title
+      back: plugin_settings.recipe_update.back
+      intro_since_copy: plugin_settings.recipe_update.intro_since_copy
+      intro_differs: plugin_settings.recipe_update.intro_differs
+      up_to_date: plugin_settings.recipe_update.up_to_date
+      take_all: plugin_settings.recipe_update.take_all
+      take: plugin_settings.recipe_update.take
+      replace: plugin_settings.recipe_update.replace
+      recipe_changes: plugin_settings.recipe_update.recipe_changes
+      your_changes: plugin_settings.recipe_update.your_changes
+      no_line_changes: plugin_settings.recipe_update.no_line_changes
+      own_unchanged: plugin_settings.recipe_update.own_unchanged
+      own_changed: plugin_settings.recipe_update.own_changed
+      conflict: plugin_settings.recipe_update.conflict
+      no_copy: plugin_settings.recipe_update.no_copy
+      results:
+        merged: plugin_settings.recipe_update.results.merged
+        replaced: plugin_settings.recipe_update.results.replaced
+        conflict: plugin_settings.recipe_update.results.conflict
+        not_mergeable: plugin_settings.recipe_update.results.not_mergeable
+        unchanged: plugin_settings.recipe_update.results.unchanged
+        taken_all:
+          one: plugin_settings.recipe_update.results.taken_all.one
+          other: plugin_settings.recipe_update.results.taken_all.other
+      files:
+        markup_full: plugin_settings.recipe_update.files.markup_full
+        markup_half_horizontal: plugin_settings.recipe_update.files.markup_half_horizontal
+        markup_half_vertical: plugin_settings.recipe_update.files.markup_half_vertical
+        markup_quadrant: plugin_settings.recipe_update.files.markup_quadrant
+        markup_shared: plugin_settings.recipe_update.files.markup_shared
+        transform_js: plugin_settings.recipe_update.files.transform_js
+        tidbyt_canvas: plugin_settings.recipe_update.files.tidbyt_canvas
+        vestaboard_canvas: plugin_settings.recipe_update.files.vestaboard_canvas
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -7797,6 +7871,7 @@ raw:
         not_connected: assistants.event.answers.not_connected
       send_privately: assistants.event.send_privately
       private_target_html: assistants.event.private_target_html
+      playlist_item_on_device: assistants.event.playlist_item_on_device
     field_list:
       'yes': assistants.field_list.yes
       'no': assistants.field_list.no
@@ -7900,14 +7975,42 @@ raw:
         plugin_setting: assistants.home_card_gallery.cards.plugin_setting
         plugin_logs: assistants.home_card_gallery.cards.plugin_logs
         plugin_analytics: assistants.home_card_gallery.cards.plugin_analytics
+        new_plugins: assistants.home_card_gallery.cards.new_plugins
+        news: assistants.home_card_gallery.cards.news
+        blog_posts: assistants.home_card_gallery.cards.blog_posts
       title: assistants.home_card_gallery.title
       intro: assistants.home_card_gallery.intro
       back: assistants.home_card_gallery.back
       device_label: assistants.home_card_gallery.device_label
       plugin_label: assistants.home_card_gallery.plugin_label
+      names:
+        chart: assistants.home_card_gallery.names.chart
+        device: assistants.home_card_gallery.names.device
+        devices: assistants.home_card_gallery.names.devices
+        playlist: assistants.home_card_gallery.names.playlist
+        screen: assistants.home_card_gallery.names.screen
+        plugin_setting: assistants.home_card_gallery.names.plugin_setting
+        plugin_logs: assistants.home_card_gallery.names.plugin_logs
+        plugin_analytics: assistants.home_card_gallery.names.plugin_analytics
+        new_plugins: assistants.home_card_gallery.names.new_plugins
+        news: assistants.home_card_gallery.names.news
+        blog_posts: assistants.home_card_gallery.names.blog_posts
     starter_prompts:
       add_plugin: assistants.starter_prompts.add_plugin
       add_recipe: assistants.starter_prompts.add_recipe
+    feed_card:
+      new_plugins:
+        title: assistants.feed_card.new_plugins.title
+        feed_link: assistants.feed_card.new_plugins.feed_link
+        view_all: assistants.feed_card.new_plugins.view_all
+      news:
+        title: assistants.feed_card.news.title
+        feed_link: assistants.feed_card.news.feed_link
+        view_all: assistants.feed_card.news.view_all
+      blog_posts:
+        title: assistants.feed_card.blog_posts.title
+        feed_link: assistants.feed_card.blog_posts.feed_link
+        view_all: assistants.feed_card.blog_posts.view_all
   signup:
     find_friendly_id_html: signup.find_friendly_id_html
     friendly_id_example: signup.friendly_id_example

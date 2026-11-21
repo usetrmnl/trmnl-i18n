@@ -621,6 +621,23 @@ es-ES:
       refresh_interval_seconds: seconds (admin only)
       spike_firmware: Spike firmware
       spike_firmware_hint: The TRMNL team put this device on spike firmware. Contact support to return it to normal updates.
+      screen_transitions: Screen Transitions
+      reveal_transition: Transition
+      reveal_transition_hint: After a new screen appears, its rows, tiles and charts fill in one by one. Works on native plugins.
+      reveal_transitions:
+        'off': 'Off'
+        gentle: Gentle
+        lively: Lively
+      reveal_refresh: Refresh
+      reveal_refresh_hint: Smooth draws the transition in black and white, then refreshes once to bring back the grays. Per region keeps the grays and flashes each part as it appears.
+      reveal_refreshes:
+        smooth: Smooth
+        per_region: Per region
+      reveal_preview: Preview
+      reveal_preview_hint: A screen this device showed recently, played with the transition picked above.
+      reveal_preview_replay: Replay
+      reveal_preview_image_alt: A recent screen on this device
+      reveal_preview_empty: None of this device's recent screens has rows, tiles or charts to fill in yet.
     discover_persona:
       label: Persona y Descubrir
       disabled_hint: No disponible en los TRMNL en modo espejo. Gestiona las recomendaciones desde el dispositivo principal.
@@ -1478,6 +1495,10 @@ es-ES:
         xlarge: XLarge
         xsmall: Xsmall
         zoom_preview: Zoom preview
+        version_copied_from_recipe: copied from the recipe
+        version_loading: Loading...
+        version_load_failed: Could not load this version.
+        version_no_changes: No changes from the version before it.
       page_title: Visual Editor - %{name}
       plugin_documentation: Plugin documentation
       pop_out_preview_label: Pop out preview
@@ -1542,6 +1563,8 @@ es-ES:
       snapshots: Snapshots
       snapshots_for_this_tab: Snapshots for this tab
       status_bar: Visual editor status bar
+      back_to_versions: Back to all snapshots
+      load_version: Load into editor
     visual_previewer:
       page_title: Preview - %{name}
       visual_editor_preview: Visual editor preview
@@ -1868,7 +1891,7 @@ es-ES:
         title: Heads up — review before publishing
       recipe_lander:
         available_settings: Available settings
-        fork_warning: 'Warning: Forking a recipe deviates from the source and you will no longer receive updates from the recipe maintainer.'
+        fork_warning: 'Forking makes a copy of this recipe that you can edit. The author''s updates no longer reach your copy on their own: your plugin''s settings show when the recipe changes, and you can take the changes from there.'
     show:
       full_view_not_available: Full view not available
       half_horizontal_view_not_available: Half horizontal view not available
@@ -1900,6 +1923,7 @@ es-ES:
     check_settings: Instalado. Revisa los ajustes de abajo.
     demo:
       preparing: Preparing preview…
+    install_device_label: Add to
   plugin_settings:
     copy_are_you_sure: "¿Estás seguro de que quieres copiar este plugin?"
     delete_are_you_sure: "¿Estás seguro de que quieres eliminar este plugin?"
@@ -2046,6 +2070,7 @@ es-ES:
       oauth_disconnected: Settings saved. OAuth was disconnected because scopes changed. Please reconnect.
     add_to_playlist:
       success: Plugin añadido a la lista
+      added_to_device: Added to %{device}'s playlist
     refresh_already_in_progress: Ya hay una actualización en curso. Tu pantalla se actualizará en breve.
     remote_select:
       awaiting_connection: Conecta tu cuenta en la sección OAuth de arriba y recarga esta página.
@@ -2170,6 +2195,16 @@ es-ES:
       empty: Todavía no has consultado a trmy.
       rate_limited: Has solicitado demasiadas revisiones hoy. Vuelve a intentarlo mañana.
       back: Volver al plugin
+      modal_title_required: trmy reviews each recipe before you submit
+      modal_intro_required: trmy, our internal review agent, runs your plugin through the trmnlp tests on TRMNL OG and TRMNL X, in landscape and portrait. Once trmy finds nothing that holds it back, you can submit, and a person on our support team takes it from there. trmy replies on a page here, and we email you the link, usually within an hour.
+      gate_closed: Ask trmy to review your latest version first. You can submit once trmy finds nothing that holds your recipe back, or once you tell us why you'd keep something as it is.
+      changed_since: You changed your recipe after this review. Ask trmy again before you submit.
+      passed: trmy found nothing that holds your recipe back. You can submit it now.
+      held: trmy asks for the changes above before you submit. Make them and ask again, or tell us below why you'd keep something as it is.
+      justification_label: Why keep it as it is?
+      justification_placeholder: The X text is smaller on purpose, so the whole week fits on one screen.
+      justification_submit: Save my reason
+      your_reason: Your reason. You can submit now, and our team reads it with your recipe.
     data_flow:
       title: Flujo de datos
       markup: Código de marcado
@@ -2298,6 +2333,45 @@ es-ES:
       enable: Enable
       loading: Loading...
       yaml_valid: YAML looks good.
+      source_plugin_missing_html: Add %{link} first, then pick it here.
+    recipe_source:
+      changed_since_copy: The recipe has changed since you copied it.
+      differs_from_recipe: Your copy is different from the recipe.
+      see_changes: See what changed
+    recipe_update:
+      title: Recipe changes
+      back: Back to settings
+      intro_since_copy: What the recipe changed since you copied it. Taking a change keeps your own edits.
+      intro_differs: How your copy differs from the recipe.
+      up_to_date: Your copy has every change from the recipe.
+      take_all: Take all changes
+      take: Take these changes
+      replace: Use the recipe's version
+      recipe_changes: What the recipe changed
+      your_changes: What you changed
+      no_line_changes: No changed lines to show.
+      own_unchanged: You have not changed this file.
+      own_changed: You changed this file too. Taking the recipe's changes keeps yours.
+      conflict: You and the recipe changed the same lines, so the two cannot be put together. You can use the recipe's version instead, and undo it from the editor's history.
+      no_copy: Your copy is older than the record of what you copied, so this shows your version against the recipe's. Using the recipe's version replaces yours, and you can undo it from the editor's history.
+      results:
+        merged: Took the recipe's changes to %{file}.
+        replaced: "%{file} now uses the recipe's version."
+        conflict: "%{file} has changes that clash with yours. Nothing was saved."
+        not_mergeable: "%{file} can only use the recipe's version."
+        unchanged: "%{file} has no changes to take."
+        taken_all:
+          one: Took the recipe's changes to 1 file.
+          other: Took the recipe's changes to %{count} files.
+      files:
+        markup_full: Full
+        markup_half_horizontal: Half horizontal
+        markup_half_vertical: Half vertical
+        markup_quadrant: Quadrant
+        markup_shared: Shared markup
+        transform_js: Transform script
+        tidbyt_canvas: Tidbyt canvas
+        vestaboard_canvas: Vestaboard canvas
   recipes:
     index:
       newest_to_oldest: más nuevas a más antiguas
@@ -7064,9 +7138,9 @@ es-ES:
 
       Pega tu token de API de Workflowy. De forma predeterminada se muestra la lista principal. Si quieres un solo proyecto, introduce el ID de su elemento para usarlo como raíz. Muestra hasta 25 elementos y elige si incluir los completados, que aparecen marcados y tachados.
     youtube_analytics: |-
-      Las estadísticas de tu canal de YouTube en una pantalla TRMNL de tinta electrónica. Destacan las visualizaciones y horas de reproducción, seguidas de duración media, nuevos suscriptores, porcentaje de reproducción, «me gusta», comentarios y veces compartido.
+      Your YouTube channel stats, on a TRMNL ePaper display. Views and hours watched lead the screen, followed by average view duration, subscribers gained, view through rate, likes, comments and shares.
 
-      Conecta la cuenta de Google propietaria del canal; los administradores de un canal compartido no pueden conectarlo. Consulta los últimos 7, 28, 90 o 365 días. Si gestionas varios canales, añade el plugin una vez por canal y ponles nombres distintos.
+      Connect with the Google account that owns your channel (managers of a shared channel can't connect it), then choose a lookback of 7, 28, 90 or 365 days, or Lifetime for totals since the channel started. Run more than 1 channel? Add the plugin once per channel and name each one so you can tell them apart.
     linkedin_page: |-
       Las estadísticas de tu página de empresa de LinkedIn en una pantalla TRMNL de tinta electrónica. Consulta seguidores, nuevos seguidores, impresiones, clics, tasa de interacción, reacciones, comentarios y veces compartido, con un gráfico diario de la métrica que elijas.
 
@@ -8076,7 +8150,7 @@ es-ES:
       earlier: Earlier
     composer:
       label: Message
-      placeholder: Ask about your devices, playlists or plugins
+      placeholder: Message trmy
       send: Send
       used_up:
         one: You've used today's free trmy messages. They come back in about an hour, or add AI credit to keep going now.
@@ -8114,6 +8188,7 @@ es-ES:
         not_connected: Not connected.
       send_privately: Send privately
       private_target_html: The server runs <strong>%{action}</strong> with these values and your secret.
+      playlist_item_on_device: "%{item} on %{device}"
     field_list:
       'yes': 'Yes'
       'no': 'No'
@@ -8217,14 +8292,42 @@ es-ES:
         plugin_setting: When a plugin last refreshed, and any error.
         plugin_logs: The latest logs of a plugin, to see why it is blank.
         plugin_analytics: Installs and growth of the plugins you published.
+        new_plugins: The newest plugins and recipes.
+        news: The latest TRMNL news.
+        blog_posts: The newest posts on the TRMNL blog.
       title: Add a card
       intro: Each card shows current data every time you open your home.
       back: Back to home
       device_label: Device
       plugin_label: Plugin
+      names:
+        chart: Chart
+        device: Device
+        devices: All devices
+        playlist: Playlist
+        screen: Current screen
+        plugin_setting: Plugin status
+        plugin_logs: Plugin logs
+        plugin_analytics: Published plugins
+        new_plugins: New plugins
+        news: News
+        blog_posts: Blog
     starter_prompts:
       add_plugin: Add the %{name} plugin
       add_recipe: Add the %{name} recipe
+    feed_card:
+      new_plugins:
+        title: New plugins
+        feed_link: RSS feed for new plugins
+        view_all: All plugins
+      news:
+        title: News
+        feed_link: RSS feed for TRMNL news
+        view_all: All news
+      blog_posts:
+        title: Blog
+        feed_link: RSS feed for the TRMNL blog
+        view_all: All posts
   signup:
     find_friendly_id_html: Need this? %{link}.
     friendly_id_example: "%{friendly_id}, ex: 2D319E"
