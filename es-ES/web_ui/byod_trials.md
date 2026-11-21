@@ -1,0 +1,19 @@
+# `es-ES` · web_ui · `byod_trials`
+
+[`es-ES`](../README.md) · [All locales](../../README.md) · 13 of 16 left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+| `byod_trials.ended.delete_account` | Delete my account & data | English | [line 7206](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7206) |
+| `byod_trials.ended.delete_account_confirm` | This permanently deletes your account, device, and all data, and refunds your $1. Continu… | English | [line 7207](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7207) |
+| `byod_trials.ended.description_html` | Convert to a lifetime license for %{price} (your $1 trial fee is credited), or delete you… | English | [line 7208](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7208) |
+| `byod_trials.ended.pay_html` | Pay %{amount} | English | [line 7209](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7209) |
+| `byod_trials.ended.title` | Your BYOD free trial has ended | English | [line 7210](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7210) |
+| `byod_trials.convert.success` | Welcome aboard — your BYOD license is permanent. | English | [line 7213](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7213) |
+| `byod_trials.new.description` | A refundable $1 hold prevents spam. | English | [line 7215](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7215) |
+| `byod_trials.new.go_to_dashboard` | Go to dashboard | English | [line 7216](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7216) |
+| `byod_trials.new.ineligible` | You already have a BYOD trial or license on this account. | English | [line 7217](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7217) |
+| `byod_trials.new.pay_and_start_html` | Pay %{amount} &amp; start trial | English | [line 7218](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7218) |
+| `byod_trials.new.payment_unavailable` | Payment is temporarily unavailable. Please try again shortly. | English | [line 7219](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7219) |
+| `byod_trials.new.title.one` | Try TRMNL free for %{count} day | English | [line 7221](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7221) |
+| `byod_trials.new.title.other` | Try TRMNL free for %{count} days | English | [line 7222](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/es-ES.yml#L7222) |

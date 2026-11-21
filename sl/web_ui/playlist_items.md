@@ -1,0 +1,52 @@
+# `sl` · web_ui · `playlist_items`
+
+[`sl`](../README.md) · [All locales](../../README.md) · 46 of 141 left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+| `playlist_items.index.time_travel` | Time Travel | English | [line 1677](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1677) |
+| `playlist_items.index.unused_plugin_setting.message` | %{name} is not on any playlist now. Delete the plugin too? | English | [line 1697](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1697) |
+| `playlist_items.index.unused_plugin_setting.delete` | Delete plugin | English | [line 1698](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1698) |
+| `playlist_items.index.unused_plugin_setting.keep` | Keep plugin | English | [line 1699](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1699) |
+| `playlist_items.index.repeat_screen` | Repeat screen | English | [line 1700](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1700) |
+| `playlist_items.index.repeat_screen_hint` | Show the current screen again at each wake, with fresh data, until you press the button. | English | [line 1701](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1701) |
+| `playlist_items.playlist_item.mashup` | Mashup | English | [line 1713](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1713) |
+| `playlist_items.playlist_item.configure` | Configure | English | [line 1723](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1723) |
+| `playlist_items.playlist_item.more_options` | More options | English | [line 1724](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1724) |
+| `playlist_items.playlist_item.select_item` | Select %{title} | English | [line 1725](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1725) |
+| `playlist_items.playlist_item.preview_item` | Preview %{name} | English | [line 1726](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1726) |
+| `playlist_items.playlist_item.repeat_screen` | Repeat this screen | English | [line 1727](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1727) |
+| `playlist_items.create.error_adding` | Error adding to playlist | English | [line 1731](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1731) |
+| `playlist_items.sort.error` | Playlist order could not be saved | English | [line 1741](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1741) |
+| `playlist_items.refresh.global` | A global plugin renders on its own schedule for everyone. | English | [line 1747](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1747) |
+| `playlist_items.status.hidden_by_important` | Hidden by Important | English | [line 1758](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1758) |
+| `playlist_items.status.repeated` | Repeated | English | [line 1759](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1759) |
+| `playlist_items.status_description.hidden_by_important` | Important items are scheduled for every hour this device is awake, so this item never sho… | English | [line 1770](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1770) |
+| `playlist_items.status_description.repeated` | Repeat screen is on, so the device shows this screen again at each wake. Turn off Repeat … | English | [line 1771](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1771) |
+| `playlist_items.schedule.date_range.between` | %{start} to %{end} | English | [line 1777](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1777) |
+| `playlist_items.schedule.date_range.from` | From %{start} | English | [line 1778](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1778) |
+| `playlist_items.schedule.date_range.until` | Until %{end} | English | [line 1779](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1779) |
+| `playlist_items.schedule.date_range.yearly` | Every year, %{start} to %{end} | English | [line 1780](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1780) |
+| `playlist_items.bulk_actions.success.refresh_interval` | Refresh rate updated | English | [line 1790](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1790) |
+| `playlist_items.bulk_actions.success.refresh_interval_skipped.one` | Refresh rate updated, except for 1 item that has no refresh rate. For an Alias, set its d… | English | [line 1792](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1792) |
+| `playlist_items.bulk_actions.success.refresh_interval_skipped.other` | Refresh rate updated, except for %{count} items that have no refresh rate. For an Alias, … | English | [line 1793](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1793) |
+| `playlist_items.bulk_actions.refresh_rate` | Refresh rate | English | [line 1795](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1795) |
+| `playlist_items.bulk_actions.selected` | selected | English | [line 1796](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1796) |
+| `playlist_items.day_ahead.render_marker` | Renders | English | [line 1814](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1814) |
+| `playlist_items.day_ahead.asleep_window` | Asleep %{from} → %{to} (%{duration}) | English | [line 1815](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1815) |
+| `playlist_items.action_items.no_plugins_available` | No plugins available | English | [line 1817](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1817) |
+| `playlist_items.appearance.invalid.font_family` | Invalid font family | English | [line 1820](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1820) |
+| `playlist_items.appearance.invalid.palette_id` | Invalid color palette | English | [line 1821](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1821) |
+| `playlist_items.appearance.invalid.text_scale` | Invalid text scale | English | [line 1822](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1822) |
+| `playlist_items.appearance.invalid.theme` | Invalid theme | English | [line 1823](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1823) |
+| `playlist_items.appearance.updated.font_family` | Font family updated | English | [line 1825](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1825) |
+| `playlist_items.appearance.updated.palette_id` | Color palette updated | English | [line 1826](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1826) |
+| `playlist_items.appearance.updated.text_scale` | Text scale updated | English | [line 1827](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1827) |
+| `playlist_items.appearance.updated.theme` | Theme updated | English | [line 1828](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1828) |
+| `playlist_items.mashup_grid_editor_modal.continue` | Continue | English | [line 1830](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1830) |
+| `playlist_items.mashup_grid_editor_modal.instructions` | Click one corner of a rectangle, then the opposite corner to merge every cell inside it (… | English | [line 1831](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1831) |
+| `playlist_items.mashup_grid_editor_modal.reset` | Reset | English | [line 1832](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1832) |
+| `playlist_items.mashup_grid_editor_modal.title` | Compose 3×3 layout | English | [line 1833](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1833) |
+| `playlist_items.presentation_options.device_default` | Device Default | English | [line 1835](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1835) |
+| `playlist_items.repeat.success` | Your device repeats this screen from its next refresh. | English | [line 1837](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1837) |
+| `playlist_items.repeat.unavailable` | This screen cannot be repeated. | English | [line 1838](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sl.yml#L1838) |

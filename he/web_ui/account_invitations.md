@@ -1,0 +1,16 @@
+# `he` · web_ui · `account_invitations`
+
+[`he`](../README.md) · [All locales](../../README.md) · 10 of 10 left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+| `account_invitations.show.title` | You have been invited | English | [line 4536](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4536) |
+| `account_invitations.show.body` | %{inviter} invited you to manage their TRMNL: its devices, playlists and plugins. | English | [line 4537](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4537) |
+| `account_invitations.show.accept` | Accept | English | [line 4538](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4538) |
+| `account_invitations.show.not_now` | Not now | English | [line 4539](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4539) |
+| `account_invitations.show.have_a_login` | Already have a TRMNL login? | English | [line 4540](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4540) |
+| `account_invitations.show.log_in` | Log in | English | [line 4541](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4541) |
+| `account_invitations.show.create_and_accept` | Create login and accept | English | [line 4542](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4542) |
+| `account_invitations.accept.accepted` | You're now managing %{name}'s account | English | [line 4544](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4544) |
+| `account_invitations.accept.own_account` | That invitation is for your own account | English | [line 4545](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4545) |
+| `account_invitations.accept.already_member` | You already manage this account | English | [line 4546](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L4546) |

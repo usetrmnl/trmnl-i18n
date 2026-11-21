@@ -1,0 +1,140 @@
+# `hi` · web_ui · `user_mailer`
+
+[`hi`](../README.md) · [All locales](../../README.md) · 134 of 141 left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+| `user_mailer.account_invitation.subject` | %{name} invited you to manage their TRMNL | English | [line 4559](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4559) |
+| `user_mailer.account_invitation.greeting` | Hey there, | English | [line 4560](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4560) |
+| `user_mailer.account_invitation.body` | %{inviter} invited you to manage their TRMNL: its devices, playlists and plugins. | English | [line 4561](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4561) |
+| `user_mailer.account_invitation.accept` | Accept the invitation | English | [line 4562](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4562) |
+| `user_mailer.account_invitation.expiry` | This link will work for %{days} days. | English | [line 4563](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4563) |
+| `user_mailer.plus_trial_ending.earn_body` | post a photo, write a review, or film a quick video and we'll add free months. | English | [line 4565](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4565) |
+| `user_mailer.plus_trial_ending.earn_link` | Earn free months | English | [line 4566](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4566) |
+| `user_mailer.plus_trial_ending.earn_title` | Earn it free | English | [line 4567](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4567) |
+| `user_mailer.plus_trial_ending.greeting` | Hey %{name}, | English | [line 4568](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4568) |
+| `user_mailer.plus_trial_ending.greeting_without_name` | Hey, | English | [line 4569](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4569) |
+| `user_mailer.plus_trial_ending.subject` | Your TRMNL+ trial ends in a week | English | [line 4570](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4570) |
+| `user_mailer.plus_trial_ending.subscribe_link` | Subscribe | English | [line 4571](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4571) |
+| `user_mailer.plus_trial_ending.subscribe_price` | $%{monthly}/device/month, or $%{annual}/device/year (2 months free). | English | [line 4572](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4572) |
+| `user_mailer.plus_trial_ending.subscribe_title` | Subscribe | English | [line 4573](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4573) |
+| `user_mailer.plus_trial_ending.trial_ends_html` | Heads up — your TRMNL+ trial ends on <strong>%{date}</strong>. To keep your Plus perks ru… | English | [line 4574](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4574) |
+| `user_mailer.recipe_review_answered.subject` | trmy has reviewed %{name} | English | [line 4576](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4576) |
+| `user_mailer.recipe_review_answered.ready` | trmy, our internal review agent, finished checking %{name}. | English | [line 4578](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4578) |
+| `user_mailer.recipe_review_answered.read` | Read its notes | English | [line 4579](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4579) |
+| `user_mailer.recipe_review_answered.next` | When you're happy, submit it, and a person on our team will review it. | English | [line 4580](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4580) |
+| `user_mailer.author_digest.subject_prefix` | TRMNL author digest | English | [line 4582](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4582) |
+| `user_mailer.author_digest.greeting_without_name` | Hi there – | English | [line 4584](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4584) |
+| `user_mailer.author_digest.intro` | Here's your week on TRMNL, %{from} – %{to}. | English | [line 4585](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4585) |
+| `user_mailer.author_digest.needs_a_fix` | Needs a fix | English | [line 4586](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4586) |
+| `user_mailer.author_digest.failing.one` | %{name} is failing on 1 screen, last on %{date}. | English | [line 4588](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4588) |
+| `user_mailer.author_digest.failing.other` | %{name} is failing on %{count} screens, last on %{date}. | English | [line 4589](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4589) |
+| `user_mailer.author_digest.open_plugin` | Open %{name} | English | [line 4590](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4590) |
+| `user_mailer.author_digest.others_failing.one` | 1 more screen shows errors from an upstream service or an installer who hasn't finished s… | English | [line 4592](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4592) |
+| `user_mailer.author_digest.others_failing.other` | %{count} more screens show errors from an upstream service or an installer who hasn't fin… | English | [line 4593](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4593) |
+| `user_mailer.author_digest.uninstalls` | What people said when they uninstalled | English | [line 4594](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4594) |
+| `user_mailer.author_digest.reasons.one` | 1 uninstall this week: %{reasons}. | English | [line 4596](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4596) |
+| `user_mailer.author_digest.reasons.other` | %{count} uninstalls this week: %{reasons}. | English | [line 4597](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4597) |
+| `user_mailer.author_digest.creator_fund` | Close to the Creator Fund | English | [line 4598](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4598) |
+| `user_mailer.author_digest.qualified` | %{name} passed %{minimum} connections this week and joins the next Creator Fund payout. | English | [line 4599](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4599) |
+| `user_mailer.author_digest.near_miss_intro` | Plugins earn from %{threshold} connections. A few people sharing these would get them the… | English | [line 4600](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4600) |
+| `user_mailer.author_digest.near_miss_counts` | %{connections} connections · %{needed} to go | English | [line 4601](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4601) |
+| `user_mailer.author_digest.share_text` | Check out %{name} for TRMNL | English | [line 4602](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4602) |
+| `user_mailer.author_digest.post_on_x` | Post on X | English | [line 4603](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4603) |
+| `user_mailer.author_digest.numbers` | Your week in numbers | English | [line 4606](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4606) |
+| `user_mailer.author_digest.installs_line.one` | +1 install · %{total} connections in total | English | [line 4608](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4608) |
+| `user_mailer.author_digest.installs_line.other` | +%{count} installs · %{total} connections in total | English | [line 4609](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4609) |
+| `user_mailer.author_digest.top_growers` | Grew most: %{list} | English | [line 4610](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4610) |
+| `user_mailer.author_digest.top_layouts` | Screens show your plugins mostly %{list}. | English | [line 4611](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4611) |
+| `user_mailer.author_digest.see_analytics` | See full analytics | English | [line 4612](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4612) |
+| `user_mailer.author_digest.sign_off` | Stay focused, | English | [line 4613](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4613) |
+| `user_mailer.author_digest.footer` | You get this email once a week because you publish plugins on TRMNL. It skips any week wi… | English | [line 4614](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4614) |
+| `user_mailer.author_digest.headlines.qualified` | %{name} now qualifies for the Creator Fund | English | [line 4616](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4616) |
+| `user_mailer.author_digest.headlines.nearest_goal.one` | %{name} is 1 install from earning | English | [line 4618](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4618) |
+| `user_mailer.author_digest.headlines.nearest_goal.other` | %{name} is %{count} installs from earning | English | [line 4619](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4619) |
+| `user_mailer.author_digest.headlines.failing.one` | %{name} is failing on 1 screen | English | [line 4621](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4621) |
+| `user_mailer.author_digest.headlines.failing.other` | %{name} is failing on %{count} screens | English | [line 4622](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4622) |
+| `user_mailer.author_digest.headlines.new_installs.one` | 1 new install | English | [line 4624](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4624) |
+| `user_mailer.author_digest.headlines.new_installs.other` | %{count} new installs | English | [line 4625](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4625) |
+| `user_mailer.author_digest.headlines.plugins_to_fix.one` | 1 plugin to fix | English | [line 4627](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4627) |
+| `user_mailer.author_digest.headlines.plugins_to_fix.other` | %{count} plugins to fix | English | [line 4628](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4628) |
+| `user_mailer.author_digest.headlines.uninstall_reasons.one` | 1 person said why they uninstalled | English | [line 4630](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4630) |
+| `user_mailer.author_digest.headlines.uninstall_reasons.other` | %{count} people said why they uninstalled | English | [line 4631](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4631) |
+| `user_mailer.bank_payment_failed.subject` | Your bank payment to TRMNL did not go through | English | [line 4633](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4633) |
+| `user_mailer.bank_payment_failed.byod_license` | The bank payment for your BYOD license did not go through, so your device is back on its … | English | [line 4636](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4636) |
+| `user_mailer.bank_payment_failed.byod_trial` | The $1 bank payment for your BYOD trial did not go through, so we ended the trial. | English | [line 4637](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4637) |
+| `user_mailer.bank_payment_failed.developer_edition` | The bank payment for Developer Edition did not go through, so we turned it off on your de… | English | [line 4638](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4638) |
+| `user_mailer.bank_payment_failed.plus` | The bank payment for TRMNL+ did not go through, so we turned it off. | English | [line 4639](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4639) |
+| `user_mailer.bank_payment_failed.pay_again` | You can pay again with a card or another account here. | English | [line 4640](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4640) |
+| `user_mailer.bank_payment_failed.sign_off` | cheers, | English | [line 4641](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4641) |
+| `user_mailer.bank_payment_failed.team` | the TRMNL team | English | [line 4642](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4642) |
+| `user_mailer.greeting_hey` | hey %{name}, | English | [line 4643](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4643) |
+| `user_mailer.greeting_hey_without_name` | hey, | English | [line 4644](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4644) |
+| `user_mailer.sign_off_staying_focused` | to staying focused, | English | [line 4646](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4646) |
+| `user_mailer.team_ryan` | Ryan and the TRMNL team | English | [line 4647](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4647) |
+| `user_mailer.booking_billing_starting.body` | Booking becomes a paid app on %{date} — %{days} from now. You have %{resources} on displa… | English | [line 4649](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4649) |
+| `user_mailer.booking_billing_starting.days.one` | %{count} day | English | [line 4651](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4651) |
+| `user_mailer.booking_billing_starting.days.other` | %{count} days | English | [line 4652](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4652) |
+| `user_mailer.booking_billing_starting.resources.one` | %{count} resource | English | [line 4654](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4654) |
+| `user_mailer.booking_billing_starting.resources.other` | %{count} resources | English | [line 4655](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4655) |
+| `user_mailer.booking_billing_starting.set_up_billing` | Set up billing | English | [line 4656](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4656) |
+| `user_mailer.booking_billing_starting.subject.one` | Booking becomes a paid app in %{count} day | English | [line 4658](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4658) |
+| `user_mailer.booking_billing_starting.subject.other` | Booking becomes a paid app in %{count} days | English | [line 4659](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4659) |
+| `user_mailer.byod_review_request.ask` | if you're up and running, would you mind sharing your experience with us? | English | [line 4661](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4661) |
+| `user_mailer.byod_review_request.subject` | the TRMNL team would really appreciate your feedback | English | [line 4662](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4662) |
+| `user_mailer.byod_review_request.thanks` | thanks for picking up a BYOD license. we hope your DIY device is coming along nicely. | English | [line 4663](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4663) |
+| `user_mailer.byod_trial_expired.body` | Your TRMNL BYOD free trial has ended and your device is paused. Upgrade to a lifetime lic… | English | [line 4665](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4665) |
+| `user_mailer.byod_trial_expired.subject` | Your TRMNL BYOD trial has ended | English | [line 4666](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4666) |
+| `user_mailer.byod_trial_expired.upgrade_or_delete` | Upgrade or delete | English | [line 4667](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4667) |
+| `user_mailer.byod_trial_reminder.body` | Your TRMNL BYOD free trial ends in about a day. Upgrade to a lifetime license to keep you… | English | [line 4669](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4669) |
+| `user_mailer.byod_trial_reminder.subject` | Your TRMNL BYOD trial ends tomorrow | English | [line 4670](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4670) |
+| `user_mailer.byod_trial_reminder.upgrade_now` | Upgrade now | English | [line 4671](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4671) |
+| `user_mailer.invite_to_creator_fund.body_html` | good news — your published %{noun} "%{name}" just passed the install threshold that quali… | English | [line 4673](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4673) |
+| `user_mailer.invite_to_creator_fund.creator_fund` | Creator Fund | English | [line 4674](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4674) |
+| `user_mailer.invite_to_creator_fund.participate` | if you'd like to participate, just reply to this email. | English | [line 4675](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4675) |
+| `user_mailer.invite_to_creator_fund.plugin` | plugin | English | [line 4676](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4676) |
+| `user_mailer.invite_to_creator_fund.recipe` | recipe | English | [line 4677](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4677) |
+| `user_mailer.invite_to_creator_fund.sign_off` | thanks for building on TRMNL, | English | [line 4678](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4678) |
+| `user_mailer.invite_to_creator_fund.subject` | congrats - you qualify for the TRMNL Creator Fund | English | [line 4679](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4679) |
+| `user_mailer.invite_to_discord.api_docs` | Get started with all of the above in our API docs: | English | [line 4681](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4681) |
+| `user_mailer.invite_to_discord.discord` | Also, click the link below to join our developer-only Discord server where you can swap c… | English | [line 4682](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4682) |
+| `user_mailer.invite_to_discord.subject` | Invitation: Developer-only Discord server | English | [line 4683](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4683) |
+| `user_mailer.invite_to_discord.upgraded` | Thanks for upgrading your TRMNL device to Developer edition. You just unlocked access to … | English | [line 4684](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4684) |
+| `user_mailer.low_battery_notification.battery_settings` | device battery settings | English | [line 4686](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4686) |
+| `user_mailer.low_battery_notification.body` | we just detected that your "%{name}" device has a low battery (%{voltage}V – %{percent}%)… | English | [line 4687](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4687) |
+| `user_mailer.low_battery_notification.subject` | Your TRMNL (%{name}) needs to be charged | English | [line 4688](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4688) |
+| `user_mailer.low_battery_notification.unsubscribe_html` | to stop these emails, turn off "Low battery email notification" in your %{link}. | English | [line 4689](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4689) |
+| `user_mailer.plus_earning_approved.landed` | Your submission checked out — %{reward} just landed on your account. | English | [line 4691](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4691) |
+| `user_mailer.plus_earning_approved.runs_until_html` | TRMNL+ runs until <strong>%{date}</strong>. | English | [line 4692](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4692) |
+| `user_mailer.plus_earning_approved.stack_more_html` | Stack more at %{link}. | English | [line 4693](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4693) |
+| `user_mailer.plus_earning_approved.subject` | You earned %{reward} | English | [line 4694](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4694) |
+| `user_mailer.plus_earning_rejected.not_approved` | We looked at your "%{title}" submission but couldn't approve it. | English | [line 4696](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4696) |
+| `user_mailer.plus_earning_rejected.not_approved_with_reason` | We looked at your "%{title}" submission but couldn't approve it: %{reason} | English | [line 4697](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4697) |
+| `user_mailer.plus_earning_rejected.resubmit` | resubmit | English | [line 4698](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4698) |
+| `user_mailer.plus_earning_rejected.resubmit_html` | The good news: the slot is open again, so you can %{link} with a different link any time. | English | [line 4699](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4699) |
+| `user_mailer.plus_earning_rejected.subject` | About your TRMNL+ submission | English | [line 4700](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4700) |
+| `user_mailer.referral_code_used.counted` | this redemption will be counted on trmnl.com/account once the order is fulfilled. | English | [line 4702](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4702) |
+| `user_mailer.referral_code_used.ordered` | congrats. someone just ordered a TRMNL with your referral code, %{code}. | English | [line 4703](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4703) |
+| `user_mailer.referral_code_used.subject` | cha-ching! your TRMNL referral code was used | English | [line 4704](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4704) |
+| `user_mailer.send_content.subject` | %{company_name} content you just requested (%{name}) | English | [line 4706](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4706) |
+| `user_mailer.send_friendly_id.device_id_html` | here's your %{license_type} Device ID:<br>%{friendly_id} | English | [line 4708](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4708) |
+| `user_mailer.send_friendly_id.get_started_html` | get started at %{link} | English | [line 4709](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4709) |
+| `user_mailer.send_friendly_id.greeting` | hey there, | English | [line 4710](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4710) |
+| `user_mailer.send_friendly_id.license_types.byod` | byod | English | [line 4712](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4712) |
+| `user_mailer.send_friendly_id.license_types.native` | native | English | [line 4713](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4713) |
+| `user_mailer.send_friendly_id.license_types.virtual` | virtual | English | [line 4714](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4714) |
+| `user_mailer.send_friendly_id.subject` | Your TRMNL device ID | English | [line 4715](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4715) |
+| `user_mailer.health_alert.error_message_label` | error message: | English | [line 4717](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4717) |
+| `user_mailer.health_alert.google_photos_body` | your TRMNL lost access to your Google Photos selection — this usually means the photo sel… | English | [line 4718](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4718) |
+| `user_mailer.health_alert.greeting` | hey %{name}, | English | [line 4719](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4719) |
+| `user_mailer.health_alert.manage_alerts` | manage these alerts in your %{noun} settings. | English | [line 4720](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4720) |
+| `user_mailer.health_alert.mashup` | mashup | English | [line 4721](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4721) |
+| `user_mailer.health_alert.open_settings` | open %{noun} settings | English | [line 4722](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4722) |
+| `user_mailer.health_alert.plugin` | plugin | English | [line 4723](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4723) |
+| `user_mailer.health_alert.reselect_photos` | reselect your photos | English | [line 4724](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4724) |
+| `user_mailer.health_alert.sign_off` | —Ryan and the TRMNL team | English | [line 4725](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4725) |
+| `user_mailer.health_alert.states.degraded` | degraded | English | [line 4727](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4727) |
+| `user_mailer.health_alert.states.erroring` | erroring | English | [line 4728](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4728) |
+| `user_mailer.health_alert.subject` | your TRMNL %{noun} "%{name}" is %{state} | English | [line 4729](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4729) |
+| `user_mailer.health_alert.subject_google_photos` | action needed: reselect your TRMNL photos | English | [line 4730](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4730) |
+| `user_mailer.health_alert.transitioned_html` | your %{noun} "<strong>%{name}</strong>" just transitioned to <strong>%{state}</strong>. | English | [line 4731](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/hi.yml#L4731) |

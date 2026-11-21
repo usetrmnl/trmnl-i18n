@@ -1,0 +1,383 @@
+# `zh-HK` · plugin_renders · `renders`
+
+[`zh-HK`](../README.md) · [All locales](../../README.md) · 377 of 693 left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+| `renders.calendars.upcoming_events` | Upcoming Events | English | [line 10](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L10) |
+| `renders.days_left_year.board.days_gone` | days gone | English | [line 16](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L16) |
+| `renders.days_left_year.board.to_go` | to go | English | [line 17](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L17) |
+| `renders.netatmo_weather_station.outdoor_temp` | Outdoor Temp. | English | [line 41](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L41) |
+| `renders.netatmo_weather_station.outdoor_temp_short` | Outdoor | English | [line 42](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L42) |
+| `renders.netatmo_weather_station.conditions.hot_humid` | Hot & Humid | English | [line 77](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L77) |
+| `renders.netatmo_weather_station.conditions.hot_dry` | Hot & Dry | English | [line 78](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L78) |
+| `renders.netatmo_weather_station.conditions.mild_humid` | Mild & Humid | English | [line 79](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L79) |
+| `renders.netatmo_weather_station.conditions.pleasant` | Pleasant | English | [line 80](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L80) |
+| `renders.netatmo_weather_station.conditions.cool_humid` | Cool & Humid | English | [line 81](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L81) |
+| `renders.netatmo_weather_station.conditions.cool_dry` | Cool & Dry | English | [line 82](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L82) |
+| `renders.netatmo_weather_station.conditions.no_data` | No data | English | [line 83](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L83) |
+| `renders.parcel.board.delivering` | delivering | English | [line 119](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L119) |
+| `renders.parcel.board.in_transit` | in transit | English | [line 120](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L120) |
+| `renders.weather.tempest.conditions.extreme_rain` | Extreme Rain | English | [line 139](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L139) |
+| `renders.weather.tempest.conditions.heavy_rain` | Heavy Rain | English | [line 141](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L141) |
+| `renders.weather.tempest.conditions.light_rain` | Light Rain | English | [line 142](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L142) |
+| `renders.weather.tempest.conditions.moderate_rain` | Moderate Rain | English | [line 143](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L143) |
+| `renders.weather.tempest.conditions.snow_likely` | Snow Likely | English | [line 148](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L148) |
+| `renders.weather.tempest.conditions.very_heavy_rain` | Very Heavy Rain | English | [line 152](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L152) |
+| `renders.weather.dew_point` | Dew Point | English | [line 309](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L309) |
+| `renders.weather.dew_point_short` | Dew Pt | English | [line 310](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L310) |
+| `renders.weather.precip_chance` | Chance | English | [line 311](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L311) |
+| `renders.homey.state` | State | English | [line 353](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L353) |
+| `renders.homey.closed` | Closed | English | [line 354](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L354) |
+| `renders.homey.open` | Open | English | [line 355](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L355) |
+| `renders.homey.locked` | Locked | English | [line 356](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L356) |
+| `renders.homey.unlocked` | Unlocked | English | [line 357](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L357) |
+| `renders.homey.errors.choose_homey` | Choose which Homey to display in plugin settings. | English | [line 359](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L359) |
+| `renders.homey.errors.connect` | Connect your Homey account, or push a snapshot from a Homey app — in plugin settings. | English | [line 360](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L360) |
+| `renders.homey.errors.session_expired` | Your Homey session expired. Please reconnect in plugin settings. | English | [line 361](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L361) |
+| `renders.homey.errors.unreachable` | Unable to reach Homey right now. Please try again shortly. | English | [line 362](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L362) |
+| `renders.ai_dashboard.out_of_credit.own_api_key_off` | Or turn on "Use my own AI key" in this dashboard's settings. | English | [line 380](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L380) |
+| `renders.ai_dashboard.ai_key_refused.title` | Your AI provider refused your key | English | [line 382](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L382) |
+| `renders.days_left_until.today` | Today: %{date} | English | [line 384](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L384) |
+| `renders.days_left_until.target` | Target: %{date} | English | [line 385](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L385) |
+| `renders.days_left_until.title` | Days Left Until... | English | [line 386](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L386) |
+| `renders.home_assistant.no_area` | No area | English | [line 388](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L388) |
+| `renders.home_assistant.lights_on` | Lights on | English | [line 389](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L389) |
+| `renders.home_assistant.unlocked` | Unlocked | English | [line 390](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L390) |
+| `renders.home_assistant.open` | Open | English | [line 391](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L391) |
+| `renders.home_assistant.no_entities` | Nothing to show yet | English | [line 392](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L392) |
+| `renders.home_assistant.no_entities_hint` | Pick entities in Home Assistant to show them here | English | [line 393](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L393) |
+| `renders.home_assistant.no_message` | No messages yet | English | [line 394](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L394) |
+| `renders.home_assistant.no_message_hint` | Messages from Home Assistant show here | English | [line 395](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L395) |
+| `renders.home_assistant.states.off` | Off | English | [line 398](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L398) |
+| `renders.home_assistant.states.open` | Open | English | [line 399](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L399) |
+| `renders.home_assistant.states.closed` | Closed | English | [line 400](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L400) |
+| `renders.home_assistant.states.locked` | Locked | English | [line 401](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L401) |
+| `renders.home_assistant.states.unlocked` | Unlocked | English | [line 402](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L402) |
+| `renders.home_assistant.states.detected` | Detected | English | [line 403](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L403) |
+| `renders.home_assistant.states.clear` | Clear | English | [line 404](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L404) |
+| `renders.home_assistant.states.home` | Home | English | [line 405](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L405) |
+| `renders.home_assistant.states.away` | Away | English | [line 406](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L406) |
+| `renders.home_assistant.states.wet` | Wet | English | [line 407](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L407) |
+| `renders.home_assistant.states.dry` | Dry | English | [line 408](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L408) |
+| `renders.home_assistant.states.playing` | Playing | English | [line 409](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L409) |
+| `renders.home_assistant.states.paused` | Paused | English | [line 410](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L410) |
+| `renders.home_assistant.states.idle` | Idle | English | [line 411](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L411) |
+| `renders.home_assistant.states.unavailable` | Unavailable | English | [line 412](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L412) |
+| `renders.mashup.empty_slot_message` | Please add a plugin to this mashup. | English | [line 414](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L414) |
+| `renders.mashup.empty_slot_title` | Empty Slot | English | [line 415](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L415) |
+| `renders.mashup.failed_message` | Something went wrong with the %{plugin} plugin. Please check your plugin settings or cont… | English | [line 416](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L416) |
+| `renders.mashup.failed_title` | Mashup Generation Failed | English | [line 417](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L417) |
+| `renders.mashup.paused_message` | The %{plugin} plugin was paused after repeated render errors. Fix its settings and reset … | English | [line 418](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L418) |
+| `renders.mashup.paused_title` | Plugin Paused | English | [line 419](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L419) |
+| `renders.notion.untitled` | Untitled | English | [line 421](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L421) |
+| `renders.notion.database_view` | Database view | English | [line 422](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L422) |
+| `renders.notion.empty_description` | Check your Notion configuration and try again | English | [line 423](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L423) |
+| `renders.notion.empty_description_short` | Check your Notion configuration | English | [line 424](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L424) |
+| `renders.notion.empty_description_xshort` | Check config | English | [line 425](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L425) |
+| `renders.notion.empty_title` | No Content Available | English | [line 426](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L426) |
+| `renders.notion.empty_title_short` | No Content | English | [line 427](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L427) |
+| `renders.notion.error_title` | Notion Error | English | [line 428](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L428) |
+| `renders.notion.error_title_short` | Error | English | [line 429](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L429) |
+| `renders.notion.image` | Image | English | [line 430](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L430) |
+| `renders.notion.image_placeholder` | Image placeholder | English | [line 431](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L431) |
+| `renders.rss_feed.no_content` | No Content | English | [line 433](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L433) |
+| `renders.rss_feed.parse_error_message` | Message: %{message} | English | [line 434](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L434) |
+| `renders.rss_feed.parse_error_title` | Error while parsing RSS content | English | [line 435](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L435) |
+| `renders.rss_feed.response_code` | Response Code: %{code} | English | [line 436](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L436) |
+| `renders.rss_feed.title` | RSS Feed | English | [line 437](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L437) |
+| `renders.statuspage.invalid_url` | Invalid URL | English | [line 439](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L439) |
+| `renders.statuspage.unreachable` | Could not be reached | English | [line 440](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L440) |
+| `renders.statuspage.last_incident` | Last Incident: %{time} | English | [line 441](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L441) |
+| `renders.statuspage.scheduled` | Scheduled: %{date} | English | [line 442](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L442) |
+| `renders.statuspage.title` | Status Pages | English | [line 443](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L443) |
+| `renders.todoist.groups.no_date` | No date | English | [line 446](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L446) |
+| `renders.todoist.groups.no_deadline` | No deadline | English | [line 447](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L447) |
+| `renders.todoist.groups.no_label` | No label | English | [line 448](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L448) |
+| `renders.todoist.groups.overdue` | Overdue | English | [line 449](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L449) |
+| `renders.todoist.groups.priority` | Priority %{priority} | English | [line 450](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L450) |
+| `renders.apple_photos.setup_album` | Please set up your album. | English | [line 452](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L452) |
+| `renders.asana.due` | due %{date} | English | [line 454](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L454) |
+| `renders.beehiiv.click_rate` | Click Rate | English | [line 456](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L456) |
+| `renders.beehiiv.clicks` | Clicks | English | [line 457](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L457) |
+| `renders.beehiiv.open` | Open | English | [line 458](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L458) |
+| `renders.beehiiv.open_rate` | Open Rate | English | [line 459](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L459) |
+| `renders.beehiiv.recipients` | Recipients | English | [line 460](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L460) |
+| `renders.beehiiv.spam_complaints` | Spam Complaints | English | [line 461](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L461) |
+| `renders.beehiiv.subject` | Subject | English | [line 462](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L462) |
+| `renders.beehiiv.unsubscribes` | Unsubscribes | English | [line 463](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L463) |
+| `renders.bible_verses.daily_scripture` | Daily Scripture | English | [line 465](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L465) |
+| `renders.bible_verses.word_of_god` | Word of God | English | [line 466](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L466) |
+| `renders.bitcoin_wallet_balance.change_7_days` | 7 day change | English | [line 468](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L468) |
+| `renders.bitcoin_wallet_balance.change_90_days` | 90 day change | English | [line 469](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L469) |
+| `renders.bitcoin_wallet_balance.title` | Bitcoin Wallet | English | [line 470](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L470) |
+| `renders.changelog.title` | TRMNL News | English | [line 472](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L472) |
+| `renders.clicky.metrics.mins_on_page` | Mins On Page | English | [line 475](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L475) |
+| `renders.clicky.metrics.pageviews` | Pageviews | English | [line 476](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L476) |
+| `renders.clicky.metrics.visitors` | Visitors | English | [line 477](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L477) |
+| `renders.close.via` | via %{user} | English | [line 479](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L479) |
+| `renders.coinmarketcap.daily_change` | Daily Change | English | [line 481](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L481) |
+| `renders.convertkit_analytics.account_dashboard` | Account dashboard | English | [line 483](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L483) |
+| `renders.convertkit_analytics.click_rate` | Click rate | English | [line 484](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L484) |
+| `renders.convertkit_analytics.clicks` | Clicks | English | [line 485](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L485) |
+| `renders.convertkit_analytics.metric` | Metric | English | [line 486](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L486) |
+| `renders.convertkit_analytics.open_rate` | Open rate | English | [line 487](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L487) |
+| `renders.convertkit_analytics.products_sold` | Products Sold | English | [line 488](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L488) |
+| `renders.convertkit_analytics.recipients` | Recipients | English | [line 489](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L489) |
+| `renders.convertkit_analytics.status` | Status | English | [line 490](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L490) |
+| `renders.convertkit_analytics.subscribers` | Subscribers | English | [line 491](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L491) |
+| `renders.convertkit_analytics.unsubscribes` | Unsubscribes | English | [line 492](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L492) |
+| `renders.convertkit_analytics.value` | Value | English | [line 493](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L493) |
+| `renders.days_left_retirement.progress` | Progress | English | [line 495](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L495) |
+| `renders.days_left_retirement.title` | Progress To Retirement | English | [line 496](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L496) |
+| `renders.days_left_retirement.weeks_left` | Weeks left | English | [line 497](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L497) |
+| `renders.days_since.start_date` | Start Date | English | [line 499](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L499) |
+| `renders.days_since.title` | Days Since... | English | [line 500](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L500) |
+| `renders.dropbox_photo_album.add_images` | Please add images to your Dropbox account under /Apps/usetrmnl.com | English | [line 502](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L502) |
+| `renders.eight_sleep.deep_sleep` | Deep Sleep | English | [line 504](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L504) |
+| `renders.eight_sleep.quality` | Quality | English | [line 505](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L505) |
+| `renders.eight_sleep.ratings.fair` | Fair | English | [line 507](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L507) |
+| `renders.eight_sleep.ratings.good` | Good | English | [line 508](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L508) |
+| `renders.eight_sleep.ratings.low` | Low | English | [line 509](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L509) |
+| `renders.eight_sleep.ratings.pay_attention` | Pay Attention | English | [line 510](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L510) |
+| `renders.eight_sleep.rem_sleep` | REM Sleep | English | [line 511](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L511) |
+| `renders.eight_sleep.sleep_duration` | Sleep Duration | English | [line 512](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L512) |
+| `renders.eight_sleep.snoring` | Snoring | English | [line 513](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L513) |
+| `renders.eight_sleep.time_to_sleep` | Time to Sleep | English | [line 514](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L514) |
+| `renders.email_meter.average_response_time` | Avg Response Time | English | [line 516](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L516) |
+| `renders.email_meter.messages_received` | Messages Received | English | [line 517](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L517) |
+| `renders.email_meter.messages_sent` | Messages Sent | English | [line 518](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L518) |
+| `renders.email_meter.recipients` | Recipients | English | [line 519](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L519) |
+| `renders.email_meter.senders` | Senders | English | [line 520](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L520) |
+| `renders.enphase.instance_updated` | %{instance} (updated %{time}) | English | [line 522](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L522) |
+| `renders.enphase.no_production_today` | No production data yet today | English | [line 523](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L523) |
+| `renders.enphase.labels.battery` | Battery | English | [line 525](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L525) |
+| `renders.enphase.labels.battery_charge` | Battery · %{percent}% | English | [line 526](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L526) |
+| `renders.enphase.labels.consumed` | Consumed | English | [line 527](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L527) |
+| `renders.enphase.labels.current_power` | Producing now | English | [line 528](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L528) |
+| `renders.enphase.labels.exported` | Exported | English | [line 529](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L529) |
+| `renders.enphase.labels.grid_dependence` | Grid dependence | English | [line 530](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L530) |
+| `renders.enphase.labels.imported` | Imported | English | [line 531](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L531) |
+| `renders.enphase.labels.lifetime` | Lifetime | English | [line 532](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L532) |
+| `renders.enphase.labels.net_export` | Net export | English | [line 533](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L533) |
+| `renders.enphase.labels.net_import` | Net import | English | [line 534](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L534) |
+| `renders.enphase.labels.peak_power` | Peak today | English | [line 535](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L535) |
+| `renders.enphase.labels.produced` | Produced | English | [line 536](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L536) |
+| `renders.enphase.labels.solar_offset` | Solar offset | English | [line 537](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L537) |
+| `renders.ethereum_wallet_balance.change_7_days` | 7 day change | English | [line 539](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L539) |
+| `renders.ethereum_wallet_balance.change_90_days` | 90 day change | English | [line 540](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L540) |
+| `renders.ethereum_wallet_balance.title` | Ethereum Wallet | English | [line 541](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L541) |
+| `renders.etsy.data_unavailable` | Etsy data unavailable | English | [line 544](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L544) |
+| `renders.etsy.fulfilled_orders` | Fulfilled Orders | English | [line 545](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L545) |
+| `renders.etsy.pending_orders` | Pending Orders | English | [line 546](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L546) |
+| `renders.etsy.periods.comparison` | Comparison | English | [line 548](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L548) |
+| `renders.etsy.periods.current` | Current | English | [line 549](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L549) |
+| `renders.etsy.total_sales` | Total Sales | English | [line 550](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L550) |
+| `renders.fera.average_rating` | Avg. Rating | English | [line 552](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L552) |
+| `renders.fera.products` | Products | English | [line 553](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L553) |
+| `renders.fera.reviews` | Reviews | English | [line 554](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L554) |
+| `renders.fera.verified` | Verified | English | [line 555](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L555) |
+| `renders.gaffa.no_articles` | No articles yet | English | [line 557](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L557) |
+| `renders.gaffa.waiting_for_feed` | Waiting for Gaffa to process your news feed... | English | [line 558](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L558) |
+| `renders.github_commit_graph.average_per_day` | Average per day | English | [line 560](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L560) |
+| `renders.github_commit_graph.contributions` | Contributions | English | [line 561](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L561) |
+| `renders.github_commit_graph.contributions_last_year` | Contributions in last year | English | [line 562](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L562) |
+| `renders.github_commit_graph.current_streak` | Current streak | English | [line 563](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L563) |
+| `renders.github_commit_graph.longest_streak` | Longest streak | English | [line 564](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L564) |
+| `renders.github_commit_graph.most_in_a_day` | Most in a day | English | [line 565](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L565) |
+| `renders.github_commit_graph.board.per_day` | / day | English | [line 567](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L567) |
+| `renders.github_commit_graph.board.per_year` | / year | English | [line 568](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L568) |
+| `renders.github_commits.title` | Recent Commits | English | [line 570](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L570) |
+| `renders.github_contributor_summary.commits_last_week` | Commits Last Week | English | [line 572](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L572) |
+| `renders.github_contributor_summary.last_week` | Last Week | English | [line 573](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L573) |
+| `renders.github_contributor_summary.lifetime` | Lifetime | English | [line 574](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L574) |
+| `renders.github_contributor_summary.lifetime_commits` | Lifetime Commits | English | [line 575](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L575) |
+| `renders.github_contributor_summary.title` | Contributors Summary | English | [line 576](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L576) |
+| `renders.github_contributor_summary.user` | User | English | [line 577](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L577) |
+| `renders.google_photos.expired.message` | Google access expired. Reselect your photos in plugin settings. | English | [line 580](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L580) |
+| `renders.google_photos.expired.title` | Photos Need Reselecting | English | [line 581](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L581) |
+| `renders.google_photos.not_connected.message` | Pick photos in plugin settings to get started. | English | [line 583](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L583) |
+| `renders.google_photos.not_connected.title` | No Photos Selected | English | [line 584](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L584) |
+| `renders.google_photos.reconnect.message` | Your Google account needs reconnecting in plugin settings. | English | [line 586](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L586) |
+| `renders.google_photos.reconnect.title` | Reconnect Google | English | [line 587](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L587) |
+| `renders.gumroad_analytics.sales_count` | Sales Count | English | [line 589](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L589) |
+| `renders.gumroad_analytics.sales_value` | Sales Value | English | [line 590](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L590) |
+| `renders.hacker_news.by` | by %{author} | English | [line 592](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L592) |
+| `renders.hacker_news.votes.one` | %{score} vote | English | [line 594](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L594) |
+| `renders.hacker_news.votes.other` | %{score} votes | English | [line 595](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L595) |
+| `renders.home_assistant_screenshot.no_image` | No Image | English | [line 597](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L597) |
+| `renders.home_assistant_screenshot.upload_screenshot` | Upload a screenshot from Home Assistant. | English | [line 598](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L598) |
+| `renders.hubspot.via` | via %{user} | English | [line 600](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L600) |
+| `renders.huckleberry.awake` | Awake | English | [line 602](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L602) |
+| `renders.huckleberry.since` | since %{time} | English | [line 603](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L603) |
+| `renders.huckleberry.sleeping` | Sleeping | English | [line 604](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L604) |
+| `renders.kickstarter.from_country` | from %{country} | English | [line 606](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L606) |
+| `renders.kickstarter.funded` | %{amount} funded | English | [line 607](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L607) |
+| `renders.letterboxd.empty.diary` | No diary entries yet. Log a film on Letterboxd to see it here. | English | [line 610](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L610) |
+| `renders.letterboxd.empty.friends` | No recent activity from people you follow. | English | [line 611](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L611) |
+| `renders.letterboxd.rewatch` | rewatch | English | [line 612](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L612) |
+| `renders.linkedin_page.metrics.clicks` | Clicks | English | [line 615](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L615) |
+| `renders.linkedin_page.metrics.comments` | Comments | English | [line 616](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L616) |
+| `renders.linkedin_page.metrics.engagement_rate` | Engagement Rate | English | [line 617](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L617) |
+| `renders.linkedin_page.metrics.followers` | Followers | English | [line 618](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L618) |
+| `renders.linkedin_page.metrics.impressions` | Impressions | English | [line 619](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L619) |
+| `renders.linkedin_page.metrics.new_followers` | New Followers | English | [line 620](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L620) |
+| `renders.linkedin_page.metrics.reactions` | Reactions | English | [line 621](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L621) |
+| `renders.linkedin_page.metrics.shares` | Shares | English | [line 622](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L622) |
+| `renders.linkedin_page.chart_labels.clicks` | Clicks | English | [line 624](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L624) |
+| `renders.linkedin_page.chart_labels.engagement_rate` | Engagement Rate | English | [line 625](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L625) |
+| `renders.linkedin_page.chart_labels.impressions` | Impressions | English | [line 626](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L626) |
+| `renders.linkedin_page.chart_labels.new_followers` | New Followers | English | [line 627](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L627) |
+| `renders.lunch_money.assets` | Assets | English | [line 629](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L629) |
+| `renders.lunch_money.liabilities` | Liabilities | English | [line 630](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L630) |
+| `renders.lunch_money.month_change.one` | %{count}-Month Change | English | [line 632](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L632) |
+| `renders.lunch_money.month_change.other` | %{count}-Month Change | English | [line 633](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L633) |
+| `renders.lunch_money.net_worth` | Net Worth | English | [line 634](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L634) |
+| `renders.mailchimp_analytics.clicks` | Clicks | English | [line 636](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L636) |
+| `renders.mailchimp_analytics.emails_sent` | Emails Sent | English | [line 637](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L637) |
+| `renders.mailchimp_analytics.growth_history` | Mailchimp Growth History | English | [line 638](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L638) |
+| `renders.mailchimp_analytics.hard_bounce` | Hard Bounce | English | [line 639](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L639) |
+| `renders.mailchimp_analytics.open_rate` | Open Rate | English | [line 640](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L640) |
+| `renders.mailchimp_analytics.soft_bounce` | Soft Bounce | English | [line 641](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L641) |
+| `renders.mailchimp_analytics.subscribers` | Subscribers | English | [line 642](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L642) |
+| `renders.mailchimp_analytics.unique_opens` | Unique Opens | English | [line 643](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L643) |
+| `renders.mailchimp_analytics.unsubscribers` | Unsubscribers | English | [line 644](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L644) |
+| `renders.managed_display.needs_setup.description` | Assign this device to a room in your TRMNL apps. | English | [line 647](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L647) |
+| `renders.managed_display.needs_setup.title` | Set up this display | English | [line 648](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L648) |
+| `renders.motivational_quote.title` | Motivational Quote | English | [line 650](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L650) |
+| `renders.motivational_quote.title_short` | Quote of the day! | English | [line 651](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L651) |
+| `renders.nano_banana_dashboard.generation_failed` | Generation Failed | English | [line 653](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L653) |
+| `renders.poetry_today.by_author` | by %{author} | English | [line 655](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L655) |
+| `renders.poetry_today.title` | Poem of the Day | English | [line 656](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L656) |
+| `renders.polymarket.comments.one` | %{comments} comment | English | [line 659](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L659) |
+| `renders.polymarket.comments.other` | %{comments} comments | English | [line 660](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L660) |
+| `renders.polymarket.volume_bet` | %{volume} bet | English | [line 661](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L661) |
+| `renders.postmark_analytics.bounce_rate` | Bounce Rate | English | [line 663](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L663) |
+| `renders.postmark_analytics.bounced` | Bounced | English | [line 664](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L664) |
+| `renders.postmark_analytics.clicks` | Clicks | English | [line 665](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L665) |
+| `renders.postmark_analytics.emails_sent` | Emails Sent | English | [line 666](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L666) |
+| `renders.postmark_analytics.errors` | Errors | English | [line 667](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L667) |
+| `renders.postmark_analytics.open_rate` | Open Rate | English | [line 668](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L668) |
+| `renders.postmark_analytics.spam_complaints` | Spam Complaints | English | [line 669](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L669) |
+| `renders.postmark_analytics.unique_opens` | Unique Opens | English | [line 670](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L670) |
+| `renders.private_plugin.view_not_available` | %{view} view not available. | English | [line 672](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L672) |
+| `renders.product_hunt.votes.one` | %{votes} vote | English | [line 675](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L675) |
+| `renders.product_hunt.votes.other` | %{votes} votes | English | [line 676](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L676) |
+| `renders.profit_well.active_customers` | Active Customers | English | [line 678](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L678) |
+| `renders.profit_well.churned_customers` | Churned Customers | English | [line 679](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L679) |
+| `renders.profit_well.new_churned_revenue` | New Churned Revenue | English | [line 680](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L680) |
+| `renders.profit_well.new_customers` | New Customers | English | [line 681](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L681) |
+| `renders.profit_well.new_recurring_revenue` | New Recurring Revenue | English | [line 682](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L682) |
+| `renders.profit_well.recurring_revenue` | Recurring Revenue | English | [line 683](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L683) |
+| `renders.purpleair.current_humidity` | Current Humidity | English | [line 685](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L685) |
+| `renders.purpleair.current_temperature` | Current Temperature | English | [line 686](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L686) |
+| `renders.readwise.by_author` | by %{author} | English | [line 688](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L688) |
+| `renders.reddit.only_posts_available.one` | Only %{count} post available for this time period | English | [line 691](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L691) |
+| `renders.reddit.only_posts_available.other` | Only %{count} posts available for this time period | English | [line 692](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L692) |
+| `renders.reddit.sorted_posts` | %{sort} posts | English | [line 693](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L693) |
+| `renders.reddit.via_author` | via u/%{author} | English | [line 694](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L694) |
+| `renders.reddit.votes.one` | %{votes} vote | English | [line 696](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L696) |
+| `renders.reddit.votes.other` | %{votes} votes | English | [line 697](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L697) |
+| `renders.salesforce.via_user` | via %{user} | English | [line 699](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L699) |
+| `renders.shopify.comparison` | Comparison | English | [line 702](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L702) |
+| `renders.shopify.current` | Current | English | [line 703](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L703) |
+| `renders.shopify.fulfilled_orders` | Fulfilled Orders | English | [line 704](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L704) |
+| `renders.shopify.pending_orders` | Pending Orders | English | [line 705](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L705) |
+| `renders.shopify.total_sales` | Total Sales | English | [line 706](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L706) |
+| `renders.shopify.versus` | (vs %{amount}) | English | [line 707](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L707) |
+| `renders.shopping_list.title` | Shopping List | English | [line 709](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L709) |
+| `renders.square_pos.total_payments` | Total Payments | English | [line 711](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L711) |
+| `renders.stock_price.daily_change` | Daily Change | English | [line 713](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L713) |
+| `renders.stock_price.title` | Stock Prices | English | [line 714](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L714) |
+| `renders.theme_sample.all_components` | All components | English | [line 716](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L716) |
+| `renders.theme_sample.color_art` | Color art | English | [line 717](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L717) |
+| `renders.theme_sample.first_row` | First row | English | [line 718](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L718) |
+| `renders.theme_sample.gray_art` | Gray art | English | [line 719](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L719) |
+| `renders.theme_sample.gray_text` | Gray text | English | [line 720](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L720) |
+| `renders.theme_sample.item_description` | Secondary description text sits here. | English | [line 721](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L721) |
+| `renders.theme_sample.item_with_meta` | Item with meta rail | English | [line 722](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L722) |
+| `renders.theme_sample.labels.filled` | Filled | English | [line 724](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L724) |
+| `renders.theme_sample.labels.gray` | Gray | English | [line 725](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L725) |
+| `renders.theme_sample.labels.inverted` | Inverted | English | [line 726](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L726) |
+| `renders.theme_sample.labels.outline` | Outline | English | [line 727](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L727) |
+| `renders.theme_sample.labels.underlined` | Underlined | English | [line 728](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L728) |
+| `renders.theme_sample.progress_bar` | Progress bar | English | [line 729](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L729) |
+| `renders.theme_sample.progress_bar_small` | Small, emphasis 2 | English | [line 730](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L730) |
+| `renders.theme_sample.progress_dots` | Progress dots | English | [line 731](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L731) |
+| `renders.theme_sample.red_text` | Red text | English | [line 732](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L732) |
+| `renders.theme_sample.second_row` | Second row | English | [line 733](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L733) |
+| `renders.theme_sample.table` | Table | English | [line 734](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L734) |
+| `renders.theme_sample.title` | Theme Sample | English | [line 735](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L735) |
+| `renders.theme_sample.value` | Value | English | [line 736](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L736) |
+| `renders.todo_list.title` | Todo List | English | [line 738](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L738) |
+| `renders.todolist.due` | due %{date} | English | [line 740](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L740) |
+| `renders.todolist.no_tasks` | No tasks to show | English | [line 741](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L741) |
+| `renders.todolist.tasks` | Tasks | English | [line 742](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L742) |
+| `renders.upcoming_movies.release_date` | Release Date: %{date} | English | [line 744](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L744) |
+| `renders.upcoming_movies.title` | Movies | English | [line 745](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L745) |
+| `renders.webhook_image.no_image` | No Image | English | [line 747](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L747) |
+| `renders.webhook_image.no_image_hint` | Upload an image to display it here. | English | [line 748](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L748) |
+| `renders.webhook_image.title` | Webhook Image | English | [line 749](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L749) |
+| `renders.wiki_random_article.article_of_the_day` | Article of the day | English | [line 751](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L751) |
+| `renders.withings.average_suffix` |  (%{value} avg) | English | [line 753](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L753) |
+| `renders.withings.body_fat` | Body-fat % | English | [line 754](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L754) |
+| `renders.withings.current_weight` | Current Weight | English | [line 755](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L755) |
+| `renders.withings.daily_sleep_goal` | Daily Sleep Goal | English | [line 756](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L756) |
+| `renders.withings.daily_step_goal` | Daily Step Goal | English | [line 757](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L757) |
+| `renders.withings.hours` | %{hours} hrs | English | [line 758](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L758) |
+| `renders.withings.hours_slept` | Hours Slept | English | [line 759](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L759) |
+| `renders.withings.last_measurement` | Last Measurement | English | [line 760](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L760) |
+| `renders.withings.muscle` | Muscle % | English | [line 761](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L761) |
+| `renders.withings.sleep_efficiency` | Sleep Efficiency | English | [line 762](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L762) |
+| `renders.withings.sleep_goal` | Sleep Goal | English | [line 763](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L763) |
+| `renders.withings.sleep_score` | Sleep Score | English | [line 764](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L764) |
+| `renders.withings.step_goal` | Step Goal | English | [line 765](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L765) |
+| `renders.withings.steps_today` | Steps Today | English | [line 766](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L766) |
+| `renders.withings.this_period` | This Period | English | [line 767](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L767) |
+| `renders.workflowy.no_items` | No items to display | English | [line 769](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L769) |
+| `renders.youtube_analytics.average_view_duration` | Average View Duration | English | [line 771](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L771) |
+| `renders.youtube_analytics.comments` | Comments | English | [line 772](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L772) |
+| `renders.youtube_analytics.hours` | Hours | English | [line 773](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L773) |
+| `renders.youtube_analytics.likes` | Likes | English | [line 774](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L774) |
+| `renders.youtube_analytics.minutes` | Minutes | English | [line 775](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L775) |
+| `renders.youtube_analytics.shares` | Shares | English | [line 776](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L776) |
+| `renders.youtube_analytics.subscribers_gained` | Subscribers Gained | English | [line 777](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L777) |
+| `renders.youtube_analytics.view_through_rate` | View Through Rate | English | [line 778](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L778) |
+| `renders.youtube_analytics.views` | Views | English | [line 779](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L779) |
+| `renders.youtube_analytics.watched` | %{unit} Watched | English | [line 780](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L780) |
+| `renders.youtube_analytics.subscribers` | Subscribers | English | [line 781](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L781) |
+| `renders.youtube_analytics.total_views` | Total Views | English | [line 782](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L782) |
+| `renders.system_screens.byod_error.title` | License needed | English | [line 785](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L785) |
+| `renders.system_screens.byod_error.message_html` | To use this feature, you need a physical device<br>or a BYOD (Bring Your Own Device) lice… | English | [line 786](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L786) |
+| `renders.system_screens.byod_trial_expired.title` | BYOD trial ended | English | [line 788](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L788) |
+| `renders.system_screens.byod_trial_expired.message` | Visit trmnl.com to convert your license and reactivate this device. | English | [line 789](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L789) |
+| `renders.system_screens.empty_state.title` | You're caught up! | English | [line 791](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L791) |
+| `renders.system_screens.empty_state.message` | Add more plugins to your playlist, or go enjoy the outdoors | English | [line 792](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L792) |
+| `renders.system_screens.identify.message` | Your Friendly ID | English | [line 794](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L794) |
+| `renders.system_screens.low_battery.title` | Low battery | English | [line 796](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L796) |
+| `renders.system_screens.low_battery.message` | Please charge your TRMNL | English | [line 797](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L797) |
+| `renders.system_screens.mac_not_found.title` | MAC Address not registered | English | [line 799](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L799) |
+| `renders.system_screens.mac_not_found.message` | Visit trmnl.com/go/byod for next steps | English | [line 800](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L800) |
+| `renders.system_screens.mfa_reset.title` | New MFA code | English | [line 802](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L802) |
+| `renders.system_screens.rate_limit.title` | Rate limit exceeded (429) | English | [line 804](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L804) |
+| `renders.system_screens.rate_limit.message` | Please refresh your device less often | English | [line 805](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L805) |
+| `renders.system_screens.needs_setup.title` | Finish setting up %{name} | English | [line 807](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L807) |
+| `renders.system_screens.needs_setup.message` | Fill in %{fields} at trmnl.com | English | [line 808](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L808) |
+| `renders.system_screens.redirect_erroring.title` | Redirect plugin error | English | [line 810](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L810) |
+| `renders.system_screens.redirect_erroring.message` | Please fix the plugin settings to resume | English | [line 811](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L811) |
+| `renders.system_screens.refresh_failed.title` | Couldn't get an update | English | [line 813](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L813) |
+| `renders.system_screens.refresh_failed.message` | Showing your last screen while we try again | English | [line 814](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L814) |
+| `renders.system_screens.refreshing.title` | Catching you up | English | [line 816](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L816) |
+| `renders.system_screens.refreshing.message` | Your screen will update automatically | English | [line 817](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L817) |
+| `renders.system_screens.setup.message` | Add this Device ID at trmnl.com/start | English | [line 819](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L819) |
+| `renders.system_screens.technical_difficulties.title` | We're having technical difficulties | English | [line 821](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L821) |
+| `renders.system_screens.technical_difficulties.message` | Our team is investigating. Scan the QR code for details | English | [line 822](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L822) |
+| `renders.google_analytics.chart_label` | %{stat}, last %{days} days | English | [line 824](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L824) |
+| `renders.google_analytics.event_option` | Event: %{name} | English | [line 825](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L825) |
+| `renders.google_analytics.metrics.engaged_sessions` | Engaged Sessions | English | [line 827](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L827) |
+| `renders.google_analytics.metrics.mins_on_page` | Mins Per Session | English | [line 828](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L828) |
+| `renders.google_analytics.metrics.new_users` | New Users | English | [line 829](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L829) |
+| `renders.google_analytics.metrics.pageviews` | Pageviews | English | [line 830](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L830) |
+| `renders.google_analytics.metrics.sessions` | Sessions | English | [line 831](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L831) |
+| `renders.google_analytics.metrics.visitors` | Visitors | English | [line 832](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L832) |
+| `renders.google_analytics.visitors_option` | Visitors (Active Users) | English | [line 833](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/plugin_renders/zh-HK.yml#L833) |

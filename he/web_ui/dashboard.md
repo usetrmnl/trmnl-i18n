@@ -1,0 +1,38 @@
+# `he` · web_ui · `dashboard`
+
+[`he`](../README.md) · [All locales](../../README.md) · 32 of 32 left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+| `dashboard.index.title` | Dashboard | English | [line 347](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L347) |
+| `dashboard.health.good` | Plugins are healthy | English | [line 349](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L349) |
+| `dashboard.health.next_steps` | We will inform you if anything changes | English | [line 350](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L350) |
+| `dashboard.news.title` | News | English | [line 352](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L352) |
+| `dashboard.news.cta` | View All | English | [line 353](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L353) |
+| `dashboard.news.feed_link` | RSS feed for TRMNL news | English | [line 354](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L354) |
+| `dashboard.playlist_items.title` | Playlist | English | [line 356](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L356) |
+| `dashboard.playlist_items.cta` | Edit Playlist | English | [line 357](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L357) |
+| `dashboard.playlist_items.pieces_of_content_displayed` | Pieces of content displayed | English | [line 358](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L358) |
+| `dashboard.playlist_items.needs_configuration` | Needs configuration | English | [line 359](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L359) |
+| `dashboard.plugins.title` | Plugins | English | [line 361](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L361) |
+| `dashboard.plugins.cta` | Go to Plugins | English | [line 362](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L362) |
+| `dashboard.plugins.recently_published` | Recently Published | English | [line 363](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L363) |
+| `dashboard.plugins.connected_count` | %{count} connected | English | [line 364](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L364) |
+| `dashboard.plugins.feed_link` | RSS feed for new plugins | English | [line 365](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L365) |
+| `dashboard.shop.title` | Shop | English | [line 367](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L367) |
+| `dashboard.shop.another_trmnl` | Need another TRMNL? | English | [line 368](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L368) |
+| `dashboard.time_saved.title` | Time saved | English | [line 370](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L370) |
+| `dashboard.discover_callout.manage_persona` | Manage persona | English | [line 372](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L372) |
+| `dashboard.welcome_message.morning_salutation` | Good morning | English | [line 374](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L374) |
+| `dashboard.welcome_message.afternoon_salutation` | Good afternoon | English | [line 375](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L375) |
+| `dashboard.welcome_message.evening_salutation` | Good evening | English | [line 376](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L376) |
+| `dashboard.discover_callout_dismiss.hide_discover_banner` | Hide Discover banner | English | [line 378](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L378) |
+| `dashboard.playlist_setup_progress.configure` | Configure | English | [line 380](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L380) |
+| `dashboard.playlist_setup_progress.configured_count` | %{configured} of %{total} configured | English | [line 381](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L381) |
+| `dashboard.playlist_setup_progress.eyebrow` | Playlist configuration | English | [line 382](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L382) |
+| `dashboard.playlist_setup_progress.needs_configuration` | Needs configuration | English | [line 383](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L383) |
+| `dashboard.playlist_setup_progress.needs_values` | Needs values for %{fields} | English | [line 384](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L384) |
+| `dashboard.playlist_setup_progress.plugin_fallback` | Plugin | English | [line 385](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L385) |
+| `dashboard.playlist_setup_progress.show_all` | Show all (%{count}) | English | [line 386](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L386) |
+| `dashboard.playlist_setup_progress.show_less` | Show less | English | [line 387](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L387) |
+| `dashboard.playlist_setup_progress.title` | Finish configuring your playlist | English | [line 388](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/he.yml#L388) |
