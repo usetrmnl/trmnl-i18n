@@ -1049,7 +1049,6 @@ raw:
       serverless_learn_more: markups.form.serverless_learn_more
       prompt_learn_more: markups.form.prompt_learn_more
       beta: markups.form.beta
-      clear: markups.form.clear
       visual_editor: markups.form.visual_editor
     merge_variables:
       not_in_playlist:
@@ -1553,7 +1552,6 @@ raw:
       keyboard_and_pointer_shortcuts: markups.visual_editor_shortcuts.keyboard_and_pointer_shortcuts
       shortcuts: markups.visual_editor_shortcuts.shortcuts
     visual_editor_status_bar:
-      clear_all_snapshots: markups.visual_editor_status_bar.clear_all_snapshots
       current_preview_device: markups.visual_editor_status_bar.current_preview_device
       for_this_tab: markups.visual_editor_status_bar.for_this_tab
       next_snapshot: markups.visual_editor_status_bar.next_snapshot
@@ -2069,7 +2067,6 @@ raw:
       required_fields_missing: plugin_settings.update.required_fields_missing
       oauth_disconnected: plugin_settings.update.oauth_disconnected
     add_to_playlist:
-      success: plugin_settings.add_to_playlist.success
       added_to_device: plugin_settings.add_to_playlist.added_to_device
     refresh_already_in_progress: plugin_settings.refresh_already_in_progress
     remote_select:
@@ -6732,11 +6729,7 @@ raw:
     requirements:
       register_provider_app: catalog_installations.requirements.register_provider_app
   ai_allowance:
-    label: ai_allowance.label
-    used: ai_allowance.used
     used_up: ai_allowance.used_up
-    topup_label: ai_allowance.topup_label
-    topup_credits_left: ai_allowance.topup_credits_left
     balance_unit:
       one: ai_allowance.balance_unit.one
       other: ai_allowance.balance_unit.other

@@ -1071,7 +1071,6 @@ pl:
       serverless_learn_more: Dowiedz się więcej o skryptach
       prompt_learn_more: Przeczytaj poradnik dotyczący promptów
       beta: Beta
-      clear: Clear
       visual_editor: Visual Editor
     merge_variables:
       not_in_playlist:
@@ -1575,7 +1574,6 @@ pl:
       keyboard_and_pointer_shortcuts: Keyboard and pointer shortcuts
       shortcuts: Shortcuts
     visual_editor_status_bar:
-      clear_all_snapshots: Clear all snapshots for this tab
       current_preview_device: Current preview device
       for_this_tab: for this tab
       next_snapshot: Next snapshot
@@ -2091,7 +2089,6 @@ pl:
       required_fields_missing: Wypełnij %{fields}, aby dokończyć konfigurację tego pluginu.
       oauth_disconnected: Settings saved. OAuth was disconnected because scopes changed. Please reconnect.
     add_to_playlist:
-      success: Plugin został dodany do playlisty
       added_to_device: Added to %{device}'s playlist
     refresh_already_in_progress: Odświeżanie już trwa — ekran zostanie wkrótce zaktualizowany.
     remote_select:
@@ -6775,11 +6772,7 @@ pl:
     requirements:
       register_provider_app: Przed połączeniem zarejestruj własną aplikację dostawcy.
   ai_allowance:
-    label: Bezpłatny limit użycia
-    used: "%{percent}% wykorzystano"
     used_up: Wykorzystano cały limit użycia. __Doładuj go lub dodaj klucz__, aby kontynuować.
-    topup_label: Kredyty z doładowania
-    topup_credits_left: 'Pozostałe kredyty: %{credits}'
     balance_unit:
       one: credit left
       other: credits left
