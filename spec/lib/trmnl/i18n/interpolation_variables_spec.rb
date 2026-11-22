@@ -19,7 +19,6 @@ RSpec.describe "Interpolation variables", type: :feature do
     {
       "gu" => %w[custom_plugins.simple_calendar.chinese_korean.leap_format_short],
       "hi" => %w[custom_plugins.simple_calendar.chinese_korean.leap_format_short],
-      "ja" => %w[plugin_settings.form.linked_account_success],
       "zh-CN" => %w[
         custom_plugins.simple_calendar.chinese_korean.leap_format_short
         custom_plugins.simple_calendar.chinese_korean.ym_format
