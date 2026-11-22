@@ -11,12 +11,8 @@ RSpec.describe "Link markers", type: :feature do
 
   # Strings whose links already differed from English when this check arrived, by locale.
   # Drop a key once its string is fixed.
-  # The developer perks hint still links an add-on that English no longer mentions.
-  let :known do
-    %w[da fr he hu id is ja nl no pt-BR ru sk sv].to_h do |locale|
-      [locale, %w[devices.edit.developer_perks_hint]]
-    end
-  end
+  # The Icelandic developer perks hint still links an add-on that English no longer mentions.
+  let(:known) { {"is" => %w[devices.edit.developer_perks_hint]} }
 
   def strings path
     locale = path.basename(".yml").to_s
