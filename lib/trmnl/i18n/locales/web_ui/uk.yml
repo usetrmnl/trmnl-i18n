@@ -6848,6 +6848,23 @@ uk:
     used_up: Ви використали всі кредити. __Поповніть баланс або додайте ключ__, щоб продовжити.
     topup_label: Придбані кредити
     topup_credits_left: "%{credits} credits left"
+    balance_unit:
+      one: credit left
+      other: credits left
+    about_plugins:
+      one: about 1 plugin
+      other: about %{count} plugins
+    left: "%{credits} left"
+    left_renews: "%{credits} left · renews %{date}"
+    left_expires: "%{credits} left · expires %{date}"
+    left_some_expire: "%{credits} left · %{expiring} expire %{date}"
+    sources:
+      plus: TRMNL+ · %{credits} every month
+      signup: Welcome credits
+      earned: Earned for sharing
+      coral_edition: Coral Edition
+      admin: From the TRMNL team
+      topup: Bought
   integration_overviews:
     alias: |-
       Власне зображення на дисплеї TRMNL ePaper. Alias призначено для тих, хто вже створює екрани деінде, наприклад скриптом на домашньому сервері. Вставте повну URL-адресу зображення, і пристрій завантажить його безпосередньо звідти. Локальна адреса на кшталт http://localhost:4567/image.png теж працює.

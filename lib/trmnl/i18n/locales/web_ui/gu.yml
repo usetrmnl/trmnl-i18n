@@ -6758,6 +6758,23 @@ gu:
     used_up: You used all of your usage credits. __Top up or add a key__ to continue.
     topup_label: Top-up credits
     topup_credits_left: "%{credits} credits left"
+    balance_unit:
+      one: credit left
+      other: credits left
+    about_plugins:
+      one: about 1 plugin
+      other: about %{count} plugins
+    left: "%{credits} left"
+    left_renews: "%{credits} left · renews %{date}"
+    left_expires: "%{credits} left · expires %{date}"
+    left_some_expire: "%{credits} left · %{expiring} expire %{date}"
+    sources:
+      plus: TRMNL+ · %{credits} every month
+      signup: Welcome credits
+      earned: Earned for sharing
+      coral_edition: Coral Edition
+      admin: From the TRMNL team
+      topup: Bought
   integration_overviews:
     alias: |-
       Your own image, on a TRMNL ePaper display. Alias is for people who already make their screens somewhere else, like a script on a home server. Paste the image's full URL and your device fetches it straight from that address, so a local URL like http://localhost:4567/image.png works too.

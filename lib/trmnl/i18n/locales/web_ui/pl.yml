@@ -6780,6 +6780,23 @@ pl:
     used_up: Wykorzystano cały limit użycia. __Doładuj go lub dodaj klucz__, aby kontynuować.
     topup_label: Kredyty z doładowania
     topup_credits_left: 'Pozostałe kredyty: %{credits}'
+    balance_unit:
+      one: credit left
+      other: credits left
+    about_plugins:
+      one: about 1 plugin
+      other: about %{count} plugins
+    left: "%{credits} left"
+    left_renews: "%{credits} left · renews %{date}"
+    left_expires: "%{credits} left · expires %{date}"
+    left_some_expire: "%{credits} left · %{expiring} expire %{date}"
+    sources:
+      plus: TRMNL+ · %{credits} every month
+      signup: Welcome credits
+      earned: Earned for sharing
+      coral_edition: Coral Edition
+      admin: From the TRMNL team
+      topup: Bought
   integration_overviews:
     alias: |-
       Twój własny obraz na wyświetlaczu ePapierowym TRMNL. Alias jest przeznaczony dla osób, które przygotowują ekrany gdzie indziej, np. skryptem na domowym serwerze. Wklej pełny adres URL obrazu, a urządzenie pobierze go bezpośrednio spod tego adresu, więc zadziała również lokalny URL, np. http://localhost:4567/image.png.

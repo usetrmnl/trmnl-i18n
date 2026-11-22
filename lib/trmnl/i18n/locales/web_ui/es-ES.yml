@@ -6756,6 +6756,23 @@ es-ES:
     used_up: Has agotado tus créditos de uso. __Recarga créditos o añade una clave__ para continuar.
     topup_label: Créditos de recarga
     topup_credits_left: Quedan %{credits} créditos
+    balance_unit:
+      one: credit left
+      other: credits left
+    about_plugins:
+      one: about 1 plugin
+      other: about %{count} plugins
+    left: "%{credits} left"
+    left_renews: "%{credits} left · renews %{date}"
+    left_expires: "%{credits} left · expires %{date}"
+    left_some_expire: "%{credits} left · %{expiring} expire %{date}"
+    sources:
+      plus: TRMNL+ · %{credits} every month
+      signup: Welcome credits
+      earned: Earned for sharing
+      coral_edition: Coral Edition
+      admin: From the TRMNL team
+      topup: Bought
   integration_overviews:
     alias: |-
       Tu propia imagen en una pantalla TRMNL de tinta electrónica. Alias está pensado para quienes ya generan sus pantallas en otro lugar, como un script en un servidor doméstico. Pega la URL completa de la imagen y el dispositivo la obtendrá directamente de esa dirección. También sirve una URL local como http://localhost:4567/image.png.

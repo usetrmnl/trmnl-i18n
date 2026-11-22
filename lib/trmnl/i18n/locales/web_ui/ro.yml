@@ -6815,6 +6815,23 @@ ro:
     used_up: Ai consumat toate creditele de utilizare. __Reîncarcă sau adaugă o cheie__ pentru a continua.
     topup_label: Credite cumpărate
     topup_credits_left: "%{credits} credite rămase"
+    balance_unit:
+      one: credit left
+      other: credits left
+    about_plugins:
+      one: about 1 plugin
+      other: about %{count} plugins
+    left: "%{credits} left"
+    left_renews: "%{credits} left · renews %{date}"
+    left_expires: "%{credits} left · expires %{date}"
+    left_some_expire: "%{credits} left · %{expiring} expire %{date}"
+    sources:
+      plus: TRMNL+ · %{credits} every month
+      signup: Welcome credits
+      earned: Earned for sharing
+      coral_edition: Coral Edition
+      admin: From the TRMNL team
+      topup: Bought
   integration_overviews:
     alias: |-
       Propria imagine, pe un ecran TRMNL ePaper. Alias este pentru cei care își generează deja ecranele în altă parte, de exemplu printr-un script pe un server de acasă. Lipește URL-ul complet al imaginii, iar dispozitivul o preia direct de la acea adresă; funcționează și un URL local precum http://localhost:4567/image.png.
