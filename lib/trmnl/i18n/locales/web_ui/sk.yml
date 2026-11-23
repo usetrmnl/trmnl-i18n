@@ -622,7 +622,7 @@ sk:
       guest_mode_for: for
       mac_address_format: Must be a 12-digit hexadecimal value (0-9 and A-F), separated by colons.
       palette_needs_firmware: You must update to firmware v1.6.0 or later to change the palette.
-      pinned_firmware_hint: Support has pinned this device to a specific firmware build for troubleshooting.
+      pinned_firmware_hint: Support has pinned this device to this firmware build for troubleshooting. While OTA updates are on, the device installs this build again at its next check-in, even after you flash other firmware over USB. To keep your own firmware, turn off OTA updates first.
       refresh_rate: Refresh Rate
       retry_update: Retry update
       rotate_default: 'Default: %{degrees}°'
@@ -5067,6 +5067,7 @@ sk:
         one: "%{count} submission"
         other: "%{count} submissions"
       og_description: Turn a Kindle, Kobo, Boox, reMarkable, Raspberry Pi or ESP32 board into an always-on TRMNL dashboard. Pick your hardware for setup steps.
+      link_to_section: Link to %{name}
     claim_a_device:
       meta_title: Claim a Device
       title: Claim a Device
