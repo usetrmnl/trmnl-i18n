@@ -123,7 +123,7 @@ pt-BR:
       api_key_hint: Veja __a documentação__ para aprender como configurar seu ambiente local.
       api_key_not_generated: "(nenhuma ainda)"
       api_key_reset: Regerar
-      api_key: Legacy account API key
+      api_key: Chave de API legada da conta
       beta_features: Funcionalidades Beta
       beta_features_hint: Teste coisas novas. As opções podem sumir a qualquer momento.
       discord_community: Comunidade Discord
@@ -136,210 +136,210 @@ pt-BR:
       email_address_hint: Usado para entrar no TRMNL e receber mensagens do sistema.
       first_name_hint: Nós usamos o seu nome para tornar a interface do TRMNL mais confortável.
       last_name_hint: Nós usamos o seu nome para tornar a interface do TRMNL mais confortável.
-      github_username_hint: Used to attribute open source contributions to the Creator Fund.
+      github_username_hint: Usado para atribuir contribuições open source ao Creator Fund.
       password_hint: Usada para proteger sua conta TRMNL.
       enable_2fa: Ativar 2FA?
       enable_2fa_hint: __Clique aqui__ para ativar o OTP.
       disable_2fa: Desativar 2FA
       disable_2fa_hint: Forneça um OTP válido e sua senha acima para desativar essa funcionalidade.
       plus_subscription: Assinatura TRMNL+
-      plus_subscription_trial_until: You're on a free trial until %{plus_trial_end_at}.
+      plus_subscription_trial_until: Você está em um teste grátis até %{plus_trial_end_at}.
       plus_subscription_hint: Destrave taxas de atualização mais rápidas e maiores limites de chamadas de API. __Saiba mais__.
       plus_subscription_modify: Quer atualizar seu método de pagamento ou cancelar?
       session: Sessão
       session_hint: Você está logado como %{user}
       show_title_bar: Exibir barra de título
       show_title_bar_hint: Se desativado, plugins nativos e de terceiros serão mais minimalistas.
-      theme_hint: Personalize TRMNL's interface by setting a theme or syncing to your device.
+      theme_hint: Personalize a interface do TRMNL definindo um tema ou sincronizando com o seu dispositivo.
       time_zone: Fuso Horário
       time_zone_hint: Determina as taxas de atualização e horários de descanso do dispositivo.
       locale: Idioma
       locale_hint: Qual idioma você prefere? __Veja mais__.
-      low_battery_notification_email: Low Battery Notification Email
-      low_battery_notification_email_hint: Send every device's low battery email here instead of to your account address. Leave blank to use your account address.
-      explore_apps: Explore Apps
-      explore_apps_hint: TRMNL Booking (book rooms on the spot), fleet management, and more.
-      manage_themes: Manage themes
-      plus_subscription_lifetime: You have lifetime TRMNL+. Thanks for your support!
-      delete_account: Delete account
-      delete_account_button: Delete my account & data
-      delete_account_confirm: This permanently deletes everything and refunds your $1. Continue?
-      delete_account_hint: Permanently delete your account, trial device, and all data. Your $1 trial fee is refunded.
-      delete_trial_device: Delete trial device
-      delete_trial_device_confirm: This deletes your trial device and refunds your $1. Your account and other devices are untouched. Continue?
-      delete_trial_device_hint: Deletes your trial device and its data; your $1 is refunded. Your account and other devices are untouched.
-      discord_after_license: Available after you purchase a license
-      discord_join: Join our developer-only server
-      github_username: GitHub Username
-      plus_claim: Claim for $0
-      plus_extend: Extend for $0
-      plus_offer_html: "%{offer} or %{subscribe}"
-      plus_subscribe: Subscribe
-      theme_preference: Theme preference
+      low_battery_notification_email: Email para avisos de bateria fraca
+      low_battery_notification_email_hint: Envie aqui os emails de bateria fraca de todos os dispositivos, em vez do endereço da sua conta. Deixe em branco para usar o endereço da conta.
+      explore_apps: Explorar apps
+      explore_apps_hint: TRMNL Booking (reserve salas na hora), gerenciamento de frota e mais.
+      manage_themes: Gerenciar temas
+      plus_subscription_lifetime: Você tem TRMNL+ vitalício. Obrigado pelo apoio!
+      delete_account: Deletar conta
+      delete_account_button: Deletar minha conta e meus dados
+      delete_account_confirm: Isso apaga tudo permanentemente e reembolsa seu $1. Continuar?
+      delete_account_hint: Apague permanentemente sua conta, o dispositivo de teste e todos os dados. A taxa de teste de $1 é reembolsada.
+      delete_trial_device: Deletar dispositivo de teste
+      delete_trial_device_confirm: Isso apaga seu dispositivo de teste e reembolsa seu $1. Sua conta e os outros dispositivos não são afetados. Continuar?
+      delete_trial_device_hint: Apaga seu dispositivo de teste e os dados dele; seu $1 é reembolsado. Sua conta e os outros dispositivos não são afetados.
+      discord_after_license: Disponível depois que você comprar uma licença
+      discord_join: Entre no nosso servidor exclusivo para desenvolvedores
+      github_username: Nome de usuário no GitHub
+      plus_claim: Resgatar por $0
+      plus_extend: Estender por $0
+      plus_offer_html: "%{offer} ou %{subscribe}"
+      plus_subscribe: Assinar
+      theme_preference: Preferência de tema
       sections:
         preferences:
-          title: Preferences
-          hint: Time zone, language, theme and beta features
+          title: Preferências
+          hint: Fuso horário, idioma, tema e funcionalidades beta
         developer:
-          title: Developer
-          hint: API keys, developer apps, themes and agents
+          title: Desenvolvedor
+          hint: Chaves de API, apps de desenvolvedor, temas e agentes
           api_keys:
-            one: 1 API key
-            other: "%{count} API keys"
+            one: 1 chave de API
+            other: "%{count} chaves de API"
           connected_agents:
-            one: 1 connected agent
-            other: "%{count} connected agents"
+            one: 1 agente conectado
+            other: "%{count} agentes conectados"
         sharing:
-          title: Sharing
-          hint: Invite people to manage your devices
+          title: Compartilhamento
+          hint: Convide pessoas para gerenciar seus dispositivos
           shared_with:
-            one: Shared with 1 person
-            other: Shared with %{count} people
+            one: Compartilhado com 1 pessoa
+            other: Compartilhado com %{count} pessoas
         profile:
-          title: Profile
-          hint: Name, email, GitHub and Discord
+          title: Perfil
+          hint: Nome, email, GitHub e Discord
         security:
-          title: Security
-          two_factor_off: 2FA is off
-          two_factor_on: Two-factor authentication is on
-          hint: Password and two-factor authentication
+          title: Segurança
+          two_factor_off: 2FA desativado
+          two_factor_on: A autenticação de dois fatores está ativada
+          hint: Senha e autenticação de dois fatores
         agent:
-          title: AI Agent
-          hint: Usage credits, model selection and bring your own keys
+          title: Agente de IA
+          hint: Créditos de uso, escolha de modelo e suas próprias chaves
         emails:
           title: Emails
-          hint: Choose which optional emails TRMNL sends you
-      author_digest: Author digest
-      author_digest_hint: A weekly email about your published plugins, sent only when there is something new.
-      community_emails: Community emails
-      community_emails_hint: Review requests and referral rewards.
-      emails_on_for: 'On for:'
-      low_battery_emails: Low battery emails
-      low_battery_emails_off: Off for every device. Turn them on in a device's battery settings under __Devices__.
-      health_alerts: Plugin health alerts
-      health_alerts_off: Off for every plugin. Turn them on in a plugin's settings under __Plugins__.
-      stopped_emails: Stopped plugin emails
-      stopped_emails_on: On for every plugin and mashup. Each email has a link to turn it off for that one.
-      stopped_emails_off_for: 'On for every plugin and mashup except:'
-      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
+          hint: Escolha quais emails opcionais o TRMNL envia para você
+      author_digest: Resumo do autor
+      author_digest_hint: Um email semanal sobre os seus plugins publicados, enviado só quando há novidades.
+      community_emails: Emails da comunidade
+      community_emails_hint: Pedidos de avaliação e recompensas por indicação.
+      emails_on_for: 'Ativado para:'
+      low_battery_emails: Emails de bateria fraca
+      low_battery_emails_off: Desativados em todos os dispositivos. Ative-os nas configurações de bateria de um dispositivo em __Dispositivos__.
+      health_alerts: Alertas de saúde dos plugins
+      health_alerts_off: Desativados em todos os plugins. Ative-os nas configurações de um plugin em __Plugins__.
+      stopped_emails: Emails de plugin parado
+      stopped_emails_on: Ativados em todos os plugins e mashups. Cada email tem um link para desativá-los só naquele.
+      stopped_emails_off_for: 'Ativados em todos os plugins e mashups, exceto:'
+      api_key_revoke_confirm: Revogar esta chave? Tudo o que a usa para de funcionar.
     update:
       success: Perfil atualizado com sucesso
     reset_api_key:
       success: Chave de API regerada com sucesso
     ai_agent_settings:
-      title: AI Agent
-      tagline: Configure your AI agent. Built for Claude Sonnet 5.5, but other models work well too.
-      model: Model
-      model_group_claude: Claude (Anthropic or OpenRouter key)
-      model_group_other: Other models (OpenRouter key required)
-      model_custom: Custom model...
-      model_custom_placeholder: e.g. meta-llama/llama-4-scout
-      model_hint: Pick a preset or enter any __OpenRouter model ID__.
-      openrouter_key: OpenRouter API Key
-      openrouter_recommended: "(recommended)"
-      openrouter_hint: Works with all models. No rate limit issues. If both keys are set, OpenRouter is used.
-      anthropic_key: Anthropic API Key
-      anthropic_direct: "(direct)"
-      anthropic_hint: Requires Tier 2+ usage on your Anthropic account. New accounts will hit rate limits.
-      tavily_key: Tavily API Key
-      tavily_optional: "(optional)"
-      tavily_hint: Enables web search in the Agent.
-      remove_key: Remove
-      key_set: "(key is set)"
-      key_removed_on_save: Key will be removed on save.
-      usage: Usage
-      total_cost: Total Cost
-      api_calls: API Calls
-      input_tokens: Input Tokens
-      output_tokens: Output Tokens
-      avg_cost_per_plugin: Avg Cost / Plugin
-      cache: 'Cache: %{read} read / %{created} created'
-      cost_by_model: Cost by Model
-      model_locked: 'Your AI model is set by TRMNL: %{model}.'
-      router_locked: Works with all models. TRMNL sends Claude models through %{router} for your account.
-      credit_title: Usage credits
-      credit_plus_hint: __Subscribe to TRMNL+__ for free usage credits every month.
-      byok_title: Bring your own key
-      byok_hint: Add a key of your own to pick any model. The Agent then uses your key, not usage credits.
-      model_hosted: Add an OpenRouter or Anthropic key above to choose another model.
-      earn_credits_title: Earn up to %{credits} credits, free
-      earn_credits_hint: Share a photo, a review or a video of your TRMNL. We check it and add the credits.
-      earn_credits_link: Ways to earn
+      title: Agente de IA
+      tagline: Configure seu agente de IA. Feito para o Claude Sonnet 5.5, mas outros modelos também funcionam bem.
+      model: Modelo
+      model_group_claude: Claude (chave da Anthropic ou do OpenRouter)
+      model_group_other: Outros modelos (requer chave do OpenRouter)
+      model_custom: Modelo personalizado...
+      model_custom_placeholder: 'ex.: meta-llama/llama-4-scout'
+      model_hint: Escolha uma opção pronta ou digite qualquer __ID de modelo do OpenRouter__.
+      openrouter_key: Chave de API do OpenRouter
+      openrouter_recommended: "(recomendado)"
+      openrouter_hint: Funciona com todos os modelos. Sem problemas de limite de chamadas. Se as duas chaves estiverem definidas, o OpenRouter é usado.
+      anthropic_key: Chave de API da Anthropic
+      anthropic_direct: "(direto)"
+      anthropic_hint: Requer uso Tier 2+ na sua conta da Anthropic. Contas novas vão atingir limites de chamadas.
+      tavily_key: Chave de API do Tavily
+      tavily_optional: "(opcional)"
+      tavily_hint: Ativa a busca na web no Agente.
+      remove_key: Remover
+      key_set: "(chave definida)"
+      key_removed_on_save: A chave será removida ao salvar.
+      usage: Uso
+      total_cost: Custo total
+      api_calls: Chamadas de API
+      input_tokens: Tokens de entrada
+      output_tokens: Tokens de saída
+      avg_cost_per_plugin: Custo médio / plugin
+      cache: 'Cache: %{read} lidos / %{created} criados'
+      cost_by_model: Custo por modelo
+      model_locked: 'Seu modelo de IA é definido pelo TRMNL: %{model}.'
+      router_locked: Funciona com todos os modelos. O TRMNL envia os modelos Claude pelo %{router} na sua conta.
+      credit_title: Créditos de uso
+      credit_plus_hint: __Assine o TRMNL+__ para ganhar créditos de uso grátis todo mês.
+      byok_title: Use sua própria chave
+      byok_hint: Adicione uma chave sua para escolher qualquer modelo. Aí o Agente usa a sua chave, e não os créditos de uso.
+      model_hosted: Adicione uma chave do OpenRouter ou da Anthropic acima para escolher outro modelo.
+      earn_credits_title: Ganhe até %{credits} créditos, de graça
+      earn_credits_hint: Compartilhe uma foto, uma avaliação ou um vídeo do seu TRMNL. Nós conferimos e adicionamos os créditos.
+      earn_credits_link: Formas de ganhar
     shared_accounts:
-      title: Accounts shared with you
-      hint: Pick an account to manage its devices, playlists and plugins, or leave it.
-      switch: Manage
-      leave: Leave
+      title: Contas compartilhadas com você
+      hint: Escolha uma conta para gerenciar os dispositivos, playlists e plugins dela, ou saia dela.
+      switch: Gerenciar
+      leave: Sair
     sharing:
-      name: Account name
-      name_hint: What the people you share with see, such as Home or Acme HQ. Leave blank to use your name.
-      save_name: Rename
-      title: Sharing
-      hint: Invite someone to manage your devices, playlists and plugins. They use their own TRMNL login.
+      name: Nome da conta
+      name_hint: O que as pessoas com quem você compartilha veem, como Casa ou Acme HQ. Deixe em branco para usar seu nome.
+      save_name: Renomear
+      title: Compartilhamento
+      hint: Convide alguém para gerenciar seus dispositivos, playlists e plugins. A pessoa usa o próprio login do TRMNL.
       email_placeholder: name@example.com
-      invite: Invite
-      pending: Pending
-      expired: Expired
-      remove: Remove
+      invite: Convidar
+      pending: Pendente
+      expired: Expirado
+      remove: Remover
     connected_agents:
-      whole_account: Reaches your whole account
+      whole_account: Acessa toda a sua conta
       devices:
-        one: 1 device
-        other: "%{count} devices"
+        one: 1 dispositivo
+        other: "%{count} dispositivos"
       plugin_settings:
-        one: 1 plugin setting
-        other: "%{count} plugin settings"
-      edit_access: Edit access
-      capabilities_fixed: To change what it can do, revoke it and connect it again.
-      access_saved: The agent's access is saved.
-      title: Connected agents
-      hint: Apps signed in to your account. Revoke one to sign it out.
-      last_active: Last active %{time} ago
-      revoke: Revoke
-      revoke_confirm: "%{name} loses access to your account now. Continue?"
-      revoked: The agent no longer has access to your account.
-      reaches_nothing: Reaches nothing; the devices and plugin settings it was given are gone
+        one: 1 configuração de plugin
+        other: "%{count} configurações de plugin"
+      edit_access: Editar acesso
+      capabilities_fixed: Para mudar o que ele pode fazer, revogue o acesso e conecte de novo.
+      access_saved: O acesso do agente foi salvo.
+      title: Agentes conectados
+      hint: Apps conectados à sua conta. Revogue um para desconectá-lo.
+      last_active: Ativo pela última vez há %{time}
+      revoke: Revogar
+      revoke_confirm: "%{name} perde o acesso à sua conta agora. Continuar?"
+      revoked: O agente não tem mais acesso à sua conta.
+      reaches_nothing: Não acessa nada; os dispositivos e configurações de plugin que recebeu não existem mais
     capability_names:
-      read: Read
-      write: Write
-      content: Content
-      devices: Devices
-      delete: Delete
-      profile: Profile
+      read: Leitura
+      write: Escrita
+      content: Conteúdo
+      devices: Dispositivos
+      delete: Exclusão
+      profile: Perfil
       apps: Apps
-      openid: Sign in
+      openid: Login
       email: Email
     api_keys:
-      title: Account API keys
-      hint: One key per script, so you can revoke it alone.
-      new: New account API key
-      copy_now: Copy this key now. You cannot see it again.
-      created: Account API key created.
-      revoked: Account API key revoked.
-      last_used: last used %{time} ago
-      never_used: not used yet
-      access_saved: The key's access is saved.
-      revoke: Revoke
-      revoke_confirm: Revoke %{name}? Anything that uses this key stops working.
-      name: Name
-      create: Create account API key
-      legacy_hint: Legacy key. It reaches only its original endpoints. For anything newer, create an account API key above.
-      older_key: Older key, used by the Home Assistant integration
-      device_key_hint: 'BYOD devices and mirror apps use the device API key, not an account key. Each device shows its own under Developer Perks:'
-      developer_edition_needed: API keys, also the one the Home Assistant integration needs, come with __Developer Edition__.
-      upgrade: Upgrade
-      home_assistant_hint: A Home Assistant dashboard needs no key. Use the Webhook URL from the __Home Assistant Screenshot__ plugin.
+      title: Chaves de API da conta
+      hint: Uma chave por script, para você poder revogar cada uma separadamente.
+      new: Nova chave de API da conta
+      copy_now: Copie esta chave agora. Você não vai poder vê-la de novo.
+      created: Chave de API da conta criada.
+      revoked: Chave de API da conta revogada.
+      last_used: usada pela última vez há %{time}
+      never_used: ainda não usada
+      access_saved: O acesso da chave foi salvo.
+      revoke: Revogar
+      revoke_confirm: Revogar %{name}? Tudo o que usa esta chave para de funcionar.
+      name: Nome
+      create: Criar chave de API da conta
+      legacy_hint: Chave legada. Ela só acessa os endpoints originais. Para qualquer coisa mais nova, crie uma chave de API da conta acima.
+      older_key: Chave antiga, usada pela integração com o Home Assistant
+      device_key_hint: 'Dispositivos BYOD e apps de espelhamento usam a chave de API do dispositivo, não uma chave da conta. Cada dispositivo mostra a sua em Vantagens de Desenvolvedor:'
+      developer_edition_needed: As chaves de API, inclusive a que a integração com o Home Assistant precisa, vêm com a __Edição de Desenvolvedor__.
+      upgrade: Fazer upgrade
+      home_assistant_hint: Um painel do Home Assistant não precisa de chave. Use a URL do Webhook do plugin __Home Assistant Screenshot__.
     destroy:
-      account_deleted: Your account and all data were deleted.
-      account_deleted_refunded: Your account and all data were deleted. Your $1 was refunded.
-      not_eligible: Self-serve deletion is only available during a BYOD trial. Contact support@trmnl.com.
-      trial_device_deleted: Trial device deleted.
-      trial_device_deleted_refunded: Trial device deleted. Your $1 was refunded.
-    cli_hint: Work from a terminal with the __TRMNL CLI__.
+      account_deleted: Sua conta e todos os dados foram apagados.
+      account_deleted_refunded: Sua conta e todos os dados foram apagados. Seu $1 foi reembolsado.
+      not_eligible: A exclusão por conta própria só está disponível durante um teste BYOD. Fale com support@trmnl.com.
+      trial_device_deleted: Dispositivo de teste apagado.
+      trial_device_deleted_refunded: Dispositivo de teste apagado. Seu $1 foi reembolsado.
+    cli_hint: Trabalhe pelo terminal com a __TRMNL CLI__.
     revoke_api_key:
-      success: API key was revoked
+      success: A chave de API foi revogada
     stripe_callback:
-      success: Subscription updated successfully
+      success: Assinatura atualizada com sucesso
   dashboard:
     index:
       title: Dashboard
@@ -727,286 +727,286 @@ pt-BR:
   discovery:
     dashboard_action:
       saved:
-        title: Recommendations saved for %{device_label}
-        subtext: Review your saved picks, or update the persona that shaped them.
-        primary_label: Review saved recommendations
+        title: Recomendações salvas para %{device_label}
+        subtext: Revise suas escolhas salvas ou atualize a persona que as definiu.
+        primary_label: Revisar recomendações salvas
       fresh:
-        title: New recommendations ready for %{device_label}
-        subtext: Review the latest picks for this persona.
-        primary_label: Review new recommendations
+        title: Novas recomendações prontas para %{device_label}
+        subtext: Revise as últimas sugestões para esta persona.
+        primary_label: Revisar novas recomendações
       persona:
-        title: Persona set for %{device_label}
-        subtext: Get another set of recommendations, or update the persona when this TRMNL's role changes.
-        primary_label: Get new recommendations
+        title: Persona definida para %{device_label}
+        subtext: Receba outro conjunto de recomendações ou atualize a persona quando a função deste TRMNL mudar.
+        primary_label: Receber novas recomendações
       rerun:
-        title: Ready for another Discover round for %{device_label}
-        subtext: Go through another round when you want fresh recommendations for this TRMNL.
-        primary_label: Get more recommendations
+        title: Pronto para outra rodada do Descobrir para %{device_label}
+        subtext: Faça outra rodada quando quiser recomendações novas para este TRMNL.
+        primary_label: Receber mais recomendações
       setup:
-        title: Set up a persona for %{device_label}
-        subtext: Answer a few questions so recommendations fit this TRMNL's role.
-        primary_label: Set up persona
+        title: Configure uma persona para %{device_label}
+        subtext: Responda algumas perguntas para que as recomendações combinem com a função deste TRMNL.
+        primary_label: Configurar persona
     app_card:
       tag: App
-      hint: Keep it to add it to your rotation.
+      hint: Mantenha para adicionar à sua rotação.
     beta: Beta
-    keep: Keep
-    skip: Skip
-    keep_stamp: KEEP
-    skip_stamp: SKIP
-    back_to_dashboard: Back to dashboard
-    author_fallback: a community dev
+    keep: Manter
+    skip: Pular
+    keep_stamp: MANTER
+    skip_stamp: PULAR
+    back_to_dashboard: Voltar para o painel
+    author_fallback: um dev da comunidade
     rhythm_labels:
-      early_bird: Early bird
-      in_between: Steady
-      night_owl: Night owl
+      early_bird: Madrugador
+      in_between: Equilibrado
+      night_owl: Coruja
     badges:
       top_10: Top 10
       top_100: Top 100
-      top_in_category: "#1 in %{category}"
-      top_10_in_category: Top 10 in %{category}
-      trending: Trending
-      new: New
-      staff_pick: Staff Pick
-      wildcard: Wildcard
+      top_in_category: N.º 1 em %{category}
+      top_10_in_category: Top 10 em %{category}
+      trending: Em alta
+      new: Novo
+      staff_pick: Escolha da equipe
+      wildcard: Surpresa
     schedule_suggester:
       time_buckets:
-        morning: Morning
-        midday: Midday
-        afternoon: Afternoon
-        evening: Evening
+        morning: Manhã
+        midday: Meio-dia
+        afternoon: Tarde
+        evening: Noite
     apply_mode:
-      applied: Your recommendations were applied.
-      replaced: Your TRMNL '%{name}' has a new playlist.
-      added: Your picks were added to '%{name}'.
-      device_fallback: device
-      no_picks: Choose at least one pick before applying these recommendations.
+      applied: Suas recomendações foram aplicadas.
+      replaced: Seu TRMNL '%{name}' tem uma nova playlist.
+      added: Suas escolhas foram adicionadas a '%{name}'.
+      device_fallback: dispositivo
+      no_picks: Escolha pelo menos uma opção antes de aplicar estas recomendações.
     flashes:
-      set_up_persona_first: Set up your persona first.
-      no_active_recommendations: No active recommendations.
-      already_applied: These recommendations are already in your playlist.
-      confirm_replacement: Confirm playlist replacement before applying these recommendations.
-      choose_device_to_apply: Choose a TRMNL before applying this setup.
-      choose_device: Choose a TRMNL first.
-      fresh_round: Starting a fresh round of recommendations.
-      persona_reset: Persona reset. You can set up a new persona anytime.
-      mirror_not_supported: Discover is not available for mirrored TRMNLs. Set it up on the master device instead.
+      set_up_persona_first: Configure sua persona primeiro.
+      no_active_recommendations: Nenhuma recomendação ativa.
+      already_applied: Estas recomendações já estão na sua playlist.
+      confirm_replacement: Confirme a substituição da playlist antes de aplicar estas recomendações.
+      choose_device_to_apply: Escolha um TRMNL antes de aplicar esta configuração.
+      choose_device: Escolha um TRMNL primeiro.
+      fresh_round: Começando uma nova rodada de recomendações.
+      persona_reset: Persona redefinida. Você pode configurar uma nova persona quando quiser.
+      mirror_not_supported: O Descobrir não está disponível para TRMNLs espelhados. Configure no dispositivo principal.
     profile_questions:
       placement:
-        eyebrow: Place
-        text: Where will your TRMNL live?
-        sub: We'll tune the information density and refresh cadence for how you'll actually glance at it.
+        eyebrow: Lugar
+        text: Onde o seu TRMNL vai ficar?
+        sub: Vamos ajustar a densidade de informação e a frequência de atualização ao jeito que você vai olhar para ele.
         options:
           desk:
-            label: Desk
-            sub: Always in view
+            label: Mesa
+            sub: Sempre à vista
           kitchen:
-            label: Kitchen
-            sub: Morning glance
+            label: Cozinha
+            sub: Olhada de manhã
           hallway:
-            label: Hallway
-            sub: On the way out
+            label: Corredor
+            sub: Na hora de sair
           bedroom:
-            label: Bedroom
-            sub: Night & dawn
+            label: Quarto
+            sub: Noite e amanhecer
           living_room:
-            label: Living Room
-            sub: Shared space
+            label: Sala de estar
+            sub: Espaço compartilhado
           office:
-            label: Office
-            sub: Work hours
+            label: Escritório
+            sub: Horário de trabalho
           not_sure:
-            label: Not sure yet
-            sub: Decide later
+            label: Ainda não sei
+            sub: Decido depois
       rhythm:
-        eyebrow: Rhythm
-        text: When are you most alive?
-        sub: Morning people want the day laid out. Night owls want tomorrow already.
+        eyebrow: Ritmo
+        text: Quando você está com mais energia?
+        sub: Quem é da manhã quer o dia organizado. Quem é da noite já quer o amanhã.
         options:
           early_bird:
-            label: Early Bird
-            sub: Up before 7
+            label: Madrugador
+            sub: De pé antes das 7
           night_owl:
-            label: Night Owl
-            sub: After midnight
+            label: Coruja
+            sub: Depois da meia-noite
           in_between:
-            label: Somewhere in between
-            sub: Balanced
+            label: Algo no meio
+            sub: Equilibrado
       interests:
-        eyebrow: Interests
-        text: Pick everything that sounds like you.
-        sub: Select as many as you want. We'll make it work.
+        eyebrow: Interesses
+        text: Escolha tudo o que tem a ver com você.
+        sub: Selecione quantos quiser. A gente dá um jeito.
         options:
           news_junkie:
-            label: News
+            label: Notícias
           data_nerd:
-            label: Data & analytics
+            label: Dados e análises
           sports_fan:
-            label: Sports
+            label: Esportes
           crypto_degen:
-            label: Crypto
+            label: Cripto
           parent:
-            label: Parenting
+            label: Filhos
           pet_owner:
             label: Pets
           developer:
-            label: Developer
+            label: Desenvolvedor
           designer:
             label: Design
           gamer:
-            label: Games
+            label: Jogos
           fitness:
             label: Fitness
           stocks_markets:
-            label: Markets
+            label: Mercados
           weather_watcher:
-            label: Weather
+            label: Clima
           commuter:
-            label: Commute
+            label: Deslocamento
           art_lover:
-            label: Art & photo
+            label: Arte e fotografia
           music_head:
-            label: Music
+            label: Música
           productivity_freak:
-            label: Productivity
+            label: Produtividade
           office_manager:
-            label: Workplace booking
+            label: Reservas no trabalho
       audience:
-        eyebrow: For
-        text: Who is this TRMNL for?
-        sub: If it's shared, we'll keep content household-friendly and avoid private feeds by default.
+        eyebrow: Para
+        text: Para quem é este TRMNL?
+        sub: Se for compartilhado, vamos manter o conteúdo adequado para a casa toda e evitar feeds privados por padrão.
         options:
           just_me:
-            label: Just me
-            sub: Solo setup
+            label: Só para mim
+            sub: Uso individual
           family:
-            label: Family
-            sub: Shared household
+            label: Família
+            sub: Casa compartilhada
           roommates:
-            label: Roommates
-            sub: Flatmates
+            label: Colegas de casa
+            sub: Quem divide a casa
           coworkers:
-            label: Coworkers
-            sub: At the office
+            label: Colegas de trabalho
+            sub: No escritório
           not_for_me:
-            label: A gift
-            sub: Not for me
+            label: Um presente
+            sub: Não é para mim
       variety:
-        eyebrow: Cadence
-        text: How much variety do you want?
-        sub: Your TRMNL can hold one view all day, or rotate through many. You can change this any time.
+        eyebrow: Frequência
+        text: Quanta variedade você quer?
+        sub: Seu TRMNL pode mostrar uma única tela o dia todo ou alternar entre várias. Você pode mudar isso quando quiser.
         options:
           keep_it_steady:
-            label: Keep it steady
-            sub: Same signals, always
+            label: Sempre igual
+            sub: As mesmas informações, sempre
           mix_it_up:
-            label: Mix it up
-            sub: Rotate a few
+            label: Variar um pouco
+            sub: Alternar entre algumas
           always_new:
-            label: Always something new
-            sub: Surprise me
+            label: Sempre algo novo
+            sub: Me surpreenda
     intro:
-      eyebrow: Discover
-      title: Find the TRMNL setup that fits your day.
-      description: Answer a few questions, then keep or skip suggested plugins. We'll turn your choices into a practical rotation you can apply or revisit later.
-      profile_label: Profile
-      profile_title: Tell us the rhythm
-      profile_description: Where it lives, who sees it, and how often you want fresh information.
-      curate_label: Curate
-      curate_title: Keep what feels useful
-      curate_description: Review recommendations one at a time with clear Skip and Keep actions.
-      apply_label: Apply
-      apply_title: Start with a tuned setup
-      apply_description: Get a suggested schedule and device behavior that you can change anytime.
+      eyebrow: Descobrir
+      title: Encontre a configuração do TRMNL que combina com o seu dia.
+      description: Responda algumas perguntas e depois mantenha ou pule os plugins sugeridos. Vamos transformar suas escolhas em uma rotação prática que você pode aplicar ou rever depois.
+      profile_label: Perfil
+      profile_title: Conte para a gente o seu ritmo
+      profile_description: Onde ele fica, quem vê e com que frequência você quer informações novas.
+      curate_label: Escolher
+      curate_title: Mantenha o que for útil
+      curate_description: Revise as recomendações uma de cada vez, com as ações Pular e Manter bem claras.
+      apply_label: Aplicar
+      apply_title: Comece com uma configuração ajustada
+      apply_description: Receba uma sugestão de agenda e de comportamento do dispositivo que você pode mudar quando quiser.
     question:
-      select_all: Select all that apply
-      pick_at_least_one: Pick at least one to continue.
+      select_all: Selecione todas as opções que se aplicam
+      pick_at_least_one: Escolha pelo menos uma para continuar.
     shell_header:
-      close: Close Discover
+      close: Fechar Descobrir
     show:
-      title: Discover Your Perfect TRMNL Setup
-      step: Step
-      next: Next
-      queue_error_title: We could not build the queue
-      queue_error_message: Your answers are still here. Give it another try, or step back and tweak the setup.
-      try_again: Try again
-      back_to_answers: Back to answers
+      title: Descubra a configuração perfeita do seu TRMNL
+      step: Etapa
+      next: Próximo
+      queue_error_title: Não conseguimos montar a fila
+      queue_error_message: Suas respostas continuam aqui. Tente de novo ou volte e ajuste a configuração.
+      try_again: Tentar de novo
+      back_to_answers: Voltar para as respostas
     swipe:
-      eyebrow: Curate
-      title: Your top picks
-      description: Keep the ideas that fit your setup and skip the rest.
-      device_persona: Device persona
-      device_eyebrow: TRMNL device
-      this_trmnl: this TRMNL
-      edit_persona: Edit persona settings
-      skip_remaining: Skip remaining
-      recipe: Recipe
+      eyebrow: Escolher
+      title: Suas melhores sugestões
+      description: Mantenha as ideias que combinam com a sua configuração e pule o resto.
+      device_persona: Persona do dispositivo
+      device_eyebrow: Dispositivo TRMNL
+      this_trmnl: este TRMNL
+      edit_persona: Editar configurações da persona
+      skip_remaining: Pular as restantes
+      recipe: Receita
       plugin: Plugin
-      open: Open
-      open_in_new_tab: Open %{name} in a new tab
-      installs_html: "%{number} installs"
+      open: Abrir
+      open_in_new_tab: Abrir %{name} em uma nova aba
+      installs_html: "%{number} instalações"
       forks_html: "%{number} forks"
-      by_html: by %{author}
-      save_error_title: We could not save your picks
-      save_error_message: Your decisions are still queued up. Try once more and we will keep wrapping this setup.
-      try_again: Try again
+      by_html: por %{author}
+      save_error_title: Não conseguimos salvar suas escolhas
+      save_error_message: Suas decisões continuam na fila. Tente mais uma vez e vamos continuar finalizando esta configuração.
+      try_again: Tentar de novo
     queue:
-      title: Your Discover Queue
+      title: Sua fila do Descobrir
     queue_empty:
-      title: Your Recommendations
-      eyebrow: Recommendations
-      heading: No recommendations left right now.
-      description: You've reviewed the matching recommendations we could find right now. Update this TRMNL's persona if its role has changed, or check back after new plugins and recipes are added.
+      title: Suas recomendações
+      eyebrow: Recomendações
+      heading: Não há mais recomendações por enquanto.
+      description: Você já revisou as recomendações compatíveis que encontramos por enquanto. Atualize a persona deste TRMNL se a função dele mudou, ou volte depois que novos plugins e receitas forem adicionados.
     save_persona:
-      saved: Saved. We'll have your recommendations ready when you sign up.
+      saved: Salvo. Suas recomendações vão estar prontas quando você criar sua conta.
     results:
-      title: Your TRMNL Recommendations
-      audience: Audience
-      start_new_persona: Start a new persona
-      description: These picks are shaped by your persona. You can manage the persona from the dashboard.
-      buy_trmnl: Buy TRMNL
-      device: Device
+      title: Suas recomendações para o TRMNL
+      audience: Público
+      start_new_persona: Começar uma nova persona
+      description: Estas sugestões são definidas pela sua persona. Você pode gerenciar a persona pelo painel.
+      buy_trmnl: Comprar TRMNL
+      device: Dispositivo
       device_fallback_name: 'TRMNL #%{id}'
-      configuration_progress: 'Configuration progress: %{configured} of %{total} picks configured.'
-      replace_warning: This will replace %{playlist_items} with %{accepted_picks}.
+      configuration_progress: 'Progresso da configuração: %{configured} de %{total} sugestões configuradas.'
+      replace_warning: Isso vai substituir %{playlist_items} por %{accepted_picks}.
       playlist_items:
-        one: "%{count} current playlist item"
-        other: "%{count} current playlist items"
+        one: "%{count} item atual da playlist"
+        other: "%{count} itens atuais da playlist"
       accepted_picks:
-        one: "%{count} accepted pick"
-        other: "%{count} accepted picks"
-      replace_hint: Use this when this persona should rebuild the playlist for this TRMNL. Existing playlist items will be removed.
-      replace_confirmation: I understand this will replace my current playlist.
-      replace_empty_hint: Creates a fresh playlist for this TRMNL and applies the suggested sleep window.
-      add_hint: Nothing is added until you confirm. This adds these picks to your existing playlist without removing anything or changing device settings.
-      replace_playlist: Replace playlist
-      discard_picks: Discard picks and start fresh
-      discard_picks_confirm: Discard these recommendations and start a fresh Discover round?
-      save_for_later: Save for later
-      save_recommendations: Save recommendations
-      newsletter_opt_in: Keep me in the loop
-      newsletter_hint: Around 1 email a month. TRMNL stuff, never spam.
-      developer_note_html: You marked yourself as a developer. Build your own plugins for your TRMNL, publish them as %{recipes_link} so the community can use them, and earn from our %{creator_fund_link} when they do. For custom plugins on your own TRMNL, see the %{developer_license_link}.
-      recipes: Recipes
+        one: "%{count} sugestão aceita"
+        other: "%{count} sugestões aceitas"
+      replace_hint: Use quando esta persona deve refazer a playlist deste TRMNL. Os itens atuais da playlist serão removidos.
+      replace_confirmation: Entendo que isso vai substituir minha playlist atual.
+      replace_empty_hint: Cria uma playlist nova para este TRMNL e aplica o horário de descanso sugerido.
+      add_hint: Nada é adicionado até você confirmar. Isso adiciona estas sugestões à sua playlist atual sem remover nada nem mudar as configurações do dispositivo.
+      replace_playlist: Substituir playlist
+      discard_picks: Descartar sugestões e começar de novo
+      discard_picks_confirm: Descartar estas recomendações e começar uma nova rodada do Descobrir?
+      save_for_later: Salvar para depois
+      save_recommendations: Salvar recomendações
+      newsletter_opt_in: Quero receber novidades
+      newsletter_hint: Cerca de 1 email por mês. Coisas do TRMNL, nunca spam.
+      developer_note_html: Você se marcou como desenvolvedor. Crie seus próprios plugins para o seu TRMNL, publique-os como %{recipes_link} para que a comunidade possa usá-los e ganhe com o nosso %{creator_fund_link} quando ela usar. Para plugins personalizados no seu próprio TRMNL, veja a %{developer_license_link}.
+      recipes: Receitas
       creator_fund: Creator Fund
-      developer_license: Developer License
-      day_on_your_trmnl: A day on your TRMNL
-      sleep: Sleep
-      refresh: Refresh
-      refresh_every: every %{minutes} min
-      sleep_off: 'Off'
-      pick_status: Pick status
-      checkmark_configured: Checkmark = configured
-      dot_needs_configuration: yellow dot = needs configuration
-      configured: configured
-      needs_configuration: needs configuration
-      your_rotation: Your rotation
-      pick_status_legend: Pick status legend
-      configured_on_this_trmnl: Configured on this TRMNL
-      added_needs_configuration: Added to playlist, needs configuration
-      configured_badge: Configured
-      needs_configuration_badge: Needs configuration
-      based_on_your_answers: Based on your answers
+      developer_license: Licença de Desenvolvedor
+      day_on_your_trmnl: Um dia no seu TRMNL
+      sleep: Descanso
+      refresh: Atualização
+      refresh_every: a cada %{minutes} min
+      sleep_off: Desativado
+      pick_status: Status da sugestão
+      checkmark_configured: Visto = configurado
+      dot_needs_configuration: ponto amarelo = precisa de configuração
+      configured: configurado
+      needs_configuration: precisa de configuração
+      your_rotation: Sua rotação
+      pick_status_legend: Legenda do status das sugestões
+      configured_on_this_trmnl: Configurado neste TRMNL
+      added_needs_configuration: Adicionado à playlist, precisa de configuração
+      configured_badge: Configurado
+      needs_configuration_badge: Precisa de configuração
+      based_on_your_answers: Com base nas suas respostas
   logs:
     index:
       title: Logs
@@ -6462,219 +6462,219 @@ pt-BR:
   timelines:
     trace:
       outcomes:
-        served: Content returned
-        no_content: No content
-        empty_state: Waiting for content
-        refreshing: Waiting for a refresh
-        refresh_failed: Refresh failure screen
-        alias: External image returned
-        redirect: Redirect returned
-        sleep: Sleep response
-        low_battery: Low battery screen
-        byod_error: Device setup required
-        rate_limit: Check-in limit reached
-        technical_difficulties: Maintenance screen
-        byod_trial_expired: Device trial expired
-        setup_logo: Setup logo
-        setup: Setup screen
-        action_only: Device action returned
-        needs_setup: Setup required
-        failed: Request failed
+        served: Conteúdo retornado
+        no_content: Sem conteúdo
+        empty_state: Aguardando conteúdo
+        refreshing: Aguardando uma atualização
+        refresh_failed: Tela de falha na atualização
+        alias: Imagem externa retornada
+        redirect: Redirecionamento retornado
+        sleep: Resposta de descanso
+        low_battery: Tela de bateria fraca
+        byod_error: Configuração do dispositivo necessária
+        rate_limit: Limite de check-ins atingido
+        technical_difficulties: Tela de manutenção
+        byod_trial_expired: Teste do dispositivo expirado
+        setup_logo: Logo de configuração
+        setup: Tela de configuração
+        action_only: Ação do dispositivo retornada
+        needs_setup: Configuração necessária
+        failed: Falha na requisição
       names:
-        sleep_screen: Sleep response
-        clear_pending_refresh: Cleared the pending refresh
-        sleep_image: Sleep image
-        low_battery_screen: Low battery screen
-        byod_error: Device setup required
-        current_screen: Current screen
-        first_item: First playlist item
-        guest_mode: Guest screen
-        decline_wait: No further waiting screen
-        wait_screen: Waiting screen
-        upcoming_item: Next playlist item
-        playlist_exhausted: No remaining playlist item to try
-        skip_refresh: No new refresh wait
-        refresh_before_serving: Refresh before returning content
-        defer_render: Accepted the render request into the local queue
-        set_pending_refresh: Set the pending refresh
-        refresh_budget: Checked the refresh limit
-        wait_finished: No remaining wait interval
-        refresh_pending: Checked whether the render is still pending
-        refresh_requested: Checked the pending refresh
-        refresh_failed_screen: Refresh failure screen
-        last_displayed: Last displayed playlist item
-        special_screen: Requested device screen
-        clear_special_request: Cleared the screen request
-        enqueue_render: Accepted the render job
-        mark_displayed: Recorded the displayed item
-        playlist_screen: Checked whether the screen can be returned
-        alias_image: External image
-        redirect: Redirect response
-        content_changed: Checked for new content
-        screen_wiper: Screen cleaning image
-        skip_item: Skipped an unavailable item
-        screen_freshness: Checked the screen age
-        serve: Selected the response content
-        empty_state: Waiting for content
-        no_content: No content available
-        special_function: Selected the device action
-        enqueue_notification: Accepted the notification job
-        set_identification_request: Set the identification request
-        request_render: Requested a render
-        next_screen_change: Checked the next screen change
-        extended_refresh_rate: Selected the next wake interval
+        sleep_screen: Resposta de descanso
+        clear_pending_refresh: Atualização pendente limpa
+        sleep_image: Imagem de descanso
+        low_battery_screen: Tela de bateria fraca
+        byod_error: Configuração do dispositivo necessária
+        current_screen: Tela atual
+        first_item: Primeiro item da playlist
+        guest_mode: Tela de convidado
+        decline_wait: Sem tela de espera adicional
+        wait_screen: Tela de espera
+        upcoming_item: Próximo item da playlist
+        playlist_exhausted: Nenhum item da playlist restante para tentar
+        skip_refresh: Sem nova espera de atualização
+        refresh_before_serving: Atualizar antes de retornar o conteúdo
+        defer_render: Pedido de renderização aceito na fila local
+        set_pending_refresh: Atualização pendente definida
+        refresh_budget: Limite de atualizações verificado
+        wait_finished: Nenhum intervalo de espera restante
+        refresh_pending: Verificado se a renderização ainda está pendente
+        refresh_requested: Atualização pendente verificada
+        refresh_failed_screen: Tela de falha na atualização
+        last_displayed: Último item da playlist exibido
+        special_screen: Tela do dispositivo solicitada
+        clear_special_request: Pedido de tela limpo
+        enqueue_render: Tarefa de renderização aceita
+        mark_displayed: Item exibido registrado
+        playlist_screen: Verificado se a tela pode ser retornada
+        alias_image: Imagem externa
+        redirect: Resposta de redirecionamento
+        content_changed: Verificado se há conteúdo novo
+        screen_wiper: Imagem de limpeza da tela
+        skip_item: Item indisponível pulado
+        screen_freshness: Idade da tela verificada
+        serve: Conteúdo da resposta selecionado
+        empty_state: Aguardando conteúdo
+        no_content: Nenhum conteúdo disponível
+        special_function: Ação do dispositivo selecionada
+        enqueue_notification: Tarefa de notificação aceita
+        set_identification_request: Pedido de identificação definido
+        request_render: Renderização solicitada
+        next_screen_change: Próxima mudança de tela verificada
+        extended_refresh_rate: Próximo intervalo para acordar selecionado
       values:
-        'yes': 'yes'
-        'no': 'no'
+        'yes': sim
+        'no': não
       units:
         days: d
         hours: h
         minutes: min
         seconds: s
     show:
-      title: Timeline
-      link_title: Timeline
-      hint: What this device showed and why, and what it will show next. Recorded activity is kept for %{days} days.
-      source_hint: Where this was shown and why, and where it will be shown next, on every device. Recorded activity is kept for %{days} days.
-      logs: Device logs
-      filtered: Showing activity for %{name}
-      show_all: show everything
-      across_devices: this source on every device
-      strip_title: The next %{hours} hours
-      now: Now
-      jump_to_now: Jump to now
-      expected: Expected
-      why: Why?
-      nothing_expected: Nothing is expected in the next %{hours} hours.
-      recorded_strip_title: The last %{hours} hours
+      title: Linha do tempo
+      link_title: Linha do tempo
+      hint: O que este dispositivo mostrou e por quê, e o que ele vai mostrar a seguir. A atividade registrada é mantida por %{days} dias.
+      source_hint: Onde isto foi mostrado e por quê, e onde vai ser mostrado a seguir, em todos os dispositivos. A atividade registrada é mantida por %{days} dias.
+      logs: Logs do dispositivo
+      filtered: Mostrando a atividade de %{name}
+      show_all: mostrar tudo
+      across_devices: esta fonte em todos os dispositivos
+      strip_title: As próximas %{hours} horas
+      now: Agora
+      jump_to_now: Ir para agora
+      expected: Previsto
+      why: Por quê?
+      nothing_expected: Nada previsto nas próximas %{hours} horas.
+      recorded_strip_title: As últimas %{hours} horas
     reasons:
-      waiting_for_render: waits for its plugin's next update
-      sleep_window: its sleep window starts then
-      maximum_wait: two hours is the longest a device waits
-      next_screen_change: the room's next meeting starts or ends then
-      asleep: inside its sleep window
-      rotation: the playlist rotates to the next item
-      render_before_next_poll: its plugin updates before then
-      nothing_served: nothing on its playlist yet
-      wait_disabled: waiting for the next update is off for this device
-      setup_day: set up less than a day ago
-      push_driven: its plugin updates whenever data arrives
-      clock_driven: its screen changes with the clock, not a render
-      renders_elsewhere: rendered by a shared master
-      scheduled: only shows inside a schedule window
-      feature_off: waiting for the next update is off for everyone
-      no_render_scheduled: no render is scheduled for its plugin
-      render_running: its plugin is rendering right now
-      schedule_boundary: a schedule window opens or closes then
-      sibling_render: another item on its playlist updates then
-    next_check_in: Next check-in %{when}.
-    next_check_in_unknown: 'Next check-in: unknown until it has checked in.'
-    next_check_in_overdue: Check-in overdue since %{when}.
-    longer_than_refresh_rate: Longer than its %{rate} refresh rate. Turn off "%{setting}" under %{section} to keep to the refresh rate.
+      waiting_for_render: espera a próxima atualização do plugin
+      sleep_window: o horário de descanso começa nesse momento
+      maximum_wait: duas horas é o máximo que um dispositivo espera
+      next_screen_change: a próxima reunião da sala começa ou termina nesse momento
+      asleep: dentro do horário de descanso
+      rotation: a playlist passa para o próximo item
+      render_before_next_poll: o plugin é atualizado antes disso
+      nothing_served: ainda não há nada na playlist
+      wait_disabled: esperar a próxima atualização está desativado para este dispositivo
+      setup_day: configurado há menos de um dia
+      push_driven: o plugin é atualizado sempre que chegam dados
+      clock_driven: a tela muda com o relógio, não com uma renderização
+      renders_elsewhere: renderizado por um dispositivo principal compartilhado
+      scheduled: só aparece dentro de um horário agendado
+      feature_off: esperar a próxima atualização está desativado para todos
+      no_render_scheduled: não há renderização agendada para o plugin
+      render_running: o plugin está sendo renderizado agora
+      schedule_boundary: um horário agendado começa ou termina nesse momento
+      sibling_render: outro item da playlist é atualizado nesse momento
+    next_check_in: Próximo check-in %{when}.
+    next_check_in_unknown: 'Próximo check-in: desconhecido até ele fazer o primeiro check-in.'
+    next_check_in_overdue: Check-in atrasado desde %{when}.
+    longer_than_refresh_rate: Mais longo que a taxa de atualização de %{rate}. Desative "%{setting}" em %{section} para manter a taxa de atualização.
     render:
-      next_render: Renders again %{time}
-      no_next_render: 'No render before then: %{reason}'
-      render_overdue: A render has been overdue since %{time}
+      next_render: Renderiza de novo %{time}
+      no_next_render: 'Nenhuma renderização antes disso: %{reason}'
+      render_overdue: Uma renderização está atrasada desde %{time}
     activity:
       index:
-        view_logs: View logs
-        not_available: Activity tracking isn't enabled in this environment yet.
-        temporarily_unavailable: Activity tracking is temporarily unavailable. Please try again later.
-        empty_day: No activity recorded on this day.
-        truncated: Busy day — showing the first %{limit} events.
-        previous_day: Older
-        next_day: Newer
+        view_logs: Ver logs
+        not_available: O registro de atividade ainda não está ativado neste ambiente.
+        temporarily_unavailable: O registro de atividade está temporariamente indisponível. Tente de novo mais tarde.
+        empty_day: Nenhuma atividade registrada neste dia.
+        truncated: Dia movimentado — mostrando os primeiros %{limit} eventos.
+        previous_day: Anterior
+        next_day: Seguinte
         day_events:
-          one: "%{day}: 1 event"
-          other: "%{day}: %{count} events"
+          one: "%{day}: 1 evento"
+          other: "%{day}: %{count} eventos"
       link:
-        device_hint: When this device checked in, what it scheduled, and which screens it received.
-        source_hint: When this screen refreshed, why it skipped, and which devices received it.
+        device_hint: Quando este dispositivo fez check-in, o que ele agendou e quais telas recebeu.
+        source_hint: Quando esta tela foi atualizada, por que foi pulada e quais dispositivos a receberam.
       events:
         checkin: Check-in
-        schedule: Schedule
-        render: Render
-        serve: Delivered
-        caught_up: Caught up
+        schedule: Agendamento
+        render: Renderização
+        serve: Entregue
+        caught_up: Em dia
       checkin:
-        ok: Device checked in
-        failed: Check-in failed (%{status})
+        ok: Dispositivo fez check-in
+        failed: Falha no check-in (%{status})
         firmware: firmware %{version}
-        battery: battery %{percent}%
+        battery: bateria %{percent}%
       schedule:
-        refresh_at: refresh at %{time}
+        refresh_at: atualização às %{time}
       schedule_reasons:
-        wrote: Refresh scheduled
-        wrote_screen: Refresh scheduled for this screen size
-        not_predicted: Nothing upcoming to schedule
-        source_missing: Skipped — screen source was deleted
-        mirror: Refresh delegated to the recipe it mirrors
-        mirror_scheduled: Refresh scheduled on the recipe it mirrors
-        mirror_throttled: Waiting — the recipe it mirrors refreshed moments ago
-        mirror_cold: Asked the recipe it mirrors to render this screen size
-        global_bootstrap: Requesting this shared plugin's first screen for this size
-        owner_mismatch: Skipped — source belongs to another user
-        unhealthy: Paused after repeated failed refreshes
-        never_later: Already scheduled sooner
-        refresh_overdue: Waiting — a queued refresh is overdue
-        not_jit_schedulable: Refreshes on its own schedule
-        violates_minimum: Waiting out its minimum refresh interval
-        external_image: Skipped — the image is sent to it, nothing renders it
-        before_daily_slot: Waiting — the daily refresh renders before its first display after 00:15
-        daily_catch_up_started: Catching up — the daily screen was rendered before today's 00:15 refresh
-        daily_catch_up_declined: Catch-up skipped — the device got no waiting screen, so it kept its screen while the render ran
-        daily_catch_up_fresh_screen: Caught up — the fresh daily screen arrived
-        daily_catch_up_kept_screen: Catch-up ended — the render did not arrive in time, so the previous screen stayed
-        asleep_at_display: Skipped — the device is still asleep at its next check-in
+        wrote: Atualização agendada
+        wrote_screen: Atualização agendada para este tamanho de tela
+        not_predicted: Nada previsto para agendar
+        source_missing: Pulado — a fonte da tela foi deletada
+        mirror: Atualização delegada à receita que ele espelha
+        mirror_scheduled: Atualização agendada na receita que ele espelha
+        mirror_throttled: Aguardando — a receita que ele espelha foi atualizada há instantes
+        mirror_cold: Pedido à receita que ele espelha para renderizar este tamanho de tela
+        global_bootstrap: Solicitando a primeira tela deste plugin compartilhado para este tamanho
+        owner_mismatch: Pulado — a fonte pertence a outro usuário
+        unhealthy: Pausado depois de várias falhas de atualização
+        never_later: Já agendado para antes
+        refresh_overdue: Aguardando — uma atualização na fila está atrasada
+        not_jit_schedulable: Atualiza na própria agenda
+        violates_minimum: Aguardando o intervalo mínimo de atualização
+        external_image: Pulado — a imagem é enviada para ele, nada a renderiza
+        before_daily_slot: Aguardando — a atualização diária renderiza antes da primeira exibição depois das 00:15
+        daily_catch_up_started: Recuperando — a tela diária foi renderizada antes da atualização de hoje às 00:15
+        daily_catch_up_declined: Recuperação pulada — o dispositivo não recebeu tela de espera, então manteve sua tela enquanto a renderização acontecia
+        daily_catch_up_fresh_screen: Em dia — a nova tela diária chegou
+        daily_catch_up_kept_screen: Recuperação encerrada — a renderização não chegou a tempo, então a tela anterior ficou
+        asleep_at_display: Pulado — o dispositivo ainda vai estar em descanso no próximo check-in
       render_statuses:
-        ok: Rendered
-        error: Render failed
-        skipped: Render skipped
-        timeout: Render timed out
+        ok: Renderizado
+        error: Falha na renderização
+        skipped: Renderização pulada
+        timeout: Tempo esgotado na renderização
       render_reasons:
-        data_changed: data changed
-        first_screen: first render
-        forced: manual refresh
-        timely: time-sensitive refresh
-        no_data_changed: no change in data
-        all_appearances_fresh: every screen size is still up to date
-        device_inactive: device offline
-        playlist_items_hidden: hidden on every playlist
-        mashup_incomplete: mashup not complete
-        only_in_mashups: only rendered inside mashups
-        no_screen_generation: plugin does not generate screens
-        skip_screen_generation: plugin chose not to render
-        skip_display: plugin chose not to display
-        markup_incomplete: markup not complete
-        render_crash_backoff: paused after the render browser crashed repeatedly
-        completed_after_deadline: finished after the deadline had passed
-        data_fetch_error: could not fetch data from the source
-        network_connect_error: could not connect to the source
-        invalid_url: the source URL is not valid
-        access_token_expired: access token expired — reconnect the plugin
-        transform_error: the data transform failed
-        liquid_syntax_error: the markup has a syntax error
-        size_too_large: the response was too large
-        render_timeout: no render slot free before the deadline
-        dead_session: the browser session ended mid-render
-        command_timeout: the browser stopped responding
-        unhandled_error: unexpected error
-        batch_deadline_passed: the batch ran out of time before this screen started
-        mashup_member_refreshed: refreshed as part of a mashup
-        no_appearances_to_render: no screen sizes left to render
-        no_render_slot: no render slot was free before the deadline
-        render_lock_held: another render for this plugin was already running
-        no_document_changed: no change in the page it renders
-        data_not_refetched: cached data reused, no fetch was due
-        mirrors_master: mirrors its master's screens
-        fetch_timeout: the source did not answer in time
+        data_changed: os dados mudaram
+        first_screen: primeira renderização
+        forced: atualização manual
+        timely: atualização com horário definido
+        no_data_changed: sem mudança nos dados
+        all_appearances_fresh: todos os tamanhos de tela ainda estão atualizados
+        device_inactive: dispositivo offline
+        playlist_items_hidden: escondido em todas as playlists
+        mashup_incomplete: mashup incompleto
+        only_in_mashups: renderizado só dentro de mashups
+        no_screen_generation: o plugin não gera telas
+        skip_screen_generation: o plugin optou por não renderizar
+        skip_display: o plugin optou por não exibir
+        markup_incomplete: markup incompleto
+        render_crash_backoff: pausado depois de o navegador de renderização travar várias vezes
+        completed_after_deadline: terminou depois do prazo
+        data_fetch_error: não foi possível buscar os dados da fonte
+        network_connect_error: não foi possível conectar à fonte
+        invalid_url: a URL da fonte não é válida
+        access_token_expired: token de acesso expirado — reconecte o plugin
+        transform_error: a transformação dos dados falhou
+        liquid_syntax_error: o markup tem um erro de sintaxe
+        size_too_large: a resposta era grande demais
+        render_timeout: nenhum espaço de renderização livre antes do prazo
+        dead_session: a sessão do navegador terminou no meio da renderização
+        command_timeout: o navegador parou de responder
+        unhandled_error: erro inesperado
+        batch_deadline_passed: o lote ficou sem tempo antes de esta tela começar
+        mashup_member_refreshed: atualizado como parte de um mashup
+        no_appearances_to_render: nenhum tamanho de tela restante para renderizar
+        no_render_slot: nenhum espaço de renderização estava livre antes do prazo
+        render_lock_held: outra renderização deste plugin já estava em andamento
+        no_document_changed: sem mudança na página que ele renderiza
+        data_not_refetched: dados em cache reutilizados, nenhuma busca estava prevista
+        mirrors_master: espelha as telas do seu principal
+        fetch_timeout: a fonte não respondeu a tempo
       serve_statuses:
-        served: Screen sent to device
-        alias: Alias image sent to device
-        redirect: Redirect sent to device
-        empty_state: Caught-up screen sent — nothing new to show
-        no_content: Caught-up screen sent — still nothing to show, so the device will check back less often to save battery
-    next_check_in_due: Check-in due any moment.
+        served: Tela enviada ao dispositivo
+        alias: Imagem de Alias enviada ao dispositivo
+        redirect: Redirecionamento enviado ao dispositivo
+        empty_state: Tela de em dia enviada — nada novo para mostrar
+        no_content: Tela de em dia enviada — ainda nada para mostrar, então o dispositivo vai verificar com menos frequência para economizar bateria
+    next_check_in_due: Check-in a qualquer momento.
   doorkeeper:
     scopes:
       read: Read your devices and their logs, playlists, plugin settings and private plugin files
