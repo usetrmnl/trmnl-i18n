@@ -361,6 +361,8 @@ is:
       recently_published: Recently Published
       connected_count: "%{count} connected"
       feed_link: RSS feed for new plugins
+      ask_trmy: Not sure where to start? Let trmy help.
+      something_else: Something else…
     shop:
       title: Verslun
       another_trmnl: Need another TRMNL?
@@ -384,6 +386,11 @@ is:
       show_all: Show all (%{count})
       show_less: Show less
       title: Finish configuring your playlist
+    trmy_invite:
+      title: Try the Assistant
+      body: Ask for a plugin, mashup, or a fix in plain words.
+      cta: Ask trmy
+      dismiss: Dismiss
   date:
     formats:
       day_month_long: "%A, %B %-d"
@@ -1666,6 +1673,8 @@ is:
           heading: This playlist is empty
           description: Select Add Plugin above to add one of your plugins.
           cta: Looking for something new? Browse Plugins
+        ask_trmy: or set up with trmy
+        ask_trmy_message: Help me set up the playlist for %{device}
       unused_plugin_setting:
         message: "%{name} is not on any playlist now. Delete the plugin too?"
         delete: Delete plugin
@@ -1826,6 +1835,7 @@ is:
       you_may_also_like: You may also like
       browse_all_recipes: Browse all recipes
       build_for_other_users: Build for other users
+      discover_picks: Not sure what to add? Get picks for %{device}
     search:
       placeholder: Leita í viðbótum
     my:
@@ -4514,6 +4524,10 @@ is:
         playlists_description: Organize content
         plugin_instance: Instance %{id}
         plugins_description: Browse and open your plugins
+        trmy: trmy
+        trmy_description: Ask for a plugin, a fix or a change in plain words
+        ask_trmy: Ask trmy “%{query}”
+        ask_trmy_description: Starts a new chat with what you typed
       sections:
         navigation: Navigation
     blog_post_show:
@@ -7344,6 +7358,8 @@ is:
     ask_support: ask support
     error_label: Error
     retry_count: 'Retry Count: %{count}'
+    ask_trmy: Ask trmy why
+    ask_trmy_message: Why does %{name} keep failing?
   local_art:
     mediums:
       drawing: Drawing
@@ -8344,6 +8360,19 @@ is:
         title: Blog
         feed_link: RSS feed for the TRMNL blog
         view_all: All posts
+    mode_switch:
+      label: Home view
+      trmy: trmy
+    thinking_panel:
+      label: trmy is thinking
+    ask_for_plugin:
+      title: Ask trmy
+      message: I need a plugin for %{query}
+      body: Ask trmy. It looks through every plugin and recipe, and can build a private plugin for you when none fits.
+      quoted_message: "“%{message}”"
+      start_chat: Start chat →
+      tile_title: Not quite it?
+      tile_description: Ask trmy for a %{query} plugin
   signup:
     find_friendly_id_html: Need this? %{link}.
     friendly_id_example: "%{friendly_id}, ex: 2D319E"
