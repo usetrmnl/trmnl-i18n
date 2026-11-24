@@ -361,6 +361,8 @@ raw:
       recently_published: dashboard.plugins.recently_published
       connected_count: dashboard.plugins.connected_count
       feed_link: dashboard.plugins.feed_link
+      ask_trmy: dashboard.plugins.ask_trmy
+      something_else: dashboard.plugins.something_else
     shop:
       title: dashboard.shop.title
       another_trmnl: dashboard.shop.another_trmnl
@@ -384,6 +386,11 @@ raw:
       show_all: dashboard.playlist_setup_progress.show_all
       show_less: dashboard.playlist_setup_progress.show_less
       title: dashboard.playlist_setup_progress.title
+    trmy_invite:
+      title: dashboard.trmy_invite.title
+      body: dashboard.trmy_invite.body
+      cta: dashboard.trmy_invite.cta
+      dismiss: dashboard.trmy_invite.dismiss
   date:
     formats:
       day_month_long: date.formats.day_month_long
@@ -1666,6 +1673,8 @@ raw:
           heading: playlist_items.index.empty.no_items.heading
           description: playlist_items.index.empty.no_items.description
           cta: playlist_items.index.empty.no_items.cta
+        ask_trmy: playlist_items.index.empty.ask_trmy
+        ask_trmy_message: playlist_items.index.empty.ask_trmy_message
       unused_plugin_setting:
         message: playlist_items.index.unused_plugin_setting.message
         delete: playlist_items.index.unused_plugin_setting.delete
@@ -1826,6 +1835,7 @@ raw:
       you_may_also_like: plugins.index.you_may_also_like
       browse_all_recipes: plugins.index.browse_all_recipes
       build_for_other_users: plugins.index.build_for_other_users
+      discover_picks: plugins.index.discover_picks
     search:
       placeholder: plugins.search.placeholder
     my:
@@ -4498,6 +4508,10 @@ raw:
         playlists_description: shared.command_palette.items.playlists_description
         plugin_instance: shared.command_palette.items.plugin_instance
         plugins_description: shared.command_palette.items.plugins_description
+        trmy: shared.command_palette.items.trmy
+        trmy_description: shared.command_palette.items.trmy_description
+        ask_trmy: shared.command_palette.items.ask_trmy
+        ask_trmy_description: shared.command_palette.items.ask_trmy_description
       sections:
         navigation: shared.command_palette.sections.navigation
     blog_post_show:
@@ -7025,6 +7039,8 @@ raw:
     ask_support: health_status_banner.ask_support
     error_label: health_status_banner.error_label
     retry_count: health_status_banner.retry_count
+    ask_trmy: health_status_banner.ask_trmy
+    ask_trmy_message: health_status_banner.ask_trmy_message
   local_art:
     mediums:
       drawing: local_art.mediums.drawing
@@ -8025,6 +8041,19 @@ raw:
         title: assistants.feed_card.blog_posts.title
         feed_link: assistants.feed_card.blog_posts.feed_link
         view_all: assistants.feed_card.blog_posts.view_all
+    mode_switch:
+      label: assistants.mode_switch.label
+      trmy: assistants.mode_switch.trmy
+    thinking_panel:
+      label: assistants.thinking_panel.label
+    ask_for_plugin:
+      title: assistants.ask_for_plugin.title
+      message: assistants.ask_for_plugin.message
+      body: assistants.ask_for_plugin.body
+      quoted_message: assistants.ask_for_plugin.quoted_message
+      start_chat: assistants.ask_for_plugin.start_chat
+      tile_title: assistants.ask_for_plugin.tile_title
+      tile_description: assistants.ask_for_plugin.tile_description
   signup:
     find_friendly_id_html: signup.find_friendly_id_html
     friendly_id_example: signup.friendly_id_example
