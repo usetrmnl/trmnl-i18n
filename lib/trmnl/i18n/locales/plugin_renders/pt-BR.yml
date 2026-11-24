@@ -4,13 +4,17 @@ pt-BR:
     and_x_more_prefix: E
     and_x_more_suffix: mais
     calendars:
-      no_upcoming_events: No upcoming events
-      no_events_today: No events today
-      all_day: all-day
+      no_upcoming_events: Sem próximos eventos
+      no_events_today: Sem eventos hoje
+      all_day: dia todo
+      upcoming_events: Próximos Eventos
     days_left_year:
       title: Dias Restantes Neste Ano
       days_passed: Dias Corridos
       days_left: Dias Restantes
+      board:
+        days_gone: dias corridos
+        to_go: restantes
     lunar_calendar:
       title: Calendário Lunas
       age: Era Lunar
@@ -32,58 +36,58 @@ pt-BR:
     netatmo_weather_station:
       title: Netatmo Weather
       title_short: Netatmo
-      indoor_temp: Indoor Temp.
-      indoor_temp_short: Indoor
-      outdoor_temp: Outdoor Temp.
-      outdoor_temp_short: Outdoor
-      indoor_humidity: Indoor Humidity
-      indoor_humidity_short: Indoor Hum.
-      outdoor_humidity: Outdoor Humidity
-      outdoor_humidity_short: Out. Hum.
+      indoor_temp: Temp. Interna
+      indoor_temp_short: Interna
+      outdoor_temp: Temp. Externa
+      outdoor_temp_short: Externa
+      indoor_humidity: Umidade Interna
+      indoor_humidity_short: Umid. Int.
+      outdoor_humidity: Umidade Externa
+      outdoor_humidity_short: Umid. Ext.
       co2: CO₂
       co2_ppm: CO₂ ppm
-      pressure: Pressure
-      noise: Noise
-      min_max: Min/Max
-      feels: Feels
-      rain: Rain
-      wind: Wind
-      gust: Gust
+      pressure: Pressão
+      noise: Ruído
+      min_max: Mín/Máx
+      feels: Sensação
+      rain: Chuva
+      wind: Vento
+      gust: Rajada
       default_station_name: Netatmo Station
-      default_outdoor_module: Outdoor Temp.
-      default_indoor_module: Indoor
-      trends_title: "%{metric} Trends"
-      trends_title_short: Trends
-      temperature_trends: Temperature Trends
-      temperature_trends_short: Temp Trends
-      outdoor_now: Outdoor Now
-      indoor_now: Indoor Now
-      now: Now
-      low_high_24h: 24h Low / High
-      average_24h: 24h Average
-      outdoor: Outdoor
-      indoor: Indoor
-      rain_gauge_not_connected: Rain gauge not connected
-      wind_gauge_not_connected: Wind gauge not connected
-      no_rain_gauge: No rain gauge
-      no_wind_gauge: No wind gauge
-      add_module_hint: Add the optional %{module} module to see this data
-      range_24h: 24h Range
+      default_outdoor_module: Temp. Externa
+      default_indoor_module: Interno
+      trends_title: Tendências de %{metric}
+      trends_title_short: Tendências
+      temperature_trends: Tendências de Temperatura
+      temperature_trends_short: Tend. Temp.
+      outdoor_now: Externo Agora
+      indoor_now: Interno Agora
+      now: Agora
+      low_high_24h: Mín / Máx 24h
+      average_24h: Média 24h
+      outdoor: Externo
+      indoor: Interno
+      rain_gauge_not_connected: Pluviômetro não conectado
+      wind_gauge_not_connected: Anemômetro não conectado
+      no_rain_gauge: Sem pluviômetro
+      no_wind_gauge: Sem anemômetro
+      add_module_hint: Adicione o módulo opcional %{module} para ver estes dados
+      range_24h: Variação 24h
       conditions:
-        hot_humid: Hot & Humid
-        hot_dry: Hot & Dry
-        mild_humid: Mild & Humid
-        pleasant: Pleasant
-        cool_humid: Cool & Humid
-        cool_dry: Cool & Dry
-        no_data: No data
+        hot_humid: Quente e Úmido
+        hot_dry: Quente e Seco
+        mild_humid: Ameno e Úmido
+        pleasant: Agradável
+        cool_humid: Fresco e Úmido
+        cool_dry: Fresco e Seco
+        no_data: Sem dados
       errors:
-        missing_access_token: Missing access token. Please reconnect your Netatmo account.
-        no_station_selected: No weather station selected. Please choose a station in settings.
-        connection_failed: Unable to connect to Netatmo station. Please check your internet connection.
-        data_retrieval_failed: Unable to retrieve weather data. Please try again later.
-        session_expired: Session expired. Please reconnect your Netatmo account in settings.
-        indoor_module_missing: Selected indoor module not found. Please reconfigure in settings.
+        missing_access_token: Token de acesso ausente. Reconecte sua conta Netatmo.
+        no_station_selected: Nenhuma estação selecionada. Escolha uma estação nas configurações.
+        connection_failed: Não foi possível conectar à estação Netatmo. Verifique sua conexão com a internet.
+        data_retrieval_failed: Não foi possível obter os dados do clima. Tente de novo mais tarde.
+        session_expired: Sessão expirada. Reconecte sua conta Netatmo nas configurações.
+        indoor_module_missing: Módulo interno selecionado não encontrado. Ajuste nas configurações.
     parcel:
       delivery_by: Entregue por
       empty: Não há entregas
@@ -111,6 +115,9 @@ pt-BR:
         unknown: Desconhecido
       today: Hoje
       tomorrow: Amanhã
+      board:
+        delivering: em entrega
+        in_transit: em trânsito
     weather:
       title: Clima
       temperature: Temperatura
@@ -122,31 +129,31 @@ pt-BR:
       right_now: Agora
       today: Hoje
       tomorrow: Amanhã
-      low_high_short: L/H
+      low_high_short: Mín/Máx
       uv_short: UV
-      max: Max
+      max: Máx
       tempest:
         conditions:
-          clear: Clear
-          cloudy: Cloudy
-          extreme_rain: Extreme Rain
-          foggy: Foggy
-          heavy_rain: Heavy Rain
-          light_rain: Light Rain
-          moderate_rain: Moderate Rain
-          partly_cloudy: Partly Cloudy
-          rain_likely: Rain Likely
-          rain_possible: Rain Possible
-          snow: Snow
-          snow_likely: Snow Likely
-          snow_possible: Snow Possible
-          thunderstorms_likely: Thunderstorms Likely
-          thunderstorms_possible: Thunderstorms Possible
-          very_heavy_rain: Very Heavy Rain
-          very_light_rain: Very Light Rain
-          windy: Windy
-          wintry_mix_likely: Wintry Mix Likely
-          wintry_mix_possible: Wintry Mix Possible
+          clear: Limpo
+          cloudy: Nublado
+          extreme_rain: Chuva Extrema
+          foggy: Nevoeiro
+          heavy_rain: Chuva Forte
+          light_rain: Chuva Leve
+          moderate_rain: Chuva Moderada
+          partly_cloudy: Parcialmente Nublado
+          rain_likely: Chuva Provável
+          rain_possible: Chuva Possível
+          snow: Neve
+          snow_likely: Neve Provável
+          snow_possible: Neve Possível
+          thunderstorms_likely: Trovoadas Prováveis
+          thunderstorms_possible: Trovoadas Possíveis
+          very_heavy_rain: Chuva Muito Forte
+          very_light_rain: Chuva Muito Leve
+          windy: Ventoso
+          wintry_mix_likely: Chuva e Neve Provável
+          wintry_mix_possible: Chuva e Neve Possível
       weatherapi:
         uv:
           low: Baixo
@@ -299,69 +306,528 @@ pt-BR:
         - code: 1282
           day: Trovões e Neve
           night: Trovões e Neve
-      dew_point: Dew Point
-      dew_point_short: Dew Pt
+      dew_point: Ponto de Orvalho
+      dew_point_short: Orvalho
+      precip_chance: Chance
     place_of_the_day:
-      title: Place of the Day
+      title: Lugar do Dia
       wikipedia_credit: Wikipedia CC BY-SA
-      type: Type
-      population: Population
-      coordinates: Coordinates
-      founded: Founded
-      elevation: Elevation
-      area: Area
-      local_time: Local time
-      year_bc: "%{count} BC"
+      type: Tipo
+      population: População
+      coordinates: Coordenadas
+      founded: Fundação
+      elevation: Altitude
+      area: Área
+      local_time: Hora local
+      year_bc: "%{count} a.C."
       metres: "%{count} m"
       square_km: "%{count} km²"
-      city: City
-      wonder: Wonder
+      city: Cidade
+      wonder: Maravilha
     welcome:
       title: Bem-vindo
       greeting: Olá, %{name}
       greeting_blank: Olá
     homey:
-      'on': 'On'
-      'off': 'Off'
+      'on': Ligado
+      'off': Desligado
       offline: Offline
-      all_offline: Every device is offline
+      all_offline: Todos os dispositivos estão offline
       all_offline_hint:
-        one: One device is unreachable
-        other: All %{count} devices are unreachable
+        one: Um dispositivo está inacessível
+        other: Todos os %{count} dispositivos estão inacessíveis
       batteries_healthy:
-        one: Battery
-        other: Batteries
+        one: Bateria
+        other: Baterias
       batteries_low:
-        one: Needs a cell
-        other: Need a cell
-      no_batteries: No batteries to watch
-      no_batteries_hint: Nothing here reports a battery level
+        one: Precisa de pilha
+        other: Precisam de pilha
+      no_batteries: Sem baterias para monitorar
+      no_batteries_hint: Nada aqui informa o nível de bateria
       insights: Insights
-      no_chart: No chart
-      no_insights: No series pushed yet
-      no_insights_hint: A Homey app can push an Insights log to chart here
-      no_devices: Waiting for your first devices
-      no_devices_hint: They appear after the first push or cloud sync
+      no_chart: Sem gráfico
+      no_insights: Nenhuma série enviada ainda
+      no_insights_hint: Um app do Homey pode enviar um registro do Insights para exibir o gráfico aqui
+      no_devices: Aguardando seus primeiros dispositivos
+      no_devices_hint: Eles aparecem após o primeiro envio ou a sincronização com a nuvem
+      state: Estado
+      closed: Fechado
+      open: Aberto
+      locked: Trancado
+      unlocked: Destrancado
+      errors:
+        choose_homey: Escolha qual Homey exibir nas configurações do plugin.
+        connect: Conecte sua conta Homey ou envie um snapshot por um app do Homey — nas configurações do plugin.
+        session_expired: Sua sessão do Homey expirou. Reconecte nas configurações do plugin.
+        unreachable: Não foi possível acessar o Homey agora. Tente de novo em instantes.
     mazevo:
-      in_use: In use
-      available: Available
-      available_until: Available until %{time}
-      available_all_day: Available for the rest of the day
-      coming_up: Coming up
-      later_today: Later today
-      nothing_later: Nothing else today
-      earlier_today: Earlier today
-      no_bookings: No bookings today
-      private_booking: Private booking
+      in_use: Em uso
+      available: Disponível
+      available_until: Disponível até %{time}
+      available_all_day: Disponível pelo resto do dia
+      coming_up: A seguir
+      later_today: Mais tarde hoje
+      nothing_later: Nada mais hoje
+      earlier_today: Mais cedo hoje
+      no_bookings: Sem reservas hoje
+      private_booking: Reserva privada
       time_range: "%{start} – %{end}"
-      updated_at: Updated %{time}
+      updated_at: 'Atualizado: %{time}'
     ai_dashboard:
       out_of_credit:
-        title: Out of AI credit
-        description: Subscribe to TRMNL+ for AI credits, or top up your account to use this plugin.
-        own_api_key_off: Or turn on "Use my own AI key" in this dashboard's settings.
+        title: Sem crédito de IA
+        description: Assine o TRMNL+ para ter créditos de IA ou recarregue sua conta para usar este plugin.
+        own_api_key_off: Ou ative "Usar minha própria chave de IA" nas configurações deste dashboard.
       ai_key_refused:
-        title: Your AI provider refused your key
+        title: Seu provedor de IA recusou sua chave
     days_left_until:
-      today: 'Today: %{date}'
-      target: 'Target: %{date}'
+      today: 'Hoje: %{date}'
+      target: 'Data alvo: %{date}'
+      title: Dias Restantes Até...
+    home_assistant:
+      no_area: Sem área
+      lights_on: Luzes acesas
+      unlocked: Destrancado
+      open: Aberto
+      no_entities: Nada para mostrar ainda
+      no_entities_hint: Escolha entidades no Home Assistant para mostrar aqui
+      no_message: Sem mensagens ainda
+      no_message_hint: As mensagens do Home Assistant aparecem aqui
+      states:
+        'on': Ligado
+        'off': Desligado
+        open: Aberto
+        closed: Fechado
+        locked: Trancado
+        unlocked: Destrancado
+        detected: Detectado
+        clear: Livre
+        home: Em casa
+        away: Ausente
+        wet: Molhado
+        dry: Seco
+        playing: Tocando
+        paused: Pausado
+        idle: Ocioso
+        unavailable: Indisponível
+    mashup:
+      empty_slot_message: Adicione um plugin a este mashup.
+      empty_slot_title: Espaço Vazio
+      failed_message: Algo deu errado com o plugin %{plugin}. Confira as configurações do plugin ou fale com o suporte.
+      failed_title: Falha ao Gerar o Mashup
+      paused_message: O plugin %{plugin} foi pausado após vários erros de renderização. Corrija as configurações e redefina a saúde do plugin para retomar.
+      paused_title: Plugin Pausado
+    notion:
+      untitled: Sem título
+      database_view: Visualização da base
+      empty_description: Confira sua configuração do Notion e tente de novo
+      empty_description_short: Confira sua configuração do Notion
+      empty_description_xshort: Veja a config.
+      empty_title: Nenhum Conteúdo Disponível
+      empty_title_short: Sem Conteúdo
+      error_title: Erro do Notion
+      error_title_short: Erro
+      image: Imagem
+      image_placeholder: Marcador de imagem
+    rss_feed:
+      no_content: Sem Conteúdo
+      parse_error_message: 'Mensagem: %{message}'
+      parse_error_title: Erro ao ler o conteúdo RSS
+      response_code: 'Código de Resposta: %{code}'
+      title: Feed RSS
+    statuspage:
+      invalid_url: URL inválida
+      unreachable: Não foi possível acessar
+      last_incident: 'Último Incidente: %{time}'
+      scheduled: 'Agendado: %{date}'
+      title: Páginas de Status
+    todoist:
+      groups:
+        no_date: Sem data
+        no_deadline: Sem prazo
+        no_label: Sem etiqueta
+        overdue: Atrasado
+        priority: Prioridade %{priority}
+    apple_photos:
+      setup_album: Configure seu álbum.
+    asana:
+      due: até %{date}
+    beehiiv:
+      click_rate: Taxa de Cliques
+      clicks: Cliques
+      open: Aberturas
+      open_rate: Taxa de Abertura
+      recipients: Destinatários
+      spam_complaints: Denúncias de Spam
+      subject: Assunto
+      unsubscribes: Descadastros
+    bible_verses:
+      daily_scripture: Versículo do Dia
+      word_of_god: Palavra de Deus
+    bitcoin_wallet_balance:
+      change_7_days: Variação 7 dias
+      change_90_days: Variação 90 dias
+      title: Carteira Bitcoin
+    changelog:
+      title: Novidades TRMNL
+    clicky:
+      metrics:
+        mins_on_page: Min. na Página
+        pageviews: Visualizações
+        visitors: Visitantes
+    close:
+      via: via %{user}
+    coinmarketcap:
+      daily_change: Variação Diária
+    convertkit_analytics:
+      account_dashboard: Dashboard da conta
+      click_rate: Taxa de cliques
+      clicks: Cliques
+      metric: Métrica
+      open_rate: Taxa de abertura
+      products_sold: Produtos Vendidos
+      recipients: Destinatários
+      status: Status
+      subscribers: Assinantes
+      unsubscribes: Descadastros
+      value: Valor
+    days_left_retirement:
+      progress: Progresso
+      title: Progresso até a Aposentadoria
+      weeks_left: Semanas restantes
+    days_since:
+      start_date: Data de Início
+      title: Dias Desde...
+    dropbox_photo_album:
+      add_images: Adicione imagens à sua conta do Dropbox em /Apps/usetrmnl.com
+    eight_sleep:
+      deep_sleep: Sono Profundo
+      quality: Qualidade
+      ratings:
+        fair: Regular
+        good: Bom
+        low: Baixo
+        pay_attention: Atenção
+      rem_sleep: Sono REM
+      sleep_duration: Duração do Sono
+      snoring: Ronco
+      time_to_sleep: Tempo para Dormir
+    email_meter:
+      average_response_time: Tempo Médio de Resposta
+      messages_received: Mensagens Recebidas
+      messages_sent: Mensagens Enviadas
+      recipients: Destinatários
+      senders: Remetentes
+    enphase:
+      instance_updated: "%{instance} (atualizado: %{time})"
+      no_production_today: Ainda sem dados de produção hoje
+      labels:
+        battery: Bateria
+        battery_charge: Bateria · %{percent}%
+        consumed: Consumido
+        current_power: Produzindo agora
+        exported: Exportado
+        grid_dependence: Dependência da rede
+        imported: Importado
+        lifetime: Total
+        net_export: Exportação líquida
+        net_import: Importação líquida
+        peak_power: Pico de hoje
+        produced: Produzido
+        solar_offset: Compensação solar
+    ethereum_wallet_balance:
+      change_7_days: Variação 7 dias
+      change_90_days: Variação 90 dias
+      title: Carteira Ethereum
+    etsy:
+      average_order_value_short: AOV
+      data_unavailable: Dados do Etsy indisponíveis
+      fulfilled_orders: Pedidos Processados
+      pending_orders: Pedidos Pendentes
+      periods:
+        comparison: Comparação
+        current: Atual
+      total_sales: Vendas Totais
+    fera:
+      average_rating: Nota Média
+      products: Produtos
+      reviews: Avaliações
+      verified: Verificadas
+    gaffa:
+      no_articles: Nenhum artigo ainda
+      waiting_for_feed: Aguardando o Gaffa processar seu feed de notícias...
+    github_commit_graph:
+      average_per_day: Média por dia
+      contributions: Contribuições
+      contributions_last_year: Contribuições no último ano
+      current_streak: Sequência atual
+      longest_streak: Maior sequência
+      most_in_a_day: Recorde em um dia
+      board:
+        per_day: "/ dia"
+        per_year: "/ ano"
+    github_commits:
+      title: Commits Recentes
+    github_contributor_summary:
+      commits_last_week: Commits na Última Semana
+      last_week: Última Semana
+      lifetime: Total
+      lifetime_commits: Total de Commits
+      title: Resumo de Contribuidores
+      user: Usuário
+    google_photos:
+      expired:
+        message: O acesso ao Google expirou. Selecione suas fotos de novo nas configurações do plugin.
+        title: Selecione as Fotos de Novo
+      not_connected:
+        message: Escolha fotos nas configurações do plugin para começar.
+        title: Nenhuma Foto Selecionada
+      reconnect:
+        message: Sua conta Google precisa ser reconectada nas configurações do plugin.
+        title: Reconecte o Google
+    gumroad_analytics:
+      sales_count: Nº de Vendas
+      sales_value: Valor das Vendas
+    hacker_news:
+      by: por %{author}
+      votes:
+        one: "%{score} voto"
+        other: "%{score} votos"
+    home_assistant_screenshot:
+      no_image: Sem Imagem
+      upload_screenshot: Envie uma captura de tela do Home Assistant.
+    hubspot:
+      via: via %{user}
+    huckleberry:
+      awake: Acordado
+      since: desde %{time}
+      sleeping: Dormindo
+    kickstarter:
+      from_country: de %{country}
+      funded: "%{amount} arrecadado"
+    letterboxd:
+      empty:
+        diary: Nenhum registro no diário ainda. Registre um filme no Letterboxd para ver aqui.
+        friends: Nenhuma atividade recente de quem você segue.
+      rewatch: revisto
+    linkedin_page:
+      metrics:
+        clicks: Cliques
+        comments: Comentários
+        engagement_rate: Taxa de Engajamento
+        followers: Seguidores
+        impressions: Impressões
+        new_followers: Novos Seguidores
+        reactions: Reações
+        shares: Compartilhamentos
+      chart_labels:
+        clicks: Cliques
+        engagement_rate: Taxa de Engajamento
+        impressions: Impressões
+        new_followers: Novos Seguidores
+    lunch_money:
+      assets: Ativos
+      liabilities: Passivos
+      month_change:
+        one: Variação em %{count} mês
+        other: Variação em %{count} meses
+      net_worth: Patrimônio Líquido
+    mailchimp_analytics:
+      clicks: Cliques
+      emails_sent: E-mails Enviados
+      growth_history: Histórico de Crescimento do Mailchimp
+      hard_bounce: Hard Bounce
+      open_rate: Taxa de Abertura
+      soft_bounce: Soft Bounce
+      subscribers: Assinantes
+      unique_opens: Aberturas Únicas
+      unsubscribers: Descadastrados
+    managed_display:
+      needs_setup:
+        description: Atribua este dispositivo a uma sala nos seus apps TRMNL.
+        title: Configure esta tela
+    motivational_quote:
+      title: Frase Motivacional
+      title_short: Frase do dia!
+    nano_banana_dashboard:
+      generation_failed: Falha na Geração
+    poetry_today:
+      by_author: por %{author}
+      title: Poema do Dia
+    polymarket:
+      comments:
+        one: "%{comments} comentário"
+        other: "%{comments} comentários"
+      volume_bet: "%{volume} em apostas"
+    postmark_analytics:
+      bounce_rate: Taxa de Rejeição
+      bounced: Rejeitados
+      clicks: Cliques
+      emails_sent: E-mails Enviados
+      errors: Erros
+      open_rate: Taxa de Abertura
+      spam_complaints: Denúncias de Spam
+      unique_opens: Aberturas Únicas
+    private_plugin:
+      view_not_available: Visualização %{view} indisponível.
+    product_hunt:
+      votes:
+        one: "%{votes} voto"
+        other: "%{votes} votos"
+    profit_well:
+      active_customers: Clientes Ativos
+      churned_customers: Clientes Perdidos
+      new_churned_revenue: Nova Receita Perdida
+      new_customers: Novos Clientes
+      new_recurring_revenue: Nova Receita Recorrente
+      recurring_revenue: Receita Recorrente
+    purpleair:
+      current_humidity: Umidade Atual
+      current_temperature: Temperatura Atual
+    readwise:
+      by_author: por %{author}
+    reddit:
+      only_posts_available:
+        one: Só %{count} post disponível neste período
+        other: Só %{count} posts disponíveis neste período
+      sorted_posts: Posts %{sort}
+      via_author: via u/%{author}
+      votes:
+        one: "%{votes} voto"
+        other: "%{votes} votos"
+    salesforce:
+      via_user: via %{user}
+    shopify:
+      aov: AOV
+      comparison: Comparação
+      current: Atual
+      fulfilled_orders: Pedidos Processados
+      pending_orders: Pedidos Pendentes
+      total_sales: Vendas Totais
+      versus: "(vs. %{amount})"
+    shopping_list:
+      title: Lista de Compras
+    square_pos:
+      total_payments: Total de Pagamentos
+    stock_price:
+      daily_change: Variação Diária
+      title: Cotação de Ações
+    theme_sample:
+      all_components: Todos os componentes
+      color_art: Arte colorida
+      first_row: Primeira linha
+      gray_art: Arte cinza
+      gray_text: Texto cinza
+      item_description: O texto de descrição secundária fica aqui.
+      item_with_meta: Item com faixa meta
+      labels:
+        filled: Preenchido
+        gray: Cinza
+        inverted: Invertido
+        outline: Contorno
+        underlined: Sublinhado
+      progress_bar: Barra de progresso
+      progress_bar_small: Pequena, ênfase 2
+      progress_dots: Pontos de progresso
+      red_text: Texto vermelho
+      second_row: Segunda linha
+      table: Tabela
+      title: Amostra de Tema
+      value: Valor
+    todo_list:
+      title: Lista de Tarefas
+    todolist:
+      due: até %{date}
+      no_tasks: Sem tarefas para mostrar
+      tasks: Tarefas
+    upcoming_movies:
+      release_date: 'Lançamento: %{date}'
+      title: Filmes
+    webhook_image:
+      no_image: Sem Imagem
+      no_image_hint: Envie uma imagem para exibir aqui.
+      title: Imagem via Webhook
+    wiki_random_article:
+      article_of_the_day: Artigo do dia
+    withings:
+      average_suffix: " (média %{value})"
+      body_fat: Gordura %
+      current_weight: Peso Atual
+      daily_sleep_goal: Meta Diária de Sono
+      daily_step_goal: Meta Diária de Passos
+      hours: "%{hours} h"
+      hours_slept: Horas Dormidas
+      last_measurement: Última Medição
+      muscle: Músculo %
+      sleep_efficiency: Eficiência do Sono
+      sleep_goal: Meta de Sono
+      sleep_score: Pontuação do Sono
+      step_goal: Meta de Passos
+      steps_today: Passos Hoje
+      this_period: Este Período
+    workflowy:
+      no_items: Nenhum item para exibir
+    youtube_analytics:
+      average_view_duration: Duração Média da Visualização
+      comments: Comentários
+      hours: Horas
+      likes: Curtidas
+      minutes: Minutos
+      shares: Compartilhamentos
+      subscribers_gained: Novos Inscritos
+      view_through_rate: Taxa de Visualização
+      views: Visualizações
+      watched: "%{unit} de Exibição"
+      subscribers: Subscribers
+      total_views: Total Views
+    system_screens:
+      byod_error:
+        title: Licença necessária
+        message_html: Para usar este recurso, você precisa de um dispositivo físico<br>ou de uma licença BYOD (Bring Your Own Device).
+      byod_trial_expired:
+        title: Teste BYOD encerrado
+        message: Acesse trmnl.com para converter sua licença e reativar este dispositivo.
+      empty_state:
+        title: Tudo em dia!
+        message: Adicione mais plugins à sua playlist ou vá curtir o ar livre
+      identify:
+        message: Seu Friendly ID
+      low_battery:
+        title: Bateria fraca
+        message: Carregue seu TRMNL
+      mac_not_found:
+        title: Endereço MAC não registrado
+        message: Acesse trmnl.com/go/byod para os próximos passos
+      mfa_reset:
+        title: Novo código MFA
+      rate_limit:
+        title: Limite de requisições excedido (429)
+        message: Atualize seu dispositivo com menos frequência
+      needs_setup:
+        title: Termine de configurar %{name}
+        message: Preencha %{fields} em trmnl.com
+      redirect_erroring:
+        title: Erro no plugin Redirect
+        message: Corrija as configurações do plugin para retomar
+      refresh_failed:
+        title: Não deu para atualizar
+        message: Mostrando sua última tela enquanto tentamos de novo
+      refreshing:
+        title: Colocando tudo em dia
+        message: Sua tela vai atualizar automaticamente
+      setup:
+        message: Adicione este ID de Dispositivo em trmnl.com/start
+      technical_difficulties:
+        title: Estamos com problemas técnicos
+        message: Nossa equipe está investigando. Escaneie o QR code para ver detalhes
+    google_analytics:
+      chart_label: "%{stat}, últimos %{days} dias"
+      event_option: 'Evento: %{name}'
+      metrics:
+        engaged_sessions: Sessões Engajadas
+        mins_on_page: Min. por Sessão
+        new_users: Novos Usuários
+        pageviews: Visualizações
+        sessions: Sessões
+        visitors: Visitantes
+      visitors_option: Visitantes (Usuários Ativos)

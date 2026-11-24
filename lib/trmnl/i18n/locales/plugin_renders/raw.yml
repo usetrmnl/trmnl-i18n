@@ -7,10 +7,14 @@ raw:
       no_upcoming_events: renders.calendars.no_upcoming_events
       no_events_today: renders.calendars.no_events_today
       all_day: renders.calendars.all_day
+      upcoming_events: renders.calendars.upcoming_events
     days_left_year:
       title: days_left_year.title
       days_passed: days_left_year.title
       days_left: days_left_year.title
+      board:
+        days_gone: renders.days_left_year.board.days_gone
+        to_go: renders.days_left_year.board.to_go
     lunar_calendar:
       title: renders.lunar_calendar.title
       age: renders.lunar_calendar.age
@@ -111,6 +115,9 @@ raw:
         unknown: parcel.status.unknown
       today: parcel.today
       tomorrow: parcel.tomorrow
+      board:
+        delivering: renders.parcel.board.delivering
+        in_transit: renders.parcel.board.in_transit
     weather:
       title: weather.title
       temperature: weather.temperature
@@ -301,6 +308,7 @@ raw:
           night: renders.weather.weatherapi.conditions[47].night
       dew_point: renders.weather.dew_point
       dew_point_short: renders.weather.dew_point_short
+      precip_chance: renders.weather.precip_chance
     place_of_the_day:
       title: renders.place_of_the_day.title
       wikipedia_credit: renders.place_of_the_day.wikipedia_credit
@@ -342,6 +350,16 @@ raw:
       no_insights_hint: renders.homey.no_insights_hint
       no_devices: renders.homey.no_devices
       no_devices_hint: renders.homey.no_devices_hint
+      state: renders.homey.state
+      closed: renders.homey.closed
+      open: renders.homey.open
+      locked: renders.homey.locked
+      unlocked: renders.homey.unlocked
+      errors:
+        choose_homey: renders.homey.errors.choose_homey
+        connect: renders.homey.errors.connect
+        session_expired: renders.homey.errors.session_expired
+        unreachable: renders.homey.errors.unreachable
     mazevo:
       in_use: renders.mazevo.in_use
       available: renders.mazevo.available
@@ -365,3 +383,451 @@ raw:
     days_left_until:
       today: renders.days_left_until.today
       target: renders.days_left_until.target
+      title: renders.days_left_until.title
+    home_assistant:
+      no_area: renders.home_assistant.no_area
+      lights_on: renders.home_assistant.lights_on
+      unlocked: renders.home_assistant.unlocked
+      open: renders.home_assistant.open
+      no_entities: renders.home_assistant.no_entities
+      no_entities_hint: renders.home_assistant.no_entities_hint
+      no_message: renders.home_assistant.no_message
+      no_message_hint: renders.home_assistant.no_message_hint
+      states:
+        'on': renders.home_assistant.states.on
+        'off': renders.home_assistant.states.off
+        open: renders.home_assistant.states.open
+        closed: renders.home_assistant.states.closed
+        locked: renders.home_assistant.states.locked
+        unlocked: renders.home_assistant.states.unlocked
+        detected: renders.home_assistant.states.detected
+        clear: renders.home_assistant.states.clear
+        home: renders.home_assistant.states.home
+        away: renders.home_assistant.states.away
+        wet: renders.home_assistant.states.wet
+        dry: renders.home_assistant.states.dry
+        playing: renders.home_assistant.states.playing
+        paused: renders.home_assistant.states.paused
+        idle: renders.home_assistant.states.idle
+        unavailable: renders.home_assistant.states.unavailable
+    mashup:
+      empty_slot_message: renders.mashup.empty_slot_message
+      empty_slot_title: renders.mashup.empty_slot_title
+      failed_message: renders.mashup.failed_message
+      failed_title: renders.mashup.failed_title
+      paused_message: renders.mashup.paused_message
+      paused_title: renders.mashup.paused_title
+    notion:
+      untitled: renders.notion.untitled
+      database_view: renders.notion.database_view
+      empty_description: renders.notion.empty_description
+      empty_description_short: renders.notion.empty_description_short
+      empty_description_xshort: renders.notion.empty_description_xshort
+      empty_title: renders.notion.empty_title
+      empty_title_short: renders.notion.empty_title_short
+      error_title: renders.notion.error_title
+      error_title_short: renders.notion.error_title_short
+      image: renders.notion.image
+      image_placeholder: renders.notion.image_placeholder
+    rss_feed:
+      no_content: renders.rss_feed.no_content
+      parse_error_message: renders.rss_feed.parse_error_message
+      parse_error_title: renders.rss_feed.parse_error_title
+      response_code: renders.rss_feed.response_code
+      title: renders.rss_feed.title
+    statuspage:
+      invalid_url: renders.statuspage.invalid_url
+      unreachable: renders.statuspage.unreachable
+      last_incident: renders.statuspage.last_incident
+      scheduled: renders.statuspage.scheduled
+      title: renders.statuspage.title
+    todoist:
+      groups:
+        no_date: renders.todoist.groups.no_date
+        no_deadline: renders.todoist.groups.no_deadline
+        no_label: renders.todoist.groups.no_label
+        overdue: renders.todoist.groups.overdue
+        priority: renders.todoist.groups.priority
+    apple_photos:
+      setup_album: renders.apple_photos.setup_album
+    asana:
+      due: renders.asana.due
+    beehiiv:
+      click_rate: renders.beehiiv.click_rate
+      clicks: renders.beehiiv.clicks
+      open: renders.beehiiv.open
+      open_rate: renders.beehiiv.open_rate
+      recipients: renders.beehiiv.recipients
+      spam_complaints: renders.beehiiv.spam_complaints
+      subject: renders.beehiiv.subject
+      unsubscribes: renders.beehiiv.unsubscribes
+    bible_verses:
+      daily_scripture: renders.bible_verses.daily_scripture
+      word_of_god: renders.bible_verses.word_of_god
+    bitcoin_wallet_balance:
+      change_7_days: renders.bitcoin_wallet_balance.change_7_days
+      change_90_days: renders.bitcoin_wallet_balance.change_90_days
+      title: renders.bitcoin_wallet_balance.title
+    changelog:
+      title: renders.changelog.title
+    clicky:
+      metrics:
+        mins_on_page: renders.clicky.metrics.mins_on_page
+        pageviews: renders.clicky.metrics.pageviews
+        visitors: renders.clicky.metrics.visitors
+    close:
+      via: renders.close.via
+    coinmarketcap:
+      daily_change: renders.coinmarketcap.daily_change
+    convertkit_analytics:
+      account_dashboard: renders.convertkit_analytics.account_dashboard
+      click_rate: renders.convertkit_analytics.click_rate
+      clicks: renders.convertkit_analytics.clicks
+      metric: renders.convertkit_analytics.metric
+      open_rate: renders.convertkit_analytics.open_rate
+      products_sold: renders.convertkit_analytics.products_sold
+      recipients: renders.convertkit_analytics.recipients
+      status: renders.convertkit_analytics.status
+      subscribers: renders.convertkit_analytics.subscribers
+      unsubscribes: renders.convertkit_analytics.unsubscribes
+      value: renders.convertkit_analytics.value
+    days_left_retirement:
+      progress: renders.days_left_retirement.progress
+      title: renders.days_left_retirement.title
+      weeks_left: renders.days_left_retirement.weeks_left
+    days_since:
+      start_date: renders.days_since.start_date
+      title: renders.days_since.title
+    dropbox_photo_album:
+      add_images: renders.dropbox_photo_album.add_images
+    eight_sleep:
+      deep_sleep: renders.eight_sleep.deep_sleep
+      quality: renders.eight_sleep.quality
+      ratings:
+        fair: renders.eight_sleep.ratings.fair
+        good: renders.eight_sleep.ratings.good
+        low: renders.eight_sleep.ratings.low
+        pay_attention: renders.eight_sleep.ratings.pay_attention
+      rem_sleep: renders.eight_sleep.rem_sleep
+      sleep_duration: renders.eight_sleep.sleep_duration
+      snoring: renders.eight_sleep.snoring
+      time_to_sleep: renders.eight_sleep.time_to_sleep
+    email_meter:
+      average_response_time: renders.email_meter.average_response_time
+      messages_received: renders.email_meter.messages_received
+      messages_sent: renders.email_meter.messages_sent
+      recipients: renders.email_meter.recipients
+      senders: renders.email_meter.senders
+    enphase:
+      instance_updated: renders.enphase.instance_updated
+      no_production_today: renders.enphase.no_production_today
+      labels:
+        battery: renders.enphase.labels.battery
+        battery_charge: renders.enphase.labels.battery_charge
+        consumed: renders.enphase.labels.consumed
+        current_power: renders.enphase.labels.current_power
+        exported: renders.enphase.labels.exported
+        grid_dependence: renders.enphase.labels.grid_dependence
+        imported: renders.enphase.labels.imported
+        lifetime: renders.enphase.labels.lifetime
+        net_export: renders.enphase.labels.net_export
+        net_import: renders.enphase.labels.net_import
+        peak_power: renders.enphase.labels.peak_power
+        produced: renders.enphase.labels.produced
+        solar_offset: renders.enphase.labels.solar_offset
+    ethereum_wallet_balance:
+      change_7_days: renders.ethereum_wallet_balance.change_7_days
+      change_90_days: renders.ethereum_wallet_balance.change_90_days
+      title: renders.ethereum_wallet_balance.title
+    etsy:
+      average_order_value_short: renders.etsy.average_order_value_short
+      data_unavailable: renders.etsy.data_unavailable
+      fulfilled_orders: renders.etsy.fulfilled_orders
+      pending_orders: renders.etsy.pending_orders
+      periods:
+        comparison: renders.etsy.periods.comparison
+        current: renders.etsy.periods.current
+      total_sales: renders.etsy.total_sales
+    fera:
+      average_rating: renders.fera.average_rating
+      products: renders.fera.products
+      reviews: renders.fera.reviews
+      verified: renders.fera.verified
+    gaffa:
+      no_articles: renders.gaffa.no_articles
+      waiting_for_feed: renders.gaffa.waiting_for_feed
+    github_commit_graph:
+      average_per_day: renders.github_commit_graph.average_per_day
+      contributions: renders.github_commit_graph.contributions
+      contributions_last_year: renders.github_commit_graph.contributions_last_year
+      current_streak: renders.github_commit_graph.current_streak
+      longest_streak: renders.github_commit_graph.longest_streak
+      most_in_a_day: renders.github_commit_graph.most_in_a_day
+      board:
+        per_day: renders.github_commit_graph.board.per_day
+        per_year: renders.github_commit_graph.board.per_year
+    github_commits:
+      title: renders.github_commits.title
+    github_contributor_summary:
+      commits_last_week: renders.github_contributor_summary.commits_last_week
+      last_week: renders.github_contributor_summary.last_week
+      lifetime: renders.github_contributor_summary.lifetime
+      lifetime_commits: renders.github_contributor_summary.lifetime_commits
+      title: renders.github_contributor_summary.title
+      user: renders.github_contributor_summary.user
+    google_photos:
+      expired:
+        message: renders.google_photos.expired.message
+        title: renders.google_photos.expired.title
+      not_connected:
+        message: renders.google_photos.not_connected.message
+        title: renders.google_photos.not_connected.title
+      reconnect:
+        message: renders.google_photos.reconnect.message
+        title: renders.google_photos.reconnect.title
+    gumroad_analytics:
+      sales_count: renders.gumroad_analytics.sales_count
+      sales_value: renders.gumroad_analytics.sales_value
+    hacker_news:
+      by: renders.hacker_news.by
+      votes:
+        one: renders.hacker_news.votes.one
+        other: renders.hacker_news.votes.other
+    home_assistant_screenshot:
+      no_image: renders.home_assistant_screenshot.no_image
+      upload_screenshot: renders.home_assistant_screenshot.upload_screenshot
+    hubspot:
+      via: renders.hubspot.via
+    huckleberry:
+      awake: renders.huckleberry.awake
+      since: renders.huckleberry.since
+      sleeping: renders.huckleberry.sleeping
+    kickstarter:
+      from_country: renders.kickstarter.from_country
+      funded: renders.kickstarter.funded
+    letterboxd:
+      empty:
+        diary: renders.letterboxd.empty.diary
+        friends: renders.letterboxd.empty.friends
+      rewatch: renders.letterboxd.rewatch
+    linkedin_page:
+      metrics:
+        clicks: renders.linkedin_page.metrics.clicks
+        comments: renders.linkedin_page.metrics.comments
+        engagement_rate: renders.linkedin_page.metrics.engagement_rate
+        followers: renders.linkedin_page.metrics.followers
+        impressions: renders.linkedin_page.metrics.impressions
+        new_followers: renders.linkedin_page.metrics.new_followers
+        reactions: renders.linkedin_page.metrics.reactions
+        shares: renders.linkedin_page.metrics.shares
+      chart_labels:
+        clicks: renders.linkedin_page.chart_labels.clicks
+        engagement_rate: renders.linkedin_page.chart_labels.engagement_rate
+        impressions: renders.linkedin_page.chart_labels.impressions
+        new_followers: renders.linkedin_page.chart_labels.new_followers
+    lunch_money:
+      assets: renders.lunch_money.assets
+      liabilities: renders.lunch_money.liabilities
+      month_change:
+        one: renders.lunch_money.month_change.one
+        other: renders.lunch_money.month_change.other
+      net_worth: renders.lunch_money.net_worth
+    mailchimp_analytics:
+      clicks: renders.mailchimp_analytics.clicks
+      emails_sent: renders.mailchimp_analytics.emails_sent
+      growth_history: renders.mailchimp_analytics.growth_history
+      hard_bounce: renders.mailchimp_analytics.hard_bounce
+      open_rate: renders.mailchimp_analytics.open_rate
+      soft_bounce: renders.mailchimp_analytics.soft_bounce
+      subscribers: renders.mailchimp_analytics.subscribers
+      unique_opens: renders.mailchimp_analytics.unique_opens
+      unsubscribers: renders.mailchimp_analytics.unsubscribers
+    managed_display:
+      needs_setup:
+        description: renders.managed_display.needs_setup.description
+        title: renders.managed_display.needs_setup.title
+    motivational_quote:
+      title: renders.motivational_quote.title
+      title_short: renders.motivational_quote.title_short
+    nano_banana_dashboard:
+      generation_failed: renders.nano_banana_dashboard.generation_failed
+    poetry_today:
+      by_author: renders.poetry_today.by_author
+      title: renders.poetry_today.title
+    polymarket:
+      comments:
+        one: renders.polymarket.comments.one
+        other: renders.polymarket.comments.other
+      volume_bet: renders.polymarket.volume_bet
+    postmark_analytics:
+      bounce_rate: renders.postmark_analytics.bounce_rate
+      bounced: renders.postmark_analytics.bounced
+      clicks: renders.postmark_analytics.clicks
+      emails_sent: renders.postmark_analytics.emails_sent
+      errors: renders.postmark_analytics.errors
+      open_rate: renders.postmark_analytics.open_rate
+      spam_complaints: renders.postmark_analytics.spam_complaints
+      unique_opens: renders.postmark_analytics.unique_opens
+    private_plugin:
+      view_not_available: renders.private_plugin.view_not_available
+    product_hunt:
+      votes:
+        one: renders.product_hunt.votes.one
+        other: renders.product_hunt.votes.other
+    profit_well:
+      active_customers: renders.profit_well.active_customers
+      churned_customers: renders.profit_well.churned_customers
+      new_churned_revenue: renders.profit_well.new_churned_revenue
+      new_customers: renders.profit_well.new_customers
+      new_recurring_revenue: renders.profit_well.new_recurring_revenue
+      recurring_revenue: renders.profit_well.recurring_revenue
+    purpleair:
+      current_humidity: renders.purpleair.current_humidity
+      current_temperature: renders.purpleair.current_temperature
+    readwise:
+      by_author: renders.readwise.by_author
+    reddit:
+      only_posts_available:
+        one: renders.reddit.only_posts_available.one
+        other: renders.reddit.only_posts_available.other
+      sorted_posts: renders.reddit.sorted_posts
+      via_author: renders.reddit.via_author
+      votes:
+        one: renders.reddit.votes.one
+        other: renders.reddit.votes.other
+    salesforce:
+      via_user: renders.salesforce.via_user
+    shopify:
+      aov: renders.shopify.aov
+      comparison: renders.shopify.comparison
+      current: renders.shopify.current
+      fulfilled_orders: renders.shopify.fulfilled_orders
+      pending_orders: renders.shopify.pending_orders
+      total_sales: renders.shopify.total_sales
+      versus: renders.shopify.versus
+    shopping_list:
+      title: renders.shopping_list.title
+    square_pos:
+      total_payments: renders.square_pos.total_payments
+    stock_price:
+      daily_change: renders.stock_price.daily_change
+      title: renders.stock_price.title
+    theme_sample:
+      all_components: renders.theme_sample.all_components
+      color_art: renders.theme_sample.color_art
+      first_row: renders.theme_sample.first_row
+      gray_art: renders.theme_sample.gray_art
+      gray_text: renders.theme_sample.gray_text
+      item_description: renders.theme_sample.item_description
+      item_with_meta: renders.theme_sample.item_with_meta
+      labels:
+        filled: renders.theme_sample.labels.filled
+        gray: renders.theme_sample.labels.gray
+        inverted: renders.theme_sample.labels.inverted
+        outline: renders.theme_sample.labels.outline
+        underlined: renders.theme_sample.labels.underlined
+      progress_bar: renders.theme_sample.progress_bar
+      progress_bar_small: renders.theme_sample.progress_bar_small
+      progress_dots: renders.theme_sample.progress_dots
+      red_text: renders.theme_sample.red_text
+      second_row: renders.theme_sample.second_row
+      table: renders.theme_sample.table
+      title: renders.theme_sample.title
+      value: renders.theme_sample.value
+    todo_list:
+      title: renders.todo_list.title
+    todolist:
+      due: renders.todolist.due
+      no_tasks: renders.todolist.no_tasks
+      tasks: renders.todolist.tasks
+    upcoming_movies:
+      release_date: renders.upcoming_movies.release_date
+      title: renders.upcoming_movies.title
+    webhook_image:
+      no_image: renders.webhook_image.no_image
+      no_image_hint: renders.webhook_image.no_image_hint
+      title: renders.webhook_image.title
+    wiki_random_article:
+      article_of_the_day: renders.wiki_random_article.article_of_the_day
+    withings:
+      average_suffix: renders.withings.average_suffix
+      body_fat: renders.withings.body_fat
+      current_weight: renders.withings.current_weight
+      daily_sleep_goal: renders.withings.daily_sleep_goal
+      daily_step_goal: renders.withings.daily_step_goal
+      hours: renders.withings.hours
+      hours_slept: renders.withings.hours_slept
+      last_measurement: renders.withings.last_measurement
+      muscle: renders.withings.muscle
+      sleep_efficiency: renders.withings.sleep_efficiency
+      sleep_goal: renders.withings.sleep_goal
+      sleep_score: renders.withings.sleep_score
+      step_goal: renders.withings.step_goal
+      steps_today: renders.withings.steps_today
+      this_period: renders.withings.this_period
+    workflowy:
+      no_items: renders.workflowy.no_items
+    youtube_analytics:
+      average_view_duration: renders.youtube_analytics.average_view_duration
+      comments: renders.youtube_analytics.comments
+      hours: renders.youtube_analytics.hours
+      likes: renders.youtube_analytics.likes
+      minutes: renders.youtube_analytics.minutes
+      shares: renders.youtube_analytics.shares
+      subscribers_gained: renders.youtube_analytics.subscribers_gained
+      view_through_rate: renders.youtube_analytics.view_through_rate
+      views: renders.youtube_analytics.views
+      watched: renders.youtube_analytics.watched
+      subscribers: renders.youtube_analytics.subscribers
+      total_views: renders.youtube_analytics.total_views
+    system_screens:
+      byod_error:
+        title: renders.system_screens.byod_error.title
+        message_html: renders.system_screens.byod_error.message_html
+      byod_trial_expired:
+        title: renders.system_screens.byod_trial_expired.title
+        message: renders.system_screens.byod_trial_expired.message
+      empty_state:
+        title: renders.system_screens.empty_state.title
+        message: renders.system_screens.empty_state.message
+      identify:
+        message: renders.system_screens.identify.message
+      low_battery:
+        title: renders.system_screens.low_battery.title
+        message: renders.system_screens.low_battery.message
+      mac_not_found:
+        title: renders.system_screens.mac_not_found.title
+        message: renders.system_screens.mac_not_found.message
+      mfa_reset:
+        title: renders.system_screens.mfa_reset.title
+      rate_limit:
+        title: renders.system_screens.rate_limit.title
+        message: renders.system_screens.rate_limit.message
+      needs_setup:
+        title: renders.system_screens.needs_setup.title
+        message: renders.system_screens.needs_setup.message
+      redirect_erroring:
+        title: renders.system_screens.redirect_erroring.title
+        message: renders.system_screens.redirect_erroring.message
+      refresh_failed:
+        title: renders.system_screens.refresh_failed.title
+        message: renders.system_screens.refresh_failed.message
+      refreshing:
+        title: renders.system_screens.refreshing.title
+        message: renders.system_screens.refreshing.message
+      setup:
+        message: renders.system_screens.setup.message
+      technical_difficulties:
+        title: renders.system_screens.technical_difficulties.title
+        message: renders.system_screens.technical_difficulties.message
+    google_analytics:
+      chart_label: renders.google_analytics.chart_label
+      event_option: renders.google_analytics.event_option
+      metrics:
+        engaged_sessions: renders.google_analytics.metrics.engaged_sessions
+        mins_on_page: renders.google_analytics.metrics.mins_on_page
+        new_users: renders.google_analytics.metrics.new_users
+        pageviews: renders.google_analytics.metrics.pageviews
+        sessions: renders.google_analytics.metrics.sessions
+        visitors: renders.google_analytics.metrics.visitors
+      visitors_option: renders.google_analytics.visitors_option

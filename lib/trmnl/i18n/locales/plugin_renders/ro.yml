@@ -7,10 +7,14 @@ ro:
       no_upcoming_events: Nu există evenimente viitoare
       no_events_today: Nu există evenimente astăzi
       all_day: toată ziua
+      upcoming_events: Evenimente viitoare
     days_left_year:
       title: Zile rămase în acest an
       days_passed: Zile trecute
       days_left: Zile rămase
+      board:
+        days_gone: zile trecute
+        to_go: zile rămase
     lunar_calendar:
       title: Calendar lunar
       age: Vârsta Lunii
@@ -113,6 +117,9 @@ ro:
         unknown: Necunoscut
       today: Astăzi
       tomorrow: Mâine
+      board:
+        delivering: în livrare
+        in_transit: în tranzit
     weather:
       title: Meteo
       temperature: Temperatură
@@ -303,6 +310,7 @@ ro:
           night: Ninsoare cu descărcări electrice
       dew_point: Punct de rouă
       dew_point_short: Pct. rouă
+      precip_chance: Prob. precip.
     place_of_the_day:
       title: Locul zilei
       wikipedia_credit: Wikipedia CC BY-SA
@@ -347,6 +355,16 @@ ro:
       no_insights_hint: O aplicație Homey poate trimite un jurnal Insights pentru a afișa graficul aici
       no_devices: Se așteaptă primele dispozitive
       no_devices_hint: Apar după prima trimitere sau sincronizare cu cloudul
+      state: Stare
+      closed: Închis
+      open: Deschis
+      locked: Încuiat
+      unlocked: Descuiat
+      errors:
+        choose_homey: Alege din setările pluginului dispozitivul Homey pe care vrei să-l afișezi.
+        connect: Conectează contul Homey din setările pluginului sau trimite o captură de stare dintr-o aplicație Homey.
+        session_expired: Sesiunea Homey a expirat. Reconectează contul din setările pluginului.
+        unreachable: Nu se poate stabili conexiunea cu Homey. Încearcă din nou peste puțin timp.
     mazevo:
       in_use: În utilizare
       available: Disponibil
@@ -364,9 +382,463 @@ ro:
       out_of_credit:
         title: Credit AI epuizat
         description: Abonează-te la TRMNL+ pentru credite AI sau reîncarcă contul pentru a folosi acest plugin.
-        own_api_key_off: Or turn on "Use my own AI key" in this dashboard's settings.
+        own_api_key_off: Sau activează „Folosește propria cheie AI” în setările acestui panou.
       ai_key_refused:
-        title: Your AI provider refused your key
+        title: Furnizorul AI a refuzat cheia ta
     days_left_until:
       today: 'Astăzi: %{date}'
       target: 'Țintă: %{date}'
+      title: Zile până la...
+    home_assistant:
+      no_area: Fără zonă
+      lights_on: Lumini aprinse
+      unlocked: Descuiate
+      open: Deschise
+      no_entities: Nimic de afișat încă
+      no_entities_hint: Alege în Home Assistant ce entități vrei să vezi aici
+      no_message: Niciun mesaj încă
+      no_message_hint: Aici apar mesajele din Home Assistant
+      states:
+        'on': Pornit
+        'off': Oprit
+        open: Deschis
+        closed: Închis
+        locked: Încuiat
+        unlocked: Descuiat
+        detected: Detectat
+        clear: Nedetectat
+        home: Acasă
+        away: Plecat
+        wet: Umed
+        dry: Uscat
+        playing: În redare
+        paused: În pauză
+        idle: În repaus
+        unavailable: Indisponibil
+    mashup:
+      empty_slot_message: Adaugă un plugin la această compoziție.
+      empty_slot_title: Spațiu gol
+      failed_message: Pluginul %{plugin} a întâmpinat o problemă. Verifică setările pluginului sau contactează echipa de asistență.
+      failed_title: Compoziția nu a putut fi generată
+      paused_message: Pluginul %{plugin} a fost suspendat după mai multe erori de afișare. Corectează setările și resetează starea pluginului pentru a-l reporni.
+      paused_title: Plugin suspendat
+    notion:
+      untitled: Fără titlu
+      database_view: Vizualizare bază de date
+      empty_description: Verifică setările Notion și încearcă din nou
+      empty_description_short: Verifică setările Notion
+      empty_description_xshort: Verifică setările
+      empty_title: Nu există conținut de afișat
+      empty_title_short: Fără conținut
+      error_title: Eroare Notion
+      error_title_short: Eroare
+      image: Imagine
+      image_placeholder: Imagine de rezervă
+    rss_feed:
+      no_content: Fără conținut
+      parse_error_message: 'Mesaj: %{message}'
+      parse_error_title: Eroare la citirea fluxului RSS
+      response_code: 'Cod de răspuns: %{code}'
+      title: Flux RSS
+    statuspage:
+      invalid_url: URL nevalid
+      unreachable: Nu se poate accesa
+      last_incident: 'Ultimul incident: %{time}'
+      scheduled: 'Programat: %{date}'
+      title: Pagini de stare
+    todoist:
+      groups:
+        no_date: Fără dată
+        no_deadline: Fără termen-limită
+        no_label: Fără etichetă
+        overdue: Cu termen depășit
+        priority: Prioritate %{priority}
+    apple_photos:
+      setup_album: Configurează albumul.
+    asana:
+      due: scadent la %{date}
+    beehiiv:
+      click_rate: Rată de clic
+      clicks: Clicuri
+      open: Deschis
+      open_rate: Rată de deschidere
+      recipients: Destinatari
+      spam_complaints: Raportări ca spam
+      subject: Subiect
+      unsubscribes: Dezabonări
+    bible_verses:
+      daily_scripture: Scriptura zilei
+      word_of_god: Cuvântul lui Dumnezeu
+    bitcoin_wallet_balance:
+      change_7_days: Variație în 7 zile
+      change_90_days: Variație în 90 de zile
+      title: Portofel Bitcoin
+    changelog:
+      title: Știri TRMNL
+    clicky:
+      metrics:
+        mins_on_page: Minute pe pagină
+        pageviews: Afișări de pagină
+        visitors: Vizitatori
+    close:
+      via: prin %{user}
+    coinmarketcap:
+      daily_change: Variație zilnică
+    convertkit_analytics:
+      account_dashboard: Panoul contului
+      click_rate: Rată de clic
+      clicks: Clicuri
+      metric: Indicator
+      open_rate: Rată de deschidere
+      products_sold: Produse vândute
+      recipients: Destinatari
+      status: Stare
+      subscribers: Abonați
+      unsubscribes: Dezabonări
+      value: Valoare
+    days_left_retirement:
+      progress: Progres
+      title: Progres până la pensionare
+      weeks_left: Săptămâni rămase
+    days_since:
+      start_date: Data de început
+      title: Zile de la...
+    dropbox_photo_album:
+      add_images: Adaugă imagini în dosarul /Apps/usetrmnl.com din contul tău Dropbox
+    eight_sleep:
+      deep_sleep: Somn profund
+      quality: Calitate
+      ratings:
+        fair: Acceptabilă
+        good: Bună
+        low: Slabă
+        pay_attention: Necesită atenție
+      rem_sleep: Somn REM
+      sleep_duration: Durata somnului
+      snoring: Sforăit
+      time_to_sleep: Timp până la adormire
+    email_meter:
+      average_response_time: Timp mediu de răspuns
+      messages_received: Mesaje primite
+      messages_sent: Mesaje trimise
+      recipients: Destinatari
+      senders: Expeditori
+    enphase:
+      instance_updated: "%{instance} (actualizat la %{time})"
+      no_production_today: Încă nu există date despre producția de azi
+      labels:
+        battery: Baterie
+        battery_charge: Baterie · %{percent}%
+        consumed: Consumat
+        current_power: Producție acum
+        exported: Exportat
+        grid_dependence: Dependență de rețea
+        imported: Importat
+        lifetime: De la început
+        net_export: Export net
+        net_import: Import net
+        peak_power: Vârf astăzi
+        produced: Produs
+        solar_offset: Consum acoperit din producția solară
+    ethereum_wallet_balance:
+      change_7_days: Variație în 7 zile
+      change_90_days: Variație în 90 de zile
+      title: Portofel Ethereum
+    etsy:
+      average_order_value_short: Val. medie comandă
+      data_unavailable: Datele Etsy nu sunt disponibile
+      fulfilled_orders: Comenzi onorate
+      pending_orders: Comenzi în așteptare
+      periods:
+        comparison: Comparație
+        current: Curentă
+      total_sales: Vânzări totale
+    fera:
+      average_rating: Evaluare medie
+      products: Produse
+      reviews: Recenzii
+      verified: Verificat
+    gaffa:
+      no_articles: Încă nu sunt articole
+      waiting_for_feed: Se așteaptă prelucrarea fluxului de știri de către Gaffa...
+    github_commit_graph:
+      average_per_day: Medie pe zi
+      contributions: Contribuții
+      contributions_last_year: Contribuții în ultimul an
+      current_streak: Serie curentă
+      longest_streak: Cea mai lungă serie
+      most_in_a_day: Maxim într-o zi
+      board:
+        per_day: "/ zi"
+        per_year: "/ an"
+    github_commits:
+      title: Commituri recente
+    github_contributor_summary:
+      commits_last_week: Commituri săptămâna trecută
+      last_week: Săptămâna trecută
+      lifetime: De la început
+      lifetime_commits: Total commituri
+      title: Rezumatul contribuțiilor
+      user: Utilizator
+    google_photos:
+      expired:
+        message: Accesul la Google a expirat. Alege din nou fotografiile în setările pluginului.
+        title: Alege din nou fotografiile
+      not_connected:
+        message: Alege fotografii în setările pluginului ca să începi.
+        title: Nicio fotografie selectată
+      reconnect:
+        message: Reconectează contul Google din setările pluginului.
+        title: Reconectează contul Google
+    gumroad_analytics:
+      sales_count: Număr de vânzări
+      sales_value: Valoarea vânzărilor
+    hacker_news:
+      by: de %{author}
+      votes:
+        one: "%{score} vot"
+        other: "%{score} de voturi"
+        few: "%{score} voturi"
+    home_assistant_screenshot:
+      no_image: Fără imagine
+      upload_screenshot: Încarcă o captură din Home Assistant.
+    hubspot:
+      via: prin %{user}
+    huckleberry:
+      awake: Treaz
+      since: de la %{time}
+      sleeping: Doarme
+    kickstarter:
+      from_country: din %{country}
+      funded: "%{amount} strânși"
+    letterboxd:
+      empty:
+        diary: Încă nu ai nimic în jurnal. Înregistrează un film în Letterboxd ca să apară aici.
+        friends: Nicio activitate recentă de la persoanele pe care le urmărești.
+      rewatch: revăzut
+    linkedin_page:
+      metrics:
+        clicks: Clicuri
+        comments: Comentarii
+        engagement_rate: Rată de interacțiune
+        followers: Urmăritori
+        impressions: Afișări
+        new_followers: Urmăritori noi
+        reactions: Reacții
+        shares: Distribuiri
+      chart_labels:
+        clicks: Clicuri
+        engagement_rate: Rată de interacțiune
+        impressions: Afișări
+        new_followers: Urmăritori noi
+    lunch_money:
+      assets: Active
+      liabilities: Datorii
+      month_change:
+        one: "Variație pe %{count} lună"
+        other: "Variație pe %{count} de luni"
+        few: Variație pe %{count} luni
+      net_worth: Avere netă
+    mailchimp_analytics:
+      clicks: Clicuri
+      emails_sent: E-mailuri trimise
+      growth_history: Evoluție Mailchimp
+      hard_bounce: Respingeri definitive
+      open_rate: Rată de deschidere
+      soft_bounce: Respingeri temporare
+      subscribers: Abonați
+      unique_opens: Deschideri unice
+      unsubscribers: Dezabonări
+    managed_display:
+      needs_setup:
+        description: Asociază dispozitivul cu o sală din aplicațiile TRMNL.
+        title: Configurează acest afișaj
+    motivational_quote:
+      title: Citat motivațional
+      title_short: Citatul zilei!
+    nano_banana_dashboard:
+      generation_failed: Generarea a eșuat
+    poetry_today:
+      by_author: de %{author}
+      title: Poezia zilei
+    polymarket:
+      comments:
+        one: "%{comments} comentariu"
+        other: "%{comments} de comentarii"
+        few: "%{comments} comentarii"
+      volume_bet: "Pariuri: %{volume}"
+    postmark_analytics:
+      bounce_rate: Rată de respingere
+      bounced: Respinse
+      clicks: Clicuri
+      emails_sent: E-mailuri trimise
+      errors: Erori
+      open_rate: Rată de deschidere
+      spam_complaints: Raportări ca spam
+      unique_opens: Deschideri unice
+    private_plugin:
+      view_not_available: "Vizualizarea %{view} nu este disponibilă."
+    product_hunt:
+      votes:
+        one: "%{votes} vot"
+        other: "%{votes} de voturi"
+        few: "%{votes} voturi"
+    profit_well:
+      active_customers: Clienți activi
+      churned_customers: Clienți pierduți
+      new_churned_revenue: Venit pierdut recent
+      new_customers: Clienți noi
+      new_recurring_revenue: Venit recurent nou
+      recurring_revenue: Venit recurent
+    purpleair:
+      current_humidity: Umiditate curentă
+      current_temperature: Temperatură curentă
+    readwise:
+      by_author: de %{author}
+    reddit:
+      only_posts_available:
+        one: Ai doar %{count} postare în acest interval
+        other: Ai doar %{count} de postări în acest interval
+        few: Ai doar %{count} postări în acest interval
+      sorted_posts: "Postări: %{sort}"
+      via_author: prin u/%{author}
+      votes:
+        one: "%{votes} vot"
+        other: "%{votes} de voturi"
+        few: "%{votes} voturi"
+    salesforce:
+      via_user: prin %{user}
+    shopify:
+      aov: Val. medie comandă
+      comparison: Comparație
+      current: Curentă
+      fulfilled_orders: Comenzi onorate
+      pending_orders: Comenzi în așteptare
+      total_sales: Vânzări totale
+      versus: "(față de %{amount})"
+    shopping_list:
+      title: Listă de cumpărături
+    square_pos:
+      total_payments: Total plăți
+    stock_price:
+      daily_change: Variație zilnică
+      title: Cotații bursiere
+    theme_sample:
+      all_components: Toate componentele
+      color_art: Ilustrație color
+      first_row: Primul rând
+      gray_art: Ilustrație în tonuri de gri
+      gray_text: Text gri
+      item_description: Aici apare descrierea secundară.
+      item_with_meta: Element cu bară de detalii
+      labels:
+        filled: Plin
+        gray: Gri
+        inverted: Inversat
+        outline: Contur
+        underlined: Subliniat
+      progress_bar: Bară de progres
+      progress_bar_small: Mică, accent 2
+      progress_dots: Puncte de progres
+      red_text: Text roșu
+      second_row: Al doilea rând
+      table: Tabel
+      title: Exemplu de temă
+      value: Valoare
+    todo_list:
+      title: Listă de sarcini
+    todolist:
+      due: scadent la %{date}
+      no_tasks: Nicio sarcină de afișat
+      tasks: Sarcini
+    upcoming_movies:
+      release_date: 'Data lansării: %{date}'
+      title: Filme
+    webhook_image:
+      no_image: Fără imagine
+      no_image_hint: Încarcă o imagine ca să o afișezi aici.
+      title: Imagine prin webhook
+    wiki_random_article:
+      article_of_the_day: Articolul zilei
+    withings:
+      average_suffix: " (%{value} în medie)"
+      body_fat: Grăsime corporală %
+      current_weight: Greutate curentă
+      daily_sleep_goal: Obiectiv zilnic de somn
+      daily_step_goal: Obiectiv zilnic de pași
+      hours: "%{hours} h"
+      hours_slept: Ore dormite
+      last_measurement: Ultima măsurătoare
+      muscle: Masă musculară %
+      sleep_efficiency: Eficiența somnului
+      sleep_goal: Obiectiv de somn
+      sleep_score: Scor de somn
+      step_goal: Obiectiv de pași
+      steps_today: Pași astăzi
+      this_period: În această perioadă
+    workflowy:
+      no_items: Niciun element de afișat
+    youtube_analytics:
+      average_view_duration: Durata medie de vizionare
+      comments: Comentarii
+      hours: Ore
+      likes: Aprecieri
+      minutes: Minute
+      shares: Distribuiri
+      subscribers_gained: Abonați câștigați
+      view_through_rate: Rată de vizionare
+      views: Vizionări
+      watched: "%{unit} de vizionare"
+      subscribers: Abonați
+      total_views: Total vizionări
+    system_screens:
+      byod_error:
+        title: Ai nevoie de o licență
+        message_html: Pentru această funcție ai nevoie de un dispozitiv fizic<br>sau de o licență BYOD (Bring Your Own Device).
+      byod_trial_expired:
+        title: Perioada de probă BYOD s-a încheiat
+        message: Intră pe trmnl.com ca să treci la o licență completă și să reactivezi dispozitivul.
+      empty_state:
+        title: Ești la zi!
+        message: Adaugă pluginuri în lista de redare sau ieși puțin la aer
+      identify:
+        message: ID-ul tău de asociere
+      low_battery:
+        title: Baterie descărcată
+        message: Încarcă dispozitivul TRMNL
+      mac_not_found:
+        title: Adresă MAC neînregistrată
+        message: Vezi pașii următori pe trmnl.com/go/byod
+      mfa_reset:
+        title: Cod MFA nou
+      rate_limit:
+        title: Limită de cereri depășită (429)
+        message: Reîmprospătează dispozitivul mai rar
+      needs_setup:
+        title: "Finalizează configurarea: %{name}"
+        message: Completează %{fields} pe trmnl.com
+      redirect_erroring:
+        title: Eroare la pluginul de redirecționare
+        message: Corectează setările pluginului ca să reiei afișarea
+      refresh_failed:
+        title: Actualizarea nu a reușit
+        message: Ultimul ecran rămâne afișat până la următoarea încercare
+      refreshing:
+        title: Se actualizează
+        message: Ecranul se va actualiza automat
+      setup:
+        message: Adaugă acest ID de dispozitiv pe trmnl.com/start
+      technical_difficulties:
+        title: Întâmpinăm probleme tehnice
+        message: Echipa investighează problema. Scanează codul QR pentru detalii
+    google_analytics:
+      chart_label: "%{stat} · perioadă: %{days} z."
+      event_option: 'Eveniment: %{name}'
+      metrics:
+        engaged_sessions: Sesiuni cu interacțiune
+        mins_on_page: Minute pe sesiune
+        new_users: Utilizatori noi
+        pageviews: Afișări de pagină
+        sessions: Sesiuni
+        visitors: Vizitatori
+      visitors_option: Vizitatori (utilizatori activi)

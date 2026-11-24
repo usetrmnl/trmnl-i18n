@@ -1,3 +1,22 @@
 ---
 de-AT:
   locale_name: Deutsch (Österreich)
+  assistants:
+    home:
+      keep: Pin to home
+      kept: Pinned to home
+      starter_hint: Pin a card from any chat to build your own home.
+    composer:
+      placeholder: Message trmy
+  plugins:
+    recipes:
+      recipe_lander:
+        fork_warning: 'Forking makes a copy of this recipe that you can edit. The author''s updates no longer reach your copy on their own: your plugin''s settings show when the recipe changes, and you can take the changes from there.'
+  integration_overviews:
+    youtube_analytics: |-
+      Your YouTube channel stats, on a TRMNL ePaper display. Views and hours watched lead the screen, followed by average view duration, subscribers gained, view through rate, likes, comments and shares.
+
+      Connect with the Google account that owns your channel (managers of a shared channel can't connect it), then choose a lookback of 7, 28, 90 or 365 days, or Lifetime for totals since the channel started. Run more than 1 channel? Add the plugin once per channel and name each one so you can tell them apart.
+  devices:
+    edit:
+      pinned_firmware_hint: Support has pinned this device to this firmware build for troubleshooting. While OTA updates are on, the device installs this build again at its next check-in, even after you flash other firmware over USB. To keep your own firmware, turn off OTA updates first.

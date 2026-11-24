@@ -5,57 +5,57 @@ pt-BR:
     tomorrow: amanhã
     updated: Atualizado
     activity: Atividade
-    done: Done
+    done: Feito
     due: Até
-    weather: Weather
-    temperature: Temperature
-    air_temperature: Air Temperature
-    feels_like: Feels Like
-    wet_bulb_temperature: Wet-Bulb Temperature
-    wet_bulb_temperature_short: WBT
-    wet_bulb_globe_temperature: Wet-Bulb Globe Temperature
-    wet_bulb_globe_temperature_short: WBGT
-    dew_point: Dew Point
+    weather: Clima
+    temperature: Temperatura
+    air_temperature: Temperatura do Ar
+    feels_like: Sensação Térmica
+    wet_bulb_temperature: Temperatura de Bulbo Úmido
+    wet_bulb_temperature_short: TBU
+    wet_bulb_globe_temperature: Índice de Bulbo Úmido Termômetro de Globo
+    wet_bulb_globe_temperature_short: IBUTG
+    dew_point: Ponto de Orvalho
     delta_t: Delta T
-    humidity: Humidity
-    air_density: Air Density
-    pressure: Pressure
-    station_pressure: Station Pressure
-    sea_level_pressure: Sea-Level Pressure
-    pressure_trend: Pressure Trend
-    pressure_rising: Pressure Rising
-    pressure_steady: Pressure Steady
-    pressure_falling: Pressure Falling
-    wind: Wind
-    wind_average: Average Wind
-    wind_gust: Wind Gust
-    wind_direction: Wind Direction
-    precipitation: Precipitation
-    precipitation_probability: Precipitation Probability
-    precipitation_today: Precipitation Today
-    precipitation_yesterday: Precipitation Yesterday
-    precipitation_duration_today: Precipitation Duration Today
-    precipitation_duration_yesterday: Precipitation Duration Yesterday
-    uv: UV Index
+    humidity: Umidade
+    air_density: Densidade do Ar
+    pressure: Pressão
+    station_pressure: Pressão na Estação
+    sea_level_pressure: Pressão ao Nível do Mar
+    pressure_trend: Tendência da Pressão
+    pressure_rising: Pressão Subindo
+    pressure_steady: Pressão Estável
+    pressure_falling: Pressão Caindo
+    wind: Vento
+    wind_average: Vento Médio
+    wind_gust: Rajada de Vento
+    wind_direction: Direção do Vento
+    precipitation: Precipitação
+    precipitation_probability: Probabilidade de Precipitação
+    precipitation_today: Precipitação Hoje
+    precipitation_yesterday: Precipitação Ontem
+    precipitation_duration_today: Duração da Precipitação Hoje
+    precipitation_duration_yesterday: Duração da Precipitação Ontem
+    uv: Índice UV
     uv_short: UV
-    solar_radiation: Solar Radiation
-    brightness: Brightness
-    solar_radiation_and_brightness: Solar Radiation & Brightness
-    lightning: Lightning
-    lightning_activity: Lightning Activity
-    last_lightning_strike: Last Lightning Strike
-    lightning_distance: Lightning Distance
-    lightning_strikes_1h: Lightning Strikes (1 h)
-    lightning_strikes_3h: Lightning Strikes (3 h)
-    conditions: Conditions
-    right_now: Right Now
-    sunrise: Sunrise
-    sunset: Sunset
-    low: Low
-    high: High
-    min: Min.
-    max: Max.
-    refreshed: Refreshed
+    solar_radiation: Radiação Solar
+    brightness: Luminosidade
+    solar_radiation_and_brightness: Radiação Solar e Luminosidade
+    lightning: Raios
+    lightning_activity: Atividade de Raios
+    last_lightning_strike: Último Raio
+    lightning_distance: Distância do Raio
+    lightning_strikes_1h: Raios (1 h)
+    lightning_strikes_3h: Raios (3 h)
+    conditions: Condições
+    right_now: Agora
+    sunrise: Nascer do Sol
+    sunset: Pôr do Sol
+    low: Mínima
+    high: Máxima
+    min: Mín.
+    max: Máx.
+    refreshed: Atualizado
     deutsche_bahn_departures:
       departures: Partidas
       time: Hora
@@ -72,7 +72,7 @@ pt-BR:
       title: Calendário
       ym_format: "%B de %Y"
       chinese_korean:
-        leap_format: Leap %{month_label}
+        leap_format: "%{month_label} bissexto"
         leap_format_short: LM%{alt_month}
         ym_format: ", %{leap_month_label} %{heavenly_stem} %{earthly_branch}"
         month_labels:
@@ -146,43 +146,43 @@ pt-BR:
         - Cachorro
         - Porco
         zodiac_animals:
-        - Rat
-        - Ox
-        - Tiger
-        - Rabbit
-        - Dragon
-        - Snake
-        - Horse
-        - Goat
-        - Monkey
-        - Rooster
-        - Dog
-        - Pig
+        - Rato
+        - Boi
+        - Tigre
+        - Coelho
+        - Dragão
+        - Cobra
+        - Cavalo
+        - Bode
+        - Macaco
+        - Galo
+        - Cachorro
+        - Porco
         solar_terms:
-        - Minor Cold
-        - Major Cold
-        - Start of Spring
-        - Rain Water
-        - Awakening of Insects
-        - Spring Equinox
-        - Pure Brightness
-        - Grain Rain
-        - Start of Summer
-        - Grain Buds
-        - Grain in Ear
-        - Summer Solstice
-        - Minor Heat
-        - Major Heat
-        - Start of Autumn
-        - End of Heat
-        - White Dew
-        - Autumn Equinox
-        - Cold Dew
-        - Frost's Descent
-        - Start of Winter
-        - Minor Snow
-        - Major Snow
-        - Winter Solstice
+        - Pequeno Frio
+        - Grande Frio
+        - Início da Primavera
+        - Água da Chuva
+        - Despertar dos Insetos
+        - Equinócio de Primavera
+        - Claridade Pura
+        - Chuva de Grãos
+        - Início do Verão
+        - Brotos de Grãos
+        - Grãos na Espiga
+        - Solstício de Verão
+        - Pequeno Calor
+        - Grande Calor
+        - Início do Outono
+        - Fim do Calor
+        - Orvalho Branco
+        - Equinócio de Outono
+        - Orvalho Frio
+        - Queda da Geada
+        - Início do Inverno
+        - Pequena Neve
+        - Grande Neve
+        - Solstício de Inverno
       japanese:
         rokuyo_terms:
         - 先勝
@@ -193,7 +193,7 @@ pt-BR:
         - 赤口
         nengo:
           reiwa: Reiwa
-        ym_format: "%B %Y (%{nengo} %{alt_year})"
+        ym_format: "%B de %Y (%{nengo} %{alt_year})"
         year_1: '1'
       hebrew:
         ym_format: ", %{month_label} %{alt_year}"
@@ -239,7 +239,7 @@ pt-BR:
         - Jumada II
         - Rajab
         - Shaʻban
-        - Ramadan
+        - Ramadã
         - Shawwal
         - Dhuʻl-Qiʻdah
         - Dhuʻl-Hijjah
@@ -278,26 +278,26 @@ pt-BR:
     public_recipe_stats:
       connections: ".input {$value :number} .match $value one {{{$value :number} conexão}} many {{{$value :number} conexões}} * {{{$value :number} conexões}}"
       forks: ".input {$value :number} .match $value one {{{$value :number} derivação}} many {{{$value :number} derivações}} * {{{$value :number} derivações}}"
-      installs: ".input {$value :number} .match $value zero {{No install}} one {{{$value :number} install}} * {{{$value :number} installs}}"
+      installs: ".input {$value :number} .match $value zero {{Nenhuma instalação}} one {{{$value :number} instalação}} * {{{$value :number} instalações}}"
       and_more: e {$value :number} mais
-      error_keyword_title: "“{$keyword}” did not match any result."
-      error_keyword_subtitle: Try searching for something else.
-      error_new_title: No new recipe is found.
-      error_new_subtitle: This shouldn’t happen.
-      error_self_title: You did not publish any recipe.
-      error_self_subtitle: Learn how to publish your first one at https://help.trmnl.com/en/articles/9510536-private-plugins
-      error_author_id_title: 'User #{$authorId} did not publish any recipe.'
-      error_author_id_subtitle: No recipe is found associated with this ID.
-      error_recipe_ids_title: No recipe ID is found.
-      error_recipe_ids_subtitle: Add a recipe ID to get started.
+      error_keyword_title: Nenhum resultado para “{$keyword}”.
+      error_keyword_subtitle: Tente buscar outra coisa.
+      error_new_title: Nenhuma Receita nova encontrada.
+      error_new_subtitle: Isso não deveria acontecer.
+      error_self_title: Você não publicou nenhuma Receita.
+      error_self_subtitle: Aprenda a publicar a primeira em https://help.trmnl.com/en/articles/9510536-private-plugins
+      error_author_id_title: 'O usuário #{$authorId} não publicou nenhuma Receita.'
+      error_author_id_subtitle: Nenhuma Receita encontrada para este ID.
+      error_recipe_ids_title: Nenhum ID de Receita encontrado.
+      error_recipe_ids_subtitle: Adicione um ID de Receita para começar.
     horizontal_world_clock:
-      name: World clock
+      name: Relógio mundial
     language_learning_sentences:
-      from_to: "{$from :langName} to {$to :langNameList}"
+      from_to: "{$from :langName} para {$to :langNameList}"
     custom_next_holiday:
-      next_holiday: Next holiday
-      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Tomorrow is {$nextName}.{/subLabel} }}* {{ {#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Next holiday is {$nextName} in {$nextDays} days.{/subLabel} }}"
-      today_only: "{#mainLabel}Today is{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
-      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Tomorrow is{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} days until{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
-      no_holidays: "{#subLabel}End of added holidays.{/subLabel}"
-    sun_chart: Sun Chart
+      next_holiday: Próximo feriado
+      today_and_next: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Hoje é{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}Amanhã é {$nextName}.{/subLabel} }}* {{ {#mainLabel}Hoje é{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}{#br/}{#subLabel}O próximo feriado é {$nextName}, em {$nextDays} dias.{/subLabel} }}"
+      today_only: "{#mainLabel}Hoje é{/mainLabel}{#br/}{#mainValue}{$name}{/mainValue}"
+      next_only: ".input {$nextDays :number} .match $nextDays one {{ {#mainLabel}Amanhã é{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}* {{ {#mainValue}{$nextDays}{/mainValue}{#mainLabel} dias até{/mainLabel}{#br/}{#mainValue}{$nextName}{/mainValue} }}"
+      no_holidays: "{#subLabel}Fim dos feriados adicionados.{/subLabel}"
+    sun_chart: Gráfico Solar
