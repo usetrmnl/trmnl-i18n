@@ -635,8 +635,8 @@ ro:
       assets: Active
       liabilities: Datorii
       month_change:
-        one: "Variație pe %{count} lună"
-        other: "Variație pe %{count} de luni"
+        one: Variație pe %{count} lună
+        other: Variație pe %{count} de luni
         few: Variație pe %{count} luni
       net_worth: Avere netă
     mailchimp_analytics:
@@ -666,7 +666,7 @@ ro:
         one: "%{comments} comentariu"
         other: "%{comments} de comentarii"
         few: "%{comments} comentarii"
-      volume_bet: "Pariuri: %{volume}"
+      volume_bet: 'Pariuri: %{volume}'
     postmark_analytics:
       bounce_rate: Rată de respingere
       bounced: Respinse
@@ -677,7 +677,7 @@ ro:
       spam_complaints: Raportări ca spam
       unique_opens: Deschideri unice
     private_plugin:
-      view_not_available: "Vizualizarea %{view} nu este disponibilă."
+      view_not_available: Vizualizarea %{view} nu este disponibilă.
     product_hunt:
       votes:
         one: "%{votes} vot"
@@ -700,7 +700,7 @@ ro:
         one: Ai doar %{count} postare în acest interval
         other: Ai doar %{count} de postări în acest interval
         few: Ai doar %{count} postări în acest interval
-      sorted_posts: "Postări: %{sort}"
+      sorted_posts: 'Postări: %{sort}'
       via_author: prin u/%{author}
       votes:
         one: "%{votes} vot"
@@ -815,7 +815,7 @@ ro:
         title: Limită de cereri depășită (429)
         message: Reîmprospătează dispozitivul mai rar
       needs_setup:
-        title: "Finalizează configurarea: %{name}"
+        title: 'Finalizează configurarea: %{name}'
         message: Completează %{fields} pe trmnl.com
       redirect_erroring:
         title: Eroare la pluginul de redirecționare
