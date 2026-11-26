@@ -374,8 +374,6 @@ zh-HK:
       morning_salutation: 早晨
       afternoon_salutation: 午安
       evening_salutation: 晚安
-    discover_callout_dismiss:
-      hide_discover_banner: Hide Discover banner
     playlist_setup_progress:
       configure: Configure
       configured_count: "%{configured} of %{total} configured"
@@ -509,9 +507,6 @@ zh-HK:
         warning_2: 我明白這是<strong>危險</strong>操作，可能會導致我的裝置變磚。
         cta: 升級至 TRMNL OG (2-bit)
       persona:
-        discover: 探索
-        discover_hint: 為此裝置推薦適合的外掛及整合方案
-        discover_banner_toggle: 在儀表板上顯示此裝置的「探索」橫幅
         persona: 人格設定
         persona_hint: 裝置人格設定會影響「探索」的推薦內容
         provisioned_by_html: 此裝置是由「<strong>%{name}</strong>」人格設定所設定。
@@ -620,7 +615,6 @@ zh-HK:
       palette_needs_firmware: You must update to firmware v1.6.0 or later to change the palette.
       pinned_firmware_hint: Support has pinned this device to this firmware build for troubleshooting. While OTA updates are on, the device installs this build again at its next check-in, even after you flash other firmware over USB. To keep your own firmware, turn off OTA updates first.
       refresh_rate: Refresh Rate
-      retry_update: Retry update
       rotate_default: 'Default: %{degrees}°'
       set_time_zone: Set your time zone __here__ to enable this feature.
       still_stuck: Still stuck? __Manually flash the firmware__ or contact support.
@@ -701,8 +695,6 @@ zh-HK:
     image_too_big:
       message: 你的裝置拒絕了容量為%{size}的影像；此型號最多支援%{limit}。
       message_without_limit: 你的裝置因影像容量過大 (%{size}) 而拒絕接收。
-    update_discover_banner:
-      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
     live_mode:
       title: Live mode
       hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
@@ -723,8 +715,6 @@ zh-HK:
       forbidden: You don't have permission to access this device.
       generate_zip:
         error: Failed to generate Kindle package. Please try again.
-    retry_firmware_update:
-      success: Retrying the firmware update — your device will try again on its next check-in.
     update_persona:
       mirrored: Persona management is disabled for mirrored TRMNLs.
       success: Persona saved. Recommendations were refreshed.
@@ -8175,9 +8165,6 @@ zh-HK:
     workflowy:
       api_error: 'Workflowy API error: %{code} - %{message}'
   assistants:
-    button:
-      open: trmy mode
-      back: Exit trmy mode
     chat_list:
       label: Chats
       archived:

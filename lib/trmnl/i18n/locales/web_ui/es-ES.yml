@@ -374,8 +374,6 @@ es-ES:
       morning_salutation: "¡Buenos días,"
       afternoon_salutation: "¡Buenas tardes,"
       evening_salutation: "¡Buenas noches,"
-    discover_callout_dismiss:
-      hide_discover_banner: Hide Discover banner
     playlist_setup_progress:
       configure: Configure
       configured_count: "%{configured} of %{total} configured"
@@ -509,9 +507,6 @@ es-ES:
         warning_2: Entiendo que es una acción <strong>peligrosa</strong> y puede inutilizar mi dispositivo.
         cta: Actualizar a TRMNL OG (2-bit)
       persona:
-        discover: Descubrir
-        discover_hint: Descubrir recomienda plugins y recetas adaptados a este dispositivo
-        discover_banner_toggle: Mostrar en el panel de control el aviso de Descubrir para este dispositivo
         persona: Persona
         persona_hint: El perfil de uso del dispositivo influye en las recomendaciones de Descubrir
         provisioned_by_html: Este dispositivo se configuró con el perfil de uso <strong>%{name}</strong>.
@@ -620,7 +615,6 @@ es-ES:
       palette_needs_firmware: You must update to firmware v1.6.0 or later to change the palette.
       pinned_firmware_hint: Support has pinned this device to this firmware build for troubleshooting. While OTA updates are on, the device installs this build again at its next check-in, even after you flash other firmware over USB. To keep your own firmware, turn off OTA updates first.
       refresh_rate: Refresh Rate
-      retry_update: Retry update
       rotate_default: 'Default: %{degrees}°'
       set_time_zone: Set your time zone __here__ to enable this feature.
       still_stuck: Still stuck? __Manually flash the firmware__ or contact support.
@@ -701,8 +695,6 @@ es-ES:
     image_too_big:
       message: Tu dispositivo ha rechazado una imagen de %{size}; este modelo admite un máximo de %{limit}.
       message_without_limit: Tu dispositivo ha rechazado una imagen de %{size} por ser demasiado grande.
-    update_discover_banner:
-      hidden_notice: Se ha ocultado el aviso de Descubrir. Puedes volver a activarlo en cualquier momento desde los ajustes del dispositivo.
     live_mode:
       title: Modo en tiempo real
       hint: Mantiene el dispositivo despierto para mostrar las pantallas nuevas al instante. Se activa en la próxima conexión. El Wi-Fi permanece encendido y consume rápidamente la batería, así que conecta el dispositivo a la corriente durante sesiones largas.
@@ -723,8 +715,6 @@ es-ES:
       forbidden: You don't have permission to access this device.
       generate_zip:
         error: Failed to generate Kindle package. Please try again.
-    retry_firmware_update:
-      success: Retrying the firmware update — your device will try again on its next check-in.
     update_persona:
       mirrored: Persona management is disabled for mirrored TRMNLs.
       success: Persona saved. Recommendations were refreshed.
@@ -8173,9 +8163,6 @@ es-ES:
     workflowy:
       api_error: 'Workflowy API error: %{code} - %{message}'
   assistants:
-    button:
-      open: trmy mode
-      back: Exit trmy mode
     chat_list:
       label: Chats
       archived:

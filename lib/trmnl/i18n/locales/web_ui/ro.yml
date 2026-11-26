@@ -390,8 +390,6 @@ ro:
       morning_salutation: Bună dimineața
       afternoon_salutation: Bună ziua
       evening_salutation: Bună seara
-    discover_callout_dismiss:
-      hide_discover_banner: Hide Discover banner
     playlist_setup_progress:
       configure: Configure
       configured_count: "%{configured} of %{total} configured"
@@ -525,9 +523,6 @@ ro:
         warning_2: Înțeleg că aceasta este o acțiune <strong>periculoasă</strong> și poate face dispozitivul inutilizabil.
         cta: Actualizează la TRMNL OG (2-bit)
       persona:
-        discover: Descoperă
-        discover_hint: Descoperă îți sugerează pluginuri și rețete potrivite pentru acest dispozitiv
-        discover_banner_toggle: Afișează bannerul Descoperă în panoul de control al acestui dispozitiv
         persona: Profil de utilizare
         persona_hint: Profilul de utilizare al dispozitivului influențează recomandările din Descoperă
         provisioned_by_html: Acest dispozitiv a fost configurat folosind profilul de utilizare <strong>%{name}</strong>.
@@ -641,7 +636,6 @@ ro:
       palette_needs_firmware: Actualizează la firmware v1.6.0 sau o versiune mai nouă ca să poți schimba paleta.
       pinned_firmware_hint: Echipa de asistență a fixat dispozitivul pe această versiune de firmware pentru depanare. Cu actualizările OTA active, dispozitivul va reinstala versiunea la următoarea conectare, chiar dacă instalezi alt firmware prin USB. Ca să păstrezi firmware-ul tău, dezactivează mai întâi actualizările OTA.
       refresh_rate: Frecvență de reîmprospătare
-      retry_update: Reîncearcă actualizarea
       rotate_default: 'Implicit: %{degrees}°'
       set_time_zone: Setează fusul orar __aici__ pentru a activa funcția.
       still_stuck: Tot nu merge? __Instalează manual firmware-ul__ sau contactează echipa de asistență.
@@ -722,8 +716,6 @@ ro:
     image_too_big:
       message: Dispozitivul a respins o imagine de %{size}; acest model acceptă cel mult %{limit}.
       message_without_limit: Dispozitivul a respins o imagine de %{size} deoarece este prea mare.
-    update_discover_banner:
-      hidden_notice: Bannerul Descoperă a fost ascuns. Îl poți reactiva oricând din setările dispozitivului.
     live_mode:
       title: Mod live
       hint: Ține dispozitivul activ ca să vezi imediat ecranele noi. Pornește la următoarea conectare. Wi-Fi rămâne activ și consumă rapid bateria. Pentru sesiuni lungi, conectează dispozitivul la alimentare.
@@ -744,8 +736,6 @@ ro:
       forbidden: You don't have permission to access this device.
       generate_zip:
         error: Failed to generate Kindle package. Please try again.
-    retry_firmware_update:
-      success: Retrying the firmware update — your device will try again on its next check-in.
     update_persona:
       mirrored: Persona management is disabled for mirrored TRMNLs.
       success: Persona saved. Recommendations were refreshed.
@@ -8236,9 +8226,6 @@ ro:
     workflowy:
       api_error: 'Eroare API Workflowy: %{code}. %{message}'
   assistants:
-    button:
-      open: trmy mode
-      back: Exit trmy mode
     chat_list:
       label: Chats
       archived:

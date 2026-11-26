@@ -374,8 +374,6 @@ de:
       morning_salutation: Guten Morgen
       afternoon_salutation: Guten Tag
       evening_salutation: Guten Abend
-    discover_callout_dismiss:
-      hide_discover_banner: Hide Discover banner
     playlist_setup_progress:
       configure: Configure
       configured_count: "%{configured} of %{total} configured"
@@ -509,9 +507,6 @@ de:
         warning_2: Mir ist bewusst, dass dies ein <strong>gefährlicher</strong> Vorgang ist, der mein Gerät dauerhaft beschädigen kann.
         cta: Auf TRMNL OG (2-bit) upgraden
       persona:
-        discover: Entdecken
-        discover_hint: Discover schlägt Erweiterungen und Blaupausen vor, die für dieses Gerät passen könnten
-        discover_banner_toggle: Entdecken-Banner im Dashboard für dieses Gerät anzeigen
         persona: Persona
         persona_hint: Eine Geräte-Persona beeinflusst die Discover-Empfehlungen
         provisioned_by_html: Dieses Gerät wurde durch die Persona <strong>%{name}</strong> eingerichtet.
@@ -620,7 +615,6 @@ de:
       palette_needs_firmware: You must update to firmware v1.6.0 or later to change the palette.
       pinned_firmware_hint: Support has pinned this device to this firmware build for troubleshooting. While OTA updates are on, the device installs this build again at its next check-in, even after you flash other firmware over USB. To keep your own firmware, turn off OTA updates first.
       refresh_rate: Refresh Rate
-      retry_update: Retry update
       rotate_default: 'Default: %{degrees}°'
       set_time_zone: Set your time zone __here__ to enable this feature.
       still_stuck: Still stuck? __Manually flash the firmware__ or contact support.
@@ -701,8 +695,6 @@ de:
     image_too_big:
       message: Dein Gerät hat ein %{size}-Bild abgelehnt; dieses Modell akzeptiert bis zu %{limit}.
       message_without_limit: Dein Gerät hat ein %{size}-Bild als zu groß abgelehnt.
-    update_discover_banner:
-      hidden_notice: Discover-Banner ausgeblendet. Du kannst es jederzeit in den Geräteeinstellungen wieder einschalten.
     live_mode:
       title: Live mode
       hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
@@ -723,8 +715,6 @@ de:
       forbidden: You don't have permission to access this device.
       generate_zip:
         error: Failed to generate Kindle package. Please try again.
-    retry_firmware_update:
-      success: Retrying the firmware update — your device will try again on its next check-in.
     update_persona:
       mirrored: Persona management is disabled for mirrored TRMNLs.
       success: Persona saved. Recommendations were refreshed.
@@ -8175,9 +8165,6 @@ de:
     workflowy:
       api_error: 'Workflowy API error: %{code} - %{message}'
   assistants:
-    button:
-      open: trmy mode
-      back: Exit trmy mode
     chat_list:
       label: Chats
       archived:
