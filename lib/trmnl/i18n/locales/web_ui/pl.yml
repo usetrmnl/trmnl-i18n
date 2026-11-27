@@ -243,7 +243,7 @@ pl:
       stopped_emails: Powiadomienia e-mail o zatrzymaniu pluginów
       stopped_emails_on: Włączone dla wszystkich pluginów i mashupów. Każda wiadomość zawiera link pozwalający wyłączyć powiadomienia dla danego elementu.
       stopped_emails_off_for: 'Włączone dla wszystkich pluginów i mashupów z wyjątkiem:'
-      api_key_revoke_confirm: Revoke this key? Anything that uses it stops working.
+      api_key_revoke_confirm: Unieważnić ten klucz? Wszystko, co go używa, przestanie działać.
     update:
       success: Pomyślnie zaktualizowano profil
     reset_api_key:
@@ -359,9 +359,9 @@ pl:
       trial_device_deleted_refunded: Urządzenie próbne zostało usunięte. Zwrócono 1 USD.
     cli_hint: Pracuj z terminala za pomocą __TRMNL CLI__.
     revoke_api_key:
-      success: API key was revoked
+      success: Klucz API został unieważniony
     stripe_callback:
-      success: Subscription updated successfully
+      success: Pomyślnie zaktualizowano subskrypcję
   dashboard:
     index:
       title: Pulpit
@@ -371,20 +371,20 @@ pl:
     news:
       title: Wiadomości
       cta: Zobacz wszystkie
-      feed_link: RSS feed for TRMNL news
+      feed_link: Kanał RSS wiadomości TRMNL
     playlist_items:
       title: Playlista
       cta: Edytuj Playlistę
       pieces_of_content_displayed: Wyświetlane treści
-      needs_configuration: Needs configuration
+      needs_configuration: Wymaga konfiguracji
     plugins:
       title: Pluginy
       cta: Przejdź do pluginów
       recently_published: Ostatnio opublikowane
       connected_count: 'Połączonych: %{count}'
-      feed_link: RSS feed for new plugins
-      ask_trmy: Not sure where to start? Let trmy help.
-      something_else: Something else…
+      feed_link: Kanał RSS nowych pluginów
+      ask_trmy: Nie wiesz, od czego zacząć? Skorzystaj z pomocy trmy.
+      something_else: Coś innego…
     shop:
       title: Sklep
       another_trmnl: Potrzebujesz kolejnego urządzenia TRMNL?
@@ -397,22 +397,22 @@ pl:
       afternoon_salutation: Dzień dobry
       evening_salutation: Dobry wieczór
     discover_callout_dismiss:
-      hide_discover_banner: Hide Discover banner
+      hide_discover_banner: Ukryj baner Odkrywaj
     playlist_setup_progress:
-      configure: Configure
-      configured_count: "%{configured} of %{total} configured"
-      eyebrow: Playlist configuration
-      needs_configuration: Needs configuration
-      needs_values: Needs values for %{fields}
+      configure: Skonfiguruj
+      configured_count: "Skonfigurowano %{configured} z %{total}"
+      eyebrow: Konfiguracja playlisty
+      needs_configuration: Wymaga konfiguracji
+      needs_values: 'Uzupełnij wartości pól: %{fields}'
       plugin_fallback: Plugin
-      show_all: Show all (%{count})
-      show_less: Show less
-      title: Finish configuring your playlist
+      show_all: Pokaż wszystkie (%{count})
+      show_less: Pokaż mniej
+      title: Dokończ konfigurację playlisty
     trmy_invite:
-      title: Try the Assistant
-      body: Ask for a plugin, mashup, or a fix in plain words.
-      cta: Ask trmy
-      dismiss: Dismiss
+      title: Wypróbuj Asystentkę
+      body: Poproś własnymi słowami o plugin, mashup lub poprawkę.
+      cta: Zapytaj trmy
+      dismiss: Zamknij
   date:
     formats:
       day_month_long: "%A, %-d %B"
@@ -626,47 +626,47 @@ pl:
           one: Ładowanie będzie potrzebne za około 1 tydzień.
           other: Ładowanie będzie potrzebne za około %{count} tygodni.
         month: 'Przewidywany termin ładowania: %{month}.'
-      auto_orientation: Follow device orientation
-      auto_orientation_hint: The device sets portrait or landscape when you turn it.
-      change_firmware_settings: Change firmware settings
-      firmware_channel: Firmware Channel
-      firmware_channel_pinned: This device is pinned to a firmware channel by an administrator.
-      firmware_update_stalled: "⚠ Firmware update stalled after repeated failed attempts."
+      auto_orientation: Dostosuj do orientacji urządzenia
+      auto_orientation_hint: Urządzenie automatycznie przełącza orientację pionową i poziomą po obróceniu.
+      change_firmware_settings: Zmień ustawienia firmware'u
+      firmware_channel: Kanał firmware'u
+      firmware_channel_pinned: Administrator przypisał to urządzenie do określonego kanału firmware'u.
+      firmware_update_stalled: "⚠ Aktualizacja firmware'u została wstrzymana po kilku nieudanych próbach."
       firmware_versions:
-        current: Current
-        none: none
-        stable: Stable
-        staging: Staging
-      guest_mode_for: for
-      mac_address_format: Must be a 12-digit hexadecimal value (0-9 and A-F), separated by colons.
-      palette_needs_firmware: You must update to firmware v1.6.0 or later to change the palette.
-      pinned_firmware_hint: Support has pinned this device to this firmware build for troubleshooting. While OTA updates are on, the device installs this build again at its next check-in, even after you flash other firmware over USB. To keep your own firmware, turn off OTA updates first.
-      refresh_rate: Refresh Rate
-      retry_update: Retry update
-      rotate_default: 'Default: %{degrees}°'
-      set_time_zone: Set your time zone __here__ to enable this feature.
-      still_stuck: Still stuck? __Manually flash the firmware__ or contact support.
-      upgrade_to_2bit_confirm: Are you absolutely sure you want to upgrade your device? This action cannot be undone and will permanently change your device to 2-bit display mode.
-      refresh_interval_seconds: seconds (admin only)
-      spike_firmware: Spike firmware
-      spike_firmware_hint: The TRMNL team put this device on spike firmware. Contact support to return it to normal updates.
-      screen_transitions: Screen Transitions
-      reveal_transition: Transition
-      reveal_transition_hint: After a new screen appears, its rows, tiles and charts fill in one by one. Works on native plugins.
+        current: Obecny
+        none: brak
+        stable: Stabilny
+        staging: Testowy
+      guest_mode_for: przez
+      mac_address_format: Wymagana jest 12-znakowa wartość szesnastkowa (0–9 i A–F), z parami znaków oddzielonymi dwukropkami.
+      palette_needs_firmware: Aby zmienić paletę kolorów, zaktualizuj firmware do wersji 1.6.0 lub nowszej.
+      pinned_firmware_hint: Wsparcie techniczne przypięło to urządzenie do tej kompilacji firmware'u w celu rozwiązania problemów. Gdy aktualizacje OTA są włączone, urządzenie ponownie zainstaluje tę kompilację przy następnym zgłoszeniu, nawet po wgraniu innego firmware'u przez USB. Aby zachować własny firmware, najpierw wyłącz aktualizacje OTA.
+      refresh_rate: Częstotliwość odświeżania
+      retry_update: Ponów aktualizację
+      rotate_default: 'Domyślnie: %{degrees}°'
+      set_time_zone: Ustaw swoją strefę czasową __tutaj__, aby włączyć tę funkcję.
+      still_stuck: Nadal nie działa? __Wgraj firmware ręcznie__ lub skontaktuj się ze wsparciem technicznym.
+      upgrade_to_2bit_confirm: Czy na pewno chcesz zaktualizować urządzenie? Tej operacji nie można cofnąć i trwale przełączy ona urządzenie w 2-bitowy tryb wyświetlania.
+      refresh_interval_seconds: sekundy (tylko administrator)
+      spike_firmware: Firmware eksperymentalny (Spike)
+      spike_firmware_hint: Zespół TRMNL wgrał na to urządzenie eksperymentalny firmware (Spike). Skontaktuj się ze wsparciem, aby przywrócić standardowe aktualizacje.
+      screen_transitions: Przejścia między ekranami
+      reveal_transition: Przejście
+      reveal_transition_hint: Po wyświetleniu nowego ekranu jego wiersze, kafelki i wykresy pojawiają się po kolei. Działa z natywnymi pluginami.
       reveal_transitions:
-        'off': 'Off'
-        gentle: Gentle
-        lively: Lively
-      reveal_refresh: Refresh
-      reveal_refresh_hint: Smooth draws the transition in black and white, then refreshes once to bring back the grays. Per region keeps the grays and flashes each part as it appears.
+        'off': 'Wyłączone'
+        gentle: Delikatne
+        lively: Dynamiczne
+      reveal_refresh: Odśwież
+      reveal_refresh_hint: Tryb płynny wyświetla przejście w czerni i bieli, a następnie jednokrotnie odświeża ekran, aby przywrócić odcienie szarości. Tryb obszarowy zachowuje odcienie szarości i powoduje mignięcie każdego pojawiającego się fragmentu.
       reveal_refreshes:
-        smooth: Smooth
-        per_region: Per region
-      reveal_preview: Preview
-      reveal_preview_hint: A screen this device showed recently, played with the transition picked above.
-      reveal_preview_replay: Replay
-      reveal_preview_image_alt: A recent screen on this device
-      reveal_preview_empty: None of this device's recent screens has rows, tiles or charts to fill in yet.
+        smooth: Płynne
+        per_region: Obszarowe
+      reveal_preview: Podgląd
+      reveal_preview_hint: Ostatnio wyświetlany ekran tego urządzenia z zastosowanym powyżej przejściem.
+      reveal_preview_replay: Odtwórz ponownie
+      reveal_preview_image_alt: Jeden z ostatnio wyświetlanych ekranów urządzenia
+      reveal_preview_empty: Żaden z ostatnio wyświetlanych ekranów tego urządzenia nie zawiera jeszcze wierszy, kafelków ani wykresów, które można wyświetlać.
     discover_persona:
       label: Persona i Odkrywaj
       disabled_hint: Wyłączone dla urządzeń TRMNL będących kopiami lustrzanymi. Zamiast tego zarządzaj rekomendacjami na urządzeniu nadrzędnym.
@@ -698,7 +698,7 @@ pl:
     associate:
       error: Błąd przy podłączaniu urządzenia
       success: Pomyślnie podłączono urządzenie
-      virtual_after_physical: Can't add a virtual device if physical one already exists
+      virtual_after_physical: Nie można dodać urządzenia wirtualnego, jeśli istnieje już urządzenie fizyczne
     dissociate:
       error: Błąd przy odłączaniu urządzenia
       success: Pomyślnie odłączono urządzenie
@@ -726,33 +726,33 @@ pl:
     update_discover_banner:
       hidden_notice: Ukryto baner Odkrywaj. Możesz ponownie włączyć go w dowolnej chwili w ustawieniach urządzenia.
     live_mode:
-      title: Live mode
-      hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
-      duration: Live mode duration
-      start: Start live mode
-      ends_at_html: Live until %{time}. The device sleeps again after that.
-      end_now: End now
-      started: Live mode starts at the next check-in.
-      ended: Live mode ended.
+      title: Tryb na żywo
+      hint: Zapobiega uśpieniu urządzenia, dzięki czemu nowe ekrany pojawiają się natychmiast. Uruchamia się przy następnym zgłoszeniu. Wi-Fi pozostaje włączone i szybko zużywa baterię, więc podczas dłuższych sesji podłącz urządzenie do zasilania.
+      duration: Czas trwania trybu na żywo
+      start: Uruchom tryb na żywo
+      ends_at_html: Tryb na żywo do %{time}. Następnie urządzenie ponownie przejdzie w stan uśpienia.
+      end_now: Zakończ teraz
+      started: Tryb na żywo uruchomi się przy następnym zgłoszeniu.
+      ended: Tryb na żywo został zakończony.
     clock_sync:
-      title: Clock Sync
-      hint: Change the picture only at the times set in the Scheduler. Your Frame sleeps between them to save battery. Press Skip on your Frame to see a change right away.
-      changes_at: Your Frame changes at
-      every_day: Every day
-      no_changes: No times are set in the Scheduler, so your Frame changes only when you press Skip.
-      edit_schedule: Edit times in the Scheduler
+      title: Synchronizacja z zegarem
+      hint: Zmieniaj obraz tylko o godzinach ustawionych w harmonogramie. Pomiędzy nimi urządzenie Frame pozostaje uśpione, aby oszczędzać baterię. Naciśnij przycisk Pomiń na swoim Frame, aby natychmiast zmienić obraz.
+      changes_at: Twój Frame zmienia obraz o
+      every_day: Codziennie
+      no_changes: W harmonogramie nie ustawiono żadnych godzin, więc obraz na Twoim Frame zmieni się tylko po naciśnięciu przycisku Pomiń.
+      edit_schedule: Edytuj godziny w harmonogramie
     kindle:
-      forbidden: You don't have permission to access this device.
+      forbidden: Nie masz uprawnień dostępu do tego urządzenia.
       generate_zip:
-        error: Failed to generate Kindle package. Please try again.
+        error: Nie udało się wygenerować pakietu dla Kindle. Spróbuj ponownie.
     retry_firmware_update:
-      success: Retrying the firmware update — your device will try again on its next check-in.
+      success: Ponowiono aktualizację firmware'u — urządzenie podejmie kolejną próbę przy następnym zgłoszeniu.
     update_persona:
-      mirrored: Persona management is disabled for mirrored TRMNLs.
-      success: Persona saved. Recommendations were refreshed.
+      mirrored: Zarządzanie personą jest wyłączone dla urządzeń TRMNL będących kopiami lustrzanymi.
+      success: Zapisano personę. Rekomendacje zostały odświeżone.
     upgrade_to_og_2bit:
-      error: Error upgrading your device
-      success: Device upgraded successfully.
+      error: Błąd podczas aktualizacji urządzenia
+      success: Pomyślnie zaktualizowano urządzenie.
   discovery:
     dashboard_action:
       saved:
@@ -779,263 +779,263 @@ pl:
       tag: Aplikacja
       hint: Zachowaj ją, aby dodać ją do rotacji.
     beta: Beta
-    keep: Keep
-    skip: Skip
-    keep_stamp: KEEP
-    skip_stamp: SKIP
-    back_to_dashboard: Back to dashboard
-    author_fallback: a community dev
+    keep: Zachowaj
+    skip: Pomiń
+    keep_stamp: ZACHOWAJ
+    skip_stamp: POMIŃ
+    back_to_dashboard: Wróć do pulpitu
+    author_fallback: twórca ze społeczności
     rhythm_labels:
-      early_bird: Early bird
-      in_between: Steady
-      night_owl: Night owl
+      early_bird: Ranny ptaszek
+      in_between: Zrównoważony rytm
+      night_owl: Nocny marek
     badges:
       top_10: Top 10
       top_100: Top 100
-      top_in_category: "#1 in %{category}"
-      top_10_in_category: Top 10 in %{category}
-      trending: Trending
-      new: New
-      staff_pick: Staff Pick
-      wildcard: Wildcard
+      top_in_category: "Nr 1 w kategorii %{category}"
+      top_10_in_category: Top 10 w kategorii %{category}
+      trending: Popularne teraz
+      new: Nowe
+      staff_pick: Wybór zespołu
+      wildcard: Niespodzianka
     schedule_suggester:
       time_buckets:
-        morning: Morning
-        midday: Midday
-        afternoon: Afternoon
-        evening: Evening
+        morning: Rano
+        midday: Południe
+        afternoon: Popołudnie
+        evening: Wieczór
     apply_mode:
-      applied: Your recommendations were applied.
-      replaced: Your TRMNL '%{name}' has a new playlist.
-      added: Your picks were added to '%{name}'.
-      device_fallback: device
-      no_picks: Choose at least one pick before applying these recommendations.
+      applied: Zastosowano Twoje rekomendacje.
+      replaced: Twój TRMNL „%{name}” ma nową playlistę.
+      added: Dodano wybrane pozycje do „%{name}”.
+      device_fallback: urządzenie
+      no_picks: Wybierz co najmniej jedną pozycję przed zastosowaniem tych rekomendacji.
     flashes:
-      set_up_persona_first: Set up your persona first.
-      no_active_recommendations: No active recommendations.
-      already_applied: These recommendations are already in your playlist.
-      confirm_replacement: Confirm playlist replacement before applying these recommendations.
-      choose_device_to_apply: Choose a TRMNL before applying this setup.
-      choose_device: Choose a TRMNL first.
-      fresh_round: Starting a fresh round of recommendations.
-      persona_reset: Persona reset. You can set up a new persona anytime.
-      mirror_not_supported: Discover is not available for mirrored TRMNLs. Set it up on the master device instead.
+      set_up_persona_first: Najpierw skonfiguruj personę.
+      no_active_recommendations: Brak aktywnych rekomendacji.
+      already_applied: Te rekomendacje znajdują się już na Twojej playliście.
+      confirm_replacement: Potwierdź zastąpienie playlisty przed zastosowaniem tych rekomendacji.
+      choose_device_to_apply: Wybierz urządzenie TRMNL przed zastosowaniem tej konfiguracji.
+      choose_device: Najpierw wybierz urządzenie TRMNL.
+      fresh_round: Rozpoczynanie nowej rundy rekomendacji.
+      persona_reset: Zresetowano personę. Możesz w dowolnej chwili skonfigurować nową.
+      mirror_not_supported: Funkcja Odkrywaj jest niedostępna dla urządzeń TRMNL będących kopiami lustrzanymi. Skonfiguruj ją na urządzeniu nadrzędnym.
     profile_questions:
       placement:
-        eyebrow: Place
-        text: Where will your TRMNL live?
-        sub: We'll tune the information density and refresh cadence for how you'll actually glance at it.
+        eyebrow: Miejsce
+        text: Gdzie znajdzie się Twój TRMNL?
+        sub: Dopasujemy ilość informacji i częstotliwość odświeżania do tego, jak będziesz korzystać z wyświetlacza.
         options:
           desk:
-            label: Desk
-            sub: Always in view
+            label: Biurko
+            sub: Zawsze w zasięgu wzroku
           kitchen:
-            label: Kitchen
-            sub: Morning glance
+            label: Kuchnia
+            sub: Poranny rzut oka
           hallway:
-            label: Hallway
-            sub: On the way out
+            label: Przedpokój
+            sub: W drodze do wyjścia
           bedroom:
-            label: Bedroom
-            sub: Night & dawn
+            label: Sypialnia
+            sub: Noc i świt
           living_room:
-            label: Living Room
-            sub: Shared space
+            label: Salon
+            sub: Wspólna przestrzeń
           office:
-            label: Office
-            sub: Work hours
+            label: Biuro
+            sub: Godziny pracy
           not_sure:
-            label: Not sure yet
-            sub: Decide later
+            label: Jeszcze nie wiem
+            sub: Zdecyduję później
       rhythm:
-        eyebrow: Rhythm
-        text: When are you most alive?
-        sub: Morning people want the day laid out. Night owls want tomorrow already.
+        eyebrow: Rytm dnia
+        text: Kiedy masz najwięcej energii?
+        sub: Ranne ptaszki chcą mieć zaplanowany dzień. Nocne marki myślą już o jutrze.
         options:
           early_bird:
-            label: Early Bird
-            sub: Up before 7
+            label: Ranny ptaszek
+            sub: Na nogach przed 7:00
           night_owl:
-            label: Night Owl
-            sub: After midnight
+            label: Nocny marek
+            sub: Aktywny po północy
           in_between:
-            label: Somewhere in between
-            sub: Balanced
+            label: Gdzieś pomiędzy
+            sub: Zrównoważony rytm
       interests:
-        eyebrow: Interests
-        text: Pick everything that sounds like you.
-        sub: Select as many as you want. We'll make it work.
+        eyebrow: Zainteresowania
+        text: Wybierz wszystko, co Cię interesuje.
+        sub: Wybierz dowolną liczbę opcji. Dopasujemy rekomendacje do Ciebie.
         options:
           news_junkie:
-            label: News
+            label: Wiadomości
           data_nerd:
-            label: Data & analytics
+            label: Dane i analityka
           sports_fan:
-            label: Sports
+            label: Sport
           crypto_degen:
-            label: Crypto
+            label: Kryptowaluty
           parent:
-            label: Parenting
+            label: Rodzicielstwo
           pet_owner:
-            label: Pets
+            label: Zwierzęta domowe
           developer:
-            label: Developer
+            label: Deweloper
           designer:
-            label: Design
+            label: Projektowanie
           gamer:
-            label: Games
+            label: Gry
           fitness:
             label: Fitness
           stocks_markets:
-            label: Markets
+            label: Rynki finansowe
           weather_watcher:
-            label: Weather
+            label: Pogoda
           commuter:
-            label: Commute
+            label: Dojazdy
           art_lover:
-            label: Art & photo
+            label: Sztuka i fotografia
           music_head:
-            label: Music
+            label: Muzyka
           productivity_freak:
-            label: Productivity
+            label: Produktywność
           office_manager:
-            label: Workplace booking
+            label: Rezerwacje w miejscu pracy
       audience:
-        eyebrow: For
-        text: Who is this TRMNL for?
-        sub: If it's shared, we'll keep content household-friendly and avoid private feeds by default.
+        eyebrow: Odbiorcy
+        text: Dla kogo jest ten TRMNL?
+        sub: Jeśli korzysta z niego więcej osób, domyślnie dobierzemy treści odpowiednie dla domowników i pominiemy prywatne źródła danych.
         options:
           just_me:
-            label: Just me
-            sub: Solo setup
+            label: Tylko dla mnie
+            sub: Do osobistego użytku
           family:
-            label: Family
-            sub: Shared household
+            label: Rodzina
+            sub: Wspólne gospodarstwo domowe
           roommates:
-            label: Roommates
-            sub: Flatmates
+            label: Współlokatorzy
+            sub: Wspólne mieszkanie
           coworkers:
-            label: Coworkers
-            sub: At the office
+            label: Współpracownicy
+            sub: W biurze
           not_for_me:
-            label: A gift
-            sub: Not for me
+            label: Prezent
+            sub: Dla kogoś innego
       variety:
-        eyebrow: Cadence
-        text: How much variety do you want?
-        sub: Your TRMNL can hold one view all day, or rotate through many. You can change this any time.
+        eyebrow: Rotacja
+        text: Jak dużej różnorodności oczekujesz?
+        sub: Twój TRMNL może wyświetlać ten sam ekran przez cały dzień lub przełączać się między wieloma. Możesz to zmienić w dowolnej chwili.
         options:
           keep_it_steady:
-            label: Keep it steady
-            sub: Same signals, always
+            label: Stały widok
+            sub: Zawsze te same informacje
           mix_it_up:
-            label: Mix it up
-            sub: Rotate a few
+            label: Trochę różnorodności
+            sub: Kilka ekranów na zmianę
           always_new:
-            label: Always something new
-            sub: Surprise me
+            label: Zawsze coś nowego
+            sub: Zaskocz mnie
     intro:
-      eyebrow: Discover
-      title: Find the TRMNL setup that fits your day.
-      description: Answer a few questions, then keep or skip suggested plugins. We'll turn your choices into a practical rotation you can apply or revisit later.
-      profile_label: Profile
-      profile_title: Tell us the rhythm
-      profile_description: Where it lives, who sees it, and how often you want fresh information.
-      curate_label: Curate
-      curate_title: Keep what feels useful
-      curate_description: Review recommendations one at a time with clear Skip and Keep actions.
-      apply_label: Apply
-      apply_title: Start with a tuned setup
-      apply_description: Get a suggested schedule and device behavior that you can change anytime.
+      eyebrow: Odkrywaj
+      title: Znajdź konfigurację TRMNL dopasowaną do Twojego dnia.
+      description: Odpowiedz na kilka pytań, a następnie zachowaj lub pomiń proponowane pluginy. Na podstawie Twoich wyborów przygotujemy praktyczną rotację ekranów, którą możesz zastosować od razu lub wrócić do niej później.
+      profile_label: Profil
+      profile_title: Opowiedz nam o swoim rytmie dnia
+      profile_description: Gdzie znajduje się urządzenie, kto na nie patrzy i jak często potrzebujesz aktualnych informacji.
+      curate_label: Dobór
+      curate_title: Zachowaj to, co Ci się przyda
+      curate_description: Przeglądaj rekomendacje po kolei, korzystając z przycisków Pomiń i Zachowaj.
+      apply_label: Zastosuj
+      apply_title: Zacznij od dopasowanej konfiguracji
+      apply_description: Otrzymasz proponowany harmonogram i ustawienia działania urządzenia, które możesz zmienić w dowolnej chwili.
     question:
-      select_all: Select all that apply
-      pick_at_least_one: Pick at least one to continue.
+      select_all: Zaznacz wszystkie pasujące opcje
+      pick_at_least_one: Wybierz co najmniej jedną opcję, aby kontynuować.
     shell_header:
-      close: Close Discover
+      close: Zamknij funkcję Odkrywaj
     show:
-      title: Discover Your Perfect TRMNL Setup
-      step: Step
-      next: Next
-      queue_error_title: We could not build the queue
-      queue_error_message: Your answers are still here. Give it another try, or step back and tweak the setup.
-      try_again: Try again
-      back_to_answers: Back to answers
+      title: Odkryj idealną konfigurację TRMNL
+      step: Krok
+      next: Dalej
+      queue_error_title: Nie udało się utworzyć kolejki rekomendacji
+      queue_error_message: Twoje odpowiedzi zostały zachowane. Spróbuj ponownie lub cofnij się i dostosuj konfigurację.
+      try_again: Spróbuj ponownie
+      back_to_answers: Wróć do odpowiedzi
     swipe:
-      eyebrow: Curate
-      title: Your top picks
-      description: Keep the ideas that fit your setup and skip the rest.
-      device_persona: Device persona
-      device_eyebrow: TRMNL device
-      this_trmnl: this TRMNL
-      edit_persona: Edit persona settings
-      skip_remaining: Skip remaining
-      recipe: Recipe
+      eyebrow: Dobór
+      title: Najlepsze propozycje dla Ciebie
+      description: Zachowaj propozycje pasujące do Twojej konfiguracji i pomiń pozostałe.
+      device_persona: Persona urządzenia
+      device_eyebrow: Urządzenie TRMNL
+      this_trmnl: to urządzenie TRMNL
+      edit_persona: Edytuj ustawienia persony
+      skip_remaining: Pomiń pozostałe
+      recipe: Receptura
       plugin: Plugin
-      open: Open
-      open_in_new_tab: Open %{name} in a new tab
-      installs_html: "%{number} installs"
-      forks_html: "%{number} forks"
-      by_html: by %{author}
-      save_error_title: We could not save your picks
-      save_error_message: Your decisions are still queued up. Try once more and we will keep wrapping this setup.
-      try_again: Try again
+      open: Otwórz
+      open_in_new_tab: Otwórz %{name} w nowej karcie
+      installs_html: "Liczba instalacji: %{number}"
+      forks_html: "Liczba forków: %{number}"
+      by_html: 'Autor: %{author}'
+      save_error_title: Nie udało się zapisać Twoich wyborów
+      save_error_message: Twoje wybory zostały zachowane w kolejce. Spróbuj ponownie, aby dokończyć konfigurację.
+      try_again: Spróbuj ponownie
     queue:
-      title: Your Discover Queue
+      title: Twoja kolejka rekomendacji
     queue_empty:
-      title: Your Recommendations
-      eyebrow: Recommendations
-      heading: No recommendations left right now.
-      description: You've reviewed the matching recommendations we could find right now. Update this TRMNL's persona if its role has changed, or check back after new plugins and recipes are added.
+      title: Twoje rekomendacje
+      eyebrow: Rekomendacje
+      heading: Na razie nie ma więcej rekomendacji.
+      description: Przejrzano już wszystkie dostępne rekomendacje pasujące do Twoich preferencji. Zaktualizuj personę tego urządzenia TRMNL, jeśli zmieniła się jego rola, lub wróć, gdy pojawią się nowe pluginy i receptury.
     save_persona:
-      saved: Saved. We'll have your recommendations ready when you sign up.
+      saved: Zapisano. Twoje rekomendacje będą gotowe po rejestracji.
     results:
-      title: Your TRMNL Recommendations
-      audience: Audience
-      start_new_persona: Start a new persona
-      description: These picks are shaped by your persona. You can manage the persona from the dashboard.
-      buy_trmnl: Buy TRMNL
-      device: Device
+      title: Twoje rekomendacje TRMNL
+      audience: Odbiorcy
+      start_new_persona: Utwórz nową personę
+      description: Te propozycje zostały dobrane na podstawie Twojej persony. Możesz zarządzać nią z poziomu pulpitu.
+      buy_trmnl: Kup TRMNL
+      device: Urządzenie
       device_fallback_name: 'TRMNL #%{id}'
-      configuration_progress: 'Configuration progress: %{configured} of %{total} picks configured.'
-      replace_warning: This will replace %{playlist_items} with %{accepted_picks}.
+      configuration_progress: 'Postęp konfiguracji: skonfigurowano %{configured} z %{total} wybranych pozycji.'
+      replace_warning: Spowoduje to zastąpienie obecnych pozycji (%{playlist_items}) wybranymi pozycjami (%{accepted_picks}).
       playlist_items:
-        one: "%{count} current playlist item"
-        other: "%{count} current playlist items"
+        one: "%{count} obecny element playlisty"
+        other: "Liczba obecnych elementów playlisty: %{count}"
       accepted_picks:
-        one: "%{count} accepted pick"
-        other: "%{count} accepted picks"
-      replace_hint: Use this when this persona should rebuild the playlist for this TRMNL. Existing playlist items will be removed.
-      replace_confirmation: I understand this will replace my current playlist.
-      replace_empty_hint: Creates a fresh playlist for this TRMNL and applies the suggested sleep window.
-      add_hint: Nothing is added until you confirm. This adds these picks to your existing playlist without removing anything or changing device settings.
-      replace_playlist: Replace playlist
-      discard_picks: Discard picks and start fresh
-      discard_picks_confirm: Discard these recommendations and start a fresh Discover round?
-      save_for_later: Save for later
-      save_recommendations: Save recommendations
-      newsletter_opt_in: Keep me in the loop
-      newsletter_hint: Around 1 email a month. TRMNL stuff, never spam.
-      developer_note_html: You marked yourself as a developer. Build your own plugins for your TRMNL, publish them as %{recipes_link} so the community can use them, and earn from our %{creator_fund_link} when they do. For custom plugins on your own TRMNL, see the %{developer_license_link}.
-      recipes: Recipes
-      creator_fund: Creator Fund
-      developer_license: Developer License
-      day_on_your_trmnl: A day on your TRMNL
-      sleep: Sleep
-      refresh: Refresh
-      refresh_every: every %{minutes} min
-      sleep_off: 'Off'
-      pick_status: Pick status
-      checkmark_configured: Checkmark = configured
-      dot_needs_configuration: yellow dot = needs configuration
-      configured: configured
-      needs_configuration: needs configuration
-      your_rotation: Your rotation
-      pick_status_legend: Pick status legend
-      configured_on_this_trmnl: Configured on this TRMNL
-      added_needs_configuration: Added to playlist, needs configuration
-      configured_badge: Configured
-      needs_configuration_badge: Needs configuration
-      based_on_your_answers: Based on your answers
+        one: "%{count} zaakceptowana pozycja"
+        other: "Liczba zaakceptowanych pozycji: %{count}"
+      replace_hint: Użyj tej opcji, jeśli ta persona ma utworzyć playlistę tego urządzenia TRMNL od nowa. Obecne elementy playlisty zostaną usunięte.
+      replace_confirmation: Rozumiem, że ta operacja zastąpi moją obecną playlistę.
+      replace_empty_hint: Tworzy nową playlistę dla tego urządzenia TRMNL i stosuje proponowane godziny uśpienia.
+      add_hint: Nic nie zostanie dodane do momentu potwierdzenia. Wybrane pozycje zostaną dodane do obecnej playlisty bez usuwania czegokolwiek ani zmiany ustawień urządzenia.
+      replace_playlist: Zastąp playlistę
+      discard_picks: Odrzuć wybory i zacznij od nowa
+      discard_picks_confirm: Odrzucić te rekomendacje i rozpocząć nową rundę funkcji Odkrywaj?
+      save_for_later: Zapisz na później
+      save_recommendations: Zapisz rekomendacje
+      newsletter_opt_in: Chcę być na bieżąco
+      newsletter_hint: Około 1 wiadomości e-mail miesięcznie. Tylko informacje o TRMNL, bez spamu.
+      developer_note_html: Zaznaczyłeś, że zajmujesz się programowaniem. Twórz własne pluginy dla swojego TRMNL, publikuj je jako %{recipes_link}, aby społeczność mogła z nich korzystać, i zarabiaj dzięki %{creator_fund_link}, gdy inni będą ich używać. Aby tworzyć własne pluginy na swoim TRMNL, zobacz %{developer_license_link}.
+      recipes: Receptury
+      creator_fund: Fundusz Twórców
+      developer_license: Licencja deweloperska
+      day_on_your_trmnl: Dzień z Twoim TRMNL
+      sleep: Uśpienie
+      refresh: Odśwież
+      refresh_every: co %{minutes} min
+      sleep_off: 'Wyłączone'
+      pick_status: Status wybranych pozycji
+      checkmark_configured: Znacznik wyboru = skonfigurowano
+      dot_needs_configuration: żółta kropka = wymaga konfiguracji
+      configured: skonfigurowano
+      needs_configuration: wymaga konfiguracji
+      your_rotation: Twoja rotacja ekranów
+      pick_status_legend: Legenda statusów wybranych pozycji
+      configured_on_this_trmnl: Skonfigurowano na tym urządzeniu TRMNL
+      added_needs_configuration: Dodano do playlisty, wymaga konfiguracji
+      configured_badge: Skonfigurowano
+      needs_configuration_badge: Wymaga konfiguracji
+      based_on_your_answers: Na podstawie Twoich odpowiedzi
   logs:
     index:
       title: Logi
@@ -1078,15 +1078,15 @@ pl:
       serverless_learn_more: Dowiedz się więcej o skryptach
       prompt_learn_more: Przeczytaj poradnik dotyczący promptów
       beta: Beta
-      visual_editor: Visual Editor
-      draft_found: Unsaved changes from %{time} were found on this device.
-      draft_restore: Restore
-      draft_discard: Discard
+      visual_editor: Edytor wizualny
+      draft_found: Na tym urządzeniu znaleziono niezapisane zmiany z %{time}.
+      draft_restore: Przywróć
+      draft_discard: Odrzuć
     merge_variables:
       not_in_playlist:
-        one: This plugin isn't in any Playlist. Mark it as hidden after adding to keep the data fresh.
-        other: These plugins aren't in any Playlist. Mark them as hidden after adding to keep the data fresh.
-      stale_data: 'Stale data:'
+        one: Tego pluginu nie ma na żadnej playliście. Po dodaniu oznacz go jako ukryty, aby jego dane były aktualizowane.
+        other: Tych pluginów nie ma na żadnej playliście. Po dodaniu oznacz je jako ukryte, aby ich dane były aktualizowane.
+      stale_data: 'Nieaktualne dane:'
     no_merge_variables:
       no_variables_detected: Nie wykryto żadnych zmiennych.
     visual_editor:
@@ -1149,498 +1149,498 @@ pl:
         waits_for_webhook: Zapisano. Skrypt zostanie uruchomiony po następnym wywołaniu webhooka.
         limited: Zapisano. Skrypty mogą być uruchamiane podczas zapisu %{count} razy na godzinę, więc ten zostanie wykonany przy następnym odświeżeniu.
         expired: Skrypt nadal działa. Odśwież stronę, aby zobaczyć nowe zmienne.
-      beta_notice_html: The Visual Editor is currently in <strong class="font-semibold">beta</strong> and has known issues, particularly with more complex, Liquid-heavy plugins. If you run into trouble, you can always fall back to the code editor. Runs on top of <strong class="font-semibold">Framework v3.x</strong>.
-      clear_saved_plugin_state: Clear saved plugin state
-      code_panels: Code panels
+      beta_notice_html: Edytor wizualny jest obecnie w wersji <strong class="font-semibold">beta</strong> i ma znane problemy, szczególnie w przypadku bardziej złożonych pluginów intensywnie wykorzystujących Liquid. Jeśli napotkasz problemy, zawsze możesz wrócić do edytora kodu. Działa w oparciu o <strong class="font-semibold">Framework v3.x</strong>.
+      clear_saved_plugin_state: Wyczyść zapisany stan pluginu
+      code_panels: Panele kodu
       docs_descriptions:
-        chart: Visualize data optimized for 1-bit rendering
-        clamp: Manage text overflow with single and multi-line truncation
-        columns: Implement zero-config column layouts for content organization
-        content_limiter: Change font size when content overflows to fit within the container
-        description: Format descriptive text with standardized styles
-        divider: Create horizontal or vertical dividers between elements
-        fit_value: Automatically resize numbers and values to fit within their containers
-        flex: Arrange elements with flexible layouts and alignment options
-        format_value: Format numbers and values with consistent styling
-        grid: Create grid layouts with predefined column structures
-        image: Optimize images using dithering techniques for 1-bit rendering
-        item: Build standardized list items and content blocks
-        label: Create clear labels for unified content identification
-        layout: Primary container for organizing plugin content
-        overflow: Handle column items overflow
-        pixel_perfect: Ensure text renders with crisp edges by aligning to the pixel grid
-        progress: Display progress bars in different styles
-        rich_text: Display formatted paragraphs with alignment and size variants
-        table: Create data tables optimized for 1-bit rendering
-        table_overflow: Handle table rows overflow
-        title: Style headings with consistent typography
-        title_bar: Standardized title bar with plugin information and instance details
-        value: Display data values with consistent formatting
-      edit_plugin_settings: Edit plugin settings
-      feature_agent_description: Describe what you want. AI writes and edits your markup.
-      feature_agent_title: Code Agent
-      feature_grid_description: All your markup layouts at once. Pan and zoom, switch context instantly.
-      feature_grid_title: Multi-layout preview
-      feature_keyboard_description: Undo, redo, copy, paste, duplicate. Right-click for quick actions.
-      feature_keyboard_title: Full editing toolkit
-      feature_layout_description: Resize, show, or hide any panel. Drag edges to adjust.
-      feature_layout_title: Flexible workspace
-      feature_library_description: Browse components, reference plugin data, scaffold with templates.
-      feature_library_title: Resources & variables
-      feature_pointer_description: Drag items to rearrange. Select to reveal properties.
-      feature_pointer_title: Interactable previews
-      feature_responsive_description: Apply rules per screen size, orientation, and bit depth.
-      feature_responsive_title: Responsive mode
-      feature_sliders_description: Every Framework setting exposed as UI. No code needed to inspect or edit.
-      feature_sliders_title: Visual properties
-      force_refresh_plugin_data: Force refresh plugin data
-      half_horizontal: Half Horizontal
-      half_vertical: Half Vertical
-      history_and_save: History and save
-      instance_fallback: Instance %{id}
+        chart: Wizualizuj dane w sposób zoptymalizowany pod kątem renderowania 1-bitowego
+        clamp: Kontroluj przepełnienie tekstu za pomocą skracania pojedynczych lub wielu wierszy
+        columns: Twórz układy kolumn do organizowania treści bez dodatkowej konfiguracji
+        content_limiter: Zmieniaj rozmiar czcionki, gdy treść nie mieści się w kontenerze
+        description: Formatuj tekst opisowy za pomocą ujednoliconych stylów
+        divider: Twórz poziome lub pionowe separatory między elementami
+        fit_value: Automatycznie dopasowuj rozmiar liczb i wartości do ich kontenerów
+        flex: Rozmieszczaj elementy za pomocą elastycznych układów i opcji wyrównania
+        format_value: Formatuj liczby i wartości ze spójnym stylem
+        grid: Twórz układy siatki z predefiniowanymi strukturami kolumn
+        image: Optymalizuj obrazy za pomocą ditheringu pod kątem renderowania 1-bitowego
+        item: Twórz ujednolicone elementy list i bloki treści
+        label: Twórz czytelne etykiety do spójnego oznaczania treści
+        layout: Główny kontener do organizowania treści pluginu
+        overflow: Obsługuj przepełnienie elementów kolumn
+        pixel_perfect: Zapewnij ostre krawędzie tekstu dzięki wyrównaniu do siatki pikseli
+        progress: Wyświetlaj paski postępu w różnych stylach
+        rich_text: Wyświetlaj sformatowane akapity z różnymi opcjami wyrównania i rozmiaru
+        table: Twórz tabele danych zoptymalizowane pod kątem renderowania 1-bitowego
+        table_overflow: Obsługuj przepełnienie wierszy tabeli
+        title: Formatuj nagłówki za pomocą spójnej typografii
+        title_bar: Ujednolicony pasek tytułowy z informacjami o pluginie i jego instancji
+        value: Wyświetlaj wartości danych ze spójnym formatowaniem
+      edit_plugin_settings: Edytuj ustawienia pluginu
+      feature_agent_description: Opisz, czego potrzebujesz. AI napisze i zmodyfikuje kod szablonu.
+      feature_agent_title: Agent kodu
+      feature_grid_description: Wszystkie układy szablonu jednocześnie. Przesuwaj i powiększaj widok, błyskawicznie przełączaj kontekst.
+      feature_grid_title: Podgląd wielu układów
+      feature_keyboard_description: Cofanie, ponawianie, kopiowanie, wklejanie i duplikowanie. Kliknij prawym przyciskiem myszy, aby uzyskać dostęp do szybkich akcji.
+      feature_keyboard_title: Kompletny zestaw narzędzi edycji
+      feature_layout_description: Zmieniaj rozmiar dowolnego panelu, pokazuj go lub ukrywaj. Przeciągaj krawędzie, aby dostosować rozmiar.
+      feature_layout_title: Elastyczny obszar roboczy
+      feature_library_description: Przeglądaj komponenty, korzystaj z danych pluginu i buduj strukturę za pomocą szablonów.
+      feature_library_title: Zasoby i zmienne
+      feature_pointer_description: Przeciągaj elementy, aby zmienić ich układ. Zaznacz element, aby wyświetlić jego właściwości.
+      feature_pointer_title: Interaktywne podglądy
+      feature_responsive_description: Stosuj reguły zależne od rozmiaru i orientacji ekranu oraz głębi bitowej.
+      feature_responsive_title: Tryb responsywny
+      feature_sliders_description: Każde ustawienie Frameworka dostępne w interfejsie. Nie musisz pisać kodu, aby sprawdzić lub zmienić ustawienia.
+      feature_sliders_title: Właściwości wizualne
+      force_refresh_plugin_data: Wymuś odświeżenie danych pluginu
+      half_horizontal: Połowa pozioma
+      half_vertical: Połowa pionowa
+      history_and_save: Historia i zapis
+      instance_fallback: Instancja %{id}
       labels:
-        add_ellipsis: Add...
-        adjust_gaps: Adjust Gaps
-        alignment: Alignment
-        alt_text: Alt text
-        appearance: Appearance
-        apply_template_to_all_views: Apply this template to all markup views.
-        arrangement: Arrangement
-        aspect_ratio: Aspect Ratio
-        assign: Assign
-        auto: Auto
-        backdrop: Backdrop
-        background: Background
-        bar: Bar
-        base: Base
-        bit_depth_override: Bit depth override
-        black: Black
-        block: Block
-        bold: Bold
-        borders: Borders
-        both: Both
-        bottom: Bottom
-        break: Break
-        cannot_multi_edit: Selected elements cannot be multi-edited.
-        capture: Capture
-        case: Case
-        center_both_axes: Center (both axes)
-        center_x: Center X
-        center_y: Center Y
-        chart: Chart
-        clamp: Clamp
-        classes: Classes
-        clear_snapshots_confirm: Clear all snapshots for %{tab}?
-        col: Col
-        col_position: Col position
-        column: Column
+        add_ellipsis: Dodaj...
+        adjust_gaps: Dostosuj odstępy
+        alignment: Wyrównanie
+        alt_text: Tekst alternatywny
+        appearance: Wygląd
+        apply_template_to_all_views: Zastosuj ten szablon do wszystkich widoków kodu szablonu.
+        arrangement: Rozmieszczenie
+        aspect_ratio: Proporcje obrazu
+        assign: Przypisz
+        auto: Automatycznie
+        backdrop: Tło warstwy
+        background: Tło
+        bar: Pasek
+        base: Podstawowy
+        bit_depth_override: Nadpisanie głębi bitowej
+        black: Czarny
+        block: Blok
+        bold: Pogrubienie
+        borders: Obramowania
+        both: Oba
+        bottom: Dół
+        break: Podział
+        cannot_multi_edit: Nie można edytować jednocześnie zaznaczonych elementów.
+        capture: Przechwyć
+        case: Wielkość liter
+        center_both_axes: Wyśrodkuj (obie osie)
+        center_x: Wyśrodkuj w osi X
+        center_y: Wyśrodkuj w osi Y
+        chart: Wykres
+        clamp: Ograniczenie tekstu
+        classes: Klasy
+        clear_snapshots_confirm: Wyczyścić wszystkie migawki dla %{tab}?
+        col: Kol.
+        col_position: Pozycja kolumny
+        column: Kolumna
         column_count:
-          one: "%{count} Column"
-          other: "%{count} Columns"
-        column_reverse: Column Reverse
+          one: "%{count} kolumna"
+          other: "Liczba kolumn: %{count}"
+        column_reverse: Kolumna odwrócona
         column_reverse_short: C↕
-        columns: Columns
-        comment: Comment
-        component: Component
-        component_docs: "%{title} docs"
-        component_preview: Component preview
-        condensed: Condensed
-        conditional: Conditional
-        contain: Contain
-        container: Container
-        content: Content
-        content_limiter: Content Limiter
-        content_size: Content Size
-        context_menu: Context menu
-        continue: Continue
-        convert_to_flex: Convert to Flex
-        convert_to_grid: Convert to Grid
-        copy: Copy
-        corner_radius: Corner Radius
-        could_not_load_template_details: Could not load template details
-        could_not_load_templates: Could not load templates
-        cover: Cover
+        columns: Kolumny
+        comment: Komentarz
+        component: Komponent
+        component_docs: "Dokumentacja %{title}"
+        component_preview: Podgląd komponentu
+        condensed: Skondensowany
+        conditional: Warunkowy
+        contain: Dopasuj w całości
+        container: Kontener
+        content: Treść
+        content_limiter: Ogranicznik treści
+        content_size: Rozmiar treści
+        context_menu: Menu kontekstowe
+        continue: Kontynuuj
+        convert_to_flex: Konwertuj na Flex
+        convert_to_grid: Konwertuj na Grid
+        copy: Kopiuj
+        corner_radius: Promień narożnika
+        could_not_load_template_details: Nie udało się wczytać szczegółów szablonu
+        could_not_load_templates: Nie udało się wczytać szablonów
+        cover: Wypełnij obszar
         ctrl_plus: Ctrl+
-        cut: Cut
-        cycle: Cycle
-        dark: Dark
-        dark_mode_override: Dark mode override
-        days_ago: "%{count}d ago"
-        decrement: Decrement
-        default: Default
+        cut: Wytnij
+        cycle: Przełączaj cyklicznie
+        dark: Ciemny
+        dark_mode_override: Nadpisanie trybu ciemnego
+        days_ago: "%{count} dni temu"
+        decrement: Zmniejsz
+        default: Domyślnie
         del_key: Del
-        delete: Delete
-        description: Description
-        deselect_or_cancel: Deselect or cancel
-        design: Design
-        dimensions: Dimensions
-        direction: Direction
-        display: Display
-        dither: Dither
-        divider: Divider
-        document: Document
-        dots: Dots
-        drill_in: Drill in
-        drill_out: Drill out
-        duplicate: Duplicate
+        delete: Usuń
+        description: Opis
+        deselect_or_cancel: Usuń zaznaczenie lub anuluj
+        design: Projektowanie
+        dimensions: Wymiary
+        direction: Kierunek
+        display: Wyświetlanie
+        dither: Dithering
+        divider: Separator
+        document: Dokument
+        dots: Kropki
+        drill_in: Wejdź do grupy
+        drill_out: Wyjdź z grupy
+        duplicate: Duplikuj
         echo: Echo
-        element_tree: Element tree
-        elements: Elements
-        emphasis: Emphasis
-        emphasis_1: Emphasis 1
-        emphasis_2: Emphasis 2
-        emphasis_3: Emphasis 3
-        end: End
-        error: Error
+        element_tree: Drzewo elementów
+        elements: Elementy
+        emphasis: Wyróżnienie
+        emphasis_1: Wyróżnienie 1
+        emphasis_2: Wyróżnienie 2
+        emphasis_3: Wyróżnienie 3
+        end: Koniec
+        error: Błąd
         error_count:
-          one: "%{count} error"
-          other: "%{count} errors"
-        failed_to_load_templates: Failed to load templates.
-        fill: Fill
-        filled: Filled
-        fit_value: Fit Value
-        fixed_columns: Fixed columns
+          one: "%{count} błąd"
+          other: "Liczba błędów: %{count}"
+        failed_to_load_templates: Nie udało się wczytać szablonów.
+        fill: Wypełnienie
+        filled: Wypełniony
+        fit_value: Dopasowanie wartości
+        fixed_columns: Stała liczba kolumn
         flex: Flex
-        font_size: Font Size
-        format_value: Format Value
-        foundation: Foundation
-        gap: Gap
-        gauge_large: Gauge (large)
-        gauge_small: Gauge (small)
-        general: General
-        gray: Gray
-        grid: Grid
-        group_as_flex: Group as flex
-        group_header: Group Header
-        group_to_flex: Group to Flex
-        group_to_grid: Group to Grid
-        hidden: Hidden
-        horiz: Horiz
-        horizontal: Horizontal
-        hours_ago: "%{count}h ago"
-        image: Image
-        increment: Increment
-        indexed: Indexed
-        inherit: Inherit
-        inline: Inline
-        inline_style: Inline Style
-        item: Item
-        just_now: just now
-        justify: Justify
+        font_size: Rozmiar czcionki
+        format_value: Formatowanie wartości
+        foundation: Podstawy
+        gap: Odstęp
+        gauge_large: Wskaźnik (duży)
+        gauge_small: Wskaźnik (mały)
+        general: Ogólne
+        gray: Szary
+        grid: Siatka
+        group_as_flex: Grupuj jako Flex
+        group_header: Nagłówek grupy
+        group_to_flex: Grupuj do Flex
+        group_to_grid: Grupuj do Grid
+        hidden: Ukryte
+        horiz: Poz.
+        horizontal: Poziomo
+        hours_ago: "%{count} godz. temu"
+        image: Obraz
+        increment: Zwiększ
+        indexed: Indeksowany
+        inherit: Dziedzicz
+        inline: W wierszu
+        inline_style: Styl wbudowany
+        item: Element
+        just_now: przed chwilą
+        justify: Rozmieszczenie wzdłuż osi
         key_alt: Alt
         key_backspace: Backspace
         key_command: Command
         key_control: Control
         key_ctrl: Ctrl
-        key_delete: Delete
-        key_down: Down
+        key_delete: Usuń
+        key_down: Dół
         key_enter: Enter
         key_escape: Escape
-        key_left: Left
+        key_left: Lewo
         key_option: Option
         key_return: Return
-        key_right: Right
+        key_right: Prawo
         key_shift: Shift
-        key_space: Space
+        key_space: Spacja
         key_tab: Tab
-        key_up: Up
-        label: Label
-        landscape: Landscape
-        large: Large
-        last_saved_at: Last saved at %{absolute}
-        layout: Layout
-        layout_unavailable: Layout unavailable
-        layouts: Layouts
-        light: Light
-        line_chartkick: Line (Chartkick)
+        key_up: Góra
+        label: Etykieta
+        landscape: Pozioma
+        large: Duży
+        last_saved_at: Ostatnio zapisano o %{absolute}
+        layout: Układ
+        layout_unavailable: Układ niedostępny
+        layouts: Układy
+        light: Jasny
+        line_chartkick: Liniowy (Chartkick)
         line_count:
-          one: "%{count} line"
-          other: "%{count} lines"
-        lines: Lines
+          one: "%{count} wiersz"
+          other: "Liczba wierszy: %{count}"
+        lines: Wiersze
         link: Link
-        liquid_block: Liquid Block
+        liquid_block: Blok Liquid
         liquid_named: 'Liquid: %{name}'
-        liquid_syntax: Liquid Syntax
-        liquid_syntax_element: This is Liquid syntax. Edit it in the code panel below.
-        liquid_template: Liquid Template
-        liquid_template_element: This element is from a Liquid template. Edit it in the Shared code panel.
-        liquid_template_element_named: This element is defined in the Liquid template "%{name}". Edit it in the Shared code panel.
-        loading_preview: Loading preview...
-        loading_template: Loading template...
-        loading_templates: Loading templates...
+        liquid_syntax: Składnia Liquid
+        liquid_syntax_element: To jest składnia Liquid. Edytuj ją w panelu kodu poniżej.
+        liquid_template: Szablon Liquid
+        liquid_template_element: Ten element pochodzi z szablonu Liquid. Edytuj go w panelu kodu współdzielonego.
+        liquid_template_element_named: Ten element jest zdefiniowany w szablonie Liquid „%{name}”. Edytuj go w panelu kodu współdzielonego.
+        loading_preview: Wczytywanie podglądu...
+        loading_template: Wczytywanie szablonu...
+        loading_templates: Wczytywanie szablonów...
         log_count:
-          one: "%{count} log"
-          other: "%{count} logs"
-        loop: Loop
-        margin: Margin
-        marquee_select: Marquee select
-        max_columns: Max columns
-        max_h: Max H
-        max_height: Max height
-        max_w: Max W
+          one: "%{count} wpis logu"
+          other: "Liczba wpisów logu: %{count}"
+        loop: Pętla
+        margin: Margines
+        marquee_select: Zaznaczanie obszaru
+        max_columns: Maks. liczba kolumn
+        max_h: Maks. wys.
+        max_height: Maksymalna wysokość
+        max_w: Maks. szer.
         meta: Meta
-        min_h: Min H
-        min_track: Min track
-        min_w: Min W
-        minutes_ago: "%{count}m ago"
-        mixed: Mixed
-        modulation: Modulation
-        modulation_lines: "%{name} Lines"
-        mouse_click: Click
-        mouse_click_lowercase: click
-        mouse_drag: Drag
-        mouse_drag_and_drop: Drag and drop
-        mouse_drag_lowercase: drag
-        mouse_right_click: Right-click
-        move_or_reorder: Move or reorder
-        multi_series_line: Multi-series line
-        network_error: Network error
-        'no': 'No'
-        no_editable_settings: No editable settings
-        no_elements_yet: No elements yet
-        no_gap: No Gap
-        no_issues: No issues
-        no_snapshots: No snapshots
-        no_templates_available: No templates available
-        no_templates_found: No templates found.
-        no_wrap: No Wrap
-        none: None
+        min_h: Min. wys.
+        min_track: Min. rozmiar ścieżki
+        min_w: Min. szer.
+        minutes_ago: "%{count} min temu"
+        mixed: Mieszane
+        modulation: Modulacja
+        modulation_lines: "Wiersze: %{name}"
+        mouse_click: Kliknij
+        mouse_click_lowercase: kliknij
+        mouse_drag: Przeciągnij
+        mouse_drag_and_drop: Przeciągnij i upuść
+        mouse_drag_lowercase: przeciągnij
+        mouse_right_click: Kliknij prawym przyciskiem
+        move_or_reorder: Przenieś lub zmień kolejność
+        multi_series_line: Wykres liniowy z wieloma seriami
+        network_error: Błąd sieci
+        'no': 'Nie'
+        no_editable_settings: Brak edytowalnych ustawień
+        no_elements_yet: Nie ma jeszcze elementów
+        no_gap: Bez odstępu
+        no_issues: Brak problemów
+        no_snapshots: Brak migawek
+        no_templates_available: Brak dostępnych szablonów
+        no_templates_found: Nie znaleziono szablonów.
+        no_wrap: Bez zawijania
+        none: Brak
         noscript: Noscript
-        not_yet_saved: Not yet saved
-        numeric_style: Numeric Style
-        object_fit: Object Fit
-        'off': 'Off'
-        'on': 'On'
-        on_background: On background
-        on_black: On black
-        on_dark: On dark
-        on_light: On light
-        on_white: On white
-        orientation: Orientation
-        orientation_override: Orientation override
-        outline: Outline
-        overflow: Overflow
-        padding: Padding
-        pan: Pan
-        parent: Parent
-        paste: Paste
-        personalized: Personalized
-        pixel_perfect: Pixel Perfect
-        portrait: Portrait
-        preview_canvas: Preview canvas
-        preview_failed: Preview failed
-        primary: Primary
-        progress: Progress
-        regular: Regular
-        reorder: Reorder
-        replace_content_with_template_confirm: Replace your current content with this template?
-        reset_zoom: Reset zoom
-        reset_zoom_to_100: Reset zoom to 100%
-        responsive_size_override: Responsive size override
-        rev: Rev
-        rich_text: Rich Text
-        row: Row
-        row_position: Row position
-        row_reverse: Row Reverse
+        not_yet_saved: Jeszcze nie zapisano
+        numeric_style: Styl liczb
+        object_fit: Dopasowanie obiektu
+        'off': 'Wyłączone'
+        'on': 'Włączone'
+        on_background: Na tle
+        on_black: Na czarnym tle
+        on_dark: Na ciemnym tle
+        on_light: Na jasnym tle
+        on_white: Na białym tle
+        orientation: Orientacja
+        orientation_override: Nadpisanie orientacji
+        outline: Kontur
+        overflow: Przepełnienie
+        padding: Margines wewnętrzny
+        pan: Przesuwanie widoku
+        parent: Element nadrzędny
+        paste: Wklej
+        personalized: Spersonalizowane
+        pixel_perfect: Wyrównanie do pikseli
+        portrait: Pionowa
+        preview_canvas: Obszar podglądu
+        preview_failed: Nie udało się wyświetlić podglądu
+        primary: Główny
+        progress: Postęp
+        regular: Standardowa
+        reorder: Zmień kolejność
+        replace_content_with_template_confirm: Zastąpić obecną treść tym szablonem?
+        reset_zoom: Zresetuj powiększenie
+        reset_zoom_to_100: Przywróć powiększenie 100%
+        responsive_size_override: Nadpisanie rozmiaru responsywnego
+        rev: Odwr.
+        rich_text: Tekst formatowany
+        row: Wiersz
+        row_position: Pozycja wiersza
+        row_reverse: Wiersz odwrócony
         row_reverse_short: R↔
-        save: Save
-        save_detail_dirty: " · last saved %{relative} · %{absolute}"
-        save_failed_status: Save failed (%{status})
-        save_state: Save state
-        saved_at: Saved at %{absolute}
-        saving: Saving…
-        script: Script
-        seconds_ago: "%{count}s ago"
-        select: Select
-        select_a_component: Select a component
-        select_a_template: Select a template
-        semantic: Semantic
-        shade: Shade
-        show_counter: Show counter
-        size: Size
-        small: Small
+        save: Zapisz
+        save_detail_dirty: " · ostatnio zapisano %{relative} · %{absolute}"
+        save_failed_status: Nie udało się zapisać (%{status})
+        save_state: Zapisz stan
+        saved_at: Zapisano o %{absolute}
+        saving: Zapisywanie…
+        script: Skrypt
+        seconds_ago: "%{count} s temu"
+        select: Wybierz
+        select_a_component: Wybierz komponent
+        select_a_template: Wybierz szablon
+        semantic: Semantyczny
+        shade: Odcień
+        show_counter: Pokaż licznik
+        size: Rozmiar
+        small: Mały
         snapshot_count:
-          one: "%{count} snapshot"
-          other: "%{count} snapshots"
-        snapshot_edited: edited
-        snapshot_initial: initial
-        snapshot_latest_suffix: " · latest"
-        snapshot_line_delta: "%{delta} lines"
-        snapshots_scope: for %{tab}
-        some_template_layouts_unavailable: Some template layouts are unavailable.
-        source_src: Source (src)
-        space_around: Space Around
-        space_between: Space Between
-        space_evenly: Space Evenly
-        spacing: Spacing
-        span: Span
-        span_number: Span %{number}
-        start: Start
-        stretch: Stretch
-        stretch_x: Stretch X
-        stretch_y: Stretch Y
-        stroke_color: Stroke Color
-        stroke_shade: Stroke Shade
-        stroke_size: Stroke Size
-        style: Style
-        success: Success
-        table: Table
-        table_cell: Table Cell
-        table_overflow: Table Overflow
-        table_row: Table Row
-        tabular_nums: Tabular Nums
-        template_missing_layouts: This template is missing one or more layouts.
-        template_preview_title: "%{view} template preview"
-        text: Text
-        text_align: Text Align
-        text_color: Text Color
-        text_stroke: Text Stroke
-        title: Title
-        title_bar: Title Bar
-        toggle_selection: Toggle selection
-        top: Top
-        typography: Typography
-        underline: Underline
-        unit_for: "%{label} unit"
-        unknown: Unknown
-        unless: Unless
-        unsaved_changes: Unsaved changes
-        use_template: Use template
-        value: Value
-        variant: Variant
-        vert: Vert
-        vertical: Vertical
-        view: View
-        visibility: Visibility
-        visible: Visible
-        warning: Warning
+          one: "%{count} migawka"
+          other: "Liczba migawek: %{count}"
+        snapshot_edited: edytowano
+        snapshot_initial: początkowa
+        snapshot_latest_suffix: " · najnowsza"
+        snapshot_line_delta: "Liczba wierszy: %{delta}"
+        snapshots_scope: dla %{tab}
+        some_template_layouts_unavailable: Niektóre układy szablonów są niedostępne.
+        source_src: Źródło (src)
+        space_around: Odstępy wokół elementów
+        space_between: Odstępy między elementami
+        space_evenly: Równe odstępy
+        spacing: Odstępy
+        span: Rozpiętość
+        span_number: 'Rozpiętość: %{number}'
+        start: Początek
+        stretch: Rozciągnij
+        stretch_x: Rozciągnij w osi X
+        stretch_y: Rozciągnij w osi Y
+        stroke_color: Kolor obrysu
+        stroke_shade: Odcień obrysu
+        stroke_size: Grubość obrysu
+        style: Styl
+        success: Powodzenie
+        table: Tabela
+        table_cell: Komórka tabeli
+        table_overflow: Przepełnienie tabeli
+        table_row: Wiersz tabeli
+        tabular_nums: Cyfry tabelaryczne
+        template_missing_layouts: W tym szablonie brakuje co najmniej jednego układu.
+        template_preview_title: "Podgląd szablonu %{view}"
+        text: Tekst
+        text_align: Wyrównanie tekstu
+        text_color: Kolor tekstu
+        text_stroke: Obrys tekstu
+        title: Tytuł
+        title_bar: Pasek tytułowy
+        toggle_selection: Przełącz zaznaczenie
+        top: Góra
+        typography: Typografia
+        underline: Podkreślenie
+        unit_for: "Jednostka: %{label}"
+        unknown: Nieznane
+        unless: Chyba że
+        unsaved_changes: Niezapisane zmiany
+        use_template: Użyj szablonu
+        value: Wartość
+        variant: Wariant
+        vert: Pion.
+        vertical: Pionowo
+        view: Widok
+        visibility: Widoczność
+        visible: Widoczne
+        warning: Ostrzeżenie
         warning_count:
-          one: "%{count} warning"
-          other: "%{count} warnings"
-        weight: Weight
-        white: White
-        white_default: White (default)
-        wrap: Wrap
-        wrap_in_layout: Wrap in Layout
-        wrap_reverse: Wrap Reverse
-        xlarge: XLarge
-        xsmall: Xsmall
-        zoom_preview: Zoom preview
-        version_copied_from_recipe: copied from the recipe
-        version_loading: Loading...
-        version_load_failed: Could not load this version.
-        version_no_changes: No changes from the version before it.
-      page_title: Visual Editor - %{name}
-      plugin_documentation: Plugin documentation
-      pop_out_preview_label: Pop out preview
-      preset_code_description: Side-by-side code and preview. Focused on the editor.
-      preset_design_description: Visual-first. Inspect and edit anything without touching code.
-      preset_mixed_description: Every panel open. The complete environment, all at once.
-      resources: Resources
-      side_panels: Side panels
-      starting_with: Starting with
-      time_ago: "%{time} ago"
+          one: "%{count} ostrzeżenie"
+          other: "Liczba ostrzeżeń: %{count}"
+        weight: Grubość
+        white: Biały
+        white_default: Biały (domyślny)
+        wrap: Zawijaj
+        wrap_in_layout: Umieść w układzie
+        wrap_reverse: Zawijaj w odwrotnej kolejności
+        xlarge: Bardzo duży
+        xsmall: Bardzo mały
+        zoom_preview: Powiększ podgląd
+        version_copied_from_recipe: skopiowano z receptury
+        version_loading: Wczytywanie...
+        version_load_failed: Nie udało się wczytać tej wersji.
+        version_no_changes: Brak zmian w stosunku do poprzedniej wersji.
+      page_title: Edytor wizualny - %{name}
+      plugin_documentation: Dokumentacja pluginu
+      pop_out_preview_label: Podgląd w nowym oknie
+      preset_code_description: Kod i podgląd obok siebie. Nacisk na edycję kodu.
+      preset_design_description: Nacisk na edycję wizualną. Sprawdzaj i edytuj wszystko bez zmiany kodu.
+      preset_mixed_description: Wszystkie panele otwarte. Pełne środowisko w jednym widoku.
+      resources: Zasoby
+      side_panels: Panele boczne
+      starting_with: Począwszy od
+      time_ago: "%{time} temu"
     ai_assistant_inline:
       model_locked: Twój model AI jest ustawiany przez TRMNL
       composition_prefill: Dostosuj ten plugin do Vestaboard
       composition_empty_state: Tworzy układ tablicy Vestaboard na podstawie Twojego kodu i bieżących danych.
       composition_placeholder: Poproś o zmianę na tablicy…
-      ai_assistance_settings: AI assistance settings
-      chat_tabs: Chat tabs
-      choose_model: Choose model for this session
-      closed_chats: Closed chats
-      composer_placeholder: Plan, Build, or type commands...
-      enabled_by_default_hint: AI assistance is enabled by default — you can turn it off in Account Settings
-      select_model: Select model
-      send_enter: Send (Enter)
-      send_message: Send message
-      stop: Stop
-      stop_response: Stop response
+      ai_assistance_settings: Ustawienia pomocy AI
+      chat_tabs: Karty czatów
+      choose_model: Wybierz model dla tej sesji
+      closed_chats: Zamknięte czaty
+      composer_placeholder: Planuj, twórz lub wpisz polecenia...
+      enabled_by_default_hint: Pomoc AI jest domyślnie włączona — możesz ją wyłączyć w ustawieniach konta
+      select_model: Wybierz model
+      send_enter: Wyślij (Enter)
+      send_message: Wyślij wiadomość
+      stop: Zatrzymaj
+      stop_response: Zatrzymaj odpowiedź
     ai_screenshot_targets:
-      devices: Devices
-      screenshot_targets: Screenshot targets
-      views: Views
+      devices: Urządzenia
+      screenshot_targets: Docelowe zrzuty ekranu
+      views: Widoki
     develop_on_github_modal:
-      clone_docker: This runs through Docker, so you don't need Ruby or anything else installed.
-      clone_key_included: The copy button includes your API key, so you can paste and run.
-      clone_replace_key_html: Replace %{placeholder} with your TRMNL API key before running.
-      clone_title: 1. Clone the plugin
-      copy_command: Copy command
-      intro_html: "%{trmnlp} is a command-line tool for building TRMNL plugins locally. Edit the markup in any editor and preview it in your browser. Once the plugin is on GitHub, every commit to %{branch} deploys it to TRMNL."
-      preview_body_html: From the new %{folder} folder, start the dev server and open %{address}. The preview updates every time you save.
-      preview_title: 2. Preview it locally
-      push_body: The cloned project is already a Git repository with a CI workflow. Create a repository on GitHub and push it.
-      push_title: 3. Push to GitHub
-      secret_body_html: In the new repository, open %{settings_path} and add a secret named %{secret_name}.
-      secret_title: 4. Add your API key as a secret
+      clone_docker: Narzędzie działa w Dockerze, więc nie musisz instalować Ruby ani niczego innego.
+      clone_key_included: Przycisk kopiowania uwzględnia Twój klucz API, więc możesz od razu wkleić i uruchomić polecenie.
+      clone_replace_key_html: Przed uruchomieniem zastąp %{placeholder} swoim kluczem API TRMNL.
+      clone_title: 1. Sklonuj plugin
+      copy_command: Skopiuj polecenie
+      intro_html: "%{trmnlp} to narzędzie wiersza poleceń do lokalnego tworzenia pluginów TRMNL. Edytuj kod szablonu w dowolnym edytorze i przeglądaj go w przeglądarce. Gdy plugin znajdzie się na GitHubie, każdy commit do %{branch} wdroży go w TRMNL."
+      preview_body_html: W nowym katalogu %{folder} uruchom serwer deweloperski i otwórz %{address}. Podgląd aktualizuje się przy każdym zapisie.
+      preview_title: 2. Wyświetl lokalny podgląd
+      push_body: Sklonowany projekt jest już repozytorium Git z workflow CI. Utwórz repozytorium na GitHubie i wypchnij do niego zmiany.
+      push_title: 3. Wyślij na GitHub
+      secret_body_html: W nowym repozytorium otwórz %{settings_path} i dodaj sekret o nazwie %{secret_name}.
+      secret_title: 4. Dodaj klucz API jako sekret
       trmnlp_readme: trmnlp README
-      view_api_key: View your API key
+      view_api_key: Wyświetl swój klucz API
     preview:
-      get_started_html: Get started with %{link}. Or select a quick-start example above.
-      placeholder: Your live preview will appear here.
-      the_design_system: the design system
-      variables_below: The template variables can be found below.
+      get_started_html: Zacznij od %{link}. Możesz też wybrać jeden z gotowych przykładów powyżej.
+      placeholder: Tutaj pojawi się podgląd na żywo.
+      the_design_system: system projektowania
+      variables_below: Zmienne szablonu znajdziesz poniżej.
     visual_editor_shortcuts:
-      keyboard_and_pointer_shortcuts: Keyboard and pointer shortcuts
-      shortcuts: Shortcuts
+      keyboard_and_pointer_shortcuts: Skróty klawiaturowe i akcje myszy
+      shortcuts: Skróty
     visual_editor_status_bar:
-      current_preview_device: Current preview device
-      for_this_tab: for this tab
-      next_snapshot: Next snapshot
-      no_snapshots_yet: No snapshots yet. Save your work to capture one.
-      previous_snapshot: Previous snapshot
-      runtime_log_activity: Runtime log activity from the preview
-      snapshots: Snapshots
-      snapshots_for_this_tab: Snapshots for this tab
-      status_bar: Visual editor status bar
-      back_to_versions: Back to all snapshots
-      load_version: Load into editor
+      current_preview_device: Obecne urządzenie podglądu
+      for_this_tab: dla tej karty
+      next_snapshot: Następna migawka
+      no_snapshots_yet: Nie ma jeszcze migawek. Zapisz swoją pracę, aby utworzyć pierwszą.
+      previous_snapshot: Poprzednia migawka
+      runtime_log_activity: Aktywność logów z podglądu w czasie wykonywania
+      snapshots: Migawki
+      snapshots_for_this_tab: Migawki tej karty
+      status_bar: Pasek statusu edytora wizualnego
+      back_to_versions: Wróć do wszystkich migawek
+      load_version: Wczytaj do edytora
     visual_previewer:
-      page_title: Preview - %{name}
-      visual_editor_preview: Visual editor preview
+      page_title: Podgląd - %{name}
+      visual_editor_preview: Podgląd edytora wizualnego
     welcome_tag:
-      layers: Layers
-      preview: Preview
+      layers: Warstwy
+      preview: Podgląd
     markup_editor:
-      apply_example_hint: Apply a quickstart from the Examples menu
-      code_panels: Code panels
-      design_system: Design system
-      device_logs: Device logs
-      docs: Docs
-      docs_and_tools: Docs and tools
-      code_agent_hint: Tell the Code Agent about your idea
-      design_system_link: design system
-      insert_variable: Insert
-      empty_state_hint_html: Start by writing markup in the code editor, or browse the %{design_system} for components and layouts.
-      examples: Examples
-      full: Full
-      half_horizontal: Half Horizontal
-      half_horizontal_short: Half H
-      half_vertical: Half Vertical
-      half_vertical_short: Half V
-      layout_mode: Layout mode
-      no_examples: No examples for this tab.
-      no_plugins_match: No plugins match
-      plugin_docs: Plugin docs
-      premade_templates_hint: Start from pre-made templates
-      preview_title: "%{layout} markup editor preview"
-      quadrant: Quadrant
-      remove_transform: Remove transform script
-      remove_transform_confirm: Permanently delete the transform script from the server? This cannot be undone.
-      replace_with_example: Replace the active editor with this example
-      reset_zoom: Fit the preview
-      resize_code_agent: Resize Code Agent panel
-      resources: Resources
-      save_and_revert: Save and revert
-      serverless_language_none: None
-      show_all: Show all
-      show_all_layouts: Show all layouts in the preview
-      starter_template_hint: Use starter template for this layout
-      view_size: View size
-      view_tabs: View tabs
-      visual_preview_title: "%{layout} visual editor preview"
-      write_markup_hint: Write markup in the Code panel
-      zoom_in_hint: Zoom in to get started
+      apply_example_hint: Zastosuj gotowy przykład z menu Przykłady
+      code_panels: Panele kodu
+      design_system: System projektowania
+      device_logs: Logi urządzenia
+      docs: Dokumentacja
+      docs_and_tools: Dokumentacja i narzędzia
+      code_agent_hint: Opowiedz Agentowi kodu o swoim pomyśle
+      design_system_link: system projektowania
+      insert_variable: Wstaw
+      empty_state_hint_html: Zacznij od napisania kodu szablonu w edytorze lub przejrzyj %{design_system}, aby znaleźć komponenty i układy.
+      examples: Przykłady
+      full: Pełny ekran
+      half_horizontal: Połowa pozioma
+      half_horizontal_short: Połowa pozioma
+      half_vertical: Połowa pionowa
+      half_vertical_short: Połowa pionowa
+      layout_mode: Tryb układu
+      no_examples: Brak przykładów dla tej karty.
+      no_plugins_match: Brak pasujących pluginów
+      plugin_docs: Dokumentacja pluginu
+      premade_templates_hint: Zacznij od gotowych szablonów
+      preview_title: "Podgląd edytora kodu szablonu: %{layout}"
+      quadrant: Ćwiartka
+      remove_transform: Usuń skrypt transformacji
+      remove_transform_confirm: Trwale usunąć skrypt transformacji z serwera? Tej operacji nie można cofnąć.
+      replace_with_example: Zastąp zawartość aktywnego edytora tym przykładem
+      reset_zoom: Dopasuj podgląd
+      resize_code_agent: Zmień rozmiar panelu Agenta kodu
+      resources: Zasoby
+      save_and_revert: Zapisz i cofnij
+      serverless_language_none: Brak
+      show_all: Pokaż wszystkie
+      show_all_layouts: Pokaż wszystkie układy w podglądzie
+      starter_template_hint: Użyj szablonu początkowego dla tego układu
+      view_size: Rozmiar widoku
+      view_tabs: Karty widoków
+      visual_preview_title: "Podgląd edytora wizualnego: %{layout}"
+      write_markup_hint: Wpisz kod szablonu w panelu Kod
+      zoom_in_hint: Powiększ widok, aby rozpocząć
   mfa:
     disable_otp:
       success: Uwierzytelnianie dwuskładnikowe (2FA) wyłączone
@@ -1695,14 +1695,14 @@ pl:
           heading: Ta playlista jest pusta
           description: Wybierz powyżej Dodaj plugin, aby dodać jeden ze swoich pluginów.
           cta: Szukasz czegoś nowego? Przeglądaj pluginy
-        ask_trmy: or set up with trmy
-        ask_trmy_message: Help me set up the playlist for %{device}
+        ask_trmy: lub skonfiguruj z pomocą trmy
+        ask_trmy_message: Pomóż mi skonfigurować playlistę dla %{device}
       unused_plugin_setting:
         message: "%{name} nie znajduje się już na żadnej playliście. Usunąć również plugin?"
         delete: Usuń plugin
         keep: Zachowaj plugin
-      repeat_screen: Repeat screen
-      repeat_screen_hint: Show the current screen again at each wake, with fresh data, until you press the button.
+      repeat_screen: Powtarzaj ekran
+      repeat_screen_hint: Wyświetlaj ponownie bieżący ekran przy każdym wybudzeniu, z aktualnymi danymi, aż do naciśnięcia przycisku.
     playlist_item:
       adjust_schedule: Dostosuj harmonogram
       delete: Czy na pewno chcesz usunąć ten element? Plugin pozostanie połączony, ale nie będzie wyświetlany na Twoim urządzeniu.
@@ -1724,15 +1724,15 @@ pl:
       next_render: Ponowne renderowanie %{time}
       render_overdue: Renderowanie jest spóźnione od %{time}
       no_next_render: Brak renderowania przed tym czasem, %{reason}
-      configure: Configure
-      more_options: More options
-      select_item: Select %{title}
-      preview_item: Preview %{name}
-      repeat_screen: Repeat this screen
+      configure: Skonfiguruj
+      more_options: Więcej opcji
+      select_item: Wybierz %{title}
+      preview_item: Podgląd %{name}
+      repeat_screen: Powtarzaj ten ekran
     create:
       success: Playlista zaktualizowana
       error: Aktualizacja playlisty nie powiodła się
-      error_adding: Error adding to playlist
+      error_adding: Błąd podczas dodawania do playlisty
     destroy:
       error: Usunięcie elementu z playlisty nie powiodło się
       success: Plugin został usunięty z playlisty
@@ -1759,8 +1759,8 @@ pl:
       important_active: Aktywny ważny element
       stale: Nieaktualne
       pending: Jeszcze niewyrenderowane
-      hidden_by_important: Hidden by Important
-      repeated: Repeated
+      hidden_by_important: Ukryty przez ważne elementy
+      repeated: Powtarzany
     status_description:
       error: Odświeżanie zatrzymano po powtarzających się błędach. Otwórz ustawienia, aby rozwiązać problem.
       setup: Dokończ konfigurację tego elementu, zanim będzie mógł pojawić się na urządzeniu.
@@ -1771,8 +1771,8 @@ pl:
       important_active: Ważny element zajmuje teraz ten slot.
       stale: Inteligentne pomijanie pomija ten element — jego ekran od dłuższego czasu nie był aktualizowany.
       pending: Pierwsze renderowanie rozpocznie się przy następnym zgłoszeniu urządzenia.
-      hidden_by_important: Important items are scheduled for every hour this device is awake, so this item never shows.
-      repeated: Repeat screen is on, so the device shows this screen again at each wake. Turn off Repeat screen at the top of the page to rotate again.
+      hidden_by_important: Ważne elementy są zaplanowane na każdą godzinę, w której urządzenie jest aktywne, więc ten element nigdy nie jest wyświetlany.
+      repeated: Powtarzanie ekranu jest włączone, więc urządzenie wyświetla ten ekran ponownie przy każdym wybudzeniu. Wyłącz opcję Powtarzaj ekran na górze strony, aby przywrócić rotację.
     schedule:
       always: Zawsze
       important_title: Ważne
@@ -1793,8 +1793,8 @@ pl:
         destroy: Elementy usunięte z playlisty
         refresh_interval: Zaktualizowano częstotliwość odświeżania
         refresh_interval_skipped:
-          one: Refresh rate updated, except for 1 item that has no refresh rate. For an Alias, set its duration in the item's schedule.
-          other: Refresh rate updated, except for %{count} items that have no refresh rate. For an Alias, set its duration in the item's schedule.
+          one: Zaktualizowano częstotliwość odświeżania z wyjątkiem 1 elementu, który jej nie ma. W przypadku Aliasu ustaw czas wyświetlania w harmonogramie tego elementu.
+          other: Zaktualizowano częstotliwość odświeżania z wyjątkiem %{count} elementów, które jej nie mają. W przypadku Aliasu ustaw czas wyświetlania w harmonogramie tego elementu.
       error: Operacja zbiorcza nie powiodła się
       refresh_rate: Częstotliwość odświeżania
       selected: zaznaczono
@@ -1818,28 +1818,28 @@ pl:
       render_marker: Renderuje
       asleep_window: Uśpione %{from} → %{to} (%{duration})
     action_items:
-      no_plugins_available: No plugins available
+      no_plugins_available: Brak dostępnych pluginów
     appearance:
       invalid:
-        font_family: Invalid font family
-        palette_id: Invalid color palette
-        text_scale: Invalid text scale
-        theme: Invalid theme
+        font_family: Nieprawidłowa rodzina czcionek
+        palette_id: Nieprawidłowa paleta kolorów
+        text_scale: Nieprawidłowa skala tekstu
+        theme: Nieprawidłowy motyw
       updated:
-        font_family: Font family updated
-        palette_id: Color palette updated
-        text_scale: Text scale updated
-        theme: Theme updated
+        font_family: Zaktualizowano rodzinę czcionek
+        palette_id: Zaktualizowano paletę kolorów
+        text_scale: Zaktualizowano skalę tekstu
+        theme: Motyw zaktualizowany
     mashup_grid_editor_modal:
-      continue: Continue
-      instructions: Click one corner of a rectangle, then the opposite corner to merge every cell inside it (e.g. top-left then bottom-right for a 2×2). Click a merged cell twice to split it.
-      reset: Reset
-      title: Compose 3×3 layout
+      continue: Kontynuuj
+      instructions: Kliknij jeden narożnik prostokąta, a następnie przeciwległy, aby scalić wszystkie komórki wewnątrz (np. lewy górny, a następnie prawy dolny dla obszaru 2×2). Kliknij scaloną komórkę dwukrotnie, aby ją podzielić.
+      reset: Resetuj
+      title: Utwórz układ 3×3
     presentation_options:
-      device_default: Device Default
+      device_default: Domyślne ustawienia urządzenia
     repeat:
-      success: Your device repeats this screen from its next refresh.
-      unavailable: This screen cannot be repeated.
+      success: Urządzenie będzie powtarzać ten ekran od następnego odświeżenia.
+      unavailable: Tego ekranu nie można powtarzać.
   plugins:
     index:
       title: Pluginy
@@ -1855,9 +1855,9 @@ pl:
       categories: Kategorie
       discover: Odkrywaj
       you_may_also_like: Może Ci się również spodobać
-      browse_all_recipes: Browse all recipes
-      build_for_other_users: Build for other users
-      discover_picks: Not sure what to add? Get picks for %{device}
+      browse_all_recipes: Przeglądaj wszystkie receptury
+      build_for_other_users: Twórz dla innych użytkowników
+      discover_picks: Nie wiesz, co dodać? Pobierz rekomendacje dla %{device}
     search:
       placeholder: Szukaj pluginów
     my:
@@ -1868,11 +1868,11 @@ pl:
         install: Instaluj
         review_are_you_sure: Na pewno? Zespół TRMNL przetestuje plugin i w razie potrzeby skontaktuje się z Tobą przez e-mail.
         submit_for_review: Prześlij do weryfikacji
-        client_secret: Client Secret
+        client_secret: Sekret klienta
       form:
-        featured_image: Featured Image
-        featured_image_hint: Install this plugin, then set your current screen as the featured image from the plugin settings page.
-        name_placeholder: Metro Schedule
+        featured_image: Obraz wyróżniający
+        featured_image_hint: Zainstaluj ten plugin, a następnie ustaw jego bieżący ekran jako obraz wyróżniający na stronie ustawień pluginu.
+        name_placeholder: Rozkład jazdy metra
     new:
       title: Stwórz nowy plugin
       tagline: Inni użytkownicy będą w stanie korzystać z Twojego pluginu.
@@ -1902,34 +1902,34 @@ pl:
     settings_preview:
       show_all: Pokaż wszystkie opcje (%{count})
     local_art:
-      empty: No art matches these settings yet. Try more cities or mediums.
+      empty: Nie ma jeszcze dzieł sztuki pasujących do tych ustawień. Spróbuj wybrać więcej miast lub technik artystycznych.
     plugin:
-      preview: preview
+      preview: podgląd
     recipes:
       chef_suggestions:
-        title: Chef says...
+        title: Szef kuchni podpowiada...
       install_oauth_choice:
-        back_to_recipe: Back to Recipe
-        description: This recipe uses OAuth authentication. Choose how you'd like to set it up.
-        inherit_oauth: Use recipe's OAuth app
-        inherit_oauth_hint: Easiest option. The recipe author has configured an OAuth app for you. You'll just need to authorize access with your account.
-        install: Install Recipe
-        meta_title: Install %{name} - OAuth Configuration
-        own_oauth: Use my own OAuth app
-        own_oauth_hint: More control. You'll need to create your own OAuth app and enter the client credentials yourself.
-        title: OAuth Configuration
+        back_to_recipe: Wróć do receptury
+        description: Ta receptura korzysta z uwierzytelniania OAuth. Wybierz sposób konfiguracji.
+        inherit_oauth: Użyj aplikacji OAuth receptury
+        inherit_oauth_hint: Najprostsza opcja. Autor receptury skonfigurował dla Ciebie aplikację OAuth. Wystarczy autoryzować dostęp za pomocą swojego konta.
+        install: Zainstaluj recepturę
+        meta_title: Instalacja %{name} - konfiguracja OAuth
+        own_oauth: Użyj własnej aplikacji OAuth
+        own_oauth_hint: Większa kontrola. Musisz utworzyć własną aplikację OAuth i samodzielnie wprowadzić poświadczenia klienta.
+        title: Konfiguracja OAuth
       lint_warnings:
-        continue: Continue
-        description: "⚠️ Automated hints — they may be wrong, and a human will still thoughtfully review everything:"
-        title: Heads up — review before publishing
+        continue: Kontynuuj
+        description: "⚠️ Automatyczne wskazówki — mogą być błędne, a wszystkie elementy i tak zostaną dokładnie sprawdzone przez człowieka:"
+        title: Uwaga — sprawdź przed publikacją
       recipe_lander:
-        available_settings: Available settings
-        fork_warning: 'Forking makes a copy of this recipe that you can edit. The author''s updates no longer reach your copy on their own: your plugin''s settings show when the recipe changes, and you can take the changes from there.'
+        available_settings: Dostępne ustawienia
+        fork_warning: 'Fork tworzy kopię tej receptury, którą możesz edytować. Aktualizacje autora nie trafiają już automatycznie do Twojej kopii. W ustawieniach pluginu zobaczysz, kiedy receptura się zmieniła, i stamtąd możesz przejąć zmiany.'
     show:
-      full_view_not_available: Full view not available
-      half_horizontal_view_not_available: Half horizontal view not available
-      half_vertical_view_not_available: Half vertical view not available
-      quadrant_view_not_available: Quadrant view not available
+      full_view_not_available: Widok pełnoekranowy niedostępny
+      half_horizontal_view_not_available: Widok połowy poziomej niedostępny
+      half_vertical_view_not_available: Widok połowy pionowej niedostępny
+      quadrant_view_not_available: Widok ćwiartki niedostępny
   plugin_recipes:
     connected: Receptura połączona
     connections:
@@ -1946,17 +1946,17 @@ pl:
       open_settings: Otwórz ustawienia
       fork_this_recipe: Utwórz własną wersję tej receptury
       strategies:
-        async_polling: Async Polling
-        none: None
-        plugin_merge: Plugin Merge
+        async_polling: Asynchroniczny polling
+        none: Brak
+        plugin_merge: Scalanie pluginów
         polling: Polling
-        static: Static
+        static: Statyczna
         webhook: Webhook
     added_to_playlist: Dodano do playlisty. Sprawdź ustawienia poniżej.
     check_settings: Zainstalowano. Sprawdź ustawienia poniżej.
     demo:
-      preparing: Preparing preview…
-    install_device_label: Add to
+      preparing: Przygotowywanie podglądu…
+    install_device_label: Dodaj do
   plugin_settings:
     copy_are_you_sure: Czy na pewno chcesz skopiować to ustawienie?
     delete_are_you_sure: Czy na pewno chcesz usunąć to ustawienie?
@@ -2083,8 +2083,8 @@ pl:
       remove_account_confirm: Usunąć konto %{account} z tego pluginu?
       account_removed: Usunięto konto.
       stopped_notifications_checkbox: Powiadom mnie e-mailem, gdy plugin przestanie się odświeżać
-      reconnect_account: Reconnect
-      account_disconnected: No longer connected
+      reconnect_account: Połącz ponownie
+      account_disconnected: Nie jest już połączone
     import:
       archive_too_large: Archiwum ZIP jest zbyt duże (maksimum %{max_mb} MB)
       missing_entry: Archiwum ZIP nie zawiera %{filename}
@@ -2093,16 +2093,16 @@ pl:
     create:
       success: Plugin został stworzony i dodany do
       playlist: Twojej playlisty
-      plugin_not_found: Plugin not found.
+      plugin_not_found: Nie znaleziono pluginu.
     destroy:
       success: Usunięto plugin
     handle_canceled_consent: Zgoda wycofana, spróbuj ponownie
     update:
       success: Konfiguracja pluginu została pomyślnie zaktualizowana
       required_fields_missing: Wypełnij %{fields}, aby dokończyć konfigurację tego pluginu.
-      oauth_disconnected: Settings saved. OAuth was disconnected because scopes changed. Please reconnect.
+      oauth_disconnected: Zapisano ustawienia. Połączenie OAuth zostało rozłączone z powodu zmiany zakresów uprawnień. Połącz ponownie.
     add_to_playlist:
-      added_to_device: Added to %{device}'s playlist
+      added_to_device: Dodano do playlisty urządzenia %{device}
     refresh_already_in_progress: Odświeżanie już trwa — ekran zostanie wkrótce zaktualizowany.
     remote_select:
       awaiting_connection: Połącz swoje konto w powyższej sekcji OAuth, a następnie przeładuj tę stronę.
@@ -2118,9 +2118,9 @@ pl:
     state_cleared: Zapisany stan został wyczyszczony. Następne odświeżenie rozpocznie się od początku.
     index:
       no_plugin_settings_found: Ten plugin nie został jeszcze skonfigurowany.
-      analytics: Analytics
-      meta_title: "%{plugin} Plugin Settings"
-      page_title: Plugins | %{company}
+      analytics: Analityka
+      meta_title: "Ustawienia pluginu %{plugin}"
+      page_title: Pluginy | %{company}
     health_status_banner:
       short_heading: Analityka pluginu
       long_heading: Monitoruj analitykę i stan pluginu we wszystkich instalacjach
@@ -2142,7 +2142,7 @@ pl:
       detail_placeholder: Napisz więcej (opcjonalnie)
       cancel: Anuluj
       confirm: Odinstaluj
-      not_working_placeholder: Tell the author what didn't work so they can improve it.
+      not_working_placeholder: Opisz autorowi, co nie działało, aby mógł to poprawić.
     mcp_key:
       title: Klucz API MCP
       description: Użyj tego klucza, aby połączyć agentów AI (Claude Desktop itp.) i umożliwić im zarządzanie kodem szablonu tego pluginu.
@@ -2227,16 +2227,16 @@ pl:
       empty: Nie poproszono jeszcze trmy o recenzję.
       rate_limited: To sporo recenzji jak na jeden dzień. Spróbuj ponownie jutro.
       back: Powrót do pluginu
-      modal_title_required: trmy reviews each recipe before you submit
-      modal_intro_required: trmy, our internal review agent, runs your plugin through the trmnlp tests on TRMNL OG and TRMNL X, in landscape and portrait. Once trmy finds nothing that holds it back, you can submit, and a person on our support team takes it from there. trmy replies on a page here, and we email you the link, usually within an hour.
-      gate_closed: Ask trmy to review your latest version first. You can submit once trmy finds nothing that holds your recipe back, or once you tell us why you'd keep something as it is.
-      changed_since: You changed your recipe after this review. Ask trmy again before you submit.
-      passed: trmy found nothing that holds your recipe back. You can submit it now.
-      held: trmy asks for the changes above before you submit. Make them and ask again, or tell us below why you'd keep something as it is.
-      justification_label: Why keep it as it is?
-      justification_placeholder: The X text is smaller on purpose, so the whole week fits on one screen.
-      justification_submit: Save my reason
-      your_reason: Your reason. You can submit now, and our team reads it with your recipe.
+      modal_title_required: trmy sprawdza każdą recepturę przed jej przesłaniem
+      modal_intro_required: trmy, nasz wewnętrzny agent weryfikujący, sprawdza Twój plugin za pomocą testów trmnlp na TRMNL OG i TRMNL X, w orientacji poziomej i pionowej. Gdy trmy nie wykryje niczego, co uniemożliwiałoby publikację, możesz przesłać recepturę, a dalszą weryfikacją zajmie się członek naszego zespołu wsparcia. Odpowiedź trmy pojawi się tutaj na stronie, a link wyślemy Ci e-mailem, zwykle w ciągu godziny.
+      gate_closed: Najpierw poproś trmy o sprawdzenie najnowszej wersji. Możesz przesłać recepturę, gdy trmy nie wykryje niczego, co uniemożliwiałoby jej publikację, lub gdy wyjaśnisz, dlaczego chcesz coś pozostawić bez zmian.
+      changed_since: Receptura została zmieniona po tej weryfikacji. Poproś trmy o ponowne sprawdzenie przed przesłaniem.
+      passed: trmy nie wykrył niczego, co uniemożliwiałoby publikację receptury. Możesz ją teraz przesłać.
+      held: Przed przesłaniem trmy prosi o wprowadzenie powyższych zmian. Wprowadź je i poproś o ponowne sprawdzenie lub wyjaśnij poniżej, dlaczego chcesz pozostawić coś bez zmian.
+      justification_label: Dlaczego pozostawić to bez zmian?
+      justification_placeholder: Tekst na TRMNL X jest celowo mniejszy, aby cały tydzień zmieścił się na jednym ekranie.
+      justification_submit: Zapisz moje uzasadnienie
+      your_reason: Twoje uzasadnienie. Możesz teraz przesłać recepturę, a nasz zespół zapozna się z nim podczas weryfikacji.
     data_flow:
       title: Przepływ danych
       markup: Kod szablonu
@@ -2258,152 +2258,152 @@ pl:
       recipe_degraded: Problemy z recepturą
       recipe_erroring: Odświeżanie receptury zatrzymane
       fork: Fork
-      instance: Instance %{id}
-      read_only: Read Only
-      recipe_master: Recipe Master
+      instance: Instancja %{id}
+      read_only: Tylko do odczytu
+      recipe_master: Receptura nadrzędna
     api_endpoint_picker:
-      adapted_from: Adapted from
-      api_page_html: API Page &rarr;
-      back_to_search_html: "&larr; Back to search"
-      browse: Browse third-party APIs
-      docs_html: Docs &rarr;
-      example_endpoints: Example Endpoints
-      outdated_warning: Some endpoints may be outdated or require registration.
-      search_placeholder: Search APIs (e.g. weather, crypto, news)...
+      adapted_from: Na podstawie
+      api_page_html: Strona API &rarr;
+      back_to_search_html: "&larr; Wróć do wyszukiwania"
+      browse: Przeglądaj API firm trzecich
+      docs_html: Dokumentacja &rarr;
+      example_endpoints: Przykładowe endpointy
+      outdated_warning: Niektóre endpointy mogą być nieaktualne lub wymagać rejestracji.
+      search_placeholder: Wyszukaj API (np. pogoda, kryptowaluty, wiadomości)...
     descriptions:
-      example: 'Example: %{example}'
-      more_options: "+ %{count} more"
+      example: 'Przykład: %{example}'
+      more_options: "+ %{count} więcej"
     featured_image:
-      description: For marketplace and recipe pages.
-      generate: Generate marketplace preview
-      generating: Generating preview…
-      label: Featured Image
-      plugin_description: Preview shown to users before they install your plugin.
-      plugin_label: Plugin Featured Image
-      remove_confirm: Remove featured image?
+      description: Na potrzeby katalogu pluginów i stron receptur.
+      generate: Wygeneruj podgląd do katalogu
+      generating: Generowanie podglądu…
+      label: Obraz wyróżniający
+      plugin_description: Podgląd wyświetlany użytkownikom przed zainstalowaniem pluginu.
+      plugin_label: Obraz wyróżniający pluginu
+      remove_confirm: Usunąć obraz wyróżniający?
     featured_images:
-      generating: Generating marketplace preview…
+      generating: Generowanie podglądu do katalogu…
       remove_featured_image:
-        error: Something went wrong removing the featured image.
-        nothing_to_remove: No featured image to remove.
-        success: Featured image removed.
+        error: Coś poszło nie tak podczas usuwania obrazu wyróżniającego.
+        nothing_to_remove: Nie ma obrazu wyróżniającego do usunięcia.
+        success: Usunięto obraz wyróżniający.
       set_plugin_featured_image:
-        forbidden: You don't have permission to set the featured image for this plugin.
+        forbidden: Nie masz uprawnień do ustawienia obrazu wyróżniającego tego pluginu.
     field:
-      clear_location: Clear location
-      import_selected: Import Selected
-      no_photos_selected: No photos selected yet.
-      perform: Perform
-      photos_expire_on: Google shares these photos until %{date}, then you pick again.
-      photos_expired: Google stopped sharing these photos. Pick them again to bring them back.
-      photos_selected: Photos currently selected.
-      pick_photos: Pick Photos
-      save_first: "(Save this plugin first)"
-      save_first_to_pick_photos: Save this plugin first, then pick photos.
-      save_first_to_reveal: Save this plugin first to reveal your %{field}.
-      secret_is_set: Secret is set. Leave blank to keep current value.
-      select_or_search: Select or search...
-      show_password: Show password
-      stored: 'Stored: %{value}'
-      xhr_endpoint_oauth_gap_html: This dropdown uses <code>endpoint</code>, which runs in the browser and can't send your OAuth token. To call an authenticated API, use a <code>remote:</code> block instead.
+      clear_location: Wyczyść lokalizację
+      import_selected: Importuj wybrane
+      no_photos_selected: Nie wybrano jeszcze zdjęć.
+      perform: Wykonaj
+      photos_expire_on: Google udostępnia te zdjęcia do %{date}, po czym trzeba wybrać je ponownie.
+      photos_expired: Google przestało udostępniać te zdjęcia. Wybierz je ponownie, aby je przywrócić.
+      photos_selected: Obecnie wybrane zdjęcia.
+      pick_photos: Wybierz zdjęcia
+      save_first: "(Najpierw zapisz ten plugin)"
+      save_first_to_pick_photos: Najpierw zapisz ten plugin, a następnie wybierz zdjęcia.
+      save_first_to_reveal: Najpierw zapisz ten plugin, aby wyświetlić %{field}.
+      secret_is_set: Sekret jest ustawiony. Pozostaw pole puste, aby zachować bieżącą wartość.
+      select_or_search: Wybierz lub wyszukaj...
+      show_password: Pokaż hasło
+      stored: 'Zapisano: %{value}'
+      xhr_endpoint_oauth_gap_html: Ta lista rozwijana korzysta z <code>endpoint</code>, który działa w przeglądarce i nie może wysłać Twojego tokenu OAuth. Aby wywołać uwierzytelnione API, użyj zamiast tego bloku <code>remote:</code>.
     google_photos:
       import_session:
-        no_picked_media: No picked media found for this session
+        no_picked_media: Nie znaleziono wybranych multimediów dla tej sesji
     mcp_keys:
       create:
-        success: MCP key generated.
+        success: Wygenerowano klucz MCP.
       destroy:
-        success: MCP key revoked.
+        success: Unieważniono klucz MCP.
     missing_markup_banner:
-      add_markup: Add markup
-      message: No layout yet — this plugin won't display until you add markup.
+      add_markup: Dodaj kod szablonu
+      message: Nie ma jeszcze układu — ten plugin nie będzie wyświetlany, dopóki nie dodasz kodu szablonu.
     multi_string_field:
-      add_another: Add another
-      add_another_label: Add another %{field} input
-      help: Enter values one per line. Commas are not allowed in individual values.
-      inputs_label: "%{field} inputs"
-      remove_input: Remove this input
+      add_another: Dodaj kolejne
+      add_another_label: Dodaj kolejne pole %{field}
+      help: Wprowadź po jednej wartości w każdym wierszu. Przecinki w poszczególnych wartościach są niedozwolone.
+      inputs_label: "Pola %{field}"
+      remove_input: Usuń to pole
     oauth_cards:
-      authorize_with_account: Click below to authorize access with your account.
-      configuration_incomplete: OAuth Configuration Incomplete
-      configuration_incomplete_hint: Fill in Client ID, Client Secret, Authorization URL, and Token URL in the settings above to enable OAuth.
-      connection_settings: Connection Settings
-      connection_settings_hint: Required by %{provider} to connect to your specific account.
-      credentials_configured: Your OAuth credentials are configured. Click below to authorize access.
-      link_account_optional: Link account (optional)
-      link_account_optional_hint: Connect your %{plugin} account to pull data from the cloud — or skip this and push data directly using the Push URL above.
-      using_recipe_app: Using recipe's OAuth app
+      authorize_with_account: Kliknij poniżej, aby autoryzować dostęp za pomocą swojego konta.
+      configuration_incomplete: Niekompletna konfiguracja OAuth
+      configuration_incomplete_hint: Uzupełnij identyfikator klienta, sekret klienta, adres URL autoryzacji i adres URL tokenu w powyższych ustawieniach, aby włączyć OAuth.
+      connection_settings: Ustawienia połączenia
+      connection_settings_hint: Wymagane przez %{provider}, aby połączyć się z Twoim kontem.
+      credentials_configured: Twoje poświadczenia OAuth są skonfigurowane. Kliknij poniżej, aby autoryzować dostęp.
+      link_account_optional: Połącz konto (opcjonalnie)
+      link_account_optional_hint: Połącz konto %{plugin}, aby pobierać dane z chmury — lub pomiń ten krok i wysyłaj dane bezpośrednio, korzystając z powyższego adresu Push URL.
+      using_recipe_app: Używana jest aplikacja OAuth receptury
     oauth_connection_status:
-      authorization_url_error: We could not build an authorization URL from these settings. Check that the Authorization URL above is a single valid URL, and that every connection config field it references has a value.
-      broken: OAuth Connection Broken
-      broken_hint: The provider is rejecting our attempts to refresh your access token, so data fetches and option dropdowns are failing. Reconnect to authorize again.
-      connect: Connect with OAuth
-      connected: OAuth Connected
-      connected_hint_html: Use <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_access_token }}</code> and <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_client_id }}</code> in your polling headers for authenticated requests.
-      disconnect: Disconnect OAuth
-      disconnect_confirm: Are you sure you want to disconnect OAuth?
-      not_connected: OAuth Not Connected
-      provider_error: 'Provider error:'
-      reconnect: Reconnect with OAuth
+      authorization_url_error: Nie udało się utworzyć adresu URL autoryzacji na podstawie tych ustawień. Sprawdź, czy powyższy adres URL autoryzacji jest pojedynczym, prawidłowym adresem URL i czy każde pole konfiguracji połączenia, do którego się odwołuje, ma wartość.
+      broken: Połączenie OAuth nie działa
+      broken_hint: Dostawca odrzuca nasze próby odświeżania tokenu dostępu, dlatego pobieranie danych i listy rozwijane opcji nie działają. Połącz ponownie, aby odnowić autoryzację.
+      connect: Połącz za pomocą OAuth
+      connected: Połączono przez OAuth
+      connected_hint_html: Użyj <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_access_token }}</code> i <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_client_id }}</code> w nagłówkach pollingu dla uwierzytelnionych zapytań.
+      disconnect: Rozłącz OAuth
+      disconnect_confirm: Czy na pewno chcesz rozłączyć OAuth?
+      not_connected: Nie połączono przez OAuth
+      provider_error: 'Błąd dostawcy:'
+      reconnect: Połącz ponownie za pomocą OAuth
     oauth_provider_select_field:
-      not_working: Provider not working?
-      prompt: "-- Select Provider (or Custom) --"
-      report_broken: Report broken provider
-      request_new: Request new provider
-      search_placeholder: Search providers...
+      not_working: Dostawca nie działa?
+      prompt: "-- Wybierz dostawcę (lub niestandardowego) --"
+      report_broken: Zgłoś niedziałającego dostawcę
+      request_new: Poproś o dodanie nowego dostawcy
+      search_placeholder: Wyszukaj dostawców...
     private_plugin_oauth:
       disconnect:
-        invalid_request: Invalid request
-        success: OAuth disconnected
+        invalid_request: Nieprawidłowe żądanie
+        success: Rozłączono OAuth
       redirect:
-        success: OAuth connected successfully!
+        success: Pomyślnie połączono przez OAuth!
     redirect:
-      authorization_failed: Authorization failed. Please try connecting again.
+      authorization_failed: Autoryzacja nie powiodła się. Spróbuj połączyć ponownie.
     reset_health:
-      success: Plugin health reset successfully.
+      success: Pomyślnie zresetowano stan pluginu.
     setting_field:
-      enable: Enable
-      loading: Loading...
-      yaml_valid: YAML looks good.
-      source_plugin_missing_html: Add %{link} first, then pick it here.
+      enable: Włącz
+      loading: Wczytywanie...
+      yaml_valid: Kod YAML jest poprawny.
+      source_plugin_missing_html: Najpierw dodaj %{link}, a następnie wybierz go tutaj.
     recipe_source:
-      changed_since_copy: The recipe has changed since you copied it.
-      differs_from_recipe: Your copy is different from the recipe.
-      see_changes: See what changed
+      changed_since_copy: Receptura zmieniła się od czasu utworzenia kopii.
+      differs_from_recipe: Twoja kopia różni się od receptury.
+      see_changes: Zobacz, co się zmieniło
     recipe_update:
-      title: Recipe changes
-      back: Back to settings
-      intro_since_copy: What the recipe changed since you copied it. Taking a change keeps your own edits.
-      intro_differs: How your copy differs from the recipe.
-      up_to_date: Your copy has every change from the recipe.
-      take_all: Take all changes
-      take: Take these changes
-      replace: Use the recipe's version
-      recipe_changes: What the recipe changed
-      your_changes: What you changed
-      no_line_changes: No changed lines to show.
-      own_unchanged: You have not changed this file.
-      own_changed: You changed this file too. Taking the recipe's changes keeps yours.
-      conflict: You and the recipe changed the same lines, so the two cannot be put together. You can use the recipe's version instead, and undo it from the editor's history.
-      no_copy: Your copy is older than the record of what you copied, so this shows your version against the recipe's. Using the recipe's version replaces yours, and you can undo it from the editor's history.
+      title: Zmiany w recepturze
+      back: Wróć do ustawień
+      intro_since_copy: Zmiany w recepturze od czasu utworzenia kopii. Przejęcie zmian zachowuje Twoje własne modyfikacje.
+      intro_differs: Różnice między Twoją kopią a recepturą.
+      up_to_date: Twoja kopia zawiera wszystkie zmiany z receptury.
+      take_all: Przejmij wszystkie zmiany
+      take: Przejmij te zmiany
+      replace: Użyj wersji z receptury
+      recipe_changes: Zmiany w recepturze
+      your_changes: Twoje zmiany
+      no_line_changes: Brak zmienionych wierszy do wyświetlenia.
+      own_unchanged: Ten plik nie był przez Ciebie zmieniany.
+      own_changed: Ten plik zawiera również Twoje zmiany. Przejęcie zmian z receptury zachowuje Twoje modyfikacje.
+      conflict: Te same wiersze zostały zmienione w Twojej kopii i recepturze, więc nie można ich scalić. Możesz zamiast tego użyć wersji z receptury, a w razie potrzeby cofnąć tę operację z poziomu historii edytora.
+      no_copy: Twoja kopia jest starsza niż zapis informacji o skopiowanej wersji, dlatego porównywana jest Twoja wersja z recepturą. Użycie wersji z receptury zastąpi Twoją wersję. Możesz cofnąć tę operację z poziomu historii edytora.
       results:
-        merged: Took the recipe's changes to %{file}.
-        replaced: "%{file} now uses the recipe's version."
-        conflict: "%{file} has changes that clash with yours. Nothing was saved."
-        not_mergeable: "%{file} can only use the recipe's version."
-        unchanged: "%{file} has no changes to take."
+        merged: Przejęto zmiany z receptury do %{file}.
+        replaced: "%{file} korzysta teraz z wersji z receptury."
+        conflict: "%{file} zawiera zmiany, które kolidują z Twoimi. Nic nie zapisano."
+        not_mergeable: "W przypadku %{file} można użyć tylko wersji z receptury."
+        unchanged: "%{file} nie zawiera zmian do przejęcia."
         taken_all:
-          one: Took the recipe's changes to 1 file.
-          other: Took the recipe's changes to %{count} files.
+          one: Przejęto zmiany z receptury do 1 pliku.
+          other: Przejęto zmiany z receptury do %{count} plików.
       files:
-        markup_full: Full
-        markup_half_horizontal: Half horizontal
-        markup_half_vertical: Half vertical
-        markup_quadrant: Quadrant
-        markup_shared: Shared markup
-        transform_js: Transform script
-        tidbyt_canvas: Tidbyt canvas
-        vestaboard_canvas: Vestaboard canvas
+        markup_full: Pełny ekran
+        markup_half_horizontal: Połowa pozioma
+        markup_half_vertical: Połowa pionowa
+        markup_quadrant: Ćwiartka
+        markup_shared: Współdzielony kod szablonu
+        transform_js: Skrypt transformacji
+        tidbyt_canvas: Obszar roboczy Tidbyt
+        vestaboard_canvas: Obszar roboczy Vestaboard
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -2424,18 +2424,18 @@ pl:
       repeats_yearly: Co roku
       add: Ustaw własny harmonogram
       some_schedule: Wyświetlaj ten ekran w okresie…
-      alias_one_minute_needs_cache_off: To show this for 1 minute, set "Enable cache?" to No in this Alias's settings. With the cache on, the image only changes once a day.
-      duration: Duration
-      duration_description: How long this screen should appear before progressing playlist
-      important_description: Only show this screen and other important screens during this schedule
+      alias_one_minute_needs_cache_off: Aby wyświetlać ten element przez 1 minutę, ustaw „Włączyć pamięć podręczną?” na Nie w ustawieniach tego Aliasu. Gdy pamięć podręczna jest włączona, obraz zmienia się tylko raz dziennie.
+      duration: Czas trwania
+      duration_description: Jak długo ten ekran ma być wyświetlany przed przejściem do następnej pozycji playlisty
+      important_description: W tym harmonogramie wyświetlaj tylko ten ekran i inne ważne ekrany
     show_at:
-      title: Schedule
-      clock_sync_on: Clock Sync is on for %{device}. It changes only at the times you set here, or when you press Skip.
-      label: Show at
-      hint: This screen stays up until another screen's time comes.
-      add: Add a time
-      append: And at…
-      remove: Remove this time
+      title: Harmonogram
+      clock_sync_on: Synchronizacja z zegarem jest włączona dla %{device}. Ekran zmienia się tylko o godzinach ustawionych tutaj lub po naciśnięciu przycisku Pomiń.
+      label: Wyświetlaj o
+      hint: Ten ekran pozostaje widoczny aż do nadejścia zaplanowanej godziny wyświetlenia następnego ekranu.
+      add: Dodaj godzinę
+      append: I o…
+      remove: Usuń tę godzinę
   upgrade:
     index:
       title: 'Aktualizowanie urządzenia:'
@@ -2462,16 +2462,16 @@ pl:
         openrouter_api_key: Klucz API OpenRouter
         tavily_api_key: Klucz API Tavily
       artwork:
-        artist_name: Your name
-        artist_email: Email
-        image: Image
-        link_kind: Link type
+        artist_name: Twoje imię
+        artist_email: E-mail
+        image: Obraz
+        link_kind: Typ linku
         link_url: Link
-        medium: Medium
-        region: City
-        requested_city: City
-        rights_confirmed_at: Confirmation
-        title: Title
+        medium: Technika
+        region: Miasto
+        requested_city: Miasto
+        rights_confirmed_at: Potwierdzenie
+        title: Tytuł
     errors:
       models:
         account_membership:
@@ -2491,61 +2491,61 @@ pl:
             sleep_end_time:
               same_as_start: musi różnić się od czasu rozpoczęcia, w przeciwnym razie urządzenie nigdy by nie spało
             base:
-              cannot_unlink_byod: Can't unlink a BYOD device
-              cannot_unlink_virtual: Can't unlink a virtual device
-              guest_mode_item_not_owned: This item does not belong to you
-              serial_too_short: Serial should be 5+ characters
+              cannot_unlink_byod: Nie można odłączyć urządzenia BYOD
+              cannot_unlink_virtual: Nie można odłączyć urządzenia wirtualnego
+              guest_mode_item_not_owned: Ten element nie należy do Ciebie
+              serial_too_short: Numer seryjny powinien zawierać co najmniej 5 znaków
             mac_address:
-              mac_address_format: must be a valid MAC address (e.g. AA:BB:CC:DD:EE:FF)
-              not_hardware: is not the MAC address of a real device
+              mac_address_format: musi być prawidłowym adresem MAC (np. AA:BB:CC:DD:EE:FF)
+              not_hardware: nie jest adresem MAC rzeczywistego urządzenia
         plugin_setting:
           attributes:
             recipe_overview:
               too_few_words: musi zawierać co najmniej %{count} słów albo pozostać puste
             base:
-              invalid_markup_size: 'Invalid markup size: %{file}'
-              link_account_first: Please link your account before proceeding.
-              read_only_recipe_install: This is a read-only install of a recipe; fork it to edit its settings or markup
-              recipe_has_installs: Recipe can't be deleted while installs still use it.
-              recipe_master_undeletable: Recipe can't be deleted.
+              invalid_markup_size: 'Nieprawidłowy rozmiar kodu szablonu: %{file}'
+              link_account_first: Połącz konto przed kontynuowaniem.
+              read_only_recipe_install: To instalacja receptury w trybie tylko do odczytu; utwórz fork, aby edytować jej ustawienia lub kod szablonu
+              recipe_has_installs: Nie można usunąć receptury, dopóki korzystają z niej istniejące instalacje.
+              recipe_master_undeletable: Nie można usunąć receptury.
           async_polling_callback_url_missing: Asynchroniczne odpytywanie wymaga umieszczenia {{ callback_url }} w adresie URL odpytywania, aby serwer wiedział, dokąd wysłać dane.
         user:
           api_key_prefix: musi zaczynać się od %{prefix}. Wyczyść pole, jeśli przeglądarka uzupełniła je automatycznie.
-          invalid_characters: contains invalid characters
+          invalid_characters: zawiera niedozwolone znaki
         artwork:
           attributes:
             image:
-              invalid: must be a JPEG or PNG image
-              too_large: must be 25 MB or smaller
-              too_small: must be at least 1440 pixels on its shortest side
+              invalid: musi być obrazem JPEG lub PNG
+              too_large: nie może przekraczać 25 MB
+              too_small: musi mieć co najmniej 1440 pikseli na krótszym boku
             region:
-              blank: must be chosen, or type your city
+              blank: wybierz miasto lub wpisz jego nazwę
             rights_confirmed_at:
-              blank: is needed before we can show your work
+              blank: jest wymagane, zanim będziemy mogli wyświetlić Twoją pracę
         playlist_item:
           attributes:
             schedule:
-              show_time_taken: already has another screen at %{time} on %{day}
+              show_time_taken: ma już inny ekran zaplanowany na %{time} w dniu %{day}
         apps/fleet/membership:
           attributes:
             device:
-              legacy_mirrored: is using legacy mirroring; stop mirroring before joining a fleet
+              legacy_mirrored: korzysta ze starszego mechanizmu kopii lustrzanej; wyłącz go przed dołączeniem do floty
             device_id:
-              already_in_fleet: is already in a fleet
+              already_in_fleet: jest już we flocie
             role:
-              master_taken: fleet already has a master
+              master_taken: flota ma już urządzenie nadrzędne
         plus_earning:
           attributes:
             kind:
-              already_submitted: already submitted
+              already_submitted: zostało już przesłane
             url:
-              full_http_link: must be a full http(s) link
+              full_http_link: musi być pełnym adresem http(s)
       messages:
-        bmp_or_png: must be BMP or PNG
-        png_or_svg: must be PNG or SVG
-        publish_during_byod_trial: Publishing is available after you purchase a license (your BYOD free trial is active).
-        under_500_kilobytes: must be under 500 kilobytes
-        under_5_megabytes: must be under 5 megabytes
+        bmp_or_png: musi być obrazem BMP lub PNG
+        png_or_svg: musi być obrazem PNG lub SVG
+        publish_during_byod_trial: Publikowanie jest dostępne po zakupie licencji (Twój bezpłatny okres próbny BYOD jest aktywny).
+        under_500_kilobytes: musi mieć mniej niż 500 kilobajtów
+        under_5_megabytes: musi mieć mniej niż 5 megabajtów
   apps:
     core:
       public:
@@ -2748,7 +2748,7 @@ pl:
             enabled: Włączone
           ics_url: ICS URL
           review_integration: Review integration
-          sync_error: Sync Error
+          sync_error: Błąd synchronizacji
       collections:
         edit:
           back_to_collection: Wróć do kolekcji
@@ -3158,7 +3158,7 @@ pl:
         browser_title: Already have a TV or tablet? Use it too.
         browser_description: Open any room or collection at its own private URL on an LCD screen, TV or tablet. You're only billed once for the room, not the number of displays.
         browser_alt: Meeting room schedule open in a browser on a tablet, with the booking QR code
-        how_it_works_eyebrow: How it works
+        how_it_works_eyebrow: Jak to działa
         how_it_works_title: Get up and running in minutes.
         how_it_works_description: Three steps, no sales call.
         connect_title: Connect your calendars
@@ -3351,7 +3351,7 @@ pl:
           display_title: Display on Wi-Fi
           display_description: The display pulls its screen over the customer's network.
         pilot_steps:
-          discover_title: Discover
+          discover_title: Odkrywaj
           discover_description: Agree on the customer, a five-to-ten-room use case, your role, the network needs and what success looks like.
           authorize_title: Authorize
           authorize_description: Customer IT approves enterprise Wi-Fi access and the calendar connection.
@@ -3408,7 +3408,7 @@ pl:
         all_partner_types: All partner types
         product_overview: Product overview
         technical_overview: Technical overview
-        contact: Contact
+        contact: Kontakt
         privacy_notice: Privacy notice
         faq:
           enterprise_wifi:
@@ -3558,7 +3558,7 @@ pl:
         displays_title: ePaper displays, tablets, TVs
         unlimited: Unlimited
         annual: Annual
-        duration: Duration
+        duration: Czas trwania
         total: Total
         breakdown: "%{quantity} × %{price} a year × %{years}"
         saving: Saves %{amount} against monthly billing
@@ -3579,7 +3579,7 @@ pl:
         hardware_legend: Hardware, bought once
         subscription_legend: Booking subscription, paid so far
       total_cost_calculator:
-        rooms_title: Rooms
+        rooms_title: Sale
         rooms_hint: Every room or resource you show on a screen.
         years_title: Years
         displays_title: Displays you buy
@@ -3664,7 +3664,7 @@ pl:
           supported_displays_link: supported displays
           price_lock: Your subscription price stays the same forever.
         three_year_cost_title: 'Hardware & subscription: 3-year cost'
-        rooms: Rooms
+        rooms: Sale
         hardware_amount: "%{amount} hardware"
         subscription_amount: "%{amount} subscription"
         hardware_plus_subscription: "%{hardware} hardware + %{subscription} subscription"
@@ -3886,7 +3886,7 @@ pl:
           billing: Subscriptions are billed annually.
           no_hardware: Robin sells no hardware. Room displays are a separate purchase.
         facts_retrieved: Robin facts retrieved from their website on %{date}.
-        unknown: Unknown
+        unknown: Nieznane
         robin_cost_note: 'Robin: no public price, so a quote from Robin''s sales team is the only way to fill in this column.'
         billing_note: Annual billing, over 36 months, before tax and shipping.
         trade_in_description: Your room calendars stay in Google or Microsoft, so there is no data to move. Run Booking next to Robin, and we’ll cover the rest of your contract.
@@ -3948,11 +3948,11 @@ pl:
         side_by_side_title: iPad, Android tablet and ePaper compared.
         side_by_side_description: Tablet facts from Apple's and Samsung's public sites, last checked %{date}.
         rows:
-          screen: Screen
+          screen: Ekran
           ipad_screen: 11-inch LCD, 2360 × 1640, color
           android_screen: 11-inch LCD, 1920 × 1200, color
           trmnl_screen: 7.5-inch ePaper, 800 × 480, 4 grays
-          refresh: Refresh
+          refresh: Odśwież
           trmnl_refresh: About 2 seconds per redraw
           power: Power
           tablet_power: Mains power, always on
@@ -4036,7 +4036,7 @@ pl:
         cost_estimate: Cost estimate
         rooms:
           one: "%{count} room"
-          other: "%{count} rooms"
+          other: "%{count} sal"
         years:
           one: "%{count} year"
           other: "%{count} years"
@@ -4132,7 +4132,7 @@ pl:
         no_master: No master set yet. Choose one in Settings.
         push: Push
         pushing: Pushing to %{device}…
-        remove: Remove
+        remove: Usuń
         remove_confirm: Remove this device from the fleet? It keeps its last-pushed content.
         removed: Removed from fleet.
         the_device: the device
@@ -4172,7 +4172,7 @@ pl:
         inherited: Inherited settings
         inherited_hint: Enabled settings are copied from the master on every push.
         inherited_settings:
-          orientation: Orientation
+          orientation: Orientacja
           palette: Color palette
           refresh_interval: Refresh interval
           sleep: Sleep schedule
@@ -4185,7 +4185,7 @@ pl:
         save: Save settings
         saved: Fleet settings saved.
         set_master: Set master
-        uninstall: Uninstall
+        uninstall: Odinstaluj
         uninstall_confirm: Uninstall %{name}?
         uninstall_hint: Removes this app and clears the fleet. Devices keep their last-pushed content.
       sync:
@@ -4471,43 +4471,43 @@ pl:
       agent_panel: Agent
       toggle_agent: Pokaż lub ukryj Agenta
       resize_agent_panel: Zmień rozmiar panelu Agenta
-      add_bitmap_layer: Add bitmap layer
-      add_fill: Add fill
-      add_text_layer: Add text layer
-      color_controls: Color controls
-      composition_actions: Composition actions
-      edit_composition_for: Edit composition for %{name}
-      history_actions: History actions
-      no_variables_match: No variables match this search. Try a different name or keyword.
-      opacity: Opacity
-      pane_orientation_controls: Pane orientation controls
-      place_ellipsis: Place...
-      preview_mode: Preview mode
-      remove_fill: Remove fill
-      search: Search
-      select_a_layer: Select a layer to edit its settings.
-      show_raw_json: Show raw JSON
-      tools: Tools
-      x_position: X position
-      y_position: Y position
+      add_bitmap_layer: Dodaj warstwę bitmapy
+      add_fill: Dodaj wypełnienie
+      add_text_layer: Dodaj warstwę tekstową
+      color_controls: Ustawienia kolorów
+      composition_actions: Akcje kompozycji
+      edit_composition_for: Edytuj kompozycję dla %{name}
+      history_actions: Akcje historii
+      no_variables_match: Żadne zmienne nie pasują do wyszukiwania. Spróbuj innej nazwy lub słowa kluczowego.
+      opacity: Krycie
+      pane_orientation_controls: Sterowanie orientacją panelu
+      place_ellipsis: Umieść...
+      preview_mode: Tryb podglądu
+      remove_fill: Usuń wypełnienie
+      search: Szukaj
+      select_a_layer: Wybierz warstwę, aby edytować jej ustawienia.
+      show_raw_json: Pokaż surowy JSON
+      tools: Narzędzia
+      x_position: Pozycja X
+      y_position: Pozycja Y
       too_large_to_preview: Too large to show here. You can still insert it into your markup.
     editor_labels:
-      composition_not_ready: Composition is not ready yet.
-      could_not_load_selected_image: Could not load the selected image.
-      could_not_read_selected_file: Could not read the selected file.
+      composition_not_ready: Kompozycja nie jest jeszcze gotowa.
+      could_not_load_selected_image: Nie udało się wczytać wybranego obrazu.
+      could_not_read_selected_file: Nie udało się odczytać wybranego pliku.
       ctrl_plus: Ctrl+
       ctrl_shift_plus: Ctrl+Shift+
-      disable_led_preview: Disable LED preview
-      export_failed: Export failed
-      image_too_large: Image is %{width}×%{height}. Maximum supported size is %{max_width}×%{max_height}.
-      sent: Sent!
-      show_layer: Show layer
-      unable_to_load_preset_image: Unable to load preset image.
-      unable_to_place_image: Unable to place image. Please try a different file.
-      unable_to_read_pixels: Unable to read pixels from image.
-      unlock_layer: Unlock layer
-      visibility_controlled_by_condition: Visibility is controlled by condition
-      webp_export_unsupported: WebP export is not supported in this browser
+      disable_led_preview: Wyłącz podgląd LED
+      export_failed: Eksport nie powiódł się
+      image_too_large: Obraz ma wymiary %{width}×%{height}. Maksymalny obsługiwany rozmiar to %{max_width}×%{max_height}.
+      sent: Wysłano!
+      show_layer: Pokaż warstwę
+      unable_to_load_preset_image: Nie udało się wczytać gotowego obrazu.
+      unable_to_place_image: Nie udało się umieścić obrazu. Spróbuj użyć innego pliku.
+      unable_to_read_pixels: Nie udało się odczytać pikseli obrazu.
+      unlock_layer: Odblokuj warstwę
+      visibility_controlled_by_condition: Widoczność jest kontrolowana przez warunek
+      webp_export_unsupported: Eksport do WebP nie jest obsługiwany przez tę przeglądarkę
   shared:
     impersonator:
       managing: Zarządzanie %{name}
@@ -4521,49 +4521,49 @@ pl:
       none: Nic nie pasuje do „%{query}”. Spróbuj krótszego słowa.
     command_palette:
       hints:
-        press: Press
-        to_browse: to browse
-        to_close: to close
-        to_toggle: to toggle
-        open_or_show_all_html: Open %{enter} · Show all %{tab}
-        open_or_switch_html: Open %{enter} · Switch %{tab}
-        switch_html: Switch %{enter} · %{tab}
-      no_plugins_installed: No plugins installed yet
-      close: Close command palette
-      no_plugins: No plugins installed yet
-      no_results: No results found
-      search: Search
-      search_placeholder: Search...
-      title: Command Palette
-      top_result: Top Result
+        press: Naciśnij
+        to_browse: aby przeglądać
+        to_close: aby zamknąć
+        to_toggle: aby przełączyć
+        open_or_show_all_html: Otwórz %{enter} · Pokaż wszystkie %{tab}
+        open_or_switch_html: Otwórz %{enter} · Przełącz %{tab}
+        switch_html: Przełącz %{enter} · %{tab}
+      no_plugins_installed: Nie zainstalowano jeszcze żadnych pluginów
+      close: Zamknij paletę poleceń
+      no_plugins: Nie zainstalowano jeszcze żadnych pluginów
+      no_results: Nie znaleziono wyników
+      search: Szukaj
+      search_placeholder: Szukaj...
+      title: Paleta poleceń
+      top_result: Najlepszy wynik
       items:
-        account_description: Manage account settings
-        add_device_description: Pair a new device with your TRMNL account
-        dashboard_description: Manage your TRMNL
-        devices_description: View and manage devices
-        framework_docs: Framework Docs
-        framework_docs_description: Browse TRMNL Framework docs
-        playlists: Playlists
-        playlists_description: Organize content
-        plugin_instance: Instance %{id}
-        plugins_description: Browse and open your plugins
+        account_description: Zarządzaj ustawieniami konta
+        add_device_description: Sparuj nowe urządzenie ze swoim kontem TRMNL
+        dashboard_description: Zarządzaj swoim TRMNL
+        devices_description: Przeglądaj urządzenia i zarządzaj nimi
+        framework_docs: Dokumentacja Frameworka
+        framework_docs_description: Przeglądaj dokumentację TRMNL Framework
+        playlists: Playlisty
+        playlists_description: Organizuj treści
+        plugin_instance: Instancja %{id}
+        plugins_description: Przeglądaj i otwieraj swoje pluginy
         trmy: trmy
-        trmy_description: Ask for a plugin, a fix or a change in plain words
-        ask_trmy: Ask trmy “%{query}”
-        ask_trmy_description: Starts a new chat with what you typed
+        trmy_description: Poproś własnymi słowami o plugin, poprawkę lub zmianę
+        ask_trmy: Zapytaj trmy „%{query}”
+        ask_trmy_description: Rozpoczyna nowy czat z wpisanym tekstem
       sections:
-        navigation: Navigation
+        navigation: Nawigacja
     blog_post_show:
-      duplicate: Duplicate
+      duplicate: Duplikuj
     rss_feeds:
-      announcements: 'TRMNL: Announcements'
-      plugins: 'TRMNL: Plugins'
-      posts: 'TRMNL: Posts'
+      announcements: 'TRMNL: Ogłoszenia'
+      plugins: 'TRMNL: Pluginy'
+      posts: 'TRMNL: Posty'
     header:
       logo: Logo
     nav:
-      contact: Contact
-      sidebar: Sidebar
+      contact: Kontakt
+      sidebar: Pasek boczny
     theme_preference:
       system: System
   account_invitations:
@@ -4685,11 +4685,11 @@ pl:
     booking_billing_starting:
       body: Booking becomes a paid app on %{date} — %{days} from now. You have %{resources} on displays, which will be $%{total} per month (or 2 months free on annual).
       days:
-        one: "%{count} day"
-        other: "%{count} days"
+        one: "%{count} dzień"
+        other: "%{count} dni"
       resources:
         one: "%{count} resource"
-        other: "%{count} resources"
+        other: "%{count} zasobów"
       set_up_billing: Set up billing
       subject:
         one: Booking becomes a paid app in %{count} day
@@ -4708,7 +4708,7 @@ pl:
       upgrade_now: Upgrade now
     invite_to_creator_fund:
       body_html: good news — your published %{noun} "%{name}" just passed the install threshold that qualifies it for a revenue share from the TRMNL %{link}.
-      creator_fund: Creator Fund
+      creator_fund: Fundusz Twórców
       participate: if you'd like to participate, just reply to this email.
       plugin: plugin
       recipe: recipe
@@ -4783,7 +4783,7 @@ pl:
       select_file_html: Select the firmware <code>.bin</code> file to flash.
       version_prompt_html: And the %{link} you want to install
       firmware_version: firmware version
-      please_select: Please select...
+      please_select: Wybierz...
       step_2: Step 2 - Plug in your device
       plug_in: Use a USB-C cable to plug your device into your computer. The TRMNL branded cable works great if you have one.
       step_3: Step 3 - Enter 'Flashing mode'
@@ -4842,12 +4842,12 @@ pl:
       title: No more doomscrolling
       subtitle: Your attention span needs you.
     byod_wizard:
-      step_device: Device
+      step_device: Urządzenie
       step_options: Options
       step_steps: Steps
       not_listed: Not listed?
       see_more_options: See more options
-      loading: Loading…
+      loading: Wczytywanie…
       pick_best_fit: Pick the best fit for your device and preferences.
       choose_different_device: Choose a different device
       follow_in_order: Follow these in order. Links open in a new tab.
@@ -4880,22 +4880,22 @@ pl:
       close_menu: Close menu
       diagram_alt: Diagram of TRMNL one-way communication from client to server
     product_tech_specs:
-      screen: Screen
+      screen: Ekran
       screen_value: 7.5" 1-bit EPD (ePaper) display
       enclosure: Enclosure
       enclosure_value: Premium soft-touch ABS (Black only), chrome-plated steel kickstand
-      dimensions: Dimensions
+      dimensions: Wymiary
       dimensions_value_html: 6.75" x 4.5" x .4"<br>(171mm x 116mm x 10mm)
       battery: Battery
       battery_value_html: 1800mAh rechargeable lithium<br>(2500mAh upgradeable lasts 6+ months)
       accessories: Accessories
       accessories_value: Device, case opener included. USB-C cable, screen protector, micro fiber also available.
-      weight: Weight
+      weight: Waga
       weight_value: 5.8 ounces (165 grams)
       move_around: Move around
     room_booking:
       room_occupancy: Room occupancy indicators
-      booking_with_trmnl: Booking with TRMNL
+      booking_with_trmnl: Rezerwacja z TRMNL
       integrations: Industry standard integrations
       title: Workplace ready
       subtitle: 'A solution for managing meeting rooms & bookable resources, at a fraction of the cost:'
@@ -4907,11 +4907,11 @@ pl:
           title: A TRMNL in every room
           body: This little apartment runs five TRMNLs — one per room, each configured for what happens there. Scroll to visit each one.
         living:
-          room: Living Room
+          room: Salon
           title: Ambient info, zero doomscroll
           body: 'On the coffee table: tonight''s headlines, what''s playing, and tomorrow''s weather — glanceable context that never pulls you into a feed.'
         kitchen:
-          room: Kitchen
+          room: Kuchnia
           title: The command center for mornings
           body: 'Above the counter, where you stand with your coffee: today''s agenda, the shopping list everyone keeps adding to, and what''s for dinner.'
         office:
@@ -4919,7 +4919,7 @@ pl:
           title: Stay on top of work, glanceably
           body: 'Just off to the side of the monitor: your next meeting, today''s to-dos, the deploy pipeline, and a watchlist — context without another browser tab.'
         bedroom:
-          room: Bedroom
+          room: Sypialnia
           title: Wake up to the day, not your phone
           body: 'On the dresser across from the bed: tomorrow''s first event, the morning forecast, and a quiet word for the day — so the first thing you reach for isn''t a screen.'
         entryway:
@@ -4929,19 +4929,19 @@ pl:
       plugins:
         rss_news: RSS / News
         now_playing: Now Playing
-        weather: Weather
+        weather: Pogoda
         calendar: Calendar
         sports_scores: Sports Scores
         calendar_today: Calendar — Today
         shopping_list: Shopping List
         meal_plan: Meal Plan
-        google_calendar: Google Calendar
+        google_calendar: Kalendarz Google
         stocks: Stocks
         calendar_tomorrow: Calendar — Tomorrow
         daily_quote: Daily Quote
         countdown: Countdown
         transit_departures: Transit / Departures
-        commute: Commute
+        commute: Dojazdy
         calendar_next: Calendar — Next
       eyebrow: The walkthrough
       intro_title: Step inside. We'll take you room by room.
@@ -4986,7 +4986,7 @@ pl:
       marketplace: marketplace
       playlist_title: Configure a Playlist
       playlist_reorder_html: Visit your %{link} to reorder your connected plugins by clicking and holding the %{icon} icon, just like songs on a music playlist.
-      playlist: playlist
+      playlist: Twojej playlisty
       playlist_schedule_html: You may also click the %{icon} icon to schedule the day of week and time of day for each piece of content, explained %{link}.
       here: here
       content_title: See content on your TRMNL
@@ -5018,15 +5018,15 @@ pl:
       roles:
         diy_web_server: DIY web server
         core_web_server: Core web server
-        plugins: Plugins
+        plugins: Pluginy
         diy_device: DIY device
-        device: Device
+        device: Urządzenie
         strategy: Strategy
         worker_server: Worker server
         asset_storage: Asset storage
         firmware: Firmware
       archive:
-        title: Archive
+        title: Archiwum
         subtitle: Like mom always says -- don't forget where you came from.
         architecture_title: Architecture
         architecture_body: After taking a shower, Ryan drew up the initial idea in October 2023.
@@ -5049,12 +5049,12 @@ pl:
       meta_title: Bounties
       title: TRMNL Bounty Program
       subtitle: Contribute to the vision for cash or crypto.
-      how_it_works: How it works
+      how_it_works: Jak to działa
       step_find: Find a bounty below
       step_claim: Reply "claim" on the GitHub Issue to reserve in for 72 hours
       step_progress: Within 72 hours, share progress or it will be released
       request_bounty: Request a Bounty
-      view_all: View All
+      view_all: Zobacz wszystkie
       view_completed: View Completed
       og_description: Get paid to make TRMNL better.
     brand:
@@ -5091,7 +5091,7 @@ pl:
       share_setup: Got a setup to share?
       share_setup_body: Submit a photo of your device running TRMNL and earn $25 back on your BYOD order. First 3 approved per device type.
       submit_photo: Submit a photo
-      slot_full: Full
+      slot_full: Brak miejsc
       slot_one_left: 1 slot left
       slot_two_open: 2 slots open
       slot_first: Be the first!
@@ -5138,7 +5138,7 @@ pl:
       code_hint: This will be a code name like "dumbphone"
       plugin_label: Select your plugin for the judges
       plugin_hint: A basic quality check will be completed first, then your work will be submitted
-      please_select: Please select...
+      please_select: Wybierz...
       please_wait: Please wait...
       submit: Submit
       join_title: Join a hackathon
@@ -5148,7 +5148,7 @@ pl:
       email_hint: We'll use this to communicate during the entry period
       claim_device: Claim a Device
       log_in_prompt_html: Looking to submit your work? %{link} and come back to this page.
-      log_in: Log in
+      log_in: Zaloguj się
       og_description: Start building or submit your work.
     mac_troubleshoot:
       meta_title: MAC address not registered
@@ -5166,7 +5166,7 @@ pl:
       subtitle: Tell us what's happening and we'll walk you through it — most issues take a couple of minutes.
       og_description: TRMNL not connecting to Wi-Fi? Walk through quick checks to get it back online yourself.
     welcome:
-      meta_title: Welcome
+      meta_title: Witamy
       title: Welcome Aboard
       subtitle: Get up and running in < 5 minutes.
     order_tracker:
@@ -5215,7 +5215,7 @@ pl:
     b2b:
       cta:
         body: Tell us what you're building. We'll respond within 24 hours.
-        shop: Shop
+        shop: Sklep
         title: Let's talk.
       devops:
         body: Put your monitoring where it's seen — on the wall or a desk. Keep track of GitHub commits, Sentry errors, uptime statuses. Or build your own with the TRMNL API.
@@ -5230,7 +5230,7 @@ pl:
       enterprise_features_scroll:
         cards:
           byos:
-            button: Documentation
+            button: Dokumentacja
             description: Run TRMNL entirely on your infrastructure. Open source servers in Ruby, Python, PHP, Node, Elixir.
             full_control: Full control over your infrastructure
             languages: Multiple language support
@@ -5266,7 +5266,7 @@ pl:
             title: Design Framework
           partners:
             boot_logo: Your logo on the boot screen
-            button: Documentation
+            button: Dokumentacja
             description: Buy devices in bulk. Put your logo on the boot screen. Preload plugins that install on first claim.
             first_claim: Plugins installed on first claim
             promo_codes: Promo codes, paid up front
@@ -5370,7 +5370,7 @@ pl:
         developers_community: Developers Community
         devices_shipped: Devices shipped
         eyebrow: Here's the thing
-        plugins: Plugins
+        plugins: Pluginy
         required_fees: Required fees/month
         title: Your data already exists.
       operations:
@@ -5401,21 +5401,21 @@ pl:
         preinstalled_plugins: Pre-installed plugins
         promo_codes: Promo codes
         rss_feeds: RSS Feeds
-        weather: Weather
+        weather: Pogoda
       pricing_alt:
         addons_heading: Add-ons.
         addons_note: Each selected add-on is multiplied by your total device count.
         addons_subheading: Optional extras, priced per device.
         address: Address
         address_placeholder: 123 Main Street, Suite 400
-        back: Back
-        black: Black
+        back: Wstecz
+        black: Czarny
         buy_now: Buy now
         bwry_spec: Desk dashboards · 4-color ePaper · theme ready
         case_color_label: "%{name} case color"
         check_email: Check your email for the quote link and PDF.
-        city: City
-        color: Color
+        city: Miasto
+        color: Kolor
         company: Company *
         copy_summary: Copy summary
         country: Country
@@ -5460,7 +5460,7 @@ pl:
         share_link: Share link
         ships_in: Ships in 4–6 weeks
         shop_nudge: For fewer than 10 devices, order from our shop using Buy now above.
-        size: Size
+        size: Rozmiar
         state: State / Region
         tax_id: Tax / VAT ID
         tax_id_placeholder: e.g. GB123456789 (optional)
@@ -5486,7 +5486,7 @@ pl:
           finishes:
             clear: Clear
             dark_wood: Dark Wood
-            gray: Gray
+            gray: Szary
             light_wood: Light Wood
             sage: Sage
           generating_quote: Generating quote...
@@ -5509,12 +5509,12 @@ pl:
       products_alt:
         description: Choose the right device for each use case. Both models run the same software on the same ecosystem, ensuring seamless integration across your organization.
         eyebrow: Hardware
-        new_badge: New
+        new_badge: Nowe
         retail: retail
         title: Pick your hardware.
       room_booking:
         body: Connect calendars and create availability displays for rooms, desks, or other resources.
-        booking: Booking with TRMNL
+        booking: Rezerwacja z TRMNL
         booking_description: Scan the on-screen QR code to see the schedule. Book on the spot with TRMNL, no sign-in required.
         case_study_description: Connect Microsoft, Google, or iCal calendars of bookable workplace rooms & resources.
         case_study_label: calendar integrations
@@ -5559,15 +5559,15 @@ pl:
     og:
       buy: Buy TRMNL OG — $139
       colors:
-        black: Black
+        black: Czarny
         clear: Clear
         faux_wood: Faux Wood
-        gray: Gray
+        gray: Szary
         limited_edition: Limited Edition ($149-154)
         sage: Sage
         standard: Standard ($139)
         title: Choose your color
-        white: White
+        white: Biały
       comparison:
         body: TRMNL X is our larger 10.3" display with 16 grayscale shades, 5GHz Wi-Fi, waterproofing, and gesture controls. If you need a bigger screen for a kitchen, hallway, or shared space, X might be the better fit.
         compare: Compare OG and X
@@ -5599,17 +5599,17 @@ pl:
         battery_value: 1,800 mAh (3-6 months) / 2,500 mAh upgrade available (6+ months)
         build: Build
         build_value: Premium soft-touch ABS plastic, chrome-plated steel kickstand
-        charging: Charging
+        charging: Ładowanie
         connectivity: Connectivity
-        dimensions: Dimensions
-        display: Display
+        dimensions: Wymiary
+        display: Wyświetlanie
         display_value: 7.5" ePaper, 800 × 480 pixels, 4 grayscale shades
         mounting: Mounting
         mounting_value: Built-in kickstand, wall-mount hole
-        refresh: Refresh
+        refresh: Odśwież
         refresh_value: Configurable intervals (minimum 5 minutes)
         title: Specifications
-        weight: Weight
+        weight: Waga
         weight_value: 165 grams (5.8 oz)
       use_cases:
         desk_companion: Desk companion
@@ -5652,12 +5652,12 @@ pl:
     x:
       comparison:
         best_for: Best for
-        display: Display
+        display: Wyświetlanie
         feature: Feature
         gesture_controls: Gesture controls
-        grayscale: Grayscale
+        grayscale: Skala szarości
         learn_about_og: Learn about TRMNL OG
-        'no': 'No'
+        'no': 'Nie'
         og_best_for: Desks, compact spaces
         price: Price
         shades: "%{shade_count} shades"
@@ -5666,7 +5666,7 @@ pl:
         title: How X compares to OG
         waterproof: Waterproof
         x_best_for: Kitchens, walls, shared areas
-        'yes': 'Yes'
+        'yes': 'Tak'
       cover_alt: TRMNL for Business
       faq:
         plugins_answer: Yes. OG and X share the same plugin ecosystem — %{plugin_count}+ plugins and growing.
@@ -5691,11 +5691,11 @@ pl:
         compatibility: Compatibility
         compatibility_value: Same %{plugin_count}+ plugin ecosystem as OG
         connectivity: Connectivity
-        controls: Controls
+        controls: Sterowanie
         controls_value: Gesture controls, motion sensor
-        display: Display
+        display: Wyświetlanie
         display_value: 10.3" high-density ePaper, 16 grayscale shades
-        orientation: Orientation
+        orientation: Orientacja
         orientation_value: Portrait + Landscape
         title: Specifications
         water_resistance: Water Resistance
@@ -5764,7 +5764,7 @@ pl:
         semantic_tokens_description: Named color aliases used in layouts and components
         small_and_standard: Small & Standard
         title: Design Internals
-        typography: Typography
+        typography: Typografia
         typography_description: Custom font families defined in the Tailwind config
     developers:
       byod:
@@ -5789,7 +5789,7 @@ pl:
             price: "$50 one-time fee"
             tag: Bring Your Own Device
           byods:
-            button: Documentation
+            button: Dokumentacja
             description: Bring your own device AND server. Use our open source firmware as a starting point, but run everything on your infrastructure with complete control and privacy.
             features:
             - Total end-to-end ownership
@@ -5891,7 +5891,7 @@ pl:
         description_byos: Prefer to run your own infrastructure? BYOS (Bring Your Own Server) lets you point any TRMNL device to your self-hosted server. Our open-source firmware and reference implementations make it simple to spin up your own environment.
         description_ownership: Enjoy total ownership of your data and custom features—no monthly fees, no dependencies.
         eyebrow: Self-Hosting
-        features: Features
+        features: Funkcje
         inactive: Inactive
         language: Language
         license: License
@@ -5899,7 +5899,7 @@ pl:
         official: Official
         title: Full Control, Zero Lock-In
         view_guides: View self-hosting guides
-        view_on_github: View on GitHub
+        view_on_github: Wyświetl na GitHubie
       cta:
         description: Dive into our Developer Docs for tutorials, sample code, and best practices. Then join our Discord community to connect with fellow builders and keep the innovation rolling. TRMNL is here to empower your ideas—let's shape the future of ePaper together.
         developer_docs: Developer Docs
@@ -5915,19 +5915,19 @@ pl:
         components:
           background:
             description: Grayscale dithered patterns optimized for 1-bit rendering
-            title: Background
+            title: Tło
           chart:
-            description: Visualize data optimized for 1-bit rendering
-            title: Chart
+            description: Wizualizuj dane w sposób zoptymalizowany pod kątem renderowania 1-bitowego
+            title: Wykres
           fit_value:
             description: Automatically resize and fit values to available space
-            title: Fit Value
+            title: Dopasowanie wartości
           format_value:
-            description: Format numbers and values with consistent styling
-            title: Format Value
+            description: Formatuj liczby i wartości ze spójnym stylem
+            title: Formatowanie wartości
           image:
-            description: Optimize images using dithering techniques for 1-bit rendering
-            title: Image
+            description: Optymalizuj obrazy za pomocą ditheringu pod kątem renderowania 1-bitowego
+            title: Obraz
           mashup:
             description: Combine multiple components for rich composite interfaces
             title: Mashup
@@ -5936,7 +5936,7 @@ pl:
             title: And 15+ More
           overflow:
             description: Handle content overflow with no-scroll displays in mind
-            title: Overflow
+            title: Przepełnienie
         cta_description: Our comprehensive documentation covers all design components and usage patterns.
         cta_title: Ready to build?
         description_components: Using built-in components for layouts, typography, tables, charts, and more, you can create powerful interfaces that work perfectly on TRMNL's ePaper display.
@@ -5952,7 +5952,7 @@ pl:
         learn_more: Learn More
         swap_words:
           companies: Companies
-          developers: Developers
+          developers: Deweloperzy
           of: of
           with: with
         title: 'Developers: Build the Future of ePaper'
@@ -5981,7 +5981,7 @@ pl:
             title: Customer Gifts
           developer_toolkit:
             description: Build plugins for the TRMNL marketplace and earn from the ones people use most.
-            discount: Creator Fund
+            discount: Fundusz Twórców
             features:
             - 80% of TRMNL+ revenue to creators
             - Recipe marketplace listing
@@ -6027,7 +6027,7 @@ pl:
         description_agents_html: Prefer your own editor? Connect Claude, ChatGPT or Cursor to our %{mcp_server_link} and add our %{agent_skills_link}, so your AI builds plugins the way ours does.
         description_editor_html: Private plugins let you build, test, and deploy custom applications. With our markup editor, {{ variable }} templating, and real-time previewer you can design ePaper friendly screens in minutes with just HTML. Our %{design_system_link} also supports custom CSS and JS.
         description_hosting_html: Keep creations to yourself or share them publicly in our marketplace — it's up to you. Host compute on our servers, or %{encrypt_link} it on yours, then decrypt locally from a device.
-        design_system: design system
+        design_system: system projektowania
         encrypt: encrypt
         eyebrow: Private Plugins
         get_started: Get Started
@@ -6057,7 +6057,7 @@ pl:
         designed_by: Designed by
         footer_left: Thank you for taking the time to look closely ♡
         formats: Formats
-        sizes: Sizes
+        sizes: Rozmiary
         title: Colophon
         weights: Weights
         weights_value: Regular (400) / Bold (700)
@@ -6080,7 +6080,7 @@ pl:
         native_size: "%{size}px native"
         presents: TRMNL Presents
         set_in_trmnl: This entire web page is set in the TRMNL font family
-        sizes: Sizes
+        sizes: Rozmiary
         table_of_contents: Table of Contents
         toc:
           applied_specimens: Applied Specimens
@@ -6106,7 +6106,7 @@ pl:
         weights_value: Regular / Bold
         zip_contents: The ZIP contains all three TRMNL families in Regular and Bold
       feature_architecture:
-        bold: Bold
+        bold: Pogrubienie
         features:
           fractions:
             copy: Fraction, numerator, and denominator OpenType features are supported
@@ -6136,30 +6136,30 @@ pl:
         footer_right: Dark grid
         glyphs: glyphs
         no_antialiasing: No Antialiasing
-        pixel_perfect: Pixel Perfect
-        regular: Regular
+        pixel_perfect: Wyrównanie do pikseli
+        regular: Standardowa
         title: Font Features
       font_cuts:
-        bold: Bold
+        bold: Pogrubienie
         bold_3x: 3x Bold
         description: 12 / 16 / 21 Native Pixels / Regular + Bold
         footer_left: Each family is shown at native size and at 3x specimen scale
         native_size: "%{size}px Native"
-        regular: Regular
+        regular: Standardowa
         regular_3x: 3x Regular
         title: TRMNL Cuts
       font_features:
         description: Fractions, numerators, denominators
         footer_left: OpenType fraction features are available for compact numeric strings
-        'off': 'Off'
+        'off': 'Wyłączone'
         on_frac: On / frac
       glyph_tables:
-        bold: Bold
+        bold: Pogrubienie
         description: Actual native sizes / Regular and Bold cuts
         footer_left: Uppercase, lowercase, numerals, punctuation, and marks across all three cuts
         footer_right: Regular and Bold
         native_size: "%{size}px Native"
-        regular: Regular
+        regular: Standardowa
         title: Glyph Tables
       icons_symbols:
         description: Unicode symbol sets / All three sizes
@@ -6189,7 +6189,7 @@ pl:
       meta_title: TRMNL Font Family
       mixed_atlanta_flight_timetable:
         airport: Airport
-        board: Board
+        board: Widok 2D
         description: Graphic flight board / Inverted airport grid
         footer_left: 'Airport-board data at plugin scale: time, status, flight, destination, and gate'
         footer_right: 'Pattern: time / flight / gate'
@@ -6202,7 +6202,7 @@ pl:
         description: Graphic timetable plate / Inverted transit grid
         footer_left: Compact route, time, platform, and delay data in one inverted transit layout
         footer_right: 'Pattern: time / route / platform'
-        lines: Lines
+        lines: Wiersze
         pattern: Pattern
         reference: Reference
         scale_description: Route, time, platform, and delay data are shown in a compact inverted transit layout
@@ -6210,10 +6210,10 @@ pl:
         station: Station
         title: S Charlottenburg Timetable
       outline_type:
-        bold: Bold
-        both: Both
+        bold: Pogrubienie
+        both: Oba
         native_size: "%{size}px Native"
-        regular: Regular
+        regular: Standardowa
         tryout:
           description: Edit the text, then switch between TRMNL cuts, weights, and native/3x scale
           field_label: Editable TRMNL font tryout text
@@ -6223,11 +6223,11 @@ pl:
           placeholder: Type here
           scale: Scale
           scale_label: Choose preview scale
-          size: Size
+          size: Rozmiar
           size_label: Choose font size
           summary: TRMNL16 / %{weight} / 3x
           title: Font Tryout
-          weight: Weight
+          weight: Grubość
           weight_label: Choose font weight
         weight_overlay:
           description: Regular 2px side strokes / Bold 3px side strokes
@@ -6301,7 +6301,7 @@ pl:
       case_studies: Case Studies
       copyright_html: All rights reserved &copy; %{year} %{company}&trade;
       create_plugins: Create Plugins
-      documentation: Documentation
+      documentation: Dokumentacja
       ecosystem: Ecosystem
       engineered_html: Engineered on Earth %{glyph} Assembled in Atlanta &amp; Berlin
       for_business: For Business
@@ -6314,7 +6314,7 @@ pl:
       privacy_first_analytics_html: 100% privacy-first analytics <span class="whitespace-nowrap">by %{wordmark}</span>
       privacy_first_analytics_label: 100% privacy-first analytics by Simple Analytics
       public_api: Public API
-      recipes: Recipes
+      recipes: Receptury
       room_booking_displays: Room Booking Displays
       rss_feed: TRMNL RSS feed
       social_profile: TRMNL on %{network}
@@ -7228,7 +7228,7 @@ pl:
     hero:
       description: Your favorite tools, all the juice, without the squeeze.
       learn_more: Learn More
-      title: Plugins
+      title: Pluginy
     icon_alt: "%{name} TRMNL plugin"
     list:
       intro_html: Our growing library of official plugins and community %{link} supports work and personal needs, from your daily calendar to upcoming movies. New tools are added weekly.
@@ -7260,7 +7260,7 @@ pl:
     ended:
       claim_license: Masz już licencję BYOD? Aktywuj ją, podając numer zamówienia.
       no_trial_device: Na Twoim koncie nie ma urządzenia próbnego BYOD do konwersji.
-      delete_account: Delete my account & data
+      delete_account: Usuń moje konto i dane
       delete_account_confirm: This permanently deletes your account, device, and all data, and refunds your $1. Continue?
       description_html: Convert to a lifetime license for %{price} (your $1 trial fee is credited), or delete your account and data. Deleting, or claiming a license bought in the shop, refunds the $1.
       pay_html: Pay %{amount}
@@ -7383,7 +7383,7 @@ pl:
       reselect: Its photo selection expired. Choose your photos again in its settings.
       workspace_blocked: Your Google Workspace admin has not allowed TRMNL. Ask them to allow it, then reconnect your account in its settings.
     ask_support: ask support
-    error_label: Error
+    error_label: Błąd
     retry_count: 'Retry Count: %{count}'
     ask_trmy: Ask trmy why
     ask_trmy_message: Why does %{name} keep failing?
@@ -7407,17 +7407,17 @@ pl:
       eyebrow: TRMNL Local Art
       heading: Show your art on walls near you
       intro: TRMNL owners choose a city, and your work rotates on their ePaper displays with your details beside it. We review every piece by hand.
-      artist_name: Your name
-      email: Email
+      artist_name: Twoje imię
+      email: E-mail
       email_hint: We email you when we review your work, and once a month with how often it was shown.
       artwork_title: Title of the work
-      medium: Medium
+      medium: Technika
       choose: Choose one
       region: Where you live
       region_not_listed: My city is not listed
       requested_city: Your city
       requested_city_placeholder: Atlanta, Georgia
-      image: Image
+      image: Obraz
       image_hint: JPEG or PNG, up to 25 MB, at least 1440 pixels on the shortest side.
       link_url: Link (optional)
       link_url_hint: Without a link, the screen shows no QR code.
@@ -7456,7 +7456,7 @@ pl:
         other: "%{number} countries"
       piece: Piece
       shows: Shows
-      devices: Devices
+      devices: Urządzenia
       countries: Countries
       scans: QR scans
       submit_more: Have new work? Submit it here.
@@ -7536,8 +7536,8 @@ pl:
       destroy:
         success: Shown again.
     index:
-      creator_fund: Creator Fund
-      meta_title: Analytics
+      creator_fund: Fundusz Twórców
+      meta_title: Analityka
       title: Plugin Analytics
     overview:
       title: At a Glance
@@ -7577,7 +7577,7 @@ pl:
       erroring: Erroring
       healthy: Healthy
     stats:
-      connections: Connections
+      connections: Połączenia
       pageviews: Pageviews (last 2 days)
       published_plugins: Published Plugins
     total_installs:
@@ -7599,7 +7599,7 @@ pl:
   code_example:
     copied: Copied
   form_section_modal:
-    configure: Configure
+    configure: Skonfiguruj
   plus:
     benefits:
       ai_tokens: free AI tokens
@@ -7698,8 +7698,8 @@ pl:
     reward_label:
       credits: "%{credits} AI credits"
       months:
-        one: "%{count} month"
-        other: "%{count} months"
+        one: "%{count} miesiąc"
+        other: "%{count} miesięcy"
     reward_text: "%{reward} of TRMNL+"
   recipe_degraded_banner:
     message: This recipe is currently degraded and not producing screens. Installed copies will not update until its author fixes it.
@@ -7739,111 +7739,111 @@ pl:
         spotlight: Giving this device the spotlight
   ai_assistant:
     error:
-      error: 'Error:'
+      error: 'Błąd:'
     labels:
-      account_settings: Account Settings
-      api_key_setup: Set up your API key in %{link} to get started.
-      capability_api_search: Find a third-party API to poll
-      capability_markup: Build or edit markup across any size
-      capability_preview: Render previews with your real data
-      capability_refresh: Fetch and refresh merge variables
-      capability_validate: Validate Liquid & transform_js
-      capability_web_search: Look things up on the web
-      close_chat: Close chat
-      close_chat_failed: Failed to close chat.
-      close_chat_network_error: 'Network error — couldn''t close chat: %{error}'
-      closed_chats_load_failed: Couldn't load closed chats.
-      composer_placeholder: Describe your plugin layout or ask to edit markup...
-      continue_anyway: Continue anyway
-      create_chat_failed: Failed to create new chat.
-      create_chat_network_error: 'Network error — couldn''t create chat: %{error}'
-      error_message: 'Error: %{message}'
-      history_load_failed: Couldn't load chat history. Send a message to start.
-      idle_hint: Starting fresh avoids re-processing old messages and saves on API costs.
-      idle_title: This chat has been idle for a while
-      loading: Loading…
-      network_error_message: 'Network error: %{error}'
-      new_chat: New chat
-      no_closed_sessions: No closed sessions
-      rename_chat: Rename chat
-      request_failed: Request failed
-      request_timed_out: Request timed out. The backend has been cancelled.
-      restore_chat_failed: Failed to restore chat.
-      restore_chat_network_error: 'Network error — couldn''t restore chat: %{error}'
-      save_targets_failed: Could not save targets.
-      server_returned_status: Server returned %{status}
-      something_went_wrong: Something went wrong. Please try again.
-      start_new_chat: Start new chat
-      tool_unknown_active: Using %{tool}
-      tool_unknown_past: Used %{tool}
-      waiting_for_response: Waiting for response...
+      account_settings: Ustawienia konta
+      api_key_setup: Skonfiguruj swój klucz API w sekcji %{link}, aby rozpocząć.
+      capability_api_search: Znajdź zewnętrzne API do pollingu
+      capability_markup: Twórz lub edytuj kod szablonu dla dowolnego rozmiaru
+      capability_preview: Renderuj podglądy z rzeczywistymi danymi
+      capability_refresh: Pobieraj i odświeżaj scalone zmienne
+      capability_validate: Sprawdzaj poprawność Liquid i transform_js
+      capability_web_search: Wyszukuj informacje w sieci
+      close_chat: Zamknij czat
+      close_chat_failed: Nie udało się zamknąć czatu.
+      close_chat_network_error: 'Błąd sieci — nie udało się zamknąć czatu: %{error}'
+      closed_chats_load_failed: Nie udało się wczytać zamkniętych czatów.
+      composer_placeholder: Opisz układ swojego pluginu lub poproś o edycję kodu szablonu...
+      continue_anyway: Kontynuuj mimo to
+      create_chat_failed: Nie udało się utworzyć nowego czatu.
+      create_chat_network_error: 'Błąd sieci — nie udało się utworzyć czatu: %{error}'
+      error_message: 'Błąd: %{message}'
+      history_load_failed: Nie udało się wczytać historii czatu. Wyślij wiadomość, aby rozpocząć.
+      idle_hint: Rozpoczęcie od nowa pozwala uniknąć ponownego przetwarzania starych wiadomości i zmniejsza koszty API.
+      idle_title: Ten czat od pewnego czasu jest nieaktywny
+      loading: Wczytywanie…
+      network_error_message: 'Błąd sieci: %{error}'
+      new_chat: Nowy czat
+      no_closed_sessions: Brak zamkniętych sesji
+      rename_chat: Zmień nazwę czatu
+      request_failed: Żądanie nie powiodło się
+      request_timed_out: Przekroczono limit czasu żądania. Przerwano przetwarzanie po stronie serwera.
+      restore_chat_failed: Nie udało się przywrócić czatu.
+      restore_chat_network_error: 'Błąd sieci — nie udało się przywrócić czatu: %{error}'
+      save_targets_failed: Nie udało się zapisać celów.
+      server_returned_status: Serwer zwrócił %{status}
+      something_went_wrong: Coś poszło nie tak. Spróbuj ponownie.
+      start_new_chat: Rozpocznij nowy czat
+      tool_unknown_active: Używanie %{tool}
+      tool_unknown_past: Użyto %{tool}
+      waiting_for_response: Oczekiwanie na odpowiedź...
     tools:
       ask_user:
-        active: Asking you
-        past: Asked you
+        active: Zadawanie Ci pytania
+        past: Zadano Ci pytanie
       example_boards:
-        active: Reading example boards
-        past: Read example boards
+        active: Odczytywanie przykładowych tablic
+        past: Odczytano przykładowe tablice
       list_markup_sizes:
-        active: Listing sizes
-        past: Listed sizes
+        active: Pobieranie listy rozmiarów
+        past: Pobrano listę rozmiarów
       preview_markup:
-        active: Rendering preview
-        past: Rendered preview
+        active: Renderowanie podglądu
+        past: Wyrenderowano podgląd
       pull_recipe_markup:
-        active: Pulling recipe
-        past: Pulled recipe
+        active: Pobieranie receptury
+        past: Pobrano recepturę
       read_board:
-        active: Reading board
-        past: Read board
+        active: Odczytywanie tablicy
+        past: Odczytano tablicę
       read_markup:
-        active: Reading markup
-        past: Read markup
+        active: Odczytywanie kodu szablonu
+        past: Odczytano kod szablonu
       refresh_data:
-        active: Refreshing data
-        past: Refreshed data
+        active: Odświeżanie danych
+        past: Odświeżono dane
       screenshot_markup:
-        active: Taking screenshot
-        past: Took screenshot
+        active: Wykonywanie zrzutu ekranu
+        past: Wykonano zrzut ekranu
       search_api_endpoints:
-        active: Searching endpoints
-        past: Searched endpoints
+        active: Wyszukiwanie endpointów
+        past: Wyszukano endpointy
       search_recipes:
-        active: Searching recipes
-        past: Searched recipes
+        active: Wyszukiwanie receptur
+        past: Wyszukano receptury
       show_board_variables:
-        active: Reading board variables
-        past: Read board variables
+        active: Odczytywanie zmiennych tablicy
+        past: Odczytano zmienne tablicy
       show_integration:
-        active: Reading integration
-        past: Read integration
+        active: Odczytywanie integracji
+        past: Odczytano integrację
       show_logs:
-        active: Reading logs
-        past: Read logs
+        active: Odczytywanie logów
+        past: Odczytano logi
       show_merge_variables:
-        active: Reading merge variables
-        past: Read merge variables
+        active: Odczytywanie scalonych zmiennych
+        past: Odczytano scalone zmienne
       validate_liquid:
-        active: Validating Liquid
-        past: Validated Liquid
+        active: Sprawdzanie poprawności Liquid
+        past: Sprawdzono poprawność Liquid
       version_history:
-        active: Browsing history
-        past: Browsed history
+        active: Przeglądanie historii
+        past: Przejrzano historię
       web_extract:
-        active: Reading pages
-        past: Read pages
+        active: Odczytywanie stron
+        past: Odczytano strony
       web_search:
-        active: Searching the web
-        past: Searched the web
+        active: Wyszukiwanie w sieci
+        past: Przeszukano sieć
       write_composition:
-        active: Writing board
-        past: Wrote board
+        active: Zapisywanie tablicy
+        past: Zapisano tablicę
       write_markup:
-        active: Writing markup
-        past: Wrote markup
+        active: Zapisywanie kodu szablonu
+        past: Zapisano kod szablonu
       write_settings:
-        active: Updating settings
-        past: Updated settings
+        active: Aktualizowanie ustawień
+        past: Zaktualizowano ustawienia
   devise:
     mailer:
       reset_password_instructions:
@@ -7867,7 +7867,7 @@ pl:
     go_to_slide: Go to slide %{number}
   post_navigation:
     label: Post navigation
-    next: Next
+    next: Dalej
     previous: Previous
   spec_sheet:
     overview: Overview
@@ -7913,7 +7913,7 @@ pl:
       overview_title: Start anywhere. No dead ends.
       partner: Partner
       results_title: Look here before you build
-      show_all: Show all
+      show_all: Pokaż wszystkie
       skip_building: Skip building
       skip_building_with_text: Skip building %{text}
       starting_points: Starting points
@@ -7923,7 +7923,7 @@ pl:
       stop_meaning_line_one: 1 STOP = 1 THING YOU
       stop_meaning_line_two: DON'T HAVE TO BUILD
       title: TRMNL Ecosystem
-      zoom_in: Zoom in
+      zoom_in: Powiększ
       og_description: 'Every way to use TRMNL on one map: devices, BYOD, self-hosted servers, plugins, the API, MCP, Framework, and the programs that pay creators.'
   experts:
     expert:
@@ -7997,7 +7997,7 @@ pl:
         bought_elsewhere: Bought elsewhere
         budget: Budget
         just_exploring: Just exploring
-        other: Other
+        other: Inne
         timing: Timing
     expired:
       body: This quote expired on %{date}. Quotes are valid for 30 days from the date of issue.
@@ -8017,7 +8017,7 @@ pl:
       contact_us: Contact Us
       continue_to_checkout: Continue to Checkout
       date_label: 'Date:'
-      description: Description
+      description: Opis
       discount_note_html: Discount code <span class="font-mono font-medium">%{code}</span> — single use, expires %{date}. Shipping and tax are added at checkout.
       discount_per_unit: "-%{amount}/unit"
       download_pdf: Download PDF
@@ -8049,7 +8049,7 @@ pl:
       accept_labels:
         accepting: Accepting…
         continue_to_checkout: Continue to Checkout
-        failed: Something went wrong. Please try again.
+        failed: Coś poszło nie tak. Spróbuj ponownie.
         turnstile_blocked: Security verification could not load. It may be blocked by an ad blocker or your network — reload the page, or use Contact sales above and we'll finish this for you.
         turnstile_loading: Security verification is still loading. Give it a moment and try again.
     lead_time:
@@ -8073,335 +8073,335 @@ pl:
     page_expired: This page has expired. Reload and try again.
   plugin_errors:
     ai_dashboard:
-      no_screen: The AI wrote no screen, only reasoning or text.
-      no_sources: Select at least one plugin for the AI Dashboard to read.
-      write_failed: 'The AI could not write a new screen: %{reason}'
+      no_screen: AI wygenerowała jedynie rozumowanie lub tekst, bez ekranu.
+      no_sources: Wybierz co najmniej jeden plugin, z którego Pulpit AI ma odczytywać dane.
+      write_failed: 'AI nie mogła utworzyć nowego ekranu: %{reason}'
     asana:
-      task_list_failed: Failed to fetch user task list
-      task_list_replied: 'Failed to fetch user task list: %{code}'
-      tasks_failed: Failed to fetch tasks
-      tasks_replied: 'Failed to fetch tasks: %{code}'
+      task_list_failed: Nie udało się pobrać listy zadań użytkownika
+      task_list_replied: 'Nie udało się pobrać listy zadań użytkownika: %{code}'
+      tasks_failed: Nie udało się pobrać zadań
+      tasks_replied: 'Nie udało się pobrać zadań: %{code}'
     basecamp:
-      no_todoset: Basecamp project has no todoset
+      no_todoset: Projekt Basecamp nie zawiera zestawu list zadań
     bitcoin_wallet_balance:
-      invalid_address: invalid address
+      invalid_address: nieprawidłowy adres
     calendar:
-      companion_app_not_synced: Open the TRMNL Companion app on your iPhone to sync your calendars
-      no_usable_ics_feeds: No usable ICS feeds
+      companion_app_not_synced: Otwórz aplikację TRMNL Companion na swoim iPhonie, aby zsynchronizować kalendarze
+      no_usable_ics_feeds: Brak dostępnych źródeł ICS
     chatgpt:
-      unavailable: ChatGPT API unavailable
+      unavailable: API ChatGPT jest niedostępne
     clicky:
-      unavailable: Clicky stats unavailable
+      unavailable: Statystyki Clicky są niedostępne
     dates:
-      birthday_invalid: Birthday is not a valid date
-      date_format_invalid: Date Format is not a valid format
-      end_date_invalid: End Date is not a valid date
-      end_date_required: End Date is required
-      start_date_invalid: Start Date is not a valid date
-      start_date_required: Start Date is required
+      birthday_invalid: Data urodzin jest nieprawidłowa
+      date_format_invalid: Format daty jest nieprawidłowy
+      end_date_invalid: Data końcowa jest nieprawidłowa
+      end_date_required: Data końcowa jest wymagana
+      start_date_invalid: Data początkowa jest nieprawidłowa
+      start_date_required: Data początkowa jest wymagana
     eight_sleep:
-      auth_unavailable: Eight Sleep auth unavailable
-      metrics_unavailable: Eight Sleep metrics unavailable
-      unavailable: Eight Sleep unavailable
+      auth_unavailable: Uwierzytelnianie Eight Sleep jest niedostępne
+      metrics_unavailable: Dane Eight Sleep są niedostępne
+      unavailable: Eight Sleep jest niedostępne
     email_meter:
-      replied: 'Email Meter replied: %{error}'
+      replied: 'Email Meter zwrócił: %{error}'
     ethereum_wallet_balance:
-      exchange_rate_unavailable: Coinbase exchange rate unavailable
+      exchange_rate_unavailable: Kurs wymiany Coinbase jest niedostępny
     fera:
-      metrics_unavailable: Fera metrics unavailable
-      reviews_unavailable: Fera reviews unavailable
+      metrics_unavailable: Dane Fera są niedostępne
+      reviews_unavailable: Recenzje Fera są niedostępne
     fetch:
-      server_unreachable: 'Could not reach the server: %{reason}'
-      timeout: The server did not answer in time
+      server_unreachable: 'Nie udało się połączyć z serwerem: %{reason}'
+      timeout: Serwer nie odpowiedział w wyznaczonym czasie
     homey:
-      no_homey: No Homey was found on this Athom account.
+      no_homey: Nie znaleziono urządzenia Homey na tym koncie Athom.
     hubspot:
-      replied: HubSpot replied %{code}
-      unavailable: HubSpot API unavailable
+      replied: HubSpot zwrócił %{code}
+      unavailable: API HubSpot jest niedostępne
     huckleberry:
-      child_not_found: Child not found on this Huckleberry account — re-select it in settings
-      login_rejected: Huckleberry rejected your login (%{reason})
-      no_children: No children found on this Huckleberry account
-      unavailable: Huckleberry unavailable
+      child_not_found: Nie znaleziono dziecka na tym koncie Huckleberry — wybierz je ponownie w ustawieniach
+      login_rejected: Huckleberry odrzucił próbę logowania (%{reason})
+      no_children: Nie znaleziono dzieci na tym koncie Huckleberry
+      unavailable: Huckleberry jest niedostępne
     image_display:
-      address_required: Image Address is required
-      replied: The image address replied %{code}
+      address_required: Adres obrazu jest wymagany
+      replied: Serwer pod adresem obrazu zwrócił %{code}
     kickstarter:
-      unavailable: Kickstarter unavailable
+      unavailable: Kickstarter jest niedostępny
     language_learning:
-      language_missing: Language is not set
+      language_missing: Nie ustawiono języka
     letterboxd:
-      credentials_missing: Letterboxd API credentials not configured
-      unavailable: Letterboxd unavailable
+      credentials_missing: Nie skonfigurowano poświadczeń API Letterboxd
+      unavailable: Letterboxd jest niedostępne
     linkedin_page:
-      replied: 'LinkedIn replied %{code}: %{message}'
-      request_failed: 'LinkedIn request failed: %{reason}'
-      select_page: Select a LinkedIn Page in the plugin settings
+      replied: 'LinkedIn zwrócił %{code}: %{message}'
+      request_failed: 'Żądanie do LinkedIn nie powiodło się: %{reason}'
+      select_page: Wybierz stronę LinkedIn w ustawieniach pluginu
     lunch_money:
-      token_invalid: Lunch Money access token is no longer valid
+      token_invalid: Token dostępu Lunch Money jest już nieważny
     poetry_today:
-      no_short_poem: No poem short enough to display
+      no_short_poem: Nie znaleziono wiersza wystarczająco krótkiego do wyświetlenia
     private_plugin:
-      not_configured: 'Plugin is not configured — fill in: %{fields}'
-      payload_too_large: 'Large payload received (%{size} bytes), should be less than 100kb. Solution: Serverless VM, https://help.trmnl.com/en/articles/14130649-serverless'
-      transform_input_not_object: Transform input must be a JSON object
+      not_configured: 'Plugin nie jest skonfigurowany — uzupełnij: %{fields}'
+      payload_too_large: 'Otrzymano zbyt duży pakiet danych (%{size} bajtów), powinien mieć mniej niż 100 kB. Rozwiązanie: Serverless VM, https://help.trmnl.com/en/articles/14130649-serverless'
+      transform_input_not_object: Dane wejściowe transformacji muszą być obiektem JSON
     profit_well:
-      unavailable: ProfitWell metrics unavailable
+      unavailable: Dane ProfitWell są niedostępne
     readwise:
-      highlights_unavailable: Readwise highlights unavailable
-      token_invalid: Readwise token is invalid
+      highlights_unavailable: Zaznaczone fragmenty Readwise są niedostępne
+      token_invalid: Token Readwise jest nieprawidłowy
     reddit:
-      no_posts: No Reddit posts found
-      unavailable: Reddit API unavailable
+      no_posts: Nie znaleziono postów na Reddicie
+      unavailable: API Reddit jest niedostępne
     rss_feed:
-      http_error: RSS feed returned HTTP %{code}
-      invalid_url: RSS feed URL is not a valid URL
-      no_usable_response: RSS feed returned no usable response
+      http_error: Kanał RSS zwrócił kod HTTP %{code}
+      invalid_url: Adres URL kanału RSS jest nieprawidłowy
+      no_usable_response: Kanał RSS nie zwrócił prawidłowej odpowiedzi
     screenshot:
-      url_required: URL is required
-      url_scheme: URL must start with http:// or https://
+      url_required: Adres URL jest wymagany
+      url_scheme: Adres URL musi zaczynać się od http:// lub https://
     shopify:
-      credentials_refused: Shopify refused the store address, Client ID or Client Secret
-      store_not_found: Shopify store not found, or the access token is invalid
+      credentials_refused: Shopify odrzucił adres sklepu, identyfikator klienta lub sekret klienta
+      store_not_found: Nie znaleziono sklepu Shopify lub token dostępu jest nieprawidłowy
     statuspage:
-      unreadable_feeds: Couldn't read a status feed from %{feeds}.
+      unreadable_feeds: Nie udało się odczytać kanału statusu z %{feeds}.
     tempest_weather_station:
-      forecast_unavailable: Tempest forecast unavailable
-      location_invalid: Invalid Tempest lat/lon
-      location_required: Latitude/Longitude is required
-      stations_unavailable: Tempest stations unavailable
+      forecast_unavailable: Prognoza Tempest jest niedostępna
+      location_invalid: Nieprawidłowe współrzędne geograficzne Tempest
+      location_required: Szerokość i długość geograficzna są wymagane
+      stations_unavailable: Stacje Tempest są niedostępne
     the_office:
-      unavailable: The Office quote unavailable
+      unavailable: Cytat z The Office jest niedostępny
     third_party_plugin:
-      markup_unavailable: Plugin markup unavailable
+      markup_unavailable: Kod szablonu pluginu jest niedostępny
     ticktick:
-      reconnect: TickTick no longer accepts this connection. Reconnect TickTick in the plugin settings.
-      replied: TickTick replied %{code}
+      reconnect: TickTick nie akceptuje już tego połączenia. Połącz TickTick ponownie w ustawieniach pluginu.
+      replied: TickTick zwrócił %{code}
     todoist:
-      project_not_found: Todoist no longer knows the chosen project. Choose your Todoist project again in the plugin settings.
-      reconnect: Todoist no longer accepts this connection. Reconnect Todoist in the plugin settings.
-      replied: Todoist replied %{code}
-      replied_with_error: 'Todoist replied %{code}: %{error}'
-      unavailable: Todoist tasks unavailable
+      project_not_found: Todoist nie rozpoznaje już wybranego projektu. Wybierz ponownie projekt Todoist w ustawieniach pluginu.
+      reconnect: Todoist nie akceptuje już tego połączenia. Połącz Todoist ponownie w ustawieniach pluginu.
+      replied: Todoist zwrócił %{code}
+      replied_with_error: 'Todoist zwrócił %{code}: %{error}'
+      unavailable: Zadania Todoist są niedostępne
     unsplash:
-      unavailable: Unsplash image unavailable
+      unavailable: Obraz Unsplash jest niedostępny
     upcoming_movies:
-      unavailable: Upcoming movies unavailable
+      unavailable: Nadchodzące premiery filmowe są niedostępne
     weather:
-      api_unavailable: Weather API unavailable
-      forecast_unavailable: Weather forecast unavailable
+      api_unavailable: API pogodowe jest niedostępne
+      forecast_unavailable: Prognoza pogody jest niedostępna
     wiki_random_article:
-      no_featured_article: Wikipedia has no featured article for today
+      no_featured_article: Wikipedia nie ma wyróżnionego artykułu na dzisiaj
     withings:
-      unavailable: Withings API unavailable
+      unavailable: API Withings jest niedostępne
     workflowy:
-      api_error: 'Workflowy API error: %{code} - %{message}'
+      api_error: 'Błąd API Workflowy: %{code} - %{message}'
   assistants:
     button:
-      open: trmy mode
-      back: Exit trmy mode
+      open: Tryb trmy
+      back: Wyjdź z trybu trmy
     chat_list:
-      label: Chats
+      label: Czaty
       archived:
-        one: 1 archived chat
-        other: "%{count} archived chats"
-      today: Today
-      earlier: Earlier
+        one: 1 zarchiwizowany czat
+        other: "Liczba zarchiwizowanych czatów: %{count}"
+      today: Dzisiaj
+      earlier: Wcześniej
     composer:
-      label: Message
-      placeholder: Message trmy
-      send: Send
+      label: Wiadomość
+      placeholder: Napisz do trmy
+      send: Wyślij
       used_up:
-        one: You've used today's free trmy messages. They come back in about an hour, or add AI credit to keep going now.
-        other: You've used today's free trmy messages. They come back in about %{count} hours, or add AI credit to keep going now.
+        one: Wykorzystano dzisiejsze bezpłatne wiadomości trmy. Będą ponownie dostępne za około godzinę. Możesz też dodać kredyty AI, aby kontynuować teraz.
+        other: Wykorzystano dzisiejsze bezpłatne wiadomości trmy. Będą ponownie dostępne za około %{count} godz. Możesz też dodać kredyty AI, aby kontynuować teraz.
       everyone_used_up:
-        one: Free trmy messages are used up for everyone today. They come back in about an hour, or add AI credit to keep going now.
-        other: Free trmy messages are used up for everyone today. They come back in about %{count} hours, or add AI credit to keep going now.
-      no_device: Free trmy messages come with a TRMNL device on your account. Add AI credit to use trmy now.
-      add_credit: Add AI credit
-      full: This chat is long now. Start a new chat to keep replies fast and cheap.
-      privacy: trmy runs through OpenRouter, routed only to providers that keep no data and never train on it.
-      hint: Enter sends. Shift+Enter adds a line.
+        one: Dzisiejsza pula bezpłatnych wiadomości trmy dla wszystkich została wyczerpana. Będą ponownie dostępne za około godzinę. Możesz też dodać kredyty AI, aby kontynuować teraz.
+        other: Dzisiejsza pula bezpłatnych wiadomości trmy dla wszystkich została wyczerpana. Będą ponownie dostępne za około %{count} godz. Możesz też dodać kredyty AI, aby kontynuować teraz.
+      no_device: Bezpłatne wiadomości trmy przysługują, gdy masz urządzenie TRMNL na swoim koncie. Dodaj kredyty AI, aby skorzystać z trmy teraz.
+      add_credit: Dodaj kredyty AI
+      full: Ten czat jest już długi. Rozpocznij nowy, aby odpowiedzi były szybkie i tanie.
+      privacy: trmy działa za pośrednictwem OpenRouter, korzystając wyłącznie z dostawców, którzy nie przechowują danych i nie wykorzystują ich do trenowania modeli.
+      hint: Enter wysyła wiadomość. Shift+Enter dodaje nowy wiersz.
     device_card:
-      seen: Seen %{time} ago
-      never_seen: Never seen
+      seen: Ostatnia aktywność %{time} temu
+      never_seen: Brak dotychczasowej aktywności
     errors:
-      failed: Something went wrong. Please try again.
-      secret: This looks like %{kind}. Never paste secrets here; when trmy needs one, it asks with a private form the AI cannot read.
-      busy: Please wait for the current reply to finish.
-      too_many_steps: trmy stopped this reply after too many steps. Ask again with a smaller request.
-      allowance_used: trmy stopped this reply because today's free messages and your AI credit are used up.
+      failed: Coś poszło nie tak. Spróbuj ponownie.
+      secret: Wygląda to na %{kind}. Nigdy nie wklejaj tutaj sekretów. Gdy trmy będzie ich potrzebować, poprosi o nie za pomocą prywatnego formularza, którego AI nie może odczytać.
+      busy: Poczekaj na zakończenie bieżącej odpowiedzi.
+      too_many_steps: trmy przerwał tę odpowiedź po wykonaniu zbyt wielu kroków. Spróbuj ponownie z mniejszym zadaniem.
+      allowance_used: trmy przerwał tę odpowiedź, ponieważ wyczerpano dzisiejsze bezpłatne wiadomości i Twoje kredyty AI.
     event:
       run_action_html: "<strong>%{action}</strong>?"
-      confirm: Confirm
-      connect: Connect %{plugin}
-      plugin_agent_intro: "%{name} is ready. Its own agent builds the screens in the editor, with the framework and the plugin's data at hand."
-      plugin_agent_open: Build it with the plugin agent
-      cancel: Cancel
+      confirm: Potwierdź
+      connect: Połącz %{plugin}
+      plugin_agent_intro: "%{name} jest gotowy. Jego własny agent tworzy ekrany w edytorze, mając dostęp do Frameworka i danych pluginu."
+      plugin_agent_open: Utwórz z agentem pluginu
+      cancel: Anuluj
       answers:
-        answered: Answered.
-        confirmed: Confirmed.
-        cancelled: Cancelled.
-        sent: Sent.
-        connected: Connected.
-        not_connected: Not connected.
-      send_privately: Send privately
-      private_target_html: The server runs <strong>%{action}</strong> with these values and your secret.
-      playlist_item_on_device: "%{item} on %{device}"
+        answered: Odpowiedziano.
+        confirmed: Potwierdzono.
+        cancelled: Anulowano.
+        sent: Wysłano.
+        connected: Połączono.
+        not_connected: Nie połączono.
+      send_privately: Wyślij prywatnie
+      private_target_html: Serwer wykonuje <strong>%{action}</strong> z tymi wartościami i Twoim sekretem.
+      playlist_item_on_device: "%{item} na %{device}"
     field_list:
-      'yes': 'Yes'
-      'no': 'No'
+      'yes': 'Tak'
+      'no': 'Nie'
     secret_kinds:
-      private_key: a private key
-      api_key: an API key
-      access_token: an access token
-      bearer_token: a bearer token
-      password: a password
-      card_number: a card number
-    screen_caption: "%{device}: %{screen}, shown %{time} ago"
+      private_key: klucz prywatny
+      api_key: klucz API
+      access_token: token dostępu
+      bearer_token: token Bearer
+      password: hasło
+      card_number: numer karty
+    screen_caption: "%{device}: %{screen}, wyświetlono %{time} temu"
     show:
-      archive: Archive
-      unarchive: Unarchive
-      new_chat: New chat
-      thinking: Thinking…
-      intro: Ask trmy to change your devices, playlists and plugins, or to show what a screen shows now.
+      archive: Archiwizuj
+      unarchive: Przywróć z archiwum
+      new_chat: Nowy czat
+      thinking: Myślenie…
+      intro: Poproś trmy o zmianę urządzeń, playlist i pluginów lub o pokazanie bieżącej zawartości ekranu.
       examples:
-      - Which device has the lowest battery?
-      - What's on my playlist right now?
-      - Show me what my TRMNL shows now
+      - Które urządzenie ma najniższy poziom baterii?
+      - Co znajduje się teraz na mojej playliście?
+      - Pokaż, co teraz wyświetla mój TRMNL
     chat_actions:
-      menu: Chat actions
-      rename: Rename
-      name: Chat name
+      menu: Akcje czatu
+      rename: Zmień nazwę
+      name: Nazwa czatu
     device_list:
       title:
-        one: 1 device
-        other: "%{count} devices"
+        one: 1 urządzenie
+        other: "Liczba urządzeń: %{count}"
       more:
-        one: 1 more device
-        other: "%{count} more devices"
+        one: Jeszcze 1 urządzenie
+        other: "Pozostałe urządzenia: %{count}"
     playlist_card:
       items:
-        one: 1 item
-        other: "%{count} items"
-      now: Showing now
-      hidden: Hidden
-      open: Open playlist
-      empty: This playlist is empty.
+        one: 1 element
+        other: "Liczba elementów: %{count}"
+      now: Teraz wyświetlane
+      hidden: Ukryte
+      open: Otwórz playlistę
+      empty: Ta playlista jest pusta.
       more:
-        one: 1 more item
-        other: "%{count} more items"
+        one: Jeszcze 1 element
+        other: "Pozostałe elementy: %{count}"
     plugin_analytics_card:
-      title: Your published plugins
-      installs: installs
-      connections: connections
-      growth: Installs, last %{count} days
-      open: Open analytics
+      title: Twoje opublikowane pluginy
+      installs: instalacje
+      connections: połączenia
+      growth: Instalacje z ostatnich %{count} dni
+      open: Otwórz analitykę
     plugin_setting_card:
-      refreshed: Refreshed %{time} ago
-      never_refreshed: Not refreshed yet
+      refreshed: Odświeżono %{time} temu
+      never_refreshed: Jeszcze nie odświeżono
       playlists:
-        one: On 1 playlist
-        other: On %{count} playlists
-      open: Open settings
+        one: Na 1 playliście
+        other: 'Liczba playlist: %{count}'
+      open: Otwórz ustawienia
     plugin_list:
-      add: Add
+      add: Dodaj
     plugin_logs_card:
-      title: "%{name}: latest logs"
-      empty: No logs yet.
-      title_with_levels: "%{name}: latest %{levels} logs"
+      title: "%{name}: najnowsze logi"
+      empty: Brak logów.
+      title_with_levels: "%{name}: najnowsze logi (%{levels})"
     home:
-      title: Home
-      keep: Pin to home
-      kept: Pinned to home
-      remove: Remove from home
-      dismiss: Dismiss
-      starter_hint: Pin a card from any chat to build your own home.
-      low_battery: "%{device} battery is at %{percent}%"
-      plugin_error: "%{plugin} stopped with an error"
-      device_offline: "%{device} was last seen %{time} ago"
-      empty_playlist: "%{device} has an empty playlist"
-      edit: Edit
-      done: Done
-      move: Move this card. Drag it, or use the arrow keys.
-      nothing_to_show: This card has nothing to show right now.
-      add_card: Add a card
+      title: Strona główna
+      keep: Przypnij do strony głównej
+      kept: Przypięto do strony głównej
+      remove: Usuń ze strony głównej
+      dismiss: Zamknij
+      starter_hint: Przypnij kartę z dowolnego czatu, aby utworzyć własną stronę główną.
+      low_battery: "Poziom baterii %{device} wynosi %{percent}%"
+      plugin_error: "Plugin %{plugin} został zatrzymany z powodu błędu"
+      device_offline: "Urządzenie %{device} ostatnio zgłosiło się %{time} temu"
+      empty_playlist: "Urządzenie %{device} ma pustą playlistę"
+      edit: Edytuj
+      done: Gotowe
+      move: Przenieś tę kartę. Przeciągnij ją lub użyj klawiszy strzałek.
+      nothing_to_show: Ta karta nie ma teraz nic do wyświetlenia.
+      add_card: Dodaj kartę
     chart_card:
       titles:
-        plugin_installs: Plugin installs
-        ai_tokens: AI agent tokens
-        ai_spend: AI agent spend
-        plugin_errors: Plugin errors
+        plugin_installs: Instalacje pluginów
+        ai_tokens: Tokeny agenta AI
+        ai_spend: Koszty agenta AI
+        plugin_errors: Błędy pluginów
       total:
-        one: total, last day
-        other: total, last %{count} days
-      latest: today
+        one: łącznie w ostatnim dniu
+        other: łącznie w ciągu ostatnich %{count} dni
+      latest: dzisiaj
       per_day:
-        one: Per day, last day
-        other: Per day, last %{count} days
-      peak: Peak %{value}
+        one: Dziennie, ostatni dzień
+        other: Dziennie, ostatnie %{count} dni
+      peak: Maksimum %{value}
     home_card_gallery:
-      metric_label: Number
+      metric_label: Liczba
       cards:
-        chart: One of your numbers, day by day, over the last 30 days.
-        device: Battery, Wi-Fi and last check-in of one device.
-        devices: Every device, with battery and last check-in.
-        playlist: What a device shows, in order.
-        screen: The screen a device shows now.
-        plugin_setting: When a plugin last refreshed, and any error.
-        plugin_logs: The latest logs of a plugin, to see why it is blank.
-        plugin_analytics: Installs and growth of the plugins you published.
-        new_plugins: The newest plugins and recipes.
-        news: The latest TRMNL news.
-        blog_posts: The newest posts on the TRMNL blog.
-      title: Add a card
-      intro: Each card shows current data every time you open your home.
-      back: Back to home
-      device_label: Device
+        chart: Jedna z Twoich statystyk, dzień po dniu, z ostatnich 30 dni.
+        device: Poziom baterii, Wi-Fi i ostatnie zgłoszenie jednego urządzenia.
+        devices: Wszystkie urządzenia z poziomem baterii i ostatnim zgłoszeniem.
+        playlist: To, co wyświetla urządzenie, w kolejności.
+        screen: Ekran obecnie wyświetlany przez urządzenie.
+        plugin_setting: Czas ostatniego odświeżenia pluginu i ewentualne błędy.
+        plugin_logs: Najnowsze logi pluginu, aby sprawdzić, dlaczego nic nie wyświetla.
+        plugin_analytics: Instalacje i wzrost popularności opublikowanych przez Ciebie pluginów.
+        new_plugins: Najnowsze pluginy i receptury.
+        news: Najnowsze wiadomości TRMNL.
+        blog_posts: Najnowsze posty na blogu TRMNL.
+      title: Dodaj kartę
+      intro: Każda karta pokazuje aktualne dane przy każdym otwarciu strony głównej.
+      back: Wróć do strony głównej
+      device_label: Urządzenie
       plugin_label: Plugin
       names:
-        chart: Chart
-        device: Device
-        devices: All devices
-        playlist: Playlist
-        screen: Current screen
-        plugin_setting: Plugin status
-        plugin_logs: Plugin logs
-        plugin_analytics: Published plugins
-        new_plugins: New plugins
-        news: News
+        chart: Wykres
+        device: Urządzenie
+        devices: Wszystkie urządzenia
+        playlist: Playlista
+        screen: Bieżący ekran
+        plugin_setting: Status pluginu
+        plugin_logs: Logi pluginu
+        plugin_analytics: Opublikowane pluginy
+        new_plugins: Nowe pluginy
+        news: Wiadomości
         blog_posts: Blog
     starter_prompts:
-      add_plugin: Add the %{name} plugin
-      add_recipe: Add the %{name} recipe
+      add_plugin: Dodaj plugin %{name}
+      add_recipe: Dodaj recepturę %{name}
     feed_card:
       new_plugins:
-        title: New plugins
-        feed_link: RSS feed for new plugins
-        view_all: All plugins
+        title: Nowe pluginy
+        feed_link: Kanał RSS nowych pluginów
+        view_all: Wszystkie pluginy
       news:
-        title: News
-        feed_link: RSS feed for TRMNL news
-        view_all: All news
+        title: Wiadomości
+        feed_link: Kanał RSS wiadomości TRMNL
+        view_all: Wszystkie wiadomości
       blog_posts:
         title: Blog
-        feed_link: RSS feed for the TRMNL blog
-        view_all: All posts
+        feed_link: Kanał RSS bloga TRMNL
+        view_all: Wszystkie posty
     mode_switch:
-      label: Home view
+      label: Widok strony głównej
       trmy: trmy
     thinking_panel:
-      label: trmy is thinking
+      label: trmy myśli
     ask_for_plugin:
-      title: Ask trmy
-      message: I need a plugin for %{query}
-      body: Ask trmy. It looks through every plugin and recipe, and can build a private plugin for you when none fits.
+      title: Zapytaj trmy
+      message: Potrzebuję pluginu do %{query}
+      body: Zapytaj trmy. Przeszuka wszystkie pluginy i receptury, a jeśli nie znajdzie odpowiedniego, może utworzyć dla Ciebie prywatny plugin.
       quoted_message: "“%{message}”"
-      start_chat: Start chat →
-      tile_title: Not quite it?
-      tile_description: Ask trmy for a %{query} plugin
+      start_chat: Rozpocznij czat →
+      tile_title: Nie do końca o to chodzi?
+      tile_description: Poproś trmy o plugin do %{query}
   signup:
-    find_friendly_id_html: Need this? %{link}.
-    friendly_id_example: "%{friendly_id}, ex: 2D319E"
-    go_here: Go here
-    select_time_zone: Select Time Zone
+    find_friendly_id_html: Potrzebujesz tego? %{link}.
+    friendly_id_example: "%{friendly_id}, np. 2D319E"
+    go_here: Przejdź tutaj
+    select_time_zone: Wybierz strefę czasową
