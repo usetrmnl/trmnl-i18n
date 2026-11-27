@@ -618,7 +618,7 @@ pt-BR:
       guest_mode_for: por
       mac_address_format: Deve ser um valor hexadecimal de 12 dígitos (0-9 e A-F), separado por dois-pontos.
       palette_needs_firmware: Você precisa atualizar para o firmware v1.6.0 ou posterior para mudar a paleta.
-      pinned_firmware_hint: Support has pinned this device to this firmware build for troubleshooting. While OTA updates are on, the device installs this build again at its next check-in, even after you flash other firmware over USB. To keep your own firmware, turn off OTA updates first.
+      pinned_firmware_hint: O suporte fixou este dispositivo nesta versão de firmware para resolver um problema. Com as Atualizações OTA ativadas, o dispositivo instala esta versão de novo no próximo check-in, mesmo depois de você gravar outro firmware por USB. Para manter seu próprio firmware, desative antes as Atualizações OTA.
       refresh_rate: Taxa de atualização
       retry_update: Tentar atualizar de novo
       rotate_default: 'Padrão: %{degrees}°'
@@ -1041,7 +1041,7 @@ pt-BR:
   markups:
     form:
       dirty_confirm: Você tem alterações não salvas. Tem certeza que deseja sair dessa página?
-      edit_composition: Edit Composition
+      edit_composition: Editar Composição
       edit_markup: Editar Markup
       edit_markup_for_plugin: Editar markup de %{plugin_setting_name}
       edit_markup_please_save_first: Por favor salve antes de editar o markup
@@ -1050,575 +1050,575 @@ pt-BR:
       pop_out_preview: Destacar Pré-visualização
       revert: Reverter
       revert_confirm: Tem certeza que deseja reverter? Todas as mudanças não salvas serão perdidas.
-      prompt_language: Prompt (AI)
-      prompt_help: 'The installer''s model turns the input into this plugin''s merge variables, paid with their API key or AI credit. Liquid sees the same input a script would, and the model is asked again whenever the rendered prompt changes, so pass only the fields the prompt needs. Front matter between two --- lines may set schema (a JSON schema the reply must match, where the model supports it), max_tokens (up to 4096, which a reasoning model spends partly on thinking) and format: text.'
-      serverless_help: Clean up the data with a script, or hand it to an AI model with a prompt.
-      serverless_learn_more: Learn more about scripts
-      prompt_learn_more: Read the prompt guide
+      prompt_language: Prompt (IA)
+      prompt_help: 'O modelo de quem instala transforma a entrada nas variáveis de merge deste plugin, pago com a chave de API ou o crédito de IA dessa pessoa. O Liquid vê a mesma entrada que um script veria, e o modelo é consultado de novo sempre que o prompt renderizado muda, então passe só os campos de que o prompt precisa. Um front matter entre duas linhas --- pode definir schema (um JSON schema que a resposta deve seguir, quando o modelo suporta), max_tokens (até 4096, que um modelo de raciocínio gasta em parte pensando) e format: text.'
+      serverless_help: Limpe os dados com um script ou entregue-os a um modelo de IA com um prompt.
+      serverless_learn_more: Saiba mais sobre scripts
+      prompt_learn_more: Leia o guia de prompts
       beta: Beta
-      visual_editor: Visual Editor
+      visual_editor: Editor Visual
       draft_found: Unsaved changes from %{time} were found on this device.
       draft_restore: Restore
       draft_discard: Discard
     merge_variables:
       not_in_playlist:
-        one: This plugin isn't in any Playlist. Mark it as hidden after adding to keep the data fresh.
-        other: These plugins aren't in any Playlist. Mark them as hidden after adding to keep the data fresh.
-      stale_data: 'Stale data:'
+        one: Este plugin não está em nenhuma Playlist. Marque-o como escondido depois de adicionar para manter os dados atualizados.
+        other: Estes plugins não estão em nenhuma Playlist. Marque-os como escondidos depois de adicionar para manter os dados atualizados.
+      stale_data: 'Dados desatualizados:'
     no_merge_variables:
       no_variables_detected: Nenhuma variável detectada.
     visual_editor:
-      back: Back
-      choose_your_layout: Choose your layout
-      clear_logs: Clear logs
-      click_to_copy: Click to copy
-      close: Close
-      code: Code
-      code_agent_panel: Code Agent panel
-      components: Components
-      develop_on_github: Develop on GitHub
-      documentation: Documentation
-      edit_settings: Edit Settings
-      element_tree_sidebar: Element Tree sidebar
-      element_tree_sidebar_contents: 'Element Tree sidebar: element tree, Code Agent'
-      force_refresh: Force Refresh
-      import: Import
-      js_logs: JS Logs
-      keyboard_shortcuts: Keyboard shortcuts
-      keyboard_shortcuts_dialog: Visual Editor keyboard shortcuts
-      last_refresh: Last refresh
-      open_visual_editor: Open Visual Editor
-      preview_only: Preview only
-      preview_placeholder: Your live preview will appear here
-      properties: Properties
-      redo: Redo
-      refresh: Refresh
-      resize_code_and_js_logs: Resize code and JS logs
-      resize_element_tree_and_code_agent: Resize element tree and code agent
-      resize_left_sidebar: Resize left sidebar
-      resize_preview_and_code: Resize preview and code
-      save_cmd_s: Save (Cmd+S)
-      saved: Saved
-      select_view_hint: Select this view to define its layout
+      back: Voltar
+      choose_your_layout: Escolha seu layout
+      clear_logs: Limpar logs
+      click_to_copy: Clique para copiar
+      close: Fechar
+      code: Código
+      code_agent_panel: Painel do Agente de Código
+      components: Componentes
+      develop_on_github: Desenvolver no GitHub
+      documentation: Documentação
+      edit_settings: Editar Configurações
+      element_tree_sidebar: Barra lateral da Árvore de Elementos
+      element_tree_sidebar_contents: 'Barra lateral da Árvore de Elementos: árvore de elementos, Agente de Código'
+      force_refresh: Forçar Atualização
+      import: Importar
+      js_logs: Logs de JS
+      keyboard_shortcuts: Atalhos de teclado
+      keyboard_shortcuts_dialog: Atalhos de teclado do Editor Visual
+      last_refresh: Última atualização
+      open_visual_editor: Abrir Editor Visual
+      preview_only: Só pré-visualização
+      preview_placeholder: Sua pré-visualização ao vivo vai aparecer aqui
+      properties: Propriedades
+      redo: Refazer
+      refresh: Atualizar
+      resize_code_and_js_logs: Redimensionar código e logs de JS
+      resize_element_tree_and_code_agent: Redimensionar árvore de elementos e Agente de Código
+      resize_left_sidebar: Redimensionar barra lateral esquerda
+      resize_preview_and_code: Redimensionar pré-visualização e código
+      save_cmd_s: Salvar (Cmd+S)
+      saved: Salvo
+      select_view_hint: Selecione esta visualização para definir o layout dela
       serverless: Serverless
-      serverless_language: Serverless language
-      shared: Shared
-      show_at_startup: Show at startup
-      side_by_side_layout: Side by side layout
-      stacked_layout: Stacked layout
-      state: State
-      switch_private_plugin: Switch private plugin
+      serverless_language: Linguagem serverless
+      shared: Compartilhado
+      show_at_startup: Mostrar ao iniciar
+      side_by_side_layout: Layout lado a lado
+      stacked_layout: Layout empilhado
+      state: Estado
+      switch_private_plugin: Trocar de plugin privado
       templates: Templates
-      to_get_started: To get started
-      toggle_code_agent: 'Code Agent: show or hide the Code Agent panel'
-      toggle_properties: 'Properties: show or hide the properties panel'
-      undo: Undo
-      variables: Variables
-      what_you_can_do: What you can do
-      workspace_ready: Your workspace is set how you like.
-      zoom_in: Zoom in
-      zoom_out: Zoom out
+      to_get_started: Para começar
+      toggle_code_agent: 'Agente de Código: mostrar ou esconder o painel do Agente de Código'
+      toggle_properties: 'Propriedades: mostrar ou esconder o painel de propriedades'
+      undo: Desfazer
+      variables: Variáveis
+      what_you_can_do: O que você pode fazer
+      workspace_ready: Seu espaço de trabalho está do jeito que você gosta.
+      zoom_in: Aumentar zoom
+      zoom_out: Diminuir zoom
       script_run:
-        running: Running script…
+        running: Rodando script…
         ran:
-          one: Script ran · %{count} variable
-          other: Script ran · %{count} variables
-        failed: Script failed. See JS Logs.
-        waits_for_webhook: Saved. Runs on your next webhook.
-        limited: Saved. Scripts run on save %{count} times an hour, so this one runs at the next refresh.
-        expired: Script still running. Reload to see new variables.
-      beta_notice_html: The Visual Editor is currently in <strong class="font-semibold">beta</strong> and has known issues, particularly with more complex, Liquid-heavy plugins. If you run into trouble, you can always fall back to the code editor. Runs on top of <strong class="font-semibold">Framework v3.x</strong>.
-      clear_saved_plugin_state: Clear saved plugin state
-      code_panels: Code panels
+          one: Script executado · %{count} variável
+          other: Script executado · %{count} variáveis
+        failed: O script falhou. Veja os Logs de JS.
+        waits_for_webhook: Salvo. Roda no seu próximo webhook.
+        limited: Salvo. Os scripts rodam ao salvar %{count} vezes por hora, então este vai rodar na próxima atualização.
+        expired: O script ainda está rodando. Recarregue para ver as novas variáveis.
+      beta_notice_html: O Editor Visual está em <strong class="font-semibold">beta</strong> e tem problemas conhecidos, principalmente com plugins mais complexos e com muito Liquid. Se tiver algum problema, você sempre pode voltar para o editor de código. Roda sobre o <strong class="font-semibold">Framework v3.x</strong>.
+      clear_saved_plugin_state: Limpar o estado salvo do plugin
+      code_panels: Painéis de código
       docs_descriptions:
-        chart: Visualize data optimized for 1-bit rendering
-        clamp: Manage text overflow with single and multi-line truncation
-        columns: Implement zero-config column layouts for content organization
-        content_limiter: Change font size when content overflows to fit within the container
-        description: Format descriptive text with standardized styles
-        divider: Create horizontal or vertical dividers between elements
-        fit_value: Automatically resize numbers and values to fit within their containers
-        flex: Arrange elements with flexible layouts and alignment options
-        format_value: Format numbers and values with consistent styling
-        grid: Create grid layouts with predefined column structures
-        image: Optimize images using dithering techniques for 1-bit rendering
-        item: Build standardized list items and content blocks
-        label: Create clear labels for unified content identification
-        layout: Primary container for organizing plugin content
-        overflow: Handle column items overflow
-        pixel_perfect: Ensure text renders with crisp edges by aligning to the pixel grid
-        progress: Display progress bars in different styles
-        rich_text: Display formatted paragraphs with alignment and size variants
-        table: Create data tables optimized for 1-bit rendering
-        table_overflow: Handle table rows overflow
-        title: Style headings with consistent typography
-        title_bar: Standardized title bar with plugin information and instance details
-        value: Display data values with consistent formatting
-      edit_plugin_settings: Edit plugin settings
-      feature_agent_description: Describe what you want. AI writes and edits your markup.
-      feature_agent_title: Code Agent
-      feature_grid_description: All your markup layouts at once. Pan and zoom, switch context instantly.
-      feature_grid_title: Multi-layout preview
-      feature_keyboard_description: Undo, redo, copy, paste, duplicate. Right-click for quick actions.
-      feature_keyboard_title: Full editing toolkit
-      feature_layout_description: Resize, show, or hide any panel. Drag edges to adjust.
-      feature_layout_title: Flexible workspace
-      feature_library_description: Browse components, reference plugin data, scaffold with templates.
-      feature_library_title: Resources & variables
-      feature_pointer_description: Drag items to rearrange. Select to reveal properties.
-      feature_pointer_title: Interactable previews
-      feature_responsive_description: Apply rules per screen size, orientation, and bit depth.
-      feature_responsive_title: Responsive mode
-      feature_sliders_description: Every Framework setting exposed as UI. No code needed to inspect or edit.
-      feature_sliders_title: Visual properties
-      force_refresh_plugin_data: Force refresh plugin data
-      half_horizontal: Half Horizontal
-      half_vertical: Half Vertical
-      history_and_save: History and save
-      instance_fallback: Instance %{id}
+        chart: Visualize dados otimizados para renderização em 1 bit
+        clamp: Controle o excesso de texto com truncamento em uma ou várias linhas
+        columns: Crie layouts de colunas sem configuração para organizar o conteúdo
+        content_limiter: Muda o tamanho da fonte quando o conteúdo transborda, para caber no contêiner
+        description: Formate textos descritivos com estilos padronizados
+        divider: Crie divisores horizontais ou verticais entre elementos
+        fit_value: Redimensione números e valores automaticamente para caberem nos seus contêineres
+        flex: Organize elementos com layouts flexíveis e opções de alinhamento
+        format_value: Formate números e valores com um estilo consistente
+        grid: Crie layouts em grid com estruturas de colunas predefinidas
+        image: Otimize imagens com técnicas de dithering para renderização em 1 bit
+        item: Monte itens de lista e blocos de conteúdo padronizados
+        label: Crie rótulos claros para identificar o conteúdo de forma unificada
+        layout: Contêiner principal para organizar o conteúdo do plugin
+        overflow: Controle o excesso de itens nas colunas
+        pixel_perfect: Garanta que o texto seja renderizado com bordas nítidas, alinhado à grade de pixels
+        progress: Mostre barras de progresso em estilos diferentes
+        rich_text: Mostre parágrafos formatados com variantes de alinhamento e tamanho
+        table: Crie tabelas de dados otimizadas para renderização em 1 bit
+        table_overflow: Controle o excesso de linhas na tabela
+        title: Estilize títulos com uma tipografia consistente
+        title_bar: Barra de título padronizada com informações do plugin e detalhes da instância
+        value: Mostre valores de dados com uma formatação consistente
+      edit_plugin_settings: Editar configurações do plugin
+      feature_agent_description: Descreva o que você quer. A IA escreve e edita o seu markup.
+      feature_agent_title: Agente de Código
+      feature_grid_description: Todos os seus layouts de markup de uma vez. Mova, dê zoom e troque de contexto na hora.
+      feature_grid_title: Pré-visualização de vários layouts
+      feature_keyboard_description: Desfazer, refazer, copiar, colar, duplicar. Clique com o botão direito para ações rápidas.
+      feature_keyboard_title: Kit completo de edição
+      feature_layout_description: Redimensione, mostre ou esconda qualquer painel. Arraste as bordas para ajustar.
+      feature_layout_title: Espaço de trabalho flexível
+      feature_library_description: Navegue pelos componentes, consulte os dados do plugin, comece a partir de templates.
+      feature_library_title: Recursos e variáveis
+      feature_pointer_description: Arraste itens para reorganizar. Selecione para ver as propriedades.
+      feature_pointer_title: Pré-visualizações interativas
+      feature_responsive_description: Aplique regras por tamanho de tela, orientação e profundidade de bits.
+      feature_responsive_title: Modo responsivo
+      feature_sliders_description: Cada configuração do Framework disponível na interface. Não precisa de código para inspecionar ou editar.
+      feature_sliders_title: Propriedades visuais
+      force_refresh_plugin_data: Forçar atualização dos dados do plugin
+      half_horizontal: Metade Horizontal
+      half_vertical: Metade Vertical
+      history_and_save: Histórico e salvamento
+      instance_fallback: Instância %{id}
       labels:
-        add_ellipsis: Add...
-        adjust_gaps: Adjust Gaps
-        alignment: Alignment
-        alt_text: Alt text
-        appearance: Appearance
-        apply_template_to_all_views: Apply this template to all markup views.
-        arrangement: Arrangement
-        aspect_ratio: Aspect Ratio
+        add_ellipsis: Adicionar...
+        adjust_gaps: Ajustar Gaps
+        alignment: Alinhamento
+        alt_text: Texto alternativo
+        appearance: Aparência
+        apply_template_to_all_views: Aplicar este template a todas as visualizações de markup.
+        arrangement: Disposição
+        aspect_ratio: Proporção
         assign: Assign
         auto: Auto
-        backdrop: Backdrop
-        background: Background
-        bar: Bar
+        backdrop: Pano de fundo
+        background: Plano de fundo
+        bar: Barra
         base: Base
-        bit_depth_override: Bit depth override
-        black: Black
-        block: Block
-        bold: Bold
-        borders: Borders
-        both: Both
-        bottom: Bottom
+        bit_depth_override: Forçar profundidade de bits
+        black: Preto
+        block: Bloco
+        bold: Negrito
+        borders: Bordas
+        both: Ambos
+        bottom: Inferior
         break: Break
-        cannot_multi_edit: Selected elements cannot be multi-edited.
+        cannot_multi_edit: Os elementos selecionados não podem ser editados juntos.
         capture: Capture
         case: Case
-        center_both_axes: Center (both axes)
-        center_x: Center X
-        center_y: Center Y
-        chart: Chart
+        center_both_axes: Centralizar (nos dois eixos)
+        center_x: Centralizar X
+        center_y: Centralizar Y
+        chart: Gráfico
         clamp: Clamp
         classes: Classes
-        clear_snapshots_confirm: Clear all snapshots for %{tab}?
+        clear_snapshots_confirm: Limpar todos os snapshots de %{tab}?
         col: Col
-        col_position: Col position
-        column: Column
+        col_position: Posição da coluna
+        column: Coluna
         column_count:
-          one: "%{count} Column"
-          other: "%{count} Columns"
-        column_reverse: Column Reverse
+          one: "%{count} Coluna"
+          other: "%{count} Colunas"
+        column_reverse: Coluna Invertida
         column_reverse_short: C↕
-        columns: Columns
-        comment: Comment
-        component: Component
-        component_docs: "%{title} docs"
-        component_preview: Component preview
-        condensed: Condensed
-        conditional: Conditional
-        contain: Contain
-        container: Container
-        content: Content
-        content_limiter: Content Limiter
-        content_size: Content Size
-        context_menu: Context menu
-        continue: Continue
-        convert_to_flex: Convert to Flex
-        convert_to_grid: Convert to Grid
-        copy: Copy
-        corner_radius: Corner Radius
-        could_not_load_template_details: Could not load template details
-        could_not_load_templates: Could not load templates
-        cover: Cover
+        columns: Colunas
+        comment: Comentário
+        component: Componente
+        component_docs: Documentação de %{title}
+        component_preview: Pré-visualização do componente
+        condensed: Condensado
+        conditional: Condicional
+        contain: Conter
+        container: Contêiner
+        content: Conteúdo
+        content_limiter: Limitador de Conteúdo
+        content_size: Tamanho do Conteúdo
+        context_menu: Menu de contexto
+        continue: Continuar
+        convert_to_flex: Converter em Flex
+        convert_to_grid: Converter em Grid
+        copy: Copiar
+        corner_radius: Raio dos Cantos
+        could_not_load_template_details: Não foi possível carregar os detalhes do template
+        could_not_load_templates: Não foi possível carregar os templates
+        cover: Cobrir
         ctrl_plus: Ctrl+
-        cut: Cut
+        cut: Recortar
         cycle: Cycle
-        dark: Dark
-        dark_mode_override: Dark mode override
-        days_ago: "%{count}d ago"
-        decrement: Decrement
-        default: Default
+        dark: Escuro
+        dark_mode_override: Forçar modo escuro
+        days_ago: há %{count}d
+        decrement: Diminuir
+        default: Padrão
         del_key: Del
-        delete: Delete
-        description: Description
-        deselect_or_cancel: Deselect or cancel
+        delete: Deletar
+        description: Descrição
+        deselect_or_cancel: Desmarcar ou cancelar
         design: Design
-        dimensions: Dimensions
-        direction: Direction
-        display: Display
+        dimensions: Dimensões
+        direction: Direção
+        display: Exibição
         dither: Dither
-        divider: Divider
-        document: Document
-        dots: Dots
-        drill_in: Drill in
-        drill_out: Drill out
-        duplicate: Duplicate
+        divider: Divisor
+        document: Documento
+        dots: Pontos
+        drill_in: Entrar no elemento
+        drill_out: Sair do elemento
+        duplicate: Duplicar
         echo: Echo
-        element_tree: Element tree
-        elements: Elements
-        emphasis: Emphasis
-        emphasis_1: Emphasis 1
-        emphasis_2: Emphasis 2
-        emphasis_3: Emphasis 3
-        end: End
-        error: Error
+        element_tree: Árvore de elementos
+        elements: Elementos
+        emphasis: Ênfase
+        emphasis_1: Ênfase 1
+        emphasis_2: Ênfase 2
+        emphasis_3: Ênfase 3
+        end: Fim
+        error: Erro
         error_count:
-          one: "%{count} error"
-          other: "%{count} errors"
-        failed_to_load_templates: Failed to load templates.
-        fill: Fill
-        filled: Filled
+          one: "%{count} erro"
+          other: "%{count} erros"
+        failed_to_load_templates: Falha ao carregar os templates.
+        fill: Preencher
+        filled: Preenchido
         fit_value: Fit Value
-        fixed_columns: Fixed columns
+        fixed_columns: Colunas fixas
         flex: Flex
-        font_size: Font Size
+        font_size: Tamanho da Fonte
         format_value: Format Value
-        foundation: Foundation
+        foundation: Fundamentos
         gap: Gap
-        gauge_large: Gauge (large)
-        gauge_small: Gauge (small)
-        general: General
-        gray: Gray
+        gauge_large: Medidor (grande)
+        gauge_small: Medidor (pequeno)
+        general: Geral
+        gray: Cinza
         grid: Grid
-        group_as_flex: Group as flex
-        group_header: Group Header
-        group_to_flex: Group to Flex
-        group_to_grid: Group to Grid
-        hidden: Hidden
+        group_as_flex: Agrupar como flex
+        group_header: Cabeçalho do Grupo
+        group_to_flex: Agrupar em Flex
+        group_to_grid: Agrupar em Grid
+        hidden: Escondido
         horiz: Horiz
         horizontal: Horizontal
-        hours_ago: "%{count}h ago"
-        image: Image
-        increment: Increment
-        indexed: Indexed
-        inherit: Inherit
+        hours_ago: há %{count}h
+        image: Imagem
+        increment: Aumentar
+        indexed: Indexado
+        inherit: Herdar
         inline: Inline
-        inline_style: Inline Style
+        inline_style: Estilo Inline
         item: Item
-        just_now: just now
-        justify: Justify
+        just_now: agora mesmo
+        justify: Justificar
         key_alt: Alt
         key_backspace: Backspace
         key_command: Command
         key_control: Control
         key_ctrl: Ctrl
         key_delete: Delete
-        key_down: Down
+        key_down: Seta para baixo
         key_enter: Enter
         key_escape: Escape
-        key_left: Left
+        key_left: Seta para a esquerda
         key_option: Option
         key_return: Return
-        key_right: Right
+        key_right: Seta para a direita
         key_shift: Shift
-        key_space: Space
+        key_space: Espaço
         key_tab: Tab
-        key_up: Up
-        label: Label
-        landscape: Landscape
-        large: Large
-        last_saved_at: Last saved at %{absolute}
+        key_up: Seta para cima
+        label: Rótulo
+        landscape: Paisagem
+        large: Grande
+        last_saved_at: Último salvamento em %{absolute}
         layout: Layout
-        layout_unavailable: Layout unavailable
+        layout_unavailable: Layout indisponível
         layouts: Layouts
-        light: Light
-        line_chartkick: Line (Chartkick)
+        light: Claro
+        line_chartkick: Linha (Chartkick)
         line_count:
-          one: "%{count} line"
-          other: "%{count} lines"
-        lines: Lines
+          one: "%{count} linha"
+          other: "%{count} linhas"
+        lines: Linhas
         link: Link
-        liquid_block: Liquid Block
+        liquid_block: Bloco Liquid
         liquid_named: 'Liquid: %{name}'
-        liquid_syntax: Liquid Syntax
-        liquid_syntax_element: This is Liquid syntax. Edit it in the code panel below.
-        liquid_template: Liquid Template
-        liquid_template_element: This element is from a Liquid template. Edit it in the Shared code panel.
-        liquid_template_element_named: This element is defined in the Liquid template "%{name}". Edit it in the Shared code panel.
-        loading_preview: Loading preview...
-        loading_template: Loading template...
-        loading_templates: Loading templates...
+        liquid_syntax: Sintaxe Liquid
+        liquid_syntax_element: Isto é sintaxe Liquid. Edite no painel de código abaixo.
+        liquid_template: Template Liquid
+        liquid_template_element: Este elemento vem de um template Liquid. Edite no painel de código Compartilhado.
+        liquid_template_element_named: Este elemento está definido no template Liquid "%{name}". Edite no painel de código Compartilhado.
+        loading_preview: Carregando pré-visualização...
+        loading_template: Carregando template...
+        loading_templates: Carregando templates...
         log_count:
           one: "%{count} log"
           other: "%{count} logs"
         loop: Loop
-        margin: Margin
-        marquee_select: Marquee select
-        max_columns: Max columns
-        max_h: Max H
-        max_height: Max height
-        max_w: Max W
+        margin: Margem
+        marquee_select: Seleção por área
+        max_columns: Máximo de colunas
+        max_h: Alt. máx.
+        max_height: Altura máxima
+        max_w: Larg. máx.
         meta: Meta
-        min_h: Min H
-        min_track: Min track
-        min_w: Min W
-        minutes_ago: "%{count}m ago"
-        mixed: Mixed
-        modulation: Modulation
-        modulation_lines: "%{name} Lines"
-        mouse_click: Click
-        mouse_click_lowercase: click
-        mouse_drag: Drag
-        mouse_drag_and_drop: Drag and drop
-        mouse_drag_lowercase: drag
-        mouse_right_click: Right-click
-        move_or_reorder: Move or reorder
-        multi_series_line: Multi-series line
-        network_error: Network error
-        'no': 'No'
-        no_editable_settings: No editable settings
-        no_elements_yet: No elements yet
-        no_gap: No Gap
-        no_issues: No issues
-        no_snapshots: No snapshots
-        no_templates_available: No templates available
-        no_templates_found: No templates found.
-        no_wrap: No Wrap
-        none: None
+        min_h: Alt. mín.
+        min_track: Trilha mínima
+        min_w: Larg. mín.
+        minutes_ago: há %{count}min
+        mixed: Misto
+        modulation: Modulação
+        modulation_lines: Linhas %{name}
+        mouse_click: Clique
+        mouse_click_lowercase: clique
+        mouse_drag: Arrastar
+        mouse_drag_and_drop: Arrastar e soltar
+        mouse_drag_lowercase: arrastar
+        mouse_right_click: Clique direito
+        move_or_reorder: Mover ou reordenar
+        multi_series_line: Linha com várias séries
+        network_error: Erro de rede
+        'no': Não
+        no_editable_settings: Nenhuma configuração editável
+        no_elements_yet: Nenhum elemento ainda
+        no_gap: Sem Gap
+        no_issues: Nenhum problema
+        no_snapshots: Nenhum snapshot
+        no_templates_available: Nenhum template disponível
+        no_templates_found: Nenhum template encontrado.
+        no_wrap: Sem Quebra
+        none: Nenhum
         noscript: Noscript
-        not_yet_saved: Not yet saved
-        numeric_style: Numeric Style
-        object_fit: Object Fit
-        'off': 'Off'
-        'on': 'On'
-        on_background: On background
-        on_black: On black
-        on_dark: On dark
-        on_light: On light
-        on_white: On white
-        orientation: Orientation
-        orientation_override: Orientation override
-        outline: Outline
+        not_yet_saved: Ainda não salvo
+        numeric_style: Estilo Numérico
+        object_fit: Ajuste do Objeto
+        'off': Desligado
+        'on': Ligado
+        on_background: Sobre o fundo
+        on_black: Sobre preto
+        on_dark: Sobre escuro
+        on_light: Sobre claro
+        on_white: Sobre branco
+        orientation: Orientação
+        orientation_override: Forçar orientação
+        outline: Contorno
         overflow: Overflow
         padding: Padding
-        pan: Pan
-        parent: Parent
-        paste: Paste
-        personalized: Personalized
+        pan: Mover visualização
+        parent: Elemento pai
+        paste: Colar
+        personalized: Personalizado
         pixel_perfect: Pixel Perfect
-        portrait: Portrait
-        preview_canvas: Preview canvas
-        preview_failed: Preview failed
-        primary: Primary
-        progress: Progress
+        portrait: Retrato
+        preview_canvas: Área de pré-visualização
+        preview_failed: A pré-visualização falhou
+        primary: Principal
+        progress: Progresso
         regular: Regular
-        reorder: Reorder
-        replace_content_with_template_confirm: Replace your current content with this template?
-        reset_zoom: Reset zoom
-        reset_zoom_to_100: Reset zoom to 100%
-        responsive_size_override: Responsive size override
-        rev: Rev
-        rich_text: Rich Text
-        row: Row
-        row_position: Row position
-        row_reverse: Row Reverse
-        row_reverse_short: R↔
-        save: Save
-        save_detail_dirty: " · last saved %{relative} · %{absolute}"
-        save_failed_status: Save failed (%{status})
-        save_state: Save state
-        saved_at: Saved at %{absolute}
-        saving: Saving…
+        reorder: Reordenar
+        replace_content_with_template_confirm: Substituir seu conteúdo atual por este template?
+        reset_zoom: Redefinir zoom
+        reset_zoom_to_100: Redefinir zoom para 100%
+        responsive_size_override: Forçar tamanho responsivo
+        rev: Inv
+        rich_text: Texto Formatado
+        row: Linha
+        row_position: Posição da linha
+        row_reverse: Linha Invertida
+        row_reverse_short: L↔
+        save: Salvar
+        save_detail_dirty: " · último salvamento %{relative} · %{absolute}"
+        save_failed_status: Falha ao salvar (%{status})
+        save_state: Estado do salvamento
+        saved_at: Salvo em %{absolute}
+        saving: Salvando…
         script: Script
-        seconds_ago: "%{count}s ago"
-        select: Select
-        select_a_component: Select a component
-        select_a_template: Select a template
-        semantic: Semantic
-        shade: Shade
-        show_counter: Show counter
-        size: Size
-        small: Small
+        seconds_ago: há %{count}s
+        select: Selecionar
+        select_a_component: Selecione um componente
+        select_a_template: Selecione um template
+        semantic: Semântico
+        shade: Tom
+        show_counter: Mostrar contador
+        size: Tamanho
+        small: Pequeno
         snapshot_count:
           one: "%{count} snapshot"
           other: "%{count} snapshots"
-        snapshot_edited: edited
-        snapshot_initial: initial
-        snapshot_latest_suffix: " · latest"
-        snapshot_line_delta: "%{delta} lines"
-        snapshots_scope: for %{tab}
-        some_template_layouts_unavailable: Some template layouts are unavailable.
-        source_src: Source (src)
-        space_around: Space Around
-        space_between: Space Between
-        space_evenly: Space Evenly
-        spacing: Spacing
-        span: Span
-        span_number: Span %{number}
-        start: Start
-        stretch: Stretch
-        stretch_x: Stretch X
-        stretch_y: Stretch Y
-        stroke_color: Stroke Color
-        stroke_shade: Stroke Shade
-        stroke_size: Stroke Size
-        style: Style
-        success: Success
-        table: Table
-        table_cell: Table Cell
-        table_overflow: Table Overflow
-        table_row: Table Row
-        tabular_nums: Tabular Nums
-        template_missing_layouts: This template is missing one or more layouts.
-        template_preview_title: "%{view} template preview"
-        text: Text
-        text_align: Text Align
-        text_color: Text Color
-        text_stroke: Text Stroke
-        title: Title
-        title_bar: Title Bar
-        toggle_selection: Toggle selection
-        top: Top
-        typography: Typography
-        underline: Underline
-        unit_for: "%{label} unit"
-        unknown: Unknown
+        snapshot_edited: editado
+        snapshot_initial: inicial
+        snapshot_latest_suffix: " · mais recente"
+        snapshot_line_delta: "%{delta} linhas"
+        snapshots_scope: de %{tab}
+        some_template_layouts_unavailable: Alguns layouts do template estão indisponíveis.
+        source_src: Origem (src)
+        space_around: Espaço ao Redor
+        space_between: Espaço Entre
+        space_evenly: Espaço Uniforme
+        spacing: Espaçamento
+        span: Ocupar
+        span_number: Ocupar %{number}
+        start: Início
+        stretch: Esticar
+        stretch_x: Esticar X
+        stretch_y: Esticar Y
+        stroke_color: Cor do Traço
+        stroke_shade: Tom do Traço
+        stroke_size: Espessura do Traço
+        style: Estilo
+        success: Sucesso
+        table: Tabela
+        table_cell: Célula da Tabela
+        table_overflow: Overflow da Tabela
+        table_row: Linha da Tabela
+        tabular_nums: Números Tabulares
+        template_missing_layouts: Este template não tem um ou mais layouts.
+        template_preview_title: Pré-visualização do template %{view}
+        text: Texto
+        text_align: Alinhamento do Texto
+        text_color: Cor do Texto
+        text_stroke: Traço do Texto
+        title: Título
+        title_bar: Barra de Título
+        toggle_selection: Alternar seleção
+        top: Superior
+        typography: Tipografia
+        underline: Sublinhado
+        unit_for: Unidade de %{label}
+        unknown: Desconhecido
         unless: Unless
-        unsaved_changes: Unsaved changes
-        use_template: Use template
-        value: Value
-        variant: Variant
+        unsaved_changes: Alterações não salvas
+        use_template: Usar template
+        value: Valor
+        variant: Variante
         vert: Vert
         vertical: Vertical
-        view: View
-        visibility: Visibility
-        visible: Visible
-        warning: Warning
+        view: Visualização
+        visibility: Visibilidade
+        visible: Visível
+        warning: Aviso
         warning_count:
-          one: "%{count} warning"
-          other: "%{count} warnings"
-        weight: Weight
-        white: White
-        white_default: White (default)
-        wrap: Wrap
-        wrap_in_layout: Wrap in Layout
-        wrap_reverse: Wrap Reverse
-        xlarge: XLarge
-        xsmall: Xsmall
-        zoom_preview: Zoom preview
-        version_copied_from_recipe: copied from the recipe
-        version_loading: Loading...
-        version_load_failed: Could not load this version.
-        version_no_changes: No changes from the version before it.
-      page_title: Visual Editor - %{name}
-      plugin_documentation: Plugin documentation
-      pop_out_preview_label: Pop out preview
-      preset_code_description: Side-by-side code and preview. Focused on the editor.
-      preset_design_description: Visual-first. Inspect and edit anything without touching code.
-      preset_mixed_description: Every panel open. The complete environment, all at once.
-      resources: Resources
-      side_panels: Side panels
-      starting_with: Starting with
-      time_ago: "%{time} ago"
+          one: "%{count} aviso"
+          other: "%{count} avisos"
+        weight: Peso
+        white: Branco
+        white_default: Branco (padrão)
+        wrap: Quebrar
+        wrap_in_layout: Envolver em Layout
+        wrap_reverse: Quebra Invertida
+        xlarge: Extra Grande
+        xsmall: Extra Pequeno
+        zoom_preview: Zoom da pré-visualização
+        version_copied_from_recipe: copiado da receita
+        version_loading: Carregando...
+        version_load_failed: Não foi possível carregar esta versão.
+        version_no_changes: Nenhuma mudança em relação à versão anterior.
+      page_title: Editor Visual - %{name}
+      plugin_documentation: Documentação do plugin
+      pop_out_preview_label: Destacar pré-visualização
+      preset_code_description: Código e pré-visualização lado a lado. Com foco no editor.
+      preset_design_description: Visual em primeiro lugar. Inspecione e edite qualquer coisa sem mexer no código.
+      preset_mixed_description: Todos os painéis abertos. O ambiente completo, tudo de uma vez.
+      resources: Recursos
+      side_panels: Painéis laterais
+      starting_with: Começando com
+      time_ago: há %{time}
     ai_assistant_inline:
-      model_locked: Your AI model is set by TRMNL
-      composition_prefill: Make this plugin Vestaboard friendly
-      composition_empty_state: Builds a Vestaboard board from your markup and live data.
-      composition_placeholder: Ask for a change to the board…
-      ai_assistance_settings: AI assistance settings
-      chat_tabs: Chat tabs
-      choose_model: Choose model for this session
-      closed_chats: Closed chats
-      composer_placeholder: Plan, Build, or type commands...
-      enabled_by_default_hint: AI assistance is enabled by default — you can turn it off in Account Settings
-      select_model: Select model
-      send_enter: Send (Enter)
-      send_message: Send message
-      stop: Stop
-      stop_response: Stop response
+      model_locked: Seu modelo de IA é definido pelo TRMNL
+      composition_prefill: Deixe este plugin compatível com o Vestaboard
+      composition_empty_state: Monta um quadro do Vestaboard a partir do seu markup e dos dados ao vivo.
+      composition_placeholder: Peça uma mudança no quadro…
+      ai_assistance_settings: Configurações da assistência de IA
+      chat_tabs: Abas de chat
+      choose_model: Escolha o modelo para esta sessão
+      closed_chats: Chats fechados
+      composer_placeholder: Planeje, construa ou digite comandos...
+      enabled_by_default_hint: A assistência de IA vem ativada por padrão — você pode desativá-la nas Configurações da Conta
+      select_model: Selecionar modelo
+      send_enter: Enviar (Enter)
+      send_message: Enviar mensagem
+      stop: Parar
+      stop_response: Parar resposta
     ai_screenshot_targets:
-      devices: Devices
-      screenshot_targets: Screenshot targets
-      views: Views
+      devices: Dispositivos
+      screenshot_targets: Alvos das capturas de tela
+      views: Visualizações
     develop_on_github_modal:
-      clone_docker: This runs through Docker, so you don't need Ruby or anything else installed.
-      clone_key_included: The copy button includes your API key, so you can paste and run.
-      clone_replace_key_html: Replace %{placeholder} with your TRMNL API key before running.
-      clone_title: 1. Clone the plugin
-      copy_command: Copy command
-      intro_html: "%{trmnlp} is a command-line tool for building TRMNL plugins locally. Edit the markup in any editor and preview it in your browser. Once the plugin is on GitHub, every commit to %{branch} deploys it to TRMNL."
-      preview_body_html: From the new %{folder} folder, start the dev server and open %{address}. The preview updates every time you save.
-      preview_title: 2. Preview it locally
-      push_body: The cloned project is already a Git repository with a CI workflow. Create a repository on GitHub and push it.
-      push_title: 3. Push to GitHub
-      secret_body_html: In the new repository, open %{settings_path} and add a secret named %{secret_name}.
-      secret_title: 4. Add your API key as a secret
-      trmnlp_readme: trmnlp README
-      view_api_key: View your API key
+      clone_docker: Isto roda pelo Docker, então você não precisa ter Ruby nem nada mais instalado.
+      clone_key_included: O botão de copiar inclui sua chave de API, então é só colar e rodar.
+      clone_replace_key_html: Troque %{placeholder} pela sua chave de API do TRMNL antes de rodar.
+      clone_title: 1. Clone o plugin
+      copy_command: Copiar comando
+      intro_html: "%{trmnlp} é uma ferramenta de linha de comando para criar plugins do TRMNL localmente. Edite o markup em qualquer editor e veja a pré-visualização no seu navegador. Quando o plugin estiver no GitHub, cada commit em %{branch} faz o deploy dele no TRMNL."
+      preview_body_html: Na nova pasta %{folder}, inicie o servidor de desenvolvimento e abra %{address}. A pré-visualização atualiza toda vez que você salva.
+      preview_title: 2. Veja a pré-visualização localmente
+      push_body: O projeto clonado já é um repositório Git com um workflow de CI. Crie um repositório no GitHub e faça o push.
+      push_title: 3. Faça o push para o GitHub
+      secret_body_html: No novo repositório, abra %{settings_path} e adicione um secret chamado %{secret_name}.
+      secret_title: 4. Adicione sua chave de API como secret
+      trmnlp_readme: README do trmnlp
+      view_api_key: Ver sua chave de API
     preview:
-      get_started_html: Get started with %{link}. Or select a quick-start example above.
-      placeholder: Your live preview will appear here.
-      the_design_system: the design system
-      variables_below: The template variables can be found below.
+      get_started_html: Comece com %{link}. Ou selecione um exemplo rápido acima.
+      placeholder: Sua pré-visualização ao vivo vai aparecer aqui.
+      the_design_system: o design system
+      variables_below: As variáveis do template estão logo abaixo.
     visual_editor_shortcuts:
-      keyboard_and_pointer_shortcuts: Keyboard and pointer shortcuts
-      shortcuts: Shortcuts
+      keyboard_and_pointer_shortcuts: Atalhos de teclado e mouse
+      shortcuts: Atalhos
     visual_editor_status_bar:
-      current_preview_device: Current preview device
-      for_this_tab: for this tab
-      next_snapshot: Next snapshot
-      no_snapshots_yet: No snapshots yet. Save your work to capture one.
-      previous_snapshot: Previous snapshot
-      runtime_log_activity: Runtime log activity from the preview
+      current_preview_device: Dispositivo atual da pré-visualização
+      for_this_tab: desta aba
+      next_snapshot: Próximo snapshot
+      no_snapshots_yet: Nenhum snapshot ainda. Salve seu trabalho para criar um.
+      previous_snapshot: Snapshot anterior
+      runtime_log_activity: Atividade dos logs de execução da pré-visualização
       snapshots: Snapshots
-      snapshots_for_this_tab: Snapshots for this tab
-      status_bar: Visual editor status bar
-      back_to_versions: Back to all snapshots
-      load_version: Load into editor
+      snapshots_for_this_tab: Snapshots desta aba
+      status_bar: Barra de status do editor visual
+      back_to_versions: Voltar para todos os snapshots
+      load_version: Carregar no editor
     visual_previewer:
-      page_title: Preview - %{name}
-      visual_editor_preview: Visual editor preview
+      page_title: Pré-visualização - %{name}
+      visual_editor_preview: Pré-visualização do editor visual
     welcome_tag:
-      layers: Layers
-      preview: Preview
+      layers: Camadas
+      preview: Pré-visualização
     markup_editor:
-      apply_example_hint: Apply a quickstart from the Examples menu
-      code_panels: Code panels
+      apply_example_hint: Aplique um exemplo rápido do menu Exemplos
+      code_panels: Painéis de código
       design_system: Design system
-      device_logs: Device logs
+      device_logs: Logs do dispositivo
       docs: Docs
-      docs_and_tools: Docs and tools
-      code_agent_hint: Tell the Code Agent about your idea
+      docs_and_tools: Docs e ferramentas
+      code_agent_hint: Conte sua ideia ao Agente de Código
       design_system_link: design system
-      insert_variable: Insert
-      empty_state_hint_html: Start by writing markup in the code editor, or browse the %{design_system} for components and layouts.
-      examples: Examples
-      full: Full
-      half_horizontal: Half Horizontal
-      half_horizontal_short: Half H
-      half_vertical: Half Vertical
-      half_vertical_short: Half V
-      layout_mode: Layout mode
-      no_examples: No examples for this tab.
-      no_plugins_match: No plugins match
-      plugin_docs: Plugin docs
-      premade_templates_hint: Start from pre-made templates
-      preview_title: "%{layout} markup editor preview"
-      quadrant: Quadrant
-      remove_transform: Remove transform script
-      remove_transform_confirm: Permanently delete the transform script from the server? This cannot be undone.
-      replace_with_example: Replace the active editor with this example
-      reset_zoom: Fit the preview
-      resize_code_agent: Resize Code Agent panel
-      resources: Resources
-      save_and_revert: Save and revert
-      serverless_language_none: None
-      show_all: Show all
-      show_all_layouts: Show all layouts in the preview
-      starter_template_hint: Use starter template for this layout
-      view_size: View size
-      view_tabs: View tabs
-      visual_preview_title: "%{layout} visual editor preview"
-      write_markup_hint: Write markup in the Code panel
-      zoom_in_hint: Zoom in to get started
+      insert_variable: Inserir
+      empty_state_hint_html: Comece escrevendo markup no editor de código ou navegue pelo %{design_system} para ver componentes e layouts.
+      examples: Exemplos
+      full: Tela cheia
+      half_horizontal: Metade Horizontal
+      half_horizontal_short: Metade H
+      half_vertical: Metade Vertical
+      half_vertical_short: Metade V
+      layout_mode: Modo de layout
+      no_examples: Nenhum exemplo para esta aba.
+      no_plugins_match: Nenhum plugin encontrado
+      plugin_docs: Docs do plugin
+      premade_templates_hint: Comece com templates prontos
+      preview_title: Pré-visualização do editor de markup (%{layout})
+      quadrant: Quadrante
+      remove_transform: Remover script de transformação
+      remove_transform_confirm: Deletar permanentemente o script de transformação do servidor? Isso não pode ser desfeito.
+      replace_with_example: Substituir o editor ativo por este exemplo
+      reset_zoom: Ajustar a pré-visualização
+      resize_code_agent: Redimensionar painel do Agente de Código
+      resources: Recursos
+      save_and_revert: Salvar e reverter
+      serverless_language_none: Nenhum
+      show_all: Mostrar tudo
+      show_all_layouts: Mostrar todos os layouts na pré-visualização
+      starter_template_hint: Usar o template inicial deste layout
+      view_size: Tamanho da visualização
+      view_tabs: Abas de visualização
+      visual_preview_title: Pré-visualização do editor visual (%{layout})
+      write_markup_hint: Escreva markup no painel Código
+      zoom_in_hint: Aumente o zoom para começar
   mfa:
     disable_otp:
       success: 2FA Desativado
@@ -5078,7 +5078,7 @@ pt-BR:
         one: "%{count} submission"
         other: "%{count} submissions"
       og_description: Turn a Kindle, Kobo, Boox, reMarkable, Raspberry Pi or ESP32 board into an always-on TRMNL dashboard. Pick your hardware for setup steps.
-      link_to_section: Link to %{name}
+      link_to_section: Link para %{name}
     claim_a_device:
       meta_title: Claim a Device
       title: Claim a Device
