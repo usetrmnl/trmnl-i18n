@@ -396,8 +396,6 @@ pl:
       morning_salutation: Dzień dobry
       afternoon_salutation: Dzień dobry
       evening_salutation: Dobry wieczór
-    discover_callout_dismiss:
-      hide_discover_banner: Ukryj baner Odkrywaj
     playlist_setup_progress:
       configure: Skonfiguruj
       configured_count: "Skonfigurowano %{configured} z %{total}"
@@ -531,9 +529,6 @@ pl:
         warning_2: Rozumiem, że ten proces jest <strong>niebezpieczny</strong> i może on uszkodzić moje urządzenie.
         cta: Aktualizuj do TRMNL OG (2-bit)
       persona:
-        discover: Odkrywaj
-        discover_hint: Funkcja Odkrywaj proponuje pluginy i receptury dopasowane do tego urządzenia
-        discover_banner_toggle: Pokaż baner Odkrywaj na pulpicie tego urządzenia
         persona: Persona
         persona_hint: Persona urządzenia kształtuje rekomendacje funkcji Odkrywaj
         provisioned_by_html: To urządzenie zostało skonfigurowane przez personę <strong>%{name}</strong>.
@@ -642,7 +637,6 @@ pl:
       palette_needs_firmware: Aby zmienić paletę kolorów, zaktualizuj firmware do wersji 1.6.0 lub nowszej.
       pinned_firmware_hint: Wsparcie techniczne przypięło to urządzenie do tej kompilacji firmware'u w celu rozwiązania problemów. Gdy aktualizacje OTA są włączone, urządzenie ponownie zainstaluje tę kompilację przy następnym zgłoszeniu, nawet po wgraniu innego firmware'u przez USB. Aby zachować własny firmware, najpierw wyłącz aktualizacje OTA.
       refresh_rate: Częstotliwość odświeżania
-      retry_update: Ponów aktualizację
       rotate_default: 'Domyślnie: %{degrees}°'
       set_time_zone: Ustaw swoją strefę czasową __tutaj__, aby włączyć tę funkcję.
       still_stuck: Nadal nie działa? __Wgraj firmware ręcznie__ lub skontaktuj się ze wsparciem technicznym.
@@ -723,8 +717,6 @@ pl:
     image_too_big:
       message: Urządzenie odrzuciło obraz o rozmiarze %{size}. Ten model obsługuje obrazy o rozmiarze do %{limit}.
       message_without_limit: Urządzenie odrzuciło zbyt duży obraz o rozmiarze %{size}.
-    update_discover_banner:
-      hidden_notice: Ukryto baner Odkrywaj. Możesz ponownie włączyć go w dowolnej chwili w ustawieniach urządzenia.
     live_mode:
       title: Tryb na żywo
       hint: Zapobiega uśpieniu urządzenia, dzięki czemu nowe ekrany pojawiają się natychmiast. Uruchamia się przy następnym zgłoszeniu. Wi-Fi pozostaje włączone i szybko zużywa baterię, więc podczas dłuższych sesji podłącz urządzenie do zasilania.
@@ -745,8 +737,6 @@ pl:
       forbidden: Nie masz uprawnień dostępu do tego urządzenia.
       generate_zip:
         error: Nie udało się wygenerować pakietu dla Kindle. Spróbuj ponownie.
-    retry_firmware_update:
-      success: Ponowiono aktualizację firmware'u — urządzenie podejmie kolejną próbę przy następnym zgłoszeniu.
     update_persona:
       mirrored: Zarządzanie personą jest wyłączone dla urządzeń TRMNL będących kopiami lustrzanymi.
       success: Zapisano personę. Rekomendacje zostały odświeżone.
@@ -8197,9 +8187,6 @@ pl:
     workflowy:
       api_error: 'Błąd API Workflowy: %{code} - %{message}'
   assistants:
-    button:
-      open: Tryb trmy
-      back: Wyjdź z trybu trmy
     chat_list:
       label: Czaty
       archived:

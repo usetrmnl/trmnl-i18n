@@ -374,8 +374,6 @@ cs:
       morning_salutation: Dobré ráno
       afternoon_salutation: Dobré odpoledne
       evening_salutation: Dobrý večer
-    discover_callout_dismiss:
-      hide_discover_banner: Hide Discover banner
     playlist_setup_progress:
       configure: Configure
       configured_count: "%{configured} of %{total} configured"
@@ -509,9 +507,6 @@ cs:
         warning_2: Chápu, že se jedná o <strong>nebezpečnou</strong> akci, která může znefunkčnit moje zařízení.
         cta: Upgradovat na TRMNL OG (2-bit)
       persona:
-        discover: Objevovat
-        discover_hint: Objevovat navrhuje pluginy a recepty přizpůsobené tomuto zařízení
-        discover_banner_toggle: Zobrazit banner Objevovat na nástěnce pro toto zařízení
         persona: Persona
         persona_hint: Persona zařízení utváří doporučení v sekci Objevovat
         provisioned_by_html: Toto zařízení bylo nastaveno personou <strong>%{name}</strong>.
@@ -620,7 +615,6 @@ cs:
       palette_needs_firmware: You must update to firmware v1.6.0 or later to change the palette.
       pinned_firmware_hint: Support has pinned this device to this firmware build for troubleshooting. While OTA updates are on, the device installs this build again at its next check-in, even after you flash other firmware over USB. To keep your own firmware, turn off OTA updates first.
       refresh_rate: Refresh Rate
-      retry_update: Retry update
       rotate_default: 'Default: %{degrees}°'
       set_time_zone: Set your time zone __here__ to enable this feature.
       still_stuck: Still stuck? __Manually flash the firmware__ or contact support.
@@ -701,8 +695,6 @@ cs:
     image_too_big:
       message: Your device rejected a %{size} image; this model accepts up to %{limit}.
       message_without_limit: Your device rejected a %{size} image as too big.
-    update_discover_banner:
-      hidden_notice: Discover banner hidden. Turn it back on anytime from Device Settings.
     live_mode:
       title: Live mode
       hint: Keeps the device awake, so new screens show at once. It starts at the next check-in. Wi-Fi stays on and uses the battery fast, so connect power for long sessions.
@@ -723,8 +715,6 @@ cs:
       forbidden: You don't have permission to access this device.
       generate_zip:
         error: Failed to generate Kindle package. Please try again.
-    retry_firmware_update:
-      success: Retrying the firmware update — your device will try again on its next check-in.
     update_persona:
       mirrored: Persona management is disabled for mirrored TRMNLs.
       success: Persona saved. Recommendations were refreshed.
@@ -8175,9 +8165,6 @@ cs:
     workflowy:
       api_error: 'Workflowy API error: %{code} - %{message}'
   assistants:
-    button:
-      open: trmy mode
-      back: Exit trmy mode
     chat_list:
       label: Chats
       archived:

@@ -374,8 +374,6 @@ raw:
       morning_salutation: dashboard.welcome_message.morning_salutation
       afternoon_salutation: dashboard.welcome_message.afternoon_salutation
       evening_salutation: dashboard.welcome_message.evening_salutation
-    discover_callout_dismiss:
-      hide_discover_banner: dashboard.discover_callout_dismiss.hide_discover_banner
     playlist_setup_progress:
       configure: dashboard.playlist_setup_progress.configure
       configured_count: dashboard.playlist_setup_progress.configured_count
@@ -509,9 +507,6 @@ raw:
         warning_2: devices.edit.upgrade_og.warning_2
         cta: devices.edit.upgrade_og.cta
       persona:
-        discover: devices.edit.persona.discover
-        discover_hint: devices.edit.persona.discover_hint
-        discover_banner_toggle: devices.edit.persona.discover_banner_toggle
         persona: devices.edit.persona.persona
         persona_hint: devices.edit.persona.persona_hint
         provisioned_by_html: devices.edit.persona.provisioned_by_html
@@ -620,7 +615,6 @@ raw:
       palette_needs_firmware: devices.edit.palette_needs_firmware
       pinned_firmware_hint: devices.edit.pinned_firmware_hint
       refresh_rate: devices.edit.refresh_rate
-      retry_update: devices.edit.retry_update
       rotate_default: devices.edit.rotate_default
       set_time_zone: devices.edit.set_time_zone
       still_stuck: devices.edit.still_stuck
@@ -701,8 +695,6 @@ raw:
     image_too_big:
       message: devices.image_too_big.message
       message_without_limit: devices.image_too_big.message_without_limit
-    update_discover_banner:
-      hidden_notice: devices.update_discover_banner.hidden_notice
     live_mode:
       title: devices.live_mode.title
       hint: devices.live_mode.hint
@@ -723,8 +715,6 @@ raw:
       forbidden: devices.kindle.forbidden
       generate_zip:
         error: devices.kindle.generate_zip.error
-    retry_firmware_update:
-      success: devices.retry_firmware_update.success
     update_persona:
       mirrored: devices.update_persona.mirrored
       success: devices.update_persona.success
@@ -7856,9 +7846,6 @@ raw:
     workflowy:
       api_error: plugin_errors.workflowy.api_error
   assistants:
-    button:
-      open: assistants.button.open
-      back: assistants.button.back
     chat_list:
       label: assistants.chat_list.label
       archived:

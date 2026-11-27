@@ -406,8 +406,6 @@ uk:
       morning_salutation: Доброго ранку
       afternoon_salutation: Добрий день
       evening_salutation: Добрий вечір
-    discover_callout_dismiss:
-      hide_discover_banner: Hide Discover banner
     playlist_setup_progress:
       configure: Configure
       configured_count: "%{configured} of %{total} configured"
@@ -541,9 +539,6 @@ uk:
         warning_2: Я розумію, що це <strong>небезпечна</strong> дія, яка може вивести пристрій з ладу.
         cta: Оновити до TRMNL OG (2-біт)
       persona:
-        discover: Рекомендації
-        discover_hint: Рекомендації пропонують плагіни та рецепти, підібрані для цього пристрою
-        discover_banner_toggle: Показувати банер рекомендацій на панелі цього пристрою
         persona: Персона
         persona_hint: Персона пристрою формує рекомендації
         provisioned_by_html: Цей пристрій налаштовано за персоною <strong>%{name}</strong>.
@@ -662,7 +657,6 @@ uk:
       palette_needs_firmware: You must update to firmware v1.6.0 or later to change the palette.
       pinned_firmware_hint: Support has pinned this device to this firmware build for troubleshooting. While OTA updates are on, the device installs this build again at its next check-in, even after you flash other firmware over USB. To keep your own firmware, turn off OTA updates first.
       refresh_rate: Refresh Rate
-      retry_update: Retry update
       rotate_default: 'Default: %{degrees}°'
       set_time_zone: Set your time zone __here__ to enable this feature.
       still_stuck: Still stuck? __Manually flash the firmware__ or contact support.
@@ -743,8 +737,6 @@ uk:
     image_too_big:
       message: Пристрій відхилив зображення розміром %{size}; ця модель підтримує до %{limit}.
       message_without_limit: Пристрій відхилив зображення розміром %{size} як завелике.
-    update_discover_banner:
-      hidden_notice: Банер рекомендацій приховано. Його можна знову ввімкнути в налаштуваннях пристрою.
     live_mode:
       title: Режим миттєвого оновлення
       hint: Пристрій не засинає, тому нові екрани з’являються одразу. Режим почнеться під час наступного зв’язку із сервером. Wi-Fi залишається ввімкненим і швидко розряджає батарею, тож для тривалої роботи підключіть живлення.
@@ -765,8 +757,6 @@ uk:
       forbidden: You don't have permission to access this device.
       generate_zip:
         error: Failed to generate Kindle package. Please try again.
-    retry_firmware_update:
-      success: Retrying the firmware update — your device will try again on its next check-in.
     update_persona:
       mirrored: Persona management is disabled for mirrored TRMNLs.
       success: Persona saved. Recommendations were refreshed.
@@ -8265,9 +8255,6 @@ uk:
     workflowy:
       api_error: 'Workflowy API error: %{code} - %{message}'
   assistants:
-    button:
-      open: trmy mode
-      back: Exit trmy mode
     chat_list:
       label: Chats
       archived:
