@@ -4452,6 +4452,7 @@ raw:
       tools: compositions.form.tools
       x_position: compositions.form.x_position
       y_position: compositions.form.y_position
+      too_large_to_preview: compositions.form.too_large_to_preview
     editor_labels:
       composition_not_ready: compositions.editor_labels.composition_not_ready
       could_not_load_selected_image: compositions.editor_labels.could_not_load_selected_image
@@ -4780,6 +4781,10 @@ raw:
       this_guide: pages.flash_firmware.this_guide
       init_failure_html: pages.flash_firmware.init_failure_html
       og_description: pages.flash_firmware.og_description
+      x_first_start: pages.flash_firmware.x_first_start
+      x_still_in_flashing_mode: pages.flash_firmware.x_still_in_flashing_mode
+      x_restart_button: pages.flash_firmware.x_restart_button
+      x_restart_sent: pages.flash_firmware.x_restart_sent
     home:
       hero:
         title: pages.home.hero.title

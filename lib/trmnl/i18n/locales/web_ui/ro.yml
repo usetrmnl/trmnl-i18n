@@ -653,7 +653,7 @@ ro:
       reveal_transition: Tranziție
       reveal_transition_hint: Când apare un ecran nou, rândurile, casetele și graficele se afișează pe rând. Funcționează cu pluginurile native.
       reveal_transitions:
-        'off': 'Oprită'
+        'off': Oprită
         gentle: Discretă
         lively: Dinamică
       reveal_refresh: Reîmprospătare
@@ -2097,16 +2097,16 @@ ro:
     create:
       success: Plugin creat și adăugat în
       playlist: lista de redare
-      plugin_not_found: Plugin not found.
+      plugin_not_found: Pluginul nu a fost găsit.
     destroy:
       success: Plugin șters
     handle_canceled_consent: Consimțământ anulat. Încearcă din nou.
     update:
       success: Configurația pluginului actualizată cu succes
       required_fields_missing: Completează %{fields} pentru a finaliza configurarea pluginului.
-      oauth_disconnected: Settings saved. OAuth was disconnected because scopes changed. Please reconnect.
+      oauth_disconnected: Setările au fost salvate. Conexiunea OAuth a fost întreruptă deoarece permisiunile s-au schimbat. Reconectează contul.
     add_to_playlist:
-      added_to_device: Added to %{device}'s playlist
+      added_to_device: Adăugat în lista de redare a dispozitivului %{device}
     refresh_already_in_progress: Se reîmprospătează deja. Ecranul se va actualiza în curând.
     remote_select:
       awaiting_connection: Conectează contul în secțiunea OAuth de mai sus, apoi reîncarcă pagina.
@@ -2124,8 +2124,8 @@ ro:
     index:
       no_plugin_settings_found: Nu ai configurat încă acest plugin.
       analytics: Statistici
-      meta_title: "%{plugin} Plugin Settings"
-      page_title: Plugins | %{company}
+      meta_title: Setări pentru %{plugin}
+      page_title: Pluginuri | %{company}
     health_status_banner:
       short_heading: Statistici ale pluginului
       long_heading: Urmărește statisticile și funcționarea pluginului în toate instalările
@@ -2232,16 +2232,16 @@ ro:
       empty: Nu ai cerut încă o evaluare de la trmy.
       rate_limited: Ai cerut prea multe evaluări astăzi. Încearcă din nou mâine.
       back: Înapoi la pluginul tău
-      modal_title_required: trmy reviews each recipe before you submit
-      modal_intro_required: trmy, our internal review agent, runs your plugin through the trmnlp tests on TRMNL OG and TRMNL X, in landscape and portrait. Once trmy finds nothing that holds it back, you can submit, and a person on our support team takes it from there. trmy replies on a page here, and we email you the link, usually within an hour.
-      gate_closed: Ask trmy to review your latest version first. You can submit once trmy finds nothing that holds your recipe back, or once you tell us why you'd keep something as it is.
-      changed_since: You changed your recipe after this review. Ask trmy again before you submit.
-      passed: trmy found nothing that holds your recipe back. You can submit it now.
-      held: trmy asks for the changes above before you submit. Make them and ask again, or tell us below why you'd keep something as it is.
-      justification_label: Why keep it as it is?
-      justification_placeholder: The X text is smaller on purpose, so the whole week fits on one screen.
-      justification_submit: Save my reason
-      your_reason: Your reason. You can submit now, and our team reads it with your recipe.
+      modal_title_required: trmy verifică fiecare rețetă înainte de trimitere
+      modal_intro_required: trmy, agentul nostru de revizuire, rulează testele trmnlp pentru pluginul tău pe TRMNL OG și TRMNL X, în mod portret și peisaj. Când trmy nu mai găsește probleme care împiedică publicarea, poți trimite rețeta echipei noastre de asistență pentru verificare. Găsești răspunsul lui trmy aici, iar noi îți trimitem linkul prin e-mail, de obicei în cel mult o oră.
+      gate_closed: Cere-i lui trmy să verifice ultima versiune. Poți trimite rețeta când trmy nu mai găsește probleme care împiedică publicarea sau după ce ne explici de ce vrei să o păstrezi așa cum este.
+      changed_since: Ai modificat rețeta după această verificare. Cere-i lui trmy să o verifice din nou înainte să o trimiți.
+      passed: trmy nu a găsit probleme care să împiedice publicarea. Acum poți trimite rețeta.
+      held: trmy cere modificările de mai sus înainte de trimitere. Aplică-le și cere o nouă verificare sau explică mai jos ce vrei să păstrezi și de ce.
+      justification_label: De ce vrei să păstrezi varianta actuală?
+      justification_placeholder: Am ales intenționat un font mai mic pe TRMNL X, ca să încapă toată săptămâna pe un ecran.
+      justification_submit: Salvează explicația
+      your_reason: Poți trimite acum rețeta. Echipa noastră va citi și explicația ta.
     data_flow:
       title: Flux de date
       markup: Cod de afișare
@@ -2262,153 +2262,154 @@ ro:
       erroring: Oprit
       recipe_degraded: Rețetă cu erori
       recipe_erroring: Rețetă oprită
-      fork: Fork
-      instance: Instance %{id}
-      read_only: Read Only
-      recipe_master: Recipe Master
+      fork: Copie
+      instance: Instanța %{id}
+      read_only: Doar citire
+      recipe_master: Rețetă sursă
     api_endpoint_picker:
-      adapted_from: Adapted from
-      api_page_html: API Page &rarr;
-      back_to_search_html: "&larr; Back to search"
-      browse: Browse third-party APIs
-      docs_html: Docs &rarr;
-      example_endpoints: Example Endpoints
-      outdated_warning: Some endpoints may be outdated or require registration.
-      search_placeholder: Search APIs (e.g. weather, crypto, news)...
+      adapted_from: Adaptat după
+      api_page_html: Pagina API &rarr;
+      back_to_search_html: "&larr; Înapoi la căutare"
+      browse: Explorează API-uri de la terți
+      docs_html: Documentație &rarr;
+      example_endpoints: Exemple de puncte de acces
+      outdated_warning: Unele puncte de acces pot fi învechite sau pot necesita înregistrare.
+      search_placeholder: Caută API-uri (de exemplu, meteo, criptomonede, știri)…
     descriptions:
-      example: 'Example: %{example}'
-      more_options: "+ %{count} more"
+      example: 'Exemplu: %{example}'
+      more_options: Încă %{count}
     featured_image:
-      description: For marketplace and recipe pages.
-      generate: Generate marketplace preview
-      generating: Generating preview…
-      label: Featured Image
-      plugin_description: Preview shown to users before they install your plugin.
-      plugin_label: Plugin Featured Image
-      remove_confirm: Remove featured image?
+      description: Pentru catalog și paginile rețetelor.
+      generate: Generează previzualizarea pentru catalog
+      generating: Se generează previzualizarea…
+      label: Imagine de prezentare
+      plugin_description: Imaginea pe care o văd utilizatorii înainte să instaleze pluginul.
+      plugin_label: Imaginea de prezentare a pluginului
+      remove_confirm: Elimini imaginea de prezentare?
     featured_images:
-      generating: Generating marketplace preview…
+      generating: Se generează previzualizarea pentru catalog…
       remove_featured_image:
-        error: Something went wrong removing the featured image.
-        nothing_to_remove: No featured image to remove.
-        success: Featured image removed.
+        error: Imaginea de prezentare nu a putut fi eliminată.
+        nothing_to_remove: Nu există nicio imagine de prezentare de eliminat.
+        success: Imaginea de prezentare a fost eliminată.
       set_plugin_featured_image:
-        forbidden: You don't have permission to set the featured image for this plugin.
+        forbidden: Nu ai permisiunea de a seta imaginea de prezentare pentru acest plugin.
     field:
-      clear_location: Clear location
-      import_selected: Import Selected
-      no_photos_selected: No photos selected yet.
-      perform: Perform
-      photos_expire_on: Google shares these photos until %{date}, then you pick again.
-      photos_expired: Google stopped sharing these photos. Pick them again to bring them back.
-      photos_selected: Photos currently selected.
-      pick_photos: Pick Photos
-      save_first: "(Save this plugin first)"
-      save_first_to_pick_photos: Save this plugin first, then pick photos.
-      save_first_to_reveal: Save this plugin first to reveal your %{field}.
-      secret_is_set: Secret is set. Leave blank to keep current value.
-      select_or_search: Select or search...
-      show_password: Show password
-      stored: 'Stored: %{value}'
-      xhr_endpoint_oauth_gap_html: This dropdown uses <code>endpoint</code>, which runs in the browser and can't send your OAuth token. To call an authenticated API, use a <code>remote:</code> block instead.
+      clear_location: Șterge locația
+      import_selected: Importă selecția
+      no_photos_selected: Nu ai ales încă fotografii.
+      perform: Execută
+      photos_expire_on: Google îți oferă acces la aceste fotografii până la %{date}. Apoi trebuie să le alegi din nou.
+      photos_expired: Google nu mai partajează aceste fotografii. Alege-le din nou pentru a le afișa.
+      photos_selected: Fotografiile selectate acum.
+      pick_photos: Alege fotografii
+      save_first: "(Salvează mai întâi pluginul)"
+      save_first_to_pick_photos: Salvează pluginul, apoi alege fotografiile.
+      save_first_to_reveal: Salvează mai întâi pluginul ca să vezi valoarea pentru %{field}.
+      secret_is_set: Valoarea secretă este setată. Lasă câmpul gol ca să o păstrezi.
+      select_or_search: Alege sau caută…
+      show_password: Arată parola
+      stored: 'Valoare salvată: %{value}'
+      xhr_endpoint_oauth_gap_html: Această listă folosește <code>endpoint</code>, care rulează în browser și nu poate trimite tokenul OAuth. Pentru un API care cere autentificare, folosește un bloc <code>remote:</code>.
     google_photos:
       import_session:
-        no_picked_media: No picked media found for this session
+        no_picked_media: Nu s-au găsit fotografii sau videoclipuri selectate în această sesiune
     mcp_keys:
       create:
-        success: MCP key generated.
+        success: Cheia MCP a fost generată.
       destroy:
-        success: MCP key revoked.
+        success: Cheia MCP a fost revocată.
     missing_markup_banner:
-      add_markup: Add markup
-      message: No layout yet — this plugin won't display until you add markup.
+      add_markup: Adaugă cod de afișare
+      message: Acest plugin nu are încă un aranjament. Nu se va afișa până nu adaugi codul de afișare.
     multi_string_field:
-      add_another: Add another
-      add_another_label: Add another %{field} input
-      help: Enter values one per line. Commas are not allowed in individual values.
-      inputs_label: "%{field} inputs"
-      remove_input: Remove this input
+      add_another: Adaugă încă unul
+      add_another_label: Adaugă un câmp pentru %{field}
+      help: Introdu o valoare pe fiecare rând. Valorile nu pot conține virgule.
+      inputs_label: Câmpuri pentru %{field}
+      remove_input: Elimină câmpul
     oauth_cards:
-      authorize_with_account: Click below to authorize access with your account.
-      configuration_incomplete: OAuth Configuration Incomplete
-      configuration_incomplete_hint: Fill in Client ID, Client Secret, Authorization URL, and Token URL in the settings above to enable OAuth.
-      connection_settings: Connection Settings
-      connection_settings_hint: Required by %{provider} to connect to your specific account.
-      credentials_configured: Your OAuth credentials are configured. Click below to authorize access.
-      link_account_optional: Link account (optional)
-      link_account_optional_hint: Connect your %{plugin} account to pull data from the cloud — or skip this and push data directly using the Push URL above.
-      using_recipe_app: Using recipe's OAuth app
+      authorize_with_account: Apasă mai jos ca să autorizezi accesul cu contul tău.
+      configuration_incomplete: Configurare OAuth incompletă
+      configuration_incomplete_hint: Completează câmpurile ID client, Secret client, URL de autorizare și URL pentru token din setările de mai sus ca să activezi OAuth.
+      connection_settings: Setări de conectare
+      connection_settings_hint: "%{provider} cere aceste setări pentru a se conecta la contul tău."
+      credentials_configured: Datele de autentificare OAuth sunt configurate. Apasă mai jos ca să autorizezi accesul.
+      link_account_optional: Asociază contul (opțional)
+      link_account_optional_hint: Conectează contul %{plugin} ca să preiei date din cloud. Poți sări peste acest pas și să trimiți date direct la adresa de mai sus.
+      using_recipe_app: Se folosește aplicația OAuth a rețetei
     oauth_connection_status:
-      authorization_url_error: We could not build an authorization URL from these settings. Check that the Authorization URL above is a single valid URL, and that every connection config field it references has a value.
-      broken: OAuth Connection Broken
-      broken_hint: The provider is rejecting our attempts to refresh your access token, so data fetches and option dropdowns are failing. Reconnect to authorize again.
-      connect: Connect with OAuth
-      connected: OAuth Connected
-      connected_hint_html: Use <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_access_token }}</code> and <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_client_id }}</code> in your polling headers for authenticated requests.
-      disconnect: Disconnect OAuth
-      disconnect_confirm: Are you sure you want to disconnect OAuth?
-      not_connected: OAuth Not Connected
-      provider_error: 'Provider error:'
-      reconnect: Reconnect with OAuth
+      authorization_url_error: Nu s-a putut genera URL-ul de autorizare cu aceste setări. Verifică dacă adresa de mai sus conține un singur URL valid și dacă toate câmpurile de conectare la care face referire au valori.
+      broken: Conexiunea OAuth nu mai funcționează
+      broken_hint: Furnizorul refuză reînnoirea tokenului de acces. Din acest motiv, nu se pot prelua datele și nu se pot încărca opțiunile din liste. Reconectează contul pentru a autoriza din nou accesul.
+      connect: Conectează prin OAuth
+      connected: Conectat prin OAuth
+      connected_hint_html: Folosește <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_access_token }}</code> și <code class="bg-gray-100 dark:bg-gray-700 px-1 py-0.5 rounded">{{ oauth_client_id }}</code> în antetele de interogare pentru cererile care necesită autentificare.
+      disconnect: Deconectează OAuth
+      disconnect_confirm: Sigur vrei să deconectezi OAuth?
+      not_connected: OAuth neconectat
+      provider_error: 'Eroare de la furnizor:'
+      reconnect: Reconectează prin OAuth
     oauth_provider_select_field:
-      not_working: Provider not working?
-      prompt: "-- Select Provider (or Custom) --"
-      report_broken: Report broken provider
-      request_new: Request new provider
-      search_placeholder: Search providers...
+      not_working: Furnizorul nu funcționează?
+      prompt: Alege un furnizor (sau unul personalizat)
+      report_broken: Raportează o problemă cu furnizorul
+      request_new: Solicită un furnizor nou
+      search_placeholder: Caută furnizori…
     private_plugin_oauth:
       disconnect:
-        invalid_request: Invalid request
-        success: OAuth disconnected
+        invalid_request: Cerere nevalidă
+        success: Conexiunea OAuth a fost întreruptă
       redirect:
-        success: OAuth connected successfully!
+        success: Conexiunea OAuth a fost stabilită!
     redirect:
-      authorization_failed: Authorization failed. Please try connecting again.
+      authorization_failed: Autorizarea a eșuat. Încearcă să te conectezi din nou.
     reset_health:
-      success: Plugin health reset successfully.
+      success: Starea pluginului a fost resetată.
     setting_field:
-      enable: Enable
-      loading: Loading...
-      yaml_valid: YAML looks good.
-      source_plugin_missing_html: Add %{link} first, then pick it here.
+      enable: Activează
+      loading: Se încarcă…
+      yaml_valid: Formatul YAML este valid.
+      source_plugin_missing_html: Adaugă mai întâi %{link}, apoi selectează-l aici.
     recipe_source:
-      changed_since_copy: The recipe has changed since you copied it.
-      differs_from_recipe: Your copy is different from the recipe.
-      see_changes: See what changed
+      changed_since_copy: Rețeta a fost modificată de când ai copiat-o.
+      differs_from_recipe: Copia ta diferă de rețetă.
+      see_changes: Vezi ce s-a schimbat
     recipe_update:
-      title: Recipe changes
-      back: Back to settings
-      intro_since_copy: What the recipe changed since you copied it. Taking a change keeps your own edits.
-      intro_differs: How your copy differs from the recipe.
-      up_to_date: Your copy has every change from the recipe.
-      take_all: Take all changes
-      take: Take these changes
-      replace: Use the recipe's version
-      recipe_changes: What the recipe changed
-      your_changes: What you changed
-      no_line_changes: No changed lines to show.
-      own_unchanged: You have not changed this file.
-      own_changed: You changed this file too. Taking the recipe's changes keeps yours.
-      conflict: You and the recipe changed the same lines, so the two cannot be put together. You can use the recipe's version instead, and undo it from the editor's history.
-      no_copy: Your copy is older than the record of what you copied, so this shows your version against the recipe's. Using the recipe's version replaces yours, and you can undo it from the editor's history.
+      title: Modificările rețetei
+      back: Înapoi la setări
+      intro_since_copy: Ce s-a schimbat în rețetă de când ai copiat-o. Poți prelua modificările și păstra editările tale.
+      intro_differs: Ce diferă între copia ta și rețetă.
+      up_to_date: Copia ta include toate modificările rețetei.
+      take_all: Preia toate modificările
+      take: Preia aceste modificări
+      replace: Folosește versiunea rețetei
+      recipe_changes: Modificările din rețetă
+      your_changes: Modificările tale
+      no_line_changes: Nu există linii modificate.
+      own_unchanged: Nu ai modificat acest fișier.
+      own_changed: Ai modificat și tu acest fișier. Poți prelua modificările din rețetă și păstra editările tale.
+      conflict: Ai schimbat aceleași linii ca în rețetă, așa că modificările nu pot fi combinate. Poți folosi versiunea rețetei și reveni oricând din istoricul editorului.
+      no_copy: Copia ta este mai veche decât istoricul disponibil, așa că vezi o comparație directă cu versiunea rețetei. Dacă folosești versiunea rețetei, aceasta o înlocuiește pe a ta. Poți reveni din istoricul editorului.
       results:
-        merged: Took the recipe's changes to %{file}.
-        replaced: "%{file} now uses the recipe's version."
-        conflict: "%{file} has changes that clash with yours. Nothing was saved."
-        not_mergeable: "%{file} can only use the recipe's version."
-        unchanged: "%{file} has no changes to take."
+        merged: Modificările din rețetă au fost preluate în %{file}.
+        replaced: "%{file} folosește acum versiunea rețetei."
+        conflict: Modificările din %{file} intră în conflict cu ale tale. Nu s-a salvat nimic.
+        not_mergeable: Pentru %{file} poți folosi doar versiunea rețetei.
+        unchanged: Nu sunt modificări de preluat în %{file}.
         taken_all:
-          one: Took the recipe's changes to 1 file.
-          other: Took the recipe's changes to %{count} files.
+          one: Modificările din rețetă au fost preluate într-un fișier.
+          other: Modificările din rețetă au fost preluate în %{count} de fișiere.
+          few: Modificările din rețetă au fost preluate în %{count} fișiere.
       files:
-        markup_full: Full
-        markup_half_horizontal: Half horizontal
-        markup_half_vertical: Half vertical
-        markup_quadrant: Quadrant
-        markup_shared: Shared markup
-        transform_js: Transform script
-        tidbyt_canvas: Tidbyt canvas
-        vestaboard_canvas: Vestaboard canvas
+        markup_full: Ecran complet
+        markup_half_horizontal: Jumătate pe orizontală
+        markup_half_vertical: Jumătate pe verticală
+        markup_quadrant: Sfert de ecran
+        markup_shared: Cod de afișare comun
+        transform_js: Script de transformare
+        tidbyt_canvas: Suprafață de desen Tidbyt
+        vestaboard_canvas: Suprafață de desen Vestaboard
   recipes:
     index:
       newest_to_oldest: De la cel mai nou la cel mai vechi
@@ -4514,6 +4515,7 @@ ro:
       tools: Tools
       x_position: X position
       y_position: Y position
+      too_large_to_preview: Too large to show here. You can still insert it into your markup.
     editor_labels:
       composition_not_ready: Composition is not ready yet.
       could_not_load_selected_image: Could not load the selected image.
@@ -4851,6 +4853,10 @@ ro:
       this_guide: this guide
       init_failure_html: If you get the message "Failed to initialize. Try resetting your device or holding the BOOT button while clicking INSTALL", your device is not in flashing mode. Repeat Step 3 or see %{link} for additional options.
       og_description: Update your device firmware in 1 click.
+      x_first_start: Leave the USB-C cable in. On its first start the X can spend about 75 seconds on "Flashing modem firmware...". When the screen shows "Device is ready to ship!", unplug the cable, then plug it in again to set up Wi-Fi.
+      x_still_in_flashing_mode: If the screen does not change within 2 minutes, the X is still in flashing mode. Keep the cable in and click the button below.
+      x_restart_button: Restart my X
+      x_restart_sent: Restart sent. The screen changes within a few seconds.
     home:
       hero:
         title: Când verifici ceva pe telefon, rareori te oprești acolo
@@ -5335,7 +5341,7 @@ ro:
         title: Frequently asked questions
         entries:
           battery_life:
-            answer: 'OG model: 3-6 months. TRMNL X: 2-6 months depending on refresh rate. Both include USB-C charging. X model has a magnetic charger.'
+            answer: 'At a 15-minute refresh: OG about 4 months, TRMNL X about 4 (8 with the extended battery), 4-color OG about 2. Faster refresh drains faster. USB-C charging; the X has a magnetic charger.'
             question: How long do batteries actually last?
           custom_branding:
             answer: TRMNL X has no branding on the front (logo on back only). For larger OG orders we can discuss custom enclosure colors. Email biz@trmnl.com.
@@ -8106,129 +8112,129 @@ ro:
     page_expired: This page has expired. Reload and try again.
   plugin_errors:
     ai_dashboard:
-      no_screen: The AI wrote no screen, only reasoning or text.
-      no_sources: Select at least one plugin for the AI Dashboard to read.
-      write_failed: 'The AI could not write a new screen: %{reason}'
+      no_screen: AI-ul nu a generat niciun ecran. A returnat doar raționamentul sau textul.
+      no_sources: Alege cel puțin un plugin din care să preia date panoul AI.
+      write_failed: 'AI-ul nu a putut genera un ecran nou: %{reason}'
     asana:
-      task_list_failed: Failed to fetch user task list
-      task_list_replied: 'Failed to fetch user task list: %{code}'
-      tasks_failed: Failed to fetch tasks
-      tasks_replied: 'Failed to fetch tasks: %{code}'
+      task_list_failed: Lista de sarcini a utilizatorului nu a putut fi preluată
+      task_list_replied: 'Lista de sarcini a utilizatorului nu a putut fi preluată: %{code}'
+      tasks_failed: Sarcinile nu au putut fi preluate
+      tasks_replied: 'Sarcinile nu au putut fi preluate: %{code}'
     basecamp:
-      no_todoset: Basecamp project has no todoset
+      no_todoset: Proiectul Basecamp nu are nicio listă de sarcini
     bitcoin_wallet_balance:
-      invalid_address: invalid address
+      invalid_address: adresă nevalidă
     calendar:
-      companion_app_not_synced: Open the TRMNL Companion app on your iPhone to sync your calendars
-      no_usable_ics_feeds: No usable ICS feeds
+      companion_app_not_synced: Deschide aplicația TRMNL Companion pe iPhone ca să sincronizezi calendarele
+      no_usable_ics_feeds: Niciun flux ICS nu poate fi folosit
     chatgpt:
-      unavailable: ChatGPT API unavailable
+      unavailable: API-ul ChatGPT nu este disponibil
     clicky:
-      unavailable: Clicky stats unavailable
+      unavailable: Statisticile Clicky nu sunt disponibile
     dates:
-      birthday_invalid: Birthday is not a valid date
-      date_format_invalid: Date Format is not a valid format
-      end_date_invalid: End Date is not a valid date
-      end_date_required: End Date is required
-      start_date_invalid: Start Date is not a valid date
-      start_date_required: Start Date is required
+      birthday_invalid: Data nașterii nu este validă
+      date_format_invalid: Formatul datei nu este valid
+      end_date_invalid: Data de sfârșit nu este validă
+      end_date_required: Completează data de sfârșit
+      start_date_invalid: Data de început nu este validă
+      start_date_required: Completează data de început
     eight_sleep:
-      auth_unavailable: Eight Sleep auth unavailable
-      metrics_unavailable: Eight Sleep metrics unavailable
-      unavailable: Eight Sleep unavailable
+      auth_unavailable: Autentificarea la Eight Sleep nu este disponibilă
+      metrics_unavailable: Indicatorii Eight Sleep nu sunt disponibili
+      unavailable: Eight Sleep nu este disponibil
     email_meter:
-      replied: 'Email Meter replied: %{error}'
+      replied: 'Email Meter a răspuns: %{error}'
     ethereum_wallet_balance:
-      exchange_rate_unavailable: Coinbase exchange rate unavailable
+      exchange_rate_unavailable: Cursul de schimb Coinbase nu este disponibil
     fera:
-      metrics_unavailable: Fera metrics unavailable
-      reviews_unavailable: Fera reviews unavailable
+      metrics_unavailable: Indicatorii Fera nu sunt disponibili
+      reviews_unavailable: Recenziile Fera nu sunt disponibile
     fetch:
-      server_unreachable: 'Could not reach the server: %{reason}'
-      timeout: The server did not answer in time
+      server_unreachable: 'Serverul nu a putut fi contactat: %{reason}'
+      timeout: Serverul nu a răspuns la timp
     homey:
-      no_homey: No Homey was found on this Athom account.
+      no_homey: Nu s-a găsit niciun dispozitiv Homey în acest cont Athom.
     hubspot:
-      replied: HubSpot replied %{code}
-      unavailable: HubSpot API unavailable
+      replied: HubSpot a răspuns cu codul %{code}
+      unavailable: API-ul HubSpot nu este disponibil
     huckleberry:
-      child_not_found: Child not found on this Huckleberry account — re-select it in settings
-      login_rejected: Huckleberry rejected your login (%{reason})
-      no_children: No children found on this Huckleberry account
-      unavailable: Huckleberry unavailable
+      child_not_found: Copilul nu a fost găsit în acest cont Huckleberry. Alege-l din nou din setări.
+      login_rejected: Huckleberry a refuzat autentificarea (%{reason})
+      no_children: Nu s-a găsit niciun copil în acest cont Huckleberry
+      unavailable: Huckleberry nu este disponibil
     image_display:
-      address_required: Image Address is required
-      replied: The image address replied %{code}
+      address_required: Introdu adresa imaginii
+      replied: Serverul imaginii a răspuns cu codul %{code}
     kickstarter:
-      unavailable: Kickstarter unavailable
+      unavailable: Kickstarter nu este disponibil
     language_learning:
-      language_missing: Language is not set
+      language_missing: Nu ai ales limba
     letterboxd:
-      credentials_missing: Letterboxd API credentials not configured
-      unavailable: Letterboxd unavailable
+      credentials_missing: Datele de autentificare pentru API-ul Letterboxd nu sunt configurate
+      unavailable: Letterboxd nu este disponibil
     linkedin_page:
-      replied: 'LinkedIn replied %{code}: %{message}'
-      request_failed: 'LinkedIn request failed: %{reason}'
-      select_page: Select a LinkedIn Page in the plugin settings
+      replied: 'LinkedIn a răspuns cu codul %{code}: %{message}'
+      request_failed: 'Cererea către LinkedIn a eșuat: %{reason}'
+      select_page: Alege o pagină LinkedIn în setările pluginului
     lunch_money:
-      token_invalid: Lunch Money access token is no longer valid
+      token_invalid: Tokenul de acces Lunch Money nu mai este valid
     poetry_today:
-      no_short_poem: No poem short enough to display
+      no_short_poem: Nu există nicio poezie suficient de scurtă pentru a fi afișată
     private_plugin:
-      not_configured: 'Plugin is not configured — fill in: %{fields}'
-      payload_too_large: 'Large payload received (%{size} bytes), should be less than 100kb. Solution: Serverless VM, https://help.trmnl.com/en/articles/14130649-serverless'
-      transform_input_not_object: Transform input must be a JSON object
+      not_configured: 'Pluginul nu este configurat. Completează: %{fields}'
+      payload_too_large: 'Datele primite sunt prea mari (%{size} octeți). Dimensiunea trebuie să fie sub 100kb. Poți folosi Serverless VM: https://help.trmnl.com/en/articles/14130649-serverless'
+      transform_input_not_object: Datele de intrare pentru transformare trebuie să fie un obiect JSON
     profit_well:
-      unavailable: ProfitWell metrics unavailable
+      unavailable: Indicatorii ProfitWell nu sunt disponibili
     readwise:
-      highlights_unavailable: Readwise highlights unavailable
-      token_invalid: Readwise token is invalid
+      highlights_unavailable: Pasajele evidențiate din Readwise nu sunt disponibile
+      token_invalid: Tokenul Readwise nu este valid
     reddit:
-      no_posts: No Reddit posts found
-      unavailable: Reddit API unavailable
+      no_posts: Nu s-au găsit postări pe Reddit
+      unavailable: API-ul Reddit nu este disponibil
     rss_feed:
-      http_error: RSS feed returned HTTP %{code}
-      invalid_url: RSS feed URL is not a valid URL
-      no_usable_response: RSS feed returned no usable response
+      http_error: Fluxul RSS a returnat codul HTTP %{code}
+      invalid_url: URL-ul fluxului RSS nu este valid
+      no_usable_response: Fluxul RSS nu a returnat un răspuns utilizabil
     screenshot:
-      url_required: URL is required
-      url_scheme: URL must start with http:// or https://
+      url_required: Introdu un URL
+      url_scheme: URL-ul trebuie să înceapă cu http:// sau https://
     shopify:
-      credentials_refused: Shopify refused the store address, Client ID or Client Secret
-      store_not_found: Shopify store not found, or the access token is invalid
+      credentials_refused: Shopify a refuzat adresa magazinului, ID-ul clientului sau secretul clientului
+      store_not_found: Magazinul Shopify nu a fost găsit sau tokenul de acces nu este valid
     statuspage:
-      unreadable_feeds: Couldn't read a status feed from %{feeds}.
+      unreadable_feeds: Nu s-a putut citi niciun flux de stare din %{feeds}.
     tempest_weather_station:
-      forecast_unavailable: Tempest forecast unavailable
-      location_invalid: Invalid Tempest lat/lon
-      location_required: Latitude/Longitude is required
-      stations_unavailable: Tempest stations unavailable
+      forecast_unavailable: Prognoza Tempest nu este disponibilă
+      location_invalid: Coordonatele Tempest nu sunt valide
+      location_required: Introdu latitudinea și longitudinea
+      stations_unavailable: Stațiile Tempest nu sunt disponibile
     the_office:
-      unavailable: The Office quote unavailable
+      unavailable: Citatul din The Office nu este disponibil
     third_party_plugin:
-      markup_unavailable: Plugin markup unavailable
+      markup_unavailable: Codul de afișare al pluginului nu este disponibil
     ticktick:
-      reconnect: TickTick no longer accepts this connection. Reconnect TickTick in the plugin settings.
-      replied: TickTick replied %{code}
+      reconnect: TickTick nu mai acceptă această conexiune. Reconectează contul TickTick din setările pluginului.
+      replied: TickTick a răspuns cu codul %{code}
     todoist:
-      project_not_found: Todoist no longer knows the chosen project. Choose your Todoist project again in the plugin settings.
-      reconnect: Todoist no longer accepts this connection. Reconnect Todoist in the plugin settings.
-      replied: Todoist replied %{code}
-      replied_with_error: 'Todoist replied %{code}: %{error}'
-      unavailable: Todoist tasks unavailable
+      project_not_found: Todoist nu mai găsește proiectul selectat. Alege din nou proiectul Todoist din setările pluginului.
+      reconnect: Todoist nu mai acceptă această conexiune. Reconectează contul Todoist din setările pluginului.
+      replied: Todoist a răspuns cu codul %{code}
+      replied_with_error: 'Todoist a răspuns cu codul %{code}: %{error}'
+      unavailable: Sarcinile Todoist nu sunt disponibile
     unsplash:
-      unavailable: Unsplash image unavailable
+      unavailable: Imaginea Unsplash nu este disponibilă
     upcoming_movies:
-      unavailable: Upcoming movies unavailable
+      unavailable: Lista filmelor care urmează să apară nu este disponibilă
     weather:
-      api_unavailable: Weather API unavailable
-      forecast_unavailable: Weather forecast unavailable
+      api_unavailable: API-ul meteo nu este disponibil
+      forecast_unavailable: Prognoza meteo nu este disponibilă
     wiki_random_article:
-      no_featured_article: Wikipedia has no featured article for today
+      no_featured_article: Wikipedia nu are un articol recomandat astăzi
     withings:
-      unavailable: Withings API unavailable
+      unavailable: API-ul Withings nu este disponibil
     workflowy:
-      api_error: 'Workflowy API error: %{code} - %{message}'
+      api_error: 'Eroare API Workflowy: %{code}. %{message}'
   assistants:
     button:
       open: trmy mode

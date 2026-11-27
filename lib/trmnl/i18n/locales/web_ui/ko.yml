@@ -4468,6 +4468,7 @@ ko:
       tools: Tools
       x_position: X position
       y_position: Y position
+      too_large_to_preview: Too large to show here. You can still insert it into your markup.
     editor_labels:
       composition_not_ready: Composition is not ready yet.
       could_not_load_selected_image: Could not load the selected image.
@@ -4796,6 +4797,10 @@ ko:
       this_guide: this guide
       init_failure_html: If you get the message "Failed to initialize. Try resetting your device or holding the BOOT button while clicking INSTALL", your device is not in flashing mode. Repeat Step 3 or see %{link} for additional options.
       og_description: Update your device firmware in 1 click.
+      x_first_start: Leave the USB-C cable in. On its first start the X can spend about 75 seconds on "Flashing modem firmware...". When the screen shows "Device is ready to ship!", unplug the cable, then plug it in again to set up Wi-Fi.
+      x_still_in_flashing_mode: If the screen does not change within 2 minutes, the X is still in flashing mode. Keep the cable in and click the button below.
+      x_restart_button: Restart my X
+      x_restart_sent: Restart sent. The screen changes within a few seconds.
     home:
       hero:
         title: Checking one thing on your phone never costs just one thing
@@ -5280,7 +5285,7 @@ ko:
         title: Frequently asked questions
         entries:
           battery_life:
-            answer: 'OG model: 3-6 months. TRMNL X: 2-6 months depending on refresh rate. Both include USB-C charging. X model has a magnetic charger.'
+            answer: 'At a 15-minute refresh: OG about 4 months, TRMNL X about 4 (8 with the extended battery), 4-color OG about 2. Faster refresh drains faster. USB-C charging; the X has a magnetic charger.'
             question: How long do batteries actually last?
           custom_branding:
             answer: TRMNL X has no branding on the front (logo on back only). For larger OG orders we can discuss custom enclosure colors. Email biz@trmnl.com.
