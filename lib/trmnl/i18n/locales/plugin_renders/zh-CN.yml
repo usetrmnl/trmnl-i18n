@@ -319,7 +319,7 @@ zh-CN:
       elevation: 海拔
       area: 面积
       local_time: 当地时间
-      year_bc: "公元前 %{count} 年"
+      year_bc: 公元前 %{count} 年
       metres: "%{count} 米"
       square_km: "%{count} 平方公里"
       city: 城市
@@ -831,3 +831,7 @@ zh-CN:
         sessions: Sessions
         visitors: Visitors
       visitors_option: Visitors (Active Users)
+    plugin_stopped:
+      title: "%{name} stopped updating"
+      message: Last updated %{date}. Fix it at trmnl.com
+      message_undated: This screen is out of date. Fix it at trmnl.com

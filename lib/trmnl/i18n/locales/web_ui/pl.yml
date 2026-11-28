@@ -398,7 +398,7 @@ pl:
       evening_salutation: Dobry wieczór
     playlist_setup_progress:
       configure: Skonfiguruj
-      configured_count: "Skonfigurowano %{configured} z %{total}"
+      configured_count: Skonfigurowano %{configured} z %{total}
       eyebrow: Konfiguracja playlisty
       needs_configuration: Wymaga konfiguracji
       needs_values: 'Uzupełnij wartości pól: %{fields}'
@@ -648,7 +648,7 @@ pl:
       reveal_transition: Przejście
       reveal_transition_hint: Po wyświetleniu nowego ekranu jego wiersze, kafelki i wykresy pojawiają się po kolei. Działa z natywnymi pluginami.
       reveal_transitions:
-        'off': 'Wyłączone'
+        'off': Wyłączone
         gentle: Delikatne
         lively: Dynamiczne
       reveal_refresh: Odśwież
@@ -782,7 +782,7 @@ pl:
     badges:
       top_10: Top 10
       top_100: Top 100
-      top_in_category: "Nr 1 w kategorii %{category}"
+      top_in_category: Nr 1 w kategorii %{category}
       top_10_in_category: Top 10 w kategorii %{category}
       trending: Popularne teraz
       new: Nowe
@@ -963,8 +963,8 @@ pl:
       plugin: Plugin
       open: Otwórz
       open_in_new_tab: Otwórz %{name} w nowej karcie
-      installs_html: "Liczba instalacji: %{number}"
-      forks_html: "Liczba forków: %{number}"
+      installs_html: 'Liczba instalacji: %{number}'
+      forks_html: 'Liczba forków: %{number}'
       by_html: 'Autor: %{author}'
       save_error_title: Nie udało się zapisać Twoich wyborów
       save_error_message: Twoje wybory zostały zachowane w kolejce. Spróbuj ponownie, aby dokończyć konfigurację.
@@ -990,10 +990,10 @@ pl:
       replace_warning: Spowoduje to zastąpienie obecnych pozycji (%{playlist_items}) wybranymi pozycjami (%{accepted_picks}).
       playlist_items:
         one: "%{count} obecny element playlisty"
-        other: "Liczba obecnych elementów playlisty: %{count}"
+        other: 'Liczba obecnych elementów playlisty: %{count}'
       accepted_picks:
         one: "%{count} zaakceptowana pozycja"
-        other: "Liczba zaakceptowanych pozycji: %{count}"
+        other: 'Liczba zaakceptowanych pozycji: %{count}'
       replace_hint: Użyj tej opcji, jeśli ta persona ma utworzyć playlistę tego urządzenia TRMNL od nowa. Obecne elementy playlisty zostaną usunięte.
       replace_confirmation: Rozumiem, że ta operacja zastąpi moją obecną playlistę.
       replace_empty_hint: Tworzy nową playlistę dla tego urządzenia TRMNL i stosuje proponowane godziny uśpienia.
@@ -1013,7 +1013,7 @@ pl:
       sleep: Uśpienie
       refresh: Odśwież
       refresh_every: co %{minutes} min
-      sleep_off: 'Wyłączone'
+      sleep_off: Wyłączone
       pick_status: Status wybranych pozycji
       checkmark_configured: Znacznik wyboru = skonfigurowano
       dot_needs_configuration: żółta kropka = wymaga konfiguracji
@@ -1226,13 +1226,13 @@ pl:
         column: Kolumna
         column_count:
           one: "%{count} kolumna"
-          other: "Liczba kolumn: %{count}"
+          other: 'Liczba kolumn: %{count}'
         column_reverse: Kolumna odwrócona
         column_reverse_short: C↕
         columns: Kolumny
         comment: Komentarz
         component: Komponent
-        component_docs: "Dokumentacja %{title}"
+        component_docs: Dokumentacja %{title}
         component_preview: Podgląd komponentu
         condensed: Skondensowany
         conditional: Warunkowy
@@ -1284,7 +1284,7 @@ pl:
         error: Błąd
         error_count:
           one: "%{count} błąd"
-          other: "Liczba błędów: %{count}"
+          other: 'Liczba błędów: %{count}'
         failed_to_load_templates: Nie udało się wczytać szablonów.
         fill: Wypełnienie
         filled: Wypełniony
@@ -1345,7 +1345,7 @@ pl:
         line_chartkick: Liniowy (Chartkick)
         line_count:
           one: "%{count} wiersz"
-          other: "Liczba wierszy: %{count}"
+          other: 'Liczba wierszy: %{count}'
         lines: Wiersze
         link: Link
         liquid_block: Blok Liquid
@@ -1360,7 +1360,7 @@ pl:
         loading_templates: Wczytywanie szablonów...
         log_count:
           one: "%{count} wpis logu"
-          other: "Liczba wpisów logu: %{count}"
+          other: 'Liczba wpisów logu: %{count}'
         loop: Pętla
         margin: Margines
         marquee_select: Zaznaczanie obszaru
@@ -1375,7 +1375,7 @@ pl:
         minutes_ago: "%{count} min temu"
         mixed: Mieszane
         modulation: Modulacja
-        modulation_lines: "Wiersze: %{name}"
+        modulation_lines: 'Wiersze: %{name}'
         mouse_click: Kliknij
         mouse_click_lowercase: kliknij
         mouse_drag: Przeciągnij
@@ -1385,7 +1385,7 @@ pl:
         move_or_reorder: Przenieś lub zmień kolejność
         multi_series_line: Wykres liniowy z wieloma seriami
         network_error: Błąd sieci
-        'no': 'Nie'
+        'no': Nie
         no_editable_settings: Brak edytowalnych ustawień
         no_elements_yet: Nie ma jeszcze elementów
         no_gap: Bez odstępu
@@ -1399,8 +1399,8 @@ pl:
         not_yet_saved: Jeszcze nie zapisano
         numeric_style: Styl liczb
         object_fit: Dopasowanie obiektu
-        'off': 'Wyłączone'
-        'on': 'Włączone'
+        'off': Wyłączone
+        'on': Włączone
         on_background: Na tle
         on_black: Na czarnym tle
         on_dark: Na ciemnym tle
@@ -1451,11 +1451,11 @@ pl:
         small: Mały
         snapshot_count:
           one: "%{count} migawka"
-          other: "Liczba migawek: %{count}"
+          other: 'Liczba migawek: %{count}'
         snapshot_edited: edytowano
         snapshot_initial: początkowa
         snapshot_latest_suffix: " · najnowsza"
-        snapshot_line_delta: "Liczba wierszy: %{delta}"
+        snapshot_line_delta: 'Liczba wierszy: %{delta}'
         snapshots_scope: dla %{tab}
         some_template_layouts_unavailable: Niektóre układy szablonów są niedostępne.
         source_src: Źródło (src)
@@ -1480,7 +1480,7 @@ pl:
         table_row: Wiersz tabeli
         tabular_nums: Cyfry tabelaryczne
         template_missing_layouts: W tym szablonie brakuje co najmniej jednego układu.
-        template_preview_title: "Podgląd szablonu %{view}"
+        template_preview_title: Podgląd szablonu %{view}
         text: Tekst
         text_align: Wyrównanie tekstu
         text_color: Kolor tekstu
@@ -1491,7 +1491,7 @@ pl:
         top: Góra
         typography: Typografia
         underline: Podkreślenie
-        unit_for: "Jednostka: %{label}"
+        unit_for: 'Jednostka: %{label}'
         unknown: Nieznane
         unless: Chyba że
         unsaved_changes: Niezapisane zmiany
@@ -1506,7 +1506,7 @@ pl:
         warning: Ostrzeżenie
         warning_count:
           one: "%{count} ostrzeżenie"
-          other: "Liczba ostrzeżeń: %{count}"
+          other: 'Liczba ostrzeżeń: %{count}'
         weight: Grubość
         white: Biały
         white_default: Biały (domyślny)
@@ -1520,6 +1520,8 @@ pl:
         version_loading: Wczytywanie...
         version_load_failed: Nie udało się wczytać tej wersji.
         version_no_changes: Brak zmian w stosunku do poprzedniej wersji.
+        version_as_opened: As opened
+        version_unsaved_edits: Your unsaved edits
       page_title: Edytor wizualny - %{name}
       plugin_documentation: Dokumentacja pluginu
       pop_out_preview_label: Podgląd w nowym oknie
@@ -1613,7 +1615,7 @@ pl:
       no_plugins_match: Brak pasujących pluginów
       plugin_docs: Dokumentacja pluginu
       premade_templates_hint: Zacznij od gotowych szablonów
-      preview_title: "Podgląd edytora kodu szablonu: %{layout}"
+      preview_title: 'Podgląd edytora kodu szablonu: %{layout}'
       quadrant: Ćwiartka
       remove_transform: Usuń skrypt transformacji
       remove_transform_confirm: Trwale usunąć skrypt transformacji z serwera? Tej operacji nie można cofnąć.
@@ -1628,7 +1630,7 @@ pl:
       starter_template_hint: Użyj szablonu początkowego dla tego układu
       view_size: Rozmiar widoku
       view_tabs: Karty widoków
-      visual_preview_title: "Podgląd edytora wizualnego: %{layout}"
+      visual_preview_title: 'Podgląd edytora wizualnego: %{layout}'
       write_markup_hint: Wpisz kod szablonu w panelu Kod
       zoom_in_hint: Powiększ widok, aby rozpocząć
   mfa:
@@ -1914,7 +1916,7 @@ pl:
         title: Uwaga — sprawdź przed publikacją
       recipe_lander:
         available_settings: Dostępne ustawienia
-        fork_warning: 'Fork tworzy kopię tej receptury, którą możesz edytować. Aktualizacje autora nie trafiają już automatycznie do Twojej kopii. W ustawieniach pluginu zobaczysz, kiedy receptura się zmieniła, i stamtąd możesz przejąć zmiany.'
+        fork_warning: Fork tworzy kopię tej receptury, którą możesz edytować. Aktualizacje autora nie trafiają już automatycznie do Twojej kopii. W ustawieniach pluginu zobaczysz, kiedy receptura się zmieniła, i stamtąd możesz przejąć zmiany.
     show:
       full_view_not_available: Widok pełnoekranowy niedostępny
       half_horizontal_view_not_available: Widok połowy poziomej niedostępny
@@ -2109,7 +2111,7 @@ pl:
     index:
       no_plugin_settings_found: Ten plugin nie został jeszcze skonfigurowany.
       analytics: Analityka
-      meta_title: "Ustawienia pluginu %{plugin}"
+      meta_title: Ustawienia pluginu %{plugin}
       page_title: Pluginy | %{company}
     health_status_banner:
       short_heading: Analityka pluginu
@@ -2227,6 +2229,7 @@ pl:
       justification_placeholder: Tekst na TRMNL X jest celowo mniejszy, aby cały tydzień zmieścił się na jednym ekranie.
       justification_submit: Zapisz moje uzasadnienie
       your_reason: Twoje uzasadnienie. Możesz teraz przesłać recepturę, a nasz zespół zapozna się z nim podczas weryfikacji.
+      failed_too_large: trmy couldn't review this one because the recipe holds more than %{size} kB of text, which is more than trmy can check. Make it smaller and ask again, or submit when you're ready and a person on our team will look at it.
     data_flow:
       title: Przepływ danych
       markup: Kod szablonu
@@ -2311,7 +2314,7 @@ pl:
       add_another: Dodaj kolejne
       add_another_label: Dodaj kolejne pole %{field}
       help: Wprowadź po jednej wartości w każdym wierszu. Przecinki w poszczególnych wartościach są niedozwolone.
-      inputs_label: "Pola %{field}"
+      inputs_label: Pola %{field}
       remove_input: Usuń to pole
     oauth_cards:
       authorize_with_account: Kliknij poniżej, aby autoryzować dostęp za pomocą swojego konta.
@@ -2380,7 +2383,7 @@ pl:
         merged: Przejęto zmiany z receptury do %{file}.
         replaced: "%{file} korzysta teraz z wersji z receptury."
         conflict: "%{file} zawiera zmiany, które kolidują z Twoimi. Nic nie zapisano."
-        not_mergeable: "W przypadku %{file} można użyć tylko wersji z receptury."
+        not_mergeable: W przypadku %{file} można użyć tylko wersji z receptury.
         unchanged: "%{file} nie zawiera zmian do przejęcia."
         taken_all:
           one: Przejęto zmiany z receptury do 1 pliku.
@@ -2394,6 +2397,15 @@ pl:
         transform_js: Skrypt transformacji
         tidbyt_canvas: Obszar roboczy Tidbyt
         vestaboard_canvas: Obszar roboczy Vestaboard
+    wall_picture:
+      share: Share on a wall
+      hint: Make a public page with this screen on a TRMNL on a wall, to post where you like.
+      confirm_button: Make public page
+      confirm: This makes a public page with this screen on it. Anyone with the link can see it, and search engines may index it.
+      making: Making picture…
+    wall_shares:
+      create:
+        not_landscape: This screen is portrait or turned on its side, so it does not fit the wall photo yet.
   recipes:
     index:
       newest_to_oldest: Od najnowszych do najstarszych
@@ -3215,8 +3227,8 @@ pl:
             answer: Tak. Utwórz bezpłatne urządzenie wirtualne, zainstaluj Booking i zobacz swoje sale na ekranie przed zakupem czegokolwiek.
         software_application_description: Inteligentne wyświetlacze e-papierowe harmonogramów sal konferencyjnych i system rezerwacji sal spotkań dla Google Workspace i Microsoft 365.
       marketing:
-        setup_quote: '„Myślę, że skonfigurowanie wszystkiego bez zaglądania do dokumentacji zajęło mi 10 minut. Było to niezwykle proste i intuicyjne. Kolekcje są logiczne i świetnie się sprawdzają”.'
-        code_orange_quote: '„TRMNL zapewnia właściwą równowagę między otwartością pozwalającą samodzielnie eksperymentować a zewnętrznym zarządzaniem za nas”.'
+        setup_quote: "„Myślę, że skonfigurowanie wszystkiego bez zaglądania do dokumentacji zajęło mi 10 minut. Było to niezwykle proste i intuicyjne. Kolekcje są logiczne i świetnie się sprawdzają”."
+        code_orange_quote: "„TRMNL zapewnia właściwą równowagę między otwartością pozwalającą samodzielnie eksperymentować a zewnętrznym zarządzaniem za nas”."
         talk_to_us: Porozmawiaj z nami
         start_free_trial: Rozpocznij bezpłatny okres próbny
         virtual_device_html: Nie masz jeszcze TRMNL? %{link}.
@@ -3225,7 +3237,7 @@ pl:
         yearly: Rocznie
         years:
           one: "%{count} rok"
-          other: "Liczba lat: %{count}"
+          other: 'Liczba lat: %{count}'
       pricing_page:
         meta_title: Cennik Booking dla wyświetlaczy sal spotkań
         joan_pricing_model: Plan podstawowy oraz opłata za każdego aktywnego użytkownika i każdy połączony wyświetlacz.
@@ -3259,8 +3271,8 @@ pl:
         booking_summary: "%{price} miesięcznie za salę, bez planu podstawowego, opłat za użytkowników i wyświetlacze. Sprzęt jest opcjonalny i kupujesz go raz."
         example_rooms:
           one: "%{count} sala przez 3 lata, z TRMNL OG przy każdych drzwiach"
-          other: "Sale (%{count}) przez 3 lata, z TRMNL OG przy każdych drzwiach"
-        example_breakdown: "Sprzęt: %{hardware} + subskrypcja: %{subscription}"
+          other: Sale (%{count}) przez 3 lata, z TRMNL OG przy każdych drzwiach
+        example_breakdown: 'Sprzęt: %{hardware} + subskrypcja: %{subscription}'
         self_service_eyebrow: Przyjazne dla samodzielnego wdrożenia
         self_service_title: Zespoły konfigurują samodzielnie.
         self_service_description: Bez projektu wdrożeniowego i konsultantów. Połącz kalendarz, a sala pojawi się na ekranie.
@@ -3324,7 +3336,7 @@ pl:
           wifi: Łączy się bezpośrednio z siecią Wi-Fi klienta
           mounting: Wieszany za pomocą otworu montażowego, bez przewodu do drzwi
         capabilities:
-          battery: 'E-papier zasilany bateryjnie: 3–6 miesięcy na jednym ładowaniu przy typowych interwałach odświeżania, ładowanie przez USB-C'
+          battery: 'Battery-powered ePaper: 4 to 8 months per charge at the default 15-minute refresh, recharged over USB-C'
           wifi: Łączy się bezpośrednio z Wi-Fi, bez lokalnej bramy
           enterprise_wifi: 'Łączy się z sieciami WPA2-Enterprise (802.1X): TRMNL OG i TRMNL X w paśmie 2,4 GHz'
           calendars: Google (konta osobiste i Workspace), Microsoft (Outlook, sale Exchange Online i przestrzenie robocze Microsoft Places) oraz dowolny kanał iCal
@@ -3412,7 +3424,7 @@ pl:
             answer: Administrator IT klienta zatwierdza połączenie kalendarza i dostęp do Wi-Fi. Partner i klient ustalają podział zadań dla każdego projektu.
           battery:
             question: Jak długo działa bateria?
-            answer: 3–6 miesięcy na jednym ładowaniu przy typowych interwałach odświeżania. Częstsze odświeżanie zużywa więcej baterii, więc wyświetlacz obok obleganej sali może pozostać podłączony przez USB-C.
+            answer: 4 to 8 months per charge at the default 15-minute refresh. Faster refresh uses more battery, so a display next to a busy room can stay plugged in over USB-C.
           dealer:
             question: Czy sprzedawca mebli biurowych może go sprzedawać?
             answer: Tak, w ramach polecenia lub wspomaganej odsprzedaży, gdzie konfigurację IT wykonuje wykwalifikowany technik. Uzgadniamy warunki i wdrożenie z każdym partnerem.
@@ -3531,7 +3543,7 @@ pl:
         eyebrow: Jeden plan
         per_room_month: "/ sala / miesiąc"
         per_room_year: "/ sala / rok"
-        saving: "Rabat %{amount}"
+        saving: Rabat %{amount}
         unlimited_displays: Nieograniczona liczba wyświetlaczy. Zwiększaj skalę bez zwiększania kosztów oprogramowania.
         platform_fee: Opłata za platformę
         per_display_fee: Opłata za wyświetlacz
@@ -3577,7 +3589,7 @@ pl:
         volume_quote_html: Ceny hurtowe dostępne z %{link}.
         volume_quote_link: ofertą
         device_price: "%{price} za sztukę"
-        device_slider: "Suwak %{name}"
+        device_slider: Suwak %{name}
         capex: Nakłady inwestycyjne
         hardware: Sprzęt
         hardware_description: Kup raz. Posiadaj na własność. Korzystaj ponownie w kolejnych latach.
@@ -3655,9 +3667,9 @@ pl:
           price_lock: Cena Twojej subskrypcji pozostaje niezmienna na zawsze.
         three_year_cost_title: 'Sprzęt i subskrypcja: koszt 3-letni'
         rooms: Sale
-        hardware_amount: "Sprzęt: %{amount}"
-        subscription_amount: "Subskrypcja: %{amount}"
-        hardware_plus_subscription: "Sprzęt: %{hardware} + subskrypcja: %{subscription}"
+        hardware_amount: 'Sprzęt: %{amount}'
+        subscription_amount: 'Subskrypcja: %{amount}'
+        hardware_plus_subscription: 'Sprzęt: %{hardware} + subskrypcja: %{subscription}'
         hardware_plus_subscription_html: 'Sprzęt: %{hardware}<br class="md:hidden"> + subskrypcja: %{subscription}'
         trmnl_cost_note: 'TRMNL: TRMNL OG dla każdej sali (%{price} za sztukę lub %{volume_price} od 10 sztuk przy cenach hurtowych dla zespołów) oraz %{annual_price} rocznie za salę.'
       envoy_alternative:
@@ -3693,7 +3705,7 @@ pl:
           envoy_signage: Envoy Screens, 12 USD miesięcznie za urządzenie
           trmnl_signage: Ponad 1000 pluginów na urządzeniach TRMNL, bez opłat za poszczególne urządzenia
           room_booking_price: Cena rezerwacji sal
-          envoy_room_booking_price: "5 USD miesięcznie za zasób dostępny do rezerwacji, plus opłata za platformę"
+          envoy_room_booking_price: 5 USD miesięcznie za zasób dostępny do rezerwacji, plus opłata za platformę
           trmnl_room_booking_price: "%{price} miesięcznie za zasób dostępny do rezerwacji, bez dodatkowych opłat"
           envoy_buying: Wycena każdego płatnego modułu
           envoy_billing: Rocznie
@@ -3743,7 +3755,7 @@ pl:
             answer: Tak. Otwórz dowolną salę lub kolekcję pod jej prywatnym adresem URL w przeglądarce na tablecie, telewizorze lub ekranie LCD. Nie wymaga logowania ani aplikacji i odświeża się automatycznie. Wyświetlacz ePaper TRMNL jest opcjonalny i stanowi jednorazowy zakup.
           power_at_door:
             question: Czy wyświetlacze TRMNL wymagają zasilania przy drzwiach?
-            answer: Nie. Przy typowych częstotliwościach odświeżania TRMNL działa od 3 do 6 miesięcy na jednym ładowaniu i można go zawiesić za pomocą otworu montażowego. Wystarczy naładować go przez USB-C kilka razy w roku.
+            answer: No. A TRMNL runs 4 to 8 months per charge at the default 15-minute refresh, and hangs from its hook recess. Recharge it over USB-C a few times a year.
           switch:
             question: Czy mogę przejść z Envoy bez przenoszenia danych?
             answer: Tak. Booking odczytuje te same kalendarze sal Google lub Microsoft, więc rezerwacje pozostają na swoim miejscu. Możesz korzystać z obu rozwiązań do końca umowy z Envoy.
@@ -3790,7 +3802,7 @@ pl:
           region: Ceny mogą się różnić w zależności od regionu i okresu rozliczeniowego.
         prices_retrieved: Ceny Joan pobrano z ich strony internetowej 1 października 2026 r.
         saves: Oszczędność %{amount} w porównaniu z Joan
-        savings_amount: "Oszczędność %{amount}"
+        savings_amount: Oszczędność %{amount}
         save: "→ oszczędź %{amount}"
         joan_cost_note: 'Joan: plan podstawowy za %{plan_price} miesięcznie oraz licencja urządzenia za 10,99 USD miesięcznie i Joan 6 RE (%{device_price}) dla każdej sali.'
         billing_note: W obu przypadkach rozliczenie roczne przez 36 miesięcy, bez podatków i wysyłki, według stanu na 1 października 2026 r.
@@ -3928,7 +3940,7 @@ pl:
           android_battery: Nie działa miesiącami na baterii, a montaż nie jest tak prosty jak w przypadku ePaper
           android_best_for: Wdrożenia wymagające kolorowego tabletu, w których można spełnić jego wymagania instalacyjne.
           epaper_title: 'ePaper: stworzony do wyświetlania dostępności sal'
-          epaper_power: 'Bardzo niskie zużycie energii: 3–6 miesięcy między ładowaniami przy typowych częstotliwościach odświeżania'
+          epaper_power: 'Very low power use: 4–8 months between charges at the default 15-minute refresh'
           epaper_mounting: Możliwość montażu tam, gdzie nie ma gniazdka ani kabla
           epaper_no_mdm: Nie wymaga konfiguracji trybu kiosku ani rejestracji w systemie zarządzania urządzeniami mobilnymi (MDM)
           epaper_reading: Czytelny jak papier pod każdym kątem, nie emituje światła
@@ -3946,7 +3958,7 @@ pl:
           trmnl_refresh: Około 2 sekund na przerysowanie obrazu
           power: Zasilanie
           tablet_power: Zasilanie sieciowe, stale włączone
-          trmnl_power: Bateria, 3–6 miesięcy na jednym ładowaniu, USB-C
+          trmnl_power: Battery, 4–8 months a charge, USB-C
           wall_mounting: Montaż ścienny
           tablet_wall_mounting: Zamykana obudowa oraz kabel zasilający lub PoE
           trmnl_wall_mounting: Otwór montażowy, bez kabla przy drzwiach
@@ -4008,7 +4020,7 @@ pl:
             answer: Tak. Otwórz dowolną salę lub kolekcję pod jej prywatnym adresem URL w przeglądarce tabletu. Nie wymaga logowania ani aplikacji i odświeża się automatycznie. Aby pozostawić stronę na ekranie, użyj Dostępu nadzorowanego na iPadzie lub przypinania aplikacji na Androidzie.
           battery:
             question: Jak długo wyświetlacz TRMNL działa na baterii?
-            answer: Od 3 do 6 miesięcy na jednym ładowaniu przy typowych częstotliwościach odświeżania. Częstsze odświeżanie zużywa więcej energii, więc wyświetlacz przy często używanej sali może pozostać podłączony przez USB-C.
+            answer: 4 to 8 months per charge at the default 15-minute refresh. Faster refresh uses more battery, so a display next to a busy room can stay plugged in over USB-C.
           screen_updates:
             question: Jak szybko nowa rezerwacja pojawi się na ekranie?
             answer: W przeglądarce w ciągu minuty. Na ePaper generujemy obraz każdej sali co pięć minut, a urządzenie wyświetla go zgodnie z własną częstotliwością odświeżania.
@@ -4029,11 +4041,11 @@ pl:
           other: "%{count} sal"
         years:
           one: "%{count} rok"
-          other: "Liczba lat: %{count}"
-        title: "TRMNL Booking – %{rooms}, okres: %{years}"
+          other: 'Liczba lat: %{count}'
+        title: 'TRMNL Booking – %{rooms}, okres: %{years}'
         subtitle_yearly: Jednorazowy zakup sprzętu i subskrypcja Booking rozliczana rocznie, w dolarach amerykańskich.
         subtitle_monthly: Jednorazowy zakup sprzętu i subskrypcja Booking rozliczana miesięcznie, w dolarach amerykańskich.
-        total_for: "Łącznie za okres: %{years}"
+        total_for: 'Łącznie za okres: %{years}'
         per_room_per_month: Za salę, miesięcznie
         first_year: Pierwszy rok
         then_per_year: następnie %{amount} rocznie
@@ -4055,8 +4067,8 @@ pl:
         cost_per_room_breakdown: "%{total} ÷ %{rooms} = %{per_room} za salę (okres: %{years}), w tym %{hardware} za sprzęt i %{subscription} za Booking."
         cost_per_room_monthly_html: To <strong>%{amount} miesięcznie za salę</strong>, wraz ze sprzętem.
         notes: Uwagi
-        yearly_billing_saves: "Rozliczenie roczne pozwala zaoszczędzić %{amount} w porównaniu z miesięcznym (okres: %{years})."
-        yearly_billing_would_save: "Rozliczenie roczne pozwoliłoby zaoszczędzić %{amount} (okres: %{years})."
+        yearly_billing_saves: 'Rozliczenie roczne pozwala zaoszczędzić %{amount} w porównaniu z miesięcznym (okres: %{years}).'
+        yearly_billing_would_save: 'Rozliczenie roczne pozwoliłoby zaoszczędzić %{amount} (okres: %{years}).'
         price_lock: 'Gwarancja niezmienności ceny: cena z chwili rozpoczęcia subskrypcji obowiązuje tak długo, jak długo ją utrzymujesz. Bez umowy terminowej, z możliwością rezygnacji w dowolnej chwili.'
         volume_discount: Wyświetlacze TRMNL wysyłamy bezpośrednio od nas, producenta. Przy zamówieniu co najmniej %{minimum} wyświetlaczy każdy kosztuje o %{discount} mniej, na podstawie wyceny.
         warehouses: Ceny dotyczą naszego magazynu w USA. Nasz magazyn w UE ma własne ceny europejskie, które nie są przeliczeniem cen w dolarach.
@@ -4092,7 +4104,7 @@ pl:
         no_master: Nie ustawiono jeszcze urządzenia nadrzędnego. Wybierz je na karcie Ustawienia, aby rozpocząć synchronizację.
         playlist_items:
           one: "%{count} pozycja playlisty"
-          other: "Liczba pozycji playlisty: %{count}"
+          other: 'Liczba pozycji playlisty: %{count}'
         push: Wyślij do floty
         push_confirm:
           one: Zastąpić playlistę na %{count} urządzeniu podrzędnym? Spowoduje to nadpisanie jego obecnej zawartości.
@@ -4481,6 +4493,7 @@ pl:
       x_position: Pozycja X
       y_position: Pozycja Y
       too_large_to_preview: Za duże, aby wyświetlić tutaj podgląd. Nadal możesz wstawić to do swojego markupu.
+      too_large_for_tree: Too large to show as a tree. The start of its JSON is below, and you can still insert it into your markup.
     editor_labels:
       composition_not_ready: Kompozycja nie jest jeszcze gotowa.
       could_not_load_selected_image: Nie udało się wczytać wybranego obrazu.
@@ -4718,7 +4731,7 @@ pl:
       landed: Twoje zgłoszenie zostało zaakceptowane — %{reward} właśnie trafiło na Twoje konto.
       runs_until_html: TRMNL+ jest aktywne do <strong>%{date}</strong>.
       stack_more_html: Zdobądź więcej na %{link}.
-      subject: "Twoja nagroda: %{reward}"
+      subject: 'Twoja nagroda: %{reward}'
     plus_earning_rejected:
       not_approved: Sprawdziliśmy Twoje zgłoszenie „%{title}”, ale nie mogliśmy go zaakceptować.
       not_approved_with_reason: 'Sprawdziliśmy Twoje zgłoszenie „%{title}”, ale nie mogliśmy go zaakceptować: %{reason}'
@@ -4730,7 +4743,7 @@ pl:
       ordered: Gratulacje! Ktoś właśnie zamówił TRMNL z Twoim kodem polecającym %{code}.
       subject: Twój kod polecający TRMNL został użyty!
     send_content:
-      subject: "Zamówiona właśnie treść %{company_name} (%{name})"
+      subject: Zamówiona właśnie treść %{company_name} (%{name})
     send_friendly_id:
       device_id_html: Oto identyfikator Twojego urządzenia %{license_type}:<br>%{friendly_id}
       get_started_html: Zacznij korzystać na %{link}
@@ -4756,6 +4769,12 @@ pl:
       subject: Twój %{noun} TRMNL „%{name}” jest %{state}
       subject_google_photos: 'Wymagane działanie: wybierz ponownie zdjęcia TRMNL'
       transitioned_html: Twój %{noun} „<strong>%{name}</strong>” ma teraz stan <strong>%{state}</strong>.
+    recipe_review_failed:
+      subject: trmy couldn't review %{name}
+      greeting: Hi,
+      failed: trmy, our internal review agent, couldn't review %{name}.
+      read: Open your review
+      next: You can still submit it when you're ready, and a person on our team will look at it.
   pages:
     flash_firmware:
       linux_warning: Flashowanie z Linuksa często kończy się niepowodzeniem, ponieważ Chrome nie może otworzyć portu szeregowego. Dodaj użytkownika do grupy dialout (sudo usermod -aG dialout $USER), wyloguj się i zaloguj ponownie, a następnie spróbuj jeszcze raz. Jeśli to nie pomoże, użyj Chrome lub Edge na komputerze Mac albo z Windows.
@@ -4789,7 +4808,7 @@ pl:
       e1003_flash_html: Zobacz instrukcję w centrum pomocy Seeed Studio %{link}.
       x4_wake: Jeśli używasz domyślnego firmware'u X4 lub Crosspoint, wybudź urządzenie.
       x4_reset: Jeśli używasz już firmware'u TRMNL, przytrzymaj przycisk Reset urządzenia X4 przez 3 sekundy.
-      x4_note_html: '<strong>Uwaga</strong>: X4 pozostaje w trybie wgrywania firmware''u tylko przez kilka sekund. Wykonaj krok 4 natychmiast po przytrzymaniu przycisku Reset, w przeciwnym razie trzeba będzie ponowić próbę.'
+      x4_note_html: "<strong>Uwaga</strong>: X4 pozostaje w trybie wgrywania firmware'u tylko przez kilka sekund. Wykonaj krok 4 natychmiast po przytrzymaniu przycisku Reset, w przeciwnym razie trzeba będzie ponowić próbę."
       step_4: Krok 4 — Wgraj firmware
       click_connect: Kliknij poniższy przycisk „Connect”
       select_serial: Wybierz z listy „USB JTAG/serial...”
@@ -4853,7 +4872,7 @@ pl:
       title: Otwarte oprogramowanie gotowe na przyszłość
       hackers_welcome: Hakerzy mile widziani
       build_plugins_html: Twórz własne pluginy w %{link}, dla siebie lub innych w naszym publicznym katalogu.
-      build_plugins_link: "mniej niż 5 minut"
+      build_plugins_link: mniej niż 5 minut
       explore_ecosystem: Odkryj ekosystem
     hero:
       title: Wszystko jasne na pierwszy rzut oka
@@ -4944,7 +4963,7 @@ pl:
       theme_preference: Preferencje motywu prezentacji
       labels:
         eyebrow: Zwiedzanie
-        go_to: "Przejdź do: %{room}"
+        go_to: 'Przejdź do: %{room}'
         running_here: Działa tutaj
         scroll_hint: "%{down} przewiń lub użyj %{left} %{right}"
     stay_focused:
@@ -4981,7 +5000,7 @@ pl:
       here: tutaj
       content_title: Zobacz treści na swoim TRMNL
       sleep_html: Urządzenie może wyświetlać komunikat w rodzaju <i>„Wszystko na bieżąco”</i>, mimo że połączono pluginy. Dzieje się tak, ponieważ TRMNL przechodzi w stan uśpienia między kolejnymi żądaniami treści.
-      wake_html: "Wymuś wybudzenie TRMNL, naciskając przycisk z tyłu (OG) lub dotykając środka paska dotykowego (X). Więcej opcji interakcji: %{link}."
+      wake_html: 'Wymuś wybudzenie TRMNL, naciskając przycisk z tyłu (OG) lub dotykając środka paska dotykowego (X). Więcej opcji interakcji: %{link}.'
       go_here: przejdź tutaj
     what_is_it:
       connect_apps: Połącz popularne aplikacje
@@ -4992,8 +5011,8 @@ pl:
       build_playlist: Utwórz playlistę
       layouts_alt: Przykładowe układy pulpitu TRMNL
       layouts: Wybierz jeden z 8 układów, aby stworzyć idealny pulpit. Twórz grupy na różne pory dnia. Wystarczy wskazać i kliknąć.
-      charge: Ładuj co 3 miesiące
-      charge_alt: Bateria TRMNL wystarcza na 3–6 miesięcy po naładowaniu
+      charge: Charge every 4-8 months
+      charge_alt: TRMNL battery lasts 4-8 months per charge
       no_fuss: Nie chcesz zajmować się kolejnym urządzeniem. TRMNL przynosi korzyści bez zbędnych komplikacji. Nawet sam przechodzi w stan uśpienia.
     about:
       meta_title: O nas
@@ -5088,7 +5107,7 @@ pl:
       device_photo_alt: "%{name} z uruchomionym TRMNL"
       submissions:
         one: "%{count} zgłoszenie"
-        other: "Liczba zgłoszeń: %{count}"
+        other: 'Liczba zgłoszeń: %{count}'
       og_description: Zamień Kindle, Kobo, Boox, reMarkable, Raspberry Pi lub płytkę ESP32 w stale działający pulpit TRMNL. Wybierz sprzęt, aby zobaczyć instrukcję konfiguracji.
       link_to_section: Link do %{name}
     claim_a_device:
@@ -5179,7 +5198,7 @@ pl:
       description: Czego użytkownicy TRMNL szukają, ale nie mogą znaleźć. Zbuduj plugin, który wypełni tę lukę!
       search_term: Wyszukiwana fraza
       demand: Zapotrzebowanie
-      users_searched: "Wyszukiwało %{band} użytkowników"
+      users_searched: Wyszukiwało %{band} użytkowników
       empty: Obecnie brak niezaspokojonego zapotrzebowania. Zajrzyj ponownie wkrótce!
       footnote: Wyświetlane są zapytania co najmniej 5 unikalnych użytkowników z ostatnich 30 dni.
       build_plugin: Utwórz plugin
@@ -5326,7 +5345,7 @@ pl:
         browse_integrations: Przeglądaj integracje
         custom_description: Korzystaj z naszej hostowanej platformy, a my zajmiemy się resztą. Chcesz więcej kontroli? Hostuj cały stos samodzielnie lub wstępnie skonfiguruj własne pluginy na każdym zakupionym urządzeniu.
         custom_title: Pod klucz lub całkowicie na zamówienie
-        deploy_description: 3–6 miesięcy na jednym ładowaniu i stale aktualne informacje. Bez kabli i gniazdek. Nasz sprzęt pobiera energię tylko podczas odświeżania ekranu.
+        deploy_description: 4–8 months per charge — and information that stays current. No cables. No outlets. Our hardware only draws power when the screen refreshes.
         deploy_title: Wdróż i zapomnij
         description: TRMNL dostosowuje się do sposobu działania Twojej organizacji. Umieść swoją markę na urządzeniu, połącz narzędzia, wyświetlaj dane. Niezależnie od tego, czy potrzebujesz gotowego wdrożenia, czy całkowicie własnego ekosystemu, platforma się dostosuje.
         eyebrow: Dopasowane do Twojej organizacji
@@ -5336,7 +5355,7 @@ pl:
         self_hosting_docs: Dokumentacja samodzielnego hostingu
         technical_specs: Specyfikacja techniczna
         title: Wygląda jak Twoja marka. Działa na Twój sposób.
-        tools_description: "Ponad %{plugin_count} integracji społeczności gotowych do instalacji. Potrzebujesz czegoś konkretnego? Twórz prywatne pluginy z naszym frameworkiem projektowym i silnikiem szablonów Liquid."
+        tools_description: Ponad %{plugin_count} integracji społeczności gotowych do instalacji. Potrzebujesz czegoś konkretnego? Twórz prywatne pluginy z naszym frameworkiem projektowym i silnikiem szablonów Liquid.
         tools_title: Korzystaj ze swoich narzędzi
       gifting:
         body_html: Gadżety reklamowe lądują w szufladach. TRMNL trafia na biurka. Kup hurtowo, umieść logo na ekranie startowym i wybierz pluginy instalowane przy przypisaniu każdego urządzenia. Zobacz nasz %{link}. Bez rozmów wdrożeniowych i problemów.
@@ -5364,7 +5383,7 @@ pl:
         required_fees: Obowiązkowe opłaty miesięczne
         title: Twoje dane już istnieją.
       operations:
-        battery: Bateria na 3–6 miesięcy
+        battery: 4-8 month battery
         battery_description: Bez kabli, gniazdek i elektryków. Prawdziwie bezprzewodowe wdrożenie.
         body: Dostępność sal, ogłoszenia zespołu, menu obiadowe, kalendarze wydarzeń. Zasilanie bateryjne, bez okablowania, montaż w dowolnym miejscu. Zastąp statyczne oznakowanie spokojnymi cyfrowymi menu. TRMNL pozwala łatwo wyróżniać nowe pozycje menu, sezonowe promocje i wydarzenia specjalne bez rozpraszania uwagi.
         eyebrow: Oznakowanie cyfrowe
@@ -5376,7 +5395,7 @@ pl:
       pledge:
         body: Wiemy, że można się sparzyć. Urządzenia przestają działać po zmianie strategii firmy. Sprzęt staje się elektroodpadem, gdy serwery zostają wyłączone. My działamy inaczej.
         eyebrow: Deklaracja Unbrickable Pledge
-        quote: '„Z dniem 18 lutego 2025 r. cały zespół TRMNL potwierdza zamiar udostępnienia kodu źródłowego głównej aplikacji internetowej, jeśli kiedykolwiek jako firma staniemy się niewypłacalni”.'
+        quote: "„Z dniem 18 lutego 2025 r. cały zespół TRMNL potwierdza zamiar udostępnienia kodu źródłowego głównej aplikacji internetowej, jeśli kiedykolwiek jako firma staniemy się niewypłacalni”."
         read_pledge: Przeczytaj pełną deklarację
         supporting: Nasz firmware już jest open source. Jeśli nie uda nam się utrzymać działalności, udostępnimy kod całej reszty. Bez planowanego postarzania. Bez elektroodpadów. Twoja inwestycja jest chroniona.
         title: Twoje urządzenia działają zawsze. Koniec kropka.
@@ -5402,7 +5421,7 @@ pl:
         black: Czarny
         buy_now: Kup teraz
         bwry_spec: Pulpity biurkowe · 4-kolorowy e-papier · obsługa motywów
-        case_color_label: "Kolor obudowy %{name}"
+        case_color_label: Kolor obudowy %{name}
         check_email: Sprawdź pocztę e-mail, aby otrzymać link do oferty i PDF.
         city: Miasto
         color: Kolor
@@ -5411,7 +5430,7 @@ pl:
         country: Kraj
         country_placeholder: Stany Zjednoczone
         decrease_label: Zmniejsz liczbę %{name}
-        depth_html: "Głębokość %{depth}"
+        depth_html: Głębokość %{depth}
         description: Przejrzyste ceny. Bez zabaw w „skontaktuj się ze sprzedażą”.
         details_heading: Twoje dane.
         details_subheading: Tutaj wyślemy ofertę.
@@ -5440,10 +5459,10 @@ pl:
         preview_label: Podgląd wybranego wykończenia obudowy
         pricing_sheet: Cennik
         purchase_orders_over: Zamówienia PO powyżej %{price}
-        quantity_label: "Liczba %{name}"
-        quantity_slider_label: "Suwak liczby %{name}"
+        quantity_label: Liczba %{name}
+        quantity_slider_label: Suwak liczby %{name}
         quote_sent: Wysłano ofertę
-        reference_number: 'PO / nr referencyjny'
+        reference_number: PO / nr referencyjny
         reference_number_placeholder: PO-12345 (opcjonalnie)
         select_model_label: Wybierz %{names}, aby wybrać kolor
         seven_inch_model_label: Model 7,5-calowy
@@ -5466,13 +5485,13 @@ pl:
           developer_edition: Edycja deweloperska
           gift_message: Wiadomość prezentowa
         calculator:
-          addons_summary: "Wybrano %{count} · %{price}/urządzenie × %{quantity} urządzeń = %{total}"
-          addons_summary_without_devices: "Wybrano %{count} · dodaj urządzenia, aby zobaczyć sumę"
+          addons_summary: Wybrano %{count} · %{price}/urządzenie × %{quantity} urządzeń = %{total}
+          addons_summary_without_devices: Wybrano %{count} · dodaj urządzenia, aby zobaczyć sumę
           copy_failed: Kopiowanie nie powiodło się — zaznacz i skopiuj ręcznie
           devices_and_addons_total: Urządzenia %{devices} + dodatki %{addons}
           devices_total: Urządzenia %{devices}
           finish_low_stock: W magazynie tylko %{count} szt. w wykończeniu %{finish}
-          finish_out_of_stock: "Wykończenie %{finish} jest niedostępne"
+          finish_out_of_stock: Wykończenie %{finish} jest niedostępne
           finishes:
             clear: Wyczyść
             dark_wood: Ciemne drewno
@@ -5495,7 +5514,7 @@ pl:
           summary_line: "%{quantity} × %{name} (%{finish}) po %{price}/szt."
           summary_total: 'Łącznie: %{total}'
           turnstile_loading: Weryfikacja bezpieczeństwa nadal się ładuje. Odczekaj chwilę i spróbuj ponownie — może ją blokować blokada reklam lub Twoja sieć.
-          unit_discount: "Rabat %{amount}/szt."
+          unit_discount: Rabat %{amount}/szt.
       products_alt:
         description: Wybierz odpowiednie urządzenie do każdego zastosowania. Oba modele korzystają z tego samego oprogramowania i ekosystemu, zapewniając spójną integrację w całej organizacji.
         eyebrow: Sprzęt
@@ -5539,12 +5558,12 @@ pl:
         free_pallet_shipping_description: Bez opłat frachtowych za zamówienia hurtowe. Bezpośrednio z naszego magazynu do Twojego centrum dystrybucji.
         headline: Ceny hurtowe. Bez kombinowania.
         map_pricing: Minimalne ceny reklamowane (MAP)
-        moq: "Minimalne zamówienie: %{minimum}"
+        moq: 'Minimalne zamówienie: %{minimum}'
         partner_support: Wsparcie partnerów
         partner_support_description: Dedykowana obsługa kont hurtowych, wspólne materiały marketingowe i wsparcie techniczne dla Twoich klientów.
-        unit_cost: "Koszt jednostkowy %{price}"
+        unit_cost: Koszt jednostkowy %{price}
         volume_pricing: Ceny hurtowe
-        volume_pricing_description: "Minimalne zamówienie %{minimum}+ szt., od %{price}/szt. Konkurencyjne marże i ceny DTC, które nie konkurują z partnerami."
+        volume_pricing_description: Minimalne zamówienie %{minimum}+ szt., od %{price}/szt. Konkurencyjne marże i ceny DTC, które nie konkurują z partnerami.
       og_description: Wdróż wyświetlacze e-papierowe w całej organizacji. Jednorazowy zakup, dożywotni dostęp do chmury, bez opłat miesięcznych. Ceny hurtowe od %{price}/urządzenie.
     og:
       buy: Kup TRMNL OG — 139 USD
@@ -5573,7 +5592,7 @@ pl:
         title: Najczęściej zadawane pytania
         wifi_answer: Nie, OG łączy się wyłącznie przez Wi-Fi 2,4 GHz. Jeśli potrzebujesz 5 GHz, rozważ TRMNL X.
         wifi_question: Czy OG działa z Wi-Fi 5 GHz?
-      hero_description: TRMNL OG to 7,5-calowy wyświetlacz, który informuje Cię na bieżąco, nie zajmując całej przestrzeni roboczej. Ładuj co 3–6 miesięcy. Ustaw i zapomnij.
+      hero_description: TRMNL OG is a 7.5" ambient display that keeps you informed without taking over your workspace. Charge it every 4-5 months. Set it and forget it.
       hero_title: Kompaktowy wyświetlacz e-papierowy na biurko.
       meta_title: TRMNL OG | Kompaktowy wyświetlacz e-papierowy na biurko
       pricing:
@@ -5581,12 +5600,12 @@ pl:
         developer_license: Licencja deweloperska (opcjonalna)
         limited_edition: TRMNL OG — edycja limitowana
         no_subscription_html: <strong class="font-medium">Bez opłat subskrypcyjnych. Na zawsze.</strong> Wszystkie oficjalne pluginy są bezpłatne na zawsze.
-        one_time: "Jednorazowo %{price}"
+        one_time: Jednorazowo %{price}
         standard: TRMNL OG (czarny / biały / przezroczysty)
         title: Cennik
       specs:
         battery: Bateria
-        battery_value: 1800 mAh (3–6 miesięcy) / opcjonalnie 2500 mAh (ponad 6 miesięcy)
+        battery_value: 1,800 mAh (about 4 months) / 2,500 mAh upgrade (about 5 months), at a 15-minute refresh
         build: Konstrukcja
         build_value: Wysokiej jakości tworzywo ABS o miękkim wykończeniu, chromowana stalowa podstawka
         charging: Ładowanie
@@ -5621,21 +5640,21 @@ pl:
         title: Zawartość opakowania
         usb_cable: Przewód USB-C
       why_og:
-        battery: Bateria na 3–6 miesięcy
+        battery: 4-5 month battery life
         battery_body: Ładuj dwa razy w roku
         body: TRMNL OG zaprojektowano tak, aby stał na biurku, nie domagając się uwagi ani miejsca. Przy wymiarach 6,7 × 4,5 cala jest mniejszy od książki w miękkiej oprawie. Wbudowana metalowa podstawka zapewnia idealny kąt nachylenia. Otwór montażowy pozwala powiesić go na ścianie, jeśli brakuje miejsca na biurku.
         compact: Kompaktowy i dyskretny
         compact_body: Mieści się wszędzie, nie dominując przestrzeni
         no_subscription: Bez subskrypcji
         no_subscription_body: Jedna cena, na zawsze
-        plugins: "Ponad %{plugin_count} pluginów"
+        plugins: Ponad %{plugin_count} pluginów
         plugins_body: Kalendarz, pogoda, wiadomości, zdjęcia i nie tylko
         readability: Czytelność e-papieru
         readability_body: Wyraźny w każdym oświetleniu, przyjazny dla oczu
         title: Mały rozmiar. Duża przejrzystość.
     og_spec:
       meta_description: Sprawdź specyfikację wyświetlacza, zasilania, łączności i parametrów fizycznych %{name}.
-      meta_title: "Specyfikacja techniczna %{name}"
+      meta_title: Specyfikacja techniczna %{name}
     pricing_table:
       meta_title: Cennik TRMNL B2B — rabaty ilościowe i przejrzyste ceny
       og_description: Cennik TRMNL B2B — rabaty ilościowe i przejrzyste ceny.
@@ -5647,16 +5666,16 @@ pl:
         gesture_controls: Sterowanie gestami
         grayscale: Skala szarości
         learn_about_og: Dowiedz się więcej o TRMNL OG
-        'no': 'Nie'
+        'no': Nie
         og_best_for: Biurka, niewielkie przestrzenie
         price: Cena
-        shades: "Liczba odcieni: %{shade_count}"
+        shades: 'Liczba odcieni: %{shade_count}'
         shared: Oba urządzenia mają wspólny ekosystem pluginów, pulpit internetowy i czas pracy na baterii.
         tbd: Do ustalenia
         title: Porównanie X z OG
         waterproof: Wodoodporny
         x_best_for: Kuchnie, ściany, przestrzenie wspólne
-        'yes': 'Tak'
+        'yes': Tak
       cover_alt: TRMNL dla firm
       faq:
         plugins_answer: Tak. OG i X korzystają z tego samego ekosystemu — ponad %{plugin_count} pluginów, a liczba stale rośnie.
@@ -5677,7 +5696,7 @@ pl:
         title: Cennik
       specs:
         battery: Bateria
-        battery_value: 3–6 miesięcy między ładowaniami
+        battery_value: 4-8 months between charges (6,000 or 12,000 mAh)
         compatibility: Kompatybilność
         compatibility_value: Ten sam ekosystem ponad %{plugin_count} pluginów co OG
         connectivity: Łączność
@@ -5702,7 +5721,7 @@ pl:
         wall_display: Wyświetlacz ścienny
         wall_display_body: Centrum informacji w przedpokoju, sztuka w salonie lub harmonogram sali spotkań.
       why_x:
-        battery: Bateria na 3–6 miesięcy
+        battery: 4-8 month battery
         battery_body: Ten sam imponujący czas pracy co w OG
         body: TRMNL X rozwija wszystko, co najlepsze w OG. Wyświetlacz 10,3 cala daje więcej miejsca na informacje. 16 odcieni szarości (zamiast 4 w OG) znacznie poprawia wygląd zdjęć i wykresów. Wodoodporna konstrukcja pozwala korzystać z niego w kuchni lub łazience. Sterowanie gestami umożliwia interakcję bez dotykania ekranu.
         display: 10,3-calowy wyświetlacz o wysokiej gęstości pikseli
@@ -5717,7 +5736,7 @@ pl:
         wifi_body: Szybsza, bardziej niezawodna łączność
     x_spec:
       meta_description: Sprawdź specyfikację wyświetlacza, zasilania, łączności i parametrów fizycznych %{name}.
-      meta_title: "Specyfikacja techniczna %{name}"
+      meta_title: Specyfikacja techniczna %{name}
     chrome:
       show:
         description: Rozszerzenie TRMNL New Tab przenosi spokojne, pozbawione rozpraszaczy środowisko TRMNL na stronę nowej karty przeglądarki, zapewniając przejrzystość i skupienie.
@@ -5743,7 +5762,7 @@ pl:
         title: System projektowania
       internals:
         brand_colors: Kolory marki
-        brand_colors_description: "Własne skale: podstawowa, szałwiowa i gliniana"
+        brand_colors_description: 'Własne skale: podstawowa, szałwiowa i gliniana'
         font_sizes: Rozmiary czcionek
         font_sizes_description: Własne tokeny rozmiarów wykraczające poza domyślne wartości Tailwind
         gray_scales: Skale szarości
@@ -5776,7 +5795,7 @@ pl:
             - Dostęp do API pluginów dla urządzeń DIY
             - Kompatybilność z wieloma mikrokontrolerami
             - Obsługa różnych rozmiarów wyświetlaczy ePaper
-            price: "Jednorazowa opłata 50 USD"
+            price: Jednorazowa opłata 50 USD
             tag: Własne urządzenie (BYOD)
           byods:
             button: Dokumentacja
@@ -6024,7 +6043,7 @@ pl:
         mcp_server: serwer MCP
         title: Twórz własne rozwiązania
       recipes:
-        by_author: "Autor: %{author}"
+        by_author: 'Autor: %{author}'
         description: Receptury pozwalają udostępniać i odkrywać kod pluginów innych deweloperów. Możesz zainstalować Recepturę, aby synchronizować aktualizacje za każdym razem, gdy autor zmieni kod źródłowy. Możesz również utworzyć fork Receptury, aby niezależnie utrzymywać i modyfikować własną wersję.
         eyebrow: Udostępnianie kodu
         fork: Fork
@@ -6067,7 +6086,7 @@ pl:
           dla wyświetlaczy
           e-papierowych
         how_to_use: Jak korzystać
-        native_size: "Natywnie %{size} px"
+        native_size: Natywnie %{size} px
         presents: TRMNL prezentuje
         set_in_trmnl: Cała ta strona jest złożona przy użyciu rodziny czcionek TRMNL
         sizes: Rozmiary
@@ -6117,7 +6136,7 @@ pl:
             copy: Rodzina czcionek została zaprojektowana dla e-papieru, gdzie każdy piksel jest włączony albo wyłączony
             label: Model renderowania
           size_system:
-            copy: "Trzy rozmiary obsługują typowe treści: podpisy, tekst główny i tekst nagłówkowy"
+            copy: 'Trzy rozmiary obsługują typowe treści: podpisy, tekst główny i tekst nagłówkowy'
             label: System rozmiarów
           weight_axis:
             copy: Wszystkie trzy rozmiary dostępne są w odmianach Regular i Bold
@@ -6134,21 +6153,21 @@ pl:
         bold_3x: 3× Bold
         description: 12 / 16 / 21 pikseli natywnie / Regular + Bold
         footer_left: Każda rodzina jest prezentowana w rozmiarze natywnym i w skali wzornika 3×
-        native_size: "Natywnie %{size} px"
+        native_size: Natywnie %{size} px
         regular: Standardowa
         regular_3x: 3× Regular
         title: Odmiany TRMNL
       font_features:
         description: Ułamki, liczniki, mianowniki
         footer_left: Funkcje ułamków OpenType są dostępne dla zwartych zapisów liczbowych
-        'off': 'Wyłączone'
+        'off': Wyłączone
         on_frac: Włączone / frac
       glyph_tables:
         bold: Pogrubienie
         description: Rzeczywiste rozmiary natywne / odmiany Regular i Bold
         footer_left: Wielkie i małe litery, cyfry, interpunkcja i znaki we wszystkich trzech rozmiarach
         footer_right: Regular i Bold
-        native_size: "Natywnie %{size} px"
+        native_size: Natywnie %{size} px
         regular: Standardowa
         title: Tabele glifów
       icons_symbols:
@@ -6202,7 +6221,7 @@ pl:
       outline_type:
         bold: Pogrubienie
         both: Oba
-        native_size: "Natywnie %{size} px"
+        native_size: Natywnie %{size} px
         regular: Standardowa
         tryout:
           description: Edytuj tekst, a następnie przełączaj odmiany TRMNL, grubości i skalę natywną lub 3×
@@ -6791,11 +6810,11 @@ pl:
       other: pozostałe kredyty
     about_plugins:
       one: około 1 pluginu
-      other: "Liczba pluginów (w przybliżeniu): %{count}"
-    left: "Pozostało: %{credits}"
-    left_renews: "Pozostało: %{credits} · odnowienie %{date}"
-    left_expires: "Pozostało: %{credits} · wygasa %{date}"
-    left_some_expire: "Pozostało: %{credits} · %{expiring} wygasa %{date}"
+      other: 'Liczba pluginów (w przybliżeniu): %{count}'
+    left: 'Pozostało: %{credits}'
+    left_renews: 'Pozostało: %{credits} · odnowienie %{date}'
+    left_expires: 'Pozostało: %{credits} · wygasa %{date}'
+    left_some_expire: 'Pozostało: %{credits} · %{expiring} wygasa %{date}'
     sources:
       plus: TRMNL+ · %{credits} co miesiąc
       signup: Kredyty powitalne
@@ -7219,15 +7238,15 @@ pl:
       description: Twoje ulubione narzędzia — wszystkie korzyści bez zbędnego wysiłku.
       learn_more: Dowiedz się więcej
       title: Pluginy
-    icon_alt: "Plugin TRMNL: %{name}"
+    icon_alt: 'Plugin TRMNL: %{name}'
     list:
       intro_html: Nasza stale rozwijana biblioteka oficjalnych pluginów i %{link} społeczności wspiera potrzeby zawodowe i osobiste — od codziennego kalendarza po nadchodzące premiery filmowe. Co tydzień dodajemy nowe narzędzia.
       plugins_available: dostępne pluginy
       recipes_link: Receptur
-    meta_title: "Plugin %{name}"
+    meta_title: Plugin %{name}
     newly_added: Ostatnio dodane
     popular_plugins: Popularne pluginy
-    preview_alt: "Podgląd pluginu %{name}"
+    preview_alt: Podgląd pluginu %{name}
     ranking: POZYCJA %{rank} W RANKINGU POPULARNOŚCI PLUGINÓW
     request:
       body: Poproś o plugin — zespół TRMNL chętnie pomoże.
@@ -7240,7 +7259,7 @@ pl:
       details_unavailable: Szczegóły pluginu są niedostępne
       user_count:
         one: "%{users} użytkownik"
-        other: "Liczba użytkowników: %{users}"
+        other: 'Liczba użytkowników: %{users}'
     similar_plugins: Podobne pluginy
     catalog_og_description: Połącz ulubione narzędzia, aby zachować skupienie.
     og_description: "%{name} na TRMNL. %{description}."
@@ -7440,10 +7459,10 @@ pl:
         other: "%{number} razy"
       device_count:
         one: "%{number} urządzenie"
-        other: "Liczba urządzeń: %{number}"
+        other: 'Liczba urządzeń: %{number}'
       country_count:
         one: "%{number} kraj"
-        other: "Liczba krajów: %{number}"
+        other: 'Liczba krajów: %{number}'
       piece: Praca
       shows: Wyświetlenia
       devices: Urządzenia
@@ -7483,12 +7502,12 @@ pl:
       author_share: Udział twórcy
       eligibility: Kryteria kwalifikacji
       impressions: Wyświetlenia
-      minimum_usage: "Łączna liczba połączeń: %{count}"
+      minimum_usage: 'Łączna liczba połączeń: %{count}'
       payout_factors: Czynniki wpływające na wypłatę
       presence: Obecność
       qualifying_plugins:
         one: "%{count} kwalifikujący się plugin"
-        other: "Liczba kwalifikujących się pluginów: %{count}"
+        other: 'Liczba kwalifikujących się pluginów: %{count}'
       total_allocation: Łączny przydział
       what_is_this: Co to jest?
     feedback_body:
@@ -7500,19 +7519,19 @@ pl:
       removed_within_a_day: zwykle usuwany przed upływem dnia
       uninstalls:
         one: "%{count} odinstalowanie"
-        other: "Liczba odinstalowań: %{count}"
+        other: 'Liczba odinstalowań: %{count}'
     health:
-      affected_html: "Liczba dotkniętych: %{number}"
+      affected_html: 'Liczba dotkniętych: %{number}'
       error_detail: Szczegóły błędu
       error_messages: Komunikaty o błędach
       hidden: Ukryte (%{count})
       hide: Ukryj ten komunikat
       instances:
         one: "%{count} instancja"
-        other: "Liczba instancji: %{count}"
+        other: 'Liczba instancji: %{count}'
       issues:
         one: "%{count} problem"
-        other: "Liczba problemów: %{count}"
+        other: 'Liczba problemów: %{count}'
       issues_across: "%{issues} w %{instances}"
       last_seen_html: ostatnio %{time}
       no_errors: Brak aktywnych komunikatów o błędach — świetna robota!
@@ -7532,29 +7551,29 @@ pl:
     overview:
       title: Podsumowanie
     payout_by_plugin:
-      below_threshold: "Poniżej progu: %{count}"
+      below_threshold: 'Poniżej progu: %{count}'
       current: bieżące
       during_period: w tym okresie
       eligible: kwalifikuje się
       ineligible: nie kwalifikuje się
       ineligible_hint: wymaga jeszcze %{count} połączeń
-      live_days: "Liczba dni aktywności: %{count}"
+      live_days: 'Liczba dni aktywności: %{count}'
       needs_more: potrzeba jeszcze %{count}
       of_community: "%{percent}% społeczności"
       payout: Wypłata
       pending: oczekuje
       pending_hint: Powyżej progu — uwzględnione w następnym cyklu wypłat
-      pending_next_payout: "Oczekujące na kolejną wypłatę: %{count}"
+      pending_next_payout: 'Oczekujące na kolejną wypłatę: %{count}'
       plugin: Plugin
       points_captured: zdobyte punkty
-      ranked: 'pozycja %{rank} w Twoim portfolio'
+      ranked: pozycja %{rank} w Twoim portfolio
       score: Wynik
       selected_plugin: Wybrany plugin
       selected_plugin_detail: Szczegóły wybranego pluginu
       title: Wypłata według pluginu
     plugin_entry:
-      installs: "Liczba instalacji: %{count}"
-      installs_and_forks: "Instalacje: %{installs}, forki: %{forks}"
+      installs: 'Liczba instalacji: %{count}'
+      installs_and_forks: 'Instalacje: %{installs}, forki: %{forks}'
       installs_hint: Instalacje renderują aktualny markup i ustawienia, więc Twoje zmiany do nich docierają. Forki to edytowalne kopie, tworzone jednorazowo i nigdy nieaktualizowane.
       reset_errors: Resetuj błędy
       sizes_hint: Ekrany wykorzystujące plugin w każdym rozmiarze. Ekran wyświetlający go na kilka sposobów jest uwzględniany w każdym z nich, więc są one liczone niezależnie od instalacji i forków.
@@ -7624,7 +7643,7 @@ pl:
       or_free: Lub bezpłatnie
       plus_benefits_title: Korzyści z TRMNL+
       plus_months: Miesiące TRMNL+
-      queued_up: "W kolejce: %{reward}"
+      queued_up: 'W kolejce: %{reward}'
       referral_badge: "+1 miesiąc za każde polecenie"
       referral_description: Każdy znajomy, który kupi urządzenie za pomocą Twojego linku, zapewni Ci kolejny miesiąc. Bez limitu.
       referral_link_hint: Twój osobisty link. Nie potrzeba żadnych dowodów — miesiące zostaną dodane automatycznie po wysłaniu zamówienia znajomego.
@@ -7648,7 +7667,7 @@ pl:
       title: Subskrybuj TRMNL+
     options:
       approved_html: Zatwierdzono &mdash; do Twojego konta dodano %{reward}.
-      earned: "Zdobyto +%{reward}"
+      earned: Zdobyto +%{reward}
       in_review: W trakcie weryfikacji
       paste_link: Wklej tutaj link.
       submit: Prześlij do weryfikacji
@@ -7686,7 +7705,7 @@ pl:
         instruction: Opublikuj co najmniej 60 sekund filmu z TRMNL. Pionowo, poziomo, z drżącą kamerą — wszystko akceptujemy.
         title: Nagraj film
     reward_label:
-      credits: "Kredyty AI: %{credits}"
+      credits: 'Kredyty AI: %{credits}'
       months:
         one: "%{count} miesiąc"
         other: "%{count} miesięcy"
@@ -7882,15 +7901,15 @@ pl:
       help_center: Centrum pomocy
       how_to_read: Jak czytać mapę
       interchange: Węzeł przesiadkowy
-      legend_interchange_html: <b>Węzeł przesiadkowy</b> to miejsce, w którym spotykają się dwa sposoby korzystania z TRMNL.
-      legend_line_html: <b>Linia</b> to sposób rozpoczęcia. Wybierz tę, która Ci odpowiada.
-      legend_stop_html: <b>Przystanek</b> to coś, z czego możesz skorzystać już dziś.
+      legend_interchange_html: "<b>Węzeł przesiadkowy</b> to miejsce, w którym spotykają się dwa sposoby korzystania z TRMNL."
+      legend_line_html: "<b>Linia</b> to sposób rozpoczęcia. Wybierz tę, która Ci odpowiada."
+      legend_stop_html: "<b>Przystanek</b> to coś, z czego możesz skorzystać już dziś."
       made_by_community: Stworzone przez społeczność
       made_by_trmnl: Stworzone przez TRMNL
       map_title: 'Mapa ekosystemu TRMNL w stylu komunikacji miejskiej: osobna linia dla każdego sposobu rozpoczęcia, z przystankami dla produktów, projektów open source, programów i partnerów.'
       more_resources: Więcej zasobów
       network: Sieć TRMNL
-      network_counts: "Linie: %{lines} · przystanki: %{stops} · węzły przesiadkowe: %{interchanges}"
+      network_counts: 'Linie: %{lines} · przystanki: %{stops} · węzły przesiadkowe: %{interchanges}'
       no_results_body: Sprawdź, czego ludzie szukają i nie mogą znaleźć, lub zgłoś to jako zadanie z nagrodą.
       no_results_label: Brak pasujących przystanków
       no_results_title: Być może nikt jeszcze tego nie stworzył
@@ -7899,7 +7918,7 @@ pl:
       open_source: Open source
       options_to_consider:
         one: "%{count} opcja do rozważenia."
-        other: "Liczba opcji do rozważenia: %{count}."
+        other: 'Liczba opcji do rozważenia: %{count}.'
       overview_title: Zacznij gdziekolwiek. Bez ślepych uliczek.
       partner: Partner
       results_title: Zajrzyj tutaj, zanim zaczniesz tworzyć
@@ -7919,7 +7938,7 @@ pl:
     expert:
       message_html: Napisz do <strong>%{username}</strong> na serwerze Discord TRMNL
       see_all: Zobacz wszystkie →
-      stats: "Liczba utworzonych pluginów: %{plugins}, połączeń: %{connections}"
+      stats: 'Liczba utworzonych pluginów: %{plugins}, połączeń: %{connections}'
     index:
       meta_description: Poproś społeczność o pomoc.
       meta_title: Eksperci
@@ -7969,7 +7988,7 @@ pl:
   order_trackers:
     result:
       not_found: To nie jest zamówienie modelu X lub wystąpił błąd. Spróbuj ponownie.
-      queue_position_html: 'Twoje miejsce w kolejce to %{position} z %{total} zamówień. Najnowsze informacje w czasie rzeczywistym znajdziesz %{link}.'
+      queue_position_html: Twoje miejsce w kolejce to %{position} z %{total} zamówień. Najnowsze informacje w czasie rzeczywistym znajdziesz %{link}.
       shipped: Twoje zamówienie zostało wysłane! Sprawdź pocztę e-mail, aby uzyskać informacje o śledzeniu przesyłki.
       updates_link: tutaj
     status:
@@ -8018,7 +8037,7 @@ pl:
       pay_by_card_html: Chcesz zapłacić kartą? Zaakceptuj ofertę poniżej, a skontaktujemy się z Tobą w sprawie finalizacji zakupu. Potrzebujesz zamówienia zakupu (PO) lub przelewu? %{link}.
       prepared_by: Przygotował
       prepared_for: Przygotowano dla
-      product_line: "Wyświetlacze e-papierowe %{products}"
+      product_line: Wyświetlacze e-papierowe %{products}
       quantity: Ilość
       quote: Oferta
       quote_accepted: Oferta zaakceptowana!
@@ -8191,7 +8210,7 @@ pl:
       label: Czaty
       archived:
         one: 1 zarchiwizowany czat
-        other: "Liczba zarchiwizowanych czatów: %{count}"
+        other: 'Liczba zarchiwizowanych czatów: %{count}'
       today: Dzisiaj
       earlier: Wcześniej
     composer:
@@ -8235,9 +8254,10 @@ pl:
       send_privately: Wyślij prywatnie
       private_target_html: Serwer wykonuje <strong>%{action}</strong> z tymi wartościami i Twoim sekretem.
       playlist_item_on_device: "%{item} na %{device}"
+      confirm_all: Confirm all %{count}
     field_list:
-      'yes': 'Tak'
-      'no': 'Nie'
+      'yes': Tak
+      'no': Nie
     secret_kinds:
       private_key: klucz prywatny
       api_key: klucz API
@@ -8263,21 +8283,21 @@ pl:
     device_list:
       title:
         one: 1 urządzenie
-        other: "Liczba urządzeń: %{count}"
+        other: 'Liczba urządzeń: %{count}'
       more:
         one: Jeszcze 1 urządzenie
-        other: "Pozostałe urządzenia: %{count}"
+        other: 'Pozostałe urządzenia: %{count}'
     playlist_card:
       items:
         one: 1 element
-        other: "Liczba elementów: %{count}"
+        other: 'Liczba elementów: %{count}'
       now: Teraz wyświetlane
       hidden: Ukryte
       open: Otwórz playlistę
       empty: Ta playlista jest pusta.
       more:
         one: Jeszcze 1 element
-        other: "Pozostałe elementy: %{count}"
+        other: 'Pozostałe elementy: %{count}'
     plugin_analytics_card:
       title: Twoje opublikowane pluginy
       installs: instalacje
@@ -8304,10 +8324,10 @@ pl:
       remove: Usuń ze strony głównej
       dismiss: Zamknij
       starter_hint: Przypnij kartę z dowolnego czatu, aby utworzyć własną stronę główną.
-      low_battery: "Poziom baterii %{device} wynosi %{percent}%"
-      plugin_error: "Plugin %{plugin} został zatrzymany z powodu błędu"
-      device_offline: "Urządzenie %{device} ostatnio zgłosiło się %{time} temu"
-      empty_playlist: "Urządzenie %{device} ma pustą playlistę"
+      low_battery: Poziom baterii %{device} wynosi %{percent}%
+      plugin_error: Plugin %{plugin} został zatrzymany z powodu błędu
+      device_offline: Urządzenie %{device} ostatnio zgłosiło się %{time} temu
+      empty_playlist: Urządzenie %{device} ma pustą playlistę
       edit: Edytuj
       done: Gotowe
       move: Przenieś tę kartę. Przeciągnij ją lub użyj klawiszy strzałek.
@@ -8392,3 +8412,17 @@ pl:
     friendly_id_example: "%{friendly_id}, np. 2D319E"
     go_here: Przejdź tutaj
     select_time_zone: Wybierz strefę czasową
+  wall_shares:
+    show:
+      title: "%{name} on a TRMNL"
+      title_without_name: A screen on a TRMNL
+      description: A TRMNL owner's screen, shown on a TRMNL ePaper display. See how it is made and get your own.
+      how_it_is_made: See how it is made
+      get_a_trmnl: Get a TRMNL
+      owner_hint: Only you see this row. This page is public, and search engines may index it.
+      copy_link: Copy link
+      download: Download picture
+      delete: Delete link
+      delete_confirm: Delete this link? Anyone who has it will see a missing page.
+      made_by: Made by %{name}
+      open_picture: Open the full-size picture
