@@ -1,0 +1,11 @@
+# `sk` · web_ui · `connected_agents`
+
+[`sk`](../README.md) · [All locales](../../README.md) · 5 of 5 left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+| `connected_agents.edit.title` | %{name} access | English | [line 6754](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L6754) |
+| `connected_agents.edit.can_do` | What it can do | English | [line 6755](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L6755) |
+| `connected_agents.edit.can_reach` | Access control | English | [line 6756](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L6756) |
+| `connected_agents.edit.save` | Save | English | [line 6757](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L6757) |
+| `connected_agents.edit.cancel` | Cancel | English | [line 6758](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/sk.yml#L6758) |

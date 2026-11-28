@@ -1,0 +1,62 @@
+# `no` · web_ui · `activerecord`
+
+[`no`](../README.md) · [All locales](../../README.md) · 56 of 58 left
+
+| Key | English | Now | Where |
+|---|---|---|---|
+| `activerecord.models.plugin_uninstall_feedback.one` | Feedback | English | [line 2476](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2476) |
+| `activerecord.models.plugin_uninstall_feedback.other` | Feedback | English | [line 2477](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2477) |
+| `activerecord.models.apps/chess/app` | Chess | English | [line 2478](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2478) |
+| `activerecord.models.apps/preload/app` | Preload | English | [line 2479](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2479) |
+| `activerecord.attributes.plugin_setting.ai_coauthored` | AI Coauthored | English | [line 2482](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2482) |
+| `activerecord.attributes.plugin_setting.recipe_overview` | Search engine index description | English | [line 2483](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2483) |
+| `activerecord.attributes.user.anthropic_api_key` | Anthropic API key | English | [line 2485](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2485) |
+| `activerecord.attributes.user.openrouter_api_key` | OpenRouter API key | English | [line 2486](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2486) |
+| `activerecord.attributes.user.tavily_api_key` | Tavily API key | English | [line 2487](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2487) |
+| `activerecord.attributes.artwork.artist_name` | Your name | English | [line 2489](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2489) |
+| `activerecord.attributes.artwork.artist_email` | Email | English | [line 2490](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2490) |
+| `activerecord.attributes.artwork.image` | Image | English | [line 2491](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2491) |
+| `activerecord.attributes.artwork.link_kind` | Link type | English | [line 2492](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2492) |
+| `activerecord.attributes.artwork.link_url` | Link | English | [line 2493](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2493) |
+| `activerecord.attributes.artwork.medium` | Medium | English | [line 2494](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2494) |
+| `activerecord.attributes.artwork.region` | City | English | [line 2495](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2495) |
+| `activerecord.attributes.artwork.requested_city` | City | English | [line 2496](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2496) |
+| `activerecord.attributes.artwork.rights_confirmed_at` | Confirmation | English | [line 2497](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2497) |
+| `activerecord.attributes.artwork.title` | Title | English | [line 2498](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2498) |
+| `activerecord.errors.models.account_membership.attributes.email.owner` | is the account owner's own address | English | [line 2504](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2504) |
+| `activerecord.errors.models.account_membership.attributes.owner.admin` | is an admin login and cannot be shared | English | [line 2506](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2506) |
+| `activerecord.errors.models.github_sync.attributes.directory.invalid_folder` | must be a folder path like plugins/clock | English | [line 2510](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2510) |
+| `activerecord.errors.models.github_sync.attributes.directory.taken_by_another_plugin` | is already synced to another plugin in this repository | English | [line 2511](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2511) |
+| `activerecord.errors.models.github_sync.attributes.directory.is_a_file` | is a file in this repository. Pick a folder name that no file uses | English | [line 2512](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2512) |
+| `activerecord.errors.models.device.attributes.sleep_end_time.same_as_start` | must differ from the start time, or the device would never sleep | English | [line 2516](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2516) |
+| `activerecord.errors.models.device.attributes.base.cannot_unlink_byod` | Can't unlink a BYOD device | English | [line 2518](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2518) |
+| `activerecord.errors.models.device.attributes.base.cannot_unlink_virtual` | Can't unlink a virtual device | English | [line 2519](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2519) |
+| `activerecord.errors.models.device.attributes.base.guest_mode_item_not_owned` | This item does not belong to you | English | [line 2520](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2520) |
+| `activerecord.errors.models.device.attributes.base.serial_too_short` | Serial should be 5+ characters | English | [line 2521](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2521) |
+| `activerecord.errors.models.device.attributes.mac_address.mac_address_format` | must be a valid MAC address (e.g. AA:BB:CC:DD:EE:FF) | English | [line 2523](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2523) |
+| `activerecord.errors.models.device.attributes.mac_address.not_hardware` | is not the MAC address of a real device | English | [line 2524](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2524) |
+| `activerecord.errors.models.plugin_setting.attributes.recipe_overview.too_few_words` | needs at least %{count} words, or leave it blank | English | [line 2528](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2528) |
+| `activerecord.errors.models.plugin_setting.attributes.base.invalid_markup_size` | Invalid markup size: %{file} | English | [line 2530](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2530) |
+| `activerecord.errors.models.plugin_setting.attributes.base.link_account_first` | Please link your account before proceeding. | English | [line 2531](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2531) |
+| `activerecord.errors.models.plugin_setting.attributes.base.read_only_recipe_install` | This is a read-only install of a recipe; fork it to edit its settings or markup | English | [line 2532](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2532) |
+| `activerecord.errors.models.plugin_setting.attributes.base.recipe_has_installs` | Recipe can't be deleted while installs still use it. | English | [line 2533](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2533) |
+| `activerecord.errors.models.plugin_setting.attributes.base.recipe_master_undeletable` | Recipe can't be deleted. | English | [line 2534](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2534) |
+| `activerecord.errors.models.plugin_setting.async_polling_callback_url_missing` | Async Polling needs {{ callback_url }} in the Polling URL, so your server knows where to … | English | [line 2535](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2535) |
+| `activerecord.errors.models.user.api_key_prefix` | must start with %{prefix}. Clear the field if your browser filled it in. | English | [line 2537](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2537) |
+| `activerecord.errors.models.user.invalid_characters` | contains invalid characters | English | [line 2538](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2538) |
+| `activerecord.errors.models.artwork.attributes.image.invalid` | must be a JPEG or PNG image | English | [line 2542](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2542) |
+| `activerecord.errors.models.artwork.attributes.image.too_large` | must be 25 MB or smaller | English | [line 2543](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2543) |
+| `activerecord.errors.models.artwork.attributes.image.too_small` | must be at least 1440 pixels on its shortest side | English | [line 2544](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2544) |
+| `activerecord.errors.models.artwork.attributes.region.blank` | must be chosen, or type your city | English | [line 2546](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2546) |
+| `activerecord.errors.models.artwork.attributes.rights_confirmed_at.blank` | is needed before we can show your work | English | [line 2548](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2548) |
+| `activerecord.errors.models.playlist_item.attributes.schedule.show_time_taken` | already has another screen at %{time} on %{day} | English | [line 2552](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2552) |
+| `activerecord.errors.models.apps/fleet/membership.attributes.device.legacy_mirrored` | is using legacy mirroring; stop mirroring before joining a fleet | English | [line 2556](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2556) |
+| `activerecord.errors.models.apps/fleet/membership.attributes.device_id.already_in_fleet` | is already in a fleet | English | [line 2558](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2558) |
+| `activerecord.errors.models.apps/fleet/membership.attributes.role.master_taken` | fleet already has a master | English | [line 2560](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2560) |
+| `activerecord.errors.models.plus_earning.attributes.kind.already_submitted` | already submitted | English | [line 2564](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2564) |
+| `activerecord.errors.models.plus_earning.attributes.url.full_http_link` | must be a full http(s) link | English | [line 2566](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2566) |
+| `activerecord.errors.messages.bmp_or_png` | must be BMP or PNG | English | [line 2568](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2568) |
+| `activerecord.errors.messages.png_or_svg` | must be PNG or SVG | English | [line 2569](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2569) |
+| `activerecord.errors.messages.publish_during_byod_trial` | Publishing is available after you purchase a license (your BYOD free trial is active). | English | [line 2570](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2570) |
+| `activerecord.errors.messages.under_500_kilobytes` | must be under 500 kilobytes | English | [line 2571](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2571) |
+| `activerecord.errors.messages.under_5_megabytes` | must be under 5 megabytes | English | [line 2572](https://github.com/usetrmnl/trmnl-i18n/blob/main/lib/trmnl/i18n/locales/web_ui/no.yml#L2572) |
