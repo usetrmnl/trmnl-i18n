@@ -394,8 +394,8 @@ pl:
       no_message: Brak wiadomości
       no_message_hint: Tutaj pojawią się wiadomości z Home Assistant
       states:
-        'on': 'Włączone'
-        'off': 'Wyłączone'
+        'on': Włączone
+        'off': Wyłączone
         open: Otwarte
         closed: Zamknięte
         locked: Zablokowane
@@ -592,7 +592,7 @@ pl:
       by: 'autor: %{author}'
       votes:
         one: "%{score} głos"
-        other: "Liczba głosów: %{score}"
+        other: 'Liczba głosów: %{score}'
     home_assistant_screenshot:
       no_image: Brak obrazu
       upload_screenshot: Prześlij zrzut ekranu z Home Assistant.
@@ -604,7 +604,7 @@ pl:
       sleeping: Śpi
     kickstarter:
       from_country: 'z kraju: %{country}'
-      funded: "Zebrano %{amount}"
+      funded: Zebrano %{amount}
     letterboxd:
       empty:
         diary: Brak wpisów w dzienniku. Zapisz film w Letterboxd, aby się tutaj pojawił.
@@ -629,8 +629,8 @@ pl:
       assets: Aktywa
       liabilities: Zobowiązania
       month_change:
-        one: "Zmiana w ciągu %{count} miesiąca"
-        other: "Zmiana (liczba miesięcy: %{count})"
+        one: Zmiana w ciągu %{count} miesiąca
+        other: 'Zmiana (liczba miesięcy: %{count})'
       net_worth: Wartość netto majątku
     mailchimp_analytics:
       clicks: Kliknięcia
@@ -657,8 +657,8 @@ pl:
     polymarket:
       comments:
         one: "%{comments} komentarz"
-        other: "Liczba komentarzy: %{comments}"
-      volume_bet: "Postawiono %{volume}"
+        other: 'Liczba komentarzy: %{comments}'
+      volume_bet: Postawiono %{volume}
     postmark_analytics:
       bounce_rate: Współczynnik odbić
       bounced: Odbicia
@@ -669,11 +669,11 @@ pl:
       spam_complaints: Zgłoszenia spamu
       unique_opens: Unikalne otwarcia
     private_plugin:
-      view_not_available: "Widok %{view} jest niedostępny."
+      view_not_available: Widok %{view} jest niedostępny.
     product_hunt:
       votes:
         one: "%{votes} głos"
-        other: "Liczba głosów: %{votes}"
+        other: 'Liczba głosów: %{votes}'
     profit_well:
       active_customers: Aktywni klienci
       churned_customers: Utraceni klienci
@@ -690,11 +690,11 @@ pl:
       only_posts_available:
         one: W tym okresie dostępny jest tylko %{count} post
         other: 'Liczba dostępnych postów w tym okresie: tylko %{count}'
-      sorted_posts: "Posty (%{sort})"
+      sorted_posts: Posty (%{sort})
       via_author: przez u/%{author}
       votes:
         one: "%{votes} głos"
-        other: "Liczba głosów: %{votes}"
+        other: 'Liczba głosów: %{votes}'
     salesforce:
       via_user: przez %{user}
     shopify:
@@ -777,7 +777,7 @@ pl:
       subscribers_gained: Pozyskani subskrybenci
       view_through_rate: Współczynnik obejrzeń
       views: Wyświetlenia
-      watched: "Obejrzano: %{unit}"
+      watched: 'Obejrzano: %{unit}'
       subscribers: Subskrybenci
       total_views: Łączne wyświetlenia
     system_screens:
@@ -831,3 +831,7 @@ pl:
         sessions: Sesje
         visitors: Odwiedzający
       visitors_option: Odwiedzający (aktywni użytkownicy)
+    plugin_stopped:
+      title: "%{name} stopped updating"
+      message: Last updated %{date}. Fix it at trmnl.com
+      message_undated: This screen is out of date. Fix it at trmnl.com

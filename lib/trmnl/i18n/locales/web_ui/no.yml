@@ -1542,6 +1542,8 @@
         version_loading: Loading...
         version_load_failed: Could not load this version.
         version_no_changes: No changes from the version before it.
+        version_as_opened: As opened
+        version_unsaved_edits: Your unsaved edits
       page_title: Visual Editor - %{name}
       plugin_documentation: Plugin documentation
       pop_out_preview_label: Pop out preview
@@ -2249,6 +2251,7 @@
       justification_placeholder: The X text is smaller on purpose, so the whole week fits on one screen.
       justification_submit: Save my reason
       your_reason: Your reason. You can submit now, and our team reads it with your recipe.
+      failed_too_large: trmy couldn't review this one because the recipe holds more than %{size} kB of text, which is more than trmy can check. Make it smaller and ask again, or submit when you're ready and a person on our team will look at it.
     data_flow:
       title: Data flow
       markup: Markup
@@ -2416,6 +2419,15 @@
         transform_js: Transform script
         tidbyt_canvas: Tidbyt canvas
         vestaboard_canvas: Vestaboard canvas
+    wall_picture:
+      share: Share on a wall
+      hint: Make a public page with this screen on a TRMNL on a wall, to post where you like.
+      confirm_button: Make public page
+      confirm: This makes a public page with this screen on it. Anyone with the link can see it, and search engines may index it.
+      making: Making picture…
+    wall_shares:
+      create:
+        not_landscape: This screen is portrait or turned on its side, so it does not fit the wall photo yet.
   recipes:
     index:
       newest_to_oldest: Newest to Oldest
@@ -3346,7 +3358,7 @@
           wifi: Connects straight to the customer's Wi-Fi
           mounting: Hangs from its hook recess, with no cable to the door
         capabilities:
-          battery: 'Battery-powered ePaper: 3 to 6 months per charge at typical refresh rates, recharged over USB-C'
+          battery: 'Battery-powered ePaper: 4 to 8 months per charge at the default 15-minute refresh, recharged over USB-C'
           wifi: Connects straight to Wi-Fi, with no local gateway
           enterprise_wifi: 'Joins WPA2-Enterprise (802.1X) networks: TRMNL OG, and TRMNL X on 2.4 GHz'
           calendars: Google (personal accounts and Workspace), Microsoft (Outlook, Exchange Online rooms and Microsoft Places workspaces) and any iCal feed
@@ -3434,7 +3446,7 @@
             answer: The customer's IT administrator approves the calendar connection and the Wi-Fi access. The partner and the customer agree on who does each step for each project.
           battery:
             question: How long does the battery last?
-            answer: 3 to 6 months per charge at typical refresh rates. Faster refresh uses more battery, so a display next to a busy room can stay plugged in over USB-C.
+            answer: 4 to 8 months per charge at the default 15-minute refresh. Faster refresh uses more battery, so a display next to a busy room can stay plugged in over USB-C.
           dealer:
             question: Can an office furniture dealer sell it?
             answer: Yes, as a referral or with assisted resale, where a qualified technician does the IT setup. We agree on terms and onboarding with each partner.
@@ -3765,7 +3777,7 @@
             answer: Yes. Open any room or collection at its own private URL in a browser, on a tablet, TV or LCD screen. It needs no login or app, and refreshes itself. TRMNL ePaper is optional, and a one-time purchase if you want it.
           power_at_door:
             question: Do TRMNL displays need power at the door?
-            answer: No. A TRMNL runs 3 to 6 months per charge at typical refresh rates, and hangs from its hook recess. Recharge it over USB-C a few times a year.
+            answer: No. A TRMNL runs 4 to 8 months per charge at the default 15-minute refresh, and hangs from its hook recess. Recharge it over USB-C a few times a year.
           switch:
             question: Can I switch from Envoy without moving data?
             answer: Yes. Booking reads the same Google or Microsoft room calendars, so your bookings stay where they are. You can run both until your Envoy contract ends.
@@ -3950,7 +3962,7 @@
           android_battery: No months-long battery life, and not as simple to install as ePaper
           android_best_for: Deployments that need a color tablet and can meet its installation needs.
           epaper_title: 'ePaper: built for room availability'
-          epaper_power: 'Very low power use: 3–6 months between charges at typical refresh rates'
+          epaper_power: 'Very low power use: 4–8 months between charges at the default 15-minute refresh'
           epaper_mounting: Mounts where there is no outlet or cable
           epaper_no_mdm: No kiosk lockdown or mobile device management (MDM) enrollment
           epaper_reading: Reads like paper from any angle, and does not glow
@@ -3968,7 +3980,7 @@
           trmnl_refresh: About 2 seconds per redraw
           power: Power
           tablet_power: Mains power, always on
-          trmnl_power: Battery, 3–6 months a charge, USB-C
+          trmnl_power: Battery, 4–8 months a charge, USB-C
           wall_mounting: Wall mounting
           tablet_wall_mounting: Locking enclosure, plus a power cable or PoE
           trmnl_wall_mounting: Hook recess, no cable to the door
@@ -4030,7 +4042,7 @@
             answer: Yes. Open any room or collection at its own private URL in the tablet's browser. It needs no login or app, and refreshes itself. To keep the page on screen, use Guided Access on an iPad or app pinning on Android.
           battery:
             question: How long does the battery last on a TRMNL display?
-            answer: 3 to 6 months per charge at typical refresh rates. Faster refresh uses more battery, so a display next to a busy room can stay plugged in over USB-C.
+            answer: 4 to 8 months per charge at the default 15-minute refresh. Faster refresh uses more battery, so a display next to a busy room can stay plugged in over USB-C.
           screen_updates:
             question: How quickly does a new booking show on the screen?
             answer: In a browser, within a minute. On ePaper, we redraw each room every five minutes, and the device shows it at its own refresh rate.
@@ -4503,6 +4515,7 @@
       x_position: X position
       y_position: Y position
       too_large_to_preview: Too large to show here. You can still insert it into your markup.
+      too_large_for_tree: Too large to show as a tree. The start of its JSON is below, and you can still insert it into your markup.
     editor_labels:
       composition_not_ready: Composition is not ready yet.
       could_not_load_selected_image: Could not load the selected image.
@@ -4778,6 +4791,12 @@
       subject: your TRMNL %{noun} "%{name}" is %{state}
       subject_google_photos: 'action needed: reselect your TRMNL photos'
       transitioned_html: your %{noun} "<strong>%{name}</strong>" just transitioned to <strong>%{state}</strong>.
+    recipe_review_failed:
+      subject: trmy couldn't review %{name}
+      greeting: Hi,
+      failed: trmy, our internal review agent, couldn't review %{name}.
+      read: Open your review
+      next: You can still submit it when you're ready, and a person on our team will look at it.
   pages:
     flash_firmware:
       linux_warning: Flashing from Linux often fails because Chrome can't open the serial port. Add your user to the dialout group (sudo usermod -aG dialout $USER), log out and back in, then retry. If that doesn't help, use Chrome or Edge on a Mac or Windows PC.
@@ -5014,8 +5033,8 @@
       build_playlist: Build a playlist
       layouts_alt: Example TRMNL dashboard layouts
       layouts: Choose from 8 layouts to build the perfect dashboard. Create groups for different periods of the day. Just point and click.
-      charge: Charge every 3 months
-      charge_alt: TRMNL battery lasts 3-6 months per charge
+      charge: Charge every 4-8 months
+      charge_alt: TRMNL battery lasts 4-8 months per charge
       no_fuss: You don't want to maintain another device. TRMNL adds value without any fuss. It even puts itself to sleep.
     about:
       meta_title: About Us
@@ -5348,7 +5367,7 @@
         browse_integrations: Browse integrations
         custom_description: Use our hosted platform and we handle everything. Want more control? Self-host the whole stack, or preload your own plugins on every device you buy.
         custom_title: Turnkey or fully custom
-        deploy_description: 3–6 months per charge — and information that stays current. No cables. No outlets. Our hardware only draws power when the screen refreshes.
+        deploy_description: 4–8 months per charge — and information that stays current. No cables. No outlets. Our hardware only draws power when the screen refreshes.
         deploy_title: Deploy and forget
         description: TRMNL adapts to how your organization operates. Put your brand on the device, connect your tools, display your data. Whether you need a turnkey deployment or a fully custom ecosystem, the platform flexes to fit.
         eyebrow: Fits your organization
@@ -5386,7 +5405,7 @@
         required_fees: Required fees/month
         title: Your data already exists.
       operations:
-        battery: 3-6 month battery
+        battery: 4-8 month battery
         battery_description: No cables, no outlets, no electricians. Truly wireless deployment.
         body: Room availability, team announcements, lunch menus, event calendars. Battery-powered, no wiring required, mounts anywhere. Replace static signage with calm, digital menus. TRMNL lets you effortlessly highlight new menu items, promote seasonal specials, and advertise special events without distraction.
         eyebrow: Digital Signage
@@ -5595,7 +5614,7 @@
         title: Frequently Asked Questions
         wifi_answer: No, OG connects via 2.4GHz Wi-Fi only. If you need 5GHz, consider TRMNL X.
         wifi_question: Does OG work with 5GHz Wi-Fi?
-      hero_description: TRMNL OG is a 7.5" ambient display that keeps you informed without taking over your workspace. Charge it every 3-6 months. Set it and forget it.
+      hero_description: TRMNL OG is a 7.5" ambient display that keeps you informed without taking over your workspace. Charge it every 4-5 months. Set it and forget it.
       hero_title: The compact ePaper display for your desk.
       meta_title: TRMNL OG | The Compact ePaper Display for Your Desk
       pricing:
@@ -5608,7 +5627,7 @@
         title: Pricing
       specs:
         battery: Battery
-        battery_value: 1,800 mAh (3-6 months) / 2,500 mAh upgrade available (6+ months)
+        battery_value: 1,800 mAh (about 4 months) / 2,500 mAh upgrade (about 5 months), at a 15-minute refresh
         build: Build
         build_value: Premium soft-touch ABS plastic, chrome-plated steel kickstand
         charging: Charging
@@ -5643,7 +5662,7 @@
         title: In the box
         usb_cable: USB-C cable
       why_og:
-        battery: 3-6 month battery life
+        battery: 4-5 month battery life
         battery_body: Charge it twice a year
         body: TRMNL OG was designed to sit on your desk without demanding attention or space. At 6.7" × 4.5", it's smaller than a paperback. The built-in metal kickstand props it up at the perfect angle. The wall-mount hole lets you hang it if desk space is tight.
         compact: Compact and unobtrusive
@@ -5699,7 +5718,7 @@
         title: Pricing
       specs:
         battery: Battery
-        battery_value: 3-6 months between charges
+        battery_value: 4-8 months between charges (6,000 or 12,000 mAh)
         compatibility: Compatibility
         compatibility_value: Same %{plugin_count}+ plugin ecosystem as OG
         connectivity: Connectivity
@@ -5724,7 +5743,7 @@
         wall_display: Wall-mounted display
         wall_display_body: Hallway info center, living room art, or meeting room schedule.
       why_x:
-        battery: 3-6 month battery
+        battery: 4-8 month battery
         battery_body: Same insane battery life as OG
         body: TRMNL X takes everything great about OG and scales it up. The 10.3" display gives you more room for information. 16 grayscale shades (vs. 4 on OG) make photos and charts look dramatically better. Waterproof construction means it can live in your kitchen or bathroom. And gesture controls let you interact without touching the screen.
         display: 10.3" high-density display
@@ -8257,6 +8276,7 @@
       send_privately: Send privately
       private_target_html: The server runs <strong>%{action}</strong> with these values and your secret.
       playlist_item_on_device: "%{item} on %{device}"
+      confirm_all: Confirm all %{count}
     field_list:
       'yes': 'Yes'
       'no': 'No'
@@ -8414,3 +8434,17 @@
     friendly_id_example: "%{friendly_id}, ex: 2D319E"
     go_here: Go here
     select_time_zone: Select Time Zone
+  wall_shares:
+    show:
+      title: "%{name} on a TRMNL"
+      title_without_name: A screen on a TRMNL
+      description: A TRMNL owner's screen, shown on a TRMNL ePaper display. See how it is made and get your own.
+      how_it_is_made: See how it is made
+      get_a_trmnl: Get a TRMNL
+      owner_hint: Only you see this row. This page is public, and search engines may index it.
+      copy_link: Copy link
+      download: Download picture
+      delete: Delete link
+      delete_confirm: Delete this link? Anyone who has it will see a missing page.
+      made_by: Made by %{name}
+      open_picture: Open the full-size picture

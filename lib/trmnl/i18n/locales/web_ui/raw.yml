@@ -1498,6 +1498,8 @@ raw:
         version_loading: markups.visual_editor.labels.version_loading
         version_load_failed: markups.visual_editor.labels.version_load_failed
         version_no_changes: markups.visual_editor.labels.version_no_changes
+        version_as_opened: markups.visual_editor.labels.version_as_opened
+        version_unsaved_edits: markups.visual_editor.labels.version_unsaved_edits
       page_title: markups.visual_editor.page_title
       plugin_documentation: markups.visual_editor.plugin_documentation
       pop_out_preview_label: markups.visual_editor.pop_out_preview_label
@@ -2205,6 +2207,7 @@ raw:
       justification_placeholder: plugin_settings.recipe_review.justification_placeholder
       justification_submit: plugin_settings.recipe_review.justification_submit
       your_reason: plugin_settings.recipe_review.your_reason
+      failed_too_large: plugin_settings.recipe_review.failed_too_large
     data_flow:
       title: plugin_settings.data_flow.title
       markup: plugin_settings.data_flow.markup
@@ -2372,6 +2375,15 @@ raw:
         transform_js: plugin_settings.recipe_update.files.transform_js
         tidbyt_canvas: plugin_settings.recipe_update.files.tidbyt_canvas
         vestaboard_canvas: plugin_settings.recipe_update.files.vestaboard_canvas
+    wall_picture:
+      share: plugin_settings.wall_picture.share
+      hint: plugin_settings.wall_picture.hint
+      confirm_button: plugin_settings.wall_picture.confirm_button
+      confirm: plugin_settings.wall_picture.confirm
+      making: plugin_settings.wall_picture.making
+    wall_shares:
+      create:
+        not_landscape: plugin_settings.wall_shares.create.not_landscape
   recipes:
     index:
       newest_to_oldest: recipes.index.newest_to_oldest
@@ -4443,6 +4455,7 @@ raw:
       x_position: compositions.form.x_position
       y_position: compositions.form.y_position
       too_large_to_preview: compositions.form.too_large_to_preview
+      too_large_for_tree: compositions.form.too_large_for_tree
     editor_labels:
       composition_not_ready: compositions.editor_labels.composition_not_ready
       could_not_load_selected_image: compositions.editor_labels.could_not_load_selected_image
@@ -4718,6 +4731,12 @@ raw:
       subject: user_mailer.health_alert.subject
       subject_google_photos: user_mailer.health_alert.subject_google_photos
       transitioned_html: user_mailer.health_alert.transitioned_html
+    recipe_review_failed:
+      subject: user_mailer.recipe_review_failed.subject
+      greeting: user_mailer.recipe_review_failed.greeting
+      failed: user_mailer.recipe_review_failed.failed
+      read: user_mailer.recipe_review_failed.read
+      next: user_mailer.recipe_review_failed.next
   pages:
     flash_firmware:
       linux_warning: pages.flash_firmware.linux_warning
@@ -7894,6 +7913,7 @@ raw:
       send_privately: assistants.event.send_privately
       private_target_html: assistants.event.private_target_html
       playlist_item_on_device: assistants.event.playlist_item_on_device
+      confirm_all: assistants.event.confirm_all
     field_list:
       'yes': assistants.field_list.yes
       'no': assistants.field_list.no
@@ -8051,3 +8071,17 @@ raw:
     friendly_id_example: signup.friendly_id_example
     go_here: signup.go_here
     select_time_zone: signup.select_time_zone
+  wall_shares:
+    show:
+      title: wall_shares.show.title
+      title_without_name: wall_shares.show.title_without_name
+      description: wall_shares.show.description
+      how_it_is_made: wall_shares.show.how_it_is_made
+      get_a_trmnl: wall_shares.show.get_a_trmnl
+      owner_hint: wall_shares.show.owner_hint
+      copy_link: wall_shares.show.copy_link
+      download: wall_shares.show.download
+      delete: wall_shares.show.delete
+      delete_confirm: wall_shares.show.delete_confirm
+      made_by: wall_shares.show.made_by
+      open_picture: wall_shares.show.open_picture
