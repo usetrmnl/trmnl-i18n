@@ -4,17 +4,17 @@ zh-CN:
     and_x_more_prefix: 及其他
     and_x_more_suffix: 项
     calendars:
-      no_upcoming_events: No upcoming events
-      no_events_today: No events today
-      all_day: all-day
-      upcoming_events: Upcoming Events
+      no_upcoming_events: 近期没有日程
+      no_events_today: 今天没有日程
+      all_day: 全天
+      upcoming_events: 近期日程
     days_left_year:
       title: 今年还剩多少天
       days_passed: 已过天数
       days_left: 剩余天数
       board:
-        days_gone: days gone
-        to_go: to go
+        days_gone: 天已过
+        to_go: 天剩余
     lunar_calendar:
       title: 月相历
       age: 月龄
@@ -38,8 +38,8 @@ zh-CN:
       title_short: Netatmo
       indoor_temp: 室内温度
       indoor_temp_short: 室内
-      outdoor_temp: Outdoor Temp.
-      outdoor_temp_short: Outdoor
+      outdoor_temp: 室外温度
+      outdoor_temp_short: 室外
       indoor_humidity: 室内湿度
       indoor_humidity_short: 室内湿度
       outdoor_humidity: 室外湿度
@@ -74,20 +74,20 @@ zh-CN:
       add_module_hint: 添加可选的%{module}模块以查看此数据
       range_24h: 24 小时范围
       conditions:
-        hot_humid: Hot & Humid
-        hot_dry: Hot & Dry
-        mild_humid: Mild & Humid
-        pleasant: Pleasant
-        cool_humid: Cool & Humid
-        cool_dry: Cool & Dry
-        no_data: No data
+        hot_humid: 闷热
+        hot_dry: 干热
+        mild_humid: 温和潮湿
+        pleasant: 舒适
+        cool_humid: 凉爽潮湿
+        cool_dry: 凉爽干燥
+        no_data: 无数据
       errors:
         missing_access_token: 缺少访问令牌。请重新连接您的 Netatmo 账户。
         no_station_selected: 未选择天气站。请在设置中选择一个站点。
         connection_failed: 无法连接到 Netatmo 站。请检查您的网络连接。
         data_retrieval_failed: 无法获取天气数据。请稍后再试。
         session_expired: 会话已过期。请在设置中重新连接您的 Netatmo 账户。
-        indoor_module_missing: Selected indoor module not found. Please reconfigure in settings.
+        indoor_module_missing: 未找到所选的室内模块。请在设置中重新配置。
     parcel:
       delivery_by: 送达日期
       empty: 暂时没有快递
@@ -116,8 +116,8 @@ zh-CN:
       today: 今天
       tomorrow: 明天
       board:
-        delivering: delivering
-        in_transit: in transit
+        delivering: 派送中
+        in_transit: 运输中
     weather:
       title: 天气
       temperature: 温度
@@ -136,21 +136,21 @@ zh-CN:
         conditions:
           clear: 晴
           cloudy: 多云
-          extreme_rain: Extreme Rain
+          extreme_rain: 大暴雨
           foggy: 雾
-          heavy_rain: Heavy Rain
-          light_rain: Light Rain
-          moderate_rain: Moderate Rain
+          heavy_rain: 大雨
+          light_rain: 小雨
+          moderate_rain: 中雨
           partly_cloudy: 局部多云
           rain_likely: 可能下雨
           rain_possible: 或下雨
           snow: 下雪
-          snow_likely: Snow Likely
-          snow_possible: 可能下雪
+          snow_likely: 可能下雪
+          snow_possible: 或下雪
           thunderstorms_likely: 可能有雷阵雨
           thunderstorms_possible: 或有雷阵雨
-          very_heavy_rain: Very Heavy Rain
-          very_light_rain: 小雨
+          very_heavy_rain: 暴雨
+          very_light_rain: 毛毛雨
           windy: 有风
           wintry_mix_likely: 可能有雨夹雪
           wintry_mix_possible: 或有雨夹雪
@@ -306,24 +306,24 @@ zh-CN:
         - code: 1282
           day: 雷雪
           night: 雷雪
-      dew_point: Dew Point
-      dew_point_short: Dew Pt
-      precip_chance: Chance
+      dew_point: 露点
+      dew_point_short: 露点
+      precip_chance: 降水概率
     place_of_the_day:
-      title: Place of the Day
+      title: 每日一地
       wikipedia_credit: Wikipedia CC BY-SA
-      type: Type
-      population: Population
-      coordinates: Coordinates
-      founded: Founded
-      elevation: Elevation
-      area: Area
-      local_time: Local time
-      year_bc: "%{count} BC"
-      metres: "%{count} m"
-      square_km: "%{count} km²"
-      city: City
-      wonder: Wonder
+      type: 类型
+      population: 人口
+      coordinates: 坐标
+      founded: 建立
+      elevation: 海拔
+      area: 面积
+      local_time: 当地时间
+      year_bc: "公元前 %{count} 年"
+      metres: "%{count} 米"
+      square_km: "%{count} 平方公里"
+      city: 城市
+      wonder: 奇观
     welcome:
       title: 欢迎
       greeting: 你好，%{name}
